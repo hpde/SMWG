@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--$Id$-->
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://GSFC/obs/AMPTE_CCE</ResourceID>
+    <ResourceHeader>
+      <ResourceName>AMPTE/CCE Spacecraft</ResourceName>
+      <AlternateName>AMPTE/CCE</AlternateName>
+      <ReleaseDate>2007-05-30T22:35:19Z</ReleaseDate>
+      <Description>The AMPTE (Active Magnetospheric Particle Tracer Explorers) mission was designed to study the access of solar-wind ions to the magnetosphere, the convective-diffusive transport and energization of magnetospheric particles, and the interactions of plasmas in space. The mission consisted of three spacecraft: the CCE; the IRM, which provided multiple ion releases in the solar wind, the magnetosheath, and the magnetotail, with in situ diagnostics of each; and the UKS, which uses thrusters to keep station near the IRM to provide two-point local measurements. The CCE (Charge Composition Explorer) spacecraft was instrumented to detect those lithium and barium tracer ions from the IRM releases that were transported into the magnetosphere within the CCE orbit. The spacecraft was spin-stabilized at 10 rpm, with its spin axis in the equatorial plane, and offset from the earth-sun line by about 20 deg. It could adjust attitude with both magnetic torquing and cold gas thrusters. The CCE used a 2.E8-bit tape recorder and redundant 2.5-W S-band transponders. The spacecraft battery was charged by a 140-W solar array. The PI for the U.S. AMPTE Program and for the CCE was S. M. Krimigis (now Richard McEntire of JHU/APL); each instrument was managed by a lead investigator. The CCE encountered command module/power supply problems since the beginning of 1989, and failed as of 12 July 89. The three CCE particle instruments (CHEM, HPCE, MEPA) and two field instruments (MAG, PWE) collected data over the four-year mission of August 1984 to January 1989 in a roughly 8-Re equatorial orbit which precessed over a range of apogee local times (apogee 8.8 Re, perigee 1100 km, inclination 4.8 deg, period 15.6 hours, spin vector in orbit plane 10-20 deg off of sun, spin rate 10.2 rpm). For more details, see J. Dassoulas et al., IEEE Transactions on Geoscience and Remote Sensing, Vol. GE-23, p. 182, 1985.</Description>
+      <Contact>
+        <!-- Richard McEntire -->
+        <PersonID>spase://nssdc/person/3637</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>JHU/APL AMPTE/CCE Science Data Center (SDC)</Name>
+        <URL>http://sd-www.jhuapl.edu/AMPTE/</URL>
+        <Description>The SDC is the central analysis and archive facility for the AMPTE/CCE spacecraft.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroup>AMPTE</ObservatoryGroup>
+    <Location>
+      <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>

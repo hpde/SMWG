@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--$Id$-->
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://GSFC/obs/WIND/pos</ResourceID>
+    <ResourceHeader>
+      <ResourceName>WIND Position</ResourceName>
+      <AlternateName>Position</AlternateName>
+      <ReleaseDate>2007-05-30T19:41:56Z</ReleaseDate>
+      <Description>WIND spacecraft position in various coordinate systems</Description>
+      <Contact>
+        <!-- Robert Candey -->
+        <PersonID>spase://nssdc/person/30696</PersonID>
+        <Role>DataProducer</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>Ephemeris</InstrumentType>
+    <InvestigationName>Spacecraft position</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1994-071A</ObservatoryID>
+  </Instrument>
+</Spase>

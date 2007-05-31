@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--$Id$-->
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://GSFC/obs/AMPTE_CCE/MFE</ResourceID>
+    <ResourceHeader>
+      <ResourceName>AMPTE/CCE Magnetic Field Experiment (MFE)</ResourceName>
+      <AlternateName>AMPTE_CCE MAG</AlternateName>
+      <AlternateName>AMPTE/CCE Magnetometer</AlternateName>
+      <ReleaseDate>2007-05-30T22:35:43Z</ReleaseDate>
+      <Description>The Magnetic Field Experiment (MFE) includes a fluxgate magnetometer sensor mounted on a 2 meter boom [Potemra et al., IEEE Trans. Geosci. Remote Sensing, vol. GE-23, 246, 1985]. The fluxgate sensor was sampled at a rate of 8 vector samples/s. The data span the entire AMPTE/CCE mission, from 1984 day 234, August 21, through 1989 day 009 with occasional data gaps. A lengthy data gap occurred in 1986 from day 252, September 9, ~1300UT through day 286, October 12, ~1800UT, during an extended eclipse period.</Description>
+      <Acknowledgement>User will acknowledge the AMPTE/CCE magnetometer team in any publication resulting from the use of these data.</Acknowledgement>
+      <Contact>
+        <!-- Brian J. Anderson -->
+        <PersonID>spase://nssdc/person/57264</PersonID>
+        <Role>DataProducer</Role>
+      </Contact>
+      <InformationURL>
+        <Name>AMPTE/CCE Magnetic Field Experiment Home Page</Name>
+        <URL>http://sd-www.jhuapl.edu/AMPTE/MAG/</URL>
+        <Description>A web site hosting AMPTE/CCE magnetic experiment instrument information as well as spin-averaged data.
+        </Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Magnetic Field Experiment</InvestigationName>
+    <ObservatoryID>spase://GSFC/obs/AMPTE_CCE</ObservatoryID>
+    <Caveats/>
+  </Instrument>
+</Spase>

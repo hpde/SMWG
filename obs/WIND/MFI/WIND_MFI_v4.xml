@@ -1,0 +1,1330 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--$Id$-->
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <NumericalData>
+    <ResourceID>spase://GSFC/obs/WIND/MFI/WIND_MFI_v4</ResourceID>
+    <ResourceHeader>
+      <ResourceName>WIND MFI Version 4 Data</ResourceName>
+      <ReleaseDate>2007-04-19T19:54:51Z</ReleaseDate>
+      <Description>WIND MFI composite data. The files contain multiple time resolution data: 3-second, 1-minute, and 1-hour. Calibrated science quality data.</Description>
+      <Acknowledgement>User will acknowledge the WIND MFI instrument team in any publication resulting from the use of these data.</Acknowledgement>
+      <Contact>
+        <!-- Ron Lepping -->
+        <PersonID>spase://nssdc/person/1878</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <!-- Adam Szabo -->
+        <PersonID>spase://nssdc/person/57837</PersonID>
+        <Role>DataProducer</Role>
+      </Contact>
+      <InformationURL>
+        <Name>WIND Magnetic Field Investigation (MFI) Home Page</Name>
+        <URL>http://lepmfi.gsfc.nasa.gov</URL>
+        <Description>A web site hosting instrument information as well as web utilities for plotting and downloading data</Description>
+      </InformationURL>
+      <PriorID>spase://GSFC/obs/WIND/MFI/WIND_MFI_v3</PriorID>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://GSFC/repository/WIND/MFI</RepositoryID>
+      <Availability>Online</Availability>
+      <AccessRights>Open</AccessRights>
+      <AccessURL>
+        <Name>Download of WIND MFI v4 data</Name>
+        <URL>http://lepmfi.gsfc.nasa.gov/mfi/3sec/ver4/</URL>
+        <Description>A web site hosting the WIND MFI v4 data.</Description>
+      </AccessURL>
+      <Format>CDF</Format>
+      <Encoding>None</Encoding>
+    </AccessInformation>
+    <ProviderResourceName>WIND MFI v4 Data</ProviderResourceName>
+    <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
+    <ProviderVersion>4</ProviderVersion>
+    <InstrumentID>spase://GSFC/obs/WIND/MFI</InstrumentID>
+    <MeasurementType>MagneticField</MeasurementType>
+    <TemporalDescription>
+      <TimeSpan>
+        <StartDate>1994-11-12T16:00:00Z</StartDate>
+        <RelativeEndDate>P0D</RelativeEndDate>
+      </TimeSpan>
+    </TemporalDescription>
+    <ObservedRegion>Heliosphere.NearEarth</ObservedRegion>
+    <ObservedRegion>Heliosphere.Inner</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosheath</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Magnetotail</ObservedRegion>
+    <ObservedRegion>Earth.Magnetosphere.Main</ObservedRegion>
+    <Keyword>Magnetic field</Keyword>
+    <!-- One Minute Data Averages -->
+    <PhysicalParameter>
+      <Name>Time Line (1 min)</Name>
+      <ParameterKey>Epoch</ParameterKey>
+      <Description>Number of milliseconds since the epoch 1994-11-12T00:00:00.000</Description>
+      <Cadence>PT01M</Cadence>
+      <Units>ms</Units>
+      <UnitsConversion>1.0e-3&gt;s</UnitsConversion>
+      <Structure>
+        <StructureType>Scalar</StructureType>
+        <Description>Epoch starts on 1994-11-12T00:00:00.000Z</Description>
+      </Structure>
+      <Support>Temporal</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Time Line (1 min)</Name>
+      <ParameterKey>Time_PB5</ParameterKey>
+      <Description>Time of observation in year, day of year, and milliseconds (1 min)           </Description>
+      <Cadence>PT01M</Cadence>
+      <Structure>
+        <StructureType>Array</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>Year</Name>
+          <Index>1</Index>
+        </Element>
+        <Element>
+          <Name>Day of year</Name>
+          <Index>2</Index>
+        </Element>
+        <Element>
+          <Name>Miliseconds of day</Name>
+          <Index>3</Index>
+        </Element>
+      </Structure>
+      <Support>Temporal</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Number of points in average (1 min)</Name>
+      <ParameterKey>NUM_PTS</ParameterKey>
+      <Description>Number of data points in one-minute average</Description>
+      <Cadence>PT01M</Cadence>
+      <Structure>
+        <StructureType>Scalar</StructureType>
+      </Structure>
+      <Support>Other</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Magnetic field magnitude (1 min)</Name>
+      <ParameterKey>BF1</ParameterKey>
+      <Description>Average of the magnetic field magnitudes (F1)</Description>
+      <Caveats>This parameter is an average of high-time-resolution field magnitudes</Caveats>
+      <Cadence>PT01M</Cadence>
+      <Units>nT</Units>
+      <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
+      <Structure>
+        <StructureType>Scalar</StructureType>
+      </Structure>
+      <Measured>
+        <Field>
+          <FieldQualifier>Average</FieldQualifier>
+          <FieldQualifier>Magnitude</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Magnetic field magnitude's RMS (1 min)</Name>
+      <ParameterKey>BRMSF1</ParameterKey>
+      <Description>RMS (standard deviation) of the average of the magnitudes (F1 RMS)</Description>
+      <Cadence>PT01M</Cadence>
+      <Units>nT</Units>
+      <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
+      <Structure>
+        <StructureType>Scalar</StructureType>
+      </Structure>
+      <Measured>
+        <Field>
+          <FieldQualifier>Deviation</FieldQualifier>
+          <FieldQualifier>Magnitude</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Magnetic field vector in GSM coordinates (1 min)</Name>
+      <ParameterKey>BGSM</ParameterKey>
+      <Description>Average (1 min) magnetic field vector in GSM coordinates</Description>
+      <Cadence>PT01M</Cadence>
+      <Units>nT</Units>
+      <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSM</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Vector</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>Bx</Name>
+          <Component>X</Component>
+          <Index>1</Index>
+        </Element>
+        <Element>
+          <Name>By</Name>
+          <Component>Y</Component>
+          <Index>2</Index>
+        </Element>
+        <Element>
+          <Name>Bz</Name>
+          <Component>Z</Component>
+          <Index>3</Index>
+        </Element>
+      </Structure>
+      <Measured>
+        <Field>
+          <FieldQualifier>Vector</FieldQualifier>
+          <FieldQualifier>Average</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>RMS vector in GSM coordinates (1 min)</Name>
+      <ParameterKey>BRMSGSM</ParameterKey>
+      <Description>RMS mangetic field vector in GSM coordinates</Description>
+      <Cadence>PT01M</Cadence>
+      <Units>nT</Units>
+      <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSM</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Vector</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>RMS Bx</Name>
+          <Component>X</Component>
+          <Index>1</Index>
+        </Element>
+        <Element>
+          <Name>RMS By</Name>
+          <Component>Y</Component>
+          <Index>2</Index>
+        </Element>
+        <Element>
+          <Name>RMS Bz</Name>
+          <Component>Z</Component>
+          <Index>3</Index>
+        </Element>
+      </Structure>
+      <Measured>
+        <Field>
+          <FieldQualifier>Deviation</FieldQualifier>
+          <FieldQualifier>Vector</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Magnetic field vector in GSE coordinates (1 min)</Name>
+      <ParameterKey>BGSE</ParameterKey>
+      <Description>Average (1 min) magnetic field vector in GSE coordinates</Description>
+      <Cadence>PT01M</Cadence>
+      <Units>nT</Units>
+      <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Vector</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>Bx</Name>
+          <Component>X</Component>
+          <Index>1</Index>
+        </Element>
+        <Element>
+          <Name>By</Name>
+          <Component>Y</Component>
+          <Index>2</Index>
+        </Element>
+        <Element>
+          <Name>Bz</Name>
+          <Component>Z</Component>
+          <Index>3</Index>
+        </Element>
+      </Structure>
+      <Measured>
+        <Field>
+          <FieldQualifier>Average</FieldQualifier>
+          <FieldQualifier>Vector</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>RMS vector in GSE coordinates (1 min)</Name>
+      <ParameterKey>BRMSGSE</ParameterKey>
+      <Description>RMS mangetic field vector in GSE coordinates</Description>
+      <Cadence>PT01M</Cadence>
+      <Units>nT</Units>
+      <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Vector</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>RMS Bx</Name>
+          <Component>X</Component>
+          <Index>1</Index>
+        </Element>
+        <Element>
+          <Name>RMS By</Name>
+          <Component>Y</Component>
+          <Index>2</Index>
+        </Element>
+        <Element>
+          <Name>RMS Bz</Name>
+          <Component>Z</Component>
+          <Index>3</Index>
+        </Element>
+      </Structure>
+      <Measured>
+        <Field>
+          <FieldQualifier>Deviation</FieldQualifier>
+          <FieldQualifier>Vector</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Radial distance (1 min)</Name>
+      <ParameterKey>DIST</ParameterKey>
+      <Description>Distance from the center of the Earth (Define Re=6378 km)</Description>
+      <Cadence>PT01M</Cadence>
+      <Units>Re</Units>
+      <UnitsConversion>6.378e6&gt;m</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Scalar</StructureType>
+        <Element>
+          <Name>Radial distance</Name>
+          <Component>R</Component>
+          <Index>1</Index>
+        </Element>
+      </Structure>
+      <Support>Positional</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Position in GSM coordinates (1 min)</Name>
+      <ParameterKey>PGSM</ParameterKey>
+      <Description>Position vector in GSM coordinates (Define Re=6378 km)</Description>
+      <Cadence>PT01M</Cadence>
+      <Units>Re</Units>
+      <UnitsConversion>6.378e6&gt;m</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSM</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Vector</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>X</Name>
+          <Component>X</Component>
+          <Index>1</Index>
+        </Element>
+        <Element>
+          <Name>Y</Name>
+          <Component>Y</Component>
+          <Index>2</Index>
+        </Element>
+        <Element>
+          <Name>Z</Name>
+          <Component>Z</Component>
+          <Index>3</Index>
+        </Element>
+      </Structure>
+      <Support>Positional</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Position in GSE coordinates (1 min)</Name>
+      <ParameterKey>PGSE</ParameterKey>
+      <Description>Position vector in GSE coordinates (Define Re=6378 km)</Description>
+      <Cadence>PT01M</Cadence>
+      <Units>Re</Units>
+      <UnitsConversion>6.378e6&gt;m</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Vector</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>X</Name>
+          <Component>X</Component>
+          <Index>1</Index>
+        </Element>
+        <Element>
+          <Name>Y</Name>
+          <Component>Y</Component>
+          <Index>2</Index>
+        </Element>
+        <Element>
+          <Name>Z</Name>
+          <Component>Z</Component>
+          <Index>3</Index>
+        </Element>
+      </Structure>
+      <Support>Positional</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Unit spin vector in GSM coordinates (1 min)</Name>
+      <ParameterKey>SGSM</ParameterKey>
+      <Description>Unit spin vector in GSM coordinates</Description>
+      <Cadence>PT01M</Cadence>
+      <Units>unitless</Units>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSM</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Vector</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>X</Name>
+          <Component>X</Component>
+          <Index>1</Index>
+        </Element>
+        <Element>
+          <Name>Y</Name>
+          <Component>Y</Component>
+          <Index>2</Index>
+        </Element>
+        <Element>
+          <Name>Z</Name>
+          <Component>Z</Component>
+          <Index>3</Index>
+        </Element>
+      </Structure>
+      <Support>Other</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Unit spin vector in GSE coordinates (1 min)</Name>
+      <ParameterKey>SGSE</ParameterKey>
+      <Description>Unit spin vector in GSE coordinates</Description>
+      <Cadence>PT01M</Cadence>
+      <Units>unitless</Units>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Vector</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>X</Name>
+          <Component>X</Component>
+          <Index>1</Index>
+        </Element>
+        <Element>
+          <Name>Y</Name>
+          <Component>Y</Component>
+          <Index>2</Index>
+        </Element>
+        <Element>
+          <Name>Z</Name>
+          <Component>Z</Component>
+          <Index>3</Index>
+        </Element>
+      </Structure>
+      <Support>Other</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Delta B (Outer - Inner) (1 min)</Name>
+      <ParameterKey>DB_SC</ParameterKey>
+      <Description>Difference between outboard and inboard measured magnetic fields, Bouter - Binner (nT) in spacecraft coordinates.</Description>
+      <Caveats>Contains meaningful data only in 1:1 mode (see MAG_MODE).</Caveats>
+      <Cadence>PT01M</Cadence>
+      <Units>nT</Units>
+      <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>SC</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Vector</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>DBx</Name>
+          <Component>X</Component>
+          <Index>1</Index>
+        </Element>
+        <Element>
+          <Name>DBy</Name>
+          <Component>Y</Component>
+          <Index>2</Index>
+        </Element>
+        <Element>
+          <Name>DBz</Name>
+          <Component>Z</Component>
+          <Index>3</Index>
+        </Element>
+      </Structure>
+      <Measured>
+        <Field>
+          <FieldQualifier>Vector</FieldQualifier>
+          <FieldQualifier>Deviation</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Dipole tilt angle (degrees) (1 min)</Name>
+      <ParameterKey>TILTANG</ParameterKey>
+      <Description>Dipole tilt angle (degrees)</Description>
+      <Cadence>PT01M</Cadence>
+      <Units>degree</Units>
+      <Structure>
+        <StructureType>Scalar</StructureType>
+      </Structure>
+      <Support>Other</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Average range inner magnetometer (1 min)</Name>
+      <ParameterKey>RANGE_I</ParameterKey>
+      <Description>Average range status of the inner magnetometer (1 min)</Description>
+      <Cadence>PT01M</Cadence>
+      <Units>unitless</Units>
+      <Structure>
+        <StructureType>Scalar</StructureType>
+      </Structure>
+      <Support>Other</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Average range outer magnetometer (1 min)</Name>
+      <ParameterKey>RANGE_O</ParameterKey>
+      <Description>Average range status of the outer magnetometer (1 min)</Description>
+      <Cadence>PT01M</Cadence>
+      <Units>unitless</Units>
+      <Structure>
+        <StructureType>Scalar</StructureType>
+      </Structure>
+      <Support>Other</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>S/C operational mode (1 min)</Name>
+      <ParameterKey>SPC_MODE</ParameterKey>
+      <Description>Spacecraft operational mode (1 min)
+
+1 - Science mode with normal telemetry rate (92 sec major frame)
+3 - Maneuver mode normal telemetry rate - no useful data
+4 - Contingency mode normal telemetry rate - no useful data
+5 - Science mode with double telemetry rate (46 sec major frame)
+7 - Maneuver mode double telemetry rate - no useful data
+8 - Contingency mode double telemetry rate - no useful data   
+      </Description>
+      <Cadence>PT01M</Cadence>
+      <Units>unitless</Units>
+      <Structure>
+        <StructureType>Scalar</StructureType>
+      </Structure>
+      <Support>Other</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>WIND/MFI operational mode (1 min)</Name>
+      <ParameterKey>MAG_MODE</ParameterKey>
+      <Description>WIND/MFI instrument operational mode (1 min)
+
+ 0 - Primary to Secondary mag data collection rate ratio (1:1), 
+Outboard mag primary with FFT &amp; Snapshot data
+ 1 - Primary to Secondary Ratio (20:1), Outboard primary with FFT &amp; 
+Snapshot
+ 2 - Primary to Secondary Ratio (20:1), Outboard primary with 
+Snapshot only
+ 3 - Primary to Secondary Ratio (1:1), Outboard primary, Maneuver 
+mode - no useful data
+ 7 - Primary to Secondary Ratio (1:1), Outboard primary but used 
+Inboard data for processing
+ 10 - Primary to Secondary Ratio (1:1), Inboard primary with FFT &amp; 
+Snapshot
+ 11 - Primary to Secondary Ratio (20:1), Inboard primary with FFT &amp; 
+Snapshot
+ 12 - Primary to Secondary Ratio (20:1), Inboard primary with 
+Snapshot only
+ 13 - Primary to Secondary Ratio (1:1), Inboard primary, Maneuver 
+mode - no useful data
+      </Description>
+      <Cadence>PT01M</Cadence>
+      <Units>unitless</Units>
+      <Structure>
+        <StructureType>Scalar</StructureType>
+      </Structure>
+      <Support>Other</Support>
+    </PhysicalParameter>
+    <!-- ______________ -->
+    <!-- Three Second Data -->
+    <PhysicalParameter>
+      <Name>Time Line (3 sec)</Name>
+      <ParameterKey>Epoch3</ParameterKey>
+      <Description>Number of milliseconds since the epoch 1994-11-12T00:00:00.000</Description>
+      <Cadence>PT03S</Cadence>
+      <Units>ms</Units>
+      <UnitsConversion>1.0e-3&gt;s</UnitsConversion>
+      <Structure>
+        <StructureType>Scalar</StructureType>
+        <Description>Epoch starts on 1994-11-12T00:00:00.000Z</Description>
+      </Structure>
+      <Support>Temporal</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Time Line (3 sec)</Name>
+      <ParameterKey>Time3_PB5</ParameterKey>
+      <Description>Time of observation in year, day of year, and milliseconds (3 sec)           </Description>
+      <Cadence>PT03S</Cadence>
+      <Structure>
+        <StructureType>Array</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>Year</Name>
+          <Index>1</Index>
+        </Element>
+        <Element>
+          <Name>Day of year</Name>
+          <Index>2</Index>
+        </Element>
+        <Element>
+          <Name>Miliseconds of day</Name>
+          <Index>3</Index>
+        </Element>
+      </Structure>
+      <Support>Temporal</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Number of points in average (3 sec)</Name>
+      <ParameterKey>NUM3_PTS</ParameterKey>
+      <Description>Number of data points in 3-second average</Description>
+      <Cadence>PT03S</Cadence>
+      <Units>unitless</Units>
+      <Structure>
+        <StructureType>Scalar</StructureType>
+      </Structure>
+      <Support>Other</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Magnetic field magnitude (3 sec)</Name>
+      <ParameterKey>B3F1</ParameterKey>
+      <Description>Average of the magnetic field magnitudes (F1)</Description>
+      <Caveats>This parameter is an average of high-time-resolution field magnitudes</Caveats>
+      <Cadence>PT03S</Cadence>
+      <Units>nT</Units>
+      <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
+      <Structure>
+        <StructureType>Scalar</StructureType>
+      </Structure>
+      <Measured>
+        <Field>
+          <FieldQualifier>Average</FieldQualifier>
+          <FieldQualifier>Magnitude</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Magnetic field magnitude's RMS (3 sec)</Name>
+      <ParameterKey>B3RMSF1</ParameterKey>
+      <Description>RMS (standard deviation) of the average of the magnitudes (F1 RMS)</Description>
+      <Cadence>PT03S</Cadence>
+      <Units>nT</Units>
+      <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
+      <Structure>
+        <StructureType>Scalar</StructureType>
+      </Structure>
+      <Measured>
+        <Field>
+          <FieldQualifier>Deviation</FieldQualifier>
+          <FieldQualifier>Magnitude</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Magnetic field vector in GSM coordinates (3 sec)</Name>
+      <ParameterKey>B3GSM</ParameterKey>
+      <Description>Magnetic field vector in GSM coordinates</Description>
+      <Cadence>PT03S</Cadence>
+      <Units>nT</Units>
+      <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSM</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Vector</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>Bx</Name>
+          <Component>X</Component>
+          <Index>1</Index>
+        </Element>
+        <Element>
+          <Name>By</Name>
+          <Component>Y</Component>
+          <Index>2</Index>
+        </Element>
+        <Element>
+          <Name>Bz</Name>
+          <Component>Z</Component>
+          <Index>3</Index>
+        </Element>
+      </Structure>
+      <Measured>
+        <Field>
+          <FieldQualifier>Average</FieldQualifier>
+          <FieldQualifier>Vector</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>RMS vector in GSM coordinates (3 sec)</Name>
+      <ParameterKey>B3RMSGSM</ParameterKey>
+      <Description>RMS mangetic field vector in GSM coordinates</Description>
+      <Cadence>PT03S</Cadence>
+      <Units>nT</Units>
+      <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSM</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Vector</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>RMS Bx</Name>
+          <Component>X</Component>
+          <Index>1</Index>
+        </Element>
+        <Element>
+          <Name>RMS By</Name>
+          <Component>Y</Component>
+          <Index>2</Index>
+        </Element>
+        <Element>
+          <Name>RMS Bz</Name>
+          <Component>Z</Component>
+          <Index>3</Index>
+        </Element>
+      </Structure>
+      <Measured>
+        <Field>
+          <FieldQualifier>Deviation</FieldQualifier>
+          <FieldQualifier>Vector</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Magnetic field vector in GSE coordinates (3 sec)</Name>
+      <ParameterKey>B3GSE</ParameterKey>
+      <Description>Magnetic field vector in GSE coordinates</Description>
+      <Cadence>PT03S</Cadence>
+      <Units>nT</Units>
+      <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Vector</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>Bx</Name>
+          <Component>X</Component>
+          <Index>1</Index>
+        </Element>
+        <Element>
+          <Name>By</Name>
+          <Component>Y</Component>
+          <Index>2</Index>
+        </Element>
+        <Element>
+          <Name>Bz</Name>
+          <Component>Z</Component>
+          <Index>3</Index>
+        </Element>
+      </Structure>
+      <Measured>
+        <Field>
+          <FieldQualifier>Average</FieldQualifier>
+          <FieldQualifier>Vector</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>RMS vector in GSE coordinates (3 sec)</Name>
+      <ParameterKey>B3RMSGSE</ParameterKey>
+      <Description>RMS mangetic field vector in GSE coordinates</Description>
+      <Cadence>PT03S</Cadence>
+      <Units>nT</Units>
+      <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Vector</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>RMS Bx</Name>
+          <Component>X</Component>
+          <Index>1</Index>
+        </Element>
+        <Element>
+          <Name>RMS By</Name>
+          <Component>Y</Component>
+          <Index>2</Index>
+        </Element>
+        <Element>
+          <Name>RMS Bz</Name>
+          <Component>Z</Component>
+          <Index>3</Index>
+        </Element>
+      </Structure>
+      <Measured>
+        <Field>
+          <FieldQualifier>Deviation</FieldQualifier>
+          <FieldQualifier>Vector</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <!-- ___________ -->
+    <!-- One Hour Data -->
+    <PhysicalParameter>
+      <Name>Time Line (1 hour)</Name>
+      <ParameterKey>Epoch1</ParameterKey>
+      <Description>Number of milliseconds since the epoch 1994-11-12T00:00:00.000</Description>
+      <Cadence>PT01H</Cadence>
+      <Units>ms</Units>
+      <UnitsConversion>1.0e-3&gt;s</UnitsConversion>
+      <Structure>
+        <StructureType>Scalar</StructureType>
+        <Description>Epoch starts on 1994-11-12T00:00:00.000Z</Description>
+      </Structure>
+      <Support>Temporal</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Time Line (1 hour)</Name>
+      <ParameterKey>Time1_PB5</ParameterKey>
+      <Description>Time of observation in year, day of year, and milliseconds (1 hour)           </Description>
+      <Cadence>PT01H</Cadence>
+      <Structure>
+        <StructureType>Array</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>Year</Name>
+          <Index>1</Index>
+        </Element>
+        <Element>
+          <Name>Day of year</Name>
+          <Index>2</Index>
+        </Element>
+        <Element>
+          <Name>Miliseconds of day</Name>
+          <Index>3</Index>
+        </Element>
+      </Structure>
+      <Support>Temporal</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Number of points in average (1 hour)</Name>
+      <ParameterKey>NUM1_PTS</ParameterKey>
+      <Description>Number of data points in 1-hour average</Description>
+      <Cadence>PT01H</Cadence>
+      <Units>unitless</Units>
+      <Structure>
+        <StructureType>Scalar</StructureType>
+      </Structure>
+      <Support>Other</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Magnetic field magnitude (1 hour)</Name>
+      <ParameterKey>B1F1</ParameterKey>
+      <Description>Average of the magnetic field magnitudes (F1)</Description>
+      <Caveats>This parameter is an average of high-time-resolution field magnitudes</Caveats>
+      <Cadence>PT01H</Cadence>
+      <Units>nT</Units>
+      <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
+      <Structure>
+        <StructureType>Scalar</StructureType>
+      </Structure>
+      <Measured>
+        <Field>
+          <FieldQualifier>Average</FieldQualifier>
+          <FieldQualifier>Magnitude</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Magnetic field magnitude's RMS (1 hour)</Name>
+      <ParameterKey>B1RMSF1</ParameterKey>
+      <Description>RMS (standard deviation) of the average of the magnitudes (F1 RMS)</Description>
+      <Cadence>PT01H</Cadence>
+      <Units>nT</Units>
+      <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
+      <Structure>
+        <StructureType>Scalar</StructureType>
+      </Structure>
+      <Measured>
+        <Field>
+          <FieldQualifier>Deviation</FieldQualifier>
+          <FieldQualifier>Magnitude</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Magnetic field vector in GSM coordinates (1 hour)</Name>
+      <ParameterKey>B1GSM</ParameterKey>
+      <Description>Magnetic field vector in GSM coordinates</Description>
+      <Cadence>PT01H</Cadence>
+      <Units>nT</Units>
+      <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSM</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Vector</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>Bx</Name>
+          <Component>X</Component>
+          <Index>1</Index>
+        </Element>
+        <Element>
+          <Name>By</Name>
+          <Component>Y</Component>
+          <Index>2</Index>
+        </Element>
+        <Element>
+          <Name>Bz</Name>
+          <Component>Z</Component>
+          <Index>3</Index>
+        </Element>
+      </Structure>
+      <Measured>
+        <Field>
+          <FieldQualifier>Average</FieldQualifier>
+          <FieldQualifier>Vector</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>RMS vector in GSM coordinates (1 hour)</Name>
+      <ParameterKey>B1RMSGSM</ParameterKey>
+      <Description>RMS mangetic field vector in GSM coordinates</Description>
+      <Cadence>PT01H</Cadence>
+      <Units>nT</Units>
+      <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSM</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Vector</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>RMS Bx</Name>
+          <Component>X</Component>
+          <Index>1</Index>
+        </Element>
+        <Element>
+          <Name>RMS By</Name>
+          <Component>Y</Component>
+          <Index>2</Index>
+        </Element>
+        <Element>
+          <Name>RMS Bz</Name>
+          <Component>Z</Component>
+          <Index>3</Index>
+        </Element>
+      </Structure>
+      <Measured>
+        <Field>
+          <FieldQualifier>Deviation</FieldQualifier>
+          <FieldQualifier>Vector</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Magnetic field vector in GSE coordinates (1 hour)</Name>
+      <ParameterKey>B1GSE</ParameterKey>
+      <Description>Magnetic field vector in GSE coordinates</Description>
+      <Cadence>PT01H</Cadence>
+      <Units>nT</Units>
+      <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Vector</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>Bx</Name>
+          <Component>X</Component>
+          <Index>1</Index>
+        </Element>
+        <Element>
+          <Name>By</Name>
+          <Component>Y</Component>
+          <Index>2</Index>
+        </Element>
+        <Element>
+          <Name>Bz</Name>
+          <Component>Z</Component>
+          <Index>3</Index>
+        </Element>
+      </Structure>
+      <Measured>
+        <Field>
+          <FieldQualifier>Average</FieldQualifier>
+          <FieldQualifier>Vector</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>RMS vector in GSE coordinates (1 hour)</Name>
+      <ParameterKey>B1RMSGSE</ParameterKey>
+      <Description>RMS mangetic field vector in GSE coordinates</Description>
+      <Cadence>PT01H</Cadence>
+      <Units>nT</Units>
+      <UnitsConversion>1.0e-9&gt;T</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Vector</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>RMS Bx</Name>
+          <Component>X</Component>
+          <Index>1</Index>
+        </Element>
+        <Element>
+          <Name>RMS By</Name>
+          <Component>Y</Component>
+          <Index>2</Index>
+        </Element>
+        <Element>
+          <Name>RMS Bz</Name>
+          <Component>Z</Component>
+          <Index>3</Index>
+        </Element>
+      </Structure>
+      <Measured>
+        <Field>
+          <FieldQualifier>Deviation</FieldQualifier>
+          <FieldQualifier>Vector</FieldQualifier>
+          <FieldQuantity>Magnetic</FieldQuantity>
+        </Field>
+      </Measured>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Radial distance (1 hour)</Name>
+      <ParameterKey>DIST1</ParameterKey>
+      <Description>Distance from the center of the Earth (Define Re=6378 km)</Description>
+      <Cadence>PT01H</Cadence>
+      <Units>Re</Units>
+      <UnitsConversion>6.378e6&gt;m</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Spherical</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Scalar</StructureType>
+        <Element>
+          <Name>Radial distance</Name>
+          <Component>R</Component>
+          <Index>1</Index>
+        </Element>
+      </Structure>
+      <Support>Positional</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Position in GSM coordinates (1 hour)</Name>
+      <ParameterKey>P1GSM</ParameterKey>
+      <Description>Position vector in GSM coordinates (Define Re=6378 km)</Description>
+      <Cadence>PT01H</Cadence>
+      <Units>Re</Units>
+      <UnitsConversion>6.378e6&gt;m</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSM</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Vector</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>X</Name>
+          <Component>X</Component>
+          <Index>1</Index>
+        </Element>
+        <Element>
+          <Name>Y</Name>
+          <Component>Y</Component>
+          <Index>2</Index>
+        </Element>
+        <Element>
+          <Name>Z</Name>
+          <Component>Z</Component>
+          <Index>3</Index>
+        </Element>
+      </Structure>
+      <Support>Positional</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Position in GSE coordinates (1 hour)</Name>
+      <ParameterKey>P1GSE</ParameterKey>
+      <Description>Position vector in GSE coordinates (Define Re=6378 km)</Description>
+      <Cadence>PT01H</Cadence>
+      <Units>Re</Units>
+      <UnitsConversion>6.378e6&gt;m</UnitsConversion>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Vector</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>X</Name>
+          <Component>X</Component>
+          <Index>1</Index>
+        </Element>
+        <Element>
+          <Name>Y</Name>
+          <Component>Y</Component>
+          <Index>2</Index>
+        </Element>
+        <Element>
+          <Name>Z</Name>
+          <Component>Z</Component>
+          <Index>3</Index>
+        </Element>
+      </Structure>
+      <Support>Positional</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Unit spin vector in GSM coordinates (1 hour)</Name>
+      <ParameterKey>S1GSM</ParameterKey>
+      <Description>Unit spin vector in GSM coordinates</Description>
+      <Cadence>PT01H</Cadence>
+      <Units>unitless</Units>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSM</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Vector</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>X</Name>
+          <Component>X</Component>
+          <Index>1</Index>
+        </Element>
+        <Element>
+          <Name>Y</Name>
+          <Component>Y</Component>
+          <Index>2</Index>
+        </Element>
+        <Element>
+          <Name>Z</Name>
+          <Component>Z</Component>
+          <Index>3</Index>
+        </Element>
+      </Structure>
+      <Support>Other</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Unit spin vector in GSE coordinates (1 hour)</Name>
+      <ParameterKey>S1GSE</ParameterKey>
+      <Description>Unit spin vector in GSE coordinates</Description>
+      <Cadence>PT01H</Cadence>
+      <Units>unitless</Units>
+      <CoordinateSystem>
+        <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+        <CoordinateSystemName>GSE</CoordinateSystemName>
+      </CoordinateSystem>
+      <Structure>
+        <StructureType>Vector</StructureType>
+        <Size>3</Size>
+        <Element>
+          <Name>X</Name>
+          <Component>X</Component>
+          <Index>1</Index>
+        </Element>
+        <Element>
+          <Name>Y</Name>
+          <Component>Y</Component>
+          <Index>2</Index>
+        </Element>
+        <Element>
+          <Name>Z</Name>
+          <Component>Z</Component>
+          <Index>3</Index>
+        </Element>
+      </Structure>
+      <Support>Other</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Sensor zeros (inner)</Name>
+      <ParameterKey>ZERO_I</ParameterKey>
+      <Description>Inboard sensor zero computed once a day. The count-to-nT conversion formula:
+      
+     B(nT) = SENS * (B(counts) - ZERO) / AMPL    
+      </Description>
+      <Structure>
+        <StructureType>Array</StructureType>
+        <Size>3 8</Size>
+      </Structure>
+      <Support>Other</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Sensor sensitivities (inner)</Name>
+      <ParameterKey>SENS_I</ParameterKey>
+      <Description>Inboard sensor sensitivity computed once a day. The count-to-nT conversion formula:
+      
+     B(nT) = SENS * (B(counts) - ZERO) / AMPL    
+</Description>
+      <Structure>
+        <StructureType>Array</StructureType>
+        <Size>3 8</Size>
+      </Structure>
+      <Support>Other</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Amplitude correction (inner)</Name>
+      <ParameterKey>AMPL_I</ParameterKey>
+      <Description>Inboard sensor conversion amplitude computed once a day. The count-to-nT conversion formula:
+      
+     B(nT) = SENS * (B(counts) - ZERO) / AMPL    
+</Description>
+      <Structure>
+        <StructureType>Array</StructureType>
+        <Size>3 8</Size>
+      </Structure>
+      <Support>Other</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Orthogonalization matrix (inner)</Name>
+      <ParameterKey>ORTH_I</ParameterKey>
+      <Description>Orthogonalization matrix (inner magnetometer)</Description>
+      <Structure>
+        <StructureType>Array</StructureType>
+        <Size>3 3</Size>
+      </Structure>
+      <Support>Other</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Payload rotation matrix (inner)</Name>
+      <ParameterKey>PAYLD_I</ParameterKey>
+      <Description>Payload rotation matrix (inner magnetometer)</Description>
+      <Structure>
+        <StructureType>Array</StructureType>
+        <Size>3 3</Size>
+      </Structure>
+      <Support>Other</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Sensor zero flag (inner)</Name>
+      <ParameterKey>FLAG_I</ParameterKey>
+      <Description>Sensor zero flag (inner magnetometer):
+ 1 - No calibration data for day, used last available calibration
+ 2 - Daily calibration value used (version 3 file)
+ 3 - Daily calibration value used with updated Z correction (version 4 file)</Description>
+      <Structure>
+        <StructureType>Scalar</StructureType>
+      </Structure>
+      <Support>Other</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Sensor zeros (outer)</Name>
+      <ParameterKey>ZERO_O</ParameterKey>
+      <Description>Outboard sensor zero computed once a day. The count-to-nT conversion formula:
+      
+     B(nT) = SENS * (B(counts) - ZERO) / AMPL    
+</Description>
+      <Structure>
+        <StructureType>Array</StructureType>
+        <Size>3 8</Size>
+      </Structure>
+      <Support>Other</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Sensor sensitivities (outer)</Name>
+      <ParameterKey>SENS_O</ParameterKey>
+      <Description>Outboard sensor sensitivity computed once a day. The count-to-nT conversion formula:
+      
+     B(nT) = SENS * (B(counts) - ZERO) / AMPL    
+</Description>
+      <Structure>
+        <StructureType>Array</StructureType>
+        <Size>3 8</Size>
+      </Structure>
+      <Support>Other</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Amplitude correction (outer)</Name>
+      <ParameterKey>AMPL_O</ParameterKey>
+      <Description>Outboard sensor conversion amplitude computed once a day. The count-to-nT conversion formula:
+      
+     B(nT) = SENS * (B(counts) - ZERO) / AMPL    
+</Description>
+      <Structure>
+        <StructureType>Array</StructureType>
+        <Size>3 8</Size>
+      </Structure>
+      <Support>Other</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Orthogonalization matrix (outer)</Name>
+      <ParameterKey>ORTH_O</ParameterKey>
+      <Description>Orthogonalization matrix (outer magnetometer)</Description>
+      <Structure>
+        <StructureType>Array</StructureType>
+        <Size>3 3</Size>
+      </Structure>
+      <Support>Other</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Payload rotation matrix (outer)</Name>
+      <ParameterKey>PAYLD_O</ParameterKey>
+      <Description>Payload rotation matrix (outer magnetometer)</Description>
+      <Structure>
+        <StructureType>Array</StructureType>
+        <Size>3 3</Size>
+      </Structure>
+      <Support>Other</Support>
+    </PhysicalParameter>
+    <PhysicalParameter>
+      <Name>Sensor zero flag (outer)</Name>
+      <ParameterKey>FLAG_O</ParameterKey>
+      <Description>Sensor zero flag (outer magnetometer):
+ 1 - No calibration data for day, used last available calibration
+ 2 - Daily calibration value used (version 3 file)
+ 3 - Daily calibration value used with updated Z correction (version 4 file)</Description>
+      <Structure>
+        <StructureType>Scalar</StructureType>
+      </Structure>
+      <Support>Other</Support>
+    </PhysicalParameter>
+  </NumericalData>
+</Spase>

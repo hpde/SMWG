@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id$ -->
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Repository>
+    <ResourceID>spase://GSFC/repository/VHO-VMO</ResourceID>
+    <ResourceHeader>
+      <ResourceName>VHO and VMO Data Repository at NASA/GSFC</ResourceName>
+      <ReleaseDate>2007-05-30T22:39:13Z</ReleaseDate>
+      <Description>Data repository co-located with the VHO and VMO at NASA Goddard Space Flight Center.</Description>
+      <Contact>
+      <!-- Jan Merka -->
+        <PersonID>spase://nssdc/person/65336</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>TechnicalContact</Role>
+      </Contact>
+    </ResourceHeader>
+  </Repository>
+</Spase>
