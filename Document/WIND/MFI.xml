@@ -3,14 +3,15 @@
 <Spase>
   <Version>1.1.X</Version>
   <Document>
-    <ResourceID>spase://VMO/doc/WIND/MFI</ResourceID>
+    <ResourceID>spase://VMO/Document/WIND/MFI</ResourceID>
     <ResourceHeader>
       <ResourceName>Documentation for Magnetic Field Investigation on WIND</ResourceName>
       <AlternateName>MFI Documentation</AlternateName>
       <ReleaseDate>2006-10-26T13:57:37Z</ReleaseDate>
       <Description>This document provides detailed description of the WIND MFI instrument.</Description>
       <Contact>
-        <PersonID>spase://VMO/person/Adam.Szabo</PersonID>
+        <!-- Adam Szabo -->
+        <PersonID>spase://nssdc/person/57837</PersonID>
         <Role>DataProducer</Role>
       </Contact>
       <InformationURL>
