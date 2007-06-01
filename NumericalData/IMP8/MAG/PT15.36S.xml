@@ -3,7 +3,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <NumericalData>
-    <ResourceID>spase://GSFC/obs/IMP8/MAG/IMP8_MAG</ResourceID>
+    <ResourceID>spase://VMO/NumericalData/IMP8/MAG/PT15.36S</ResourceID>
     <ResourceHeader>
       <ResourceName>IMP 8 Magnetic Field Measurements</ResourceName>
       <ReleaseDate>2007-05-30T22:29:06Z</ReleaseDate>
@@ -21,7 +21,7 @@
       </InformationURL>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://GSFC/repository/VHO-VMO</RepositoryID>
+      <RepositoryID>spase://VMO/Repository/VHO-VMO</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
@@ -36,7 +36,7 @@
     <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
     <!-- Version is from the HDF files. However, NSSDC mentions version 2? -->
     <ProviderVersion>1.f</ProviderVersion>
-    <InstrumentID>spase://GSFC/obs/IMP8/MAG</InstrumentID>
+    <InstrumentID>spase://VMO/Instrument/IMP8/MAG</InstrumentID>
     <MeasurementType>MagneticField</MeasurementType>
     <TemporalDescription>
       <TimeSpan>

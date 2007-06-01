@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--$Id$-->
+<Spase>
+  <Version>1.1.X</Version>
+  <Document>
+    <ResourceID>spase://VMO/doc/WIND/MFI</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Documentation for Magnetic Field Investigation on WIND</ResourceName>
+      <AlternateName>MFI Documentation</AlternateName>
+      <ReleaseDate>2006-10-26T13:57:37Z</ReleaseDate>
+      <Description>This document provides detailed description of the WIND MFI instrument.</Description>
+      <Contact>
+        <PersonID>spase://VMO/person/Adam.Szabo</PersonID>
+        <Role>DataProducer</Role>
+      </Contact>
+      <InformationURL>
+        <Name>WIND Magnetic Field Investigation (MFI) Home Page</Name>
+        <URL>http://lepmfi.gsfc.nasa.gov</URL>
+        <Description>A web site hosting WIND MFI instrument information as well as web utilities for plotting and downloading data</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <DocumentType>latex</DocumentType>
+    <DocumentData><![CDATA[
+\documentclass[10pt]{article}
+%opening
+\title{}
+\author{}
+\begin{document}
+%\maketitle
+%\begin{abstract}
+%\end{abstract}
+
+\section{Magnetic Field Investigation}
+
+The magnetic field experiment on WIND provides data for studies of a 
+broad range of scales of structures and fluctuation characteristics 
+of the interplanetary magnetic field throughout the mission, and, where appropriate, relate them to the statics and dynamics of the magnetosphere. The basic instrument of the Magnetic Field Investigation (MFI) on the WIND Spacecraft  is a boom-mounted dual triaxial fluxgate magnetometer and associated electronics. The dual configuration provides redudancy and also permits accurate removal of the dipolar portion of the spacecraft magnetic field. The instrument provides:
+\begin{enumerate}
+ \item near real-time data at nominally one vector per 92~s as key paramter data for broad dissemination,
+\item rapid data at 10.9~vectors/s for standard analysis,
+\item occasionally, snapshot (SS) memory data and Fast Fourier Transform data (FFT), both based on 44~vectors/s.
+\end{enumerate}
+
+These measurements are precise (0.025\%), accurate, ultra-sensitive (0.008~nT/step quantization), and where the sensor noise level is $<0.006$~nT r.m.s for 0--10~Hz. The digital processing unit utilizes a 12-bit microprocessor controlled analogue-to-digital converter. The instrument features a very wide dynamic range of measurement capability, from 4~nT up to $65,536$~nT per axis in eight discrete ranges. (The upper range permits complete testing in the Earth's field.) In the FFT mode power spectral density elements are transmitted to the ground as fast as once every 23~s (high rate), and 2.7~min of SS memory time series data, triggered automatically by pre-set command, requires typically about 5.1~hours for transmission. Standard data products are the following vector field averages: 0.0226~s (detail data from SS), 0.092~s ('detail' in standard mode), 3~s, 1~min, and 1~hour, in both GSE and GSM coordinates, as well as the FFT spectral elements. High instrument reliability is obtained by the use of fully redundant systems and extremely conservative designs.
+
+The instrument was turned on on November 12, 1994.
+
+\begin{thebibliography}{}
+ \bibitem{Lepping95} Lepping, R. P., et al., The WIND Magnetic Field Investigation, Space Science Reviews, 71, 207--229, 1995.
+
+\end{thebibliography}
+
+\end{document}
+    ]]></DocumentData>
+    <BibReference>Lepping, R. P., et al., The WIND Magnetic Field Investigation, Space Science Reviews, 71, 207-229, 1995.</BibReference>
+  </Document>
+</Spase>

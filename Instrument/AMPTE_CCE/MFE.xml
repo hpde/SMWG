@@ -3,7 +3,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://GSFC/obs/AMPTE_CCE/MFE</ResourceID>
+    <ResourceID>spase://VMO/Instrument/AMPTE_CCE/MFE</ResourceID>
     <ResourceHeader>
       <ResourceName>AMPTE/CCE Magnetic Field Experiment (MFE)</ResourceName>
       <AlternateName>AMPTE_CCE MAG</AlternateName>
@@ -25,7 +25,7 @@
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Magnetic Field Experiment</InvestigationName>
-    <ObservatoryID>spase://GSFC/obs/AMPTE_CCE</ObservatoryID>
+    <ObservatoryID>spase://VMO/Observatory/AMPTE_CCE</ObservatoryID>
     <Caveats/>
   </Instrument>
 </Spase>

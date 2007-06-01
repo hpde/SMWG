@@ -3,7 +3,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <NumericalData>
-    <ResourceID>spase://GSFC/obs/IMP8/pos/position</ResourceID>
+    <ResourceID>spase://VMO/NumericalData/IMP8/Ephemeris/PT12M</ResourceID>
     <ResourceHeader>
       <ResourceName>IMP-8 Spacecraft Positions</ResourceName>
       <ReleaseDate>2007-05-30T22:34:15Z</ReleaseDate>
@@ -15,7 +15,7 @@
       </Contact>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://GSFC/repository/CDAWeb</RepositoryID>
+      <RepositoryID>spase://VMO/Repository/CDAWeb</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
@@ -28,7 +28,7 @@
       <Format>CDF</Format>
       <Encoding>None</Encoding>
     </AccessInformation>
-    <InstrumentID>spase://GSFC/obs/IMP8/pos</InstrumentID>
+    <InstrumentID>spase://VMO/Instrument/IMP8/Ephemeris</InstrumentID>
     <MeasurementType>Ephemeris</MeasurementType>
     <TemporalDescription>
       <TimeSpan>

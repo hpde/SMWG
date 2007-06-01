@@ -3,7 +3,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <NumericalData>
-    <ResourceID>spase://GSFC/obs/AMPTE_CCE/MFE/AMPTE_CCE_MAG</ResourceID>
+    <ResourceID>spase://VMO/NumericalData/AMPTE_CCE/MFE/PT5.83S</ResourceID>
     <ResourceHeader>
       <ResourceName>AMPTE/CCE Spin-averaged Magnetic Field Measurements</ResourceName>
       <ReleaseDate>2007-05-30T22:36:09Z</ReleaseDate>
@@ -22,7 +22,7 @@
       </InformationURL>
     </ResourceHeader>
     <AccessInformation>
-      <RepositoryID>spase://GSFC/repository/VHO-VMO</RepositoryID>
+      <RepositoryID>spase://VMO/Repository/VHO-VMO</RepositoryID>
       <Availability>Online</Availability>
       <AccessRights>Open</AccessRights>
       <AccessURL>
@@ -33,7 +33,7 @@
       <Format>Text</Format>
       <Encoding>GZIP</Encoding>
     </AccessInformation>
-    <InstrumentID>spase://GSFC/obs/AMPTE_CCE/MFE</InstrumentID>
+    <InstrumentID>spase://VMO/Instrument/AMPTE_CCE/MFE</InstrumentID>
     <MeasurementType>Ephemeris</MeasurementType>
     <MeasurementType>MagneticField</MeasurementType>
     <TemporalDescription>

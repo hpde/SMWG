@@ -3,7 +3,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://GSFC/obs/IMP8/pos</ResourceID>
+    <ResourceID>spase://VMO/Instrument/IMP8/Ephemeris</ResourceID>
     <ResourceHeader>
       <ResourceName>IMP 8 Spacecraft Position</ResourceName>
       <AlternateName>IMP 8 Position</AlternateName>
