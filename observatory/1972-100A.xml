@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://nssdc/observatory/1972-100A</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Aeros-A</ResourceName>
+      <AlternateName>Aeros 1</AlternateName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>
+The AEROS satellite had a circular cylindrical shape, 0.914 m in diameter and 0.710 m in height. It was launched into an elliptical, polar, nearly sun-synchronous earth orbit. The spacecraft was spin stabilized at 10 rpm and oriented with the spin axis toward the sun. The purpose of the mission was to study the state and behavior of the upper atmosphere and ionospheric F region, especially with regard to the influence of solar ultraviolet radiation. Five experiments provided data on the temperature and density of electrons, ions, and neutral particles, the composition of ions and neutral particles, and solar ultraviolet flux.
+      </Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/5399</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://nssdc/person/6011</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1972-100A</URL>
+        <Description>Information about the Aeros-A mission</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroup>AEROS</ObservatoryGroup>
+  </Observatory>
+</Spase>

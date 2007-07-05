@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://nssdc/observatory/1992-044A</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Geotail</ResourceName>
+      <AlternateName>GTL</AlternateName>
+      <AlternateName>ISTP/Geotail</AlternateName>
+      <AlternateName>GGS/Geotail</AlternateName>
+      <AlternateName>Geomagnetic Tail Lab</AlternateName>
+      <ReleaseDate>2006-03-08T00:00:00Z</ReleaseDate>
+      <Description>
+The solar wind draws the Earth's magnetic field into a long tail on the nightside of the Earth and stores energy in the stretched field lines of the magnetotail. During active periods, the tail couples with the near-Earth magnetosphere, sometimes releasing energy stored in the tail and activating auroras in the polar ionosphere.
+
+The Geotail mission measures global energy flow and transformation in the magnetotail to increase understanding of fundamental magnetospheric processes. This includes the physics of the magnetopause magnetospheric boundary regions, the lobe and plasma sheet, and reconnection and neutral line formation, i.e., the mechanisms processes of input, transport, storage, release and conversion of mass, momentum and energy in the magnetotail.
+
+Geotail, together with Wind, Polar, SOHO, and Cluster projects, constitute a cooperative scientific satellite project designated the International Solar Terrestrial Physics (ISTP) program which aims at gaining improved understanding of the physics of solar-terrestrial relations.
+
+Geotail is a spin-stabilized spacecraft utilizing mechanically despun antennas with a design lifetime of about four years. The nominal spin rate of the spacecraft is about 20 rpm around a spin axis maintained between 85-89 degrees to the ecliptic plane. Geotail is cylindrical, approximately 2.2 m in diameter, and 1.6 m high. with It has body-mounted solar cells. Geotail also has and a back-up battery subsystem which that operates when the spacecraft is in the Earth's shadow (limited to 2 hrs). Real-time telemetry data transmitted in X-band are received at the Usuda Deep Space Center (UDSC) in Japan. There are two tape recorders on board, each with a capacity of 450 Mb, which allows daily 24-hour data coverage and are collected in playback mode by the NASA Deep Space Network (DSN).
+
+The Geotail mission is divided into two phases. During the two-year initial phase, the orbit apogee was kept on the nightside of the Earth by using the Moon's gravity in a series of double-lunar swing-by maneuvers that result in the spacecraft spending most of its time in the distant magnetotail (maximum apogee about 200 Earth radii) with a period varying from one to four months. Then, starting in November 1994, there were a series of maneuvers to bring the spacecraft into its near-Earth orbit. This transition orbit lasted about three months with the apogee varying from 50 RE to 30 RE. The second phase is dedicated to the study of near-Earth magnetospheric processes, including neutral line formation.
+
+Details on the Geotail mission and instrumentation are given in the Journal of Geomagnetism and Geoelectricity (Vol. 46, No. 1, 1994); online from JGG at
+
+http://www.terrapub.co.jp/journals/EPS/JGG
+      </Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/2248</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://nssdc/person/6984</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1992-044A</URL>
+        <Description>Information about the Geotail mission</Description>
+      </InformationURL>
+    </ResourceHeader>
+  </Observatory>
+</Spase>

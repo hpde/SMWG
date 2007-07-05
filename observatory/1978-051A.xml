@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://nssdc/observatory/1978-051A</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Pioneer Venus Orbiter</ResourceName>
+      <AlternateName>Pioneer Venus 1</AlternateName>
+      <AlternateName>PVO</AlternateName>
+      <AlternateName>Pioneer 12</AlternateName>
+      <AlternateName>Pioneer Venus 1978 Orbiter</AlternateName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>
+The Pioneer Venus Orbiter was the first of a two-spacecraft orbiter-probe combination designed to conduct a comprehensive investigation of the atmosphere of Venus. The spacecraft was a solar-powered cylinder about 250 cm in diameter with its spin axis spin-stabilized perpendicular to the ecliptic plane. A high-gain antenna was mechanically despun to remain focused on the earth. The instruments were mounted on a shelf within the spacecraft except for a magnetometer mounted at the end of a boom to ensure against magnetic interference from the spacecraft. Pioneer Venus Orbiter measured the detailed structure of the upper atmosphere and ionosphere of Venus, investigated the interaction of the solar wind with the ionosphere and the magnetic field in the vicinity of Venus, determined the characteristics of the atmosphere and surface of Venus on a planetary scale, determined the planet's gravitational field harmonics from perturbations of the spacecraft orbit, and detected gamma-ray bursts. UV observations of comets have also been made. From Venus orbit insertion on December 4, 1978 to July 1980 periapsis was held between 142 and 253 km to facilitate radar and ionospheric measurements. Thereafter, the periapsis was allowed to rise (to 2290 km at maximum) and then fall, to conserve fuel. In 1991 the Radar Mapper was reactivated to investigate previously inaccessible southern portions of the planet. In May 1992 Pioneer Venus began the final phase of its mission, in which the periapsis was held between 150 and 250 km until the fuel ran out and atmospheric entry destroyed the spacecraft the following August. The orbiter cost $125 million to build and operate for the first 10 years. For further details see Colin, L. and Hunten, D. M., Space Science Reviews 20, 451, 1977.
+      </Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/2406</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1978-051A</URL>
+        <Description>Information about the Pioneer Venus Orbiter mission</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroup>PIONEER</ObservatoryGroup>
+  </Observatory>
+</Spase>

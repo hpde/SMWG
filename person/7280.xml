@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Person>
+    <ResourceID>spase://nssdc/person/7280</ResourceID>
+    <ReleaseDate>2000-08-23T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Donald S. Burnett</PersonName>
+    <OrganizationName>California Institute of Technology</OrganizationName>
+    <Email>burnett@gps.caltech.edu</Email>
+    <PhoneNumber>+1-626-395-6117</PhoneNumber>
+  </Person>
+</Spase>

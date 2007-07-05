@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Person>
+    <ResourceID>spase://nssdc/person/7630</ResourceID>
+    <ReleaseDate>2003-10-06T00:00:00Z</ReleaseDate>
+    <PersonName>Prof. Yuri I. Galperin</PersonName>
+    <OrganizationName>Deceased - formerly at Russian Academy of Sciences</OrganizationName>
+  </Person>
+</Spase>

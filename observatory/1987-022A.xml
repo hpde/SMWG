@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://nssdc/observatory/1987-022A</ResourceID>
+    <ResourceHeader>
+      <ResourceName>GOES  7</ResourceName>
+      <AlternateName>GOES-H</AlternateName>
+      <AlternateName>PEACESAT</AlternateName>
+      <ReleaseDate>1999-08-17T00:00:00Z</ReleaseDate>
+      <Description>
+GOES 7 was the tenth in a series of NASA-developed, NOAA-operated, geosynchronous and operational spacecraft. The spin-stabilized spacecraft carried (1) a visible infrared spin-scan radiometer (VISSR) atmospheric sounder (VAS) to provide high-quality day/night cloudcover data, to take radiance derived temperatures of the earth/atmosphere system, and to determine atmospheric temperature and water vapor content at various levels, (2) a meteorological data collection system to relay processed data from central weather facilities to regional stations equipped with APT and to collect and retransmit data from remotely located earth-based platforms, and (3) a space environment monitor (SEM) system to measure proton, electron, and solar X-ray fluxes and magnetic fields. The cylindrically shaped spacecraft measured 190.5 cm in diameter and 230 cm in length, exclusive of a magnetometer that extended an additional 83 cm beyond the cylindrical shell. The primary structural members were a honeycombed equipment shelf and a thrust tube. The VISSR telescope was mounted on the equipment shelf and viewed the earth through a special aperture in the side of the spacecraft. A support structure extended radially from the thrust tube and was affixed to the solar panels, which formed the outer wall of the spacecraft to provide the primary source of electrical power. Located in the annulus-shaped space between the thrust tube and the solar panels were stationkeeping and dynamics control equipment, batteries, and most of the SEM equipment. Proper spacecraft attitude and spin rate (approximately 100 rpm) were maintained by two separate sets of jet thrusters mounted around the spacecraft equator and activated by ground command. The spacecraft used both UHF-band and S-band frequencies in its telemetry and command subsystem. A low-power VHF transponder provided telemetry and command during launch and then served as a backup for the primary subsystem once the spacecraft attains synchronous orbit.
+
+August 1999
+
+NASA's 12-year-old Geostationary Observational Environmental Satellite, GOES-7, is being relocated to a position over the Pacific Ocean southwest of Hawaii to become part of PEACESAT, the Pan Pacific Education and Communications Experiment by Satellite. More information on this story can be found at:
+
+http://pao.gsfc.nasa.gov/gsfc/gnews/062599/062599.htm#goes7
+      </Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/5330</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1987-022A</URL>
+        <Description>Information about the GOES  7 mission</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroup>GOES</ObservatoryGroup>
+  </Observatory>
+</Spase>

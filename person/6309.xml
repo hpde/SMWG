@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Person>
+    <ResourceID>spase://nssdc/person/6309</ResourceID>
+    <ReleaseDate>2000-07-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Glenn M. Mason</PersonName>
+    <OrganizationName>University of Maryland</OrganizationName>
+    <Email>glenn.mason@umail.umd.edu</Email>
+    <PhoneNumber>+1-301-405-6203</PhoneNumber>
+  </Person>
+</Spase>

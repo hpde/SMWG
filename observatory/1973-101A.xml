@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://nssdc/observatory/1973-101A</ResourceID>
+    <ResourceHeader>
+      <ResourceName>AE-C</ResourceName>
+      <AlternateName>Atmosphere Explorer-C</AlternateName>
+      <AlternateName>Explorer 51</AlternateName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>
+The purpose of the AE-C mission was to investigate the thermosphere, with emphasis on the energy transfer and processes that govern its state. The study of photochemical processes accompanying the absorption of solar UV radiation in the earth's atmosphere was accomplished by making closely coordinated measurements of reacting constituents and the solar input. The AE-C spacecraft was a multi-sided polyhedron with a diameter of approximately 1.4 m. It weighed about 660 kg including 85 kg of instrumentation. The initial elliptical orbit was altered many times in the first year of life by means of an onboard propulsion system employing a 3.5-lb thruster. The purpose of these changes was to alter the perigee height to 129 km. After this period, the orbit was circularized and was raised periodically to about 390 km when it would decay to 250 km altitude. During the first year, the latitude of perigee moved from about 10 deg up to 68 deg north and then down to about 60 deg south. During this period about two cycles through all local times were completed. The spacecraft could be operated in either of two modes: spinning at a nominal 4 rpm or despun to 1 revolution per orbit. The spin axis was perpendicular to the orbit plane. Power was supplied by a solar cell array. The spacecraft used a PCM telemetry data system that operated in real time or in a tape recorder mode. The payload included instrumentation for the measurement of solar UV; the composition of positive ions and neutral particles; the density and temperature of neutral particles, positive ions and electrons; the measurement of airglow emissions, photoelectron energy spectra, and proton and electron fluxes up to 25 keV. More details can be found in A. Dalgarno et al., Radio Sci.,v. 8, n. 4, p. 263, 1973.
+      </Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/2251</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1973-101A</URL>
+        <Description>Information about the AE-C mission</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroup>AE</ObservatoryGroup>
+  </Observatory>
+</Spase>

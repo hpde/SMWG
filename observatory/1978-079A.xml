@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://nssdc/observatory/1978-079A</ResourceID>
+    <ResourceHeader>
+      <ResourceName>ISEE 3</ResourceName>
+      <AlternateName>International Sun-Earth Explorer-C</AlternateName>
+      <AlternateName>ISEE-C</AlternateName>
+      <AlternateName>International Cometary Explorer</AlternateName>
+      <AlternateName>ICE</AlternateName>
+      <AlternateName>Explorer 59</AlternateName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>
+The Explorer-class heliocentric spacecraft, International Sun-Earth Explorer 3, was part of the mother/daughter/heliocentric mission (ISEE 1, 2, and 3). The purposes of the mission were: (1) to investigate solar-terrestrial relationships at the outermost boundaries of the Earth's magnetosphere; (2) to examine in detail the structure of the solar wind near the Earth and the shock wave that forms the interface between the solar wind and Earth's magnetosphere; (3) to investigate motions of and mechanisms operating in the plasma sheets; and, (4) to continue the investigation of cosmic rays and solar flare emissions in the interplanetary region near 1 AU.
+
+The three spacecraft carried a number of complementary instruments for making measurements of plasmas, energetic particles, waves, and fields. The mission thus extended the investigations of previous IMP spacecraft. The launch of three coordinated spacecraft in this mission permitted the separation of spatial and temporal effects. This heliocentric spacecraft had a spin axis normal to the ecliptic plane and a spin rate of about 20 rpm. It was initially placed into an elliptical halo orbit about the Lagrangian libration point (L1) 235 Earth radii on the sunward side of the Earth, where it continuously monitored changes in the near-Earth interplanetary medium. In conjunction with the mother and daughter spacecraft, which had eccentric geocentric orbits, this mission explored the coupling and energy transfer processes between the incident solar wind and the Earth's magnetosphere. In addition, the heliocentric ISEE 3 spacecraft also provided a near-Earth baseline for making cosmic-ray and other planetary measurements for comparison with corresponding measurements from deep-space probes. ISEE 3 was the first spacecraft to use the halo orbit.
+
+For instrument descriptions written by the investigators, see IEEE Trans. on Geosci. Electron., v. GE-16, no. 3, July 1978.
+
+In 1982 ISEE 3 began the magnetotail and comet encounter phases of its mission. A maneuver was conducted on June 10, 1982, to remove the spacecraft from the halo orbit around the L1 point and place it in a transfer orbit involving a series of passages between Earth and the L2 (magnetotail) Lagrangian libration point. After several passes through the Earth's magnetotail, with gravity assists from lunar flybys in March, April, September and October of 1983, a final close lunar flyby (119.4 km above the moon's surface) on December 22, 1983, ejected the spacecraft out of the Earth-Moon system and into a heliocentric orbit ahead of the Earth, on a trajectory intercepting that of Comet Giacobini-Zinner. At this time, the spacecraft was renamed International Cometary Explorer (ICE). A total of fifteen propulsive maneuvers (four of which were planned) and five lunar flybys were needed to carry out the transfer from the halo orbit to an escape trajectory from the earth-moon system into a heliocentric orbit.
+
+The primary scientific objective of ICE was to study the interaction between the solar wind and a cometary atmosphere. As planned, the spacecraft traversed the plasma tail of Comet Giacobini-Zinner on September 11, 1985, and made in situ measurements of particles, fields, and waves. It also transited between the Sun and Comet Halley in late March 1986, when other spacecraft (Giotto, Planet-A, MS-T5, VEGA) were also in the vicinity of Comet Halley on their early March comet rendezvous missions. ICE became the first spacecraft to directly investigate two comets. ICE data from both cometary encounters are included in the International Halley Watch archive: http://nssdc.gsfc.nasa.gov/database/MasterCatalog?ds=XD-B3A
+
+Tracking and telemetry support have been provided by the DSN (Deep Space Network) since January 1984. The ISEE-3/ICE bit rate was nominally 2048 bps during the early part of the mission, and 1024 bps during the Giacobini-Zinner comet encounter. The bit rate then successively dropped to 512 bps (on 9/12/85), 256 bps (on 5/1/87), 128 bps (on 1/24/89) and finally to 64 bps (on 12/27/91).
+
+An update to the ICE mission was approved by NASA headquarters in 1991. It defines a Heliospheric mission for ICE consisting of investigations of coronal mass ejections in coordination with ground-based observations, continued cosmic ray studies, and special period observations such as when ICE and Ulysses are on the same solar radial line. By May 1995 ICE was being operated with only a low duty cycle, with some support being provided by the Ulysses project for data analysis. Two years later, termination of operations of ICE/ISEE3 was authorized May 5, 1997.
+
+As of January 1990, ICE was in a 355 day heliocentric orbit with an aphelion of 1.03 AU, a perihelion of 0.93 AU and an inclination of 0.1 degree. This will bring it back to the vicinity of the earth-moon system in August, 2014. For instrument descriptions written by the investigators, see IEEE Trans. on Geosci. Electron., v. GE-16, no. 3, July 1978.
+      </Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/2202</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1978-079A</URL>
+        <Description>Information about the ISEE 3 mission</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroup>ISEE</ObservatoryGroup>
+  </Observatory>
+</Spase>

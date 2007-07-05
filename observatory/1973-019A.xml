@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://nssdc/observatory/1973-019A</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Pioneer 11</ResourceName>
+      <AlternateName>Pioneer-G</AlternateName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>
+Pioneer 11 was the second mission to investigate Jupiter and the outer solar system and the first to explore the planet Saturn and its main rings. Pioneer 11, like Pioneer 10, used Jupiter's gravitational field to alter its trajectory radically. It passed close to Saturn and then it followed an escape trajectory from the solar system.
+
+The spacecraft was 2.9 m long and contained a 2.74-m diameter high-gain antenna of aluminum honeycomb sandwich material whose feed was topped with a medium-gain antenna. A low-gain, omnidirectional antenna was mounted below the high-gain dish. The spacecraft contained two nuclear electric-power generators, which generated 144 W at Jupiter, but decreased to 100 W at Saturn. There were three reference sensors: a star (Canopus) sensor, and two sun sensors. Attitude position could be calculated from the reference direction to the earth and the sun, with the known direction to Canopus as backup. Pioneer 11's star sensor gain and threshold settings were modified, based on experience gained from the settings used on Pioneer 10. Three pairs of rocket thrusters provided spin-axis control (maintained at 4.8 rpm) and change of the spacecraft velocity. The thrusters could be either fired steadily or pulsed, by command.
+
+Communications were maintained via the omnidirectional and medium-gain antennas, which operated together, connected to one receiver, while the high-gain antenna was connected to the other receiver. The receivers could be interchanged by command. Two radio transmitters, coupled to two traveling-wave tube amplifiers, produced 8 W power each in S-band. Communication uplink (earth to spacecraft) operated at 2110 MHz, and downlink (spacecraft to earth) at 2292 MHz. At Jupiter's distance, round-trip communication time took 92 min. Data were received at the Deep Space Network (DSN). The spacecraft was temperature-controlled to between -23 and +38 deg C (-10 to +100 deg F). An additional experiment, a low-sensitivity fluxgate magnetometer, was added to the Pioneer 11 payload.
+
+Instruments studied the interplanetary and planetary magnetic fields; solar wind properties; cosmic rays; transition region of the heliosphere; neutral hydrogen abundance; distribution, size, mass, flux, and velocity of dust particles; Jovian aurorae; Jovian radio waves; the atmospheres of planets and satellites; and the surfaces of Jupiter, Saturn, and some of their satellites. Instruments carried for these experiments were magnetometer, plasma analyzer (for solar wind), charged-particle detector, ionizing detector, non-imaging telescopes with overlapping fields of view to detect sunlight reflected from passing meteoroids, sealed pressurized cells of argon and nitrogen gas for measuring penetration of meteoroids, UV photometer, IR radiometer, and an imaging photopolarimeter, which produced photographs and measured the polarization. Further scientific information was obtained from celestial mechanics and occultation phenomena.
+
+This spacecraft, like Pioneer 10, contains a plaque that has a drawing depicting man, woman, and the location of the sun and earth in the galaxy.
+
+During its closest approach, December 4, 1974, Pioneer 11 passed to within 34,000 km of Jupiter's cloud tops. It passed by Saturn on September 1, 1979, at a distance of 21,000 km from Saturn's cloud tops. The spacecraft has operated on a backup transmitter since launch. Instrument power sharing began in February 1985 due to declining RTG power output. Science operations and daily telemetry ceased on September 30, 1995 when the RTG power level was insufficient to operate any experiments. As of the end of 1995 the spacecraft was located at 44.7 AU from the Sun at a nearly asymptotic latitude of 17.4 degrees above the solar equatorial plane and was heading outward at 2.5 AU/year.
+      </Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/5445</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1973-019A</URL>
+        <Description>Information about the Pioneer 11 mission</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroup>PIONEER</ObservatoryGroup>
+  </Observatory>
+</Spase>

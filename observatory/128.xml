@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://vspo/observatory/128</ResourceID>
+    <ResourceHeader>
+      <ResourceName>ESKI</ResourceName>
+      <ReleaseDate>2007-01-03T00:00:00Z</ReleaseDate>
+      <Description>Eskimo Point</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <ObservatoryGroup>CARISMA</ObservatoryGroup>
+  </Observatory>
+</Spase>

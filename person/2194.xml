@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Person>
+    <ResourceID>spase://nssdc/person/2194</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Robert A. Hoffman</PersonName>
+    <OrganizationName>GSFC-Code 696</OrganizationName>
+    <Email>rhoffman@pop600.gsfc.nasa.gov</Email>
+    <PhoneNumber>+1-301-286-7386</PhoneNumber>
+  </Person>
+</Spase>

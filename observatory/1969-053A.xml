@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://nssdc/observatory/1969-053A</ResourceID>
+    <ResourceHeader>
+      <ResourceName>IMP-G</ResourceName>
+      <AlternateName>IMP 5</AlternateName>
+      <AlternateName>Explorer 41</AlternateName>
+      <ReleaseDate>2005-07-07T00:00:00Z</ReleaseDate>
+      <Description>
+Explorer 41 (IMP-G) was a spin-stabilized spacecraft placed into a high-inclination, highly elliptic orbit to measure energetic particles, magnetic fields, and plasma in cislunar space. The line of apsides and the satellite spin vector were within a few degrees of being parallel and normal, respectively, to the ecliptic plane. Initial local time of apogee was about 1300 h. Initial satellite spin rate was 27.5 rpm. The basic telemetry sequence was 20.48 s. The spacecraft functioned very well from launch until it decayed from orbit on December 23, 1972. Data transmission was nearly 100% for the spacecraft life except for the interval from November 15, 1971, to February 1, 1972, when data acquisition was limited to the vicinity of the magnetotail neutral sheet.
+      </Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/2168</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1969-053A</URL>
+        <Description>Information about the IMP-G mission</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroup>IMP</ObservatoryGroup>
+  </Observatory>
+</Spase>

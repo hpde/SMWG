@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Person>
+    <ResourceID>spase://nssdc/person/2293</ResourceID>
+    <ReleaseDate>2003-08-06T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Joseph H. King</PersonName>
+    <OrganizationName>GSFC-Code 560</OrganizationName>
+    <Email>jking@mail630.gsfc.nasa.gov</Email>
+    <PhoneNumber>+1-301-867-0084</PhoneNumber>
+  </Person>
+</Spase>
