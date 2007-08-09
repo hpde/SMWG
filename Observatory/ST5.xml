@@ -2,40 +2,38 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://VMO/Observatory/ST5</ResourceID>
+    <ResourceID>spase://nssdc/observatory/2006-008B</ResourceID>
     <ResourceHeader>
-      <ResourceName>ST5</ResourceName>
-      <AlternateName>Wind/GGS</AlternateName>
-      <ReleaseDate>2007-05-30T19:15:57Z</ReleaseDate>
+      <ResourceName>ST5-094</ResourceName>
+      <AlternateName>ST5-B</AlternateName>
+      <AlternateName>2006-008B</AlternateName>
+      <ReleaseDate>2007-08-09T22:31:51Z</ReleaseDate>
       <Description>
-      ST5 mission was a part of the NASA New Millennium Program to flight-validate new concepts and technologies. ST5 project designed, built and operated three 25 kg spacecraft utilizing breakthrough technologies. It demonstrated the ability to achieve accurate, research-quality scientific measurements while operating the 3 micro-satellites as a single constellation.
+      ST5-094 is the second released of the three microsatellites in the Space Technology 5 mission of the American (NASA) New Millennium Program. They were launched at 14:04 UT on 22 March 2006 by a Pegasus XL rocket that was released from the belly of a Lockheed L-1011 plane flying out of Vandenberg AFB. Each, with a mass of 25 kg and power 20 W, is octagon-shaped (53 cm x 48 cm). Each is called a "full service" satellite, capable of orbit/attitude maneuver and radio links. In all, about 10 innovative, miniaturized technology advances were tested during the 90-day operational span. Among them are variable emittance coatings (to heat when cold and cool when hot), metal oxide logic circuits that can operate at 0.5 volts, miniature magnetometers, and miniature, spinning Sun-sensors. They orbit in a "string of pearls" formation. 
       
-      ST5 launched on March 22, 2006 onboard the Pegasus rocket out of Vandenberg. Approximately 10 min after launch, ejected 3 min apart frisbee-style. Mission duration was 90 days, 7 day launch and early orbit period, mission completed June 20, 2006. The orbit was 105.6 deg inclination (full sun orbit), ~300 km perigee, ~4500 km apogee, 136 minute period.
+      Approximately 10 min after launch, ejected 3 min apart frisbee-style. Mission duration was 90 days, 7 day launch and early orbit period, mission completed June 20, 2006. The orbit was 105.6 deg inclination (full sun orbit), ~300 km perigee, ~4500 km apogee, 136 minute period.
       
-      The ST5 micro-satellites were developed by NASA/GSFC in partnership with industry, other NASA centers and academia. They were built within tight volume and mass constraints, low-power and low voltage, size ~50 cm x 48 cm, integral card cage structure (for C&amp;DH, PSE), mass ~25 kg. Spacecraft-induced magnetic field effects as measured at the magnetometer
+     Spacecraft-induced magnetic field effects as measured at the magnetometer
 sensor location less than 10 nT (d.c.), 5 nT (a.c.). The spacecraft carried a science demonstration instrument, a high-resolution, high-precission, three-axis flux-gate magnetometer.
 
       The ST5 constellation returned unprecedented data on the Earth's auroral currents as well as on the crustal magnetic field. ST5 provided for the first time simultaneous multi-point measurements of auroral electric currents at low altitudes, which allow us to separate temporal and spatial variations of these currents. ST5 provided a unique data set on the Earth's crustal magnetic field, which is a consequence of both the constellation flying, and the enhanced resolution from the low perigee, lower than any previous geomagnetism mission.
       </Description>
       <Contact>
         <!-- Guan Le -->
-        <PersonID>spase://nssdc/person/???</PersonID>
+        <PersonID>spase://nssdc/person/Guan.Le</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
       <InformationURL>
-        <Name>WIND spacecraft home page</Name>
-        <URL>http://pwg.gsfc.nasa.gov/wind.shtml</URL>
+        <Name>ST5 Launch and Operations</Name>
+        <URL>http://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20070018186_2007017323.pdf</URL>
       </InformationURL>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1994-071A</URL>
-        <Description>Information about the Wind mission</Description>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2006-008B</URL>
+        <Description>NSSDC information about the ST5 mission</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>
-      <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
-      <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
-      <ObservatoryRegion>Earth.Magnetosphere.Magnetotail</ObservatoryRegion>
       <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
     </Location>
   </Observatory>
