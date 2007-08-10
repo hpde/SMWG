@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <NumericalData>
-    <ResourceID>spase://VMO/NumericalData/ST5-094/MAG/v1_PT01S</ResourceID>
+    <ResourceID>spase://VMO/NumericalData/ST5-155/MAG/v1_PT01S</ResourceID>
     <ResourceHeader>
-      <ResourceName>ST5-094 MAG Data</ResourceName>
-      <ReleaseDate>2007-08-10T20:40:57Z</ReleaseDate>
-      <Description>Magnetic field and position data from the ST5-094 satellite. Calibrated science quality data.</Description>
+      <ResourceName>ST5-155 MAG Data</ResourceName>
+      <ReleaseDate>2007-08-10T20:49:12Z</ReleaseDate>
+      <Description>Magnetic field and position data from the ST5-155 satellite. Calibrated science quality data.</Description>
       <Acknowledgement>User will acknowledge the ST5 magnetometer team in any publication resulting from the use of these data.</Acknowledgement>
       <Contact>
         <!-- G. Le -->
@@ -29,13 +29,13 @@
     <ProviderResourceName>ST5 MAG Data</ProviderResourceName>
     <ProviderProcessingLevel>Level 2</ProviderProcessingLevel>
     <ProviderVersion>1</ProviderVersion>
-    <InstrumentID>spase://VMO/Instrument/ST5-094/MAG</InstrumentID>
+    <InstrumentID>spase://VMO/Instrument/ST5-155/MAG</InstrumentID>
     <MeasurementType>Ephemeris</MeasurementType>
     <MeasurementType>MagneticField</MeasurementType>
     <TemporalDescription>
       <TimeSpan>
-        <StartDate>2006-03-26T19:45:50Z</StartDate>
-        <EndDate>2006-06-25T02:52:18Z</EndDate>
+        <StartDate>2006-03-25T00:00:27Z</StartDate>
+        <EndDate>2006-06-26T14:17:46Z</EndDate>
       </TimeSpan>
     </TemporalDescription>
     <ObservedRegion>Earth.Magnetosphere.Main</ObservedRegion>
