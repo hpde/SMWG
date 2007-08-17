@@ -7,15 +7,28 @@
       <ResourceName>AMPTE/IRM</ResourceName>
       <AlternateName>AMPTE/Ion Release Module</AlternateName>
       <AlternateName>IRM</AlternateName>
-      <ReleaseDate>2007-08-17T20:03:20Z</ReleaseDate>
+      <ReleaseDate>2007-08-17T22:49:59Z</ReleaseDate>
       <Description>The AMPTE (Active Magnetospheric Particle Tracer Explorers) mission was designed to study the access of solar-wind ions to the magnetosphere, the convective-diffusive transport and energization of magnetospheric particles, and the interactions of plasmas in space.
 
 The program consisted of three spacecraft: the CCE, which measured in the magnetosphere the ions released by the IRM; the IRM; and the UKS, which used thrusters to keep station near the IRM to provide two-point local measurements. The IRM provided multiple ion releases in the solar wind, the magnetosheath, and the magnetotail, with in situ diagnostics of each.
 
 The IRM spacecraft was spin-stabilized at 15 rpm. Its spin axis was initially in the ecliptic plane, but later it was adjusted with magnetic torqueing to be at right angles to the ecliptic. The power system was a 60 W solar array with redundant batteries. There was a redundant S-band telemetry and telecommand system. Telemetry rates could be chosen between 1 and 8 kbps. For injection into the final orbit, the IRM carried its own kick stage. In addition to the ion releases, the instruments on board the spacecraft monitored the ambient, magnetosphere, but with the data acquisition confined to the passes that could be tracked in real time from Germany.
 
-The spacecraft became inoperational as of 14 August 86. The PI for the German AMPTE Program was G. Haerendel. The release experiment and the diagnostic instruments were each provided by a lead investigator (LI). For more details, see B. Hausler et al., IEEE Transactions on Geoscience and Remote Sensing, v. GE-23, p. 192, 1985.
-</Description>
+The spacecraft became inoperational as of 14 August 86. The PI for the German AMPTE Program was G. Haerendel. The release experiment and the diagnostic instruments were each provided by a lead investigator (LI). 
+
+For more details, see B. Hausler et al., IEEE Transactions on Geoscience and Remote Sensing, v. GE-23, p. 192, 1985.
+
+Data-taking periods
+
+Data was typically taken during about 8 hours per day, while the satellite was visible from the German tracking station Weilheim.
+
+Lifetime
+
+After launch on 16 August 1984 IRM was taken through the usual commissioning phase and was declared fully operational three weeks later. The spacecraft was then operated until August 1986.
+
+Orbit evolution
+
+At launch the apogee of the IRM orbit was at a local time of 14:30 hours. As the mission progressed, the IRM apogee precessed to earlier local times at a rate of about 2 hours per month and had completed about 2 complete scans through all local times before the spacecraft ceased operation in August 1986. Thus IRM gave good coverage of all space plasma regions close to the Earth: the solar wind, bow shock, magnetosheath, magnetopause and plasma sheet. </Description>
       <Contact>
         <!-- Gerhard Haerendel -->
         <PersonID>spase://nssdc/person/3916</PersonID>
