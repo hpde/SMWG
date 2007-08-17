@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Person>
     <ResourceID>spase://nssdc/person/303</ResourceID>
+    <ReleaseDate>2007-08-17T20:21:44Z</ReleaseDate>
     <PersonName>Dr. Duncan A. Bryant</PersonName>
     <OrganizationName>Rutherford Appleton Laboratory</OrganizationName>
+    <Email>dab@ac.rl.uk</Email>
   </Person>
 </Spase>
