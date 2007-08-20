@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Person>
+    <ResourceID>spase://nssdc/person/Alan.Johnstone</ResourceID>
+    <ReleaseDate>2007-08-20T20:18:23Z</ReleaseDate>
+    <PersonName>Alan Johnstone</PersonName>
+    <OrganizationName>Mullard Space Science Laboratory</OrganizationName>
+    <Address>Mullard Space Science Laboratory, Holmbury St. Mary, Dorking, Surrey RH5 6NT, UK</Address>
+    <Email>adj@mssl.ucl.ac.uk</Email>
+    <PhoneNumber>+44 (0)1483 274111</PhoneNumber>
+  </Person>
+</Spase>
