@@ -1,5 +1,4 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!--$Id$-->
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
@@ -10,7 +9,7 @@
       <AlternateName>GGS/Wind</AlternateName>
       <AlternateName>Wind/ISTP</AlternateName>
       <AlternateName>Wind/GGS</AlternateName>
-      <ReleaseDate>2007-05-30T19:15:57Z</ReleaseDate>
+      <ReleaseDate>2007-08-27T21:08:10Z</ReleaseDate>
       <Description>
 The Wind spacecraft was launched on November 1, 1994 and is the first of two NASA spacecraft in the Global Geospace Science initiative and part of the ISTP Project. The science objectives of the WIND mission are: (1) Provide complete plasma, energetic particle, and magnetic field input for magnetospheric and ionospheric studies; (2) Determine the magnetospheric output to interplanetary space in the up-stream region; (3) Investigate basic plasma processes occurring in the near-Earth solar wind; and (4) Provide baseline ecliptic plane observations to be used in heliospheric latitudes from ULYSSES.
 
@@ -36,6 +35,7 @@ In 2001 and 2002 Wind has executed a distant prograde orbit that took it +/- 300
         <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1994-071A</URL>
         <Description>Information about the Wind mission</Description>
       </InformationURL>
+      <PriorID>spase://vspo/observatory/84</PriorID>
     </ResourceHeader>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>

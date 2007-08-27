@@ -1,5 +1,4 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!--$Id$-->
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
@@ -8,7 +7,7 @@
       <ResourceName>IMP 8</ResourceName>
       <AlternateName>IMP-J</AlternateName>
       <AlternateName>Explorer 50</AlternateName>
-      <ReleaseDate>2007-05-30T22:15:40Z</ReleaseDate>
+      <ReleaseDate>2007-08-27T21:05:55Z</ReleaseDate>
       <Description>IMP 8 (IMP-J or Explorer 50), the last satellite of the IMP series, was a drum-shaped spacecraft, 135.6 cm across and 157.4 cm high, instrumented for interplanetary and magnetotail studies of cosmic rays, energetic solar particles, plasma, and electric and magnetic fields. Its initial orbit was more elliptical than intended, with apogee and perigee distances of about 45 and 25 earth radii. Its eccentricity decreased after launch. Its orbital inclination varied between 0 deg and about 55 deg with a periodicity of several years. The spacecraft spin axis was normal to the ecliptic plane, and the spin rate was 23 rpm. The data telemetry rate was 1600 bps.
       
 The spacecraft was in the solar wind for 7 to 8 days of every 12.5 day orbit. Telemetry coverage was 90% in the early years, but only 60-70% through most of the 1980's and early 1990's. Coverage returned to the 90% range in the mid to late 1990's. 
@@ -31,6 +30,7 @@ In October, 2001, IMP 8 was terminated as an independent mission. Telemetry acqu
         <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1973-078A</URL>
         <Description>Information about the IMP-J mission</Description>
       </InformationURL>
+      <PriorID>spase://vspo/observatory/63</PriorID>
     </ResourceHeader>
     <ObservatoryGroup>IMP</ObservatoryGroup>
     <Location>
