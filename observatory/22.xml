@@ -5,12 +5,15 @@
     <ResourceID>spase://vspo/observatory/22</ResourceID>
     <ResourceHeader>
       <ResourceName>PIC_DU_MIDI</ResourceName>
-      <ReleaseDate>2007-01-03T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2007-08-27T18:40:19Z</ReleaseDate>
       <Description>Solar/astronomy observatory in the French Pyrenees</Description>
       <Contact>
         <PersonID>UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
     </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+    </Location>
   </Observatory>
 </Spase>

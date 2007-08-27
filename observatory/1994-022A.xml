@@ -7,10 +7,8 @@
       <ResourceName>GOES  8</ResourceName>
       <AlternateName>GOES-NEXT</AlternateName>
       <AlternateName>GOES-I</AlternateName>
-      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
-      <Description>
-GOES 8 is the 11th in a series of NASA-developed, NOAA-operated, geosynchronous and operational spacecraft. The triaxis-stabilized spacecraft carries (1) Imager and Sounder system to provide visible and infrared images of cloud cover, and to determine atmospheric temperature and water vapor content at various levels, (2) a meteorological data collection system to relay processed data from central weather facilities to regional stations equipped with APT and to collect and retransmit data from remotely located earth-based platforms, (3) a space environment monitor (SEM) system to measure proton, electron, and solar X-ray fluxes and magnetic fields, (4) a Search and Rescue (SAR) system to detect and relay distress calls from land and ocean, and (5) a WEFAX system to disseminate weather information to the user community via FAX. The cylindrically shaped spacecraft measures 190.5 cm in diameter and 230 cm in length, exclusive of a magnetometer that extends an additional 300 cm beyond the cylindrical shell. The imaging telescope is mounted on the equipment shelf and views the earth through a special aperture in the side of the spacecraft. The solar array of 1,057 W supplies two nickel-cadmium batteries of 12 Ampere-hour each. The CCSDS-compliant telemetry is in real-time at 2.0 kbs through S-bands. The eventual parking longitude of the spacecraft will be over 75 deg W. The SEC package (X-rays, H+, e-, monitors, and the Magnetometer) became inoperational on or before April 2003.
-      </Description>
+      <ReleaseDate>2007-08-27T18:40:19Z</ReleaseDate>
+      <Description>GOES 8 is the 11th in a series of NASA-developed, NOAA-operated, geosynchronous and operational spacecraft. The triaxis-stabilized spacecraft carries (1) Imager and Sounder system to provide visible and infrared images of cloud cover, and to determine atmospheric temperature and water vapor content at various levels, (2) a meteorological data collection system to relay processed data from central weather facilities to regional stations equipped with APT and to collect and retransmit data from remotely located earth-based platforms, (3) a space environment monitor (SEM) system to measure proton, electron, and solar X-ray fluxes and magnetic fields, (4) a Search and Rescue (SAR) system to detect and relay distress calls from land and ocean, and (5) a WEFAX system to disseminate weather information to the user community via FAX. The cylindrically shaped spacecraft measures 190.5 cm in diameter and 230 cm in length, exclusive of a magnetometer that extends an additional 300 cm beyond the cylindrical shell. The imaging telescope is mounted on the equipment shelf and views the earth through a special aperture in the side of the spacecraft. The solar array of 1,057 W supplies two nickel-cadmium batteries of 12 Ampere-hour each. The CCSDS-compliant telemetry is in real-time at 2.0 kbs through S-bands. The eventual parking longitude of the spacecraft will be over 75 deg W. The SEC package (X-rays, H+, e-, monitors, and the Magnetometer) became inoperational on or before April 2003.</Description>
       <Contact>
         <PersonID>UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
@@ -20,7 +18,11 @@ GOES 8 is the 11th in a series of NASA-developed, NOAA-operated, geosynchronous 
         <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1994-022A</URL>
         <Description>Information about the GOES  8 mission</Description>
       </InformationURL>
+      <PriorID>spase://vspo/observatory/37</PriorID>
     </ResourceHeader>
     <ObservatoryGroup>GOES</ObservatoryGroup>
+    <Location>
+      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+    </Location>
   </Observatory>
 </Spase>

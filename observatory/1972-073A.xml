@@ -7,10 +7,8 @@
       <ResourceName>IMP-H</ResourceName>
       <AlternateName>Explorer 47</AlternateName>
       <AlternateName>IMP 7</AlternateName>
-      <ReleaseDate>2005-07-07T00:00:00Z</ReleaseDate>
-      <Description>
-IMP-H continued the study begun by earlier IMP spacecraft of the interplanetary and magnetotail regions from a nearly circular orbit, near 37 earth radii. This 16-sided drum-shaped spacecraft was 157 cm high and 135 cm in diameter. It was designed to measure energetic particles, plasma, and electric and magnetic fields. The spin axis was normal to the ecliptic plane, and the spin period was 1.3 s. The spacecraft was powered by solar cells and a chemical battery. Scientific data were telemetered at 1600 bps (with a secondary 400-bps rate available). The spacecraft was turned off on October 31, 1978.
-      </Description>
+      <ReleaseDate>2007-08-27T18:40:18Z</ReleaseDate>
+      <Description>IMP-H continued the study begun by earlier IMP spacecraft of the interplanetary and magnetotail regions from a nearly circular orbit, near 37 earth radii. This 16-sided drum-shaped spacecraft was 157 cm high and 135 cm in diameter. It was designed to measure energetic particles, plasma, and electric and magnetic fields. The spin axis was normal to the ecliptic plane, and the spin period was 1.3 s. The spacecraft was powered by solar cells and a chemical battery. Scientific data were telemetered at 1600 bps (with a secondary 400-bps rate available). The spacecraft was turned off on October 31, 1978.</Description>
       <Contact>
         <PersonID>spase://nssdc/person/18</PersonID>
         <Role>ProjectScientist</Role>
@@ -24,7 +22,11 @@ IMP-H continued the study begun by earlier IMP spacecraft of the interplanetary 
         <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1972-073A</URL>
         <Description>Information about the IMP-H mission</Description>
       </InformationURL>
+      <PriorID>spase://vspo/observatory/62</PriorID>
     </ResourceHeader>
     <ObservatoryGroup>IMP</ObservatoryGroup>
+    <Location>
+      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+    </Location>
   </Observatory>
 </Spase>

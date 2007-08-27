@@ -5,10 +5,8 @@
     <ResourceID>spase://nssdc/observatory/1983-067A</ResourceID>
     <ResourceHeader>
       <ResourceName>Prognoz  9</ResourceName>
-      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
-      <Description>
-This spacecraft was one of a continuing series to measure electromagnetic radiation, magnetic fields, plasma, and charged particles. Although the specifics on all experiments are not available, it is known that a hard X-ray spectrometer, a magnetic field measuring experiment, and an 8-mm radio telescope were flown on Prognoz 9, and possibly a plasma experiment was also on board. The spacecraft was spin-stabilized, with a period of approximately two minutes, and the spin axis was oriented toward the sun. The initial apogee distance was 720,000 km, and the period was 27 days.
-      </Description>
+      <ReleaseDate>2007-08-27T18:40:19Z</ReleaseDate>
+      <Description>This spacecraft was one of a continuing series to measure electromagnetic radiation, magnetic fields, plasma, and charged particles. Although the specifics on all experiments are not available, it is known that a hard X-ray spectrometer, a magnetic field measuring experiment, and an 8-mm radio telescope were flown on Prognoz 9, and possibly a plasma experiment was also on board. The spacecraft was spin-stabilized, with a period of approximately two minutes, and the spin axis was oriented toward the sun. The initial apogee distance was 720,000 km, and the period was 27 days.</Description>
       <Contact>
         <PersonID>spase://nssdc/person/16789</PersonID>
         <Role>ProjectScientist</Role>
@@ -18,7 +16,11 @@ This spacecraft was one of a continuing series to measure electromagnetic radiat
         <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1983-067A</URL>
         <Description>Information about the Prognoz  9 mission</Description>
       </InformationURL>
+      <PriorID>spase://vspo/observatory/96</PriorID>
     </ResourceHeader>
     <ObservatoryGroup>PROGNOZ</ObservatoryGroup>
+    <Location>
+      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+    </Location>
   </Observatory>
 </Spase>

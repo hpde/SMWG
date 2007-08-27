@@ -8,9 +8,8 @@
       <AlternateName>FM7</AlternateName>
       <AlternateName>Samba</AlternateName>
       <AlternateName>Cluster-3</AlternateName>
-      <ReleaseDate>2005-09-21T00:00:00Z</ReleaseDate>
-      <Description>
-This Cluster II spacecraft, FM7 (Samba), was launched together with FM6 (Salsa) by a Soyuz-Fregat rocket from Baikonur. The four similar spacecraft of the Cluster II mission are part of ESA's and NASA's Solar-Terrestrial Science Program (STSP). The current Cluster II mission is a near-replica of the original four-spacecraft mission lost at launch in 1996. (NSSDC will carry the name "Cluster96" in its information files to designate the unsuccessful 1996 four-spacecraft Ariane 5 launch.) The purpose of the Cluster II mission is to study small-scale structures in three dimensions in the Earth's plasma environment, such as those involved in the interaction between the solar wind and the magnetospheric plasma, in global magnetotail dynamics, in cross-tail currents, and in the formation and dynamics of the neutral line and of plasmoids.
+      <ReleaseDate>2007-08-27T18:40:19Z</ReleaseDate>
+      <Description>This Cluster II spacecraft, FM7 (Samba), was launched together with FM6 (Salsa) by a Soyuz-Fregat rocket from Baikonur. The four similar spacecraft of the Cluster II mission are part of ESA's and NASA's Solar-Terrestrial Science Program (STSP). The current Cluster II mission is a near-replica of the original four-spacecraft mission lost at launch in 1996. (NSSDC will carry the name "Cluster96" in its information files to designate the unsuccessful 1996 four-spacecraft Ariane 5 launch.) The purpose of the Cluster II mission is to study small-scale structures in three dimensions in the Earth's plasma environment, such as those involved in the interaction between the solar wind and the magnetospheric plasma, in global magnetotail dynamics, in cross-tail currents, and in the formation and dynamics of the neutral line and of plasmoids.
 
 The four Cluster II spacecraft will orbit in a tetrahedral formation in near-polar orbits of nominally 4 x 19.6 Earth radii, with period about 57 hours, and inclination about 90.7 degrees.. Relative distances between the spacecraft will be adjusted in the course of the mission, depending on the spatial scales of the structures to be studied, varying from a few hundred km to a few Earth radii. The tetrahedral formation is essential for making three-dimensional measurements and for determining the curl of vectorial quantities such as the magnetic field.
 
@@ -30,8 +29,7 @@ An article on 'The Resurrection of the Cluster Scientific Mission' was published
 
 A complete overview of the original mission, written before the loss with Ariane-5, was given in a series of articles in ESA Bulletin no. 84 (November 1995).
 
-ESA SP-1159, Paris, March 1993 is entitled "Cluster: Mission, Payload and Supporting Activities."
-      </Description>
+ESA SP-1159, Paris, March 1993 is entitled "Cluster: Mission, Payload and Supporting Activities."</Description>
       <Contact>
         <PersonID>spase://nssdc/person/11717</PersonID>
         <Role>ProjectScientist</Role>
@@ -41,7 +39,13 @@ ESA SP-1159, Paris, March 1993 is entitled "Cluster: Mission, Payload and Suppor
         <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2000-041A</URL>
         <Description>Information about the Cluster 2/FM7 (Samba) mission</Description>
       </InformationURL>
+      <PriorID>spase://vspo/observatory/31</PriorID>
     </ResourceHeader>
     <ObservatoryGroup>CLUSTER</ObservatoryGroup>
+    <Location>
+      <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere.Polar</ObservatoryRegion>
+    </Location>
   </Observatory>
 </Spase>

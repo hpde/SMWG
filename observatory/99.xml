@@ -5,12 +5,15 @@
     <ResourceID>spase://vspo/observatory/99</ResourceID>
     <ResourceHeader>
       <ResourceName>ICE</ResourceName>
-      <ReleaseDate>2007-01-03T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2007-08-27T18:40:20Z</ReleaseDate>
       <Description>International Cometary Explorer</Description>
       <Contact>
         <PersonID>UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
     </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Heliosphere.Remote1AU</ObservatoryRegion>
+    </Location>
   </Observatory>
 </Spase>

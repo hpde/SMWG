@@ -7,10 +7,8 @@
       <ResourceName>Ohzora</ResourceName>
       <AlternateName>Exospheric Sat. C</AlternateName>
       <AlternateName>EXOS-C</AlternateName>
-      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
-      <Description>
-The purpose of this mission was to perform remote sensing of the minor constituents of the middle atmosphere and to study the wave-particle interactions in the ionospheric plasma in the South American anomaly and the auroral zones. This mission is part of the Middle Atmosphere Program (MAP).
-      </Description>
+      <ReleaseDate>2007-08-27T18:40:19Z</ReleaseDate>
+      <Description>The purpose of this mission was to perform remote sensing of the minor constituents of the middle atmosphere and to study the wave-particle interactions in the ionospheric plasma in the South American anomaly and the auroral zones. This mission is part of the Middle Atmosphere Program (MAP).</Description>
       <Contact>
         <PersonID>spase://nssdc/person/1906</PersonID>
         <Role>ProjectScientist</Role>
@@ -24,6 +22,10 @@ The purpose of this mission was to perform remote sensing of the minor constitue
         <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1984-015A</URL>
         <Description>Information about the Ohzora mission</Description>
       </InformationURL>
+      <PriorID>spase://vspo/observatory/102</PriorID>
     </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+    </Location>
   </Observatory>
 </Spase>

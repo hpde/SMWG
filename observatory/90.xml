@@ -5,12 +5,15 @@
     <ResourceID>spase://vspo/observatory/90</ResourceID>
     <ResourceHeader>
       <ResourceName>VOSTOKANTARCTICA</ResourceName>
-      <ReleaseDate>2007-01-03T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2007-08-27T18:40:20Z</ReleaseDate>
       <Description>Vostok, Antarctica is located near the Geomagnetic South Pole.</Description>
       <Contact>
         <PersonID>UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
     </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+    </Location>
   </Observatory>
 </Spase>

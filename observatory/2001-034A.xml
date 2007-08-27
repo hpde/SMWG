@@ -6,9 +6,8 @@
     <ResourceHeader>
       <ResourceName>Genesis</ResourceName>
       <AlternateName>Genesis Solar Wind Sample Return</AlternateName>
-      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
-      <Description>
-The parachute on the Genesis sample return capsule failed to deploy on re-entry. The capsule crashed in the Utah desert. The fragments from the sample return container have been packaged for shipment to Johnson Space Center's curation facility in early October. Scientists are optimistic that they will be able to salvage useful data from the samples.
+      <ReleaseDate>2007-08-27T18:40:19Z</ReleaseDate>
+      <Description>The parachute on the Genesis sample return capsule failed to deploy on re-entry. The capsule crashed in the Utah desert. The fragments from the sample return container have been packaged for shipment to Johnson Space Center's curation facility in early October. Scientists are optimistic that they will be able to salvage useful data from the samples.
 
 The primary objective of the Genesis mission is to collect samples of solar wind particles and return them to Earth for detailed analysis. The science objectives are to obtain precise measurements of solar isotopic and elemental abundances and provide a reservoir of solar matter for future scientific analysis. Specifically, the primary scientific objectives were to obtain precise measurements of isotope ratios of oxygen, nitrogen, and solar wind isotopic fractionation. Study of these samples will allow testing of theories of solar system formation and evolution and early nebular composition. A total sample mass of roughly 10 to 20 micrograms is expected.
 
@@ -50,8 +49,7 @@ The original plan for re-entry was as follows: Six minutes after drogue chute de
 
 There was some concern that the sample return capsule battery would fail, jeopardizing the re-entry. The battery was overheating in space, but ground tests showed that the battery should have been unaffected by the amount of heating it had endured, and should have operated to deploy the parachute on reentry. The actual cause of the parachute deployment failure is not known at this time.
 
-Genesis was the fifth launch in NASA's Discovery program. The total cost of the project is $164 million for spacecraft development and science instruments and $45 million for operations and science data analysis.
-      </Description>
+Genesis was the fifth launch in NASA's Discovery program. The total cost of the project is $164 million for spacecraft development and science instruments and $45 million for operations and science data analysis.</Description>
       <Contact>
         <PersonID>spase://nssdc/person/7280</PersonID>
         <Role>PrincipalInvestigator</Role>
@@ -61,6 +59,10 @@ Genesis was the fifth launch in NASA's Discovery program. The total cost of the 
         <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2001-034A</URL>
         <Description>Information about the Genesis mission</Description>
       </InformationURL>
+      <PriorID>spase://vspo/observatory/42</PriorID>
     </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+    </Location>
   </Observatory>
 </Spase>

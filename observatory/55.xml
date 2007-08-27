@@ -5,12 +5,15 @@
     <ResourceID>spase://vspo/observatory/55</ResourceID>
     <ResourceHeader>
       <ResourceName>LANL2001</ResourceName>
-      <ReleaseDate>2007-01-03T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2007-08-27T18:40:20Z</ReleaseDate>
       <Description>Geosynchronous spacecraft carrying energetic electron and ion instruments</Description>
       <Contact>
         <PersonID>UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
     </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
+    </Location>
   </Observatory>
 </Spase>

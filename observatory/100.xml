@@ -5,12 +5,15 @@
     <ResourceID>spase://vspo/observatory/100</ResourceID>
     <ResourceHeader>
       <ResourceName>CANOPUS</ResourceName>
-      <ReleaseDate>2007-01-03T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2007-08-27T18:40:17Z</ReleaseDate>
       <Description>Canadian chain of magnetometers and riometers</Description>
       <Contact>
         <PersonID>UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
     </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+    </Location>
   </Observatory>
 </Spase>

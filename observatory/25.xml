@@ -5,7 +5,7 @@
     <ResourceID>spase://vspo/observatory/25</ResourceID>
     <ResourceHeader>
       <ResourceName>DMSP_5D-2</ResourceName>
-      <ReleaseDate>2007-01-03T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2007-08-27T18:40:20Z</ReleaseDate>
       <Description>Earth imaging, sun-synchronous spacecraft that also measure magnetic fields and particles</Description>
       <Contact>
         <PersonID>UNKNOWN</PersonID>
@@ -13,5 +13,9 @@
       </Contact>
     </ResourceHeader>
     <ObservatoryGroup>DMSP</ObservatoryGroup>
+    <Location>
+      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+      <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+    </Location>
   </Observatory>
 </Spase>

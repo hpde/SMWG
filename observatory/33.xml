@@ -5,12 +5,15 @@
     <ResourceID>spase://vspo/observatory/33</ResourceID>
     <ResourceHeader>
       <ResourceName>DMSP</ResourceName>
-      <ReleaseDate>2007-01-03T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2007-08-27T18:40:20Z</ReleaseDate>
       <Description>Military imaging spacecraft that also measure downward particle fluxes near the Earth; sun-synchronous polar orbit at 830 km altitude.</Description>
       <Contact>
         <PersonID>UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
     </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+    </Location>
   </Observatory>
 </Spase>

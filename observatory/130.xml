@@ -5,7 +5,7 @@
     <ResourceID>spase://vspo/observatory/130</ResourceID>
     <ResourceHeader>
       <ResourceName>FSIM</ResourceName>
-      <ReleaseDate>2007-01-03T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2007-08-27T18:40:18Z</ReleaseDate>
       <Description>Fort Simpson</Description>
       <Contact>
         <PersonID>UNKNOWN</PersonID>
@@ -13,5 +13,8 @@
       </Contact>
     </ResourceHeader>
     <ObservatoryGroup>CARISMA</ObservatoryGroup>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+    </Location>
   </Observatory>
 </Spase>

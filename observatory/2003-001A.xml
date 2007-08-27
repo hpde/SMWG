@@ -5,10 +5,8 @@
     <ResourceID>spase://nssdc/observatory/2003-001A</ResourceID>
     <ResourceHeader>
       <ResourceName>Coriolis</ResourceName>
-      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
-      <Description>
-Coriolis is an American (DOD) spacecraft that was launched by a Titan 2 rocket from Vandenberg AFB at 14:19 UT on January 2003. The 395 kg, 1,174 W, 3.0 m diameter, 6.9 m high, triaxially-stabilized spacecraft carried 82 kg of fuel and 340 kg of instruments. The two instruments are WindSat to monitor ocean surface winds, and SMEI to image Solar Mass Ejections (SME). Data will be stored onboard and downlinked to dedicated ground stations in x-band.
-      </Description>
+      <ReleaseDate>2007-08-27T18:40:19Z</ReleaseDate>
+      <Description>Coriolis is an American (DOD) spacecraft that was launched by a Titan 2 rocket from Vandenberg AFB at 14:19 UT on January 2003. The 395 kg, 1,174 W, 3.0 m diameter, 6.9 m high, triaxially-stabilized spacecraft carried 82 kg of fuel and 340 kg of instruments. The two instruments are WindSat to monitor ocean surface winds, and SMEI to image Solar Mass Ejections (SME). Data will be stored onboard and downlinked to dedicated ground stations in x-band.</Description>
       <Contact>
         <PersonID>UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
@@ -18,6 +16,10 @@ Coriolis is an American (DOD) spacecraft that was launched by a Titan 2 rocket f
         <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2003-001A</URL>
         <Description>Information about the Coriolis mission</Description>
       </InformationURL>
+      <PriorID>spase://vspo/observatory/92</PriorID>
     </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+    </Location>
   </Observatory>
 </Spase>

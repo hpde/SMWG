@@ -9,9 +9,8 @@
       <AlternateName>ISTP/Geotail</AlternateName>
       <AlternateName>GGS/Geotail</AlternateName>
       <AlternateName>Geomagnetic Tail Lab</AlternateName>
-      <ReleaseDate>2006-03-08T00:00:00Z</ReleaseDate>
-      <Description>
-The solar wind draws the Earth's magnetic field into a long tail on the nightside of the Earth and stores energy in the stretched field lines of the magnetotail. During active periods, the tail couples with the near-Earth magnetosphere, sometimes releasing energy stored in the tail and activating auroras in the polar ionosphere.
+      <ReleaseDate>2007-08-27T18:40:19Z</ReleaseDate>
+      <Description>The solar wind draws the Earth's magnetic field into a long tail on the nightside of the Earth and stores energy in the stretched field lines of the magnetotail. During active periods, the tail couples with the near-Earth magnetosphere, sometimes releasing energy stored in the tail and activating auroras in the polar ionosphere.
 
 The Geotail mission measures global energy flow and transformation in the magnetotail to increase understanding of fundamental magnetospheric processes. This includes the physics of the magnetopause magnetospheric boundary regions, the lobe and plasma sheet, and reconnection and neutral line formation, i.e., the mechanisms processes of input, transport, storage, release and conversion of mass, momentum and energy in the magnetotail.
 
@@ -23,8 +22,7 @@ The Geotail mission is divided into two phases. During the two-year initial phas
 
 Details on the Geotail mission and instrumentation are given in the Journal of Geomagnetism and Geoelectricity (Vol. 46, No. 1, 1994); online from JGG at
 
-http://www.terrapub.co.jp/journals/EPS/JGG
-      </Description>
+http://www.terrapub.co.jp/journals/EPS/JGG</Description>
       <Contact>
         <PersonID>spase://nssdc/person/2248</PersonID>
         <Role>ProjectScientist</Role>
@@ -38,6 +36,11 @@ http://www.terrapub.co.jp/journals/EPS/JGG
         <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1992-044A</URL>
         <Description>Information about the Geotail mission</Description>
       </InformationURL>
+      <PriorID>spase://vspo/observatory/1</PriorID>
     </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+    </Location>
   </Observatory>
 </Spase>

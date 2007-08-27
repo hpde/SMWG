@@ -7,12 +7,10 @@
       <ResourceName>ISIS 1</ResourceName>
       <AlternateName>International Sats for Ionosph Studies</AlternateName>
       <AlternateName>ISIS-A</AlternateName>
-      <ReleaseDate>2006-04-28T00:00:00Z</ReleaseDate>
-      <Description>
-ISIS 1 was an ionospheric observatory instrumented with sweep- and fixed-frequency ionosondes, a VLF receiver, energetic and soft particle detectors, an ion mass spectrometer, an electrostatic probe, an electrostatic analyzer, a beacon transmitter, and a cosmic noise experiment. The sounder used two dipole antennas (73 and 18.7 m long). The satellite was spin-stabilized at about 2.9 rpm after antenna deployment. Some control was exercised over the spin rate and attitude by using magnetically induced torques to change the spin rate and to precess the spin axis. A tape recorder with 1-h capacity was included on the satellite. The satellite could be programmed to take recorded observations for four different time periods for each full recording period. The recorder data were dumped only at Ottawa. For non-tape-recorded observations, data for the satellite and subsatellite regions could be acquired and telemetered when the spacecraft was in the line of sight of telemetry stations. The selected telemetry stations were in areas that provided primary data coverage near the 80-deg-W meridian and in areas near Hawaii, Singapore, Australia, the UK, Norway, India, Japan, Antarctica, New Zealand, and Central Africa. NASA support of the ISIS project was terminated on October 1, 1979. A significant amount of experimental data, however, was acquired after this date by the Canadian project team. ISIS 1 operations were terminated in Canada on March 9, 1984. The Radio Research Laboratories (Tokyo, Japan) then requested and received permission to reactivate ISIS 1. Regular ISIS 1 operations were started from Kashima, Japan, in early August 1984. ISIS 1 was deactivated effective January 24, 1990. A data restoration effort began in the late ninties and successfully saved a considerable portion of the high-resolution data before the telemetry tapes were discarted. More information about this effort and access to the data on CDAWeb and nssdcftp can be found at
+      <ReleaseDate>2007-08-27T18:40:18Z</ReleaseDate>
+      <Description>ISIS 1 was an ionospheric observatory instrumented with sweep- and fixed-frequency ionosondes, a VLF receiver, energetic and soft particle detectors, an ion mass spectrometer, an electrostatic probe, an electrostatic analyzer, a beacon transmitter, and a cosmic noise experiment. The sounder used two dipole antennas (73 and 18.7 m long). The satellite was spin-stabilized at about 2.9 rpm after antenna deployment. Some control was exercised over the spin rate and attitude by using magnetically induced torques to change the spin rate and to precess the spin axis. A tape recorder with 1-h capacity was included on the satellite. The satellite could be programmed to take recorded observations for four different time periods for each full recording period. The recorder data were dumped only at Ottawa. For non-tape-recorded observations, data for the satellite and subsatellite regions could be acquired and telemetered when the spacecraft was in the line of sight of telemetry stations. The selected telemetry stations were in areas that provided primary data coverage near the 80-deg-W meridian and in areas near Hawaii, Singapore, Australia, the UK, Norway, India, Japan, Antarctica, New Zealand, and Central Africa. NASA support of the ISIS project was terminated on October 1, 1979. A significant amount of experimental data, however, was acquired after this date by the Canadian project team. ISIS 1 operations were terminated in Canada on March 9, 1984. The Radio Research Laboratories (Tokyo, Japan) then requested and received permission to reactivate ISIS 1. Regular ISIS 1 operations were started from Kashima, Japan, in early August 1984. ISIS 1 was deactivated effective January 24, 1990. A data restoration effort began in the late ninties and successfully saved a considerable portion of the high-resolution data before the telemetry tapes were discarted. More information about this effort and access to the data on CDAWeb and nssdcftp can be found at
 
-http://nssdc.gsfc.nasa.gov/space/isis/isis-status.html
-      </Description>
+http://nssdc.gsfc.nasa.gov/space/isis/isis-status.html</Description>
       <Contact>
         <PersonID>spase://nssdc/person/6839</PersonID>
         <Role>ProjectScientist</Role>
@@ -24,14 +22,17 @@ http://nssdc.gsfc.nasa.gov/space/isis/isis-status.html
       <Contact>
         <PersonID>spase://nssdc/person/2255</PersonID>
         <Role>TeamLeader</Role>
-        <!-- ProjectManager -->
       </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1969-009A</URL>
         <Description>Information about the ISIS 1 mission</Description>
       </InformationURL>
+      <PriorID>spase://vspo/observatory/10</PriorID>
     </ResourceHeader>
     <ObservatoryGroup>ISIS</ObservatoryGroup>
+    <Location>
+      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+    </Location>
   </Observatory>
 </Spase>

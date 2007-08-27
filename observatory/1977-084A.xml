@@ -6,9 +6,8 @@
     <ResourceHeader>
       <ResourceName>Voyager 1</ResourceName>
       <AlternateName>Mariner Jupiter/Saturn A</AlternateName>
-      <ReleaseDate>2005-01-28T00:00:00Z</ReleaseDate>
-      <Description>
-Voyager 1 was one of a pair of spacecraft launched to explore the planets of the outer solar system and the interplanetary environment. Each Voyager had as its major objectives at each planet to: (1) investigate the circulation, dynamics, structure, and composition of the planet's atmosphere; (2) characterize the morphology, geology, and physical state of the satellites of the planet; (3) provide improved values for the mass, size, and shape of the planet, its satellites, and any rings; and, (4) determine the magnetic field structure and characterize the composition and distribution of energetic trapped particles and plasma therein.
+      <ReleaseDate>2007-08-27T18:40:18Z</ReleaseDate>
+      <Description>Voyager 1 was one of a pair of spacecraft launched to explore the planets of the outer solar system and the interplanetary environment. Each Voyager had as its major objectives at each planet to: (1) investigate the circulation, dynamics, structure, and composition of the planet's atmosphere; (2) characterize the morphology, geology, and physical state of the satellites of the planet; (3) provide improved values for the mass, size, and shape of the planet, its satellites, and any rings; and, (4) determine the magnetic field structure and characterize the composition and distribution of energetic trapped particles and plasma therein.
 
 Spacecraft and Subsystems
 
@@ -40,8 +39,7 @@ Onward and Outward
 
 Rechristened the Voyager Interstellar Mission (VIM) by NASA in 1989 (after Voyager 2's Neptune encounter), Voyager 1 continues operations, taking measurements of the interplanetary magnetic field, plasma, and charged particle environment while searching for the heliopause (the distance at which the solar wind becomes subsumed by the more general interstellar wind). Through the end of the Neptune phase of the Voyager project, a total of $875 million had been expended for the construction, launch, and operations of both Voyager spacecraft. An additional $30 million was allocated for the first two years of VIM.
 
-Voyager 1 is speeding away from the Sun at a velocity of about 3.50 AU/year toward a point in the sky of RA= 262 degrees, Dec=+12 degrees (35.55 degrees ecliptic latitude, 260.78 degrees ecliptic longitude). Late on 17 February 1998, Voyager 1 became the most distant man-made object from the Sun, surpassing the distance of Pioneer 10.
-      </Description>
+Voyager 1 is speeding away from the Sun at a velocity of about 3.50 AU/year toward a point in the sky of RA= 262 degrees, Dec=+12 degrees (35.55 degrees ecliptic latitude, 260.78 degrees ecliptic longitude). Late on 17 February 1998, Voyager 1 became the most distant man-made object from the Sun, surpassing the distance of Pioneer 10.</Description>
       <Contact>
         <PersonID>spase://nssdc/person/3380</PersonID>
         <Role>ProjectScientist</Role>
@@ -51,7 +49,12 @@ Voyager 1 is speeding away from the Sun at a velocity of about 3.50 AU/year towa
         <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1977-084A</URL>
         <Description>Information about the Voyager 1 mission</Description>
       </InformationURL>
+      <PriorID>spase://vspo/observatory/82</PriorID>
     </ResourceHeader>
     <ObservatoryGroup>VOYAGER</ObservatoryGroup>
+    <Location>
+      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+      <ObservatoryRegion>Heliosphere.Outer</ObservatoryRegion>
+    </Location>
   </Observatory>
 </Spase>

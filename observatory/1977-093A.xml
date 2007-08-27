@@ -5,10 +5,8 @@
     <ResourceID>spase://nssdc/observatory/1977-093A</ResourceID>
     <ResourceHeader>
       <ResourceName>Prognoz  6</ResourceName>
-      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
-      <Description>
-This spacecraft was a member of a continuing series to measure charged particles, plasma, magnetic fields, and solar electromagnetic radiation. This mission was part of the socialist countries' contribution to the International Magnetospheric Study. The specific scientific goals of this mission were: (1) to study acceleration processes in the solar corona and flare acceleration of charged particles; (2) to monitor the propagation of accelerated particles from the solar corona to interplanetary space; (3) to observe particle acceleration from interplanetary shock fronts; (4) to measure the chemical and charge composition of the solar wind and solar energetic particles; (5) to study instability processes in interplanetary plasma and wave environments; (6) to study the propagation and penetration into the magnetosphere of solar plasma and energetic particles; (7) to monitor magnetotail plasma dynamics during substorms; (8) to search for discrete gamma ray lines of solar and galactic origin, and (9) to study UV-emission in the upper atmosphere and the interplanetary medium. Data were obtained from a 5-megabit storage during each perigee so that continuous data acquisition over the whole orbit was achieved.
-      </Description>
+      <ReleaseDate>2007-08-27T18:40:18Z</ReleaseDate>
+      <Description>This spacecraft was a member of a continuing series to measure charged particles, plasma, magnetic fields, and solar electromagnetic radiation. This mission was part of the socialist countries' contribution to the International Magnetospheric Study. The specific scientific goals of this mission were: (1) to study acceleration processes in the solar corona and flare acceleration of charged particles; (2) to monitor the propagation of accelerated particles from the solar corona to interplanetary space; (3) to observe particle acceleration from interplanetary shock fronts; (4) to measure the chemical and charge composition of the solar wind and solar energetic particles; (5) to study instability processes in interplanetary plasma and wave environments; (6) to study the propagation and penetration into the magnetosphere of solar plasma and energetic particles; (7) to monitor magnetotail plasma dynamics during substorms; (8) to search for discrete gamma ray lines of solar and galactic origin, and (9) to study UV-emission in the upper atmosphere and the interplanetary medium. Data were obtained from a 5-megabit storage during each perigee so that continuous data acquisition over the whole orbit was achieved.</Description>
       <Contact>
         <PersonID>spase://nssdc/person/16789</PersonID>
         <Role>ProjectScientist</Role>
@@ -18,7 +16,11 @@ This spacecraft was a member of a continuing series to measure charged particles
         <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1977-093A</URL>
         <Description>Information about the Prognoz  6 mission</Description>
       </InformationURL>
+      <PriorID>spase://vspo/observatory/94</PriorID>
     </ResourceHeader>
     <ObservatoryGroup>PROGNOZ</ObservatoryGroup>
+    <Location>
+      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+    </Location>
   </Observatory>
 </Spase>

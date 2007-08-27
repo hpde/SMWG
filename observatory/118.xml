@@ -5,12 +5,15 @@
     <ResourceID>spase://vspo/observatory/118</ResourceID>
     <ResourceHeader>
       <ResourceName>ISLL</ResourceName>
-      <ReleaseDate>2007-01-03T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2007-08-27T18:40:18Z</ReleaseDate>
       <Description>Island Lake</Description>
       <Contact>
         <PersonID>UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
     </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+    </Location>
   </Observatory>
 </Spase>

@@ -5,7 +5,7 @@
     <ResourceID>spase://vspo/observatory/4</ResourceID>
     <ResourceHeader>
       <ResourceName>ESF</ResourceName>
-      <ReleaseDate>2007-01-03T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2007-08-27T18:40:20Z</ReleaseDate>
       <Description>Evans Solar Facility</Description>
       <Contact>
         <PersonID>UNKNOWN</PersonID>
@@ -13,5 +13,8 @@
       </Contact>
     </ResourceHeader>
     <ObservatoryGroup>NSO</ObservatoryGroup>
+    <Location>
+      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+    </Location>
   </Observatory>
 </Spase>

@@ -6,10 +6,8 @@
     <ResourceHeader>
       <ResourceName>NOAA  8</ResourceName>
       <AlternateName>NOAA-E</AlternateName>
-      <ReleaseDate>2000-05-17T00:00:00Z</ReleaseDate>
-      <Description>
-NOAA 8 was a third-generation operational meteorological satellite for use in the National Environmental Satellite Data and Information Service (NESDIS) of NOAA. NOAA 8 was the first spacecraft of the advanced TIROS-N (ATN) series. The satellite design provided an economical and stable sun-synchronous platform for advanced operational instruments to measure the earth's atmosphere, its surface and cloud cover, and the near-space environment. Primary sensors included an advanced very high resolution radiometer (AVHRR) and a TIROS operational vertical sounder (TOVS). Secondary experiments consisted of a space environment monitor (SEM) and a data collection and platform location system (DCPLS). A search and rescue satellite aided tracking (SARSAT) system was also included on NOAA 8. The satellite was based upon the Block 5D spacecraft bus developed for the U.S. Air Force, and it was capable of maintaining an earth-pointing accuracy of better than plus or minus 0.1 deg with a motion rate of less than 0.035 deg/s. Although designed for a 2-year life span, NOAA 8 experienced a premature failure in June 1984.
-      </Description>
+      <ReleaseDate>2007-08-27T18:40:19Z</ReleaseDate>
+      <Description>NOAA 8 was a third-generation operational meteorological satellite for use in the National Environmental Satellite Data and Information Service (NESDIS) of NOAA. NOAA 8 was the first spacecraft of the advanced TIROS-N (ATN) series. The satellite design provided an economical and stable sun-synchronous platform for advanced operational instruments to measure the earth's atmosphere, its surface and cloud cover, and the near-space environment. Primary sensors included an advanced very high resolution radiometer (AVHRR) and a TIROS operational vertical sounder (TOVS). Secondary experiments consisted of a space environment monitor (SEM) and a data collection and platform location system (DCPLS). A search and rescue satellite aided tracking (SARSAT) system was also included on NOAA 8. The satellite was based upon the Block 5D spacecraft bus developed for the U.S. Air Force, and it was capable of maintaining an earth-pointing accuracy of better than plus or minus 0.1 deg with a motion rate of less than 0.035 deg/s. Although designed for a 2-year life span, NOAA 8 experienced a premature failure in June 1984.</Description>
       <Contact>
         <PersonID>spase://nssdc/person/18438</PersonID>
         <Role>ProjectScientist</Role>
@@ -19,6 +17,10 @@ NOAA 8 was a third-generation operational meteorological satellite for use in th
         <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1983-022A</URL>
         <Description>Information about the NOAA  8 mission</Description>
       </InformationURL>
+      <PriorID>spase://vspo/observatory/71</PriorID>
     </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+    </Location>
   </Observatory>
 </Spase>

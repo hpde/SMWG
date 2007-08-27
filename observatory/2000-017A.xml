@@ -8,16 +8,14 @@
       <AlternateName>MIDEX/IMAGE</AlternateName>
       <AlternateName>Imager for Magnetopause-to-Aurora Global Exploration</AlternateName>
       <AlternateName>Explorer 78</AlternateName>
-      <ReleaseDate>2006-01-25T00:00:00Z</ReleaseDate>
-      <Description>
-IMAGE (Imager for Magnetopause-to-Aurora Global Exploration) was a MIDEX class mission, selected by NASA in 1996, to study the global response of the Earth's magnetosphere to changes in the solar wind. IMAGE was launched March 25, 2000 into a highly elliptical polar orbit with initial geocentric apogee of 8.2 Earth radii and perigee altitude of 1000 km. IMAGE used neutral atom, ultraviolet, and radio imaging techniques to: (a) identify the dominant mechanisms for injecting plasma into the magnetosphere on substorm and magnetic storm time scales; (b) determine the directly driven response of the magnetosphere to solar wind changes; and, (c) discover how and where magnetospheric plasmas are energized, transported, and subsequently lost during substorms and magnetic storms.
+      <ReleaseDate>2007-08-27T18:40:19Z</ReleaseDate>
+      <Description>IMAGE (Imager for Magnetopause-to-Aurora Global Exploration) was a MIDEX class mission, selected by NASA in 1996, to study the global response of the Earth's magnetosphere to changes in the solar wind. IMAGE was launched March 25, 2000 into a highly elliptical polar orbit with initial geocentric apogee of 8.2 Earth radii and perigee altitude of 1000 km. IMAGE used neutral atom, ultraviolet, and radio imaging techniques to: (a) identify the dominant mechanisms for injecting plasma into the magnetosphere on substorm and magnetic storm time scales; (b) determine the directly driven response of the magnetosphere to solar wind changes; and, (c) discover how and where magnetospheric plasmas are energized, transported, and subsequently lost during substorms and magnetic storms.
 
 In order to fulfill its science goals, IMAGE utilized neutral atom, ultraviolet, and radio imaging techniques. A suite of three neutral atom imagers (NAI) provided energy- and composition-resolved images at energies from 10 eV to 200 keV with a time resolution of 300 seconds. Two ultraviolet imagers, covering wavelength ranges from 120-180 nm (FUV) and 30.4 nm (EUV), provided coverage in the far and extreme ultraviolet. The radio plasma imager (RPI) was a low-power radar which operated in the radio frequency bands which contain the plasma resonance frequencies characteristic of the Earth's magnetophere (3 kHz to 3 MHz).
 
 On December 18, 2005, after 5.8 years of successful operations, IMAGE's telemetry signals were not received during a routine pass. Preliminary analysis indicated that IMAGE's solid state power controller (SSPC) on the 28V line from the power distribution unit (PDU) to the transponder is reading closed, but is actually open resulting in having no power to the transponder to get a command to the PDU to close it. The only thing that might close it would be a PDU power cycle. It is possible that the next mega-eclipse cycle in October 2007, may drain the battery and voltage enough to cause this to happen enabling IMAGE to be recovered. For more details on the legacy of the IMAGE mission see the NASA press release at
 
-http://www.nasa.gov/home/hqnews/2006/jan/HQ_06030_IMAGE_quits.html
-      </Description>
+http://www.nasa.gov/home/hqnews/2006/jan/HQ_06030_IMAGE_quits.html</Description>
       <Contact>
         <PersonID>spase://nssdc/person/6299</PersonID>
         <Role>PrincipalInvestigator</Role>
@@ -27,6 +25,10 @@ http://www.nasa.gov/home/hqnews/2006/jan/HQ_06030_IMAGE_quits.html
         <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2000-017A</URL>
         <Description>Information about the IMAGE mission</Description>
       </InformationURL>
+      <PriorID>spase://vspo/observatory/58</PriorID>
     </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+    </Location>
   </Observatory>
 </Spase>

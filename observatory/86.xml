@@ -5,7 +5,7 @@
     <ResourceID>spase://vspo/observatory/86</ResourceID>
     <ResourceHeader>
       <ResourceName>BBSO</ResourceName>
-      <ReleaseDate>2007-01-03T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2007-08-27T18:40:20Z</ReleaseDate>
       <Description>Big Bear Solar Observatory</Description>
       <Contact>
         <PersonID>UNKNOWN</PersonID>
@@ -13,5 +13,8 @@
       </Contact>
     </ResourceHeader>
     <ObservatoryGroup>GONG</ObservatoryGroup>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+    </Location>
   </Observatory>
 </Spase>

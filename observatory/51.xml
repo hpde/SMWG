@@ -5,7 +5,7 @@
     <ResourceID>spase://vspo/observatory/51</ResourceID>
     <ResourceHeader>
       <ResourceName>LANL1990</ResourceName>
-      <ReleaseDate>2007-01-03T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2007-08-27T18:40:20Z</ReleaseDate>
       <Description>Geosynchronous spacecraft carrying energetic electron and ion instruments</Description>
       <Contact>
         <PersonID>UNKNOWN</PersonID>
@@ -13,5 +13,8 @@
       </Contact>
     </ResourceHeader>
     <ObservatoryGroup>LANL</ObservatoryGroup>
+    <Location>
+      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+    </Location>
   </Observatory>
 </Spase>

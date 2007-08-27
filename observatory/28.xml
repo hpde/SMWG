@@ -5,12 +5,15 @@
     <ResourceID>spase://vspo/observatory/28</ResourceID>
     <ResourceHeader>
       <ResourceName>DRAO</ResourceName>
-      <ReleaseDate>2007-01-03T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2007-08-27T18:40:20Z</ReleaseDate>
       <Description>Dominion Radio Astronomical Observatory; provides solar F10.7 radio flux.</Description>
       <Contact>
         <PersonID>UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
     </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+    </Location>
   </Observatory>
 </Spase>

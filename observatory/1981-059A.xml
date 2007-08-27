@@ -6,10 +6,8 @@
     <ResourceHeader>
       <ResourceName>NOAA  7</ResourceName>
       <AlternateName>NOAA-C</AlternateName>
-      <ReleaseDate>2000-05-17T00:00:00Z</ReleaseDate>
-      <Description>
-NOAA 7 was an operational meteorological satellite for use in the National Operational Environmental Satellite System (NOESS) and for the support of the Global Atmospheric Research Program (GARP) during 1978-84. The satellite design provided an economical and stable sun-synchronous platform for advanced operational instruments to measure the earth's atmosphere, its surface and cloud cover, and the near-space environment. Primary sensors included an advanced very high resolution radiometer (AVHRR) and a TIROS operational vertical sounder (TOVS). Secondary experiments consisted of a space environment monitor (SEM) and a data collection and platform location system (DCPLS). A contamination monitor was provided by USAF to assess contamination sources, levels, and effects for consideration on future spacecraft. The satellite was based upon the Block 5D spacecraft bus developed for the U.S. Air Force, and it was capable of maintaining an earth-pointing accuracy of better than plus or minus 0.1 deg with a motion rate of less than 0.035 deg/s. For a more detailed description, see A. Schwalb, "The TIROS-N/NOAA A-G Satellite Series," NOAA Tech. Mem. NESS 95, 1978.
-      </Description>
+      <ReleaseDate>2007-08-27T18:40:19Z</ReleaseDate>
+      <Description>NOAA 7 was an operational meteorological satellite for use in the National Operational Environmental Satellite System (NOESS) and for the support of the Global Atmospheric Research Program (GARP) during 1978-84. The satellite design provided an economical and stable sun-synchronous platform for advanced operational instruments to measure the earth's atmosphere, its surface and cloud cover, and the near-space environment. Primary sensors included an advanced very high resolution radiometer (AVHRR) and a TIROS operational vertical sounder (TOVS). Secondary experiments consisted of a space environment monitor (SEM) and a data collection and platform location system (DCPLS). A contamination monitor was provided by USAF to assess contamination sources, levels, and effects for consideration on future spacecraft. The satellite was based upon the Block 5D spacecraft bus developed for the U.S. Air Force, and it was capable of maintaining an earth-pointing accuracy of better than plus or minus 0.1 deg with a motion rate of less than 0.035 deg/s. For a more detailed description, see A. Schwalb, "The TIROS-N/NOAA A-G Satellite Series," NOAA Tech. Mem. NESS 95, 1978.</Description>
       <Contact>
         <PersonID>spase://nssdc/person/18438</PersonID>
         <Role>ProjectScientist</Role>
@@ -19,6 +17,10 @@ NOAA 7 was an operational meteorological satellite for use in the National Opera
         <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1981-059A</URL>
         <Description>Information about the NOAA  7 mission</Description>
       </InformationURL>
+      <PriorID>spase://vspo/observatory/70</PriorID>
     </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+    </Location>
   </Observatory>
 </Spase>
