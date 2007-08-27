@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/2003-061A-03</ResourceID>
+    <ResourceHeader>
+      <ResourceName>FGM (Flux Gate Magnetometer)</ResourceName>
+      <ReleaseDate>2004-01-06T00:00:00Z</ReleaseDate>
+      <Description>FGM (Flux Gate Magnetometer) is located on a 3.5 meter long boom and measures the magnetic field along the orbit at a rate up to 67 samples per second.</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2003-061A&amp;ex=3</URL>
+        <Description>Information about the FGM (Flux Gate Magnetometer) experiment on the Double Star 1 mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>FGM (Flux Gate Magnetometer) on Double Star 1</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2003-061A</ObservatoryID>
+  </Instrument>
+</Spase>

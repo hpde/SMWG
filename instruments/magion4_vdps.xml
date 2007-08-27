@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1995-039F-08</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Plasma Flow Detector VDP-S</ResourceName>
+      <ReleaseDate>1998-03-26T00:00:00Z</ReleaseDate>
+      <Description>This instrument consists of four Faraday cup detectors, registering ions and electrons with energies above 170 eV. The detectors are oriented at +/- 45 degrees from the main axis of the spacecraft, and have an angular aperture of 100 degrees. The maximum frequencies used are 1, 2, 4, and 8 Hz (depending on the telemetry mode).</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/32525</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1995-039F&amp;ex=8</URL>
+        <Description>Information about the Plasma Flow Detector VDP-S experiment on the Interball S2-X mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>FaradayCup</InstrumentType>
+    <InvestigationName>Plasma Flow Detector VDP-S on Interball S2-X</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1995-039F</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/32525</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Georgy Zastenker</PersonName>
+    <OrganizationName>Academy of Sciences</OrganizationName>
+    <PhoneNumber>+1-7-095-230-2585</PhoneNumber>
+  </Person>
+</Spase>

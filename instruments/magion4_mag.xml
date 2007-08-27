@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1995-039F-04</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Three-Component Magnetometer SG-R8</ResourceName>
+      <ReleaseDate>1998-04-21T00:00:00Z</ReleaseDate>
+      <Description>This magnetometer is designed for studying space and time variations of the magnetic field intensity. In addition, it enables one to determine the attitude of the subsatellite with respect to the magnetic field vector. SG-R8 is a triaxial flux-gate magnetometer with automatic switching of sensitivity among the four ranges (+/-) 65536, 8192, 1024, and 128 nT. Resolutions in these ranges are, respectively, 8 nT, 1 nT, 0.125 nT, and 15.6 pT.
+The data from the magnetometer pass through a digital converter, which has 13 bits and the sign. Its operation is synchronized with the STS telemetry system. The main output of the magnetometer is digital. For emergency situations the device has one analog output, from which one can obtain the Hx , Hy , and Hz data with lower accuracy (8 bits). The detector is fixed at the top of a rigid short boom, which enables one to determine precisely the attitude of the magnetometer axes with respect to the construction axes of the subsatellite.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/43945</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1995-039F&amp;ex=4</URL>
+        <Description>Information about the Three-Component Magnetometer SG-R8 experiment on the Interball S2-X mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Three-Component Magnetometer SG-R8 on Interball S2-X</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1995-039F</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/43945</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. M. Chobanu</PersonName>
+    <OrganizationName>Academy of Sciences of Romania</OrganizationName>
+  </Person>
+</Spase>

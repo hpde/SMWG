@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/2004-029A-07</ResourceID>
+    <ResourceHeader>
+      <ResourceName>High-Energy Proton Detector (HEPD)</ResourceName>
+      <AlternateName>HEPD</AlternateName>
+      <ReleaseDate>2006-08-31T00:00:00Z</ReleaseDate>
+      <Description>HEPD (High Energy Proton Detector): The Principal Investigators are J. Liang and J. B. Cao, CSSAR, China. No further information is available.</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2004-029A&amp;ex=7</URL>
+        <Description>Information about the High-Energy Proton Detector (HEPD) experiment on the Double Star 2 mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>High-Energy Proton Detector (HEPD) on Double Star 2</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2004-029A</ObservatoryID>
+  </Instrument>
+</Spase>

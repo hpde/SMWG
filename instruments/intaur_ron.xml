@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1996-050C-13</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Spacecraft Potential Control, Ion Beam Emitter (RON)</ResourceName>
+      <ReleaseDate>2006-04-27T00:00:00Z</ReleaseDate>
+      <Description>The main objective of the spacecraft potential control experiment (RON-AC) is to neutralize and thereby stabilize the positive floating potential which a sunlit spacecraft often acquires. Such conditions in near-Earth space are met outside the plasmasphere, where the plasma density is low and as long as the electron temperature is not too high (less than a few keV).
+The instrument contains two different and independent ion beam systems, providing an adjustable current of singly charged indium or N2 ions. The ions are emitted toward the sun, parallel to the spacecraft spin axis. One type of ion emitter is a "solid needle" liquid metal ion source using indium. Unfortunately an early high voltage failure prevented the operation of the indium ion beam. The other ion emitter utilizes a bottle of pure nitrogen gas under high pressure, and a saddle field arrangement for the ionization, using a potential of up to 6 keV.
+A microprocessor controls the ion emitter and interfaces with the spacecraft telemetry and the experiment IESP-2M, which provides spacecraft potential data in real time.
+Details of the instrument are given in the paper by Torkar et al., Ann. Geophysicae 16, 1086-1096 (1998).</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/4025</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1996-050C&amp;ex=13</URL>
+        <Description>Information about the Spacecraft Potential Control, Ion Beam Emitter (RON) experiment on the Interball Auroral Probe mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>SpacecraftPotentialControl</InstrumentType>
+    <InvestigationName>Spacecraft Potential Control, Ion Beam Emitter (RON) on Interball Auroral Probe</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1996-050C</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/4025</ResourceID>
+    <ReleaseDate>2000-07-07T00:00:00Z</ReleaseDate>
+    <PersonName>Prof. Willi W. Riedler</PersonName>
+    <OrganizationName>Technische Universitat Graz</OrganizationName>
+    <Email>riedler@oeaw.ac.at</Email>
+    <PhoneNumber>+1-43-316-46-3696</PhoneNumber>
+  </Person>
+</Spase>

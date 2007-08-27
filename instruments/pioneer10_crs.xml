@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1972-012A-12</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Cosmic-Ray Spectra</ResourceName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>This experiment consisted of three multi-element solid-state telescopes, all looking normal to the spacecraft spin axis. The high-energy telescope (HET) consisted of five collinear sensors, and measured stopping particles (Z = 1 to 8) in the energy range 20 to 50 MeV/nucleon and penetrating particles in the range 50 to 800 MeV/nucleon. Charge resolution for penetrating particles was possible up to 200 MeV/nucleon. The first low-energy telescope (LET-I) had four elements and measured stopping (Z = 1 to 8) particles in the energy range 3 to 32 MeV/nucleon. The second low-energy telescope (LET-II) had three elements and measured stopping electrons between 50 and 1000 keV and stopping protons between 50 keV and 20 MeV. For each telescope, count rates were obtained for each of several sensor coincidence-anticoincidence modes. Some of the rates from each telescope were sectored into eight octants in the spacecraft spin plane. In addition, three-sensor pulse-height analysis, with priority schemes favoring the analysis of heavier particles, was associated with each telescope.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/2168</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1972-012A&amp;ex=12</URL>
+        <Description>Information about the Cosmic-Ray Spectra experiment on the Pioneer 10 mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Cosmic-Ray Spectra on Pioneer 10</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1972-012A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/2168</ResourceID>
+    <ReleaseDate>2000-07-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Frank B. McDonald</PersonName>
+    <OrganizationName>University of Maryland</OrganizationName>
+    <Email>fm27@umail.umd.edu</Email>
+    <PhoneNumber>+1-301-405-4861</PhoneNumber>
+  </Person>
+</Spase>

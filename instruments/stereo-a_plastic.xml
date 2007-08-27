@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/2006-047A-04</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Plasma and Supra-Thermal Ion Composition (PLASTIC) Investigation</ResourceName>
+      <AlternateName>PLASTIC</AlternateName>
+      <ReleaseDate>2006-10-27T00:00:00Z</ReleaseDate>
+      <Description/>
+      <Contact>
+        <PersonID>spase://nssdc/person/25808</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2006-047A&amp;ex=4</URL>
+        <Description>Information about the Plasma and Supra-Thermal Ion Composition (PLASTIC) Investigation experiment on the STEREO A mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Plasma and Supra-Thermal Ion Composition (PLASTIC) Investigation on STEREO A</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2006-047A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/25808</ResourceID>
+    <ReleaseDate>2003-01-29T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Antoinette B. Galvin</PersonName>
+    <OrganizationName>University of New Hampshire</OrganizationName>
+    <Email>toni.galvin@unh.edu</Email>
+    <PhoneNumber>+1-603-862-3511</PhoneNumber>
+  </Person>
+</Spase>

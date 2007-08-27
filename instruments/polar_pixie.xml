@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1996-013A-07</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Polar Ionospheric X-ray Imaging Experiment (PIXIE)</ResourceName>
+      <AlternateName>PIXIE</AlternateName>
+      <ReleaseDate>2005-08-26T00:00:00Z</ReleaseDate>
+      <Description>The objective of this investigation is to measure the spatial distribution and temporal variations of X-ray emissions from the earth's atmosphere. The instrument consists of two major subsystems, the multiple pinhole camera and signal-processing electronics, and the digital electronics. The detector in the camera is a position-sensitive multiwire proportional counter. The signal processing electronics identify events as X-ray interactions (or not), locate the events in three-dimensional space, and determine the X-ray energy. The energy range is 1-100 keV, with spectral resolution of 15% FWHM at 6 keV (inversely proportional to the square root of the energy). The field of view is variable, 8.5, 12, 16, or 33 deg, with spatial resolution of 0.35 to 1.0 deg. Temporal resolution is 1-30 min (typically 5 min).</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/14194</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1996-013A&amp;ex=7</URL>
+        <Description>Information about the Polar Ionospheric X-ray Imaging Experiment (PIXIE) experiment on the Polar mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Imager</InstrumentType>
+    <InvestigationName>Polar Ionospheric X-ray Imaging Experiment (PIXIE) on Polar</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1996-013A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/14194</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Michael Schulz</PersonName>
+    <OrganizationName>Lockheed Palo Alto Research Laboratory</OrganizationName>
+    <Email>schulz@agenda.spasci.com</Email>
+    <PhoneNumber>+1-415-424-2659</PhoneNumber>
+  </Person>
+</Spase>

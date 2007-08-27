@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1969-053A-07</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Solar Proton Monitoring Experiment</ResourceName>
+      <ReleaseDate>2005-07-07T00:00:00Z</ReleaseDate>
+      <Description>The solar proton monitoring experiment utilized four separate detectors, each of which used one or more solid-state sensors. Three detectors measured the omnidirectional fluxes of protons and alpha particles with energy per nucleon values above 10, 30, and 60 MeV. Alpha particle contributions to the total count rates were generally less than 10%. These detectors were also sensitive to electrons above approximately 0.7, 2.0, and 8.0 MeV, respectively. The 10-MeV channel was sampled for two 19.2-s intervals every 163.8 s and the 30- and 60-MeV channels for one 19.2-s interval every 163.8 s. Resultant hourly averaged fluxes have been published in Solar-Geophysical Data (NOAA, Boulder) on a rapid basis. The fourth detector had a 60-deg full look angle normal to the spacecraft spin axis. Each of two discrimination levels was sampled for two 19.2-s intervals every 163.8 s. Fluxes of 1- to 10-MeV/nucleon protons and alpha particles were measured in the lower and upper discrimination states, respectively. All detectors functioned normally from launch until the spacecraft decayed from orbit (from June 21, 1969, to December 23, 1972). NSSDC has all the useful data that now esist.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/3568</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1969-053A&amp;ex=7</URL>
+        <Description>Information about the Solar Proton Monitoring Experiment experiment on the IMP-G mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Solar Proton Monitoring Experiment on IMP-G</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1969-053A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/3568</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Carl O. Bostrom</PersonName>
+    <OrganizationName>Applied Physics Laboratory</OrganizationName>
+    <PhoneNumber>+1-240-228-3033</PhoneNumber>
+  </Person>
+</Spase>

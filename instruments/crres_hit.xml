@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1990-065A-17</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Heavy Ion Telescope</ResourceName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>The Heavy Ion Telescope (HIT) was part of the Mass Composition Instruments group and used a three-element solid state detector to measure the energy loss, incident ion energy and the time of flight along a fixed length. The three measured parameters enabled unique determination of the ion mass, elemental identification and incident energy over the range of 100 keV to 15 MeV per ion for H-Ar. The first HIT detector measured the differential (dE/dx) energy loss of the penetrating ion, the second measured the residual energy of ions stopping in that detector, and the third vetoed ions penetrating the first two. The time of flight along a 7.6-cm track was measured by the almost instantaneous emission of secondary electrons by the first and second detectors. The measured energy loss, total energy and the time of flight were digitized and transferred to the data processing unit for telemetering. This experiment was part of the SPACERAD project sponsored by AFGL.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/7212</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://nssdc/person/25678</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1990-065A&amp;ex=17</URL>
+        <Description>Information about the Heavy Ion Telescope experiment on the CRRES mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Heavy Ion Telescope on CRRES</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1990-065A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/7212</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Prof. Theodore Allan Fritz</PersonName>
+    <OrganizationName>Boston University</OrganizationName>
+    <Email>fritz@bu.edu</Email>
+    <PhoneNumber>+1-617-353-7446</PhoneNumber>
+  </Person>
+  <Person>
+    <ResourceID>spase://nssdc/person/25678</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. E. Gary Mullen</PersonName>
+    <OrganizationName>USAF Geophysics Laboratory</OrganizationName>
+    <PhoneNumber>+1-781-377-3213</PhoneNumber>
+  </Person>
+</Spase>

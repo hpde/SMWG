@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1972-012A-05</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Jovian Trapped Radiation</ResourceName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>This experiment consisted of an array of five particle detectors with electron thresholds in the range .01 to 35 MeV and proton thresholds in the range 0.15 to 80 MeV. A Cerenkov counter (C) had four output channels (C1, C2, C3, and CDC) sensitive to electrons having energies above 6, 9, 13, and 1 MeV, respectively. An electron-scatter counter (E) had three output channels (E1, E2, and E3) sensitive to electrons above .16, .26, and .46 MeV. A minimum ionization counter (M) had three output channels, M1 sensitive to electrons having energies greater than 35 MeV, M2 that measured background, and M3 that was sensitive to protons having energies greater than 80 MeV. The last two sensors were scintillator detectors (SP and SE), both of which had energy thresholds of 10 keV for electrons and 150 keV for protons. The sensitivity of the SE detector to protons was about a factor of 10 lower than its sensitivity to electrons. Thus, the SEDC channel effectively measured the electron flux, which could then be subtracted from the SPDC channel response to obtain the proton flux. Several other channels, listed above, required corrections to obtain the fluxes of the species indicated. Three of the channels (CDC, SPDC, and SEDC) were read out through a common electrometer. Due to a malfunction that occurred between launch and Jovian encounter, these three channels produced no usable encounter data. The detector channels could be programmed for readout in any one of four patterns at each of the eight spacecraft bit rate modes. During encounter when the spacecraft was operating in the highest bit rate mode, the minimum time to sample one channel was 1.5 s and the time to obtain a complete scan through all channels was 108 s. Since the directional detectors pointed perpendicular to the spin axis and the spin rate was 5 rpm, pitch-angle measurements were obtained. While the experiment was primarily designated for encounter studies, some data were obtained at low rates in interplanetary space. The last data were taken on December 1, 1993, after which the instrument was turned off to conserve power for other spacecraft experiments and systems. A description of the instrumentation and initial Pioneer 10 results was published in J. Geophys. Res., v. 79, p. 3589, 1974.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/3406</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1972-012A&amp;ex=5</URL>
+        <Description>Information about the Jovian Trapped Radiation experiment on the Pioneer 10 mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Jovian Trapped Radiation on Pioneer 10</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1972-012A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/3406</ResourceID>
+    <ReleaseDate>2001-04-02T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. R. Walker Fillius</PersonName>
+    <OrganizationName>University of California, San Diego</OrganizationName>
+    <Email>wfillius@ucsd.edu</Email>
+    <PhoneNumber>+1-858-534-3315</PhoneNumber>
+  </Person>
+</Spase>

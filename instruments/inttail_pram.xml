@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1995-039A-16</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Adaptive Processing of Wave Information (PRAM)</ResourceName>
+      <ReleaseDate>2006-03-21T00:00:00Z</ReleaseDate>
+      <Description>The PRAM instrument on the Interball Tail Probe is a digital waveform processor unit. According to the mode of operation, the on-board algorithm performs the selection between amplificatioin ranges, averaging of DC field and filter data, decimation of the AC data and formatting of the telemetry frames. Frames are transmitted to the digital telemetry system. Burst modes, switched on by the event selection algorithym, are possible with a buffer size equivalent to about 4 minutes of the prehistory information in the fastest mode.
+Fields and waves are measured on the Tail Probe by the ASPI consortium of experiments, which includes: MIF-M -- fluxgate and search-coil magnetometers; FGM-I -- triaxial fluxgate sensor and plasma current sensor; OPERA -- a complex of electric field instruments; and PRAM -- the digital waveform processor unit. Two more ASPI instruments, ADS and IFPE, failed to switch on, likely due to hardware problems.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/54199</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1995-039A&amp;ex=16</URL>
+        <Description>Information about the Adaptive Processing of Wave Information (PRAM) experiment on the Interball Tail Probe mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>WaveformReceiver</InstrumentType>
+    <InvestigationName>Adaptive Processing of Wave Information (PRAM) on Interball Tail Probe</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1995-039A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/54199</ResourceID>
+    <ReleaseDate>2003-07-25T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Stanislav A. Romanov</PersonName>
+    <OrganizationName>Russian Academy of Sciences</OrganizationName>
+    <Email>sroman@mx..iki.rssi.ru</Email>
+    <PhoneNumber>+1-7-095-333-1100</PhoneNumber>
+  </Person>
+</Spase>

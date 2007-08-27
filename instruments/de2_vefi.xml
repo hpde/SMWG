@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1981-070B-02</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Vector Electric Field Instrument (VEFI)</ResourceName>
+      <AlternateName>VEFI</AlternateName>
+      <ReleaseDate>2002-01-09T00:00:00Z</ReleaseDate>
+      <Description>The Vector Electric Field Instrument (VEFI) used flight-proven double-probe techniques with 20-m baselines to obtain measurements of dc electric fields. This electric field investigation had the following objectives: (1) to obtain accurate and comprehensive triaxial dc electric field measurements at ionospheric altitudes in order to refine the basic spatial patterns, define the large-scale time history of these patterns, and study the small-scale temporal and spatial variations within the overall patterns; (2) to study the degree to which and in what region the electric field projects to the equatorial plane; (3) to obtain measurements of extreme low frequency (ELF) and lower frequency irregularity structures; and (4) to perform numerous correlative studies. The instrument consisted of six cylindrical elements 11 m long and 28 mm in diameter. Each antenna was insulated from the plasma except for the outer 2 m. The baseline, or distance between the midpoints of these 2-m active elements, was 20 m. The antennas were interlocked along the edges to prevent oscillation and to increase their rigidity against drag forces. The basic electronic system was very similar in concept to those used on IMP-J and ISEE 1, but modified for a three-axis measurement on a nonspinning spacecraft. At the core of the system were the high-impedance (1.E12 ohm) preamplifiers, whose outputs were accurately subtracted and digitized (14-bit A/D conversion for sensitivity to about 0.1 microvolt/m) to maintain high resolution, for subsequent removal of the cross-product of the vectors V and B in data processing. This provided the basic dc measurement. Other circuitry was used to aid in interpreting the dc data and to measure rapid variations in the signals detected by the antennas. The planned dc electric field range was plus or minus 1 V/m, the planned resolution was 0.1 mV/m, and the variational electric field was measured from 4 Hz to 1024 Hz. The dc electric field was measured at 16 samples/s. The variational electric field was measured from 1 microvolt/m to 10 mV/m rms. Additional details are found in N. C. Maynard et al., Space Sci. Instrum., v. 5, n. 4, p. 523, 1981. The antenna pair perpendicular to the orbit plane did not deploy.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/5803</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1981-070B&amp;ex=2</URL>
+        <Description>Information about the Vector Electric Field Instrument (VEFI) experiment on the Dynamics Explorer 2 mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Antenna</InstrumentType>
+    <InvestigationName>Vector Electric Field Instrument (VEFI) on Dynamics Explorer 2</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1981-070B</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/5803</ResourceID>
+    <ReleaseDate>2001-04-05T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Nelson C. Maynard</PersonName>
+    <OrganizationName>Mission Research Corporation</OrganizationName>
+    <Email>nmaynard@mrcnh.com</Email>
+    <PhoneNumber>+1-603-891-0070 x248</PhoneNumber>
+  </Person>
+</Spase>

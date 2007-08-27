@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1972-100A-02</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Energy Distribution of Ions and Electrons</ResourceName>
+      <ReleaseDate>1998-03-16T00:00:00Z</ReleaseDate>
+      <Description>A retarding potential analyzer measured the energy distribution of electrons and ions. The corresponding temperatures were derived from these distributions. The experiment operated in an electron mode and in an ion mode. The instrument was essentially a collector shielded by plane parallel grids. Spectra of the ionospheric-charged particles were obtained by sweeping the retarding voltage of the grid. The particles would pass through the grid and reach the collector only if their kinetic energy exceeded the retarding potential. NSSDC has almost all the useful data that exist from this investigation.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/5336</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1972-100A&amp;ex=2</URL>
+        <Description>Information about the Energy Distribution of Ions and Electrons experiment on the Aeros-A mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Energy Distribution of Ions and Electrons on Aeros-A</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1972-100A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/5336</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Karl Spenner</PersonName>
+    <OrganizationName>Unknown - formerly at Inst fur Physikalische, Freiburg, Germany</OrganizationName>
+  </Person>
+</Spase>

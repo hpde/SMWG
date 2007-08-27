@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1965-098A-05</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Cylindrical Electrostatic Probes</ResourceName>
+      <ReleaseDate>1995-08-09T00:00:00Z</ReleaseDate>
+      <Description>Two cylindrical electrostatic probes were used to measure local electron temperature and density at the satellite. The main purpose of this experiment, however, was to determine the feasibility of placing direct measurements on a spacecraft equipped with the long antennas required for topside sounding. The sensors were operated as Langmuir probes and consisted each of a collector electrode extending from the central axis of a cylindrical guard ring. The guard ring extended 23 cm from the spacecraft and the collector electrode extended 46 cm. The two sensors were mounted on opposite sides of the lower portion of the satellite and both extended downward at an angle of 45 deg to the spacecraft spin axis, which was oriented in a northward direction in the orbital plane. The sensors were operated sequentially. NSSDC has all the useful data that exist from this investigation.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/2255</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1965-098A&amp;ex=5</URL>
+        <Description>Information about the Cylindrical Electrostatic Probes experiment on the Alouette 2 mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>LangmuirProbe</InstrumentType>
+    <InvestigationName>Cylindrical Electrostatic Probes on Alouette 2</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1965-098A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/2255</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Mr. Larry H. Brace</PersonName>
+    <OrganizationName>GSFC-Code 910.4</OrganizationName>
+    <PhoneNumber>+1-301-286-8575</PhoneNumber>
+  </Person>
+</Spase>

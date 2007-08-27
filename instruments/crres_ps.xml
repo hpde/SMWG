@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1990-065A-14</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Proton Switch</ResourceName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>This experiment consisted of two lithium-drifted silicon detectors which were each centered under a hemispherical aluminum dome. These detectors measured the omnidirectional flux of protons in the energy range 20 - 80 MeV and were made insensitive to electrons by high electronic discriminator thresholds. The main use of this instrument was to signal the spacecraft Data Processing Unit that protons were present so that the telemetry allocations for certain experiments could be changed. This experiment was part of the SPACERAD project sponsored by AFGL.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/2936</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://nssdc/person/25678</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1990-065A&amp;ex=14</URL>
+        <Description>Information about the Proton Switch experiment on the CRRES mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Proton Switch on CRRES</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1990-065A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/2936</ResourceID>
+    <ReleaseDate>2001-04-02T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. J. Bernard Blake</PersonName>
+    <OrganizationName>Aerospace Corporation</OrganizationName>
+    <Email>jbernard.blake@aero.org</Email>
+    <PhoneNumber>+1-310-336-7078</PhoneNumber>
+  </Person>
+  <Person>
+    <ResourceID>spase://nssdc/person/25678</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. E. Gary Mullen</PersonName>
+    <OrganizationName>USAF Geophysics Laboratory</OrganizationName>
+    <PhoneNumber>+1-781-377-3213</PhoneNumber>
+  </Person>
+</Spase>

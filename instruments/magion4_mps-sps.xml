@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1995-039F-06</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Energetic Electron and Proton Spectrometers MPS, SPS</ResourceName>
+      <ReleaseDate>1997-10-22T00:00:00Z</ReleaseDate>
+      <Description>The main objective of the charged particle and plasma experiments in the INTERBALL project is to study the spatial structure of the terrestrial magnetosphere as a global system in various scales and for varying external conditions. The subsatellites (Interball S2-T or S2-X for the Tail subsatellite and S2-A for the Auroral one) are equipped with ion/electron spectrometers similar to those aboard the two main Interball spacecraft.
+The MPS spectrometer aboard S2-T is designed to carry out a long-period monitoring of the solar wind parameters and to register the ion fluxes in the bow-shock region when the satellite will be in the appropriate regions. MPS is oriented along the Sun-Earth direction. The SPS spectrometer is designed for estimating the ion energy and angular distributions and for measurements of the electron energy distributions.
+The MPS (carried on both S2-A and S2-T) has two channels, and covers the ion energy range 0.2 to 20 keV in 16 steps (variable on command). Energy resolution is less than 10%. It utilizes a 127-degree electrostatic analyzer and channeltron. The angular aperture is 4 degrees both in the plane perpendicular to the main axis and in the plane parallel to it.
+The SPS has three channels for ions, one for electrons, and covers the energy range 0.2 to 20 keV in 16 steps (variable on command). Energy resolution is less than 10%. SPS utilizes a double hemispherical analyzer with microchannel plates. The angular aperture in the plane parallel to the main axis is 3 x 45 degrees for ions and 135 degrees for electrons. In the plane perpendicular to the main axis, the aperture is 4 degrees.
+The MPS and SPS spectrometers have limited angular characteristics; for this reason the S2-T spacecraft includes the VDP-S instrument (95-039F-08), which is designed for rapid determination of the ion flux direction variations.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/32528</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1995-039F&amp;ex=6</URL>
+        <Description>Information about the Energetic Electron and Proton Spectrometers MPS, SPS experiment on the Interball S2-X mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Energetic Electron and Proton Spectrometers MPS, SPS on Interball S2-X</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1995-039F</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/32528</ResourceID>
+    <ReleaseDate>2002-12-04T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Jana Safrankova</PersonName>
+    <OrganizationName>Charles University</OrganizationName>
+    <Email>jana@mbox.troja.mff.cuni.cz</Email>
+    <PhoneNumber>+1-420-22191-2301</PhoneNumber>
+  </Person>
+</Spase>

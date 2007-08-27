@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1995-039A-19</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Tri-axial Fluxgate Magnetometer FGM-I</ResourceName>
+      <ReleaseDate>2006-03-21T00:00:00Z</ReleaseDate>
+      <Description>The FGM-I instrument on the Interball Tail Probe consists of a triaxial fluxgate magnetometer and a Langmuir split probe plasma current sensor. The analog signal is transmitted to the telemetry system and to the MIF-M filter bank.
+Fields and waves are measured on the Tail Probe by the ASPI consortium of experiments, which includes: MIF-M -- fluxgate and search-coil magnetometers; FGM-I -- triaxial fluxgate sensor and plasma current sensor; OPERA -- a complex of electric field instruments; and PRAM -- the digital waveform processor unit. Two more ASPI instruments, ADS and IFPE, failed to switch on, likely due to hardware problems.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/54323</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://nssdc/person/41511</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1995-039A&amp;ex=19</URL>
+        <Description>Information about the Tri-axial Fluxgate Magnetometer FGM-I experiment on the Interball Tail Probe mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Tri-axial Fluxgate Magnetometer FGM-I on Interball Tail Probe</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1995-039A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/54323</ResourceID>
+    <ReleaseDate>2002-04-30T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. J. Rustenbach</PersonName>
+    <OrganizationName>Max-Planck-Institut fuer Extraterrestrische Physik</OrganizationName>
+    <Email>jb@mpe.fta-berlin.de</Email>
+    <PhoneNumber>+1-49-30-6392-3937</PhoneNumber>
+  </Person>
+  <Person>
+    <ResourceID>spase://nssdc/person/41511</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Sergey Savin</PersonName>
+    <OrganizationName>Russian Academy of Sciences</OrganizationName>
+    <Email>ssavin@vm1.iki.rssi.ru</Email>
+    <PhoneNumber>+1-7-095-333-1100</PhoneNumber>
+  </Person>
+</Spase>

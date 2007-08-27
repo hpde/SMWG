@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1973-019A-01</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Magnetic Fields</ResourceName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>The magnetometer on Pioneer 11 was a triaxial helium magnetometer with seven dynamic ranges, from plus or minus 2.5 nT to plus or minus 1.0E-3 T. The linearity was 0.1% and the noise threshold was 0.01 nT rms for 0-1 Hz. The accuracy was 0.5% of full scale range. The experimenter used RTN coordinates in the data analysis. In this system, R (or X) is radially outward from the sun, T (or Y) was parallel to the sun's equatorial plane and had its direction given by the cross product of the sun's spin vector into the radial direction (i.e., into R), and N (or Z) completed the right-handed orthogonal system (positive northward). A detailed instrument description may be found in Smith et al., IEEE Trans. On Magnetics, v. M-11, p. 962, July 1975. Data include the interplanetary region.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/2606</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1973-019A&amp;ex=1</URL>
+        <Description>Information about the Magnetic Fields experiment on the Pioneer 11 mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Magnetic Fields on Pioneer 11</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1973-019A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/2606</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Edward J. Smith</PersonName>
+    <OrganizationName>Jet Propulsion Laboratory</OrganizationName>
+    <Email>edward.j.smith@jpl.nasa.gov</Email>
+    <PhoneNumber>+1-818-354-2248</PhoneNumber>
+  </Person>
+</Spase>

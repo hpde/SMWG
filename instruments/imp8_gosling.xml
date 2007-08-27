@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1973-078A-10</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Solar Plasma Electrostatic Analyzer</ResourceName>
+      <ReleaseDate>2005-08-09T00:00:00Z</ReleaseDate>
+      <Description>A hemispherical electrostatic analyzer measured the directional intensity of positive ions and electrons in the solar wind, magnetosheath, and magnetotail. Ions as heavy as oxygen were resolved when the solar wind temperature was low. Energy analysis was accomplished by charging the plates to known voltage levels and allowing them to discharge with known RC time constants. In the solar wind, positive ions from 200 eV to 5 keV (15% spacing, 3% resolution) and electrons from 5 eV to 1 keV (30% spacing, 15% resolution) were studied. In the magnetosheath, positive ions from 200 eV to 5 keV (15% spacing, 3% resolution) and from 200 eV to 20 keV (30% spacing, 15% resolution) and electrons from 5 eV to 1 keV (30% spacing, 15% resolution) were studied. In the magnetotail, positive ions from 200 eV to 20 keV (30% spacing, 15% resolution) and electrons from 5 eV to 1 keV (30% spacing, 15% resolution) and from 100 eV to 20 keV (15% resolution) were studied. For further details see W. C. Feldman et al., J. Geophys., v. 80, p. 4181, 1975. No data were obtained from this experiment past October 2001.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/7607</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1973-078A&amp;ex=10</URL>
+        <Description>Information about the Solar Plasma Electrostatic Analyzer experiment on the IMP-J mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>ElectrostaticAnalyser</InstrumentType>
+    <InvestigationName>Solar Plasma Electrostatic Analyzer on IMP-J</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1973-078A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/7607</ResourceID>
+    <ReleaseDate>2001-04-05T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. John T. Gosling</PersonName>
+    <OrganizationName>Los Alamos National Laboratory</OrganizationName>
+    <Email>jgosling@lanl.gov</Email>
+    <PhoneNumber>+1-505-667-5389</PhoneNumber>
+  </Person>
+</Spase>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1973-019A-12</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Cosmic-Ray Spectra</ResourceName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>This experiment consisted of three 3-element telescopes, all looking normal to the spacecraft spin axis. A bidirectional telescope measured 20- to 800-MeV/nucleon particles with 5 to 10% energy resolution. Another telescope measured 3- to 22-MeV/nucleon particles with 5% resolution. These two telescopes measured particles with Z values between 1 and 8. The third telescope measured 50-keV to 1-MeV electrons and 50-keV to 20-MeV protons with 20% resolution. Data include the interplanetary region.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/2168</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1973-019A&amp;ex=12</URL>
+        <Description>Information about the Cosmic-Ray Spectra experiment on the Pioneer 11 mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Cosmic-Ray Spectra on Pioneer 11</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1973-019A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/2168</ResourceID>
+    <ReleaseDate>2000-07-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Frank B. McDonald</PersonName>
+    <OrganizationName>University of Maryland</OrganizationName>
+    <Email>fm27@umail.umd.edu</Email>
+    <PhoneNumber>+1-301-405-4861</PhoneNumber>
+  </Person>
+</Spase>

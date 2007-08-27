@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1974-097A-02</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Fluxgate Magnetometer for Average Fields</ResourceName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>This experiment (E3) consisted of a boom-mounted, triaxial-fluxgate magnetometer. An automatic inflight range switch system selected the optimum of four ranges that were minus to plus 16, 48, 144, and 432 nT per sensor. These had corresponding digitization resolutions of minus to plus 0.03, 0.09, 0.28, and 0.84 nT, respectively. A sensor flipper was actuated every 36 h to assist in sensor zero level determination. For telemetry bit rates above 256 bps, vector measurements were made at rates between 1 and 16 per s, depending on bit rates. At lower bit rates, averages and variances were computed on board for transmission to earth.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/18</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1974-097A&amp;ex=2</URL>
+        <Description>Information about the Fluxgate Magnetometer for Average Fields experiment on the Helios-A mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Fluxgate Magnetometer for Average Fields on Helios-A</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1974-097A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/18</ResourceID>
+    <ReleaseDate>2000-07-31T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Norman F. Ness</PersonName>
+    <OrganizationName>University of Delaware</OrganizationName>
+    <Email>nfness@bartol.udel.edu</Email>
+    <PhoneNumber>+1-302-831-8116</PhoneNumber>
+  </Person>
+</Spase>

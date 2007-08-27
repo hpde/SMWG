@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1978-051A-17</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Ion Mass Spectrometer (OIMS)</ResourceName>
+      <AlternateName>OIMS</AlternateName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>The composition and concentration of thermal positive ions in the ionosphere of Venus were determined and interpreted in terms of vertical and horizontal components. The instrument used was a Bennett radio-frequency mass spectrometer based on the design of those flown on OGO and Atmospheric Explorer satellites. A mass range of 1--60 amu was covered with a variety of automatic scan-search modes available.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/6502</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1978-051A&amp;ex=17</URL>
+        <Description>Information about the Ion Mass Spectrometer (OIMS) experiment on the Pioneer Venus Orbiter mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>MassSpectrometer</InstrumentType>
+    <InvestigationName>Ion Mass Spectrometer (OIMS) on Pioneer Venus Orbiter</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1978-051A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/6502</ResourceID>
+    <ReleaseDate>2000-11-06T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Paul A. Cloutier</PersonName>
+    <OrganizationName>Rice University</OrganizationName>
+    <Email>pac@spacsun.rice.edu</Email>
+    <PhoneNumber>+1-713-348-3533</PhoneNumber>
+  </Person>
+</Spase>

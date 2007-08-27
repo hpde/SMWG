@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/2003-061A-01</ResourceID>
+    <ResourceHeader>
+      <ResourceName>ASPOC (Active Space Potential Control)</ResourceName>
+      <ReleaseDate>2004-01-06T00:00:00Z</ReleaseDate>
+      <Description>ASPOC (Active Space Potential Control) is to maintain the potential of the spacecraft at a low voltage. The tendency to attain high positive voltage due mainly to photoelectron emission is sought to be neutralized by shooting out positive indium ions. The spacecraft potential is continuously monitored by the PEACE instrument.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/36548</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2003-061A&amp;ex=1</URL>
+        <Description>Information about the ASPOC (Active Space Potential Control) experiment on the Double Star 1 mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>SpacecraftPotentialControl</InstrumentType>
+    <InvestigationName>ASPOC (Active Space Potential Control) on Double Star 1</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2003-061A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/36548</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Klaus M. Torkar</PersonName>
+    <OrganizationName>Austrian Academy of Sciences</OrganizationName>
+    <Email>torkar@fiwf01.tu-graz.ac.at</Email>
+    <PhoneNumber>+1-43-316-463696 25</PhoneNumber>
+  </Person>
+</Spase>

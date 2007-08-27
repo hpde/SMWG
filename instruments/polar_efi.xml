@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1996-013A-09</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Electric Fields Investigation (EFI)</ResourceName>
+      <AlternateName>EFI</AlternateName>
+      <ReleaseDate>1995-10-31T00:00:00Z</ReleaseDate>
+      <Description>The objectives of this investigation are to study (1) large parallel and perpendicular electric fields in double layers and electrostatic shocks, (2) larger spatial-scale parallel electric fields responsible for upgoing ions and inverted-V electron acceleration, (3) the high latitude convection electric field, (4) the electric field structure of the high latitude magnetosphere, polar cusp, and plasma mantle, and (5) the electric field comparisons (with other spacecraft in the ISTP program) at different points along the same magnetic field line, at different points along a common boundary, or in different regions of the magnetosphere. The instrument consists of three orthogonal double probes, each of which is a pair of separated conductors whose potential difference is measured. One pair consists of spheres located in the satellite spin plane and separated by 160 m at the ends of wire booms. A second pair consists of cylindrical wire boom elements located in the spin plane and separated by an effective distance of 350 m. The third pair consists of spheres that are oriented parallel to the satellite spin axis and are separated by 14 m at the ends of rigid booms.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/3458</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1996-013A&amp;ex=9</URL>
+        <Description>Information about the Electric Fields Investigation (EFI) experiment on the Polar mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>DoubleSphere</InstrumentType>
+    <InvestigationName>Electric Fields Investigation (EFI) on Polar</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1996-013A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/3458</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Prof. Forrest S. Mozer</PersonName>
+    <OrganizationName>University of California, Berkeley</OrganizationName>
+    <Email>mozer@sunspot.ssl.berkeley.edu</Email>
+    <PhoneNumber>+1-510-642-0549</PhoneNumber>
+  </Person>
+</Spase>

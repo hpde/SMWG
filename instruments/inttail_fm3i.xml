@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1995-039A-17</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Fluxgate DC Magnetometer FM-3I</ResourceName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>The FM-3I instrument consists of two fluxgate magnetometers covering two different ranges: -200 to +200 nT and -1000 to +1000 nT. Besides scientific goals, the FM-3I experiment data is used to perform the attitude control of the spacecraft.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/41459</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1995-039A&amp;ex=17</URL>
+        <Description>Information about the Fluxgate DC Magnetometer FM-3I experiment on the Interball Tail Probe mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Fluxgate DC Magnetometer FM-3I on Interball Tail Probe</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1995-039A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/41459</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Mikhail Nozdrachev</PersonName>
+    <OrganizationName>Russian Academy of Sciences</OrganizationName>
+    <Email>mnozdrch@vm1.iki.rssi.ru</Email>
+    <PhoneNumber>+1-7-095-333-1100</PhoneNumber>
+  </Person>
+</Spase>

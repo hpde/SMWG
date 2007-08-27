@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/2001-034A-01</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Genesis Plasma Spectrometers</ResourceName>
+      <AlternateName>Genesis Ion Monitor (GIM)</AlternateName>
+      <AlternateName>Genesis Electron Monitor (GEM)</AlternateName>
+      <AlternateName>GIM</AlternateName>
+      <AlternateName>GEM</AlternateName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>There are two solar wind spectrometers on-board the Genesis spacecraft: the Genesis Ion Monitor (GIM) and the Genesis Electron Monitor (GEM). The primary purpose of these spectrometers is to enable the collection of appropriate samples of the solar wind by the Genesis sample collectors. This involves determining the type of solar wind that is flowing past the spacecraft, adjusting high-voltages in the Concentrator for the current conditions and deploying the appropriate Collector Array for the type of solar wind present, all in realtime. The secondary function of the Monitors is to obtain high-quality solar wind data that can be used for various scientific studies. Interested parties are referred to the detailed instrument description paper by Barraclough et al. (2003), listed on the publications page.
+Genesis Ion Monitor (GIM)
+GIM consists of a 120-degree spherical-section electrostatic analyzer (ESA) followed by an array of eight channel electron multipliers (CEMs) for energy and angle analysis of incoming ions. The ESA is negatively biased by a high-voltage power supply that steps across a number of voltage levels to build up an energy spectrum of the plasma population. The GIM is basically an E/q analyzer but does have a mass analysis capability in this instance due to the similar flow velocities of all ions in the solar wind beam. The energy range of the instrument is ~100 eV to 14 keV, with a resolution of 5.2%, but only a small fraction of this range is used at any one time. Onboard software tracks the solar wind flow speed and autonomously adjusts the energy range that is scanned to keep it centered on the beam.
+GIM has a field-of-view (FOV) that is ~3.0 degrees in azimuth by ~26 degrees in polar angle and one of the narrow edges of the FOV is aligned such that it slightly overlaps the spacecraft rotational axis. Given this configuration, during one spin of the spacecraft GIM sweeps out a circle on the sky that is ~24 degrees in radius with the center of the circle being coincident with the average solar wind flow direction at 1 AU. During each spin, GIM steps forty times across ten individual energy steps and this process is repeated for four spins of the spacecraft with the energy steps being varied for each spin. These four spins comprise a complete data cycle and require approximately 2.5 minutes to complete. Thus GIM acquires a complete measurement of the ion distribution function every 2.5 minutes. The data product consists of ion counts for eight polar angle and forty azimuthal angles and forty energy levels.
+Genesis Electron Monitor (GEM)
+The GEM sensor head is almost an identical copy of the electron spectrometers that are currently flying on ACE (SWEPAM-E) and on Ulysses (BAM-E) but the electronics are of a new design. Basically, GEM consists of a 120 degree ESA that is backed by an array of seven CEMs for energy-angle analysis of incident plasma electrons. The energy range of the instrument is 1 to 1400 eV, the energy resolution is ~14%, and the FOV is ~12 degrees in azimuth (this varies somewhat with polar angle) by ~150 degrees in polar angle. The center of the FOV is centered along a normal to the spacecraft spin axis and consequently the FOV sweeps out approximately 94% of the sky during each spin. Data acquisition of the GEM is synchronized with that of the GIM and also takes four spins of the spacecraft to execute. A complete data matrix for the GEM consists of electron counts for seven polar angles and twenty four azimuthal angles and twenty energy levels.
+Both the GEM and GIM were in continuous operation since shortly after launch in August 2001 until August 04, 2004, a month before sample re-entry.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/67716</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2001-034A&amp;ex=1</URL>
+        <Description>Information about the Genesis Plasma Spectrometers experiment on the Genesis mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>ElectrostaticAnalyser</InstrumentType>
+    <InvestigationName>Genesis Plasma Spectrometers on Genesis</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2001-034A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/67716</ResourceID>
+    <ReleaseDate>2005-10-13T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Roger Wiens</PersonName>
+    <OrganizationName>Los Alamos National Laboratory</OrganizationName>
+    <Email>rwiens@lanl.gov</Email>
+  </Person>
+</Spase>

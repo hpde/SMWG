@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1976-003A-09</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Plasma Detectors</ResourceName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>This experiment (E1) employed three plasma analyzers for positive ions and one for electrons. All detectors were mounted normal to the spin axis. Positive ions with energy per charge within the range 0.155 to 15.32 keV/Q were measured in two angular dimensions using a combination of a hemispherical, a quadrispherical, and a sinusoidally-shaped electrostatic analyzer. Electrons with energy from 0.5 to 1660 eV were measured with a hemispherical electrostatic analyzer in one dimension. The experiment operated in several modes with differing time resolution depending in detail on telemetry format and satellite bit rate. Typical time resolution was on the order of a minute. Also, whenever the special shock alarm mode was triggered by experiments -04 or -01, high-time-resolution plasma data for a period starting before and ending after the event were recorded into spacecraft memory for later transmission. Because the spacecraft body was coated with a conductive coating, the sheath potentials were about 5 eV, causing far less degradation in the usefulness of data taken in the lower electron energy channels than on the Helios-A spacecraft, and almost no effect on the ion data. For more detailed information see p. 226 of Raumfahrtforschung, v. 19, n. 5, 1975.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/1220</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1976-003A&amp;ex=9</URL>
+        <Description>Information about the Plasma Detectors experiment on the Helios-B mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>ElectrostaticAnalyser</InstrumentType>
+    <InvestigationName>Plasma Detectors on Helios-B</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1976-003A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/1220</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Helmut R. Rosenbauer</PersonName>
+    <OrganizationName>Max-Planck-Institut fur Aeronomie</OrganizationName>
+    <Email>rosenbauer@linmpi.mpg.de</Email>
+    <PhoneNumber>+1-49-5556-979-425</PhoneNumber>
+  </Person>
+</Spase>

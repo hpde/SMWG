@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/2004-029A-03</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Plasma Electron and Current Experiment (PEACE)</ResourceName>
+      <AlternateName>PEACE</AlternateName>
+      <ReleaseDate>2006-08-31T00:00:00Z</ReleaseDate>
+      <Description>PEACE (Plasma Electron And Current Experiment) will count the population of low/medium energy electrons by measuring the number of electron impacts at each energy level and each direction. The Principal Investigator is A. Fazakerley, MSSL, Dorking, UK.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/62435</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2004-029A&amp;ex=3</URL>
+        <Description>Information about the Plasma Electron and Current Experiment (PEACE) experiment on the Double Star 2 mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Plasma Electron and Current Experiment (PEACE) on Double Star 2</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2004-029A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/62435</ResourceID>
+    <ReleaseDate>2001-02-20T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Andrew N. Fazakerley</PersonName>
+    <OrganizationName>University College London</OrganizationName>
+    <Email>anf@mssl.ucl.ac.uk</Email>
+    <PhoneNumber>+1-44-1-4832-04175</PhoneNumber>
+  </Person>
+</Spase>

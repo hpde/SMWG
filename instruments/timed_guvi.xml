@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/2001-055B-01</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Global Ultraviolet Imager (GUVI)</ResourceName>
+      <AlternateName>GUVI</AlternateName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>GUVI is a far-ultraviolet (115 to 180 nm), cross-track scanning imaging spectrograph that provides horizon-to-horizon images in five selectable wavelength intervals (HI 121.6 nm, OI 130.4 nm, OI 135.6 nm, and N2 Lyman-Birge-Hopfield bands 140 to 150 nm and 165 to 180 nm). It uses a scan mirror to sweep its 11.78 degree field-of-view through an arc of up to 140 degrees in the plane perpendicular to the orbital plane. This instantaneous field-of-view is mapped via a f/3 rowland circle spectrograph into 14 spatial and 160 spectral "pixels." The detector is a micro-channel, plate-intensified, wedge-and-strip anode sealed tube that provides a two-dimensional readout. The swath width of each scan is about 3000 km. During each orbit cycle of 1.5 hours, GUVI acquires day, night, and auroral observations. Successive orbits provide overlapping coverage at the poles and nearly contiguous coverage at the equator. GUVI is being used to measure the global composition and temperature profiles of the MLTI region, as well as its auroral energy inputs. Data products deduced from the GUVI observations include maps of the auroral oval, the characteristic energy and flux of the electrons which excite it, nightside F-region ionospheric electron density profiles, and dayside neutral composition and temperature information. GUVI is the first instrument sensitive enough to look, in detail, at composition changes in the upper atmosphere. An instrument based on the same heritage as GUVI will be flying on the Defense Meteorological Satellite (DMSP) F16 through F20 (SSUSI = Special Sensor Ultraviolet Spectrographic Imager).
+The GUVI homepage is at:
+http://guvi.jhuapl.edu/home.html</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/15296</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2001-055B&amp;ex=1</URL>
+        <Description>Information about the Global Ultraviolet Imager (GUVI) experiment on the TIMED mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Imager</InstrumentType>
+    <InvestigationName>Global Ultraviolet Imager (GUVI) on TIMED</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2001-055B</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/15296</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Andrew B. Christensen</PersonName>
+    <OrganizationName>Aerospace Corporation</OrganizationName>
+    <Email>andy.christensen@aero.org</Email>
+    <PhoneNumber>+1-213-336-7084</PhoneNumber>
+  </Person>
+</Spase>

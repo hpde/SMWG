@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/2006-047B-03</ResourceID>
+    <ResourceHeader>
+      <ResourceName>In-Situ Measurements of Particles and CME Transients (IMPACT)</ResourceName>
+      <AlternateName>IMPACT</AlternateName>
+      <ReleaseDate>2006-10-27T00:00:00Z</ReleaseDate>
+      <Description/>
+      <Contact>
+        <PersonID>spase://nssdc/person/18468</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2006-047B&amp;ex=3</URL>
+        <Description>Information about the In-Situ Measurements of Particles and CME Transients (IMPACT) experiment on the STEREO B mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>In-Situ Measurements of Particles and CME Transients (IMPACT) on STEREO B</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2006-047B</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/18468</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Janet G. Luhmann</PersonName>
+    <OrganizationName>University of California, Berkeley</OrganizationName>
+    <Email>jgluhman@sunspot.ssl.berkeley.edu</Email>
+    <PhoneNumber>+1-510-642-2545</PhoneNumber>
+  </Person>
+</Spase>

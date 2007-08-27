@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/2004-029A-02</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Fluxgate Magnetometer (FGM)</ResourceName>
+      <AlternateName>FGM</AlternateName>
+      <ReleaseDate>2006-08-31T00:00:00Z</ReleaseDate>
+      <Description>FGM (FluxGate Magnetometer) is located at the end of a 3.5 meter boom and can sample the field at a rate of 67 samples/s. The Principal Investigator is T. Zhang, IWF, Austria.</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2004-029A&amp;ex=2</URL>
+        <Description>Information about the Fluxgate Magnetometer (FGM) experiment on the Double Star 2 mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Fluxgate Magnetometer (FGM) on Double Star 2</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2004-029A</ObservatoryID>
+  </Instrument>
+</Spase>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1996-050C-05</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Three-Axis Magnetic Field (IMAP-3)</ResourceName>
+      <ReleaseDate>2006-03-21T00:00:00Z</ReleaseDate>
+      <Description>The IMAP-3 magnetic field experiment is designed to study the following processes in the Earth's plasma environment: structure of the inner magnetosphere magnetic field; structure of the small scale field-aligned currents; dynamics of the field-aligned currents during substorms; and relation of the processes in the auroral zone and in the tail.
+The IMAP-3 was designed and manufactured under cooperation of IZMIRAN (http://www.izmiran.rssi.ru), NPL SDS (Bulgaria) and PIC GPI of RAS.
+The instrument is designed to measure three components of the DC magnetic field in two ranges: +/- 6800 nT with resolution 1 nT and +/- 68000 nT with resolution 10 nT. Usually magnetometer data are transmitted to the scientific SSNI telemetry system at a rate of one vector per 3 seconds; during special intervals data are transmitted to telemetry at 2 or 8 vectors second depending on the instrument operating mode.
+The spacecraft was launched on 29 August 1996. The IMAP-3 was initially tested on the 9th of September and started to work regularly on the 14th of September.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/23700</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1996-050C&amp;ex=5</URL>
+        <Description>Information about the Three-Axis Magnetic Field (IMAP-3) experiment on the Interball Auroral Probe mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Three-Axis Magnetic Field (IMAP-3) on Interball Auroral Probe</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1996-050C</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/23700</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Ivan S. Arshinkov</PersonName>
+    <OrganizationName>Bulgarian Academy of Sciences</OrganizationName>
+  </Person>
+</Spase>

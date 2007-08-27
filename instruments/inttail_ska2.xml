@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1995-039A-02</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Low and Energetic Charged Particle Composition and Anisotropy (SKA-2)</ResourceName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>This instrument makes measurements of the solar wind ion fluxes and energy-angular distributions of H+ and He++ around the Sun direction with high time resolution.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/54331</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1995-039A&amp;ex=2</URL>
+        <Description>Information about the Low and Energetic Charged Particle Composition and Anisotropy (SKA-2) experiment on the Interball Tail Probe mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Low and Energetic Charged Particle Composition and Anisotropy (SKA-2) on Interball Tail Probe</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1995-039A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/54331</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. E. I. Morozova</PersonName>
+    <OrganizationName>Russian Academy of Sciences</OrganizationName>
+  </Person>
+</Spase>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1978-079A-02</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Vector Helium Magnetometer</ResourceName>
+      <ReleaseDate>2007-02-02T00:00:00Z</ReleaseDate>
+      <Description>The instrumentation for this experiment consisted of a boom-mounted triaxial vector helium magnetometer. Measurements were made of the steady magnetic field and its low-frequency variations. Eight field amplitude ranges (minus to plus 4, 14, 42, 144, 640, 4000, 22,000, and 140,000 nT) were available. The instrument ranged up and down automatically or could be commanded into a specific range. The field equivalent noise power spectral density was 2E-4 nT squared per Hz (independent of frequency), or 0.01 nT rms in the passband 0 to 0.5 Hz. A single-axis spectrum analyzer measured fluctuations parallel to the spacecraft spin axis in three frequency bands centered at 0.33, 3.2, and 8.8 Hz.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/2606</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1978-079A&amp;ex=2</URL>
+        <Description>Information about the Vector Helium Magnetometer experiment on the ISEE 3 mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Vector Helium Magnetometer on ISEE 3</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1978-079A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/2606</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Edward J. Smith</PersonName>
+    <OrganizationName>Jet Propulsion Laboratory</OrganizationName>
+    <Email>edward.j.smith@jpl.nasa.gov</Email>
+    <PhoneNumber>+1-818-354-2248</PhoneNumber>
+  </Person>
+</Spase>

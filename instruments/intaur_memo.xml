@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1996-050C-08</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Analyzer of Wideband Electromagnetic Waves (MEMO)</ResourceName>
+      <ReleaseDate>2006-04-27T00:00:00Z</ReleaseDate>
+      <Description>The MEMO (Mesure Multicomposante des Ondes) experiment is a part of the wave consortium of experiments on Interball 2. It provides waveforms associated with the measurement of two to five components in three freuency bands: ELF (5-1000 Hz), VLF (1-20 kHz), and LF (20-250 kHz). Due to the memory capacity and allocated bit rate (about 10 kbps), the main operational mode of MEMO is a snapshot mode. Preliminary results show that, despite a functional degradation and a fatal failure four months after switching on, the MEMO experiment has fulfilled part of its initial objectives.
+The MEMO instrument is closely associated with three other experiments: POLRAD in the LF/MF frequency range; NVK-ONCH in the ELF and VLF ranges; and IESP in the ULF range. The MEMO experiment mainly deals with the digitized waveform data it produces internally. However, it is also used to transmit: the ELF NVK_ONCH filter-bank data on a regular basis; and the VLF-ONCH filter data and the POLRAD sounder data via specific modes.
+This information was taken from the paper by Lefeuvre et al., Ann. Geophysicae 16, 1117-1136 (1998), which contains a much more detailed description of these complex instruments and also presents preliminary results.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/43398</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1996-050C&amp;ex=8</URL>
+        <Description>Information about the Analyzer of Wideband Electromagnetic Waves (MEMO) experiment on the Interball Auroral Probe mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>WaveformReceiver</InstrumentType>
+    <InvestigationName>Analyzer of Wideband Electromagnetic Waves (MEMO) on Interball Auroral Probe</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1996-050C</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/43398</ResourceID>
+    <ReleaseDate>2003-06-13T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Francois Lefeuvre</PersonName>
+    <OrganizationName>Centre National de la Recherche Scientifique</OrganizationName>
+    <Email>lefeuvre@cnrs-orleans.fr</Email>
+    <PhoneNumber>+1-33-2-2825-5284</PhoneNumber>
+  </Person>
+</Spase>

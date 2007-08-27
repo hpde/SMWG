@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/2000-017A-04</ResourceID>
+    <ResourceHeader>
+      <ResourceName>High-Energy Neutral Atom Imager (HENA)</ResourceName>
+      <AlternateName>HENA</AlternateName>
+      <ReleaseDate>2006-02-09T00:00:00Z</ReleaseDate>
+      <Description>The High-Energy Neutral Atom (HENA) imager on IMAGE is one of three instruments designed to make observations of the Earth's magnetospheric environment using neutral atom imaging. The HENA instrument determines the velocity, trajectory, energy, and mass of ENAs in the 10-500 keV energy range and from these data generates images of ENA source regions in the inner magnetosphere. The two main HENA components are the sensor and the main electronics unit (MEU).
+The HENA sensor consists of alternately charged deflection plates mounted in a fan configuration in front of the entrance slit, three microchannel plate (MCP) detectors, a solid-state detector (SSD), two carbon-silicon-polyimide foils (one at the entrance slit, the other placed just in front of the back MCP), and a series of wires and electrodes to steer secondary electrons ejected from the foils (or the SSD) to the MCPs. Power for the MCPs and deflection plates and for secondary electron steering is provided by high-voltage power supplies that reside with the sensor.
+The MEU contains HENA's data processing unit (DPU), the analog electronics (which amplifies and processes signals from the sensor and performs housekeeping monitoring), analog-to-digital converters, and a low-voltage power supply.
+HENA determines the velocity of the ENAs that it detects by measuring their time of flight (TOF) and trajectory through the sensor (from the entrance slit either to the back foil and two-dimensional imaging MCP detector or to the SSD. When an incoming ENA passes through the entrance foil, it produces secondary electrons, which are accelerated and steered to the front imaging MCP. This MCP, the "start" MCP, provides a start signal for the TOF analysis and registers the position at which the ENA penetrated the entrance slit. The ENA then continues through the sensor to the backplane and strikes either the foil in front of the 2-D imaging MCP or the SSD. In the first case, secondary electrons ejected from the back foil trigger a stop pulse in the 2-D imaging MCP, which also registers the position of the incident ENA. If the ENA strikes the SSD instead, the secondary electrons ejected by the impact are steered to the "coincidence" MCP, which provides the TOF stop signal; the position of impact is registered by the SSD.
+The start and stop signals are processed by the analog TOF electronics in the MEU and digitized for input into the DPU. The start and stop pulses give the ENA's time of flight, while the position measurements reveal its trajectory and thus its path length within the sensor. With these two pieces of information, time of flight and path length, HENA can calculate the ENA's velocity.
+The energy of the incident ENAs is measured with the SSD. When an ENA strikes the SSD, it generates a current pulse. The amplitude of this pulse (the pulse height) is directly proportional to the amount of energy that the ENA deposits in the SSD crystal. Thus, by analyzing the pulse height, HENA can determine the energy of an ENA incident on the SSD. And as mass is equal to the twice the energy divided by the velocity squared, once the energy and velocity of the ENA have been determined, its mass can be calculated. Calculating mass from the velocity and the SSD energy measurement is the primary technique used by HENA to determine composition of the ENAs. A second technique uses the pulse height of the MCP signal to distinguish between oxygen and hydrogen, the two most common neutral atoms expected in the magnetosphere.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/18278</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2000-017A&amp;ex=4</URL>
+        <Description>Information about the High-Energy Neutral Atom Imager (HENA) experiment on the IMAGE mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Imager</InstrumentType>
+    <InvestigationName>High-Energy Neutral Atom Imager (HENA) on IMAGE</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2000-017A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/18278</ResourceID>
+    <ReleaseDate>2001-10-24T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Donald G. Mitchell</PersonName>
+    <OrganizationName>Applied Physics Laboratory</OrganizationName>
+    <Email>don_mitchell@jhuapl.edu</Email>
+    <PhoneNumber>+1-240-228-6000 x8699</PhoneNumber>
+  </Person>
+</Spase>

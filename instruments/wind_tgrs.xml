@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1994-071A-02</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Transient Gamma Ray and EUV Spectrometer (TGRS)</ResourceName>
+      <ReleaseDate>1995-04-11T00:00:00Z</ReleaseDate>
+      <Description>The principal objective of the Transient Gamma-Ray Spectrometer (TGRS) is to make high-resolution observations of transient gamma-ray events in the energy range from 20 keV to 10 MeV. TGRS is a component of the WIND spacecraft and is part of the International Solar Terrestrial Physics (ISTP) program. In addition to burst measurements, the instrument will also be used to study solar flares, to search for possible diffuse background lines and to monitor the 511 keV positron annihilation from the galactic center. The experiment is make the first high-resolution survey of cosmic gamma-ray transients, and the first high-resolution spectroscopic measurements of solar flare gamma-ray lines. The expected spectroscopic resolution for TGRS is about 2 keV at 1 MeV (E/deltaE~500). The active detection element is a large (215 cm**3) intrinsically pure n-type Ge crystal which is cooled to cryogenic temperatures by a passive radiative cooler. The geometric field of view defined by the cooler is 170deg FWHM.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/2175</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1994-071A&amp;ex=2</URL>
+        <Description>Information about the Transient Gamma Ray and EUV Spectrometer (TGRS) experiment on the Wind mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Spectrometer</InstrumentType>
+    <InvestigationName>Transient Gamma Ray and EUV Spectrometer (TGRS) on Wind</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1994-071A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/2175</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Bonnard J. Teegarden</PersonName>
+    <OrganizationName>GSFC-Code 661</OrganizationName>
+    <Email>teegarden@tgrs.gsfc.nasa.gov</Email>
+    <PhoneNumber>+1-301-286-5277</PhoneNumber>
+  </Person>
+</Spase>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1996-050C-10</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Ion Mass Analyzer (HYPERBOLOID)</ResourceName>
+      <ReleaseDate>2006-03-21T00:00:00Z</ReleaseDate>
+      <Description>HYPERBOLOID is a plasma spectrometer aimed at the investigation of low energy ion dynamics in the polar ionosphere and magnetosphere. The scientific objectives of this experiment include studies of: thermal plasma transport by magnetospheric convection and escape along high latitude magnetic field lines; ion heating and acceleration by electrostatic and electromagnetic turbulence; and generation and propagation of magnetic field aligned small-scale structures in the auroral plasma.
+The instrument is basically a multi-directional ion mass spectrometer measuring ion distribution functions over an energy range from ~0.1 to 80 eV. In normal modes of operation, the four major species H+, He+, O+, O++ can be measured simultaneously; special modes may be used to detect minor species as N+ or the molecular ions.
+The ion angular and energy distribution are obtained by means of electrostatic optics defining 2 planes with several entrance windows. In the main plane, there are 16 windows at 10 intervals with individual FOV ~ 12 degrees and effective entrance area ~ 0.8 cm2. This plane contains the spacecraft spin axis so that the instrument is able to sample practically the full space in a complete spin period (120 seconds). Depending on the number of windows simultaneously opened, the angular resolution can be varied from 10 to 40, thus providing an adjustable trade off between angular and time resolution. The second plane of measurement is almost orthogonal to the first one with 10 windows at 15 intervals, FOV ~ 5 degrees and effective entrance area ~ 5 to 8 times less than in the main plane. Again, from 1 to 4 windows can be activated simultaneously. This second plane of measurement is meant to obtain a better time resolution (~ 1 second) for a full distribution function when the instrument is facing the rammed plasma, thus enabling to look at fast plasma variations.
+Each window is followed by a spherical electrostatic energy analyzer. In normal modes of operation the energy resolution is ~ +/- 10% for the main 16 windows and +/- 5% for the 10 secondary ones. By pre-accelerating or decelerating the ions at the entrance of the analyzer, one can vary this energy resolution by a factor between ~ 0.5 and 2.
+An arrangement of 2 toroidal concentrators is used to focus ions at the entrance of a magnet (which provides the mass separation), irrespective of their direction of arrival. There are 4 identical detectors in the focal plane, one for each of the major ions, which depending on the ion flux can be operated either in digital (pulse counting) or in analogical (charge integration) mode, thus providing a total dynamic range of 1E11.
+The temporal resolution of the instrument for a complete angular and energy scan depends on the telemetry rate and varies from ~ 1 to 16 seconds in most modes of operation.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/6303</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1996-050C&amp;ex=10</URL>
+        <Description>Information about the Ion Mass Analyzer (HYPERBOLOID) experiment on the Interball Auroral Probe mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>MassSpectrometer</InstrumentType>
+    <InvestigationName>Ion Mass Analyzer (HYPERBOLOID) on Interball Auroral Probe</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1996-050C</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/6303</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Jean-Jacques Berthelier</PersonName>
+    <OrganizationName>Centre de Recherches en Physique de l'Environment Terrestre et</OrganizationName>
+    <Email>jean-jacques.berthelier@cetp.ipsl.fr</Email>
+    <PhoneNumber>+1-33-1-4511-4242</PhoneNumber>
+  </Person>
+</Spase>

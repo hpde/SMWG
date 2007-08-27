@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/2000-041B-01</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Active Spacecraft Potential Control (ASPOC)</ResourceName>
+      <AlternateName>ASPOC</AlternateName>
+      <ReleaseDate>2007-02-02T00:00:00Z</ReleaseDate>
+      <Description>The objective of this instrument (ASPOC: Active Spacecraft POtential Control) is to ensure effective, complete measurement of the ambient plasma distribution functions, especially the very cold component. Additional benefits may be found in improved data for the long-wire electric field measurement, and the electron-beam probe for electric fields. The ASPOC instrument is a single unit consisting of an electronics box and two cylindrical ion-emitter modules. The emitters will produce indium ions at approximately 6 KeV, in a current of &lt;50 microamps. This will be done by field evaporation of indium in the apex field of a needle. The outgoing beam will diverge from parallel by +/- 15 degrees (half maximum). Design lifetime is 10,000 hours. In the basic feedback mode of operation, a measurement of the spacecraft potential is supplied to the instrument from either the electric field experiment (EFW) or the electron analyzer (PEACE). This information is then used to adjust the emission current to reduce the spacecraft potential to some predetermined value. By default, priority is given to the EFW data, because of the higher resolution (0.034 V vs. ~1.4 V) and the more straightforward way in which the potential is derived. There is also a stand-alone mode for backup. The electrical parameters of the ion beam will be available to all experimenters, and this will also enable them to interpret their data with respect to any remaining effects of the spacecraft potential. A calibration mode will measure the current-voltage characteristics of the spacecraft, at the beginning of the mission and occasionally later to account for changes in the photo-emission properties of the surface. This measurement is carried out by sweeping the ion emission current in incremental steps over some convenient range, allowing simultaneous measurements of the spacecraft potential. The length of each step is 2--4 spin periods. In addition to providing an improved environment for other experiments, ASPOC will permit scientific investigations of the photoelectric characteristics of the dependence of the spacecraft potential on plasma parameters, and of spacecraft charging in different plasma environments to be carried out in the so-called active mode. The ion current can be varied in a defined way for a short time to enable the co-operating plasma experiments to calibrate their response to spacecraft potential variations. Such experiments will be carried out at large, regular intervals, preferably in sections of the orbit which are not of prime interest to the mission as a whole. For more details of the Cluster mission, the spacecraft, and its instruments, see the report ``Cluster: mission, payload and supporting activities,'' March 1993, ESA SP-1159, and the included article ``Active Spacecraft Potential Control: an ion emitter experiment for Cluster,'' by W. Riedler et al., from which this information was obtained.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/4025</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2000-041B&amp;ex=1</URL>
+        <Description>Information about the Active Spacecraft Potential Control (ASPOC) experiment on the Cluster 2/FM6 (Salsa) mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>SpacecraftPotentialControl</InstrumentType>
+    <InvestigationName>Active Spacecraft Potential Control (ASPOC) on Cluster 2/FM6 (Salsa)</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2000-041B</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/4025</ResourceID>
+    <ReleaseDate>2000-07-07T00:00:00Z</ReleaseDate>
+    <PersonName>Prof. Willi W. Riedler</PersonName>
+    <OrganizationName>Technische Universitat Graz</OrganizationName>
+    <Email>riedler@oeaw.ac.at</Email>
+    <PhoneNumber>+1-43-316-46-3696</PhoneNumber>
+  </Person>
+</Spase>

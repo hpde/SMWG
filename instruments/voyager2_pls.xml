@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1977-076A-06</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Plasma Spectrometer (PLS)</ResourceName>
+      <AlternateName>PLS</AlternateName>
+      <ReleaseDate>2007-02-02T00:00:00Z</ReleaseDate>
+      <Description>The plasma investigation made use of two Faraday-cup detectors, one pointed along the earth-spacecraft line and one at right angles to this line. The earth-pointing detector determined the macroscopic properties of the plasma ions, obtaining accurate values of their velocity, density, and pressure. Three sequential energy scans were employed with (delta E)/E equal to 29, 7.2, and 1.8%, allowing a coverage from subsonic to highly supersonic flow. The side-looking Faraday cup measured electrons in the energy range from 5 eV to 1 keV.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/28976</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1977-076A&amp;ex=6</URL>
+        <Description>Information about the Plasma Spectrometer (PLS) experiment on the Voyager 2 mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>FaradayCup</InstrumentType>
+    <InvestigationName>Plasma Spectrometer (PLS) on Voyager 2</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1977-076A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/28976</ResourceID>
+    <ReleaseDate>2000-10-10T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. John D. Richardson</PersonName>
+    <OrganizationName>Massachusetts Institute of Technology</OrganizationName>
+    <Email>jdr@space.mit.edu</Email>
+    <PhoneNumber>+1-617-253-6112</PhoneNumber>
+  </Person>
+</Spase>

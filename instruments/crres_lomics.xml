@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1990-065A-18</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Low Energy Magnetospheric Ion Composition Sensor</ResourceName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>The Low Energy Magnetospheric Ion Composition Sensor (LOMICS) was part of the Mass Composition Instruments group and measured fluxes and composition of ions up to mass 56 amu in the energy/Q range of 40 eV/Q to 40 keV/Q. The energy of an ion entering the instrument was determined by a 90-deg spherical section electrostatic energy analyzer (EEA). It was followed by a time-of-flight (TOF) analyzer which yielded the speed of the ion. Together the two analyzers specified the mass and energy/charge of each ion. Generally, TOF analyzers were unsuitable for low energy ions; but it was overcome by providing each ion with an extra energy of 10 keV after it passed through the EEA. To determine the time of flight of the ion through a known path length, two very thin carbon foils (100 A), one at the entrance and the other at the exit of the TOF chamber, were used. The secondary electrons emitted by these foils were accelerated, deflected and focused onto an 18-mm diameter microchannel plate to provide the start and stop times of the flight. Three stop foils were used, corresponding to the three incident angles of the ions: 60, 90, and 120 deg from the spin axis of the satellite. The field of view at each of these angles was 12 deg by 15 deg. The energy resolution was 7.5% of the ion energy and the geometric factor was 3.8E-4 sq cm-sr. The system could detect the incidence of a single ion as well as fluxes up to 5.E7 particles/(sq cm- sr-s). LOMICS was initially inoperative after launch but later become functional. This experiment was part of the SPACERAD project sponsored by AFGL.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/6591</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1990-065A&amp;ex=18</URL>
+        <Description>Information about the Low Energy Magnetospheric Ion Composition Sensor experiment on the CRRES mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Low Energy Magnetospheric Ion Composition Sensor on CRRES</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1990-065A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/6591</ResourceID>
+    <ReleaseDate>2000-04-20T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. David T. Young</PersonName>
+    <OrganizationName>Southwest Research Institute</OrganizationName>
+    <Email>dyoung@srwi.edu</Email>
+    <PhoneNumber>+1-210-522-2743</PhoneNumber>
+  </Person>
+</Spase>

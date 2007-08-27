@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1996-013A-04</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Thermal Ion Dynamics Experiment (TIDE)</ResourceName>
+      <AlternateName>TIDE</AlternateName>
+      <ReleaseDate>1999-06-14T00:00:00Z</ReleaseDate>
+      <Description>This investigation, TIDE (thermal ion dynamics experiment), is designed to study the origin, transport, energization, storage, and loss of low energy ions in the earth's magnetosphere. The instrument measures the distribution function of ions in the energy range 0-100 eV and the mass range 1 to 16 u. A complete ion distribution is obtained over each spin of the spacecraft (nominally 6 s). The instrument consists of two sensor assemblies and an electronics assembly. The two sensors are mounted on opposite edges of the spacecraft, and each has a field of view of 170 deg. Control of the instrument by an onboard microprocessor permits programmable sequences of angle, energy, and mass to be selected for specific studies. The angular acceptance is in 10 x 10 deg windows covering a 120-deg fan in the plane containing the spin axis, and in 2- x 2-deg windows on 4-deg centers covering a 30-deg fan in the plane containing the spin axis. Energy resolution is nominally 20%, and mass resolution is 25% for masses 1-4 u, 8% for masses 4-16 u, and 3% for masses 16-64 u.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/19318</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1996-013A&amp;ex=4</URL>
+        <Description>Information about the Thermal Ion Dynamics Experiment (TIDE) experiment on the Polar mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Thermal Ion Dynamics Experiment (TIDE) on Polar</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1996-013A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/19318</ResourceID>
+    <ReleaseDate>2005-11-22T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Thomas E. Moore</PersonName>
+    <OrganizationName>GSFC-Code 612.2</OrganizationName>
+    <Email>thomas.e.moore@nasa.gov</Email>
+    <PhoneNumber>+1-301-286-5236</PhoneNumber>
+  </Person>
+</Spase>

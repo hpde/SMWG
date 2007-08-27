@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1973-078A-01</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Magnetic Field Experiment</ResourceName>
+      <ReleaseDate>2005-08-09T00:00:00Z</ReleaseDate>
+      <Description>This experiment consisted of a boom-mounted triaxial fluxgate magnetometer designed to study the interplanetary and geomagnetic tail magnetic fields. Each sensor had three dynamic ranges of plus or minus 12, plus or minus 36, and plus or minus 108 nT. With the aid of a bit compaction scheme (delta modulation), 25 vector measurements were made and telemetered per second. The experiment operated normally from launch until mid-1975. On July 11, 1975, because of a range indicator problem, the experiment operation was frozen into the 36-nT range. The digitization accuracy in this range is about plus or minus 0.3 nT. On March 23, 1978, the sensor flipper failed. After that time, alternative methods of Z-axis sensor zero-level determination were required. The magnetometer failed June 10, 2000.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/1878</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1973-078A&amp;ex=1</URL>
+        <Description>Information about the Magnetic Field Experiment experiment on the IMP-J mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Magnetic Field Experiment on IMP-J</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1973-078A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/1878</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Ronald P. Lepping</PersonName>
+    <OrganizationName>GSFC-Code 696</OrganizationName>
+    <Email>rpl@leprpl.gsfc.nasa.gov</Email>
+    <PhoneNumber>+1-301-286-5413</PhoneNumber>
+  </Person>
+</Spase>

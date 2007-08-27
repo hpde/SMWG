@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/2002-004A-01</ResourceID>
+    <ResourceHeader>
+      <ResourceName>High-Energy Solar Spectroscopic Imager (HESSI)</ResourceName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>HESSI is intended to image at high resolution solar flares in X-rays and gamma rays. The X-rays and gamma rays covers an energy range of 3 keV - 20 MeV with an energy resolution of about one keV and a spatial resolution of just a few seconds of arc. The imaging is accomplished by a 45 cm x 1.7 m tube containing nine pairs (one behind the other, spaced 1.5 m apart) of tungsten or molybdenum wire grids of width nine cm mounted parallel to the rotation axis of the tube pointing at the Sun. The tube rotates about its axis as the spacecraft spins at a rate of 15 rpm. During a rotation, a photon from any point on the Sun can either pass through a grid-pair or be blocked by one or other of the grids. This causes a modulation of the intensity of photons emanating from that point. The depth of modulation is zero for the photons arriving exactly along the spin axis and gradually increases to the off-axis photons. Behind each grid-pair is a cryogenic (75 K) germanium detector of 7.1 cm diameter and 8.5 cm thickness. The output from each of the nine detectors, at any given energy, can be Fourier-analyzed to provide a full two-dimensional spatial spectrum of an extended source region on the Sun. The full spatial spectrum is possible because each wire grid pair has a different slit width, spacing and wire thickness. Data accumulaton is about 16 Gb during a 10-min rotation. The telemetry data will be collected at Berkeley (CA), Wallops (VA), Santiago (Chile) and Weilheim (Germany). Science analysis of the data will involve close collaboration with many dedictated ground based and satellite based solar observatories. A secondary goal of HESSI is to observe astronomical sources such as Crab Nebula. The data will be available to the public use from three websites:
+http://hessi.ssl.berkeley.edu/data/test_dat
+http://hesperia.gsfc.nasa.gov/hessidata/
+ftp://hercules.ethz.ch/pub/hessi/data/data/test/
+Detailed description of the instrument and data processing is available at
+http://hesperia.gsfc.nasa.gov/hessi/</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/6313</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2002-004A&amp;ex=1</URL>
+        <Description>Information about the High-Energy Solar Spectroscopic Imager (HESSI) experiment on the RHESSI mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Imager</InstrumentType>
+    <InvestigationName>High-Energy Solar Spectroscopic Imager (HESSI) on RHESSI</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2002-004A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/6313</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Prof. Robert P. Lin</PersonName>
+    <OrganizationName>University of California, Berkeley</OrganizationName>
+    <Email>rlin@ssl.berkeley.edu</Email>
+    <PhoneNumber>+1-510-642-1149</PhoneNumber>
+  </Person>
+</Spase>

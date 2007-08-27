@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/2004-029A-06</ResourceID>
+    <ResourceHeader>
+      <ResourceName>High-Energy Electron Detector (HEED)</ResourceName>
+      <AlternateName>HEED</AlternateName>
+      <ReleaseDate>2006-08-31T00:00:00Z</ReleaseDate>
+      <Description>HEED (High Energy Electron Detector): The Principal Investigator is W. Zhang and J. B. Cao, CSSAR, China. No further information is available.</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2004-029A&amp;ex=6</URL>
+        <Description>Information about the High-Energy Electron Detector (HEED) experiment on the Double Star 2 mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>High-Energy Electron Detector (HEED) on Double Star 2</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2004-029A</ObservatoryID>
+  </Instrument>
+</Spase>

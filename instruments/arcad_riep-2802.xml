@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1981-094A-01</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Kukushka Soft Particle Spectrometer</ResourceName>
+      <AlternateName>RIEP-2802</AlternateName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>This experiment consisted of a large-geometric-factor four-channel spectrometer in which incident protons and electrons, each in energy ranges 40-740 eV and 0.76-14 keV, were fed into four electrostatic analyzers. Each of these analyzers could be held at one of, or cycle through, eight energy steps. Energy resolution (delta-E)/E of these steps was 20%. Time resolution for simultaneous measurements in all four analyzers was 10, 80, 320, or 2560 ms according to which memory (ZAP) mode was in use. The instrument's entrance aperture made an angle of 75 deg with the satellite's axis of symmetry which is nominally oriented towards the zenith. For further details, see Galperin el al, Ann. Geophys., 38, 583, 1982.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/7630</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1981-094A&amp;ex=1</URL>
+        <Description>Information about the Kukushka Soft Particle Spectrometer experiment on the Aureol 3 mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>ElectrostaticAnalyser</InstrumentType>
+    <InvestigationName>Kukushka Soft Particle Spectrometer on Aureol 3</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1981-094A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/7630</ResourceID>
+    <ReleaseDate>2003-10-06T00:00:00Z</ReleaseDate>
+    <PersonName>Prof. Yuri I. Galperin</PersonName>
+    <OrganizationName>Deceased - formerly at Russian Academy of Sciences</OrganizationName>
+  </Person>
+</Spase>

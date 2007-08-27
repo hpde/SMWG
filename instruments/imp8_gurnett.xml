@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1973-078A-12</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Electrostatic Waves and Radio Noise</ResourceName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>A wide-band receiver was used to observe high-resolution frequency-time spectra, and a six-channel narrow-band receiver with a variable center frequency was used to observe wave characteristics. The receivers operated from three antenna systems. The first system contained a pair of long dipole antennas (one, extendable to about 124 m, normal to the spacecraft spin axis and the other antenna, extendable to about 6.1 m, along the spin axis). The second system contained a boom-mounted triad of orthogonal loop antennas. The third system consisted of a boom-mounted 0.51-m spin-axis dipole. The magnetic and electric field intensities and frequency spectra, polarization, and direction of arrival of naturally occurring radio noise in the magnetosphere were observed. Phenomena studied were the time-space distribution, origin, propagation, dispersion, and other characteristics of radio noise occurring across and on either side of the magnetospheric boundary region. The frequency range for electric fields was 0.3 Hz to 200 kHz, and for magnetic fields it was 20 Hz to 200 kHz.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/3528</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1973-078A&amp;ex=12</URL>
+        <Description>Information about the Electrostatic Waves and Radio Noise experiment on the IMP-J mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Antenna</InstrumentType>
+    <InvestigationName>Electrostatic Waves and Radio Noise on IMP-J</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1973-078A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/3528</ResourceID>
+    <ReleaseDate>2001-04-02T00:00:00Z</ReleaseDate>
+    <PersonName>Prof. Donald A. Gurnett</PersonName>
+    <OrganizationName>University of Iowa</OrganizationName>
+    <Email>donald-gurnett@uiowa.edu</Email>
+    <PhoneNumber>+1-319-335-1697</PhoneNumber>
+  </Person>
+</Spase>

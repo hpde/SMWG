@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1978-051A-05</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Gamma Ray Burst Detector (OGBD)</ResourceName>
+      <AlternateName>OGBD</AlternateName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>An omnidirectional gamma-ray detector employing two Phoswich scintillation spectrometers sensitive to photons from 0.2 to 2.0 MeV was used with logic circuitry to detect the beginning of a gamma event and to initiate a period of rapid data collection. Data were stored in a memory unit for subsequent transmission to earth. Confirmation that a true gamma event had occurred was obtained by comparison with results from other experiments in earth satellites. This experiment provided long-baseline time correlations necessary for calculating accurate source locations.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/5296</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1978-051A&amp;ex=5</URL>
+        <Description>Information about the Gamma Ray Burst Detector (OGBD) experiment on the Pioneer Venus Orbiter mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Spectrometer</InstrumentType>
+    <InvestigationName>Gamma Ray Burst Detector (OGBD) on Pioneer Venus Orbiter</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1978-051A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/5296</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Ray W. Klebesadel</PersonName>
+    <OrganizationName>Los Alamos National Laboratory</OrganizationName>
+    <Email>klebesadel@lanl.gov</Email>
+    <PhoneNumber>+1-505-667-4818</PhoneNumber>
+  </Person>
+</Spase>

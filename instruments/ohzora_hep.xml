@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1984-015A-08</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Monitor of High Energy Particles</ResourceName>
+      <ReleaseDate>1995-07-26T00:00:00Z</ReleaseDate>
+      <Description>The objective of this experiment was to monitor the energy spectra and flux of electrons, protons and alpha particles with energies greater than 50 keV using solid-state detectors.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/1971</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1984-015A&amp;ex=8</URL>
+        <Description>Information about the Monitor of High Energy Particles experiment on the Ohzora mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Monitor of High Energy Particles on Ohzora</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1984-015A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/1971</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Prof. Tadayoshi Doke</PersonName>
+    <OrganizationName>Waseda University</OrganizationName>
+    <Email>tdoke@cfi.waseda.ac.jp</Email>
+    <PhoneNumber>+1-81-03-203-4336</PhoneNumber>
+  </Person>
+</Spase>

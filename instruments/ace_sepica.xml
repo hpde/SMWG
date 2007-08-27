@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1997-045A-04</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Solar Energetic Particle Ionic Charge Analyzer (SEPICA)</ResourceName>
+      <AlternateName>SEPICA</AlternateName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>The Solar Energetic Particle Ionic Charge Analyzer (SEPICA) is designed to measure ionic charge state, kinetic energy, and nuclear charge of energetic ions at energies above 0.2 MeV/nucleon. Principal science goals include measurement of such ions from solar flares, coronal and interplanetary shocks, co-rotating interaction regions, and the solar wind termination shock, the latter being the probable source of the anomalous cosmic ray component. The SEPICA sensors combine electrostatic deflection of incoming ions in a collimator analyzer with a differential energy loss (dE/dx) vs. residual energy telescope. Energetic ions entering the multi-split collimator, which focuses the ions on a line in the detector plane, are electrostatically deflected between a set of electrode plates at voltage potentials up to 30 kV. The amount of deflection, inversely proportional to energy per charge, is measured in a multi-wire thin-window proportional counter. This counter is also used to measure the dE/dx of the ion. Residual energy of the ion is then determined in a solid-state detector behind the proportional counter. A CsI anticoincidence scintillator behind the solid state detector is used to supress background events from penetrating high energy particles. The SEPICA instrument array consists of three pairs of telescopes with collimators, electrostatic deflection electrodes, proportional counters, and solid state detectors. Each pair shares a high-voltage deflection electrode. Two of the pairs have collimators with larger geometric factor for higher sensitivity to smaller solar energetic particle (SEP) events. The third pair uses a fine collimator to reduce the geometric factor for improved charge state resolution. The field of view (FOV) of each telescope is 24 deg. x 50 deg. with 0.36 sq.cm.-sr for the large geometric factor sensors and 0.06 sq.cm.sr for those with the fine collimator. Charge resolution is about 10 percent with the fine collimator. The SEPICA data rate of 604 bps includes readout of 46 bits/events for 12 pulse height analysis (PHA) events/s, sectored (8) counting rates for He and Z&gt;2 ions at 60-sec resolution, 64 PHA matrix rates at 300-sec resolution, and various housekeeping data. The SEPICA experiment manager is Dr. Eberhard Mobius of the University of New Hampshire.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/29124</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1997-045A&amp;ex=4</URL>
+        <Description>Information about the Solar Energetic Particle Ionic Charge Analyzer (SEPICA) experiment on the ACE mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>ElectrostaticAnalyser</InstrumentType>
+    <InvestigationName>Solar Energetic Particle Ionic Charge Analyzer (SEPICA) on ACE</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1997-045A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/29124</ResourceID>
+    <ReleaseDate>2002-02-27T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Eberhard S. Moebius</PersonName>
+    <OrganizationName>University of New Hampshire</OrganizationName>
+    <Email>eberhard.moebius@unh.edu</Email>
+    <PhoneNumber>+1-603-862-3097</PhoneNumber>
+  </Person>
+</Spase>

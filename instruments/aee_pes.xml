@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1975-107A-03</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Photoelectron Spectrometer (PES)</ResourceName>
+      <AlternateName>PES</AlternateName>
+      <ReleaseDate>2007-02-02T00:00:00Z</ReleaseDate>
+      <Description>This experiment was designed to provide information on the intensity, angular distribution, energy spectrum, and net flow along field lines, of electrons in the thermosphere with energies between 1 and 500 eV. The instrument consisted of two identical oppositely directed hemispherical electrostatic analyzers, and contained 30 operating modes. Each spectrometer had a relative energy resolution of plus or minus 2.5% and a geometric factor on the order of 0.001 sq cm-sr, independent of electron energy. Three separate energy ranges could be measured: 0 to 25, 0 to 100, and 0 to 500 eV. Measurements from these intervals could be sequenced in five different ways. Data could be taken from either sensor separately, or alternately with time resolution varying from 0.25 to 8 s. There were two deflection voltage scan rates determined by the spacecraft clock. This voltage was changed in 64 steps, and was done at 4 or 16 steps per telemetry frame. With 16 frames/s, this allowed a choice of either one 64-point spectrum, or four 16-point spectra in one second. The longest (8 s) cycle of data involved observations using increasing voltage steps for the lowest, middle, lowest, then highest energy ranges (in that order) for 1 s each. A repeat for decreasing voltage steps completed the cycle. A more detailed description of this experiment is found in J. P. Doering et al., Radio Sci., v. 8, n. 4, p. 387, 1973.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/5525</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1975-107A&amp;ex=3</URL>
+        <Description>Information about the Photoelectron Spectrometer (PES) experiment on the AE-E mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>ElectrostaticAnalyser</InstrumentType>
+    <InvestigationName>Photoelectron Spectrometer (PES) on AE-E</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1975-107A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/5525</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. John P. Doering</PersonName>
+    <OrganizationName>Johns Hopkins University</OrganizationName>
+    <Email>p1322772@jhuvmnet.jhu.edu</Email>
+    <PhoneNumber>+1-410-516-7445</PhoneNumber>
+  </Person>
+</Spase>

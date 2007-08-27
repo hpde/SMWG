@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/2003-061A-02</ResourceID>
+    <ResourceHeader>
+      <ResourceName>PEACE (Plasma Electron And Current Experiment)</ResourceName>
+      <ReleaseDate>2004-01-08T00:00:00Z</ReleaseDate>
+      <Description>PEACE (Plasma Electron And Current Experiment) infers the positive potential of the spacecraft by counting the number and speed of the thermal electrons that impinge on it. This measurement is an input to the operation of ASPOC.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/62435</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2003-061A&amp;ex=2</URL>
+        <Description>Information about the PEACE (Plasma Electron And Current Experiment) experiment on the Double Star 1 mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>PEACE (Plasma Electron And Current Experiment) on Double Star 1</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2003-061A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/62435</ResourceID>
+    <ReleaseDate>2001-02-20T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Andrew N. Fazakerley</PersonName>
+    <OrganizationName>University College London</OrganizationName>
+    <Email>anf@mssl.ucl.ac.uk</Email>
+    <PhoneNumber>+1-44-1-4832-04175</PhoneNumber>
+  </Person>
+</Spase>

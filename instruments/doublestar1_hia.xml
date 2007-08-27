@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/2003-061A-04</ResourceID>
+    <ResourceHeader>
+      <ResourceName>HIA (Hot Ion Analyzer)</ResourceName>
+      <ReleaseDate>2004-01-06T00:00:00Z</ReleaseDate>
+      <Description>HIA (Hot Ion Analyzer) meausres the distribution function of ions in the magnetosphere and the solar wind, during each spin period of four seconds.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/1848</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2003-061A&amp;ex=4</URL>
+        <Description>Information about the HIA (Hot Ion Analyzer) experiment on the Double Star 1 mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>HIA (Hot Ion Analyzer) on Double Star 1</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2003-061A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/1848</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Prof. Henri Reme</PersonName>
+    <OrganizationName>CNRS Centre d'Etudes Spatiales des Rayonnements</OrganizationName>
+    <Email>henry.reme@cesr.fr</Email>
+    <PhoneNumber>+1-33-61-556665</PhoneNumber>
+  </Person>
+</Spase>

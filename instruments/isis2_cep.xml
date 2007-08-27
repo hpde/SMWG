@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1971-024A-07</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Cylindrical Electrostatic Probes</ResourceName>
+      <ReleaseDate>1996-08-26T00:00:00Z</ReleaseDate>
+      <Description>The purpose of this experiment was to study the global variations of electron temperature and electron concentration at spacecraft altitudes during the waning phase of the solar cycle. The measurements were made with two cylindrical probes mounted along the spin axis, one at each end of the spacecraft. The sensors were operated as Langmuir probes, with the probe current being measured as a function of probe voltage. Although basically the same cylindrical probe experiment was flown on ISIS 1, the ISIS 2 probe provided (1) greater sensitivity allowing a more complete coverage of low-density regions such as the region over the polar cap, (2) very high resolution of plasma structure (down to 10 m in extent), and (3) onboard signal processing with backup to provide data in the format that had been used for the ISIS 1 experiment. NSSDC has all the useful data that exist from this investigation.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/2255</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1971-024A&amp;ex=7</URL>
+        <Description>Information about the Cylindrical Electrostatic Probes experiment on the ISIS 2 mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>LangmuirProbe</InstrumentType>
+    <InvestigationName>Cylindrical Electrostatic Probes on ISIS 2</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1971-024A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/2255</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Mr. Larry H. Brace</PersonName>
+    <OrganizationName>GSFC-Code 910.4</OrganizationName>
+    <PhoneNumber>+1-301-286-8575</PhoneNumber>
+  </Person>
+</Spase>

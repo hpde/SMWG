@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1995-039A-07</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Solar Wind Analyzer (MONITOR-3)</ResourceName>
+      <ReleaseDate>2006-03-18T00:00:00Z</ReleaseDate>
+      <Description>This instrument makes measurements of the solar wind ion fluxes and energy-angular distributions of H+ and He++ around the Sun direction with high time resolution.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/43976</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1995-039A&amp;ex=7</URL>
+        <Description>Information about the Solar Wind Analyzer (MONITOR-3) experiment on the Interball Tail Probe mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Solar Wind Analyzer (MONITOR-3) on Interball Tail Probe</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1995-039A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/43976</ResourceID>
+    <ReleaseDate>2002-12-04T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Zdenek Nemecek</PersonName>
+    <OrganizationName>Charles University</OrganizationName>
+    <Email>jana@mbox.troja.mff.cuni.cz</Email>
+    <PhoneNumber>+1-420-22191-2301</PhoneNumber>
+  </Person>
+</Spase>

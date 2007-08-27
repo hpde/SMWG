@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1984-015A-07</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Plasma Probes</ResourceName>
+      <ReleaseDate>1995-07-26T00:00:00Z</ReleaseDate>
+      <Description>This experiment used plasma probes to measure electron density and electron temperature.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/18218</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1984-015A&amp;ex=7</URL>
+        <Description>Information about the Plasma Probes experiment on the Ohzora mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>LangmuirProbe</InstrumentType>
+    <InvestigationName>Plasma Probes on Ohzora</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1984-015A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/18218</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Mr. Tadatoshi Takahashi</PersonName>
+    <OrganizationName>Tohoku University</OrganizationName>
+    <PhoneNumber>+1-81-22-222-1800 X-3334</PhoneNumber>
+  </Person>
+</Spase>

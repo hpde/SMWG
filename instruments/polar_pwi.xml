@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1996-013A-02</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Plasma Waves Investigation (PWI)</ResourceName>
+      <AlternateName>PWI</AlternateName>
+      <ReleaseDate>2003-10-08T00:00:00Z</ReleaseDate>
+      <Description>The objectives of this investigation are to measure the spectrum, amplitude, and wave vector characteristics for naturally occurring electromagnetic and electrostatic plasma waves along the ISTP/POLAR trajectory for frequency ranges of 1 Hz to 400 kHz (magnetic), 1 Hz to 3.2 MHz (electric), and 1 Hz to 16 kHz (density fluctuations). The same characteristics are also measured for electromagnetic and electrostatic plasma waves resulting from ground-based or Shuttle-based active wave, particle, and chemical injection experiments. A unique feature of this instrument is the capability to recognize the presence of a desired phenomenon based on onboard microprocessor algorithms, and to capture the waveforms for six wave fields simultaneously. These waveforms provide simultaneous estimates for the electromagnetic wave normal, polarization, and Poynting vectors or for the electrostatic propagation and polarization vectors after ground processing.
+PWI experienced an undervoltage condition in its 5-volt power supply on September 16, 1997. This power supply was used to operate the digital processing units (DPU) of the instrument. Without full power, the DPUs are unable to operate and no backup power supply was incorporated into the instrument. Thus, no PWI data have been obtained by the PWI instrument since that date. Magnetic searchcoil data are still being obtained by the EFI instrument in its burst mode as long as PWI's main instrument power remains on (the default as of November 18, 1997). There is nothing that the PWI team can do to clear this undervoltage condition. Unless the condition clears itself, the PWI data set has a finite time span of March 25, 1996 through September 16, 1997.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/3528</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1996-013A&amp;ex=2</URL>
+        <Description>Information about the Plasma Waves Investigation (PWI) experiment on the Polar mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>WaveformReceiver</InstrumentType>
+    <InvestigationName>Plasma Waves Investigation (PWI) on Polar</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1996-013A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/3528</ResourceID>
+    <ReleaseDate>2001-04-02T00:00:00Z</ReleaseDate>
+    <PersonName>Prof. Donald A. Gurnett</PersonName>
+    <OrganizationName>University of Iowa</OrganizationName>
+    <Email>donald-gurnett@uiowa.edu</Email>
+    <PhoneNumber>+1-319-335-1697</PhoneNumber>
+  </Person>
+</Spase>

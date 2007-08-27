@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1979-057A-04</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Space Environment Monitor (SEM)</ResourceName>
+      <AlternateName>SEM</AlternateName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>The Space Environmental Monitor (SEM) was an extension of the solar proton monitoring experiment flown on the ITOS spacecraft series. The object was to measure proton flux, electron flux density, and energy spectrum in the upper atmosphere. The experiment package consisted of three detector systems and a data processing unit. The medium energy proton and electron detector (MEPED) measured protons in five energy ranges from 30 keV to &gt;2.5 MeV; electrons above 30, 100, and 300 keV; protons and electrons (inseparable) above 6 MeV; and omni-directional protons above 16, 36, and 80 MeV. The high-energy proton alpha telescope (HEPAT), which had a 48-deg viewing cone, viewed in the anti-earth direction and measured protons in four energy ranges above 370 MeV and alpha particles in two energy ranges above 850 MeV/nucleon. The total energy detector (TED) measured electrons and protons between 300 eV and 20 keV.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/5493</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://nssdc/person/2189</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://nssdc/person/7122</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1979-057A&amp;ex=4</URL>
+        <Description>Information about the Space Environment Monitor (SEM) experiment on the NOAA  6 mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Space Environment Monitor (SEM) on NOAA  6</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1979-057A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/5493</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Harold Leinbach</PersonName>
+    <OrganizationName>NOAA Environmental Research Labs</OrganizationName>
+    <PhoneNumber>+1-303-497-6959</PhoneNumber>
+  </Person>
+  <Person>
+    <ResourceID>spase://nssdc/person/2189</ResourceID>
+    <ReleaseDate>2000-07-12T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. David S. Evans</PersonName>
+    <OrganizationName>NOAA Environmental Research Labs</OrganizationName>
+    <Email>david.s.evans@noaa.gov</Email>
+    <PhoneNumber>+1-303-497-3269</PhoneNumber>
+  </Person>
+  <Person>
+    <ResourceID>spase://nssdc/person/7122</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Herbert H. Sauer</PersonName>
+    <OrganizationName>NOAA Environmental Research Labs</OrganizationName>
+    <Email>hsauer@sel.noaa.gov</Email>
+    <PhoneNumber>+1-303-497-3681</PhoneNumber>
+  </Person>
+</Spase>

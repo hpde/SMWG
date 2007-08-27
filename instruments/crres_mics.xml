@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1990-065A-16</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Magnetospheric Ion Composition Sensor</ResourceName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>The Magnetospheric Ion Composition Sensor (MICS) was part of the Mass Composition Instruments group which measured mass and energy/Q spectra of magnetospheric ions in the range 40 eV/Q to 15 MeV per ion to identify mechanisms that could energize charged particles and transport them from their parent populations in the magnetosphere. MICS measured mass and energy/Q spectra of ions in the range 30 to 400 keV/Q. This sensor consisted of a conically shaped electrostatic energy analyzer (EES) and a time-of-flight (TOF) analyzer. The EES specified the energy/charge of the incident ion and the TOF provided the speed. Together they enabled determination of the energy spectrum for each mass up to 56 amu. After passing through the EES, an ion would pass through a thin carbon foil and then through another carbon foil at the end of the flight path. The secondary electrons emitted by the foils provided the time of flight and hence the speed. The field of view was a 2-deg cone, at an angle of 90 deg from the spin axis of the satellite. The energy resolution was 10% at each energy and the geometric factor was 1.0E-2 sq cm-sr. The sensitivity ranged from single particle events to a flux of 5.E7 particles/(sq cm-sr-s). This experiment was part of the SPACERAD project sponsored by AFGL.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/156</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://nssdc/person/25678</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1990-065A&amp;ex=16</URL>
+        <Description>Information about the Magnetospheric Ion Composition Sensor experiment on the CRRES mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Magnetospheric Ion Composition Sensor on CRRES</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1990-065A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/156</ResourceID>
+    <ReleaseDate>2002-05-30T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Berend Wilken</PersonName>
+    <OrganizationName>Deceased - formerly at MPI fur Aeronomie, Germany</OrganizationName>
+  </Person>
+  <Person>
+    <ResourceID>spase://nssdc/person/25678</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. E. Gary Mullen</PersonName>
+    <OrganizationName>USAF Geophysics Laboratory</OrganizationName>
+    <PhoneNumber>+1-781-377-3213</PhoneNumber>
+  </Person>
+</Spase>

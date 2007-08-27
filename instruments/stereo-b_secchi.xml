@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/2006-047B-01</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Stereo-B Sun Earth Connection Coronal and Heliospheric Investigation (SECCHI)</ResourceName>
+      <AlternateName>SECCHI</AlternateName>
+      <ReleaseDate>2006-10-27T00:00:00Z</ReleaseDate>
+      <Description>The Sun Earth Connection Coronal and Heliospheric Investigations (SECCHI) on the two STEREO spacecraft are identical suites of remote sensing instruments designed to observe coronal mass ejections (CMEs) at the Sun in transit outwards to 1 AU. In some cases CMEs will be observed enroute to the vicinity of Earth where interactions of CME-associated magnetic fields, plasmas, and energetic particles with the Earth can lead to magnetospheric and ionospheric disturbances, increased radiation hazards for earth-orbiting satellites, and disruption of power grids and communications networks on the surface. The primary science objectives are to understand the origin and consequences of CMEs, identify the magnetic configurations and evolutionary paths that produce CMEs, and to characterize the 3-D structures of CMEs and the quiescent corona. SECCHI includes a coordinated effort for development of magnetohydrodynamic (MHD) models for 3-D structures of the quasi-steady solar wind plasma and magnetic field, and for modeling of transient events such as CMEs. Data processing and graphics tools will be implemented for 3-D reconstruction and visualization of coronal images viewed at different viewpoints from the two STEREO spacecfraft.
+The SECCHI instruments include two white light coronagraphs (COR1, COR2) for the inner (K) and outer (F) solar corona, an extreme ultraviolet imager (EUVI) for the upper chromosphere and lower corona at four emission-line wavelengths, and a heliospheric imager (HI). The two coronagraphs are needed to compensate for large radial gradients in coronal brightness from the lower to the upper corona. The single EUV imager defines the emission line corona over the entire solar disk and lower corona, while also observing the He II transition region network structure and prominences. The heliospheric imager is also split into two telescopes, HI-1 and HI-2, to cover the inner heliosphere between the SUN and 1 AU and to optimize requirements for rejection of stray light. The coronagraphs and EUV imager telescopes are contained with the Sun-Centered Imaging Package (SCIP). The SECCHI electronics Box (SEB) provides common electronics for SCIP and the HI telescopes.
+COR1 and COR2 respectively cover the corona at solar radii of 1.25 to 4 and 2 to 15, and EUVI observes at 0 to 1.7 solar radii. HI-1 and HI-2 observe at 12 to 84 and 66 to 318 solar radii, respectively. Band-pass wavelengths are 650 - 750 nm for COR1 and COR2, 450 to 750 nm for HI-1 and HI-21. EUVI measured emission lines at 30.4 nm (He II), 17.1 nm (Fe IX), 19.5 nm (Fe XII), and 21.1 nm (Fe XIV). Exposure times vary from a minimum of 1 sec for COR1 to 60 sec for HI-2 at minimum intervals of 15 sec for COR1 to 8 min for HI-2. The corresponding intervals for synoptic tracking are 8 min to 2 hours. The absolute pointing requirements increase from 7 arcsec for COR1 to 30 arcmin for the HI telescopes with pointing stabilities of 0.5 to 1.7 arcsec. Stray light rejection requirements are respectively one-millionth to 0.1 trillionth of full solar brightness for COR1 and COR2, while rejection efficiencies for EUVI (visible/EUV ratio), HI-1, and HI-2 must be 10, 100, and 1000 times greater than for COR2.
+More information abour SECCHI science objectives, instrumentation, and operations are available at the investigation web site:
+http://projects.nrl.navy.mil/secchi/index.html</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/15369</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2006-047B&amp;ex=1</URL>
+        <Description>Information about the Stereo-B Sun Earth Connection Coronal and Heliospheric Investigation (SECCHI) experiment on the STEREO B mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Imager</InstrumentType>
+    <InvestigationName>Stereo-B Sun Earth Connection Coronal and Heliospheric Investigation (SECCHI) on STEREO B</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2006-047B</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/15369</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Russell A. Howard</PersonName>
+    <OrganizationName>US Naval Research Laboratory</OrganizationName>
+    <Email>howard@cronus.nrl.navy.mil</Email>
+    <PhoneNumber>+1-202-767-3137</PhoneNumber>
+  </Person>
+</Spase>

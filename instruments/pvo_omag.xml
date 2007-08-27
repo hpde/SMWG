@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1978-051A-12</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Magnetometer (OMAG)</ResourceName>
+      <AlternateName>OMAG</AlternateName>
+      <ReleaseDate>2006-02-09T00:00:00Z</ReleaseDate>
+      <Description>This experiment used a triaxial fluxgate magnetometer with two ring-core sensors at the end of a magnetometer boom and one ring-core sensor, at 45 degrees to the spin axis, halfway down the boom. The drive and electronics design had been used on the Apollo 15 and 16 subsatellites. The objectives of this investigation were to: (1) determine any planetary and remnant magnetic fields; (2) deduce the location and strength of the ionospheric current system; (3) determine the energy and mass balance in the upper atmosphere of Venus; (4) examine the nature of the solar wind interaction with Venus; and, (5) study the near-wake region of Venus and the structure of the Venusian bow shock. Additional objectives for interplanetary (solar wind) studies were to determine the perturbation of the near-planet region by Venus and to compare the properties of the average field at 0.7 and 1.0 AU.
+The instrument was intended to, in the worst case of low-bit and low-sample rates, measure one vector per 32 s. While in Venus orbit, when the spacecraft was coasting through the interplanetary region in the apoapsis mode, the sample rate was one vector per 8 s. While the spacecraft was passing through Venus' ionosphere in the periapsis mode, the sample rate was four vectors per second.
+The last full orbit of three-axis data was 3602, which ended on 16 Oct. 1988 at 14:30 UT. After this time, only one-axis data were available.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/1999</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1978-051A&amp;ex=12</URL>
+        <Description>Information about the Magnetometer (OMAG) experiment on the Pioneer Venus Orbiter mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Magnetometer (OMAG) on Pioneer Venus Orbiter</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1978-051A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/1999</ResourceID>
+    <ReleaseDate>2001-02-23T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Christopher T. Russell</PersonName>
+    <OrganizationName>University of California, Los Angeles</OrganizationName>
+    <Email>ctrussell@igpp.ucla.edu</Email>
+    <PhoneNumber>+1-310-825-3188</PhoneNumber>
+  </Person>
+</Spase>

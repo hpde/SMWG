@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1994-071A-04</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Magnetic Fields Instrument (MFI)</ResourceName>
+      <ReleaseDate>1995-09-12T00:00:00Z</ReleaseDate>
+      <Description>The primary objective of this investigation is to establish the large-scale structure and fluctuation characteristics of the interplanetary magnetic field as functions of time throughout the mission, and through correlative studies to understand the physical mechanisms by which the observed phenomena relate to the dynamics of the magnetosphere. The instrument is identical to the magnetometer on ISTP/GEOTAIL. It consists of a triaxial fluxgate magnetometer mounted remote from the spacecraft on a boom, a multiple resolution A/D converter, and a microprocessor-controlled range control logic and data processing system. Seven measurement ranges are included: plus or minus 16, 64, 256, 1024, 4096, 16,384, and 65,536 nT. Resolution ranges from 0.004 to 16 nT in normal mode and 2.5E-4 to 1 nT in high resolution mode.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/1878</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1994-071A&amp;ex=4</URL>
+        <Description>Information about the Magnetic Fields Instrument (MFI) experiment on the Wind mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Magnetic Fields Instrument (MFI) on Wind</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1994-071A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/1878</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Ronald P. Lepping</PersonName>
+    <OrganizationName>GSFC-Code 696</OrganizationName>
+    <Email>rpl@leprpl.gsfc.nasa.gov</Email>
+    <PhoneNumber>+1-301-286-5413</PhoneNumber>
+  </Person>
+</Spase>

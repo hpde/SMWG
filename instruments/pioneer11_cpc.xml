@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1973-019A-02</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Charged Particle Composition</ResourceName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>This experiment used two telescopes to measure the composition and energy spectra of solar (and galactic) particles above about 0.5 MeV/nucleon. The main telescope consisted of five collinear elements (three solid state, one CsI, and one sapphire Cerenkov) surrounded by a plastic anticoincidence shield. The telescope had a 60-deg, full-angle acceptance cone with its axis approximately normal to the spacecraft spin axis, permitting 8-sectored information on particle arrival direction. Four elements of the main telescope were pulse-height analyzed, and low- and high-gain modes could be selected by command to permit resolution of the elements H through Ni or of electrons and the isotopes of H, He, and light nuclei. A selection-priority scheme was included to permit sampling of less abundant particle species under normal and solar-flare conditions. The low-energy telescope was essentially a two-element, shielded, solid-state detector with a 70-deg, full-angle acceptance cone. The first element was pulse-height analyzed, and data were recorded by sectors. Data include the interplanetary region.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/3510</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1973-019A&amp;ex=2</URL>
+        <Description>Information about the Charged Particle Composition experiment on the Pioneer 11 mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Charged Particle Composition on Pioneer 11</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1973-019A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/3510</ResourceID>
+    <ReleaseDate>2001-04-02T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. John A. Simpson</PersonName>
+    <OrganizationName>Deceased - formerly at U of Chicago</OrganizationName>
+  </Person>
+</Spase>

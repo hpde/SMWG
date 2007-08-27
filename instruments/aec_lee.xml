@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1973-101A-12</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Low-Energy Electrons (LEE)</ResourceName>
+      <AlternateName>LEE</AlternateName>
+      <ReleaseDate>2007-02-02T00:00:00Z</ReleaseDate>
+      <Description>This experiment provided direct measurements of the energy input into the upper atmosphere due to electrons and protons in the energy range of 0.2 to 25 keV. The experiment acquired differential measurements of the energy influx and angular distribution. There were two detectors measuring electrons and protons from 0.2 to 25 keV in 16 logarithmically spaced steps, and one detector measuring 5 keV electrons continuously. Each detector consisted of a cylindrical electrostatic analyzer for species and energy selection, and a Spiraltron electron multiplier for particle detection. Energy distributions were obtained by applying different fixed or stepped voltages to the deflection plates. Distributions in angle were measured using the spacecraft spin and the analyzers' positions on the spacecraft. In the despun modes, measurements were obtained at 45 deg to the spacecraft equator, and radially away from the earth. Detector look angles were chosen to give optimum magnetic pitch-angle coverage when the spacecraft was moving either poleward or equatorward. All detectors were identical in construction and used 1- x 6-mm entrance apertures. Counts were accumulated over 55.7 ms and read out each main telemetry frame (62.5 ms). The two stepped detectors moved one energy step once each main frame with the same accumulation time, requiring about 1 s for a complete cycle of steps. More complete details of this experiment may be found in R. A. Hoffman et al., Radio Sci., v. 8, n. 4, p. 393, 1973. NSSDC has all the useful data that exist from this investigation.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/2194</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1973-101A&amp;ex=12</URL>
+        <Description>Information about the Low-Energy Electrons (LEE) experiment on the AE-C mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>ElectrostaticAnalyser</InstrumentType>
+    <InvestigationName>Low-Energy Electrons (LEE) on AE-C</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1973-101A</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/2194</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Robert A. Hoffman</PersonName>
+    <OrganizationName>GSFC-Code 696</OrganizationName>
+    <Email>rhoffman@pop600.gsfc.nasa.gov</Email>
+    <PhoneNumber>+1-301-286-7386</PhoneNumber>
+  </Person>
+</Spase>

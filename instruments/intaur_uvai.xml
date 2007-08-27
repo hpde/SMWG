@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1996-050C-16</ResourceID>
+    <ResourceHeader>
+      <ResourceName>UV Auroral Imager (UVAI)</ResourceName>
+      <ReleaseDate>2006-03-21T00:00:00Z</ReleaseDate>
+      <Description>The Ultra-Violet Auroral Imager (UVAI) is a Canadian instrument on the Interball Auroral Probe. It was of a similar design to the very successful imager on the Swedish Viking satellite. The camera was mounted at 90 degrees to the platform spin axis with the CCD columns shifted electronically at a rate selected to exactly correct for the satellite spin motion.
+Unfortunately, the actual motion of the spacecraft was more complicated than expected. The platform developed a significant coning problem, with the wobble amplitude increasing with time. Attitude control could restore the desired simple behavior, but to conserve thrusters this was done only when the amplitude became larger than 10 degrees, or roughly once every five days.
+UVAI images are affected in various ways by the wobble, depending on the amplitude and phase of the coning motion during any particular frame. Some images suffer little or no degredation. Others are badly smeared, with point-like objects (such as stars) appearing as ellipsoids rather than circles.
+UVAI image data were obtained with 12 bit resolution, potentially allowing a dynamic range of 4096. Logarithmic compression was applied to map 12 bit counts onto 8 bit data numbers in order to reduce data volume and telemetry requirements.
+The UVAI home page at http://www.phys.ucalgary.ca/~bjackel/uvai/main.html provides a catalog of approximately three months of good image data, from January to March 1997.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/11031</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1996-050C&amp;ex=16</URL>
+        <Description>Information about the UV Auroral Imager (UVAI) experiment on the Interball Auroral Probe mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Imager</InstrumentType>
+    <InvestigationName>UV Auroral Imager (UVAI) on Interball Auroral Probe</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1996-050C</ObservatoryID>
+  </Instrument>
+  <Person>
+    <ResourceID>spase://nssdc/person/11031</ResourceID>
+    <ReleaseDate>2003-10-15T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Leroy L. Cogger</PersonName>
+    <OrganizationName>University of Calgary</OrganizationName>
+    <Email>cogger@phys.ucalgary.ca</Email>
+    <PhoneNumber>+1-403-220-5386</PhoneNumber>
+  </Person>
+</Spase>
