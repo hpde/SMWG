@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Observatory>
+    <ResourceID>spase://nssdc/observatory/1996-062A</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Mars Global Surveyor</ResourceName>
+      <AlternateName>MGS</AlternateName>
+      <AlternateName>1996-062A</AlternateName>
+      <ReleaseDate>2007-11-21T20:50:20Z</ReleaseDate>
+      <Description>The Mars Global Surveyor (MGS) orbited Mars over a seven year period and collected data on the surface morphology, topography, composition, gravity, atmospheric dynamics, and magnetic field. This data is used to investigate the surface processes, geology, distribution of material, internal properties, evolution of the magnetic field, and the weather and climate of Mars.
+      
+Spacecraft and Subsystems
+
+The spacecraft itself is a rectangular box approximately 1.17 x 1.17 x 1.7 meters in size, made up of two parts, the equipment module and the propulsion module. All instruments except the magnetometer are stored on the nadir equipment deck, on one of the 1.17 x 1.17 meter surfaces. This is the top of the equipment module, which is 0.735 m high. The main thruster and propulsion tanks are on the opposite side from the instruments, on the propulsion module, which is approximately 1 meter high. Two solar panels, each 3.5 x 1.9 m in size, extend out from opposite sides of the craft. A 1.5 meter diameter parabolic high gain dish antenna is mounted on an adjacent side, and attached to a 2 meter boom, which is extended for mapping operations so the antenna is held away from the body of the spacecraft.
+
+The spacecraft is three-axis stabilized with no scan platform. The main 596 N thruster used hydrazine and N2O4 propellant. Control is through 12 4.45 N hydrazine thrusters, mounted in four groups of three (two aft facing and one roll control thruster). The initial propellant load was 216.5 kg of hydrazine and 144 kg of N2O4. Four solar array panels (2 GaAs, 2 SI) provided 980 W of power to the spacecraft. Energy was stored in two 20 Amp-hr nickel hydrogen batteries, and supplied at 28 V DC. Temperature control was primarily passive with multilayer insulation, thermal radiators, and louvers, augmented by electrical heaters. Communications was achieved via the deep space network using the high gain antenna and two low gain antennas, one mounted on the high gain antenna and one on the equipment module. Uplink was in the X-band, downlink in the X and Ka bands. Minimum downlink rate was 21.33 kbps, 2 kbps engineering data downlink, and 10 bps emergency downlink.
+
+The instruments on the nadir equipment deck consist of a camera, thermal emission spectrometer, laser altimeter, and a radio transmission relay. A magnetometer/electron reflectometer sensor is attached to the end of each solar array, and an ultra-stable oscillator is used for tracking and gravity determination. An 8086 processor is used for the payload data subsystem, and 1750A processors for the standard controls processor and the engineering data formatter. Data is stored on four 0.75 Gb solid state recorders.
+
+Mission Profile
+
+After launch on a Delta 7925 (a Delta II Lite launch vehicle with nine strap-on solid-rocket boosters and a Star 48 (PAM-D) third stage) and a 10 month cruise phase, the Mars Global Surveyor was inserted into an elliptical capture orbit at 01:17 UT 12 September 1997. Over the next four months, it was intended that aerobraking maneuvers and thrusters would be used to lower the orbit to the final circular mapping orbit. However, one of the solar panels failed to latch properly when it was deployed and subsequently showed unexpected motion and moved past its fully deployed position when aerobraking began (thought to be due to the fracture of a damper arm and subsequent structural damage). A new aerobraking schedule was employed, which involved slower aerobraking putting less pressure on the solar panels through April 1998, at which time an 11.6 hour science phasing orbit with a 171 km periapsis was achieved and aerobraking was halted. After a 5 month hiatus, aerobraking was resumed on 23 September 1998. Science observations were made periodically during these maneuvers.
+
+After aerobraking ended in February 1999, MGS was in a 118 minute circular polar science mapping orbit with an index altitude of 378 km. The orbit is sun-synchronous (2 a.m./2 p.m.) and maps over the 2 p.m. crossing from south to north (instead of north to south as originally planned). The orbit has a 7 day near-repeat cycle so Mars will be mapped in 26 day cycles. Science mapping began in mid-March 1999, which was summer in the northern hemisphere on Mars. The primary mission lasted one martian year (687 Earth days) through January, 2001. An extended mission took place until April 2002, further extensions were added until contact with the spacecraft was lost on 2 November 2006.</Description>
+      <Contact>
+        <!-- Arden Albee -->
+        <PersonID>spase://nssdc/person/13321</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1996-062A</URL>
+        <Description>Information about the Mars Global Surveyor mission</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Heliosphere.Outer</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>
