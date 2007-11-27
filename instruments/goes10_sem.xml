@@ -1,3 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>1.2.0</Version><Instrument><ResourceID>spase://nssdc/instrument/1997-019A-03</ResourceID><ResourceHeader><ResourceName>Space Environment Monitor (SEM)</ResourceName><ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate><Description>The Space Environment Monitor Subsystem (SEM) measures in situ the effect of the sun on the near-earth solar-terrestrial electromagnetic environment on a real-time basis. This information is provided to the Space Environment Services Center where it is used for "near-space weather" reports. These reports, which include solar activity, are important to the operators of communication, navigation, electric power transmission systems, and satellites.
-The SEM consists of four instruments. The Energetic Particle Sensor (EP8,formerly called EPS) makes flux measurements of protons in the 0.8 to 500 MeV range. The High Energy Proton and Alpha Detector (HEPAD) monitors protons in four energy ranges above 350 MeV and alpha particles in two energy ranges above 640 MeV/nucleon. The solar X-Ray Sensor permits real-time determination of the solar x-ray emission in two spectral bands: 0.5-5 angstroms and 1-8 angstroms. The Magnetic Field Sensor (MFS) allows for the real-time determination of the magnitude and orientation of the magnetic field. Data will be telemetered twice a second for magnetic fields having a magnitude of +/- 1000 nanotesla (nT).</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact><InformationURL><Name>NSSDC's Master Catalog</Name><URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1997-019A&amp;ex=3</URL><Description>Information about the Space Environment Monitor (SEM) experiment on the GOES 10 mission.</Description></InformationURL></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Space Environment Monitor (SEM) on GOES 10</InvestigationName><ObservatoryID>spase://nssdc/observatory/1997-019A</ObservatoryID></Instrument></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1997-019A-03</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Space Environment Monitor (SEM)</ResourceName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>The Space Environment Monitor Subsystem (SEM) measures in situ the effect of the sun on the near-earth solar-terrestrial electromagnetic environment on a real-time basis. This information is provided to the Space Environment Services Center where it is used for "near-space weather" reports. These reports, which include solar activity, are important to the operators of communication, navigation, electric power transmission systems, and satellites.
+The SEM consists of four instruments. The Energetic Particle Sensor (EP8,formerly called EPS) makes flux measurements of protons in the 0.8 to 500 MeV range. The High Energy Proton and Alpha Detector (HEPAD) monitors protons in four energy ranges above 350 MeV and alpha particles in two energy ranges above 640 MeV/nucleon. The solar X-Ray Sensor permits real-time determination of the solar x-ray emission in two spectral bands: 0.5-5 angstroms and 1-8 angstroms. The Magnetic Field Sensor (MFS) allows for the real-time determination of the magnitude and orientation of the magnetic field. Data will be telemetered twice a second for magnetic fields having a magnitude of +/- 1000 nanotesla (nT).</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1997-019A&amp;ex=3</URL>
+        <Description>Information about the Space Environment Monitor (SEM) experiment on the GOES 10 mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Space Environment Monitor (SEM) on GOES 10</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1997-019A</ObservatoryID>
+  </Instrument>
+</Spase>
