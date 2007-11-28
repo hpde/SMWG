@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+<Version>1.2.0 </Version>
+<Observatory>
+   <ResourceID>spase://VMO/Observatory/THEMIS/THEMIS-B</ResourceID>
+   <ResourceHeader>
+      <ResourceName>THEMIS-B</ResourceName>
+      <AlternateName>Explorer 86</AlternateName>
+      <AlternateName>2007-004B</AlternateName>
+      <AlternateName>MIDEX/THEMIS</AlternateName>
+      <AlternateName>THEMIS-P1</AlternateName>
+      <AlternateName>30581</AlternateName>
+      <ReleaseDate>2007-07-17T13:00:00</ReleaseDate>
+      <Description>THEMIS-A of THEMIS explorer mission</Description>
+      <Acknowledgement>National Aeronautics and Space Administration/United States</Acknowledgement>
+      <Contact>
+         <PersonID>spase://VMO/Person/James.M.Weygand</PersonID>
+         <Role>MetadataContact</Role>
+      </Contact>
+      <Contact>
+         <PersonID>spase://VMO/Person/Vassilis.Angelopoulos</PersonID>
+         <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+         <PersonID>spase://VMO/Person/David.G.Sibeck</PersonID>
+         <Role>ProjectScientist</Role>
+      </Contact>
+      <InformationURL>
+         <Name>Information on Time History of Events and Macroscale Interactions during Substorms (THEMIS) mission </Name>
+         <URL></URL>
+         <Description>THEMIS Mission Homepage</Description>
+      </InformationURL>
+      <InformationURL>
+         <Name>Information on Time History of Events and Macroscale Interactions during Substorms (THEMIS) mission </Name>
+         <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2007-004B</URL>
+         <Description>NSSDC Master Catalog information on the THEMIS Mission</Description>
+      </InformationURL>
+      <AssociationID>spase://VMO/Observatory/THEMIS</AssociationID>
+   </ResourceHeader>
+   <ObservatoryGroup></ObservatoryGroup>
+   <Location>
+   		<ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>  
+   		<ObservatoryRegion>Earth.Magnetosphere.Magnetotail</ObservatoryRegion>
+   		<ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
+   		<ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
+   		<CoordinateSystemName>GSM</CoordinateSystemName>
+   </Location>
+</Observatory>
+</Spase>
