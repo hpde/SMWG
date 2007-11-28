@@ -1,49 +1,50 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-<Version>1.2.0 </Version>
-<Observatory>
-   <ResourceID>spase://VMO/Observatory/THEMIS/THEMIS-A</ResourceID>
-   <ResourceHeader>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Observatory>
+    <ResourceID>spase://nssdc/observatory/2007-004A</ResourceID>
+    <ResourceHeader>
       <ResourceName>THEMIS-A</ResourceName>
       <AlternateName>Explorer 85</AlternateName>
       <AlternateName>2007-004A</AlternateName>
       <AlternateName>MIDEX/THEMIS</AlternateName>
       <AlternateName>THEMIS-P5</AlternateName>
       <AlternateName>30580</AlternateName>
-      <ReleaseDate>2007-07-17T13:00:00</ReleaseDate>
-      <Description>THEMIS-A of THEMIS explorer mission</Description>
+      <ReleaseDate>2007-11-28T16:56:44Z</ReleaseDate>
+      <Description>The Time History of Events and Macroscale Interactions during Substorms (THEMIS) mission is a five-satellite Explorer mission whose primary objective is to understand the onset and macroscale evolution of magnetospheric substorms. Most importantly, THEMIS will find out which magnetotail process is responsible for substorm onset: (a) a local disruption of the plasma sheet current; or, (b) that current's interaction with the rapid influx of plasma emanating from lobe flux annihilation at ~25Re. Three inner probes at ~10Re will monitor current disruption onset, while two outer probes, at 20 and 30Re respectively, will remotely monitor plasma acceleration due to lobe flux dissipation. The five small satellites were launched together on a Delta II rocket and they carry identical sets of instruments including an electric field instrument (EFI), a flux gate magnetometer (FGM), a search coil magnetometer (SCM), a electro-static analyzer, and solid state telescopes (SST). The mission consists of several phases. In the first phase, the spacecraft will all orbit as a tight cluster in the same orbital plane with apogee at 15.4 Earth radii (RE). In the second phase, also called the Dawn Phase, the satellites will be placed in their orbits and during this time their apogees will be on the dawn side of the magnetosphere. During the third phase (also known as the Tail Science Phase) the apogees will be in the magnetotail. The fourth phase is called the Dusk Phase or Radiation Belt Science Phase, with all apogees on the dusk side. In the fifth and final phase, the apogees will shift to the sunward side (Dayside Science Phase).
+
+All five satellites will have similar perigee altitudes (1.16-1.5 Re) but varying apogee altitudes (P1: ~30 RE, P2: ~20 RE, P3 &amp; P4: ~12 RE, P5: ~10RE) with corresponding orbital periods of ~4, 2, and 1 days, respectively. This results in multi-point magnetic conjunctions. Every four days the satellites will line up along the Earth's magnetic tail with magnetic foot points in the North American sector, allowing the tracking of disturbances through different geospace regions from tail to ground.
+
+The satellite data will be combined with observations of the aurora from a network of 20 ground observatories (all sky imagers, magnetometers) across the North American continent. In addition to its primary goal, THEMIS will answer critical questions in radiation belt physics and solar wind - magnetosphere energy coupling. THEMIS is complementary to MMS in terms of the temporal and spatial scales of the phenomena observed by these two constellation missions. THEMIS's focus is macroscale, whereas MMS will observe micro/meso scale features. </Description>
       <Acknowledgement>National Aeronautics and Space Administration/United States</Acknowledgement>
       <Contact>
-         <PersonID>spase://VMO/Person/James.M.Weygand</PersonID>
-         <Role>MetadataContact</Role>
+        <!-- Vassilis Angelopoulos -->
+        <PersonID>spase://nssdc/person/37757</PersonID>
+        <Role>PrincipalInvestigator</Role>
       </Contact>
       <Contact>
-         <PersonID>spase://VMO/Person/Vassilis.Angelopoulos</PersonID>
-         <Role>PrincipalInvestigator</Role>
-      </Contact>
-      <Contact>
-         <PersonID>spase://VMO/Person/David.G.Sibeck</PersonID>
-         <Role>ProjectScientist</Role>
+        <!-- David Sibeck -->
+        <PersonID>spase://nssdc/person/28123</PersonID>
+        <Role>ProjectScientist</Role>
       </Contact>
       <InformationURL>
-         <Name>Information on Time History of Events and Macroscale Interactions during Substorms (THEMIS) mission </Name>
-         <URL></URL>
-         <Description>THEMIS Mission Homepage</Description>
+        <Name>Time History of Events and Macroscale Interactions during Substorms (THEMIS) mission </Name>
+        <URL>http://themis.ssl.berkeley.edu/index.shtml</URL>
+        <Description>THEMIS Mission Homepage</Description>
       </InformationURL>
       <InformationURL>
-         <Name>Information on Time History of Events and Macroscale Interactions during Substorms (THEMIS) mission </Name>
-         <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2007-004A</URL>
-         <Description>NSSDC Master Catalog information on the THEMIS Mission</Description>
+        <Name>Information on Time History of Events and Macroscale Interactions during Substorms (THEMIS) mission </Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2007-004A</URL>
+        <Description>NSSDC Master Catalog information on the THEMIS Mission</Description>
       </InformationURL>
-      <AssociationID>spase://VMO/Observatory/THEMIS</AssociationID>
-   </ResourceHeader>
-   <ObservatoryGroup></ObservatoryGroup>
-   <Location>
-   		<ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>  
-   		<ObservatoryRegion>Earth.Magnetosphere.Magnetotail</ObservatoryRegion>
-   		<ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
-   		<ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
-   		<CoordinateSystemName>GSM</CoordinateSystemName>
-   </Location>
-</Observatory>
+      <PriorID>spase://VMO/Observatory/THEMIS/THEMIS-A</PriorID>
+    </ResourceHeader>
+    <ObservatoryGroup>THEMIS</ObservatoryGroup>
+    <Location>
+      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere.Magnetotail</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
+    </Location>
+  </Observatory>
 </Spase>
