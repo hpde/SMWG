@@ -1,2 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>1.2.0</Version><Instrument><ResourceID>spase://nssdc/instrument/2003-004A-04</ResourceID><ResourceHeader><ResourceName>Extreme Ultraviolet Photometer System (XPS)</ResourceName><AlternateName>XPS</AlternateName><ReleaseDate>2003-02-04T00:00:00Z</ReleaseDate><Description>XPS (Xuv Photometer System) is a 3.6 kg, 9 W photometer which invokes filters to monitor the x-ray and UV band at 1-34 nm, at a resolution of about seven nm, and at an irradiance accuracy of about 15%.</Description><Contact><PersonID>spase://nssdc/person/11216</PersonID><Role>PrincipalInvestigator</Role></Contact><InformationURL><Name>NSSDC's Master Catalog</Name><URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2003-004A&amp;ex=4</URL><Description>Information about the XPS (Xuv Photometer System) experiment on the SORCE mission.</Description></InformationURL></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>XPS (Xuv Photometer System) on SORCE</InvestigationName><ObservatoryID>spase://nssdc/observatory/2003-004A</ObservatoryID></Instrument><Person><ResourceID>spase://nssdc/person/11216</ResourceID><ReleaseDate>2000-07-28T00:00:00Z</ReleaseDate><PersonName>Dr. Gary J. Rottman</PersonName><OrganizationName>University of Colorado</OrganizationName><Email>gary.rottman@colorado.edu</Email><PhoneNumber>+1-303-492-8324</PhoneNumber></Person></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/2003-004A-04</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Extreme Ultraviolet Photometer System (XPS)</ResourceName>
+      <AlternateName>XPS</AlternateName>
+      <ReleaseDate>2003-02-04T00:00:00Z</ReleaseDate>
+      <Description>XPS (Xuv Photometer System) is a 3.6 kg, 9 W photometer which invokes filters to monitor the x-ray and UV band at 1-34 nm, at a resolution of about seven nm, and at an irradiance accuracy of about 15%.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/11216</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2003-004A&amp;ex=4</URL>
+        <Description>Information about the XPS (Xuv Photometer System) experiment on the SORCE mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>XPS (Xuv Photometer System) on SORCE</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2003-004A</ObservatoryID>
+  </Instrument>
+</Spase>

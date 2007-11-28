@@ -1,2 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>1.2.0</Version><Instrument><ResourceID>spase://nssdc/instrument/2006-047A-02</ResourceID><ResourceHeader><ResourceName>Stereo/Waves (Swaves)</ResourceName><AlternateName>Swaves</AlternateName><ReleaseDate>2006-10-27T00:00:00Z</ReleaseDate><Description/><Contact><PersonID>spase://nssdc/person/16211</PersonID><Role>PrincipalInvestigator</Role></Contact><InformationURL><Name>NSSDC's Master Catalog</Name><URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2006-047A&amp;ex=2</URL><Description>Information about the Stereo/Waves (Swaves) experiment on the STEREO A mission.</Description></InformationURL></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Stereo/Waves (Swaves) on STEREO A</InvestigationName><ObservatoryID>spase://nssdc/observatory/2006-047A</ObservatoryID></Instrument><Person><ResourceID>spase://nssdc/person/16211</ResourceID><ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate><PersonName>Dr. Jean-Louis Henry Bougeret</PersonName><OrganizationName>Observatoire de Paris-Meudon</OrganizationName><Email>jean-louis.bougeret@obspm.fr</Email><PhoneNumber>+1-33-1-45-077704</PhoneNumber></Person></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/2006-047A-02</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Stereo/Waves (Swaves)</ResourceName>
+      <AlternateName>Swaves</AlternateName>
+      <ReleaseDate>2006-10-27T00:00:00Z</ReleaseDate>
+      <Description/>
+      <Contact>
+        <PersonID>spase://nssdc/person/16211</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2006-047A&amp;ex=2</URL>
+        <Description>Information about the Stereo/Waves (Swaves) experiment on the STEREO A mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Stereo/Waves (Swaves) on STEREO A</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2006-047A</ObservatoryID>
+  </Instrument>
+</Spase>

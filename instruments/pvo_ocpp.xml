@@ -1,2 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>1.2.0</Version><Instrument><ResourceID>spase://nssdc/instrument/1978-051A-06</ResourceID><ResourceHeader><ResourceName>Cloud Photopolarimeter (OCPP)</ResourceName><AlternateName>OCPP</AlternateName><ReleaseDate>2006-02-09T00:00:00Z</ReleaseDate><Description>This experiment used a simplified version of the Imaging Photopolarimeter (IPP) flown on Pioneers 10 and 11 to provide low-resolution, four-color maps of the Venusian cloud cover with a high-resolution imaging capability near apocenter. The principal objective of this investigation was to determine the properties of the clouds and haze, including the vertical and horizontal distribution of the particles, cloud particle size and refractive index, the cloud-top height, and the number density of particles.</Description><Contact><PersonID>spase://nssdc/person/14441</PersonID><Role>GeneralContact</Role></Contact><InformationURL><Name>NSSDC's Master Catalog</Name><URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1978-051A&amp;ex=6</URL><Description>Information about the Cloud Photopolarimeter (OCPP) experiment on the Pioneer Venus Orbiter mission.</Description></InformationURL></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Cloud Photopolarimeter (OCPP) on Pioneer Venus Orbiter</InvestigationName><ObservatoryID>spase://nssdc/observatory/1978-051A</ObservatoryID></Instrument><Person><ResourceID>spase://nssdc/person/14441</ResourceID><ReleaseDate>2001-04-06T00:00:00Z</ReleaseDate><PersonName>Dr. Larry D. Travis</PersonName><OrganizationName>Goddard Institute for Space Studies</OrganizationName><Email>ltravis@giss.nasa.gov</Email><PhoneNumber>+1-212-678-5599</PhoneNumber></Person></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1978-051A-06</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Cloud Photopolarimeter (OCPP)</ResourceName>
+      <AlternateName>OCPP</AlternateName>
+      <ReleaseDate>2006-02-09T00:00:00Z</ReleaseDate>
+      <Description>This experiment used a simplified version of the Imaging Photopolarimeter (IPP) flown on Pioneers 10 and 11 to provide low-resolution, four-color maps of the Venusian cloud cover with a high-resolution imaging capability near apocenter. The principal objective of this investigation was to determine the properties of the clouds and haze, including the vertical and horizontal distribution of the particles, cloud particle size and refractive index, the cloud-top height, and the number density of particles.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/14441</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1978-051A&amp;ex=6</URL>
+        <Description>Information about the Cloud Photopolarimeter (OCPP) experiment on the Pioneer Venus Orbiter mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Cloud Photopolarimeter (OCPP) on Pioneer Venus Orbiter</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1978-051A</ObservatoryID>
+  </Instrument>
+</Spase>

@@ -1,2 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>1.2.0</Version><Instrument><ResourceID>spase://nssdc/instrument/1995-039A-20</ResourceID><ResourceHeader><ResourceName>Hard ionizing radiation and solar UV radiation RKI-2</ResourceName><ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate><Description>This instrument measures ionizing radiation at 5, 15, 40, 100, and 500 MeV, and UV radiation from the Sun.</Description><Contact><PersonID>spase://nssdc/person/59036</PersonID><Role>PrincipalInvestigator</Role></Contact><InformationURL><Name>NSSDC's Master Catalog</Name><URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1995-039A&amp;ex=20</URL><Description>Information about the Hard ionizing radiation and solar UV radiation RKI-2 experiment on the Interball Tail Probe mission.</Description></InformationURL></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Hard ionizing radiation and solar UV radiation RKI-2 on Interball Tail Probe</InvestigationName><ObservatoryID>spase://nssdc/observatory/1995-039A</ObservatoryID></Instrument><Person><ResourceID>spase://nssdc/person/59036</ResourceID><ReleaseDate>2003-08-11T00:00:00Z</ReleaseDate><PersonName>Dr. Tamara V. Kazachevskaya</PersonName><OrganizationName>Institute of Applied Geophysics</OrganizationName></Person></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1995-039A-20</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Hard ionizing radiation and solar UV radiation RKI-2</ResourceName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>This instrument measures ionizing radiation at 5, 15, 40, 100, and 500 MeV, and UV radiation from the Sun.</Description>
+      <Contact>
+        <PersonID>spase://nssdc/person/59036</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1995-039A&amp;ex=20</URL>
+        <Description>Information about the Hard ionizing radiation and solar UV radiation RKI-2 experiment on the Interball Tail Probe mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Hard ionizing radiation and solar UV radiation RKI-2 on Interball Tail Probe</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1995-039A</ObservatoryID>
+  </Instrument>
+</Spase>
