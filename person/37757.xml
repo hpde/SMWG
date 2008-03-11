@@ -1,9 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
   <Person>
     <ResourceID>spase://nssdc/person/37757</ResourceID>
+    <ReleaseDate>2008-03-11T19:28:45Z</ReleaseDate>
     <PersonName>Dr. Vassilis Angelopoulos</PersonName>
-    <OrganizationName>University of California, Berkeley</OrganizationName>
+    <OrganizationName>University of California, Los Angeles</OrganizationName>
+    <Email>vassilis@igpp.ucla.edu</Email>
+    <Email>vassilis@ssl.berkeley.edu</Email>
+    <PhoneNumber>+1-310-794-7090</PhoneNumber>
+    <PhoneNumber>+1-510-643-1871</PhoneNumber>
   </Person>
 </Spase>
