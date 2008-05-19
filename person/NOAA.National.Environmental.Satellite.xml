@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Person>
+    <ResourceID>spase://swg/Person/NOAA.National.Environmental.Satellite</ResourceID>
+    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
+    <PersonName>NOAA National Environmental Satellite</PersonName>
+    <OrganizationName>NOAA National Environmental Satellite</OrganizationName>
+    <PhoneNumber>+1-301-763-7568</PhoneNumber>
+  </Person>
+</Spase>

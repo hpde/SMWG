@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Person>
+    <ResourceID>spase://swg/Person/Helen.E.Coffey</ResourceID>
+    <PersonName>Helen E. Coffey</PersonName>
+    <OrganizationName>NOAA</OrganizationName>
+    <Email>Helen.E.Coffey@noaa.gov</Email>
+  </Person>
+</Spase>

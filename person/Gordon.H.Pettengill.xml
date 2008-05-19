@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Person>
+    <ResourceID>spase://swg/Person/Gordon.H.Pettengill</ResourceID>
+    <ReleaseDate>2000-10-10T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Gordon H. Pettengill</PersonName>
+    <OrganizationName>Massachusetts Institute of Technology</OrganizationName>
+    <Email>ghp@space.mit.edu</Email>
+    <PhoneNumber>+1-617-253-4281</PhoneNumber>
+  </Person>
+</Spase>

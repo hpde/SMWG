@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Person>
+    <ResourceID>spase://swg/Person/James.P.McFadden</ResourceID>
+    <ReleaseDate>2008-03-11T19:29:47Z</ReleaseDate>
+    <PersonName>Dr. James P. McFadden</PersonName>
+    <OrganizationName>University of California, Berkeley</OrganizationName>
+    <Email>mcfadden@ssl.berkeley.edu</Email>
+    <PhoneNumber>+1-510-642-9918</PhoneNumber>
+  </Person>
+</Spase>
