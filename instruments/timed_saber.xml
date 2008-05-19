@@ -1,3 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>1.2.0</Version><Instrument><ResourceID>spase://nssdc/instrument/2001-055B-03</ResourceID><ResourceHeader><ResourceName>Sounding of the Atmosphere using Broadband Emission Radiometry (SABER)</ResourceName><AlternateName>SABER</AlternateName><ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate><Description>The Sounding of the Atmosphere using Broadband Emission Radiometry (SABER) instrument is a 10-channel infrared (1.27 to 16.9 micrometers) radiometer that measures Earth limb emissions. Once every 58 seconds, SABER scans up and down the Earth's horizon collecting data over an altitude range from approximately 180 kilometers (about 112 miles) down to the Earth's surface. It is measuring the vertical distributions of elemental constituents, such as ozone, water vapor, carbon dioxide, and nitrogen and hydrogen gases, as well as temperature. The telescope and baffle assembly are cooled to 240 K by a dedicated radiator. The focal plane assembly, consisting of a filter array, a detector array, and a Lyot stop is cooled to 75 K by a miniature cryogenic refrigerator. Instrument responsivity drifts due to changes in telescope and focal plane base temperatures as well as other causes are corrected by an in-flight calibration system. The altitude resolution is 10 km to 180 km and the Limb Vertical Sampling Interval is 0.4 km. The experiment builds on a rich spaceflight heritage of limb sounding including the Nimbus-7 LIMS experiment, SAMS, CIRRIS, ATMOS, HALOE, CLAES, ISAMS, and SME. With SABER this techniques is used for the first time in the MLTI region.
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/2001-055B-03</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Sounding of the Atmosphere using Broadband Emission Radiometry (SABER)</ResourceName>
+      <AlternateName>SABER</AlternateName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>The Sounding of the Atmosphere using Broadband Emission Radiometry (SABER) instrument is a 10-channel infrared (1.27 to 16.9 micrometers) radiometer that measures Earth limb emissions. Once every 58 seconds, SABER scans up and down the Earth's horizon collecting data over an altitude range from approximately 180 kilometers (about 112 miles) down to the Earth's surface. It is measuring the vertical distributions of elemental constituents, such as ozone, water vapor, carbon dioxide, and nitrogen and hydrogen gases, as well as temperature. The telescope and baffle assembly are cooled to 240 K by a dedicated radiator. The focal plane assembly, consisting of a filter array, a detector array, and a Lyot stop is cooled to 75 K by a miniature cryogenic refrigerator. Instrument responsivity drifts due to changes in telescope and focal plane base temperatures as well as other causes are corrected by an in-flight calibration system. The altitude resolution is 10 km to 180 km and the Limb Vertical Sampling Interval is 0.4 km. The experiment builds on a rich spaceflight heritage of limb sounding including the Nimbus-7 LIMS experiment, SAMS, CIRRIS, ATMOS, HALOE, CLAES, ISAMS, and SME. With SABER this techniques is used for the first time in the MLTI region.
 Home_page:
+http://saber.larc.nasa.gov/</Description>
+      <Contact>
+        <PersonID>spase://swg/Person/James.M.Russell.III</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2001-055B&amp;ex=3</URL>
+        <Description>Information about the Sounding of the Atmosphere using Broadband Emission Radiometry (SABER) experiment on the TIMED mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Sounding of the Atmosphere using Broadband Emission Radiometry (SABER) on TIMED</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2001-055B</ObservatoryID>
+  </Instrument>
+</Spase>

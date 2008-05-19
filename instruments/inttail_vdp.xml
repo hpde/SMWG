@@ -11,7 +11,7 @@ The positive grid (C2) and negative grid (C3) are used to select ion or elecron 
 The maximum data rate is 16 samples per second. In the case of measuring spectra, one step is held during one second and a full spectrum takes 16 seconds. The output range of the direct current amplifier is -6.0 to + 6.0 V. The flux can be calculated as P = V * 0.43E+9 1/cm*cm*s. The minimum digitised flux is 6.0E+5 1/cm*cm*s and the maximum is 2.6E+9 1/cm*cm*s.
 The VDP instrument began operating August 14, 1995. Faraday cups #4 and #6 have problems and are not in use.</Description>
       <Contact>
-        <PersonID>spase://nssdc/person/32528</PersonID>
+        <PersonID>spase://swg/Person/Jana.Safrankova</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>

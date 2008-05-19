@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Person>
+    <ResourceID>spase://swg/Person/Jeng-Hwa.Yee</ResourceID>
+    <ReleaseDate>2001-04-10T00:00:00Z</ReleaseDate>
+    <PersonName>Mr. Jeng-Hwa Yee</PersonName>
+    <OrganizationName>Applied Physics Laboratory</OrganizationName>
+    <Email>sam.yee@jhuapl.edu</Email>
+    <PhoneNumber>+1-240-228-6206</PhoneNumber>
+  </Person>
+</Spase>

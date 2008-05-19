@@ -12,7 +12,7 @@ MENA is a slit-type imager designed to detect energetic neutral hydrogen and oxy
 The three sensor heads are mounted side by side on top of the DPU. The middle sensor looks straight ahead, with a 107-degree field of view in the plane of the spin axis. The look directions of the two side sensors are offset from that of the middle sensor by 20 degrees. This 20-degree o fset compensates for a 20-degree blind spot in the center of each detector. The resulting field of view in the plane of the spin axis is 147 degrees.
 The MENA DPU consists of a single 16-bit Harris RTX2010 microcontroller operating at 4.91 MHz, look-up tables used to process the raw data, a low-voltage power suppy, a high-voltage controller, and, for each of the three sensors, the front end time-of- flight and pulse height electronics and high-voltage power supplies. The DPU communicates with the sensor heads and the Central Instrument Data Processor (CIDP). It monitors instrument health and safety and receives and processes the raw sensor data, producing one image every two minutes (i. e., each spacecraft spin period). It transmits this image, together with a selection of the raw sensor data, event rate data, and housekeeping data, to the CIDP for downlink to Earth.</Description>
       <Contact>
-        <PersonID>spase://nssdc/person/32316</PersonID>
+        <PersonID>spase://swg/Person/Craig.J.Pollock</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>

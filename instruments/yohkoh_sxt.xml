@@ -8,11 +8,11 @@
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>The Soft X-Ray Telescope (SXT) is designed to produce X-ray movies of solar flares with excellent angular and time resolution as well as full-disk images for general studies of the solar corona. The instrument uses a glancing incidence telescope of 1.54 m focal length which forms X-ray images in the 0.25 to 4.0 keV range on a 1024 x 1024 virtual phase charge coupled device (CCD) detector. A unique mirror of hyperboloids is used to achieve wide-field angular resolution superior to that of the more common paraboloid-hyperboloid design. A selection of thin metallic filters located near the focal plane provides the capability to separate different X-ray energies for plasma temperature diagnostics. A visible light image corresponding with the X-ray field of view is provided by a coaxially mounted visible-light telescope (called the aspect telescope) which forms its image on the CCD detector when the thin metallic filter is replaced b an appropriate glass filter. SXT has the following design capabilities: effective area: 78 sq. mm at 8 A, dynamic range &gt; 10**7, time resolution of 0.5 to 2 s, angular resolution &lt; 3 arc s FWHM at 8 A, spectral range 3 - 45 A. The aspect telescope is suitable for pointing determination within 1 arc s or better, for observing white-light flares and for helioseismology observations as well. SXT fits within an envelope 30 x 30 x 170 cm, and is provided with on-board computers for programmed operations. Acquisition of solar images is slaved to the current telemetry rate, either 32 kbps in flare mode or 4 kbps normally, so image cadence varies in a complex way with telemetry rate and observed plan. Full-frame images and partial-frame images centered on bright image areas are made, according to observing plan spceifications. The instrument operates during passage through the South Atlantic Anomaly, experiencing some "snow" distributed over the image.</Description>
       <Contact>
-        <PersonID>spase://nssdc/person/15616</PersonID>
+        <PersonID>spase://swg/Person/Tadashi.Hirayama</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <Contact>
-        <PersonID>spase://nssdc/person/4041</PersonID>
+        <PersonID>spase://swg/Person/Loren.W.Acton</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>

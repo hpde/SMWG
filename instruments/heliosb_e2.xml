@@ -8,7 +8,7 @@
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>The instrument (E2) consisted of a triaxial fluxgate magnetometer mounted on a 2.75-m boom to make magnetic field measurements up to 4 Hz. Data from each axis were first sent through a low-pass filter with the 3 dB attenuation point at 4 Hz. Depending on the telemetry format and bit rate, the data were fed either into a time-averaging computer or directly connected to telemetry. When there were discontinuities in the variations of the ambient magnetic field, a shock-identification computer triggered the storage of rapid-rate data in the spacecraft memory. Two measurement ranges were used, plus or minus 100 and 400 nT with resolutions of plus or minus 0.2 and 0.8 nT, respectively. The instrument was equipped with a flipper mechanism, which re-oriented each sensor by 90 deg periodically. For detailed information, see p. 232 of Raumfahrtforschung, v. 19, n. 5, 1975.</Description>
       <Contact>
-        <PersonID>spase://nssdc/person/5315</PersonID>
+        <PersonID>spase://swg/Person/Fritz.M.Neubauer</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>

@@ -1,2 +1,2359 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>1.2.0</Version><Instrument><ResourceID>spase://vspo/instrument/38</ResourceID><ResourceHeader><ResourceName>MIMS Magnetic Ion Mass Spactrometer</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MIMS Magnetic Ion Mass Spactrometer on AE-E</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MIMS Magnetic Ion Mass Spactrometer on AE-E</InvestigationName><ObservatoryID>spase://nssdc/observatory/1975-107A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/44</ResourceID><ResourceHeader><ResourceName>BUV Backscatter Ultraviolet</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>BUV Backscatter Ultraviolet on AE-E</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>BUV Backscatter Ultraviolet on AE-E</InvestigationName><ObservatoryID>spase://nssdc/observatory/1975-107A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/48</ResourceID><ResourceHeader><ResourceName>MARI</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MARI on CANOPUS</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MARI on CANOPUS</InvestigationName><ObservatoryID>spase://vspo/observatory/100</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/49</ResourceID><ResourceHeader><ResourceName>AUX</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>AUX on CLUSTER1</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>AUX on CLUSTER1</InvestigationName><ObservatoryID>spase://nssdc/observatory/2000-045A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/56</ResourceID><ResourceHeader><ResourceName>PGP</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>PGP on CLUSTER1</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>PGP on CLUSTER1</InvestigationName><ObservatoryID>spase://nssdc/observatory/2000-045A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/61</ResourceID><ResourceHeader><ResourceName>Culgoora Radioheliospectrograph</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>Culgoora Radioheliospectrograph on CO</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Culgoora Radioheliospectrograph on CO</InvestigationName><ObservatoryID>spase://vspo/observatory/27</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/70</ResourceID><ResourceHeader><ResourceName>SSJ/4 Special Sensor for Precipitating Particles, Version 4</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>SSJ/4 Special Sensor for Precipitating Particles, Version 4 on DMSP_5D-2</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>SSJ/4 Special Sensor for Precipitating Particles, Version 4 on DMSP_5D-2</InvestigationName><ObservatoryID>spase://vspo/observatory/25</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/71</ResourceID><ResourceHeader><ResourceName>SSIES Special Sensor Topside Thermal Plasma Monitor</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>SSIES Special Sensor Topside Thermal Plasma Monitor on DMSP_5D-2</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>SSIES Special Sensor Topside Thermal Plasma Monitor on DMSP_5D-2</InvestigationName><ObservatoryID>spase://vspo/observatory/25</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/72</ResourceID><ResourceHeader><ResourceName>SSM Special Sensor Fluxgate Magnetometer</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>SSM Special Sensor Fluxgate Magnetometer on DMSP_5D-2</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>SSM Special Sensor Fluxgate Magnetometer on DMSP_5D-2</InvestigationName><ObservatoryID>spase://vspo/observatory/25</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/73</ResourceID><ResourceHeader><ResourceName>SSIES Special Sensor for Ions and Electrons</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>SSIES Special Sensor for Ions and Electrons on DMSP_5D-2</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>SSIES Special Sensor for Ions and Electrons on DMSP_5D-2</InvestigationName><ObservatoryID>spase://vspo/observatory/25</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/74</ResourceID><ResourceHeader><ResourceName>SSJ/4</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>SSJ/4 on DMSP_5D-2</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>SSJ/4 on DMSP_5D-2</InvestigationName><ObservatoryID>spase://vspo/observatory/25</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/75</ResourceID><ResourceHeader><ResourceName>SHG Spectroheliograph</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>SHG Spectroheliograph on ESF</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>SHG Spectroheliograph on ESF</InvestigationName><ObservatoryID>spase://vspo/observatory/4</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/79</ResourceID><ResourceHeader><ResourceName>ACF</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>ACF on FAST</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>ACF on FAST</InvestigationName><ObservatoryID>spase://nssdc/observatory/1996-049A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/80</ResourceID><ResourceHeader><ResourceName>DCF</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>DCF on FAST</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>DCF on FAST</InvestigationName><ObservatoryID>spase://nssdc/observatory/1996-049A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/81</ResourceID><ResourceHeader><ResourceName>EES</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>EES on FAST</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>EES on FAST</InvestigationName><ObservatoryID>spase://nssdc/observatory/1996-049A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/82</ResourceID><ResourceHeader><ResourceName>IES</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>IES on FAST</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>IES on FAST</InvestigationName><ObservatoryID>spase://nssdc/observatory/1996-049A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/83</ResourceID><ResourceHeader><ResourceName>TMS</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>TMS on FAST</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>TMS on FAST</InvestigationName><ObservatoryID>spase://nssdc/observatory/1996-049A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/85</ResourceID><ResourceHeader><ResourceName>GIM</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>GIM on GENESIS</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>GIM on GENESIS</InvestigationName><ObservatoryID>spase://nssdc/observatory/2001-034A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/1</ResourceID><ResourceHeader><ResourceName>CPI</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>CPI on GEOTAIL</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>CPI on GEOTAIL</InvestigationName><ObservatoryID>spase://nssdc/observatory/1992-044A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/2</ResourceID><ResourceHeader><ResourceName>HPA</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>HPA on GEOTAIL</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>HPA on GEOTAIL</InvestigationName><ObservatoryID>spase://nssdc/observatory/1992-044A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/86</ResourceID><ResourceHeader><ResourceName>SWA</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>SWA on GEOTAIL</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>SWA on GEOTAIL</InvestigationName><ObservatoryID>spase://nssdc/observatory/1992-044A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/87</ResourceID><ResourceHeader><ResourceName>EFD</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>EFD on GEOTAIL</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>EFD on GEOTAIL</InvestigationName><ObservatoryID>spase://nssdc/observatory/1992-044A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/88</ResourceID><ResourceHeader><ResourceName>EPIC</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>EPIC on GEOTAIL</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>EPIC on GEOTAIL</InvestigationName><ObservatoryID>spase://nssdc/observatory/1992-044A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/89</ResourceID><ResourceHeader><ResourceName>MGF</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MGF on GEOTAIL</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MGF on GEOTAIL</InvestigationName><ObservatoryID>spase://nssdc/observatory/1992-044A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/90</ResourceID><ResourceHeader><ResourceName>LEP</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>LEP on GEOTAIL</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>LEP on GEOTAIL</InvestigationName><ObservatoryID>spase://nssdc/observatory/1992-044A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/91</ResourceID><ResourceHeader><ResourceName>EP8</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>EP8 on GOES10</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>EP8 on GOES10</InvestigationName><ObservatoryID>spase://nssdc/observatory/1997-019A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/92</ResourceID><ResourceHeader><ResourceName>MAG</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MAG on GOES10</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MAG on GOES10</InvestigationName><ObservatoryID>spase://nssdc/observatory/1997-019A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/93</ResourceID><ResourceHeader><ResourceName>MAG</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MAG on GOES12</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MAG on GOES12</InvestigationName><ObservatoryID>spase://nssdc/observatory/2001-031A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/94</ResourceID><ResourceHeader><ResourceName>SXI</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>SXI on GOES12</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>SXI on GOES12</InvestigationName><ObservatoryID>spase://nssdc/observatory/2001-031A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/96</ResourceID><ResourceHeader><ResourceName>EPS</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>EPS on GOES7</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>EPS on GOES7</InvestigationName><ObservatoryID>spase://nssdc/observatory/1987-022A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/98</ResourceID><ResourceHeader><ResourceName>EP8</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>EP8 on GOES8</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>EP8 on GOES8</InvestigationName><ObservatoryID>spase://nssdc/observatory/1994-022A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/100</ResourceID><ResourceHeader><ResourceName>EP8</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>EP8 on GOES9</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>EP8 on GOES9</InvestigationName><ObservatoryID>spase://nssdc/observatory/1995-025A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/101</ResourceID><ResourceHeader><ResourceName>MAG</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MAG on GOES9</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MAG on GOES9</InvestigationName><ObservatoryID>spase://nssdc/observatory/1995-025A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/102</ResourceID><ResourceHeader><ResourceName>MAG</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MAG on HELIOS1</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MAG on HELIOS1</InvestigationName><ObservatoryID>spase://nssdc/observatory/1974-097A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/103</ResourceID><ResourceHeader><ResourceName>PLASMA</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>PLASMA on HELIOS1</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>PLASMA on HELIOS1</InvestigationName><ObservatoryID>spase://nssdc/observatory/1974-097A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/104</ResourceID><ResourceHeader><ResourceName>MAG</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MAG on HELIOS2</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MAG on HELIOS2</InvestigationName><ObservatoryID>spase://nssdc/observatory/1976-003A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/105</ResourceID><ResourceHeader><ResourceName>PLASMA</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>PLASMA on HELIOS2</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>PLASMA on HELIOS2</InvestigationName><ObservatoryID>spase://nssdc/observatory/1976-003A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/106</ResourceID><ResourceHeader><ResourceName>HPP Hinotori Plasma Probes</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>HPP Hinotori Plasma Probes on HINOTORI</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>HPP Hinotori Plasma Probes on HINOTORI</InvestigationName><ObservatoryID>spase://nssdc/observatory/1981-017A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/108</ResourceID><ResourceHeader><ResourceName>FUV-SIE</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>FUV-SIE on IMAGE</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>FUV-SIE on IMAGE</InvestigationName><ObservatoryID>spase://nssdc/observatory/2000-017A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/109</ResourceID><ResourceHeader><ResourceName>FUV-SIP</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>FUV-SIP on IMAGE</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>FUV-SIP on IMAGE</InvestigationName><ObservatoryID>spase://nssdc/observatory/2000-017A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/110</ResourceID><ResourceHeader><ResourceName>FUV-WIC</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>FUV-WIC on IMAGE</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>FUV-WIC on IMAGE</InvestigationName><ObservatoryID>spase://nssdc/observatory/2000-017A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/118</ResourceID><ResourceHeader><ResourceName>Electrostatic Analyzer</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>Electrostatic Analyzer on IMP6</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Electrostatic Analyzer on IMP6</InvestigationName><ObservatoryID>spase://nssdc/observatory/1971-019A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/119</ResourceID><ResourceHeader><ResourceName>Electrostatic Analyzer</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>Electrostatic Analyzer on IMP7</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Electrostatic Analyzer on IMP7</InvestigationName><ObservatoryID>spase://nssdc/observatory/1972-073A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/123</ResourceID><ResourceHeader><ResourceName>GME</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>GME on IMP8</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>GME on IMP8</InvestigationName><ObservatoryID>spase://nssdc/observatory/1973-078A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/126</ResourceID><ResourceHeader><ResourceName>CPME</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>CPME on IMP8</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>CPME on IMP8</InvestigationName><ObservatoryID>spase://nssdc/observatory/1973-078A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/127</ResourceID><ResourceHeader><ResourceName>EPE</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>EPE on IMP8</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>EPE on IMP8</InvestigationName><ObservatoryID>spase://nssdc/observatory/1973-078A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/128</ResourceID><ResourceHeader><ResourceName>PLS</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>PLS on IMP8</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>PLS on IMP8</InvestigationName><ObservatoryID>spase://nssdc/observatory/1973-078A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/129</ResourceID><ResourceHeader><ResourceName>PLA</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>PLA on IMP8</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>PLA on IMP8</InvestigationName><ObservatoryID>spase://nssdc/observatory/1973-078A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/130</ResourceID><ResourceHeader><ResourceName>MAG</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MAG on INTAUR</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MAG on INTAUR</InvestigationName><ObservatoryID>spase://nssdc/observatory/1996-050C</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/131</ResourceID><ResourceHeader><ResourceName>DOK-2</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>DOK-2 on INTTAIL</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>DOK-2 on INTTAIL</InvestigationName><ObservatoryID>spase://nssdc/observatory/1995-039A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/137</ResourceID><ResourceHeader><ResourceName>ELE</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>ELE on INTTAIL</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>ELE on INTTAIL</InvestigationName><ObservatoryID>spase://nssdc/observatory/1995-039A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/138</ResourceID><ResourceHeader><ResourceName>MAG</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MAG on INTTAIL</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MAG on INTTAIL</InvestigationName><ObservatoryID>spase://nssdc/observatory/1995-039A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/144</ResourceID><ResourceHeader><ResourceName>PLASMA</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>PLASMA on ISEE3</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>PLASMA on ISEE3</InvestigationName><ObservatoryID>spase://nssdc/observatory/1978-079A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/147</ResourceID><ResourceHeader><ResourceName>MOTH Magneto Optical filters at Two Heights</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MOTH Magneto Optical filters at Two Heights on JSPO</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MOTH Magneto Optical filters at Two Heights on JSPO</InvestigationName><ObservatoryID>spase://vspo/observatory/109</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/148</ResourceID><ResourceHeader><ResourceName>KANZ (VSO notation)</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>KANZ (VSO notation) on KSO</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>KANZ (VSO notation) on KSO</InvestigationName><ObservatoryID>spase://vspo/observatory/8</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/149</ResourceID><ResourceHeader><ResourceName>512-channel magnetograph</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>512-channel magnetograph on KP</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>512-channel magnetograph on KP</InvestigationName><ObservatoryID>spase://vspo/observatory/3</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/150</ResourceID><ResourceHeader><ResourceName>SPMG Spectromagnetograph</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>SPMG Spectromagnetograph on KP</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>SPMG Spectromagnetograph on KP</InvestigationName><ObservatoryID>spase://vspo/observatory/3</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/151</ResourceID><ResourceHeader><ResourceName>MPA</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MPA on LANL1989</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MPA on LANL1989</InvestigationName><ObservatoryID>spase://vspo/observatory/50</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/152</ResourceID><ResourceHeader><ResourceName>SPA</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>SPA on LANL1989</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>SPA on LANL1989</InvestigationName><ObservatoryID>spase://vspo/observatory/50</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/153</ResourceID><ResourceHeader><ResourceName>MPA</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MPA on LANL1990</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MPA on LANL1990</InvestigationName><ObservatoryID>spase://vspo/observatory/51</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/154</ResourceID><ResourceHeader><ResourceName>SPA</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>SPA on LANL1990</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>SPA on LANL1990</InvestigationName><ObservatoryID>spase://vspo/observatory/51</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/155</ResourceID><ResourceHeader><ResourceName>MPA</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MPA on LANL1991</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MPA on LANL1991</InvestigationName><ObservatoryID>spase://vspo/observatory/52</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/156</ResourceID><ResourceHeader><ResourceName>SPA</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>SPA on LANL1991</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>SPA on LANL1991</InvestigationName><ObservatoryID>spase://vspo/observatory/52</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/157</ResourceID><ResourceHeader><ResourceName>MPA</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MPA on LANL1994</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MPA on LANL1994</InvestigationName><ObservatoryID>spase://vspo/observatory/53</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/158</ResourceID><ResourceHeader><ResourceName>SPA</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>SPA on LANL1994</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>SPA on LANL1994</InvestigationName><ObservatoryID>spase://vspo/observatory/53</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/159</ResourceID><ResourceHeader><ResourceName>MPA</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MPA on LANL1997</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MPA on LANL1997</InvestigationName><ObservatoryID>spase://vspo/observatory/54</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/160</ResourceID><ResourceHeader><ResourceName>SPA</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>SPA on LANL1997</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>SPA on LANL1997</InvestigationName><ObservatoryID>spase://vspo/observatory/54</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/161</ResourceID><ResourceHeader><ResourceName>MAG</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MAG on MAGSAT</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MAG on MAGSAT</InvestigationName><ObservatoryID>spase://nssdc/observatory/1979-094A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/162</ResourceID><ResourceHeader><ResourceName>ACOS</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>ACOS on MLSO</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>ACOS on MLSO</InvestigationName><ObservatoryID>spase://vspo/observatory/88</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/163</ResourceID><ResourceHeader><ResourceName>CHIP</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>CHIP on MLSO</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>CHIP on MLSO</InvestigationName><ObservatoryID>spase://vspo/observatory/88</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/164</ResourceID><ResourceHeader><ResourceName>CHP</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>CHP on MLSO</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>CHP on MLSO</InvestigationName><ObservatoryID>spase://vspo/observatory/88</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/165</ResourceID><ResourceHeader><ResourceName>PICS</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>PICS on MLSO</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>PICS on MLSO</InvestigationName><ObservatoryID>spase://vspo/observatory/88</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/166</ResourceID><ResourceHeader><ResourceName>DPM</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>DPM on MLSO</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>DPM on MLSO</InvestigationName><ObservatoryID>spase://vspo/observatory/88</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/167</ResourceID><ResourceHeader><ResourceName>MK4</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MK4 on MLSO</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MK4 on MLSO</InvestigationName><ObservatoryID>spase://vspo/observatory/88</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/168</ResourceID><ResourceHeader><ResourceName>ECHO</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>ECHO on MLSO</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>ECHO on MLSO</InvestigationName><ObservatoryID>spase://vspo/observatory/88</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/169</ResourceID><ResourceHeader><ResourceName>PSPT</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>PSPT on MLSO</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>PSPT on MLSO</InvestigationName><ObservatoryID>spase://vspo/observatory/88</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/170</ResourceID><ResourceHeader><ResourceName>NORH</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>NORH on NOB_RH</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>NORH on NOB_RH</InvestigationName><ObservatoryID>spase://vspo/observatory/26</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/171</ResourceID><ResourceHeader><ResourceName>OACT (VSO notation)</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>OACT (VSO notation) on OAC</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>OACT (VSO notation) on OAC</InvestigationName><ObservatoryID>spase://vspo/observatory/6</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/172</ResourceID><ResourceHeader><ResourceName>OBSPM (VSO notation)</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>OBSPM (VSO notation) on OBSPM</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>OBSPM (VSO notation) on OBSPM</InvestigationName><ObservatoryID>spase://vspo/observatory/5</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/175</ResourceID><ResourceHeader><ResourceName>QPA Quadrispherical Plasma Analyzer</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>QPA Quadrispherical Plasma Analyzer on PIONEER10</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>QPA Quadrispherical Plasma Analyzer on PIONEER10</InvestigationName><ObservatoryID>spase://nssdc/observatory/1972-012A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/176</ResourceID><ResourceHeader><ResourceName>MAG Magnetometer</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MAG Magnetometer on PIONEER11</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MAG Magnetometer on PIONEER11</InvestigationName><ObservatoryID>spase://nssdc/observatory/1973-019A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/177</ResourceID><ResourceHeader><ResourceName>MAG</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MAG on PIONEER10</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MAG on PIONEER10</InvestigationName><ObservatoryID>spase://nssdc/observatory/1972-012A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/179</ResourceID><ResourceHeader><ResourceName>MAG</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MAG on PIONEER11</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MAG on PIONEER11</InvestigationName><ObservatoryID>spase://nssdc/observatory/1973-019A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/188</ResourceID><ResourceHeader><ResourceName>SWE</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>SWE on POLAR</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>SWE on POLAR</InvestigationName><ObservatoryID>spase://nssdc/observatory/1996-013A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/191</ResourceID><ResourceHeader><ResourceName>PWI  Plasma Wave Investigation</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>PWI  Plasma Wave Investigation on POLAR</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>PWI  Plasma Wave Investigation on POLAR</InvestigationName><ObservatoryID>spase://nssdc/observatory/1996-013A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/197</ResourceID><ResourceHeader><ResourceName>OMAG</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>OMAG on PVO</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>OMAG on PVO</InvestigationName><ObservatoryID>spase://nssdc/observatory/1978-051A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/204</ResourceID><ResourceHeader><ResourceName>PET Proton Electron Telescope</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>PET Proton Electron Telescope on SAMPEX</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>PET Proton Electron Telescope on SAMPEX</InvestigationName><ObservatoryID>spase://nssdc/observatory/1992-038A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/205</ResourceID><ResourceHeader><ResourceName>CFDT1 Cartesian Full-Disk Telescope Number 1</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>CFDT1 Cartesian Full-Disk Telescope Number 1 on SFO</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>CFDT1 Cartesian Full-Disk Telescope Number 1 on SFO</InvestigationName><ObservatoryID>spase://vspo/observatory/110</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/206</ResourceID><ResourceHeader><ResourceName>CFDT2 Cartesian Full-Disk Telescope Number 2</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>CFDT2 Cartesian Full-Disk Telescope Number 2 on SFO</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>CFDT2 Cartesian Full-Disk Telescope Number 2 on SFO</InvestigationName><ObservatoryID>spase://vspo/observatory/110</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/207</ResourceID><ResourceHeader><ResourceName>SMEI</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>SMEI on CORIOLIS</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>SMEI on CORIOLIS</InvestigationName><ObservatoryID>spase://nssdc/observatory/2003-001A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/209</ResourceID><ResourceHeader><ResourceName>CELIAS  Charge, Element and Isotope Analysis System</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>CELIAS  Charge, Element and Isotope Analysis System on SOHO</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>CELIAS  Charge, Element and Isotope Analysis System on SOHO</InvestigationName><ObservatoryID>spase://nssdc/observatory/1995-065A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/210</ResourceID><ResourceHeader><ResourceName>MTOF  Mass time of Flight</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MTOF  Mass time of Flight on SOHO</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MTOF  Mass time of Flight on SOHO</InvestigationName><ObservatoryID>spase://nssdc/observatory/1995-065A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/211</ResourceID><ResourceHeader><ResourceName>PM</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>PM on SOHO</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>PM on SOHO</InvestigationName><ObservatoryID>spase://nssdc/observatory/1995-065A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/212</ResourceID><ResourceHeader><ResourceName>SEM</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>SEM on SOHO</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>SEM on SOHO</InvestigationName><ObservatoryID>spase://nssdc/observatory/1995-065A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/233</ResourceID><ResourceHeader><ResourceName>VHM/FGM</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>VHM/FGM on ULYSSES</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>VHM/FGM on ULYSSES</InvestigationName><ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/236</ResourceID><ResourceHeader><ResourceName>AT1  Anisotropy Telescope 1</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>AT1  Anisotropy Telescope 1 on ULYSSES</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>AT1  Anisotropy Telescope 1 on ULYSSES</InvestigationName><ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/237</ResourceID><ResourceHeader><ResourceName>COSPIN  Cosmic Ray and Solar Particles Investigation</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>COSPIN  Cosmic Ray and Solar Particles Investigation on ULYSSES</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>COSPIN  Cosmic Ray and Solar Particles Investigation on ULYSSES</InvestigationName><ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/238</ResourceID><ResourceHeader><ResourceName>AT1  Anisotropy Telescope 2</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>AT1  Anisotropy Telescope 2 on ULYSSES</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>AT1  Anisotropy Telescope 2 on ULYSSES</InvestigationName><ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/239</ResourceID><ResourceHeader><ResourceName>HET  High Energy Telescope</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>HET  High Energy Telescope on ULYSSES</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>HET  High Energy Telescope on ULYSSES</InvestigationName><ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/240</ResourceID><ResourceHeader><ResourceName>HFT  High Flux Telescope</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>HFT  High Flux Telescope on ULYSSES</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>HFT  High Flux Telescope on ULYSSES</InvestigationName><ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/241</ResourceID><ResourceHeader><ResourceName>KET  Electron Telescope</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>KET  Electron Telescope on ULYSSES</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>KET  Electron Telescope on ULYSSES</InvestigationName><ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/242</ResourceID><ResourceHeader><ResourceName>Low Energy Telescope</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>Low Energy Telescope on ULYSSES</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Low Energy Telescope on ULYSSES</InvestigationName><ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/243</ResourceID><ResourceHeader><ResourceName>MAG</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MAG on VOSTOKANTARCTICA</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MAG on VOSTOKANTARCTICA</InvestigationName><ObservatoryID>spase://vspo/observatory/90</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/244</ResourceID><ResourceHeader><ResourceName>MAG</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MAG on THULE</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MAG on THULE</InvestigationName><ObservatoryID>spase://vspo/observatory/89</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/260</ResourceID><ResourceHeader><ResourceName>SMS</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>SMS on WIND</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>SMS on WIND</InvestigationName><ObservatoryID>spase://nssdc/observatory/1994-071A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/261</ResourceID><ResourceHeader><ResourceName>SWICS</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>SWICS on WIND</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>SWICS on WIND</InvestigationName><ObservatoryID>spase://nssdc/observatory/1994-071A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/262</ResourceID><ResourceHeader><ResourceName>STICS</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>STICS on WIND</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>STICS on WIND</InvestigationName><ObservatoryID>spase://nssdc/observatory/1994-071A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/263</ResourceID><ResourceHeader><ResourceName>Babcock solar magnetograph</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>Babcock solar magnetograph on WSO</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Babcock solar magnetograph on WSO</InvestigationName><ObservatoryID>spase://vspo/observatory/16</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/264</ResourceID><ResourceHeader><ResourceName>YNAO (VSO notation)</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>YNAO (VSO notation) on YNAO</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>YNAO (VSO notation) on YNAO</InvestigationName><ObservatoryID>spase://vspo/observatory/7</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/268</ResourceID><ResourceHeader><ResourceName>HXT</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>HXT on YOHKOH</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>HXT on YOHKOH</InvestigationName><ObservatoryID>spase://nssdc/observatory/1991-062A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/269</ResourceID><ResourceHeader><ResourceName>BCS</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>BCS on YOHKOH</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>BCS on YOHKOH</InvestigationName><ObservatoryID>spase://nssdc/observatory/1991-062A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/271</ResourceID><ResourceHeader><ResourceName>SXT Soft X ray Telescope</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>SXT Soft X ray Telescope on YOHKOH</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>SXT Soft X ray Telescope on YOHKOH</InvestigationName><ObservatoryID>spase://nssdc/observatory/1991-062A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/272</ResourceID><ResourceHeader><ResourceName>WBS Wide Band Spectrometer</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>WBS Wide Band Spectrometer on YOHKOH</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>WBS Wide Band Spectrometer on YOHKOH</InvestigationName><ObservatoryID>spase://nssdc/observatory/1991-062A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/273</ResourceID><ResourceHeader><ResourceName>SXS Soft X ray Spectrometer</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>SXS Soft X ray Spectrometer on YOHKOH</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>SXS Soft X ray Spectrometer on YOHKOH</InvestigationName><ObservatoryID>spase://nssdc/observatory/1991-062A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/274</ResourceID><ResourceHeader><ResourceName>HXS Hard X ray Spectrometer</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>HXS Hard X ray Spectrometer on YOHKOH</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>HXS Hard X ray Spectrometer on YOHKOH</InvestigationName><ObservatoryID>spase://nssdc/observatory/1991-062A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/275</ResourceID><ResourceHeader><ResourceName>GRS Gamma ray Spectrometer</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>GRS Gamma ray Spectrometer on YOHKOH</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>GRS Gamma ray Spectrometer on YOHKOH</InvestigationName><ObservatoryID>spase://nssdc/observatory/1991-062A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/276</ResourceID><ResourceHeader><ResourceName>EPS</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>EPS on GOES8</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>EPS on GOES8</InvestigationName><ObservatoryID>spase://nssdc/observatory/1994-022A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/277</ResourceID><ResourceHeader><ResourceName>EPS</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>EPS on GOES10</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>EPS on GOES10</InvestigationName><ObservatoryID>spase://nssdc/observatory/1997-019A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/278</ResourceID><ResourceHeader><ResourceName>EPS</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>EPS on GOES11</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>EPS on GOES11</InvestigationName><ObservatoryID>spase://nssdc/observatory/2000-022A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/279</ResourceID><ResourceHeader><ResourceName>EPS</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>EPS on GOES12</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>EPS on GOES12</InvestigationName><ObservatoryID>spase://nssdc/observatory/2001-031A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/280</ResourceID><ResourceHeader><ResourceName>MAG</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MAG on GOES11</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MAG on GOES11</InvestigationName><ObservatoryID>spase://nssdc/observatory/2000-022A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/306</ResourceID><ResourceHeader><ResourceName>MAG</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MAG on ICE</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MAG on ICE</InvestigationName><ObservatoryID>spase://vspo/observatory/99</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/309</ResourceID><ResourceHeader><ResourceName>CODIF Composition Distribution Function</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>CODIF Composition Distribution Function on CLUSTER1</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>CODIF Composition Distribution Function on CLUSTER1</InvestigationName><ObservatoryID>spase://nssdc/observatory/2000-045A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/310</ResourceID><ResourceHeader><ResourceName>CODIF Composition Distribution Function</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>CODIF Composition Distribution Function on CLUSTER3</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>CODIF Composition Distribution Function on CLUSTER3</InvestigationName><ObservatoryID>spase://nssdc/observatory/2000-041A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/311</ResourceID><ResourceHeader><ResourceName>CODIF Composition Distribution Function</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>CODIF Composition Distribution Function on CLUSTER4</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>CODIF Composition Distribution Function on CLUSTER4</InvestigationName><ObservatoryID>spase://nssdc/observatory/2000-045B</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/312</ResourceID><ResourceHeader><ResourceName>HIA Hot Ion Analyzer</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>HIA Hot Ion Analyzer on CLUSTER1</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>HIA Hot Ion Analyzer on CLUSTER1</InvestigationName><ObservatoryID>spase://nssdc/observatory/2000-045A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/313</ResourceID><ResourceHeader><ResourceName>HIA Hot Ion Analyzer</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>HIA Hot Ion Analyzer on CLUSTER3</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>HIA Hot Ion Analyzer on CLUSTER3</InvestigationName><ObservatoryID>spase://nssdc/observatory/2000-041A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/314</ResourceID><ResourceHeader><ResourceName>HIA Hot Ion Analyzer</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>HIA Hot Ion Analyzer on CLUSTER4</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>HIA Hot Ion Analyzer on CLUSTER4</InvestigationName><ObservatoryID>spase://nssdc/observatory/2000-045B</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/317</ResourceID><ResourceHeader><ResourceName>DWP - Digital Wave Processor</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>DWP - Digital Wave Processor on DoubleStar1</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>DWP - Digital Wave Processor on DoubleStar1</InvestigationName><ObservatoryID>spase://nssdc/observatory/2003-061A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/333</ResourceID><ResourceHeader><ResourceName>Magnetometer</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>Magnetometer at Contwoyto</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Magnetometer at Contwoyto</InvestigationName><ObservatoryID>spase://vspo/observatory/126</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/334</ResourceID><ResourceHeader><ResourceName>Magnetometer</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>Magnetometer at Dawson</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Magnetometer at Dawson</InvestigationName><ObservatoryID>spase://vspo/observatory/127</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/335</ResourceID><ResourceHeader><ResourceName>Magnetometer</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>Magnetometer at Eskimo Point</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Magnetometer at Eskimo Point</InvestigationName><ObservatoryID>spase://vspo/observatory/128</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/336</ResourceID><ResourceHeader><ResourceName>Magnetometer</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>Magnetometer at Fort Churchill</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Magnetometer at Fort Churchill</InvestigationName><ObservatoryID>spase://vspo/observatory/129</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/337</ResourceID><ResourceHeader><ResourceName>Magnetometer</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>Magnetometer at Fort Simpson</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Magnetometer at Fort Simpson</InvestigationName><ObservatoryID>spase://vspo/observatory/130</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/338</ResourceID><ResourceHeader><ResourceName>Magnetometer</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>Magnetometer at Fort Smith</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Magnetometer at Fort Smith</InvestigationName><ObservatoryID>spase://vspo/observatory/131</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/339</ResourceID><ResourceHeader><ResourceName>Magnetometer</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>Magnetometer at Gillam</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Magnetometer at Gillam</InvestigationName><ObservatoryID>spase://vspo/observatory/132</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/340</ResourceID><ResourceHeader><ResourceName>Magnetometer</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>Magnetometer at Island Lake</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Magnetometer at Island Lake</InvestigationName><ObservatoryID>spase://vspo/observatory/133</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/341</ResourceID><ResourceHeader><ResourceName>Magnetometer</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>Magnetometer at Fort Mcmurray</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Magnetometer at Fort Mcmurray</InvestigationName><ObservatoryID>spase://vspo/observatory/134</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/342</ResourceID><ResourceHeader><ResourceName>Magnetometer</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>Magnetometer at Pinawa</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Magnetometer at Pinawa</InvestigationName><ObservatoryID>spase://vspo/observatory/135</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/343</ResourceID><ResourceHeader><ResourceName>Magnetometer</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>Magnetometer at Rabbit Lake</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Magnetometer at Rabbit Lake</InvestigationName><ObservatoryID>spase://vspo/observatory/136</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/344</ResourceID><ResourceHeader><ResourceName>Magnetometer</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>Magnetometer at Rankin Inlet</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Magnetometer at Rankin Inlet</InvestigationName><ObservatoryID>spase://vspo/observatory/137</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/345</ResourceID><ResourceHeader><ResourceName>Magnetometer</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>Magnetometer at Taloyoak</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Magnetometer at Taloyoak</InvestigationName><ObservatoryID>spase://vspo/observatory/138</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/346</ResourceID><ResourceHeader><ResourceName>MPA</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MPA on LANL2001</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MPA on LANL2001</InvestigationName><ObservatoryID>spase://vspo/observatory/55</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/347</ResourceID><ResourceHeader><ResourceName>MPA</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>MPA on LANL2002</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>MPA on LANL2002</InvestigationName><ObservatoryID>spase://vspo/observatory/56</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/348</ResourceID><ResourceHeader><ResourceName>Neutron Monitor</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>Neutron Monitor on CLIMAX</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Neutron Monitor on CLIMAX</InvestigationName><ObservatoryID>spase://vspo/observatory/106</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/349</ResourceID><ResourceHeader><ResourceName>Neutron Monitor</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>Neutron Monitor on HUANCAYO</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Neutron Monitor on HUANCAYO</InvestigationName><ObservatoryID>spase://vspo/observatory/107</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/350</ResourceID><ResourceHeader><ResourceName>Neutron Monitor</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>Neutron Monitor on HALEAKALA</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Neutron Monitor on HALEAKALA</InvestigationName><ObservatoryID>spase://vspo/observatory/108</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/357</ResourceID><ResourceHeader><ResourceName>Spectroheliograph</ResourceName><ReleaseDate>2007-04-06T00:00:00Z</ReleaseDate><Description>Spectroheliograph at Meudon</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Spectroheliograph at Meudon</InvestigationName><ObservatoryID>spase://vspo/observatory/23</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/358</ResourceID><ResourceHeader><ResourceName>Radioheliograph</ResourceName><ReleaseDate>2007-04-06T00:00:00Z</ReleaseDate><Description>Radioheliograph at Nancay</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Radioheliograph at Nancay</InvestigationName><ObservatoryID>spase://vspo/observatory/21</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/359</ResourceID><ResourceHeader><ResourceName>Coronagraph</ResourceName><ReleaseDate>2007-04-06T00:00:00Z</ReleaseDate><Description>Coronagraph at Pic du Midi</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Coronagraph at Pic du Midi</InvestigationName><ObservatoryID>spase://vspo/observatory/22</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/360</ResourceID><ResourceHeader><ResourceName>THEMIS at the TEIDE Observatory</ResourceName><ReleaseDate>2007-04-06T00:00:00Z</ReleaseDate><Description/><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>THEMIS at the TEIDE Observatory</InvestigationName><ObservatoryID>spase://vspo/observatory/141</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/361</ResourceID><ResourceHeader><ResourceName>XRS</ResourceName><ReleaseDate>2007-04-06T00:00:00Z</ReleaseDate><Description>X-Ray Sensor on GOES8</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>X-Ray Sensor on GOES8</InvestigationName><ObservatoryID>spase://nssdc/observatory/1994-022A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/362</ResourceID><ResourceHeader><ResourceName>XRS</ResourceName><ReleaseDate>2007-04-06T00:00:00Z</ReleaseDate><Description>X-Ray Sensor on GOES10</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>X-Ray Sensor on GOES10</InvestigationName><ObservatoryID>spase://nssdc/observatory/1997-019A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/363</ResourceID><ResourceHeader><ResourceName>XRS</ResourceName><ReleaseDate>2007-04-06T00:00:00Z</ReleaseDate><Description>X-Ray Sensor on GOES11</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>X-Ray Sensor on GOES11</InvestigationName><ObservatoryID>spase://nssdc/observatory/2000-022A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/364</ResourceID><ResourceHeader><ResourceName>XRS</ResourceName><ReleaseDate>2007-04-06T00:00:00Z</ReleaseDate><Description>X-Ray Sensor on GOES12</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>X-Ray Sensor on GOES12</InvestigationName><ObservatoryID>spase://nssdc/observatory/2001-031A</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/365</ResourceID><ResourceHeader><ResourceName>Magnetometer</ResourceName><ReleaseDate>2007-04-06T00:00:00Z</ReleaseDate><Description>Magnetometers on IRIDIUM 1-70 satellites</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>Magnetometer</InstrumentType><InvestigationName>Magnetometers on IRIDIUM 1-70 satellites</InvestigationName><ObservatoryID>spase://vspo/observatory/87</ObservatoryID></Instrument><Instrument><ResourceID>spase://vspo/instrument/366</ResourceID><ResourceHeader><ResourceName>Vacuum Telescope</ResourceName><ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate><Description>Vacuum Telescope on KP</Description><Contact><PersonID>UNKNOWN</PersonID><Role>GeneralContact</Role></Contact></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Vacuum Telescope on KP</InvestigationName><ObservatoryID>spase://vspo/observatory/3</ObservatoryID></Instrument></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/38</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MIMS Magnetic Ion Mass Spactrometer</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MIMS Magnetic Ion Mass Spactrometer on AE-E</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MIMS Magnetic Ion Mass Spactrometer on AE-E</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1975-107A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/44</ResourceID>
+    <ResourceHeader>
+      <ResourceName>BUV Backscatter Ultraviolet</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>BUV Backscatter Ultraviolet on AE-E</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>BUV Backscatter Ultraviolet on AE-E</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1975-107A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/48</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MARI</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MARI on CANOPUS</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MARI on CANOPUS</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/100</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/49</ResourceID>
+    <ResourceHeader>
+      <ResourceName>AUX</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>AUX on CLUSTER1</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>AUX on CLUSTER1</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2000-045A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/56</ResourceID>
+    <ResourceHeader>
+      <ResourceName>PGP</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>PGP on CLUSTER1</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>PGP on CLUSTER1</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2000-045A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/61</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Culgoora Radioheliospectrograph</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>Culgoora Radioheliospectrograph on CO</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Culgoora Radioheliospectrograph on CO</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/27</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/70</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SSJ/4 Special Sensor for Precipitating Particles, Version 4</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>SSJ/4 Special Sensor for Precipitating Particles, Version 4 on DMSP_5D-2</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>SSJ/4 Special Sensor for Precipitating Particles, Version 4 on DMSP_5D-2</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/25</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/71</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SSIES Special Sensor Topside Thermal Plasma Monitor</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>SSIES Special Sensor Topside Thermal Plasma Monitor on DMSP_5D-2</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>SSIES Special Sensor Topside Thermal Plasma Monitor on DMSP_5D-2</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/25</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/72</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SSM Special Sensor Fluxgate Magnetometer</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>SSM Special Sensor Fluxgate Magnetometer on DMSP_5D-2</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>SSM Special Sensor Fluxgate Magnetometer on DMSP_5D-2</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/25</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/73</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SSIES Special Sensor for Ions and Electrons</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>SSIES Special Sensor for Ions and Electrons on DMSP_5D-2</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>SSIES Special Sensor for Ions and Electrons on DMSP_5D-2</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/25</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/74</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SSJ/4</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>SSJ/4 on DMSP_5D-2</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>SSJ/4 on DMSP_5D-2</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/25</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/75</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SHG Spectroheliograph</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>SHG Spectroheliograph on ESF</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>SHG Spectroheliograph on ESF</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/4</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/79</ResourceID>
+    <ResourceHeader>
+      <ResourceName>ACF</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>ACF on FAST</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>ACF on FAST</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1996-049A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/80</ResourceID>
+    <ResourceHeader>
+      <ResourceName>DCF</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>DCF on FAST</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>DCF on FAST</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1996-049A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/81</ResourceID>
+    <ResourceHeader>
+      <ResourceName>EES</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>EES on FAST</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>EES on FAST</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1996-049A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/82</ResourceID>
+    <ResourceHeader>
+      <ResourceName>IES</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>IES on FAST</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>IES on FAST</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1996-049A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/83</ResourceID>
+    <ResourceHeader>
+      <ResourceName>TMS</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>TMS on FAST</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>TMS on FAST</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1996-049A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/85</ResourceID>
+    <ResourceHeader>
+      <ResourceName>GIM</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>GIM on GENESIS</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>GIM on GENESIS</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2001-034A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/1</ResourceID>
+    <ResourceHeader>
+      <ResourceName>CPI</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>CPI on GEOTAIL</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>CPI on GEOTAIL</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1992-044A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/2</ResourceID>
+    <ResourceHeader>
+      <ResourceName>HPA</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>HPA on GEOTAIL</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>HPA on GEOTAIL</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1992-044A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/86</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SWA</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>SWA on GEOTAIL</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>SWA on GEOTAIL</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1992-044A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/87</ResourceID>
+    <ResourceHeader>
+      <ResourceName>EFD</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>EFD on GEOTAIL</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>EFD on GEOTAIL</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1992-044A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/88</ResourceID>
+    <ResourceHeader>
+      <ResourceName>EPIC</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>EPIC on GEOTAIL</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>EPIC on GEOTAIL</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1992-044A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/89</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MGF</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MGF on GEOTAIL</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MGF on GEOTAIL</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1992-044A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/90</ResourceID>
+    <ResourceHeader>
+      <ResourceName>LEP</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>LEP on GEOTAIL</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>LEP on GEOTAIL</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1992-044A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/91</ResourceID>
+    <ResourceHeader>
+      <ResourceName>EP8</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>EP8 on GOES10</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>EP8 on GOES10</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1997-019A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/92</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MAG</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MAG on GOES10</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MAG on GOES10</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1997-019A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/93</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MAG</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MAG on GOES12</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MAG on GOES12</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2001-031A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/94</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SXI</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>SXI on GOES12</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>SXI on GOES12</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2001-031A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/96</ResourceID>
+    <ResourceHeader>
+      <ResourceName>EPS</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>EPS on GOES7</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>EPS on GOES7</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1987-022A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/98</ResourceID>
+    <ResourceHeader>
+      <ResourceName>EP8</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>EP8 on GOES8</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>EP8 on GOES8</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1994-022A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/100</ResourceID>
+    <ResourceHeader>
+      <ResourceName>EP8</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>EP8 on GOES9</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>EP8 on GOES9</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1995-025A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/101</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MAG</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MAG on GOES9</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MAG on GOES9</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1995-025A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/102</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MAG</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MAG on HELIOS1</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MAG on HELIOS1</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1974-097A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/103</ResourceID>
+    <ResourceHeader>
+      <ResourceName>PLASMA</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>PLASMA on HELIOS1</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>PLASMA on HELIOS1</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1974-097A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/104</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MAG</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MAG on HELIOS2</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MAG on HELIOS2</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1976-003A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/105</ResourceID>
+    <ResourceHeader>
+      <ResourceName>PLASMA</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>PLASMA on HELIOS2</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>PLASMA on HELIOS2</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1976-003A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/106</ResourceID>
+    <ResourceHeader>
+      <ResourceName>HPP Hinotori Plasma Probes</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>HPP Hinotori Plasma Probes on HINOTORI</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>HPP Hinotori Plasma Probes on HINOTORI</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1981-017A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/108</ResourceID>
+    <ResourceHeader>
+      <ResourceName>FUV-SIE</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>FUV-SIE on IMAGE</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>FUV-SIE on IMAGE</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2000-017A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/109</ResourceID>
+    <ResourceHeader>
+      <ResourceName>FUV-SIP</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>FUV-SIP on IMAGE</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>FUV-SIP on IMAGE</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2000-017A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/110</ResourceID>
+    <ResourceHeader>
+      <ResourceName>FUV-WIC</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>FUV-WIC on IMAGE</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>FUV-WIC on IMAGE</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2000-017A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/118</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Electrostatic Analyzer</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>Electrostatic Analyzer on IMP6</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Electrostatic Analyzer on IMP6</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1971-019A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/119</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Electrostatic Analyzer</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>Electrostatic Analyzer on IMP7</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Electrostatic Analyzer on IMP7</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1972-073A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/123</ResourceID>
+    <ResourceHeader>
+      <ResourceName>GME</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>GME on IMP8</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>GME on IMP8</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1973-078A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/126</ResourceID>
+    <ResourceHeader>
+      <ResourceName>CPME</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>CPME on IMP8</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>CPME on IMP8</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1973-078A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/127</ResourceID>
+    <ResourceHeader>
+      <ResourceName>EPE</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>EPE on IMP8</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>EPE on IMP8</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1973-078A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/128</ResourceID>
+    <ResourceHeader>
+      <ResourceName>PLS</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>PLS on IMP8</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>PLS on IMP8</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1973-078A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/129</ResourceID>
+    <ResourceHeader>
+      <ResourceName>PLA</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>PLA on IMP8</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>PLA on IMP8</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1973-078A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/130</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MAG</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MAG on INTAUR</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MAG on INTAUR</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1996-050C</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/131</ResourceID>
+    <ResourceHeader>
+      <ResourceName>DOK-2</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>DOK-2 on INTTAIL</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>DOK-2 on INTTAIL</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1995-039A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/137</ResourceID>
+    <ResourceHeader>
+      <ResourceName>ELE</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>ELE on INTTAIL</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>ELE on INTTAIL</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1995-039A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/138</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MAG</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MAG on INTTAIL</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MAG on INTTAIL</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1995-039A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/144</ResourceID>
+    <ResourceHeader>
+      <ResourceName>PLASMA</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>PLASMA on ISEE3</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>PLASMA on ISEE3</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1978-079A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/147</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MOTH Magneto Optical filters at Two Heights</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MOTH Magneto Optical filters at Two Heights on JSPO</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MOTH Magneto Optical filters at Two Heights on JSPO</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/109</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/148</ResourceID>
+    <ResourceHeader>
+      <ResourceName>KANZ (VSO notation)</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>KANZ (VSO notation) on KSO</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>KANZ (VSO notation) on KSO</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/8</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/149</ResourceID>
+    <ResourceHeader>
+      <ResourceName>512-channel magnetograph</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>512-channel magnetograph on KP</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>512-channel magnetograph on KP</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/3</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/150</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SPMG Spectromagnetograph</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>SPMG Spectromagnetograph on KP</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>SPMG Spectromagnetograph on KP</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/3</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/151</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MPA</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MPA on LANL1989</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MPA on LANL1989</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/50</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/152</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SPA</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>SPA on LANL1989</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>SPA on LANL1989</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/50</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/153</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MPA</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MPA on LANL1990</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MPA on LANL1990</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/51</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/154</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SPA</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>SPA on LANL1990</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>SPA on LANL1990</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/51</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/155</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MPA</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MPA on LANL1991</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MPA on LANL1991</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/52</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/156</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SPA</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>SPA on LANL1991</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>SPA on LANL1991</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/52</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/157</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MPA</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MPA on LANL1994</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MPA on LANL1994</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/53</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/158</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SPA</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>SPA on LANL1994</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>SPA on LANL1994</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/53</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/159</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MPA</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MPA on LANL1997</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MPA on LANL1997</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/54</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/160</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SPA</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>SPA on LANL1997</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>SPA on LANL1997</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/54</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/161</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MAG</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MAG on MAGSAT</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MAG on MAGSAT</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1979-094A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/162</ResourceID>
+    <ResourceHeader>
+      <ResourceName>ACOS</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>ACOS on MLSO</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>ACOS on MLSO</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/88</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/163</ResourceID>
+    <ResourceHeader>
+      <ResourceName>CHIP</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>CHIP on MLSO</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>CHIP on MLSO</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/88</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/164</ResourceID>
+    <ResourceHeader>
+      <ResourceName>CHP</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>CHP on MLSO</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>CHP on MLSO</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/88</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/165</ResourceID>
+    <ResourceHeader>
+      <ResourceName>PICS</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>PICS on MLSO</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>PICS on MLSO</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/88</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/166</ResourceID>
+    <ResourceHeader>
+      <ResourceName>DPM</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>DPM on MLSO</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>DPM on MLSO</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/88</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/167</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MK4</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MK4 on MLSO</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MK4 on MLSO</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/88</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/168</ResourceID>
+    <ResourceHeader>
+      <ResourceName>ECHO</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>ECHO on MLSO</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>ECHO on MLSO</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/88</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/169</ResourceID>
+    <ResourceHeader>
+      <ResourceName>PSPT</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>PSPT on MLSO</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>PSPT on MLSO</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/88</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/170</ResourceID>
+    <ResourceHeader>
+      <ResourceName>NORH</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>NORH on NOB_RH</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>NORH on NOB_RH</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/26</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/171</ResourceID>
+    <ResourceHeader>
+      <ResourceName>OACT (VSO notation)</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>OACT (VSO notation) on OAC</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>OACT (VSO notation) on OAC</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/6</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/172</ResourceID>
+    <ResourceHeader>
+      <ResourceName>OBSPM (VSO notation)</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>OBSPM (VSO notation) on OBSPM</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>OBSPM (VSO notation) on OBSPM</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/5</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/175</ResourceID>
+    <ResourceHeader>
+      <ResourceName>QPA Quadrispherical Plasma Analyzer</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>QPA Quadrispherical Plasma Analyzer on PIONEER10</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>QPA Quadrispherical Plasma Analyzer on PIONEER10</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1972-012A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/176</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MAG Magnetometer</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MAG Magnetometer on PIONEER11</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MAG Magnetometer on PIONEER11</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1973-019A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/177</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MAG</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MAG on PIONEER10</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MAG on PIONEER10</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1972-012A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/179</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MAG</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MAG on PIONEER11</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MAG on PIONEER11</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1973-019A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/188</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SWE</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>SWE on POLAR</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>SWE on POLAR</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1996-013A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/191</ResourceID>
+    <ResourceHeader>
+      <ResourceName>PWI  Plasma Wave Investigation</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>PWI  Plasma Wave Investigation on POLAR</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>PWI  Plasma Wave Investigation on POLAR</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1996-013A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/197</ResourceID>
+    <ResourceHeader>
+      <ResourceName>OMAG</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>OMAG on PVO</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>OMAG on PVO</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1978-051A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/204</ResourceID>
+    <ResourceHeader>
+      <ResourceName>PET Proton Electron Telescope</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>PET Proton Electron Telescope on SAMPEX</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>PET Proton Electron Telescope on SAMPEX</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1992-038A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/205</ResourceID>
+    <ResourceHeader>
+      <ResourceName>CFDT1 Cartesian Full-Disk Telescope Number 1</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>CFDT1 Cartesian Full-Disk Telescope Number 1 on SFO</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>CFDT1 Cartesian Full-Disk Telescope Number 1 on SFO</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/110</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/206</ResourceID>
+    <ResourceHeader>
+      <ResourceName>CFDT2 Cartesian Full-Disk Telescope Number 2</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>CFDT2 Cartesian Full-Disk Telescope Number 2 on SFO</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>CFDT2 Cartesian Full-Disk Telescope Number 2 on SFO</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/110</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/207</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SMEI</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>SMEI on CORIOLIS</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>SMEI on CORIOLIS</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2003-001A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/209</ResourceID>
+    <ResourceHeader>
+      <ResourceName>CELIAS  Charge, Element and Isotope Analysis System</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>CELIAS  Charge, Element and Isotope Analysis System on SOHO</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>CELIAS  Charge, Element and Isotope Analysis System on SOHO</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1995-065A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/210</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MTOF  Mass time of Flight</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MTOF  Mass time of Flight on SOHO</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MTOF  Mass time of Flight on SOHO</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1995-065A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/211</ResourceID>
+    <ResourceHeader>
+      <ResourceName>PM</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>PM on SOHO</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>PM on SOHO</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1995-065A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/212</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SEM</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>SEM on SOHO</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>SEM on SOHO</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1995-065A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/233</ResourceID>
+    <ResourceHeader>
+      <ResourceName>VHM/FGM</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>VHM/FGM on ULYSSES</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>VHM/FGM on ULYSSES</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/236</ResourceID>
+    <ResourceHeader>
+      <ResourceName>AT1  Anisotropy Telescope 1</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>AT1  Anisotropy Telescope 1 on ULYSSES</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>AT1  Anisotropy Telescope 1 on ULYSSES</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/237</ResourceID>
+    <ResourceHeader>
+      <ResourceName>COSPIN  Cosmic Ray and Solar Particles Investigation</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>COSPIN  Cosmic Ray and Solar Particles Investigation on ULYSSES</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>COSPIN  Cosmic Ray and Solar Particles Investigation on ULYSSES</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/238</ResourceID>
+    <ResourceHeader>
+      <ResourceName>AT1  Anisotropy Telescope 2</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>AT1  Anisotropy Telescope 2 on ULYSSES</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>AT1  Anisotropy Telescope 2 on ULYSSES</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/239</ResourceID>
+    <ResourceHeader>
+      <ResourceName>HET  High Energy Telescope</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>HET  High Energy Telescope on ULYSSES</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>HET  High Energy Telescope on ULYSSES</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/240</ResourceID>
+    <ResourceHeader>
+      <ResourceName>HFT  High Flux Telescope</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>HFT  High Flux Telescope on ULYSSES</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>HFT  High Flux Telescope on ULYSSES</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/241</ResourceID>
+    <ResourceHeader>
+      <ResourceName>KET  Electron Telescope</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>KET  Electron Telescope on ULYSSES</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>KET  Electron Telescope on ULYSSES</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/242</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Low Energy Telescope</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>Low Energy Telescope on ULYSSES</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Low Energy Telescope on ULYSSES</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/243</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MAG</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MAG on VOSTOKANTARCTICA</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MAG on VOSTOKANTARCTICA</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/90</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/244</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MAG</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MAG on THULE</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MAG on THULE</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/89</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/260</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SMS</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>SMS on WIND</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>SMS on WIND</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1994-071A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/261</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SWICS</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>SWICS on WIND</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>SWICS on WIND</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1994-071A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/262</ResourceID>
+    <ResourceHeader>
+      <ResourceName>STICS</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>STICS on WIND</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>STICS on WIND</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1994-071A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/263</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Babcock solar magnetograph</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>Babcock solar magnetograph on WSO</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Babcock solar magnetograph on WSO</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/16</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/264</ResourceID>
+    <ResourceHeader>
+      <ResourceName>YNAO (VSO notation)</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>YNAO (VSO notation) on YNAO</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>YNAO (VSO notation) on YNAO</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/7</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/268</ResourceID>
+    <ResourceHeader>
+      <ResourceName>HXT</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>HXT on YOHKOH</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>HXT on YOHKOH</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1991-062A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/269</ResourceID>
+    <ResourceHeader>
+      <ResourceName>BCS</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>BCS on YOHKOH</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>BCS on YOHKOH</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1991-062A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/271</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SXT Soft X ray Telescope</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>SXT Soft X ray Telescope on YOHKOH</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>SXT Soft X ray Telescope on YOHKOH</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1991-062A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/272</ResourceID>
+    <ResourceHeader>
+      <ResourceName>WBS Wide Band Spectrometer</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>WBS Wide Band Spectrometer on YOHKOH</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>WBS Wide Band Spectrometer on YOHKOH</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1991-062A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/273</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SXS Soft X ray Spectrometer</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>SXS Soft X ray Spectrometer on YOHKOH</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>SXS Soft X ray Spectrometer on YOHKOH</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1991-062A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/274</ResourceID>
+    <ResourceHeader>
+      <ResourceName>HXS Hard X ray Spectrometer</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>HXS Hard X ray Spectrometer on YOHKOH</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>HXS Hard X ray Spectrometer on YOHKOH</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1991-062A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/275</ResourceID>
+    <ResourceHeader>
+      <ResourceName>GRS Gamma ray Spectrometer</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>GRS Gamma ray Spectrometer on YOHKOH</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>GRS Gamma ray Spectrometer on YOHKOH</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1991-062A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/276</ResourceID>
+    <ResourceHeader>
+      <ResourceName>EPS</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>EPS on GOES8</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>EPS on GOES8</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1994-022A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/277</ResourceID>
+    <ResourceHeader>
+      <ResourceName>EPS</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>EPS on GOES10</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>EPS on GOES10</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1997-019A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/278</ResourceID>
+    <ResourceHeader>
+      <ResourceName>EPS</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>EPS on GOES11</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>EPS on GOES11</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2000-022A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/279</ResourceID>
+    <ResourceHeader>
+      <ResourceName>EPS</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>EPS on GOES12</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>EPS on GOES12</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2001-031A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/280</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MAG</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MAG on GOES11</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MAG on GOES11</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2000-022A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/306</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MAG</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MAG on ICE</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MAG on ICE</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/99</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/309</ResourceID>
+    <ResourceHeader>
+      <ResourceName>CODIF Composition Distribution Function</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>CODIF Composition Distribution Function on CLUSTER1</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>CODIF Composition Distribution Function on CLUSTER1</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2000-045A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/310</ResourceID>
+    <ResourceHeader>
+      <ResourceName>CODIF Composition Distribution Function</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>CODIF Composition Distribution Function on CLUSTER3</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>CODIF Composition Distribution Function on CLUSTER3</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2000-041A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/311</ResourceID>
+    <ResourceHeader>
+      <ResourceName>CODIF Composition Distribution Function</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>CODIF Composition Distribution Function on CLUSTER4</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>CODIF Composition Distribution Function on CLUSTER4</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2000-045B</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/312</ResourceID>
+    <ResourceHeader>
+      <ResourceName>HIA Hot Ion Analyzer</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>HIA Hot Ion Analyzer on CLUSTER1</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>HIA Hot Ion Analyzer on CLUSTER1</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2000-045A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/313</ResourceID>
+    <ResourceHeader>
+      <ResourceName>HIA Hot Ion Analyzer</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>HIA Hot Ion Analyzer on CLUSTER3</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>HIA Hot Ion Analyzer on CLUSTER3</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2000-041A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/314</ResourceID>
+    <ResourceHeader>
+      <ResourceName>HIA Hot Ion Analyzer</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>HIA Hot Ion Analyzer on CLUSTER4</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>HIA Hot Ion Analyzer on CLUSTER4</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2000-045B</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/317</ResourceID>
+    <ResourceHeader>
+      <ResourceName>DWP - Digital Wave Processor</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>DWP - Digital Wave Processor on DoubleStar1</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>DWP - Digital Wave Processor on DoubleStar1</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2003-061A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/333</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Magnetometer</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>Magnetometer at Contwoyto</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Magnetometer at Contwoyto</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/126</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/334</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Magnetometer</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>Magnetometer at Dawson</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Magnetometer at Dawson</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/127</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/335</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Magnetometer</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>Magnetometer at Eskimo Point</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Magnetometer at Eskimo Point</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/128</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/336</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Magnetometer</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>Magnetometer at Fort Churchill</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Magnetometer at Fort Churchill</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/129</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/337</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Magnetometer</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>Magnetometer at Fort Simpson</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Magnetometer at Fort Simpson</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/130</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/338</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Magnetometer</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>Magnetometer at Fort Smith</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Magnetometer at Fort Smith</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/131</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/339</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Magnetometer</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>Magnetometer at Gillam</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Magnetometer at Gillam</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/132</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/340</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Magnetometer</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>Magnetometer at Island Lake</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Magnetometer at Island Lake</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/133</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/341</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Magnetometer</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>Magnetometer at Fort Mcmurray</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Magnetometer at Fort Mcmurray</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/134</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/342</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Magnetometer</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>Magnetometer at Pinawa</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Magnetometer at Pinawa</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/135</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/343</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Magnetometer</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>Magnetometer at Rabbit Lake</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Magnetometer at Rabbit Lake</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/136</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/344</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Magnetometer</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>Magnetometer at Rankin Inlet</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Magnetometer at Rankin Inlet</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/137</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/345</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Magnetometer</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>Magnetometer at Taloyoak</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Magnetometer at Taloyoak</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/138</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/346</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MPA</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MPA on LANL2001</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MPA on LANL2001</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/55</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/347</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MPA</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MPA on LANL2002</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>MPA on LANL2002</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/56</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/348</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Neutron Monitor</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>Neutron Monitor on CLIMAX</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Neutron Monitor on CLIMAX</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/106</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/349</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Neutron Monitor</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>Neutron Monitor on HUANCAYO</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Neutron Monitor on HUANCAYO</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/107</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/350</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Neutron Monitor</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>Neutron Monitor on HALEAKALA</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Neutron Monitor on HALEAKALA</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/108</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/357</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Spectroheliograph</ResourceName>
+      <ReleaseDate>2007-04-06T00:00:00Z</ReleaseDate>
+      <Description>Spectroheliograph at Meudon</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Spectroheliograph at Meudon</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/23</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/358</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Radioheliograph</ResourceName>
+      <ReleaseDate>2007-04-06T00:00:00Z</ReleaseDate>
+      <Description>Radioheliograph at Nancay</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Radioheliograph at Nancay</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/21</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/359</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Coronagraph</ResourceName>
+      <ReleaseDate>2007-04-06T00:00:00Z</ReleaseDate>
+      <Description>Coronagraph at Pic du Midi</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Coronagraph at Pic du Midi</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/22</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/360</ResourceID>
+    <ResourceHeader>
+      <ResourceName>THEMIS at the TEIDE Observatory</ResourceName>
+      <ReleaseDate>2007-04-06T00:00:00Z</ReleaseDate>
+      <Description/>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>THEMIS at the TEIDE Observatory</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/141</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/361</ResourceID>
+    <ResourceHeader>
+      <ResourceName>XRS</ResourceName>
+      <ReleaseDate>2007-04-06T00:00:00Z</ReleaseDate>
+      <Description>X-Ray Sensor on GOES8</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>X-Ray Sensor on GOES8</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1994-022A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/362</ResourceID>
+    <ResourceHeader>
+      <ResourceName>XRS</ResourceName>
+      <ReleaseDate>2007-04-06T00:00:00Z</ReleaseDate>
+      <Description>X-Ray Sensor on GOES10</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>X-Ray Sensor on GOES10</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1997-019A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/363</ResourceID>
+    <ResourceHeader>
+      <ResourceName>XRS</ResourceName>
+      <ReleaseDate>2007-04-06T00:00:00Z</ReleaseDate>
+      <Description>X-Ray Sensor on GOES11</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>X-Ray Sensor on GOES11</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2000-022A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/364</ResourceID>
+    <ResourceHeader>
+      <ResourceName>XRS</ResourceName>
+      <ReleaseDate>2007-04-06T00:00:00Z</ReleaseDate>
+      <Description>X-Ray Sensor on GOES12</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>X-Ray Sensor on GOES12</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/2001-031A</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/365</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Magnetometer</ResourceName>
+      <ReleaseDate>2007-04-06T00:00:00Z</ReleaseDate>
+      <Description>Magnetometers on IRIDIUM 1-70 satellites</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Magnetometers on IRIDIUM 1-70 satellites</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/87</ObservatoryID>
+  </Instrument>
+  <Instrument>
+    <ResourceID>spase://vspo/instrument/366</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Vacuum Telescope</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>Vacuum Telescope on KP</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Vacuum Telescope on KP</InvestigationName>
+    <ObservatoryID>spase://vspo/observatory/3</ObservatoryID>
+  </Instrument>
+</Spase>
