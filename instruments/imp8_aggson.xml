@@ -8,7 +8,7 @@
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>The instrument was designed to measure ambient electric fields in the solar wind and the earth's magnetosheath up to 1 kHz in frequency. The sensor consisted of a pair of 70-m wire antennas (140 m, tip-to-tip), which were held rigid by centrifugal force due to satellite spin (about 24 rpm). The wires were insulated from the plasma, except for their short outer sections, to remove the active probe area from the spacecraft sheath. The antenna served as a double floating probe, and measurements were obtained every 1/4 spacecraft revolution (about 0.75 s). ULF and VLF measurements were obtained using seven 60% bandwidth filters with center frequencies logarithmically spaced from 1 Hz to 1 kHz. These frequency channels had an intrinsic sensitivity of 1.0E-5 V/m, and a peak range of 1.0E-2 V/m. However, the effective low-frequency filter threshold was determined by interference due to harmonics of the spacecraft spinning within an asymmetric sheath. The other major limitation was also due to sheath effect. Whenever the electron plasma density was less than about 10 particles/cc, the sheath overlapped the active antenna portions and precluded meaningful measurements of ambient conditions.</Description>
       <Contact>
-        <PersonID>spase://nssdc/person/2180</PersonID>
+        <PersonID>spase://swg/Person/Thomas.L.Aggson</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>

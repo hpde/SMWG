@@ -8,7 +8,7 @@
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>The Wide Band Spectrometer (WBS) consists of three subinstruments that together span the energy range from 2 keV to 100 MeV. They are (1) the soft X-ray spectrometer (SXS), a gas proportional counter filled with Xe and CO2 that covers the 2 to 30 keV band, (2) the hard X-ray spectrometer (HXS), a NaI scintillator that covers the energy range 20 - 600 keV, and (3) the gamma-ray spectrometer (GRS), a pair of identical BGO scintillators (Bi4 Ge3 O12), that cover the 0.2 - 100 MeV band. SXS has a FOV 10 deg square, has a sensitive area of approximately 12 cm**2, divides its energy range into 128 channels, and records 128-channel spectra every 2 s, 2-channel spectra every 0.25 s. The energy resolution at 5.9 keV is approximately 20% (FWHM). The HXS records pulse height data in 32 quadratically spaced channels over the 20 - 400 keV range every 1 s, and 2-channel pulse count data for the bands 20 - 50 keV and 50 - 600 keV every 0.125 s. The GRS has a resolution approximately twice that of the HXS, and records a 128-channel energy-loss spectrum, which is processed via spectral deconvolution to yield the incident gamma- ray spectrum. 128-channel spectra are recorded every 4 s. An assortment of other time resolutions apply for various energy channels. GRS also has detection sensitivity to solar flare neutrons.</Description>
       <Contact>
-        <PersonID>spase://nssdc/person/24302</PersonID>
+        <PersonID>spase://swg/Person/Jun.Nishimura</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>

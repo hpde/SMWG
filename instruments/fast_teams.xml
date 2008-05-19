@@ -9,11 +9,11 @@
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>The Time-of-flight Energy Angle Mass Spectrograph (TEAMS) instrument is a high sensitivity mass resolving spectrometer with an instantaneous 360*8 degrees field of view. It is designed to measure the full 3-dimensional distribution function of the major ion species (H+, He++, He+, O+, O2+ plus NO+). The sensor is very similar to the CODIF sensor for the CLUSTER mission and goes back to instruments flown on AMPTE/IRM (SULEICA, 3D-Plasma Instrument). TEAMS selects the incoming ions according to energy per charge (1.2 eV/e to 12 keV/e) by electrostatic deflection in a toroidal section analyzer with subsequent acceleration (up to 25 keV/e) and time-of-flight (TOF) analysis. For each individual ion the instruments measures the energy per charge (electrostatic analyzer) the mass per charge (TOF analyzer), the incidence azimuthal angle (given by spacecraft spin; 5.6 or 11.2 degree resolution), and the incidence polar angle (given by the sectoring in the TOF unit; 22.5 degree sectors). Depending on the measurement mode the full energy sweep is performed 32 or 64 times per spin period thus providing a 2-d cut through the distribution function in polar angle every 156 ms or 78 ms. One complete 3-d ion distribution function is obtained in half a spin period (2.5 s). The instrument's axis of symmetry is perpendicular to the spacecraft spin axis and the spacecraft surface. TEAMS operates in a number of different data acquisition modes. The Survey Distribution mode samples H+, O+, He+, and He++ with high angle (64) and energy (48) resolution. Time resolution can be as low as 80 ms (slow survey) and as high as 10 ms (fast survey). High Mass Distribution mode uses a high mass (64) resolution to identify minor species; angle (16) and energy (16) resolution is low in this mode; time resolution varies from 80 ms (slow) to 20 ms (fast). Burst mode provides data for the four major ion species with the highest time(0.08 ms), angle(16), and energy(48) resolution. Additional measurement modes are geared towards the Pole Channels, Monitor Rates, and PHA Events.</Description>
       <Contact>
-        <PersonID>spase://nssdc/person/377</PersonID>
+        <PersonID>spase://swg/Person/Charles.W.Carlson</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <Contact>
-        <PersonID>spase://nssdc/person/20232</PersonID>
+        <PersonID>spase://swg/Person/William.K.Peterson</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>

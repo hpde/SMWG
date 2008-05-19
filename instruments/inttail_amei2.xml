@@ -10,7 +10,7 @@
 The measurement cycle of the instrument is controlled by the "top of spin" signal and the 1/1024 part of spin period signals, produced by the BNS instrument. The 4pi solid angle is separated into three parts: a solar cone with angle 80 degrees; an antisolar cone with angle of 44 degrees; and a band (+25, -40 degrees) perpendicular to the spin axis. The deflection voltages necessary to measure 210 energy-angular steps and mass spectra are programmed in the microcomputer. Sets of 128, 64 or 32 energy-angular steps can be selected by ground commands. The measurement cycle consists of an angular scan in a given cone for one set of energies, and then the scans for the same sequence of energies are made for other angular ranges. In slow modes, measurements at each energy-angular step can be integrated over different ranges of azimuth angle, i.e. data obtained at each step for several measurement cycles are summed.
 AMEI-2 is a joint Bulgarian-Russian instrument, developed and manufactured by STILL-BAS, Sofia and IKI-RAN, Moscow. The instrument began operating August 17, 1995 after the BNS system was switched on in automatic mode. There are some quota problems due to failure in the flag circuit to SSNI information system. Though the instrument was designed for measurements in the tail, some events of ion beams in the magnetosheath have been observed.</Description>
       <Contact>
-        <PersonID>spase://nssdc/person/22622</PersonID>
+        <PersonID>spase://swg/Person/Rositza.T.Koleva</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>

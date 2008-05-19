@@ -11,11 +11,11 @@ The electric field along 3 axes is measured by detecting the potential differenc
 The DC electric field sensitivity is 0.25 to 5 mV/m, depending on gain and dipole length. The waveform measurement sensitivity ranges from 1 to 0.1 mV/m Hz^0.5 for 0.1 - 32 Hz signals. For the 10-1000 Hz channel, at 10 Hz with a gain of 1 it is 1 to 0.03 mV/m Hz^0.5. At 1000 Hz with gain 10, it is .1 to 3E-3 mV/m Hz^0.5. For the AC signals (10 Hz - 200 kHz) the sensitivity is 1E-8 V/m Hz^0.5 with high gain, and 20 dB less with low gain.
 The overall dynamical range for both DC electric field and waveform measurements is +635 to -640 mV/m. The AC dynamical range is 80 dB. Nominal accuracy for all measurements is 2 %.</Description>
       <Contact>
-        <PersonID>spase://nssdc/person/19667</PersonID>
+        <PersonID>spase://swg/Person/Ermanno.Amata</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <Contact>
-        <PersonID>spase://nssdc/person/41511</PersonID>
+        <PersonID>spase://swg/Person/Sergey.Savin</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
