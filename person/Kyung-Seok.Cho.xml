@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Person>
+    <ResourceID>spase://nssdc/person/Kyung-Seok.Cho</ResourceID>
+    <ReleaseDate>2008-05-19T19:58:37Z</ReleaseDate>
+    <PersonName>Kyung-Seok Cho</PersonName>
+    <Organization>Korea Astronomy and Space Science Institute</OrganizationName>
+    <Email>kscho@kao.re.kr</Email>
+  </Person>
+</Spase>
