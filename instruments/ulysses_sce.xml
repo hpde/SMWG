@@ -1,2 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>1.2.0</Version><Instrument><ResourceID>spase://nssdc/instrument/1990-090B-10</ResourceID><ResourceHeader><ResourceName>Coronal Sounding (radio science) (SCE)</ResourceName><AlternateName>SCE</AlternateName><ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate><Description>The objective of this radio science investigation is to determine the density, turbulence spectrum, and velocity of the coronal plasma in the acceleration regime of the solar wind. Dual-frequency ranging and Doppler data are recorded during phases of the ULYSSES superior conjunction using the spacecraft transmitters and the NASA DSN.</Description><Contact><PersonID>spase://swg/Person/Michael.K.Bird</PersonID><Role>PrincipalInvestigator</Role></Contact><InformationURL><Name>NSSDC's Master Catalog</Name><URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1990-090B&amp;ex=10</URL><Description>Information about the Coronal Sounding (radio science) (SCE) experiment on the Ulysses mission.</Description></InformationURL></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Coronal Sounding (radio science) (SCE) on Ulysses</InvestigationName><ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID></Instrument><Person><ResourceID>spase://nssdc/person/16409</ResourceID><ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate><PersonName>Dr. Michael K. Bird</PersonName><OrganizationName>Universitat Bonn</OrganizationName><Email>mbird@astro.uni-bonn.de</Email><PhoneNumber>+1-49-228-733-651</PhoneNumber></Person></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1990-090B-10</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Coronal Sounding (radio science) (SCE)</ResourceName>
+      <AlternateName>SCE</AlternateName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>The objective of this radio science investigation is to determine the density, turbulence spectrum, and velocity of the coronal plasma in the acceleration regime of the solar wind. Dual-frequency ranging and Doppler data are recorded during phases of the ULYSSES superior conjunction using the spacecraft transmitters and the NASA DSN.</Description>
+      <Contact>
+        <PersonID>spase://swg/Person/Michael.K.Bird</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1990-090B&amp;ex=10</URL>
+        <Description>Information about the Coronal Sounding (radio science) (SCE) experiment on the Ulysses mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Coronal Sounding (radio science) (SCE) on Ulysses</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID>
+  </Instrument>
+</Spase>

@@ -1,2 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>1.2.0</Version><Instrument><ResourceID>spase://nssdc/instrument/1990-090B-07</ResourceID><ResourceHeader><ResourceName>Cosmic Dust (GRU/DUST)</ResourceName><AlternateName>DUST</AlternateName><AlternateName>GRU</AlternateName><ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate><Description>The objectives of this investigation are to study particulate matter with masses between 5.E-19 and 5.E-10 g in the heliosphere; to determine its physical and dynamical properties as a function of ecliptic latitude and heliocentric distance; and to investigate its interaction with other interplanetary/interstellar phenomena such as solar radiation, solar wind, heliospheric magnetic field, and interstellar neutral gas. The instrument is a multicoincidence plasma impact detector which measures mass, speed, flight direction and electric charge of individual dust particles. The instrument has a mass of 3.75 kg and uses 2.0 W of power. The data rate in 8 bps.</Description><Contact><PersonID>spase://swg/Person/Eberhard.Grun</PersonID><Role>PrincipalInvestigator</Role></Contact><InformationURL><Name>NSSDC's Master Catalog</Name><URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1990-090B&amp;ex=7</URL><Description>Information about the Cosmic Dust (GRU/DUST) experiment on the Ulysses mission.</Description></InformationURL></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Cosmic Dust (GRU/DUST) on Ulysses</InvestigationName><ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID></Instrument><Person><ResourceID>spase://nssdc/person/7255</ResourceID><ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate><PersonName>Dr. Eberhard Grun</PersonName><OrganizationName>Max-Planck-Institut fur Kernphysik</OrganizationName><Email>eberhard.gruen@mpi-hd.mpg.de</Email><PhoneNumber>+1-49-6221-516478</PhoneNumber></Person></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1990-090B-07</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Cosmic Dust (GRU/DUST)</ResourceName>
+      <AlternateName>DUST</AlternateName>
+      <AlternateName>GRU</AlternateName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>The objectives of this investigation are to study particulate matter with masses between 5.E-19 and 5.E-10 g in the heliosphere; to determine its physical and dynamical properties as a function of ecliptic latitude and heliocentric distance; and to investigate its interaction with other interplanetary/interstellar phenomena such as solar radiation, solar wind, heliospheric magnetic field, and interstellar neutral gas. The instrument is a multicoincidence plasma impact detector which measures mass, speed, flight direction and electric charge of individual dust particles. The instrument has a mass of 3.75 kg and uses 2.0 W of power. The data rate in 8 bps.</Description>
+      <Contact>
+        <PersonID>spase://swg/Person/Eberhard.Grun</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1990-090B&amp;ex=7</URL>
+        <Description>Information about the Cosmic Dust (GRU/DUST) experiment on the Ulysses mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Cosmic Dust (GRU/DUST) on Ulysses</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID>
+  </Instrument>
+</Spase>

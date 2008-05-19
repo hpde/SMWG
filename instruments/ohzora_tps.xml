@@ -1,2 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>1.2.0</Version><Instrument><ResourceID>spase://nssdc/instrument/1984-015A-06</ResourceID><ResourceHeader><ResourceName>Topside Plasma Sounder</ResourceName><ReleaseDate>1995-07-26T00:00:00Z</ReleaseDate><Description>This experiment used a topside sounder with a receiver that could measure ionospheric electron density profiles, radio waves emanating from the planets and the higher harmonic emissions from terrestrial electric power lines.</Description><Contact><PersonID>spase://swg/Person/Hiroshi.Oya</PersonID><Role>PrincipalInvestigator</Role></Contact><InformationURL><Name>NSSDC's Master Catalog</Name><URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1984-015A&amp;ex=6</URL><Description>Information about the Topside Plasma Sounder experiment on the Ohzora mission.</Description></InformationURL></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Topside Plasma Sounder on Ohzora</InvestigationName><ObservatoryID>spase://nssdc/observatory/1984-015A</ObservatoryID></Instrument><Person><ResourceID>spase://nssdc/person/1918</ResourceID><ReleaseDate>2006-06-05T00:00:00Z</ReleaseDate><PersonName>Prof. Hiroshi Oya</PersonName><OrganizationName>Fukui University</OrganizationName><Email>oya@ccmail.kukui-ut.ac.jp</Email><PhoneNumber>+1-0</PhoneNumber></Person></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1984-015A-06</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Topside Plasma Sounder</ResourceName>
+      <ReleaseDate>1995-07-26T00:00:00Z</ReleaseDate>
+      <Description>This experiment used a topside sounder with a receiver that could measure ionospheric electron density profiles, radio waves emanating from the planets and the higher harmonic emissions from terrestrial electric power lines.</Description>
+      <Contact>
+        <PersonID>spase://swg/Person/Hiroshi.Oya</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1984-015A&amp;ex=6</URL>
+        <Description>Information about the Topside Plasma Sounder experiment on the Ohzora mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Topside Plasma Sounder on Ohzora</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1984-015A</ObservatoryID>
+  </Instrument>
+</Spase>

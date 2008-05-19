@@ -1,2 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>1.2.0</Version><Instrument><ResourceID>spase://nssdc/instrument/1995-065A-10</ResourceID><ResourceHeader><ResourceName>Global Oscillation at Low Frequencies (GOLF)</ResourceName><AlternateName>GOLF</AlternateName><ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate><Description>The Global Oscillation at Low Frequencies (GOLF) investigation will perform uninterrupted velocity oscillation and magnetic field measurements of the full solar disk, spatially unresolved, with extremely high sensitivity (&lt;1 mm/s and 1 milligauss). To determine the velocity, the Doppler effect is measured by the resonant scattering technique. A resonant cell filled with sodium vapor in a strong magnetic field enables, by the Zeeman effect, the selective absorption of light in the two wings of the solar D lines. A comparison of the intensity on both sides of the line leads to an extremely sensitive determination of the velocity. This information is from the paper ``SOHO - An Observatory to Study the Solar Interior and the Solar Atmosphere,'' by A. I. Poland and V. Domingo (in ``Observatories in Earth Orbit and Beyond,'' pp. 277-284, ed. by Y. Kondo, Kluwer Academic Publishers, Dordrecht, 1990).</Description><Contact><PersonID>spase://swg/Person/Alan-Henri.Gabriel</PersonID><Role>PrincipalInvestigator</Role></Contact><InformationURL><Name>NSSDC's Master Catalog</Name><URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1995-065A&amp;ex=10</URL><Description>Information about the Global Oscillation at Low Frequencies (GOLF) experiment on the SOHO mission.</Description></InformationURL></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Global Oscillation at Low Frequencies (GOLF) on SOHO</InvestigationName><ObservatoryID>spase://nssdc/observatory/1995-065A</ObservatoryID></Instrument><Person><ResourceID>spase://nssdc/person/12193</ResourceID><ReleaseDate>2003-11-04T00:00:00Z</ReleaseDate><PersonName>Dr. Alan-Henri Gabriel</PersonName><OrganizationName>Universite Paris Sud</OrganizationName><Email>gabriel@iaslab.ias.fr</Email><PhoneNumber>+1-33-1-69-858508</PhoneNumber></Person></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1995-065A-10</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Global Oscillation at Low Frequencies (GOLF)</ResourceName>
+      <AlternateName>GOLF</AlternateName>
+      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <Description>The Global Oscillation at Low Frequencies (GOLF) investigation will perform uninterrupted velocity oscillation and magnetic field measurements of the full solar disk, spatially unresolved, with extremely high sensitivity (&lt;1 mm/s and 1 milligauss). To determine the velocity, the Doppler effect is measured by the resonant scattering technique. A resonant cell filled with sodium vapor in a strong magnetic field enables, by the Zeeman effect, the selective absorption of light in the two wings of the solar D lines. A comparison of the intensity on both sides of the line leads to an extremely sensitive determination of the velocity. This information is from the paper ``SOHO - An Observatory to Study the Solar Interior and the Solar Atmosphere,'' by A. I. Poland and V. Domingo (in ``Observatories in Earth Orbit and Beyond,'' pp. 277-284, ed. by Y. Kondo, Kluwer Academic Publishers, Dordrecht, 1990).</Description>
+      <Contact>
+        <PersonID>spase://swg/Person/Alan-Henri.Gabriel</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1995-065A&amp;ex=10</URL>
+        <Description>Information about the Global Oscillation at Low Frequencies (GOLF) experiment on the SOHO mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Global Oscillation at Low Frequencies (GOLF) on SOHO</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1995-065A</ObservatoryID>
+  </Instrument>
+</Spase>

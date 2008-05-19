@@ -1,2 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>1.2.0</Version><Instrument><ResourceID>spase://nssdc/instrument/1995-039F-07</ResourceID><ResourceHeader><ResourceName>Soft Solar X-ray Photometer RF</ResourceName><ReleaseDate>1997-10-20T00:00:00Z</ReleaseDate><Description>The X-ray photometer RF is designed to measure the solar X-ray radiation in the soft spectral range. In addition to continuous monitoring of the solar radiation in the X-ray range, the instrument can be used as an indicator for automatic switching-on of the scientific instrumentation for registering the processes of the active solar events, assuming a change in the solar X-ray radiation as a precursor of these phenomena. The photometer is oriented along the -Z-axis of the subsatellite, i.e. toward the Sun. The photometer consists of two units: the detector unit and electronics unit. The photometer is the scintillating detector with an aluminium foil in front of it to prevent penetration of soft particles and X-rays. The output signal is passed to the two-channel amplitude analyzer where it is selected in two ranges: 10-15 keV and 15-60 keV. The impulses from the channels with a fixed amplitude are transferred to the electronics unit where they are accumulated during 0.8 s (time of one exposure step). The maximum capacity of the detector is 183441 impulses/0.8 second, so for higher flux intensity (which is hardly probable) the detector data are not valid.</Description><Contact><PersonID>spase://swg/Person/Frantisek.Farnik</PersonID><Role>PrincipalInvestigator</Role></Contact><InformationURL><Name>NSSDC's Master Catalog</Name><URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1995-039F&amp;ex=7</URL><Description>Information about the Soft Solar X-ray Photometer RF experiment on the Interball S2-X mission.</Description></InformationURL></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Soft Solar X-ray Photometer RF on Interball S2-X</InvestigationName><ObservatoryID>spase://nssdc/observatory/1995-039F</ObservatoryID></Instrument><Person><ResourceID>spase://nssdc/person/32530</ResourceID><ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate><PersonName>Dr. Frantisek Farnik</PersonName><OrganizationName>Czech Academy of Sciences</OrganizationName><Email>ffarnik@asu.cas.cz</Email><PhoneNumber>+1-420-32-3620-329</PhoneNumber></Person></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1995-039F-07</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Soft Solar X-ray Photometer RF</ResourceName>
+      <ReleaseDate>1997-10-20T00:00:00Z</ReleaseDate>
+      <Description>The X-ray photometer RF is designed to measure the solar X-ray radiation in the soft spectral range. In addition to continuous monitoring of the solar radiation in the X-ray range, the instrument can be used as an indicator for automatic switching-on of the scientific instrumentation for registering the processes of the active solar events, assuming a change in the solar X-ray radiation as a precursor of these phenomena. The photometer is oriented along the -Z-axis of the subsatellite, i.e. toward the Sun. The photometer consists of two units: the detector unit and electronics unit. The photometer is the scintillating detector with an aluminium foil in front of it to prevent penetration of soft particles and X-rays. The output signal is passed to the two-channel amplitude analyzer where it is selected in two ranges: 10-15 keV and 15-60 keV. The impulses from the channels with a fixed amplitude are transferred to the electronics unit where they are accumulated during 0.8 s (time of one exposure step). The maximum capacity of the detector is 183441 impulses/0.8 second, so for higher flux intensity (which is hardly probable) the detector data are not valid.</Description>
+      <Contact>
+        <PersonID>spase://swg/Person/Frantisek.Farnik</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1995-039F&amp;ex=7</URL>
+        <Description>Information about the Soft Solar X-ray Photometer RF experiment on the Interball S2-X mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Soft Solar X-ray Photometer RF on Interball S2-X</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1995-039F</ObservatoryID>
+  </Instrument>
+</Spase>

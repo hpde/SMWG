@@ -1,2 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"><Version>1.2.0</Version><Instrument><ResourceID>spase://nssdc/instrument/1984-015A-05</ResourceID><ResourceHeader><ResourceName>Solar Image-Radiometer</ResourceName><ReleaseDate>1995-07-26T00:00:00Z</ReleaseDate><Description>This investigation used a solar image radiometer in several visible and near-infrared bands to measure the limb absorption of the solar spectrum to obtain vertical profiles of stratospheric aerosols and ozone.</Description><Contact><PersonID>spase://swg/Person/Masumi.Takagi</PersonID><Role>PrincipalInvestigator</Role></Contact><InformationURL><Name>NSSDC's Master Catalog</Name><URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1984-015A&amp;ex=5</URL><Description>Information about the Solar Image-Radiometer experiment on the Ohzora mission.</Description></InformationURL></ResourceHeader><InstrumentType>UNKNOWN</InstrumentType><InvestigationName>Solar Image-Radiometer on Ohzora</InvestigationName><ObservatoryID>spase://nssdc/observatory/1984-015A</ObservatoryID></Instrument><Person><ResourceID>spase://nssdc/person/15358</ResourceID><ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate><PersonName>Prof. Masumi Takagi</PersonName><OrganizationName>Nagoya University</OrganizationName><PhoneNumber>+1-81 5338 6 3154</PhoneNumber></Person></Spase>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://nssdc/instrument/1984-015A-05</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Solar Image-Radiometer</ResourceName>
+      <ReleaseDate>1995-07-26T00:00:00Z</ReleaseDate>
+      <Description>This investigation used a solar image radiometer in several visible and near-infrared bands to measure the limb absorption of the solar spectrum to obtain vertical profiles of stratospheric aerosols and ozone.</Description>
+      <Contact>
+        <PersonID>spase://swg/Person/Masumi.Takagi</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1984-015A&amp;ex=5</URL>
+        <Description>Information about the Solar Image-Radiometer experiment on the Ohzora mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>UNKNOWN</InstrumentType>
+    <InvestigationName>Solar Image-Radiometer on Ohzora</InvestigationName>
+    <ObservatoryID>spase://nssdc/observatory/1984-015A</ObservatoryID>
+  </Instrument>
+</Spase>
