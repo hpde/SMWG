@@ -8,7 +8,7 @@
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>The spinning twin-fluxgate magnetometer, located at a few meters away from the spacecraft was designed to provide the orthogonal components of the magnetic field: Hp was parallel to the spin axis that was held nearly in the direction of Earth's axis, He was directed toward Earth center, and Hn pointed eastward. The magnetometer had a range of +/- 400 nT (without saturation) and a resolution of 0.1 nT over a range of +/- 50 nT. The sensitivity of the magnetometer was about 0.2 nT. The instrument and its electronics were carried on board GOES-4,-5,-6,and -7, without significant changes. Since 9 September, 91, only the Hp component is available, since the Earth-limb locator data that are necessary to obtain the transverse components have remained uncertain.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/</PersonID>
+	<PersonID>spase://swg/Person/NOAA.National.Environmental.Satellite</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
