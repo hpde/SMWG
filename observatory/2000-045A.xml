@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://nssdc/observatory/2000-045A</ResourceID>
+    <ResourceID>spase://swg/observatory/2000-045A</ResourceID>
     <ResourceHeader>
       <ResourceName>Cluster 2/FM5 (Rumba)</ResourceName>
       <AlternateName>FM5</AlternateName>

@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/2000-017A-04</ResourceID>
+    <ResourceID>spase://swg/instrument/2000-017A-04</ResourceID>
     <ResourceHeader>
       <ResourceName>High-Energy Neutral Atom Imager (HENA)</ResourceName>
       <AlternateName>HENA</AlternateName>
@@ -25,6 +25,6 @@ The energy of the incident ENAs is measured with the SSD. When an ENA strikes th
     </ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>High-Energy Neutral Atom Imager (HENA) on IMAGE</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2000-017A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2000-017A</ObservatoryID>
   </Instrument>
 </Spase>

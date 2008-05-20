@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/2001-034A-01</ResourceID>
+    <ResourceID>spase://swg/instrument/2001-034A-01</ResourceID>
     <ResourceHeader>
       <ResourceName>Genesis Plasma Spectrometers</ResourceName>
       <AlternateName>Genesis Ion Monitor (GIM)</AlternateName>
@@ -29,6 +29,6 @@ Both the GEM and GIM were in continuous operation since shortly after launch in 
     </ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Genesis Plasma Spectrometers on Genesis</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2001-034A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2001-034A</ObservatoryID>
   </Instrument>
 </Spase>

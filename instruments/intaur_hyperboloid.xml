@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1996-050C-10</ResourceID>
+    <ResourceID>spase://swg/instrument/1996-050C-10</ResourceID>
     <ResourceHeader>
       <ResourceName>Ion Mass Analyzer (HYPERBOLOID)</ResourceName>
       <ReleaseDate>2006-03-21T00:00:00Z</ReleaseDate>
@@ -24,6 +24,6 @@ The temporal resolution of the instrument for a complete angular and energy scan
     </ResourceHeader>
     <InstrumentType>MassSpectrometer</InstrumentType>
     <InvestigationName>Ion Mass Analyzer (HYPERBOLOID) on Interball Auroral Probe</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1996-050C</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1996-050C</ObservatoryID>
   </Instrument>
 </Spase>

@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1996-050C-04</ResourceID>
+    <ResourceID>spase://swg/instrument/1996-050C-04</ResourceID>
     <ResourceHeader>
       <ResourceName>Ion Composition and Energy (PROMICS-3)</ResourceName>
       <ReleaseDate>2006-03-21T00:00:00Z</ReleaseDate>
@@ -22,6 +22,6 @@ The PROMICS-3 instrument was developed in cooperation between the Swedish Instit
     </ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Ion Composition and Energy (PROMICS-3) on Interball Auroral Probe</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1996-050C</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1996-050C</ObservatoryID>
   </Instrument>
 </Spase>

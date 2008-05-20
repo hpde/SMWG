@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/2003-004A-01</ResourceID>
+    <ResourceID>spase://swg/instrument/2003-004A-01</ResourceID>
     <ResourceHeader>
       <ResourceName>Total Irradiation Monitor (TIM)</ResourceName>
       <AlternateName>TIM</AlternateName>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>TIM (Total Irradiation Monitor) on SORCE</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2003-004A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2003-004A</ObservatoryID>
   </Instrument>
 </Spase>

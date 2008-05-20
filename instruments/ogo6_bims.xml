@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1969-051A-05</ResourceID>
+    <ResourceID>spase://swg/instrument/1969-051A-05</ResourceID>
     <ResourceHeader>
       <ResourceName>Ion Mass Spectrometer</ResourceName>
       <ReleaseDate>1998-05-06T00:00:00Z</ReleaseDate>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>MassSpectrometer</InstrumentType>
     <InvestigationName>Ion Mass Spectrometer on OGO 6</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1969-051A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1969-051A</ObservatoryID>
   </Instrument>
 </Spase>

@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1995-039A-03</ResourceID>
+    <ResourceID>spase://swg/instrument/1995-039A-03</ResourceID>
     <ResourceHeader>
       <ResourceName>Omnidirectional Plasma Sensor Faraday Cups (VDP)</ResourceName>
       <ReleaseDate>2006-04-06T00:00:00Z</ReleaseDate>
@@ -22,6 +22,6 @@ The VDP instrument began operating August 14, 1995. Faraday cups #4 and #6 have 
     </ResourceHeader>
     <InstrumentType>FaradayCup</InstrumentType>
     <InvestigationName>Omnidirectional Plasma Sensor Faraday Cups (VDP) on Interball Tail Probe</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1995-039A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1995-039A</ObservatoryID>
   </Instrument>
 </Spase>

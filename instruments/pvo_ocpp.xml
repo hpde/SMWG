@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1978-051A-06</ResourceID>
+    <ResourceID>spase://swg/instrument/1978-051A-06</ResourceID>
     <ResourceHeader>
       <ResourceName>Cloud Photopolarimeter (OCPP)</ResourceName>
       <AlternateName>OCPP</AlternateName>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Cloud Photopolarimeter (OCPP) on Pioneer Venus Orbiter</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1978-051A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1978-051A</ObservatoryID>
   </Instrument>
 </Spase>

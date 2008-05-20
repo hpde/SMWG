@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1995-039F-01</ResourceID>
+    <ResourceID>spase://swg/instrument/1995-039F-01</ResourceID>
     <ResourceHeader>
       <ResourceName>Wave Complex, Electric and Magnetic Fields, (KEM-3)</ResourceName>
       <ReleaseDate>1997-10-20T00:00:00Z</ReleaseDate>
@@ -20,6 +20,6 @@ The frequency range and sensitivity for the various components are as follows. F
     </ResourceHeader>
     <InstrumentType>Antenna</InstrumentType>
     <InvestigationName>Wave Complex, Electric and Magnetic Fields, (KEM-3) on Interball S2-X</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1995-039F</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1995-039F</ObservatoryID>
   </Instrument>
 </Spase>

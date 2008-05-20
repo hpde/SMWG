@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/2000-045A-07</ResourceID>
+    <ResourceID>spase://swg/instrument/2000-045A-07</ResourceID>
     <ResourceHeader>
       <ResourceName>Digital Wave Processor (DWP)</ResourceName>
       <AlternateName>DWP</AlternateName>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Digital Wave Processor (DWP) on Cluster 2/FM5 (Rumba)</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2000-045A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2000-045A</ObservatoryID>
   </Instrument>
 </Spase>

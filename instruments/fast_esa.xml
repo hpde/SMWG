@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1996-049A-01</ResourceID>
+    <ResourceID>spase://swg/instrument/1996-049A-01</ResourceID>
     <ResourceHeader>
       <ResourceName>Electro-Static Analyzers (ESA)</ResourceName>
       <AlternateName>ESA</AlternateName>
@@ -21,6 +21,6 @@ The EESA and IESA step through their energy range, collecting 24, 48, or 96 ener
     </ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Electro-Static Analyzers (ESA) on FAST</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1996-049A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1996-049A</ObservatoryID>
   </Instrument>
 </Spase>

@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1973-019A-05</ResourceID>
+    <ResourceID>spase://swg/instrument/1973-019A-05</ResourceID>
     <ResourceHeader>
       <ResourceName>Jovian Trapped Radiation</ResourceName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Jovian Trapped Radiation on Pioneer 11</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1973-019A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1973-019A</ObservatoryID>
   </Instrument>
 </Spase>

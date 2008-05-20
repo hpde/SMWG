@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1997-045A-06</ResourceID>
+    <ResourceID>spase://swg/instrument/1997-045A-06</ResourceID>
     <ResourceHeader>
       <ResourceName>Cosmic Ray Isotope Spectrometer (CRIS)</ResourceName>
       <AlternateName>CRIS</AlternateName>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Cosmic Ray Isotope Spectrometer (CRIS) on ACE</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1997-045A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1997-045A</ObservatoryID>
   </Instrument>
 </Spase>

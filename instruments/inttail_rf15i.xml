@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1995-039A-11</ResourceID>
+    <ResourceID>spase://swg/instrument/1995-039A-11</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar X-ray Bursts (RF-15I)</ResourceName>
       <ReleaseDate>2006-03-23T00:00:00Z</ReleaseDate>
@@ -24,6 +24,6 @@ The web pages at http://www.cbk.pan.wroc.pl/RF15-I_www/default.htm provide more 
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Solar X-ray Bursts (RF-15I) on Interball Tail Probe</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1995-039A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1995-039A</ObservatoryID>
   </Instrument>
 </Spase>

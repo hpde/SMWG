@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1990-090B-08</ResourceID>
+    <ResourceID>spase://swg/instrument/1990-090B-08</ResourceID>
     <ResourceHeader>
       <ResourceName>Magnetic Field (HED/VHM/FGM)</ResourceName>
       <AlternateName>FGM</AlternateName>
@@ -22,6 +22,6 @@
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Magnetic Field (HED/VHM/FGM) on Ulysses</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1990-090B</ObservatoryID>
   </Instrument>
 </Spase>

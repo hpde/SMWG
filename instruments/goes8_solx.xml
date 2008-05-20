@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1994-022A-03</ResourceID>
+    <ResourceID>spase://swg/instrument/1994-022A-03</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar X-ray Monitor</ResourceName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Solar X-ray Monitor on GOES  8</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1994-022A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1994-022A</ObservatoryID>
   </Instrument>
 </Spase>

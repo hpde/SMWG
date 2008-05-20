@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1973-101A-14</ResourceID>
+    <ResourceID>spase://swg/instrument/1973-101A-14</ResourceID>
     <ResourceHeader>
       <ResourceName>Visible Airglow Photometer (VAE)</ResourceName>
       <AlternateName>VAE</AlternateName>
@@ -21,6 +21,6 @@ http://www.sprl.umich.edu/VAE.</Description>
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Visible Airglow Photometer (VAE) on AE-C</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1973-101A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1973-101A</ObservatoryID>
   </Instrument>
 </Spase>

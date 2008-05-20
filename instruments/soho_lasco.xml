@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1995-065A-05</ResourceID>
+    <ResourceID>spase://swg/instrument/1995-065A-05</ResourceID>
     <ResourceHeader>
       <ResourceName>Large Angle Spectroscopic Coronagraph (LASCO)</ResourceName>
       <AlternateName>LASCO</AlternateName>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Large Angle Spectroscopic Coronagraph (LASCO) on SOHO</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1995-065A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1995-065A</ObservatoryID>
   </Instrument>
 </Spase>

@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/2000-045A-09</ResourceID>
+    <ResourceID>spase://swg/instrument/2000-045A-09</ResourceID>
     <ResourceHeader>
       <ResourceName>Spatio-Temporal Analysis of Magnetic Field Fluctuations (STAFF)</ResourceName>
       <AlternateName>STAFF</AlternateName>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Spatio-Temporal Analysis of Magnetic Field Fluctuations (STAFF) on Cluster 2/FM5 (Rumba)</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2000-045A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2000-045A</ObservatoryID>
   </Instrument>
 </Spase>

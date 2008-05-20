@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1995-039F-09</ResourceID>
+    <ResourceID>spase://swg/instrument/1995-039F-09</ResourceID>
     <ResourceHeader>
       <ResourceName>Two-component Current Langmuir Slit Probe, LSP</ResourceName>
       <ReleaseDate>1998-03-26T00:00:00Z</ReleaseDate>
@@ -20,6 +20,6 @@ The noise threshold normalized to the input is 10^-13 A/cm^2. The dynamical rang
     </ResourceHeader>
     <InstrumentType>LangmuirProbe</InstrumentType>
     <InvestigationName>Two-component Current Langmuir Slit Probe, LSP on Interball S2-X</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1995-039F</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1995-039F</ObservatoryID>
   </Instrument>
 </Spase>

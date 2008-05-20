@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1996-050C-06</ResourceID>
+    <ResourceID>spase://swg/instrument/1996-050C-06</ResourceID>
     <ResourceHeader>
       <ResourceName>DC Electric Field Intensity and ULF Waves (IESP-2)</ResourceName>
       <ReleaseDate>2006-04-27T00:00:00Z</ReleaseDate>
@@ -20,6 +20,6 @@ This information was taken from the paper by Perraut et al., Ann. Geophysicae 16
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>DC Electric Field Intensity and ULF Waves (IESP-2) on Interball Auroral Probe</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1996-050C</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1996-050C</ObservatoryID>
   </Instrument>
 </Spase>

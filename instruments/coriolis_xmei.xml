@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/2003-001A-02</ResourceID>
+    <ResourceID>spase://swg/instrument/2003-001A-02</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar Mass Ejection Imager (SMEI)</ResourceName>
       <AlternateName>SMEI</AlternateName>
@@ -23,6 +23,6 @@ http://www.sr.bham.ac.uk/instrument/smei.html</Description>
     </ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>SMEI (Solar Mass Ejection Imager) on Coriolis</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2003-001A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2003-001A</ObservatoryID>
   </Instrument>
 </Spase>

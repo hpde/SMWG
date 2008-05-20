@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/2003-061A-08</ResourceID>
+    <ResourceID>spase://swg/instrument/2003-061A-08</ResourceID>
     <ResourceHeader>
       <ResourceName>HID (Heavy Ion Detector)</ResourceName>
       <ReleaseDate>2004-01-06T00:00:00Z</ReleaseDate>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>HID (Heavy Ion Detector) on Double Star 1</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2003-061A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2003-061A</ObservatoryID>
   </Instrument>
 </Spase>

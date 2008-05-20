@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1978-051A-07</ResourceID>
+    <ResourceID>spase://swg/instrument/1978-051A-07</ResourceID>
     <ResourceHeader>
       <ResourceName>Retarding Potential Analyzer (ORPA)</ResourceName>
       <AlternateName>ORPA</AlternateName>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>LangmuirProbe</InstrumentType>
     <InvestigationName>Retarding Potential Analyzer (ORPA) on Pioneer Venus Orbiter</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1978-051A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1978-051A</ObservatoryID>
   </Instrument>
 </Spase>

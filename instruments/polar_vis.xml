@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1996-013A-12</ResourceID>
+    <ResourceID>spase://swg/instrument/1996-013A-12</ResourceID>
     <ResourceHeader>
       <ResourceName>Visible Imaging System (VIS)</ResourceName>
       <AlternateName>VIS</AlternateName>
@@ -22,6 +22,6 @@ The Polar spacecraft, part of the Global Geospace Science (GGS) program, is an e
     </ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>Visible Imaging System (VIS) on Polar</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1996-013A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1996-013A</ObservatoryID>
   </Instrument>
 </Spase>

@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1995-039A-16</ResourceID>
+    <ResourceID>spase://swg/instrument/1995-039A-16</ResourceID>
     <ResourceHeader>
       <ResourceName>Adaptive Processing of Wave Information (PRAM)</ResourceName>
       <ReleaseDate>2006-03-21T00:00:00Z</ReleaseDate>
@@ -20,6 +20,6 @@ Fields and waves are measured on the Tail Probe by the ASPI consortium of experi
     </ResourceHeader>
     <InstrumentType>WaveformReceiver</InstrumentType>
     <InvestigationName>Adaptive Processing of Wave Information (PRAM) on Interball Tail Probe</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1995-039A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1995-039A</ObservatoryID>
   </Instrument>
 </Spase>

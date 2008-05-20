@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1981-094A-01</ResourceID>
+    <ResourceID>spase://swg/instrument/1981-094A-01</ResourceID>
     <ResourceHeader>
       <ResourceName>Kukushka Soft Particle Spectrometer</ResourceName>
       <AlternateName>RIEP-2802</AlternateName>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Kukushka Soft Particle Spectrometer on Aureol 3</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1981-094A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1981-094A</ObservatoryID>
   </Instrument>
 </Spase>

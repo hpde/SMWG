@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1995-039F-07</ResourceID>
+    <ResourceID>spase://swg/instrument/1995-039F-07</ResourceID>
     <ResourceHeader>
       <ResourceName>Soft Solar X-ray Photometer RF</ResourceName>
       <ReleaseDate>1997-10-20T00:00:00Z</ReleaseDate>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Soft Solar X-ray Photometer RF on Interball S2-X</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1995-039F</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1995-039F</ObservatoryID>
   </Instrument>
 </Spase>

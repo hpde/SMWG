@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/2006-047A-01</ResourceID>
+    <ResourceID>spase://swg/instrument/2006-047A-01</ResourceID>
     <ResourceHeader>
       <ResourceName>Stereo-A Sun Earth Connection Coronal and Heliospheric Investigation (SECCHI)</ResourceName>
       <AlternateName>SECCHI</AlternateName>
@@ -24,6 +24,6 @@ http://projects.nrl.navy.mil/secchi/index.html</Description>
     </ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>Stereo-A Sun Earth Connection Coronal and Heliospheric Investigation (SECCHI) on STEREO A</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2006-047A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2006-047A</ObservatoryID>
   </Instrument>
 </Spase>

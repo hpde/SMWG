@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1996-013A-08</ResourceID>
+    <ResourceID>spase://swg/instrument/1996-013A-08</ResourceID>
     <ResourceHeader>
       <ResourceName>Magnetic Fields Experiment (MFE)</ResourceName>
       <AlternateName>MFE</AlternateName>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Magnetic Fields Experiment (MFE) on Polar</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1996-013A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1996-013A</ObservatoryID>
   </Instrument>
 </Spase>

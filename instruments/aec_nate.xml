@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1973-101A-09</ResourceID>
+    <ResourceID>spase://swg/instrument/1973-101A-09</ResourceID>
     <ResourceHeader>
       <ResourceName>Neutral Atmosphere Temperature (NATE)</ResourceName>
       <AlternateName>NATE</AlternateName>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Neutral Atmosphere Temperature (NATE) on AE-C</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1973-101A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1973-101A</ObservatoryID>
   </Instrument>
 </Spase>

@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1992-038A-01</ResourceID>
+    <ResourceID>spase://swg/instrument/1992-038A-01</ResourceID>
     <ResourceHeader>
       <ResourceName>Low-Energy Ion Composition Analyzer (LICA)</ResourceName>
       <AlternateName>LICA</AlternateName>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Low-Energy Ion Composition Analyzer (LICA) on SAMPEX</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1992-038A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1992-038A</ObservatoryID>
   </Instrument>
 </Spase>

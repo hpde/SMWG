@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1965-098A-05</ResourceID>
+    <ResourceID>spase://swg/instrument/1965-098A-05</ResourceID>
     <ResourceHeader>
       <ResourceName>Cylindrical Electrostatic Probes</ResourceName>
       <ReleaseDate>1995-08-09T00:00:00Z</ReleaseDate>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>LangmuirProbe</InstrumentType>
     <InvestigationName>Cylindrical Electrostatic Probes on Alouette 2</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1965-098A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1965-098A</ObservatoryID>
   </Instrument>
 </Spase>

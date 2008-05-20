@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1990-090B-07</ResourceID>
+    <ResourceID>spase://swg/instrument/1990-090B-07</ResourceID>
     <ResourceHeader>
       <ResourceName>Cosmic Dust (GRU/DUST)</ResourceName>
       <AlternateName>DUST</AlternateName>
@@ -21,6 +21,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Cosmic Dust (GRU/DUST) on Ulysses</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1990-090B</ObservatoryID>
   </Instrument>
 </Spase>

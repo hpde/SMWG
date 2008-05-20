@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1996-050C-12</ResourceID>
+    <ResourceID>spase://swg/instrument/1996-050C-12</ResourceID>
     <ResourceHeader>
       <ResourceName>Thermal Ion Trap (ALPHA-3)</ResourceName>
       <ReleaseDate>2006-04-03T00:00:00Z</ReleaseDate>
@@ -20,6 +20,6 @@ For more details, see the article by V. V. Bezrukikh and K. I. Gringauz at pp. 2
     </ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Thermal Ion Trap (ALPHA-3) on Interball Auroral Probe</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1996-050C</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1996-050C</ObservatoryID>
   </Instrument>
 </Spase>

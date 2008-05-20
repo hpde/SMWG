@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1981-059A-04</ResourceID>
+    <ResourceID>spase://swg/instrument/1981-059A-04</ResourceID>
     <ResourceHeader>
       <ResourceName>Space Environment Monitor (SEM)</ResourceName>
       <AlternateName>SEM</AlternateName>
@@ -28,6 +28,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Space Environment Monitor (SEM) on NOAA  7</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1981-059A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1981-059A</ObservatoryID>
   </Instrument>
 </Spase>

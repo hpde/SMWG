@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1995-065A-10</ResourceID>
+    <ResourceID>spase://swg/instrument/1995-065A-10</ResourceID>
     <ResourceHeader>
       <ResourceName>Global Oscillation at Low Frequencies (GOLF)</ResourceName>
       <AlternateName>GOLF</AlternateName>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Global Oscillation at Low Frequencies (GOLF) on SOHO</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1995-065A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1995-065A</ObservatoryID>
   </Instrument>
 </Spase>

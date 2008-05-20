@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1995-065A-11</ResourceID>
+    <ResourceID>spase://swg/instrument/1995-065A-11</ResourceID>
     <ResourceHeader>
       <ResourceName>The Variability of Solar Irradiance and Gravity Oscillations (VIRGO)</ResourceName>
       <AlternateName>VIRGO</AlternateName>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>The Variability of Solar Irradiance and Gravity Oscillations (VIRGO) on SOHO</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1995-065A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1995-065A</ObservatoryID>
   </Instrument>
 </Spase>

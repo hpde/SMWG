@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1995-025A-03</ResourceID>
+    <ResourceID>spase://swg/instrument/1995-025A-03</ResourceID>
     <ResourceHeader>
       <ResourceName>Space Environment Monitor</ResourceName>
       <ReleaseDate>1999-11-22T00:00:00Z</ReleaseDate>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Space Environment Monitor on GOES  9</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1995-025A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1995-025A</ObservatoryID>
   </Instrument>
 </Spase>

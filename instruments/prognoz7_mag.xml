@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1978-101A-04</ResourceID>
+    <ResourceID>spase://swg/instrument/1978-101A-04</ResourceID>
     <ResourceHeader>
       <ResourceName>Three-Axis Fluxgate Magnetometers</ResourceName>
       <ReleaseDate>1998-05-06T00:00:00Z</ReleaseDate>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Three-Axis Fluxgate Magnetometers on Prognoz  7</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1978-101A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1978-101A</ObservatoryID>
   </Instrument>
 </Spase>

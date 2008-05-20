@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1981-070B-06</ResourceID>
+    <ResourceID>spase://swg/instrument/1981-070B-06</ResourceID>
     <ResourceHeader>
       <ResourceName>Ion Drift Meter (IDM)</ResourceName>
       <AlternateName>IDM</AlternateName>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Ion Drift Meter (IDM) on Dynamics Explorer 2</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1981-070B</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1981-070B</ObservatoryID>
   </Instrument>
 </Spase>

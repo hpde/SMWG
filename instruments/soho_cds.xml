@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1995-065A-02</ResourceID>
+    <ResourceID>spase://swg/instrument/1995-065A-02</ResourceID>
     <ResourceHeader>
       <ResourceName>Coronal Diagnostic Spectrometer (CDS)</ResourceName>
       <AlternateName>CDS</AlternateName>
@@ -23,6 +23,6 @@ This information is from the paper "The Coronal Diagnostic Spectrometer for the 
     </ResourceHeader>
     <InstrumentType>Spectrometer</InstrumentType>
     <InvestigationName>Coronal Diagnostic Spectrometer (CDS) on SOHO</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1995-065A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1995-065A</ObservatoryID>
   </Instrument>
 </Spase>

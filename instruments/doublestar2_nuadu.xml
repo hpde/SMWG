@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/2004-029A-01</ResourceID>
+    <ResourceID>spase://swg/instrument/2004-029A-01</ResourceID>
     <ResourceHeader>
       <ResourceName>Neutral Atom Detection Unit (NUADU)</ResourceName>
       <AlternateName>NUADU</AlternateName>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Neutral Atom Detection Unit (NUADU) on Double Star 2</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2004-029A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2004-029A</ObservatoryID>
   </Instrument>
 </Spase>

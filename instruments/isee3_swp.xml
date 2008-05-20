@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1978-079A-01</ResourceID>
+    <ResourceID>spase://swg/instrument/1978-079A-01</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar wind plasma, 2-D &amp; 3-D distr. fns. p: 150eV - 7keV; e: 10eV-1keV</ResourceName>
       <ReleaseDate>2007-02-02T00:00:00Z</ReleaseDate>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Solar wind plasma, 2-D &amp; 3-D distr. fns. p: 150eV - 7keV; e: 10eV-1keV on ISEE 3</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1978-079A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1978-079A</ObservatoryID>
   </Instrument>
 </Spase>

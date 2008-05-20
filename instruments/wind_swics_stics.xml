@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1994-071A-08</ResourceID>
+    <ResourceID>spase://swg/instrument/1994-071A-08</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar Wind and Suprathermal Ion Composition Studies (SWICS/STICS)</ResourceName>
       <ReleaseDate>2002-01-09T00:00:00Z</ReleaseDate>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Solar Wind and Suprathermal Ion Composition Studies (SWICS/STICS) on Wind</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1994-071A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1994-071A</ObservatoryID>
   </Instrument>
 </Spase>

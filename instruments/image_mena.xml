@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/2000-017A-03</ResourceID>
+    <ResourceID>spase://swg/instrument/2000-017A-03</ResourceID>
     <ResourceHeader>
       <ResourceName>Medium-Energy Neutral Atom Imager (MENA)</ResourceName>
       <AlternateName>MENA</AlternateName>
@@ -23,6 +23,6 @@ The MENA DPU consists of a single 16-bit Harris RTX2010 microcontroller operatin
     </ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>Medium-Energy Neutral Atom Imager (MENA) on IMAGE</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2000-017A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2000-017A</ObservatoryID>
   </Instrument>
 </Spase>

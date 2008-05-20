@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1995-039A-01</ResourceID>
+    <ResourceID>spase://swg/instrument/1995-039A-01</ResourceID>
     <ResourceHeader>
       <ResourceName>3D Ion Distribution (SKA-1) (EU-1)</ResourceName>
       <ReleaseDate>2006-04-03T00:00:00Z</ReleaseDate>
@@ -22,6 +22,6 @@ The instrument is described in detail in the paper by Vaisberg et al. in Ann. Ge
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>3D Ion Distribution (SKA-1) (EU-1) on Interball Tail Probe</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1995-039A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1995-039A</ObservatoryID>
   </Instrument>
 </Spase>

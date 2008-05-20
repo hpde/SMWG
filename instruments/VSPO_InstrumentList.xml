@@ -14,7 +14,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>MIMS Magnetic Ion Mass Spactrometer on AE-E</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1975-107A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1975-107A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/44</ResourceID>
@@ -29,7 +29,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>BUV Backscatter Ultraviolet on AE-E</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1975-107A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1975-107A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/48</ResourceID>
@@ -59,7 +59,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>AUX on CLUSTER1</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2000-045A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2000-045A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/56</ResourceID>
@@ -74,7 +74,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>PGP on CLUSTER1</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2000-045A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2000-045A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/61</ResourceID>
@@ -194,7 +194,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>ACF on FAST</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1996-049A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1996-049A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/80</ResourceID>
@@ -209,7 +209,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>DCF on FAST</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1996-049A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1996-049A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/81</ResourceID>
@@ -224,7 +224,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>EES on FAST</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1996-049A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1996-049A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/82</ResourceID>
@@ -239,7 +239,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>IES on FAST</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1996-049A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1996-049A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/83</ResourceID>
@@ -254,7 +254,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>TMS on FAST</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1996-049A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1996-049A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/85</ResourceID>
@@ -269,7 +269,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>GIM on GENESIS</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2001-034A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2001-034A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/1</ResourceID>
@@ -284,7 +284,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>CPI on GEOTAIL</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1992-044A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1992-044A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/2</ResourceID>
@@ -299,7 +299,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>HPA on GEOTAIL</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1992-044A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1992-044A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/86</ResourceID>
@@ -314,7 +314,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>SWA on GEOTAIL</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1992-044A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1992-044A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/87</ResourceID>
@@ -329,7 +329,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>EFD on GEOTAIL</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1992-044A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1992-044A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/88</ResourceID>
@@ -344,7 +344,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>EPIC on GEOTAIL</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1992-044A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1992-044A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/89</ResourceID>
@@ -359,7 +359,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>MGF on GEOTAIL</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1992-044A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1992-044A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/90</ResourceID>
@@ -374,7 +374,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>LEP on GEOTAIL</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1992-044A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1992-044A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/91</ResourceID>
@@ -389,7 +389,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>EP8 on GOES10</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1997-019A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1997-019A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/92</ResourceID>
@@ -404,7 +404,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>MAG on GOES10</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1997-019A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1997-019A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/93</ResourceID>
@@ -419,7 +419,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>MAG on GOES12</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2001-031A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2001-031A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/94</ResourceID>
@@ -434,7 +434,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>SXI on GOES12</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2001-031A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2001-031A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/96</ResourceID>
@@ -449,7 +449,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>EPS on GOES7</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1987-022A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1987-022A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/98</ResourceID>
@@ -464,7 +464,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>EP8 on GOES8</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1994-022A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1994-022A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/100</ResourceID>
@@ -479,7 +479,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>EP8 on GOES9</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1995-025A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1995-025A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/101</ResourceID>
@@ -494,7 +494,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>MAG on GOES9</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1995-025A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1995-025A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/102</ResourceID>
@@ -509,7 +509,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>MAG on HELIOS1</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1974-097A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1974-097A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/103</ResourceID>
@@ -524,7 +524,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>PLASMA on HELIOS1</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1974-097A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1974-097A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/104</ResourceID>
@@ -539,7 +539,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>MAG on HELIOS2</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1976-003A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1976-003A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/105</ResourceID>
@@ -554,7 +554,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>PLASMA on HELIOS2</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1976-003A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1976-003A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/106</ResourceID>
@@ -569,7 +569,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>HPP Hinotori Plasma Probes on HINOTORI</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1981-017A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1981-017A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/108</ResourceID>
@@ -584,7 +584,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>FUV-SIE on IMAGE</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2000-017A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2000-017A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/109</ResourceID>
@@ -599,7 +599,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>FUV-SIP on IMAGE</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2000-017A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2000-017A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/110</ResourceID>
@@ -614,7 +614,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>FUV-WIC on IMAGE</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2000-017A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2000-017A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/118</ResourceID>
@@ -629,7 +629,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Electrostatic Analyzer on IMP6</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1971-019A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1971-019A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/119</ResourceID>
@@ -644,7 +644,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Electrostatic Analyzer on IMP7</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1972-073A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1972-073A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/123</ResourceID>
@@ -659,7 +659,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>GME on IMP8</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1973-078A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1973-078A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/126</ResourceID>
@@ -674,7 +674,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>CPME on IMP8</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1973-078A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1973-078A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/127</ResourceID>
@@ -689,7 +689,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>EPE on IMP8</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1973-078A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1973-078A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/128</ResourceID>
@@ -704,7 +704,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>PLS on IMP8</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1973-078A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1973-078A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/129</ResourceID>
@@ -719,7 +719,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>PLA on IMP8</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1973-078A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1973-078A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/130</ResourceID>
@@ -734,7 +734,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>MAG on INTAUR</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1996-050C</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1996-050C</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/131</ResourceID>
@@ -749,7 +749,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>DOK-2 on INTTAIL</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1995-039A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1995-039A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/137</ResourceID>
@@ -764,7 +764,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>ELE on INTTAIL</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1995-039A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1995-039A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/138</ResourceID>
@@ -779,7 +779,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>MAG on INTTAIL</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1995-039A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1995-039A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/144</ResourceID>
@@ -794,7 +794,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>PLASMA on ISEE3</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1978-079A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1978-079A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/147</ResourceID>
@@ -1019,7 +1019,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>MAG on MAGSAT</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1979-094A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1979-094A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/162</ResourceID>
@@ -1199,7 +1199,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>QPA Quadrispherical Plasma Analyzer on PIONEER10</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1972-012A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1972-012A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/176</ResourceID>
@@ -1214,7 +1214,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>MAG Magnetometer on PIONEER11</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1973-019A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1973-019A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/177</ResourceID>
@@ -1229,7 +1229,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>MAG on PIONEER10</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1972-012A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1972-012A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/179</ResourceID>
@@ -1244,7 +1244,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>MAG on PIONEER11</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1973-019A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1973-019A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/188</ResourceID>
@@ -1259,7 +1259,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>SWE on POLAR</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1996-013A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1996-013A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/191</ResourceID>
@@ -1274,7 +1274,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>PWI  Plasma Wave Investigation on POLAR</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1996-013A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1996-013A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/197</ResourceID>
@@ -1289,7 +1289,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>OMAG on PVO</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1978-051A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1978-051A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/204</ResourceID>
@@ -1304,7 +1304,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>PET Proton Electron Telescope on SAMPEX</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1992-038A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1992-038A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/205</ResourceID>
@@ -1349,7 +1349,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>SMEI on CORIOLIS</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2003-001A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2003-001A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/209</ResourceID>
@@ -1364,7 +1364,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>CELIAS  Charge, Element and Isotope Analysis System on SOHO</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1995-065A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1995-065A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/210</ResourceID>
@@ -1379,7 +1379,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>MTOF  Mass time of Flight on SOHO</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1995-065A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1995-065A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/211</ResourceID>
@@ -1394,7 +1394,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>PM on SOHO</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1995-065A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1995-065A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/212</ResourceID>
@@ -1409,7 +1409,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>SEM on SOHO</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1995-065A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1995-065A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/233</ResourceID>
@@ -1424,7 +1424,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>VHM/FGM on ULYSSES</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1990-090B</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/236</ResourceID>
@@ -1439,7 +1439,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>AT1  Anisotropy Telescope 1 on ULYSSES</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1990-090B</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/237</ResourceID>
@@ -1454,7 +1454,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>COSPIN  Cosmic Ray and Solar Particles Investigation on ULYSSES</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1990-090B</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/238</ResourceID>
@@ -1469,7 +1469,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>AT1  Anisotropy Telescope 2 on ULYSSES</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1990-090B</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/239</ResourceID>
@@ -1484,7 +1484,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>HET  High Energy Telescope on ULYSSES</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1990-090B</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/240</ResourceID>
@@ -1499,7 +1499,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>HFT  High Flux Telescope on ULYSSES</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1990-090B</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/241</ResourceID>
@@ -1514,7 +1514,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>KET  Electron Telescope on ULYSSES</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1990-090B</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/242</ResourceID>
@@ -1529,7 +1529,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Low Energy Telescope on ULYSSES</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1990-090B</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1990-090B</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/243</ResourceID>
@@ -1574,7 +1574,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>SMS on WIND</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1994-071A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1994-071A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/261</ResourceID>
@@ -1589,7 +1589,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>SWICS on WIND</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1994-071A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1994-071A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/262</ResourceID>
@@ -1604,7 +1604,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>STICS on WIND</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1994-071A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1994-071A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/263</ResourceID>
@@ -1649,7 +1649,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>HXT on YOHKOH</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1991-062A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1991-062A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/269</ResourceID>
@@ -1664,7 +1664,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>BCS on YOHKOH</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1991-062A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1991-062A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/271</ResourceID>
@@ -1679,7 +1679,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>SXT Soft X ray Telescope on YOHKOH</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1991-062A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1991-062A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/272</ResourceID>
@@ -1694,7 +1694,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>WBS Wide Band Spectrometer on YOHKOH</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1991-062A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1991-062A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/273</ResourceID>
@@ -1709,7 +1709,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>SXS Soft X ray Spectrometer on YOHKOH</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1991-062A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1991-062A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/274</ResourceID>
@@ -1724,7 +1724,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>HXS Hard X ray Spectrometer on YOHKOH</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1991-062A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1991-062A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/275</ResourceID>
@@ -1739,7 +1739,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>GRS Gamma ray Spectrometer on YOHKOH</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1991-062A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1991-062A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/276</ResourceID>
@@ -1754,7 +1754,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>EPS on GOES8</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1994-022A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1994-022A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/277</ResourceID>
@@ -1769,7 +1769,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>EPS on GOES10</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1997-019A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1997-019A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/278</ResourceID>
@@ -1784,7 +1784,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>EPS on GOES11</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2000-022A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2000-022A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/279</ResourceID>
@@ -1799,7 +1799,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>EPS on GOES12</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2001-031A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2001-031A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/280</ResourceID>
@@ -1814,7 +1814,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>MAG on GOES11</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2000-022A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2000-022A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/306</ResourceID>
@@ -1844,7 +1844,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>CODIF Composition Distribution Function on CLUSTER1</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2000-045A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2000-045A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/310</ResourceID>
@@ -1859,7 +1859,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>CODIF Composition Distribution Function on CLUSTER3</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2000-041A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2000-041A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/311</ResourceID>
@@ -1874,7 +1874,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>CODIF Composition Distribution Function on CLUSTER4</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2000-045B</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2000-045B</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/312</ResourceID>
@@ -1889,7 +1889,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>HIA Hot Ion Analyzer on CLUSTER1</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2000-045A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2000-045A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/313</ResourceID>
@@ -1904,7 +1904,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>HIA Hot Ion Analyzer on CLUSTER3</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2000-041A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2000-041A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/314</ResourceID>
@@ -1919,7 +1919,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>HIA Hot Ion Analyzer on CLUSTER4</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2000-045B</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2000-045B</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/317</ResourceID>
@@ -1934,7 +1934,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>DWP - Digital Wave Processor on DoubleStar1</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2003-061A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2003-061A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/333</ResourceID>
@@ -2279,7 +2279,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>X-Ray Sensor on GOES8</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1994-022A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1994-022A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/362</ResourceID>
@@ -2294,7 +2294,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>X-Ray Sensor on GOES10</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1997-019A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1997-019A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/363</ResourceID>
@@ -2309,7 +2309,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>X-Ray Sensor on GOES11</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2000-022A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2000-022A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/364</ResourceID>
@@ -2324,7 +2324,7 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>X-Ray Sensor on GOES12</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2001-031A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2001-031A</ObservatoryID>
   </Instrument>
   <Instrument>
     <ResourceID>spase://vspo/instrument/365</ResourceID>

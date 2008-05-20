@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1977-076A-08</ResourceID>
+    <ResourceID>spase://swg/instrument/1977-076A-08</ResourceID>
     <ResourceHeader>
       <ResourceName>Cosmic Ray System (CRS)</ResourceName>
       <AlternateName>CRS</AlternateName>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Cosmic Ray System (CRS) on Voyager 2</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1977-076A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1977-076A</ObservatoryID>
   </Instrument>
 </Spase>

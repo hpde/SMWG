@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1995-039F-05</ResourceID>
+    <ResourceID>spase://swg/instrument/1995-039F-05</ResourceID>
     <ResourceHeader>
       <ResourceName>Energetic Electron and Proton Spectrometer DOK-S</ResourceName>
       <ReleaseDate>1998-03-26T00:00:00Z</ReleaseDate>
@@ -21,6 +21,6 @@ The electronics unit is based on the M80C85 processor, the amplified signals are
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Energetic Electron and Proton Spectrometer DOK-S on Interball S2-X</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1995-039F</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1995-039F</ObservatoryID>
   </Instrument>
 </Spase>

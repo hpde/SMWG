@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1995-039F-02</ResourceID>
+    <ResourceID>spase://swg/instrument/1995-039F-02</ResourceID>
     <ResourceHeader>
       <ResourceName>Electric and Magnetic Spectrum Analyzer SAS</ResourceName>
       <ReleaseDate>1997-10-20T00:00:00Z</ReleaseDate>
@@ -21,6 +21,6 @@ The analog output to telemetry is wide-band of 60 kHz.</Description>
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Electric and Magnetic Spectrum Analyzer SAS on Interball S2-X</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1995-039F</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1995-039F</ObservatoryID>
   </Instrument>
 </Spase>

@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1995-039A-21</ResourceID>
+    <ResourceID>spase://swg/instrument/1995-039A-21</ResourceID>
     <ResourceHeader>
       <ResourceName>Dosimetric measurements SOSNA-3</ResourceName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Dosimetric measurements SOSNA-3 on Interball Tail Probe</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1995-039A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1995-039A</ObservatoryID>
   </Instrument>
 </Spase>

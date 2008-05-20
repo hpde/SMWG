@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1995-039A-09</ResourceID>
+    <ResourceID>spase://swg/instrument/1995-039A-09</ResourceID>
     <ResourceHeader>
       <ResourceName>Ion Trap (ALFA-3)</ResourceName>
       <ReleaseDate>2006-04-03T00:00:00Z</ReleaseDate>
@@ -20,6 +20,6 @@ For more details, see the article by V. V. Bezrukikh and K. I. Gringauz at pp. 2
     </ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Ion Trap (ALFA-3) on Interball Tail Probe</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1995-039A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1995-039A</ObservatoryID>
   </Instrument>
 </Spase>

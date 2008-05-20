@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/2000-041A-03</ResourceID>
+    <ResourceID>spase://swg/instrument/2000-041A-03</ResourceID>
     <ResourceHeader>
       <ResourceName>Electron Drift Instrument (EDI)</ResourceName>
       <AlternateName>EDI</AlternateName>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Electron Drift Instrument (EDI) on Cluster 2/FM7 (Samba)</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2000-041A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2000-041A</ObservatoryID>
   </Instrument>
 </Spase>

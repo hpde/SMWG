@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/2006-047A-02</ResourceID>
+    <ResourceID>spase://swg/instrument/2006-047A-02</ResourceID>
     <ResourceHeader>
       <ResourceName>Stereo/Waves (Swaves)</ResourceName>
       <AlternateName>Swaves</AlternateName>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Stereo/Waves (Swaves) on STEREO A</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2006-047A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2006-047A</ObservatoryID>
   </Instrument>
 </Spase>

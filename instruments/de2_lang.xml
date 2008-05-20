@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1981-070B-09</ResourceID>
+    <ResourceID>spase://swg/instrument/1981-070B-09</ResourceID>
     <ResourceHeader>
       <ResourceName>Langmuir Probe (LANG)</ResourceName>
       <AlternateName>LANG</AlternateName>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>LangmuirProbe</InstrumentType>
     <InvestigationName>Langmuir Probe (LANG) on Dynamics Explorer 2</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1981-070B</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1981-070B</ObservatoryID>
   </Instrument>
 </Spase>

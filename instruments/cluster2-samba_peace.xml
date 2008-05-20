@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/2000-041A-05</ResourceID>
+    <ResourceID>spase://swg/instrument/2000-041A-05</ResourceID>
     <ResourceHeader>
       <ResourceName>Plasma Electron and Current Experiment (PEACE)</ResourceName>
       <AlternateName>PEACE</AlternateName>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Plasma Electron and Current Experiment (PEACE) on Cluster 2/FM7 (Samba)</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/2000-041A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/2000-041A</ObservatoryID>
   </Instrument>
 </Spase>

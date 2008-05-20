@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1991-062A-02</ResourceID>
+    <ResourceID>spase://swg/instrument/1991-062A-02</ResourceID>
     <ResourceHeader>
       <ResourceName>Soft X-Ray Telescope</ResourceName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
@@ -23,6 +23,6 @@
     </ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>Soft X-Ray Telescope on Yohkoh</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1991-062A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1991-062A</ObservatoryID>
   </Instrument>
 </Spase>

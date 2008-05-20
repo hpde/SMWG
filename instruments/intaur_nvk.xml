@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1996-050C-07</ResourceID>
+    <ResourceID>spase://swg/instrument/1996-050C-07</ResourceID>
     <ResourceHeader>
       <ResourceName>VLF Electromagnetic Waves (NVK-ONCH)</ResourceName>
       <ReleaseDate>2006-04-27T00:00:00Z</ReleaseDate>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>VLF Electromagnetic Waves (NVK-ONCH) on Interball Auroral Probe</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1996-050C</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1996-050C</ObservatoryID>
   </Instrument>
 </Spase>

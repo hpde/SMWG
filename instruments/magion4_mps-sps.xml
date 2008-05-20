@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1995-039F-06</ResourceID>
+    <ResourceID>spase://swg/instrument/1995-039F-06</ResourceID>
     <ResourceHeader>
       <ResourceName>Energetic Electron and Proton Spectrometers MPS, SPS</ResourceName>
       <ReleaseDate>1997-10-22T00:00:00Z</ReleaseDate>
@@ -23,6 +23,6 @@ The MPS and SPS spectrometers have limited angular characteristics; for this rea
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Energetic Electron and Proton Spectrometers MPS, SPS on Interball S2-X</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1995-039F</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1995-039F</ObservatoryID>
   </Instrument>
 </Spase>

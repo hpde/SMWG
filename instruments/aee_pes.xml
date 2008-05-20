@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://nssdc/instrument/1975-107A-03</ResourceID>
+    <ResourceID>spase://swg/instrument/1975-107A-03</ResourceID>
     <ResourceHeader>
       <ResourceName>Photoelectron Spectrometer (PES)</ResourceName>
       <AlternateName>PES</AlternateName>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Photoelectron Spectrometer (PES) on AE-E</InvestigationName>
-    <ObservatoryID>spase://nssdc/observatory/1975-107A</ObservatoryID>
+    <ObservatoryID>spase://swg/observatory/1975-107A</ObservatoryID>
   </Instrument>
 </Spase>
