@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://swg/Observatory/AMPTE_CCE</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/AMPTE_CCE</ResourceID>
     <ResourceHeader>
       <ResourceName>AMPTE/CCE</ResourceName>
       <AlternateName>AMPTE/Charge Composition Explorer</AlternateName>
@@ -22,7 +22,7 @@ The CCE encountered command module/power supply problems since the beginning of 
 For more details, see J. Dassoulas et al., IEEE Transactions on Geoscience and Remote Sensing, Vol. GE-23, p. 182, 1985.</Description>
       <Contact>
         <!-- Richard McEntire -->
-        <PersonID>spase://swg/Person/Richard.W.McEntire</PersonID>
+        <PersonID>spase://SMWG/Person/Richard.W.McEntire</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>

@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://swg/Observatory/ST5-155</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/ST5-155</ResourceID>
     <ResourceHeader>
       <ResourceName>ST5-155</ResourceName>
       <AlternateName>ST5-A</AlternateName>
@@ -20,7 +20,7 @@ sensor location less than 10 nT (d.c.), 5 nT (a.c.). The spacecraft carried a sc
       </Description>
       <Contact>
         <!-- Guan Le -->
-        <PersonID>spase://swg/Person/Guan.Le</PersonID>
+        <PersonID>spase://SMWG/Person/Guan.Le</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
       <InformationURL>

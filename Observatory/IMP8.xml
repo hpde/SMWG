@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://swg/Observatory/IMP8</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/IMP8</ResourceID>
     <ResourceHeader>
       <ResourceName>IMP 8</ResourceName>
       <AlternateName>IMP-J</AlternateName>
@@ -18,7 +18,7 @@ In October, 2001, IMP 8 was terminated as an independent mission. Telemetry acqu
  </Description>
       <Contact>
         <!-- Robert McGuire -->
-        <PersonID>spase://swg/Person/Robert.E.McGuire</PersonID>
+        <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
       <InformationURL>

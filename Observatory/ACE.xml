@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <Observatory>
-    <ResourceID>spase://swg/Observatory/ACE</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/ACE</ResourceID>
     <ResourceHeader>
       <ResourceName>ACE</ResourceName>
       <AlternateName>Advanced Composition Explorer</AlternateName>
@@ -11,7 +11,7 @@
       <ReleaseDate>2008-05-20T17:59:52Z</ReleaseDate>
       <Description>The objective of the Advanced Composition Explorer (ACE) is to collect observations of particles of solar, interplanetary, interstellar, and galactic origins, spanning the energy range from that of KeV solar wind ions to galactic cosmic ray nuclei up to 600 MeV/nucleon. Definitive studies will be made of the abundances of essentially all isotopes from H to Zn (Z = 1-30), with exploratory isotope studies extending to Zr (Z = 40). The ACE payload includes six high resolution spectrometers, each designed to provide the optimum charge, mass, or charge-state resolution in its particular energy range. Each spectrometer has a geometry factor optimized for the expected flux levels, so as to provide a collecting power greater by a factor of 10-1000 times that of previous or planned experiments. The payload also includes three additional instruments of standard design to monitor energetic electrons, H and He ions, and a magnetometer. The ACE spacecraft is based on the design of the Charge Composition Explorer, built at JHU/APL for the Active Magnetospheric Particle Tracer Explorer (AMPTE) program. The spacecraft spin axis is pointed towards the Sun to within +/- 20 degrees, and it occupies a halo orbit about the L1 Earth-Sun libration point. Powered by solar cells, the spacecraft has a design life of at least five years, and it returns data in daily tape recorder dumps, received through NASA JPL's Deep Space Network and initially processed at NASA-GSFC. The average data telemetry rate is 6.7 Kbs.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Edward.C.Stone.Jr</PersonID>
+        <PersonID>spase://SMWG/Person/Edward.C.Stone.Jr</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>

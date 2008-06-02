@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://swg/Observatory/AMPTE_UKS</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/AMPTE_UKS</ResourceID>
     <ResourceHeader>
       <ResourceName>AMPTE/UKS</ResourceName>
       <AlternateName>AMPTE/United Kingdom Subsatellite</AlternateName>
@@ -38,7 +38,7 @@ Note that the UKS mission took place during the declining phase of solar cycle 2
 </Description>
       <Contact>
         <!-- Duncan A. Bryant -->
-        <PersonID>spase://swg/Person/Duncan.A.Bryant</PersonID>
+        <PersonID>spase://SMWG/Person/Duncan.A.Bryant</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
       <InformationURL>

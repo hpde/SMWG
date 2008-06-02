@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://swg/Observatory/WIND</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/WIND</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind</ResourceName>
       <AlternateName>ISTP/Wind</AlternateName>
@@ -23,7 +23,7 @@ In 2001 and 2002 Wind has executed a distant prograde orbit that took it +/- 300
       </Description>
       <Contact>
         <!-- Adam Szabo -->
-        <PersonID>spase://swg/Person/Adam.Szabo</PersonID>
+        <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
       <InformationURL>

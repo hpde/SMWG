@@ -2,18 +2,18 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <Observatory>
-    <ResourceID>spase://swg/Observatory/Helios1</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/Helios1</ResourceID>
     <ResourceHeader>
       <ResourceName>Helios 1</ResourceName>
       <AlternateName>Helios-A</AlternateName>
       <ReleaseDate>2008-05-20T17:59:52Z</ReleaseDate>
       <Description>This spacecraft was one of a pair of deep space probes developed by the Federal Republic of Germany (FRG) in a cooperative program with NASA. Experiments were provided by scientists from both FRG and the U.S. NASA supplied the Titan/Centaur launch vehicle. The spacecraft was equipped with two booms and a 32-m electric dipole. The payload consisted of a fluxgate magnetometer; electric and magnetic wave experiments, which covered various bands in the frequency range 6 Hz to 3 MHz; charged-particle experiments, which covered various energy ranges starting with solar wind thermal energies and extending to 1 GeV; a zodiacal-light experiment; and a micrometeoroid experiment. The purpose of the mission was to make pioneering measurements of the interplanetary medium from the vicinity of the earth's orbit to 0.3 AU. The spin axis was normal to the ecliptic, and the nominal spin rate was 1 rps. The outer spacecraft surface was dielectric, effectively (because of the sheath potential) raising the low-energy threshold for the solar wind plasma experiment to as high as 100 eV. Also, sheath-related coupling caused by the spacecraft antennae produced interference with the wave experiments. The spacecraft was capable of being operated at bit rates from 4096 to 8 bps, variable by factors of 2. While the spacecraft was moving to perihelion, it was generally operated from 64 to 256 bps; and near 0.3 AU, it was operated at the highest bit rate. Because of a deployment failure of one axis of the 32-m, tip-to-tip, dipole antenna, one axis was shorted, causing the antenna to function as a monopole. The major effect of this anomaly was to increase the effective instrument thresholds, and to introduce additional uncertainties in the effective antenna length. Instrument descriptions written by the experimenters were published (some in German, some in English) in Raumfahrtforschung, v. 19, n. 5, 1975.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/James.H.Trainor</PersonID>
+        <PersonID>spase://SMWG/Person/James.H.Trainor</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
       <Contact>
-        <PersonID>spase://swg/Person/Herbert.Porsche</PersonID>
+        <PersonID>spase://SMWG/Person/Herbert.Porsche</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
       <InformationURL>
