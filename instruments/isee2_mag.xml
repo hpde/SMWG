@@ -2,13 +2,13 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1977-102B-04</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1977-102B-04</ResourceID>
     <ResourceHeader>
       <ResourceName>Fluxgate Magnetometer, Tri-axial</ResourceName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>The magnetic fields investigation selected for ISEE 1 and 2 had as its principal objectives the study of the magnetic signatures of magnetospheric phenomena and magnetohydrodynamic waves in and around the magnetosphere, and to provide supporting data for other experiments on the spacecraft such as the electric field, particle and plasma wave investigations. In this triaxial fluxgate magnetometer, three ring-core sensors in an orthogonal triad were enclosed in a flipper mechanism at the end of the magnetometer boom. The electronics unit was on the main body of the spacecraft at the foot of the boom. The magnetometer had two operating ranges of +/- 8192 nT and +/- 256 nT in each vector component. The data were digitized and averaged within the instrument to provide increased resolution and to provide Nyquist filtering. There were two modes for the transmission of the averaged data. In the double-precision mode of operation, 16-bit samples of data were transmitted. This provided a maximum resolution of +/- 1/4 nT or 1/128 nT in the low-sensitivity and high-sensitivity ranges. Operation of this experiment was near nominal until spacecraft re-entry on September 26, 1987. Users of data from this experiment should be aware of the fact that the averaging of 12-bit samples to create 16-bit samples worked well in the spin plane, but in situations during which the field along the spin axis was quiet relative to the size of a digital window, the magnetometer returned only a 12-bit sample. This was particularly noticeable when the spacecraft was in the solar wind and the instrument was operated in its low gain (8192 nT) range, and when the spacecraft was in quiet regions of the magnetosphere in the low gain mode. The former situation limited the resolution of the field measured to 4 nT in the double precision mode in which the magnetometer usually was operated, and the latter situation created, as the spacecraft moved through the large gradient in the Earth's magnetic field, a stair step pattern of field changes of size 4 nT which may be mistaken for waves. Another operational anomaly was the saturation of a sensor during gain changes. At these times, the 3 components of the magnetic field were deduced from one spin tone and the field along the spin axis, limiting the temporal resolution of the instrument to below the spin frequency. Every effort was made to minimize zero level errors, clerical errors and other data processing anomalies within the available resources. However, these resources were very constrained and funding ceased before the entire submitted data set could be checked. It is expected that eventually quality checks of the entire database will be possible, but in the meantime, users of the ISEE 1 and 2 magnetometer data are requested to report all suspicions about data quality to the principal investigator, C. T. Russell, for verification.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Christopher.T.Russell</PersonID>
+        <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Fluxgate Magnetometer, Tri-axial on ISEE 2</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1977-102B</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1977-102B</ObservatoryID>
   </Instrument>
 </Spase>

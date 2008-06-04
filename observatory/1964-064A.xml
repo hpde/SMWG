@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://swg/observatory/1964-064A</ResourceID>
+    <ResourceID>spase://SMWG/observatory/1964-064A</ResourceID>
     <ResourceHeader>
       <ResourceName>BE-B</ResourceName>
       <AlternateName>Explorer 22</AlternateName>
@@ -10,11 +10,11 @@
       <ReleaseDate>2007-08-27T18:40:18Z</ReleaseDate>
       <Description>BE-B (Explorer 22) was a small ionospheric research satellite instrumented with an electrostatic probe, a 20-, 40-, and 41-Hz radio beacon, a passive laser tracking reflector, and a Doppler navigation experiment. Its objective was to obtain worldwide observations of total electron content between the spacecraft and the earth. The satellite was initially spin-stabilized, but it was despun after solar paddle erection. Subsequent stabilization oriented the satellite axis of symmetry with the local magnetic field by means of a strong bar magnet and damping rods. A three-axis magnetometer and sun sensors provided information on the satellite attitude and spin rate. There was no tape recorder aboard so that satellite performance data and electrostatic probe data could be observed only when the satellite was within range of a ground telemetry station. Continuous transmitters also operated at 162 and 324 MHz to permit precise tracking by "Transit" tracking stations for navigation and geodetic studies. In August 1968, data acquisition from the satellite telemetry channels was discontinued. In July 1969, tracking and world map production were discontinued by GSFC, and world map production based on NORAD orbit elements was subsequently assumed by ESRO. The satellite failed in February 1970 and BE-C (65-032A) was turned on in order to partially replace use made of this satellite beacon experiment.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Robert.E.Bourdeau</PersonID>
+        <PersonID>spase://SMWG/Person/Robert.E.Bourdeau</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
       <Contact>
-        <PersonID>spase://swg/Person/Larry.H.Brace</PersonID>
+        <PersonID>spase://SMWG/Person/Larry.H.Brace</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
       <InformationURL>

@@ -2,14 +2,14 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/2006-047B-03</ResourceID>
+    <ResourceID>spase://SMWG/instrument/2006-047B-03</ResourceID>
     <ResourceHeader>
       <ResourceName>In-Situ Measurements of Particles and CME Transients (IMPACT)</ResourceName>
       <AlternateName>IMPACT</AlternateName>
       <ReleaseDate>2006-10-27T00:00:00Z</ReleaseDate>
       <Description/>
       <Contact>
-        <PersonID>spase://swg/Person/Janet.G.Luhmann</PersonID>
+        <PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>In-Situ Measurements of Particles and CME Transients (IMPACT) on STEREO B</InvestigationName>
-    <ObservatoryID>spase://swg/Observatory/STEREO-B</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/STEREO-B</ObservatoryID>
   </Instrument>
 </Spase>

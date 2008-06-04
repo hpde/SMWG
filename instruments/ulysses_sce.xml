@@ -2,14 +2,14 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1990-090B-10</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1990-090B-10</ResourceID>
     <ResourceHeader>
       <ResourceName>Coronal Sounding (radio science) (SCE)</ResourceName>
       <AlternateName>SCE</AlternateName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>The objective of this radio science investigation is to determine the density, turbulence spectrum, and velocity of the coronal plasma in the acceleration regime of the solar wind. Dual-frequency ranging and Doppler data are recorded during phases of the ULYSSES superior conjunction using the spacecraft transmitters and the NASA DSN.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Michael.K.Bird</PersonID>
+        <PersonID>spase://SMWG/Person/Michael.K.Bird</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Coronal Sounding (radio science) (SCE) on Ulysses</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1990-090B</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1990-090B</ObservatoryID>
   </Instrument>
 </Spase>

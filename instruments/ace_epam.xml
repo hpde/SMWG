@@ -2,14 +2,14 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1997-045A-08</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1997-045A-08</ResourceID>
     <ResourceHeader>
       <ResourceName>Electron, Proton, and Alpha-particle Monitor (EPAM)</ResourceName>
       <AlternateName>EPAM</AlternateName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>The Electron, Proton, and Alpha-particle Monitor (EPAM) instrument measures solar and interplanetary particle fluxes over a wide dynamic range of intensities and from nearly all directions. Low-energy solar particle fluxes are used as probes of morphological changes in coronal and large-scale magnetic field structures in interplanetary space. Non-relativistic and relativistic electron fluxes are also measured for investigation of solar flare processes. The EPAM instrument consists of five apertures in two particle telescope assemblies, including two Low Energy Magnetic Spectrometers (LEMS) for ions at energies above 50 keV and two Low Energy Foil Spectrometers (LEFS) for electrons above 30 keV. The Composition Aperture (CA) measures the elemental composition of the ions. Nearly complete coverage in magnetic pitch angle is provided by spacecraft spin and by inclination of the apertures at different angles relative to the spin axis. The following list gives angle to the spin axis for each aperture (e.g., "LEFS 60" for an LEFS angle of 60 degrees): LEFS 60, LEMS 120, LEFS 150, LEMS 30, and CA 60. Geometric factors for each LEMS and LEFS aperture are 0.48 cm2-sr; for CA this is 0.24 cm2-sr. Field of view half-angles for LEMS, LEFS, and CA are 51, 53, and 45 degrees, respectively. The EPAM data rate of 168 bps includes all science and digital housekeeping data; four digital analog housekeeping channels are sampled once every 32 seconds. The EPAM Experiment Manager is Dr. Robert E. Gold of the Applied Physics Laboratory/ Johns Hopkins University.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Robert.E.Gold</PersonID>
+        <PersonID>spase://SMWG/Person/Robert.E.Gold</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Electron, Proton, and Alpha-particle Monitor (EPAM) on ACE</InvestigationName>
-    <ObservatoryID>spase://swg/Observatory/ACE</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/ACE</ObservatoryID>
   </Instrument>
 </Spase>

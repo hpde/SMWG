@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1997-019A-03</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1997-019A-03</ResourceID>
     <ResourceHeader>
       <ResourceName>Space Environment Monitor (SEM)</ResourceName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
@@ -20,6 +20,6 @@ The SEM consists of four instruments. The Energetic Particle Sensor (EP8,formerl
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Space Environment Monitor (SEM) on GOES 10</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1997-019A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1997-019A</ObservatoryID>
   </Instrument>
 </Spase>

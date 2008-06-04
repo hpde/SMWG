@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1995-039A-05</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1995-039A-05</ResourceID>
     <ResourceHeader>
       <ResourceName>Wide-range 3D Ion Spectrometer (CORALL)</ResourceName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
@@ -10,7 +10,7 @@
 Instrument CORALL was designed and fabricated jointly by IKI RAN and INTERCOSMOS of the Republic of Cuba.
 The instrument began operating August 14, 1995. However, there were problems with the telemetry system BNS which provides satellite rotation pulses. CORALL uses this pulse for performance of measurements in the inertial coordinate system. As of August 31, 1995 the complex BNS + CORALL is operating properly.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Reynal.Jimenez</PersonID>
+        <PersonID>spase://SMWG/Person/Reynal.Jimenez</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -21,6 +21,6 @@ The instrument began operating August 14, 1995. However, there were problems wit
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Wide-range 3D Ion Spectrometer (CORALL) on Interball Tail Probe</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1995-039A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1995-039A</ObservatoryID>
   </Instrument>
 </Spase>

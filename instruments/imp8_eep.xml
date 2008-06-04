@@ -2,13 +2,13 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1973-078A-05</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1973-078A-05</ResourceID>
     <ResourceHeader>
       <ResourceName>Energetic Electrons and Protons</ResourceName>
       <ReleaseDate>2005-07-07T00:00:00Z</ReleaseDate>
       <Description>The purposes of this investigation were (1) to study the propagation characteristics of solar cosmic rays through the interplanetary medium over the energy ranges indicated below, (2) to study electron and proton fluxes throughout the geomagnetic tail and near the flanks of the magnetosphere, and (3) to study the entry of solar cosmic rays into the magnetosphere. The instrumentation consisted of a three-element telescope employing fully depleted surface-barrier solid-state detectors and a magnet to deflect electrons. Two side-mounted detectors were used to measure the deflected electrons. Two additional detectors in separate mounts were used to measure charged particles above 15 keV (F), Z greater than or equal to 2 above 0.6 MeV (G1) and above 1.0 MeV (G2), and Z greater than or equal to 3 above 2.0 MeV (G3). The telescope measured protons in three ranges between 2.1 and 25 MeV (14, 15, 16); Z greater than or equal to 1 in three ranges between 0.05 and 2.1 MeV (11, 12, 13); alpha particles between 8.4 and 35.0 MeV in two ranges (111, 112); Z greater than or equal to 2 between 2.2 and 8.4 MeV (110); and a background channel (19). Deflected electrons were measured in two ranges between 30 and 200 keV (17, 18). A complete description of the instrument was given by D. J. Williams in NOAA Technical Report ERL 393-SEL 40, October 1977.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Donald.J.Williams</PersonID>
+        <PersonID>spase://SMWG/Person/Donald.J.Williams</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Energetic Electrons and Protons on IMP-J</InvestigationName>
-    <ObservatoryID>spase://swg/Observatory/IMP8</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/IMP8</ObservatoryID>
   </Instrument>
 </Spase>

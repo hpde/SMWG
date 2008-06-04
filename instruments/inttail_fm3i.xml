@@ -2,13 +2,13 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1995-039A-17</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1995-039A-17</ResourceID>
     <ResourceHeader>
       <ResourceName>Fluxgate DC Magnetometer FM-3I</ResourceName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>The FM-3I instrument consists of two fluxgate magnetometers covering two different ranges: -200 to +200 nT and -1000 to +1000 nT. Besides scientific goals, the FM-3I experiment data is used to perform the attitude control of the spacecraft.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Mikhail.Nozdrachev</PersonID>
+        <PersonID>spase://SMWG/Person/Mikhail.Nozdrachev</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Fluxgate DC Magnetometer FM-3I on Interball Tail Probe</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1995-039A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1995-039A</ObservatoryID>
   </Instrument>
 </Spase>

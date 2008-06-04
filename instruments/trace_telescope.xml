@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1998-020A-01</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1998-020A-01</ResourceID>
     <ResourceHeader>
       <ResourceName>TRACE Imaging Telescope</ResourceName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
@@ -11,7 +11,7 @@ The telescope is of Cassegrain design, 1.6 m long with an aperture of 30 cm. The
 The primary and secondary mirrors have normal-incidence coatings specially designed for EUV and UV observations which divide the mirrors into quadrants. These segmented coatings are designed to provide identically sized and perfectly coaligned images. Which mirror quadrant is used for an observation is determined by the position of a quadrant selector shutter mechanism, positioned behind the entrance aperture. Three of the mirror coatings provide for observations in specific iron emission bands: Fe IX (central wavelength/bandwidth: 17.3 nm/0.64 nm); Fe XII (19.5 nm/0.65 nm); and Fe XV (28.4 nm/1.07 nm). The final mirror coating allows broadband observations in the ultraviolet (centered on 500 nm). Further selection of observations in the UV can be made through the use of a filter wheel, mounted in front of the CCD. The filter wheel permits continuum observations (170 nm/20 nm) as well as observations in emission bands for C I and Fe II (160 nm/27.5 nm), C IV (155 nm/2 nm), and H I (Lyman-alpha) (121.6 nm/8.4 nm).
 The TRACE primary mirror assembly is based on primary mirror support assemblies used in SWATH, a small explorer developed for the U. S. Air Force, and NIXT, a set of rocket flights flown by the Smithsonian Astrophysical Observatory (SAO) five times between 1983 and 1993. Many of the designs and some of the space flight hardware from the MDI instrument on SOHO was also used.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Alan.M.Title</PersonID>
+        <PersonID>spase://SMWG/Person/Alan.M.Title</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -22,6 +22,6 @@ The TRACE primary mirror assembly is based on primary mirror support assemblies 
     </ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>TRACE Imaging Telescope on TRACE</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1998-020A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1998-020A</ObservatoryID>
   </Instrument>
 </Spase>

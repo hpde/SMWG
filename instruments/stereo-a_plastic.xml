@@ -2,14 +2,14 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/2006-047A-04</ResourceID>
+    <ResourceID>spase://SMWG/instrument/2006-047A-04</ResourceID>
     <ResourceHeader>
       <ResourceName>Plasma and Supra-Thermal Ion Composition (PLASTIC) Investigation</ResourceName>
       <AlternateName>PLASTIC</AlternateName>
       <ReleaseDate>2006-10-27T00:00:00Z</ReleaseDate>
       <Description/>
       <Contact>
-        <PersonID>spase://swg/Person/Antoinette.B.Galvin</PersonID>
+        <PersonID>spase://SMWG/Person/Antoinette.B.Galvin</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Plasma and Supra-Thermal Ion Composition (PLASTIC) Investigation on STEREO A</InvestigationName>
-    <ObservatoryID>spase://swg/Observatory/STEREO-A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/STEREO-A</ObservatoryID>
   </Instrument>
 </Spase>

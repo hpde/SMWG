@@ -2,13 +2,13 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1995-039A-21</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1995-039A-21</ResourceID>
     <ResourceHeader>
       <ResourceName>Dosimetric measurements SOSNA-3</ResourceName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>This instrument makes dosimetric measurements.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/V.Bengin</PersonID>
+        <PersonID>spase://SMWG/Person/V.Bengin</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Dosimetric measurements SOSNA-3 on Interball Tail Probe</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1995-039A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1995-039A</ObservatoryID>
   </Instrument>
 </Spase>

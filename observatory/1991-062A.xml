@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://swg/observatory/1991-062A</ResourceID>
+    <ResourceID>spase://SMWG/observatory/1991-062A</ResourceID>
     <ResourceHeader>
       <ResourceName>Yohkoh</ResourceName>
       <AlternateName>Solar-A</AlternateName>
@@ -25,7 +25,7 @@ ftp://umbra.nascom.nasa.gov/pub/yohkoh/doc/rguide.ps
 
 ftp://umbra.nascom.nasa.gov/pub/yohkoh/doc/uguide.ps</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Keizo.Kai</PersonID>
+        <PersonID>spase://SMWG/Person/Keizo.Kai</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>

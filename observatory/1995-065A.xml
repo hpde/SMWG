@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://swg/observatory/1995-065A</ResourceID>
+    <ResourceID>spase://SMWG/observatory/1995-065A</ResourceID>
     <ResourceHeader>
       <ResourceName>SOHO</ResourceName>
       <AlternateName>Solar and Heliospheric Observatory</AlternateName>
@@ -21,7 +21,7 @@ Contact with SOHO was lost at 23:16 GMT on June 24, 1998 during maintenance oper
 
 Attitude analysis led to the conclusion that SOHO went into a spin such that the solar panels were nearly edge-on towards the Sun, and thus did not generate any power. Because the spin axis is fixed in space, as the spacecraft progressed in its orbit the orientation of the panels with respect to the Sun gradually changed, resulting in increased solar illumination of the solar arrays as time progressed. On August 3, contact was re-established with SOHO following six weeks of silence. After a lengthy recovery process, on September 16 the spacecraft again locked onto the Sun, and experiment heaters were switched on. After recommissioning of various subsystems, and an orbit correction maneuver, SOHO was finally brought back to normal mode on 25 September at 19:52:58 GMT. Instrument switch-on started October 5, 1998, and by November 4 all instruments were back to normal.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Arthur.I.Poland</PersonID>
+        <PersonID>spase://SMWG/Person/Arthur.I.Poland</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
       <InformationURL>

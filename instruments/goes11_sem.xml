@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/2000-022A-03</ResourceID>
+    <ResourceID>spase://SMWG/instrument/2000-022A-03</ResourceID>
     <ResourceHeader>
       <ResourceName>Environment Monitor</ResourceName>
       <ReleaseDate>2000-05-03T00:00:00Z</ReleaseDate>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Environment Monitor on GOES 11</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/2000-022A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/2000-022A</ObservatoryID>
   </Instrument>
 </Spase>

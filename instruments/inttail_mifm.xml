@@ -2,14 +2,14 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1995-039A-13</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1995-039A-13</ResourceID>
     <ResourceHeader>
       <ResourceName>Multicomponent Investigations of Fluctuations of Magnetic Fields (MIF-M)</ResourceName>
       <ReleaseDate>2006-03-21T00:00:00Z</ReleaseDate>
       <Description>The MIF-M instrument on the Interball Tail Probe consists of triaxial fluxgate sensors (DC: 0 - 2 Hz and AC: 2 - 25 Hz), a search-coil measuring the AC magnetic field along the spacecraft Z-axis at 1 Hz - 40 kHz, and a filter bank with seven analog passband filters.
 Fields and waves are measured on the Tail Probe by the ASPI consortium of experiments, which includes: MIF-M -- fluxgate and search-coil magnetometers; FGM-I -- triaxial fluxgate sensor and plasma current sensor; OPERA -- a complex of electric field instruments; and PRAM -- the digital waveform processor unit. Two more ASPI instruments, ADS and IFPE, failed to switch on, likely due to hardware problems.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Stanislav.A.Romanov</PersonID>
+        <PersonID>spase://SMWG/Person/Stanislav.A.Romanov</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -20,6 +20,6 @@ Fields and waves are measured on the Tail Probe by the ASPI consortium of experi
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Multicomponent Investigations of Fluctuations of Magnetic Fields (MIF-M) on Interball Tail Probe</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1995-039A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1995-039A</ObservatoryID>
   </Instrument>
 </Spase>

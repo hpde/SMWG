@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1996-050C-14</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1996-050C-14</ResourceID>
     <ResourceHeader>
       <ResourceName>Electron and Proton Anisotropy (DOK-2A)</ResourceName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
@@ -12,7 +12,7 @@ Analog electronics for each of 4 detectors consists of a charge sensitive preamp
 The mechanical scanning occurs only in Fast and Real Time modes. Transition from Monitoring to more informative Fast modes occurs automatically when particle flux variability is high enough or after a sharp increase of fluxes. Return to Monitoring mode is also automatic.
 Spectrometer DOK-2 was switched on 5 hours after the launch on 29.08.1996 and operates continuously.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Karel.Kudela</PersonID>
+        <PersonID>spase://SMWG/Person/Karel.Kudela</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -23,6 +23,6 @@ Spectrometer DOK-2 was switched on 5 hours after the launch on 29.08.1996 and op
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Electron and Proton Anisotropy (DOK-2A) on Interball Auroral Probe</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1996-050C</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1996-050C</ObservatoryID>
   </Instrument>
 </Spase>

@@ -2,14 +2,14 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/2006-047B-02</ResourceID>
+    <ResourceID>spase://SMWG/instrument/2006-047B-02</ResourceID>
     <ResourceHeader>
       <ResourceName>Stereo/Waves (Swaves)</ResourceName>
       <AlternateName>Swaves</AlternateName>
       <ReleaseDate>2006-10-27T00:00:00Z</ReleaseDate>
       <Description/>
       <Contact>
-        <PersonID>spase://swg/Person/Jean-Louis.Henry.Bougeret</PersonID>
+        <PersonID>spase://SMWG/Person/Jean-Louis.Henry.Bougeret</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Stereo/Waves (Swaves) on STEREO B</InvestigationName>
-    <ObservatoryID>spase://swg/Observatory/STEREO-B</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/STEREO-B</ObservatoryID>
   </Instrument>
 </Spase>

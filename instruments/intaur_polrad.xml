@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1996-050C-09</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1996-050C-09</ResourceID>
     <ResourceHeader>
       <ResourceName>Auroral Kilometric Radiation (POLRAD)</ResourceName>
       <ReleaseDate>2006-04-27T00:00:00Z</ReleaseDate>
@@ -11,7 +11,7 @@ In the spectrograph mode the power spectra of signals received from each antenna
 The instrument has an additional active mode aimed at the determination of the frequencies of the plasma resonances excited in the ambient plasma by a built-in relaxation sounder.
 This information was taken from the paper by Hanasz et al., Ann. Geophysicae 16, 1097-1104 (1998), which contains much more detail about the instrument, and presents observations.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Jan.Hanasz</PersonID>
+        <PersonID>spase://SMWG/Person/Jan.Hanasz</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -22,6 +22,6 @@ This information was taken from the paper by Hanasz et al., Ann. Geophysicae 16,
     </ResourceHeader>
     <InstrumentType>Antenna</InstrumentType>
     <InvestigationName>Auroral Kilometric Radiation (POLRAD) on Interball Auroral Probe</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1996-050C</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1996-050C</ObservatoryID>
   </Instrument>
 </Spase>

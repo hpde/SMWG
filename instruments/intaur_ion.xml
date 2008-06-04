@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1996-050C-02</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1996-050C-02</ResourceID>
     <ResourceHeader>
       <ResourceName>Ion Spectra and Anisotropy (ION)</ResourceName>
       <ReleaseDate>2006-04-08T00:00:00Z</ReleaseDate>
@@ -11,7 +11,7 @@ Ion composition analyzers:&lt;br&gt; The design of the detector heads of the ION
 Electron analyzers:&lt;br&gt; Two spectrometers, ION3 and 4, measure electron fluxes. They consist of two cylindrical electrostatic analyzer heads and associated electronics.
 The ION SADS page available at http://sads.cnes.fr:8010 has additional information, and access to browse the ION QuickLook images.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Jean-Andre.C.Sauvaud</PersonID>
+        <PersonID>spase://SMWG/Person/Jean-Andre.C.Sauvaud</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -22,6 +22,6 @@ The ION SADS page available at http://sads.cnes.fr:8010 has additional informati
     </ResourceHeader>
     <InstrumentType>MassSpectrometer</InstrumentType>
     <InvestigationName>Ion Spectra and Anisotropy (ION) on Interball Auroral Probe</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1996-050C</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1996-050C</ObservatoryID>
   </Instrument>
 </Spase>

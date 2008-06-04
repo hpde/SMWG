@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1996-050C-13</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1996-050C-13</ResourceID>
     <ResourceHeader>
       <ResourceName>Spacecraft Potential Control, Ion Beam Emitter (RON)</ResourceName>
       <ReleaseDate>2006-04-27T00:00:00Z</ReleaseDate>
@@ -11,7 +11,7 @@ The instrument contains two different and independent ion beam systems, providin
 A microprocessor controls the ion emitter and interfaces with the spacecraft telemetry and the experiment IESP-2M, which provides spacecraft potential data in real time.
 Details of the instrument are given in the paper by Torkar et al., Ann. Geophysicae 16, 1086-1096 (1998).</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Willi.W.Riedler</PersonID>
+        <PersonID>spase://SMWG/Person/Willi.W.Riedler</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -22,6 +22,6 @@ Details of the instrument are given in the paper by Torkar et al., Ann. Geophysi
     </ResourceHeader>
     <InstrumentType>SpacecraftPotentialControl</InstrumentType>
     <InvestigationName>Spacecraft Potential Control, Ion Beam Emitter (RON) on Interball Auroral Probe</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1996-050C</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1996-050C</ObservatoryID>
   </Instrument>
 </Spase>

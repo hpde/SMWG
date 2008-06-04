@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/2001-034A-01</ResourceID>
+    <ResourceID>spase://SMWG/instrument/2001-034A-01</ResourceID>
     <ResourceHeader>
       <ResourceName>Genesis Plasma Spectrometers</ResourceName>
       <AlternateName>Genesis Ion Monitor (GIM)</AlternateName>
@@ -18,7 +18,7 @@ Genesis Electron Monitor (GEM)
 The GEM sensor head is almost an identical copy of the electron spectrometers that are currently flying on ACE (SWEPAM-E) and on Ulysses (BAM-E) but the electronics are of a new design. Basically, GEM consists of a 120 degree ESA that is backed by an array of seven CEMs for energy-angle analysis of incident plasma electrons. The energy range of the instrument is 1 to 1400 eV, the energy resolution is ~14%, and the FOV is ~12 degrees in azimuth (this varies somewhat with polar angle) by ~150 degrees in polar angle. The center of the FOV is centered along a normal to the spacecraft spin axis and consequently the FOV sweeps out approximately 94% of the sky during each spin. Data acquisition of the GEM is synchronized with that of the GIM and also takes four spins of the spacecraft to execute. A complete data matrix for the GEM consists of electron counts for seven polar angles and twenty four azimuthal angles and twenty energy levels.
 Both the GEM and GIM were in continuous operation since shortly after launch in August 2001 until August 04, 2004, a month before sample re-entry.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Roger.Wiens</PersonID>
+        <PersonID>spase://SMWG/Person/Roger.Wiens</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -29,6 +29,6 @@ Both the GEM and GIM were in continuous operation since shortly after launch in 
     </ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Genesis Plasma Spectrometers on Genesis</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/2001-034A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/2001-034A</ObservatoryID>
   </Instrument>
 </Spase>

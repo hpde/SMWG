@@ -2,17 +2,17 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1990-065A-14</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1990-065A-14</ResourceID>
     <ResourceHeader>
       <ResourceName>Proton Switch</ResourceName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>This experiment consisted of two lithium-drifted silicon detectors which were each centered under a hemispherical aluminum dome. These detectors measured the omnidirectional flux of protons in the energy range 20 - 80 MeV and were made insensitive to electrons by high electronic discriminator thresholds. The main use of this instrument was to signal the spacecraft Data Processing Unit that protons were present so that the telemetry allocations for certain experiments could be changed. This experiment was part of the SPACERAD project sponsored by AFGL.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/J.Bernard.Blake</PersonID>
+        <PersonID>spase://SMWG/Person/J.Bernard.Blake</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <Contact>
-        <PersonID>spase://swg/Person/E.Gary.Mullen</PersonID>
+        <PersonID>spase://SMWG/Person/E.Gary.Mullen</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -23,6 +23,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Proton Switch on CRRES</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1990-065A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1990-065A</ObservatoryID>
   </Instrument>
 </Spase>

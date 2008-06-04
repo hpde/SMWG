@@ -2,13 +2,13 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1994-022A-03</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1994-022A-03</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar X-ray Monitor</ResourceName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>The X-ray monitor consisted of two ion chambers, mounted behind a slim rectangular field-of-view (48 deg x 3 deg) collimator made of lead-lined aluminum. The chamber for the lower wavelength band of 0.05 to 0.40 nanometer was filled with Xe-He mixture with an entry aperture made of 20 mil Be sheet. For the other band, 0.1-0.8 nm, the gas was Ar-He mixture and the aperture was a 2 mil Be. The threshold sensitivities were 1.0E-12 J per sq cm per s for the lower wavelength band, and 1.0E-11 J per sq cm per s for the higher band; each had a dynamic range of four decades. Entry of charged particle were prevented by the strong magnetic field located at the chamber windows.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Howard.A.Garcia</PersonID>
+        <PersonID>spase://SMWG/Person/Howard.A.Garcia</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Solar X-ray Monitor on GOES  8</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1994-022A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1994-022A</ObservatoryID>
   </Instrument>
 </Spase>

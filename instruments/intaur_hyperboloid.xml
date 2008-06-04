@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1996-050C-10</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1996-050C-10</ResourceID>
     <ResourceHeader>
       <ResourceName>Ion Mass Analyzer (HYPERBOLOID)</ResourceName>
       <ReleaseDate>2006-03-21T00:00:00Z</ReleaseDate>
@@ -13,7 +13,7 @@ Each window is followed by a spherical electrostatic energy analyzer. In normal 
 An arrangement of 2 toroidal concentrators is used to focus ions at the entrance of a magnet (which provides the mass separation), irrespective of their direction of arrival. There are 4 identical detectors in the focal plane, one for each of the major ions, which depending on the ion flux can be operated either in digital (pulse counting) or in analogical (charge integration) mode, thus providing a total dynamic range of 1E11.
 The temporal resolution of the instrument for a complete angular and energy scan depends on the telemetry rate and varies from ~ 1 to 16 seconds in most modes of operation.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Jean-Jacques.Berthelier</PersonID>
+        <PersonID>spase://SMWG/Person/Jean-Jacques.Berthelier</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -24,6 +24,6 @@ The temporal resolution of the instrument for a complete angular and energy scan
     </ResourceHeader>
     <InstrumentType>MassSpectrometer</InstrumentType>
     <InvestigationName>Ion Mass Analyzer (HYPERBOLOID) on Interball Auroral Probe</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1996-050C</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1996-050C</ObservatoryID>
   </Instrument>
 </Spase>

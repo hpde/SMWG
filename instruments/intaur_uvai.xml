@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1996-050C-16</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1996-050C-16</ResourceID>
     <ResourceHeader>
       <ResourceName>UV Auroral Imager (UVAI)</ResourceName>
       <ReleaseDate>2006-03-21T00:00:00Z</ReleaseDate>
@@ -12,7 +12,7 @@ UVAI images are affected in various ways by the wobble, depending on the amplitu
 UVAI image data were obtained with 12 bit resolution, potentially allowing a dynamic range of 4096. Logarithmic compression was applied to map 12 bit counts onto 8 bit data numbers in order to reduce data volume and telemetry requirements.
 The UVAI home page at http://www.phys.ucalgary.ca/~bjackel/uvai/main.html provides a catalog of approximately three months of good image data, from January to March 1997.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Leroy.L.Cogger</PersonID>
+        <PersonID>spase://SMWG/Person/Leroy.L.Cogger</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -23,6 +23,6 @@ The UVAI home page at http://www.phys.ucalgary.ca/~bjackel/uvai/main.html provid
     </ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>UV Auroral Imager (UVAI) on Interball Auroral Probe</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1996-050C</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1996-050C</ObservatoryID>
   </Instrument>
 </Spase>

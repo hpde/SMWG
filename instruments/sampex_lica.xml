@@ -2,14 +2,14 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1992-038A-01</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1992-038A-01</ResourceID>
     <ResourceHeader>
       <ResourceName>Low-Energy Ion Composition Analyzer (LICA)</ResourceName>
       <AlternateName>LICA</AlternateName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>The LICA experiment was designed to measure 0.5--5 MeV/nucleon solar and magnetospheric ions (He through Ni) arriving from the zenith in twelve energy bands. The mass of an ion was determined with simultaneous measurements of its time-of-flight (TOF) across a path length of approximately 50 cm and its residual kinetic energy in one of four 4 x 9 cm silicon solid state detectors. Ions passing through the 0.75 micrometer nickel entrance foils emitted secondary electrons which a chevron microchannel plate assembly amplified to form a signal to begin timing. A double entrance foil prevented single pinholes from allowing sunlight to enter the telescope and provided immunity to solar and geocoronal ultraviolet. Another foil and microchannel plate assembly in front of the solid state detectors gave the signal to stop timing. Wedge-and-strip anodes on the front sides of the timing anodes determined where the ion passed through the foils and, therefore, its flight path length. The velocity determined from the path length, the TOF, and the residual energy measured by the solid state detectors were combined to yield the mass of the ion with a resolution of about 1%, adequate to provide complete isotope separation. Corrections for the energy loss in the entrance foils gave the ion's incident energy. The geometric factor of the sensor was 0.8 sq cm sr and the field of view was 17 x 21 degrees. On-board processing determined whether ions triggering LICA were protons, He nuclei, or more massive ions. Protons were counted in a rate and not further analyzed. Heavier nuclei were treated as low (He) or high (more massive than He) priority for transmission to the ground. The instrument data processing unit ensured that a sample of both priority events was telemetered, but that low priority events did not crowd out the rarer heavy species. Processed flux rates vs. energy of H, He, O, Si group, and Fe groups were picked out every 15 s for transmission. Appropriate magnetic field models enabled specification of the atomic charge state by means of rigidity cut-off calculations. In addition, the proton cut-off vs. energy during an orbit helped charge identification of the other species. On-board calibrations of the sensor were done by command about once per week. Data was stored in on-board memory of 26.5 MB, which was then dumped twice daily over ground stations. The instrument functioned normally as of 15 July 1996; the next update will be only when any significant status change occured.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Glenn.M.Mason</PersonID>
+        <PersonID>spase://SMWG/Person/Glenn.M.Mason</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
       <InformationURL>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Low-Energy Ion Composition Analyzer (LICA) on SAMPEX</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1992-038A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1992-038A</ObservatoryID>
   </Instrument>
 </Spase>

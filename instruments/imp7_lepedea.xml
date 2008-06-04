@@ -2,13 +2,13 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1972-073A-04</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1972-073A-04</ResourceID>
     <ResourceHeader>
       <ResourceName>Measurement of Low-Energy Protons and Electrons</ResourceName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>This experiment measured the energy spectra of low-energy electrons and protons in the geocentric range 30 to 40 earth radii to further understand geomagnetic storms, aurora, tail and neutral sheet, and other magnetospheric phenomena. The detector was a dual-channel curved-plate electrostatic analyzer (LEPEDEA - low-energy proton and electron differential energy analyzer) with 16 energy intervals between 5 eV and 50 keV. It had an angular field of view of 9 deg by 25 deg in four directions perpendicular to the spacecraft spin axis. The detector was operated in one of two modes: (1) one providing good angular resolution (16 directions for each particle energy band) once each 272 s, and (2) one providing good temporal resolution in which the entire energy range in four directions was measured every 68 s. For further details, see Frank, L. A. et al., J. Geophys. Res., v. 82, p. 129, 1977.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Louis.A.Frank</PersonID>
+        <PersonID>spase://SMWG/Person/Louis.A.Frank</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Measurement of Low-Energy Protons and Electrons on IMP-H</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1972-073A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1972-073A</ObservatoryID>
   </Instrument>
 </Spase>

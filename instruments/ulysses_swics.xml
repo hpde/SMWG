@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1990-090B-04</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1990-090B-04</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar Wind Ion Composition Spectrometer (GLG/SWICS)</ResourceName>
       <AlternateName>GLG</AlternateName>
@@ -10,7 +10,7 @@
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>This investigation utilizes a Solar Wind Ion Composition Spectrometer (SWICS) to determine the elemental and ionic composition, temperatures, and mean speeds of all major solar wind ions from H through Fe. The range of wind speed covered is 145 through 1350 km/s, and the energy/charge (E/Q) range is 110 eV/Q through 66.7 keV/Q. Collimated ions first enter an electrostatic analyzer and are post-accelerated, after exit, by a fixed 30-kV potential (V) into a time-of-flight (T) chamber and then into a solid state detector which measures the energy, E+V. From the measured values of E/Q, T, and E+V, the energy, charge, and mass of an entering ion are fully determined. The instrument has a mass of 5.6 kg, uses 3.6 W mean and 4.7 W peak power, and has a data rate of 44 bps in storage mode and 88 bps in tracking mode.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/George.Gloeckler</PersonID>
+        <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -21,6 +21,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Solar Wind Ion Composition Spectrometer (GLG/SWICS) on Ulysses</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1990-090B</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1990-090B</ObservatoryID>
   </Instrument>
 </Spase>

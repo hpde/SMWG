@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://swg/observatory/1972-012A</ResourceID>
+    <ResourceID>spase://SMWG/observatory/1972-012A</ResourceID>
     <ResourceHeader>
       <ResourceName>Pioneer 10</ResourceName>
       <AlternateName>Pioneer-F</AlternateName>
@@ -25,7 +25,7 @@ Various other spacecraft subsystems also either failed or were turned off for po
 
 The total mission cost for Pioneer 10 through the 1997 end of official science operations was about 350 million in FY 2001 U.S. dollars. This included about 200 million dollars for pre-launch design and development, and another 150 million for launch, telemetry tracking, mission operations and data analysis. These estimates were provided by the former Pioneer Project at NASA Ames Research Center.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Palmer.Dyal</PersonID>
+        <PersonID>spase://SMWG/Person/Palmer.Dyal</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
       <InformationURL>

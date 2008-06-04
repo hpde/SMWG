@@ -2,13 +2,13 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://swg/observatory/1983-067A</ResourceID>
+    <ResourceID>spase://SMWG/observatory/1983-067A</ResourceID>
     <ResourceHeader>
       <ResourceName>Prognoz  9</ResourceName>
       <ReleaseDate>2007-08-27T18:40:19Z</ReleaseDate>
       <Description>This spacecraft was one of a continuing series to measure electromagnetic radiation, magnetic fields, plasma, and charged particles. Although the specifics on all experiments are not available, it is known that a hard X-ray spectrometer, a magnetic field measuring experiment, and an 8-mm radio telescope were flown on Prognoz 9, and possibly a plasma experiment was also on board. The spacecraft was spin-stabilized, with a period of approximately two minutes, and the spin axis was oriented toward the sun. The initial apogee distance was 720,000 km, and the period was 27 days.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Albert.A.Galeev</PersonID>
+        <PersonID>spase://SMWG/Person/Albert.A.Galeev</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
       <InformationURL>

@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://swg/observatory/2004-029A</ResourceID>
+    <ResourceID>spase://SMWG/observatory/2004-029A</ResourceID>
     <ResourceHeader>
       <ResourceName>Double Star 2</ResourceName>
       <AlternateName>Explorer  2</AlternateName>
@@ -13,7 +13,7 @@
 
 http://sci.esa.int/science-e/www/area/index.cfm?fareaid=70</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Christophe.Philippe.Escoubet</PersonID>
+        <PersonID>spase://SMWG/Person/Christophe.Philippe.Escoubet</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
       <InformationURL>

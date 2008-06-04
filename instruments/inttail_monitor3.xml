@@ -2,13 +2,13 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1995-039A-07</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1995-039A-07</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar Wind Analyzer (MONITOR-3)</ResourceName>
       <ReleaseDate>2006-03-18T00:00:00Z</ReleaseDate>
       <Description>This instrument makes measurements of the solar wind ion fluxes and energy-angular distributions of H+ and He++ around the Sun direction with high time resolution.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Zdenek.Nemecek</PersonID>
+        <PersonID>spase://SMWG/Person/Zdenek.Nemecek</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Solar Wind Analyzer (MONITOR-3) on Interball Tail Probe</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1995-039A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1995-039A</ObservatoryID>
   </Instrument>
 </Spase>

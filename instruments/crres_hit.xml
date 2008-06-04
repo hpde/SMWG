@@ -2,17 +2,17 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1990-065A-17</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1990-065A-17</ResourceID>
     <ResourceHeader>
       <ResourceName>Heavy Ion Telescope</ResourceName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>The Heavy Ion Telescope (HIT) was part of the Mass Composition Instruments group and used a three-element solid state detector to measure the energy loss, incident ion energy and the time of flight along a fixed length. The three measured parameters enabled unique determination of the ion mass, elemental identification and incident energy over the range of 100 keV to 15 MeV per ion for H-Ar. The first HIT detector measured the differential (dE/dx) energy loss of the penetrating ion, the second measured the residual energy of ions stopping in that detector, and the third vetoed ions penetrating the first two. The time of flight along a 7.6-cm track was measured by the almost instantaneous emission of secondary electrons by the first and second detectors. The measured energy loss, total energy and the time of flight were digitized and transferred to the data processing unit for telemetering. This experiment was part of the SPACERAD project sponsored by AFGL.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Theodore.Allan.Fritz</PersonID>
+        <PersonID>spase://SMWG/Person/Theodore.Allan.Fritz</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <Contact>
-        <PersonID>spase://swg/Person/E.Gary.Mullen</PersonID>
+        <PersonID>spase://SMWG/Person/E.Gary.Mullen</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -23,6 +23,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Heavy Ion Telescope on CRRES</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1990-065A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1990-065A</ObservatoryID>
   </Instrument>
 </Spase>

@@ -2,14 +2,14 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1992-038A-03</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1992-038A-03</ResourceID>
     <ResourceHeader>
       <ResourceName>Mass Spectrometer Telescope (MAST)</ResourceName>
       <AlternateName>MAST</AlternateName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>MAST was an 11 layer array of detectors, each of area &gt;20 cm**2, stacked one below the other. The first four of these, M1, M2, M3, and M4, were surface-barrier, one-dimensional, position sensitive detectors, each having 92 coplanar, parallel electrode strips with 0.5 mm pitch. The combination of these four layers enabled determination of the X-Y coordinates at two positions, and hence the exact trajectories of penetrating nuclei. Following these were two more surface-barrier detectors, D1 and D2. Further downstream were lithium-drifted solid state detectors, D3 through D7. The areas and thicknesses of the detectors were as follows: M1--M4:20 cm**2, 115 micrometer; D1:20 cm**2, 175 micrometer; D2:20 cm**2, 500 micrometer; D3 through D7 had area of 30 cm**2, with thicknesses, respectively, of 1.8 mm, 3.0 mm, 6.0 mm (compound stack of 2 3.0 mm detectors), 9.0 mm (compound stack of 3 3.0 mm detectors), and 3.0 mm. The signal from the last-penetrated detector measured the residual energy E', and the upstream detectors provided dE/dx with abundant redundancy. The trajectory system, together with preflight calibrations at the Bevalac particle accelerator, enabled considerably more precision in isotopic mass determination, i.e., 0.2 amu, than would otherwise have been possible for the energy range of 10 MeV/nucleon to several hundred MeV/nucleon, and charge ranges of 3 &lt;= Z &lt;= 28. The on-board DPU enabled down-linking of data from Z &gt; 3 events on a priority basis. For more information, see IEEE Transactions on Geoscience and Remote Sensing, vol 31, May 93, pp 557-564. The instrument functioned normally as of 15 July 1996; the next update will be only when any significant status change occured.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Glenn.M.Mason</PersonID>
+        <PersonID>spase://SMWG/Person/Glenn.M.Mason</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Mass Spectrometer Telescope (MAST) on SAMPEX</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1992-038A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1992-038A</ObservatoryID>
   </Instrument>
 </Spase>

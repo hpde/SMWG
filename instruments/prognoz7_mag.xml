@@ -2,13 +2,13 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1978-101A-04</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1978-101A-04</ResourceID>
     <ResourceHeader>
       <ResourceName>Three-Axis Fluxgate Magnetometers</ResourceName>
       <ReleaseDate>1998-05-06T00:00:00Z</ReleaseDate>
       <Description>Two three-axis fluxgate magnetometers were used to measure vector magnetic fields from 1 to 1,200 nT with an intensity resolution of 0.5 nT. Both interplanetary and geomagnetic tail fields could be measured.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Sh.S.Dolginov</PersonID>
+        <PersonID>spase://SMWG/Person/Sh.S.Dolginov</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Three-Axis Fluxgate Magnetometers on Prognoz  7</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1978-101A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1978-101A</ObservatoryID>
   </Instrument>
 </Spase>

@@ -2,13 +2,13 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1969-051A-05</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1969-051A-05</ResourceID>
     <ResourceHeader>
       <ResourceName>Ion Mass Spectrometer</ResourceName>
       <ReleaseDate>1998-05-06T00:00:00Z</ReleaseDate>
       <Description>This experiment was designed to obtain data that would describe the global distribution of the ion composition of the upper ionosphere, with emphasis on the temporal and spatial variations. Specific flight objectives included the following: (1) to continue the detailed study of ion composition as a function of magnetic coordinates (latitude, longitude, time and McIlwain L parameter), to investigate the means and degree of magnetic control of ion distribution, (2) to study the earth-sun relationship effects on the concentrations of the ion species in both the chemical and diffusive equilibrium regions--for example, the pronounced variation in the atomic oxygen atomic hydrogen ions transition level, and (3) to study the magnetic polar transition regions with special emphasis on the inner and outer ionosphere coupling and the low-altitude sharp transition in ion composition and density. The detector, a Bennett radio frequency ion mass spectrometer, consisted of a tube with a series of plane-parallel knitted grids mounted normal to the tube axis. Both ac and dc fields accelerated the ions down the length of the tube toward a collector. Only those ions satisfying the velocity and phase conditions established by the fields received sufficient energy from the fields to pass a retarding potential grid and impinge on the collector. Ambient thermal positive ions in the mass range from 1 to 45 atomic mass units (u) were measured with a resolution of approximately 1 in 20 u. The instrument's sensitivity ranged from approximately 1.E6 ions/cc to approximately 10 ions/cc. Measurements of a given ion were repeated once every 36.8 s, for an average spatial resolution of about 2 deg in latitude. The sensor was mounted on the orbit plane experiment package (OPEP) and was positioned to point into the direction of motion whenever possible. Periodic (inflight) calibrations were performed. In addition, the selection of the mass scan rate and instrument sensitivity could be changed by ground command. The OGO 6 experiment operated essentially continuously from launch until September 1, 1970, when the spacecraft's operation became intermittent as a result of spacecraft malfunction. All spacecraft operations were terminated on June 28, 1971. At that time the experiment was still operational. NSSDC has all the useful data that exist from this investigation.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Harry.A.Taylor.Jr</PersonID>
+        <PersonID>spase://SMWG/Person/Harry.A.Taylor.Jr</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>MassSpectrometer</InstrumentType>
     <InvestigationName>Ion Mass Spectrometer on OGO 6</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1969-051A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1969-051A</ObservatoryID>
   </Instrument>
 </Spase>

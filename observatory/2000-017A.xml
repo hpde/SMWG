@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://swg/observatory/2000-017A</ResourceID>
+    <ResourceID>spase://SMWG/observatory/2000-017A</ResourceID>
     <ResourceHeader>
       <ResourceName>IMAGE</ResourceName>
       <AlternateName>MIDEX/IMAGE</AlternateName>
@@ -17,7 +17,7 @@ On December 18, 2005, after 5.8 years of successful operations, IMAGE's telemetr
 
 http://www.nasa.gov/home/hqnews/2006/jan/HQ_06030_IMAGE_quits.html</Description>
       <Contact>
-        <PersonID>spase://swg/Person/James.L.Burch</PersonID>
+        <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>

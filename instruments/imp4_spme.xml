@@ -2,13 +2,13 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1967-051A-07</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1967-051A-07</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar Proton Monitoring Experiment</ResourceName>
       <ReleaseDate>2005-07-07T00:00:00Z</ReleaseDate>
       <Description>The solar proton monitoring experiment used four separate detectors, each of which used one or more solid-state sensors. Three detectors measured the omnidirectional fluxes of protons and alpha particles with energy per nucleon values above 10, 30, and 60 MeV. Alpha particle contributions to the total count rates were generally less than 10%. These detectors were also sensitive to electrons above approximately 0.7, 2, and 8 MeV, respectively. The 10-MeV channel was sampled for two 19.2-s intervals every 163.8 s and the 30- and 60-MeV channels for one 19.2-s interval every 163.8 s. Resultant hourly averaged fluxes have been published in Solar-Geophysical Data (NOAA, Boulder) on a rapid basis. The fourth detector had a 60-deg full look angle normal to the spacecraft spin axis and measured fluxes of 1- to 10-MeV protons for two 19.2-s intervals every 163.8 s. Data were obtained from the first three detectors between launch and May 3, 1969. Data from the fourth detector were obtained between launch and June 12, 1968. NSSDC has all the useful data that now exist.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Carl.O.Bostrom</PersonID>
+        <PersonID>spase://SMWG/Person/Carl.O.Bostrom</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Solar Proton Monitoring Experiment on IMP-F</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1967-051A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1967-051A</ObservatoryID>
   </Instrument>
 </Spase>

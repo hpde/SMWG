@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1990-090B-08</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1990-090B-08</ResourceID>
     <ResourceHeader>
       <ResourceName>Magnetic Field (HED/VHM/FGM)</ResourceName>
       <AlternateName>FGM</AlternateName>
@@ -11,7 +11,7 @@
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>The objectives of this investigation are to determine the strength and geometry of the interplanetary magnetic field in the inner heliosphere (particularly at high solar latitudes) and to investigate the heliographic latitude dependence of the field fluctuation spectra with special emphasis on the frequency range below 0.01 Hz. Secondary objectives are to study the internal dynamics of the solar wind, the role of discontinuities and waves in the interplanetary field on propagation and acceleration of energetic particles, the interplanetary propagation and development of discontinuities and waves, and the structure and dynamics of the dusk region of the Jovian magnetosphere. The instrument consists of a triaxial fluxgate magnetometer, a vector helium magnetometer, and associated electronics. The instrument has a mass of 4.75 kg and uses 5.4 W of power. It has a data rate of 40 bps in the cruise mode and 80 bps in the tracking mode.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Andre.Balogh</PersonID>
+        <PersonID>spase://SMWG/Person/Andre.Balogh</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -22,6 +22,6 @@
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Magnetic Field (HED/VHM/FGM) on Ulysses</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1990-090B</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1990-090B</ObservatoryID>
   </Instrument>
 </Spase>

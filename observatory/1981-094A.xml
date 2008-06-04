@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://swg/observatory/1981-094A</ResourceID>
+    <ResourceID>spase://SMWG/observatory/1981-094A</ResourceID>
     <ResourceHeader>
       <ResourceName>Aureol 3</ResourceName>
       <AlternateName>Aureole 3</AlternateName>
@@ -11,11 +11,11 @@
       <ReleaseDate>2007-08-27T18:40:19Z</ReleaseDate>
       <Description>Aureol 3 was a Soviet satellite that was part of the Intercosmos Series, subset AUOS-T (automatic universal orbital station terrestrial studies). The spacecraft was launched September 21, 1981, in a near-polar orbit. The center portion of the spacecraft was a pressurized cylinder 1.6 m in diameter and 2.7 m in height. Extending from the central body and deployed after launch were the telemetry and command antennas, the solar panels, and six booms holding various sensors away from the spacecraft. Magnetic torquing and gravity gradient were utilized to achieve three-axis stabilization. The Z axis of the spacecraft was aimed toward the center of the earth, the X axis was the direction of the spacecraft velocity vector. Both passive and active thermal control were used. Eight solar panels and 28-V batteries provided a maximum power of 250 W, and an average power of 50 W. The spacecraft carried a total of 12 experiments (4 from the USSR, 7 from France, and 1 done jointly by France and the USSR). The overall objectives were to provide some answers to the numerous questions related to magnetosphere-ionosphere coupling at high latitudes. The phenomena of interest included aurorae, magnetospheric substorms, origin and transport of plasmas, associated energies, electric currents, and electric fields. The experiments planned to meet these objectives included measurements of ambient electron density, electron temperature, and plasma velocity; of charged particles over the range 0.1 eV to 255 keV, plus electrons with energies above 40 keV and protons with energies above 500 keV; of dc electric and magnetic fields (0 to 10 Hz); of ELF and VLF waves in the range 0.01 to 16 kHz; of electric fields at frequencies from 0.1 to 16 MHz; and of auroral photometry at 4278 A, 4861 A, and 6300 A. Commands were either carried out in real time or stored on a weekly basis. Two instruments were used for onboard processing of experimental data. The correlometer provided cross-correlation and autocorrelation data for the measurement from either the four Kukushka detectors (81-094A-01) or two Kukushka and two Pietstchanka (81-094A-02) detectors. The ONTCH-2ME instrument provided onboard processing of the data from the ISO F (81-094A-09) and ISO M (81-094A-10) experiments. Two telemetry systems were used, a direct read-out system used over French telemetry stations and a delayed read-out system that used tape-recording and play back over the Soviet telemetry stations. The routine scheduling of operations for the French experiments was initiated weekly (on Fridays), 24 days in advance. It was coordinated through the French Centre d'Operations Specialise ARCAD 3 (COS A3) and forwarded to the Institute for Space Research (IKI), Moscow, where it was merged with the input from the Russian experimenters. It was then returned to France for concurrence and returned to IKI Moscow 11 days prior to the beginning of operations. The schedule was then finalized and distributed 5 days prior to the beginning of operations.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Yuri.I.Galperin</PersonID>
+        <PersonID>spase://SMWG/Person/Yuri.I.Galperin</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
       <Contact>
-        <PersonID>spase://swg/Person/Henri.Reme</PersonID>
+        <PersonID>spase://SMWG/Person/Henri.Reme</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
       <InformationURL>

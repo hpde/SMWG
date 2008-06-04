@@ -2,14 +2,14 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1995-065A-08</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1995-065A-08</ResourceID>
     <ResourceHeader>
       <ResourceName>Comprehensive Suprathermal and Energetic Particle Instrument (COSTEP)</ResourceName>
       <AlternateName>COSTEP</AlternateName>
       <ReleaseDate>1998-05-06T00:00:00Z</ReleaseDate>
       <Description>The COSTEP (COmprehensive SupraThermal and Energetic Particle) instrument with sensors LION and EPHIN is a subset of the CEPAC experiment measuring the solar particle emission over a wide range of species (electrons through iron) and energies (40 KeV/particle to 500 MeV/nucleon). LION (Low-energy Ion and electron instrument) has two sensor heads, each containing a double telescope and measuring spectra of ions and electrons in the range 40 KeV to 5 MeV for protons, 1.5--6 MeV/nucleon for Helium nuclei, and 40--300 KeV for electrons. The LION detector system consists of three ion implanted silicon detectors. One sensor head employs a broom magnet to sweep electrons of energies &lt;300 KeV away from the detectors. The total field of view is 60 x 40 degrees. A total of 32 energy channels are accumulated with 15 s resolution. From these it is possible to derive good spectra during large solar events with about one minute resolution. The EPHIN sensor is a multi-element array of solid state detectors with anticoincidence to measure energy spectra of electrons in the range 150 KeV to &gt;5MeV and hydrogen and helium isotopes in the range 4 MeV/nucleon to &gt;53 MeV/nucleon with a maximum geometric factor of 5.1 cm**3 sr (self-adapting to particle fluxes). The field of view is a cone of 90 degrees full angle. The separation of particle species is provided by a set of five thresholds in the first detector. A small sample of particles is analyzed in pulse height. Four 128-bin histograms containing coarse spectral information are generated on-board separately for four detector ranges and transmitted each minute together with rates and pulse height words. The COSTEP data will be routinely searched for irregular 3He contributions in the EPHIN pulse height words, especially during special campaigns or if other information is available predicting higher contributions. If 3He is observed, the correlation with electron observations of various energies will be investigated to compare acceleration, release, and travel times as well as spectral features. This information is from the paper ``COSTEP - Comprehensive Suprathermal and Energetic Particle Analyser for SOHO - Scientific Goals and Data Description,'' by H. Kunow et al. (Proceedings of the First SOHO Workshop, ESA SP-348, pp. 43-46, November 1992).</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Horst.W.Kunow</PersonID>
+        <PersonID>spase://SMWG/Person/Horst.W.Kunow</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Comprehensive Suprathermal and Energetic Particle Instrument (COSTEP) on SOHO</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1995-065A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1995-065A</ObservatoryID>
   </Instrument>
 </Spase>

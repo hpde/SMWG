@@ -2,14 +2,14 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1993-050A-04</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1993-050A-04</ResourceID>
     <ResourceHeader>
       <ResourceName>Space Environmental Monitor (SEM)</ResourceName>
       <AlternateName>SEM</AlternateName>
       <ReleaseDate>1998-04-02T00:00:00Z</ReleaseDate>
       <Description>The Space Environmental Monitor (SEM) experiment was an extension of the solar-proton monitoring experiment (SPM) flown on the ITOS spacecraft series. The objective was to measure proton flux, electron flux density, and energy spectrum in the upper atmosphere. The experiment package consisted of two detector systems and a data processing unit. The two components were: The Total Energy Detector (TED) and the Medium Energy Proton and Electron Detector (MEPED). The medium energy proton and electron detector (MEPED) measured protons in five energy ranges from 30 keV to &gt;60 MeV; electrons above 30, 100, and 300 keV; protons and electrons (inseparable) above 6 MeV; and omni-directional protons above 16, 36, and 80 MeV. The MEPED consisted of four directional, solid-state detector telescopes and an omni- directional sensor. The output from the detectors were connected to a signal analyzer which sensed and logically selected events above threshold values. The total energy detector (TED) measured the intensity of protons and electrons between 300 eV and 20 keV. The instrument consisted of a curved plate analyzer and a channeltron detector. Four curved plate analyzers measured incoming protons and electrons.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/R.Bushnell</PersonID>
+        <PersonID>spase://SMWG/Person/R.Bushnell</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Space Environmental Monitor (SEM) on NOAA 13</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1993-050A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1993-050A</ObservatoryID>
   </Instrument>
 </Spase>

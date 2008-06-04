@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/2006-047B-01</ResourceID>
+    <ResourceID>spase://SMWG/instrument/2006-047B-01</ResourceID>
     <ResourceHeader>
       <ResourceName>Stereo-B Sun Earth Connection Coronal and Heliospheric Investigation (SECCHI)</ResourceName>
       <AlternateName>SECCHI</AlternateName>
@@ -13,7 +13,7 @@ COR1 and COR2 respectively cover the corona at solar radii of 1.25 to 4 and 2 to
 More information abour SECCHI science objectives, instrumentation, and operations are available at the investigation web site:
 http://projects.nrl.navy.mil/secchi/index.html</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Russell.A.Howard</PersonID>
+        <PersonID>spase://SMWG/Person/Russell.A.Howard</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -24,6 +24,6 @@ http://projects.nrl.navy.mil/secchi/index.html</Description>
     </ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>Stereo-B Sun Earth Connection Coronal and Heliospheric Investigation (SECCHI) on STEREO B</InvestigationName>
-    <ObservatoryID>spase://swg/Observatory/STEREO-B</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/STEREO-B</ObservatoryID>
   </Instrument>
 </Spase>

@@ -2,14 +2,14 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://swg/observatory/1991-032A</ResourceID>
+    <ResourceID>spase://SMWG/observatory/1991-032A</ResourceID>
     <ResourceHeader>
       <ResourceName>NOAA 12</ResourceName>
       <AlternateName>NOAA-D</AlternateName>
       <ReleaseDate>2007-08-27T18:40:19Z</ReleaseDate>
       <Description>NOAA-12 (NOAA-D before launch) is a third-generation operational meteorological satellite for use in the National Environmental Satellite, Data, and Information Service (NESDIS). The satellite design provides an economical and stable sun-synchronous (morning equator-crossing) platform for advanced operational instruments to measure the earth's atmosphere, its surface and cloud cover, and the near-space environment. Primary sensors include an Advanced Very High Resolution Radiometer (AVHRR) for observing daytime and nighttime global radiances and temperatures and a TIROS Operational Vertical Sounder (TOVS) for obtaining temperature and water vapor profiles through the earth's atmosphere. Secondary experiments consist of a Space Environment Monitor (SEM), which measures the proton and electron fluxes near the earth, and an ARGOS Data Collection and Location System, which processes and relays to central data acquisition stations the various meteorological data received from free-floating balloons and ocean buoys distributed around the globe. The satellite is based upon the Block 5D spacecraft bus developed for the U.S. Air Force, and it is capable of maintaining an earth-pointing accuracy of better than plus or minus 0.1 deg with a motion rate of less than 0.035 deg/s. NOAA 12 operations were closed as of April 2001.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Albert.Arking</PersonID>
+        <PersonID>spase://SMWG/Person/Albert.Arking</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
       <InformationURL>

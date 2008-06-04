@@ -2,13 +2,13 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1973-078A-10</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1973-078A-10</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar Plasma Electrostatic Analyzer</ResourceName>
       <ReleaseDate>2005-08-09T00:00:00Z</ReleaseDate>
       <Description>A hemispherical electrostatic analyzer measured the directional intensity of positive ions and electrons in the solar wind, magnetosheath, and magnetotail. Ions as heavy as oxygen were resolved when the solar wind temperature was low. Energy analysis was accomplished by charging the plates to known voltage levels and allowing them to discharge with known RC time constants. In the solar wind, positive ions from 200 eV to 5 keV (15% spacing, 3% resolution) and electrons from 5 eV to 1 keV (30% spacing, 15% resolution) were studied. In the magnetosheath, positive ions from 200 eV to 5 keV (15% spacing, 3% resolution) and from 200 eV to 20 keV (30% spacing, 15% resolution) and electrons from 5 eV to 1 keV (30% spacing, 15% resolution) were studied. In the magnetotail, positive ions from 200 eV to 20 keV (30% spacing, 15% resolution) and electrons from 5 eV to 1 keV (30% spacing, 15% resolution) and from 100 eV to 20 keV (15% resolution) were studied. For further details see W. C. Feldman et al., J. Geophys., v. 80, p. 4181, 1975. No data were obtained from this experiment past October 2001.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/John.T.Gosling</PersonID>
+        <PersonID>spase://SMWG/Person/John.T.Gosling</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Solar Plasma Electrostatic Analyzer on IMP-J</InvestigationName>
-    <ObservatoryID>spase://swg/Observatory/IMP8</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/IMP8</ObservatoryID>
   </Instrument>
 </Spase>

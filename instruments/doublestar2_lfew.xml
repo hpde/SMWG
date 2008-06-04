@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/2004-029A-05</ResourceID>
+    <ResourceID>spase://SMWG/instrument/2004-029A-05</ResourceID>
     <ResourceHeader>
       <ResourceName>Low-Frequency Electromagnetic Wave Detector (LFEW)</ResourceName>
       <AlternateName>LFEW</AlternateName>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Low-Frequency Electromagnetic Wave Detector (LFEW) on Double Star 2</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/2004-029A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/2004-029A</ObservatoryID>
   </Instrument>
 </Spase>

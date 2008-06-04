@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://swg/observatory/1971-024A</ResourceID>
+    <ResourceID>spase://SMWG/observatory/1971-024A</ResourceID>
     <ResourceHeader>
       <ResourceName>ISIS 2</ResourceName>
       <AlternateName>International Sats for Ionosph Studies</AlternateName>
@@ -12,15 +12,15 @@
 
 http://nssdc.gsfc.nasa.gov/space/isis/isis-status.html</Description>
       <Contact>
-        <PersonID>spase://swg/Person/John.E.Jackson</PersonID>
+        <PersonID>spase://SMWG/Person/John.E.Jackson</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
       <Contact>
-        <PersonID>spase://swg/Person/Larry.H.Brace</PersonID>
+        <PersonID>spase://SMWG/Person/Larry.H.Brace</PersonID>
         <Role>TeamLeader</Role>
       </Contact>
       <Contact>
-        <PersonID>spase://swg/Person/Theodore.R.Hartz</PersonID>
+        <PersonID>spase://SMWG/Person/Theodore.R.Hartz</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
       <InformationURL>

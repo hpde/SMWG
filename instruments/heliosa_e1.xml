@@ -2,13 +2,13 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1974-097A-09</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1974-097A-09</ResourceID>
     <ResourceHeader>
       <ResourceName>Plasma Detectors</ResourceName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>This experiment (E1) employed three plasma analyzers for positive ions and one for electrons. All detectors were mounted normal to the spin axis. Positive ions with energy per charge within the range 0.155 to 15.32 keV/Q were measured in two angular dimensions using a combination of a hemispherical, a quadrispherical, and a sinusoidally shaped electrostatic analyzer. Electrons with energy from 0.5 to 1660 eV were measured with a hemispherical electrostatic analyzer in one dimension. The experiment operated in several modes, with differing time resolution depending in detail on telemetry format and spacecraft bit rate. Typical time resolution was on the order of a minute. Also, whenever the special shock alarm mode was triggered by experiments -04 or -01, high-time-resolution plasma data for a period before and after the event were recorded into spacecraft memory for later transmission. Because the spacecraft body was dielectric, sheath potentials of up to 100 eV degraded the usefulness of data taken in the lower electron-energy channels. This phenomenon was judged to have minimal effects on the usefulness of the ion data. For more detailed information see p. 226 of Raumfahrtforschung, v. 19, n. 5, 1975.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Helmut.R.Rosenbauer</PersonID>
+        <PersonID>spase://SMWG/Person/Helmut.R.Rosenbauer</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Plasma Detectors on Helios-A</InvestigationName>
-    <ObservatoryID>spase://swg/Observatory/Helios1</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Helios1</ObservatoryID>
   </Instrument>
 </Spase>

@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/2000-017A-01</ResourceID>
+    <ResourceID>spase://SMWG/instrument/2000-017A-01</ResourceID>
     <ResourceHeader>
       <ResourceName>Radio Plasma Imager (RPI)</ResourceName>
       <AlternateName>RPI</AlternateName>
@@ -10,7 +10,7 @@
       <Description>The RPI instrument is a low-power radar which operates in the radio frequency bands which contain the plasma resonance frequencies characteristic of the Earth's magnetophere (3 kHz to 3 MHz). RPI can locate regions of various plasma densities by observing radar echos from the plasma that are reflected where the radio frequency is equal to the plasma frequency. By stepping through various frequencies for the transmitted signal, features of various plasma densities can be observed and, by fitting contours and/or magnetospheric models to the features, a 3-D specification of the shape of the magnetosphere can be created.
 The RPI instrument consists of an electronics enclosure, four 250 m wire antennae with deployers (including switches and couplers), and a z-axis boom canister containing two 10 m lattice boom antennae and two preamplifiers. RPI utilizes three orthogonal dipole antennas of 325 m (x axis), 500 m (y axis), and 20 m (z axis), all tip-to-tip lengths. The x axis antenna was 500 m at the beginning of the mission but was shortened to 325 m when it apparently collided with a micrometeoroid or orbital debris on 3 October 2000.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Bodo.W.Reinisch</PersonID>
+        <PersonID>spase://SMWG/Person/Bodo.W.Reinisch</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -21,6 +21,6 @@ The RPI instrument consists of an electronics enclosure, four 250 m wire antenna
     </ResourceHeader>
     <InstrumentType>LongWire</InstrumentType>
     <InvestigationName>Radio Plasma Imager (RPI) on IMAGE</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/2000-017A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/2000-017A</ObservatoryID>
   </Instrument>
 </Spase>

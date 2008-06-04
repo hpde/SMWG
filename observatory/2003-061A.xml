@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://swg/observatory/2003-061A</ResourceID>
+    <ResourceID>spase://SMWG/observatory/2003-061A</ResourceID>
     <ResourceHeader>
       <ResourceName>Double Star 1</ResourceName>
       <AlternateName>Tan Ce1</AlternateName>
@@ -12,7 +12,7 @@
 
 http://www.esa.int/export/esaSC/120381_index_0_m.html</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Christophe.Philippe.Escoubet</PersonID>
+        <PersonID>spase://SMWG/Person/Christophe.Philippe.Escoubet</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
       <InformationURL>

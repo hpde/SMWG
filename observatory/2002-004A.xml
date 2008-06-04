@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://swg/observatory/2002-004A</ResourceID>
+    <ResourceID>spase://SMWG/observatory/2002-004A</ResourceID>
     <ResourceHeader>
       <ResourceName>RHESSI</ResourceName>
       <AlternateName>SMEX/RHESSI</AlternateName>
@@ -12,7 +12,7 @@
       <ReleaseDate>2007-08-27T18:40:19Z</ReleaseDate>
       <Description>RHESSI (Ramaty High Energy Solar Spectroscopic Imager) is an American (NASA) solar flare observatory that was launched at 20:58 UT on 5 February 2002 by a Pegasus XL rocket which was released from a L-1011 aircraft flying out of the Cape Canaveral AFS. The 293 kg (with fuel), 414 W, 2.2 m (height) x 1.1 m (width) satellite is equipped to image at high resolution solar flares in X-rays and gamma rays. Onboard memory is 4 Gbytes, and telemetry rate is 3.5 Mbits/s. A PDMP exists for archiving the data at the NSSDC.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Robert.P.Lin</PersonID>
+        <PersonID>spase://SMWG/Person/Robert.P.Lin</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>

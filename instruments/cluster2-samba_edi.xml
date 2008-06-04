@@ -2,14 +2,14 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/2000-041A-03</ResourceID>
+    <ResourceID>spase://SMWG/instrument/2000-041A-03</ResourceID>
     <ResourceHeader>
       <ResourceName>Electron Drift Instrument (EDI)</ResourceName>
       <AlternateName>EDI</AlternateName>
       <ReleaseDate>2007-02-02T00:00:00Z</ReleaseDate>
       <Description>This instrument (EDI: Electron Drift Instrument) measures the drift of a weak beam of test electrons that, when emitted in certain directions, return to the spacecraft after one gyration. This drift is related to the electric field and the gradient in the magnetic field, and these quantities can, by the use of different electron energies, be determined separately. As a by-product, the magnetic field strength is also measured. Conventional tungsten cathode electron guns are used, with a beam steerable in any direction within more than a hemisphere. Each detector is axially symmetric and can cover more than 2 pi steradians. A large effective area is made possible by double focusing. Electron guns and detectors are combined in pairs into single gun/detector units (GDUs). Two GDUs are used, mounted on opposite sides of the spacecraft. The detector in each GDU detects the beam electrons from the gun in the other GDU. The emitted electron beam has a finite opening angle of approximately 1 degree. This beam spreads along the magnetic field, but perpendicular to the field the beam is focused after one gyration. To detect the beam electrons in the presence of ambient electrons, and to measure their flight time, the beam is modulated and coded. The modulation frequency can be chosen between 500 KHz and 4 MHz. The pulses received by the detectors, and the delayed format of the code, are then fed into a correlator. Its output will be different from noise only if the delay time equals the electron gyroperiod. The delay times are initialized on the basis of the on-board magnetometer data. The delay time will then drift with a selectable rate until the actual flight times are within the range of the correlators. An auto-track feature then keeps the beam electron counts in a single correlator channel. A second, different correlator scheme is also used, having the advantage that beam electrons are always counted in one of the channels, but the disadvantage that the flight time is not determined unambiguously. The fundamental time step to determine the new parameters and direct the beams and the detectors is 2 ms. In some modes, this can be lengthened, to accommodate tracking tasks that operate on longer time scales. Inter-experiment links include: magnetic field information from FGM and STAFF, a blanking pulse received from WHISPER to warn of possible interference from that active experiment, and a similar blanking pulse sent to PEACE when the EDI electron beam could interfere with the PEACE electron measurement. For more details of the Cluster mission, the spacecraft, and its instruments, see the report ``Cluster: mission, payload and supporting activities,'' March 1993, ESA SP-1159, and the included article ``The Electron Drift Instrument for Cluster,'' by G. Paschmann et al., from which this information was obtained.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Goetz.Paschmann</PersonID>
+        <PersonID>spase://SMWG/Person/Goetz.Paschmann</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Electron Drift Instrument (EDI) on Cluster 2/FM7 (Samba)</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/2000-041A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/2000-041A</ObservatoryID>
   </Instrument>
 </Spase>

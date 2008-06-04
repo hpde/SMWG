@@ -2,14 +2,14 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1975-096A-10</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1975-096A-10</ResourceID>
     <ResourceHeader>
       <ResourceName>Magnetic Ion-Mass Spectrometer (MIMS)</ResourceName>
       <AlternateName>MIMS</AlternateName>
       <ReleaseDate>2007-02-02T00:00:00Z</ReleaseDate>
       <Description>A magnetic ion-mass spectrometer was flown to measure in situ the concentrations of the ambient positive ion species in the mass range from 1 to 90 atomic mass units (u). Mounted on the satellite equator normal to the spin axis, the entrance aperture faced forward when the spacecraft was in the despun mode. The electric and magnetic fields were arranged to produce a mass spectrum along the focal plane following the magnetic analyzer. Three slits were placed along this plane in appropriate places to simultaneously collect ions in the mass ratio 1-4-16. Ionospheric ions were accelerated into the analyzer system by a negative voltage that varied from -1060 to -225 V. The three mass ranges measured simultaneously were 1 to 4, 4 to 16, and 14 to 72 u. Following each slit was an electron multiplier and logarithmic electrometer-amplifier detector. The detector output was either measured directly for an analog output, or was supplied to a "peak" circuit that determined the amplitude of each peak in the spectrum. Only the amplitude of each peak was telemetered in the "peak" mode, and in this mode the time required to simultaneously sweep all three mass ranges was 1 s. Other modes of operation were possible. In the analog short mode, the three mass ranges were swept in 2 s, alternating with 1-s "peak" mode scans. An 8-s sweep time was required in the analog long mode, again alternating with 1-s "peak" mode scans. An option existed in the locked mode to continuously measure any set of mass numbers in the ratio 1-4-16 to give high spatial resolution. More experiment detail can be found in J. H. Hoffman et al., Radio Sci., v. 8, n. 4, p. 315, 1973. NSSDC has all the useful data that exist from this investigation.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/John.H.Hoffman</PersonID>
+        <PersonID>spase://SMWG/Person/John.H.Hoffman</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>MassSpectrometer</InstrumentType>
     <InvestigationName>Magnetic Ion-Mass Spectrometer (MIMS) on AE-D</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1975-096A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1975-096A</ObservatoryID>
   </Instrument>
 </Spase>

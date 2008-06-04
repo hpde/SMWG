@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://swg/observatory/1977-076A</ResourceID>
+    <ResourceID>spase://SMWG/observatory/1977-076A</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 2</ResourceName>
       <AlternateName>Mariner Jupiter/Saturn B</AlternateName>
@@ -45,7 +45,7 @@ Rechristened the Voyager Interstellar Mission (VIM) by NASA in 1989 after its en
 
 Voyager 2 is speeding away from the Sun at a velocity of about 3.13 AU/year toward a point in the sky of RA=338 degrees, Dec=-62 degrees (-47.46 degrees ecliptic latitude, 310.89 degrees ecliptic longitude).</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Edward.C.Stone.Jr</PersonID>
+        <PersonID>spase://SMWG/Person/Edward.C.Stone.Jr</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
       <InformationURL>

@@ -2,13 +2,13 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1975-096A-11</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1975-096A-11</ResourceID>
     <ResourceHeader>
       <ResourceName>Ultraviolet Nitric-Oxide Experiment</ResourceName>
       <ReleaseDate>2007-02-02T00:00:00Z</ReleaseDate>
       <Description>This Ultraviolet Nitric-Oxide Experiment (UVNO) consisted of a two-channel fixed-grating Ebert-Fastie spectrometer, which measured the airglow in the (1, 0) Gamma band in a 15-A region centered at 2149 A. The observed intensity was produced by resonance fluorescence of sunlight by the nitric-oxide molecules in the instrument's field of view. The intensity data obtained yielded altitude profiles of nitric-oxide density as a function of time and location. The remote sensing character of the UVNO experiment permitted measurements of nitric-oxide to be made at altitudes both above and below satellite perigee. As the spacecraft spun, the spectrometer, which looked outward through the rim of the satellite, repeatedly had its field of view carried down through the atmosphere onto the earth's limb, and altitude profiles of the emitted airglow intensity were obtained. Below some altitude the measured signal at 2149 A was contaminated by rayleigh-scattered sunlight. To correct for this contamination, a second channel measured only scattered light intensity in a 12-A region centered at 2190 A. The two channels were optically and electrically independent. Nitric-oxide airglow intensity was determined by taking the difference between these two measurements. The sensor's spherical fused-quartz telescope mirror had a 125-mm focal length, and focused incident light on the entrance slit of the spectrometer. From this slit the light struck one-half of the mirror and was collimated onto the grating. The 3600-lines-per-mm grating returned the light collimated to the other half of the mirror, and the light was focused on two exit slits. The spectrometer field of view was 4 deg X 1/4 deg, with the long axis parallel to the spacecraft's spin axis, and therefore parallel to the viewed limb. In normal operation each channel was integrated for 20.8 ms and read out alternately at 10.4-ms intervals. The instrument was protected against contamination from internal scattering of off-axis undispersed light. More experiment details can be found in C. A. Barth et al., Radio Sci., v. 8, n. 4, p. 379, 1973. NSSDC has all the useful data that exist from this investigation.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Charles.A.Barth</PersonID>
+        <PersonID>spase://SMWG/Person/Charles.A.Barth</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>Spectrometer</InstrumentType>
     <InvestigationName>Ultraviolet Nitric-Oxide Experiment on AE-D</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1975-096A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1975-096A</ObservatoryID>
   </Instrument>
 </Spase>

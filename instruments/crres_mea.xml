@@ -2,17 +2,17 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1990-065A-10</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1990-065A-10</ResourceID>
     <ResourceHeader>
       <ResourceName>Medium Electron Sensor</ResourceName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>The Medium Electron Sensor, also called MEA or Sensor A, was one of the two parts of the Medium Energy Electron Spectrometer and measured the temporal, spectral, and directional variations of the electron fluxes at approximate energies of 100-2000 KeV. This sensor consisted of a 0.085 T magnet assembly, a tungsten collimator, 18 lithium-drifted solid-state detectors placed in the focal plane of the 180 degree focusing magnet, shielding, Indox V pole pieces, and both internal and external disk-loaded collimators. The internal collimators prevented scattered particles from being measured and, along with the external collimators, defined the acceptance angle for the instrument. The acceptance angle in the horizontal direction (parallel to the pole piece faces) was +/-11 degrees and independent of energy. In the vertical direction the angle varied with energy; it was +/-11 degrees for the lowest energy channel (46.8-107 KeV) and dropped to +/-3 degrees for the highest energy channel (2100-2200 KeV). The 15 energy channels between these extremes provided a Delta-E/E starting at about 0.5 and decreased with energy to about 0.06. The final counter was shielded to provide a background measurement for protons and bremsstrahlung. The geometric factors, in units of mm**2-sr-KeV, varied with energy, starting at 4.74 for the first, or lowest, energy channel, peaking at 5.67 for the third energy channel, and falling monotonically to 2.15 for the highest energy channel. The aperture was perpendicular to the spin axis of the spacecraft with the horizontal direction pointing along the spin axis. This experiment was part of the SPACERAD project sponsored by AFGL.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Alfred.L.Vampola</PersonID>
+        <PersonID>spase://SMWG/Person/Alfred.L.Vampola</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <Contact>
-        <PersonID>spase://swg/Person/E.Gary.Mullen</PersonID>
+        <PersonID>spase://SMWG/Person/E.Gary.Mullen</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -23,6 +23,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Medium Electron Sensor on CRRES</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1990-065A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1990-065A</ObservatoryID>
   </Instrument>
 </Spase>

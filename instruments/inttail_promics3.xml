@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1995-039A-08</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1995-039A-08</ResourceID>
     <ResourceHeader>
       <ResourceName>Ion Composition 3D Spectrometer (PROMICS-3)</ResourceName>
       <ReleaseDate>2006-03-18T00:00:00Z</ReleaseDate>
@@ -12,7 +12,7 @@ See the web page at http://www.irf.se/rpg/interball.html for further information
 PROMICS-3 Tail was one of the first instruments to measure the three-dimensional ion distribution function in the high latitude boundary layer regions of the magnetosphere.
 The PROMICS-3 instrument was developed in cooperation between the Swedish Institute of Space Physics (IRF), the Finnish Meteorological Institute (FMI) and the Space Research Institute, Moscow (IKI). The major part of the hardware of PROMICS-3 was designed and built at IRF in Kiruna. Much of the electronics was built in Finland by FMI, Hollming OY, and VTT.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Ingrid.Sandahl</PersonID>
+        <PersonID>spase://SMWG/Person/Ingrid.Sandahl</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -23,6 +23,6 @@ The PROMICS-3 instrument was developed in cooperation between the Swedish Instit
     </ResourceHeader>
     <InstrumentType>MassSpectrometer</InstrumentType>
     <InvestigationName>Ion Composition 3D Spectrometer (PROMICS-3) on Interball Tail Probe</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1995-039A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1995-039A</ObservatoryID>
   </Instrument>
 </Spase>

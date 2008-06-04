@@ -2,13 +2,13 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1979-094A-01</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1979-094A-01</ResourceID>
     <ResourceHeader>
       <ResourceName>Scalar Magnetometer</ResourceName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>The scalar magnetometer had two dual-cell, cesium-vapor sensor heads whose output frequency was proportional to the total magnetic field. With this sensor configuration, only two small diamond-shaped dead zones existed. These lay along the orbit normal (the east-west direction) for the orbit and attitude chosen for this mission and a direction in which the magnetic field was never oriented. The scalar magnetometer's basic accuracy was on the order of 0.5 nT. A period count system converted the magnetometer output frequency to a digital word acceptable to the spacecraft telemetry system. This digital data had a resolution and accuracy of between 0.5 and 1.0 nT in the range 1.5E4 to 6.4E4 nT. Most of the time, noise on the spacecraft resulted in operation of only one sensor at a time. Eight total magnetic field strength measurements were obtained every second.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Robert.A.Langel.III</PersonID>
+        <PersonID>spase://SMWG/Person/Robert.A.Langel.III</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Scalar Magnetometer on Magsat</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1979-094A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1979-094A</ObservatoryID>
   </Instrument>
 </Spase>

@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1995-039A-18</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1995-039A-18</ResourceID>
     <ResourceHeader>
       <ResourceName>Kilometric Radioemission 100 KHz - 1.5 MHz (AKR-2)</ResourceName>
       <ReleaseDate>2006-04-03T00:00:00Z</ReleaseDate>
@@ -11,7 +11,7 @@ The input signal is fed into a broadband amplifier with a built-in calibration n
 Instrument mass is 2.8 kg and nominal power consumption is &lt;4 W.
 The instrument is further described by Grigorieva et al. at pp. 233 - 238 of "Interball Mission and Payload," a joint RKA-IKI-CNES publication (1995).</Description>
       <Contact>
-        <PersonID>spase://swg/Person/L.Fischer</PersonID>
+        <PersonID>spase://SMWG/Person/L.Fischer</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -22,6 +22,6 @@ The instrument is further described by Grigorieva et al. at pp. 233 - 238 of "In
     </ResourceHeader>
     <InstrumentType>Antenna</InstrumentType>
     <InvestigationName>Kilometric Radioemission 100 KHz - 1.5 MHz (AKR-2) on Interball Tail Probe</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1995-039A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1995-039A</ObservatoryID>
   </Instrument>
 </Spase>

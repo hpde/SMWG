@@ -2,14 +2,14 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1981-070B-06</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1981-070B-06</ResourceID>
     <ResourceHeader>
       <ResourceName>Ion Drift Meter (IDM)</ResourceName>
       <AlternateName>IDM</AlternateName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>The Ion Drift Meter (IDM) measured the bulk motions of the ionospheric plasma perpendicular to the satellite velocity vector. The measured parameters, horizontal and vertical ion-drift velocities, had an expected range of plus or minus 4 km/s. The accuracy of the measurement was expected to be plus or minus 50 m/s for the anticipated 0.5 deg accuracy in vehicle attitude determination. The nominal time resolution of the measurement was 1/32 s. This investigation yielded information on (1) the ion convection (electric field) pattern in the auroral and polar ionosphere; (2) the flow of plasma along magnetic field lines within the plasmasphere, which determines whether this motion was simply a breathing of the protonosphere, a refilling of this region after a storm, or an interhemispheric transport of plasma; (3) the thermal ion contribution to field-aligned electric currents; (4) velocity fields associated with small-scale phenomena that are important at both low and high latitudes; and (5) the magnitude and variation of the total concentration along the flight path. The ion drift meter measured the plasma motion parallel to the sensor face by using a gridded collimator and multiple collectors to determine the direction of arrival of the plasma. The instrument geometry was very similar to that used on the Atmosphere Explorer satellites. Each sensor consisted of a square entrance aperture that served as collimator, some electrically isolating grids, and a segmented planar collector. The angle of arrival of the ions with respect to the sensor was determined by measuring the ratio of the currents to the different collector segments, and this was done by taking the difference in the logarithms of the current. Two techniques were used to determine this ratio. In the standard drift sensor (SDS), the collector segments were connected in pairs to two logarithmic amplifiers. The second technique, called the univeral drift sensor (UDS), allowed simultaneous measurement of both components. Here, each collector segment was permanently connected to a logarithmic amplifier and two difference amplifiers were used to determine the horizontal and vertical arrival angles simultaneously. The IDM consisted of two sensors, one providing the SDS output and the other providing the UDS output. Further details are in R. A. Heelis et al., Space Sci. Instrum., v. 5, n. 4, p. 511, 1981. During the period from 81317 to 82057 the instrument memory suffered a critical upset and ion temperatures and drifts are not available during this period.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Roderick.A.Heelis</PersonID>
+        <PersonID>spase://SMWG/Person/Roderick.A.Heelis</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Ion Drift Meter (IDM) on Dynamics Explorer 2</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1981-070B</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1981-070B</ObservatoryID>
   </Instrument>
 </Spase>

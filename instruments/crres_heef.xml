@@ -2,18 +2,18 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1990-065A-09</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1990-065A-09</ResourceID>
     <ResourceHeader>
       <ResourceName>High-Energy Electron Fluxmeter (HEEF)</ResourceName>
       <AlternateName>HEEF</AlternateName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>This instrument consisted of a three-element electron telescope with an anticoincidence element that provided for the measurement of the differential energy spectrum in the range 1 to 10 MeV. Two solid-state detectors, 700 micrometers thick, formed the first two elements of this system. The detector areas, in units of square mm, were: front - 100; second - 50. The final element of the the telescope was a BGO scintillation crystal coupled to a photomultiplier tube (PMT). An annular plastic scintillator surrounding the BGO crystal and viewed by two PMTs comprised the guard counter. The system was mounted in a magnesium housing with an inner tungsten shield around the BGO and plastic crystal detectors. Two slabs of tungsten served as collimators to define the entrance aperture. The geometric factor for the system was 1.2E-2 sq cm-sr. Only electrons with energies above 1 MeV stopping in the BGO crystal were pulse-height analyzed into 10 bins. The lower six bins provided 0.5-MeV windows; the next 2 bins provided 1-MeV windows; and the last two provided 2-MeV windows. Consequently, the detail of the spectrum was good enough for radiation belt modeling. Proton rejection was quite good since the shielding, the pulse-height information in the three telescope elements, and the guard counter anticoincidence all contributed. The time accumulation of 0.5 s determined the time resolution of the investigation. This experiment was part of the SPACERAD project sponsored by AFGL.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Donald.H.Brautigam</PersonID>
+        <PersonID>spase://SMWG/Person/Donald.H.Brautigam</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <Contact>
-        <PersonID>spase://swg/Person/E.Gary.Mullen</PersonID>
+        <PersonID>spase://SMWG/Person/E.Gary.Mullen</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -24,6 +24,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>High-Energy Electron Fluxmeter (HEEF) on CRRES</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1990-065A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1990-065A</ObservatoryID>
   </Instrument>
 </Spase>

@@ -2,22 +2,22 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1991-032A-04</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1991-032A-04</ResourceID>
     <ResourceHeader>
       <ResourceName>Space Environment Monitor (SEM)</ResourceName>
       <AlternateName>SEM</AlternateName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>The Space Environmental Monitor (SEM) experiment is an extension of the solar-proton monitoring experiment flown on the ITOS spacecraft series. The object is to measure proton flux, electron flux density, and energy spectrum in the upper atmosphere. The experiment package consists of two detector systems and a data processing unit. The medium energy proton and electron detector (MEPED) measures protons in five energy ranges from 30 keV to &gt;2.5 MeV; electrons above 30, 100, and 300 keV; protons and electrons (inseparable) above 6 MeV; and omni-directional protons above 16, 36, and 80 MeV. The total energy detector (TED) measures the intensity of protons and electrons between 300 eV and 20 keV.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Harold.Leinbach</PersonID>
+        <PersonID>spase://SMWG/Person/Harold.Leinbach</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <Contact>
-        <PersonID>spase://swg/Person/David.S.Evans</PersonID>
+        <PersonID>spase://SMWG/Person/David.S.Evans</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <Contact>
-        <PersonID>spase://swg/Person/Herbert.H.Sauer</PersonID>
+        <PersonID>spase://SMWG/Person/Herbert.H.Sauer</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -28,6 +28,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Space Environment Monitor (SEM) on NOAA 12</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1991-032A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1991-032A</ObservatoryID>
   </Instrument>
 </Spase>

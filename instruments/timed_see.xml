@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/2001-055B-04</ResourceID>
+    <ResourceID>spase://SMWG/instrument/2001-055B-04</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar EUV Experiment (SEE)</ResourceName>
       <AlternateName>SEE</AlternateName>
@@ -11,7 +11,7 @@
 SEE home_page:
 http://lasp.colorado.edu/see/</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Thomas.N.Woods</PersonID>
+        <PersonID>spase://SMWG/Person/Thomas.N.Woods</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -22,6 +22,6 @@ http://lasp.colorado.edu/see/</Description>
     </ResourceHeader>
     <InstrumentType>Spectrometer</InstrumentType>
     <InvestigationName>Solar EUV Experiment (SEE) on TIMED</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/2001-055B</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/2001-055B</ObservatoryID>
   </Instrument>
 </Spase>

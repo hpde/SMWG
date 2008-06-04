@@ -2,14 +2,14 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1977-076A-05</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1977-076A-05</ResourceID>
     <ResourceHeader>
       <ResourceName>Triaxial Fluxgate Magnetometer (MAG)</ResourceName>
       <AlternateName>MAG</AlternateName>
       <ReleaseDate>2007-02-02T00:00:00Z</ReleaseDate>
       <Description>This experiment was designed to investigate (1) the magnetic fields of Jupiter, Saturn, Uranus, and Neptune and (2) the solar-wind interaction of the magnetospheres of these planets with the interplanetary magnetic field out to the solar-wind boundary with the interstellar magnetic field, and beyond, if crossed. The investigation was carried out using two high-field and two low-field triaxial fluxgate magnetometers. Data accuracy of the interplanetary fields was plus or minus 0.1 nT, and the range of measurements was from 0.01 nT to 2.E-3 T.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Norman.F.Ness</PersonID>
+        <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Triaxial Fluxgate Magnetometer (MAG) on Voyager 2</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1977-076A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1977-076A</ObservatoryID>
   </Instrument>
 </Spase>

@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1995-039A-11</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1995-039A-11</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar X-ray Bursts (RF-15I)</ResourceName>
       <ReleaseDate>2006-03-23T00:00:00Z</ReleaseDate>
@@ -13,7 +13,7 @@ The tomograph images solar flare emission in two energy bands 2-4 keV and 4-8 ke
 The signals coming from both low and high energy channels are processed in real time by the onboard PRAM computer and the decision is made whether to store the modulated signal (about 10 kbytes) to memory for image reconstruction on the ground. If so, before being stored, the information is compressed and periods when the source is outside narrow fields of view are discarded. About 80 images can be stored between telemetry dumps. Generally the intention is that for each flare of the GOES class above C5, at least one sequence of modulated signal will be recorded, usually at the flare maximum when the time variation of the signal influences the image restoration process least. Average unmodulated signals from both energy channels are recorded once per revolution. The data gather time unit is 1/128 s for the X-ray detector while outside the radiation belts. During belt crossing the detector high voltage is turned off.
 The web pages at http://www.cbk.pan.wroc.pl/RF15-I_www/default.htm provide more information on the instrument and also access to the data</Description>
       <Contact>
-        <PersonID>spase://swg/Person/O.Likin</PersonID>
+        <PersonID>spase://SMWG/Person/O.Likin</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -24,6 +24,6 @@ The web pages at http://www.cbk.pan.wroc.pl/RF15-I_www/default.htm provide more 
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Solar X-ray Bursts (RF-15I) on Interball Tail Probe</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1995-039A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1995-039A</ObservatoryID>
   </Instrument>
 </Spase>

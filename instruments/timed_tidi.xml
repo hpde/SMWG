@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/2001-055B-02</ResourceID>
+    <ResourceID>spase://SMWG/instrument/2001-055B-02</ResourceID>
     <ResourceHeader>
       <ResourceName>TIMED Doppler Interferometer (TIDI)</ResourceName>
       <AlternateName>TIDI</AlternateName>
@@ -12,7 +12,7 @@ http://tidi.engin.umich.edu/
 and by the National Center for Atmospheric Research (NCAR) at
 http://timed.hao.ucar.edu/tidi/</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Timothy.L.Killeen</PersonID>
+        <PersonID>spase://SMWG/Person/Timothy.L.Killeen</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -23,6 +23,6 @@ http://timed.hao.ucar.edu/tidi/</Description>
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>TIMED Doppler Interferometer (TIDI) on TIMED</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/2001-055B</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/2001-055B</ObservatoryID>
   </Instrument>
 </Spase>

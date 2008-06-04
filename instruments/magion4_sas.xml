@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1995-039F-02</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1995-039F-02</ResourceID>
     <ResourceHeader>
       <ResourceName>Electric and Magnetic Spectrum Analyzer SAS</ResourceName>
       <ReleaseDate>1997-10-20T00:00:00Z</ReleaseDate>
@@ -10,7 +10,7 @@
 The signals under analysis are as follows: (1) electric component, 1-400 kHz (32-2000 Hz); (2) magnetic component, 400 Hz - 20 kHz; (3) magnetic component, 32-2000 Hz (Bx, By, Bz selected through the multiplexer); (4) current density XZ, 0.4-20 kHz; (5) current density YZ, 0.4-20 kHz; (6) analog frequency range, 1-480 Hz divided into 8 subranges.
 The analog output to telemetry is wide-band of 60 kHz.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/J.Juchniewicz</PersonID>
+        <PersonID>spase://SMWG/Person/J.Juchniewicz</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -21,6 +21,6 @@ The analog output to telemetry is wide-band of 60 kHz.</Description>
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Electric and Magnetic Spectrum Analyzer SAS on Interball S2-X</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1995-039F</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1995-039F</ObservatoryID>
   </Instrument>
 </Spase>

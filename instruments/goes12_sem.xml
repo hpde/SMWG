@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/2001-031A-03</ResourceID>
+    <ResourceID>spase://SMWG/instrument/2001-031A-03</ResourceID>
     <ResourceHeader>
       <ResourceName>Space Environment Monitor (SEM)</ResourceName>
       <AlternateName>SEM</AlternateName>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Space Environment Monitor (SEM) on GOES 12</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/2001-031A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/2001-031A</ObservatoryID>
   </Instrument>
 </Spase>

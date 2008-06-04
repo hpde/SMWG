@@ -2,14 +2,14 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1996-013A-07</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1996-013A-07</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Ionospheric X-ray Imaging Experiment (PIXIE)</ResourceName>
       <AlternateName>PIXIE</AlternateName>
       <ReleaseDate>2005-08-26T00:00:00Z</ReleaseDate>
       <Description>The objective of this investigation is to measure the spatial distribution and temporal variations of X-ray emissions from the earth's atmosphere. The instrument consists of two major subsystems, the multiple pinhole camera and signal-processing electronics, and the digital electronics. The detector in the camera is a position-sensitive multiwire proportional counter. The signal processing electronics identify events as X-ray interactions (or not), locate the events in three-dimensional space, and determine the X-ray energy. The energy range is 1-100 keV, with spectral resolution of 15% FWHM at 6 keV (inversely proportional to the square root of the energy). The field of view is variable, 8.5, 12, 16, or 33 deg, with spatial resolution of 0.35 to 1.0 deg. Temporal resolution is 1-30 min (typically 5 min).</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Michael.Schulz</PersonID>
+        <PersonID>spase://SMWG/Person/Michael.Schulz</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>Polar Ionospheric X-ray Imaging Experiment (PIXIE) on Polar</InvestigationName>
-    <ObservatoryID>spase://swg/Observatory/Polar</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Polar</ObservatoryID>
   </Instrument>
 </Spase>

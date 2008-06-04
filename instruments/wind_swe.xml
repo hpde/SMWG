@@ -2,13 +2,13 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1994-071A-06</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1994-071A-06</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar Wind Experiment (SWE)</ResourceName>
       <ReleaseDate>1995-09-12T00:00:00Z</ReleaseDate>
       <Description>This investigation is designed to provide complete, accurate specification of solar wind flow parameters in real time. The instrument is a six-axis ion-electron spectrometer which provides three-dimensional velocity distribution functions for ions and electrons, with high time resolution. The energy range covered extends from 7 eV to 30 keV for electrons in four different modes, and from 30 eV to 30 keV in four different ion modes. In addition, two Faraday cups are used to obtain three-dimensional measurements of ions in 15-s periods, in the energy range 5 eV to 5 keV.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Keith.W.Ogilvie</PersonID>
+        <PersonID>spase://SMWG/Person/Keith.W.Ogilvie</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>FaradayCup</InstrumentType>
     <InvestigationName>Solar Wind Experiment (SWE) on Wind</InvestigationName>
-    <ObservatoryID>spase://swg/Observatory/WIND</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/WIND</ObservatoryID>
   </Instrument>
 </Spase>

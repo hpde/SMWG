@@ -2,14 +2,14 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1994-071A-05</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1994-071A-05</ResourceID>
     <ResourceHeader>
       <ResourceName>Plasma and Radio Waves (WAVES)</ResourceName>
       <AlternateName>WAVES</AlternateName>
       <ReleaseDate>1995-09-20T00:00:00Z</ReleaseDate>
       <Description>This investigation is designed to measure the intensity and arrival direction for both propagating and in situ waves originating in the solar wind near the earth. These waves depict the state of the solar wind impinging on the earth's magnetosphere. The instrument contains five subsystems within the main electronics box, plus the antenna subsystems which include a spin-axis and two spin-plane electric antennas (all spacecraft supplied) and a triaxial search coil (supplied by the plasma wave consortium). The five subsystems in the main electronics box are the radio frequency receivers, the comb filter receiver, the fast envelope sampler, the waveform analyzer, and the power distribution subsystem. The radio frequency receivers sweep over the band from about a fraction of a Hertz up to about 14 MHz for the electric field and to about 3kHz for the magnetic field. The comb filters have selectable bandwidths of 0.5, 1, or 2 Hz, with a total frequency range of 5 to 100 kHz. The fast envelope sampler is designed to capture transient events over four possible commandable decade ranges: 0.2-2, 0.6-6, 2-20, and 6-60 kHz. The waveform analyzer operates in the frequency regime below 16 kHz.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Jean-Louis.Henry.Bougeret</PersonID>
+        <PersonID>spase://SMWG/Person/Jean-Louis.Henry.Bougeret</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>WaveformReceiver</InstrumentType>
     <InvestigationName>Plasma and Radio Waves (WAVES) on Wind</InvestigationName>
-    <ObservatoryID>spase://swg/Observatory/WIND</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/WIND</ObservatoryID>
   </Instrument>
 </Spase>

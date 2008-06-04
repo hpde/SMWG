@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://swg/observatory/1992-044A</ResourceID>
+    <ResourceID>spase://SMWG/observatory/1992-044A</ResourceID>
     <ResourceHeader>
       <ResourceName>Geotail</ResourceName>
       <AlternateName>GTL</AlternateName>
@@ -24,11 +24,11 @@ Details on the Geotail mission and instrumentation are given in the Journal of G
 
 http://www.terrapub.co.jp/journals/EPS/JGG</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Donald.H.Fairfield</PersonID>
+        <PersonID>spase://SMWG/Person/Donald.H.Fairfield</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
       <Contact>
-        <PersonID>spase://swg/Person/Toshifumi.Mukai</PersonID>
+        <PersonID>spase://SMWG/Person/Toshifumi.Mukai</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
       <InformationURL>

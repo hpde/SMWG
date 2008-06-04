@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1995-065A-02</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1995-065A-02</ResourceID>
     <ResourceHeader>
       <ResourceName>Coronal Diagnostic Spectrometer (CDS)</ResourceName>
       <AlternateName>CDS</AlternateName>
@@ -12,7 +12,7 @@ The CDS will provide simultaneous coverage of large wavelength bands combined wi
 The instrument generates far more data than can be transmitted in the telemetry available. Therefore, data are compressed and selected; only the portions of the spectrum desired by the current program are returned. The instrument consists of a Wolter 2 telescope, a flat scan mirror, a slit assembly, and two spectrometers; one for normal incidence and one for grazing incidence. For normal incidence a wavelength-dispersed image is produced at a two-dimensional detector. With a rotation of the scan mirror, two-dimensional images in all of the observed lines can be built up very quickly. For wavelengths less than approximately 30.0 nm, a grazing incidence system is used. The spectrum is dispersed onto four detectors placed along the Rowland circle. Such a system has no imaging capability, so for imaging a pin-hole slit is used, with the mirror performing a raster scan in one dimension. In the other dimension the slit itself is scanned.
 This information is from the paper "The Coronal Diagnostic Spectrometer for the Solar and Heliospheric Observatory," by R. A. Harrison and E. C. Sawyer (Proceedings of the First SOHO Workshop, ESA SP-348, pp. 17-19, November 1992).</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Richard.A.Harrison</PersonID>
+        <PersonID>spase://SMWG/Person/Richard.A.Harrison</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -23,6 +23,6 @@ This information is from the paper "The Coronal Diagnostic Spectrometer for the 
     </ResourceHeader>
     <InstrumentType>Spectrometer</InstrumentType>
     <InvestigationName>Coronal Diagnostic Spectrometer (CDS) on SOHO</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1995-065A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1995-065A</ObservatoryID>
   </Instrument>
 </Spase>

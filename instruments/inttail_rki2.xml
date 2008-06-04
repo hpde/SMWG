@@ -2,13 +2,13 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1995-039A-20</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1995-039A-20</ResourceID>
     <ResourceHeader>
       <ResourceName>Hard ionizing radiation and solar UV radiation RKI-2</ResourceName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>This instrument measures ionizing radiation at 5, 15, 40, 100, and 500 MeV, and UV radiation from the Sun.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Tamara.V.Kazachevskaya</PersonID>
+        <PersonID>spase://SMWG/Person/Tamara.V.Kazachevskaya</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Hard ionizing radiation and solar UV radiation RKI-2 on Interball Tail Probe</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1995-039A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1995-039A</ObservatoryID>
   </Instrument>
 </Spase>

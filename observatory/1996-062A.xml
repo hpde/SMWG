@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <Observatory>
-    <ResourceID>spase://swg/observatory/1996-062A</ResourceID>
+    <ResourceID>spase://SMWG/observatory/1996-062A</ResourceID>
     <ResourceHeader>
       <ResourceName>Mars Global Surveyor</ResourceName>
       <AlternateName>MGS</AlternateName>
@@ -25,7 +25,7 @@ After launch on a Delta 7925 (a Delta II Lite launch vehicle with nine strap-on 
 After aerobraking ended in February 1999, MGS was in a 118 minute circular polar science mapping orbit with an index altitude of 378 km. The orbit is sun-synchronous (2 a.m./2 p.m.) and maps over the 2 p.m. crossing from south to north (instead of north to south as originally planned). The orbit has a 7 day near-repeat cycle so Mars will be mapped in 26 day cycles. Science mapping began in mid-March 1999, which was summer in the northern hemisphere on Mars. The primary mission lasted one martian year (687 Earth days) through January, 2001. An extended mission took place until April 2002, further extensions were added until contact with the spacecraft was lost on 2 November 2006.</Description>
       <Contact>
         <!-- Arden Albee -->
-        <PersonID>spase://swg/Person/Arden.L.Albee</PersonID>
+        <PersonID>spase://SMWG/Person/Arden.L.Albee</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
       <InformationURL>

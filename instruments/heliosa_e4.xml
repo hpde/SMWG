@@ -2,13 +2,13 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1974-097A-03</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1974-097A-03</ResourceID>
     <ResourceHeader>
       <ResourceName>Search Coil Magnetometer</ResourceName>
       <ReleaseDate>2007-02-02T00:00:00Z</ReleaseDate>
       <Description>This experiment (E4) was designed to investigate the magnetic component of electromagnetic waves in the solar wind from 0.3 to 1.0 AU. By means of its waveform channel (WFC) the rapid variations of the magnetic field were measured up from plus or minus 8.75 nT to plus or minus 275 nT in three orthogonal directions from 4 to 128 Hz. A spectrum analyzer observed the field components in the ecliptic plane and perpendicular to it, to obtain the power spectral density and peak values for eight logarithmically spaced channels in the range from 4.7 to 2200 Hz. Because of the large amount of data produced by this experiment, an adaptive data reduction was applied. For interesting time intervals selected by the fluxgate magnetometer (74-097A-01, Neubauer) or Gurnett (-04), waveform data could be read into an on-board memory at a rapid rate to be transmitted slowly afterwards. For more detailed information see p. 241 in Raumfahrtforschung, v. 19, n. 5, 1975.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Fritz.M.Neubauer</PersonID>
+        <PersonID>spase://SMWG/Person/Fritz.M.Neubauer</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Search Coil Magnetometer on Helios-A</InvestigationName>
-    <ObservatoryID>spase://swg/Observatory/Helios1</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Helios1</ObservatoryID>
   </Instrument>
 </Spase>

@@ -2,13 +2,13 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1964-064A-02</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1964-064A-02</ResourceID>
     <ResourceHeader>
       <ResourceName>Langmuir Probe</ResourceName>
       <ReleaseDate>1998-05-06T00:00:00Z</ReleaseDate>
       <Description>Two cylindrical electrostatic probes (types of Langmuir probes) were used to measure electron density and temperature. Each consisted of a collector electrode which extended from the central axis of a cylindrical guard ring. The guard ring extended 12.7 cm from the spacecraft, and the probe extended 22.86 cm. A 2-Hz sawtooth voltage of -3 to +5 volts was swept alternately to each of the probes, and the resulting current profile to the probe was telemetered. From this profile, the electron density and temperature and mean ion mass could be determined. The experiment was operated for 22 s every 3 min while within range of any of 10 telemetry stations. This experiment performed nominally from launch until August 1968, when it was turned off.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Larry.H.Brace</PersonID>
+        <PersonID>spase://SMWG/Person/Larry.H.Brace</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>LangmuirProbe</InstrumentType>
     <InvestigationName>Langmuir Probe on BE-B</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1964-064A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1964-064A</ObservatoryID>
   </Instrument>
 </Spase>

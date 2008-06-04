@@ -2,14 +2,14 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1996-013A-06</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1996-013A-06</ResourceID>
     <ResourceHeader>
       <ResourceName>Charge and Mass Magnetospheric Ion Composition Experiment (CAMMICE)</ResourceName>
       <AlternateName>CAMMICE</AlternateName>
       <ReleaseDate>2005-08-25T00:00:00Z</ReleaseDate>
       <Description>The objectives of this investigation, CAMMICE (charge and mass magnetospheric ion composition experiment), are the unambiguous determination of the composition of the earth's plasma populations, their original sources, and the mechanisms acting to energize and transport these populations within the closely coupled magnetosphere/ionosphere and magnetosphere/solar-wind systems, and in the two major geospace energy storage reservoirs: the near-earth plasma sheet and the ring current. The CAMMICE incorporates two types of sensor systems, MICS and HIT, which each perform a three-parameter measurement on the ion composition over a combined range from &lt;10 keV/Q to 15 MeV/Q for elements from hydrogen through iron. Each of the sensor systems is supported by its own independent data processing unit. These sensors are identical to those flown on the ISTP/EQUATOR spacecraft, although the mountings are different.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Theodore.Allan.Fritz</PersonID>
+        <PersonID>spase://SMWG/Person/Theodore.Allan.Fritz</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Charge and Mass Magnetospheric Ion Composition Experiment (CAMMICE) on Polar</InvestigationName>
-    <ObservatoryID>spase://swg/Observatory/Polar</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Polar</ObservatoryID>
   </Instrument>
 </Spase>

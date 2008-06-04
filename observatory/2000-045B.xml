@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://swg/observatory/2000-045B</ResourceID>
+    <ResourceID>spase://SMWG/observatory/2000-045B</ResourceID>
     <ResourceHeader>
       <ResourceName>Cluster 2/FM8 (Tango)</ResourceName>
       <AlternateName>Cluster-4</AlternateName>
@@ -31,7 +31,7 @@ A complete overview of the original mission, written before the loss with Ariane
 
 ESA SP-1159, Paris, March 1993 is entitled "Cluster: Mission, Payload and Supporting Activities."</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Melvyn.L.Goldstein</PersonID>
+        <PersonID>spase://SMWG/Person/Melvyn.L.Goldstein</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
       <InformationURL>

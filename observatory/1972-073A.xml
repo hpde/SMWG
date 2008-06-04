@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://swg/observatory/1972-073A</ResourceID>
+    <ResourceID>spase://SMWG/observatory/1972-073A</ResourceID>
     <ResourceHeader>
       <ResourceName>IMP-H</ResourceName>
       <AlternateName>Explorer 47</AlternateName>
@@ -10,11 +10,11 @@
       <ReleaseDate>2007-08-27T18:40:18Z</ReleaseDate>
       <Description>IMP-H continued the study begun by earlier IMP spacecraft of the interplanetary and magnetotail regions from a nearly circular orbit, near 37 earth radii. This 16-sided drum-shaped spacecraft was 157 cm high and 135 cm in diameter. It was designed to measure energetic particles, plasma, and electric and magnetic fields. The spin axis was normal to the ecliptic plane, and the spin period was 1.3 s. The spacecraft was powered by solar cells and a chemical battery. Scientific data were telemetered at 1600 bps (with a secondary 400-bps rate available). The spacecraft was turned off on October 31, 1978.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Norman.F.Ness</PersonID>
+        <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
       <Contact>
-        <PersonID>spase://swg/Person/Joseph.H.King</PersonID>
+        <PersonID>spase://SMWG/Person/Joseph.H.King</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
       <InformationURL>

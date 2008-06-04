@@ -2,17 +2,17 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1990-065A-21</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1990-065A-21</ResourceID>
     <ResourceHeader>
       <ResourceName>Langmuir Probe Instrument</ResourceName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>The Langmuir probe was designed to measure the temperature and density of cold electrons and the electric fields in the magnetosphere, as well as their spatial and temporal fluctuations. The purpose was to better understand the wave-particle interactions. The probe instrument consisted of two pairs of orthogonal booms with tip-to-tip separations of 100 m. They were located in the spin plane of the satellite. One pair of booms carried spherical sensors and the other cylindrical antennas. An onboard microprocessor controlled the operating mode. In the Langmuir probe mode the spherical sensors were biased at fixed potentials relative to the ambient plasma and the currents collected by the sensors provided the temperature and the density of the plasma electrons. In the electric field mode both pairs of sensors were current-biased and monitored the electric field. The energy range of the measured ambient plasma was up to 10 eV and the frequency range of the measured electric field was from dc to 1 kHz. This experiment was part of the SPACERAD project sponsored by AFGL.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Forrest.S.Mozer</PersonID>
+        <PersonID>spase://SMWG/Person/Forrest.S.Mozer</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <Contact>
-        <PersonID>spase://swg/Person/E.Gary.Mullen</PersonID>
+        <PersonID>spase://SMWG/Person/E.Gary.Mullen</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -23,6 +23,6 @@
     </ResourceHeader>
     <InstrumentType>LangmuirProbe</InstrumentType>
     <InvestigationName>Langmuir Probe Instrument on CRRES</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1990-065A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1990-065A</ObservatoryID>
   </Instrument>
 </Spase>

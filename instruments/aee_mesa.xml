@@ -2,14 +2,14 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1975-107A-02</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1975-107A-02</ResourceID>
     <ResourceHeader>
       <ResourceName>Atmospheric Density Accelerometer (MESA)</ResourceName>
       <AlternateName>MESA</AlternateName>
       <ReleaseDate>2007-02-02T00:00:00Z</ReleaseDate>
       <Description>The Miniature Electrostatic Analyzer (MESA) obtained data on the neutral density of the atmosphere in the altitude range of 120 to 400 km, by the measurements of satellite deceleration due to aerodynamic drag, which is directly proportional to atmospheric density. The instrument consisted of three single-axis accelerometers, mounted mutually at right angles, two in the spacecraft X-Y plane and the other along the Z-axis. The instrument determined the applied acceleration from the electrostatic force required to recenter a proof mass. The output of the device was a digital pulse rate proportional to the applied acceleration. The sample time of each instrument was 0.25 s. The measurements allowed determination of the density of the neutral atmosphere, monitored the thrust of the Orbit-Adjust Propulsion System (OAPS), determined the satellite minimum altitude, measured spacecraft roll, and provided some attitude-sensing information. Spacecraft nutations of less than 0.01 deg were monitored. The instrument had three sensitivity ranges: 8.E-3 earth's gravity (G) in OAPS monitor mode; 4.E-4 G between 120 km (plus or minus 2%) and 280 km (plus or minus 10%); and 2.E-5 G between 180 km (plus or minus 2%) and 400 km (plus or minus 10%). Numbers in parentheses represent errors. There may be a systematic error of up to plus or minus 5% due to drag coefficient uncertainty. The highest measurement altitude was determined assuming the instrument could sense to 0.2% of full scale. More details can be found in K. S. Champion et al., Radio Sci., v. 8, n. 4, p. 297, 1973.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Kenneth.S.W.Champion</PersonID>
+        <PersonID>spase://SMWG/Person/Kenneth.S.W.Champion</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Atmospheric Density Accelerometer (MESA) on AE-E</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1975-107A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1975-107A</ObservatoryID>
   </Instrument>
 </Spase>

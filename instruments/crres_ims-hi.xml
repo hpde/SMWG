@@ -2,13 +2,13 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1990-065A-23</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1990-065A-23</ResourceID>
     <ResourceHeader>
       <ResourceName>Medium Energy Ion Mass Spectrometer</ResourceName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>The Medium Energy Ion Mass Spectrometer (IMS-HI) was designed to measure the ring current ions in the energy/Q range of 20 keV/Q to 8 MeV/Q for protons, but with proportionately smaller ranges for the heavier atomic mass ions. This was accomplished by making a narrowly collimated stream of incident ions pass into a cross-magnetic field chamber with a field strength of 7 kG, which curved the trajectory toward one of the six cooled (-50 C) solid state detectors (n-type silicon). The momentum per charge of an ion determined the detector that it would reach. In turn, the energy of that ion was measured by that detector. The instrument could therefore provide differential energy spectra for all ions from hydrogen through barium, in the appropriate energy ranges. A broom magnet at the entrance to the magnetic field chamber expelled all electrons of energy less than 1 MeV and helped to minimize spurious counts. In addition to the ions, the instrument could also measure the energetic neutral atoms by means of a seventh detector (p-type silicon) located straight across from the entrance hole. The collimator had a conical field of view of 4 deg and a view direction at an angle 75 deg with respect to the spin axis of the satellite.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Richard.R.Vondrak</PersonID>
+        <PersonID>spase://SMWG/Person/Richard.R.Vondrak</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>MassSpectrometer</InstrumentType>
     <InvestigationName>Medium Energy Ion Mass Spectrometer on CRRES</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1990-065A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1990-065A</ObservatoryID>
   </Instrument>
 </Spase>

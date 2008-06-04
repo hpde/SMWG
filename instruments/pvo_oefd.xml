@@ -2,14 +2,14 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1978-051A-13</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1978-051A-13</ResourceID>
     <ResourceHeader>
       <ResourceName>Electric Field Detector (OEFD)</ResourceName>
       <AlternateName>OEFD</AlternateName>
       <ReleaseDate>2006-02-09T00:00:00Z</ReleaseDate>
       <Description>This experiment consisted of a modified version of the Pioneer 8 and Pioneer 9 experiments to measure the electric-field components in four 30%, narrow-band channels centered at 100, 730, 7350, and 30,000 Hz. The aims of the investigation were to perform an analysis of VLF electric fields at Venus and to elucidate the plasma interactions between the solar wind and the ionospheric or exospheric plasma. The role of plasma instabilities in modifying the heat flux from the solar wind and in thermalizing newly-born ions from Venus was also studied. A self-contained balanced V-type antenna with a differential preamplifier was employed to make the measurements. At the 512 bps satellite mode, one frequency scan per second was obtained.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Robert.J.Strangeway</PersonID>
+        <PersonID>spase://SMWG/Person/Robert.J.Strangeway</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
       <InformationURL>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>Antenna</InstrumentType>
     <InvestigationName>Electric Field Detector (OEFD) on Pioneer Venus Orbiter</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1978-051A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1978-051A</ObservatoryID>
   </Instrument>
 </Spase>

@@ -2,13 +2,13 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1987-022A-02</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1987-022A-02</ResourceID>
     <ResourceHeader>
       <ResourceName>Energetic Particle Monitor</ResourceName>
       <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
       <Description>The energetic particle monitor consisted of three detector assemblies, each covering limited regions of the overall energy spectrum. The first two detector assemblies monitored protons in seven energy ranges between 0.8 and 500 MeV and alpha particles in six energy ranges from 4 to &gt;400 MeV. There was also one channel for the measurement of electrons in the energy range above 500 keV. The third detector, high energy proton and alpha detector (HEPAD), monitored protons in four energy ranges above 370 MeV and alpha particles in two energy ranges above 640 MeV/nucleon. In all, there were 25 channels of data, each channel sampling at a slow rate of once in a few seconds, or once in a few minutes.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Herbert.H.Sauer</PersonID>
+        <PersonID>spase://SMWG/Person/Herbert.H.Sauer</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Energetic Particle Monitor on GOES  7</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1987-022A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1987-022A</ObservatoryID>
   </Instrument>
 </Spase>

@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/2000-017A-04</ResourceID>
+    <ResourceID>spase://SMWG/instrument/2000-017A-04</ResourceID>
     <ResourceHeader>
       <ResourceName>High-Energy Neutral Atom Imager (HENA)</ResourceName>
       <AlternateName>HENA</AlternateName>
@@ -14,7 +14,7 @@ HENA determines the velocity of the ENAs that it detects by measuring their time
 The start and stop signals are processed by the analog TOF electronics in the MEU and digitized for input into the DPU. The start and stop pulses give the ENA's time of flight, while the position measurements reveal its trajectory and thus its path length within the sensor. With these two pieces of information, time of flight and path length, HENA can calculate the ENA's velocity.
 The energy of the incident ENAs is measured with the SSD. When an ENA strikes the SSD, it generates a current pulse. The amplitude of this pulse (the pulse height) is directly proportional to the amount of energy that the ENA deposits in the SSD crystal. Thus, by analyzing the pulse height, HENA can determine the energy of an ENA incident on the SSD. And as mass is equal to the twice the energy divided by the velocity squared, once the energy and velocity of the ENA have been determined, its mass can be calculated. Calculating mass from the velocity and the SSD energy measurement is the primary technique used by HENA to determine composition of the ENAs. A second technique uses the pulse height of the MCP signal to distinguish between oxygen and hydrogen, the two most common neutral atoms expected in the magnetosphere.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Donald.G.Mitchell</PersonID>
+        <PersonID>spase://SMWG/Person/Donald.G.Mitchell</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -25,6 +25,6 @@ The energy of the incident ENAs is measured with the SSD. When an ENA strikes th
     </ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>High-Energy Neutral Atom Imager (HENA) on IMAGE</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/2000-017A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/2000-017A</ObservatoryID>
   </Instrument>
 </Spase>

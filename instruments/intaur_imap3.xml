@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1996-050C-05</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1996-050C-05</ResourceID>
     <ResourceHeader>
       <ResourceName>Three-Axis Magnetic Field (IMAP-3)</ResourceName>
       <ReleaseDate>2006-03-21T00:00:00Z</ReleaseDate>
@@ -11,7 +11,7 @@ The IMAP-3 was designed and manufactured under cooperation of IZMIRAN (http://ww
 The instrument is designed to measure three components of the DC magnetic field in two ranges: +/- 6800 nT with resolution 1 nT and +/- 68000 nT with resolution 10 nT. Usually magnetometer data are transmitted to the scientific SSNI telemetry system at a rate of one vector per 3 seconds; during special intervals data are transmitted to telemetry at 2 or 8 vectors second depending on the instrument operating mode.
 The spacecraft was launched on 29 August 1996. The IMAP-3 was initially tested on the 9th of September and started to work regularly on the 14th of September.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Ivan.S.Arshinkov</PersonID>
+        <PersonID>spase://SMWG/Person/Ivan.S.Arshinkov</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -22,6 +22,6 @@ The spacecraft was launched on 29 August 1996. The IMAP-3 was initially tested o
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Three-Axis Magnetic Field (IMAP-3) on Interball Auroral Probe</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1996-050C</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1996-050C</ObservatoryID>
   </Instrument>
 </Spase>

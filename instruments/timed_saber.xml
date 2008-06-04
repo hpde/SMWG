@@ -2,7 +2,7 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/2001-055B-03</ResourceID>
+    <ResourceID>spase://SMWG/instrument/2001-055B-03</ResourceID>
     <ResourceHeader>
       <ResourceName>Sounding of the Atmosphere using Broadband Emission Radiometry (SABER)</ResourceName>
       <AlternateName>SABER</AlternateName>
@@ -11,7 +11,7 @@
 Home_page:
 http://saber.larc.nasa.gov/</Description>
       <Contact>
-        <PersonID>spase://swg/Person/James.M.Russell.III</PersonID>
+        <PersonID>spase://SMWG/Person/James.M.Russell.III</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -22,6 +22,6 @@ http://saber.larc.nasa.gov/</Description>
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Sounding of the Atmosphere using Broadband Emission Radiometry (SABER) on TIMED</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/2001-055B</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/2001-055B</ObservatoryID>
   </Instrument>
 </Spase>

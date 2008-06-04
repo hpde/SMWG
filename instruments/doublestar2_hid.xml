@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/2004-029A-08</ResourceID>
+    <ResourceID>spase://SMWG/instrument/2004-029A-08</ResourceID>
     <ResourceHeader>
       <ResourceName>Heavy Ion Detector (HID)</ResourceName>
       <AlternateName>HID</AlternateName>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Heavy Ion Detector (HID) on Double Star 2</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/2004-029A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/2004-029A</ObservatoryID>
   </Instrument>
 </Spase>

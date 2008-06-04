@@ -2,13 +2,13 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://swg/instrument/1965-098B-02</ResourceID>
+    <ResourceID>spase://SMWG/instrument/1965-098B-02</ResourceID>
     <ResourceHeader>
       <ResourceName>Cylindrical Electrostatic Probes</ResourceName>
       <ReleaseDate>1998-05-06T00:00:00Z</ReleaseDate>
       <Description>The cylindrical electrostatic probes were used to measure electron temperature and density in the ionosphere. Each sensor was basically a Langmuir probe consisting of a collector electrode extending from the central axis of a cylindrical guard ring. The guard rings extended 23 cm from the spacecraft and the collector electrode extended 46 cm. The two sensors were mounted on opposite sides of the spacecraft, and were perpendicular to the spin axis and in the orbit plane. Data sets are no longer available from this experiment.</Description>
       <Contact>
-        <PersonID>spase://swg/Person/Larry.H.Brace</PersonID>
+        <PersonID>spase://SMWG/Person/Larry.H.Brace</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>LangmuirProbe</InstrumentType>
     <InvestigationName>Cylindrical Electrostatic Probes on DME-A</InvestigationName>
-    <ObservatoryID>spase://swg/observatory/1965-098B</ObservatoryID>
+    <ObservatoryID>spase://SMWG/observatory/1965-098B</ObservatoryID>
   </Instrument>
 </Spase>
