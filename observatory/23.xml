@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://vspo/observatory/23</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/Meudon</ResourceID>
     <ResourceHeader>
-      <ResourceName>MEUDON</ResourceName>
-      <ReleaseDate>2007-08-27T18:40:20Z</ReleaseDate>
+      <ResourceName>Meudon</ResourceName>
+      <ReleaseDate>2008-06-17T22:25:59Z</ReleaseDate>
       <Description/>
       <Contact>
         <PersonID>UNKNOWN</PersonID>

@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>NOAA  5</ResourceName>
       <AlternateName>ITOS-H</AlternateName>
-      <ReleaseDate>2007-08-27T18:40:18Z</ReleaseDate>
+      <ReleaseDate>2008-06-17T22:15:18Z</ReleaseDate>
       <Description>NOAA 5 was one in a series of improved TIROS-M type satellites launched with new meteorological sensors on board to expand the operational capacity of the ITOS (NOAA) system. The primary objectives of the NOAA 5 (ITOS-H) meteorological satellite were to provide global daytime and nighttime direct readout cloudcover data on a daily basis. The sun-synchronous spacecraft was capable of supplying global atmospheric temperature soundings and very high resolution infrared cloudcover data of selected areas in either a direct readout or a tape recorder mode. A secondary objective was to obtain global solar proton density data on a routine daily basis. The primary sensors consisted of a very high resolution radiometer (VHRR), a vertical temperature profile radiometer (VTPR), and a scanning radiometer (SR). The VHRR, VTPR, and SR were mounted on the satellite baseplate with their optical axes directed vertically earthward. The nearly cubical spacecraft measured 1 x 1 x 1.2 m. The satellite was equipped with three curved solar panels that were folded during launch and deployed after orbit was achieved. Each panel measured over 4.2 m in length when unfolded and was covered with 3420 solar cells, each measuring 2 x 2 cm. The ITOS dynamics and attitude control system maintained desired spacecraft orientation through gyroscopic principles incorporated into the satellite design. Earth orientation of the satellite body was maintained by taking advantage of the precession induced from a momentum flywheel so that the satellite body precession rate of one revolution per orbit provided the desired 'earth looking' attitude. Minor adjustments in attitude and orientation were made by means of magnetic coils and by varying the speed of the momentum flywheel. The satellite was placed in a sun-synchronous orbit with equatorial crossing of the ascending node near 0830 A.M. local time.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Isidore.L.Goldberg</PersonID>
@@ -17,7 +17,6 @@
         <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1976-077A</URL>
         <Description>Information about the NOAA  5 mission</Description>
       </InformationURL>
-      <PriorID>spase://vspo/observatory/68</PriorID>
     </ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>

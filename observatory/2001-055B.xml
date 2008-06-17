@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>TIMED</ResourceName>
       <AlternateName>Thermosphere Ionosphere Mesosphere Energetics and Dynamics</AlternateName>
-      <ReleaseDate>2007-08-27T18:40:19Z</ReleaseDate>
+      <ReleaseDate>2008-06-17T22:15:18Z</ReleaseDate>
       <Description>The Thermosphere-Ionosphere-Mesosphere Energetics and Dynamics (TIMED) mission was designed to study the physical and chemical processes acting within and upon the coupled mesosphere, lower-thermosphere/ ionosphere system between about 60 and 180 km. TIMED investigates a region that is difficult to study because it is too high for even the largest research balloons and still dense enough to quickly cause a satellite to decay from orbit. Because of the lack of measurements this atmospheric region is often referred to as the "ignorosphere". Absorping a considerable amount of solar ultraviolet radiation from the sun and intercepting high energy atomic particles, this region is the "skin" between the life-sustaining lower layers and outer space. Originally proposed as a two-spacecraft mission, the TIMED project was rescoped to a one-satellite mission due to budgetary pressure. TIMED was downsized to a core mission of four experiments and six interdisciplinary investigations and mission management was moved to JHU-APL in an effort to reduce the cost to the $100M level. The instruments include the Solar EUV Experiment (SEE) provided by the University of Colorado, the TIMED Doppler Interferometer (TIDI) provided by the University of Michigan, the Global Ultraviolet Imager (GUVI) provided by the Aerospace Corp., and the Sounding of the Atmosphere using Broadband Emission Radiometry (SABER) provided by NASA's Langley Research Center. TIMED was launched together with Jason 1 by a Delta II rocket from Vandenberg AFB on 7 December 2001. All instruments are fully operational, only the TIDI instrument is operating with somewhat decreased sensitivity because of a light leak and ice deposits on the instrument optics.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Hans.G.Mayr</PersonID>
@@ -21,7 +21,6 @@
         <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2001-055B</URL>
         <Description>Information about the TIMED mission</Description>
       </InformationURL>
-      <PriorID>spase://vspo/observatory/79</PriorID>
     </ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>

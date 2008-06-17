@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Hernan.Montes</ResourceID>
+    <ReleaseDate>1992-01-01T00:00:00Z</ReleaseDate>
+    <PersonName>Hernan Montes</PersonName>
+    <OrganizationName>Instituto Geophisico del Peru</OrganizationName>
+    <Email>hmontes@geo.igp.gob.pe</Email>
+    <PhoneNumber>051-1 436-8437</PhoneNumber>
+  </Person>
+</Spase>
