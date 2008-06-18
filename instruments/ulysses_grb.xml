@@ -7,7 +7,7 @@
       <ResourceName>Solar X-Rays and Cosmic Gamma-Ray Bursts (HUS/GRB)</ResourceName>
       <AlternateName>GRB</AlternateName>
       <AlternateName>HUS</AlternateName>
-      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>The objectives of this investigation are to study the acceleration and storage of energetic electrons accelerated during solar flares by measuring solar X-radiation; to identify gamma-ray burst sources with known celestial objects or phenomena; and to study plasma and energetic charged particle processes in the Jovian magnetosphere. The instrument consists of two hemispherical cesium iodide (sodium) crystals coupled to curved cathode photomultipliers; two small solid-state detectors with an americium 241 radioactive source deposited on the sensors, and a digital electronics unit. The scintillation counters measure X rays in the energy range from 15 to 150 keV, while the solid state detectors measure X rays from 5 to 15 keV. The instrument has a mass of 2.0 kg, uses 2.6 W of power, and has a data rate of 20 bps in storage mode and 40 bps in tracking mode.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Kevin.C.Hurley</PersonID>
@@ -21,6 +21,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Solar X-Rays and Cosmic Gamma-Ray Bursts (HUS/GRB) on Ulysses</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1990-090B</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Ulysses</ObservatoryID>
   </Instrument>
 </Spase>

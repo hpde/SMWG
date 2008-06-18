@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/instrument/1996-050C-01</ResourceID>
     <ResourceHeader>
       <ResourceName>Electron and proton distribution (SKA-3)</ResourceName>
-      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>The SKA-3 set of particle detectors is designed to measure distribution functions of electrons and ions (namely, H+, He+ and O+) in seven steps over the energy range 30 - 500 keV. It consists of two energy-angle analyzers EA-2 and EA-3 for low energy particles, and two identical oppositely directed time-of-flight (TOF) analyzers EM-1-1 and EM-1-2 for high energies. The instruments are mounted outside the pressurized container on the back side of the satellite, opposite to sunward direction, with fields of view perpendicular to the satellite rotation axis (which is sunward directed). The satellite spinning thus scans the range of the pitch angles studied depending on the angle between the sunward direction and magnetic field. The spin period of the satellite is 120 seconds. Temporal resolution of observation modes varies from 0.8 to 6.4 seconds, and spatial resolution at apogee is about 110 km.
 The EA-2 and EA-3 energy-angle spectrometers are based on electrostatic toroidal analyzers. EA-2 measures energy-angle distributions of electrons; EA-3 measures ion distributions. During satellite rotation each window (of 22.5 degrees width with a gap of 22.5 degrees in between) scans all the phase angle range. The instruments allow to measure simultaneously in eight angular sectors evenly distributed in the plane perpendicular to the satellite rotation axis, and sequentially in 7 energy intervals for each angular sector. The central energies are 30, 85, 240, 680, 1900, 5300, and 15000 eV, and the energy resolution E/E is about 10%. The particles are recorded by means of microchannel plates with spaced anodes for eight angular directions. The calculated geometric factor is 0.06 cm2sr.
 EM-1-1 and EM-1-2 are identical time-of-flight energy- mass spectrometers. They allow to measure electrons deflected from the ion aperture by a magnet and ions with masses 1, 4 and 16 in 7 energy intervals in the energy range from 20 to 500 keV. These spectrometers are based on a combination of a TOF device with a thick silicon semiconductor detector of full energy at the end. The fields of view of the two detectors are directed oppositely and perpendicular to the satellite rotation axis. The field of view of the spectrometers is a cone of full angle 8 degrees. The calculated geometric factor is 0.003 cm2sr.</Description>
@@ -21,6 +21,6 @@ EM-1-1 and EM-1-2 are identical time-of-flight energy- mass spectrometers. They 
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Electron and proton distribution (SKA-3) on Interball Auroral Probe</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1996-050C</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Interball-2</ObservatoryID>
   </Instrument>
 </Spase>

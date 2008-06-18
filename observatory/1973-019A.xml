@@ -1,12 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/observatory/1973-019A</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/Pioneer11</ResourceID>
     <ResourceHeader>
       <ResourceName>Pioneer 11</ResourceName>
+      <AlternateName>1973-019A</AlternateName>
       <AlternateName>Pioneer-G</AlternateName>
-      <ReleaseDate>2008-06-17T22:15:18Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:07:37Z</ReleaseDate>
       <Description>Pioneer 11 was the second mission to investigate Jupiter and the outer solar system and the first to explore the planet Saturn and its main rings. Pioneer 11, like Pioneer 10, used Jupiter's gravitational field to alter its trajectory radically. It passed close to Saturn and then it followed an escape trajectory from the solar system.
 
 The spacecraft was 2.9 m long and contained a 2.74-m diameter high-gain antenna of aluminum honeycomb sandwich material whose feed was topped with a medium-gain antenna. A low-gain, omnidirectional antenna was mounted below the high-gain dish. The spacecraft contained two nuclear electric-power generators, which generated 144 W at Jupiter, but decreased to 100 W at Saturn. There were three reference sensors: a star (Canopus) sensor, and two sun sensors. Attitude position could be calculated from the reference direction to the earth and the sun, with the known direction to Canopus as backup. Pioneer 11's star sensor gain and threshold settings were modified, based on experience gained from the settings used on Pioneer 10. Three pairs of rocket thrusters provided spin-axis control (maintained at 4.8 rpm) and change of the spacecraft velocity. The thrusters could be either fired steadily or pulsed, by command.

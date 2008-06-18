@@ -1,12 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/observatory/1983-022A</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/NOAA8</ResourceID>
     <ResourceHeader>
-      <ResourceName>NOAA  8</ResourceName>
+      <ResourceName>NOAA 8</ResourceName>
+      <AlternateName>1983-022A</AlternateName>
       <AlternateName>NOAA-E</AlternateName>
-      <ReleaseDate>2008-06-17T22:15:18Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:13:33Z</ReleaseDate>
       <Description>NOAA 8 was a third-generation operational meteorological satellite for use in the National Environmental Satellite Data and Information Service (NESDIS) of NOAA. NOAA 8 was the first spacecraft of the advanced TIROS-N (ATN) series. The satellite design provided an economical and stable sun-synchronous platform for advanced operational instruments to measure the earth's atmosphere, its surface and cloud cover, and the near-space environment. Primary sensors included an advanced very high resolution radiometer (AVHRR) and a TIROS operational vertical sounder (TOVS). Secondary experiments consisted of a space environment monitor (SEM) and a data collection and platform location system (DCPLS). A search and rescue satellite aided tracking (SARSAT) system was also included on NOAA 8. The satellite was based upon the Block 5D spacecraft bus developed for the U.S. Air Force, and it was capable of maintaining an earth-pointing accuracy of better than plus or minus 0.1 deg with a motion rate of less than 0.035 deg/s. Although designed for a 2-year life span, NOAA 8 experienced a premature failure in June 1984.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Joel.Susskind</PersonID>

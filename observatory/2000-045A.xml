@@ -1,14 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/observatory/2000-045A</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/Cluster2-Rumba</ResourceID>
     <ResourceHeader>
       <ResourceName>Cluster 2/FM5 (Rumba)</ResourceName>
+      <AlternateName>2000-045A</AlternateName>
       <AlternateName>FM5</AlternateName>
       <AlternateName>Rumba</AlternateName>
       <AlternateName>Cluster-1</AlternateName>
-      <ReleaseDate>2008-06-17T22:15:18Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:25:58Z</ReleaseDate>
       <Description>This Cluster II spacecraft, FM5 (Rumba), is also known as Phoenix, after a mythical Arabian bird which was burnt on a funeral pile and then rose from the ashes to live again. The original Cluster of four spacecraft experienced a launch failure in 1996. (NSSDC will carry the name "Cluster96" in its information files to designate the unsuccessful 1996 four-spacecraft Ariane 5 launch.)
 
 Phoenix was approved in July 1996 as a replacement for the lost four-spacecraft group. It was later (April 1997) agreed that the potential science return from a full Cluster reflight was so important that a further three near-replicas of the original spacecraft would also be built.

@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Electric Field and Langmuir Probe Experiment</ResourceName>
       <AlternateName>EFLP</AlternateName>
-      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>The FAST electric field instrument has ten sensors, two on each of the four 29 m radial wire booms (at 24 m and 29 m) and one on each of the two rigid 3 m axial booms. All except the four outermost sensors can also operate as current collecting Langmuir probes. Similar instruments were flown on S3-3, ISEE-1, CRRES, Polar and Cluster. The instrument is designed to provide the following: a vector measurement of the electric field from DC to about 20 kHz over a dynamic range of 0.1 mV/m to 1 V/m with a sampling resolution of 0.03 ms; AC electric field waveform measurements up to 2 MHz with a sampling resolution of 32 ms; continuous monitoring of the dominant frequency and amplitude of high-frequency waves with a time resolution of 0.03 ms; measurement of the thermal plasma density (1-10^5 cm-3) and temperature with up to 0.5 ms and 1 s time resolution, respectively; measurement of the density fluctuations over a dynamic range of 0.1-20 % with a time resolution of at least 1 ms; measurements of time delays between different antennae with time resolution down to 0.03 ms; and wavelength measurements for frequencies up to 20 kHz using on-board interferometric techniques and multiple sensor separations. The FAST electric field instrument stopped providing meaningful data around 2002.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Charles.W.Carlson</PersonID>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>LangmuirProbe</InstrumentType>
     <InvestigationName>Electric Field and Langmuir Probe Experiment on FAST</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1996-049A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/FAST</ObservatoryID>
   </Instrument>
 </Spase>

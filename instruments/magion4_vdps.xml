@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/instrument/1995-039F-08</ResourceID>
     <ResourceHeader>
       <ResourceName>Plasma Flow Detector VDP-S</ResourceName>
-      <ReleaseDate>1998-03-26T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>This instrument consists of four Faraday cup detectors, registering ions and electrons with energies above 170 eV. The detectors are oriented at +/- 45 degrees from the main axis of the spacecraft, and have an angular aperture of 100 degrees. The maximum frequencies used are 1, 2, 4, and 8 Hz (depending on the telemetry mode).</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Georgy.Zastenker</PersonID>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>FaradayCup</InstrumentType>
     <InvestigationName>Plasma Flow Detector VDP-S on Interball S2-X</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1995-039F</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Magion-4</ObservatoryID>
   </Instrument>
 </Spase>

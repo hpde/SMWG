@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/instrument/1995-025A-03</ResourceID>
     <ResourceHeader>
       <ResourceName>Space Environment Monitor</ResourceName>
-      <ReleaseDate>1999-11-22T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>The Space Environment Monitor (SEM) System on the GOES-NEXT series of geostationary meteorological satellites (GOES-I through GOES-M) is designed to provide direct real-time measurement of solar activity. The SEM consists of a Magnetic Field Sensor, a Solar X-ray Sensor, and an Energetic Particle Sensor (formerly called EPS, now called EP8) / High Energy Proton and Alpha Detector (HEPAD). The Magnetic Field Sensor (MFS) allows for the real-time determination of the magnitude and orientation of the magnetic field. Data will be telemetered twice a second for magnetic fields having a magnitude of +/- 1000 nanotesla (nT). The Solar X-Ray Sensor permits real-time determination of the solar x-ray emission in two spectral bands: 0.5-5 angstroms and 1-8 angstroms. The EPS makes flux measurements of protons in the 0.8 to 500 MeV range. The HEPAD monitors protons in four energy ranges above 350 MeV and alpha particles in two energy ranges above 640 MeV/nucleon.</Description>
       <Contact>
         <PersonID>UNKNOWN</PersonID>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>Space Environment Monitor on GOES  9</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1995-025A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/GOES9</ObservatoryID>
   </Instrument>
 </Spase>

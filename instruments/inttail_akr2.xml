@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/instrument/1995-039A-18</ResourceID>
     <ResourceHeader>
       <ResourceName>Kilometric Radioemission 100 KHz - 1.5 MHz (AKR-2)</ResourceName>
-      <ReleaseDate>2006-04-03T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>The AKR-2 instrument records the intensity of electromagnetic emission in the frequency range of 100 - 1500 KHz in 6 frequency channels at 100, 250, 500, 750, 1000, and 1500 KHz. The width of each channel is about 10 KHz. The emission is received by the loop antenna with area of about 1.5 square meters. The antenna is shielded from the local electrostatic perturbations so that only electromagnetic modes of radiation are recorded. Maximum sensitivity is realized in the high-frequency channels. At the 750 KHz channel the instrument records minimum radiation flux of the order of 5.E-20 Wm**2Hz**-1.
 The input signal is fed into a broadband amplifier with a built-in calibration noise source. In calibration mode (commanded once per day) the amplifier is switched periodically from the antenna to the noise source. The instrument operates continuous; there are no other commands for controlling the instrument.
 Instrument mass is 2.8 kg and nominal power consumption is &lt;4 W.
@@ -22,6 +22,6 @@ The instrument is further described by Grigorieva et al. at pp. 233 - 238 of "In
     </ResourceHeader>
     <InstrumentType>Antenna</InstrumentType>
     <InvestigationName>Kilometric Radioemission 100 KHz - 1.5 MHz (AKR-2) on Interball Tail Probe</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1995-039A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Interball-1</ObservatoryID>
   </Instrument>
 </Spase>

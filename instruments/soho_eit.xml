@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Extreme Ultraviolet Imaging Telescope (EIT)</ResourceName>
       <AlternateName>EIT</AlternateName>
-      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>The major scientific objective of the EUV Imaging Telescope (EIT) is to study the evolution of coronal structures over a wide range of spatial and temporal scales and temperatures. A second strategic objective is to provide full-disk synoptic maps of the global corona to aid in unifying SOHO/Cluster investigations. EIT will also provide images to support the planning of detailed spectroscopic investigations by the CDS and SUMER spectrometers on SOHO. EIT observations will be made in four narrow spectral bands, centered at 17.1 nm (Fe IX), 19.5 nm (Fe XII), 28.4 nm (FE XV), and 30.4 nm (He II) representing restricted temperature domains within a wide temperature range from 40,000 K to 3 million K. The results will be images of the solar atmosphere from the upper chromosphere and transition region to the active region corona. These maps, made at appropriate time intervals, will be used to study the fine structures in the solar corona and to relate their dynamic properties to the underlying chromosphere and photosphere. Dynamic events in the inner corona will be related to white light transients in the outer corona and observations of the internal structure of coronal holes will be used to investigate origins of the solar wind. The EIT produces narrow-band images using EUV reflecting multi-layer coatings on quadrants of a normal incidence Ritchey-Chretien telescope. A rotatable mask selects the quadrant to be illuminated by the sun. A backside thinned CCD records a 42 arcmin square field of view (FOV) with a pixel size of 2.5 arcsec. A smaller FOV can be selected electronically. The telemetry rate is 1 Kbps except for a higher rate during short intervals to provide images for SOHO science planning purposes. Information on the location of the brightest point within an EIT image is available on-board SOHO to other experiments to aid in observing transient phenomena. This information is from the paper ``Solar Corona Synoptic Observations from SOHO with an Extreme Ultraviolet Imaging Telescope,'' by Delaboudiniere et al. (Proceedings of the First SOHO Workshop, ESA SP-348, p. 21, November 1992).</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Jean-Pierre.Delaboudiniere</PersonID>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>Extreme Ultraviolet Imaging Telescope (EIT) on SOHO</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1995-065A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/SOHO</ObservatoryID>
   </Instrument>
 </Spase>

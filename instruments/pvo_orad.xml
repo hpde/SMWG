@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Radar Mapper (ORAD)</ResourceName>
       <AlternateName>ORAD</AlternateName>
-      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>The Pioneer Venus Orbiter radar altimeter (ORAD) was used to obtain information on the orbiter altitude, planetary surface temperature, and radar scattering properties in order to infer the surface topography, geology, and the thermal and mechanical properties of the interior of Venus. From observations of the radar echo, surface heights along the suborbital trajectory can be estimated to an accuracy of 150 m. Surface electrical conductivity and meter-scale roughness can also be derived. The measurements are made whenever the spacecraft is below 4700 km. A low power (20 W peak pulse power), S-band (1.757 GHz) pulse is transmitted to the surface, and the echoes are recieved and processed on-board. The antenna is mechanically moved in a plane containing the spacecrafts spin axis to view the suborbital point on the planet's surface once during each roll of the spacecraft. The radar observations occupy about 1 sec out of each 12 second spacecraft rotation period. The surface resolution at periapsis is 23 km along track and 7 km across track. Relatively long pulses are used to obtain a good signal-to-noise ratio from each pulse.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Gordon.H.Pettengill</PersonID>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>Radar</InstrumentType>
     <InvestigationName>Radar Mapper (ORAD) on Pioneer Venus Orbiter</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1978-051A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/PioneerVenusOrbiter</ObservatoryID>
   </Instrument>
 </Spase>

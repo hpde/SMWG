@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Magnetic Field Observations (MAG-B)</ResourceName>
       <AlternateName>MAG-B</AlternateName>
-      <ReleaseDate>2002-01-09T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>A triaxial fluxgate magnetometer (MAG-B), similar to one on board DE 1, was used to obtain magnetic field data needed to study the magnetosphere-ionosphere-atmosphere coupling. The primary objectives of this investigation were to measure field-aligned currents in the auroral oval and over the polar cap at two different altitudes using the two spacecraft, and to correlate these measurements with observations of electric fields, plasma waves, suprathermal particles, thermal particles, and auroral images obtained from investigation 81-070A-03. The magnetometer had digital compensation of the ambient field in 8.E3 nT (8.E3 gamma) increments. The instrument incorporated its own 12-bit analog-to-digital converter, a 4-bit digital compensation register for each axis, and a system control that generated a 48-bit data word consisting of a 16-bit representation of the field measured along each of three magnetometer axes. Track and hold modules were used to obtain simultaneous samples on all three axes. The instrument bandwidth was 25 Hz. The analog range was plus or minus 6.2E4 nT, the accuracy was plus or minus 4 nT, and the resolution was 1.5 nT. The time resolution was 16 vector samples per second. More details can be found in W. H. Farthing et al., Space Sci. Instrum., v. 5, n. 4, p. 551, 1981.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Masahisa.Sugiura</PersonID>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Magnetic Field Observations (MAG-B) on Dynamics Explorer 2</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1981-070B</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/DynamicsExplorer2</ObservatoryID>
   </Instrument>
 </Spase>

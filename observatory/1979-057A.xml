@@ -1,15 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/observatory/1979-057A</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/NOAA6</ResourceID>
     <ResourceHeader>
-      <ResourceName>NOAA  6</ResourceName>
+      <ResourceName>NOAA 6</ResourceName>
+      <AlternateName>1979-057A</AlternateName>
       <AlternateName>NOAA-A</AlternateName>
-      <ReleaseDate>2008-06-17T22:15:18Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:11:20Z</ReleaseDate>
       <Description>NOAA 6 was an operational meteorological satellite for use in the National Operational Environmental Satellite System (NOESS) and for the support of the Global Atmospheric Research Program (GARP) during 1978-84. The satellite design provided an economical and stable sun-synchronous platform for advanced operational instruments to measure the earth's atmosphere, its surface and cloud cover, and the near-space environment. Primary sensors included an advanced very high resolution radiometer (AVHRR) and a TIROS operational vertical sounder (TOVS). Secondary experiments consisted of a space environment monitor (SEM) and a data collection and platform location system (DCPLS). The satellite was based upon the Block 5D spacecraft bus developed for the U.S. Air Force, and it was capable of maintaining an earth-pointing accuracy of better than plus or minus 0.1 deg with a motion rate of less than 0.035 deg/s. In early 1984, only one to two NOAA 6 passes were taken per day due to priorities for NOAA 7 and 8 data. However, when NOAA 8 failed in late June 1984, NOAA 6 was returned to full operational status to continue to provide morning orbit operational data.</Description>
       <Contact>
-        <PersonID>UNKNOWN</PersonID>
+        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
       <InformationURL>

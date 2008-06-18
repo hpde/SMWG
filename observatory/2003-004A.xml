@@ -1,12 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/observatory/2003-004A</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/SORCE</ResourceID>
     <ResourceHeader>
       <ResourceName>SORCE</ResourceName>
+      <AlternateName>2003-004A</AlternateName>
       <AlternateName>SOlar Radiation and Climate Experiment</AlternateName>
-      <ReleaseDate>2008-06-17T22:15:18Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:27:17Z</ReleaseDate>
       <Description>SORCE (SOlar Radiation and Climate Experiment) is an American (NASA) Sun-Earth Connection satellite that was launched at 20:13 UT by a Pegasus XL rocket released from a L-1011 cargo aircraft flying out of Cape Canaveral. It is to measure solar irradiance in a number of wavelength-bands through three spectrometers and a photometer.
 
 The URL
@@ -15,7 +16,7 @@ http://lasp.colorado.edu/sorce/
 
 provides much detailed descriptions of the experiments and data availability. The PI is Gary J. Rottman of LASP, University of Colorado, Boulder, with many co-investigators. The Program Manager is Tom Sparn of LASP.</Description>
       <Contact>
-        <PersonID>UNKNOWN</PersonID>
+        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
       <InformationURL>

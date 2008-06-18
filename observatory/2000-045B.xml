@@ -1,14 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/observatory/2000-045B</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/Cluster2-Tango</ResourceID>
     <ResourceHeader>
       <ResourceName>Cluster 2/FM8 (Tango)</ResourceName>
+      <AlternateName>2000-045B</AlternateName>
       <AlternateName>Cluster-4</AlternateName>
       <AlternateName>Tango</AlternateName>
       <AlternateName>FM8</AlternateName>
-      <ReleaseDate>2008-06-17T22:15:18Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:26:10Z</ReleaseDate>
       <Description>This Cluster II spacecraft, FM8 (Tango), was launched together with FM5 (Rumba) by a Soyuz-Fregat rocket from Baikonur. The four similar spacecraft of the Cluster II mission are part of ESA's and NASA's Solar-Terrestrial Science Program (STSP). The current Cluster II mission is a near-replica of the original four-spacecraft mission lost at launch in 1996. (NSSDC will carry the name "Cluster96" in its information files to designate the unsuccessful 1996 four-spacecraft Ariane 5 launch.) The purpose of the Cluster II mission is to study small-scale structures in three dimensions in the Earth's plasma environment, such as those involved in the interaction between the solar wind and the magnetospheric plasma, in global magnetotail dynamics, in cross-tail currents, and in the formation and dynamics of the neutral line and of plasmoids.
 
 The four Cluster II spacecraft will orbit in a tetrahedral formation in near-polar orbits of nominally 4 x 19.6 Earth radii, with period about 57 hours, and inclination about 90.7 degrees. Relative distances between the spacecraft will be adjusted in the course of the mission, depending on the spatial scales of the structures to be studied, varying from a few hundred km to a few Earth radii. The tetrahedral formation is essential for making three-dimensional measurements and for determining the curl of vectorial quantities such as the magnetic field.

@@ -1,12 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/observatory/1965-098A</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/Alouette2</ResourceID>
     <ResourceHeader>
       <ResourceName>Alouette 2</ResourceName>
+      <AlternateName>1965-098A</AlternateName>
       <AlternateName>Alouette-B</AlternateName>
-      <ReleaseDate>2008-06-17T22:15:18Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:02:07Z</ReleaseDate>
       <Description>Alouette 2 was a small ionospheric observatory instrumented with a sweep-frequency ionospheric sounder, a VLF receiver, an energetic particle experiment, a cosmic noise experiment, and an electrostatic probe. The spacecraft used two long dipole antennas (73 m and 22.8 m, respectively) for the sounder, VLF, and cosmic noise experiments. The satellite was spin-stabilized at about 2.25 rpm after antenna deployment. End plates on the 73 m antenna corrected the rapid despin that had occurred on Alouette 1, and which was believed to result from thermal distortion of the antenna and from radiation pressure. There was no tape recorder, so that data were available only when the spacecraft was in line of sight of telemetry stations. Telemetry stations were located so that primary data coverage was near the 80 deg W meridan plus areas near Hawaii, Singapore, Australia, the UK, India, Norway, and Central Africa. Initially data were recorded about 8 h per day. Degradation of the power supply system had, by June 1975, reduced the operating time to about 1/2 h per day. Routine operations were terminated in July 1975. The spacecraft was successfully reactivated on November 28 and 29, 1975, in order to obtain data on its 10th annniversary.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/John.E.Jackson</PersonID>

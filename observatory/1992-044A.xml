@@ -1,15 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/observatory/1992-044A</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/Geotail</ResourceID>
     <ResourceHeader>
       <ResourceName>Geotail</ResourceName>
+      <AlternateName>1992-044A</AlternateName>
       <AlternateName>GTL</AlternateName>
       <AlternateName>ISTP/Geotail</AlternateName>
       <AlternateName>GGS/Geotail</AlternateName>
       <AlternateName>Geomagnetic Tail Lab</AlternateName>
-      <ReleaseDate>2008-06-17T22:15:18Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:16:18Z</ReleaseDate>
       <Description>The solar wind draws the Earth's magnetic field into a long tail on the nightside of the Earth and stores energy in the stretched field lines of the magnetotail. During active periods, the tail couples with the near-Earth magnetosphere, sometimes releasing energy stored in the tail and activating auroras in the polar ionosphere.
 
 The Geotail mission measures global energy flow and transformation in the magnetotail to increase understanding of fundamental magnetospheric processes. This includes the physics of the magnetopause magnetospheric boundary regions, the lobe and plasma sheet, and reconnection and neutral line formation, i.e., the mechanisms processes of input, transport, storage, release and conversion of mass, momentum and energy in the magnetotail.

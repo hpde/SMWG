@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Wide Band Data (WBD)</ResourceName>
       <AlternateName>WBD</AlternateName>
-      <ReleaseDate>2007-02-02T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>The WBD (Wide Band Data) investigation is designed to provide high-resolution frequency/time spectra of plasma waves in the Earth's magnetosphere. As part of the Wave Experiments Consortium (WEC), this instrument provides measurements of both electric and magnetic fields in selected frequency bands from 25 Hz to 577 KHz. Continuous waveforms are digitized, formatted, and transferred to the spacecraft telemetry system using either a 220 Kbps real-time mode or a 73 Kbps burst mode. The real-time data require direct acquisition by a NASA Deep Space Network receiving station, and the burst-mode data are stored on the spacecraft tape recorder for later playback. On the ground the waveforms are Fourier transformed to provide high-resolution frequency/time spectrograms. The extremely high (microsecond) time resolution provided by the WBD measurements will make it possible to utilize the signals from two or more of the Cluster spacecraft to perform very-long-baseline-interferometer measurements. The WBD instrument processes signals from one of four selectable sensors: two electric field signals (from the EFW experiment) and two magnetic field signals (from the STAFF). The EFW sensors are spherical electric antennas with sphere-to-sphere separation of about 100 m after full deployment. The STAFF sensors are search coil magnetometers with the measurement axis in the spin plane (By) or along the spin axis (Bz). Commanding of the WBD instrument is managed by the DWP instrument. In the burst data recording mode, the WBD data are transferred to the DWP at 220 Kbps. Then the DWP reduces the wideband data by a factor of three by digital filtering and re-sampling, and sends the lower rate data to the spacecraft data system for recording and subsequent playback. For more details of the Cluster mission, the spacecraft, and its instruments, see the report ``Cluster: mission, payload and supporting activities,'' March 1993, ESA SP-1159, and the included article ``The Wideband Plasma Wave Investigation,'' by D. A. Gurnett et al., from which this information was obtained.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Donald.A.Gurnett</PersonID>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>WaveformReceiver</InstrumentType>
     <InvestigationName>Wide Band Data (WBD) on Cluster 2/FM7 (Samba)</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/2000-041A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Cluster2-Samba</ObservatoryID>
   </Instrument>
 </Spase>

@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/observatory/2000-055A</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/NOAA16</ResourceID>
     <ResourceHeader>
       <ResourceName>NOAA 16</ResourceName>
+      <AlternateName>2000-055A</AlternateName>
       <AlternateName>Advanced TIROS-N (ATN)</AlternateName>
       <AlternateName>POES 16</AlternateName>
-      <ReleaseDate>2008-06-17T22:15:18Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:26:20Z</ReleaseDate>
       <Description>NOAA 16 continues the fourth-generation of operational, polar orbiting, meteorological satellite series (NOAA K-N) operated by the National Environmental Satellite Service (NESS) of the National Oceanic and Atmospheric Administration (NOAA). NOAA 16 also continues the series of Advanced TIROS-N (ATN) spacecraft begun with the launch of NOAA-8 (NOAA-E) in 1983 but with additional new and improved instrumentation over the NOAA A-J series and a new launch vehicle (Titan II). NOAA 16 will be in a morning equator-crossing orbit and is intended to replace the NOAA-J as the prime morning spacecraft. The goal of the NOAA/NESS polar orbiting program is to provide output products used in meteorological prediction and warning, oceanographic and hydrologic services, and space environment monitoring. The polar orbiting system complements the NOAA/NESS geostationary meteorological satellite program (GOES). The NOAA 16 Advanced TIROS-N spacecraft is based on the Defense Meteorological Satellite Program (DMSP) Block 5D spacecraft and is a modified version of the ATN spacecraft (NOAA 6-11, I-J) to accomodate the new instrumentation, supporting antennas and electrical subsystems. The spacecraft structure consists of four components: (1) the Reaction System Support (RSS); (2) the Equipment Support Module (ESM); (3) the Instrument Mounting Platform (IMP); and (4) the Solar Array (SA). All of the instruments are located on the ESM and the IMP. The spacecraft power is provided by a direct energy transfer system from the single solar array which is comprised of eight panels of solar cells. The in-orbit Attitude Determination and Control Subsystem (ADACS) provides three-axis pointing control by controlling torque in three mutually orthogonal momentum wheels with input from the Earth Sensor Assembly (ESA) for pitch, roll, and yaw updates. The ADACS controls the spacecraft attitude so that orientation of the three axes is maintained to within +/- 0.2 degrees and pitch, roll, and yaw to within 0.1 degree. The ADACS consists of the Earth Sensor Assembly (ESA), the Sun Sensor Assembly (SSA), four Reaction Wheel Assemblies (RWA), two roll/yaw coils (RYC), two pitch torquing coils (PTC), four gyros, and computer software for data processing. The ATN data handling subsystem, consists of the TIROS Information Processor (TIP) for low data rate instruments, the Manipulated Information Rate Processor (MIRP) for high data rate AVHRR, digital tape recorders (DTR), and a cross strap unit (XSU). The NOAA 16 instrument complement consists of: (1) an improved six-channel Advanced Very High Resolution Radiometer/3 (AVHRR/3); (2) an improved High Resolution Infrared Radiation Sounder (HIRS/3); (3) the Search and Rescue Satellite Aided Tracking System (S&amp;R), which consists of the Search and Rescue Repeater (SARR) and the Search and Rescue Processor (SARP-2); (4) the French/CNES-provided improved ARGOS Data Collection System (DCS-2); (5) the Solar Backscatter Ultraviolet Spectral radiometer (SBUV/2); and (6) the Advanced Microwave Sounding Unit (AMSU), which consists of three separate modules, A1, A2, and B to replace the previous MSU and SSU instruments.</Description>
       <Contact>
-        <PersonID>UNKNOWN</PersonID>
+        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
       <InformationURL>

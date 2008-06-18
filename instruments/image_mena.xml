@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Medium-Energy Neutral Atom Imager (MENA)</ResourceName>
       <AlternateName>MENA</AlternateName>
-      <ReleaseDate>2006-02-09T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>The Medium-Energy Neutral Atom (MENA) imager on IMAGE is one of three instruments designed to make observations of the Earth's magnetospheric environment using neutral atom imaging.
 MENA is a slit-type imager designed to detect energetic neutral hydrogen and oxygen atoms with energies ranging from 1 to 30 keV. The instrument determines the time of flight and incidence angle of the incoming ENAs. From these raw data it calculates their trajectory and velocity and generates images of the magnetospheric regions from which they are emitted. The imager consists of three identical sensor heads mounted on a data processing unit (DPU).
 The three sensor heads are mounted side by side on top of the DPU. The middle sensor looks straight ahead, with a 107-degree field of view in the plane of the spin axis. The look directions of the two side sensors are offset from that of the middle sensor by 20 degrees. This 20-degree o fset compensates for a 20-degree blind spot in the center of each detector. The resulting field of view in the plane of the spin axis is 147 degrees.
@@ -23,6 +23,6 @@ The MENA DPU consists of a single 16-bit Harris RTX2010 microcontroller operatin
     </ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>Medium-Energy Neutral Atom Imager (MENA) on IMAGE</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/2000-017A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/IMAGE</ObservatoryID>
   </Instrument>
 </Spase>

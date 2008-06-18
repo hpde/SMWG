@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Extreme Ultraviolet Imager (EUV)</ResourceName>
       <AlternateName>EUV</AlternateName>
-      <ReleaseDate>2006-02-09T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>The Extreme Ultraviolet Imager (EUV) of the IMAGE mission observes the distribution of He+ in Earth's plasmasphere by detecting its resonantly-scattered emission at 30.4 nm. It records the structure and dynamics of the cold plasma in Earth's plasmasphere on a global scale. The 30.4-nm feature is relatively easy to measure because it is the brightest ion emission from the plasmasphere, it is spectrally isolated, and the background at that wavelength is negligible. Measurements are easy to interpret because the plasmaspheric He+ emission is optically thin, so its brightness is directly proportional to the He+ column abundance. Effective imaging of the plasmaspheric He+ requires global "snapshops" in which the high apogee and the wide field of view of EUV provide in a single exposure a map of the entire plasmasphere.
 EUV consists of three identical sensor heads, each having a field of view 30 degrees in diameter. These sensors are tilted relative to one another to cover a fan-shaped field of 84 degrees by 30 degrees, which is swept across the plasmasphere by the spin of the satellite. EUV's spatial resolution is 0.6 degree of 0.1 RE in the equatorial plane seen from apogee. The sensitivity is 1.9 count/sec-Rayleigh, sufficient to map the position of the plasmapause with a time resolution of 10 minutes.</Description>
       <Contact>
@@ -21,6 +21,6 @@ EUV consists of three identical sensor heads, each having a field of view 30 deg
     </ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>Extreme Ultraviolet Imager (EUV) on IMAGE</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/2000-017A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/IMAGE</ObservatoryID>
   </Instrument>
 </Spase>

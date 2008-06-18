@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>High-Energy Neutral Atom Imager (HENA)</ResourceName>
       <AlternateName>HENA</AlternateName>
-      <ReleaseDate>2006-02-09T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>The High-Energy Neutral Atom (HENA) imager on IMAGE is one of three instruments designed to make observations of the Earth's magnetospheric environment using neutral atom imaging. The HENA instrument determines the velocity, trajectory, energy, and mass of ENAs in the 10-500 keV energy range and from these data generates images of ENA source regions in the inner magnetosphere. The two main HENA components are the sensor and the main electronics unit (MEU).
 The HENA sensor consists of alternately charged deflection plates mounted in a fan configuration in front of the entrance slit, three microchannel plate (MCP) detectors, a solid-state detector (SSD), two carbon-silicon-polyimide foils (one at the entrance slit, the other placed just in front of the back MCP), and a series of wires and electrodes to steer secondary electrons ejected from the foils (or the SSD) to the MCPs. Power for the MCPs and deflection plates and for secondary electron steering is provided by high-voltage power supplies that reside with the sensor.
 The MEU contains HENA's data processing unit (DPU), the analog electronics (which amplifies and processes signals from the sensor and performs housekeeping monitoring), analog-to-digital converters, and a low-voltage power supply.
@@ -25,6 +25,6 @@ The energy of the incident ENAs is measured with the SSD. When an ENA strikes th
     </ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>High-Energy Neutral Atom Imager (HENA) on IMAGE</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/2000-017A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/IMAGE</ObservatoryID>
   </Instrument>
 </Spase>

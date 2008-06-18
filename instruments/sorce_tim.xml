@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Total Irradiation Monitor (TIM)</ResourceName>
       <AlternateName>TIM</AlternateName>
-      <ReleaseDate>2003-02-04T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>TIM (Total Irradiation Monitor) is a 7.9 kg, 14 W instrument that covers all visual and infrared wavelengths at an irradiance accuracy of one part in 10,000. It uses differential, heat sensitive resisters as detectors.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Gary.J.Rottman</PersonID>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>TIM (Total Irradiation Monitor) on SORCE</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/2003-004A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/SORCE</ObservatoryID>
   </Instrument>
 </Spase>

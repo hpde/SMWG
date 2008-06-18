@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/instrument/1995-039F-09</ResourceID>
     <ResourceHeader>
       <ResourceName>Two-component Current Langmuir Slit Probe, LSP</ResourceName>
-      <ReleaseDate>1998-03-26T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>The Langmuire Slit Probe is used to measure two components of the current density in space. The input signal frequency range is 0.3 Hz to 50 kHz. The output 1 has a linear characteristic over the whole frequency range; in output 2 the characteristic is proportional to the frequency in the range 15 to 1000 Hz.
 The noise threshold normalized to the input is 10^-13 A/cm^2. The dynamical range of the input signal variations is 80 dB for the first output. The dynamical range is measured from the noise level for a given frequency band to the maximum signal on the detector input. The gain is 70 +/- 10 for output 1 and 3500 +/- 500 for output 2. To calculate the transmission coefficient Ct for a parameter under measurement one should multiply these values by 42.45 V m/kA cm^2.</Description>
       <Contact>
@@ -20,6 +20,6 @@ The noise threshold normalized to the input is 10^-13 A/cm^2. The dynamical rang
     </ResourceHeader>
     <InstrumentType>LangmuirProbe</InstrumentType>
     <InvestigationName>Two-component Current Langmuir Slit Probe, LSP on Interball S2-X</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1995-039F</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Magion-4</ObservatoryID>
   </Instrument>
 </Spase>

@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/instrument/1972-073A-10</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar Plasma Electrostatic Analyzer</ResourceName>
-      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>A hemispherical electrostatic analyzer was used to study the directional intensity of positive ions and electrons in the solar wind, magnetosheath, and magnetotail. Ions as heavy as oxygen were resolved when the solar wind temperature was low. Energy analysis was accomplished by charging the plates to known voltage levels and allowing them to discharge with known RC time constants. In the solar wind, positive ions from 200 eV to 5 keV (15% spacing, 3% resolution) and electrons from 5 eV to 1 keV (30% spacing, 15% resolution) were studied. In the magnetosheath, positive ions from 200 eV to 5 keV (15% spacing, 3% resolution) and from 200 eV to 2 keV (30% spacing, 15% resolution) and electrons from 5 eV to 1 keV (30% spacing, 15% resolution) were studied. In the magnetotail, positive ions from 200 eV to 20 keV (30% spacing, 15% resolution) and electrons from 5 eV to 1 keV (30% spacing, 15% resolution) and from 100 eV to 20 keV (15% resolution) were studied. For further details see W. C. Feldman et al., J. Geophys. Res., v. 80, p. 4181, 1975.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/John.T.Gosling</PersonID>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Solar Plasma Electrostatic Analyzer on IMP-H</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1972-073A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/IMP7</ObservatoryID>
   </Instrument>
 </Spase>

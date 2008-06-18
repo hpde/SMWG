@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/instrument/1973-019A-14</ResourceID>
     <ResourceHeader>
       <ResourceName>Jovian Magnetic Field</ResourceName>
-      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>This instrument, designed to measure the Jovian and Saturnian magnetic field, consisted of a single-range triaxial fluxgate magnetometer sensor and associated electronics capable of measuring fields from 1.E-6 to 1.E-3 T (0.01 to 10 gauss) along each orthogonal axis. Use of a 10-bit A-to-D converter yielded a quantization step size of minus to plus 600 nT for fields less than 2.E-4 T. Instantaneous vector measurements were made once every three revolutions of the spacecraft (36 s) and transmitted to the ground with no further onboard processing. More instrumental details are given in Sp. Sci. Instrum., v. 1, p. 177, 1975. Principal Jovian scientific results can be found in J. Geophys. Res., v. 81, p. 2917, 1976. This instrument was turned off in October 1979.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Mario.H.Acuna</PersonID>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Jovian Magnetic Field on Pioneer 11</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1973-019A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Pioneer11</ObservatoryID>
   </Instrument>
 </Spase>

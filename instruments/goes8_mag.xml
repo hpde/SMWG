@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/instrument/1994-022A-04</ResourceID>
     <ResourceHeader>
       <ResourceName>GOES 8, Triaxial Fluxgate Magnetometer</ResourceName>
-      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>The magnitude and direction of the magnetic field are measured by two redundant Schonstedt triaxial magnetometers located on a boom 3 m, and 2.7 m away from the spacecraft body. The electronics are located inside the body. The X, Y, Z component signals from the three axes are digitized by a 16-bit converter, at a sampling rate of 0.512 s. The sensitivity is 0.1 nT, and the range +/- 1000 nT. After temperature correction, and before (undescribed) stray-field correction, the accuracy is at about 1 nT level.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Howard.J.Singer</PersonID>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>GOES 8, Triaxial Fluxgate Magnetometer on GOES  8</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1994-022A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/GOES8</ObservatoryID>
   </Instrument>
 </Spase>

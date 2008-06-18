@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/instrument/2003-061A-02</ResourceID>
     <ResourceHeader>
       <ResourceName>PEACE (Plasma Electron And Current Experiment)</ResourceName>
-      <ReleaseDate>2004-01-08T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>PEACE (Plasma Electron And Current Experiment) infers the positive potential of the spacecraft by counting the number and speed of the thermal electrons that impinge on it. This measurement is an input to the operation of ASPOC.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Andrew.N.Fazakerley</PersonID>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>PEACE (Plasma Electron And Current Experiment) on Double Star 1</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/2003-061A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/DoubleStar1</ObservatoryID>
   </Instrument>
 </Spase>

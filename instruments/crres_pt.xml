@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/instrument/1990-065A-15</ResourceID>
     <ResourceHeader>
       <ResourceName>Proton Telescope</ResourceName>
-      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>This instrument measured protons in the energy range 1 to 100 MeV. It consisted of two separate sensor units and a data processing unit. The low-energy sensor head (LE) measured 1 - 9 MeV protons in eight contiguous energy channels and the high-energy sensor head (HE) measured 6 - 100 MeV protons in 16 channels. The entire energy spectrum was obtained each second. Both heads had passive shielding, a collimator made of aluminum and tungsten, an electron sweeping magnet with a field strength of 0.5 T, and a silicon detector stack. The acceptance angles (FWHM) were 9.53 and 16.7 deg for the low- and high-energy units, respectively. The magnets removed up to 4- and 8-MeV electrons, respectively. The low-energy sensor used five surface barrier detectors in the stack. The back detector was used behind some additional shielding to fix the highest energy channel. The high-energy unit used five lithium-drifted silicon detectors with guard rings to reject penetrating particles and one surface barrier detector. The last detector was used in anticoincidence to define the upper energy channel. This experiment was part of the SPACERAD project sponsored by AFGL.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Michael.D.Violet</PersonID>
@@ -23,6 +23,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Proton Telescope on CRRES</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1990-065A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/CRRES</ObservatoryID>
   </Instrument>
 </Spase>

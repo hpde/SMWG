@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/instrument/1996-050C-02</ResourceID>
     <ResourceHeader>
       <ResourceName>Ion Spectra and Anisotropy (ION)</ResourceName>
-      <ReleaseDate>2006-04-08T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>The ION experiment flown on the Interball-Aurora mission performs simultaneous ion and electron measurements. Two mass spectrometers looking in opposing directions perpendicular to the satellite spin axis, which points toward the sun, measure ions in the mass and energy ranges 1-32 amu and ~ 0 to 14,000 eV. The ion measurements are complemented by simple electron spectrometers performing measurements in the energy range ~10 eV (or 60 eV) to 20,000 eV.
 Ion composition analyzers:&lt;br&gt; The design of the detector heads of the ION-1 and ION-2 mass spectrometers is based on the principle of the Wien filter, where the mass filtering is performed by crossed electric and magnetic fields. The energy over charge (E/Q) selection is made by a cylindrical electrostatic analyzer placed in front of the filter. At each energy step, the electric field in the magnetic analyzer is programmed in order either to scan 2 or 4 ions (H+, He++, He+, O+).
 Electron analyzers:&lt;br&gt; Two spectrometers, ION3 and 4, measure electron fluxes. They consist of two cylindrical electrostatic analyzer heads and associated electronics.
@@ -22,6 +22,6 @@ The ION SADS page available at http://sads.cnes.fr:8010 has additional informati
     </ResourceHeader>
     <InstrumentType>MassSpectrometer</InstrumentType>
     <InvestigationName>Ion Spectra and Anisotropy (ION) on Interball Auroral Probe</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1996-050C</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Interball-2</ObservatoryID>
   </Instrument>
 </Spase>

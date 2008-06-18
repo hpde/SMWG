@@ -1,14 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/observatory/2000-017A</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/IMAGE</ResourceID>
     <ResourceHeader>
       <ResourceName>IMAGE</ResourceName>
+      <AlternateName>2000-017A</AlternateName>
       <AlternateName>MIDEX/IMAGE</AlternateName>
       <AlternateName>Imager for Magnetopause-to-Aurora Global Exploration</AlternateName>
       <AlternateName>Explorer 78</AlternateName>
-      <ReleaseDate>2008-06-17T22:15:18Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:24:38Z</ReleaseDate>
       <Description>IMAGE (Imager for Magnetopause-to-Aurora Global Exploration) was a MIDEX class mission, selected by NASA in 1996, to study the global response of the Earth's magnetosphere to changes in the solar wind. IMAGE was launched March 25, 2000 into a highly elliptical polar orbit with initial geocentric apogee of 8.2 Earth radii and perigee altitude of 1000 km. IMAGE used neutral atom, ultraviolet, and radio imaging techniques to: (a) identify the dominant mechanisms for injecting plasma into the magnetosphere on substorm and magnetic storm time scales; (b) determine the directly driven response of the magnetosphere to solar wind changes; and, (c) discover how and where magnetospheric plasmas are energized, transported, and subsequently lost during substorms and magnetic storms.
 
 In order to fulfill its science goals, IMAGE utilized neutral atom, ultraviolet, and radio imaging techniques. A suite of three neutral atom imagers (NAI) provided energy- and composition-resolved images at energies from 10 eV to 200 keV with a time resolution of 300 seconds. Two ultraviolet imagers, covering wavelength ranges from 120-180 nm (FUV) and 30.4 nm (EUV), provided coverage in the far and extreme ultraviolet. The radio plasma imager (RPI) was a low-power radar which operated in the radio frequency bands which contain the plasma resonance frequencies characteristic of the Earth's magnetophere (3 kHz to 3 MHz).

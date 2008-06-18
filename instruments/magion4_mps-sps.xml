@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/instrument/1995-039F-06</ResourceID>
     <ResourceHeader>
       <ResourceName>Energetic Electron and Proton Spectrometers MPS, SPS</ResourceName>
-      <ReleaseDate>1997-10-22T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>The main objective of the charged particle and plasma experiments in the INTERBALL project is to study the spatial structure of the terrestrial magnetosphere as a global system in various scales and for varying external conditions. The subsatellites (Interball S2-T or S2-X for the Tail subsatellite and S2-A for the Auroral one) are equipped with ion/electron spectrometers similar to those aboard the two main Interball spacecraft.
 The MPS spectrometer aboard S2-T is designed to carry out a long-period monitoring of the solar wind parameters and to register the ion fluxes in the bow-shock region when the satellite will be in the appropriate regions. MPS is oriented along the Sun-Earth direction. The SPS spectrometer is designed for estimating the ion energy and angular distributions and for measurements of the electron energy distributions.
 The MPS (carried on both S2-A and S2-T) has two channels, and covers the ion energy range 0.2 to 20 keV in 16 steps (variable on command). Energy resolution is less than 10%. It utilizes a 127-degree electrostatic analyzer and channeltron. The angular aperture is 4 degrees both in the plane perpendicular to the main axis and in the plane parallel to it.
@@ -23,6 +23,6 @@ The MPS and SPS spectrometers have limited angular characteristics; for this rea
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Energetic Electron and Proton Spectrometers MPS, SPS on Interball S2-X</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1995-039F</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Magion-4</ObservatoryID>
   </Instrument>
 </Spase>

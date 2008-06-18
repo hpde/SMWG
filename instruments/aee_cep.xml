@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Cylindrical Electrostatic Probe (CEP)</ResourceName>
       <AlternateName>CEP</AlternateName>
-      <ReleaseDate>2007-02-02T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>The CEP consisted of two identical instruments designed to measure electron temperatures, electron and ion concentrations, ion mass, and spacecraft potential. One probe was oriented along the spin axis of the spacecraft (usually perpendicular to the orbit plane), and the other radially, so that it could observe in the direction of the velocity vector once each 15-s spin period. Each instrument was a retarding-potential Langmuir-probe device that produced a current-voltage (I-V) curve for a known voltage pattern placed on the collector. Electrometers were used to measure the current. There were two systems of operation (one with two modes and another with three modes) using collector voltage patterns between plus and minus 5 volts. Most modes involved an automatic or fixed adjustment of collector voltage limits (and/or electrometer output) such that the region of interest on the I-V profile provided high resolution. Each system was designed for use with only one of the probes, but they could be interswitched to provide backup redundancy. The best measurements in the most favorable modes provided 1-s time resolution; electron temperature between 300 and 1.E4 deg K (10% accuracy); ion density between 1.E4 and 1.E7 ions/cc (10-20% accuracy); electron density between 50 and 1.E6 electrons/cc; and ion mass at ion densities above 1.E4. Each probe had a collector electrode extending from the central axis of a cylindrical guard ring. The 2.5-cm-long guard ring was at the end of a 25-cm boom, and the collector extended another 7.5 cm beyond the guard ring. The boom, guard, and collector were 0.2 cm in diameter. More detailed information can be found in L. H. Brace et al., Radio Sci., v. 8, n. 4, p. 341, 1973.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Larry.H.Brace</PersonID>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>LangmuirProbe</InstrumentType>
     <InvestigationName>Cylindrical Electrostatic Probe (CEP) on AE-E</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1975-107A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/AE-E</ObservatoryID>
   </Instrument>
 </Spase>

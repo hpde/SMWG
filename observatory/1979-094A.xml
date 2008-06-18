@@ -1,12 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/observatory/1979-094A</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/Magsat</ResourceID>
     <ResourceHeader>
       <ResourceName>Magsat</ResourceName>
+      <AlternateName>1979-094A</AlternateName>
       <AlternateName>Explorer 61</AlternateName>
-      <ReleaseDate>2008-06-17T22:15:18Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:11:27Z</ReleaseDate>
       <Description>The Magsat project was a joint NASA/United States Geological Survey (USGS) effort to measure near-earth magnetic fields on a global basis. Objectives included obtaining an accurate description of the earth's magnetic field, obtaining data for use in the update and refinement of world and regional magnetic charts, compilation of a global crustal magnetic anomaly map, and interpretation of that map in terms of geologic/geophysical models of the earth's crust. The spacecraft was launched into a low, near-polar, orbit by the Scout vehicle. The basic spacecraft was made up of two distinct parts: the instrument module that contained a vector and a scalar magnetometer and their unique supporting gear; and the base module that contained the necessary data-handling, power, communications, command, and attitude-control subsystems to support the instrument module. The base module complete with its subsystems was comprised of residual Small Astronomy Satellite (SAS-C) hardware. The magnetometers were deployed after launch to a position 6 m behind the spacecraft. At this distance, the influence of magnetic materials from the instrument and base module (chiefly from the star cameras) was less than 1 nT. Sixteen complete vector magnetic field measurements and eight scalar measurements were obtained every second.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.A.Langel.III</PersonID>

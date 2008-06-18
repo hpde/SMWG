@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/instrument/1995-039A-07</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar Wind Analyzer (MONITOR-3)</ResourceName>
-      <ReleaseDate>2006-03-18T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>This instrument makes measurements of the solar wind ion fluxes and energy-angular distributions of H+ and He++ around the Sun direction with high time resolution.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Zdenek.Nemecek</PersonID>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Solar Wind Analyzer (MONITOR-3) on Interball Tail Probe</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1995-039A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Interball-1</ObservatoryID>
   </Instrument>
 </Spase>

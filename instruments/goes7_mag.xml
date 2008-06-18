@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/instrument/1987-022A-04</ResourceID>
     <ResourceHeader>
       <ResourceName>Magnetic Field Monitor</ResourceName>
-      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>The spinning twin-fluxgate magnetometer was designed to provide the orthogonal components of the magnetic field: Hp is parallel to the spin axis that was held nearly in the direction of Earth's axis, He that is directed toward Earth center, and Hn that points eastward. The sensitivity of the magnetometer was about 0.2 gamma. Since May 1993, He and Hn components could not be obtained; only Hp data are available, but with uncertainty about the absolute values.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Harold.Leinbach</PersonID>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Magnetic Field Monitor on GOES  7</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1987-022A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/GOES7</ObservatoryID>
   </Instrument>
 </Spase>

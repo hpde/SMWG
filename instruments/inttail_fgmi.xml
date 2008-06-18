@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/instrument/1995-039A-19</ResourceID>
     <ResourceHeader>
       <ResourceName>Tri-axial Fluxgate Magnetometer FGM-I</ResourceName>
-      <ReleaseDate>2006-03-21T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>The FGM-I instrument on the Interball Tail Probe consists of a triaxial fluxgate magnetometer and a Langmuir split probe plasma current sensor. The analog signal is transmitted to the telemetry system and to the MIF-M filter bank.
 Fields and waves are measured on the Tail Probe by the ASPI consortium of experiments, which includes: MIF-M -- fluxgate and search-coil magnetometers; FGM-I -- triaxial fluxgate sensor and plasma current sensor; OPERA -- a complex of electric field instruments; and PRAM -- the digital waveform processor unit. Two more ASPI instruments, ADS and IFPE, failed to switch on, likely due to hardware problems.</Description>
       <Contact>
@@ -24,6 +24,6 @@ Fields and waves are measured on the Tail Probe by the ASPI consortium of experi
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Tri-axial Fluxgate Magnetometer FGM-I on Interball Tail Probe</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1995-039A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Interball-1</ObservatoryID>
   </Instrument>
 </Spase>

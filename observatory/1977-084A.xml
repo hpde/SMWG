@@ -1,12 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/observatory/1977-084A</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/Voyager1</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 1</ResourceName>
+      <AlternateName>1977-084A</AlternateName>
       <AlternateName>Mariner Jupiter/Saturn A</AlternateName>
-      <ReleaseDate>2008-06-17T22:15:18Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:10:01Z</ReleaseDate>
       <Description>Voyager 1 was one of a pair of spacecraft launched to explore the planets of the outer solar system and the interplanetary environment. Each Voyager had as its major objectives at each planet to: (1) investigate the circulation, dynamics, structure, and composition of the planet's atmosphere; (2) characterize the morphology, geology, and physical state of the satellites of the planet; (3) provide improved values for the mass, size, and shape of the planet, its satellites, and any rings; and, (4) determine the magnetic field structure and characterize the composition and distribution of energetic trapped particles and plasma therein.
 
 Spacecraft and Subsystems

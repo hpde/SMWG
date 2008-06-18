@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/instrument/1996-050C-05</ResourceID>
     <ResourceHeader>
       <ResourceName>Three-Axis Magnetic Field (IMAP-3)</ResourceName>
-      <ReleaseDate>2006-03-21T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>The IMAP-3 magnetic field experiment is designed to study the following processes in the Earth's plasma environment: structure of the inner magnetosphere magnetic field; structure of the small scale field-aligned currents; dynamics of the field-aligned currents during substorms; and relation of the processes in the auroral zone and in the tail.
 The IMAP-3 was designed and manufactured under cooperation of IZMIRAN (http://www.izmiran.rssi.ru), NPL SDS (Bulgaria) and PIC GPI of RAS.
 The instrument is designed to measure three components of the DC magnetic field in two ranges: +/- 6800 nT with resolution 1 nT and +/- 68000 nT with resolution 10 nT. Usually magnetometer data are transmitted to the scientific SSNI telemetry system at a rate of one vector per 3 seconds; during special intervals data are transmitted to telemetry at 2 or 8 vectors second depending on the instrument operating mode.
@@ -22,6 +22,6 @@ The spacecraft was launched on 29 August 1996. The IMAP-3 was initially tested o
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Three-Axis Magnetic Field (IMAP-3) on Interball Auroral Probe</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1996-050C</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Interball-2</ObservatoryID>
   </Instrument>
 </Spase>

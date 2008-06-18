@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Ultraviolet Spectrometer (OUVS)</ResourceName>
       <AlternateName>OUVS</AlternateName>
-      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>This investigation used a 125 mm Cassegrain telescope on a 125 mm Ebert-Fastie spectrometer with a programmable grating drive. Airglow, scattered sunlight, and hydrogen Lyman-alpha emissions were detected in the thermosphere, mesosphere, and exosphere of Venus. These measurements were used to establish and map the composition, temperature, and photochemistry of the thermosphere and ionosphere, to determine the pressure at and above the visible cloud tops, and to establish the distribution and escape rate of atomic hydrogen. The instrument operated in the 1100-3400 A region.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/A.Ian.Stewart</PersonID>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>Spectrometer</InstrumentType>
     <InvestigationName>Ultraviolet Spectrometer (OUVS) on Pioneer Venus Orbiter</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1978-051A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/PioneerVenusOrbiter</ObservatoryID>
   </Instrument>
 </Spase>

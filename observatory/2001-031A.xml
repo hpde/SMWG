@@ -1,18 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/observatory/2001-031A</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/GOES12</ResourceID>
     <ResourceHeader>
       <ResourceName>GOES 12</ResourceName>
-      <ReleaseDate>2008-06-17T22:15:18Z</ReleaseDate>
+      <AlternateName>2001-031A</AlternateName>
+      <ReleaseDate>2008-06-18T05:26:27Z</ReleaseDate>
       <Description>GOES 12 is an American geosynchronous weather satellite that was launched by an Atlas 2A rocket from Cape Canaveral at 07:23 UT on 23 July 2001. The spacecraft carries an IR imager, a "sounder", and an X-ray imager. The IR imager is a Cassegrain telescope covering five wavelength channels, 0.55-0.75, 3.80-4.00, 6.50-7.00, 10.20-11.20, and 11.50-12.50 microns. It can provide images covering 3,000 km x 3,000 km every 41 seconds, by scanning the area in 16 square kilometer sections. The "sounder" is to provide vertical distribution of temperature, moisture and ozone, by passive monitoring in 18 depth-dependent wavelengths. (Long wave IR: 14.71, 14.37, 14.06, 13.64, 13.37, 12.66, and 12.02 microns. Medium wave IR: 11.03, 9.71, 7.43, 7.02, and 6.51 microns. Short wave IR: 4.57, 4.52, 4.45, 4.13, 3.98, and 3.74 microns. There is also another band at visible wavelength 0.7 microns, just to provide pictures of cloud tops.) The sounder covers an area of 3,000 km x 3,000 km in about 42 minutes. Another instrument package named SEM (Space Environment Monitor) monitors the energetic electrons and protons in the magnetosphere and the x-rays from the Sun. The above three have been carried on the earlier GOES missions, but GOES 12 carries also an X-ray imager providing an X-ray (about 0.1-1.0 nm wavelength) picture of the solar disk. For some months, the spacecraft will be on a standby, to be activated and moved to a desired longitude. The URL,
 
 http://psbsgil.nesdis.noaa.gov:8080/EBB/ml/gsensor.html
 
 carries more information on the payloads.</Description>
       <Contact>
-        <PersonID>UNKNOWN</PersonID>
+        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
       <InformationURL>

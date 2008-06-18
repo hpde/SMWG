@@ -1,12 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/observatory/1991-062A</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/Yohkoh</ResourceID>
     <ResourceHeader>
       <ResourceName>Yohkoh</ResourceName>
+      <AlternateName>1991-062A</AlternateName>
       <AlternateName>Solar-A</AlternateName>
-      <ReleaseDate>2008-06-17T22:15:18Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:16:06Z</ReleaseDate>
       <Description>The objective of Yohkoh (Japanese for sunbeam) is to study the high-energy radiations from solar flares (hard and soft X-rays and energetic neutrons) as well as quiet structures and pre-flare conditions. The mission is a successor to Hinotori, a previous Japanese spacecraft flown at the previous solar activity maximum in 1981.
 
 Yohkoh is a three-axis stabilized observatory-type satellite in a nearly-circular Earth orbit, carrying four instruments: two imagers and two spectrometers. The spacecraft is a rectangular solid about 2 m square and 4 m long. The imaging instruments have almost full-Sun fields of view, to avoid missing any flares on the visible disk of the Sun. The hard X-ray telescope is a multi-grid synthesis type with a spatial resolution of 7 arcsec, operating in the 20 - 80 keV range. The soft X-ray telescope uses grazing-incidence optics and achieves 4 arcsec spatial resolution, operating in the 0.1 - 4 keV range and using 1024 x 1024-pixel CCDs. US solar physicists at Lockheed Palo Alto Research Laboratory are collaborating in the soft X-ray telescope production and data analysis. There is also a continuum spectrometer for X-rays and gamma-rays from 3 keV to 20 MeV (also sensitive to neutrons) and a Bragg crystal spectrometer for the X-ray lines Fe XXV, Fe XXVI, Ca XIX, and S XV.

@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/instrument/1995-039A-04</ResourceID>
     <ResourceHeader>
       <ResourceName>3D Electron Distribution Function (ELECTRON)</ResourceName>
-      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>The objective of the ELECTRON experiment is to perform 3-D measurements of the plasma electrons in the energy range from 10 eV to 26 keV, with good angular resolution, sensitivity and large dynamical range. The instrument was designed, built and calibrated by the Centre d'Etudes Spatiales des Rayonnements (CNRS/ University of Toulouse, France) and financed by a CNES (French National Space Center) grant. The integration tests were performed jointly with the Space Research Institute, Moscow (IKI).
 The spectrometer consists of a quadri-spherical analyzer associated with microchannel plates. The analyser is a symmetrical "top hat" electrostatic analyzer which provides a 180 x 6 degree field of view with a uniform response. The angular resolution is 22.5 x 6 degrees. Electrons are multiplied by a chevron-mounted pair of MCP associated with 8 anode sectors. Due to the spacecraft rotation, the full 4 solid angle is scanned once per spin period (~120 seconds). The number of energy sweeps per spin can be changed, as well as the energy range, according to the mode of operation. The spectrometer can be operated in 15 main modes. Standard modes allow to obtain 32 energy spectra with 32 energies per spin; high speed modes can be used to quickly sweep 4 energies.
 The ELECTRON experiment began operating August 14, 1995. It does not operate through the radiation belts. The detector has a very low background and a good sensitivity. The satellite apogee was located at midnight in November 1995.</Description>
@@ -21,6 +21,6 @@ The ELECTRON experiment began operating August 14, 1995. It does not operate thr
     </ResourceHeader>
     <InstrumentType>QuadrisphericalAnalyser</InstrumentType>
     <InvestigationName>3D Electron Distribution Function (ELECTRON) on Interball Tail Probe</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1995-039A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Interball-1</ObservatoryID>
   </Instrument>
 </Spase>

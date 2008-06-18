@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/observatory/1977-093A</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/Prognoz6</ResourceID>
     <ResourceHeader>
-      <ResourceName>Prognoz  6</ResourceName>
-      <ReleaseDate>2008-06-17T22:15:18Z</ReleaseDate>
+      <ResourceName>Prognoz 6</ResourceName>
+      <AlternateName>1977-093A</AlternateName>
+      <ReleaseDate>2008-06-18T05:10:10Z</ReleaseDate>
       <Description>This spacecraft was a member of a continuing series to measure charged particles, plasma, magnetic fields, and solar electromagnetic radiation. This mission was part of the socialist countries' contribution to the International Magnetospheric Study. The specific scientific goals of this mission were: (1) to study acceleration processes in the solar corona and flare acceleration of charged particles; (2) to monitor the propagation of accelerated particles from the solar corona to interplanetary space; (3) to observe particle acceleration from interplanetary shock fronts; (4) to measure the chemical and charge composition of the solar wind and solar energetic particles; (5) to study instability processes in interplanetary plasma and wave environments; (6) to study the propagation and penetration into the magnetosphere of solar plasma and energetic particles; (7) to monitor magnetotail plasma dynamics during substorms; (8) to search for discrete gamma ray lines of solar and galactic origin, and (9) to study UV-emission in the upper atmosphere and the interplanetary medium. Data were obtained from a 5-megabit storage during each perigee so that continuous data acquisition over the whole orbit was achieved.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Albert.A.Galeev</PersonID>

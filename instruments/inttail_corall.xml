@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/instrument/1995-039A-05</ResourceID>
     <ResourceHeader>
       <ResourceName>Wide-range 3D Ion Spectrometer (CORALL)</ResourceName>
-      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>CORALL is a hemispherical electrostatic ion energy spectrometer with a fan-shaped field-of-view of 10 x 150 degrees. Satellite rotation with period about 2 minutes enables one to perform quasi-3D measurements of the energy/charge ion distribution function in the range from 30 to 24200 eV/q in 32 steps. The accumulation time on 1 energy step is 1/1024-th of the satellite rotation period, i.e. about 100 msec, and the scan period of 1 energy spectrum (32 steps) is equal to about 4 minutes. Energy resolution is +/- 5%, and the separation of the energy channels is 24%. There are 5 polar channels, at angles of 45, 70, 95, 120, and 145 degrees from the sun. Angular resolution is +/- 25 degrees in the polar angle and +/- 5 degrees in the azimuthal angle.
 Instrument CORALL was designed and fabricated jointly by IKI RAN and INTERCOSMOS of the Republic of Cuba.
 The instrument began operating August 14, 1995. However, there were problems with the telemetry system BNS which provides satellite rotation pulses. CORALL uses this pulse for performance of measurements in the inertial coordinate system. As of August 31, 1995 the complex BNS + CORALL is operating properly.</Description>
@@ -21,6 +21,6 @@ The instrument began operating August 14, 1995. However, there were problems wit
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Wide-range 3D Ion Spectrometer (CORALL) on Interball Tail Probe</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1995-039A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Interball-1</ObservatoryID>
   </Instrument>
 </Spase>

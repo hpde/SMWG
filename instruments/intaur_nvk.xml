@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/instrument/1996-050C-07</ResourceID>
     <ResourceHeader>
       <ResourceName>VLF Electromagnetic Waves (NVK-ONCH)</ResourceName>
-      <ReleaseDate>2006-04-27T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>The NVK-ONCH instrument is a part of the complex of closely-related wave experiments on Interball 2. The others are MEMO, POLRAD, and IESP. The NVK-ONCH instrument measures VLF electromagnetic waves in the frequency range 20 Hz - 20 KHz.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/O.A.Molchanov</PersonID>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>UNKNOWN</InstrumentType>
     <InvestigationName>VLF Electromagnetic Waves (NVK-ONCH) on Interball Auroral Probe</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1996-050C</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Interball-2</ObservatoryID>
   </Instrument>
 </Spase>

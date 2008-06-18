@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/instrument/1996-050C-15</ResourceID>
     <ResourceHeader>
       <ResourceName>Auroral UV Emission Line Measurements (UVSIPS)</ResourceName>
-      <ReleaseDate>2006-04-27T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>The UV spectrometer UVSIPS was designed to map ionospheric auroral characteristics in the magnetic field line footprint. The instrument is a classical slit-less spectrograph with a plane diffraction grid. UVSIPS has three fixed spectral channels for simultaneous measurements centered at wavelengths of 1304, 1356, and 1493 Angstroms. A microprocessor calculates the coordinates of the footprint before every spin period of the satellite. The input mirror of the instrument moves to the corresponding position by small steps, scanning by its field of view in the satellite-Sun-Earth plane. The instrument scans in the plane perpendicular to the spacecraft spin axis by virtue of the spin rotation (period about 2 minutes).
 This information was taken from the paper by Kuzmin et al., in Interball Mission and Payload, published by CNES, IKI, and RSA, pp. 401-408 (1995), which contains additional details of the instrument.</Description>
       <Contact>
@@ -20,6 +20,6 @@ This information was taken from the paper by Kuzmin et al., in Interball Mission
     </ResourceHeader>
     <InstrumentType>Spectrometer</InstrumentType>
     <InvestigationName>Auroral UV Emission Line Measurements (UVSIPS) on Interball Auroral Probe</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1996-050C</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Interball-2</ObservatoryID>
   </Instrument>
 </Spase>

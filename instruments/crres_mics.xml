@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/instrument/1990-065A-16</ResourceID>
     <ResourceHeader>
       <ResourceName>Magnetospheric Ion Composition Sensor</ResourceName>
-      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>The Magnetospheric Ion Composition Sensor (MICS) was part of the Mass Composition Instruments group which measured mass and energy/Q spectra of magnetospheric ions in the range 40 eV/Q to 15 MeV per ion to identify mechanisms that could energize charged particles and transport them from their parent populations in the magnetosphere. MICS measured mass and energy/Q spectra of ions in the range 30 to 400 keV/Q. This sensor consisted of a conically shaped electrostatic energy analyzer (EES) and a time-of-flight (TOF) analyzer. The EES specified the energy/charge of the incident ion and the TOF provided the speed. Together they enabled determination of the energy spectrum for each mass up to 56 amu. After passing through the EES, an ion would pass through a thin carbon foil and then through another carbon foil at the end of the flight path. The secondary electrons emitted by the foils provided the time of flight and hence the speed. The field of view was a 2-deg cone, at an angle of 90 deg from the spin axis of the satellite. The energy resolution was 10% at each energy and the geometric factor was 1.0E-2 sq cm-sr. The sensitivity ranged from single particle events to a flux of 5.E7 particles/(sq cm-sr-s). This experiment was part of the SPACERAD project sponsored by AFGL.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Berend.Wilken</PersonID>
@@ -23,6 +23,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Magnetospheric Ion Composition Sensor on CRRES</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1990-065A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/CRRES</ObservatoryID>
   </Instrument>
 </Spase>

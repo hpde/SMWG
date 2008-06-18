@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/instrument/1977-093A-01</ResourceID>
     <ResourceHeader>
       <ResourceName>Three-Axis Fluxgate Magnetometer</ResourceName>
-      <ReleaseDate>1998-05-06T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>A three-axis fluxgate magnetometer was used to measure vector magnetic fields from 1 to 60 nT with an intensity resolution of 0.5 nT. Both interplanetary and geomagnetic tail fields could be measured.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Evgeniya.A.Eroshenko</PersonID>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Three-Axis Fluxgate Magnetometer on Prognoz  6</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1977-093A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Prognoz6</ObservatoryID>
   </Instrument>
 </Spase>

@@ -9,7 +9,7 @@
       <AlternateName>Genesis Electron Monitor (GEM)</AlternateName>
       <AlternateName>GIM</AlternateName>
       <AlternateName>GEM</AlternateName>
-      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>There are two solar wind spectrometers on-board the Genesis spacecraft: the Genesis Ion Monitor (GIM) and the Genesis Electron Monitor (GEM). The primary purpose of these spectrometers is to enable the collection of appropriate samples of the solar wind by the Genesis sample collectors. This involves determining the type of solar wind that is flowing past the spacecraft, adjusting high-voltages in the Concentrator for the current conditions and deploying the appropriate Collector Array for the type of solar wind present, all in realtime. The secondary function of the Monitors is to obtain high-quality solar wind data that can be used for various scientific studies. Interested parties are referred to the detailed instrument description paper by Barraclough et al. (2003), listed on the publications page.
 Genesis Ion Monitor (GIM)
 GIM consists of a 120-degree spherical-section electrostatic analyzer (ESA) followed by an array of eight channel electron multipliers (CEMs) for energy and angle analysis of incoming ions. The ESA is negatively biased by a high-voltage power supply that steps across a number of voltage levels to build up an energy spectrum of the plasma population. The GIM is basically an E/q analyzer but does have a mass analysis capability in this instance due to the similar flow velocities of all ions in the solar wind beam. The energy range of the instrument is ~100 eV to 14 keV, with a resolution of 5.2%, but only a small fraction of this range is used at any one time. Onboard software tracks the solar wind flow speed and autonomously adjusts the energy range that is scanned to keep it centered on the beam.
@@ -29,6 +29,6 @@ Both the GEM and GIM were in continuous operation since shortly after launch in 
     </ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Genesis Plasma Spectrometers on Genesis</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/2001-034A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Genesis</ObservatoryID>
   </Instrument>
 </Spase>

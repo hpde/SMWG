@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/instrument/2003-061A-04</ResourceID>
     <ResourceHeader>
       <ResourceName>HIA (Hot Ion Analyzer)</ResourceName>
-      <ReleaseDate>2004-01-06T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>HIA (Hot Ion Analyzer) meausres the distribution function of ions in the magnetosphere and the solar wind, during each spin period of four seconds.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Henri.Reme</PersonID>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>HIA (Hot Ion Analyzer) on Double Star 1</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/2003-061A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/DoubleStar1</ObservatoryID>
   </Instrument>
 </Spase>

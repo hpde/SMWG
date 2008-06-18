@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Electro-Static Analyzers (ESA)</ResourceName>
       <AlternateName>ESA</AlternateName>
-      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
       <Description>Sixteen Electro-Static Analyzers (ESAs) configured in four stacks are used for both electron and ion measurements. The four stacks are placed around the spacecraft such that the entire package is provided a full 360 degree field of view. The ESAs can provide a 64-step energy sweep, covering approximately 3 eV to 30 KeV up to 16 times per second. Each ESA stack contains three Stepped ESA (SESA) analyzers that are used to make the high time resolution electron measurements and a single ion or electron spectrometer (IESA or EESA) used to make detailed distribution measurements.
 The EESA and IESA step through their energy range, collecting 24, 48, or 96 energy samples in 32 pitch angle sectors. The standard mode (24 samples) measures a pitch angle distribution every 78 ms. The other modes allow alternate trade-offs between time and energy resolution. Depending on their operating mode the SESA sensors measure a distribution containing 16 pitch angle bins and 6, 12, 24, or 48 energy bins. The minimum sample time for an array of 6 energies is 1.6 ms. Angular resolution is 11.2 degrees for the EESA/IESA and 22.5 degrees for the SESA.</Description>
       <Contact>
@@ -21,6 +21,6 @@ The EESA and IESA step through their energy range, collecting 24, 48, or 96 ener
     </ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Electro-Static Analyzers (ESA) on FAST</InvestigationName>
-    <ObservatoryID>spase://SMWG/observatory/1996-049A</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/FAST</ObservatoryID>
   </Instrument>
 </Spase>
