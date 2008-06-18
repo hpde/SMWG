@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/Polar/VIS</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/POLAR/VIS</ResourceID>
     <ResourceHeader>
       <ResourceName>Visible Imaging System (VIS)</ResourceName>
       <AlternateName>VIS</AlternateName>
-      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T17:53:11Z</ReleaseDate>
       <Description>This investigation is designed to obtain high time- and spatial-resolution images of the nighttime polar and auroral emissions at visible wavelengths. The VIS contains three low-light-level cameras. Two of these cameras share primary and some secondary optics and provide images at visible wavelengths. The third is an ancillary camera for far-ultraviolet wavelengths within a broad passband, 124-149 nm. This camera can provide full images of Earth from altitudes of &gt; 5.8 earth radii and is used to verify the proper pointing of the two primary cameras with respect to sunlit Earth. The two primary auroral cameras have different spatial resolutions: about 10 km and 20 km from a spacecraft altitude of 8 earth radii. For the low-resolution camera the field of view (FOV) is 5.6 x 6.3 degrees, sufficient to usually include the entire nighttime auroral oval. The time to acquire and telemeter a 256 x 256-pixel image is about 12 s.
 The auroral emissions of interest include those from N2+ at 391.4 nm, OI at 557.7 and 630.0 nm, HI at 656.3 nm, and OII at 732.0 nm. The optics for the visible cameras are based upon the off-axis catoptric design with super-polished surfaces that was successfully used for the DE-1 spin-scan imager. Because the VIS is mounted on the despun platform and can stare at Earth its angular resolution and frame rate can be greatly improved relative to that for the imager on the rotating DE-1.
 The Polar spacecraft, part of the Global Geospace Science (GGS) program, is an element of the International Solar-Terrestrial Physics (ISTP) campaign. The primary scientific objectives of this instrument, together with the in situ observations from the ensemble of ISTP spacecraft, are (1) quantitative assessment of the dissipation of magnetospheric energy into the auroral ionosphere; (2) an instantaneous reference system for the in situ measurements; (3) development of a substantial model for energy flow within the magnetosphere; (4) investigation of the topology of the magnetosphere; and (5) delineation of the responses of the magnetosphere to substorms and variable solar wind conditions.</Description>
@@ -22,6 +22,6 @@ The Polar spacecraft, part of the Global Geospace Science (GGS) program, is an e
     </ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>Visible Imaging System (VIS) on Polar</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/Polar</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/POLAR</ObservatoryID>
   </Instrument>
 </Spase>

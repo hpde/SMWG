@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/Polar/HYDRA</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/POLAR/HYDRA</ResourceID>
     <ResourceHeader>
       <ResourceName>Hot Plasma Analyzer (Hydra)</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T17:53:11Z</ReleaseDate>
       <Description>The objectives of this investigation are (1) to observe the expected kinetic and magnetohydrodynamic signatures of magnetic reconnection in the cusp region, to quantify the energy released to the plasma and the rate of mass flux into the magnetosphere implied, and to understand what external parameters control the rates of reconnection of magnetic flux; (2) to understand the role of field-aligned currents in the auroral zone, their relation to auroral forms and terrestrial kilometric radiation, and their response to magnetotail and solar wind stimuli as monitored by the other ISTP program spacecraft; to ascertain the altitude dependence of the associated electrical potential and the parameters which control its size; and (3) to obtain a quantitative, high time resolution definition of the regions associated with the cusp and entry layer including a study of the momentum transfer between magnetosheath and entry layer plasmas. The instrument, named HYDRA, resolves electrons and ions, in three dimensions, with energies between 1 eV and 30 keV with 0.5-s time resolution. HYDRA consists of eight pairs of 127-deg electrostatic analyzer heads. Six pairs are body mounted, and two are on the loss cone platform.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Jack.D.Scudder</PersonID>
@@ -19,6 +19,6 @@
     </ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Hot Plasma Analyzer (Hydra) on Polar</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/Polar</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/POLAR</ObservatoryID>
   </Instrument>
 </Spase>

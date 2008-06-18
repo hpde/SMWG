@@ -6,13 +6,13 @@
     <ResourceHeader>
       <ResourceName>Solar Mass Ejection Imager (SMEI)</ResourceName>
       <AlternateName>SMEI</AlternateName>
-      <ReleaseDate>2008-06-18T16:52:26Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T17:50:20Z</ReleaseDate>
       <Description>SMEI is a major payload and carries three optical cameras to photograph the Thompson-scattered light from ejected coronal masses (CMEs). The total coverage during each orbit is the hemispherical sky around the Sun. Each camera has a well-baffled field of view of 3 deg x 60 deg, with the baffle cutting out the stray light by 10 orders of magnitude. The CCD imager provides a resolution of 0.2 deg. The major but stable and smooth component of the image is the Zodiacal light which is about a thousand times stronger than the superposed, structured and variable light from the CMEs. Differential photometry is invoked to extract the CME component. More details of this photometry is available in "The solar mass ejection imager", Advances in Space Research, Vol. 11, pp 377-381, 1991. SMEI can provide warnings of the Earth-directed CMEs three days in advance. The data may be archived at the NSSDC, eventually. The program manager is Janet Johnson at AFRL. Email:
 Janet.johnson@hanscom.af.mil
 For more details see the URL,
 http://www.sr.bham.ac.uk/instrument/smei.html</Description>
       <Contact>
-        <PersonID>UNKNOWN</PersonID>
+        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
       <InformationURL>

@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/Polar/EFI</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/POLAR/EFI</ResourceID>
     <ResourceHeader>
       <ResourceName>Electric Fields Investigation (EFI)</ResourceName>
       <AlternateName>EFI</AlternateName>
-      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T17:53:11Z</ReleaseDate>
       <Description>The objectives of this investigation are to study (1) large parallel and perpendicular electric fields in double layers and electrostatic shocks, (2) larger spatial-scale parallel electric fields responsible for upgoing ions and inverted-V electron acceleration, (3) the high latitude convection electric field, (4) the electric field structure of the high latitude magnetosphere, polar cusp, and plasma mantle, and (5) the electric field comparisons (with other spacecraft in the ISTP program) at different points along the same magnetic field line, at different points along a common boundary, or in different regions of the magnetosphere. The instrument consists of three orthogonal double probes, each of which is a pair of separated conductors whose potential difference is measured. One pair consists of spheres located in the satellite spin plane and separated by 160 m at the ends of wire booms. A second pair consists of cylindrical wire boom elements located in the spin plane and separated by an effective distance of 350 m. The third pair consists of spheres that are oriented parallel to the satellite spin axis and are separated by 14 m at the ends of rigid booms.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Forrest.S.Mozer</PersonID>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>DoubleSphere</InstrumentType>
     <InvestigationName>Electric Fields Investigation (EFI) on Polar</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/Polar</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/POLAR</ObservatoryID>
   </Instrument>
 </Spase>
