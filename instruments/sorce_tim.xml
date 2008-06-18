@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/2003-004A-01</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/SORCE/TIM</ResourceID>
     <ResourceHeader>
       <ResourceName>Total Irradiation Monitor (TIM)</ResourceName>
       <AlternateName>TIM</AlternateName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
       <Description>TIM (Total Irradiation Monitor) is a 7.9 kg, 14 W instrument that covers all visual and infrared wavelengths at an irradiance accuracy of one part in 10,000. It uses differential, heat sensitive resisters as detectors.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Gary.J.Rottman</PersonID>

@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1996-013A-05</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Polar/CEPPAD</ResourceID>
     <ResourceHeader>
       <ResourceName>Comprehensive Energetic-Particle Pitch-Angle Distribution (CEPPAD)</ResourceName>
       <AlternateName>CEPPAD</AlternateName>
-      <ReleaseDate>1995-10-31T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
       <Description>This investigation, CEPPAD (comprehensive energetic particle pitch angle distribution), is designed to provide detailed pitch angle measurements of energetic particle fluxes, to cover the particle energy spectra over as wide a range as possible with statistically meaningful results, to separately identify ions and electrons, and to give information on high energy ion composition. This instrument is identical to the one flown on ISTP/EQUATOR. The instrument measures electrons with energies from 20 keV to 3 MeV and protons with energies from 20 keV to 17 MeV. Alpha particles and the CNO group of nuclei are also uniquely identified with high time resolution in broad energy bands over the range 30 to 3300 keV/nucleon. Multiple detector heads on the body-mounted portion of the instrument provide detailed high-resolution three-dimensional measurement of the energetic particle distribution function at all angles outside the loss cone. The detectors mounted on the scan platform are designed to look along the local magnetic field direction. The major components of the body-mounted detectors (BEPS) are the three sensor types LEMS, HIST, and DPU. The scan-platform energetic-particle spectrometers (SEPS) are divided into three different spectrometers designated HARE, HARP, and HISS. Both the BEPS and the SEPS are controlled by microprocessors.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/J.Bernard.Blake</PersonID>

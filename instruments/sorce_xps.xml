@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/2003-004A-04</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/SORCE/XPS</ResourceID>
     <ResourceHeader>
       <ResourceName>Extreme Ultraviolet Photometer System (XPS)</ResourceName>
       <AlternateName>XPS</AlternateName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
       <Description>XPS (Xuv Photometer System) is a 3.6 kg, 9 W photometer which invokes filters to monitor the x-ray and UV band at 1-34 nm, at a resolution of about seven nm, and at an irradiance accuracy of about 15%.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Gary.J.Rottman</PersonID>

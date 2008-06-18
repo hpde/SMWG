@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1975-107A-11</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/AE-E/VAE</ResourceID>
     <ResourceHeader>
       <ResourceName>Visible Airglow Photometer (VAE)</ResourceName>
       <AlternateName>VAE</AlternateName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:26Z</ReleaseDate>
       <Description>This experiment provided detailed data on the rates of excitation of the atomic and molecular constituents of the thermosphere. The wavelength range, expressed in Angstroms, was measured in pairs: 7319 and 6563, 5300 and dark, 5577 and 7319, 2800 and 5200, 6300 and 5577, calibrate and 2800, and 6563 and 6300. A photometer was used which contained two separate optical channels, a narrow field of view and a wide field of view. Spectral selection was accomplished with a filter wheel that contained six interference filters and a dark and calibrate position. The two channels were separated by 90 deg. One channel had a 3-deg half-angle cone field of view for high sensitivity and pointed normally toward the local zenith. The second had a field of view of 0.75-deg half cone for high spatial resolution, pointing tangentially to the surface of the earth when the satellite was in the oriented mode. Both channels were protected from stray light contamination during the daytime with multistage baffle systems. Filters were operated in several modes. The two separate optical channels were monitored at time intervals consistent with their angular resolution in the spinning mode. More experiment details can be found in P. B. Hays et al., Radio Sci., v. 8, n. 4, p. 369, 1973. More information about the VAE instrument and data can be found at the University of Michigan WWW VAE pages:
 http://www.sprl.umich.edu/VAE.</Description>
       <Contact>

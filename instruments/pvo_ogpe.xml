@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1978-051A-03</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/PioneerVenusOrbiter/OGPE</ResourceID>
     <ResourceHeader>
       <ResourceName>Gas-Plasma Environment-Dual Frequency Experiment (OGPE)</ResourceName>
       <AlternateName>OGPE</AlternateName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
       <Description>This experiment used data obtained from the S-band and X-band radio signals. The objectives were (1) to determine the lateral variations in the Venusian atmosphere and ionosphere, (2) to study the solar wind microscopic flow, and (3) to analyze solar wind scintillations (scale and characteristics of the irregularities in the Venusian atmosphere).</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Thomas.A.Croft</PersonID>

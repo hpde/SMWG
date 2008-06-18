@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1996-050C-06</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Interball-2/IESP2</ResourceID>
     <ResourceHeader>
       <ResourceName>DC Electric Field Intensity and ULF Waves (IESP-2)</ResourceName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
       <Description>The IESP experiment measures the six components (3 magnetic, 3 electric) of the waves in the ULF range 0.1 - 10 Hz and (from time to time) 0 - 30 Hz. It also measures the three components of the DC electric field (1 sample per second), and the electric potential of the satellite (1 sample per 16 seconds), which is the voltage measured between one of the spheres and the structure of the satellite. The voltage is transmitted to the RON experiment which controls an ion gun to neutralize the ambient plasma. The magnetic components are measured with the triaxial search coil magnetometer of the MEMO experiment, and these signals come from MEMO to ISEP via the NVK-ONCH expeirment. The electric field is measured with six spheres (80 mm diameter) mounted at the ends of long booms. The longest booms (25 m tip to tip) are in the spin plane; the pair ED1 and ED2 corresponds to Ey, and ED3 and ED4 to Ez; the third pair of booms (ED5, ED6) is about 4.5 m long corresponding to Ex, more or less aligned along the spin axis. ED5 makes an angle of 6 degrees with respect to the spin axis in order to avoid shadowing effects on ED6. The IESP provides signals to the other wave experiments NVK-ONCH and MEMO.
 This information was taken from the paper by Perraut et al., Ann. Geophysicae 16, 1105-1110 (1998), which cantains more details of the experiment and its observations.</Description>
       <Contact>

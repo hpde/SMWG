@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1978-051A-11</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/PioneerVenusOrbiter/ONMS</ResourceID>
     <ResourceHeader>
       <ResourceName>Neutral Mass Spectrometer (ONMS)</ResourceName>
       <AlternateName>ONMS</AlternateName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
       <Description>The experiment used a quadrupole mass spectrometer with three ion-source operating modes and three mass-scanning modes. The ion source could be operated alternately in open and closed configurations to increase accuracy. An adaptive mass scan was used to reduce the bit rate required for a given information-return rate. The resolution was 0.0001 for adjacent masses, and the mass range was 1 to 45 u. Vertical and horizontal density variations of the major neutral constituents of the upper atmosphere of Venus were detected and measured to define the dynamic, chemical, and thermal states of the upper atmosphere. Important constituents measured were He, O, O2, CO, CO2 and/or N2, and A. It was also possible to study H, D and/or H2, C, and NO.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Hasso.B.Niemann</PersonID>

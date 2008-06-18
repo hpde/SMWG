@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1997-045A-03</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/ACE/ULEIS</ResourceID>
     <ResourceHeader>
       <ResourceName>Ultra-Low Energy Isotope Spectrometer (ULEIS)</ResourceName>
       <AlternateName>ULEIS</AlternateName>
-      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:26Z</ReleaseDate>
       <Description>The Ultra Low Energy Isotope Spectrometer (ULEIS) measures energetic ion fluxes over the charge range from He through Ni from about 20 keV/nucleon to 10 MeV/nucleon with mass resolution less than or equal to 0.3 amu. Ultra-heavy species (above Ni) are also measured in a limited energy range near 0.5 MeV/nucleon. The ULEIS telescope is a time-of-flight (TOF) mass spectrometer which identifies ions by TOF and by residual kinetic energy E of particles which enter the 24 deg. x 20 deg. aperture and stop in one of an array of silicon solid state detectors. The geometric factor is about one sq.cm.-sr. The TOF measurement is determined by start and stop signals from microchannel plate (MCP) assemblies detecting secondary electrons emitted from incident ion passage through a thin entrance foil and other such foils within the telescope. In order to prevent electronic pile-up during intense flux periods, a mechanical shutter ('iris') slides partially closed under on-board control dependent on the start MCP singles counting rate. The iris can decrease the ULEIS geometric factor by up to a factor of 100 during the most intense events. Full analysis of individual ions requires 128 bits/event for up to six events per second. Two types of rate data are included: sectored singles rates for each detector with 8 sectors for 18 rates at 12 bits/rate in compressed format; sectored counts of 5 particle species in 20 energy ranges and 8 sectors at 12 bits/s (compressed). These rate data are read out every 60 seconds at 189 b/s. Housekeeping and other miscellaneous data require 43 b/s, the total data rate being about 1 kbps. The ULEIS experiment manager is Dr. Robert E. Gold of the Applied Physics Laboratory of Johns Hopkins University.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.E.Gold</PersonID>

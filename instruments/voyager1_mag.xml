@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1977-084A-05</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Voyager1/MAG</ResourceID>
     <ResourceHeader>
       <ResourceName>Triaxial Fluxgate Magnetometer (MAG)</ResourceName>
       <AlternateName>MAG</AlternateName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
       <Description>This experiment was designed to investigate the magnetic fields of Jupiter and Saturn, the solar-wind interaction with the magnetospheres of these planets, and the interplanetary magnetic field out to the solar wind boundary with the interstellar magnetic field and beyond, if crossed. The investigation was carried out using two high-field and two low-field triaxial fluxgate magnetometers. Data accuracy of the interplanetary fields was plus or minus 0.1 nT, and the range of measurements was from 0.01 nT to 2.E-3 T.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>

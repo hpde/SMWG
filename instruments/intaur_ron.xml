@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1996-050C-13</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Interball-2/RON</ResourceID>
     <ResourceHeader>
       <ResourceName>Spacecraft Potential Control, Ion Beam Emitter (RON)</ResourceName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
       <Description>The main objective of the spacecraft potential control experiment (RON-AC) is to neutralize and thereby stabilize the positive floating potential which a sunlit spacecraft often acquires. Such conditions in near-Earth space are met outside the plasmasphere, where the plasma density is low and as long as the electron temperature is not too high (less than a few keV).
 The instrument contains two different and independent ion beam systems, providing an adjustable current of singly charged indium or N2 ions. The ions are emitted toward the sun, parallel to the spacecraft spin axis. One type of ion emitter is a "solid needle" liquid metal ion source using indium. Unfortunately an early high voltage failure prevented the operation of the indium ion beam. The other ion emitter utilizes a bottle of pure nitrogen gas under high pressure, and a saddle field arrangement for the ionization, using a potential of up to 6 keV.
 A microprocessor controls the ion emitter and interfaces with the spacecraft telemetry and the experiment IESP-2M, which provides spacecraft potential data in real time.

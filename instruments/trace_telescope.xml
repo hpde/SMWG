@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1998-020A-01</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/TRACE/Telescope</ResourceID>
     <ResourceHeader>
       <ResourceName>TRACE Imaging Telescope</ResourceName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:55:02Z</ReleaseDate>
       <Description>The TRACE imaging telescope is the sole science instrument on the spacecraft. Its primary science objectives are to: (1) follow the evolution of magnetic field structures from the solar interior to the corona; (2) investigate the mechanisms of the heating of the outer solar atmosphere; and, (3) determine the triggers and onset of solar flares and mass ejections.
 The telescope is of Cassegrain design, 1.6 m long with an aperture of 30 cm. The focal length is 8.66 m. The field of view of the telescope is 8.5 x 8.5 arc-minutes with a spatial resolution of one arc-second. The light is focused on a 1024 x 1024 element CCD detector (0.5 arc-seconds/pixel). The temporal resolution of the instrument is less that 1 s, although the nominal temporal resolution is 5 s. Exposure times for observations range between 2 ms and 260 s.
 The primary and secondary mirrors have normal-incidence coatings specially designed for EUV and UV observations which divide the mirrors into quadrants. These segmented coatings are designed to provide identically sized and perfectly coaligned images. Which mirror quadrant is used for an observation is determined by the position of a quadrant selector shutter mechanism, positioned behind the entrance aperture. Three of the mirror coatings provide for observations in specific iron emission bands: Fe IX (central wavelength/bandwidth: 17.3 nm/0.64 nm); Fe XII (19.5 nm/0.65 nm); and Fe XV (28.4 nm/1.07 nm). The final mirror coating allows broadband observations in the ultraviolet (centered on 500 nm). Further selection of observations in the UV can be made through the use of a filter wheel, mounted in front of the CCD. The filter wheel permits continuum observations (170 nm/20 nm) as well as observations in emission bands for C I and Fe II (160 nm/27.5 nm), C IV (155 nm/2 nm), and H I (Lyman-alpha) (121.6 nm/8.4 nm).

@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/2003-061A-05</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/DoubleStar1/STAFF-DWP</ResourceID>
     <ResourceHeader>
       <ResourceName>STAFF-DWP (Spatio-Temporal Analyzer of Field Fluctuations and Digital Wave Processor</ResourceName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
       <Description>STAFF-DWP (Spatio-Temporal Analyzer of Field Fluctuations and Digital Wave Processor) The data from the magnetometer consists of two components. The low frequency components are transmitted to the ground for analysis. The higher frequency components are best analyzed on-board by a DWP and STAFF and the result telemetered to the ground stations.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Nicole.Cornilleau-Wehrlin</PersonID>

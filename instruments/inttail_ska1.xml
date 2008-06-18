@@ -2,10 +2,10 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1995-039A-01</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Interball-1/SKA1</ResourceID>
     <ResourceHeader>
       <ResourceName>3D Ion Distribution (SKA-1) (EU-1)</ResourceName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
       <Description>The fast plasma analyzer EU-1 of the SCA-1 complex plasma spectrometer provides fast three-dimensional measurements of the ion distribution function. The EU-1 ion spectrometer with virtual aperture consists of two detectors with 16 E/Q narrow-angle analyzers and electrostatic scanners. This configuration allows the measurement of the ion distribution function in three dimensions (over 15 logarithmically-spaced energy steps in the range 50 eV/Q - 5.0 keV/Q) in 64 directions in 7.5 seconds, which makes it independent of the slow rotation speed (period about 2 minutes) of the satellite. The FWHM of the energy passband is about 10 %. Both 15-step and 30-step energy scans are used in different modes of the instrument. One analyzer, EU-1/1, has its field of view pointed along the spin axis toward the Sun, while the other, EU-1/2, is oriented in the opposite, antisolar direction.
 Due to memory and telemetry limits, the full information capacity of SCA-1 can be used only along a limited part of the satellite trajectory, and the rest of the orbit is covered by slow modes. The typical data rate from EU-1 in fast mode is 256 bytes/second.
 Modes are selected by telecommand, as a result of internal data processing, or by alert signals from other instruments (IMAP, ELECTRON, PRAM, OPERA, DOK, VDP). Turning on the accelerated mode from a slow mode occurs if one of the instruments gives an unconditional alert signal or if three or more instruments give conditional alert signals.

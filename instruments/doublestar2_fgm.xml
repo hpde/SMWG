@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/2004-029A-02</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/DoubleStar2/FGM</ResourceID>
     <ResourceHeader>
       <ResourceName>Fluxgate Magnetometer (FGM)</ResourceName>
       <AlternateName>FGM</AlternateName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
       <Description>FGM (FluxGate Magnetometer) is located at the end of a 3.5 meter boom and can sample the field at a rate of 67 samples/s. The Principal Investigator is T. Zhang, IWF, Austria.</Description>
       <Contact>
         <PersonID>UNKNOWN</PersonID>

@@ -2,12 +2,12 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1990-090B-03</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Ulysses/HISCALE</ResourceID>
     <ResourceHeader>
       <ResourceName>Low-Energy Ions and Electrons (LAN/HI-SCALE)</ResourceName>
       <AlternateName>HI-SCALE</AlternateName>
       <AlternateName>LAN</AlternateName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
       <Description>The objectives of this investigation are (1) to investigate the solar-flare process with measurements of non-relativistic and relativistic electrons, and non-relativistic ions, and their dependence on heliolatitude; (2) to investigate solar elemental abundances with measurements of chemical composition of nuclei of solar origin at all heliolatitudes; (3) to investigate the interplanetary propagation of solar energetic particles by measurement of anisotropy and composition parameters; (4) to investigate acceleration processes; and (5) to investigate temporal and spatial variations of particle intensity in and near the Jovian magnetosphere. The instrumentation consists of two double-ended solid state detector systems which measure ions in the range 50 keV to 5 MeV and electrons in the range 30 to 300 keV, and a (dE/dX, E) telescope using a 5-micrometer-thick front detector for ion elemental abundances in the range 1 to 15 MeV/nucleon (Fe). Each double-ended system is composed on one end of a foil spectrometer in which a 0.35 mg/sq cm thin foil excludes ions below 0.350 keV, allowing electrons above 30 keV to be detected. Further, one of the other ends of one of the systems is a magnetic spectrometer, using a rare-earth magnet to separate electrons from ions (geometric factor for ions is approximately 0.5 sq cm-sr, and for electrons 0.05 sq cm-sr). Orientation of the sensor systems is such that complete pitch-angle coverage is obtained. The instrument has a mass of 5.8 kg including shielding, and uses 4.0 W of power. The data rate is 80 bps in cruise mode and 160 bps in tracking mode.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Louis.J.Lanzerotti</PersonID>

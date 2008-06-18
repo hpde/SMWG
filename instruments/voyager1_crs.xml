@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1977-084A-08</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Voyager1/CRS</ResourceID>
     <ResourceHeader>
       <ResourceName>Cosmic Ray System (CRS)</ResourceName>
       <AlternateName>CRS</AlternateName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
       <Description>This investigation studied the origin and acceleration process, life history, and dynamic contribution of interstellar cosmic rays, the nucleosynthesis of elements in cosmic-ray sources, the behavior of cosmic rays in the interplanetary medium, and the trapped planetary energetic-particle environment. The instrumentation included a High-Energy Telescope System (HETS) and a Low-Energy Telescope System (LETS). The HETS covered an energy range between 6 and 500 MeV/nucleon for nuclei ranging in atomic numbers from 1 through 30. In addition, electrons in the energy range between 3 and 100 MeV/nucleon were measured by this telescope and an electron telescope. The LETS measured the energy and determined the identity of nuclei for energies between 0.15 and 30 MeV/nucleon and atomic numbers from 1 to 30. The instruments also measured the anisotropies of electrons and nuclei. In addition, electrons in the energy range between 3 and 100 MeV/nucleon were measured by an electron telescope.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Edward.C.Stone.Jr</PersonID>

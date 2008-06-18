@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1992-038A-04</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/SAMPEX/PET</ResourceID>
     <ResourceHeader>
       <ResourceName>Proton-Electron Telescope (PET)</ResourceName>
       <AlternateName>PET</AlternateName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
       <Description>PET consisted of an array of eight, lithium-drifted solid state detectors, together covering the energy range of 1--30 MeV for electrons, 18--85 Mev/nucleon for H and He, and 54--195 MeV/nucleon for the heavier elements. The geometric factors were about 1.0 cm**2-sr. H and He could be tracked into several hundred MeV/nucleon range, but with a reduced geometric factor of 0.3. The top-most detectors, P1 (convex) and P2 (concave) were each 2 mm thick, and had area of 8.1 cm**2. Downstream were the remaining, flat detectors P3 through P8, with the following dimensions. P3: 9.2 cm**2, 15 mm (compound stack of 5 3 mm detectors); and P4--P8: 4.5 cm**2, 3 mm. The instrument could be operated in a low gain (high-Z) mode or, ordinarily, in low-Z mode for observation of protons, electrons, and helium. Pulse height from the last-penetrated detector enabled determination of total E, and the upstream detectors provided dE/dx with enough redundancy to enable accurate determination of particle type. The counting rate of P1 was recorded with a resolution of 0.1 seconds, enabling observation of rapid time variations in the flux of precipitating electrons above energies of 0.4 MeV. (See IEEE Transactions on Geoscience and Remote Sensing, May 1993, vol 31, pp 565-574.) The instrument functioned normally as of 15 July 1996; the next update will be only when any significant status change occured.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Glenn.M.Mason</PersonID>

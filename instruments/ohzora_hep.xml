@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1984-015A-08</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Ohzora/HEP</ResourceID>
     <ResourceHeader>
       <ResourceName>Monitor of High Energy Particles</ResourceName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
       <Description>The objective of this experiment was to monitor the energy spectra and flux of electrons, protons and alpha particles with energies greater than 50 keV using solid-state detectors.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Tadayoshi.Doke</PersonID>

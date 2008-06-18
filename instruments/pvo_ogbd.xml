@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1978-051A-05</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/PioneerVenusOrbiter/OGBD</ResourceID>
     <ResourceHeader>
       <ResourceName>Gamma Ray Burst Detector (OGBD)</ResourceName>
       <AlternateName>OGBD</AlternateName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
       <Description>An omnidirectional gamma-ray detector employing two Phoswich scintillation spectrometers sensitive to photons from 0.2 to 2.0 MeV was used with logic circuitry to detect the beginning of a gamma event and to initiate a period of rapid data collection. Data were stored in a memory unit for subsequent transmission to earth. Confirmation that a true gamma event had occurred was obtained by comparison with results from other experiments in earth satellites. This experiment provided long-baseline time correlations necessary for calculating accurate source locations.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Ray.W.Klebesadel</PersonID>

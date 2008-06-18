@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1978-051A-17</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/PioneerVenusOrbiter/OIMS</ResourceID>
     <ResourceHeader>
       <ResourceName>Ion Mass Spectrometer (OIMS)</ResourceName>
       <AlternateName>OIMS</AlternateName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
       <Description>The composition and concentration of thermal positive ions in the ionosphere of Venus were determined and interpreted in terms of vertical and horizontal components. The instrument used was a Bennett radio-frequency mass spectrometer based on the design of those flown on OGO and Atmospheric Explorer satellites. A mass range of 1--60 amu was covered with a variety of automatic scan-search modes available.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Paul.A.Cloutier</PersonID>

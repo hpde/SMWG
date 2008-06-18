@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/2003-061A-02</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/DoubleStar1/PEACE</ResourceID>
     <ResourceHeader>
       <ResourceName>PEACE (Plasma Electron And Current Experiment)</ResourceName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
       <Description>PEACE (Plasma Electron And Current Experiment) infers the positive potential of the spacecraft by counting the number and speed of the thermal electrons that impinge on it. This measurement is an input to the operation of ASPOC.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Andrew.N.Fazakerley</PersonID>

@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/2001-055B-04</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/TIMED/SEE</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar EUV Experiment (SEE)</ResourceName>
       <AlternateName>SEE</AlternateName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
       <Description>SEE is comprised of a spectrometer and a suite of photometers designed to measure the full-disk solar irradiance from 0.1 to 200 nm. The spectral resolution of the measurements is 0.4 nm above 25 nm and about 7 nm below 25 nm. The solar sensors are designed to let the Sun drift through their field of view once per orbit, so only an one-axis pointing platform is employed for SEE. The EUV Grating Spectrograph (EGS) makes solar extreme ultraviolet (EUV) spectral irradiance measurements and the XUV photometer System (XPS) consisting of 12 silicon photodiodes with metallic thin films deposited directly on the diodes measures the solar soft X-ray (XUV) irradiance. The instruments components have been flown and tested on several rocket flights. SEE is observing the sun about three minutes per orbit while the sun is in full view. When possible, it will view the sunset through the atmosphere, which will help scientists determine the atmosphere's density. The primary science objectives for SEE are to accurately and precisely determine the solar VUV absolute irradiance and variability during the TIMED mission, to study the solar-terrestrial relationships utilizing atmospheric models, and to improve proxy models of the solar VUV irradiance.
 SEE home_page:
 http://lasp.colorado.edu/see/</Description>

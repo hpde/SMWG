@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1994-071A-04</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/WIND/MFI</ResourceID>
     <ResourceHeader>
       <ResourceName>Magnetic Fields Instrument (MFI)</ResourceName>
-      <ReleaseDate>1995-09-12T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:29Z</ReleaseDate>
       <Description>The primary objective of this investigation is to establish the large-scale structure and fluctuation characteristics of the interplanetary magnetic field as functions of time throughout the mission, and through correlative studies to understand the physical mechanisms by which the observed phenomena relate to the dynamics of the magnetosphere. The instrument is identical to the magnetometer on ISTP/GEOTAIL. It consists of a triaxial fluxgate magnetometer mounted remote from the spacecraft on a boom, a multiple resolution A/D converter, and a microprocessor-controlled range control logic and data processing system. Seven measurement ranges are included: plus or minus 16, 64, 256, 1024, 4096, 16,384, and 65,536 nT. Resolution ranges from 0.004 to 16 nT in normal mode and 2.5E-4 to 1 nT in high resolution mode.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Ronald.P.Lepping</PersonID>

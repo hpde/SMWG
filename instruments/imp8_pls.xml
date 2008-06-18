@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1973-078A-02</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/IMP8/PLS</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar Plasma Faraday Cup</ResourceName>
-      <ReleaseDate>2005-08-09T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
       <Description>A modulated split-collector Faraday cup, perpendicular to the spacecraft spin axis, was used to study the directional intensity of positive ions and electrons in the solar wind, transition region, and magnetotail. Electrons were studied in eight logarithmically equispaced energy channels between 17 eV and 7 keV. Positive ions were studied in eight channels between 50 eV and 7 keV. A spectrum was obtained every eight spacecraft revolutions. Angular information was obtained in either 15 equally spaced intervals during a 360-deg revolution of the satellite or in 15 angular segments centered more closely about the spacecraft-sun line. Operations were continuing as of August 2005.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Alan.J.Lazarus</PersonID>

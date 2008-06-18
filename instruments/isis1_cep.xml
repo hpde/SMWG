@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1969-009A-07</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/ISIS1/CEP</ResourceID>
     <ResourceHeader>
       <ResourceName>Cylindrical Electrostatic Probes</ResourceName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
       <Description>The purpose of this experiment was to study the global variations of electron temperature and electron concentration at S/C altitudes during solar maximum, and to study characteristics of the S/C ion sheath. The measurements were made with two cylindrical probes, operating as Langmuir probes. There were a boom probe and an axial probe. The axial probe extended 48.3 cm from the S/C, along the spin axis, and was centered among the four telemetry antennas on the underside of the S/C. This probe was capable of measurements undisturbed by the satellite motion only when the probe preceded the S/C in its motion through the plasma. The boom probe extended horizontally and outward (in S/C frame of reference) from a boom 1 m long, which in turn extended from an upper surface of the S/C at an angle of about 45 deg to the spin axis. This probe provided some observations during each S/C spin cycle that were free of S/C wake effects. The probes consisted of three concentric, electrically isolated, stainless steel tubes. The outer (0.24-cm diam and 23-cm long) tube floated at its own equilibrium potential and served to place the collector well away from the S/C plasma sheath. The middle tube (0.165-cm diam) extending 23 cm outward from the outer tube acted as an electrical guard for the collector. Its electrical potential was controlled. The collector (0.058-cm diam) extended 23 cm outward from the driven guard. During each 2-min sequence, a volt-ampere curve was obtained from the sawtooth voltage (-2 to +10 V) applied to the collector. This was interpreted in electron densities over a range from 1.E2 to 1.5E6 electrons per cc, and temperatures from about 400 to 5.E4 deg K. NSSDC has all the useful data that exist from this investigation.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Larry.H.Brace</PersonID>

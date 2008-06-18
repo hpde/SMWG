@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1997-045A-07</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/ACE/SWEPAM</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar Wind Electron, Proton and Alpha Monitor (SWEPAM)</ResourceName>
       <AlternateName>SWEPAM</AlternateName>
-      <ReleaseDate>2005-10-20T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:26Z</ReleaseDate>
       <Description>The Solar Wind Electron, Proton, and Alpha Monitor (SWEPAM) instrument sensors measure solar wind electrons at 1 - 900 eV energy and ions at 0.26 - 35 keV. The instrument consists of separate electron and ion analyzers originally built as spares for the Ulysses mission. The two sensors both utilizes curved-plate electrostatic analyzers (ESAs) consisting of spherical sections cut into sectors. Biased channel electron multipliers (CEMS) are spaced along the exit apertures of the ESAs for ion and electron detection. Different CEMs sample different portions of the fan-shaped fields of view. The ion sensor consists of a 105-degree bending angle ESA with an average radius of 100 mm and a plate spacing of 2.84 mm. Sixteen CEMs contiguously spaced along the exit gap of the ESA give about 5-degree polar angular resolution over the approximately 70-degree opening angle of the acceptance fan. The electron sensor consists of a 120-degree bending angle ESA with an average radius of 41.9 mm and a plate spacing of 3.5 mm. Seven large-funnel CEMs along the exit gap give about 20-degree angular resolution over a 160-degree fan angle. The sensor geometric factors are 0.002 cm2-sr for isotropic response and 0.009 cm2 for unidirectional. Energy resolution is five percent for ions and twelve percent for electrons. SWEPAM data consists of ion and electron rates collected at each energy/charge (E/Q) step, polar lock direction, and azimuthal spin direction. A single spacecraft spin period of 12 seconds is sufficient for accumulation of count matricies to fully calculate the electron and ion distribution functions from which bulk moments (solar wind speed, density, temperature) can be calculated by ground data processing. Accumulated counts will actually be summed over one-minute intervals for increased statistical accuracy and for reduction of telemetry requirements. Limited data from single spins will be provided for timing of the passage of transient solar wind structures.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>

@@ -2,11 +2,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1978-051A-16</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/PioneerVenusOrbiter/OIR</ResourceID>
     <ResourceHeader>
       <ResourceName>Infrared Radiometer (OIR)</ResourceName>
       <AlternateName>OIR</AlternateName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
       <Description>This investigation used an 8 channel radiometer for vertical temperature sounding of the atmosphere from the cloud tops (60 Km) to 150 Km and for investigations of cloud morphology, including the identification of possible multiple layers and water vapor mapping. The instrument was based on the selective chopper radiometer and the pressure modulator radiometer designs flown on Nimbus satellites. Instrument failed to operate after February 14, 1979.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Fredric.W.Taylor</PersonID>

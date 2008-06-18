@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1995-039F-01</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Magion-4/KEM3</ResourceID>
     <ResourceHeader>
       <ResourceName>Wave Complex, Electric and Magnetic Fields, (KEM-3)</ResourceName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
       <Description>The wave complex KEM-3 is designed to measure the parameters of electromagnetic waves in the VLF and ULF ranges. It measures one component of the electric field and three components of the magnetic field. The electric antenna is a 1.6 m long dipole made up by two spherical carbon EDS detectors each with a preamplifier. The detectors are fixed at the ends of the folding booms. The magnetic component is measured in two ranges: ULF (1 Hz - 2kHz) and VLF (1 - 50 kHz). The MSU detector of the ULF range is located on the folding arm of the subsatellite. Its antennas are search-coil detectors with low-noise preamplifiers. The same detector is also used for the VLF device. The one-component MSV detector of the VLF range is a search-coil detector with a preamplifier and is located on another folding boom. The output signal of the detectors either is processed by the device electronics for transmitting the wave form by means of analog telemetry, or the amplitude of spectral lines is transmitted by means of digital telemetry. The amplitudes are obtained either in the VLS filter unit or in the step spectrum analyzer SAS.
 The frequency range and sensitivity for the various components are as follows. For Ex: 0.1 Hz to 400 kHz, and 5*10^-8 E^(-1/2) (2 kHz). For Bx, 1.0 - 50 kHz, and 10^-5 nT Hz E^(-1/2) (2 kHz). For the components Bx,y,z: 1.0 Hz - 2 kHz, and 3*10^-5 nT Hz E^(-1/2) (100 Hz).</Description>
       <Contact>

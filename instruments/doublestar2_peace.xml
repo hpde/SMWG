@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/2004-029A-03</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/DoubleStar2/PEACE</ResourceID>
     <ResourceHeader>
       <ResourceName>Plasma Electron and Current Experiment (PEACE)</ResourceName>
       <AlternateName>PEACE</AlternateName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
       <Description>PEACE (Plasma Electron And Current Experiment) will count the population of low/medium energy electrons by measuring the number of electron impacts at each energy level and each direction. The Principal Investigator is A. Fazakerley, MSSL, Dorking, UK.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Andrew.N.Fazakerley</PersonID>

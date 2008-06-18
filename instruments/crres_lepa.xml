@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1990-065A-12</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/CRRES/LEPA</ResourceID>
     <ResourceHeader>
       <ResourceName>Low Energy Plasma Analyzer</ResourceName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
       <Description>The Low Energy Plasma Analyser (LEPA) consisted of two 260-deg spherical electrostatic analyzers and associated digital boards and microprocessors to allow a number of sophisticated measurements to be made. One analyzer was used to measure electrons in the 10 eV - 30 keV energy range; the other one measured ions over the same interval. An analyzer aperture limited the entrance angles to a 5.6- by 128-deg fan and the analyzer detector was a microchannel plate with discrete anodes. The anodes allowed the 128-deg fan to be sensed in 16 windows each 8 deg wide. One of these windows could be selected and then angular resolution down to 1 deg could be obtained. The analyzers provided a delta E/E of 0.03. A particle correlator board was used to sense the arrival time of each electron or ion within each 8-deg zone so that wave-particle interactions could be sensed. In addition, the correlator used the ac signal from the electric field antenna. The number of voltage steps per sweep on the analyzers could be set between 1 and 128. A 30-point spectrum could be obtained in 0.5 s; increasing the number of points increased the time linearly. A sequence of measurements could be stored in the experiment memory so that such measurements could be repeated each half spin period (about 15 s). This experiment was part of the SPACERAD project sponsored by AFGL.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/David.A.Hardy</PersonID>

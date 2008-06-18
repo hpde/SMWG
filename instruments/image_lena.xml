@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/2000-017A-02</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/IMAGE/LENA</ResourceID>
     <ResourceHeader>
       <ResourceName>Low-Energy Neutral Atom Imager (LENA)</ResourceName>
       <AlternateName>LENA</AlternateName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
       <Description>The Low-Energy Neutral Atom (LENA) imager on IMAGE is one of three instruments designed to make observations of the Earth's magnetospheric environment using neutral atom imaging. The objectives of LENA are to: (1) measure neutrals without interference from electrons, ions, or UV; (2) distinguish neutral protons from oxygen; (3) determine ion outflow on five minute time scales over broad range of local times; and, (4) measure energies as low as 10 eV with high counting statistics.
 The LENA instrument consists of a collimator, conversion unit, extraction lens, dispersive energy analyzer and time-of-flight mass analyzer with position-sensitive particle detection.
 Neutral particles enter the instrument through a collimator which filters charged particles. LENA converts neutrals to negative ions through a near specular glancing reflection from a tungsten surface. Negative ions from the surface are then collected by an extraction lens which focuses all negative ions with the same energy to a fixed location. In the extraction lens, the ions are accelerated by 20 kV prior to entering the electrostatic analyzer. Finally, the ions pass into a time-of-flight/position sensing section where ion mass, energy, and angle are determined.</Description>

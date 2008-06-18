@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1973-078A-01</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/IMP8/MAG</ResourceID>
     <ResourceHeader>
       <ResourceName>Magnetic Field Experiment</ResourceName>
-      <ReleaseDate>2005-08-09T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
       <Description>This experiment consisted of a boom-mounted triaxial fluxgate magnetometer designed to study the interplanetary and geomagnetic tail magnetic fields. Each sensor had three dynamic ranges of plus or minus 12, plus or minus 36, and plus or minus 108 nT. With the aid of a bit compaction scheme (delta modulation), 25 vector measurements were made and telemetered per second. The experiment operated normally from launch until mid-1975. On July 11, 1975, because of a range indicator problem, the experiment operation was frozen into the 36-nT range. The digitization accuracy in this range is about plus or minus 0.3 nT. On March 23, 1978, the sensor flipper failed. After that time, alternative methods of Z-axis sensor zero-level determination were required. The magnetometer failed June 10, 2000.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Ronald.P.Lepping</PersonID>

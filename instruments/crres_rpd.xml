@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1990-065A-13</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/CRRES/RPD</ResourceID>
     <ResourceHeader>
       <ResourceName>Relativistic Proton Detector</ResourceName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
       <Description>This experiment package was changed before launch and then became a group of Cerenkov and solid-state silicon sensors based on earlier Pioneer 10/11 experiments (NSSDC ID 72-012A-05 and 73-019A-05). It was designed to measure energetic electrons above 200 keV and higher energy electrons and protons in trapped radiation belts. The two Cerenkov sensors employed alcohol-water and fused-silica radiators, viewed by photomultiplier tubes, with respective refractive indices of 4/3 and 3/2 and with corresponding proton energy thresholds of 440 and 320 MeV. These sensors were also sensitive to electrons above 7-8 MeV. An electron scatter sensor measured electrons above 200 keV by using a V-shaped brass collimator and a gold aperture plug to guide scattered electrons into the silicon E detector. A similar detector (M) behind E was heavily shielded and responded to penetrating electrons above 35 MeV and protons above 80 MeV. A photometer system was also included in this package to view GTO chemical releases and measured narrow-band emissions from lithium, barium, and europium in four wavelength channels simultaneously using a split-anode microchannel plate photomultiplier tube. This experiment was part of the SPACERAD project sponsored by AFGL.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Wojciech.A.Kolasinski</PersonID>

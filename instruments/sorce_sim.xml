@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/2003-004A-02</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/SORCE/SIM</ResourceID>
     <ResourceHeader>
       <ResourceName>Spectral Irradiance Monitor (SIM)</ResourceName>
       <AlternateName>SIM</AlternateName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
       <Description>SIM (Spectral Irradiance Monitor) is a 22 kg, 25 W rotating Fery prism spectrometer with a bolometer output that covers the 200-2,000 nm band at a resolution of a few nm, and at an irradiance accuracy of three parts in 10,000.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Gary.J.Rottman</PersonID>

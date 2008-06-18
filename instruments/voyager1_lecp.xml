@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1977-084A-07</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Voyager1/LECP</ResourceID>
     <ResourceHeader>
       <ResourceName>Low-Energy Charged Particles (LECP)</ResourceName>
       <AlternateName>LECP</AlternateName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
       <Description>This experiment was designed to study energetic particles in both planetary and interplanetary environments. In the planetary mode, particle sensing occurred with six different solid-state, totally depleted, surface-barrier type detectors. Both coincidence and singles count data were available from two of the detectors. By looking out at a shallow angle from behind the sun shield, measurements were made in regions where particle fluxes were so high as to saturate low-energy detectors. A current mode option was also available for high flux environments. In the interplanetary mode the experiment was equipped with a particle telescope which had solid-state detectors ranging from 2-2450 micrometers in thickness. The telescope consisted of two multi-dE/dx x E systems placed back to back in order to use a common all solid-state active anticoincidence shield. The telescope allowed the identification of protons, alpha particles, and heavier nuclei (Z from 3 to 26) in the range from 0.05 to 30 MeV. The combined dynamic range of all the instruments extended from approximately 1.E-5 to greater than 1.E12 particles/(sq cm-s-sr). The energy range covered extended from approximately 10 keV to greater than 11 MeV for electrons and from approximately 15 keV to greater than or equal to 150 MeV for protons and heavier ions. A stepping motor rotated the array of detectors through eight discrete sectors in 45-deg increments, thus allowing a 360-deg scan. For a description of the experiment see Space Science Reviews, 1977, v. 21, pp. 329-354.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Stamatios.M.Krimigis</PersonID>

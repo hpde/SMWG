@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1972-100A-02</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Aeros-A/RPA</ResourceID>
     <ResourceHeader>
       <ResourceName>Energy Distribution of Ions and Electrons</ResourceName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:26Z</ReleaseDate>
       <Description>A retarding potential analyzer measured the energy distribution of electrons and ions. The corresponding temperatures were derived from these distributions. The experiment operated in an electron mode and in an ion mode. The instrument was essentially a collector shielded by plane parallel grids. Spectra of the ionospheric-charged particles were obtained by sweeping the retarding voltage of the grid. The particles would pass through the grid and reach the collector only if their kinetic energy exceeded the retarding potential. NSSDC has almost all the useful data that exist from this investigation.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Karl.Spenner</PersonID>

@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1996-050C-08</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Interball-2/MEMO</ResourceID>
     <ResourceHeader>
       <ResourceName>Analyzer of Wideband Electromagnetic Waves (MEMO)</ResourceName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
       <Description>The MEMO (Mesure Multicomposante des Ondes) experiment is a part of the wave consortium of experiments on Interball 2. It provides waveforms associated with the measurement of two to five components in three freuency bands: ELF (5-1000 Hz), VLF (1-20 kHz), and LF (20-250 kHz). Due to the memory capacity and allocated bit rate (about 10 kbps), the main operational mode of MEMO is a snapshot mode. Preliminary results show that, despite a functional degradation and a fatal failure four months after switching on, the MEMO experiment has fulfilled part of its initial objectives.
 The MEMO instrument is closely associated with three other experiments: POLRAD in the LF/MF frequency range; NVK-ONCH in the ELF and VLF ranges; and IESP in the ULF range. The MEMO experiment mainly deals with the digitized waveform data it produces internally. However, it is also used to transmit: the ELF NVK_ONCH filter-bank data on a regular basis; and the VLF-ONCH filter data and the POLRAD sounder data via specific modes.
 This information was taken from the paper by Lefeuvre et al., Ann. Geophysicae 16, 1117-1136 (1998), which contains a much more detailed description of these complex instruments and also presents preliminary results.</Description>

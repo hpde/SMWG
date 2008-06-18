@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1983-041A-05</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/GOES6/MAG</ResourceID>
     <ResourceHeader>
       <ResourceName>Biaxial Fluxgate Magnetometer</ResourceName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
       <Description>The spinning twin-fluxgate magnetometer, located at a few meters away from the spacecraft was designed to provide the orthogonal components of the magnetic field: Hp was parallel to the spin axis that was held nearly in the direction of Earth's axis, He was directed toward Earth center, and Hn pointed eastward. The magnetometer had a range of +/- 400 nT (without saturation) and a resolution of 0.1 nT over a range of +/- 50 nT. The sensitivity of the magnetometer was about 0.2 nT. The instrument and its electronics were carried on board GOES-4,-5,-6,and -7, without significant changes. Since 9 September, 91, only the Hp component is available, since the Earth-limb locator data that are necessary to obtain the transverse components have remained uncertain.</Description>
       <Contact>
 	<PersonID>spase://SMWG/Person/NOAA.National.Environmental.Satellite</PersonID>

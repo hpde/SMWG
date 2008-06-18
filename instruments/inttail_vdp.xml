@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1995-039A-03</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Interball-1/VDP</ResourceID>
     <ResourceHeader>
       <ResourceName>Omnidirectional Plasma Sensor Faraday Cups (VDP)</ResourceName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
       <Description>The VDP instrument was designed for determination of the integral flux vector or integral energetic spectrum over the range 0.2 - 2.4 keV of ions or electrons of magnetospheric plasma. The instrument includes 6 identical Faraday cups. Cup #1 is directed toward the Sun; its main axis lies along the spacecraft spin axis (+X). Cup #6 has antisunward direction (-X). Cups #2 - #5 are directed along +Y, +Z, -Y, -Z spacecraft axes respectively. Each cup has a field of view of 134 degrees full angle.
 The positive grid (C2) and negative grid (C3) are used to select ion or elecron measurement. In case of constant voltage, the sensor supplies the total flux of ions plus the flux of electrons above 2400 eV energy, or the total flux of electrons plus the flux of ions above 2400 eV energy. To get ion or electron spectra the voltage of C2 or C3 is changed step by step over 16 steps in the range 0 - 2400 V. Cup #1 does not have negative grid and supplies the ion flux plus electron flux with energy more then 170 eV.
 The maximum data rate is 16 samples per second. In the case of measuring spectra, one step is held during one second and a full spectrum takes 16 seconds. The output range of the direct current amplifier is -6.0 to + 6.0 V. The flux can be calculated as P = V * 0.43E+9 1/cm*cm*s. The minimum digitised flux is 6.0E+5 1/cm*cm*s and the maximum is 2.6E+9 1/cm*cm*s.

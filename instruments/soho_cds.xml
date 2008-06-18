@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/1995-065A-02</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/SOHO/CDS</ResourceID>
     <ResourceHeader>
       <ResourceName>Coronal Diagnostic Spectrometer (CDS)</ResourceName>
       <AlternateName>CDS</AlternateName>
-      <ReleaseDate>2008-06-18T05:32:50Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
       <Description>The CDS (Coronal Diagnostic Spectrometer) is designed to probe the solar atmosphere through the analysis of spectral emission lines in the extreme ultraviolet wavelength range 15.0-80.0 nm. Observations of the absolute and relative intensities of selected lines, and line profiles, allows the derivation of temperature, density, flow and abundance information for the plasmas in the solar atmosphere.
 The CDS will provide simultaneous coverage of large wavelength bands combined with temporal resolution down to 1 s. The spatial resolution is 2 arcsec over a field of view of 4 arcmin, which can be pointed anywhere on the sun and the low corona. Wavelength ranges for normal incidence are 31.0-38.0 nm and 51.7-63.3 nm. For grazing incidence, the wavelength ranges are 15.5-22.4, 26.1-34.6, 39.5-49.6, and 66.2-78.7 nm. Slit choices are 2 x 2, 4 x 4, 2 x 240, 4 x 240, 8 x 50, and 90 x 240 arcsec. Spectral resolving power is 3,500 to 12,000 depending on wavelength.
 The instrument generates far more data than can be transmitted in the telemetry available. Therefore, data are compressed and selected; only the portions of the spectrum desired by the current program are returned. The instrument consists of a Wolter 2 telescope, a flat scan mirror, a slit assembly, and two spectrometers; one for normal incidence and one for grazing incidence. For normal incidence a wavelength-dispersed image is produced at a two-dimensional detector. With a rotation of the scan mirror, two-dimensional images in all of the observed lines can be built up very quickly. For wavelengths less than approximately 30.0 nm, a grazing incidence system is used. The spectrum is dispersed onto four detectors placed along the Rowland circle. Such a system has no imaging capability, so for imaging a pin-hole slit is used, with the mirror performing a raster scan in one dimension. In the other dimension the slit itself is scanned.
