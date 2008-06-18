@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Instrument>
+    <ResourceID>spase://VHO/Instrument/ACE/EPAM</ResourceID>
+    <ResourceHeader>
+      <ResourceName>ACE Electron Proton Alpha Monitor</ResourceName>
+      <AlternateName>ACE EPAM</AlternateName>
+      <AlternateName>1997-045A-08</AlternateName>
+      <ReleaseDate>2008-06-02T18:49:28Z</ReleaseDate>
+      <Description> EPAM is composed of five telescope apertures of three different types.
+      Two Low Energy Foil Spectrometers (LEFS) measure the flux and direction of electrons above 30 keV (geometry factor = 0.397 cm^2 sr),
+      two Low Energy Magnetic Spectrometers (LEMS) measure the flux and direction of ions greater than 50 keV (geometry factor = 0.48 cm^2 sr),
+      and the Composition Aperture (CA) measures the elemental composition of the ions (geometry factor = 0.24 cm^2 sr).
+      The telescopes use the spin of the spacecraft to sweep the full sky. Solid-state detectors are used to measure the energy and composition of the incoming particles.
+      </Description>
+      <Contact>
+        <!-- Dennis Haggerty -->
+        <PersonID>spase://SMWG/Person/Dennis.Haggerty</PersonID>
+        <Role>TechnicalContact</Role>
+      </Contact>
+      <Contact>
+        <!-- Robert Gold -->
+        <PersonID>spase://SMWG/Person/Robert.E.Gold</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Instrument description</Name>
+        <URL>http://sd-www.jhuapl.edu/ACE/EPAM</URL>
+        <Description>Description of the ACE EPAM instrument design and instrument characteristics, with links to data and other documentation</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1997-045A-08</URL>
+        <Description>Information about the EPAM experiment on the ACE mission.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/instrument/1997-045A-08</PriorID>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Electron Proton and Alpha Monitor (EPAM) on ACE</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/ACE</ObservatoryID>
+  </Instrument>
+</Spase>

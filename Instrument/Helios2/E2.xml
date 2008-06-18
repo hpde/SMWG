@@ -1,24 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/Helios2/E2</ResourceID>
+    <ResourceID>spase://VHO/Instrument/Helios2/E2</ResourceID>
     <ResourceHeader>
       <ResourceName>Fluxgate Magnetometer for Field Fluctuations</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
-      <Description>The instrument (E2) consisted of a triaxial fluxgate magnetometer mounted on a 2.75-m boom to make magnetic field measurements up to 4 Hz. Data from each axis were first sent through a low-pass filter with the 3 dB attenuation point at 4 Hz. Depending on the telemetry format and bit rate, the data were fed either into a time-averaging computer or directly connected to telemetry. When there were discontinuities in the variations of the ambient magnetic field, a shock-identification computer triggered the storage of rapid-rate data in the spacecraft memory. Two measurement ranges were used, plus or minus 100 and 400 nT with resolutions of plus or minus 0.2 and 0.8 nT, respectively. The instrument was equipped with a flipper mechanism, which re-oriented each sensor by 90 deg periodically. For detailed information, see p. 232 of Raumfahrtforschung, v. 19, n. 5, 1975.</Description>
+      <AlternateName>Helios 2 E2</AlternateName>
+      <AlternateName>Helios 2 MGB</AlternateName>
+      <ReleaseDate>2008-06-18T19:06:31Z</ReleaseDate>
+      <Description>
+The instrument (E2) consisted of a triaxial fluxgate magnetometer mounted on a 2.75-m boom to make magnetic field measurements up to 4 Hz.
+Data from each axis were first sent through a low-pass filter with the 3 dB attenuation point at 4 Hz.
+Depending on the telemetry format and bit rate, the data were fed either into a time-averaging computer or directly connected to telemetry.
+When there were discontinuities in the variations of the ambient magnetic field, a shock-identification computer triggered the storage of rapid-rate data in the spacecraft memory.
+Two measurement ranges were used, plus or minus 100 and 400 nT with resolutions of plus or minus 0.2 and 0.8 nT, respectively.
+The instrument was equipped with a flipper mechanism, which re-oriented each sensor by 90 deg periodically.
+For detailed information, see p. 232 of Raumfahrtforschung, v. 19, n. 5, 1975.
+      </Description>
+      <Acknowledgement>User will acknowledge the Helios 2 MGB PI F. B. Neubauer in any publication resulting from the use of these data.</Acknowledgement>
       <Contact>
+        <!-- Dr. Rainer Schwenn -->
+        <PersonID>spase://SMWG/Person/Rainer.Schwenn</PersonID>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <!-- Prof. Fritz B. Neubauer -->
         <PersonID>spase://SMWG/Person/Fritz.M.Neubauer</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
-      <InformationURL>
-        <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1976-003A&amp;ex=1</URL>
-        <Description>Information about the Fluxgate Magnetometer for Field Fluctuations experiment on the Helios-B mission.</Description>
-      </InformationURL>
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
-    <InvestigationName>Fluxgate Magnetometer for Field Fluctuations on Helios-B</InvestigationName>
+    <InvestigationName>E2 Fluxgate Magnetometer</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Helios2</ObservatoryID>
   </Instrument>
 </Spase>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Instrument>
+    <ResourceID>spase://VHO/Instrument/ACE/SIS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Solar Isotope Spectrometer (SIS)</ResourceName>
+      <AlternateName>SIS</AlternateName>
+      <AlternateName>1997-045A-05</AlternateName>
+      <ReleaseDate>2008-06-02T18:49:29Z</ReleaseDate>
+      <Description>The Solar Isotope Spectrometer (SIS) experiment provides measurements at isotopic resolution of elements from He through Zn (2 &lt; Z &lt; 31) at energies of 10 - 100 MeV/nucleon. This energy range includes energetic ions accelerated by solar flares, coronal shocks, interplanetary shocks, and the solar wind termination shock (i.e., the anomalous cosmic ray component). Measurements of galactic cosmic ray ions are made at lower energies not covered by the Cosmic Ray Isotope Spectrometer (CRIS) instrument. The detector system consists of two identical charged particle telescopes composed of large-area silicon solid-state detectors. Each telescope consists of a hodoscope system made up of a pair of 2-D position-sensing detectors (M1 and M2), followed by an energy loss stack with eight detectors (T1 to T8) of varying thicknesses. Precise measurements of incident ion trajectories are provided by the position-sensing detectors (PSD's), each being 60 microns thick with 64 parallel "X" or "Y" strips on the top and bottom. Each such strip is separately pulse-height analyzed for energy loss determination and identification of multiple track events. The T1 - T8 detectors are composed of various combinations of 1-mm thick solid state elements linked electronically. T1 to T5, and T8, consist of one 1-mm element, whereas T6 includes three such elements and T7 includes six. Detectors T1 - T7 are pulse-height analyzed for energy loss measurements, and T8 is used to identify penetrating events. Acquisition of pulse-height event, counting rate, and housekeeping data is similar to that for CRIS, except that the pulse-height data volume varies from event to event and is minimal for the more abundant events from solar flares. The average event length is about 200 bits, which gives 10 events per second at the nominal 2 kbps telemetry rate. Since data for all heavy (Z &gt; 5) ion events cannot be acquired in some large solar flare events, a priority system selects events for telemetry based on estimated charge, energy (range in the detector stack), and event quality, the more penetrating heavy ions having greatest priority.</Description>
+      <Contact>
+        <!-- Alan Cummings -->
+        <PersonID>spase://SMWG/Person/Alan.C.Cummings</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <!-- Richard Mewaldt -->
+        <PersonID>spase://SMWG/Person/Richard.A.Mewaldt</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <!--Christina Cohen-->
+        <PersonID>spase://SMWG/Person/C.M.S.Cohen</PersonID>
+        <Role>TechnicalContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>SIS Home Page at CALTECH</Name>
+        <URL>http://www.srl.caltech.edu/ACE/CRIS_SIS/sis.html</URL>
+        <Description>Detailed information about the SIS instrument at Caltech, including links to data</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1997-045A&amp;ex=5</URL>
+        <Description>Information about the Solar Isotope Spectrometer (SIS) experiment on the ACE mission.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/instrument/1997-045A-05</PriorID>
+    </ResourceHeader>
+    <InstrumentType>ParticleDetector</InstrumentType>
+    <InvestigationName>Solar Isotope Spectrometer (SIS) on ACE</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/ACE</ObservatoryID>
+  </Instrument>
+</Spase>

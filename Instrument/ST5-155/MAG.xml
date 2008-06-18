@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://VMO/Instrument/ST5-155/MAG</ResourceID>
+    <ResourceHeader>
+      <ResourceName>ST5-155 Fluxgate Magnetometer</ResourceName>
+      <ReleaseDate>2008-06-02T18:53:43Z</ReleaseDate>
+      <Description>
+      Each ST5 spacecraft includes a low power science-grade fluxgate magnetometer. The magnetometer design is based on heritage from earlier missions such as Polar, FAST, and the Australian mission, FedSat. The magnetometers were developed at the University of California, Los Angelese (UCLA).
+      
+      UCLA's ST5 fluxgate magnetometer is the product of a long series of successful spaceflight magnetometers. The sensors are boom mounted and have no active components. Drive, sense and feedback signals travel along the boom cable between the sensors and the electronics board on the spacecraft. The electronics generates the fluxgate drive signal, detects the second harmonic of this signal, nulls the field surrounding the sensor, and provides a digital reading of the current needed to null each of the sensors. This signal is then sent to the telemetry system. There is no microprocessor in this simple design. The magnetometer has two commandable ranges, 64,000 and 1000 nT.
+  
+      The fluxgate sensors in the UCLA magnetometer are manufactured using the latest low-noise ring-core technology. UCLA purchased the last of the ring-core material in 1998 and had it fabricated into small (3/8" and 5/8") cores in anticipation of future missions such as ST5. The sensors are similar to the standard UCLA design flown on many previous missions. The feedback windings enclose the cores so that in operation the cores themselves are never exposed to strong fields orthogonal to the sense axis that can cause distortions at the level of about 1 part in 104. Thus the sensors are ultralinear and no harmonics of the spin tone is produced in high fields as have been reported for other missions. The lack of active components on the sensors means that they are very tolerant of temperature extremes. They were qualified at over 100C on Galileo and have operated after being immersed in liquid nitrogen (-196C).
+
+      The ST5 magnetometer uses the classic fluxgate circuit. Sensor mass and power are kept low with a dual core series drive circuit. The dynamic range is changed from 64,000 nT to 1000 nT by altering the closed loop response from 64,000 nT range to 5000 nT, and then amplifying the signal to get to a 1000 nT range. This method keeps the noise low in both ranges. One gain change command line switches both elements.
+
+      ST5 Magnetometer Design Specifications:
+
+Total Mass: 	      	361g + 250g (chassis)
+Electronics Board Mass: 	      	220g
+Chassis: 	      	250g
+Sensor Mass: 	      	75g
+Interface Cable: 	      	&lt; 66g
+Electronic Unit Volume: 	      	10x20x5 cm
+Sensor Volume: 	      	4x4x6 cm
+Interface Cable: 	      	&lt; 100 cm
+Power Consumption, Electronics: 	      	500 mW
+Power Consumption, Sensor: 	      	50 mW
+Range Selection: 	      	1000, 64,000 nT
+Data Rate 	      	16 vectors/s
+Data Resolution: 	      	18 bits (1:range, 1:sign, 16:value)
+</Description>
+      <Acknowledgement>User will acknowledge the ST5 magnetometer instrument team in any publication resulting from the use of these data.</Acknowledgement>
+      <Contact>
+        <!-- R. J. Strangeway -->
+        <PersonID>spase://SMWG/Person/Robert.J.Strangeway</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Fluxgate magnetometers for ST5 mission</Name>
+        <URL>http://www-ssc.igpp.ucla.edu/st5/design.html</URL>
+        <Description>UCLA web page describing history and design of the ST5 fluxgate magnetometers</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Magnetic Field Investigation</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/ST5-155</ObservatoryID>
+  </Instrument>
+</Spase>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://VMO/Instrument/AMPTE_UKS/FGM</ResourceID>
+    <ResourceHeader>
+      <ResourceName>AMPTE/UKS Magnetometer</ResourceName>
+      <AlternateName>AMPTE/IRM FGM</AlternateName>
+      <AlternateName>AMPTE/IRM Triaxial Fluxgate Magnetometer</AlternateName>
+      <AlternateName>1984-088C-04</AlternateName>
+      <ReleaseDate>2008-06-02T18:53:43Z</ReleaseDate>
+      <Description>The objective of this investigation was to study the magnetic fields in the near-earth environment. The instrument consisted of a three-axis orthogonal fluxgate magnetometer with ring-core sensors. It was a refurbished ISEE 1/2 flight spare. One of the two possible ranges, plus and minus 256 or 8192 nT, could be selected by ground command. The accuracy of the instrument was plus or minus 1 nT per axis in the high range and plus or minus 0.03 nT in the low range.
+      
+For more details, see D.J. Southwood, et al., IEEE Transaction on Geoscience and Remote Sensing Vol. GE-23, p 301, 1985.
+</Description>
+      <Acknowledgement>User will acknowledge the AMPTE/UKS magnetometer team in any publication resulting from the use of these data.</Acknowledgement>
+      <Contact>
+        <!-- David Southwood -->
+        <PersonID>spase://SMWG/Person/David.J.Southwood</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <!-- Malcolm Dunlop -->
+        <PersonID>spase://SMWG/Person/Malcolm.W.Dunlop</PersonID>
+        <Role>DataProducer</Role>
+      </Contact>
+      <InformationURL>
+        <Name>AMPTE/UKS documents</Name>
+        <URL>http://www.space-plasma.qmul.ac.uk/CDHF/</URL>
+        <Description>A collection of documents describing AMPTE/UKS instruments and data. Possibly outdated.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1984-088C&amp;ex=4</URL>
+        <Description>NSSDC information about the AMPTE/UKS Magnetometer</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Triaxial Fluxgate Magnetometer</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/AMPTE_UKS</ObservatoryID>
+    <Caveats/>
+  </Instrument>
+</Spase>

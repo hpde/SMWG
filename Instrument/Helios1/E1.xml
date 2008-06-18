@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <Instrument>
-    <ResourceID>spase://VHO/Instrument/Helios2/E1</ResourceID>
+    <ResourceID>spase://VHO/Instrument/Helios1/E1</ResourceID>
     <ResourceHeader>
-      <ResourceName>Helios 2 E1 Plasma Experiment</ResourceName>
-      <AlternateName>Helios 2 E1</AlternateName>
-      <ReleaseDate>2008-06-02T18:49:28Z</ReleaseDate>
+      <ResourceName>Helios 1 E1 Plasma Experiment</ResourceName>
+      <AlternateName>Helios 1 E1</AlternateName>
+      <ReleaseDate>2008-06-02T18:49:29Z</ReleaseDate>
       <Description>
 The E1 plasma experiment aboard the Helios solar probes consists of four independent instruments designed to investigate the solar wind plasma.
 By measuring the velocity distribution functions of the different kinds of particles, all important hydrodynamic parameters of the solar wind plasma can be derived.
@@ -20,7 +20,7 @@ using a hemispherical electrostatic analyzer.
 
 For more detailed information see p. 226 of Raumfahrtforschung, v. 19, n. 5, 1975.
       </Description>
-      <Acknowledgement>User will acknowledge the Helios 2 Plasma Experiment PI F. H. R. Rosenbauer in any publication resulting from the use of these data.</Acknowledgement>
+      <Acknowledgement>User will acknowledge the Helios 1 Plasma Experiment PI F. H. R. Rosenbauer in any publication resulting from the use of these data.</Acknowledgement>
       <Contact>
         <!-- Dr. Rainer Schwenn -->
         <PersonID>spase://SMWG/Person/Rainer.Schwenn</PersonID>
@@ -34,6 +34,6 @@ For more detailed information see p. 226 of Raumfahrtforschung, v. 19, n. 5, 197
     </ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>E1 Plasma Experiment</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/Helios2</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Helios1</ObservatoryID>
   </Instrument>
 </Spase>

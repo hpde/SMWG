@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Instrument>
+    <ResourceID>spase://VMO/Instrument/THEMIS-B/ESA</ResourceID>
+    <ResourceHeader>
+      <ResourceName>THEMIS-B Electrostatic Analyzers</ResourceName>
+      <AlternateName>THEMIS-B ESA</AlternateName>
+      <ReleaseDate>2008-06-02T18:53:43Z</ReleaseDate>
+      <Description>The THEMIS Electrostatic Analyzers (ESAs) measure the flux of thermal particles in a 360° field of view over the energy range from ~3 eV to 30 keV. There are two ESAs on each THEMIS spacecraft, one measures ions, the other electrons. The ESA measures the full 3-D distributions, as well as the density, velocity, and temperature of the ambient electrons and ions.</Description>
+      <Acknowledgement> NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically: C. W. Carlson and J. P. McFadden for use of ESA data. </Acknowledgement>
+      <Contact>
+        <!--Vassilis Angelopoulos -->
+        <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <!--Charles Carlson -->
+        <PersonID>spase://SMWG/Person/Charles.W.Carlson</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <!--James Mcfadden -->
+        <PersonID>spase://SMWG/Person/James.P.McFadden</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>THEMIS-B Electrostatic Analyzers</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2007-004B-02</URL>
+        <Description>Instrument description from NSSDC database</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>ElectrostaticAnalyser</InstrumentType>
+    <InvestigationName>Dual Full Distribution Electrostatic Analyzers</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/THEMIS-B</ObservatoryID>
+    <Caveats/>
+  </Instrument>
+</Spase>

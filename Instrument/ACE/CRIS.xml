@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Instrument>
+    <ResourceID>spase://VHO/Instrument/ACE/CRIS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Cosmic Ray Isotope Spectrometer (CRIS)</ResourceName>
+      <AlternateName>CRIS</AlternateName>
+      <ReleaseDate>2008-06-02T18:49:28Z</ReleaseDate>
+      <Description>The Cosmic Ray Isotope Spectrometer (CRIS) provides measurements with significant statistics of galactic cosmic ray nuclei from He to Zn (Z=2 to 30) at energies of 100 to 600 MeV/nucleon. CRIS makes more exploratory measurements of ultra-heavy nuclei from Ga (Z=31) to Zr (Z=40). The detector system consists of a Scintillating Optical Fiber Telescope (SOFT) hodoscope and four identical stacks of large-area silicon solid-state detectors. SOFT uses the optical fiber scintillation to provide position information in three x-y planes (H1, H2, H3) for trajectory measurement, while also providing a trigger counter (T) with two signals from the x-trigger and y-trigger fibers for the CRIS coincidence logic. Each detector stack includes eight four-inch diameter lithium-drifted (LiD) silicon solid-state detectors (SSD), designated as E1 to E8. Detectors E1 - E3 are 3-mm thick, while E3 - E8 are 6-mm thick and each consisting of a pair of 3-mm detectors. All detectors except E9 are pulse-height analyzed. Detectors E2 - E8 have a central active area surrounded by an annular integral guard ring used in anti-coincidence to elimiate side-penetrating events. Penetration of the entire stack is signaled by an E9 detector trigger. The total geometric factor for all four stacks is about 200 cm2-sr, dependent on energy, with a 45-degree conical (half-angle) field of view. Mass resolution for isotope analysis is at or below 0.25 amu. Most of the CRIS telemetry is devoted to event data, about 224 bits per analyzed event, while only 16 bps are needed for rate and housekeeping data. Since all analyzed events cannot be recorded during large solar flare events, a priority system ensures that the most significant events are selected for readout. In order of descending priority these are stopping heavy nuclei (Z &gt; 2), penetrating heavies, stopping hydrogen and helium, and penetrating hydrogen and helium. Under all interplanetary conditions CRIS can then record most accumulated heavy nuclei events.
+      </Description>
+      <Contact>
+        <!-- Alan Cummings -->
+        <PersonID>spase://SMWG/Person/Alan.C.Cummings</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <!-- Richard Mewaldt -->
+        <PersonID>spase://SMWG/Person/Richard.A.Mewaldt</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Richard.Leske</PersonID>
+        <Role>TechnicalContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Instrument description</Name>
+        <URL>http://www.srl.caltech.edu/ACE/CRIS_SIS/cris.html</URL>
+        <Description>Description of the ACE CRIS instrument, with links to data</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1997-045A&amp;ex=6</URL>
+        <Description>Information about the Cosmic Ray Isotope Spectrometer (CRIS) experiment on the ACE mission.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/instrument/1997-045A-06</PriorID>
+    </ResourceHeader>
+    <InstrumentType>ParticleDetector</InstrumentType>
+    <InvestigationName>Cosmic Ray Isotope Spectrometer (CRIS) on ACE</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/ACE</ObservatoryID>
+  </Instrument>
+</Spase>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Instrument>
+    <ResourceID>spase://VHO/Instrument/STEREO-B/IMPACT/MAG</ResourceID>
+    <ResourceHeader>
+      <ResourceName>STEREO-B IMPACT/MAG</ResourceName>
+      <AlternateName>STEREO-B IMPACT Magnetometer</AlternateName>
+      <ReleaseDate>2008-06-02T18:49:28Z</ReleaseDate>
+      <Description>The magnetometer system is a simplified version of the magnetometers flown on Mars Global Surveyor and Lunar Prospector. It is a tri-axial flux gate design that will be mounted on the STEREO ~4m boom just inboard of the SWEA and STE instruments. The flux gate sensors use a ring core geometry, with magnetic cores consisting of molybdenum alloy. The units are compact, low power, and ultra-stable. To optimize sensitivity at the low field values to be found in interplanetary space, the magnetometer dynamic range is divided into 8 ranges that are automatically switched whenever the field being measured exceeds a predetermined level. The maximum range is sufficiently large to allow IMPACT MAG magnetic field measurements during the commissioning phase Earth orbits.</Description>
+      <Acknowledgement>The STEREO IMPACT/MAG Team</Acknowledgement>
+      <Contact>
+        <!-- Janet Luhmann -->
+        <PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <!-- Chris Russell -->
+        <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <!-- Mario Acuna -->
+        <PersonID>spase://SMWG/Person/Mario.H.Acuna</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <!-- Adam Szabo -->
+        <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>STEREO/IMPACT Mission Site</Name>
+        <URL>http://sprg.ssl.berkeley.edu/impact/</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2006-047B-03</URL>
+        <Description>Information about the In-Situ Measurements of Particles and CME Transients (IMPACT) experiment on the STEREO B mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>In-Situ Measurements of Particles and CME Transients (IMPACT) Magnetometer on STEREO B</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/STEREO-B</ObservatoryID>
+  </Instrument>
+</Spase>

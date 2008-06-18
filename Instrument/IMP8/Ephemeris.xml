@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--$Id$-->
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://VMO/Instrument/IMP8/Ephemeris</ResourceID>
+    <ResourceHeader>
+      <ResourceName>IMP 8 Spacecraft Position</ResourceName>
+      <AlternateName>IMP 8 Position</AlternateName>
+      <ReleaseDate>2008-06-02T18:53:43Z</ReleaseDate>
+      <Description>IMP 8 spacecraft position in various coordinate systems</Description>
+      <Contact>
+        <!-- Adam Szabo -->
+        <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
+        <Role>DataProducer</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>Ephemeris</InstrumentType>
+    <InvestigationName>Spacecraft position</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/IMP8</ObservatoryID>
+  </Instrument>
+</Spase>
