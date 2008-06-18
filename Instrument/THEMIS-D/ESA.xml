@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <Instrument>
-    <ResourceID>spase://VMO/Instrument/THEMIS-D/ESA</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/THEMIS-D/ESA</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS-D Electrostatic Analyzers</ResourceName>
       <AlternateName>THEMIS-D ESA</AlternateName>
-      <ReleaseDate>2008-06-02T18:53:43Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T19:21:27Z</ReleaseDate>
       <Description>The THEMIS Electrostatic Analyzers (ESAs) measure the flux of thermal particles in a 360° field of view over the energy range from ~3 eV to 30 keV. There are two ESAs on each THEMIS spacecraft, one measures ions, the other electrons. The ESA measures the full 3-D distributions, as well as the density, velocity, and temperature of the ambient electrons and ions.</Description>
       <Acknowledgement> NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically: C. W. Carlson and J. P. McFadden for use of ESA data. </Acknowledgement>
       <Contact>

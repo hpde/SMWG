@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <Instrument>
-    <ResourceID>spase://VMO/Instrument/THEMIS-B/Ephemeris</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/THEMIS-B/Ephemeris</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS-B Probe Status</ResourceName>
       <AlternateName>THEMIS-B Positions</AlternateName>
-      <ReleaseDate>2008-06-02T18:53:43Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T19:21:27Z</ReleaseDate>
       <Description>THEMIS-B probe status (including position)</Description>
       <Contact>
         <!-- Vassilis Angelopoulos -->

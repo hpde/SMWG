@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <Instrument>
-    <ResourceID>spase://VMO/Instrument/THEMIS-A/FGM</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/THEMIS-A/FGM</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS-A Fluxgate Magnetometer</ResourceName>
       <AlternateName>2007-004A-01</AlternateName>
-      <ReleaseDate>2008-06-02T18:53:43Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T19:21:27Z</ReleaseDate>
       <Description>THEMIS Flux Gate Magnetometer (FGM) measures the background magnetic field and any low frequency (to 64 Hz) fluctuations superimposed upon it. The FGM can detect variations in the magnetic field within the accuracy of 0.01 nT. The THEMIS FGM uses an updated technology developed in Germany that digitizes the sensor signals directly and replaces the analog hardware by software. Using the digital fluxgate technology results in lower mass of the instruments and improved robustness.
   
 Development Institution: Technical University of Braunschweig, (TU-BS), Germany
@@ -39,7 +39,6 @@ The data are transimitted as several different types that vary in time resolutio
         <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2007-004A&amp;ex=1</URL>
         <Description>Instrument description from NSSDC database</Description>
       </InformationURL>
-      <PriorID>spase://VMO/Instrument/THEMIS/THEMIS-A/FGM</PriorID>
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Tri-axial Fluxgate Magnetometer</InvestigationName>

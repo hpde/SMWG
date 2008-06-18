@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <Instrument>
-    <ResourceID>spase://VHO/Instrument/Helios2/Ephemeris</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Helios2/Ephemeris</ResourceID>
     <ResourceHeader>
       <ResourceName>Helios 2 Position</ResourceName>
       <AlternateName>Helios 2 Ephemeris</AlternateName>
-      <ReleaseDate>2008-06-02T18:49:28Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T19:19:59Z</ReleaseDate>
       <Description>Helios 2 spacecraft position in various coordinate systems</Description>
       <Contact>
         <!-- Robert Candey -->

@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <Instrument>
-    <ResourceID>spase://VMO/Instrument/POLAR/Ephemeris</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/POLAR/Ephemeris</ResourceID>
     <ResourceHeader>
       <ResourceName>POLAR Orbit</ResourceName>
-      <ReleaseDate>2008-06-10T04:27:02Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T19:19:59Z</ReleaseDate>
       <Description>Polar orbit data</Description>
       <Contact>
         <!-- Jan Merka -->

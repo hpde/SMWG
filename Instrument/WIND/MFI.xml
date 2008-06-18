@@ -3,11 +3,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://VHO/Instrument/WIND/MFI</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/WIND/MFI</ResourceID>
     <ResourceHeader>
       <ResourceName>WIND Magnetic Field Investigation</ResourceName>
       <AlternateName>WIND MFI</AlternateName>
-      <ReleaseDate>2008-06-02T18:49:28Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T19:19:59Z</ReleaseDate>
       <Description>
 The magnetic field experiment on WIND provides data for studies of a broad range of scales of structures and fluctuation characteristics of the interplanetary magnetic field throughout the mission, and, where appropriate, relate them to the statics and dynamics of the magnetosphere. The basic instrument of the Magnetic Field Investigation (MFI) on the WIND Spacecraft  is a boom-mounted dual triaxial fluxgate magnetometer and associated electronics. The dual configuration provides redudancy and also permits accurate removal of the dipolar portion of the spacecraft magnetic field. The instrument provides:
 

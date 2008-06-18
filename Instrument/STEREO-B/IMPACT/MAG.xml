@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <Instrument>
-    <ResourceID>spase://VHO/Instrument/STEREO-B/IMPACT/MAG</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/STEREO-B/IMPACT/MAG</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO-B IMPACT/MAG</ResourceName>
       <AlternateName>STEREO-B IMPACT Magnetometer</AlternateName>
-      <ReleaseDate>2008-06-02T18:49:28Z</ReleaseDate>
+      <ReleaseDate>2008-06-18T19:19:59Z</ReleaseDate>
       <Description>The magnetometer system is a simplified version of the magnetometers flown on Mars Global Surveyor and Lunar Prospector. It is a tri-axial flux gate design that will be mounted on the STEREO ~4m boom just inboard of the SWEA and STE instruments. The flux gate sensors use a ring core geometry, with magnetic cores consisting of molybdenum alloy. The units are compact, low power, and ultra-stable. To optimize sensitivity at the low field values to be found in interplanetary space, the magnetometer dynamic range is divided into 8 ranges that are automatically switched whenever the field being measured exceeds a predetermined level. The maximum range is sufficiently large to allow IMPACT MAG magnetic field measurements during the commissioning phase Earth orbits.</Description>
       <Acknowledgement>The STEREO IMPACT/MAG Team</Acknowledgement>
       <Contact>
