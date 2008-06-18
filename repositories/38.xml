@@ -2,13 +2,13 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Repository>
-    <ResourceID>spase://vspo/repository/38</ResourceID>
+    <ResourceID>spase://SMWG/Repository/UCOLO</ResourceID>
     <ResourceHeader>
       <ResourceName>UCOLO</ResourceName>
       <ReleaseDate>2007-02-23T00:00:00Z</ReleaseDate>
       <Description/>
       <Contact>
-        <PersonID/>
+        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID
         <Role>GeneralContact</Role>
       </Contact>
     </ResourceHeader>
