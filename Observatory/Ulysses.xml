@@ -8,6 +8,7 @@
       <AlternateName>1990-090B</AlternateName>
       <AlternateName>Solar Polar</AlternateName>
       <AlternateName>International Solar Polar Mission</AlternateName>
+      <AlternateName>ULY</AlternateName>
       <ReleaseDate>2008-06-18T05:15:55Z</ReleaseDate>
       <Description>The primary objectives of Ulysses, formerly the International Solar Polar Mission (ISPM), are to investigate, as a function of solar latitude, the properties of the solar wind and the interplanetary magnetic field, of galactic cosmic rays and neutral interstellar gas, and to study energetic particle composition and acceleration. The 55 kg payload includes two magnetometers, two solar wind plasma instruments, a unified radio/plasma wave instrument, three energetic charged particle instruments, an interstellar neutral gas sensor, a solar X-ray/cosmic gamma-ray burst detector, and a cosmic dust sensor. The communications systems is also used to study the solar corona and to search for gravitational waves. Secondary objectives included interplanetary and planetary physics investigations during the initial Earth-Jupiter phase and investigations in the Jovian magnetosphere. The spacecraft used a Jupiter swingby in Feb. 1992 to transfer to a heliospheric orbit with high heliocentric inclination, and will pass over the rotational south pole of the sun in mid-1994 at 2 AU, and over the north pole in mid-1995. A second solar orbit will take Ulysses again over the south and north poles in years 2000 and 2001, respectively. The spacecraft is powered by a single radio-isotope generator. It is spin stabilized at a rate of 5 rpm and its high-gain antenna points continuously to the earth. A nutation anomaly after launch was controlled by CONSCAN. The original mission planned for two spacecraft, one built by ESA and the other by NASA. NASA cancelled its spacecraft in 1981.</Description>
       <Contact>
@@ -19,12 +20,13 @@
         <Role>ProjectScientist</Role>
       </Contact>
       <InformationURL>
-        <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1990-090B</URL>
-        <Description>Information about the Ulysses mission</Description>
+        <Name>Ulysses website at JPL</Name>
+        <URL>http://ulysses.jpl.nasa.gov/index.html</URL>
+        <Description>JPL's primary website for the Ulysses mission.  Links to all of the experiment subpages exist here.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>
+      <ObservatoryRegion>Heliosphere.Inner</ObservatoryRegion>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
       <ObservatoryRegion>Heliosphere.Outer</ObservatoryRegion>
     </Location>
