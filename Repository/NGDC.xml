@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/NOAA/NGDC</ResourceID>
+    <ResourceHeader>
+      <ResourceName>NGDC</ResourceName>
+      <ReleaseDate>2008-07-10T18:05:57Z</ReleaseDate>
+      <Description>NOAA's National Geophysical Data Center (NGDC) provides scientific stewardship, products, and services for geophysical data from the Sun to the Earth and Earth's sea floor and solid earth environment, including Earth observations from space.</Description>
+      <Contact>
+	<PersonID>spase://SMWG/Person/Eric.A.Kihn</PersonID>
+	<Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+	<Name>Web page</Name>
+	<URL>http://ngdc.noaa.gov</URL>
+	<Description>Web page for NGDC</Description>
+      </InformationURL>
+    </ResourceHeader>
+  </Repository>
+</Spase>
