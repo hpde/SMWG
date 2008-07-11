@@ -1,24 +1,26 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Repository>
-    <ResourceID>spase://SMWG/Repository/ACE_SC</ResourceID>
+    <ResourceID>spase://SMWG/Repository/SAMPEX_DC</ResourceID>
     <ResourceHeader>
-      <ResourceName>SRL ACE Science Center</ResourceName>
-      <AlternateName>ASC</AlternateName>
+      <ResourceName>SRL SAMPEX Data Repository</ResourceName>
       <ReleaseDate>2008-06-18T06:07:48Z</ReleaseDate>
-      <Description>ACE Science Center</Description>
-      <Acknowledgement>
-	Please acknowledge the ACE instrument teams and the ACE Science Center in publications and presentations that use these data
+      <Description>SAMPEX Data Center</Description>
+      <Acknowledgement>Please acknowledge the SAMPEX instrument teams and the SAMPEX Data Center in publications and presentations that use these data.
       </Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Andrew.J.Davis</PersonID>
 	<Role>PrincipalInvestigator</Role>
 	<Role>GeneralContact</Role>
       </Contact>
+      <Contact>
+	<PersonID>spase://SMWG/Person/Glenn.M.Mason</PersonID>
+	<Role>GeneralContact</Role>
+      </Contact>
       <InformationURL>
-	<Name>ACE Science Center</Name>
-	<URL>http://www.srl.caltech.edu/ACE/ASC</URL>
+	<Name>SAMPEX Data Center</Name>
+	<URL>http://www.srl.caltech.edu/sampex/DataCenter</URL>
       </InformationURL>
     </ResourceHeader>
   </Repository>
