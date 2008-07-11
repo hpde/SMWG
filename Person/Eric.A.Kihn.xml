@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Eric.A.Kihn</ResourceID>
+    <ReleaseDate>2008-08-11T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Eric A. Kihn</PersonName>
+    <OrganizationName>National Geophysical Data Center</OrganizationName>
+    <Address>National Geophysical Data Center, E/GC 325 Broadway, Boulder, Colorado USA 80305-3328, USA. </Address>
+    <Email>Eric.A.Kihn@noaa.gov</Email>
+    <PhoneNumber>303 497-6513</PhoneNumber>
+  </Person>
+</Spase>
