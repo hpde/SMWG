@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/THEMIS-A/EFI</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/THEMIS-D/EFI</ResourceID>
     <ResourceHeader>
-      <ResourceName>THEMIS-A Electric Field Instrument</ResourceName>
-      <AlternateName>THEMIS-A EFI</AlternateName>
-      <ReleaseDate>2008-07-17T20:37:36Z</ReleaseDate>
+      <ResourceName>THEMIS-D Electric Field Instrument</ResourceName>
+      <AlternateName>THEMIS-D EFI</AlternateName>
+      <ReleaseDate>2008-07-17T20:40:10Z</ReleaseDate>
       <Description>The Electric Field Instrument (EFI) on the THEMIS spacecraft measures the three components of the ambient vector electric field. Measurements are performed using four wire spin plane booms and two rigid axial booms. Waveform measurements cover DC up to 4 kHz (with AC-coupled differential measurements from ~10 Hz up to 8 kHz), with on-board spectral measurements covering the same ranges, as well as providing an estimate of integrated power in the 100- to 400-kHz band. On-board spin-fit E-field estimates are also provided for both the spin plane and axial measurements. On-board estimates of the spacecraft floating potential are also produced for use in particle moment calculations and burst trigger evaluations. Both individual (Vn, n=1..6) and differential (Emn = Vm – Vn, m,n = [(1,2), (3,4), (5,6)]) sensor potentials are measured. Booms 1 &amp; 2 are in the spin plane and have a length from tip to tip of 49.6 meters. Booms 3 &amp; 4 are in the spin plane and have a length from tip to tip of 40.4 meters.  Booms 5 &amp; 6 are the axial booms and have a length from tip to tip of 5.63 meters.  The differential sensor potentials are used to estimate the ambient vector E-field. The individual sensor potentials are used to verify proper sensor operation, estimate the spacecraft floating potential, and measure the ambient plasma density with high (sub-spin-period) time resolution.  Ground based electric field magnitude and direction measurements are provided with the Z component, with the Z component removed, and with the Z component estimated using the E.B=0 equality. The data are provided in DSL (despun spacecraft L-Z vector), GSM, and GSE coordinates.
 			</Description>
       <Acknowledgement>NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically: J. W. Bonnell and F. S. Mozer for use of EFI data.</Acknowledgement>
@@ -26,15 +26,15 @@
         <Role>CoInvestigator</Role>
       </Contact>
       <InformationURL>
-        <Name>THEMIS-A Electric Fields Instrument</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2007-004A&amp;ex=1</URL>
+        <Name>THEMIS-D Electric Fields Instrument</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2007-004D&amp;ex=1</URL>
         <Description>Instrument description from NSSDC database</Description>
       </InformationURL>
     </ResourceHeader>
     <InstrumentType>DoubleSphere</InstrumentType>
     <InstrumentType>Antenna</InstrumentType>
     <InvestigationName>THEMIS Electric Fields Instrument</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/THEMIS-A</ObservatoryID>
-    <Caveats>Measurements on the axial booms (5 &amp; 6) may have large errors due to their proximity to the spacecraft (the axial booms are much shorter than other booms). The spin plane booms for THEMIS A were not deployed until January 14, 2008 at 1700 UT, any EFI measurements before this date should not be used.</Caveats>
+    <ObservatoryID>spase://SMWG/Observatory/THEMIS-D</ObservatoryID>
+    <Caveats>Measurements on the axial booms(5 &amp; 6) may have large errors due to their proximity to the spacecraft (the axial booms are much shorter then other booms). The spin plane booms for THEMIS D were not deployed until June 7, 2007 at 1700 UT, any EFI measurements before this date should not be used.</Caveats>
   </Instrument>
 </Spase>
