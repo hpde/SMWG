@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Genesis/Ephemeris</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Genesis Positions</ResourceName>
+      <AlternateName>Genesis Ephemeris</AlternateName>
+      <ReleaseDate>2008-07-23T15:33:59Z</ReleaseDate>
+      <Description>Genesis spacecraft positions</Description>
+      <Contact>
+        <!-- Jan Merka -->
+        <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>Ephemeris</InstrumentType>
+    <InvestigationName>Spacecraft position</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Genesis</ObservatoryID>
+  </Instrument>
+</Spase>
