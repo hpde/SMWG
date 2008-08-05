@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Cassini/MAG</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Cassini Magnetometer</ResourceName>
+      <ReleaseDate>2008-08-05T20:58:18Z</ReleaseDate>
+      <Description>MAG includes both a flux gate magnetometer and a vector/scalar helium magnetometer. Because magnetometers are sensitive to electric currents and ferrous metal components, they are generally placed on an extended boom, as far from the spacecraft as possible. On Cassini, the flux gate magnetometer is located midway out on the 11-meter (36-foot) magnetometer boom extending out from the spacecraft, and the vector/scalar helium magnetometer is located at the end of the boom. The boom itself, composed of thin, nonmetallic rods, was folded during launch and deployed about two years after launch. The magnetometer electronics are located in a bay in the Cassini orbiter's spacecraft body.</Description>
+      <Acknowledgement/>
+      <Contact>
+        <PersonID>spase://SMWG/Person/David.J.Southwood</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Instrument home page at Imperial College, UK</Name>
+        <URL>http://www3.imperial.ac.uk/spat/research/missions/space_missions/cassini/mag_instrument/</URL>
+      </InformationURL>
+      <PriorID>spase://nssdc/instrument/1997-061A-11</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Dual Technique Magnetometer</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Cassini</ObservatoryID>
+    <Caveats/>
+  </Instrument>
+</Spase>

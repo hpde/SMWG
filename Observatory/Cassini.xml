@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Cassini</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Cassini</ResourceName>
+      <ReleaseDate>2008-08-05T20:55:52Z</ReleaseDate>
+      <Description>The Cassini spacecraft, launched in October 1997, entered a Saturn-centered orbit in July 2004.  It is instrumented for a wide range of remote sensing and in situ observations.  It delivered the ESA-built Huygens Probe to investigate Titan.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Dennis.L.Matson</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <InformationURL>
+        <URL>http://saturn.jpl.nasa.gov/home/index.cfm</URL>
+        <Description>Cassini page at JPL</Description>
+      </InformationURL>
+      <PriorID>spase://nssdc/observatory/1997-061A</PriorID>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Saturn</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>

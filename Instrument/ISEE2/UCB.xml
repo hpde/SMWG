@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/ISEE2/UCB</ResourceID>
+    <ResourceHeader>
+      <ResourceName>ISEE 2 UCB Particle Detectors</ResourceName>
+      <ReleaseDate>2008-08-05T21:18:03Z</ReleaseDate>
+      <Description>This experiment was designed to determine, by using identical instrumentation (see 77-102A) on the mother/daughter spacecraft, the spatial extent, propagation velocity, and temporal behavior of a wide variety of particle phenomena. Electrons were measured at 2 and 6 keV and in two bands: 8 to 200 keV and 30 to 200 keV. Protons were measured at 2 and 6 keV and in three bands: 8 to 200 keV, 30 to 200 keV, and 200 to 380 keV. The 30 keV threshold could be commanded to 15 or 60 keV. Identical instrumentation on each spacecraft consisted of a pair of surface-barrier semiconductor-detector telescopes (one with a foil and one without a foil) and four fixed-voltage cylindrical electrostatic analyzers (two for electrons and two for protons). Channel multipliers were used as detectors with the fixed-voltage analyzers. The telescopes had a viewing cone with a 40-deg half-angle, oriented at about 20 deg to the spin axis.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Kinsey.A.Anderson</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1977-102B-08</URL>
+      </InformationURL>
+      <PriorID>spase://nssdc/instrument/1977-102B-08</PriorID>
+    </ResourceHeader>
+    <InstrumentType>ElectrostaticAnalyser</InstrumentType>
+    <!-- &amp;lt;InstrumentType&amp;gt;ParticleDetector&amp;lt;/InstrumentType&amp;gt; -->
+    <InvestigationName>Electron and Proton Fluxes in the Outer magnetosphere</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/ISEE2</ObservatoryID>
+  </Instrument>
+</Spase>
