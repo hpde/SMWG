@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/ISEE1/FEP</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Fast Plasma Experiment (FPE) and Solar Wind Ion Experiment (SWE)</ResourceName>
+      <AlternateName/>
+      <ReleaseDate>2008-08-05T21:17:11Z</ReleaseDate>
+      <Description>This experiment was designed, in conjunction with a similar instrument (77-102B-01) provided by G. Paschmann of Max Planck Institute for flight on the daughter spacecraft, to study the plasma velocity distribution and its spatial and temporal variations in the solar wind, bow shock, magnetosheath, magnetopause, magnetotail, and magnetosphere. The FPE consists of three high efficience 90 degree spherical section electrostatic analyzers using large secondary emitters and discrete dynode multipliers to detect analyzed particles. Two of them, viewing in opposite directions, produce complete 2D velocity distribution measurements of both protons and electrons every spacecraft revolution. A third FPE analyzer with a divided emitter measures 3D distributions at a slower rate. Protons from 50 eV to 40 keV and electrons from 5 eV to 20 keV were measured The experiment operated in two ranges, with energy resolution for the several steps in each range of 10% of the center energy level. The Solar Wind Experiment (SWE) measures solar wind ions. It is composed of two 150 degree spherical section analyzers using the same set of plates. The two acceptance fans are tilted with respect to each other so that 3D characteristics of the ion distributions can be derived. The ion experiment had degraded by April 1980 and the density values are suspected to be too low in later years. To protect the instrument, this experiment was turned off whenever the spacecraft was below 30,000 km. The Fast Plasma Experiment (FPE) had degraded by January 1978.</Description>
+      <Acknowledgement/>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Samuel.J.Bame</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/H.Kent.Hills</PersonID>
+        <Role>TechnicalContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Helmut.R.Rosenbauer</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Edward.W.Hones.Jr</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Karl.Schindler</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Michael.D.Montgomery</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/John.R.Asbridge</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Goetz.Paschmann</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/H.Miggenrieder</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Heinrich.J.Volk</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/William.C.Feldman</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/John.T.Gosling</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1977-102A-01</URL>
+        <Description>Information about the Fast Plasma Experiment (FPE) and Solar Wind Ion Experiment (SWE) experiment on the ISEE 1 mission.</Description>
+      </InformationURL>
+      <PriorID>spase://nssdc/instrument/1977-102A-01</PriorID>
+    </ResourceHeader>
+    <InstrumentType>ElectrostaticAnalyser</InstrumentType>
+    <InvestigationName>Fast Plasma Experiment (FPE) and Solar Wind Ion Experiment (SWE) on ISEE 1</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/ISEE1</ObservatoryID>
+  </Instrument>
+</Spase>
