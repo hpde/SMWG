@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/SPDF</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SPDF</ResourceName>
+      <ReleaseDate>2008-08-19T22:50:02Z</ReleaseDate>
+      <Description>Space Physics Data Facility</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
+        <Role>TechnicalContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>SPDF</Name>
+        <URL>http://spdf.gsfc.nasa.gov/</URL>
+        <Description>Space Physics Data Facility</Description>
+      </InformationURL>
+      <PriorID>spase://vspo/repository/61</PriorID>
+    </ResourceHeader>
+  </Repository>
+</Spase>
