@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Observatory>
+    <ResourceID>spase://VMO/Observatory/GOES4</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Geostationary Operational Environmental Satellites 4</ResourceName>
+      <AlternateName>GOES 4</AlternateName>
+      <AlternateName>1980-074A</AlternateName>
+      <ReleaseDate>2008-08-20T18:56:05Z</ReleaseDate>
+      <Description>GOES 4 was the sixth in a series of NASA-developed, NOAA-operated, geosynchronous and operational spacecraft. The spin-stabilized spacecraft carried (1) a VISSR (visible infrared spin scan radiometer) atmospheric sounder (VAS) to provide high-quality day/night cloudcover data, to take radiance-derived temperatures of the earth/atmosphere system, and to determine atmospheric temperature and water vapor content at various levels, (2) a meteorological data collection and transmission system to relay processed data from central weather facilities to APT-equipped regional stations and to collect and retransmit data from remotely located earth-based platforms, and (3) a space environment monitor (SEM) system to measure proton, electron, and solar X-ray fluxes and magnetic fields. The cylindrically shaped spacecraft measured 190.5 cm in diameter and 230 cm in length, exclusive of a magnetometer that extended an additional 83 cm beyond the cylindrical shell. The primary structural members were a honeycombed equipment shelf and thrust tube. The VISSR telescope was mounted on the equipment shelf and viewed the earth through a special aperture in the side of the spacecraft. A support structure extended radially from the thrust tube and was affixed to the solar panels, which formed the outer walls of the spacecraft to provide the primary source of electrical power. Located in the annulus-shaped space between the thrust tube and the solar panels were stationkeeping and dynamics control equipment, batteries, and most of the SEM equipment. Proper spacecraft attitude and spin rate (approximately 100 rpm) were maintained by two separate sets of jet thrusters mounted around the spacecraft equator and activated by ground command. The spacecraft used both UHF-band and S-band frequencies in its telemetry and command subsystem. A low-power VHF transponder provided telemetry and command during launch and then served as a backup for the primary subsystem once the spacecraft had attained synchronous orbit. When GOES 5 VAS experienced a failure on July 30, 1984, GOES 4 was reactivated by NOAA to provide GOES 1 VISSR data relay services to western users. </Description>
+      <Acknowledgement>NASA; Mr. Adolph J. Cervenka; Mr. Gerald W. Longanecker; Mr. William E. Shenk</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/William.E.Shenk</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog on GOES 4</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1980-074A</URL>
+        <Description>Information about the GOES 4 mission</Description>
+      </InformationURL>
+      <PriorID>spase://VMO/Observatory/GOES/GOES4</PriorID>
+    </ResourceHeader>
+    <ObservatoryGroup>GOES</ObservatoryGroup>
+    <Location>
+      <ObservatoryRegion>Earth.Magnetosphere.RadiationBelt</ObservatoryRegion>
+      <ObservatoryRegion>Earth.NearSurface.Plasmasphere</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
+      <CoordinateSystemName>GSM</CoordinateSystemName>
+    </Location>
+  </Observatory>
+</Spase>
