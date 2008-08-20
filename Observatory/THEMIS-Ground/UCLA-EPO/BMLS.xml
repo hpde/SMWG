@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+<Version>1.3.0</Version>
+<Observatory>
+<ResourceID>spase://SMWG/Observatory/THEMIS-Ground/UCLA-EPO/BMLS</ResourceID>
+   <ResourceHeader>
+      <ResourceName>NASA THEMIS EPO Bay Mills Station</ResourceName>
+			<AlternateName>BMLS</AlternateName>
+      <ReleaseDate>2008-02-27T12:00:00</ReleaseDate>
+      <Description>Bay Mills (BMLS) Station is located in Bay Mills, Michigan, USA. This station has an Educational Public Outreach magnetometer operated by UCLA.  EPO magnetometers should be used carefully, as they may be subject to environmental noise.
+Magnetic Latitude: 57.00
+Magnetic Longitude: 348.34
+UT of Magnetic Midnight: 5.6667
+Magnetic Declination: -6.95
+Magnetic coordinates obtained by calculation using the CCGM online program with IGRF 2008 at altitude of 0 km. Magnetic declination obtained using CCGM online program with IGRF 2007.</Description>
+      <Acknowledgement>We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically:S. Mende and C. T. Russell for use of the GMAG data</Acknowledgement>
+      <Contact>
+         <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
+         <Role>PrincipalInvestigator</Role>
+      </Contact>
+			<Contact>
+         <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
+         <Role>Co-Investigator</Role>
+      </Contact>
+			<Contact>
+         <PersonID>spase://SMWG/Person/Stephen.B.Mende</PersonID>
+         <Role>Co-Investigator</Role>
+      </Contact>
+      <InformationURL>
+         <Name>THEMIS Ground Magnetometer Data Center at UCLA</Name>
+         <URL>http://spc.igpp.ucla.edu/uclamag/themis_center/</URL>
+         <Description>Web server for displaying and downloading THEMIS ground magnetometer data</Description>
+      </InformationURL>
+			<InformationURL>
+         <Name>THEMIS Web Site</Name>
+         <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+         <Description>Description of GMAGS on THEMIS web site.</Description>
+      </InformationURL>
+      <AssociationID>spase://SMWG/Observatory/THEMIS/</AssociationID>
+      <PriorID>spase://VMOU/Observatory/THEMIS/Ground-Magnetometers/EPO/BMLS</PriorID>
+   </ResourceHeader>
+	 <ObservatoryGroup>THEMIS-UCLA-EPO</ObservatoryGroup>
+   <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>WGS84</CoordinateSystemName>
+      <Latitude>46.24</Latitude>
+      <Longitude>-84.34</Longitude>
+   </Location>
+</Observatory>
+</Spase>

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+<Version>1.3.0</Version>
+<Observatory>
+<ResourceID>spase://SMWG/Observatory/THEMIS-Ground/UCLA-EPO/RMUS</ResourceID>
+   <ResourceHeader>
+      <ResourceName>NASA THEMIS EPO Remus Station</ResourceName>
+			<AlternateName>RMUS</AlternateName>
+			<AlternateName>RUMS</AlternateName>
+      <ReleaseDate>2008-02-27T12:00:00</ReleaseDate>
+      <Description>Remus (RMUS) Magnetometer Station is located in Remus, Michigan, USA. This station has an Educational Public Outreach magnetometer operated by UCLA.  EPO magnetometers should be used carefully, as they may be subject to environmental noise.
+Magnetic Latitude: 54.27
+Magnetic Longitude: 347.62
+UT of Magnetic Midnight: 5.7167
+Magnetic Declination: -5.71
+Magnetic coordinates obtained by calculation using the CCGM online program with IGRF 2008 at altitude of 0 km. Magnetic declination obtained using CCGM online program with IGRF 2007.
+</Description>
+      <Acknowledgement>We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically:S. Mende and C. T. Russell for use of the GMAG dat</Acknowledgement>
+      <Contact>
+         <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
+         <Role>PrincipalInvestigator</Role>
+      </Contact>
+			<Contact>
+        <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
+        <Role>Co-Investigator</Role>
+      </Contact>
+			<Contact>
+        <PersonID>spase://SMWG/Person/Stephen.B.Mende</PersonID>
+        <Role>Co-Investigator</Role>
+      </Contact>
+      <InformationURL>
+         <Name>THEMIS Ground Magnetometer Data Center at UCLA</Name>
+         <URL>http://spc.igpp.ucla.edu/uclamag/themis_center/</URL>
+         <Description>Web server for displaying and downloading THEMIS ground magnetometer data</Description>
+      </InformationURL>
+			<InformationURL>
+         <Name>THEMIS Web Site</Name>
+         <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+         <Description>Description of GMAGS on THEMIS web site.</Description>
+      </InformationURL>
+      <AssociationID>spase://SMWG/Observatory/THEMIS/</AssociationID>
+      <PriorID>spase://VMOU/Observatory/THEMIS/Ground-Magnetometers/EPO/RUMS</PriorID>
+   </ResourceHeader>
+	 <ObservatoryGroup>THEMIS-UCLA-EPO</ObservatoryGroup>
+   <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>WGS84</CoordinateSystemName>
+      <Latitude>43.6</Latitude>
+      <Longitude>-85.16</Longitude>
+   </Location>
+</Observatory>
+</Spase>
