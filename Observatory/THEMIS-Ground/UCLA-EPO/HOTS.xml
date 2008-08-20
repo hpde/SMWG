@@ -4,10 +4,10 @@
 <Observatory>
 <ResourceID>spase://SMWG/Observatory/THEMIS-Ground/UCLA-EPO/HOTS</ResourceID>
    <ResourceHeader>
-      <ResourceName>NASA THEMIS EPO Hot Springs Station</ResourceName>
-			<AlternateName>HOTS</AlternateName>
-      <ReleaseDate>2008-02-27T12:00:00</ReleaseDate>
-      <Description>Hot Springs (HOTS) Magnetometer Station is located in Hot Springs, Montana, USA. This station has an Educational Public Outreach magnetometer operated by UCLA.  EPO magnetometers should be used carefully, as they may be subject to environmental noise.
+     <ResourceName>NASA THEMIS EPO Hot Springs Station</ResourceName>
+		 <AlternateName>HOTS</AlternateName>
+     <ReleaseDate>2008-02-27T12:00:00</ReleaseDate>
+     <Description>Hot Springs (HOTS) Magnetometer Station is located in Hot Springs, Montana, USA. This station has an Educational Public Outreach magnetometer operated by UCLA.  EPO magnetometers should be used carefully, as they may be subject to environmental noise.
 Magnetic Latitude: 54.62
 Magnetic Longitude: 307.19
 UT of Magnetic Midnight: 8.1333
@@ -21,11 +21,11 @@ Magnetic coordinates obtained by calculation using the CCGM online program with 
       </Contact>
 			<Contact>
          <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
-         <Role>Co-Investigator</Role>
+         <Role>CoInvestigator</Role>
       </Contact>
 			<Contact>
          <PersonID>spase://SMWG/Person/Stephen.B.Mende</PersonID>
-         <Role>Co-Investigator</Role>
+         <Role>CoInvestigator</Role>
       </Contact>
       <InformationURL>
          <Name>THEMIS Ground Magnetometer Data Center at UCLA</Name>

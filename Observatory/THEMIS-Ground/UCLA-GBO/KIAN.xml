@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+<Version>1.3.0</Version>
+<Observatory>
+<ResourceID>spase://SMWG/Observatory/THEMIS-Ground/UCLA-GBO/KIAN</ResourceID>
+<ResourceHeader>
+  <ResourceName>NASA THEMIS GBO Kiana Station</ResourceName>
+	<AlternateName>KIAN</AlternateName>
+  <ReleaseDate>2008-02-27T12:00:00</ReleaseDate>
+  <Description>Kiana (KIAN) Magnetometer Station is located in Kiana, Alaska, USA.  KIAN is part of the UCLA GBO Network.
+		Magnetic Latitude: 65.0
+		Magnetic Longitude: 251.50
+		UT of Magnetic Midnight: 12.0333
+		Magnetic Declination: 16.79
+		Magnetic coordinates obtained by calculation using the CCGM online program with IGRF 2008 at altitude of 0 km. Magnetic declination obtained using CCGM online program with IGRF 2007
+</Description>
+  <Acknowledgement>We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically:S. Mende and C. T. Russell for use of the GMAG data</Acknowledgement>
+  <Contact>
+    <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
+    <Role>PrincipalInvestigator</Role>
+  </Contact>
+	<Contact>
+    <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
+    <Role>CoInvestigator</Role>
+  </Contact>
+	<Contact>
+    <PersonID>spase://SMWG/Person/Stephen.B.Mende</PersonID>
+    <Role>CoInvestigator</Role>
+  </Contact>
+  <InformationURL>
+    <Name>THEMIS Ground Magnetometer Data Center at UCLA</Name>
+    <URL>http://spc.igpp.ucla.edu/uclamag/themis_center/</URL>
+    <Description>Web server for displaying and downloading THEMIS ground magnetometer data</Description>
+  </InformationURL>
+	<InformationURL>
+    <Name>THEMIS Web Site</Name>
+    <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+    <Description>Description of GMAGS on THEMIS web site.</Description>
+  </InformationURL>
+  <AssociationID>spase://SMWG/Observatory/THEMIS/</AssociationID>
+</ResourceHeader>
+<ObservatoryGroup>THEMIS-UCLA-GBO</ObservatoryGroup>
+<Location>
+  <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+  <CoordinateSystemName>WGS84</CoordinateSystemName>
+  <Latitude>67</Latitude>
+  <Longitude>-160.4</Longitude>
+</Location>
+</Observatory>
+</Spase>
