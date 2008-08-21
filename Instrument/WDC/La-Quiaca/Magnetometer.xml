@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/WDC/La-Quiaca/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>La Quiaca Ground Magnetic Field Instrument</ResourceName>
+      <AlternateName/>
+      <ReleaseDate>2008-08-21T16:37:57Z</ReleaseDate>
+      <ExpirationDate>2099-12-31T23:59:59.999</ExpirationDate>
+      <Description>The magnetic field instrument at the La Quiaca ground station</Description>
+      <Acknowledgement>Servicio Meteorologico Nacional, Centro de Geophysica, Argentina</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Gustavo.Talamoni</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The La Quiaca magnetometer web site</Name>
+        <URL>HARVEST</URL>
+        <Description>The La Quiaca magnetometer web site</Description>
+      </InformationURL>
+      <PriorID>spase://VMO/Instrument/WDC/La-Quiaca/Magnetometer</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>None Identified</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/WDC/La-Quiaca</ObservatoryID>
+    <Caveats/>
+  </Instrument>
+</Spase>

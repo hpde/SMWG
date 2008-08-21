@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/WDC/Faraday-Islands/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Faraday Islands Ground Magnetic Field Instrument</ResourceName>
+      <AlternateName/>
+      <ReleaseDate>2008-08-21T16:37:57Z</ReleaseDate>
+      <ExpirationDate>2099-12-31T23:59:59.999</ExpirationDate>
+      <Description>The magnetic field instrument at the Faraday Islands ground station</Description>
+      <Acknowledgement>1) British Antarctic Survey (Before Feb 96), 2) Ukrainian Antarctic Center, Institute of Geophysics, Academy of Sciences of the Ukraine (After Feb 96)</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Matthew.Paley</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Vladimir.Bakhmutov</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The Faraday Islands magnetometer web site</Name>
+        <URL>HARVEST</URL>
+        <Description>The Faraday Islands magnetometer web site</Description>
+      </InformationURL>
+      <PriorID>spase://VMO/Instrument/WDC/Faraday-Islands/Magnetometer</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>None Identified</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/WDC/Faraday-Islands</ObservatoryID>
+    <Caveats/>
+  </Instrument>
+</Spase>

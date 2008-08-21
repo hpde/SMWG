@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/WDC/Nairobi/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Nairobi Ground Magnetic Field Instrument</ResourceName>
+      <AlternateName/>
+      <ReleaseDate>2008-08-21T16:37:57Z</ReleaseDate>
+      <ExpirationDate>2099-12-31T23:59:59.999</ExpirationDate>
+      <Description>The magnetic field instrument at the Nairobi ground station</Description>
+      <Acknowledgement>Department of Physics, University of Nairobi, Nairobi, Kenya</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/J.P.Patel</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The Nairobi magnetometer web site</Name>
+        <URL>HARVEST</URL>
+        <Description>The Nairobi magnetometer web site</Description>
+      </InformationURL>
+      <PriorID>spase://VMO/Instrument/WDC/Nairobi/Magnetometer</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>None Identified</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/WDC/Nairobi</ObservatoryID>
+    <Caveats/>
+  </Instrument>
+</Spase>

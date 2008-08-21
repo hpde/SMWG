@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/WDC/Godh/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Godh. Ground Magnetic Field Instrument</ResourceName>
+      <AlternateName>Qeqertarsua Ground Magnetic Field Instrument</AlternateName>
+      <ReleaseDate>2008-08-21T16:37:57Z</ReleaseDate>
+      <ExpirationDate>2099-12-31T23:59:59.999</ExpirationDate>
+      <Description>The magnetic field instrument at the Godh. ground station</Description>
+      <Acknowledgement>Solar-Terrestrial Physics Division, Danish Meteorological Institute</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Ole.Rasmussen</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Boerge.Pedersen</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The Godh. magnetometer web site</Name>
+        <URL>HARVEST</URL>
+        <Description>The Godh. magnetometer web site</Description>
+      </InformationURL>
+      <PriorID>spase://VMO/Instrument/WDC/Godh./Magnetometer</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>None Identified</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/WDC/Godh</ObservatoryID>
+    <Caveats/>
+  </Instrument>
+</Spase>

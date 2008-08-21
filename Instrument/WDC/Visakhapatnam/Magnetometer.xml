@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/WDC/Visakhapatnam/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Visakhapatnam Ground Magnetic Field Instrument</ResourceName>
+      <AlternateName/>
+      <ReleaseDate>2008-08-21T16:37:58Z</ReleaseDate>
+      <ExpirationDate>2099-12-31T23:59:59.999</ExpirationDate>
+      <Description>The magnetic field instrument at the Visakhapatnam ground station</Description>
+      <Acknowledgement>Indian Institute of Geomagnetism, Bombay</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Sobhana.Alex</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/R.C.Deka</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The Visakhapatnam magnetometer web site</Name>
+        <URL>HARVEST</URL>
+        <Description>The Visakhapatnam magnetometer web site</Description>
+      </InformationURL>
+      <PriorID>spase://VMO/Instrument/WDC/Visakhapatnam/Magnetometer</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>None Identified</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/WDC/Visakhapatnam</ObservatoryID>
+    <Caveats/>
+  </Instrument>
+</Spase>

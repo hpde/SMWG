@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/WDC/Pamatai/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Pamatai Ground Magnetic Field Instrument</ResourceName>
+      <AlternateName/>
+      <ReleaseDate>2008-08-21T16:37:57Z</ReleaseDate>
+      <ExpirationDate>2099-12-31T23:59:59.999</ExpirationDate>
+      <Description>The magnetic field instrument at the Pamatai ground station</Description>
+      <Acknowledgement>Institut de physique du globe de Paris (IPGP)</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Danielle.Fouassier</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The Pamatai magnetometer web site</Name>
+        <URL>HARVEST</URL>
+        <Description>The Pamatai magnetometer web site</Description>
+      </InformationURL>
+      <PriorID>spase://VMO/Instrument/WDC/Pamatai/Magnetometer</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>None Identified</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/WDC/Pamatai</ObservatoryID>
+    <Caveats/>
+  </Instrument>
+</Spase>
