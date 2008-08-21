@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Sarah.Reay</ResourceID>
+    <ReleaseDate>2008-08-21T18:40:20Z</ReleaseDate>
+    <PersonName>Sarah Reay</PersonName>
+    <OrganizationName>WDC for Geomagnetism, Edinburgh</OrganizationName>
+    <Address>British Geological Survey, Murchison House, West Mains Road, Edinburgh, Scotland, EH9 3LA</Address>
+    <Email>wdcgeomag@bgs.ac.uk</Email>
+    <PhoneNumber>+44 (0)131 667 1000</PhoneNumber>
+  </Person>
+</Spase>
