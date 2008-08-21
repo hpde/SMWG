@@ -1,10 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/Oleg.Troshichev</ResourceID>
-    <PersonName>Oleg.Troshichev</PersonName>
-    <OrganizationName>"Arctic and Antarctic Research Institute of St. Petersburg, Russia"</OrganizationName>
-    <Email>olegtro@aari.nw.ru</Email>
+    <ReleaseDate>2008-08-21T00:33:21Z</ReleaseDate>
+    <PersonName>Dr. Oleg Troshichev</PersonName>
+    <OrganizationName>Arctic and Antarctic Research Institute</OrganizationName>
+    <Address>Arctic and Antarctic Research Institute, Bering Street, 38, St. Petersburg 199397, Russia</Address>
+    <Email>olegtro@geophys.spb.su</Email>
+    <PhoneNumber>+7 812 352 1149</PhoneNumber>
   </Person>
 </Spase>

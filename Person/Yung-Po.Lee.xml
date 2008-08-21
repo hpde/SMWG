@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Person>
+    <ResourceID>spase://VMO/Person/Yung-Po-Lee</ResourceID>
+    <ReleaseDate>2008-08-21T00:33:21Z</ReleaseDate>
+    <PersonName>Yung-Po Lee</PersonName>
+    <OrganizationName>Lunping Observatory</OrganizationName>
+    <Address>Lunping Observatory, 180 Lunping, Kuanyin, Taoyuan, Taiwan 328, Republic of China</Address>
+    <Email>lunping@dgt.gov.tw</Email>
+    <PhoneNumber>886-3-498-0084</PhoneNumber>
+  </Person>
+</Spase>

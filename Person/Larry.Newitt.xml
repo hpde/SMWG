@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Person>
+    <ResourceID>spase://VMO/Person/Larry.Newitt</ResourceID>
+    <ReleaseDate>2008-08-21T00:33:21Z</ReleaseDate>
+    <PersonName>Larry Newitt</PersonName>
+    <OrganizationName>Natural Resources Canada</OrganizationName>
+    <Address>Natural Resources Canada, 2617 Anderson Road, Bldg. 5, Room. 5, Ottawa, Ontario, Canada K1A 0Y3</Address>
+    <Email>newitt@geolab.nrcan.gc.ca</Email>
+    <PhoneNumber>+1 613 837 7915</PhoneNumber>
+  </Person>
+</Spase>

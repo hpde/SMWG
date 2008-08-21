@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Person>
+    <ResourceID>spase://VMO/Person/Dr.-Pavel-Hejda</ResourceID>
+    <ReleaseDate>2008-08-21T00:33:21Z</ReleaseDate>
+    <PersonName>Dr. Pavel Hejda</PersonName>
+    <OrganizationName>Academy of Sciences of the Czech Republic</OrganizationName>
+    <Address>Academy of Sciences of the Czech Republic, Geophysical Institute, Bocni II/1401, 141 31 Prague, Czech Republic</Address>
+    <Email>ph@ig.cas.cz</Email>
+    <PhoneNumber>+ 420 2 71761549</PhoneNumber>
+  </Person>
+</Spase>
