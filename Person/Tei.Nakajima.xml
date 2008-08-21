@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Person>
+    <ResourceID>spase://VMO/Person/Mr.-Tei-Nakajima</ResourceID>
+    <ReleaseDate>2008-08-21T00:33:21Z</ReleaseDate>
+    <PersonName>Mr. Tei Nakajima</PersonName>
+    <OrganizationName>Hydrographic Department</OrganizationName>
+    <Address>Hydrographic Department, Maritime Safety Agency, No. 3-1, 5-chome, Tsukiji, Chuo-ku, Tokyo 104, Japan</Address>
+    <Email>N/A</Email>
+    <PhoneNumber>ext. 660</PhoneNumber>
+  </Person>
+</Spase>

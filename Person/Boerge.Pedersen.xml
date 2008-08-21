@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Person>
+    <ResourceID>spase://VMO/Person/Boerge-Pedersen</ResourceID>
+    <ReleaseDate>2008-08-21T00:33:21Z</ReleaseDate>
+    <PersonName>Boerge Pedersen</PersonName>
+    <OrganizationName>Danish Meteorological Institute</OrganizationName>
+    <Address>Danish Meteorological Institute, Solar-Terrestrial Physics Division, Lyngbyvej 100, DK-2100 Copenhagen O, Denmark</Address>
+    <Email>bp@dmi.dk</Email>
+    <PhoneNumber>+45 39 15 74 76</PhoneNumber>
+  </Person>
+</Spase>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Person>
+    <ResourceID>spase://VMO/Person/Technico-Superior</ResourceID>
+    <ReleaseDate>2008-08-21T00:33:21Z</ReleaseDate>
+    <PersonName>Paulo Ribiero</PersonName>
+    <OrganizationName>Instituto Geofisico</OrganizationName>
+    <Address>Instituto Geofisico, Universidade de Coimbra, Rua Anibal de Lima (Alto da Baleia), P-3000 Coimbra, Portugal</Address>
+    <Email>pribeiro@ci.uc.pt</Email>
+  </Person>
+</Spase>

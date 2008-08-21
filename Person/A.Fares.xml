@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.3.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/A.Fares</ResourceID>
+    <ReleaseDate>2008-08-21T00:33:21Z</ReleaseDate>
+    <PersonName>Dr. A. Fares</PersonName>
+    <OrganizationName>Service Magnetisme, Centre de Recherche en Astronomie
+    Astrophysique et Geophysique (CRAAG)</OrganizationName>
+    <Address>B.P. 63 Bouzareah, Algiers, Algeria</Address>
+    <Email/>
+    <PhoneNumber>213 2 941 443</PhoneNumber>
+  </Person>
+</Spase>

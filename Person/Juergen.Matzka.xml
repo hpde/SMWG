@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Person>
+    <ResourceID>spase://VMO/Person/Dr.-Juergen-Matzka</ResourceID>
+    <ReleaseDate>2008-08-21T00:33:21Z</ReleaseDate>
+    <PersonName>Dr. Juergen Matzka</PersonName>
+    <OrganizationName>Geophysical Observatory</OrganizationName>
+    <Address>Geophysical Observatory, Ludwigshohe 8, D-82256 Furstenfeldbruck, Germany</Address>
+    <Email>magnetic@fur.observatory.uni-muenchen.de</Email>
+    <PhoneNumber>49 8141 92478</PhoneNumber>
+  </Person>
+</Spase>

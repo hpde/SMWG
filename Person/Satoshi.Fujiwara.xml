@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Person>
+    <ResourceID>spase://VMO/Person/Mr.-Satoshi-Fujiwara</ResourceID>
+    <ReleaseDate>2008-08-21T00:33:21Z</ReleaseDate>
+    <PersonName>Mr. Satoshi Fujiwara</PersonName>
+    <OrganizationName>Geodetic Department</OrganizationName>
+    <Address>Geodetic Department, Geographical Survey Institute, Kitazato-1, Tsukuba-shi, Ibara-ken 305, Japan</Address>
+    <Email>N/A</Email>
+    <PhoneNumber>(81) 0298-64-1111 (ext. 431)</PhoneNumber>
+  </Person>
+</Spase>

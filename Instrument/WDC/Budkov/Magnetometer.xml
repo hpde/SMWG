@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/WDC/Budkov/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Budkov Ground Magnetic Field Instrument</ResourceName>
+      <AlternateName/>
+      <ReleaseDate>2008-08-21T16:37:57Z</ReleaseDate>
+      <ExpirationDate>2099-12-31T23:59:59.999</ExpirationDate>
+      <Description>The magnetic field instrument at the Budkov ground station</Description>
+      <Acknowledgement>Geophysical Institute, Academy of Sciences of the Czech Republic, Prague</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Pavel.Hejda</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The Budkov magnetometer web site</Name>
+        <URL>HARVEST</URL>
+        <Description>The Budkov magnetometer web site</Description>
+      </InformationURL>
+      <PriorID>spase://VMO/Instrument/WDC/Budkov/Magnetometer</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>None Identified</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/WDC/Budkov</ObservatoryID>
+    <Caveats/>
+  </Instrument>
+</Spase>

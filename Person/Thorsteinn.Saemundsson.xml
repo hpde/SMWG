@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Person>
+    <ResourceID>spase://VMO/Person/Dr.-Thorsteinn-Saemundsson</ResourceID>
+    <ReleaseDate>2008-08-21T00:33:21Z</ReleaseDate>
+    <PersonName>Dr. Thorsteinn Saemundsson</PersonName>
+    <OrganizationName>Science Institute</OrganizationName>
+    <Address>Science Institute, University of Iceland, Dunhaga 5, Reykjavik IS-107, Iceland</Address>
+    <Email>halo@raunvis.hi.is</Email>
+    <PhoneNumber>+354 525 4809</PhoneNumber>
+  </Person>
+</Spase>

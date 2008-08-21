@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/WDC/Molodezhnaya/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Molodezhnaya Ground Magnetic Field Instrument</ResourceName>
+      <AlternateName/>
+      <ReleaseDate>2008-08-21T16:37:57Z</ReleaseDate>
+      <ExpirationDate>2099-12-31T23:59:59.999</ExpirationDate>
+      <Description>The magnetic field instrument at the Molodezhnaya ground station</Description>
+      <Acknowledgement>Arctic and Antarctic Research Institute, St. Petersburg</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Oleg.Troshichev</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The Molodezhnaya magnetometer web site</Name>
+        <URL>HARVEST</URL>
+        <Description>The Molodezhnaya magnetometer web site</Description>
+      </InformationURL>
+      <PriorID>spase://VMO/Instrument/WDC/Molodezhnaya/Magnetometer</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>None Identified</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/WDC/Molodezhnaya</ObservatoryID>
+    <Caveats/>
+  </Instrument>
+</Spase>

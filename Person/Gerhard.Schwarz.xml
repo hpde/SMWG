@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Person>
+    <ResourceID>spase://VMO/Person/Gerhard-Schwarz</ResourceID>
+    <ReleaseDate>2008-08-21T00:33:21Z</ReleaseDate>
+    <PersonName>Gerhard Schwarz</PersonName>
+    <OrganizationName>Geological Survey of Sweden</OrganizationName>
+    <Address>Geological Survey of Sweden, Box 670, S-751 28 Uppsala, Sweden</Address>
+    <Email>gerhard@sgu.se</Email>
+    <PhoneNumber>+46 18 179344</PhoneNumber>
+  </Person>
+</Spase>

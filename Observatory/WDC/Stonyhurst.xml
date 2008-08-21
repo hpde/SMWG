@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/WDC/Stonyhurst</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Stonyhurst Ground Observatory</ResourceName>
+      <AlternateName/>
+      <ReleaseDate>2008-08-21T00:33:01Z</ReleaseDate>
+      <ExpirationDate>2099-12-31T23:59:59.999</ExpirationDate>
+      <Description>The Stonyhurst Observatory</Description>
+      <Acknowledgement>N/A</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The Stonyhurst observatory web site</Name>
+        <URL>HARVEST</URL>
+        <Description>The Stonyhurst observatory web site</Description>
+      </InformationURL>
+      <AssociationID/>
+      <PriorID>spase://VMO/Observatory/WDC/Stonyhurst</PriorID>
+    </ResourceHeader>
+    <ObservatoryGroup/>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>53.845</Latitude>
+      <Longitude>357.530</Longitude>
+    </Location>
+  </Observatory>
+</Spase>
