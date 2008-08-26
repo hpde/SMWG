@@ -1,9 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/Charles.F.Kennel</ResourceID>
+    <ReleaseDate>2008-08-26T18:44:22Z</ReleaseDate>
     <PersonName>Prof. Charles F. Kennel</PersonName>
     <OrganizationName>University of California, Los Angeles</OrganizationName>
+    <Address>Department of Physics
+University of California, Los Angeles
+405 Hilgard
+Los Angeles CA
+   90095-1567</Address>
+    <Email>kennel@uclaph.ucla.edu</Email>
+    <PhoneNumber>+1-310-825-2052</PhoneNumber>
   </Person>
 </Spase>

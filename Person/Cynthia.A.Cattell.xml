@@ -1,9 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/Cynthia.A.Cattell</ResourceID>
+    <ReleaseDate>2008-08-26T18:40:42Z</ReleaseDate>
     <PersonName>Dr. Cynthia A. Cattell</PersonName>
     <OrganizationName>University of Minnesota</OrganizationName>
+    <Address>Tate Laboratory of Physics
+School of Physics and Astronomy
+University of Minnesota
+116 Church Street SE
+Minneapolis MN
+   55455-0112</Address>
+    <Email>cattell@belka.spa.umn.edu</Email>
+    <PhoneNumber>+1-612-626-2029</PhoneNumber>
   </Person>
 </Spase>
