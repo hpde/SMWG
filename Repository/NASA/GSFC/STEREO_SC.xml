@@ -1,12 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Repository>
-    <ResourceID>spase://SMWG/Repository/STEREO_SC</ResourceID>
+    <ResourceID>spase://SMWG/Repository/NASA/GSFC/STEREO_SC</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO Science Center</ResourceName>
       <AlternateName>SSC</AlternateName>
-      <ReleaseDate>2008-06-18T06:07:48Z</ReleaseDate>
+      <ReleaseDate>2008-08-26T21:02:30Z</ReleaseDate>
       <Description>STEREO Science Center, NASA/Goddard</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Michael.L.Kaiser</PersonID>
@@ -16,6 +16,7 @@
         <Name>STEREO Science Center</Name>
         <URL>http://stereo-ssc.nascom.nasa.gov/</URL>
       </InformationURL>
+      <PriorID>spase://SMWG/Repository/STEREO_SC</PriorID>
     </ResourceHeader>
   </Repository>
 </Spase>

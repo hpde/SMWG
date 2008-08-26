@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <Repository>
-    <ResourceID>spase://SMWG/Repository/SPDF</ResourceID>
+    <ResourceID>spase://SMWG/Repository/NASA/GSFC/SPDF</ResourceID>
     <ResourceHeader>
       <ResourceName>SPDF</ResourceName>
-      <ReleaseDate>2008-08-21T20:26:41Z</ReleaseDate>
+      <ReleaseDate>2008-08-26T21:02:30Z</ReleaseDate>
       <Description>Space Physics Data Facility</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Tamara.J.Kovalick</PersonID>
@@ -25,6 +25,7 @@
         <Description>Space Physics Data Facility</Description>
       </InformationURL>
       <PriorID>spase://vspo/repository/61</PriorID>
+      <PriorID>spase://SMWG/Repository/SPDF</PriorID>
     </ResourceHeader>
   </Repository>
 </Spase>
