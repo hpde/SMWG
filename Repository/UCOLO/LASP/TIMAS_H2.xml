@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/UCOLO/LASP/TIMAS_H2</ResourceID>
+    <ResourceHeader>
+      <ResourceName>LASP TIMAS H2 Data Repository</ResourceName>
+      <ReleaseDate>2008-08-26T21:18:47Z</ReleaseDate>
+      <Description>The TIMAS Science Team's data base of TIMAS H2 data</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/W.K.Peterson</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>H1 and H2 High Resolution Data Products</Name>
+        <URL>http://lasp.colorado.edu/timas/h12-data/h12-data.html</URL>
+      </InformationURL>
+      <PriorID>spase://VMO/Repository/LASP_TIMAS_H2</PriorID>
+    </ResourceHeader>
+  </Repository>
+</Spase>

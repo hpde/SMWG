@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/NASA/GSFC/VHO-VMO</ResourceID>
+    <ResourceHeader>
+      <ResourceName>VHO and VMO Data Repository at NASA/GSFC</ResourceName>
+      <ReleaseDate>2008-08-26T21:16:21Z</ReleaseDate>
+      <Description>Data repository co-located with the VHO and VMO at NASA Goddard Space Flight Center.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>TechnicalContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NASA/GSFC VHO/VMO Data Repository</Name>
+        <URL>http://vho.nasa.gov/mission/</URL>
+        <Description>The top-level directory of VHO/VMO data repository. (vho.nasa.gov server)</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>NASA/GSFC VHO/VMO Data Repository</Name>
+        <URL>http://vmo.nasa.gov/mission/</URL>
+        <Description>The top-level directory of VHO/VMO data repository. (vmo.nasa.gov server)</Description>
+      </InformationURL>
+      <PriorID>spase://VMO/Repository/VHO-VMO</PriorID>
+    </ResourceHeader>
+  </Repository>
+</Spase>
