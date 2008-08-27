@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/DMSP_5D-2/SSJ4</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SSJ/4 Special Sensor for Precipitating Particles, Version 4</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>The purpose of the precipitating electron/ion spectrometer is to measure fluxes and energies of electrons and ions precipitated into the upper atmosphere;</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Paul.L.Rothwell</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1995-015A&amp;ex=04</URL>
+        <Description>Information about the Precipitating Electron/Ion Spectrometer (SSJ/4) experiment on the DMSP 5D-2 mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Spectrometer</InstrumentType>
+    <InvestigationName>SSJ/4 Special Sensor for Precipitating Particles, Version 4 on DMSP_5D-2</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/DMSP_5D-2</ObservatoryID>
+  </Instrument>
+</Spase>
