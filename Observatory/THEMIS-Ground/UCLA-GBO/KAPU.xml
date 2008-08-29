@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <Observatory>
-    <ResourceID>spase://VMO/Observatory/THEMIS-Ground/UCLA-GBO/KAPU</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/THEMIS-Ground/UCLA-GBO/KAPU</ResourceID>
     <ResourceHeader>
       <ResourceName>NASA THEMIS GBO Kapuskasing Station</ResourceName>
       <AlternateName>KAPU</AlternateName>
-      <ReleaseDate>2008-08-27T07:41:15Z</ReleaseDate>
+      <ReleaseDate>2008-08-29T19:33:32Z</ReleaseDate>
       <Description>Kapuskasing (KAPU) Magnetometer Station is located in Kapuskasing, ON, Canada. KAPU  is part of the UCLA GBO Network.
 		Magnetic Latitude: 60.9
 		Magnetic Longitude: 350.60
@@ -38,6 +38,7 @@
         <Description>Description of GMAGS on THEMIS web site.</Description>
       </InformationURL>
       <AssociationID>spase://SMWG/Observatory/THEMIS/</AssociationID>
+      <PriorID>spase://VMO/Observatory/THEMIS-Ground/UCLA-GBO/KAPU</PriorID>
     </ResourceHeader>
     <ObservatoryGroup>THEMIS-UCLA-GBO</ObservatoryGroup>
     <Location>
