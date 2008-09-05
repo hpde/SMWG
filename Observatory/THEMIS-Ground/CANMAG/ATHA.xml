@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
 <Version>1.3.0</Version>
 <Observatory>
 <ResourceID>spase://SMWG/Observatory/THEMIS-Ground/CANMAG/ATHA</ResourceID>
    <ResourceHeader>
       <ResourceName>NASA THEMIS GBO Athabasca Station</ResourceName>
 			<AlternateName>ATHA</AlternateName>
-      <ReleaseDate>2008-02-27T12:00:00</ReleaseDate>
+      <ReleaseDate>2008-09-05T19:02:52Z</ReleaseDate>
       <Description>Athabasca (ATHA) Station is located at the Athabasca University Geophysical Observatory in Athabasca,Alberta, Canada.  ATHA was the THEMIS prototype GBO
 				Magnetic Latitude: 61.94
 				Magnetic Longitude: 306.91
@@ -17,7 +17,7 @@
       <Acknowledgement>We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically:
 Martin Connors for building the Athabasca Station.
 GMAG: I. Mann for use of the GMAG data, and the CSA for support of the CARISMA network.
-ASI/GBO: S. Mende and E. Donovan for use of the ASI data, and the CSA for logistical support in fielding and data retrieval from the GBO stations.<Acknowledgement>
+ASI/GBO: S. Mende and E. Donovan for use of the ASI data, and the CSA for logistical support in fielding and data retrieval from the GBO stations.</Acknowledgement>
       <Contact>
          <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
          <Role>PrincipalInvestigator</Role>
@@ -46,7 +46,7 @@ ASI/GBO: S. Mende and E. Donovan for use of the ASI data, and the CSA for logist
 			<InformationURL>
         <Name>Canadian Space Science Data Portal</Name>
         <URL>http://portal.cssdp.ca:8080/ssdp/jsp/logon.jsp</URL>
-        <Description>Web portal to access Canadian GBO & GMAG data.</Description>
+        <Description>Web portal to access Canadian GBO &amp; GMAG data.</Description>
       </InformationURL>
 			<InformationURL>
         <Name>Athabasca Magnetometer Information Page</Name>
