@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+  <Version>1.3.0</Version>
   <Person>
-    <ResourceID>spase://SMWG/Person/Steven.B.Mende</ResourceID>
-    <PersonName>Dr. Steven B. Mende</PersonName>
+    <ResourceID>spase://SMWG/Person/Stephen.B.Mende</ResourceID>
+    <PersonName>Dr. Stephen B. Mende</PersonName>
     <OrganizationName>University of California, Berkeley</OrganizationName>
+    <Address>University of California, Berkeley, Space Sciences Lab, 7 Gauss Way,Berkeley, CA 94720-7450 Addition 336</Address>
+		<Email>mende@ssl.berkeley.edu</Email>
+		<PhoneNumber>+1-510-642-0876</PhoneNumber>
   </Person>
 </Spase>
