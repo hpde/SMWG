@@ -34,6 +34,11 @@ The data are transimitted as several different types that vary in time resolutio
         <PersonID>spase://SMWG/Person/Karl-Heinz.Glassmeier</PersonID>
         <Role>CoInvestigator</Role>
       </Contact>
+			<Contact>
+        <!-- Uli Auster -->
+        <PersonID>spase://SMWG/Person/Uli.Auster</PersonID>
+        <Role>TechnicalContact</Role>
+      </Contact>
       <InformationURL>
         <Name>THEMIS-E Fluxgate Magnetometer</Name>
         <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2007-004E&amp;ex=1</URL>
