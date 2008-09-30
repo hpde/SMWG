@@ -2,22 +2,23 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Repository>
-    <ResourceID>spase://SMWG/Repository/NASA/GSFC/WIND_MFI</ResourceID>
+    <ResourceID>spase://SMWG/Repository/NASA/GSFC/WIND</ResourceID>
     <ResourceHeader>
-      <ResourceName>WIND Magnetic Field Investigation (MFI) Data Repository</ResourceName>
-      <ReleaseDate>2008-08-26T21:34:43Z</ReleaseDate>
-      <Description>Data Repository for WIND MFI version 3 and 4 daily CDF files</Description>
+      <ResourceName>WIND Spacecraft Home Page and Data Repository</ResourceName>
+      <ReleaseDate>2008-09-22T13:34:43Z</ReleaseDate>
+      <Description>Data Repository for WIND MFI version 3 and 4 daily CDF files as well as instrument descriptions and related links for the WIND mission.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
         <Role>DataProducer</Role>
         <Role>Scientist</Role>
       </Contact>
       <InformationURL>
-        <Name>WIND MFI instrument home page</Name>
-        <URL>http://lepmfi.gsfc.nasa.gov</URL>
-        <Description>WIND MFI instrument home page with description of instrument and access to data files.</Description>
+        <Name>WIND Spacecraft Home Page</Name>
+        <URL>http://wind.nasa.gov/URL>
+        <Description>WIND home page with description of instruments and access to data files.</Description>
       </InformationURL>
       <PriorID>spase://VHO/Repository/WIND/MFI</PriorID>
+      <PriorID>spase://SMWG/Repository/NASA/GSFC/WIND_MFI</PriorID>
     </ResourceHeader>
   </Repository>
 </Spase>
