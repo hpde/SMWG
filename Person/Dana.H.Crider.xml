@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--$Id$-->
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Dana.H.Crider</ResourceID>
+    <ReleaseDate>2008-10-06T15:16:05Z</ReleaseDate>
+    <PersonName>Dr. Dana Crider</PersonName>
+    <OrganizationName>The Catholic University of America</OrganizationName>
+    <Address>106 Driftwood Dr., Gibsonville, NC 27249</Address>
+    <Email>crider@cua.edu</Email>
+    <PhoneNumber>1-336-449-7269</PhoneNumber>
+  </Person>
+</Spase>
