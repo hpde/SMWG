@@ -12,7 +12,7 @@
 				Magnetic Longitude: 333.50
 				UT of Magnetic Midnight: 6.4000
 				Magnetic Declination: -7.40
-				Magnetic coordinates obtained by calculation using the CCGM online program with IGRF 2008 at altitude of 0 km. Magnetic declination obtained using CCGM online program with IGRF 2007
+				Magnetic coordinates obtained by calculation using the CGM online calculator with IGRF 2008 at altitude of 0 km. Magnetic declination obtained using CGM online calculator with IGRF 2007
 </Description>
       <Acknowledgement>We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically:
 GMAG: I. Mann for use of the GMAG data, and the CSA for support of the CARISMA network.
@@ -48,7 +48,7 @@ ASI/GBO: S. Mende and E. Donovan for use of the ASI data, and the CSA for logist
         <URL>http://bluebird.phys.ualberta.ca/carisma/</URL>
         <Description>Access to information about the CARISMA magnetometer array.</Description>
       </InformationURL>
-      <AssociationID>spase://SMWG/Observatory/THEMIS/</AssociationID>
+      <AssociationID>spase://SMWG/Observatory/THEMIS-Ground/</AssociationID>
    </ResourceHeader>
 	 <ObservatoryGroup>THEMIS-CANMAG</ObservatoryGroup>
    <Location>

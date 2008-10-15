@@ -12,7 +12,7 @@
 		Magnetic Longitude: 279.14
 		UT of Magnetic Midnight: 10.0167
 		Magnetic Declination: 23.67
-		Magnetic coordinates obtained by calculation using the CCGM online program with IGRF 2008 at altitude of 0 km. Magnetic declination obtained using CCGM online program with IGRF 2007.
+		Magnetic coordinates obtained by calculation using the CGM online calculator with IGRF 2008 at altitude of 0 km. Magnetic declination obtained using CGM online calculator with IGRF 2007.
 	</Description>
       <Acknowledgement>We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically:S. Mende and C. T. Russell for use of the GMAG data</Acknowledgement>
       <Contact>
@@ -32,7 +32,7 @@
         <URL>http://spc.igpp.ucla.edu/uclamag/themis_center/</URL>
         <Description>Web server for displaying and downloading THEMIS ground magnetometer data</Description>
       </InformationURL>
-      <AssociationID>spase://SMWG/Observatory/THEMIS/</AssociationID>
+      <AssociationID>spase://SMWG/Observatory/THEMIS-Ground/</AssociationID>
     </ResourceHeader>
     <ObservatoryGroup>THEMIS-UCLA-EPO</ObservatoryGroup>
     <Location>

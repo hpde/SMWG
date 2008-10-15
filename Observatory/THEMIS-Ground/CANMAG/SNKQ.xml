@@ -13,7 +13,7 @@
 				Magnetic Longitude: 355.85
 				UT of Magnetic Midnight: 5.2667
 				Magnetic Declination: -16.92
-				Magnetic coordinates obtained by calculation using the CCGM online program with IGRF 2008 at altitude of 0 km. Magnetic declination obtained using CCGM online program with IGRF 2007
+				Magnetic coordinates obtained by calculation using the CGM online calculator with IGRF 2008 at altitude of 0 km. Magnetic declination obtained using CGM online calculator with IGRF 2007
 </Description>
       <Acknowledgement>We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically:
 GMAG: I. Mann for use of the GMAG data, and the CSA for support of the CARISMA network.
@@ -49,7 +49,7 @@ ASI/GBO: S. Mende and E. Donovan for use of the ASI data, and the CSA for logist
         <URL>http://gsc.nrcan.gc.ca/geomag/obs/index_e.php</URL>
         <Description>Natural Resources Canada's Observatory Information Page</Description>
       </InformationURL>
-      <AssociationID>spase://SMWG/Observatory/THEMIS/</AssociationID>
+      <AssociationID>spase://SMWG/Observatory/THEMIS-Ground/</AssociationID>
     </ResourceHeader>
     <ObservatoryGroup>THEMIS-CANMAG</ObservatoryGroup>
     <Location>

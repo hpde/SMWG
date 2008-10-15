@@ -12,7 +12,7 @@
 				Magnetic Longitude: 306.91
 				UT of Magnetic Midnight: 8.1167
 				Magnetic Declination: 17.05
-				Magnetic coordinates obtained by calculation using the CCGM online program with IGRF 2008 at altitude of 0 km. Magnetic declination obtained using CCGM online program with IGRF 2007
+				Magnetic coordinates obtained by calculation using the CGM online calculator with IGRF 2008 at altitude of 0 km. Magnetic declination obtained using CGM online calculator with IGRF 2007
 </Description>
       <Acknowledgement>We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically:
 Martin Connors for building the Athabasca Station.
@@ -53,7 +53,7 @@ ASI/GBO: S. Mende and E. Donovan for use of the ASI data, and the CSA for logist
         <URL>http://aurora.phys.ucalgary.ca/themis/sites/Sites/Athabasca/Athabasca.html</URL>
         <Description>Primary information on the Athabasca Station</Description>
       </InformationURL>
-      <AssociationID>spase://SMWG/Observatory/THEMIS/</AssociationID>
+      <AssociationID>spase://SMWG/Observatory/THEMIS-Ground/</AssociationID>
    </ResourceHeader>
 	 <ObservatoryGroup>THEMIS-CANMAG</ObservatoryGroup>
    <Location>
