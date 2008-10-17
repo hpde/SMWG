@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Robert.S.Weigel</ResourceID>
+    <ReleaseDate>2008-10-17T14:30:21Z</ReleaseDate>
+    <PersonName>Robert S. Weigel</PersonName>
+    <OrganizationName>George Mason University</OrganizationName>
+    <Address>4400 University Drive, 6A2, Fairfax, VA 22030</Address>
+    <Email>rweigel@gmu.edu</Email>
+  </Person>
+</Spase> 
