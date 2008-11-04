@@ -2,9 +2,9 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/Pioneer11/CRS</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Pioneer11/CRT</ResourceID>
     <ResourceHeader>
-      <ResourceName>Cosmic-Ray Spectra</ResourceName>
+      <ResourceName>Cosmic-Ray Telescope</ResourceName>
       <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
       <Description>This experiment consisted of three 3-element telescopes, all looking normal to the spacecraft spin axis. A bidirectional telescope measured 20- to 800-MeV/nucleon particles with 5 to 10% energy resolution. Another telescope measured 3- to 22-MeV/nucleon particles with 5% resolution. These two telescopes measured particles with Z values between 1 and 8. The third telescope measured 50-keV to 1-MeV electrons and 50-keV to 20-MeV protons with 20% resolution. Data include the interplanetary region.</Description>
       <Contact>
@@ -14,11 +14,11 @@
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1973-019A&amp;ex=12</URL>
-        <Description>Information about the Cosmic-Ray Spectra experiment on the Pioneer 11 mission.</Description>
+        <Description>Information about the Cosmic-Ray Telescope experiment on the Pioneer 11 mission.</Description>
       </InformationURL>
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
-    <InvestigationName>Cosmic-Ray Spectra on Pioneer 11</InvestigationName>
+    <InvestigationName>Cosmic-Ray Telescope on Pioneer 11</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Pioneer11</ObservatoryID>
   </Instrument>
 </Spase>
