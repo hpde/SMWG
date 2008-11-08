@@ -6,7 +6,7 @@
    <ResourceHeader>
       <ResourceName>THEMIS GBO Rankin Fluxgate Magnetometer</ResourceName>
 			<AlternateName>RANK Gmag</AlternateName>
-      <ReleaseDate>2008-11-07T23:30:32Z</ReleaseDate>
+      <ReleaseDate>2008-11-08T00:05:11Z</ReleaseDate>
       <Description>The magnetometer at the THEMIS/Rankin station.  RANK is part of the University of Alberta CARISMA network.  It records 3-axis magnetic field measurements at 2Hz frequency.</Description>
 			<Acknowledgement>We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically I. Mann for use of the GMAG data, and the CSA for support of the CARISMA network.</Acknowledgement>	
       <Contact>
@@ -33,7 +33,6 @@
         <Description>THEMIS Web Site page on ground magnetometers. Contains links to papers, general purpose information and caveats.</Description>
       </InformationURL>
 
-      <AssociationID>spase://VMO/NumericalData/THEMIS-Ground/CANMAG/RANK/GMAG/PT0,5S</AssociationID>
    </ResourceHeader>
    <InstrumentType>Magnetometer</InstrumentType>
    <InvestigationName>NASA THEMIS Mission</InvestigationName>
