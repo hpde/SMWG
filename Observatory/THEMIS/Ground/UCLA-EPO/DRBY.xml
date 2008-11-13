@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
+  <Version>1.3.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-EPO/DRBY</ResourceID>
+    <ResourceHeader>
+      <ResourceName>NASA THEMIS EPO Derby Station</ResourceName>
+      <AlternateName>DRBY</AlternateName>
+      <ReleaseDate>2008-11-11T22:24:55Z</ReleaseDate>
+      <Description>Derby (DRBY) Magnetometer Station is located in Derby, Vermont, USA.  This station has an Educational Public Outreach magnetometer operated by UCLA.  EPO magnetometers should be used carefully, as they may be subject to environmental noise.
+Magnetic Latitude: 54.53
+Magnetic Longitude: 366.39
+UT of Magnetic Midnight: 4.6333
+Magnetic Declination: -15.50
+Magnetic coordinates obtained by calculation using the CGM online calculator with IGRF 2008 at altitude of 0 km. Magnetic declination obtained using CGM online calculator with IGRF 2007.
+</Description>
+      <Acknowledgement>We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically:S. Mende and C. T. Russell for use of the GMAG data</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Stephen.B.Mende</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>THEMIS Ground Magnetometer Data Center at UCLA</Name>
+        <URL>http://spc.igpp.ucla.edu/uclamag/themis_center/</URL>
+        <Description>Web server for displaying and downloading THEMIS ground magnetometer data</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>THEMIS Web Site</Name>
+        <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+        <Description>Description of GMAGS on THEMIS web site.</Description>
+      </InformationURL>
+      <PriorID>spase://VMO/Observatory/THEMIS/Ground-EPO/DRBY</PriorID>
+      <PriorID>spase://SMWG/Observatory/THEMIS-Ground/UCLA-EPO/DRBY</PriorID>
+    </ResourceHeader>
+    <ObservatoryGroup>THEMIS-UCLA-EPO</ObservatoryGroup>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>WGS84</CoordinateSystemName>
+      <Latitude>44.95</Latitude>
+      <Longitude>-72.13</Longitude>
+    </Location>
+  </Observatory>
+</Spase>
