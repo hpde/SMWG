@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>THEMIS-E Digital Fields Board, Filter Bank</ResourceName>
       <AlternateName>THEMIS-E FBK</AlternateName>
-      <ReleaseDate>2008-11-11T22:34:11Z</ReleaseDate>
+      <ReleaseDate>2008-12-05T02:24:47Z</ReleaseDate>
       <Description>The Filter Bank is part of the Digital fields board and provides band-pass filtering for EFI and SCM spectra as well as E12HF peak and average values.  The Filter Bank provides band-pass filtering for less computationally and power intensive spectra than the FFT would provide.  The process is as follows:  Signals are fed to the Filter Bank via a low-pass FIR filter with a cut-off frequency half that of the original signal maximum.  The output is passed to the band-pass filters, is differenced from the original signal, then absolute value of the data is taken and averaged.  The output from the first low-pass filter is also sent to a second FIR filter with 2:1 decimation.  This output is then fed back through the system.  The cascade runs 12 cycles for input at 8,192 samples/s and 13 for input at 16,384 samples/sec (EAC input only), reducing the signal (and computing power) by a factor 2 at each cascade.  At each cascade a set of data is produced at a sampling frequency of 2^n from 2 Hz to the initial sampling frequency (frequency characteristics for each step are shown below in Table 1).  The average from the Filter Bank is compressed to 8 bits with a pseudo-logarithmic encoder.  Analog signals sent to the FBK are E12DC and SCM1. The average of the coupled E12HF signal and it's peak value are recorded over 62.5 ms windows (i.e. a 16 Hz sampling rate).  Accumulation of values from signal 31.25 ms windows is performed externally.  Sensor and electronics design provided by UCB (J. W. Bonnell, F. S. Mozer), Digital Fields Board provided by LASP (R. Ergun), Search coil data provided by CETP (A. Roux).</Description>
       <Acknowledgement>NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically: J. W. Bonnell and F. S. Mozer  Bob Ergun, and Alain Roux.</Acknowledgement>
       <!--Vassilis Angelopoulos -->
@@ -36,7 +36,7 @@
       </Contact>
       <InformationURL>
         <Name>THEMIS-E Spacecraft</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2007-004E&amp;ex=1</URL>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/masterCatalog.do?sc=2007-004E</URL>
         <Description>Spacecraft description from NSSDC database</Description>
       </InformationURL>
       <InformationURL>

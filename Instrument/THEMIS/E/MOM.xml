@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <Instrument>
@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>THEMIS-E:  On Board moments:  ESA and SST Electron/Ion moments density, flux, velocity, pressure and temperature.</ResourceName>
       <AlternateName>THEMIS-E MOM</AlternateName>
-      <ReleaseDate>2008-07-17T20:37:36Z</ReleaseDate>
+      <ReleaseDate>2008-12-05T02:27:35Z</ReleaseDate>
       <Description>THEMIS-E: The On Board Moments (MOM) system, part of the Instrument Data Processing Unit (IDPU), is used for on board calculations of electron and ion moments from a combination of ESA and SST data.  On board data outputs include number density, number and energy flux, and a six component symetric momentum flux tensor.  Total pressure, velocity, plasma temperature, and momentum flux are calculated on the ground via a combination of the other partial moments.  Velocity is calculated in DSL, GSE, GSM, and MFA coordinates (coordinate descriptions are listed below in Table 1).  Pressure and temperature are also calculated in MFA coordinates.  All quantities are calculated for both ions and electrons.  Moments data is taken at spin resolution in all ESA survey modes except burst.  The spacecraft potential, as measure by the EFI, is used to correct for spacecraft charging, thereby eliminating contamination from photo-electrons.  Other corrections are made for instrument specific efficiency variations.
 
 Table 1: Coordinate Descriptions.
@@ -17,7 +17,6 @@ Geocentric solar Magnetosphereic (GSM):   X-axis points from Earth to the Sun, t
 Magnetic Field Aligned (MFA):   Z-axis points along magnetic field lines, the Y-axis is the orthonormal cross product of the Z-axis and a vector pointing towards the Sun, and the X-axis completes the right handed system.
 
       </Description>
-
       <Acknowledgement>NASA contract NAS5-02099, V. Angelopoulos for use of data from the THEMIS Mission, C.W. Carlson, and J. McFadden.</Acknowledgement>
       <Contact>
         <!--Vassilis Angelopoulos -->
@@ -36,18 +35,18 @@ Magnetic Field Aligned (MFA):   Z-axis points along magnetic field lines, the Y-
       </Contact>
       <InformationURL>
         <Name>THEMIS-E Spacecraft</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2007-004E</URL>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/masterCatalog.do?sc=2007-004E</URL>
         <Description>Spacecraft description from NSSDC database</Description>
       </InformationURL>
       <InformationURL>
-	<Name>THEMIS-E Electrostatic Analyzer</Name>
-	<URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2007-004E-02</URL>
-	<Description>Instrument (ESA) description from NSSDC database.</Description>
+        <Name>THEMIS-E Electrostatic Analyzer</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2007-004E-02</URL>
+        <Description>Instrument (ESA) description from NSSDC database.</Description>
       </InformationURL>
       <InformationURL>
-	<Name>THEMIS-E Solid-State Telescope</Name>
-	<URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2007-004E-03</URL>
-	<Description>Instrument (SST) description from NSSDC database.</Description>
+        <Name>THEMIS-E Solid-State Telescope</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2007-004E-03</URL>
+        <Description>Instrument (SST) description from NSSDC database.</Description>
       </InformationURL>
     </ResourceHeader>
     <InstrumentType>Unspecified</InstrumentType>
