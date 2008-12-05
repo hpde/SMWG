@@ -1,17 +1,19 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-GBO/TPAS</ResourceID>
     <ResourceHeader>
-      <ResourceName>NASA THEMIS GBO Flin Flon Station</ResourceName>
+      <ResourceName>NASA THEMIS GBO The Pas Station</ResourceName>
       <AlternateName>TPAS</AlternateName>
-      <ReleaseDate>2008-11-11T22:24:55Z</ReleaseDate>
-      <Description>Flin Flon (TPAS) Magnetometer Station is located in Flin Flon, MB, Canada.  TPAS is part of the UCLA GBO Network.
+      <ReleaseDate>2008-12-05T20:42:15Z</ReleaseDate>
+      <Description>The Pas (TPAS) station is located in The Pas, MB, Canada. TPAS is part of the UCLA GBO Network.
+      
 				Magnetic Latitude: 63.27
 				Magnetic Longitude: 323.80
 				UT of Magnetic Midnight: 7.0833
 				Magnetic Declination: 7.30
+				
 				Magnetic coordinates obtained by calculation using the CGM online calculator with IGRF 2008 at altitude of 0 km. Magnetic declination obtained using CGM online calculator with IGRF 2007
 </Description>
       <Acknowledgement>We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically:S. Mende and C. T. Russell for use of the GMAG data</Acknowledgement>
