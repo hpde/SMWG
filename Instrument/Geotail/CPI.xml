@@ -5,15 +5,16 @@
     <ResourceID>spase://SMWG/Instrument/Geotail/CPI</ResourceID>
     <ResourceHeader>
       <ResourceName>Geotail CPI</ResourceName>
-      <ReleaseDate>2008-12-02T22:58:39Z</ReleaseDate>
-      <Description>The objective of this investigation is to make comprehensive observations of the three-dimensional velocity distribution functions of electrons and positive ions, with identification of ion species. The instrument contains three sets of quadrispherical analyzers with channel electron multipliers. These three obtain three-dimensional measurements for hot plasma and solar wind electrons, for solar wind ions, and for positive-ion composition measurements. The positive-ion composition measurement includes five miniature imaging mass spectrometers at the exit aperture of the analyzer, and covers masses from 1 to 550 u/Q at 100 eV, and 1 to 55 u/Q at 10 keV. The hot plasma analyzer measures electrons and ions in the range 1-50,000 eV/Q. The solar wind analyzer measures ions from 150 to 7,000 eV/Q. Sequencing of the energy analyzers and mass spectrometers, and other control functions, are provided by two microprocessors.</Description>
+      <AlternateName>Geotail Comprehensive Plasma Instrumentation</AlternateName>
+      <ReleaseDate>2008-12-04T22:16:53Z</ReleaseDate>
+      <Description>The objective of the Comprehensive Plasma Instrumentation (CPI) investigation is to make comprehensive observations of the three-dimensional velocity distribution functions of electrons and positive ions, with identification of ion species. The instrument contains three sets of quadrispherical analyzers with channel electron multipliers. These three obtain three-dimensional measurements for hot plasma and solar wind electrons, for solar wind ions, and for positive-ion composition measurements. The positive-ion composition measurement of the Ion Composition (IC) analyzer includes five miniature imaging mass spectrometers at the exit aperture of the analyzer, and covers masses from 1 to 550 u/Q at 100 eV, and 1 to 55 u/Q at 10 keV. The Hot Plasma (HP) analyzer measures electrons and ions in the range 1-50,000 eV/Q. The Solar Wind (SW) analyzer measures ions from 150 to 7,000 eV/Q. Sequencing of the energy analyzers and mass spectrometers, and other control functions, are provided by two microprocessors.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Louis.A.Frank</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1992-044A&amp;ex=4</URL>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1992-044A-04</URL>
         <Description>Information about the Comprehensive Plasma Instrument (CPI)</Description>
       </InformationURL>
       <PriorID>spase://nssdc/instrument/1992-044A-04</PriorID>
