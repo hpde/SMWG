@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/THEMIS-B/MOM</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/THEMIS/B/MOM</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS-B:  On Board moments:  ESA and SST Electron/Ion moments density, flux, velocity, pressure and temperature.</ResourceName>
       <AlternateName>THEMIS-B MOM</AlternateName>
-      <ReleaseDate>2008-12-05T02:26:43Z</ReleaseDate>
+      <ReleaseDate>2008-12-05T02:46:37Z</ReleaseDate>
       <Description>THEMIS-B: The On Board Moments (MOM) system, part of the Instrument Data Processing Unit (IDPU), is used for on board calculations of electron and ion moments from a combination of ESA and SST data.  On board data outputs include number density, number and energy flux, and a six component symetric momentum flux tensor.  Total pressure, velocity, plasma temperature, and momentum flux are calculated on the ground via a combination of the other partial moments.  Velocity is calculated in DSL, GSE, GSM, and MFA coordinates (coordinate descriptions are listed below in Table 1).  Pressure and temperature are also calculated in MFA coordinates.  All quantities are calculated for both ions and electrons.  Moments data is taken at spin resolution in all ESA survey modes except burst.  The spacecraft potential, as measure by the EFI, is used to correct for spacecraft charging, thereby eliminating contamination from photo-electrons.  Other corrections are made for instrument specific efficiency variations.
 
 Table 1: Coordinate Descriptions.
@@ -55,7 +55,7 @@ Magnetic Field Aligned (MFA):   Z-axis points along magnetic field lines, the Y-
     <!--SST-->
     <InstrumentType>ParticleDetector</InstrumentType>
     <InvestigationName>THEMIS On Board Moments</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/THEMIS-B</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/THEMIS/B</ObservatoryID>
     <Caveats>Due to bit errors and data misdirection, ESA data (including moments) before April 27, 2007 should be considered dubious.  Other data loss and formatting errors in the moments calculations and ETC were not corrected until Aug. 6, 2007.  Potential data from the EFI was not properly included in calculations between Nov. 18-22, 2007.  EFI  booms on THEMIS-B were not deployed until Nov. 17, 2008, 06:00:00 UT.  Moments data before this date is suspect to error due to photoelectrons and spacecraft charging.</Caveats>
   </Instrument>
 </Spase>
