@@ -48,6 +48,11 @@ ASI/GBO: S. Mende and E. Donovan for use of the ASI data, and the CSA for logist
         <URL>http://bluebird.phys.ualberta.ca/carisma/</URL>
         <Description>Access to information about the CARISMA magnetometer array.</Description>
       </InformationURL>
+      <InformationURL>
+	<Name>THEMIS Ground Based Observatory System Design</Name>
+	<URL>http://www.igpp.ucla.edu/public/THEMIS/SCI/Pubs/2007_Refereed/harris_ssr_2007_gbo_sys_design_published.pdf</URL>
+	<Description>Harris et al., Nov. 2007; In depth description of GBO design.</Description>
+      </InformationURL>
       <PriorID>spase://SMWG/Observatory/THEMIS-Ground/CANMAG/PINA</PriorID>
     </ResourceHeader>
     <ObservatoryGroup>THEMIS-CANMAG</ObservatoryGroup>
