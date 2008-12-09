@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
-  <Version>1.3.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_2.xsd">
+  <Version>1.3.2</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-GBO/YKNF</ResourceID>
     <ResourceHeader>
       <ResourceName>NASA THEMIS GBO Yellow Knife Station</ResourceName>
       <AlternateName>YKNF</AlternateName>
-      <ReleaseDate>2008-12-05T20:37:18Z</ReleaseDate>
+      <ReleaseDate>2008-12-09T22:08:10Z</ReleaseDate>
       <Description>Yellowknife (YKNF) station is located in Yellowknife, NT, Canada. YKNF is part of the UCLA GBO Network.
 		Magnetic Latitude: 69.37
 		Magnetic Longitude: 302.64
@@ -28,9 +28,9 @@
         <Role>CoInvestigator</Role>
       </Contact>
       <InformationURL>
-	<Name>THEMIS Ground Based Observatory System Design</Name>
-	<URL>http://www.igpp.ucla.edu/public/THEMIS/SCI/Pubs/2007_Refereed/harris_ssr_2007_gbo_sys_design_published.pdf</URL>
-	<Description>Harris et al., Nov. 2007; In depth description of GBO design.</Description>
+        <Name>THEMIS Ground Based Observatory System Design</Name>
+        <URL>http://www.igpp.ucla.edu/public/THEMIS/SCI/Pubs/2007_Refereed/harris_ssr_2007_gbo_sys_design_published.pdf</URL>
+        <Description>Harris et al., Nov. 2007; In depth description of GBO design.</Description>
       </InformationURL>
       <InformationURL>
         <Name>THEMIS Ground Magnetometer Data Center at UCLA</Name>
