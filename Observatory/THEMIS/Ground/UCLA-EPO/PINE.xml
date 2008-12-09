@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
-  <Version>1.3.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_2.xsd">
+  <Version>1.3.2</Version>
   <Observatory>
     <ResourceID>spase://SWMG/Observatory/THEMIS/Ground/UCLA-EPO/PINE</ResourceID>
     <ResourceHeader>
       <ResourceName>NASA THEMIS EPO Pine Ridge Station</ResourceName>
       <AlternateName>PINE</AlternateName>
-      <ReleaseDate>2008-12-05T20:37:18Z</ReleaseDate>
+      <ReleaseDate>2008-12-09T22:08:10Z</ReleaseDate>
       <Description>Pine Ridge (PINE) station is located in Pine Ridge, South Dakota, USA.  This station has an Educational Public Outreach magnetometer operated by UCLA.  EPO magnetometers should be used carefully, as they may be subject to environmental noise.
 Magnetic Latitude: 52.25
 Magnetic Longitude: 323.28

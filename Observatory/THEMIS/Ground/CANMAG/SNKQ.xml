@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
-  <Version>1.3.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_2.xsd">
+  <Version>1.3.2</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/THEMIS/Ground/CANMAG/SNKQ</ResourceID>
     <ResourceHeader>
       <ResourceName>NASA THEMIS GBO Sanikiluaq Station</ResourceName>
       <AlternateName>SNKQ</AlternateName>
       <AlternateName>SNK</AlternateName>
-      <ReleaseDate>2008-11-11T22:24:55Z</ReleaseDate>
+      <ReleaseDate>2008-12-09T22:08:10Z</ReleaseDate>
       <Description>Sanikiluaq (SNKQ) Station is located in Sanikiluaq,Nunavut, Canada.  SNKQ is part of the NRCan Network.
 				Magnetic Latitude: 65.91
 				Magnetic Longitude: 355.85
@@ -48,6 +48,11 @@ ASI/GBO: S. Mende and E. Donovan for use of the ASI data, and the CSA for logist
         <Name>NRCan Observatory Information</Name>
         <URL>http://gsc.nrcan.gc.ca/geomag/obs/index_e.php</URL>
         <Description>Natural Resources Canada's Observatory Information Page</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>THEMIS Ground Based Observatory System Design</Name>
+        <URL>http://www.igpp.ucla.edu/public/THEMIS/SCI/Pubs/2007_Refereed/harris_ssr_2007_gbo_sys_design_published.pdf</URL>
+        <Description>Harris et al., Nov. 2007; In depth description of GBO design.</Description>
       </InformationURL>
       <PriorID>spase://SMWG/Observatory/THEMIS-Ground/CANMAG/SNKQ</PriorID>
     </ResourceHeader>
