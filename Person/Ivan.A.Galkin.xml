@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd"
+ xmlns="http://www.spase-group.org/data/schema">
+    <Version>1.3.0</Version>
+      <Person>
+        <ResourceID>spase://SMWG/Person/Ivan.A.Galkin</ResourceID>
+        <ReleaseDate>2008-12-12T01:05:05Z</ReleaseDate>
+        <PersonName>Dr. Ivan A. Galkin</PersonName>
+        <OrganizationName>University of Massachusetts Lowell, Center for Atmospheric Research</OrganizationName>
+        <Address>600 Suffolk Street, Lowell, MA 01851 U.S.A.></Address>
+        <Email>Ivan_Galkin@uml.edu</Email>
+        <PhoneNumber>978-934-4912</PhoneNumber>
+      </Person>
+</Spase>
