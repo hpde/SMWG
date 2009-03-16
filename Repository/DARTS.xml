@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_4.xsd">
+  <Version>1.3.4</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/DARTS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Data ARchives and Transmission System (DARTS)</ResourceName>
+      <ReleaseDate>2009-03-16T22:47:09Z</ReleaseDate>
+      <Description>Data ARchives and Transmission System (DARTS) is a versatile space science data archive for astrophysics, solar physics, and solar-terrestrial physics. DARTS primarily consists of the data acquired by Japanese scientific satellites and spacecrafts. DARTS is developed and maintained by the Center of Science-satellite Operation and Data Archive (C-SODA) at ISAS/JAXA.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>DARTS at ISAS/JAXA</Name>
+        <URL>http://darts.isas.jaxa.jp/</URL>
+        <Description>DARTS front page.</Description>
+      </InformationURL>
+    </ResourceHeader>
+  </Repository>
+</Spase>
