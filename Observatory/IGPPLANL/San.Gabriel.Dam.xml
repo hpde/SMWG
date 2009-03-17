@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>1.2.2</Version>
+    <Observatory>
+        <ResourceID>spase://SMWG/Observatory/IGPPLANL/San.Gabriel.Dam</ResourceID>
+        <ResourceHeader>
+            <ResourceName>IGPP-LANL San Gabriel Dam Magnetometer</ResourceName>
+            <ReleaseDate>2009-02-22T00:00:00</ReleaseDate>
+            <Description>San Gabriel Dam (SGD) Magnetometer Station is located in Los Angeles, California, USA.</Description>
+            <Acknowledgement>The SGD magnetometer is operated by UCLA.</Acknowledgement>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Peter.J.Chi</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name>UCLA Ground Magnetometer Data Center</Name>
+                <URL>http://spc.igpp.ucla.edu/uclamag</URL>
+                <Description>Information about the IGPP-LANL magnetometer array.</Description>
+            </InformationURL>
+            <AssociationID>spase://SMWG/Observatory/IGPPLANL</AssociationID>
+        </ResourceHeader>
+        <Location>
+            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+            <CoordinateSystemName>WGS84</CoordinateSystemName>
+            <Latitude>34.2</Latitude>
+            <Longitude>-117.85</Longitude>
+        </Location>
+    </Observatory>
+</Spase>

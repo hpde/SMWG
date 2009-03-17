@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>1.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/IGPPLANL/Cambridge/Magnetometer</ResourceID>
+        <ResourceHeader>
+            <ResourceName>IGPP-LANL Cambridge Fluxgate Magnetometer</ResourceName>
+            <ReleaseDate>2009-02-22T00:00:00</ReleaseDate>
+            <Description>The magnetometer at the IGPP-LANL Cambridge station</Description>
+            <Acknowledgement>The operation of the Cambridge fluxgate magnetometer is managed by NOAA Space Environment Center.</Acknowledgement>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Peter.J.Chi</PersonID>
+                <Role>ProjectScientist</Role>
+            </Contact>
+            <InformationURL>
+                <Name>UCLA Ground Magnetometer Data Center</Name>
+                <URL>http://spc.igpp.ucla.edu/uclamag</URL>
+                <Description>Online Information and data for IGPP-LANL Magnetometer Array</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>Magnetometer</InstrumentType>
+        <InvestigationName>IGPP-LANL Magnetometer Array</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/IGPPLANL/Cambridge</ObservatoryID>
+    </Instrument>
+</Spase>
