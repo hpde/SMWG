@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>1.2.2</Version>
+    <Observatory>
+        <ResourceID>spase://SMWG/Observatory/McMAC/Americus</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Mid-continent Magnetoseismic Chain (McMAC) Americus Station</ResourceName>
+            <ReleaseDate>2009-03-09T00:00:00</ReleaseDate>
+            <Description>Americus (AMER) Magnetometer Station is located in Americus, Kansas, USA.  It is one of the nine magnetometers of the Mid-continent MAgnetoseismic Chain (McMAC).</Description>
+            <Acknowledgement>The operation of the Americus fluxgate magnetometer is managed by Emporia State University.</Acknowledgement>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Peter.J.Chi</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <InformationURL>
+                <Name>McMAC Americus Station</Name>
+                <URL>http://spc.igpp.ucla.edu/mcmac/stations/mcmac/americus.html</URL>
+                <Description>Information about the McMAC Americus Ground Magnetometer Station</Description>
+            </InformationURL>
+            <AssociationID>spase://SMWG/Observatory/McMAC</AssociationID>
+        </ResourceHeader>
+        <Location>
+            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+            <CoordinateSystemName>WGS84</CoordinateSystemName>
+            <Latitude>38.4951</Latitude>
+            <Longitude>-96.3358</Longitude>
+            <Elevation>364.3546</Elevation>
+        </Location>
+    </Observatory>
+</Spase>

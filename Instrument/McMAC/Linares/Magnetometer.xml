@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>1.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/McMAC/Linares/Magnetometer</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Linares (LRES) Fluxgate Magnetometer</ResourceName>
+            <ReleaseDate>2009-03-09T00:00:00</ReleaseDate>
+            <Description>The magnetometer at the McMAC Linares station</Description>
+            <Acknowledgement>The operation of the Linares fluxgate magnetometer is managed by Universidad Autonoma de Nuevo Leon and UNAM-Juriquilla.</Acknowledgement>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Peter.J.Chi</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <InformationURL>
+                <Name>Information web site concerning McMAC Linares (LRES) Ground Magnetic Field Data</Name>
+                <URL>http://spc.igpp.ucla.edu/mcmac/stations/mcmac/linares.html</URL>
+                <Description>Information about the McMAC Linares Ground Magnetometer Station</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>Magnetometer</InstrumentType>
+        <InvestigationName>Mid-continent Magnetoseismic Chain (McMAC)</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/McMAC/Linares</ObservatoryID>
+    </Instrument>
+</Spase>

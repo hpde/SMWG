@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>1.2.2</Version>
+    <Observatory>
+        <ResourceID>spase://SMWG/Observatory/McMAC</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Mid-continent Magnetoseismic Chain (McMAC)</ResourceName>
+            <ReleaseDate>2009-03-09T00:00:00</ReleaseDate>
+            <Description>The Mid-continent Magnetoseismic Chain (McMAC) has nine stations in the United States and Mexico.</Description>
+            <Acknowledgement>The project is funded by the National Science Foundation (NSF).</Acknowledgement>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Peter.J.Chi</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <InformationURL>
+                <Name>Mid-continent Magnetoseismic Chain (McMAC)</Name>
+                <URL>http://spc.igpp.ucla.edu/mcmac</URL>
+                <Description>Information about the Mid-continent Magnetoseismic Chain (McMAC)</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <Location>
+            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+        </Location>
+    </Observatory>
+</Spase>
