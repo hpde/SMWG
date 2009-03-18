@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_4.xsd">
+  <Version>1.3.4</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Geotail/LEP</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Geotail Low Energy Particle Experiment</ResourceName>
+      <AlternateName>Geotail LEP</AlternateName>
+      <ReleaseDate>2009-03-18T19:51:57Z</ReleaseDate>
+      <Description>The low energy particle (LEP) instrument onboard Geotail is designed to make comprehensive observations of plasma and energetic electrons and ions with fine temporal resolution in the terrestrial magnetosphere (mainly magnetotail) and in the interplanetary medium. It consists of three units of sensors (LEP-EA, LEP-SW and LEP-MS) and common electronics (LEP-E).
+      
+      The Energy-per-charge Analyzers (EA) measure three-dimensional velocity distributions of electrons (with EA-e) and ions (with EA-i) simultaneously and separately, over the energy-per-charge of several eV/q to 43 keV/q. Emphasis in the EA design is laid on the large geometrical factor to measure tenuous plasma in the magnetotail with sufficient counting statistics in the high-time-resolution measurement.
+      
+      On the other hand, the Solar Wind ion analyzer (SW) has smaller geometrical factor, but fine angular and energy resolutions, to measrue energy-per-charge spectra of the solar wind ions. In both EA and SW sensors, the complete three-dimensional velocity distributions can only be obtained in a period of four spins, while the velocity moments up to the third order are calculated onboard every spin period (nominally, 3 sec).
+      
+      The energetic-ion Mass Spectrometer (MS) can provide three-dimensional determinations of the ion composition.</Description>
+      <Acknowledgement>In any publications, the use of the Geotail LEP data should be acknowledged, for example, as "Geotail magnetic field data were provided by Y. Saito, JAXA in Japan."</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Yoshifumi.Saito</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Donald.H.Fairfield</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The Geotail Low Energy Particle Experiment (LEP)</Name>
+        <URL>http://www.darts.isas.ac.jp/stp/geotail/jgg_lep.pdf</URL>
+        <Description>Reprint of Mukai, T., S. Machida, Y. Saito, M. Hirahara, T. Terasawa, N. Kaya, T. Obara, M. Ejiri, and A. Nishida, The low energy particle (LEP) experiment onboard the Geotail satellite, J. Geomag. Geoelectr., 46, 669-692, 1994.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>QuadrisphericalAnalyser</InstrumentType>
+    <InstrumentType>MassSpectrometer</InstrumentType>
+    <InvestigationName>Geotail Low Energy Particle experiment</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Geotail</ObservatoryID>
+  </Instrument>
+</Spase>
