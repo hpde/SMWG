@@ -1,26 +1,54 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_4.xsd">
+  <Version>1.3.4</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Prognoz9</ResourceID>
     <ResourceHeader>
       <ResourceName>Prognoz 9</ResourceName>
       <AlternateName>1983-067A</AlternateName>
-      <ReleaseDate>2008-06-18T05:14:13Z</ReleaseDate>
-      <Description>This spacecraft was one of a continuing series to measure electromagnetic radiation, magnetic fields, plasma, and charged particles. Although the specifics on all experiments are not available, it is known that a hard X-ray spectrometer, a magnetic field measuring experiment, and an 8-mm radio telescope were flown on Prognoz 9, and possibly a plasma experiment was also on board. The spacecraft was spin-stabilized, with a period of approximately two minutes, and the spin axis was oriented toward the sun. The initial apogee distance was 720,000 km, and the period was 27 days.</Description>
+      <AlternateName>Relict</AlternateName>
+      <ReleaseDate>2009-03-23T22:17:10Z</ReleaseDate>
+      <Description>This spacecraft was one of a continuing Prognoz series to measure electromagnetic radiation, magnetic fields, plasma, and charged particles. Although the specifics on all experiments are not available, it is known that a hard X-ray spectrometer, a magnetic field measuring experiment, and an 8-mm radio telescope were flown on Prognoz 9, and possibly a plasma experiment was also on board. The spacecraft was spin-stabilized, with a period of approximately two minutes, and the spin axis was oriented toward the sun. The initial apogee distance was 720,000 km, and the period was 27 days.
+      
+      Launch Date: 1983-07-01 at 12:14:00 UTC
+      
+      Orbital parameters:
+      
+      +----------------------------------------------------------------------------------------+
+      | Periapsis  |  Apoapsis       |  Period              |  Inclination      |  Eccentricity  |
+      |-----------------------------------------------------------------------------------------|
+      | 380.0 km  | 720000.0 km | 38448.0 minutes |             65.5° |      0.981551 |
+      +----------------------------------------------------------------------------------------+
+      
+      Prognoz is the name of the once soviet Earth research artificial satellites (ISZ for Russian) meant to study processes of solar activity, their influence on interplanetary environment and the Earth magnetosphere.
+
+The mass of the ISZ Prognoz is 850-900 kg. Prognoz consists of the hermetically sealed cylinder-shaped mainframe (of 2 m diameter) with spherical bottoms. Inside the mainframe (of the 0,925 m height) the platform with instrumentation and equipment is located. The sensors and units of the scientific instrumentation as well as cylinders (containers, envelopes) etc. are installed on the outside surface of the mainframe. During flight Prognoz is sun-oriented with its lengthwise axis. This specified position is provided by the system of orientation and maintained by rotation around the longitudinal axis. The system of orientation includes the solar sensor, control units and controlling reactive nozzles operating on the compressed nitrogen.
+
+Power supply of the board instrumentation is provided by solar batteries (4 plane panels unfolding when taken to the orbit; with the 6 m span) and floating battery. The system of temperature control is active; the side surface of the hermetically sealed body is used as a radiation surface; the rest of the mainframe is protected by the shield-vacuum thermal insulation. The board radio complex ensures the receipt of radio commands from the Earth, measurement of the orbit parameters and transmission of telemetric information. The telemetric system is equipped with the memory facility for registering information between radio sessions and for subsequent its transmission to the Earth during another communication session.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Albert.A.Galeev</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1983-067A</URL>
-        <Description>Information about the Prognoz  9 mission</Description>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1983-067A</URL>
+        <Description>Information about the Prognoz 9 mission</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Prognoz spacecraft mission overview</Name>
+        <URL>http://arc.iki.rssi.ru/history/prognoz.html</URL>
+        <Description>Historical mission overview of Prognoz missions at IKI website</Description>
       </InformationURL>
     </ResourceHeader>
     <ObservatoryGroup>PROGNOZ</ObservatoryGroup>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
     </Location>
   </Observatory>
 </Spase>
