@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_4.xsd">
+  <Version>1.3.4</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Iku.Shinohara</ResourceID>
+    <ReleaseDate>2009-03-23T19:02:44Z</ReleaseDate>
+    <PersonName>Dr. Iku Shinohara</PersonName>
+    <OrganizationName>Institute of Space and Astronautical Science, Japan Aerospace Exploration Agency</OrganizationName>
+    <Address>3-1-1 Yoshinodai, Sagamihara, Kanagawa 229-8510, Japan</Address>
+    <Email>iku@stp.isas.jaxa.jp</Email>
+    <FaxNumber>+81-42-759-8353</FaxNumber>
+  </Person>
+</Spase>
