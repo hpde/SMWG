@@ -1,26 +1,63 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_4.xsd">
+  <Version>1.3.4</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Prognoz7</ResourceID>
     <ResourceHeader>
       <ResourceName>Prognoz 7</ResourceName>
       <AlternateName>1978-101A</AlternateName>
-      <ReleaseDate>2008-06-18T05:11:07Z</ReleaseDate>
-      <Description>This spacecraft was a member of a continuing series measuring charged particles, plasma, magnetic fields, and solar electromagnetic radiation. This mission was part of the socialist countries' contribution to the International Magnetospheric Study. The specific scientific goals of this mission were: (1) to study solar UV, X-ray, and gamma-ray emissions; (2) to monitor electrons and protons in interplanetary space and the magnetosphere; (3) to investigate the nuclear composition of solar and galactic cosmic rays; (4) to measure magnetic fields; (5) to search for discrete gamma-ray lines from the sun and space; (6) to analyze UV radiation for possible excess in the galactic plane; and (7) to analyze heavy high-energy ions in the magnetosphere. The spacecraft was spin-stabilized, with the spin axis along the spacecraft Z axis and pointed toward the sun (to within 10 deg). The spin period was approximately 120 s. The spacecraft orbit inclination was approximately 80 deg, the apogee was 203,000 km, and the period was approximately 98 h.</Description>
+      <ReleaseDate>2009-03-24T15:30:34Z</ReleaseDate>
+      <Description>This spacecraft was a member of a continuing series measuring charged particles, plasma, magnetic fields, and solar electromagnetic radiation. This mission was part of the socialist countries' contribution to the International Magnetospheric Study. The specific scientific goals of this mission were:
+      
+      * (1) to study solar UV, X-ray, and gamma-ray emissions;
+      * (2) to monitor electrons and protons in interplanetary space and the magnetosphere;
+      * (3) to investigate the nuclear composition of solar and galactic cosmic rays;
+      * (4) to measure magnetic fields;
+      * (5) to search for discrete gamma-ray lines from the sun and space;
+      * (6) to analyze UV radiation for possible excess in the galactic plane; and
+      * (7) to analyze heavy high-energy ions in the magnetosphere.
+      
+      The spacecraft was spin-stabilized, with the spin axis along the spacecraft Z axis and pointed toward the sun (to within 10 deg). The spin period was approximately 120 s.
+      
+      Launch Date: 1978-10-30 at 00:23:00 UTC
+      
+      Orbital parameters:
+      
+      +----------------------------------------------------------------------------------------+
+      | Periapsis  |  Apoapsis       |  Period              |  Inclination      |  Eccentricity  |
+      |-----------------------------------------------------------------------------------------|
+      | 483.0 km  | 202965.0 km | 5889.0 minutes |             65.0° |      0.936489  |
+      +----------------------------------------------------------------------------------------+
+      
+      Prognoz is the name of the once soviet Earth research artificial satellites (ISZ for Russian) meant to study processes of solar activity, their influence on interplanetary environment and the Earth magnetosphere.
+
+The mass of the ISZ Prognoz 7 was 915 kg. Prognoz consists of the hermetically sealed cylinder-shaped mainframe (of 2 m diameter) with spherical bottoms. Inside the mainframe (of the 0,925 m height) the platform with instrumentation and equipment is located. The sensors and units of the scientific instrumentation as well as cylinders (containers, envelopes) etc. are installed on the outside surface of the mainframe. During flight Prognoz is sun-oriented with its lengthwise axis. This specified position is provided by the system of orientation and maintained by rotation around the longitudinal axis. The system of orientation includes the solar sensor, control units and controlling reactive nozzles operating on the compressed nitrogen.
+
+Power supply of the board instrumentation is provided by solar batteries (4 plane panels unfolding when taken to the orbit; with the 6 m span) and floating battery. The system of temperature control is active; the side surface of the hermetically sealed body is used as a radiation surface; the rest of the mainframe is protected by the shield-vacuum thermal insulation. The board radio complex ensures the receipt of radio commands from the Earth, measurement of the orbit parameters and transmission of telemetric information. The telemetric system is equipped with the memory facility for registering information between radio sessions and for subsequent its transmission to the Earth during another communication session.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Albert.A.Galeev</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1978-101A</URL>
-        <Description>Information about the Prognoz  7 mission</Description>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1978-101A</URL>
+        <Description>Information about the Prognoz 7 mission</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Prognoz spacecraft mission overview</Name>
+        <URL>http://arc.iki.rssi.ru/history/prognoz.html</URL>
+        <Description>Historical mission overview of Prognoz missions at IKI website</Description>
       </InformationURL>
     </ResourceHeader>
     <ObservatoryGroup>PROGNOZ</ObservatoryGroup>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
     </Location>
   </Observatory>
 </Spase>
