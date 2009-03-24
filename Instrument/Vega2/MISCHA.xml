@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_4.xsd">
+  <Version>1.3.4</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Vega2/MISCHA</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Magnetometer</ResourceName>
+      <AlternateName>MISCHA</AlternateName>
+      <AlternateName>Magnetic Fields in Interplanetary Space during Comet Halley's approach</AlternateName>
+      <ReleaseDate>2009-03-24T21:49:36Z</ReleaseDate>
+      <Description>This instrument, MISCHA (Magnetic Fields in Interplanetary Space during Comet Halley's approach), was designed to measure the constant component of the magnetic field and its low-frequency fluctuations in the cometary and solar wind interaction zone and in interplanetary space. The instrument consisted of two fluxgate sensor units mounted 1.5 m apart on a 2-m boom. One unit was oriented along the spacecraft axis, which was perpendicular to the solar panels and pointing toward the sun.</Description>
+      <Acknowledgement>Prof. Willi W. Riedler, Austrian Academy of Sciences, and IZMIRAN.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Willi.W.Riedler</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/N.A.Stjazhkin</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Ye.G.Yeroshenko</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Konrad.Schwingenschuh</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/R.Schmidt</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1984-128A-09</URL>
+        <Description>Information about the Magnetometer experiment on the Vega 2 mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Magnetic Fields in Interplanetary Space during Comet Halley's approach</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Vega2</ObservatoryID>
+  </Instrument>
+</Spase>
