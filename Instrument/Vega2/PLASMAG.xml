@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_4.xsd">
+  <Version>1.3.4</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Vega2/PLASMAG</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Plasma Energy Analyzer</ResourceName>
+      <AlternateName>PLASMAG</AlternateName>
+      <ReleaseDate>2009-03-25T20:41:52Z</ReleaseDate>
+      <Description>This instrument (Plazmag) was designed to answer four main questions:
+      
+      * (1) How do the solar wind parameters change as the comet is approached?
+      * (2) Does a near-cometary shock exist in the solar wind, and, if so, where is it and how do the plasma parameters change across it?
+      * (3) Where is the "contact surface" (the cometary ionosphere boundary) and what are the number density and chemical composition of the ions in the cometary ionosphere?
+      * (4) What is the chemical composition of the ions produced by photoionization of cometary neutral particles outside the contact discontinuity and even outside the bow shock and picked up by the solar wind?
+      
+      The instrument was composed of five detectors.
+      
+      * (1) An ion spectrometer consisting of a hemispherical electrostatic energy analyzer with a quadrupole electrostatic lens at the aperture was pointed towards the sun, to measure solar wind ions at 30 energy levels logarithmically spaced between 50 eV and 25 keV. Energy resolution was 4%. The field of view was approximately a cone with a half-angle of 25 deg, and the flux range of the detector was from 5E4 to 5E9/(sq cm-s).
+      * (2) A similar ion spectrometer was oriented along the spacecraft-comet relative velocity vector and covered the energy range from 15 eV to 3.5 keV at 120 levels. Energy resolution was 4%. The field of view was approximately a cone with a half-angle of 6 deg. If the thermal velocities of the cometary ions were considerably lower than the encounter velocity, a mass spectrum in the range 1 to 100 u could be obtained. Mass resolution was 4%. The ion density measurements covered the range 1E-3 to 1E5/cc. In this detector the sensitivity could be decreased by a factor of 1000, and this was done for one full spectrum (1 s) every 4 s.
+      * (3) An electron detector with a cylindrical electrostatic analyzer was oriented with its aperture normal to the spacecraft-sun line and measured electrons in the energy range 3 to 5000 eV with energy resolution of 5%. The angular aperture was approximately + and -5 deg. This was used both for the measurement of solar wind electrons ahead of and behind the near-cometary shock and for the measurement of energetic electrons inside the cometary ionosphere. To determine the degree of degradation of the channeltron, a separate analyzer (with a tritium isotope particle source) using the same channeltron was operated for a short time once per day. To provide a larger dynamic range of measurements, an additional regime of measurements with sensitivity reduced by a factor of 100 was introduced for 0.5 s duration every 4 s, for the measurements of energies up to 30 eV.
+      * (4) An integral plane multigrid retarding potential analyzer (RPA) was directed toward the sun. A short honeycomb in front of the aperture protected it against impacting dust particles, and the field of view was + and -45 deg.
+      * (5) A similar RPA looked along the relative velocity vector, with a field of view of + and -8 deg. This RPA had no honeycomb, but the grids were replaced by relatively thick diaphragms with holes. This detector could be operated in four modes:
+      - (a) total ion flux was counted, including cometary ions, local environment, and background;
+      - (b) the same, but with ions of the local plasma environment retarded;
+      - (c) background only; and
+      - (d) the negative suppressor grid potential was replaced by positive 40 V, so that the collector current was due mainly to secondary electrons from the collector produced by cometary neutrals and dust particles.
+      
+      Detectors (1) through (3) yielded one spectrum per second, while the RPAs yielded eight current measurements per second. This was true for the encounter mode (3 h). Beginning 48 h before the encounter mode, the measurements were slower and sensitivities greater by a factor of 150. In the third mode, used during cruise, only the electron analyzer and the ion sensors pointed toward the sun were operated, and two spectra were measured by each spectrometer during 10 s every 20 min.
+</Description>
+      <Acknowledgement>Prof. Konstantin I. Gringauz and Soviet Academy of Sciences.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Konstantin.I.Gringauz</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/G.A.Skuridin</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Ehrhard.Keppler</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Arne.K.Richter</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Antal.J.Somogyi</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Istvan.Apathy</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Tamas.I.Gombosi</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Istvan.Szemerey</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/L.Szabo</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/I.N.Klimenko</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/G.I.Volkov</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Mikhail.I.Verigin</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/G.A.Vladimirova</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/L.I.Denshchikova</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/S.Szendro</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/A.P.Remizov</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1984-128A-07</URL>
+        <Description>Information about the PLASMAG experiment on the Vega 2 mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>ElectrostaticAnalyser</InstrumentType>
+    <InstrumentType>RetardingPotentialAnalyser</InstrumentType>
+    <InvestigationName>Vega Mission Plasma Energy Analyzer</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Vega2</ObservatoryID>
+  </Instrument>
+</Spase>
