@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Plasma Energy Analyzer</ResourceName>
       <AlternateName>PLASMAG</AlternateName>
-      <ReleaseDate>2009-03-25T20:41:52Z</ReleaseDate>
+      <ReleaseDate>2009-03-25T20:56:30Z</ReleaseDate>
       <Description>This instrument (Plazmag) was designed to answer four main questions:
       
       * (1) How do the solar wind parameters change as the comet is approached?
@@ -27,6 +27,10 @@
       - (d) the negative suppressor grid potential was replaced by positive 40 V, so that the collector current was due mainly to secondary electrons from the collector produced by cometary neutrals and dust particles.
       
       Detectors (1) through (3) yielded one spectrum per second, while the RPAs yielded eight current measurements per second. This was true for the encounter mode (3 h). Beginning 48 h before the encounter mode, the measurements were slower and sensitivities greater by a factor of 150. In the third mode, used during cruise, only the electron analyzer and the ion sensors pointed toward the sun were operated, and two spectra were measured by each spectrometer during 10 s every 20 min.
+      
+      Discussions of this investigation are found in Gringauz et al (Nature,
+v321, p282, 1986), Galeev et al (JGR, v93, p7527, 1988) and references 
+therein.
 </Description>
       <Acknowledgement>Prof. Konstantin I. Gringauz and Soviet Academy of Sciences.</Acknowledgement>
       <Contact>
