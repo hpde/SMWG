@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Helios1/E6</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Cosmic Ray Particles</ResourceName>
+      <ReleaseDate>2009-04-02T00:00:00Z</ReleaseDate>
+      <Description>The objective of the experiment (E6) was to study high-energy, charged, cosmic-ray particles of solar, planetary, and galactic origin in interplanetary space. Protons and alpha particles with energies >1.3 MeV/nucleon, and electrons >0.3 MeV were measured within interplanetary space over the range from 0.3 to 1.0 AU. The instrument, a particle telescope with a 55-deg field of view, consisted of five semiconductor detectors, one sapphire Cerenkov counter, and one scintillation counter, all enclosed by an anticoincidence cylinder. The telescope was calibrated prior to launch using radioactive sources, particle accelerators, and ground-level muons. It measured protons and alpha particles in six channels (1.3-3.3, 3.3-13, 13-27, 27-37, 37-45, and >45 MeV/nucleon) and electrons in five energy channels (0.3-0.8, 0.8-2, 2-3, 3-4, and >4 MeV). For more detail see pp. 253-257 of Raumfahrtforschung, v. 19, n. 5, 1975.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Horst.W.Kunow</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1974-097A&amp;ex=7</URL>
+        <Description>Information about the Cosmic Ray Particle experiment on the Helios-A mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Cosmic Ray Particles Experiment on Helios-A</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Helios1</ObservatoryID>
+  </Instrument>
+</Spase>
