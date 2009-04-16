@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Helios2/E8</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Energetic Electron and Proton Detector</ResourceName>
+      <ReleaseDate>2009-04-14T00:00:00Z</ReleaseDate>
+      <Description>The objective of the experiment (E8) was to study the origin 
+and the distribution mechanism of low-energy electrons and protons. The 
+instrument, a magnetic spectrometer, consisted of six semiconductor detectors 
+with the field of view in the plane of the ecliptic. Species separation was 
+achieved by an inhomogeneous magnetic field oriented perpendicular to the 
+particle path. Four electron and two proton detectors measured electrons 
+from 17 to 835 keV and protons from 21 to 677 keV. The proton measurements 
+were made with a two-detector telescope employing coincidence and anticoincidence 
+logic. Both particle species were measured in 16 energy channels through 
+pulse-height analysis. For further information see pp. 261-263 of 
+Raumfahrtforschung, v. 19, n. 5, 1975.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Erhard.Keppler</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC Data Set Catalog</Name>
+        <URL>ftp://nssdcftp.gsfc.nasa.gov/staging/review_08/all_catalogs/dsc_0488.pdf</URL>
+        <Description>The NSSDC Data Set Catalog contains within itself a PI-generated
+detailed description of the experiment and data handling.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Energetic Electron and Proton Detector on Helios-B</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Helios2</ObservatoryID>
+  </Instrument>
+</Spase>
