@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/NeutronMonitor/Huancayo</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Huancayo Neutron Monitor</ResourceName>
+      <ReleaseDate>2009-04-27T16:52:28Z</ReleaseDate>
+      <Description>The Huancayo Neutron Monitor in Huancayo, Peru</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Clifford.Lopate</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Huancayo Neutron Monitor</Name>
+        <URL>http://ulysses.sr.unh.edu/NeutronMonitor/00HaleakalaHuancayoNorm.html</URL>
+        <Description>Introduction to Haleakala and Huancayo Monitors</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Huancayo</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/NeutronMonitor/Huancayo</ObservatoryID>
+  </Instrument>
+</Spase>

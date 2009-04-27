@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/NeutronMonitor/Climax</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Climax Neutron Monitor</ResourceName>
+      <ReleaseDate>2009-04-27T16:52:28Z</ReleaseDate>
+      <Description>The Climax, Colorado neutron monitor was established in 1950. It resided at 11,400 foot elevation with two sections of six tubes each</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Clifford.Lopate</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Climax Corrections</Name>
+        <URL>http://ulysses.sr.unh.edu/NeutronMonitor/00ClimaxCorr.html</URL>
+        <Description>Climax Neutron Monitor introduction and Data Analysis information</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Climax</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/NeutronMonitor/Climax</ObservatoryID>
+  </Instrument>
+</Spase>
