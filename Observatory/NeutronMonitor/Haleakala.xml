@@ -12,8 +12,12 @@
         <Role>GeneralContact</Role>
       </Contact>
     </ResourceHeader>
+    <ObservatoryGroup>Neutron Monitors</ObservatoryGroup>
     <Location>
-      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion> 
+      <Latitude>20.72</Latitude>
+      <Longitude>203.72</Longitude>
+      <Elevation>3030</Elevation>
     </Location>
   </Observatory>
 </Spase>
