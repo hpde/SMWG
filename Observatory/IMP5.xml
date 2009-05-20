@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/IMP5</ResourceID>
     <ResourceHeader>
@@ -8,7 +8,7 @@
       <AlternateName>1969-053A</AlternateName>
       <AlternateName>IMP-G</AlternateName>
       <AlternateName>Explorer 41</AlternateName>
-      <ReleaseDate>2008-06-18T05:05:44Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
       <Description>Explorer 41 (IMP-G) was a spin-stabilized spacecraft placed into a high-inclination, highly elliptic orbit to measure energetic particles, magnetic fields, and plasma in cislunar space. The line of apsides and the satellite spin vector were within a few degrees of being parallel and normal, respectively, to the ecliptic plane. Initial local time of apogee was about 1300 h. Initial satellite spin rate was 27.5 rpm. The basic telemetry sequence was 20.48 s. The spacecraft functioned very well from launch until it decayed from orbit on December 23, 1972. Data transmission was nearly 100% for the spacecraft life except for the interval from November 15, 1971, to February 1, 1972, when data acquisition was limited to the vicinity of the magnetotail neutral sheet.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Frank.B.McDonald</PersonID>

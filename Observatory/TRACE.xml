@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/TRACE</ResourceID>
     <ResourceHeader>
@@ -10,7 +10,7 @@
       <AlternateName>Small Explorer/TRACE</AlternateName>
       <AlternateName>Transition Region and Coronal Explorer</AlternateName>
       <AlternateName>Explorer 73</AlternateName>
-      <ReleaseDate>2008-06-18T05:23:39Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
       <Description>The Transition Region and Coronal Explorer (TRACE) is a NASA small explorer mission designed to examine the three-dimensional magnetic structures which emerge through the Sun's photosphere (the visible surface of the Sun) and define both the geometry and dynamics of the upper solar atmosphere (the transition region and corona). Its primary science objectives are to: (1) follow the evolution of magnetic field structures from the solar interior to the corona; (2) investigate the mechanisms of the heating of the outer solar atmosphere; and, (3) determine the triggers and onset of solar flares and mass ejections. TRACE is a single-instrument, three-axis stabilized spacecraft. The spacecraft attitude control system (ACS) utilizes three magnetic-torquer coils, a digital sun sensor, six coarse sun sensors, a three-axis magnetometer, four reaction wheels, and three two-axis inertial gyros to maintain pointing. In science mode the spacecraft uses an instrument-provided guide telescope as a fine guidance sensor to provide a pointing accuracy of less than 5 arc-seconds. Power is provided to the spacecraft through the use of four panels of Ga-As solar cells with a total area of 2.0 square-meters. The solar array actually produces power of around 220 W, 85 W of which is used each orbit by the spacecraft and 35 W of which is used by the instrument each orbit. The remaining power is used for operational and decontamination heating of the spacecraft and telescope. A 9 A-hour Ni-Cd battery provides energy during time when the spacecraft is in the Earth's shadow. Communications are provided via a 5 W S-band transponder, providing up to 2.25 Mbps downlink data transmission and 2 kbps uplink. Data are transmitted up to six times daily. Data are stored on-board using a solid-state recorder capable of holding up to 300 MB. The command and data handling system uses a 32-bit 80386/80387 processor.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Alan.M.Title</PersonID>

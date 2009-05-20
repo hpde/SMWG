@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/CRRES</ResourceID>
     <ResourceHeader>
       <ResourceName>CRRES</ResourceName>
       <AlternateName>1990-065A</AlternateName>
       <AlternateName>Combined Release and Radiation Effects Satellite</AlternateName>
-      <ReleaseDate>2008-06-18T05:15:45Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
       <Description>The Combined Release and Radiation Effects Satellite (CRRES) was launched into a geosynchronous transfer orbit (GTO) for a nominal three-year mission to investigate fields, plasmas, and energetic particles inside the Earth's magnetosphere. As part of the CRRES program the SPACERAD (Space Radiation Effects) project, managed by Air Force Geophysics Laboratory, investigated the radiation environment of the inner and outer radiation belts and measured radiation effects on state-of-the-art microelectronics devices. Other magnetospheric, ionospheric, and cosmic ray experiments were included onboard CRRES and supported by NASA or the Office of Naval Research. The chemical release project was managed by NASA/MSFC and utilized the release of chemicals from onboard cannisters at low altitudes near dawn and dusk perigee times and at high altitudes near local midnight. The chemical releases were monitored with optical and radar instrumentation by ground-based observers to measure the bulk properties and movement of the expanding clouds of photo-ionized plasma along field lines after the releases occurred. In order to study the magnetosphere at different local times during the mission, the satellite orbit was designed to precess with respect to the earth-sun line such that the local time at apogee decreased by 2.5 minutes/day from 08:00 (LT) just after launch and returned to this position in nineteen-month cycles. The CRRES spacecraft had the shape of an octagonal prism with solar arrays on the top side. The prism is 1 m high and 3 m between opposite faces. Four of the eight compartments were for the chemical canisters and the other four housed SPACERAD and other experiments. The spacecraft body was spun at 2.2 rpm about a spin axis in the ecliptic plane and kept pointed about 12 degrees ahead of the Sun's apparent motion in celestial coordinates. Pre-launch and in-flight operations were supported by the Space Test and Transportation Program Office of the U.S. Air Force Space Division. Contact with the CRRES spacecraft was lost on October 12, 1991 and was presumed to be due to onboard battery failure.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Susan.Gussenhoven-Shea</PersonID>

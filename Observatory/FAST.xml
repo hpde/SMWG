@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/FAST</ResourceID>
     <ResourceHeader>
@@ -10,7 +10,7 @@
       <AlternateName>Explorer 70</AlternateName>
       <AlternateName>SMEX/FAST</AlternateName>
       <AlternateName>Fast Auroral SnapshoT Explorer</AlternateName>
-      <ReleaseDate>2008-06-18T05:22:07Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
       <Description>The Fast Auroral SnapshoT Explorer (FAST) was successfully launched on 1996-08-21 into its intended orbit. FAST investigates the plasma physics of auroral phenomena at extremely high time and spatial resolution using the full complement of particle and fields instruments. FAST is the second spacecraft (SAMPEX was first) in the Small Explorer (SMEX) program at NASA-GSFC. SMEX was established to provide rapid (3 year development) low cost ($35M development) mission opportunities (1 per year) to the space science community using a single designated Principal Investigator (PI).
 
 In order to capture the auroral phenomena over small time (microseconds) and spatial scales, FAST utilizes high speed data sampling, a large, fast-loading ("burst") memory, and a smart, on-board software to trigger on the appearance of various key phenomena. Using a 1 Gb solid-state memory and a data acquisition rate of 8 Mbs (almost two orders of magnitude faster than previous satellites), FAST produces high-resolution "snapshots" of auroral arcs and other interesting auroral events. FAST flies in a highly eccentric, near-polar orbit precessing nominally one degree per day. Scientific investigations are operate in a campaign mode (about 60 days long) as apogee transitions through the northern auroral zone and in less intense survey mode during the rest of the orbit.

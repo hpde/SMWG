@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/IMP8</ResourceID>
     <ResourceHeader>
@@ -8,7 +8,7 @@
       <AlternateName>IMP-J</AlternateName>
       <AlternateName>Explorer 50</AlternateName>
       <AlternateName>1973-078A</AlternateName>
-      <ReleaseDate>2008-10-15T21:16:35Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
       <Description>IMP 8 (IMP-J or Explorer 50), the last satellite of the IMP series, was a drum-shaped spacecraft, 135.6 cm across and 157.4 cm high, instrumented for interplanetary and magnetotail studies of cosmic rays, energetic solar particles, plasma, and electric and magnetic fields. Its initial orbit was more elliptical than intended, with apogee and perigee distances of about 45 and 25 earth radii. Its eccentricity decreased after launch. Its orbital inclination varied between 0 deg and about 55 deg with a periodicity of several years. The spacecraft spin axis was normal to the ecliptic plane, and the spin rate was 23 rpm. The data telemetry rate was 1600 bps.
       
 The spacecraft was in the solar wind for 7 to 8 days of every 12.5 day orbit. Telemetry coverage was 90% in the early years, but only 60-70% through most of the 1980's and early 1990's. Coverage returned to the 90% range in the mid to late 1990's. 

@@ -1,29 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>1.2.2</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/IGPPLANL/Jicamarca</ResourceID>
-        <ResourceHeader>
-            <ResourceName>IGPP-LANL Jicamarca Magnetometer</ResourceName>
-            <ReleaseDate>2009-02-22T00:00:00</ReleaseDate>
-            <Description>Jicamarca (JIC) Magnetometer Station is located in Jicamarca, Peru.</Description>
-            <Acknowledgement>The JIC magnetometer is operated by Jicamarca Radio Observatory.</Acknowledgement>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Peter.J.Chi</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <InformationURL>
-                <Name>UCLA Ground Magnetometer Data Center</Name>
-                <URL>http://spc.igpp.ucla.edu/uclamag</URL>
-                <Description>Information about the IGPP-LANL magnetometer array.</Description>
-            </InformationURL>
-            <AssociationID>spase://SMWG/Observatory/IGPPLANL</AssociationID>
-        </ResourceHeader>
-        <Location>
-            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-            <CoordinateSystemName>WGS84</CoordinateSystemName>
-            <Latitude>-11.95</Latitude>
-            <Longitude>-76.88</Longitude>
-        </Location>
-    </Observatory>
+  <Version>2.0.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/IGPPLANL/Jicamarca</ResourceID>
+    <ResourceHeader>
+      <ResourceName>IGPP-LANL Jicamarca Magnetometer</ResourceName>
+      <ReleaseDate>2009-05-20T20:06:54Z</ReleaseDate>
+      <Description>Jicamarca (JIC) Magnetometer Station is located in Jicamarca, Peru.</Description>
+      <Acknowledgement>The JIC magnetometer is operated by Jicamarca Radio Observatory.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Peter.J.Chi</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>UCLA Ground Magnetometer Data Center</Name>
+        <URL>http://spc.igpp.ucla.edu/uclamag</URL>
+        <Description>Information about the IGPP-LANL magnetometer array.</Description>
+      </InformationURL>
+      <Association>
+        <AssociationID>spase://SMWG/Observatory/IGPPLANL</AssociationID>
+        <AssociationType>Other</AssociationType>
+      </Association>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>WGS84</CoordinateSystemName>
+      <Latitude>-11.95</Latitude>
+      <Longitude>-76.88</Longitude>
+    </Location>
+  </Observatory>
 </Spase>

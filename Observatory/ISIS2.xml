@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/ISIS2</ResourceID>
     <ResourceHeader>
@@ -8,7 +8,7 @@
       <AlternateName>1971-024A</AlternateName>
       <AlternateName>International Sats for Ionosph Studies</AlternateName>
       <AlternateName>ISIS-B</AlternateName>
-      <ReleaseDate>2008-06-18T05:06:30Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
       <Description>ISIS 2 was an ionospheric observatory instrumented with a sweep- and a fixed-frequency ionosonde, a VLF receiver, energetic and soft particle detectors, an ion mass spectrometer, an electrostatic probe, a retarding potential analyzer, a beacon transmitter, a cosmic noise experiment, and two photometers. Two long crossed-dipole antennas (73 and 18.7 m) were used for the sounding, VLF, and cosmic noise experiments. The spacecraft was spin-stabilized to about 2 rpm after antenna deployment. There were two basic orientation modes for the spacecraft, cartwheel and orbit-aligned. The spacecraft operated approximately the same length of time in each mode, remaining in one mode typically 3 to 5 months. The cartwheel mode with the axis perpendicular to the orbit plane was made available to provide ram and wake data for some experiments for each spin period, rather than for each orbit period. Attitude and spin information was obtained from a three-axis magnetometer and a sun sensor. Control of attitude and spin was possible by means of magnetic torquing. The experiment package also included a programmable tape recorder with a 1-h capacity. For nonrecorded observations, data from satellite and subsatellite regions were telemetered when the spacecraft was in the line of sight of a telemetry station. Telemetry stations were located so that primary data coverage was near the 80-deg-W meridian and near Hawaii, Singapore, Australia, England, France, Norway, India, Japan, Antarctica, New Zealand, and Central Africa. NASA support of the ISIS project was terminated on October 1, 1979. A significant amount of experimental data, however, was acquired after this date by the Canadian project team. ISIS 2 operations were terminated in Canada on March 9, 1984. The Radio Research Laboratories (Tokyo, Japan) then requested and received permission to reactivate ISIS 2. Regular ISIS 2 operations were started from Kashima, Japan, in early August 1984. ISIS 2 was deactivated effective 24, 1990. A data restoration effort began in the late ninties and successfully saved a considerable portion of the high-resolution data before the telemetry tapes were discarted. More information about this effort and access to the data on CDAWeb and nssdcftp can be found at
 
 http://nssdc.gsfc.nasa.gov/space/isis/isis-status.html</Description>

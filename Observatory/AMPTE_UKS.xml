@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/AMPTE_UKS</ResourceID>
     <ResourceHeader>
       <ResourceName>AMPTE/UKS</ResourceName>
       <AlternateName>AMPTE/United Kingdom Subsatellite</AlternateName>
       <AlternateName>UKS</AlternateName>
-      <ReleaseDate>2008-05-20T17:59:52Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
       <Description>The AMPTE (Active Magnetospheric Particle Tracer Explorers) mission was designed to study the access of solar-wind ions to the magnetosphere, the convective-diffusive transport and energization of magnetospheric particles, and the interactions of plasmas in space.
       
 The program consisted of three spacecraft: the CCE, which measured in the magnetosphere the ions released by the IRM; the IRM, which provided multiple ion releases in the solar wind, the magnetosheath, and the magnetotail, with in situ diagnostics of each; and the UKS. The UKS was one spacecraft of the AMPTE (Active Magnetosphere Particle Tracer Experiment) program (along with CCE and IRM) and served as a subsatellite of the IRM spacecraft. Its purpose was to help distinguish between spatial structure and temporal changes in the plasma phenomena initiated by ion releases from the IRM and in the natural magnetospheric environment. Measured quantitie were similar to those of the IRM and include magnetic fields, positive ions, electrons, plasma waves, and modulations in ions and electrons. 

@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Voyager2</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager 2</ResourceName>
       <AlternateName>1977-076A</AlternateName>
       <AlternateName>Mariner Jupiter/Saturn B</AlternateName>
-      <ReleaseDate>2008-06-18T05:09:49Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
       <Description>Voyager 2 was one of a pair of spacecraft launched to explore the planets of the outer solar system and the interplanetary environment. Each Voyager had as its major objectives at each planet to: (1) investigate the circulation, dynamics, structure, and composition of the planet's atmosphere; (2) characterize the morphology, geology, and physical state of the satellites of the planet; (3) provide improved values for the mass, size, and shape of the planet, its satellites, and any rings; and, (4) determine the magnetic field structure and characterize the composition and distribution of energetic trapped particles and plasma therein.
 
 Spacecraft and Subsystems

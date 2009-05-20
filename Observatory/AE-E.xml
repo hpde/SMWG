@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/AE-E</ResourceID>
     <ResourceHeader>
@@ -9,7 +9,7 @@
       <AlternateName>Explorer 55</AlternateName>
       <AlternateName>AE 5</AlternateName>
       <AlternateName>Atmosphere Explorer-E</AlternateName>
-      <ReleaseDate>2008-06-18T05:09:27Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
       <Description>The purpose of the AE-E mission was to investigate the chemical processes and energy transfer mechanisms that control the structure and behavior of the earth's atmosphere and ionosphere in the region of high absorption of solar energy at low and equatorial latitudes. The simultaneous sampling at higher latitudes was carried out by the AE-D spacecraft until its failure on January 29, 1976, and then by AE-C, until it reentered on December 12, 1978. The same type of spacecraft as AE-C was used, and the payload consisted of the same types of instruments except that the low-energy electron and UV nitric oxide experiments were deleted and a backscatter UV spectrometer was added to monitor the ozone content of the atmosphere. The two experiments that were deleted were more appropriate for the high-latitude regions. The perigee swept through more than six full latitude cycles and two local time cycles during the first year after launch when the orbit was elliptical and the perigee height was varied between 130 and 400 km. The circularization of the orbit around 390 km was made on November 20, 1976 and the spacecraft was raised to this height whenever it would decay to about 250 km. AE-E reentered on June 10, 1981. More details can be found in A. Dalgarno et al., Radio Sci., v. 8, n. 4, p. 263, 1973.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Nelson.W.Spencer</PersonID>

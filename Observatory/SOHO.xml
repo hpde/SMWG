@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/SOHO</ResourceID>
     <ResourceHeader>
       <ResourceName>SOHO</ResourceName>
       <AlternateName>1995-065A</AlternateName>
       <AlternateName>Solar and Heliospheric Observatory</AlternateName>
-      <ReleaseDate>2008-06-18T05:21:59Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
       <Description>The primary scientific aims of the Solar and Heliospheric Observatory mission (SOHO) were to investigate: (1) the physical processes that form and heat the Sun's corona, maintain it and give rise to the expanding solar wind; and, (2) the interior structure of the Sun. Imaging and collection of spectroscopic plasma diagnostics of the solar chromosphere, transition region and corona, as well as in situ solar-wind measurements are used to study the corona and solar wind. Solar interior structure is investigated by helioseismological means and by the observation of variations in solar irradiance. SOHO was part of the International Solar-Terrestrial Physics Program (ISTP).
 
 The SOHO spacecraft was three-axis stabilized and pointed towards the Sun with an accuracy of +/- 10 arcsec per 15 min. It consisted of a Payload Module to accommodate the instruments and a Service Module carrying the spacecraft subsystems and solar arrays. SOHO occupied a halo orbit at the Earth-Sun L1 Lagrangian point to obtain uninterrupted sunlight. The design life was two years, but on-board consumables were sufficient for an extra four years of operations.

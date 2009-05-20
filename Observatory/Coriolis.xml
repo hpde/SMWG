@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Coriolis</ResourceID>
     <ResourceHeader>
       <ResourceName>Coriolis</ResourceName>
       <AlternateName>2003-001A</AlternateName>
-      <ReleaseDate>2008-06-18T05:27:08Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
       <Description>Coriolis is an American (DOD) spacecraft that was launched by a Titan 2 rocket from Vandenberg AFB at 14:19 UT on January 2003. The 395 kg, 1,174 W, 3.0 m diameter, 6.9 m high, triaxially-stabilized spacecraft carried 82 kg of fuel and 340 kg of instruments. The two instruments are WindSat to monitor ocean surface winds, and SMEI to image Solar Mass Ejections (SME). Data will be stored onboard and downlinked to dedicated ground stations in x-band.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
