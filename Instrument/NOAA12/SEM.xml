@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/NOAA12/SEM</ResourceID>
     <ResourceHeader>
       <ResourceName>Space Environment Monitor (SEM)</ResourceName>
       <AlternateName>SEM</AlternateName>
-      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:14Z</ReleaseDate>
       <Description>The Space Environmental Monitor (SEM) experiment is an extension of the solar-proton monitoring experiment flown on the ITOS spacecraft series. The object is to measure proton flux, electron flux density, and energy spectrum in the upper atmosphere. The experiment package consists of two detector systems and a data processing unit. The medium energy proton and electron detector (MEPED) measures protons in five energy ranges from 30 keV to &gt;2.5 MeV; electrons above 30, 100, and 300 keV; protons and electrons (inseparable) above 6 MeV; and omni-directional protons above 16, 36, and 80 MeV. The total energy detector (TED) measures the intensity of protons and electrons between 300 eV and 20 keV.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Harold.Leinbach</PersonID>

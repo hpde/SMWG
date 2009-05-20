@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/AE-E/OSS</ResourceID>
     <ResourceHeader>
       <ResourceName>Open-Source Neutral Mass Spectrometer</ResourceName>
       <AlternateName>OSS</AlternateName>
-      <ReleaseDate>2008-06-18T16:52:26Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
       <Description>The objective of this experiment was to contribute to a study of the chemical, dynamic, and energetic processes that control the structure of the thermosphere by providing direct in situ measurements of both major and minor neutral atmospheric constituents having masses in the range from 1 to 48 atomic mass units (u). A double-focusing, Mattauch-Herzog magnetic deflection mass spectrometer with an impact ion source was flown. Two ion collectors were included to measure ions differing in mass by a factor of 8; i.e., the two mass ranges covered were 1 to 6 and 6 to 48 u. In the ion source the neutral species were ionized by means of electron impact. The electron energies were selectable; 75 eV for the high-eV mode and 25 eV for the low-eV mode. At altitudes greater than 380 km, ion currents were measured with an electron multiplier. Counts were accumulated for 1/20 s before automatically switching to a different mass number. While complete mass spectra could be swept, in the common mode of operation peak stepping was employed; readings on principal peaks in the mass spectrum were repeated approximately every 0.5 s and on other species less frequently. Data below 380 km were measured using an electrometer. In addition to the peak stepping mode, there were several other operating modes which were selected by ground command. In the fly-through mode, ambient particles striking the ion source retained energies less than 0.1 eV, which was not high enough to overcome the negative space charge potential holding the ions in the beam. Those ambient particles that did not strike the ion source retained their incoming energy of several eV after ionization and escaped into the acceleration region of the analyzer. More experiment details can be found in A. O. Nier et al., Radio Sci., v. 8, n. 4, p. 271, 1973.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Alfred.O.C.Nier</PersonID>

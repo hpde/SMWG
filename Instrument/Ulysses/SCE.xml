@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Ulysses/SCE</ResourceID>
     <ResourceHeader>
       <ResourceName>Coronal Sounding (radio science) (SCE)</ResourceName>
       <AlternateName>SCE</AlternateName>
-      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
       <Description>The objective of this radio science investigation is to determine the density, turbulence spectrum, and velocity of the coronal plasma in the acceleration regime of the solar wind. Dual-frequency ranging and Doppler data are recorded during phases of the ULYSSES superior conjunction using the spacecraft transmitters and the NASA DSN.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Michael.K.Bird</PersonID>
@@ -18,7 +18,7 @@
         <Description>Information about the Coronal Sounding (radio science) (SCE) experiment on the Ulysses mission.</Description>
       </InformationURL>
     </ResourceHeader>
-    <InstrumentType>UNKNOWN</InstrumentType>
+    <InstrumentType>Sounder</InstrumentType>
     <InvestigationName>Coronal Sounding (radio science) (SCE) on Ulysses</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Ulysses</ObservatoryID>
   </Instrument>

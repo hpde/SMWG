@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/PioneerVenusOrbiter/OPA</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar Wind Plasma Analyzer (OPA)</ResourceName>
       <AlternateName>OPA</AlternateName>
-      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:14Z</ReleaseDate>
       <Description>The instrument for this experiment was a quadrispherical electrostatic analyzer (similar to the plasma instrument on Pioneers 10 and 11), with five current collectors and electrometers. The energy/charge range was 50-8000 (ions) in 32 steps and 1-500 (electrons) in 16 steps. The angular range covered was plus or minus 85 deg elevation by 360 deg azimuth, and the detector field of view was 15 deg by 25 deg or 15 deg by 45 deg, depending on position. The logic design was essentially that used on Pioneers 8 and 9. The objectives were to measure solar wind conditions outside the Venusian bow shock, inside the magnetosheath flow field, and to study the ionopausal structure. Solar-wind measurements were made during the transit to Venus, particularly to study macroscale problems and to determine average gradients. The near-planet wake region was also available for study.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Aaron.Barnes</PersonID>

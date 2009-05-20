@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/PioneerVenusOrbiter/OCPP</ResourceID>
     <ResourceHeader>
       <ResourceName>Cloud Photopolarimeter (OCPP)</ResourceName>
       <AlternateName>OCPP</AlternateName>
-      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:14Z</ReleaseDate>
       <Description>This experiment used a simplified version of the Imaging Photopolarimeter (IPP) flown on Pioneers 10 and 11 to provide low-resolution, four-color maps of the Venusian cloud cover with a high-resolution imaging capability near apocenter. The principal objective of this investigation was to determine the properties of the clouds and haze, including the vertical and horizontal distribution of the particles, cloud particle size and refractive index, the cloud-top height, and the number density of particles.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Larry.D.Travis</PersonID>
@@ -18,7 +18,7 @@
         <Description>Information about the Cloud Photopolarimeter (OCPP) experiment on the Pioneer Venus Orbiter mission.</Description>
       </InformationURL>
     </ResourceHeader>
-    <InstrumentType>UNKNOWN</InstrumentType>
+    <InstrumentType>Photopolarimeter</InstrumentType>
     <InvestigationName>Cloud Photopolarimeter (OCPP) on Pioneer Venus Orbiter</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/PioneerVenusOrbiter</ObservatoryID>
   </Instrument>

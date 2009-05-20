@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/ST5-155/MAG</ResourceID>
     <ResourceHeader>
       <ResourceName>ST5-155 Fluxgate Magnetometer</ResourceName>
-      <ReleaseDate>2008-06-18T19:19:59Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:01Z</ReleaseDate>
       <Description>
       Each ST5 spacecraft includes a low power science-grade fluxgate magnetometer. The magnetometer design is based on heritage from earlier missions such as Polar, FAST, and the Australian mission, FedSat. The magnetometers were developed at the University of California, Los Angelese (UCLA).
       

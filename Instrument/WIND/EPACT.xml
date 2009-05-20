@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/WIND/EPACT</ResourceID>
     <ResourceHeader>
       <ResourceName>Energetic Particle Acceleration, Composition and Transport (EPACT)</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:29Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:14Z</ReleaseDate>
       <Description>The EPACT (energetic particle acceleration-composition-transport) experiment is designed to provide a comprehensive study of energetic particle acceleration and transport processes in solar flares, in the interplanetary medium and in planetary magnetospheres as well as in galactic cosmic rays and the anomalous cosmic ray component. The instrument provides a complete description of electrons and atomic nuclei of different charge and isotopic composition over an energy range from 0.1 to 500 MeV/nucleon, and extending up to Z=92 (uranium). The instrument is divided into three semi-autonomous subsystems, the low energy angular distribution telescopes (LEAD), the low energy matrix telescopes (LEMT), and the electron/isotope telescope (ELITE). There are four individual LEAD sensors, two which view the hemisphere above the spin plane, and two pointed below the spin plane. There are also three LEMT sensors which are oriented above, below, and into the spin plane, and a single ELITE sensor which is double ended.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Tycho.T.Von.Rosenvinge</PersonID>

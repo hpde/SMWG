@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>1.2.2</Version>
-    <Instrument>
-        <ResourceID>spase://SMWG/Instrument/IGPPLANL/Rapid.City/Magnetometer</ResourceID>
-        <ResourceHeader>
-            <ResourceName>IGPP-LANL Rapid City Fluxgate Magnetometer</ResourceName>
-            <ReleaseDate>2009-02-22T00:00:00</ReleaseDate>
-            <Description>The magnetometer at the IGPP-LANL Rapid City station</Description>
-            <Acknowledgement>The operation of the Rapid City fluxgate magnetometer is arranged by Dr. Mark Moldwin, UCLA.</Acknowledgement>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Peter.J.Chi</PersonID>
-                <Role>ProjectScientist</Role>
-            </Contact>
-            <InformationURL>
-                <Name>UCLA Ground Magnetometer Data Center</Name>
-                <URL>http://spc.igpp.ucla.edu/uclamag</URL>
-                <Description>Online Information and data for IGPP-LANL Magnetometer Array</Description>
-            </InformationURL>
-        </ResourceHeader>
-        <InstrumentType>Magnetometer</InstrumentType>
-        <InvestigationName>IGPP-LANL Magnetometer Array</InvestigationName>
-        <ObservatoryID>spase://SMWG/Observatory/IGPPLANL/Rapid.City</ObservatoryID>
-    </Instrument>
+  <Version>2.0.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/IGPPLANL/Rapid.City/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>IGPP-LANL Rapid City Fluxgate Magnetometer</ResourceName>
+      <ReleaseDate>2009-05-20T21:10:09Z</ReleaseDate>
+      <Description>The magnetometer at the IGPP-LANL Rapid City station</Description>
+      <Acknowledgement>The operation of the Rapid City fluxgate magnetometer is arranged by Dr. Mark Moldwin, UCLA.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Peter.J.Chi</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <InformationURL>
+        <Name>UCLA Ground Magnetometer Data Center</Name>
+        <URL>http://spc.igpp.ucla.edu/uclamag</URL>
+        <Description>Online Information and data for IGPP-LANL Magnetometer Array</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>IGPP-LANL Magnetometer Array</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/IGPPLANL/Rapid.City</ObservatoryID>
+  </Instrument>
 </Spase>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Interball-2/ALPHA3</ResourceID>
     <ResourceHeader>
       <ResourceName>Thermal Ion Trap (ALPHA-3)</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:10Z</ReleaseDate>
       <Description>The ALPHA-3 experiment is designed to study cold magnetospheric plasma, and identical instruments are installed on both Interball Tail and Interball Auroral Probe. The instrument uses planar electrostatic analyzers, with a planar modulating potential analyzer. The collector effective area is 11.3 square cm, and the range of current measurements is 1.E-13 to 1.3E-8 A. The energy range of the registered particles is 0 - 25.5 eV. The minimum measurable density of protons is 1 per cc for an ion temperature of 1.E4 K and for the analyzer directed along the velocity vector.
 For more details, see the article by V. V. Bezrukikh and K. I. Gringauz at pp. 215 - 221 of "Interball Mission and Payload," a joint publication of RKA, IKI, and CNES (1995).</Description>
       <Contact>

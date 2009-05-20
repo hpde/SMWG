@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/WIND/SWICS</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar Wind and Suprathermal Ion Composition Studies (SWICS/STICS)</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:29Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:14Z</ReleaseDate>
       <Description>This investigation is designed (1) to provide detailed measurements of the elemental and ionic-charge composition of the solar wind, (2) to provide the average speed, density, and temperature of solar wind 4He++, and the average speed of solar wind protons, and (3) to provide the energy distributions of selected ion species. The instrument consists of three separate subsystems, the SWICS (solar wind ion composition), the STICS (suprathermal ion composition), and the DPU (data processing unit). The SWICS unit contains a time-of-flight sensor and a proton/alpha telescope. The STICS unit contains a time-of-flight sensor. The DPU contains two redundant microprocessors. The fields of view of the two sensor units are separated by 22.5 deg in the spacecraft spin plane. The energy range covered is 0.1 to 29 keV/Q.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>

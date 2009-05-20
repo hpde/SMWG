@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Interball-1/ELECTRON</ResourceID>
     <ResourceHeader>
       <ResourceName>3D Electron Distribution Function (ELECTRON)</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:11Z</ReleaseDate>
       <Description>The objective of the ELECTRON experiment is to perform 3-D measurements of the plasma electrons in the energy range from 10 eV to 26 keV, with good angular resolution, sensitivity and large dynamical range. The instrument was designed, built and calibrated by the Centre d'Etudes Spatiales des Rayonnements (CNRS/ University of Toulouse, France) and financed by a CNES (French National Space Center) grant. The integration tests were performed jointly with the Space Research Institute, Moscow (IKI).
 The spectrometer consists of a quadri-spherical analyzer associated with microchannel plates. The analyser is a symmetrical "top hat" electrostatic analyzer which provides a 180 x 6 degree field of view with a uniform response. The angular resolution is 22.5 x 6 degrees. Electrons are multiplied by a chevron-mounted pair of MCP associated with 8 anode sectors. Due to the spacecraft rotation, the full 4 solid angle is scanned once per spin period (~120 seconds). The number of energy sweeps per spin can be changed, as well as the energy range, according to the mode of operation. The spectrometer can be operated in 15 main modes. Standard modes allow to obtain 32 energy spectra with 32 energies per spin; high speed modes can be used to quickly sweep 4 energies.
 The ELECTRON experiment began operating August 14, 1995. It does not operate through the radiation belts. The detector has a very low background and a good sensitivity. The satellite apogee was located at midnight in November 1995.</Description>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>1.2.2</Version>
-    <Instrument>
-        <ResourceID>spase://SMWG/Instrument/McMAC/Worthington/Magnetometer</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Worthington (WRTH) Fluxgate Magnetometer</ResourceName>
-            <ReleaseDate>2009-03-09T00:00:00</ReleaseDate>
-            <Description>The magnetometer at the McMAC Worthington station</Description>
-            <Acknowledgement>The operation of the Worthington fluxgate magnetometer is managed by Prof. Richard Dalrymple, West Minnesota Technical College.</Acknowledgement>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Peter.J.Chi</PersonID>
-                <Role>PrincipalInvestigator</Role>
-            </Contact>
-            <InformationURL>
-                <Name>Information web site concerning McMAC Worthington (WRTH) Ground Magnetic Field Data</Name>
-                <URL>http://spc.igpp.ucla.edu/mcmac/stations/mcmac/worthington.html</URL>
-                <Description>Information about the McMAC Worthington Ground Magnetometer Station</Description>
-            </InformationURL>
-        </ResourceHeader>
-        <InstrumentType>Magnetometer</InstrumentType>
-        <InvestigationName>Mid-continent Magnetoseismic Chain (McMAC)</InvestigationName>
-        <ObservatoryID>spase://SMWG/Observatory/McMAC/Worthington</ObservatoryID>
-    </Instrument>
+  <Version>2.0.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/McMAC/Worthington/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Worthington (WRTH) Fluxgate Magnetometer</ResourceName>
+      <ReleaseDate>2009-05-20T21:10:16Z</ReleaseDate>
+      <Description>The magnetometer at the McMAC Worthington station</Description>
+      <Acknowledgement>The operation of the Worthington fluxgate magnetometer is managed by Prof. Richard Dalrymple, West Minnesota Technical College.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Peter.J.Chi</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Information web site concerning McMAC Worthington (WRTH) Ground Magnetic Field Data</Name>
+        <URL>http://spc.igpp.ucla.edu/mcmac/stations/mcmac/worthington.html</URL>
+        <Description>Information about the McMAC Worthington Ground Magnetometer Station</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Mid-continent Magnetoseismic Chain (McMAC)</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/McMAC/Worthington</ObservatoryID>
+  </Instrument>
 </Spase>

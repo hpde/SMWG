@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/IMP8/STONE</ResourceID>
     <ResourceHeader>
       <ResourceName>Electrons and Hydrogen and Helium Isotopes</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:02Z</ReleaseDate>
       <Description>This experiment was designed to measure the differential energy spectra of the isotopes of hydrogen through oxygen from 2 to 40 MeV/nucleon, and of electrons from 0.2 to 5 MeV. The instrument consisted of a stack of 11 fully depleted silicon solid-state detectors surrounded by a plastic scintillator anticoincidence cup. The outer two solid-state detectors were annular, permitting measurements in both narrow-geometry (typical geometrical factor was 0.2 sq cm-sr) and wide-geometry (typical geometric factor was 1.5 sq cm-sr) coincidence modes. Anisotropy data (45-deg angular and 20-s temporal resolution) were obtained. For further details, see R. A. Mewaldt and E. C. Stone, Astrophys. J., v. 205, p. 93, 1976.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Edward.C.Stone.Jr</PersonID>

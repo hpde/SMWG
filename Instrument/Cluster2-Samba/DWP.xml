@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Cluster2-Samba/DWP</ResourceID>
     <ResourceHeader>
       <ResourceName>Digital Wave Processor (DWP)</ResourceName>
       <AlternateName>DWP</AlternateName>
-      <ReleaseDate>2008-06-18T16:52:26Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:15Z</ReleaseDate>
       <Description>The DWP (Digital Wave Processor) is one of the five complementary experiments which form the Wave Experiment Consortium (WEC) on Cluster. The wide variety of plasmas to be investigated by the Cluster mission contains waves with a frequency range from DC to over 100 KHz with both magnetic and electric components. The characteristic duration of these waves extends from a few milliseconds to minutes and a dynamic range of over 90 dB is desired. Thus the instrument controllers and the on-board coordination controller (DWP) must be flexible. Various data compression methods are implemented within the WEC and DWP. Digital filtering with resampling is used with the WBD instrument; differential encoding is used with STAFF; data selection followed by pseudo-logarithmic compression is used with WHISPER; and averaging is used with the correlator within DWP. DWP is responsible for co-ordinating WEC operations at several levels. At the lowest level, it provides electrical signals to synchronize instrument sampling. At higher levels, it time tags data and provides a facility for constructing more complex WEC modes by means of macros. The sample synchronizing clock is not synchronous with the spacecraft spin rate. WBD data may be routed through the DWP to the spacecraft tape recorders. DWP reduces this data rate by a factor of three by applying a digital filtering algorithm to this data stream and then resampling it. Of particular interest in the DWP is the implementation of a particle correlator technique. This diagnostic technique is based on forming autocorrelation functions of the time series of particle detector counts as a function of energy and pitch angle. The basic operations will be carried out in DWP resident software. The particle correlator technique permits: (a) the detection of particle flux bursts on time scales short compared with the energy and dwell time;, and (b) an indication of regions of velocity space in which wave/particle interactions are occurring. The DWP has some automatic checks built into its software to monitor the performance of WEC instruments interfaced to it. These can be disabled by ground command if needed. For more details of the Cluster mission, the spacecraft, and its instruments, see the report ``Cluster: mission, payload and supporting activities,'' March 1993, ESA SP-1159, and the included article ``Implementation of the Digital Wave-Processing Experiment,'' by L. J. C. Wooliscroft et al., from which this information was obtained.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Hugo.Alleyne</PersonID>
@@ -18,7 +18,7 @@
         <Description>Information about the Digital Wave Processor (DWP) experiment on the Cluster 2/FM7 (Samba) mission.</Description>
       </InformationURL>
     </ResourceHeader>
-    <InstrumentType>UNKNOWN</InstrumentType>
+    <InstrumentType>Unspecified</InstrumentType>
     <InvestigationName>Digital Wave Processor (DWP) on Cluster 2/FM7 (Samba)</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Cluster2-Samba</ObservatoryID>
   </Instrument>

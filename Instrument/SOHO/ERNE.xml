@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/SOHO/ERNE</ResourceID>
     <ResourceHeader>
       <ResourceName>Energetic and Relativistic Nuclei and Electrons (ERNE)</ResourceName>
       <AlternateName>ERNE</AlternateName>
-      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:10Z</ReleaseDate>
       <Description>The Energetic and Relativistic Nuclei and Electrons (ERNE) experiment will investigate the solar atmosphere by detecting particles produced in various kinds of energy release processes. Measurements will cover the particle flux at quiet times, solar particle events, flux enhancement due to particle acceleration by interplanetary shocks, and solar modulation of galactic cosmic rays. The instrument will measure the energy spectra of elements in the range Z = 1--30, and will also measure the abundance ratios of isotopes as well as the anisotropy of the particle flux. Isotopic resolution varies with particle type and energy; for carbon in the 20--140 MeV/nucleon range the resolution is 0.25 amu. The instrument uses two separate particle telescopes, LED and HED, where a particle penetrates through active layers and the energy deposited in each layer is measured. By comparing to a theoretical energy loss, the particle type and energy can be determined. The LED (Low Energy Detector) consists of an outer circular solid state detector, covered by a thin (1 mg/cm**2) kapton foil, an inner detector, and an anticoincidence detector. The HED (High Energy Detector) uses silicon detectors and scintillation detectors read by photo diodes. The outer two detectors are mutually orthogonal, single-sided strip detectors each, thus forming a pair of two-dimensional position-sensitive detectors. Following these are additional silicon detectors and CsI(Tl) and BGO scintillators. The LED has a field of view (FOV) of 64 degrees and identifies isotopes from H to Ne. Its energy range is 1.4--12 MeV/nucleon for protons and helium, 2.1--46 MeV/nucleon for other nuclei. HED has a 120 degree FOV and its energy range is 12--110 MeV/nucleon for protons and helium, 25--540 MeV/nucleon for other nuclei, and 5--60 MeV for electrons. This information is from the paper ``Energetic Particle Analyser ERNE,'' by J. Torsti et al. (Proceedings of the First SOHO Workshop, ESA SP-348, p. 47-50, November 1992).</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Jarmo.Torsti</PersonID>

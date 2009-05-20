@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
-  <Version>1.3.0</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/ACE/MAG</ResourceID>
     <ResourceHeader>
@@ -9,7 +9,7 @@
       <AlternateName>ACE MAG</AlternateName>
       <AlternateName>ACE MFI</AlternateName>
       <AlternateName>1997-045A-09</AlternateName>
-      <ReleaseDate>2008-06-18T19:19:59Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:13Z</ReleaseDate>
       <Description>The ACE Magnetometer (MAG) experiment consists of two triaxial fluxgate magnetometers mounted remotely on booms extending beyond the spacecraft solar panels at four meters from the spacecraft center. Each identical sensor (M1, M2) has a wide dynamic range of sensitivity at +- 0.004 to +- 65536 nT and measures the three vector components of the magnetic field. Usage of twin magnetometer sensors for measurements of weak interplanetary magnetic fields is a proven approach based on experience from many past space missions. The MAG sensors were originally built as spares for the MFI instrument on the WIND spacecraft and have been given minor modifications for inclusion on ACE. Readout of MAG data includes three data types: (1) average magnetic field vectors from the primary and secondary sensors, (2) "Snap-Shot Memory" data, and (3) Fast Fourier Transform (FFT) data. The average vector readout includes 216 bps corresponding to six vectors per second. These vector readouts can be split between M1 and M2 in the ratios of 3:3, 5:1, or 6:0. The "Snap-Shot Memory" stores field vectors at the maximum sampling rate of 30 vectors per second and is read out at 48 bps. The FFT readout includes 17 seconds accumulation of vector data transformed into spectral matrices of the components and total magnitude at a transmission rate of 32 bps. Prof. Norman F. Ness of the Bartol Research Institute at the University of Delaware is the MAG Experiment Manager.
       </Description>
       <Contact>

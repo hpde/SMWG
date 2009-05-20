@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Interball-2/ANEPE2</ResourceID>
     <ResourceHeader>
       <ResourceName>Electron and proton spectrometer (ANEPE-2)</ResourceName>
-      <ReleaseDate>2008-06-18T17:50:20Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:10Z</ReleaseDate>
       <Description>The ANEPE instrument on Interball Auroral Probe is identical to that on the spacecraft Intercosmos-Bulgaria-1300. It consists of three sets of cylindrical electrostatic analyzers (ESA); each set had three ESAs, one to measure protons and two to measure electrons. The angular field of view for each individual analyzer was 7 degrees X 24 degrees. One set viewed out along the spacecraft Z-axis and the other two along perpendicular axes in the spacecraft X_Y plane at azimuthal angles of 50 and 140 deg. The energy per charge range from 0.2 to 15 keV/q could be covered by up to 16 channels/s and the energy rsolution adjusted to 0.1, 0.2 or 0.3. The flux range was 1.E4 to 1.E9 particles/(sq cm-sr-keV-s).</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>

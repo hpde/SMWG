@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Ulysses/URAP</ResourceID>
     <ResourceHeader>
       <ResourceName>Unified Radio and Plasma Waves (STO/URAP)</ResourceName>
       <AlternateName>STO</AlternateName>
       <AlternateName>URAP</AlternateName>
-      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
       <Description>The objectives of this investigation are (1) to investigate source positions of travelling solar radio bursts in the range from dc to 1 MHz; (2) to investigate the large-scale magnetic field topology and the electron density along the exciter trajectory as a function of heliographic latitude and longitude at distances of 0.1 AU to approximately 5 AU; (3) to investigate Jovian radio source locations in the range from dc to 1 MHz; and (4) to investigate waves in the plasma between dc and 35 kHz, their instabilities, their energy transport mechanisms, and the thermal electron density. The instrument comprises three antenna systems (a 70 m tip-to-tip dipole in the equatorial plane, a monopole along the spin axis, and a pair of crossed-axis magnetic search coils) and four receiver systems (an rf receiver for the 1.25 kHz to 1 MHz range in two intervals from 1.25 to 48.5 kHz and from 52 to 940 kHz; a plasma frequency receiver covering from 0.57 to 35 kHz in 32 contiguous intervals; a fast envelope sampler from 10 Hz to 60 kHz with four commandable decade ranges to capture transient events; and a wave form analyzer, dc to 500 Hz, that operates in two frequency bands, from dc to 10 Hz and from 10 to 500 Hz). It also includes an active sounder for determining the ambient electron density. The instrument has a mass of 7.3 kg, excluding antennas and booms, and has a data rate of 116 bps in storage mode and 232 bps in tracking mode. It uses 9.9 W mean power and 10.4 W when the sounder is operated.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.J.MacDowall</PersonID>

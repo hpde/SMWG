@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/AMPTE_UKS/FGM</ResourceID>
     <ResourceHeader>
@@ -8,7 +8,7 @@
       <AlternateName>AMPTE/IRM FGM</AlternateName>
       <AlternateName>AMPTE/IRM Triaxial Fluxgate Magnetometer</AlternateName>
       <AlternateName>1984-088C-04</AlternateName>
-      <ReleaseDate>2008-06-18T19:19:59Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:01Z</ReleaseDate>
       <Description>The objective of this investigation was to study the magnetic fields in the near-earth environment. The instrument consisted of a three-axis orthogonal fluxgate magnetometer with ring-core sensors. It was a refurbished ISEE 1/2 flight spare. One of the two possible ranges, plus and minus 256 or 8192 nT, could be selected by ground command. The accuracy of the instrument was plus or minus 1 nT per axis in the high range and plus or minus 0.03 nT in the low range.
       
 For more details, see D.J. Southwood, et al., IEEE Transaction on Geoscience and Remote Sensing Vol. GE-23, p 301, 1985.

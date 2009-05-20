@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/IMP8/EECA</ResourceID>
     <ResourceHeader>
       <ResourceName>Solid-State Detectors</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:02Z</ReleaseDate>
       <Description>This experiment was designed to determine the composition and energy spectra of low-energy particles observed during solar flares and 27-d recurrent events. The detectors used included (1) an electrostatic analyzer (to select particles of the desired energy per charge) combined with an array of windowless solid-state detectors (to measure the energy loss) and surrounded by an anticoincidence shield, and (2) a thin-window proportional counter, solid-state particle telescope. The experiment measured particle energies from 0.1 to 10 MeV per charge in 12 bands and uniquely identified positrons and electrons as well as nuclei with charges of Z from 1 to 8 (no charge resolution for Z greater than 8). Two 1000-channel pulse-height analyzers, one for each detector, were included in the experiment payload.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Fred.M.Ipavich</PersonID>

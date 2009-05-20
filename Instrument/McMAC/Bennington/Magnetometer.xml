@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>1.2.2</Version>
-    <Instrument>
-        <ResourceID>spase://SMWG/Instrument/McMAC/Bennington/Magnetometer</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Bennington (BENN) Fluxgate Magnetometer</ResourceName>
-            <ReleaseDate>2009-03-09T00:00:00</ReleaseDate>
-            <Description>The magnetometer at the McMAC Bennington station</Description>
-            <Acknowledgement>The operation of the Bennington fluxgate magnetometer is managed by University of Nebraska Lincoln.</Acknowledgement>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Peter.J.Chi</PersonID>
-                <Role>PrincipalInvestigator</Role>
-            </Contact>
-            <InformationURL>
-                <Name>Information web site concerning McMAC Bennington (BENN) Ground Magnetic Field Data</Name>
-                <URL>http://spc.igpp.ucla.edu/mcmac/stations/mcmac/bennington.html</URL>
-                <Description>Information about the McMAC Bennington Ground Magnetometer Station</Description>
-            </InformationURL>
-        </ResourceHeader>
-        <InstrumentType>Magnetometer</InstrumentType>
-        <InvestigationName>Mid-continent Magnetoseismic Chain (McMAC)</InvestigationName>
-        <ObservatoryID>spase://SMWG/Observatory/McMAC/Bennington</ObservatoryID>
-    </Instrument>
+  <Version>2.0.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/McMAC/Bennington/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Bennington (BENN) Fluxgate Magnetometer</ResourceName>
+      <ReleaseDate>2009-05-20T21:10:16Z</ReleaseDate>
+      <Description>The magnetometer at the McMAC Bennington station</Description>
+      <Acknowledgement>The operation of the Bennington fluxgate magnetometer is managed by University of Nebraska Lincoln.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Peter.J.Chi</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Information web site concerning McMAC Bennington (BENN) Ground Magnetic Field Data</Name>
+        <URL>http://spc.igpp.ucla.edu/mcmac/stations/mcmac/bennington.html</URL>
+        <Description>Information about the McMAC Bennington Ground Magnetometer Station</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Mid-continent Magnetoseismic Chain (McMAC)</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/McMAC/Bennington</ObservatoryID>
+  </Instrument>
 </Spase>

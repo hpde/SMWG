@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Interball-2/POLRAD</ResourceID>
     <ResourceHeader>
       <ResourceName>Auroral Kilometric Radiation (POLRAD)</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:10Z</ReleaseDate>
       <Description>The POLRAD experiment is a part of the wave consortium of experiments on Interball 2. POLRAD is a swept frequency radio-spectrometer, covering the frequency range from 4 kHz to 2 MHz with a frequency resolution of 4 kHz. It can be used either as a radio-spectro-polarimeter, or as a radio-spectrograph. The instrument can use 1 or 3 antennae. Their coordinate system is fixed to the spinning spacecraft (1 revolution in 2 minutes). One antenna is an 11-m monopile (tip-to-spacecraft center) oriented along the spin axis in an anti-solar direction. The other antennae are 2 crossed dipoles, 22 m tip-to-tip, perpendicular to the spin axis. The size of the monopole, which is half as long as the other dipoles, is compensated by the doubled voltage gain of its preamplifier. The antenna diameter is 25 mm.
 In the spectrograph mode the power spectra of signals received from each antenna are measured in separate channels. the step increment of SFA is 4.096 kHz, while the half-power bandwidth is 2.7 kHz. POLRAD can be swept over several frequency ranges selected between 4 kHz and 2 MHz. The frequency range most frequently used can be set from 4 to 491 kHz (120 steps) or from 4 to 983 kHz (240 steps). The sweep periods most frequently used are 6 or 12 seconds.
 The instrument has an additional active mode aimed at the determination of the frequencies of the plasma resonances excited in the ambient plasma by a built-in relaxation sounder.

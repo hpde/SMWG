@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Interball-1/FM3I</ResourceID>
     <ResourceHeader>
       <ResourceName>Fluxgate DC Magnetometer FM-3I</ResourceName>
-      <ReleaseDate>2008-11-26T22:21:24Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:11Z</ReleaseDate>
       <Description>The FM-3I instrument consists of two flux-gate magnetometers M1 and M2 covering two different ranges: -200 to +200 nT and -1000 to +1000 nT. The M2 instrument is mostly used to perform the attitude control of the INTERBALL 1 spacecraft. M1 magnetometer data are transmitted to the scientific SSNI telemetry system at rates 0.125-16 vectors/s depending on the instrument operating mode. The magnetic field data from the M2 magnetometer are transmitted at the rate 1 vector per 6 seconds to the BNS attitude control system.
       
 FM-3 M2 magnetometer failed in February 1996.</Description>

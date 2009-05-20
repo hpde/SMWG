@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/SOHO/SWAN</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar Wind Anisotropies (SWAN)</ResourceName>
       <AlternateName>SWAN</AlternateName>
-      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:10Z</ReleaseDate>
       <Description>The principal scientific objective of SWAN (Solar Wind ANisotropies) is to investigate the latitude distribution of the solar wind. This objective is fulfilled by mapping the emissivity of the interplanetary Lyman alpha light. The mapping of the celestial sphere is accomplished by two identical sensor units placed on opposite sides of SOHO. Each sensor consists of a two-mirror sensor head (for 2-pi steradians coverage), a hydrogen cell for line analysis, and a detector. The detector consists of a microchannel plate and a 5 x 5 anode array. The instantaneous field of view of the instrument is 5 x 5 degrees, and the spectral resolution is &lt;0.001 nm. While the primary goal is to study solar wind anisotropies, secondary objectives are to: (1) examine the Lyman alpha emission from comets (tracking known comets and detecting new ones); (2) search for a possible signature of the heliopause (the velocity distribution of H gas may be disturbed at the heliopause); (3) correlate solar coronal Lyman alpha observations (measurements can be compared to UVCS measurements); and, (4) study solar Lyman alpha profile variations (solar oscillations may be detected in the Lyman alpha scattered by H atoms). This information is from the paper ``SWAN - A Study of Solar Wind Anisotropies,'' by J. L. Bertaux et al. (Proceedings of the First SOHO Workshop, ESA SP-348, p. 37, November 1992).</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Jean-Loup.C.Bertaux</PersonID>
@@ -18,7 +18,7 @@
         <Description>Information about the Solar Wind Anisotropies (SWAN) experiment on the SOHO mission.</Description>
       </InformationURL>
     </ResourceHeader>
-    <InstrumentType>UNKNOWN</InstrumentType>
+    <InstrumentType>Unspecified</InstrumentType>
     <InvestigationName>Solar Wind Anisotropies (SWAN) on SOHO</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/SOHO</ObservatoryID>
   </Instrument>

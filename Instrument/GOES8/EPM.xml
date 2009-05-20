@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/GOES8/EPM</ResourceID>
     <ResourceHeader>
       <ResourceName>Energetic Particle Monitor</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:03Z</ReleaseDate>
       <Description>The energetic particle sensor (now called EP8 instead of EPS) consisted of three independent detectors: (1) EP8 Telescope, (2) Dome Assembly, and (3) High Energy Proton and Alpha Detector (HEPAD). EP8 telescope operated on the dE/dX - E mode, each of the detectors being a surface barrier semiconductor; pulse height analysers could identify a particle either as a proton or as an alpha, besides binning them into narrower energy ranges. The Dome detector carried three separate windows of differing thicknesses, behind which lay a pair of 1500 micron thick surface barrier silicon detectors. Outputs from this three pairs of detectors passed through pulse height analyzers to provide counts in narrower bands. HEPAD is a Cerenkov counter, backed by pulse height analyzers. Over all, there were 11 energy channels for protons, eight for protons, and one for electrons of energy &gt; 2 MeV. However each such channel carried nontrivial contamination by other species. The counts from each of the 20 channels were accumulated for a few seconds (3 to 12 seconds, depending on the channel) before sampling the accumulated total for telemetry. There was also saturation limits to the level of accumulated counts, varying from 1,200 to 25,000 counts, depending upon the channel. The proton and Alpha channels covered the energy range of several hundred keV to several hundred MeV.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Herbert.H.Sauer</PersonID>

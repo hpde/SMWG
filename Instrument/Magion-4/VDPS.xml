@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Magion-4/VDPS</ResourceID>
     <ResourceHeader>
       <ResourceName>Plasma Flow Detector VDP-S</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
       <Description>This instrument consists of four Faraday cup detectors, registering ions and electrons with energies above 170 eV. The detectors are oriented at +/- 45 degrees from the main axis of the spacecraft, and have an angular aperture of 100 degrees. The maximum frequencies used are 1, 2, 4, and 8 Hz (depending on the telemetry mode).</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Georgy.Zastenker</PersonID>

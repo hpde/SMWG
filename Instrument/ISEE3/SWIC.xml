@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/ISEE3/SWIC</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar Wind Ion Composition, 300-600 km/s 840 eV/Q to 11.7 keV/Q; M/Q = 1.5 to 5.6</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:15Z</ReleaseDate>
       <Description>This experiment consisted of a hemispherical electrostatic energy analyzer and a Wien velocity filter configured as a mass spectrometer to determine the charge state and isotopic constitution of the solar wind. The instrument had an energy-per-unit-charge range of 0.84 to 11.7 keV per charge, a mass-per-unit-charge range of 1.5 to 5.6 u per charge, and a velocity range of 300 to 600 km/s.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Keith.W.Ogilvie</PersonID>

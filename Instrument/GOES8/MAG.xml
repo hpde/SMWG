@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/GOES8/MAG</ResourceID>
     <ResourceHeader>
       <ResourceName>GOES 8, Triaxial Fluxgate Magnetometer</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:03Z</ReleaseDate>
       <Description>The magnitude and direction of the magnetic field are measured by two redundant Schonstedt triaxial magnetometers located on a boom 3 m, and 2.7 m away from the spacecraft body. The electronics are located inside the body. The X, Y, Z component signals from the three axes are digitized by a 16-bit converter, at a sampling rate of 0.512 s. The sensitivity is 0.1 nT, and the range +/- 1000 nT. After temperature correction, and before (undescribed) stray-field correction, the accuracy is at about 1 nT level.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Howard.J.Singer</PersonID>

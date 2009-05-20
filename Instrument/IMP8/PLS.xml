@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
-  <Version>1.3.0</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/IMP8/PLS</ResourceID>
     <ResourceHeader>
@@ -8,7 +8,7 @@
       <AlternateName>IMP 8 PLS</AlternateName>
       <AlternateName>IMP 8 PLA</AlternateName>
       <AlternateName>1973-078A-02</AlternateName>
-      <ReleaseDate>2008-06-18T19:19:59Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:02Z</ReleaseDate>
       <Description>A modulated split-collector Faraday cup, perpendicular to the spacecraft spin axis, was used to study the directional intensity of positive ions and electrons in the solar wind, transition region, and magnetotail. The collector plate split is perpendicular to the spacecraft spin axis in order to measure the flow angle of the ions in a meridional plane; the flow angle in the spacecraft equatorial plane is determined from the fluxes measured as the spacecraft rotates.
 
 Electrons are measured using 21 logarithmically-spaced energy windows covering the energy/charge range between 23 and 1935 volts. Positive ions are studied using 24 energy windows covering the range between 50 and 7000 volts.

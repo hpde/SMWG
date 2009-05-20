@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Interball-2/UVSIPS</ResourceID>
     <ResourceHeader>
       <ResourceName>Auroral UV Emission Line Measurements (UVSIPS)</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:11Z</ReleaseDate>
       <Description>The UV spectrometer UVSIPS was designed to map ionospheric auroral characteristics in the magnetic field line footprint. The instrument is a classical slit-less spectrograph with a plane diffraction grid. UVSIPS has three fixed spectral channels for simultaneous measurements centered at wavelengths of 1304, 1356, and 1493 Angstroms. A microprocessor calculates the coordinates of the footprint before every spin period of the satellite. The input mirror of the instrument moves to the corresponding position by small steps, scanning by its field of view in the satellite-Sun-Earth plane. The instrument scans in the plane perpendicular to the spacecraft spin axis by virtue of the spin rotation (period about 2 minutes).
 This information was taken from the paper by Kuzmin et al., in Interball Mission and Payload, published by CNES, IKI, and RSA, pp. 401-408 (1995), which contains additional details of the instrument.</Description>
       <Contact>

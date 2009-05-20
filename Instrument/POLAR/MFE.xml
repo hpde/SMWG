@@ -1,13 +1,13 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
-  <Version>1.3.0</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/POLAR/MFE</ResourceID>
     <ResourceHeader>
       <ResourceName>POLAR Magnetic Fields Experiment (MFE)</ResourceName>
       <AlternateName>MFE</AlternateName>
       <AlternateName>1996-013A-08</AlternateName>
-      <ReleaseDate>2008-06-18T19:19:59Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:13Z</ReleaseDate>
       <Description>The Magnetic Field Experiment (MFE) on the POLAR spacecraft is designed to measure the vector magnetic field at the spacecraft location in three ranges: plus to minus 700 nanoTesla (nT), 5700 nT, and 47000 nT. MFE consists of two triaxial fluxgate magnetometer sensors mounted on a 6-meter boom with associated electronics inside the spacecraft. The use of two separate sensors provides redundancy, and their different locations along the boom (one ~7.2m from the spacecraft axis (at the boom end), and the other at ~5.2 m, provides a measure of the spacecraft contribution to the measured fields.
 
 The fluxgate sensors are ring core-types, each composed of a 'driver' coil and a 'feedback' coil surrounding a ring-shaped magnetically permeable core. The drive coil is used to periodically drive the the core into saturation, while the feedback coil zeros out any DC field in the core. When the presence of external 'DC' fields in the core are sensed by the appearance of second harmonics of the drive frequency, the current in the feedback coil is changed to keep the core field near zero. Three orthogonal sensors make each of the two fluxgate units. 'Flippers' can mechanically change a sensor in the spacecraft spin plane with the one along the spin axis in order to determine any zero-level offsets in the measured fields. The magnetometer is a fully redundant system with duplicate processors, analog-digital converters, spacecraft interface electronics, power conversion circuits and two independent basic magnetometers, one designed to measure fields up to 47,000 nT and one designed to measure fields up to 5500 nT. Each magnetometer has two outputs that are continuously available, a low range and a high range.

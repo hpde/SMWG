@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/GOES7/MAG</ResourceID>
     <ResourceHeader>
       <ResourceName>Magnetic Field Monitor</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
       <Description>The spinning twin-fluxgate magnetometer was designed to provide the orthogonal components of the magnetic field: Hp is parallel to the spin axis that was held nearly in the direction of Earth's axis, He that is directed toward Earth center, and Hn that points eastward. The sensitivity of the magnetometer was about 0.2 gamma. Since May 1993, He and Hn components could not be obtained; only Hp data are available, but with uncertainty about the absolute values.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Harold.Leinbach</PersonID>

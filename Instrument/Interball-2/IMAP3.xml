@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Interball-2/IMAP3</ResourceID>
     <ResourceHeader>
       <ResourceName>Three-Axis Magnetic Field (IMAP-3)</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:10Z</ReleaseDate>
       <Description>The IMAP-3 magnetic field experiment is designed to study the following processes in the Earth's plasma environment: structure of the inner magnetosphere magnetic field; structure of the small scale field-aligned currents; dynamics of the field-aligned currents during substorms; and relation of the processes in the auroral zone and in the tail.
 The IMAP-3 was designed and manufactured under cooperation of IZMIRAN (http://www.izmiran.rssi.ru), NPL SDS (Bulgaria) and PIC GPI of RAS.
 The instrument is designed to measure three components of the DC magnetic field in two ranges: +/- 6800 nT with resolution 1 nT and +/- 68000 nT with resolution 10 nT. Usually magnetometer data are transmitted to the scientific SSNI telemetry system at a rate of one vector per 3 seconds; during special intervals data are transmitted to telemetry at 2 or 8 vectors second depending on the instrument operating mode.

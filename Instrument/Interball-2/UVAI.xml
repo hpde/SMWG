@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Interball-2/UVAI</ResourceID>
     <ResourceHeader>
       <ResourceName>UV Auroral Imager (UVAI)</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:11Z</ReleaseDate>
       <Description>The Ultra-Violet Auroral Imager (UVAI) is a Canadian instrument on the Interball Auroral Probe. It was of a similar design to the very successful imager on the Swedish Viking satellite. The camera was mounted at 90 degrees to the platform spin axis with the CCD columns shifted electronically at a rate selected to exactly correct for the satellite spin motion.
 Unfortunately, the actual motion of the spacecraft was more complicated than expected. The platform developed a significant coning problem, with the wobble amplitude increasing with time. Attitude control could restore the desired simple behavior, but to conserve thrusters this was done only when the amplitude became larger than 10 degrees, or roughly once every five days.
 UVAI images are affected in various ways by the wobble, depending on the amplitude and phase of the coning motion during any particular frame. Some images suffer little or no degredation. Others are badly smeared, with point-like objects (such as stars) appearing as ellipsoids rather than circles.

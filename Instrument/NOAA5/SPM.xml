@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/NOAA5/SPM</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar Proton Monitor</ResourceName>
       <AlternateName>SPM</AlternateName>
-      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:10Z</ReleaseDate>
       <Description>This experiment was designed to continuously monitor directional fluxes of: (1) protons in five contiguous intervals between 0.15 and 40 MeV (interval thresholds of 0.15, 0.30, 0.60, 1.5, and 6.6 MeV), (2) protons in the ranges 400 to 600 and 600 to 1000 MeV, (3) protons above 1000 MeV, (4) alpha particles in five contiguous energy intervals between 0.6 and 100 MeV (interval thresholds of 0.60, 0.90, 1.4, 3.5, and 11 MeV), (5) alpha particles between 330 and 600 MeV, (6) alpha particles above 600 MeV, and (7) electrons above 250 keV. Omnidirectional fluxes of protons above 10, 30, and 60 MeV were monitored.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Donald.J.Williams</PersonID>

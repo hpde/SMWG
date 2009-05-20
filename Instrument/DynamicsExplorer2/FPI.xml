@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/DynamicsExplorer2/FPI</ResourceID>
     <ResourceHeader>
       <ResourceName>Fabry-Perot Interferometer (FPI)</ResourceName>
       <AlternateName>FPI</AlternateName>
-      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:10Z</ReleaseDate>
       <Description>The Fabry-Perot Interferometer (FPI) was a high-resolution remote sensing instrument designed to measure the thermospheric temperature, meridional wind, and density of the following metastable atoms: atomic oxygen (singlet S and D) and the 2P state of ionic atomic oxygen. The FPI performed a wavelength analysis on the light detected from the thermospheric emission features by spatially scanning the interference fringe plane with a multichannel array detector. The wavelength analysis characterized the Doppler line profile of the emitting species. A sequential altitude scan performed by a commandable horizon scan mirror provided a cross-sectional view of the thermodynamic and dynamic state of the thermosphere below the DE 2 orbit. The information obtained from this investigation was used to study the dynamic response of the thermosphere to the energy sources caused by magnetospheric electric fields and the absorption of solar ultraviolet light in the thermosphere. The instrument was based on the visible airglow experiment (VAE) used in the AE program. The addition of a scanning mirror, the Fabry-Perot etalon, an image plane detector, and a calibration lamp were the principal differences. Interference filters isolated lines at (in Angstroms) 5577, 6300, 7320, 5896, and 5200. The FPI had a field of view of 0.53 deg (half-cone angle). More details are found in P. B. Hays et al., Space Sci. Instrum., v. 5, n. 4, p. 395, 1981. From February 16, 1982 to September 11, 1982 the DE satellite was inverted and the FPI measured galactic emissions.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Paul.B.Hays</PersonID>
@@ -18,7 +18,7 @@
         <Description>Information about the Fabry-Perot Interferometer (FPI) experiment on the Dynamics Explorer 2 mission.</Description>
       </InformationURL>
     </ResourceHeader>
-    <InstrumentType>UNKNOWN</InstrumentType>
+    <InstrumentType>Interferometer</InstrumentType>
     <InvestigationName>Fabry-Perot Interferometer (FPI) on Dynamics Explorer 2</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/DynamicsExplorer2</ObservatoryID>
   </Instrument>

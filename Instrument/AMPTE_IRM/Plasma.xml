@@ -1,13 +1,13 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/AMPTE_IRM/Plasma</ResourceID>
     <ResourceHeader>
       <ResourceName>AMPTE/IRM Plasma Instrument</ResourceName>
       <AlternateName>AMPTE/IRM 3-D Plasma Analyser</AlternateName>
       <AlternateName>1984-088B-03</AlternateName>
-      <ReleaseDate>2008-06-18T19:19:59Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
       <Description>The IRM plasma instrument (G. Paschmann, P.I.) consists of two symmetrical quadrispherical electrostatic analyzers, one for ions and one for electrons, which measure the complete 3-D velocity distribution function in one spacecraft revolution (4s). The energy range covered is 15eV/q to 30 keV/q for electrons and 20 eV/q to 40 keV/q for ions. The angular resolution is 22.5 deg. Microcomputers within the experiment compute the moments of the distribution functions in real time. An additional retarding-potential analyzer measured the flux of electrons between approximately 0 and 25 eV. 
       
 For more details, see Paschmann, G., et al., The Plasma Instrument for AMPTE IRM, IEEE Trans. Geosci. Remote Sens., GE-23, 262, 1985.

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Magion-4/MAG</ResourceID>
     <ResourceHeader>
       <ResourceName>Three-Component Magnetometer SG-R8</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
       <Description>This magnetometer is designed for studying space and time variations of the magnetic field intensity. In addition, it enables one to determine the attitude of the subsatellite with respect to the magnetic field vector. SG-R8 is a triaxial flux-gate magnetometer with automatic switching of sensitivity among the four ranges (+/-) 65536, 8192, 1024, and 128 nT. Resolutions in these ranges are, respectively, 8 nT, 1 nT, 0.125 nT, and 15.6 pT.
 The data from the magnetometer pass through a digital converter, which has 13 bits and the sign. Its operation is synchronized with the STS telemetry system. The main output of the magnetometer is digital. For emergency situations the device has one analog output, from which one can obtain the Hx , Hy , and Hz data with lower accuracy (8 bits). The detector is fixed at the top of a rigid short boom, which enables one to determine precisely the attitude of the magnetometer axes with respect to the construction axes of the subsatellite.</Description>
       <Contact>

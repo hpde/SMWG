@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Voyager1/PLS</ResourceID>
     <ResourceHeader>
       <ResourceName>Plasma Spectrometer (PLS)</ResourceName>
       <AlternateName>PLS</AlternateName>
-      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:02Z</ReleaseDate>
       <Description>The plasma investigation made use of two Faraday-cup detectors, one pointed along the earth-spacecraft line and one at right angles to this line. The earth-pointing detector determined the macroscopic properties of the plasma ions, obtaining accurate values of their velocity, density, and pressure. Three sequential energy scans were employed with (delta E)/E equal to 20, 7.2, and 1.8%, allowing a coverage from subsonic to highly supersonic flow. The side-looking Faraday cup measured electrons in the energy range from 5 eV to 1 keV.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/John.D.Richardson</PersonID>

@@ -1,12 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/DynamicsExplorer1/PWI</ResourceID>
     <ResourceHeader>
       <ResourceName>Plasma Waves Instrument (PWI)</ResourceName>
       <AlternateName>PWI</AlternateName>
-      <ReleaseDate>2009-03-23T16:06:47Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:15Z</ReleaseDate>
       <Description>
         The Plasma Wave Instrument (PWI) measured ac electric fields 
         over the frequency range from 1 Hz to 2 MHz, and an amplitude 

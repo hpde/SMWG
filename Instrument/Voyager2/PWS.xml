@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Voyager2/PWS</ResourceID>
     <ResourceHeader>
       <ResourceName>Plasma Wave System (PWS)</ResourceName>
       <AlternateName>PWS</AlternateName>
-      <ReleaseDate>2008-06-18T16:52:29Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:14Z</ReleaseDate>
       <Description>This investigation provided continuous, sheath-independent measurements of the electron density profiles at Jupiter and Saturn and will provide similar measurements for Uranus and Neptune. It also gave basic information on local wave-particle interactions required to carry out comparative studies of the physics of the magnetospheres of these planets. The instrumentation consisted of a 16-channel step frequency receiver and a low-frequency waveform receiver with associated electronics. The frequency range for this instrument was from 10 Hz to 56 kHz. This instrument shared the 10-m antennas developed for the planetary radio astronomy investigation.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Donald.A.Gurnett</PersonID>

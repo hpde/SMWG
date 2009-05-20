@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/GOES5/SEM</ResourceID>
     <ResourceHeader>
       <ResourceName>Space Environment Monitor (SEM)</ResourceName>
-      <ReleaseDate>2008-12-28T17:50:21Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:15Z</ReleaseDate>
       <Description>The Space Environment Monitor Subsystem (SEM) measures in situ the effect of the sun on the near-earth solar-terrestrial electromagnetic environment on a real-time basis. This information is provided to the Space Environment Services Center where it is used for "near-space weather" reports. These reports, which include solar activity, are important to the operators of communication, navigation, electric power transmission systems, and satellites.
 The SEM consists of four instruments. The Energetic Particle Sensor (EP8,formerly called EPS) makes flux measurements of protons in the 0.8 to 500 MeV range. The High Energy Proton and Alpha Detector (HEPAD) monitors protons in four energy ranges above 350 MeV and alpha particles in two energy ranges above 640 MeV/nucleon. The solar X-Ray Sensor permits real-time determination of the solar x-ray emission in two spectral bands: 0.5-5 angstroms and 1-8 angstroms. The Magnetic Field Sensor (MFS) allows for the real-time determination of the magnitude and orientation of the magnetic field. Data will be telemetered twice a second for magnetic fields having a magnitude of +/- 1000 nanotesla (nT).</Description>
       <Contact>
@@ -18,12 +18,11 @@ The SEM consists of four instruments. The Energetic Particle Sensor (EP8,formerl
       </Contact>
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
-    <InstrumentType>Energetic.Particle.Sensor</InstrumentType>
-    <InstrumentType>Ion.Chamber</InstrumentType>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InstrumentType>IonChamber</InstrumentType>
     <InvestigationName>Space Environment Monitor (SEM) on GOES 5</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/GOES5</ObservatoryID>
-
-  <Caveats>From http://goes.ngdc.noaa.gov/data/avg/readme.txt: Electron Data Quality
+    <Caveats>From http://goes.ngdc.noaa.gov/data/avg/readme.txt: Electron Data Quality
 
 The Electron detector responds significantly to protons above 32 MeV; therefore, 
 electron data are contaminated when a proton event is in progress. Beginning 
@@ -41,7 +40,7 @@ extended to November 5, 1991. The detector was commanded off for 12 hours. At
 turn-on the detector appeared to have recovered, but failed again on November 
 11, with a rerecovery on November 12 after a second turn-off of three hours. The 
 detector has since operated normally. The noise periods may be identified by 
-unusually high rates being shown by the P1 channel and the derived > 1 MeV 
+unusually high rates being shown by the P1 channel and the derived &gt; 1 MeV 
 integral channel. Currently, the GOES-7 Energetic Particle Sensor is left turned 
 off for 4 hours after eclipse to minimize bad data.
 </Caveats>

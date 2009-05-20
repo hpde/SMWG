@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Prognoz6/MAG</ResourceID>
     <ResourceHeader>
       <ResourceName>Three-Axis Fluxgate Magnetometer</ResourceName>
-      <ReleaseDate>2009-03-24T19:37:01Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:15Z</ReleaseDate>
       <Description>A three-axis fluxgate magnetometer was used to measure vector magnetic fields from 1 to 60 nT with an intensity resolution of 0.5 nT. Both interplanetary and geomagnetic tail fields could be measured.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Evgeniya.A.Eroshenko</PersonID>

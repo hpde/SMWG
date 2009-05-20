@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Magsat/VMAG</ResourceID>
     <ResourceHeader>
       <ResourceName>Vector Magnetometer</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:10Z</ReleaseDate>
       <Description>The vector magnetometer consisted of three fluxgate sensing elements aligned along orthogonal axes. The output of each vector sensor was converted to a digital word by an analog-to-digital converter. The outputs of all these axes were sampled essentially at the same time. Sixteen vectors were measured per second. Each vector measurement had a resolution of better than 1 nT and an absolute accuracy of better than 6 nT rms when referenced to a geocentric coordinate system. The measurement range was plus or minus 6.4E4 nT.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.A.Langel.III</PersonID>

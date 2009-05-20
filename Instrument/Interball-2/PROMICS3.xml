@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Interball-2/PROMICS3</ResourceID>
     <ResourceHeader>
       <ResourceName>Ion Composition and Energy (PROMICS-3)</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:11Z</ReleaseDate>
       <Description>PROMICS-3 is a plasma experiment and performs three-dimensional measurements of ions in the energy range 4 eV to 70 keV with mass separation (M = 1 - 32), and of electrons in the energy range 12 eV to 35 keV. The instrument uses toroidal electrostatic analyzers. MEPS is the electron spectrometer, and TRICS is the ion mass spectrometer.
 Interball Tail Probe and Interball Auroral Probe both carry identical PROMICS-3 instruments, thus facilitating direct comparisons of the particle distributions.
 See the web page at http://www.irf.se/rpg/interball.html for further information.

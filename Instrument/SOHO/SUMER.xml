@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/SOHO/SUMER</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar Ultraviolet Measurement of Emitted Radiation (SUMER)</ResourceName>
       <AlternateName>SUMER</AlternateName>
-      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:10Z</ReleaseDate>
       <Description>This instrument, SUMER (Solar Ultraviolet Measurement of Emitted Radiation) is a high resolution far UV spectrometer working in the 50--160 nm range. Its goals are to make measurements with 1 arcsec angular resolution, a spectral resolving power (lambda/Delta-lambda) of 30,000, and a time resolution better than 10 s. The spectrometer is able to build images at several wavelengths and to record spectra of any structure on the solar surface or nearby the solar limb. SUMER is capable of selecting small structures to determine local plasma parameters (temperature, density, velocity, etc.), to improve our knowledge in coronal heating mechanisms and solar wind generation processes. The instrument is composed of: a one mirror telescope; a set of slits at the focus, adjustable in flight; a spectrometer (using a spherical concave grating) fed through the selected slit; and a detector. The detector is located on the grating normal. The detector is a 2-D MAMA (Multi-Anode Multichannel Array) with 1024 pixels (25 micrometers) along the dispersion and 360 pixels along the slit length image. Along the dispersion the pixels are coated with two photocathodes of different efficiency: half with MgF2, half with KBr. An attenuator is used for H I Lyman alpha. Instrument operations will make optimum use of the SOHO capability for 9.3 hours continuous contact and two 1.3 hour contacts during each 24 hour day. The EIT instrument on the same spacecraft will provide near real time images that can be used to refine the operations of the SUMER in real time. This information is from the paper ``SUMER: Temperatures, Densities, and Velocities in the Outer Solar Atmosphere,'' by P. Lemaire et al. (Proceedings of the First SOHO Workshop, ESA SP-348, pp. 13-16, November 1992).</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Klaus.Wilhelm</PersonID>

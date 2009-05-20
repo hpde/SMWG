@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Magion-4/LSP</ResourceID>
     <ResourceHeader>
       <ResourceName>Two-component Current Langmuir Slit Probe, LSP</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
       <Description>The Langmuire Slit Probe is used to measure two components of the current density in space. The input signal frequency range is 0.3 Hz to 50 kHz. The output 1 has a linear characteristic over the whole frequency range; in output 2 the characteristic is proportional to the frequency in the range 15 to 1000 Hz.
 The noise threshold normalized to the input is 10^-13 A/cm^2. The dynamical range of the input signal variations is 80 dB for the first output. The dynamical range is measured from the noise level for a given frequency band to the maximum signal on the detector input. The gain is 70 +/- 10 for output 1 and 3500 +/- 500 for output 2. To calculate the transmission coefficient Ct for a parameter under measurement one should multiply these values by 42.45 V m/kA cm^2.</Description>
       <Contact>

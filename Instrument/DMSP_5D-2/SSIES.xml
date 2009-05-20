@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/DMSP_5D-2/SSIES</ResourceID>
     <ResourceHeader>
       <ResourceName>SSIES Special Sensor Topside Thermal Plasma Monitor</ResourceName>
-      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:10Z</ReleaseDate>
       <Description>SSIES Special Sensor Topside Thermal Plasma Monitor on DMSP_5D-2.  The SSI/ES is an improved version of the Special Sensor for Ions and Electrons (SSI/E). The SSI/E instruments measure the ambient electron density and temperatures, the ambient ion density, and the average ion temperature and molecular weight at the DMSP orbital altitude.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Rita.C.Sagalyn</PersonID>

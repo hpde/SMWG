@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/GOES9/SEM</ResourceID>
     <ResourceHeader>
       <ResourceName>Space Environment Monitor</ResourceName>
-      <ReleaseDate>2008-06-18T17:50:21Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:13Z</ReleaseDate>
       <Description>The Space Environment Monitor (SEM) System on the GOES-NEXT series of geostationary meteorological satellites (GOES-I through GOES-M) is designed to provide direct real-time measurement of solar activity. The SEM consists of a Magnetic Field Sensor, a Solar X-ray Sensor, and an Energetic Particle Sensor (formerly called EPS, now called EP8) / High Energy Proton and Alpha Detector (HEPAD). The Magnetic Field Sensor (MFS) allows for the real-time determination of the magnitude and orientation of the magnetic field. Data will be telemetered twice a second for magnetic fields having a magnitude of +/- 1000 nanotesla (nT). The Solar X-Ray Sensor permits real-time determination of the solar x-ray emission in two spectral bands: 0.5-5 angstroms and 1-8 angstroms. The EPS makes flux measurements of protons in the 0.8 to 500 MeV range. The HEPAD monitors protons in four energy ranges above 350 MeV and alpha particles in two energy ranges above 640 MeV/nucleon.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
@@ -17,7 +17,7 @@
         <Description>Information about the Space Environment Monitor experiment on the GOES  9 mission.</Description>
       </InformationURL>
     </ResourceHeader>
-    <InstrumentType>UNKNOWN</InstrumentType>
+    <InstrumentType>Unspecified</InstrumentType>
     <InvestigationName>Space Environment Monitor on GOES  9</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/GOES9</ObservatoryID>
   </Instrument>

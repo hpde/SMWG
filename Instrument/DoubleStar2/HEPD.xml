@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/DoubleStar2/HEPD</ResourceID>
     <ResourceHeader>
       <ResourceName>High-Energy Proton Detector (HEPD)</ResourceName>
       <AlternateName>HEPD</AlternateName>
-      <ReleaseDate>2008-06-18T17:50:20Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
       <Description>HEPD (High Energy Proton Detector): The Principal Investigators are J. Liang and J. B. Cao, CSSAR, China. No further information is available.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>

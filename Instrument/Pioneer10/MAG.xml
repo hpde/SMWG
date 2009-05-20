@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Pioneer10/MAG</ResourceID>
     <ResourceHeader>
       <ResourceName>Magnetic Fields</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:15Z</ReleaseDate>
       <Description>The magnetometer on Pioneer 10 (also carried on Pioneer 11) is a triaxial helium magnetometer with seven dynamic ranges, from plus or minus 2.5 nT to plus or minus 10 gauss. The linearity was 0.1%, and the noise threshold was 0.01% rms for 0-1 Hz. The accuracy was 0.5% of full scale range. The experiment worked as planned until November 1975, when the spacecraft was at about 8 au. No further useful data were obtained. The experimenter has used RTN coordinates in his data analysis. In this system, R (or X) is radially outward from the sun, T (or Y) is parallel to the sun's equatorial plane and has its direction given by the cross product of the sun's spin vector into the radial direction (i.e., into R) and N (or Z) completes the right-handed orthogonal system (positive northward). A detailed instrument description may be found in Smith et al., IEEE Trans. On Magnetics, Mag-11, p. 962, July 1975. Some data also include the interplanetary region. This instrument failed in October 1975 and was turned off in June 1986.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Edward.J.Smith</PersonID>

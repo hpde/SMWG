@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/NeutronMonitor/Haleakala</ResourceID>
     <ResourceHeader>
       <ResourceName>Haleakala Neutron Monitor</ResourceName>
-      <ReleaseDate>2009-04-27T16:52:28Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:14Z</ReleaseDate>
       <Description>The Haleakala, Hawaii Neutron Monitor was established in 1991 as a long-term replacement for the monitor at Huancayo, Peru.  It consists of a standard 12-tube IGY monitor and an 18-tube NM-64 supermonitor.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Clifford.Lopate</PersonID>

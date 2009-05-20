@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Interball-1/AMEI2</ResourceID>
     <ResourceHeader>
       <ResourceName>Energy-Mass Analyzer (AMEI-2)</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:11Z</ReleaseDate>
       <Description>The low energy plasma composition spectrometer AMEI-2 is built to be able to find in the low energy range of the phase space (E, q, j) and separate the fluxes of the major ion species in the magnetotail (H+, He++, He+ and O+), and analyse their energy and angular distributions. It scans an energy range 0.3 - 10 keV/q, respectively (m/q)*(E/q) = 0.3 - 160 a.m.u.*keV/q2. Masses m/q =1,2,4 and 16 are measured simultaneously. Energy bandpass is about 20%. Electrostatic angular scanning in one direction and the use of the spin of the satellite to sample the other angle give the ability to measure 2-D distributions for each ion specie several times per spin. Onboard identification of ion mass and flexible information capacities are provided.
 The measurement cycle of the instrument is controlled by the "top of spin" signal and the 1/1024 part of spin period signals, produced by the BNS instrument. The 4pi solid angle is separated into three parts: a solar cone with angle 80 degrees; an antisolar cone with angle of 44 degrees; and a band (+25, -40 degrees) perpendicular to the spin axis. The deflection voltages necessary to measure 210 energy-angular steps and mass spectra are programmed in the microcomputer. Sets of 128, 64 or 32 energy-angular steps can be selected by ground commands. The measurement cycle consists of an angular scan in a given cone for one set of energies, and then the scans for the same sequence of energies are made for other angular ranges. In slow modes, measurements at each energy-angular step can be integrated over different ranges of azimuth angle, i.e. data obtained at each step for several measurement cycles are summed.
 AMEI-2 is a joint Bulgarian-Russian instrument, developed and manufactured by STILL-BAS, Sofia and IKI-RAN, Moscow. The instrument began operating August 17, 1995 after the BNS system was switched on in automatic mode. There are some quota problems due to failure in the flag circuit to SSNI information system. Though the instrument was designed for measurements in the tail, some events of ion beams in the magnetosheath have been observed.</Description>

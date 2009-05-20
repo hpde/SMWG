@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>1.2.0</Version>
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/WDC/Loparskoe/Magnetometer</ResourceID>
     <ResourceHeader>
       <ResourceName>Loparskoe Ground Magnetic Field Instrument</ResourceName>
       <AlternateName>Murmans Ground Magnetic Field Instrument</AlternateName>
-      <ReleaseDate>2008-08-21T16:37:57Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:07Z</ReleaseDate>
       <ExpirationDate>2099-12-31T23:59:59.999</ExpirationDate>
       <Description>The magnetic field instrument at the Loparskoe ground station</Description>
       <Acknowledgement>Geophysical Observatory Loparskaya, Polar Geophysical Institute, Kola Science Centre, Russian Academy of Science</Acknowledgement>

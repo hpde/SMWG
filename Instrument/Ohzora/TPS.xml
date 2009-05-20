@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Ohzora/TPS</ResourceID>
     <ResourceHeader>
       <ResourceName>Topside Plasma Sounder</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:15Z</ReleaseDate>
       <Description>This experiment used a topside sounder with a receiver that could measure ionospheric electron density profiles, radio waves emanating from the planets and the higher harmonic emissions from terrestrial electric power lines.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Hiroshi.Oya</PersonID>
@@ -17,7 +17,7 @@
         <Description>Information about the Topside Plasma Sounder experiment on the Ohzora mission.</Description>
       </InformationURL>
     </ResourceHeader>
-    <InstrumentType>UNKNOWN</InstrumentType>
+    <InstrumentType>Sounder</InstrumentType>
     <InvestigationName>Topside Plasma Sounder on Ohzora</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Ohzora</ObservatoryID>
   </Instrument>

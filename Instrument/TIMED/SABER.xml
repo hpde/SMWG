@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/TIMED/SABER</ResourceID>
     <ResourceHeader>
       <ResourceName>Sounding of the Atmosphere using Broadband Emission Radiometry (SABER)</ResourceName>
       <AlternateName>SABER</AlternateName>
-      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:15Z</ReleaseDate>
       <Description>The Sounding of the Atmosphere using Broadband Emission Radiometry (SABER) instrument is a 10-channel infrared (1.27 to 16.9 micrometers) radiometer that measures Earth limb emissions. Once every 58 seconds, SABER scans up and down the Earth's horizon collecting data over an altitude range from approximately 180 kilometers (about 112 miles) down to the Earth's surface. It is measuring the vertical distributions of elemental constituents, such as ozone, water vapor, carbon dioxide, and nitrogen and hydrogen gases, as well as temperature. The telescope and baffle assembly are cooled to 240 K by a dedicated radiator. The focal plane assembly, consisting of a filter array, a detector array, and a Lyot stop is cooled to 75 K by a miniature cryogenic refrigerator. Instrument responsivity drifts due to changes in telescope and focal plane base temperatures as well as other causes are corrected by an in-flight calibration system. The altitude resolution is 10 km to 180 km and the Limb Vertical Sampling Interval is 0.4 km. The experiment builds on a rich spaceflight heritage of limb sounding including the Nimbus-7 LIMS experiment, SAMS, CIRRIS, ATMOS, HALOE, CLAES, ISAMS, and SME. With SABER this techniques is used for the first time in the MLTI region.
 Home_page:
 http://saber.larc.nasa.gov/</Description>
@@ -20,7 +20,7 @@ http://saber.larc.nasa.gov/</Description>
         <Description>Information about the Sounding of the Atmosphere using Broadband Emission Radiometry (SABER) experiment on the TIMED mission.</Description>
       </InformationURL>
     </ResourceHeader>
-    <InstrumentType>UNKNOWN</InstrumentType>
+    <InstrumentType>Sounder</InstrumentType>
     <InvestigationName>Sounding of the Atmosphere using Broadband Emission Radiometry (SABER) on TIMED</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/TIMED</ObservatoryID>
   </Instrument>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/POLAR/PIXIE</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar Ionospheric X-ray Imaging Experiment (PIXIE)</ResourceName>
       <AlternateName>PIXIE</AlternateName>
-      <ReleaseDate>2008-06-18T17:53:11Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:13Z</ReleaseDate>
       <Description>The objective of this investigation is to measure the spatial distribution and temporal variations of X-ray emissions from the earth's atmosphere. The instrument consists of two major subsystems, the multiple pinhole camera and signal-processing electronics, and the digital electronics. The detector in the camera is a position-sensitive multiwire proportional counter. The signal processing electronics identify events as X-ray interactions (or not), locate the events in three-dimensional space, and determine the X-ray energy. The energy range is 1-100 keV, with spectral resolution of 15% FWHM at 6 keV (inversely proportional to the square root of the energy). The field of view is variable, 8.5, 12, 16, or 33 deg, with spatial resolution of 0.35 to 1.0 deg. Temporal resolution is 1-30 min (typically 5 min).</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Michael.Schulz</PersonID>

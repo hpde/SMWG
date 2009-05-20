@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Interball-1/RF15I</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar X-ray Bursts (RF-15I)</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:11Z</ReleaseDate>
       <Description>The RF-15I instrument is designed to study solar flare X-ray radiation with emphasis on flare energetics. It consists of two parts: soft and hard X-ray photometer observing the whole disk solar emission with high time resolution; and solar soft X-ray imager KRF (Rotating Modulation Collimator) called the tomograph.
 The detectors nominally point toward the Sun. The spacecraft spin axis is to be repointed towards the centre of the solar disk each time it move more than 10 degrees from the Sun due to motion of the Earth around the Sun. One satellite revolution takes about 118 seconds.
 The soft and hard X-ray photometer has two detector systems:&lt;br&gt; &lt;sp&gt;(1) A proportional argon gas-filled (350 Torr) detector of aperture 4.5 mm**2 with a Be filter of 150 mm thickness. The largest cross-sectional area of the detector for gamma radiation is 10.5 cm**2. This detector nominally registers the soft X-ray solar flux in the three energy channels 2-3-5-8 keV every 2 seconds.&lt;br&gt; &lt;sp&gt;(2) A Na(I) scintillation detector of 15.2 cm**2 aperture and crystal thickness 8 mm. This detector registers every 0.125 seconds the hard X-ray flux in five energy bands 10-15-30-60-120-240 keV provided that appropriate rate thresholds are exceeded in each of the upper four energy ranges. In the lowest energy range 10-15 keV, the data are collected every 2 seconds simultaneously with the softer proportional detector channels.
@@ -22,7 +22,8 @@ The web pages at http://www.cbk.pan.wroc.pl/RF15-I_www/default.htm provide more 
         <Description>Information about the Solar X-ray Bursts (RF-15I) experiment on the Interball Tail Probe mission.</Description>
       </InformationURL>
     </ResourceHeader>
-    <InstrumentType>UNKNOWN</InstrumentType>
+    <InstrumentType>Photometer</InstrumentType>
+    <InstrumentType>Imager</InstrumentType>
     <InvestigationName>Solar X-ray Bursts (RF-15I) on Interball Tail Probe</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Interball-1</ObservatoryID>
   </Instrument>

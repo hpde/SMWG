@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/SOHO/VIRGO</ResourceID>
     <ResourceHeader>
       <ResourceName>The Variability of Solar Irradiance and Gravity Oscillations (VIRGO)</ResourceName>
       <AlternateName>VIRGO</AlternateName>
-      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:10Z</ReleaseDate>
       <Description>The Variability of Solar Irradiance and Gravity Oscillations (VIRGO) investigation is an experiment to study the solar irradiance variability and oscillations. The instrumentation of VIRGO is comprised of two active cavity radiometers, observing the total irradiance, and the sun photometers, measuring the spectral irradiance at three wavelengths in the near ultraviolet, the visible and near infrared (335, 550 and 865 nm). In addition, narrow-band radiance measurements (at 500 nm) are carried out with twelve resolution elements on the solar disc by a high-precision luminosity oscillation imager. This information is from the paper ``SOHO - An Observatory to Study the Solar Interior and the Solar Atmosphere,'' by A. I. Poland and V. Domingo (in ``Observatories in Earth Orbit and Beyond,'' pp. 277-284, ed. by Y. Kondo, Kluwer Academic Publishers, Dordrecht, 1990).</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Claus.Frohlich</PersonID>
@@ -18,7 +18,8 @@
         <Description>Information about the The Variability of Solar Irradiance and Gravity Oscillations (VIRGO) experiment on the SOHO mission.</Description>
       </InformationURL>
     </ResourceHeader>
-    <InstrumentType>UNKNOWN</InstrumentType>
+    <InstrumentType>Radiometer</InstrumentType>
+    <InstrumentType>Photometer</InstrumentType>
     <InvestigationName>The Variability of Solar Irradiance and Gravity Oscillations (VIRGO) on SOHO</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/SOHO</ObservatoryID>
   </Instrument>

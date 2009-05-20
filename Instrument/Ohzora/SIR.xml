@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Ohzora/SIR</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar Image-Radiometer</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:15Z</ReleaseDate>
       <Description>This investigation used a solar image radiometer in several visible and near-infrared bands to measure the limb absorption of the solar spectrum to obtain vertical profiles of stratospheric aerosols and ozone.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Masumi.Takagi</PersonID>
@@ -17,7 +17,7 @@
         <Description>Information about the Solar Image-Radiometer experiment on the Ohzora mission.</Description>
       </InformationURL>
     </ResourceHeader>
-    <InstrumentType>UNKNOWN</InstrumentType>
+    <InstrumentType>Radiometer</InstrumentType>
     <InvestigationName>Solar Image-Radiometer on Ohzora</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Ohzora</ObservatoryID>
   </Instrument>

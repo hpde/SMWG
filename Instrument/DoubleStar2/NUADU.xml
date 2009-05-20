@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/DoubleStar2/NUADU</ResourceID>
     <ResourceHeader>
       <ResourceName>Neutral Atom Detection Unit (NUADU)</ResourceName>
       <AlternateName>NUADU</AlternateName>
-      <ReleaseDate>2008-06-18T17:50:20Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:13Z</ReleaseDate>
       <Description>NUADU (NeUtral Atom Detection Unit) measures the energetic neutral atoms created by collision of energetic ions with the ambient, cold neutral atoms. Of interest are the energetic neutral atoms coming out of the "Ring Current" belt in the magnetosphere. The Principal Investigator is S. McKenna Lawlor, National University of Ireland, Kildare, Ireland.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
@@ -18,7 +18,7 @@
         <Description>Information about the Neutral Atom Detection Unit (NUADU) experiment on the Double Star 2 mission.</Description>
       </InformationURL>
     </ResourceHeader>
-    <InstrumentType>UNKNOWN</InstrumentType>
+    <InstrumentType>NeutralParticleDetector</InstrumentType>
     <InvestigationName>Neutral Atom Detection Unit (NUADU) on Double Star 2</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/DoubleStar2</ObservatoryID>
   </Instrument>

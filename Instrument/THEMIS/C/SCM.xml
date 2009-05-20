@@ -1,12 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1.3.2.xsd">
-  <Version>1.3.2</Version>
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/THEMIS/C/SCM</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS-C: Search Coil Magnetometer</ResourceName>
       <AlternateName>THEMIS-C SCM</AlternateName>
-      <ReleaseDate>2008-12-09T21:38:30Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:04Z</ReleaseDate>
       <Description>THEMIS-C Search Coil Magnetometer for measuring three dimensional changes in magnetic flux between 0.1 Hz and 4 kHz; the range extending to 8 kHz under certain conditions.  The instrument is mounted on a ridged, retractable boom one meter in length extending from the top corner of the spacecraft (positive y-axis, negative x-axis in SPG coordinates).  The SCM boom deploys at an angle of -167.9 degrees from the x-axis (SPG) and 10.1 degrees above the spin plane.  Two of the probe's sensors are aligned within the spin plane of the spacecraft, with the B_x component 12.1 degrees from the SPG x-axis, the third being parallel to the spin axis completing a right handed orthogonal system.  The three sensors are composed of two windings surrounding a core with a high magnetic permeability.  The main winding, used for detection, consists of 51600 turns; the secondary winding introduces a flux feedback to damped the frequency response of the sensor and keep it independent of temperature variation.  Multi-Layer Insulation keeps the probe thermally insulated while electrostatic shielding reduces its sensitivity to electric fields.  Low noise at slower frewencies allows for sufficient overlap with Fluxgate Magnetomer (FGM) measurements (noise less than 0.76 pT/sqrt(Hz) at 10 Hz).  Data from the SCM is passed through three pre-amplifiers, one for each sensor component, before going on to the DFB and IDPU for processing and digitization.  Survey modes for the SCM are listed below in Table 1.
 
 Table 1: SCM Telemetry Modes.

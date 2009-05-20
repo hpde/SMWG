@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/SAMPEX/HILT</ResourceID>
     <ResourceHeader>
       <ResourceName>Heavy Ion Large Telescope (HILT)</ResourceName>
       <AlternateName>HILT</AlternateName>
-      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:14Z</ReleaseDate>
       <Description>The HILT experiment was designed to measure the charge, energy, and mass of cosmic rays in the energy range of about 8.0--310 MeV/nucleon. Specifically, the energy ranges were: He:3.9--90 MeV/nucleon; C:7.2--160 MeV/nucleon; O:8.3-310 MeV/nucleon; Ne:9.1--250 MeV/nucleon; and, Fe:11--90 Mev/nucleon. The instrument consisted of (a) an array of position sensitive proportional counters at the entrance, followed by (b) an ionization chamber, (c) another array of position sensitive proportional counters just before, (d) a coplanar, 10-element, solid state array of detectors. The detectors were backed by, (e) a large CsI scintillation counter which was viewed by four light sensitive diodes. The geometric factor was as large as 35 cm**2-sr. The two position sensitive counters enabled computation of the exact length of the trajectory along the ionization chamber. Items (a), (b), and (c) were filled with flowing, isobutane gas at a pressure of 75 Torr. The 8.5 kg of liquid isobutane was sufficient for a three year operation. The instrument was basically a dE/dx vs. E system; dE/dx was provided by (a), (b), and (c), and E was provided by (d) and (e). The telemetered signals from all the sensors enabled accurate determination of isotopic mass, charge and energy. However, isotopic resolution was poor at the high energy end of each band, especially for the heavier elements. Species dependent fluxes were, however, readily computed even at the high energy ends. For more details, see IEEE Transactions on Geoscience and Remote Sensing, vol 31, May 93, pp 542-548. The instrument functioned normally as of 15 July 1996; the next update will be only when any significant status change occured.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Glenn.M.Mason</PersonID>

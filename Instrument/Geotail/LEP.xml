@@ -1,12 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_4.xsd">
-  <Version>1.3.4</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Geotail/LEP</ResourceID>
     <ResourceHeader>
       <ResourceName>Geotail Low Energy Particle Experiment</ResourceName>
       <AlternateName>Geotail LEP</AlternateName>
-      <ReleaseDate>2009-03-23T19:16:00Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:15Z</ReleaseDate>
       <Description>The low energy particle (LEP) instrument onboard Geotail is designed to make comprehensive observations of plasma and energetic electrons and ions with fine temporal resolution in the terrestrial magnetosphere (mainly magnetotail) and in the interplanetary medium. It consists of three units of sensors (LEP-EA, LEP-SW and LEP-MS) and common electronics (LEP-E).
       
       The Energy-per-charge Analyzers (EA) measure three-dimensional velocity distributions of electrons (with EA-e) and ions (with EA-i) simultaneously and separately, over the energy-per-charge of several eV/q to 43 keV/q. Emphasis in the EA design is laid on the large geometrical factor to measure tenuous plasma in the magnetotail with sufficient counting statistics in the high-time-resolution measurement.

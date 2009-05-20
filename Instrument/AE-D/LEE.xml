@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/AE-D/LEE</ResourceID>
     <ResourceHeader>
       <ResourceName>Low-Energy Electrons (LEE)</ResourceName>
       <AlternateName>LEE</AlternateName>
-      <ReleaseDate>2008-06-18T16:52:26Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
       <Description>This experiment furnished direct measurements of the energy input into the upper atmosphere due to electrons and protons (ions) in the energy range 0.2 to 25 keV. The fluxes of electrons and ions were measured with cylindrical electrostatic analyzers and Spiraltron electron multipliers. There were 19 detectors, one ion stepped-energy analyzer, and two electron stepped analyzers mounted at different angles. In addition, there were 16 fixed energy detectors which obtained high-time-resolution angular distributions, in the spacecraft one revolution-per-orbit mode, at five energies between 0.72 and 18 keV. More details can be found in R. A. Hoffman et al., Radio Sci., v. 8, n. 4, p. 393, 1973. NSSDC has all the useful data that exist from this investigation.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.A.Hoffman</PersonID>

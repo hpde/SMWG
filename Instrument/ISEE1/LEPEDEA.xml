@@ -1,12 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_1.xsd">
-  <Version>1.2.1</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/ISEE1/LEPEDEA</ResourceID>
     <ResourceHeader>
       <ResourceName>Low-Energy Proton and Electron Differential Energy Analyzer (LEPEDEA)</ResourceName>
       <AlternateName>LEPEDEA</AlternateName>
-      <ReleaseDate>2008-08-26T18:30:38Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:16Z</ReleaseDate>
       <Description>This experiment was designed to study, by means of identical instrumentation on the mother/daughter spacecraft, the spatial and temporal variations of the solar wind and magnetosheath electrons and ions. Protons and electrons in the energy range from 1 eV to 45 keV were measured in 64 contiguous energy bands with an energy resolution (delta E/E) of 0.16. A quadrispherical low-energy proton and electron differential energy analyzer (LEPEDEA), employing seven continuous channel electron multipliers in each of its two (one for protons and one for electrons) electrostatic analyzers was flown on both the mother and the daughter spacecraft. All but 2% of the 4-pi-sr solid angle was covered for particle velocity vectors. A GM tube was also included, with a conical field of view of 40-deg full-angle, perpendicular to the spin axis. This detector was sensitive to electrons with E&gt;45 keV, and to protons with E&gt;600 keV.</Description>
       <Acknowledgement/>
       <Contact>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Aureol3/RIEP-2802</ResourceID>
     <ResourceHeader>
       <ResourceName>Kukushka Soft Particle Spectrometer</ResourceName>
       <AlternateName>RIEP-2802</AlternateName>
-      <ReleaseDate>2008-06-18T16:52:26Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:01Z</ReleaseDate>
       <Description>This experiment consisted of a large-geometric-factor four-channel spectrometer in which incident protons and electrons, each in energy ranges 40-740 eV and 0.76-14 keV, were fed into four electrostatic analyzers. Each of these analyzers could be held at one of, or cycle through, eight energy steps. Energy resolution (delta-E)/E of these steps was 20%. Time resolution for simultaneous measurements in all four analyzers was 10, 80, 320, or 2560 ms according to which memory (ZAP) mode was in use. The instrument's entrance aperture made an angle of 75 deg with the satellite's axis of symmetry which is nominally oriented towards the zenith. For further details, see Galperin el al, Ann. Geophys., 38, 583, 1982.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Yuri.I.Galperin</PersonID>

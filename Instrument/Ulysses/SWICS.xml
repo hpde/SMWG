@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Ulysses/SWICS</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar Wind Ion Composition Spectrometer (GLG/SWICS)</ResourceName>
       <AlternateName>GLG</AlternateName>
       <AlternateName>SWICS</AlternateName>
-      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
       <Description>This investigation utilizes a Solar Wind Ion Composition Spectrometer (SWICS) to determine the elemental and ionic composition, temperatures, and mean speeds of all major solar wind ions from H through Fe. The range of wind speed covered is 145 through 1350 km/s, and the energy/charge (E/Q) range is 110 eV/Q through 66.7 keV/Q. Collimated ions first enter an electrostatic analyzer and are post-accelerated, after exit, by a fixed 30-kV potential (V) into a time-of-flight (T) chamber and then into a solid state detector which measures the energy, E+V. From the measured values of E/Q, T, and E+V, the energy, charge, and mass of an entering ion are fully determined. The instrument has a mass of 5.6 kg, uses 3.6 W mean and 4.7 W peak power, and has a data rate of 44 bps in storage mode and 88 bps in tracking mode.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>

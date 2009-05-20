@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd"
- xmlns="http://www.spase-group.org/data/schema">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Helios1/E8</ResourceID>
     <ResourceHeader>
       <ResourceName>Energetic Electron and Proton Detector</ResourceName>
-      <ReleaseDate>2009-04-14T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:02Z</ReleaseDate>
       <Description>The objective of the experiment (E8) was to study the origin 
 and the distribution mechanism of low-energy electrons and protons. The 
 instrument, a magnetic spectrometer, consisted of six semiconductor detectors 

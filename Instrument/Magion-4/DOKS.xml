@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Magion-4/DOKS</ResourceID>
     <ResourceHeader>
       <ResourceName>Energetic Electron and Proton Spectrometer DOK-S</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:28Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
       <Description>The DOK-S spectrometer is designed to measure the energetic spectrum and angular distribution of electrons in the energy range 20-180 keV and of ions in the range 20-1300 keV.
 In the main operational mode the range of measurements includes 8 energy channels. The instrument consists of two units: detector unit and electronics unit. Two pairs of silicon detectors are used; before one of them in each pair a magnetic filter is placed. The filter deflects from the field of view the electrons with energies lower than 600 keV. A mylar foil is placed before the other detector in each pair to capture the protons with energies up to 400 keV.
 The electronics unit is based on the M80C85 processor, the amplified signals are accumulated in 8 energy channels during 150 ms and then are transformed to digital and analog forms for the instrument data analysis.</Description>

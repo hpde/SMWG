@@ -1,12 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Interball-1/FGMI</ResourceID>
     <ResourceHeader>
       <ResourceName>Tri-axial Fluxgate Magnetometer FGM-I</ResourceName>
       <AlternateName>MFI</AlternateName>
-      <ReleaseDate>2008-11-26T22:23:09Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:11Z</ReleaseDate>
       <Description>The FGM-I instrument on the Interball Tail Probe consists of a triaxial fluxgate magnetometer and a Langmuir split probe plasma current sensor. The analog signal is transmitted to the telemetry system and to the MIF-M filter bank.
 Fields and waves are measured on the Tail Probe by the ASPI consortium of experiments, which includes: MIF-M -- fluxgate and search-coil magnetometers; FGM-I -- triaxial fluxgate sensor and plasma current sensor; OPERA -- a complex of electric field instruments; and PRAM -- the digital waveform processor unit. Two more ASPI instruments, ADS and IFPE, failed to switch on, likely due to hardware problems.
 

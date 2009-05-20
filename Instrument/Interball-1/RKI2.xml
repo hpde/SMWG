@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Interball-1/RKI2</ResourceID>
     <ResourceHeader>
       <ResourceName>Hard ionizing radiation and solar UV radiation RKI-2</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:11Z</ReleaseDate>
       <Description>This instrument measures ionizing radiation at 5, 15, 40, 100, and 500 MeV, and UV radiation from the Sun.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Tamara.V.Kazachevskaya</PersonID>
@@ -17,7 +17,7 @@
         <Description>Information about the Hard ionizing radiation and solar UV radiation RKI-2 experiment on the Interball Tail Probe mission.</Description>
       </InformationURL>
     </ResourceHeader>
-    <InstrumentType>UNKNOWN</InstrumentType>
+    <InstrumentType>Unspecified</InstrumentType>
     <InvestigationName>Hard ionizing radiation and solar UV radiation RKI-2 on Interball Tail Probe</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Interball-1</ObservatoryID>
   </Instrument>

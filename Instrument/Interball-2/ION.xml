@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Interball-2/ION</ResourceID>
     <ResourceHeader>
       <ResourceName>Ion Spectra and Anisotropy (ION)</ResourceName>
-      <ReleaseDate>2008-06-18T16:52:27Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:11Z</ReleaseDate>
       <Description>The ION experiment flown on the Interball-Aurora mission performs simultaneous ion and electron measurements. Two mass spectrometers looking in opposing directions perpendicular to the satellite spin axis, which points toward the sun, measure ions in the mass and energy ranges 1-32 amu and ~ 0 to 14,000 eV. The ion measurements are complemented by simple electron spectrometers performing measurements in the energy range ~10 eV (or 60 eV) to 20,000 eV.
 Ion composition analyzers:&lt;br&gt; The design of the detector heads of the ION-1 and ION-2 mass spectrometers is based on the principle of the Wien filter, where the mass filtering is performed by crossed electric and magnetic fields. The energy over charge (E/Q) selection is made by a cylindrical electrostatic analyzer placed in front of the filter. At each energy step, the electric field in the magnetic analyzer is programmed in order either to scan 2 or 4 ions (H+, He++, He+, O+).
 Electron analyzers:&lt;br&gt; Two spectrometers, ION3 and 4, measure electron fluxes. They consist of two cylindrical electrostatic analyzer heads and associated electronics.

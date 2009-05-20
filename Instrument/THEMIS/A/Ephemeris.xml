@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
-  <Version>1.3.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/THEMIS/A/Ephemeris</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS-A Probe Status</ResourceName>
       <AlternateName>THEMIS-A Positions</AlternateName>
-      <ReleaseDate>2008-11-11T22:34:11Z</ReleaseDate>
+      <ReleaseDate>2009-05-20T21:10:04Z</ReleaseDate>
       <Description>THEMIS-A probe status (including position)</Description>
       <Contact>
         <!-- Vassilis Angelopoulos -->
@@ -20,7 +20,7 @@
       </Contact>
       <PriorID>spase://SMWG/Instrument/THEMIS-A/Ephemeris</PriorID>
     </ResourceHeader>
-    <InstrumentType>Ephemeris</InstrumentType>
+    <InstrumentType>Platform</InstrumentType>
     <InvestigationName>Spacecraft position</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/THEMIS/A</ObservatoryID>
   </Instrument>
