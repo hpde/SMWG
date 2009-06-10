@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
   <Version>2.0.0</Version>
   <Instrument>
@@ -6,16 +6,30 @@
     <ResourceHeader>
       <ResourceName>Plasma and Supra-Thermal Ion Composition (PLASTIC) Investigation</ResourceName>
       <AlternateName>PLASTIC</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:10Z</ReleaseDate>
-      <Description/>
+      <ReleaseDate>2009-06-10T20:58:02Z</ReleaseDate>
+      <Description>The PLAsma and SupraThermal Ion and Composition (PLASTIC)
+      investigation provides composition (M, M/q), energy spectra and directional
+      information for 0.3-80 keV/q ions, including solar wind H+ and He++ in the
+      "SWS Small Channel," solar wind C, O, MG, Si, and Fe in the "SWS Main Channel,"
+      and locally accelerated ions (H+, He++, He+) and pickup ions (He+, &lt;40 keV/q)
+      in the "Wide Angle Partition."
+      
+      The hardware consists of entrance, time of flight, and electronics subsystems.
+      Mass spectroscospy is achieved by analysis of energy vs. time-of-flight tracks.
+      
+      Further detail is available from from Galvin et al, Sp. Sci. Rev. (2008) 136, 437-486.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Antoinette.B.Galvin</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2006-047A&amp;ex=4</URL>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/masterCatalog.do?sc=2006-047A&amp;ex=4</URL>
         <Description>Information about the Plasma and Supra-Thermal Ion Composition (PLASTIC) Investigation experiment on the STEREO A mission.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>STEREO PLASTIC website</Name>
+        <URL>http://stereo.sr.unh.edu/</URL>
       </InformationURL>
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
