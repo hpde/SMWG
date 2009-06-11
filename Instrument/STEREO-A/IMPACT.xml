@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/STEREO-A/IMPACT</ResourceID>
+    <ResourceHeader>
+      <ResourceName>STEREO-A IMPACT</ResourceName>
+      <AlternateName>STEREO-A In situ Measurements of Particles and CME Transients</AlternateName>
+      <ReleaseDate>2009-06-11T18:54:04Z</ReleaseDate>
+      <Description>The In situ Measurements of Particles and CME Transients (IMPACT)
+investigation makes observations of plasma electrons, magnetic
+fields and energetic particles using an array of seven instruments.
+
+The Solar Wind Electron Analyzer (SWEA; UCB) consists of a boom-
+mounted hemispherical top-hat electrostatic analyzer and measures
+the distribution function of solar wind core and halo electrons from
+below an eV to several keV, with high spectral and angular resolution
+over virtually the full spherical range.
+
+The Suprathermal Electron
+Telescope (STE; UCB) consists of two arrays of silicon semiconductor
+devices measuring ~2-20 keV electrons. The arrays look in opposite
+directions with 80 x 80 deg fields of view.
+
+MAG (GSFC) is a boom-mounted triaxial fluxgate magnetometer just inboard 
+of the SWEA and STE instruments.
+
+The Solar Electron Proton Telescope (SEPT; ESTEC; U. Kiel) consists of two dual,
+double-ended magnet/foil solid state
+detector particle telescopes that separate and measure directional
+fluxes of 20-400 keV electrons and 20-7000 keV protons.
+
+The Supratherman Ion Telescope (SIT; GSFC, MPI, U.Maryland) is a
+time-of-flight ion mass spectrometer that measures elemental
+composition of He-Fe ions over the 30-2000 keV/n energy range.
+
+The Low Energy Telescope (LET; Caltech, GSFC, JPL) is a double-
+fan array of 14 solid state detectors that measures 1.5-13 MeV/n
+protons and helium ions and 2-30 MeV/n heavier ions.
+
+The High Energy Telescope (HET; Caltech, GSFC, JPL) is a linear array of six solid
+state detectors that measures protons and helium ions up to 100 MeV/n
+and electrons up to 5 MeV.
+
+Further IMPACT detail is available in Luhmann et al, Sp. Sci. Rev. (2008) 136: 117-184 and immediately following instrument-specific papers.
+</Description>
+      <Acknowledgement>The STEREO IMPACT Team</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>STEREO/IMPACT Mission Site</Name>
+        <URL>http://sprg.ssl.berkeley.edu/impact/</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2006-047A-03</URL>
+        <Description>Information about the In-Situ Measurements of Particles and CME Transients (IMPACT) experiment on the STEREO A mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>In-Situ Measurements of Particles and CME Transients (IMPACT) on STEREO A</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/STEREO-A</ObservatoryID>
+  </Instrument>
+</Spase>
