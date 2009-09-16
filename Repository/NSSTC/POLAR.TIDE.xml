@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://www.spase-group.org/data/schema"
+	xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+	<Version>2.0.0</Version>
+	<Repository>
+		<ResourceID>spase://SMWG/Repository/NSSTC/POLAR.TIDE</ResourceID>
+		<ResourceHeader>
+			<ResourceName>NSSTC POLAR TIDE Repository</ResourceName>
+			<ReleaseDate>2009-08-01T00:00:00</ReleaseDate>
+			<Description>
+Polar TIDE Resident Archive web server and data archive located at the National Space Science and Technology Center (NSSTC) in 
+Huntsville, Alabama..   There is a mirror site at GSFC, see spase://SMWG/Repository/NASA/GSFC/POLAR.TIDE
+			</Description>
+			<Contact>
+				<PersonID>spase://SMWG/Person/Thomas.E.Moore</PersonID>
+				<Role>PrincipalInvestigator</Role>
+			</Contact>
+			<Contact>
+				<PersonID>spase://SMWG/Person/Paul.D.Craven</PersonID>
+				<Role>GeneralContact</Role>
+			</Contact>
+			<Contact>
+				<PersonID>spase://SMWG/Person/Peggy.Sloan</PersonID>
+				<Role>MetadataContact</Role>
+			</Contact>
+			<InformationURL>
+				<Name>TIDE Home Page</Name>
+				<URL>http://tideuvira.nsstc.nasa.gov/tide/</URL>
+				<Description>
+The Polar Thermal Ion Dynamics Experiment (TIDE) Home Page contains links to that allow users to view summary 
+plots of the entire mission (View Summary Plots and View Thumbnails), analyze, plot, and dump data (Custom Plots 
+and Data Dumps), download processing software and datafiles, plus links to mission operations, documentation, 
+publications, data archives, and instrument description.    
+				</Description>
+			</InformationURL>
+	  		<Association>
+	  			<AssociationID>spase://SMWG/Repository/NASA/GSFC/POLAR.TIDE</AssociationID>
+	  		</Association>
+		</ResourceHeader>
+		<AccessURL>
+			<Name>TIDE Data Archive</Name>
+			<URL>http://tideuvira.nsstc.nasa.gov/tide/archive/</URL>
+			<Description>
+The TIDE Data Archive contains all TIDE data and plot files.  They can most easily be accessed through the appropriate 
+links on the TIDE website but they can be accessed directly.  See http://tideuvira.nsstc.nasa.gov/tide/data_archive_desc.html 
+for the location of the files used in the TIDE level-zero processing software (level-zero, orbit, attitude, mask, and 
+spacecraft potential) and the location of the spectrogram summary plot files (gif, jpeg, and pdf).  The archive contains 
+copies of the TIDE H1and H0 CDF files (also available at the CDAWeb).  Documentation, software, and miscellaneous
+files are also kept on the archive. 
+			</Description>
+		</AccessURL>
+	</Repository>
+</Spase>

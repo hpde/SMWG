@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
   <Version>2.0.0</Version>
   <Instrument>
@@ -9,7 +9,7 @@
       <ReleaseDate>2009-06-10T21:24:45Z</ReleaseDate>
       <Description>The main science objective of the Radio Plasma Imager (RPI) was to characterize plasma in the Earth's magnetosphere utilizing imaging in the radio frequency range.
 
-The RPI on the IMAGE spacecraft was a pioneering instrument designed as a low frequency (3 kHz to 3 MHz) long-range magnetospheric radio sounder, relaxation sounder, and a passive plasma wave instrument. RPI was a highly flexible instrument capable of being programmed to perform these types of measurements at times when IMAGE was located in key regions of the magnetosphere. For the remote sensing RPI transmitted coded electromagnetic waves and used digital pulse compression and spectral integration to isolate the resulting echoes.
+The RPI on the IMAGE spacecraft was a pioneering instrument designed as a low frequency (3 kHz to 3 MHz) long-range magnetospheric radio sounder, relaxation sounder, and a passive plasma wave instrument. RPI was a highly flexible instrument capable of being programmed to perform these types of measurements at times when IMAGE was located in key regions of the magnetosphere. For the remote sensing, RPI transmitted coded electromagnetic waves and used digital pulse compression and spectral integration to isolate the resulting echoes.
 
 The RPI instrument consisted of an electronics unit, four 250-m wire antennas with antenna tuners, and a z-axis antenna with two 10-m lattice booms. RPI used the x axis antennas for all transmissions while echo reception was accomplished on all three. The x-axis dipole antenna was 500 m tip-to-tip at the beginning of the mission but was shortened to 370 m when it apparently collided with a micrometeoroid or orbital debris on 03 October 2000. The Y antenna suffered similar damage to its -Y segment 11 on August 2002 and complete loss of its +Y segment on 30 September 2004.
 
@@ -18,13 +18,33 @@ RPI was capable of detecting direct echoes from the plasmasphere from distances 
         <PersonID>spase://SMWG/Person/Bodo.W.Reinisch</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Ivan.A.Galkin</PersonID>
+        <Role>DataProducer</Role>
+        <Role>TechnicalContact</Role>
+      </Contact> 
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-017A-01</URL>
         <Description>Information about the Radio Plasma Imager (RPI) experiment on the IMAGE mission.</Description>
       </InformationURL>
+      <InformationURL>
+        <Name>IMAGE RPI Instrument Page</Name>
+        <URL>http://image.gsfc.nasa.gov/rpi/</URL>
+        <Description>IMAGE RPI Instrument page maintained by NASA GSFC with RPI facts, description, team, data, documents, discoveries, and related links sections</Description>
+        <Language>en</Language>
+       </InformationURL>
+       <InformationURL>
+         <Name>IMAGE RPI Instrument Page at UML</Name>
+         <URL>http://ulcar.uml.edu/rpi.html</URL>
+         <Description>IMAGE RPI Instrument page maintained by University of Massachusetts Lowell with RPI description, team, software downloads, software user guides, access to CORPRAL automated prospecting results, mission planning tools and commanding guide, data model descriptions for Level 0 and 1, sonification files of 2003 Halloween storm, and useful links</Description>
+         <Language>en</Language>
+       </InformationURL>
     </ResourceHeader>
     <InstrumentType>LongWire</InstrumentType>
+    <InstrumentType>Sounder</InstrumentType>
+    <InstrumentType>ResonanceSounder</InstrumentType>
+    <InstrumentType>SpectralPowerReceiver</InstrumentType>
     <InvestigationName>Radio Plasma Imager (RPI) on IMAGE</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/IMAGE</ObservatoryID>
   </Instrument>

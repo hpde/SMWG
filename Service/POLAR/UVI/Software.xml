@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xmlns="http://www.spase-group.org/data/schema" 
+		xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
+  <Service>
+    <ResourceID>spase://SMWG/Service/POLAR/UVI/Software</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Polar UVI Processing and Viewing Software</ResourceName>
+      <ReleaseDate>2009-08-01T00:00:00</ReleaseDate>
+      <Description>
+The Polar UVI Processing and Viewing Software packages are archived on the NSSTC UVI Data Archive where they are availble for 
+downloading. 
+      </Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/George.K.Parks</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Peggy.Sloan</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+	  <InformationURL>
+	  	<Name>UVI Level-one Processing/Viewing Software: studio</Name>
+        <URL>http://tideuviRA.nsstc.nasa.gov/uvi/uvidata/software/studio</URL>
+		<Description>
+studio is a widget-based IDL program used to analyze and view single Polar UVI level-one images found in the 
+po_level1_uvi_yyyymmdd_vnn.cdf files.  These files are available from on the NSSTC UVI Data Archive 
+(http://tideuviRA.nsstc.nasa.gov/uvi/uvidata/), and the cdaweb (ftp://cdaweb.gsfc.nasa.gov/pub/istp/polar/uvi_level1/).  studio allows 
+presentation of images in MLT-dial format or projected against continental outlines on an Earth projection.  Multiple images can be 
+outputted as single image frames that can be concatenated into a movie. 
+		</Description>
+	  </InformationURL>
+	  <InformationURL>
+	  	<Name>UVI Level-one Viewing Software: l1vu</Name>
+        <URL>http://tideuviRA.nsstc.nasa.gov/uvi/uvidata/software/l1vu</URL>
+		<Description>
+l1vu is a widget-based IDL program used to view Polar UVI level-one images found in the po_level1_uvi_yyyymmdd_vnn.cdf files.  
+These files are available from on the NSSTC UVI Data Archive (http://tideuviRA.nsstc.nasa.gov/uvi/uvidata/), and the cdaweb 
+(ftp://cdaweb.gsfc.nasa.gov/pub/istp/polar/uvi_level1/).  l1vu allows access to instrument housekeeping values and detailed 
+examination of image pixel values.  Though it includes functionality to display images in mlt-dial or geodetic lat/lon formats, its 
+primary role is as an engineering tool to examine the raw image values.
+		</Description>
+	  </InformationURL>
+	  <InformationURL>
+	  	<Name>UVI Level-one Viewing Software: revu</Name>
+        <URL>http://tideuviRA.nsstc.nasa.gov/uvi/uvidata/software/revu</URL>
+		<Description>
+revu is a widget-based IDL program used to view Polar UVI level-one images found in the po_level1_uvi_yyyymmdd_vnn.cdf files.  
+These files are available from on the NSSTC UVI Data Archive (http://tideuviRA.nsstc.nasa.gov/uvi/uvidata/), and the cdaweb 
+(ftp://cdaweb.gsfc.nasa.gov/pub/istp/polar/uvi_level1/).  Unlike studio and l1vu which focus on single image frames, revu is designed 
+to quickly show multiple frames in a movie format.  This allows quick scans of image data and highlights changes.
+		</Description>
+	  </InformationURL>
+	  <InformationURL>
+	  	<Name>UVI L0 to L1 Software: l0tol1</Name>
+        <URL>http://tideuviRA.nsstc.nasa.gov/uvi/uvidata/software/revu</URL>
+		<Description>
+l0tol1 is C/IDL software used to process UVI level-zero data.   The output is the UVI level-one CDF files.  The l0 files
+are available at ftp://pwgdata.gsfc.nasa.gov/pub/compressed/po/uvi/lz/.
+		</Description>
+	  </InformationURL>
+	  <InformationURL>
+	  	<Name>UVI Home Page</Name>
+		<URL>http://tideuvira.nsstc.nasa.gov/uvi/</URL>
+		<Description>
+The Polar Ultraviolet Imager (UVI) Home Page contains links that describe the instrument, its operation, allow the 
+user to view 36 second images and key parameter mosaics from the mission and download software, plus links 
+to the UVI data archive, to lists of UVI publications and presentations, and several miscellaneous mission sites.
+		</Description>
+	  </InformationURL>
+      
+     <Association>
+       <AssociationID>spase://VMO/NumericalData/POLAR/UVI</AssociationID>
+       <AssociationType>Other</AssociationType>
+       <Note>POLAR UVI Processing and Visualization Software</Note>
+     </Association>
+    </ResourceHeader>
+
+    <AccessURL>
+      <Name>Polar UVI Software Archive</Name>
+      <URL>http://tideuviRA.nsstc.nasa.gov/uvi/uvidata/software/</URL>
+	  <Description>The Polar Ultraviolet Imager (UVI) Software Archive.</Description>
+    </AccessURL>   
+
+  </Service>
+</Spase>
