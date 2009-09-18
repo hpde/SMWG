@@ -9,20 +9,21 @@
             <ResourceName>Polar TIDE Summary Spectrograms</ResourceName>
             <ReleaseDate>2009-08-01T00:00:00</ReleaseDate>
 			<Description>
-The TIDE Summary Spectrograms:  There are four types of spectrogram plots.  Half-orbit spectrograms cover all the data in 
-consecutive plots, each plot covers about 9.3 hours.  Perigee spectrograms cover the time period near perigee in 30-60 minute 
-plots prior to 01/01/01 and 3 hour plots from 01/01/01 to 04/16/08.  Plasmasphere spectrograms cover passes through the 
-radiation belts when TIDE was in stand-by mode.  6-hour PSI spectrograms are consecutive plots of data when the Plasma Source 
-Instrument (PSI) was turned on.  For 1996 ion data, there are spectrograms plots for H+, O+, and He+ for data from 03/28/96 to 
-12/07/96.  Each plot has three spectrograms.  The top spectrogram is time versus spin angle.  The energy flux data has been 
-averaged over polar angle and energy.  The middle spectrogram is time versus particle energy.  The energy flux data has been 
-averaged over spin and polar angle.  The bottom spectrogram is time versus polar angle.  The energy flux data has been averaged 
-over spin angle and energy.  For the Total Ion (Stops) data, there are plots for data from 12/08/96 to 04/16/08.  Each plot has two 
-spectrograms.  The top spectrogram is time versus spin angle.  The energy flux data has been averaged over energy.  The bottom 
-spectrogram is time versus particle energy.  The energy flux data has been averaged over spin angle.  The spin angle spectrogram 
-indicates the spacecraft ram direction (X) and the magnetic field location (+ and -).  Additional spacecraft information is listed as part 
-of the time axis at the bottom of the plot.  Processing information including start and stop times are at the top and the bottom of each 
-plot.
+			    The TIDE Summary Spectrograms:  There are four types of spectrogram plots.  Half-orbit spectrograms cover all the data in 
+			    consecutive plots, each plot covers about 9.3 hours.  Perigee spectrograms cover the time period near perigee in 30-60 minute 
+			    plots prior to 01/01/01 and 3 hour plots from 01/01/01 to 04/16/08.  Plasmasphere spectrograms cover passes through the 
+			    radiation belts when TIDE was in stand-by mode.  6-hour PSI spectrograms are consecutive plots of data when the Plasma Source 
+			    Instrument (PSI) was turned on.  For 1996 ion data, there are spectrograms plots for H+, O+, and He+ for data from 03/28/96 to 
+			    12/07/96.  Each plot has three spectrograms.  Each spectrogram plots a parameter, color coded by level, and plotted in time-spin angle 
+			    time-particle energy, or time-polar angle bins. The top spectrogram is time versus spin angle.  The energy flux data has been 
+			    averaged over polar angle and energy.  The middle spectrogram is time versus particle energy.  The energy flux data has been 
+			    averaged over spin and polar angle.  The bottom spectrogram is time versus polar angle.  The energy flux data has been averaged 
+			    over spin angle and energy.  For the Total Ion (Stops) data, there are plots for data from 12/08/96 to 04/16/08.  Each plot has two 
+			    spectrograms.  The top spectrogram is time versus spin angle.  The energy flux data has been averaged over energy.  The bottom 
+			    spectrogram is time versus particle energy.  The energy flux data has been averaged over spin angle.  The spin angle spectrogram 
+			    indicates the spacecraft ram direction (X) and the magnetic field location (+ and -).  Additional spacecraft information is listed as part 
+			    of the time axis at the bottom of the plot.  Processing information including start and stop times are at the top and the bottom of each 
+			    plot.
 			</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Thomas.E.Moore</PersonID>
