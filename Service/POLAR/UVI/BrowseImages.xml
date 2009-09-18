@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xmlns="http://www.spase-group.org/data/schema" 
+		xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
+  <Service>
+    <ResourceID>spase://VMO/NumericalData/POLAR/UVI/BrowseImages</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Polar UVI Browse Images</ResourceName>
+      <ReleaseDate>2009-08-01T00:00:00</ReleaseDate>
+      <Description>
+The Ultraviolet Imager (UVI) is a small camera that detected and produced images of the ultraviolet light of the aurora, day and night.  
+Using any of five specially designed filters the UVI camera imaged an eight degree circular field of view. Images are generated once 
+every 37 seconds with a nominal pixel angular resolution of 0.036 degrees. The Browse Image viewer 
+(http://tideuvira.nsstc.nasa.gov/uvi/brwseimages.html) allows the user to scan all the images by specifying a year and day-of-year.  
+The gif plot files contain the UVI image in geometric coordinates and in magnetic latitude / magnetic local time.  At the bottom of each 
+plot is a plot of Polar Spacecraft altitude in Re versus time for the day with a red line indicating the time/altitude when the image was 
+taken.  Below the plot is list of instrument parameters and spacecraft location. 
+      </Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/George.K.Parks</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Peggy.Sloan</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+	  <InformationURL>
+	  	<Name>UVI Home Page</Name>
+		<URL>http://tideuvira.nsstc.nasa.gov/uvi/</URL>
+		<Description>
+The Polar Ultraviolet Imager (UVI) Home Page contains links that describe the instrument, its operation, allow the 
+user to view 36 second images and key parameter mosaics from the mission and download software, plus links 
+to the UVI data archive, to lists of UVI publications and presentations, and several miscellaneous mission sites.
+		</Description>
+	  </InformationURL>
+    </ResourceHeader>
+
+    <AccessURL>
+      <Name>Polar UVI Browse Images</Name>
+      <URL>http://tideuviRA.nsstc.nasa.gov/uvi/brwseimages.html</URL>
+    </AccessURL>
+
+  </Service>
+</Spase>

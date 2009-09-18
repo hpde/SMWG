@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase 
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xmlns="http://www.spase-group.org/data/schema" 
+		xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
+  <Service>
+    <ResourceID>spase://VMO/NumericalData/POLAR/UVI/KP-Mosaics</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Polar UVI KP Mosaics</ResourceName>
+      <ReleaseDate>2009-08-01T00:00:00</ReleaseDate>
+      <Description>
+The Ultraviolet Imager (UVI) is a small camera that detected and produced images of the ultraviolet light of the aurora, day and night.  
+Using any of five specially designed filters the UVI camera imaged an eight degree circular field of view.  Key Parameter (KP) images 
+are calculated at nominal 5-10 minute intervals at spacecraft altitudes above 6 Re.  The UVI KP image is background subtracted and 
+calibrated to radiance values (photon cm^-2 cm^-1). The data is a rectangular two-dimensional array (228 rows x 200 columns). Only a 
+circular region of the rectangular array contains valid image data.  The UVI KP Image Archive 
+(http://tideuvira.nsstc.nasa.gov/uvi/kpgs-Data.htm) allows the user to look at all the KP Mosaics for a selected month.  The gif or png 
+plot files contain the up to 35 KP images taken with the LBHL filter.   Reference images are also provided showing the location of the 
+UVI field of view relative to continental outlines.
+	 </Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/George.K.Parks</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Peggy.Sloan</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+	  <InformationURL>
+	  	<Name>UVI Home Page</Name>
+		<URL>http://tideuvira.nsstc.nasa.gov/uvi/</URL>
+		<Description>
+The Polar Ultraviolet Imager (UVI) Home Page contains links that describe the instrument, its operation, allow the 
+user to view 36 second images and key parameter mosaics from the mission and download software, plus links 
+to the UVI data archive, to lists of UVI publications and presentations, and several miscellaneous mission sites.
+		</Description>
+	  </InformationURL>
+    </ResourceHeader>
+
+    <AccessURL>
+      <Name>UVI KP Image Archive</Name>
+      <URL>http://tideuvira.nsstc.nasa.gov/uvi/kpgs-Data.htm</URL>
+    </AccessURL>
+    
+  </Service>
+</Spase>
