@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Ulysses/COSPIN/LET</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Low Energy Telescope</ResourceName>
+      <AlternateName>COSPIN/LET</AlternateName>
+      <ReleaseDate>2009-09-18T21:10:12Z</ReleaseDate>
+      <Description>Low Energy Telescope (LET) ~1-20 MeV/n P, He, and heavier nuclei dE/dx telescope with pha capability
+
+LET is one of five instruments that make up the COSPIN suite on the Ulysses spacecraft.  LET was built, and 
+primary data analysis is maintained, by ESTEC, Noordwijk, The Netherlands
+      </Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/R.Bruce.McKibben</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>LET Instrument Description</Name>
+        <URL>http://helio.estec.esa.nl/ssd/let.html</URL>
+        <Description>Information about the LET experiment on the Ulysses mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Low Energy Telescope</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Ulysses</ObservatoryID>
+  </Instrument>
+</Spase>

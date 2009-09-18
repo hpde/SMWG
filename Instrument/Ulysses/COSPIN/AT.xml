@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Ulysses/COSPIN/AT</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Anisotropy Telescopes</ResourceName>
+      <AlternateName>COSPIN/AT</AlternateName>
+      <ReleaseDate>2009-09-18T21:10:12Z</ReleaseDate>
+      <Description>Anisotropy Telescopes (ATs) ~0.7-7 MeV/n P and He with telescopes oriented in two directions with respect to
+the spin axis to provide 3-dimensional anisotropy information.  
+
+ATs are one of five instruments that make up the COSPIN suite
+on the Ulysses spacecraft.  ATs were built, and primary data analysis is maintained, by Imperial College, London, UK. 
+      </Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/R.Bruce.McKibben</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Imperial College COSPIN/AT Web Site</Name>
+        <URL>http://www3.imperial.ac.uk/spat/research/missions/space_missions/ulysses/anisotropy_telescope/instrument_description</URL>
+        <Description>Information about the Anisotropy Telescopes on the Ulysses mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Anisotropy Telescopes</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Ulysses</ObservatoryID>
+  </Instrument>
+</Spase>
