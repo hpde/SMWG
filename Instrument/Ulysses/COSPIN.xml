@@ -7,8 +7,29 @@
       <ResourceName>Cosmic Ray and Solar Particles (SIM/COSPIN)</ResourceName>
       <AlternateName>COSPIN</AlternateName>
       <AlternateName>SIM</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
-      <Description>The objectives of this investigation are to study the energy, charge, and mass spectra of energetic charged particles in interplanetary space in the energy range from approximately 0.5 MeV/nucleon (for protons) to approximately 100 MeV/nucleon; and to study spatial gradients and the propagation of charged particles throughout the heliosphere by measuring absolute flux and vector anisotropy. The instrument consists of six charged-particle telescopes (CPT) and associated electronics. A high-energy telescope provides measurements of the chemical and isotopic composition and of the energy spectrum of the cosmic radiation above approximately 10 MeV/nucleon. A low-energy telescope (LET) extends chemical composition and spectral measurements downward to &lt;1 MeV/nucleon. The anisotropy telescopes, in conjunction with the LET, provide a means of determining the distribution of arrival directions in three dimensions of low-energy protons and He nuclei. A high-flux telescope provides measurements of the intensity and arrival direction of protons, He, C, N, O, and Fe-group nuclei in high-flux environments, such as intense solar flares or Jupiter's magnetosphere, where the other sensor systems may become saturated. Each CPT provides output to a data-processing unit (DPU). The electron telescope consists of a double Cerenkov and semiconductor detector telescope which interfaces with the DPU. The instrument has a mass of 14.6 kg including shielding and uses 14.6 W of power. The data rate is 80 bps in cruise mode and 160 bps in tracking mode.</Description>
+      <ReleaseDate>2009-09-18T21:10:12Z</ReleaseDate>
+      <Description>The objectives of this investigation are to study the energy, charge, and mass spectra of energetic 
+charged particles in interplanetary space in the energy range from approximately 0.5 MeV/nucleon (for protons) to 
+approximately 100 MeV/nucleon; and to study spatial gradients and the propagation of charged particles throughout the 
+heliosphere by measuring absolute flux and vector anisotropy. COSPIN consists of a suite of five seperate instruments,
+each targeted at a distinct population of particles in the cosmic radiation.  All telescopes share a common power supply
+and interface to the spacecraft telemetry system through a common Data Processing Unit.  COSPIN consists of:
+
+Low Energy Telescope (LET) ~1-20 MeV/n P, He, and heavier nuclei dE/dx telescope with pha capability
+
+Anisotropy Telescopes (ATs) ~0.7-7 MeV/n P and He with telescopes oriented in two directions with respect to
+the spin axis to provide 3-dimensional anisotropy information
+
+High Flux Telescope (HFT) ~0.3-7 MeV protons, 0.4-4 MeV/n He small aperture single detector telescope for use in 
+very high flux situations
+
+High Energy Telescope (HET)    ~10-90 MeV/n P, He, and heavier nuclei with same range ~3-10 MeV electrons Large 
+geometry factor high resolution dE/dx and trajectory determining telescope with pha capability optimized for studies of the chemical and isotopic abundances in the cosmic radiation
+
+Kiel Electron Telescope (KET)  ~3-200 MeV electrons, ~3-2100 MeV/n protons and He Large dE/dx and cerenkov telescope
+with pha capability optimized for studies of high energy electrons, protons, and helium.
+
+      </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/R.Bruce.McKibben</PersonID>
         <Role>PrincipalInvestigator</Role>

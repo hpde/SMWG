@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Ulysses/COSPIN/KET</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Kiel Electron Telescope</ResourceName>
+      <AlternateName>COSPIN/KEL</AlternateName>
+      <ReleaseDate>2009-09-18T21:10:12Z</ReleaseDate>
+      <Description>Kiel Electron Telescope (KET)  ~3-200 MeV electrons, ~3-2100 MeV/n protons and He Large dE/dx and cerenkov telescope
+with pha capability optimized for studies of high energy electrons, protons, and helium.
+
+KET is one of five instruments that make up the COSPIN suite on the Ulysses spacecraft.  KET was built, and 
+primary data analysis is maintained, by Christian Albrechts University, Kiel, Germany
+      </Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/R.Bruce.McKibben</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>KET Instrument Description</Name>
+        <URL>http://www.ieap.uni-kiel.de/et/ag-heber/cospin/</URL>
+        <Description>Information about the KET experiment on the Ulysses mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Kiel Electron Telescope</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Ulysses</ObservatoryID>
+  </Instrument>
+</Spase>
