@@ -7,16 +7,20 @@
       <ResourceName>High Flux Telescope</ResourceName>
       <AlternateName>COSPIN/HFT</AlternateName>
       <ReleaseDate>2009-09-18T21:10:12Z</ReleaseDate>
-      <Description>High Flux Telescope (HFT) ~0.3-7 MeV protons, 0.4-4 MeV/n He small aperture single 
-detector telescope for use in very high flux situations
-
-HFT is one of five instruments that make up the COSPIN suite on the Ulysses spacecraft.  HFT was built, and 
-primary data analysis is maintained, by National Research Council, Ottawa, Canada
-
+      <Description>High Flux Telescope (HFT): ~0.3-7 MeV protons, 0.4-4 MeV/n He with a small aperture single detector telescope for use in 
+        very high flux situations
+        
+        HFT is one of five instruments that make up the COSPIN suite on the Ulysses spacecraft.  HFT was built, and 
+        primary data analysis is maintained, by National Research Council, Ottawa, Canada
+        
       </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/R.Bruce.McKibben</PersonID>
         <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/J.David.Anglin</PersonID>
+        <Role>CoInvestigator</Role>
       </Contact>
       <InformationURL>
         <Name>HFT Instrument Description</Name>

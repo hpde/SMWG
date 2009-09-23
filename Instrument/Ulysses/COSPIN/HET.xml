@@ -7,16 +7,20 @@
       <ResourceName>High Energy Telescope</ResourceName>
       <AlternateName>COSPIN/HET</AlternateName>
       <ReleaseDate>2009-09-18T21:10:12Z</ReleaseDate>
-      <Description>High Energy Telescope (HET) ~10-90 MeV/n P, He, and heavier nuclei with same range 
-~3-10 MeV electrons Large geometry factor high resolution dE/dx and trajectory determining telescope 
-with pha capability optimized for studies of the chemical and isotopic abundances in the cosmic radiation
-
-HET is one of five instruments that make up the COSPIN suite on the Ulysses spacecraft.  HET was built, and 
-primary data analysis is maintained, by U. of Chicago, Chicago, IL, USA. 
+      <Description>High Flux Telescope (HFT): ~0.3-7 MeV protons, 0.4-4 MeV/n He with a small aperture single detector telescope for use in 
+        very high flux situations
+        
+        HFT is one of five instruments that make up the COSPIN suite on the Ulysses spacecraft.  HFT was built, and 
+        primary data analysis is maintained, by National Research Council, Ottawa, Canada
+        
       </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/R.Bruce.McKibben</PersonID>
         <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/J.David.Anglin</PersonID>
+        <Role>CoInvestigator</Role>
       </Contact>
       <InformationURL>
         <Name>HET Instrument Description</Name>
