@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<Spase
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xmlns="http://www.spase-group.org/data/schema" 
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
     <Version>2.0.0</Version>
@@ -7,7 +8,7 @@
         <ResourceID>spase://SMWG/Service/POLAR/TIDE/LZsoftware</ResourceID>
         <ResourceHeader>
             <ResourceName>Polar TIDE Level-Zero Processing Software</ResourceName>
-            <ReleaseDate>2009-08-01T00:00:00</ReleaseDate>
+            <ReleaseDate>2009-09-18T00:00:00</ReleaseDate>
 			<Description>
 TIDE level-zero processing software provides several analysis and display options with an extensive list of processing options.  The 
 TIDE team has provided websites that allow users to process data from the web and then download the processed datafiles and 
@@ -85,14 +86,7 @@ The TIDE Home Page contains links to all available information about the instrum
 interactive data processing (Custom Plots and Data Dumps), mission information, and documentation about the website, data, 
 and the processing software.
 				</Description>
-           </InformationURL>
-            
-            <Association>
-                <AssociationID>spase://VMO/NumericalData/POLAR/TIDE/Level-zero</AssociationID>
-                <AssociationType>Other</AssociationType>
-                <Note>Level Zero processing software for POLAR TIDE L0 data.</Note>
-            </Association>
-        
+            </InformationURL>
         </ResourceHeader>
 
 		<AccessURL>
@@ -104,6 +98,5 @@ interactive data processing (Custom Plots and Data Dumps), mission information, 
 and the processing software.
 			</Description>
 		</AccessURL>
-        
     </Service>
 </Spase>

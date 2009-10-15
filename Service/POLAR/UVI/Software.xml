@@ -70,19 +70,13 @@ user to view 36 second images and key parameter mosaics from the mission and dow
 to the UVI data archive, to lists of UVI publications and presentations, and several miscellaneous mission sites.
 		</Description>
 	  </InformationURL>
-      
-     <Association>
-       <AssociationID>spase://VMO/NumericalData/POLAR/UVI</AssociationID>
-       <AssociationType>Other</AssociationType>
-       <Note>POLAR UVI Processing and Visualization Software</Note>
-     </Association>
     </ResourceHeader>
 
     <AccessURL>
       <Name>Polar UVI Software Archive</Name>
       <URL>http://tideuviRA.nsstc.nasa.gov/uvi/uvidata/software/</URL>
-	    <Description>The Polar Ultraviolet Imager (UVI) Software Archive.</Description>
-    </AccessURL>   
+	  <Description>The Polar Ultraviolet Imager (UVI) Software Archive.</Description>
+    </AccessURL>
 
   </Service>
 </Spase>

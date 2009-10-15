@@ -5,10 +5,10 @@
 		xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
   <Version>2.0.0</Version>
   <Service>
-    <ResourceID>spase://VMO/NumericalData/POLAR/UVI/KP-Mosaics</ResourceID>
+    <ResourceID>spase://SMWG/Service/POLAR/UVI/KP-Mosaics</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar UVI KP Mosaics</ResourceName>
-      <ReleaseDate>2009-08-01T00:00:00</ReleaseDate>
+      <ReleaseDate>2009-10-08T00:00:00</ReleaseDate>
       <Description>
 The Ultraviolet Imager (UVI) is a small camera that detected and produced images of the ultraviolet light of the aurora, day and night.  
 Using any of five specially designed filters the UVI camera imaged an eight degree circular field of view.  Key Parameter (KP) images 
@@ -16,8 +16,12 @@ are calculated at nominal 5-10 minute intervals at spacecraft altitudes above 6 
 calibrated to radiance values (photon cm^-2 cm^-1). The data is a rectangular two-dimensional array (228 rows x 200 columns). Only a 
 circular region of the rectangular array contains valid image data.  The UVI KP Image Archive 
 (http://tideuvira.nsstc.nasa.gov/uvi/kpgs-Data.htm) allows the user to look at all the KP Mosaics for a selected month.  The gif or png 
-plot files contain the up to 35 KP images taken with the LBHL filter.   Reference images are also provided showing the location of the 
-UVI field of view relative to continental outlines.
+plot files contain the up to 35 KP images taken with the LBHL (160-190 nm) filter.   Reference images are also provided showing the 
+location of the UVI field of view relative to continental outlines.  UVI Key Parameters are summary data only.  In some cases parameters 
+such as pointing and calibration were not adequate to support quantitative scientific analysis.  They should not to be used for presentation, 
+publication, or analysis. The UVI KP CDF files only contain output for normal instrument mode when the spacecraft is in 9.2 second science 
+telemetry mode.  No Key Parameters are produced when the spacecraft is in maneuver telemetry mode, when UVI is in star (fast) mode, 
+and when the despun platform is pointed away from the earth.
 	 </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/George.K.Parks</PersonID>
@@ -37,11 +41,9 @@ to the UVI data archive, to lists of UVI publications and presentations, and sev
 		</Description>
 	  </InformationURL>
     </ResourceHeader>
-
     <AccessURL>
       <Name>UVI KP Image Archive</Name>
       <URL>http://tideuvira.nsstc.nasa.gov/uvi/kpgs-Data.htm</URL>
     </AccessURL>
-    
   </Service>
 </Spase>

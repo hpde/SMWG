@@ -5,18 +5,21 @@
 		xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
   <Version>2.0.0</Version>
   <Service>
-    <ResourceID>spase://VMO/NumericalData/POLAR/UVI/BrowseImages</ResourceID>
+    <ResourceID>spase://SMWG/Service/POLAR/UVI/BrowseImages</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar UVI Browse Images</ResourceName>
-      <ReleaseDate>2009-08-01T00:00:00</ReleaseDate>
+      <ReleaseDate>2009-10-08T00:00:00</ReleaseDate>
       <Description>
 The Ultraviolet Imager (UVI) is a small camera that detected and produced images of the ultraviolet light of the aurora, day and night.  
 Using any of five specially designed filters the UVI camera imaged an eight degree circular field of view. Images are generated once 
-every 37 seconds with a nominal pixel angular resolution of 0.036 degrees. The Browse Image viewer 
-(http://tideuvira.nsstc.nasa.gov/uvi/brwseimages.html) allows the user to scan all the images by specifying a year and day-of-year.  
-The gif plot files contain the UVI image in geometric coordinates and in magnetic latitude / magnetic local time.  At the bottom of each 
-plot is a plot of Polar Spacecraft altitude in Re versus time for the day with a red line indicating the time/altitude when the image was 
-taken.  Below the plot is list of instrument parameters and spacecraft location. 
+every 37 seconds with a nominal pixel angular resolution of 0.036 degrees. The 5 filters are: 1304 (125-135 nm), 1356 (128-142 nm), 
+LBHS (135-160 nm), LBHL (160-190 nm), and SOLR (175-190).  
+
+The Browse Image viewer (http://tideuvira.nsstc.nasa.gov/uvi/brwseimages.html) allows the user to scan all the images by specifying 
+a year and day-of-year.  The gif plot files contain the UVI image in geometric coordinates and in magnetic latitude / magnetic local time.  
+Each image is a 228 x 200 pixel array of photon intensity.  Below the images is a plot of Polar Spacecraft altitude in Re versus time for 
+the day with a red line indicating the time/altitude when the image was taken.  Below the plot is list of instrument parameters and 
+spacecraft location. 
       </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/George.K.Parks</PersonID>
@@ -36,11 +39,9 @@ to the UVI data archive, to lists of UVI publications and presentations, and sev
 		</Description>
 	  </InformationURL>
     </ResourceHeader>
-
     <AccessURL>
       <Name>Polar UVI Browse Images</Name>
       <URL>http://tideuviRA.nsstc.nasa.gov/uvi/brwseimages.html</URL>
     </AccessURL>
-
   </Service>
 </Spase>

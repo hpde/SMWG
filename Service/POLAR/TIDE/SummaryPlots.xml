@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://www.spase-group.org/data/schema" 
+	xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+    <Version>2.0.0</Version>
+    <Service>
+        <ResourceID>spase://SMWG/Service/POLAR/TIDE/SummarySpectrograms</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Polar TIDE Summary Spectrograms</ResourceName>
+            <ReleaseDate>2009-10-08T00:00:00</ReleaseDate>
+			<Description>
+The TIDE Summary Spectrograms:  There are four types of spectrogram plots.  Half-orbit spectrograms cover all the data in 
+consecutive plots, each plot covers about 9.3 hours.  Perigee spectrograms cover the time period near perigee in 30-60 minute 
+plots prior to 01/01/01 and 3 hour plots from 01/01/01 to 04/16/08.  Plasmasphere spectrograms cover passes through the 
+radiation belts when TIDE was in stand-by mode.  6-hour PSI spectrograms are consecutive plots of data when the Plasma Source 
+Instrument (PSI) was turned on.  
+
+For 1996 ion data, there are spectrograms plots for H+, O+, and He+ for data from 03/28/96 to 12/07/96.  Each plot has three 
+spectrograms.  Each spectrogram plots a parameter, color coded by level, and plotted in time-spin angle, time-particle energy, or 
+time-polar angle bins. The top spectrogram is time versus spin angle.  The energy flux data has been averaged over polar angle and 
+energy.  The middle spectrogram is time versus particle energy.  The energy flux data has been averaged over spin and polar angle.  
+The bottom spectrogram is time versus polar angle.  The energy flux data has been averaged over spin angle and energy.  For the 
+Total Ion (Stops) data, there are plots for data from 12/08/96 to 04/16/08.  Each plot has two spectrograms.  The top spectrogram is 
+time versus spin angle.  The energy flux data has been averaged over energy.  The bottom spectrogram is time versus particle energy.  
+The energy flux data has been averaged over spin angle.  The spin angle spectrogram indicates the spacecraft ram direction (X) and 
+the magnetic field location (+ and -).  Additional spacecraft information is listed as part of the time axis at the bottom of the plot.  
+Processing information including start and stop times are at the top and the bottom of each plot.
+
+TIDE was originally designed to detect mass-resolved ions, H+, O+, He+, and NO+, for 32 energy steps (31 reported), 32 spin angle 
+bins, and 7 polar angle channels.  The detection of time-of-flight direct-events deteriorated rapidly early in the mission, reducing the 
+ability to resolve ion masses and resulting in the lost of information in one axis (Z). After 09/30/96, the ion data is of poor quality and 
+as a result, only Total Ions (Stops) are reported starting 12/08/96. Total Ions is the sum over the 7 polar angle channels of the particle 
+counts detected by the Stop microchannel plate (MCP) detectors. The resolution in the 32 energy steps and in the 32 spin angle bins 
+is retained. 1996 H+, O+, and He+ data are reported in the TIDE H0 CDFs.  In order to avoid damage to the MCPs, starting 03/27/96 
+and continuing throughout the rest of the mission, the high voltage on the MCPs is reduced during radiation belt passes.
+			</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Thomas.E.Moore</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Paul.D.Craven</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Peggy.Sloan</PersonID>
+                <Role>MetadataContact</Role>
+            </Contact>
+           <InformationURL>
+                <Name>TIDE NSSTC Home Page</Name>
+                <URL>http://tideuviRA.nsstc.nasa.gov/tide</URL>
+            </InformationURL>
+           <InformationURL>
+                <Name>TIDE GSFC Home Page</Name>
+                <URL>http://tide.gsfc.nasa.gov/</URL>
+				<Description>
+The TIDE Home Page contains links to all available information about the instrument, its data and software, summary plot viewing, 
+interactive data processing (Custom Plots and Data Dumps), mission information, and documentation about the website, data, 
+and the processing software.
+				</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>TIDE NSSTC Summary Plot Gifwalk</Name>
+                <URL>http://tideuvira.nsstc.nasa.gov/cgi-bin/tide/summary_plots-dir/summary_gif_walk_2.pl</URL>
+            </InformationURL>
+            <InformationURL>
+                <Name>TIDE GSFC Summary Plot Gifwalk</Name>
+                <URL>http://tide.gsfc.nasa.gov/cgi-bin/tide/summary_plots-dir/summary_gif_walk_2.pl</URL>
+				<Description>
+The TIDE Summary Plot Gifwalk lets the user scan through TIDE high time resolution spectrogram plots for the entire Polar mission.  
+The user selects the ion type: Total (Ion), H+, O+, or He+; the year, month, and day to start the viewing; the spectrogram type: half-orbit, 
+perigee, 6-hr PSI operations, or plasmasphere passes; and then presses Update Date/Type/Ion.  Once the gif image is displayed, 
+there are arrow keys that allow the user to move forward and backward in time.  The user can download the gif by right click / save 
+picture as or click on Download the pdf version to see and download the higher quality pdf plot.  There is a TIDE Website navigation 
+bar at the bottom of the webpage.  The user can zoom in on an area of interest by clicking on the image at that point.  That takes the 
+user to the High Time Resolution Spectrogram Custom Plot Webpage, where after changing any default processing options and 
+Submitting Request, a new spectrogram plot will be created.
+				</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>TIDE NSSTC View Thumbnails</Name>
+                <URL>http://tideuviRA.nsstc.nasa.gov/tide/display_thumbnails.html</URL>
+            </InformationURL>
+            <InformationURL>
+                <Name>TIDE GSFC View Thumbnails</Name>
+                <URL>http://tide.gsfc.nasa.gov/display_thumbnails.shtml</URL>
+				<Description>
+The TIDE Thumbnails webpage provides a way to view several TIDE summary spectrograms quickly.  Just specify the time range 
+and select the ion and the spectrogram type (either half-orbit or perigee) and submit request.  Thumbnails of each spectrogram in 
+the time range are displayed 8 per row.  Move the mouse over a thumbnail to get the start time of the plot.  Click on the thumbnail to 
+view the full size gif and get a link to the pdf.
+				</Description>
+            </InformationURL>
+        </ResourceHeader>
+       <AccessURL>
+         <Name>Polar TIDE Summary Spectrograms</Name>
+         <URL>http://tideuvira.nsstc.nasa.gov/cgi-bin/tide/summary_plots-dir/summary_gif_walk_2.pl</URL>
+       </AccessURL>
+
+    </Service>
+</Spase>

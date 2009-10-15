@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<Spase
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xmlns="http://www.spase-group.org/data/schema" 
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
     <Version>2.0.0</Version>
@@ -7,11 +8,11 @@
         <ResourceID>spase://SMWG/Service/POLAR/TIDE/Website</ResourceID>
         <ResourceHeader>
             <ResourceName>Polar TIDE Website</ResourceName>
-            <ReleaseDate>2009-08-01T00:00:00</ReleaseDate>
+            <ReleaseDate>2009-09-18T00:00:00</ReleaseDate>
 			<Description>
-The TIDE Website contains information about the instrument, its operation, its level-zero data and processing software.  Users can 
+The TIDE Website contains information about the instrument, its operation, its level-zero data, and its processing software.  Users can 
 view spectrogram summary plots and interactively process TIDE level-zero data for the entire Polar Mission (03/28/96 through 
-04/16/08).  Only the major webpages are discussed below.  There are several other links on the home pages.  There are mirror sites
+04/16/08).  Only the major webpages are discussed below.  There are several other links on the home page.  There are mirror sites
 at the National Space Science and Technology Center (NSSTC) and GSFC. 
 			</Description>
             <Contact>
@@ -146,14 +147,7 @@ includes links to installation instructions and a link to the processing softwar
 The TIDE Mission Documentation website documentations of all aspects of the Polar/TIDE Mission including the level-zero processing 
 software, instrument operations and commanding, the website, the data archive, the datafiles, and miscellaneous information.
 				</Description>
-            </InformationURL>
-            
-            <Association>
-                <AssociationID>spase://SMWG/Instrument/POLAR/TIDE</AssociationID>
-                <AssociationType>Other</AssociationType>
-            </Association>
-                
-           
+			</InformationURL>
         </ResourceHeader>
 		<AccessURL>
              <Name>NSSTC TIDE Home Page</Name>
