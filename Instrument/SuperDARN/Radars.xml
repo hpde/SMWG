@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_2.xsd">
+  <Version>2.0.2</Version>
+  <Instrument>
+      <ResourceID>spase://SMWG/Instrument/SuperDARN/Radars</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SuperDARN Radars</ResourceName>
+      <ReleaseDate>2009-11-12T22:08:01Z</ReleaseDate>
+      <Description>This array of 14 northern hemisphere radars and 
+7 southern hemisphere radars, and techniques for and uncertainties 
+in deriving geophysical parameters from raw radar data, are available
+from the Information URL given below.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Elsayed.Talaat</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>SuperDARN web page at JHU_APL</Name>
+        <URL>http://superdarn.jhuapl.edu/index.html</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Radar</InstrumentType>
+    <InvestigationName>SuperDARN</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/SuperDARN</ObservatoryID>
+  </Instrument>
+</Spase>
