@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
   <Version>2.0.1</Version>
   <Service>
-    <ResourceID>spase://SMWG/service/CDPP/AMDA/Sofware</ResourceID>
+    <ResourceID>spase://SMWG/Service/CDPP/AMDA/Software</ResourceID>
     <ResourceHeader>
       <ResourceName>AMDA related software</ResourceName>
-      <ReleaseDate>2009-11-13T22:08:14Z</ReleaseDate>
+      <ReleaseDate>2009-11-13T22:16:28Z</ReleaseDate>
       <Description>Programs to read, manage, manipulates objects created and exported by AMDA like time tables</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Vincent.Genot</PersonID>
