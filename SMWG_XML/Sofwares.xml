@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
+   <Version>2.0.1</Version>
+   <Service>
+     <ResourceID>spase://SMWG/service/CDPP/AMDA/Sofwares</ResourceID>
+     <ResourceHeader>
+	<ResourceName>AMDA related softwares</ResourceName>
+	<ReleaseDate>2009-09-02T00:00:00Z </ReleaseDate>
+	<Description>
+	Programs to read, manage, manipulates objects created and exported by AMDA like time tables.
+	</Description>
+	<Contact>
+	  <PersonID>spase://SMWG/Person/Vincent.Genot</PersonID>
+	  <Role>ProjectScientist</Role>
+	</Contact>
+     </ResourceHeader>
+     <AccessURL>
+	<Name>AMDA home page</Name>
+	<URL>http://cdpp-amda.cesr.fr/softwares/</URL>
+	<Description>AMDA software page at CDPP.</Description>
+     </AccessURL>
+   </Service>
+</Spase>
