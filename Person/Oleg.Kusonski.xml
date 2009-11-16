@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Oleg.Kusonski</ResourceID>
-    <ReleaseDate>2008-08-21T00:33:21Z</ReleaseDate>
-    <PersonName>Dr. Oleg Kusonski</PersonName>
-    <OrganizationName>Geophysics Str., 2A</OrganizationName>
-    <Address>Geophysics Str., 2A, Arti, Sverdlovsk Region 623350, Russia</Address>
-    <Email>ARU@ARU.gssc.rssi.Ru</Email>
-    <PhoneNumber>+734 39 52 16 44</PhoneNumber>
-  </Person>
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.0.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Oleg.Kusonski</ResourceID>
+      <ReleaseDate>2009-11-05T12:34:56.789</ReleaseDate>
+      <PersonName>Oleg Kusonski</PersonName>
+      <OrganizationName>Geophysics Str., 2A</OrganizationName>
+      <Address>Geophysics Str., 2A, Arti, Sverdlovsk Region 623350, Russia</Address>
+      <Email>ARU@ARU.gssc.rssi.Ru</Email>
+      <PhoneNumber>+734 39 52 16 44</PhoneNumber>
+   </Person>
 </Spase>

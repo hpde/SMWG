@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Larry.Newitt</ResourceID>
-    <ReleaseDate>2008-08-27T07:02:42Z</ReleaseDate>
-    <PersonName>Larry Newitt</PersonName>
-    <OrganizationName>Natural Resources Canada</OrganizationName>
-    <Address>Natural Resources Canada, 2617 Anderson Road, Bldg. 5, Room. 5, Ottawa, Ontario, Canada K1A 0Y3</Address>
-    <Email>newitt@geolab.nrcan.gc.ca</Email>
-    <PhoneNumber>+1 613 837 7915</PhoneNumber>
-  </Person>
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.0.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Larry.Newitt</ResourceID>
+      <ReleaseDate>2009-11-05T12:34:56.789</ReleaseDate>
+      <PersonName>Larry Newitt</PersonName>
+      <OrganizationName>Geological Survey of Canada</OrganizationName>
+      <Address>Geological Survey of Canada, National geomagnetism Program, #7 Observatory Crescent, Ottawa,Ontario, CANADA, K1A 0Y3</Address>
+      <Email>newitt@geolab.nrcan.gc.ca</Email>
+      <PhoneNumber>+1 613 837 7915</PhoneNumber>
+   </Person>
 </Spase>

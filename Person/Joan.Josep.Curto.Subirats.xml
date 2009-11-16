@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Joan.Josep.Curto.Subirats</ResourceID>
-    <ReleaseDate>2008-08-27T07:02:35Z</ReleaseDate>
-    <PersonName>Dr. Joan Josep Curto Subirats</PersonName>
-    <OrganizationName>Observatori del L'Ebre</OrganizationName>
-    <Address>Observatori del L'Ebre, Roquetas 43520 (Tarragona), Spain</Address>
-    <Email>N/A</Email>
-    <PhoneNumber>+34 77 50 05 11</PhoneNumber>
-  </Person>
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.0.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Joan.Josep.Curto.Subirats</ResourceID>
+      <ReleaseDate>2009-11-05T12:34:56.789</ReleaseDate>
+      <PersonName>Joan Josep Curto Subirats</PersonName>
+      <OrganizationName>Observatori del L'Ebre</OrganizationName>
+      <Address>Observatori del L'Ebre, Roquetas 43520 (Tarragona), Spain</Address>
+      <PhoneNumber>+34 77 50 05 11</PhoneNumber>
+   </Person>
 </Spase>

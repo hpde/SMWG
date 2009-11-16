@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/C.W.Turbitt</ResourceID>
-    <ReleaseDate>2008-08-27T07:02:10Z</ReleaseDate>
-    <PersonName>C.W. Turbitt</PersonName>
-    <OrganizationName>British Geological Survey</OrganizationName>
-    <Address>British Geological Survey, West Mains Road, EDINBURGH, EH9 3LA, UNITED KINGDOM</Address>
-    <Email>cwtu@bgs.ac.uk</Email>
-    <PhoneNumber>+44 131 667 1000</PhoneNumber>
-  </Person>
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.0.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/C.W.Turbitt</ResourceID>
+      <ReleaseDate>2009-11-05T12:34:56.789</ReleaseDate>
+      <PersonName>C. W. Turbitt</PersonName>
+      <OrganizationName>British Geological Survey</OrganizationName>
+      <Address>British Geological Survey, West Mains Road, EDINBURGH, EH9 3LA, UNITED KINGDOM</Address>
+      <Email>cwtu@bgs.ac.uk</Email>
+      <PhoneNumber>+44 131 667 1000</PhoneNumber>
+   </Person>
 </Spase>

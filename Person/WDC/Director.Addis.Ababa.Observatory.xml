@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.0.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/WDC/Director.Addis.Ababa.Observatory</ResourceID>
+      <ReleaseDate>2009-11-05T12:34:56.789</ReleaseDate>
+      <PersonName>Director Addis Ababa Observatory</PersonName>
+      <OrganizationName>Geophysical Observatory</OrganizationName>
+      <Address>Geophysical Observatory, Addis Ababa University, P.O. Box 1176, Addis Ababa, Ethiopia</Address>
+      <Email>info@geobs.aau.edu.et</Email>
+      <PhoneNumber>+251 1 11 72 53</PhoneNumber>
+   </Person>
+</Spase>

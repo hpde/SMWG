@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Andras.Csontos</ResourceID>
-    <ReleaseDate>2008-08-27T07:02:02Z</ReleaseDate>
-    <PersonName>Andras Csontos</PersonName>
-    <OrganizationName>ELGI Geophysical Observatory</OrganizationName>
-    <Address>ELGI Geophysical Observatory, TIHANY, Kossuth L. u. 91., H-8237 (HUNGARY)</Address>
-    <Email>alpar2@mail.matav.hu</Email>
-    <PhoneNumber>36 84 448-501</PhoneNumber>
-  </Person>
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.0.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Andras.Csontos</ResourceID>
+      <ReleaseDate>2009-11-05T12:34:56.789</ReleaseDate>
+      <PersonName>Andras Csontos</PersonName>
+      <OrganizationName>ELGI Geophysical Observatory</OrganizationName>
+      <Address>ELGI Geophysical Observatory, TIHANY, Kossuth L. u. 91., H-8237 (HUNGARY)</Address>
+      <Email>alpar2@mail.matav.hu</Email>
+      <PhoneNumber>36 84 448-501</PhoneNumber>
+   </Person>
 </Spase>

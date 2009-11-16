@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Paulo.Palangio</ResourceID>
-    <ReleaseDate>2008-08-27T07:02:54Z</ReleaseDate>
-    <PersonName>Dr. Paulo Palangio</PersonName>
-    <OrganizationName>Istituto Nazionale di Geofisica</OrganizationName>
-    <Address>Istituto Nazionale di Geofisica, Via di Vigna Murata, 605, 00161 Rome, Italy</Address>
-    <Email>N/A</Email>
-    <PhoneNumber>(39) 6-5186 0317</PhoneNumber>
-  </Person>
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.0.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Paulo.Palangio</ResourceID>
+      <ReleaseDate>2009-11-05T12:34:56.789</ReleaseDate>
+      <PersonName>Paulo Palangio</PersonName>
+      <OrganizationName>Istituto Nazionale di Geofisica</OrganizationName>
+      <Address>Istituto Nazionale di Geofisica, Via di Vigna Murata, 605, 00161 Rome, Italy</Address>
+      <PhoneNumber>(39) 6-5186 0317</PhoneNumber>
+   </Person>
 </Spase>

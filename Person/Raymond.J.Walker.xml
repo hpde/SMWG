@@ -1,9 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Raymond.J.Walker</ResourceID>
-    <PersonName>Dr. Raymond J. Walker</PersonName>
-    <OrganizationName>University of California, Los Angeles</OrganizationName>
-  </Person>
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.0.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Raymond.J.Walker</ResourceID>
+      <ReleaseDate>2009-11-05T12:34:56.789</ReleaseDate>
+      <PersonName>Raymond J Walker</PersonName>
+      <OrganizationName>Virtual Magnetospheric Observatory, UCLA</OrganizationName>
+      <Address>Institute of Geophysics and Planetary Physics, University of California Los Angeles, 805 E Charles Young Drive, Los Angeles, CA 90095-1567</Address>
+      <Email>rwalker@igpp.ucla.edu</Email>
+      <PhoneNumber>310-825-7685</PhoneNumber>
+   </Person>
 </Spase>

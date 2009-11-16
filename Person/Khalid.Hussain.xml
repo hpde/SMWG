@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Khalid.Hussain</ResourceID>
-    <ReleaseDate>2008-08-27T07:02:41Z</ReleaseDate>
-    <PersonName>Dr. Khalid Hussain</PersonName>
-    <OrganizationName>Pakistan Meteorological Department</OrganizationName>
-    <Address/>
-    <Email>gram: GEOPHYSICS</Email>
-    <PhoneNumber>+92 81 844 103</PhoneNumber>
-  </Person>
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.0.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Khalid.Hussain</ResourceID>
+      <ReleaseDate>2009-11-05T12:34:56.789</ReleaseDate>
+      <PersonName>Khalid Hussain</PersonName>
+      <OrganizationName>Pakistan Meteorological Department</OrganizationName>
+      <Address>Pakistan Meteorological Department, Geophysical Centre, Post Box No. 2, Quetta, Pakistan</Address>
+      <PhoneNumber>+92 81 844 103</PhoneNumber>
+   </Person>
 </Spase>

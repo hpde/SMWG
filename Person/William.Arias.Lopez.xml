@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/William.Arias.Lopez</ResourceID>
-    <ReleaseDate>2008-08-27T07:03:14Z</ReleaseDate>
-    <PersonName>Dr. William Arias Lopez</PersonName>
-    <OrganizationName>Unidad de Geofisica</OrganizationName>
-    <Address>Unidad de Geofisica, Instituto Geografico 'Agustin Codazzi', Carrea 30 No. 48-51, Santafe de Bogota, D.V., Colombia</Address>
-    <Email/>
-    <PhoneNumber>+57 1 368 1215 or +57 368 1040</PhoneNumber>
-  </Person>
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.0.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/William.Arias.Lopez</ResourceID>
+      <ReleaseDate>2009-11-05T12:34:56.789</ReleaseDate>
+      <PersonName>William Arias Lopez</PersonName>
+      <OrganizationName>Unidad de Geofisica</OrganizationName>
+      <Address>Unidad de Geofisica, Instituto Geografico 'Agustin Codazzi', Carrea 30 No. 48-51, Santafe de Bogota, D.V., Colombia</Address>
+      <PhoneNumber>+57 1 368 1215 or +57 368 1040</PhoneNumber>
+   </Person>
 </Spase>

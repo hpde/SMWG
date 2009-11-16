@@ -1,13 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Domingo.Rosales</ResourceID>
-    <ReleaseDate>2008-08-27T07:02:13Z</ReleaseDate>
-    <PersonName>Domingo Rosales</PersonName>
-    <OrganizationName>Instituto Geophisico del Peru</OrganizationName>
-    <Email>domingo@axil.igp.gob.pe</Email>
-    <Email>domingo@hotmail.com</Email>
-    <PhoneNumber>051-064-216695</PhoneNumber>
-  </Person>
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.0.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Domingo.Rosales</ResourceID>
+      <ReleaseDate>2009-11-05T12:34:56.789</ReleaseDate>
+      <PersonName>Domingo Rosales</PersonName>
+      <OrganizationName>Observatorio de Huancayo apartado 46 Huancayo</OrganizationName>
+      <Email>domingo@axil.igp.gob.pe</Email>
+      <PhoneNumber>(51)-064-216695</PhoneNumber>
+   </Person>
 </Spase>

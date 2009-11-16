@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Julio.Cesar.Gianibelli</ResourceID>
-    <ReleaseDate>2008-08-27T07:02:39Z</ReleaseDate>
-    <PersonName>Lic. Julio Cesar Gianibelli (Jefe)</PersonName>
-    <OrganizationName>Depto. de Magnetisme Terrestre</OrganizationName>
-    <Address>Depto. de Magnetisme Terrestre, Facultad de Ciencias Astronomicas y Geophysicas, Universidad Nacional de La Plata, Paseo del Bosque, (1900) La Plata, Argentina</Address>
-    <Email>N/A</Email>
-    <PhoneNumber>(021) 217308/38810</PhoneNumber>
-  </Person>
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.0.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Julio.Cesar.Gianibelli</ResourceID>
+      <ReleaseDate>2009-11-05T12:34:56.789</ReleaseDate>
+      <PersonName>Julio Cesar Gianibelli</PersonName>
+      <OrganizationName>Depto. de Magnetisme Terrestre</OrganizationName>
+      <Address>Depto. de Magnetisme Terrestre, Facultad de Ciencias Astronomicas y Geophysicas, Universidad Nacional de La Plata, Paseo del Bosque, (1900) La Plata, Argentina</Address>
+      <PhoneNumber>(021) 217308/38810</PhoneNumber>
+   </Person>
 </Spase>

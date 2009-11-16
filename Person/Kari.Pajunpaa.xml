@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Kari.Pajunpaa</ResourceID>
-    <ReleaseDate>2008-08-27T07:02:40Z</ReleaseDate>
-    <PersonName>Dr. Kari Pajunpaa</PersonName>
-    <OrganizationName>Nurmijarvi Geophysical Observatory</OrganizationName>
-    <Address>Nurmijarvi Geophysical Observatory, Finnish Meteorological Institute, FIN-05100 Roykka, Finland</Address>
-    <Email>kari.pajunpaa@fmi.fi</Email>
-    <PhoneNumber>+358 9 87870330</PhoneNumber>
-  </Person>
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.0.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Kari.Pajunpaa</ResourceID>
+      <ReleaseDate>2009-11-05T12:34:56.789</ReleaseDate>
+      <PersonName>Kari Pajunpaa</PersonName>
+      <OrganizationName>Nurmijarvi Geophysical Observatory</OrganizationName>
+      <Address>Nurmijarvi Geophysical Observatory, Finnish Meteorological Institute, FIN-05100 Roykka, Finland</Address>
+      <Email>kari.pajunpaa@fmi.fi</Email>
+      <PhoneNumber>+358 9 87870330</PhoneNumber>
+   </Person>
 </Spase>
