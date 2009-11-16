@@ -1,33 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.0</Version>
-  <Instrument>
-    <ResourceID>spase://SMWG/Instrument/WDC/Tondano/Magnetometer</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Tondano Ground Magnetic Field Instrument</ResourceName>
-      <AlternateName/>
-      <ReleaseDate>2009-05-20T21:10:06Z</ReleaseDate>
-      <ExpirationDate>2099-12-31T23:59:59.999</ExpirationDate>
-      <Description>The magnetic field instrument at the Tondano ground station</Description>
-      <Acknowledgement>Meteorological Geophysical Agency, Jl. Angkasa I No.2, Kemayoran Jakarta, 10720, Indonesia</Acknowledgement>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Subardjo</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-        <Role>MetadataContact</Role>
-      </Contact>
-      <InformationURL>
-        <Name>The Tondano magnetometer web site</Name>
-        <URL>HARVEST</URL>
-        <Description>The Tondano magnetometer web site</Description>
-      </InformationURL>
-      <PriorID>spase://VMO/Instrument/WDC/Tondano/Magnetometer</PriorID>
-    </ResourceHeader>
-    <InstrumentType>Magnetometer</InstrumentType>
-    <InvestigationName>None Identified</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/WDC/Tondano</ObservatoryID>
-    <Caveats/>
-  </Instrument>
+    <Version>2.0.1</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/WDC/Tondano/Magnetometer</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Tondano Ground Magnetic Field Instrument</ResourceName>
+            <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
+            <Description>The magnetic field instrument at the Tondano ground station</Description>
+            <Acknowledgement>Meteorological Geophysical Agency, Jl. Angkasa I No.2, Kemayoran Jakarta, 10720, Indonesia</Acknowledgement>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Subardjo</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+                <Role>MetadataContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <InstrumentType>Magnetometer</InstrumentType>
+        <InvestigationName>None Identified</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/WDC/Tondano</ObservatoryID>
+    </Instrument>
 </Spase>

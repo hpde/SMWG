@@ -1,33 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.0</Version>
-  <Instrument>
-    <ResourceID>spase://SMWG/Instrument/WDC/Paratunka/Magnetometer</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Paratunka Ground Magnetic Field Instrument</ResourceName>
-      <AlternateName/>
-      <ReleaseDate>2009-05-20T21:10:05Z</ReleaseDate>
-      <ExpirationDate>2099-12-31T23:59:59.999</ExpirationDate>
-      <Description>The magnetic field instrument at the Paratunka ground station</Description>
-      <Acknowledgement>Russian Academy of Sciences,Far Eastern Branch</Acknowledgement>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Shevtsov.Boris.Mikhailovich</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-        <Role>MetadataContact</Role>
-      </Contact>
-      <InformationURL>
-        <Name>The Paratunka magnetometer web site</Name>
-        <URL>HARVEST</URL>
-        <Description>The Paratunka magnetometer web site</Description>
-      </InformationURL>
-      <PriorID>spase://VMO/Instrument/WDC/Paratunka/Magnetometer</PriorID>
-    </ResourceHeader>
-    <InstrumentType>Magnetometer</InstrumentType>
-    <InvestigationName>None Identified</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/WDC/Paratunka</ObservatoryID>
-    <Caveats/>
-  </Instrument>
+    <Version>2.0.1</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/WDC/Paratunka/Magnetometer</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Paratunka Ground Magnetic Field Instrument</ResourceName>
+            <ReleaseDate>2009-11-05T12:34:56.789</ReleaseDate>
+            <Description>The magnetic field instrument at the Paratunka ground station</Description>
+            <Acknowledgement>Russian Academy of Sciences,Far Eastern Branch</Acknowledgement>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Shevtsov.Boris.Mikhailovich</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/WDC/Director.Paratunka.Observatory</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+                <Role>MetadataContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <InstrumentType>Magnetometer</InstrumentType>
+        <InvestigationName>None Identified</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/WDC/Paratunka</ObservatoryID>
+    </Instrument>
 </Spase>

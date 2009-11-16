@@ -1,41 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
-  <Observatory>
-    <ResourceID>spase://SMWG/Observatory/WDC/Hornsund</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Hornsund Ground Observatory</ResourceName>
-      <AlternateName/>
-      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
-      <ExpirationDate>2099-12-31T23:59:59.999</ExpirationDate>
-      <Description>The Hornsund Observatory</Description>
-      <Acknowledgement>Institute of Geophysics Polish Academy of Sciences</Acknowledgement>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Janusz.Marianiuk</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Jan.Reda</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-        <Role>MetadataContact</Role>
-      </Contact>
-      <InformationURL>
-        <Name>The Hornsund observatory web site</Name>
-        <URL>HARVEST</URL>
-        <Description>The Hornsund observatory web site</Description>
-      </InformationURL>
-      
-      <PriorID>spase://VMO/Observatory/WDC/Hornsund</PriorID>
-    </ResourceHeader>
-    <ObservatoryGroup/>
-    <Location>
-      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-      <CoordinateSystemName>GEO</CoordinateSystemName>
-      <Latitude>77.000</Latitude>
-      <Longitude>15.550</Longitude>
-    </Location>
-  </Observatory>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.0.1</Version>
+    <Observatory>
+        <ResourceID>spase://SMWG/Observatory/WDC/Hornsund</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Hornsund Ground Observatory</ResourceName>
+            <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
+            <Description>The Hornsund Observatory</Description>
+            <Acknowledgement>Institute of Geophysics Polish Academy of Sciences</Acknowledgement>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Janusz.Marianiuk</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Jan.Reda</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+                <Role>MetadataContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <ObservatoryGroup>WDC</ObservatoryGroup>
+        <Location>
+            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+            <CoordinateSystemName>GEO</CoordinateSystemName>
+            <Latitude>77.0</Latitude>
+            <Longitude>15.55</Longitude>
+        </Location>
+    </Observatory>
 </Spase>
