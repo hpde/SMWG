@@ -1,11 +1,13 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.0.1</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Juan.Perez.Hernandez</ResourceID>
-      <ReleaseDate>2009-11-05T12:34:56.789</ReleaseDate>
-      <PersonName>Juan Perez Hernandez</PersonName>
-      <OrganizationName>Institute of Geophysics and Astronomy</OrganizationName>
-      <Address>Institute of Geophysics and Astronomy, Cuban Academy of Sciences, Calle 212 No. 2906 e/27 y 31, La Coronela, La Lisa, Havana, Cuba</Address>
-   </Person>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Juan.Perez.Hernandez</ResourceID>
+    <ReleaseDate>2008-08-27T07:02:39Z</ReleaseDate>
+    <PersonName>Lic. Juan Perez Hernandez</PersonName>
+    <OrganizationName>Institute of Geophysics and Astronomy</OrganizationName>
+    <Address/>
+    <Email>N/A</Email>
+    <PhoneNumber>N/A</PhoneNumber>
+  </Person>
 </Spase>

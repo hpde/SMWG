@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>1.2.2</Version>
+    <Repository>
+        <ResourceID>spase://SMWG/Repository/VMOU</ResourceID>
+        <ResourceHeader>
+            <ResourceName>VMOU</ResourceName>
+            <ReleaseDate>2009-03-19T00:00:00Z</ReleaseDate>
+            <Description>Virtual Magnetopsheric Observatory (VMO) data repository at UCLA</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+    </Repository>
+</Spase>

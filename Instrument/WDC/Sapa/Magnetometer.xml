@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.0.1</Version>
-    <Instrument>
-        <ResourceID>spase://SMWG/Instrument/WDC/Sapa/Magnetometer</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Sapa Ground Magnetic Field Instrument</ResourceName>
-            <AlternateName>Cha Pa Ground Magnetic Field Instrument</AlternateName>
-            <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
-            <Description>The magnetic field instrument at the Sapa ground station</Description>
-            <Acknowledgement>Vietnam National Centre for Science and, Technology (V.N.C.S.T., Institute of Geophysics)</Acknowledgement>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Nguyen.Kim.Thoa</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-                <Role>MetadataContact</Role>
-            </Contact>
-        </ResourceHeader>
-        <InstrumentType>Magnetometer</InstrumentType>
-        <InvestigationName>None Identified</InvestigationName>
-        <ObservatoryID>spase://SMWG/Observatory/WDC/Sapa</ObservatoryID>
-    </Instrument>
+  <Version>2.0.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/WDC/Sapa/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Sapa Ground Magnetic Field Instrument</ResourceName>
+      <AlternateName>Cha Pa Ground Magnetic Field Instrument</AlternateName>
+      <ReleaseDate>2009-05-20T21:10:09Z</ReleaseDate>
+      <ExpirationDate>2099-12-31T23:59:59.999</ExpirationDate>
+      <Description>The magnetic field instrument at the Sapa ground station</Description>
+      <Acknowledgement>Vietnam National Centre for Science and, Technology (V.N.C.S.T., Institute of Geophysics)</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Nguyen.Kim.Thoa</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The Sapa magnetometer web site</Name>
+        <URL>HARVEST</URL>
+        <Description>The Sapa magnetometer web site</Description>
+      </InformationURL>
+      <PriorID>spase://VMO/Instrument/WDC/Sapa/Magnetometer</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>None Identified</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/WDC/Sapa</ObservatoryID>
+    <Caveats/>
+  </Instrument>
 </Spase>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/WDC/Kr.-Pakhra/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Kr. Pakhra Ground Magnetic Field Instrument</ResourceName>
+      <AlternateName>Mosco Ground Magnetic Field Instrument</AlternateName>
+      <ReleaseDate>2009-05-20T21:10:07Z</ReleaseDate>
+      <ExpirationDate>2099-12-31T23:59:59.999</ExpirationDate>
+      <Description>The magnetic field instrument at the Kr. Pakhra ground station</Description>
+      <Acknowledgement>IZMIRAN, Russian Academy of Sciences, Moscow</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/V.Golovkov</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The Kr. Pakhra magnetometer web site</Name>
+        <URL>HARVEST</URL>
+        <Description>The Kr. Pakhra magnetometer web site</Description>
+      </InformationURL>
+      <PriorID>spase://VMO/Instrument/WDC/Kr.-Pakhra/Magnetometer</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>None Identified</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/WDC/Kr.-Pakhra</ObservatoryID>
+    <Caveats/>
+  </Instrument>
+</Spase>

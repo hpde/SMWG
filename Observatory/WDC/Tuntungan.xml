@@ -1,28 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.0.1</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/WDC/Tuntungan</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Tuntungan Ground Observatory</ResourceName>
-            <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
-            <Description>The Tuntungan Observatory</Description>
-            <Acknowledgement>Meteorological Geophysical Agency, Jl. Angkasa I No.2, Kemayoran Jakarta, 10720, Indonesia</Acknowledgement>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Suharyadi</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-                <Role>MetadataContact</Role>
-            </Contact>
-        </ResourceHeader>
-        <ObservatoryGroup>WDC</ObservatoryGroup>
-        <Location>
-            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-            <CoordinateSystemName>GEO</CoordinateSystemName>
-            <Latitude>3.5</Latitude>
-            <Longitude>98.56</Longitude>
-        </Location>
-    </Observatory>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/WDC/Tuntungan</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Tuntungan Ground Observatory</ResourceName>
+      <AlternateName/>
+      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
+      <ExpirationDate>2099-12-31T23:59:59.999</ExpirationDate>
+      <Description>The Tuntungan Observatory</Description>
+      <Acknowledgement>Meteorological Geophysical Agency, Jl. Angkasa I No.2, Kemayoran Jakarta, 10720, Indonesia</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Suharyadi</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The Tuntungan observatory web site</Name>
+        <URL>HARVEST</URL>
+        <Description>The Tuntungan observatory web site</Description>
+      </InformationURL>
+      
+      <PriorID>spase://VMO/Observatory/WDC/Tuntungan</PriorID>
+    </ResourceHeader>
+    <ObservatoryGroup/>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>3.500</Latitude>
+      <Longitude>98.560</Longitude>
+    </Location>
+  </Observatory>
 </Spase>

@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.0.1</Version>
-    <Instrument>
-        <ResourceID>spase://SMWG/Instrument/WDC/Dusheti/Magnetometer</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Dusheti Ground Magnetic Field Instrument</ResourceName>
-            <AlternateName>Tbilis Ground Magnetic Field Instrument</AlternateName>
-            <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
-            <Description>The magnetic field instrument at the Dusheti ground station</Description>
-            <Acknowledgement>Institute of Geophysics, Georgia Academy of Sciences, Tblisi</Acknowledgement>
-            <Contact>
-                <PersonID>spase://SMWG/Person/R.A.Gogua</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-                <Role>MetadataContact</Role>
-            </Contact>
-        </ResourceHeader>
-        <InstrumentType>Magnetometer</InstrumentType>
-        <InvestigationName>None Identified</InvestigationName>
-        <ObservatoryID>spase://SMWG/Observatory/WDC/Dusheti</ObservatoryID>
-    </Instrument>
+  <Version>2.0.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/WDC/Dusheti/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Dusheti Ground Magnetic Field Instrument</ResourceName>
+      <AlternateName>Tbilis Ground Magnetic Field Instrument</AlternateName>
+      <ReleaseDate>2009-05-20T21:10:07Z</ReleaseDate>
+      <ExpirationDate>2099-12-31T23:59:59.999</ExpirationDate>
+      <Description>The magnetic field instrument at the Dusheti ground station</Description>
+      <Acknowledgement>Institute of Geophysics, Georgia Academy of Sciences, Tblisi</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/R.A.Gogua</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The Dusheti magnetometer web site</Name>
+        <URL>HARVEST</URL>
+        <Description>The Dusheti magnetometer web site</Description>
+      </InformationURL>
+      <PriorID>spase://VMO/Instrument/WDC/Dusheti/Magnetometer</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>None Identified</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/WDC/Dusheti</ObservatoryID>
+    <Caveats/>
+  </Instrument>
 </Spase>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/WDC/Cambridge-Bay/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Cambridge Bay Ground Magnetic Field Instrument</ResourceName>
+      <AlternateName/>
+      <ReleaseDate>2009-05-20T21:10:07Z</ReleaseDate>
+      <ExpirationDate>2099-12-31T23:59:59.999</ExpirationDate>
+      <Description>The magnetic field instrument at the Cambridge Bay ground station</Description>
+      <Acknowledgement>Geological Survey of Canada</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Larry.Newitt</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The Cambridge Bay magnetometer web site</Name>
+        <URL>HARVEST</URL>
+        <Description>The Cambridge Bay magnetometer web site</Description>
+      </InformationURL>
+      <PriorID>spase://VMO/Instrument/WDC/Cambridge-Bay/Magnetometer</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>None Identified</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/WDC/Cambridge-Bay</ObservatoryID>
+    <Caveats/>
+  </Instrument>
+</Spase>

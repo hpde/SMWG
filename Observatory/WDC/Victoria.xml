@@ -1,28 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.0.1</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/WDC/Victoria</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Victoria Ground Observatory</ResourceName>
-            <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
-            <Description>The Victoria Observatory</Description>
-            <Acknowledgement>Geological Survey of Canada</Acknowledgement>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Larry.Newitt</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-                <Role>MetadataContact</Role>
-            </Contact>
-        </ResourceHeader>
-        <ObservatoryGroup>WDC</ObservatoryGroup>
-        <Location>
-            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-            <CoordinateSystemName>GEO</CoordinateSystemName>
-            <Latitude>48.517</Latitude>
-            <Longitude>236.583</Longitude>
-        </Location>
-    </Observatory>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/WDC/Victoria</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Victoria Ground Observatory</ResourceName>
+      <AlternateName/>
+      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
+      <ExpirationDate>2099-12-31T23:59:59.999</ExpirationDate>
+      <Description>The Victoria Observatory</Description>
+      <Acknowledgement>Geological Survey of Canada</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Larry.Newitt</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The Victoria observatory web site</Name>
+        <URL>HARVEST</URL>
+        <Description>The Victoria observatory web site</Description>
+      </InformationURL>
+      
+      <PriorID>spase://VMO/Observatory/WDC/Victoria</PriorID>
+    </ResourceHeader>
+    <ObservatoryGroup/>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>48.517</Latitude>
+      <Longitude>236.583</Longitude>
+    </Location>
+  </Observatory>
 </Spase>

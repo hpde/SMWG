@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/WDC/Fort-Churchill/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Fort Churchill Ground Magnetic Field Instrument</ResourceName>
+      <AlternateName/>
+      <ReleaseDate>2009-05-20T21:10:08Z</ReleaseDate>
+      <ExpirationDate>2099-12-31T23:59:59.999</ExpirationDate>
+      <Description>The magnetic field instrument at the Fort Churchill ground station</Description>
+      <Acknowledgement>Geological Survey of Canada</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Larry.Newitt</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The Fort Churchill magnetometer web site</Name>
+        <URL>HARVEST</URL>
+        <Description>The Fort Churchill magnetometer web site</Description>
+      </InformationURL>
+      <PriorID>spase://VMO/Instrument/WDC/Fort-Churchill/Magnetometer</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>None Identified</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/WDC/Fort-Churchill</ObservatoryID>
+    <Caveats/>
+  </Instrument>
+</Spase>

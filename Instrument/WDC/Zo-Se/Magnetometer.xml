@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/WDC/Zo-Se/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Zo-Se Ground Magnetic Field Instrument</ResourceName>
+      <AlternateName>Sheshan Ground Magnetic Field Instrument</AlternateName>
+      <ReleaseDate>2009-05-20T21:10:07Z</ReleaseDate>
+      <ExpirationDate>2099-12-31T23:59:59.999</ExpirationDate>
+      <Description>The magnetic field instrument at the Zo-Se ground station</Description>
+      <Acknowledgement>State Seismological Bureau, Beijing, China</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The Zo-Se magnetometer web site</Name>
+        <URL>HARVEST</URL>
+        <Description>The Zo-Se magnetometer web site</Description>
+      </InformationURL>
+      <PriorID>spase://VMO/Instrument/WDC/Zo-Se/Magnetometer</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>None Identified</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/WDC/Zo-Se</ObservatoryID>
+    <Caveats/>
+  </Instrument>
+</Spase>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.0.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/WDC/Istanbul-Kandilli/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Istanbul Kandilli Ground Magnetic Field Instrument</ResourceName>
+      <AlternateName/>
+      <ReleaseDate>2009-05-20T21:10:06Z</ReleaseDate>
+      <ExpirationDate>2099-12-31T23:59:59.999</ExpirationDate>
+      <Description>The magnetic field instrument at the Istanbul Kandilli ground station</Description>
+      <Acknowledgement>Istanbul Kandilli Observatory, Bogazici University</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Burhan.Caplayan</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The Istanbul Kandilli magnetometer web site</Name>
+        <URL>HARVEST</URL>
+        <Description>The Istanbul Kandilli magnetometer web site</Description>
+      </InformationURL>
+      <PriorID>spase://VMO/Instrument/WDC/Istanbul-Kandilli/Magnetometer</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>None Identified</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/WDC/Istanbul-Kandilli</ObservatoryID>
+    <Caveats/>
+  </Instrument>
+</Spase>

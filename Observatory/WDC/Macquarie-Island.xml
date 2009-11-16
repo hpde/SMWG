@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/WDC/Macquarie-Island</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Macquarie Island Ground Observatory</ResourceName>
+      <AlternateName/>
+      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
+      <ExpirationDate>2099-12-31T23:59:59.999</ExpirationDate>
+      <Description>The Macquarie Island Observatory</Description>
+      <Acknowledgement>Australian Geological Survey Organisation</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Liejun.Wang</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The Macquarie Island observatory web site</Name>
+        <URL>HARVEST</URL>
+        <Description>The Macquarie Island observatory web site</Description>
+      </InformationURL>
+      
+      <PriorID>spase://VMO/Observatory/WDC/Macquarie-Island</PriorID>
+    </ResourceHeader>
+    <ObservatoryGroup/>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>-54.500</Latitude>
+      <Longitude>158.950</Longitude>
+    </Location>
+  </Observatory>
+</Spase>
