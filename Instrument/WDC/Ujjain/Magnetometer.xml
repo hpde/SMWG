@@ -1,37 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.0</Version>
-  <Instrument>
-    <ResourceID>spase://SMWG/Instrument/WDC/Ujjain/Magnetometer</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Ujjain Ground Magnetic Field Instrument</ResourceName>
-      <AlternateName/>
-      <ReleaseDate>2009-05-20T21:10:04Z</ReleaseDate>
-      <ExpirationDate>2099-12-31T23:59:59.999</ExpirationDate>
-      <Description>The magnetic field instrument at the Ujjain ground station</Description>
-      <Acknowledgement>Indian Institute of Geomagnetism, Bombay</Acknowledgement>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Sobhana.Alex</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/R.C.Deka</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-        <Role>MetadataContact</Role>
-      </Contact>
-      <InformationURL>
-        <Name>The Ujjain magnetometer web site</Name>
-        <URL>HARVEST</URL>
-        <Description>The Ujjain magnetometer web site</Description>
-      </InformationURL>
-      <PriorID>spase://VMO/Instrument/WDC/Ujjain/Magnetometer</PriorID>
-    </ResourceHeader>
-    <InstrumentType>Magnetometer</InstrumentType>
-    <InvestigationName>None Identified</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/WDC/Ujjain</ObservatoryID>
-    <Caveats/>
-  </Instrument>
+    <Version>2.0.1</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/WDC/Ujjain/Magnetometer</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Ujjain Ground Magnetic Field Instrument</ResourceName>
+            <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
+            <Description>The magnetic field instrument at the Ujjain ground station</Description>
+            <Acknowledgement>Indian Institute of Geomagnetism, Bombay</Acknowledgement>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Sobhana.Alex</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/R.C.Deka</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+                <Role>MetadataContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <InstrumentType>Magnetometer</InstrumentType>
+        <InvestigationName>None Identified</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/WDC/Ujjain</ObservatoryID>
+    </Instrument>
 </Spase>

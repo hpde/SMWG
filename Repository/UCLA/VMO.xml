@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
+   <Version>2.0.1</Version>
+   <Repository>
+      <ResourceID>spase://SMWG/Repository/UCLA/VMO</ResourceID>
+      <ResourceHeader>
+         <ResourceName>The UCLA VMO Data Repository</ResourceName>
+         <ReleaseDate>2009-10-29T12:34:56.789</ReleaseDate>
+         <Description>The data repository hosted by the UCLA Virtual Magnetopsheric Observatory (VMO)</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+      </ResourceHeader>
+      <AccessURL>
+         <URL>http://vmo.igpp.ucla.edu/data1</URL>
+      </AccessURL>
+   </Repository>
+</Spase>
