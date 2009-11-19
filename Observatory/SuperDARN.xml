@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_2.xsd">
+  <Version>2.0.2</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/SuperDARN</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SuperDARN</ResourceName>
+      <ReleaseDate>2009-11-12T22:13:30Z</ReleaseDate>
+      <Description>The SuperDARN program involves an array of 14 northern 
+hemisphere radars and 7 southern hemisphere radars, and techniques 
+for and uncertainties in deriving geophysical parameters from raw 
+radar data.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Elsayed.Talaat</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>SuperDARN web page at JHU_APL</Name>
+        <URL>http://superdarn.jhuapl.edu/index.html</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>
