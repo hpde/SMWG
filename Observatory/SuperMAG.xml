@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_2.xsd">
+  <Version>2.0.2</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/SuperMAG</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SuperMAG</ResourceName>
+      <ReleaseDate>2009-11-19T20:16:37Z</ReleaseDate>
+      <Description>The SuperMAG program involves a collaboration of
+more than 200 ground geomagnetic observatories coordinated by JHU/APL.
+A heterogenous ensemble of ground station data are made homogeneous
+by conversions to a common time resolution (1 min) and a common coordinate
+system (NEZ), by baseline removal, and by data cleanings. Resultant
+data are intended for studies of varying ionospheric and magnetospheric
+current systems.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jesper.W.Gjerloev</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>SuperMAG web page at JHU_APL</Name>
+        <URL>http://supermag.jhuapl.edu/</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>

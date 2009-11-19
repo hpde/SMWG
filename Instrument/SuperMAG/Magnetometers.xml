@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_2.xsd">
+  <Version>2.0.2</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/SuperMAG/Magnetometers</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SuperMAG Magnetometers</ResourceName>
+      <ReleaseDate>2009-11-19T20:18:43Z</ReleaseDate>
+      <Description>These magnetometers are at the more than 200 ground
+sites collaborating in the Super MAG program</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jesper.W.Gjerloev</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>SuperMAG web page at JHU_APL</Name>
+        <URL>http://supermag.jhuapl.edu/</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>SuperMAG</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/SuperMAG</ObservatoryID>
+  </Instrument>
+</Spase>
