@@ -1,48 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-	xmlns="http://www.spase-group.org/data/schema"
-	xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-	<Version>2.0.0</Version>
-	<Repository>
-		<ResourceID>spase://SMWG/Repository/NSSTC/POLAR.UVI</ResourceID>
-		<ResourceHeader>
-			<ResourceName>NSSTC POLAR UVI Repository</ResourceName>
-			<ReleaseDate>2009-08-01T00:00:00</ReleaseDate>
-			<Description>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_2.xsd">
+  <Version>2.0.2</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/NASA/NSSTC/POLAR.UVI</ResourceID>
+    <ResourceHeader>
+      <ResourceName>NSSTC POLAR UVI Repository</ResourceName>
+      <ReleaseDate>2009-11-20T21:04:22Z</ReleaseDate>
+      <Description>
 Polar UVI Resident Archive web server and data archive located at the National Space Science and Technology Center (NSSTC) in 
 Huntsville, Alabama.  
 			</Description>
-			<Contact>
-				<PersonID>spase://SMWG/Person/George.K.Parks</PersonID>
-				<Role>PrincipalInvestigator</Role>
-			</Contact>
-			<Contact>
-				<PersonID>spase://SMWG/Person/Paul.D.Craven</PersonID>
-				<Role>GeneralContact</Role>
-			</Contact>
-			<Contact>
-				<PersonID>spase://SMWG/Person/Peggy.Sloan</PersonID>
-				<Role>MetadataContact</Role>
-			</Contact>
-			<InformationURL>
-				<Name>UVI Home Page</Name>
-				<URL>http://tideuvira.nsstc.nasa.gov/uvi/</URL>
-				<Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/George.K.Parks</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Paul.D.Craven</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Peggy.Sloan</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>UVI Home Page</Name>
+        <URL>http://tideuvira.nsstc.nasa.gov/uvi/</URL>
+        <Description>
 The Polar Ultraviolet Imager (UVI) Home Page contains links that describe the instrument, its operation, allow the 
 user to view 36 second images and key parameter mosaics from the mission and download software, plus links 
 to the UVI data archive, to lists of UVI publications and presentations, and several miscellaneous mission sites.
 				</Description>
-			</InformationURL>
-		</ResourceHeader>
-		<AccessURL>
-			<Name>UVI Data Archive</Name>
-			<URL>http://tideuvira.nsstc.nasa.gov/uvi/uvidata/</URL>
-			<Description>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>UVI Data Archive</Name>
+      <URL>http://tideuvira.nsstc.nasa.gov/uvi/uvidata/</URL>
+      <Description>
 The UVI Data Archive contains UVI data and plot files including level-one (l1), orbit (or), attitude (at), and pitch angle 
 (pa) CDF files, and the 36-second UVI Image gif files (gifs).  The files are stored by year/doy-of-year in the 
 subdirectories in parentheses.   All of the CDFs are also available at the CDAWeb.  The archive also contains the 
 key parameter mosaic gif/png files and software.
 			</Description>
-		</AccessURL>
-	</Repository>
+    </AccessURL>
+  </Repository>
 </Spase>
