@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_2.xsd">
+  <Version>2.0.2</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/UCB/THEMIS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>THEMIS Data Repository at Berkeley</ResourceName>
+      <ReleaseDate>2009-11-20T22:57:56Z</ReleaseDate>
+      <Description>THEMIS Data Repository at Berkeley</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>THEMIS data repository</Name>
+        <URL>http://themis.ssl.berkeley.edu/data/</URL>
+        <Description>Repository of data from THEMIS and other missions.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>THEMIS data repository</Name>
+      <URL>http://themis.ssl.berkeley.edu/data/</URL>
+    </AccessURL>
+  </Repository>
+</Spase>
