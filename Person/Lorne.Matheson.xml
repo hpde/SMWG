@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_2.xsd">
+  <Version>2.0.2</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Lorne.Matheson</ResourceID>
+    <ReleaseDate>2009-11-20T22:47:15Z</ReleaseDate>
+    <PersonName>Lorne Matheson</PersonName>
+    <OrganizationName>NOAA Space Weather Prediction Center</OrganizationName>
+  </Person>
+</Spase>
