@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_2.xsd">
   <Version>2.0.2</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/GOES8/MAG</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/GOES11/MAG</ResourceID>
     <ResourceHeader>
-      <ResourceName>GOES 8, Triaxial Fluxgate Magnetometer</ResourceName>
-      <ReleaseDate>2009-11-25T22:54:36Z</ReleaseDate>
+      <ResourceName>GOES 11, Triaxial Fluxgate Magnetometer</ResourceName>
+      <ReleaseDate>2009-11-25T22:55:00Z</ReleaseDate>
       <Description>The following brief instrument description, written after the launch of GOES 8 and 9, but that applies to GOES 8-12, is reproduced, in part, from: 
 
 Singer, H.J., L. Matheson, R. Grubb, A. Newman and S.D. Bouwer, Monitoring Space Weather with the GOES Magnetometers. SPIE Conference Proceedings, Vol. 2812, p. 299-308, GOES-8 and Beyond, Edward R. Washwell, ed., 1996
@@ -35,14 +35,9 @@ During normal operations, there are two operational GOES satellites with one sat
         <PersonID>spase://SMWG/Person/Howard.J.Singer</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
-      <InformationURL>
-        <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1994-022A-04</URL>
-        <Description>Information about the GOES 8, Triaxial Fluxgate Magnetometer experiment on the GOES  8 mission.</Description>
-      </InformationURL>
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
-    <InvestigationName>GOES 8, Triaxial Fluxgate Magnetometer on GOES  8</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/GOES8</ObservatoryID>
+    <InvestigationName>GOES 11, Triaxial Fluxgate Magnetometer on GOES 11</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/GOES11</ObservatoryID>
   </Instrument>
 </Spase>
