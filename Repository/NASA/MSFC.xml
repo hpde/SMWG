@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Repository>
-    <ResourceID>spase://SMWG/Repository/MSFC</ResourceID>
+    <ResourceID>spase://SMWG/Repository/NASA/MSFC</ResourceID>
     <ResourceHeader>
-      <ResourceName>MSFC</ResourceName>
-      <ReleaseDate>2008-06-18T18:05:57Z</ReleaseDate>
+      <ResourceName>MSFC Repository</ResourceName>
+      <ReleaseDate>2009-12-02T20:11:50Z</ReleaseDate>
       <Description/>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
