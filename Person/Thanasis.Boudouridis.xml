@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
+   <Version>2.0.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Thanasis.Boudouridis</ResourceID>
+      <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
+      <PersonName>Thanasis Boudouridis</PersonName>
+      <OrganizationName>Department of Atmospheric Sciences</OrganizationName>
+      <Address>University of California Los Angeles, Box 951565, 7127 Math Sciences Building, Los Angeles, CA 90095-1565, USA</Address>
+      <Email>thanasis@atmos.ucla.edu</Email>
+      <PhoneNumber>+1 310 825 1659</PhoneNumber>
+   </Person>
+</Spase>

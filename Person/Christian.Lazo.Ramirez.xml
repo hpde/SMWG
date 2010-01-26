@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
+   <Version>2.0.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Christian.Lazo.Ramirez</ResourceID>
+      <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
+      <PersonName>Christian Lazo Ramirez</PersonName>
+      <OrganizationName>Instituto de Informatica</OrganizationName>
+      <Address>Universidad de Austral de Chile, Valdivia, Chile</Address>
+      <Email>clazo@inf.uach.cl</Email>
+   </Person>
+</Spase>

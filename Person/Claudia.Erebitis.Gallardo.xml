@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
+   <Version>2.0.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Claudia.Erebitis.Gallardo</ResourceID>
+      <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
+      <PersonName>Claudia Erebitis Gallardo</PersonName>
+      <OrganizationName>Universidad de Magallanes</OrganizationName>
+      <Address>Km 1,5 Camino a Puerto Bories, Puerto Natales, Chile</Address>
+      <Email>claudia.erebitis@umag.cl</Email>
+      <PhoneNumber>+61 410044</PhoneNumber>
+      <FaxNumber>+61 410226</FaxNumber>
+   </Person>
+</Spase>

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
+   <Version>2.0.1</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/SAMBA/SAMBA.Logical</ResourceID>
+      <ResourceHeader>
+         <ResourceName>The Logical Observatory created to represent the chain of stations in the SAMBA Array.</ResourceName>
+         <AlternateName>The SAMBA Logical Observatory Chain</AlternateName>
+         <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
+         <Description>The Logical Observatory created to represent the chain of stations present in the SAMBA.  The chain of stations includes:  Antofagasta, Los Cerrillos, Conception, Escudero, O'Higgins, Osorno, Punta Arenas, Puerto Natales, Putre, La Serena, and Valdivia.</Description>
+         <Acknowledgement>Please acknowledge Eftyhia Zesta, Air Force Research Lab, Hanscom AFB, for providing access to SAMBA data resources.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Eftyhia.Zesta</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Mark.Moldwin</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Thanasis.Boudouridis</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Kathryn.Rowe</PersonID>
+            <Role>TechnicalContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Nathan.Sterner</PersonID>
+            <Role>TechnicalContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Marina.Stepanova</PersonID>
+            <Role>TeamMember</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Ricardo.Monreal.Mac-Mahon</PersonID>
+            <Role>TeamMember</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Enrique.Cordaro.Cardenas</PersonID>
+            <Role>TeamMember</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Vernonica.Vallejos.Marchant</PersonID>
+            <Role>TeamMember</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>The SAMBA Magnetometer Array Home Page.</Name>
+            <URL>http://samba.atmos.ucla.edu</URL>
+            <Description>The SAMBA Magnetometer Array information web site.</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      </Location>
+   </Observatory>
+</Spase>
