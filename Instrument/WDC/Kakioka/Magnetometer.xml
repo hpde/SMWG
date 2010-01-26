@@ -1,24 +1,38 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.0.1</Version>
-    <Instrument>
-        <ResourceID>spase://SMWG/Instrument/WDC/Kakioka/Magnetometer</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Kakioka Ground Magnetic Field Instrument</ResourceName>
-            <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
-            <Description>The magnetic field instrument at the Kakioka ground station</Description>
-            <Acknowledgement>Kakioka Magnetic Observatory, Japan</Acknowledgement>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Mituko.Ozima</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-                <Role>MetadataContact</Role>
-            </Contact>
-        </ResourceHeader>
-        <InstrumentType>Magnetometer</InstrumentType>
-        <InvestigationName>None Identified</InvestigationName>
-        <ObservatoryID>spase://SMWG/Observatory/WDC/Kakioka</ObservatoryID>
-    </Instrument>
+<?xml version="1.0"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
+   <Version>2.0.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/WDC/Kakioka/Magnetometer</ResourceID>
+      <ResourceHeader>
+         <ResourceName>The Kakioka Fluxgate Magnetometer Instrument.</ResourceName>
+         <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
+         <Description>The Fluxgate Magnetometer instrument at the Kakioka geomagnetic observatory.</Description>
+         <Acknowledgement>Please acknowledge Mituko Ozima, Kakioka Magnetic Observatory, Kakioka, Yasato-machi (Niihari-gun, Ibaraki ken, 315-0116 Japan) for use of data from the Kakioka Magnetometer instrument.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Mituko.Ozima</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>The Kakioka geomagnetic observatory English language web site.</Name>
+            <URL>http://www.intermagnet.org/imos/imokak_e.html</URL>
+            <Description>The Kakioka geomagnetic observatory English language web site hosted by the Intermagnet program (International Real-time Magnetic Observatory Network).</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>The Kakioka geomagnetic observatory French language web site.</Name>
+            <URL>http://www.intermagnet.org/imos/imokak_f.html</URL>
+            <Description>The Kakioka geomagnetic observatory French language web site hosted by the Intermagnet program (International Real-time Magnetic Observatory Network).</Description>
+         </InformationURL>
+         <Association>
+            <AssociationID>spase://SMWG/Observatory/WDC/Kakioka</AssociationID>
+            <AssociationType>PartOf</AssociationType>
+         </Association>
+      </ResourceHeader>
+      <InstrumentType>Magnetometer</InstrumentType>
+      <InvestigationName></InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/WDC/Kakioka</ObservatoryID>
+   </Instrument>
 </Spase>
