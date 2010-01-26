@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
+   <Version>2.0.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/ICESTAR/AGO.P6/SearchCoil</ResourceID>
+      <ResourceHeader>
+         <ResourceName>AGO P6 SearchCoil Instrument</ResourceName>
+         <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
+         <Description>The SearchCoil instrument at the AGO P6 ground station</Description>
+         <Acknowledgement>Please acknowledge Hiroshi Fukunishi, Department of Astrophysics and Geophysics (Tohoku University, Aramakiaza-Aoba, Sendai 980-77, Japan) for use of data from the AGO P6 SearchCoil instrument.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Hiroshi.Fukunishi</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>The AGO P6 SearchCoil web site</Name>
+            <URL>http://www.polar.umd.edu</URL>
+            <Description>The AGO P6 SearchCoil web site</Description>
+         </InformationURL>
+         <Association>
+            <AssociationID>spase://SMWG/Observatory/ICESTAR/AGO.P6</AssociationID>
+            <AssociationType>PartOf</AssociationType>
+         </Association>
+      </ResourceHeader>
+      <InstrumentType>SearchCoil</InstrumentType>
+      <InvestigationName></InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/ICESTAR/AGO.P6</ObservatoryID>
+   </Instrument>
+</Spase>

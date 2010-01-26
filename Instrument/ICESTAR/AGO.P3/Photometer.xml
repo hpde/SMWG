@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
+   <Version>2.0.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/ICESTAR/AGO.P3/Photometer</ResourceID>
+      <ResourceHeader>
+         <ResourceName>AGO P3 Photometer Instrument</ResourceName>
+         <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
+         <Description>The Photometer instrument at the AGO P3 ground station</Description>
+         <Acknowledgement>Please acknowledge Theodore J. Rosenberg, Allan T. Weatherwax, Institute for Physical Science and Technology (University of Maryland, College Park, MD 20742-2431) for use of data from the AGO P3 Photometer instrument.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Theodore.J.Rosenberg</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Allan.T.Weatherwax</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>The AGO P3 Photometer web site</Name>
+            <URL>http://www.polar.umd.edu</URL>
+            <Description>The AGO P3 Photometer web site</Description>
+         </InformationURL>
+         <Association>
+            <AssociationID>spase://SMWG/Observatory/ICESTAR/AGO.P3</AssociationID>
+            <AssociationType>PartOf</AssociationType>
+         </Association>
+      </ResourceHeader>
+      <InstrumentType>Photometer</InstrumentType>
+      <InvestigationName></InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/ICESTAR/AGO.P3</ObservatoryID>
+   </Instrument>
+</Spase>

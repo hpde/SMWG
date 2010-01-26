@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
+   <Version>2.0.1</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/ICESTAR/ICESTAR.Logical</ResourceID>
+      <ResourceHeader>
+         <ResourceName>The ICESTAR Logical Observatory</ResourceName>
+         <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
+         <Description>Logical Observatory for the ICESTAR Ground Observatory Chain.</Description>
+         <Acknowledgement>The ICESTAR data are provided with the permission of the principal investigators, Theodore.J.Rosenberg and Allan.T.Weatherwax, who operate instruments at Antarctic and Arctic laboratories for the purpose of fostering cooperative studies of scientific interest.  Before disseminating or publishing these data, it would be courteous to contact the principal investigator.  We gratefully acknowledge support by the National Science Foundation.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Theodore.J.Rosenberg</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Allan.T.Weatherwax</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>The ICESTAR ground observatory network web site</Name>
+            <URL>http://scar-icestar.org</URL>
+            <Description>The ICESTAR ground observatory network web site</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      </Location>
+   </Observatory>
+</Spase>

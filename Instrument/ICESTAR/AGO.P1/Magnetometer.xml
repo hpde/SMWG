@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
+   <Version>2.0.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/ICESTAR/AGO.P1/Magnetometer</ResourceID>
+      <ResourceHeader>
+         <ResourceName>AGO P1 Magnetometer Instrument</ResourceName>
+         <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
+         <Description>The Magnetometer instrument at the AGO P1 ground station</Description>
+         <Acknowledgement>Please acknowledge Louis J. Lanzerotti, Lucent Technologies, Bell Laboratories/1E-439 (600 Mountain Avenue, Murray Hill, NJ 07974-2070) for use of data from the AGO P1 Magnetometer instrument.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Louis.J.Lanzerotti</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>The AGO P1 Magnetometer web site</Name>
+            <URL>http://www.polar.umd.edu</URL>
+            <Description>The AGO P1 Magnetometer web site</Description>
+         </InformationURL>
+         <Association>
+            <AssociationID>spase://SMWG/Observatory/ICESTAR/AGO.P1</AssociationID>
+            <AssociationType>PartOf</AssociationType>
+         </Association>
+      </ResourceHeader>
+      <InstrumentType>Magnetometer</InstrumentType>
+      <InvestigationName></InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/ICESTAR/AGO.P1</ObservatoryID>
+   </Instrument>
+</Spase>

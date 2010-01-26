@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
+   <Version>2.0.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/ICESTAR/South.Pole/SearchCoil</ResourceID>
+      <ResourceHeader>
+         <ResourceName>South Pole SearchCoil Instrument</ResourceName>
+         <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
+         <Description>The SearchCoil instrument at the South Pole ground station</Description>
+         <Acknowledgement>Please acknowledge Roger L. Arnoldy, Space Science Center (Morse Hall, University of New Hampshire, Durham, NH 03824-3525) for use of data from the South Pole SearchCoil instrument.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Roger.L.Arnoldy</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>The South Pole SearchCoil web site</Name>
+            <URL>http://www.polar.umd.edu</URL>
+            <Description>The South Pole SearchCoil web site</Description>
+         </InformationURL>
+         <Association>
+            <AssociationID>spase://SMWG/Observatory/ICESTAR/South.Pole</AssociationID>
+            <AssociationType>PartOf</AssociationType>
+         </Association>
+      </ResourceHeader>
+      <InstrumentType>SearchCoil</InstrumentType>
+      <InvestigationName></InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/ICESTAR/South.Pole</ObservatoryID>
+   </Instrument>
+</Spase>

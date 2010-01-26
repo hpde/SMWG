@@ -1,9 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Roger.L.Arnoldy</ResourceID>
-    <PersonName>Dr. Roger L. Arnoldy</PersonName>
-    <OrganizationName>University of New Hampshire</OrganizationName>
-  </Person>
+<?xml version="1.0"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
+   <Version>2.0.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Roger.L.Arnoldy</ResourceID>
+      <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
+      <PersonName>Roger L. Arnoldy</PersonName>
+      <OrganizationName>Space Science Center</OrganizationName>
+      <Address>Space Science Center, Morse Hall, University of New Hampshire, Durham, NH 03824-3525</Address>
+      <Email>roger.arnoldy@unh.edu</Email>
+      <PhoneNumber>+1 603 862 2751</PhoneNumber>
+   </Person>
 </Spase>
