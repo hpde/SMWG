@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
+   <Version>2.0.1</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/MEASURE/Applied.Physics.Lab</ResourceID>
+      <ResourceHeader>
+         <ResourceName>The Applied Physics Lab Geomagnetic Observatory.</ResourceName>
+         <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
+         <Description>The Applied Physics Lab (APL) Geomagnetic Observatory.</Description>
+         <Acknowledgement>Please acknowledge Mark Moldwin, Institute of Geophysics and Planetary Physics and the Department of Earth and Space Sciences, University of California, Los Angeles, Los Angeles, CA 90095-1567 for providing access to Applied Physics Lab data resources.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Mark.Moldwin</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>The Applied Physics Lab geomagnetic observatory web site.</Name>
+            <URL>http://www-ssc.igpp.ucla.edu/gem/worldmag/measure.html</URL>
+            <Description>The Applied Physics Lab geomagnetic observatory web site.</Description>
+         </InformationURL>
+         <Association>
+            <AssociationID>spase://SMWG/Observatory/MEASURE/MEASURE.Logical</AssociationID>
+            <AssociationType>PartOf</AssociationType>
+         </Association>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>39.170</Latitude>
+         <Longitude>-76.880</Longitude>
+      </Location>
+   </Observatory>
+</Spase>
