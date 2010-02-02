@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_2.xsd">
+  <Version>2.0.2</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Hinode/SOT</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Solar Optical Telescope</ResourceName>
+      <ReleaseDate>2010-02-02T20:21:58Z</ReleaseDate>
+      <Description>The Solar Optical telescope on Hinode consists 
+of a main 50cm aperture telescope and a CCD-based focal plane package.  
+SOT is optimized for accurate measurement of the vector magnetic field 
+in the photosphere and the dynamics of both the photosphere and 
+chromosphere associated with the magnetic fields.  SOT obtains 
+diffraction-limited images (0.2-0.3") in the 388-668 nm range.  
+Pointing stability is maintained at &lt; 0.09" in 3 sigma.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Saku.Tsuneta</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NAOJ Hinode site</Name>
+        <URL>http://solar-b.nao.ac.jp/sot_e/</URL>
+        <Description>National Astronomical Observatory of Japan web site 
+for Hinode mission, instruments, etc.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Imager</InstrumentType>
+    <InvestigationName>solar Optical Telescope</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Hinode</ObservatoryID>
+  </Instrument>
+</Spase>

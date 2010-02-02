@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_2.xsd">
+  <Version>2.0.2</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Hinode</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Hinode</ResourceName>
+      <ReleaseDate>2010-02-02T20:17:24Z</ReleaseDate>
+      <Description>Hinode is a Japanese spacecraft making high resolution
+observations of the sun at optical, EUV and X-ray wavelengths.  Scientific
+foci include solar magnetic fields and coronal heating.  Hinode was launched 
+on September 22, 2006 (UT) into a low altitude, sun-synchronous orbit.  
+Its pre-launch name was Solar-B.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Saku Tsuneta</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Hinode web page at National Astronomical Observatory of Japan</Name>
+        <URL>http://solar-b.nao.ac.jp/index_e.shtml</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>
