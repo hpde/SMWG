@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_2.xsd">
+  <Version>2.0.2</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/CHAMP/OVM</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Scalar Overhauser Magnetometer</ResourceName>
+      <ReleaseDate>2010-02-02T20:55:39Z</ReleaseDate>
+      <Description>The scalar Overhauser magnetometer was provided by
+the Laboratoire d'Electronique de Technologie et d'Instrumentation in
+Grenoble.  It determines proton precession frequency (and hence field
+magnitude) once per second, and has an absolute accuracy better than 
+0.5 nT.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Hermann.Luehr</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>GFZ CHAMP site site</Name>
+        <URL>http://op.gfz-potsdam.de/champ/systems/index_SYSTEMS.html</URL>
+        <Description>German Research Center for Geosciences of Potsdam 
+web site for CHAMP mission, instruments, etc.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Overhauser Magnetometer</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/CHAMP</ObservatoryID>
+  </Instrument>
+</Spase>

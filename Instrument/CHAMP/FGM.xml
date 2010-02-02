@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_2.xsd">
+  <Version>2.0.2</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/CHAMP/FGM</ResourceID>
+    <ResourceHeader>
+      <ResourceName>CHAMP Fluxgate Magnetometer</ResourceName>
+      <ReleaseDate>2010-02-02T20:52:49Z</ReleaseDate>
+      <Description>The triaxial fluxgate magnetometer was provided by
+the Technical University of Denmark.  The design is based on the Compact
+Spherical Coil sensor that was developed for the Oersted spacecraft.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Hermann.Luehr</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>GFZ CHAMP site site</Name>
+        <URL>http://op.gfz-potsdam.de/champ/systems/index_SYSTEMS.html</URL>
+        <Description>German Research Center for Geosciences of Potsdam 
+web site for CHAMP mission, instruments, etc.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Fluxgate Magnetometer</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/CHAMP</ObservatoryID>
+  </Instrument>
+</Spase>

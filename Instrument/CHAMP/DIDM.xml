@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_2.xsd">
+  <Version>2.0.2</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/CHAMP/DIDM</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Digital Ion Drift Meter</ResourceName>
+      <ReleaseDate>2010-02-02T20:52:14Z</ReleaseDate>
+      <Description>The Digital Ion Drift Meter was provided by
+the Air Force Research Laboratory, Hanscom AFB, USA.  It determines
+ion distributions and moments (density, temperature, drift
+velocity) and can be used in computing V x B electric fields.
+There is a companion Planar Langmuir Probe used for spacecraft
+potential and electron density and temperature determinations.
+The DIDM and PLP data are used to help separate internal-source
+and external-source magnetic field variations, the former being 
+a primary focus of the mission.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jens.Wickert</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>GFZ CHAMP site site</Name>
+        <URL>http://op.gfz-potsdam.de/champ/systems/index_SYSTEMS.html</URL>
+        <Description>German Research Center for Geosciences of Potsdam 
+web site for CHAMP mission, instruments, etc.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>IonDrift</InstrumentType>
+    <InvestigationName>Digital Ion Drift Meter</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/CHAMP</ObservatoryID>
+  </Instrument>
+</Spase>
