@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Toshifumi.Mukai</ResourceID>
-    <ReleaseDate>1999-08-18T00:00:00Z</ReleaseDate>
-    <PersonName>Dr. Toshifumi Mukai</PersonName>
-    <OrganizationName>Institute of Space and Astronautical</OrganizationName>
-    <Email>mukai@stp.isas.ac.jp</Email>
-    <PhoneNumber>+1-81-42-751-3911</PhoneNumber>
-  </Person>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
+   <Version>2.0.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Toshifumi.Mukai</ResourceID>
+      <ReleaseDate>2010-02-04T12:34:56.789</ReleaseDate>
+      <PersonName>Dr. Toshifumi Mukai</PersonName>
+      <OrganizationName>Institute of Space and Astronautical Science, Japan Aerospace Exploration Agency</OrganizationName>
+      <Email>mukai@stp.isas.ac.jp</Email>
+      <PhoneNumber>+81 42 751 3911</PhoneNumber>
+   </Person>
 </Spase>

@@ -1,39 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
-  <Instrument>
-    <ResourceID>spase://SMWG/Instrument/Geotail/MGF</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Geotail MGF</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:15Z</ReleaseDate>
-      <Description>The objective of this experiment is to measure the magnetic field variation of the magnetotail in the frequency below 50 Hz. The MGF experiment consists of dual three-axis fluxgate magnetometers and a three-axis search coil magnetometer. Triad fluxgate sensors, which utilize a ring core geometry, are installed at the end and middle of a 6 m deployable mast. Three search coils are mounted approximately one-half of the way out on another 6 m boom together with search coils for the VLF wave in the PWI system. 
-      
-      The fluxgate magnetometers are of standard design and consist of an amplifier, filter, phase sensitive detector, integrator, and a voltage-current convertor. The fluxgate magnetometers operate in seven dynamic ranges to cover various regions of the Earth's magnetosphere and the solar wind: +/-16 nT, +/-64 nT, +/-256 nT, +/-1024 nT, +/-4096 nT, +/-16384 nT, and +/-65536 nT, and supply 16 vectors/sec. 
-
-The automatic range control of the fluxgate magnetometers failed in 1999 so the observable range was manually fixed in the +/-256 nT where it has remained ever since. On November 23, 2006, the fluxgate magnetometer at the end of the boom failed and data from the second magnetometer at the middle of the boom has been used ever since. Neither of the above changes substantially affect the data.
-      
-      The search coil magnetometer system consists of three sensors, preamplifier, amplifier, filter, multiplexer, and an A/D converter. The search coil magnetometers operate in a frequency range of 0.5 kHz to 1 kHz, and supply 128 vectors/sec. The fluxgate magnetometer operates in both real time and record modes, while the search coil data are used only in real time mode.</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Tsugunobu.Nagai</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Donald.H.Fairfield</PersonID>
-        <Role>Scientist</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
-        <Role>MetadataContact</Role>
-      </Contact>
-      <InformationURL>
-        <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1992-044A&amp;ex=6</URL>
-        <Description>Information about the Magnetic Fields Measurement (MGF)</Description>
-      </InformationURL>
-      <PriorID>spase://nssdc/instrument/1992-044A-06</PriorID>
-    </ResourceHeader>
-    <InstrumentType>Magnetometer</InstrumentType>
-    <InvestigationName>MGF on GEOTAIL</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/Geotail</ObservatoryID>
-  </Instrument>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
+   <Version>2.0.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Geotail/MGF</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Geotail MGF</ResourceName>
+         <ReleaseDate>2010-02-04T12:34:56.789</ReleaseDate>
+         <Description>The objective of this experiment is to measure the magnetic field variation of the magnetotail in the frequency below 50 Hz. The MGF experiment consists of dual three-axis fluxgate magnetometers and a three-axis search coil magnetometer. Triad fluxgate sensors, which utilize a ring core geometry, are installed at the end and middle of a 6 m deployable mast. Three search coils are mounted approximately one-half of the way out on another 6 m boom together with search coils for the VLF wave in the PWI system.
+            The fluxgate magnetometers are of standard design and consist of an amplifier, filter, phase sensitive detector, integrator, and a voltage-current convertor. The fluxgate magnetometers operate in seven dynamic ranges to cover various regions of the Earth's magnetosphere and the solar wind: +/-16 nT, +/-64 nT, +/-256 nT, +/-1024 nT, +/-4096 nT, +/-16384 nT, and +/-65536 nT, and supply 16 vectors/sec.
+            The automatic range control of the fluxgate magnetometers failed in 1999 so the observable range was manually fixed in the +/-256 nT where it has remained ever since. On November 23, 2006, the fluxgate magnetometer at the end of the boom failed and data from the second magnetometer at the middle of the boom has been used ever since. Neither of the above changes substantially affect the data.
+            The search coil magnetometer system consists of three sensors, preamplifier, amplifier, filter, multiplexer, and an A/D converter. The search coil magnetometers operate in a frequency range of 0.5 kHz to 1 kHz, and supply 128 vectors/sec. The fluxgate magnetometer operates in both real time and record modes, while the search coil data are used only in real time mode.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Tsugunobu.Nagai</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Donald.H.Fairfield</PersonID>
+            <Role>Scientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>NSSDC's Master Catalog</Name>
+            <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1992-044A-06</URL>
+            <Description>Information about the Magnetic Fields Measurement (MGF)</Description>
+         </InformationURL>
+         <PriorID>spase://nssdc/instrument/1992-044A-06</PriorID>
+      </ResourceHeader>
+      <InstrumentType>Magnetometer</InstrumentType>
+      <InvestigationName>MGF on GEOTAIL</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/Geotail</ObservatoryID>
+   </Instrument>
 </Spase>

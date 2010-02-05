@@ -1,14 +1,13 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/H.Kent.Hills</ResourceID>
-    <ReleaseDate>2008-08-26T18:41:43Z</ReleaseDate>
-    <PersonName>Dr. H. Kent Hills</PersonName>
-    <OrganizationName>GSFC-Code 690.1</OrganizationName>
-    <Address>GSFC-Code 690.1
-QSS Group Inc</Address>
-    <Email>hills@nssdc.gsfc.nasa.gov</Email>
-    <PhoneNumber>+1-301-286-1771</PhoneNumber>
-  </Person>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
+   <Version>2.0.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/H.Kent.Hills</ResourceID>
+      <ReleaseDate>2010-02-04T12:34:56.789</ReleaseDate>
+      <PersonName>Dr. H. Kent Hills</PersonName>
+      <OrganizationName>NASA Goddard Space Flight Center</OrganizationName>
+      <Address>Code 690.1, QSS Group Inc</Address>
+      <Email>hills@nssdc.gsfc.nasa.gov</Email>
+      <PhoneNumber>+1 301 286 1771</PhoneNumber>
+   </Person>
 </Spase>

@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.0.0</Version>
-    <Person>
-        <ResourceID>spase://SMWG/Person/Todd.A.King</ResourceID>
-        <ReleaseDate>2009-03-19T00:00:00</ReleaseDate>
-        <PersonName>Todd A. King</PersonName>
-        <OrganizationName>UCLA</OrganizationName>
-        <Address>UCLA/IGPP, 3645 Slichter Hall, 603 Charles Young Drive East, Los 
-Angeles, CA 90095-1567, USA</Address>
-        <Email>tking@igpp.ucla.edu</Email>
-        <PhoneNumber></PhoneNumber>
-    </Person>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
+   <Version>2.0.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Todd.A.King</ResourceID>
+      <ReleaseDate>2010-02-04T12:34:56.789</ReleaseDate>
+      <PersonName>Todd A. King</PersonName>
+      <OrganizationName>Institute of Geophysics and Planetary Physics, University of California, Los Angeles</OrganizationName>
+      <Address>Institute of Geophysics and Planetary Physics, University of California Los Angeles, Box 951567, Los Angeles, CA 90095-1567</Address>
+      <Email>tking@igpp.ucla.edu</Email>
+      <PhoneNumber>+1 310 206 7201</PhoneNumber>
+   </Person>
 </Spase>

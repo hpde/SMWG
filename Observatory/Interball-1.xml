@@ -1,37 +1,37 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
-  <Observatory>
-    <ResourceID>spase://SMWG/Observatory/Interball-1</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Interball-1</ResourceName>
-      <AlternateName>1995-039A</AlternateName>
-      <AlternateName>Interball Tail Probe</AlternateName>
-      <AlternateName>Prognoz 11</AlternateName>
-      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
-      <Description>The Interball Project is a multi-national effort that consists of four spacecraft: two main spacecraft of the Prognoz series, made in Russia, each with a small subsatellite made in Czechoslovakia. The main objective is to study the physical mechanisms responsible for the transmission of solar wind energy to the magnetosphere, its storage there, and subsequent dissipation in the tail and auroral regions of the magnetosphere, ionosphere, and atmosphere during magnetospheric substorms. A ground-based support group will provide coordinated and simultaneous ground-based data of many types, including observations from auroral and polar cap regions. Interball is an IACG-related mission. Key physical parameters will be generated, and will be available for exchange with other projects. Campaigns for intercomparison with the Wind and Geotail spacecraft are expected. One pair of spacecraft, Tail Probe and its subsatellite S2-X (X for the first letter of the Russian word for ``Tail''), will be launched into the magnetospheric tail. The second pair, Auroral Probe and S2-A (A for ``Auroral''), will have an orbit that crosses the auroral oval to observe the acceleration of auroral particles and the flow of electric currents that connect the magnetospheric tail with the conducting ionosphere. To study the equilibrium tail structure, during about half of each year the Tail Probe pair will cross the main parts of the magnetotail every four days. The Auroral Probe pair will support the Tail Probe pair with auroral region measurements. Each main spacecraft has more than twenty scientific instruments. The spacecraft is cylindrical, with spin axis toward the sun (within 10 degrees), and with spin period of ~120 s. The electric and magnetic field sensors are on booms connected to the ends of the solar panels. The subsatellites are small, each with about ten scientific instruments. The spin axis will be directed within 10 degrees of the sun, with a spin period of ~120 s, as with the main spacecraft. The subsatellites also carry gas-jet thrusters for limited control of the orbit. Separation distance will range from hundreds of kilometers to several tens of thousands of kilometers for the Tail Probe pair. Separation distance will range from hundreds of meters to hundreds of kilometers for the Auroral Probe pair. The Tail Probe has two telemetry systems, at up to 32 Kbps in real-time, with a memory mode capacity of 30 Mb in the RTK telemetry system and 120 Mb in the SSNI system. The Auroral Probe has similar capability plus the additional real-time-only STO system, capable of 40 Kbps. Each subsatellite has only the STO real-time telemetry system. For S2-X the rate can be varied from 2--40 kbps. The Tail Probe has an adapting alert mode while in the memory mode, allowing time resolutions that are the same as in the real-time mode. The aim is to have the highest time resolution available at the thin borders of magnetospheric regions or the sharp borders of some features. In the alert mode (triggered by an on-board computer monitoring plasma and field parameters), the bit rate is increased for plasma, field, and wave measurements. The duration of these alert periods is about 10 minutes, and there can be 5--6 of them during one orbit.</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
-        <Role>MetadataContact</Role>
-      </Contact>
-      <InformationURL>
-        <Name>Interball Project</Name>
-        <URL>http://www.iki.rssi.ru/interball</URL>
-        <Description>Interball project home page at IKI RSSI.</Description>
-      </InformationURL>
-      <InformationURL>
-        <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/masterCatalog.do?sc=1995-039A</URL>
-        <Description>Information about the Interball Tail Probe mission</Description>
-      </InformationURL>
-    </ResourceHeader>
-    <ObservatoryGroup>Interball Tail</ObservatoryGroup>
-    <Location>
-      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
-      <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
-      <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
-      <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
-      <ObservatoryRegion>Earth.Magnetosphere.Polar</ObservatoryRegion>
-    </Location>
-  </Observatory>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
+   <Version>2.0.1</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Interball-1</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Interball-1</ResourceName>
+         <AlternateName>1995-039A</AlternateName>
+         <AlternateName>Interball Tail Probe</AlternateName>
+         <AlternateName>Prognoz 11</AlternateName>
+         <ReleaseDate>2010-02-04T12:34:56.789</ReleaseDate>
+         <Description>The Interball Project is a multi-national effort that consists of four spacecraft: two main spacecraft of the Prognoz series, made in Russia, each with a small subsatellite made in Czechoslovakia. The main objective is to study the physical mechanisms responsible for the transmission of solar wind energy to the magnetosphere, its storage there, and subsequent dissipation in the tail and auroral regions of the magnetosphere, ionosphere, and atmosphere during magnetospheric substorms. A ground-based support group will provide coordinated and simultaneous ground-based data of many types, including observations from auroral and polar cap regions. Interball is an IACG-related mission. Key physical parameters will be generated, and will be available for exchange with other projects. Campaigns for intercomparison with the Wind and Geotail spacecraft are expected. One pair of spacecraft, Tail Probe and its subsatellite S2-X (X for the first letter of the Russian word for ``Tail''), will be launched into the magnetospheric tail. The second pair, Auroral Probe and S2-A (A for ``Auroral''), will have an orbit that crosses the auroral oval to observe the acceleration of auroral particles and the flow of electric currents that connect the magnetospheric tail with the conducting ionosphere. To study the equilibrium tail structure, during about half of each year the Tail Probe pair will cross the main parts of the magnetotail every four days. The Auroral Probe pair will support the Tail Probe pair with auroral region measurements. Each main spacecraft has more than twenty scientific instruments. The spacecraft is cylindrical, with spin axis toward the sun (within 10 degrees), and with spin period of ~120 s. The electric and magnetic field sensors are on booms connected to the ends of the solar panels. The subsatellites are small, each with about ten scientific instruments. The spin axis will be directed within 10 degrees of the sun, with a spin period of ~120 s, as with the main spacecraft. The subsatellites also carry gas-jet thrusters for limited control of the orbit. Separation distance will range from hundreds of kilometers to several tens of thousands of kilometers for the Tail Probe pair. Separation distance will range from hundreds of meters to hundreds of kilometers for the Auroral Probe pair. The Tail Probe has two telemetry systems, at up to 32 Kbps in real-time, with a memory mode capacity of 30 Mb in the RTK telemetry system and 120 Mb in the SSNI system. The Auroral Probe has similar capability plus the additional real-time-only STO system, capable of 40 Kbps. Each subsatellite has only the STO real-time telemetry system. For S2-X the rate can be varied from 2--40 kbps. The Tail Probe has an adapting alert mode while in the memory mode, allowing time resolutions that are the same as in the real-time mode. The aim is to have the highest time resolution available at the thin borders of magnetospheric regions or the sharp borders of some features. In the alert mode (triggered by an on-board computer monitoring plasma and field parameters), the bit rate is increased for plasma, field, and wave measurements. The duration of these alert periods is about 10 minutes, and there can be 5--6 of them during one orbit.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Interball Project</Name>
+            <URL>http://www.iki.rssi.ru/interball</URL>
+            <Description>Interball project home page at IKI RSSI.</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>NSSDC's Master Catalog</Name>
+            <URL>http://nssdc.gsfc.nasa.gov/nmc/masterCatalog.do?sc=1995-039A</URL>
+            <Description>Information about the Interball Tail Probe mission</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <ObservatoryGroup>Interball</ObservatoryGroup>
+      <Location>
+         <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+         <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
+         <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+         <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
+         <ObservatoryRegion>Earth.Magnetosphere.Polar</ObservatoryRegion>
+      </Location>
+   </Observatory>
 </Spase>

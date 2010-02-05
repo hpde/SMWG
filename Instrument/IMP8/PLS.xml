@@ -1,43 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
-  <Instrument>
-    <ResourceID>spase://SMWG/Instrument/IMP8/PLS</ResourceID>
-    <ResourceHeader>
-      <ResourceName>IMP 8 Solar Plasma Faraday Cup</ResourceName>
-      <AlternateName>IMP 8 PLS</AlternateName>
-      <AlternateName>IMP 8 PLA</AlternateName>
-      <AlternateName>1973-078A-02</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:02Z</ReleaseDate>
-      <Description>A modulated split-collector Faraday cup, perpendicular to the spacecraft spin axis, was used to study the directional intensity of positive ions and electrons in the solar wind, transition region, and magnetotail. The collector plate split is perpendicular to the spacecraft spin axis in order to measure the flow angle of the ions in a meridional plane; the flow angle in the spacecraft equatorial plane is determined from the fluxes measured as the spacecraft rotates.
-
-Electrons are measured using 21 logarithmically-spaced energy windows covering the energy/charge range between 23 and 1935 volts. Positive ions are studied using 24 energy windows covering the range between 50 and 7000 volts.
-
-The instrument has three operating modes. The tracking mode yields the best time resolution which is about 1 minute. A single energy window is used during a spacecraft rotation. The ion spectrum is obtained in eight spacecraft revolutions using a subset of the energy windows that track the peak of the solar wind. In this mode, fluxes are measured during 11.25-degree sectors of the spacecraft spin while the instrument is looking within the 90 degree sector centered on the sun direction and during 45 degree sectors for the remainder of the rotation. The other modes yield a spectrum using all 24 windows (with the same angular sectors described above) or a spectrum that results from integrating the observed fluxes over 45 degree sectors for the entire spacecraft rotation.
-
-Electron data are obtained in all modes, but are not usually analyzed.
-
-Parameters derived on a routine basis are proton velocity, number density, and temperature (most probable thermal speed). Those parameters are obtained from a non-linear, least-squares fit to the observed fluxes using a convected, isotropic Maxwellian model.
-
-Key Parameters for the Plasma instrument are computed at MIT using Level Zero data that are staged to the ISTP/CDHF approximately two weeks after being received on Earth. Thus the plasma instrument's Key Parameters lag real time by something greater than 2 weeks, but less than four.
-      </Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Alan.J.Lazarus</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-      <InformationURL>
-        <Name>IMP 8 Home Page</Name>
-        <URL>ftp://space.mit.edu/pub/plasma/imp/www/imp.html</URL>
-      </InformationURL>
-      <InformationURL>
-        <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1973-078A&amp;ex=2</URL>
-        <Description>Information about the Solar Plasma Faraday Cup experiment on the IMP-J mission.</Description>
-      </InformationURL>
-      <PriorID>spase://SMWG/instrument/1973-078A-02</PriorID>
-    </ResourceHeader>
-    <InstrumentType>FaradayCup</InstrumentType>
-    <InvestigationName>Solar Plasma Faraday Cup on IMP-J</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/IMP8</ObservatoryID>
-  </Instrument>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
+   <Version>2.0.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/IMP8/PLS</ResourceID>
+      <ResourceHeader>
+         <ResourceName>IMP 8 Solar Plasma Faraday Cup</ResourceName>
+         <AlternateName>IMP 8 PLS</AlternateName>
+         <AlternateName>IMP 8 PLA</AlternateName>
+         <AlternateName>1973-078A-02</AlternateName>
+         <ReleaseDate>2010-02-04T12:34:56.789</ReleaseDate>
+         <Description>A modulated split-collector Faraday cup, perpendicular to the spacecraft spin axis, was used to study the directional intensity of positive ions and electrons in the solar wind, transition region, and magnetotail. The collector plate split is perpendicular to the spacecraft spin axis in order to measure the flow angle of the ions in a meridional plane; the flow angle in the spacecraft equatorial plane is determined from the fluxes measured as the spacecraft rotates.
+            Electrons are measured using 21 logarithmically-spaced energy windows covering the energy/charge range between 23 and 1935 volts. Positive ions are studied using 24 energy windows covering the range between 50 and 7000 volts.
+            The instrument has three operating modes. The tracking mode yields the best time resolution which is about 1 minute. A single energy window is used during a spacecraft rotation. The ion spectrum is obtained in eight spacecraft revolutions using a subset of the energy windows that track the peak of the solar wind. In this mode, fluxes are measured during 11.25-degree sectors of the spacecraft spin while the instrument is looking within the 90 degree sector centered on the sun direction and during 45 degree sectors for the remainder of the rotation. The other modes yield a spectrum using all 24 windows (with the same angular sectors described above) or a spectrum that results from integrating the observed fluxes over 45 degree sectors for the entire spacecraft rotation.
+            Electron data are obtained in all modes, but are not usually analyzed.
+            Parameters derived on a routine basis are proton velocity, number density, and temperature (most probable thermal speed). Those parameters are obtained from a non-linear, least-squares fit to the observed fluxes using a convected, isotropic Maxwellian model.
+            Key Parameters for the Plasma instrument are computed at MIT using Level Zero data that are staged to the ISTP/CDHF approximately two weeks after being received on Earth. Thus the plasma instrument's Key Parameters lag real time by something greater than 2 weeks, but less than four.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Alan.J.Lazarus</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>IMP 8 Home Page</Name>
+            <URL>ftp://space.mit.edu/pub/plasma/imp/www/imp.html</URL>
+         </InformationURL>
+         <InformationURL>
+            <Name>NSSDC's Master Catalog</Name>
+            <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1973-078A-02</URL>
+            <Description>Information about the Solar Plasma Faraday Cup experiment on the IMP-J mission.</Description>
+         </InformationURL>
+         <PriorID>spase://SMWG/instrument/1973-078A-02</PriorID>
+      </ResourceHeader>
+      <InstrumentType>FaradayCup</InstrumentType>
+      <InvestigationName>Solar Plasma Faraday Cup on IMP-J</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/IMP8</ObservatoryID>
+   </Instrument>
 </Spase>

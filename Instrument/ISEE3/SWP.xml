@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
-  <Instrument>
-    <ResourceID>spase://SMWG/Instrument/ISEE3/SWP</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Solar wind plasma, 2-D &amp; 3-D distr. fns. p: 150eV - 7keV; e: 10eV-1keV</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:15Z</ReleaseDate>
-      <Description>This experiment was designed to make an integrated study of the nature, origin, and evolution of structure in the interplanetary medium. Also, the thermal state of the interplanetary plasma was studied, unperturbed by the earth's bow shock. Ion velocity distributions were measured by a 135-deg spherical electrostatic analyzer in both two and three dimensions. Step energy resolution for each energy window was 4.2%. Electron velocity distributions were measured by a 90-deg spherical electrostatic analyzer, also in two and three dimensions. The energy window per step for electrons was 10%. Channeltron electron multipliers were used as detectors for each of the analyzers. Solar wind electrons were measured in 15 contiguous channels from 8.5 to 1140 eV. A special photoelectron range of 1.6 to 220 eV could be commanded. Various mixtures of data for two-dimensional and three-dimensional distribution functions could be selected. Ions were measured in 32 channels from 237 eV per charge to 10.7 keV per charge. Various modes were available for basic sweep, search, and tracking of the peak of the distribution. The ion instrument failed to return usable data after February 26, 1980.</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/John.T.Gosling</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-      <InformationURL>
-        <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1978-079A&amp;ex=1</URL>
-        <Description>Information about the Solar wind plasma, 2-D &amp; 3-D distr. fns. p: 150eV - 7keV; e: 10eV-1keV experiment on the ISEE 3 mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
-    <InstrumentType>ElectrostaticAnalyser</InstrumentType>
-    <InvestigationName>Solar wind plasma, 2-D &amp; 3-D distr. fns. p: 150eV - 7keV; e: 10eV-1keV on ISEE 3</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/ISEE3</ObservatoryID>
-  </Instrument>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
+   <Version>2.0.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/ISEE3/SWP</ResourceID>
+      <ResourceHeader>
+         <ResourceName>ISEE 3 Solar wind plasma, 2-D and 3-D distribution functions, protons: 150eV-7keV, electrons: 10eV-1keV</ResourceName>
+         <ReleaseDate>2010-02-04T12:34:56.789</ReleaseDate>
+         <Description>This experiment was designed to make an integrated study of the nature, origin, and evolution of structure in the interplanetary medium. Also, the thermal state of the interplanetary plasma was studied, unperturbed by the earth's bow shock. Ion velocity distributions were measured by a 135-deg spherical electrostatic analyzer in both two and three dimensions. Step energy resolution for each energy window was 4.2%. Electron velocity distributions were measured by a 90-deg spherical electrostatic analyzer, also in two and three dimensions. The energy window per step for electrons was 10%. Channeltron electron multipliers were used as detectors for each of the analyzers. Solar wind electrons were measured in 15 contiguous channels from 8.5 to 1140 eV. A special photoelectron range of 1.6 to 220 eV could be commanded. Various mixtures of data for two-dimensional and three-dimensional distribution functions could be selected. Ions were measured in 32 channels from 237 eV per charge to 10.7 keV per charge. Various modes were available for basic sweep, search, and tracking of the peak of the distribution. The ion instrument failed to return usable data after February 26, 1980.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/John.T.Gosling</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>NSSDC's Master Catalog</Name>
+            <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1978-079A-01</URL>
+            <Description>Information about the Solar wind plasma, 2-D &amp; 3-D distr. fns. p: 150eV - 7keV; e: 10eV-1keV experiment on the ISEE 3 mission.</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>ElectrostaticAnalyser</InstrumentType>
+      <InvestigationName>Solar wind plasma, 2-D &amp; 3-D distr. fns. p: 150eV - 7keV; e: 10eV-1keV on ISEE 3</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/ISEE3</ObservatoryID>
+   </Instrument>
 </Spase>
