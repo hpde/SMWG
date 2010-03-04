@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.0.1</Version>
+   <Repository>
+      <ResourceID>spase://SMWG/Repository/UCLA/IGPP.ISEE.Magnetometer.Interactive.Data.Server</ResourceID>
+      <ResourceHeader>
+         <ResourceName>UCLA IGPP ISEE Magnetometer Interactive Data Server</ResourceName>
+         <ReleaseDate>2010-03-03T12:34:56.789</ReleaseDate>
+         <Description>UCLA IGPP ISEE Magnetometer Interactive Data Server</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Robert.J.Strangeway</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>ISEE Magnetometer Interactive Data Server</Name>
+            <URL>http://www-ssc.igpp.ucla.edu/forms/isee</URL>
+            <Description>The ISEE-1 and ISEE-2 magnetometer data server is provided by the Institute of Geophysics and Planetary Physics (IGPP) at UCLA, through a grant to Robert J. Strangeway from the NASA Space Physics Data System (SPDS).</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <AccessURL>
+         <Name>UCLA IGPP ISEE Magnetometer Data Server</Name>
+         <URL>ftp://igpp.ucla.edu/pub/data/isee</URL>
+         <Description>UCLA IGPP ISEE Magnetometer Data Access URL</Description>
+      </AccessURL>
+   </Repository>
+</Spase>
