@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/SCATHA/SC11</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SCATHA Magnetometer (SC11)</ResourceName>
+      <AlternateName>SC11</AlternateName>
+      <ReleaseDate>2010-03-06T23:25:00Z</ReleaseDate>
+      <Description>The SC11 experiment is a triaxial fluxgate magnetometer.  Each axis has a reange of 0 to +/- 500 nT.  The sensor is mounted on a 4 m boom extended perpendicular to the spin axis.  The field vector is measured four times per second.  The output from the spin axis aligned sensor is also fed to a set of SC10 filter channels to provide the same frequency band outputs.  The bandwidth of this magnetometer output is ~100 Hz.  The same axis can be placed on a brodband channel. The filter output from SC10 provides a sensitivity of 10^-1 nT in the 20 to 200 Hz channel while the broadband output provides a sensitivity of 0.2 nT/V.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Brian.G.Ledley</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jonathan.Thomas.Niehof</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>SCATHA server at BU</Name>
+        <URL>http://spacedata.bu.edu/scatha.html</URL>
+        <Description>Spacecraft/instrument description and data.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Magnetometer at NSSDC</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1979-007A-08</URL>
+        <Description>Magnetometer (SC11) on SCATHA.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Spacecraft Charging At High Altitudes (SCATHA)</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/SCATHA</ObservatoryID>
+  </Instrument>
+</Spase>

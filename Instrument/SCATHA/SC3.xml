@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/SCATHA/SC3</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SCATHA High Energy Particle Spectrometer (SC3)</ResourceName>
+      <AlternateName>SC3</AlternateName>
+      <ReleaseDate>2010-03-06T22:37:00Z</ReleaseDate>
+      <Description>The SC3 experiment measures the energetic electron distributions with good energy and angular resolution (three degree full-width-at-half-maxim).  The primary emphasis is on the electron measurements in the 47 to 4970 keV range.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Joseph.B.Reagan</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jonathan.Thomas.Niehof</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>SCATHA server at BU</Name>
+        <URL>http://spacedata.bu.edu/scatha.html</URL>
+        <Description>Spacecraft/instrument description and data.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>High Energy Particle Detector at NSSDC</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1979-007A-15</URL>
+        <Description>High Energy Particle Detector (SC3) on SCATHA.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InstrumentType>ParticleDetector</InstrumentType>
+    <InvestigationName>Spacecraft Charging At High Altitudes (SCATHA)</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/SCATHA</ObservatoryID>
+  </Instrument>
+</Spase>

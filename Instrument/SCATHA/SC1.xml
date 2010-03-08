@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/SCATHA/SC1</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SCATHA Engineering and Wave Experiment (SC1)</ResourceName>
+      <AlternateName>SC1</AlternateName>
+      <ReleaseDate>2010-03-06T22:01:00Z</ReleaseDate>
+      <Description>The primary SC1 science experiment is the VLF wave experiment. The experiment employs two antennas, an air-core loop and the 100 m tip-to-tip dipole from the SC10 experiment. The electric field receiver has a sensitivity of 5x10^-7 V/(mHz^.5) at 1.3 kHz and 10^-7 V/(mHz^.5) at 10.5 kHz.  The magnetic loop is electrostatically shielded, has an effective area of 575 m^2 at 1.3 kHz, and is mounted on a two-meter boom.  The sensitivity of the magnetic receiver is 3 x 10^-6 gamma/Hz^.5 at 1.3 kHz and has a 60 dB dynamic range.  There are eight narrow band filter (bandwidth +/- 7.5%) outputs at 0.4, 1.3, 2.3, 3.0, 10.5, 30.0, 100.0 and 300.0 kHz and a broadband mode (0 to 5 kHz). The broadband data is taken for one to two hours per day.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Harry.C.Koons</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jonathan.Thomas.Niehof</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>SCATHA server at BU</Name>
+        <URL>http://spacedata.bu.edu/scatha.html</URL>
+        <Description>Spacecraft/instrument description and data.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Charging Electrical Effects Analyzer at NSSDC</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1979-007A-02</URL>
+        <Description>Charging Electrical Effects Analyzer (part of SC1) on SCATHA.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Spacecraft Surface Potential Monitor at NSSDC</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1979-007A-01</URL>
+        <Description>Spacecraft Surface Potential Monitor (part of SC1) on SCATHA.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Antenna</InstrumentType>
+    <InstrumentType>LongWire</InstrumentType>
+    <InvestigationName>Spacecraft Charging At High Altitudes (SCATHA)</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/SCATHA</ObservatoryID>
+  </Instrument>
+</Spase>

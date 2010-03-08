@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/SCATHA/SC2</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SCATHA Engineering and Wave Experiment (SC2)</ResourceName>
+      <AlternateName>SC2</AlternateName>
+      <ReleaseDate>2010-03-06T22:28:00Z</ReleaseDate>
+      <Description>The SC2 experiment has both science and engineering applications.  The electrostatic analyzers measure ions and electrons with energies from a few 10's of eV to ~20 keV, perpendicular to the spin axis.  SC2 also measures 20 keV ions with a temporal resolution of 250 msec for He and the CNO group (&gt;150keV/AMU) and one sec for protons.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Joseph.F.Fennell</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jonathan.Thomas.Niehof</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>SCATHA server at BU</Name>
+        <URL>http://spacedata.bu.edu/scatha.html</URL>
+        <Description>Spacecraft/instrument description and data.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Spacecraft Sheath Fields Detector at NSSDC</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1979-007A-06</URL>
+        <Description>Spacecraft Sheath Fields Detector (part of SC2) on SCATHA.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Energetic Proton Detector at NSSDC</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1979-007A-14</URL>
+        <Description>Energetic Proton Detector (part of SC2) on SCATHA.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>ElectrostaticAnalyser</InstrumentType>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InstrumentType>ParticleDetector</InstrumentType>
+    <InvestigationName>Spacecraft Charging At High Altitudes (SCATHA)</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/SCATHA</ObservatoryID>
+  </Instrument>
+</Spase>
