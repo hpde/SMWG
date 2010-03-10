@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_3.xsd">
+  <Version>2.0.3</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/SCATHA/SC4</ResourceID>
     <ResourceHeader>
       <ResourceName>SCATHA Electron and Ion Beam Emission (SC4)</ResourceName>
       <AlternateName>SC4</AlternateName>
-      <ReleaseDate>2010-03-06T22:54:00Z</ReleaseDate>
+      <ReleaseDate>2010-03-10T15:47:58Z</ReleaseDate>
       <Description>The SC4 experiment was to provide current sources for charging and discharging the satellite.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Herbert.A.Cohen</PersonID>

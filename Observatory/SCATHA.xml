@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_3.xsd">
+  <Version>2.0.3</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/SCATHA</ResourceID>
     <ResourceHeader>
       <ResourceName>SCATHA</ResourceName>
       <AlternateName>Spacecraft Charging AT High Altitudes</AlternateName>
       <AlternateName>SESP P78-2A</AlternateName>
-      <ReleaseDate>2010-03-06T19:20:00Z</ReleaseDate>
+      <ReleaseDate>2010-03-10T15:40:27Z</ReleaseDate>
       <Description>Spacecraft Charging At High Altitudes (SCATHA) was a spacecraft program for measuring the characteristics of the plasmasheath charging process. This program determined the response of the spacecraft to the charging and evaluated the techniques to correct the problem. The spacecraft was essentially a right circular cylinder, 1.7 m in diameter and 1.8 m high. It had a near-synchronous orbit and spun about the cylinder axis at a rate of 1 rpm. The spin vector was normal to the earth-sun line and in the equatorial plane of the earth. There were three 3-m booms, a 2-m, and a 7-m boom, all for deployment of experiments. In addition, there was a 101.7-m tip-to-tip electric field antenna. An electron gun and a positive ion (xenon) gun were included, to test the control of the spacecraft potential. Telemetry capability was both PCM and FM, and data could be stored up to 12 h using onboard tape recorders. The planned mission lifetime of 1 year has been surpassed. (description from NSSDC)</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/H.Kent.Hills</PersonID>
@@ -18,7 +18,7 @@
         <Role>TeamLeader</Role>
       </Contact>
       <Contact>
-        <PersonID>Jonathan.T.Niehof</PersonID>
+        <PersonID>spase://SMWG/Person/Jonathan.Thomas.Niehof</PersonID>
         <Role>MetadataContact</Role>
       </Contact>
       <InformationURL>

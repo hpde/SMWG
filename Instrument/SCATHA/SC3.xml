@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_3.xsd">
+  <Version>2.0.3</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/SCATHA/SC3</ResourceID>
     <ResourceHeader>
       <ResourceName>SCATHA High Energy Particle Spectrometer (SC3)</ResourceName>
       <AlternateName>SC3</AlternateName>
-      <ReleaseDate>2010-03-06T22:37:00Z</ReleaseDate>
+      <ReleaseDate>2010-03-10T15:47:58Z</ReleaseDate>
       <Description>The SC3 experiment measures the energetic electron distributions with good energy and angular resolution (three degree full-width-at-half-maxim).  The primary emphasis is on the electron measurements in the 47 to 4970 keV range.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Joseph.B.Reagan</PersonID>

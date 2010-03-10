@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_3.xsd">
+  <Version>2.0.3</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/SCATHA/SC2</ResourceID>
     <ResourceHeader>
       <ResourceName>SCATHA Engineering and Wave Experiment (SC2)</ResourceName>
       <AlternateName>SC2</AlternateName>
-      <ReleaseDate>2010-03-06T22:28:00Z</ReleaseDate>
+      <ReleaseDate>2010-03-10T15:47:58Z</ReleaseDate>
       <Description>The SC2 experiment has both science and engineering applications.  The electrostatic analyzers measure ions and electrons with energies from a few 10's of eV to ~20 keV, perpendicular to the spin axis.  SC2 also measures 20 keV ions with a temporal resolution of 250 msec for He and the CNO group (&gt;150keV/AMU) and one sec for protons.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Joseph.F.Fennell</PersonID>

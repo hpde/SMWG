@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_3.xsd">
+  <Version>2.0.3</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/SCATHA/SC10</ResourceID>
     <ResourceHeader>
       <ResourceName>SCATHA Electric Field Detector (SC10)</ResourceName>
       <AlternateName>SC10</AlternateName>
-      <ReleaseDate>2010-03-06T23:18:00Z</ReleaseDate>
+      <ReleaseDate>2010-03-10T15:47:58Z</ReleaseDate>
       <Description>The SC10 experiment measures the DC electric field and the satellite potential.  The sensor is a 100 m tip-to-tip (50 m per side) cylindrical (0.64cm diameter) dipole that is used as a double floating probe.  The two halves of the antenna are extended perpendicular to the spin axis.  The inner 30 m of each 50 m segment is coated with Kapton insulation.  The primary emphasis of the experiment is on electric fields from DC to 200 Hz.  The antenna is also used by SC1 in the HF and VLF experiments.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Thomas.L.Aggson</PersonID>

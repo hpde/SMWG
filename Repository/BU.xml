@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_3.xsd">
+  <Version>2.0.3</Version>
   <Repository>
     <ResourceID>spase://SMWG/Repository/BU</ResourceID>
     <ResourceHeader>
       <ResourceName>BU</ResourceName>
-      <ReleaseDate>2009-12-10T21:09:00Z</ReleaseDate>
+      <ReleaseDate>2010-03-10T15:43:17Z</ReleaseDate>
       <Description>The Boston University spacedata server hosts data from space missions of interest to BU's Energetic Particle Group.</Description>
       <Contact>
 	      <PersonID>spase://SMWG/Person/Theodore.Allen.Fritz</PersonID>
