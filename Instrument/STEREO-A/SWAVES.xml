@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_3.xsd">
+  <Version>2.0.3</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/STEREO-A/SWAVES</ResourceID>
     <ResourceHeader>
-      <ResourceName>Stereo/Waves (Swaves)</ResourceName>
-      <AlternateName>Swaves</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:10Z</ReleaseDate>
-      <Description/>
+      <ResourceName>STEREO-A Waves (SWAVES)</ResourceName>
+      <AlternateName>SWAVES</AlternateName>
+      <ReleaseDate>2010-03-10T21:08:40Z</ReleaseDate>
+      <Description>This experiment is designed to measure remotely and in situ:
+* Type II radio bursts associated with electrons accelerated
+by CME-driven shocks;
+* Type III radio bursts associated with
+impulsively accelerated electrons streaming out from the sun;
+* in situ plasma waves and waveforms.
+
+Two radio receivers measure wave intensity, source direction and angular size
+in the frequency range 16 MHz to 40 kHz, corresponding to
+heliocentric source distances of about 1 Rs to 1 AU.  One
+10-40 kHz receiver measures radio and plasma waves near the
+1 AU electron plasma frequency. One receiver makes high time
+resolution measurements at 50 MHz.  Time Domain Samplers make
+simultaneous wideband waveform measurements on three electric
+components.  Antenna systems include three mutually orthogonal
+6-meter monopoles.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Jean-Louis.Henry.Bougeret</PersonID>
         <Role>PrincipalInvestigator</Role>
