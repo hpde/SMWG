@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_3.xsd">
+  <Version>2.0.3</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/AIM</ResourceID>
+    <ResourceHeader>
+      <ResourceName>AIM</ResourceName>
+      <ReleaseDate>2010-03-17T21:26:38Z</ReleaseDate>
+      <Description>AIM (Aeronomy of Ice in the Mesosphere) is a NASA Small
+Explorer spacecraft launched April 25, 2007, into a high-inclination, 
+600-km altitude orbit for study of noctilucent clouds (also called Polar 
+Mesospheric Clouds) that occur at 80-90 km altitudes at high latitudes in 
+summer time and are thought to be formed by ice crystals.
+
+AIM carried three instruments:
+
+* The Cloud Imaging and Particle Size (CIPS) experiment 
+that provides an average 5km x 5km resolution in downward-looking images.
+* The Solar Occultation For Ice Experiment (SOFIE) for limb profiles of 
+temperatures and absorptions for various molecules.
+* The Cosmic Dust Experiment (CDE).</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/James.M.Russell.III</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <InformationURL>
+        <Name>AIM web page at Hampton University</Name>
+        <URL>http://aim.hamptonu.edu/</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>

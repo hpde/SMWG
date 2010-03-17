@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_3.xsd">
+  <Version>2.0.3</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/AIM/CIPS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>AIM Cloud Imaging and Particle Size experiment</ResourceName>
+      <ReleaseDate>2010-03-17T21:29:56Z</ReleaseDate>
+      <Description>The Cloud Imaging and Particle Size (CIPS) experiment is 
+a wide angle (120 deg along track by 80 deg across track) imager consisting 
+of four identical cameras arranged in a cross pattern. CIPS provides images 
+of Polar Mesospheric Clouds with a spatial resolution of 1 x 2 km in the 
+nadir and about 5 km at the edges of the forward and aft cameras.
+Images are taken in UV (10 nm passband centered at 265 nm).</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Cora.Randall</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>AIM/CIPS web page at Hampton U.</Name>
+        <URL>http://aim.hamptonu.edu/instrmt/cips.html</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>AIM insrument descriptions at LASP</Name>
+        <URL>http://lasp.colorado.edu/aim/aim_instruments.htm</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Imager</InstrumentType>
+    <InvestigationName>CIPS</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/AIM</ObservatoryID>
+  </Instrument>
+</Spase>

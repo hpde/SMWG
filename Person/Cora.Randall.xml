@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_3.xsd">
+  <Version>2.0.3</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Cora.Randall</ResourceID>
+    <ReleaseDate>2010-03-17T21:32:24Z</ReleaseDate>
+    <PersonName>Cora Randall</PersonName>
+    <OrganizationName>University of Colorado</OrganizationName>
+    <Email>randall@lasp.colorado.edu</Email>
+  </Person>
+</Spase>
