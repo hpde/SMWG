@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_3.xsd">
+  <Version>2.0.3</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Branislav.Kecman</ResourceID>
+    <ReleaseDate>2010-03-17T21:48:29Z</ReleaseDate>
+    <PersonName>Branislav Kecman</PersonName>
+    <OrganizationName>California Institute of Technology</OrganizationName>
+    <Email>kecman@srl.caltech.edu</Email>
+  </Person>
+</Spase>
