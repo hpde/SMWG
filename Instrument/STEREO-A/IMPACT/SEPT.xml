@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_3.xsd">
+  <Version>2.0.3</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/STEREO-A/IMPACT/SEPT</ResourceID>
+    <ResourceHeader>
+      <ResourceName>STEREO-A IMPACT SEPT</ResourceName>
+      <AlternateName>STEREO-A IMPACT Solar Electron Proton Telescope</AlternateName>
+      <ReleaseDate>2010-03-18T14:28:53Z</ReleaseDate>
+      <Description>
+The Solar Electron Proton Telescope (SEPT) consists of two dual, double-ended magnet/foil solid state detector particle telescopes that separate and measure electrons in the energy range of 20-400 keV and protons from 20-7000 keV, while providing anisotropy information through use of several fields of view. Each Silicon Strip Detector (SSD) in SEPT is 300 microns thick and 0.53 cm2 in area. A rare-earth permanent magnet is used to sweep away electrons for ion detection, while a parylene foil transmits electrons but stops protons.  
+
+SEPT is divided into two pieces for field-of-view reasons. The SEPT-E telescope is housed with the rest of the SEP Package on the body of the spacecraft. It looks in the ecliptic plane along the Parker Spiral magnetic field direction, both forward and backward. SEPT-N/S is housed separately at a different spacecraft location, and looks out of the ecliptic plane perpendicular to the nominal magnetic field, both north and south. The viewing cones for the SEPT telescopes are each ~60 degrees.
+
+The electronics  were provided by ESA-ESTEC, SCI-A. The housing and the sensors were provided by the University of Kiel (Germany).
+      </Description>
+      <Acknowledgement>The STEREO IMPACT/SEPT team</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Horst.W.Kunow</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Reinhold.Mueller-Mellin</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Stephan.Boettcher</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Bernd.Heber</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Trevor.R.Sanderson</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Richard.G.Marsden</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>STEREO/IMPACT Mission Site</Name>
+        <URL>http://sprg.ssl.berkeley.edu/impact/</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>
+          http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2006-047A-03
+        </URL>
+        <Description>
+        Information about the In-Situ Measurements of Particles and CME Transients (IMPACT) experiment on the STEREO A mission.
+      </Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>ParticleDetector</InstrumentType>
+    <InvestigationName>
+      In-Situ Measurements of Particles and CME Transients (IMPACT) Solar Electron Proton Telescope on STEREO A
+    </InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/STEREO-A</ObservatoryID>
+  </Instrument>
+</Spase>

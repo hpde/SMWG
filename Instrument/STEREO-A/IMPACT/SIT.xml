@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_3.xsd">
+  <Version>2.0.3</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/STEREO-A/IMPACT/SIT</ResourceID>
+    <ResourceHeader>
+      <ResourceName>STEREO-A IMPACT SIT</ResourceName>
+      <AlternateName>STEREO-A IMPACT Suprathermal Ion Telescope</AlternateName>
+      <ReleaseDate>2010-03-18T14:33:57Z</ReleaseDate>
+      <Description>
+The Suprathermal Ion Telescope (SIT) is a time-of-flight ion mass spectrometer that measures elemental composition of He-Fe ions over the 30-2000 keV/nucleon energy range. The Field of View angles are 17X44 degrees, with the 44 deg angle in the ecliptic plane, centered ~60 deg from the spacecraft-Sun line to avoid sunlight while still intercepting insignificant numbers of Parker Spiral field controlled energetic ion fluxes The telescope analyzes ions that enter through thin entrance foils and stop in a solid state detector. A time-of-flight approach for determining the composition utilizes start and stop times obtained from secondary electrons entering a microchannel plate system. The MCP and SSD areas are each 6.0 cm2. The SIT geometric factor allows study of even small interplanetary and solar enegetic particles (SEP) events. 
+
+SIT is designed to measure energetic particles produced by a wide variety of phenomena, including particles accelerated by CME driven shocks in the solar corona and in interplanetary space, solar flares, and corotating interaction regions (CIRS). Because the shocks associated with CMEs are often quite weak at 1 AU, the energy spectra produced by these shocks are usually soft and do not extend into the MeV energy range. The large geometric factor (0.3 cm2 sr) and low energy response of SIT makes it well suited for observing energetic particles produced locally by these events.
+
+SIT is an international project, led by Glenn Mason, Univ of Maryland with hardware contribution from the Max Planck Institute.
+      </Description>
+      <Acknowledgement>The STEREO IMPACT SIT Team</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Glenn.M.Mason</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Stefano.A.Livi</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Axel.Korth</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>STEREO/IMPACT Mission Site</Name>
+        <URL>http://sprg.ssl.berkeley.edu/impact/</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>
+          http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2006-047A-03
+        </URL>
+        <Description>
+        In-Situ Measurements of Particles and CME Transients (IMPACT) experiment on the STEREO A mission.
+      </Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Max Planck Institute for Solar System Research</Name>
+        <URL>http://www.mps.mpg.de/de/projekte/stereo/impact/</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>
+      In-Situ Measurements of Particles and CME Transients (IMPACT) Suprathermal Ion Telescope on STEREO A
+    </InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/STEREO-A</ObservatoryID>
+  </Instrument>
+</Spase>

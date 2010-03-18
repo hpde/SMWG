@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_3.xsd">
+  <Version>2.0.3</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/STEREO-A/IMPACT/STE</ResourceID>
+    <ResourceHeader>
+      <ResourceName>STEREO-A IMPACT STE</ResourceName>
+      <AlternateName>STEREO-A IMPACT Suprathermal Electron Telescope</AlternateName>
+      <ReleaseDate>2010-03-18T14:25:33Z</ReleaseDate>
+      <Description>
+The Suprathermal Electron Telescope (STE) is a new instrument designed to measure electrons in the energy range ~2-20 keV which are present as a superhalo on the solar wind electrons, and as CME shock-accelerated, or flare-accelerated populations extending beyond the SWEA range. These electrons are ideal for tracing heliospheric magnetic field lines back to their source regions on the Sun and for determining field line lengths, thus probing the structure of interplanetary coronal mass ejections (ICMEs) and of the ambient inner heliosphere.
+
+STE utilizes passively cooled silicon semiconductor devices (SSDs) which measure all energies simultaneously. The STE consists of two arrays of four SSDs in a row, each ~0.1 cm2 area and ~500 microns thick. Each array looks through a rectangular opening that provides a ~20X80 degree field of view for each SSD with the 80 degree direction perpendicular to the ecliptic. Adjacent FOVs are offset for a total FOV of ~80X80 degrees. The two arrays are mounted back-to-back, looking in opposite directions, centered about 25 deg. from the average Parker Spiral field direction. STE is located just inboard of SWEA on the STEREO boom to clear its field of view and remain in shadow. 
+      </Description>
+      <Acknowledgement>The STEREO IMPACT/STE Team</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Robert.P.Lin</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>STEREO/IMPACT Mission Site</Name>
+        <URL>http://sprg.ssl.berkeley.edu/impact/</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>
+          http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2006-047A-03
+        </URL>
+        <Description>
+        In-Situ Measurements of Particles and CME Transients (IMPACT) experiment on the STEREO A mission.
+      </Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>
+      In-Situ Measurements of Particles and CME Transients (IMPACT)  Suprathermal Electron Telescope on STEREO A
+    </InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/STEREO-A</ObservatoryID>
+  </Instrument>
+</Spase>
