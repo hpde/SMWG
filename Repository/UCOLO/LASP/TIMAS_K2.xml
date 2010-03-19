@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2.0.3.xsd">
+  <Version>2.0.3</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/UCOLO/LASP/TIMAS_K2</ResourceID>
+    <ResourceHeader>
+      <ResourceName>LASP TIMAS K2 Data Repository</ResourceName>
+      <ReleaseDate>2010-03-19T19:27:22Z</ReleaseDate>
+      <Description>The TIMAS Science Team's data base of TIMAS K2 data</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/W.K.Peterson</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>TIMAS K2 product page</Name>
+        <URL>http://lasp.colorado.edu/timas/k2/k2.html</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessURL>
+      <URL>http://lasp.colorado.edu/timas/k2/</URL>
+    </AccessURL>
+  </Repository>
+</Spase>
