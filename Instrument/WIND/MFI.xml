@@ -6,22 +6,24 @@
       <ResourceHeader>
          <ResourceName>Wind Magnetic Field Investigation</ResourceName>
          <AlternateName>Wind MFI</AlternateName>
-         <ReleaseDate>2010-02-04T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2010-03-20T15:14:24Z</ReleaseDate>
          <Description>The magnetic field experiment on Wind provides data for studies of a broad range of scales of structures and fluctuation characteristics of the interplanetary magnetic field throughout the mission, and, where appropriate, relate them to the statics and dynamics of the magnetosphere. The basic instrument of the Magnetic Field Investigation (MFI) on the Wind Spacecraft  is a boom-mounted dual triaxial fluxgate magnetometer and associated electronics. The dual configuration provides redudancy and also permits accurate removal of the dipolar portion of the spacecraft magnetic field. The instrument provides:
-            (1) near real-time data at nominally one vector per 92 s as key paramter data for broad dissemination,
-            (2) rapid data at 10.9 vectors/s for standard analysis,
-            (3) occasionally, snapshot (SS) memory data and Fast Fourier Transform data (FFT), both based on 44 vectors/s.
+
+            * (1) near real-time data at nominally one vector per 92 s as key paramter data for broad dissemination,
+            * (2) rapid data at 10.9 vectors/s for standard analysis,
+            * (3) occasionally, snapshot (SS) memory data and Fast Fourier Transform data (FFT), both based on 44 vectors/s.
+
             These measurements are precise (0.025%), accurate, ultra-sensitive (0.008 nT/step quantization), and where the sensor noise level is &lt;0.006 nT r.m.s for 0-10 Hz. The digital processing unit utilizes a 12-bit microprocessor controlled analogue-to-digital converter. The instrument features a very wide dynamic range of measurement capability, from 4 nT up to 65 536 nT per axis in eight discrete ranges. (The upper range permits complete testing in the Earth's field.) In the FFT mode power spectral density elements are transmitted to the ground as fast as once every 23 s (high rate), and 2.7 min of SS memory time series data, triggered automatically by pre-set command, requires typically about 5.1 hours for transmission. Standard data products are the following vector field averages: 0.0226 s (detail data from SS), 0.092 s ('detail' in standard mode), 3 s, 1 min, and 1 hour, in both GSE and GSM coordinates, as well as the FFT spectral elements. High instrument reliability is obtained by the use of fully redundant systems and extremely conservative designs.
+
             The instrument was turned on on 1994-11-12.
+
             References: Lepping, R. P., et al., The Wind Magnetic Field Investigation, Space Science Reviews, 71, 207-229, 1995.</Description>
          <Acknowledgement>User will acknowledge the Wind MFI instrument team in any publication resulting from the use of these data.</Acknowledgement>
          <Contact>
-            <!-- Adam Szabo -->
             <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
             <Role>DataProducer</Role>
          </Contact>
          <Contact>
-            <!-- Ron Lepping -->
             <PersonID>spase://SMWG/Person/Ronald.P.Lepping</PersonID>
             <Role>PrincipalInvestigator</Role>
          </Contact>
