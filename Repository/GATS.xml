@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2.1.0.xsd">
+  <Version>2.1.0</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/GATS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>GATS</ResourceName>
+      <ReleaseDate>2010-03-25T16:48:27Z</ReleaseDate>
+      <Description>Repository at GATS, Inc., initially associated
+with SOFIE data on AIM spacecraft.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Mark.Hervig</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Web site at GATS, Inc., Idaho</Name>
+        <URL>http://sofie.gats-inc.com/sofie/index.php</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>Web site at GATS, Inc., Idaho</Name>
+      <URL>http://sofie.gats-inc.com/sofie/index.php</URL>
+    </AccessURL>
+  </Repository>
+</Spase>
