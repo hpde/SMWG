@@ -6,8 +6,11 @@
     <ResourceHeader>
       <ResourceName>SCATHA Magnetometer (SC11)</ResourceName>
       <AlternateName>SC11</AlternateName>
-      <ReleaseDate>2010-03-10T15:51:31Z</ReleaseDate>
-      <Description>The SC11 experiment is a triaxial fluxgate magnetometer.  Each axis has a range of 0 to +/- 500 nT.  The sensor is mounted on a 4 m boom extended perpendicular to the spin axis.  The field vector is measured four times per second.  The output from the spin axis aligned sensor is also fed to a set of SC10 filter channels to provide the same frequency band outputs.  The bandwidth of this magnetometer output is ~100 Hz.  The same axis can be placed on a brodband channel. The filter output from SC10 provides a sensitivity of 10^-1 nT in the 20 to 200 Hz channel while the broadband output provides a sensitivity of 0.2 nT/V.</Description>
+      <ReleaseDate>2010-03-25T00:36:11Z</ReleaseDate>
+      <Description>The SC11 experiment is a triaxial fluxgate magnetometer.  Each axis has a range of 0 to +/- 500 nT.  The sensor is mounted on a 4 m boom extended perpendicular to the spin axis.  The field vector is measured four times per second.  The output from the spin axis aligned sensor is also fed to a set of SC10 filter channels to provide the same frequency band outputs.  The bandwidth of this magnetometer output is ~100 Hz.  The same axis can be placed on a brodband channel. The filter output from SC10 provides a sensitivity of 10^-1 nT in the 20 to 200 Hz channel while the broadband output provides a sensitivity of 0.2 nT/V.
+      
+      An error analysis performed by the spacecraft manufacturer estimated that the absolute accuracy measurements of the ambient magnetic field component along the space vehicle's X-axis would be better than 1nT at 1σ confidence level. Errors in the other two axes would be less than in the X-axis. The spacecraft's maneuvers and spin provided in-flight information about the magnetometer zero levels and the spacecraft magnetic field components along those two axes.
+      </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Brian.G.Ledley</PersonID>
         <Role>PrincipalInvestigator</Role>

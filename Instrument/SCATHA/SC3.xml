@@ -6,8 +6,13 @@
     <ResourceHeader>
       <ResourceName>SCATHA High Energy Particle Spectrometer (SC3)</ResourceName>
       <AlternateName>SC3</AlternateName>
-      <ReleaseDate>2010-03-10T15:47:58Z</ReleaseDate>
-      <Description>The SC3 experiment measures the energetic electron distributions with good energy and angular resolution (three degree full-width-at-half-maxim).  The primary emphasis is on the electron measurements in the 47 to 4970 keV range.</Description>
+      <ReleaseDate>2010-03-26T00:35:46Z</ReleaseDate>
+      <Description>The SC3 experiment measures the energetic electron distributions with good energy and angular resolution (three degree full-width-at-half-maxim). The primary emphasis is on the electron measurements in the 47 to 4970 keV range.
+      
+      The SC3 instrument measured the fluxes, spectra, and pitch-angle distribution of the energetic particles in the energy range 50 keV to 5100 keV and the integral fluxes between 5100 keV and 10,000 keV. In addition, SC3 measured the proton environment at energies 1-200 MeV and the alpha particle environment at 6-60 MeV. The measurements are made with a pitch-angle resolution of 3 ° (full-width-at-half-maximum). The energy spectra were obtained with a 12-channel pulse height analyzer that was programmed to cover either a narrow or wide energy range.In this manner, both complete survey data and high-resolution spectral data were obtained.
+      
+      The basic measurement technique used a solid-state particle spectrometer consisting of four sensor elements. The D-detector (200-μm thick intrinsic Si) was used to measure both the rate of energy loss of the energetic particles and to directly stop and measure the lower-energy particles. The Edetector (which consisted of five 2-mm-thick detectors in parallel) was located behind the Ddetector to stop the higher-energy particles and to measure their total energy loss. The E'-detector (1000 μm thick) was located behind the E-detector and was used as an active collimator. Behind the E'-detector was a tungsten absorber that set the upper energy limit for analysis. All of these detectors were fabricated of surface-barrier silicon and were stacked together in a telescope configuration. The entire stack was surrounded by the A-detector, which consists of a plastic scintillator viewed by a photomultiplier tube. The purpose of the A-anticoincidence detector was to sense and reject energetic particles and bremsstrahlung that penetrate either the outer shielding walls of aluminum and tungsten or the silicon detector stack and absorber.
+      </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Joseph.B.Reagan</PersonID>
         <Role>PrincipalInvestigator</Role>
