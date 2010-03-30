@@ -1,41 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
-   <Version>2.0.1</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/ICESTAR/South.Pole</ResourceID>
-      <ResourceHeader>
-         <ResourceName>South Pole Ground Observatory</ResourceName>
-         <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
-         <Description>The South Pole Ground Observatory</Description>
-         <Acknowledgement>Please acknowledge Theodore J. Rosenberg, Allan T. Weatherwax, Institute for Physical Science and Technology, University of Maryland, College Park, MD 20742-2431 for providing access to South Pole data resources.</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Theodore.J.Rosenberg</PersonID>
-            <Role>GeneralContact</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Allan.T.Weatherwax</PersonID>
-            <Role>GeneralContact</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>The South Pole ground observatory web site</Name>
-            <URL>http://scar-icestar.org</URL>
-            <Description>The South Pole ground observatory web site</Description>
-         </InformationURL>
-         <Association>
-            <AssociationID>spase://SMWG/Observatory/ICESTAR/ICESTAR.Logical</AssociationID>
-            <AssociationType>PartOf</AssociationType>
-         </Association>
-      </ResourceHeader>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>-89.993</Latitude>
-         <Longitude>346.678</Longitude>
-         <Elevation>2810.0</Elevation>
-      </Location>
-   </Observatory>
+  <Version>2.0.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/ICESTAR/South.Pole</ResourceID>
+    <ResourceHeader>
+      <ResourceName>South Pole Ground Observatory</ResourceName>
+      <ReleaseDate>2010-03-30T22:25:54Z</ReleaseDate>
+      <Description>The South Pole Ground Observatory</Description>
+      <Acknowledgement>Please acknowledge Theodore J. Rosenberg, Allan T. Weatherwax, Institute for Physical Science and Technology, University of Maryland, College Park, MD 20742-2431 for providing access to South Pole data resources.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Theodore.J.Rosenberg</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Allan.T.Weatherwax</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The South Pole ground observatory web site</Name>
+        <URL>http://scar-icestar.org</URL>
+        <Description>The South Pole ground observatory web site</Description>
+      </InformationURL>
+      <Association>
+        <AssociationID>spase://SMWG/Observatory/ICESTAR/ICESTAR.Logical</AssociationID>
+        <AssociationType>PartOf</AssociationType>
+      </Association>
+    </ResourceHeader>
+    <ObservatoryGroup>ICESTAR</ObservatoryGroup>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>-89.993</Latitude>
+      <Longitude>346.678</Longitude>
+      <Elevation>2810.0</Elevation>
+    </Location>
+  </Observatory>
 </Spase>

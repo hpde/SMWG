@@ -1,37 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
-   <Version>2.0.1</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/ICESTAR/Iqaluit</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Iqaluit Ground Observatory</ResourceName>
-         <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
-         <Description>The Iqaluit Ground Observatory</Description>
-         <Acknowledgement>Please acknowledge Larry Newitt, Natural Resources Canada, 2617 Anderson Road, Bldg. 5, Room. 5, Ottawa, Ontario, Canada K1A 0Y3 for providing access to Iqaluit data resources.</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Larry.Newitt</PersonID>
-            <Role>GeneralContact</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>The Iqaluit ground observatory web site</Name>
-            <URL>http://scar-icestar.org</URL>
-            <Description>The Iqaluit ground observatory web site</Description>
-         </InformationURL>
-         <Association>
-            <AssociationID>spase://SMWG/Observatory/ICESTAR/ICESTAR.Logical</AssociationID>
-            <AssociationType>PartOf</AssociationType>
-         </Association>
-      </ResourceHeader>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>63.753</Latitude>
-         <Longitude>291.482</Longitude>
-         <Elevation>67.0</Elevation>
-      </Location>
-   </Observatory>
+  <Version>2.0.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/ICESTAR/Iqaluit</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Iqaluit Ground Observatory</ResourceName>
+      <ReleaseDate>2010-03-30T22:25:54Z</ReleaseDate>
+      <Description>The Iqaluit Ground Observatory</Description>
+      <Acknowledgement>Please acknowledge Larry Newitt, Natural Resources Canada, 2617 Anderson Road, Bldg. 5, Room. 5, Ottawa, Ontario, Canada K1A 0Y3 for providing access to Iqaluit data resources.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Larry.Newitt</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The Iqaluit ground observatory web site</Name>
+        <URL>http://scar-icestar.org</URL>
+        <Description>The Iqaluit ground observatory web site</Description>
+      </InformationURL>
+      <Association>
+        <AssociationID>spase://SMWG/Observatory/ICESTAR/ICESTAR.Logical</AssociationID>
+        <AssociationType>PartOf</AssociationType>
+      </Association>
+    </ResourceHeader>
+    <ObservatoryGroup>ICESTAR</ObservatoryGroup>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>63.753</Latitude>
+      <Longitude>291.482</Longitude>
+      <Elevation>67.0</Elevation>
+    </Location>
+  </Observatory>
 </Spase>
