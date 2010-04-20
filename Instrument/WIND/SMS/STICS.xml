@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/WIND/SMS/STICS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>The SupraThermal Ion Composition Spectrometer (STICS)</ResourceName>
+      <ReleaseDate>2010-03-20T15:20:16Z</ReleaseDate>
+      <Description>The SupraThermal Ion Composition Spectrometer (STICS) determines the mass, mass per charge, and energy 
+        for ions in the energy range of 6-230 keV/e.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Wind spacecraft SMS Documentation</Name>
+        <URL>http://wind.nasa.gov/inst_info.php#SMS_Docs</URL>
+        <Description>Information related to the SMS instrument suite at the Wind spacecraft website.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>The SupraThermal Ion Composition Spectrometer (STICS)</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/WIND</ObservatoryID>
+  </Instrument>
+</Spase>

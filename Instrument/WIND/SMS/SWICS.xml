@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/WIND/SMS/SWICS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Solar Wind and Suprathermal Ion Composition Studies (SWICS)</ResourceName>
+      <ReleaseDate>2010-03-20T15:20:16Z</ReleaseDate>
+      <Description>The Solar Wind Ion Composition Spectrometer (SWICS) determines mass, charge, and energy for ions in 
+        the energy range of 0.5 to 30 keV/e. The SWICS "stop" MCP experienced a failure resulting in reduced capabilities for this instrument.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Wind spacecraft SMS Documentation</Name>
+        <URL>http://wind.nasa.gov/inst_info.php#SMS_Docs</URL>
+        <Description>Information related to the SMS instrument suite at the Wind spacecraft website.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Instrument/WIND/SWICS</PriorID>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Solar Wind and Suprathermal Ion Composition Studies (SWICS)</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/WIND</ObservatoryID>
+  </Instrument>
+</Spase>
