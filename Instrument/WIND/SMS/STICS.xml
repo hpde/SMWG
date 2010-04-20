@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
+  <Version>2.1.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/WIND/SMS/STICS</ResourceID>
     <ResourceHeader>
       <ResourceName>The SupraThermal Ion Composition Spectrometer (STICS)</ResourceName>
-      <ReleaseDate>2010-03-20T15:20:16Z</ReleaseDate>
+      <ReleaseDate>2010-04-20T19:50:26Z</ReleaseDate>
       <Description>The SupraThermal Ion Composition Spectrometer (STICS) determines the mass, mass per charge, and energy 
         for ions in the energy range of 6-230 keV/e.</Description>
       <Contact>

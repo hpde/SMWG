@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
+  <Version>2.1.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/WIND/SMS</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar Wind and Suprathermal Ion Composition Experiment (SMS)</ResourceName>
-      <ReleaseDate>2010-04-20T15:20:16Z</ReleaseDate>
+      <ReleaseDate>2010-04-20T19:50:26Z</ReleaseDate>
       <Description>The Wind SMS instrument suite is composed of three separate instruments. 
-        The SupraThermal Ion Composition Spectrometer (STICS) determines the mass, mass per charge, and energy for ions in the 
-        energy range of 6-230 keV/e. The high resolution mass spectrometer (MASS) determines elemental and isotopic abundances from 
-        0.5 to 12 keV/e. Finally, The Solar Wind Ion Composition Spectrometer (SWICS) determines mass, charge, and energy for ions in 
-        the energy range of 0.5 to 30 keV/e. The SWICS "stop" MCP experienced a failure resulting in reduced capabilities for this instrument.</Description>
+
+          * The SupraThermal Ion Composition Spectrometer (STICS) determines the mass, mass per charge, and energy for ions in the energy range of 6-230 keV/e.
+          * The high resolution mass spectrometer (MASS) determines elemental and isotopic abundances from 0.5 to 12 keV/e.
+          * Finally, the Solar Wind Ion Composition Spectrometer (SWICS) determines mass, charge, and energy for ions in the energy range of 0.5 to 30 keV/e. The SWICS "stop" MCP experienced a failure resulting in reduced capabilities for this instrument.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
         <Role>PrincipalInvestigator</Role>
@@ -20,11 +20,9 @@
         <URL>http://wind.nasa.gov/inst_info.php#SMS_Docs</URL>
         <Description>Information related to the SMS instrument suite at the Wind spacecraft website.</Description>
       </InformationURL>
-      <PriorID></PriorID>
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
-    <InvestigationName>Solar Wind and Suprathermal Ion Composition Experiment (SMS)</InvestigationName>    
+    <InvestigationName>Solar Wind and Suprathermal Ion Composition Experiment (SMS)</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/WIND</ObservatoryID>
-    
   </Instrument>
 </Spase>
