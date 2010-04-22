@@ -6,12 +6,14 @@
     <ResourceHeader>
       <ResourceName>NASA THEMIS GBO Taloyoak Station</ResourceName>
       <AlternateName>TALO</AlternateName>
-      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
+      <ReleaseDate>2010-04-22T22:33:00Z</ReleaseDate>
       <Description>Taloyoak (TALO) station is located in Taloyoak, NU, Canada. TALO is part of the UCLA GBO Network.
-		Magnetic Latitude: 48.26
-		Magnetic Longitude: 331.23
-		UT of Magnetic Midnight: 6:39
-		Magnetic Declination: -15.78
+
+		* Magnetic Latitude: 48.26
+		* Magnetic Longitude: 331.23
+		* UT of Magnetic Midnight: 6:39
+        * Magnetic Declination: -15.78
+
 Magnetic coordinates obtained by calculation using the GEO-CGM online calculator with IGRF 2010 at altitude of 0 km.</Description>
       <Acknowledgement>We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission.</Acknowledgement>
       <Contact>
@@ -40,7 +42,6 @@ Magnetic coordinates obtained by calculation using the GEO-CGM online calculator
         <AssociationID>spase://SMWG/Observatory/Taloyoak</AssociationID>
         <AssociationType>Other</AssociationType>
       </Association>
-      <PriorID>spase://SMWG/Observatory/THEMIS-Ground/UCLA-GBO/TALO</PriorID>
     </ResourceHeader>
     <ObservatoryGroup>THEMIS-UCLA-GBO</ObservatoryGroup>
     <Location>
