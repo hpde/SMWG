@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
+  <Version>2.1.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-GBO/TALO</ResourceID>
+    <ResourceHeader>
+      <ResourceName>NASA THEMIS GBO Taloyoak Station</ResourceName>
+      <AlternateName>TALO</AlternateName>
+      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
+      <Description>Taloyoak (TALO) station is located in Taloyoak, NU, Canada. TALO is part of the UCLA GBO Network.
+		Magnetic Latitude: 48.26
+		Magnetic Longitude: 331.23
+		UT of Magnetic Midnight: 6:39
+		Magnetic Declination: -15.78
+Magnetic coordinates obtained by calculation using the GEO-CGM online calculator with IGRF 2010 at altitude of 0 km.</Description>
+      <Acknowledgement>We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Stephen.B.Mende</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>THEMIS Ground Based Observatory System Design</Name>
+        <URL>http://www.igpp.ucla.edu/public/THEMIS/SCI/Pubs/2007_Refereed/harris_ssr_2007_gbo_sys_design_published.pdf</URL>
+        <Description>Harris et al., Nov. 2007; In depth description of GBO design.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>THEMIS Web Site</Name>
+        <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+        <Description>Description of GMAGS on THEMIS web site.</Description>
+      </InformationURL>
+      <Association>
+        <AssociationID>spase://SMWG/Observatory/Taloyoak</AssociationID>
+        <AssociationType>Other</AssociationType>
+      </Association>
+      <PriorID>spase://SMWG/Observatory/THEMIS-Ground/UCLA-GBO/TALO</PriorID>
+    </ResourceHeader>
+    <ObservatoryGroup>THEMIS-UCLA-GBO</ObservatoryGroup>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>WGS84</CoordinateSystemName>
+      <Latitude>69.54</Latitude>
+      <Longitude>266.45</Longitude>
+    </Location>
+  </Observatory>
+</Spase>
