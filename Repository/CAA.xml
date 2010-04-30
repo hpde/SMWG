@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_3.xsd">
+  <Version>2.0.3</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/CAA</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Cluster Active Archive</ResourceName>
+      <ReleaseDate>2010-04-30T14:00:00Z</ReleaseDate>
+      <Description>The Cluster Active Archive is a depository of processed and validated high-resolution Cluster data, raw data, 
+        processing software, calibration data, documentation and other value added products. </Description>
+	  <Acknowledgement>For presentations and publications, please acknowledge the instrument teams and the Cluster Active Archive.</Acknowledgement>
+      <Contact>
+	      <PersonID>spase://SMWG/Person/Harri.Laakso</PersonID>
+	      <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+	      <PersonID>spase://SMWG/Person/Christopher.H.Perry</PersonID>
+	      <Role>TechnicalContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>Cluster Active Archive Home Page</Name>
+      <URL>http://caa.estec.esa.int/caa/</URL>
+      <Description>Access to the CAA is restricted and requires registration.</Description>
+      <Language>EN</Language>
+    </AccessURL>
+ </Repository>
+</Spase>
