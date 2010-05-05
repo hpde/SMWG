@@ -28,6 +28,38 @@
             <URL>http://omniweb.gsfc.nasa.gov/html/ow_data.html</URL>
             <Description>Description of the instruments and processing techniques used in the creation of low resolution OMNI</Description>
          </InformationURL>
+         <Association>
+            <AssociationID>spase://SMWG/Instrument/ACE/MAG</AssociationID>
+            <AssociationType>DerivedFrom</AssociationType>
+         </Association>
+         <Association>
+            <AssociationID>spase://SMWG/Instrument/ACE/SWEPAM</AssociationID>
+            <AssociationType>DerivedFrom</AssociationType>
+         </Association>
+         <Association>
+            <AssociationID>spase://SMWG/Instrument/WIND/MFI</AssociationID>
+            <AssociationType>DerivedFrom</AssociationType>
+         </Association>
+         <Association>
+            <AssociationID>spase://SMWG/Instrument/WIND/SWE</AssociationID>
+            <AssociationType>DerivedFrom</AssociationType>
+         </Association>
+         <Association>
+            <AssociationID>spase://SMWG/Instrument/IMP8/MAG</AssociationID>
+            <AssociationType>DerivedFrom</AssociationType>
+         </Association>
+         <Association>
+            <AssociationID>spase://SMWG/Instrument/IMP8/PLS</AssociationID>
+            <AssociationType>DerivedFrom</AssociationType>
+         </Association>
+         <Association>
+            <AssociationID>spase://SMWG/Instrument/Geotail/MGF</AssociationID>
+            <AssociationType>DerivedFrom</AssociationType>
+         </Association>
+         <Association>
+            <AssociationID>spase://SMWG/Instrument/Geotail/CPI</AssociationID>
+            <AssociationType>DerivedFrom</AssociationType>
+         </Association>
       </ResourceHeader>
       <InstrumentType>Magnetometer</InstrumentType>
       <InstrumentType>ElectrostaticAnalyser</InstrumentType>

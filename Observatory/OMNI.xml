@@ -28,6 +28,22 @@
             <URL>http://omniweb.gsfc.nasa.gov/html/ow_data.html</URL>
             <Description>Description of the instruments and processing techniques used in the creation of low resolution OMNI</Description>
          </InformationURL>
+         <Association>
+            <AssociationID>spase://SMWG/Observatory/ACE</AssociationID>
+            <AssociationType>DerivedFrom</AssociationType>
+         </Association>
+         <Association>
+            <AssociationID>spase://SMWG/Observatory/WIND</AssociationID>
+            <AssociationType>DerivedFrom</AssociationType>
+         </Association>
+         <Association>
+            <AssociationID>spase://SMWG/Observatory/IMP8</AssociationID>
+            <AssociationType>DerivedFrom</AssociationType>
+         </Association>
+         <Association>
+            <AssociationID>spase://SMWG/Observatory/Geotail</AssociationID>
+            <AssociationType>DerivedFrom</AssociationType>
+         </Association>
       </ResourceHeader>
       <Location>
          <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
