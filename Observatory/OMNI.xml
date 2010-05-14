@@ -30,19 +30,19 @@
          </InformationURL>
          <Association>
             <AssociationID>spase://SMWG/Observatory/ACE</AssociationID>
-            <AssociationType>DerivedFrom</AssociationType>
+            <AssociationType>PartOf</AssociationType>
          </Association>
          <Association>
             <AssociationID>spase://SMWG/Observatory/WIND</AssociationID>
-            <AssociationType>DerivedFrom</AssociationType>
+            <AssociationType>PartOf</AssociationType>
          </Association>
          <Association>
             <AssociationID>spase://SMWG/Observatory/IMP8</AssociationID>
-            <AssociationType>DerivedFrom</AssociationType>
+            <AssociationType>PartOf</AssociationType>
          </Association>
          <Association>
             <AssociationID>spase://SMWG/Observatory/Geotail</AssociationID>
-            <AssociationType>DerivedFrom</AssociationType>
+            <AssociationType>PartOf</AssociationType>
          </Association>
       </ResourceHeader>
       <Location>

@@ -30,35 +30,35 @@
          </InformationURL>
          <Association>
             <AssociationID>spase://SMWG/Instrument/ACE/MAG</AssociationID>
-            <AssociationType>DerivedFrom</AssociationType>
+            <AssociationType>PartOf</AssociationType>
          </Association>
          <Association>
             <AssociationID>spase://SMWG/Instrument/ACE/SWEPAM</AssociationID>
-            <AssociationType>DerivedFrom</AssociationType>
+            <AssociationType>PartOf</AssociationType>
          </Association>
          <Association>
             <AssociationID>spase://SMWG/Instrument/WIND/MFI</AssociationID>
-            <AssociationType>DerivedFrom</AssociationType>
+            <AssociationType>PartOf</AssociationType>
          </Association>
          <Association>
             <AssociationID>spase://SMWG/Instrument/WIND/SWE</AssociationID>
-            <AssociationType>DerivedFrom</AssociationType>
+            <AssociationType>PartOf</AssociationType>
          </Association>
          <Association>
             <AssociationID>spase://SMWG/Instrument/IMP8/MAG</AssociationID>
-            <AssociationType>DerivedFrom</AssociationType>
+            <AssociationType>PartOf</AssociationType>
          </Association>
          <Association>
             <AssociationID>spase://SMWG/Instrument/IMP8/PLS</AssociationID>
-            <AssociationType>DerivedFrom</AssociationType>
+            <AssociationType>PartOf</AssociationType>
          </Association>
          <Association>
             <AssociationID>spase://SMWG/Instrument/Geotail/MGF</AssociationID>
-            <AssociationType>DerivedFrom</AssociationType>
+            <AssociationType>PartOf</AssociationType>
          </Association>
          <Association>
             <AssociationID>spase://SMWG/Instrument/Geotail/CPI</AssociationID>
-            <AssociationType>DerivedFrom</AssociationType>
+            <AssociationType>PartOf</AssociationType>
          </Association>
       </ResourceHeader>
       <InstrumentType>Magnetometer</InstrumentType>
