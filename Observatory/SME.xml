@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
+  <Version>2.1.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/SME</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SME</ResourceName>
+      <ReleaseDate>2010-05-19T20:27:21Z</ReleaseDate>
+      <Description>NASA's Solar Mesospheric Explorer (SME) spacecraft was launched
+on 1981-10-06 into a sun-synchronous orbit for studies of mesospheric ozone and
+its response to solar UV flux, and related topics.  It operated until its December
+2008 deactivation</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1981-100A</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>

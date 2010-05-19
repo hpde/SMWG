@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
+  <Version>2.1.0</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/UCOLO/LASP/LISIRD</ResourceID>
+    <ResourceHeader>
+      <ResourceName>LISIRD</ResourceName>
+      <ReleaseDate>2010-05-19T20:42:36Z</ReleaseDate>
+      <Description>The LASP Interactive Solar Irradiance Data center (LISIRD)
+at U. Colorado supports several solar irradiance data sets from such
+spacecraft as SORCE, TIMED, UARS and SME.  Both total irradiance and 
+spectrally resolved irradiance data sets are supported.  Also available
+are reference spectra, composite time series, and model results.
+Overall wavelength coverage spans 1 to 24,000 A.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Greg.Kopp</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>LISIRD</Name>
+      <URL>http://lasp.colorado.edu/lisird/index.html</URL>
+    </AccessURL>
+  </Repository>
+</Spase>

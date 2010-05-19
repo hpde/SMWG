@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
+  <Version>2.1.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/UARS/SOLSTICE</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SOLSTICE</ResourceName>
+      <ReleaseDate>2010-05-19T20:40:23Z</ReleaseDate>
+      <Description>The UARS Solar Stellar Irradiance Comparison Experiment
+(SOLSTICE) measured the solar spectrum in the 115-650 nm range with a 10%
+or better absolute accuracy.  An Ebert-Fastie spectrometer with an 0.15 nm
+resolution was used.  Stellar spectra were also measured to monitor
+possible instrumental variability.  Solar variability of 1-2% was reliably
+determined.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Gary.J.Rottman</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSDC Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1991-063B-04</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Spectrometer</InstrumentType>
+    <InvestigationName>SOLSTICE</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/UARS</ObservatoryID>
+  </Instrument>
+</Spase>
