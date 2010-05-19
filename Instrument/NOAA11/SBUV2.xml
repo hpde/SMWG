@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
+  <Version>2.1.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/NOAA11/SBUV2</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SBUV/2</ResourceName>
+      <ReleaseDate>2010-05-19T20:52:50Z</ReleaseDate>
+      <Description>The NOAA 11 Solar Backscatter Ultraviolet Radiometer 
+(SBUV/2) is designed to provide the vertical distribution of ozone in the 
+Earth's atmosphere. The SBUV/2 instrument measures backscattered solar 
+radiation in an 11.3-degree field-of-view in the nadir direction at 12 
+discrete, 1.1 nm wide, wavelength bands between 252.0 and 339.8 nm. 
+The solar irradiance is determined at the same 12 wavelength bands by 
+deploying a diffuser which will reflect sunlight into the instrument 
+field-of-view. The SBUV/2 can also measure the solar irradiance or the 
+atmospheric radiance with a continuous spectral scan from 160 nm to 
+400 nm in increments nominally 0.148 nm. The SBUV/2 has another 
+narrowband filter photometer channel, called the cloud cover radiometer 
+(CCR), which continuously measures the earth's surface brightness at 
+380 nm. The CCR field-of-view is 11.3 degrees.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Donald.F.Heath</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Carolyn.Y.Ng</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSDC Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1988-089A-05</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Spectrometer</InstrumentType>
+    <InvestigationName>SBUV2</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/NOAA11</ObservatoryID>
+  </Instrument>
+</Spase>

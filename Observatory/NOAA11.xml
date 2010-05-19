@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
+  <Version>2.1.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/NOAA11</ResourceID>
+    <ResourceHeader>
+      <ResourceName>NOAA 11</ResourceName>
+      <ReleaseDate>2010-05-19T21:04:02Z</ReleaseDate>
+      <Description>The NOAA 11 spacecraft was launched
+on 1988-09-24 into a ~850 km, 99 deg inclination (sun synchronous)
+orbit.  Principal instruments were the Advanced Very High Resolution 
+Radiometer (AVHRR), TIROS Operational Vertial Sounder (TOVS),  
+and the Solar Backscatter UV Radiometer (SBUV/2).  Data were 
+provided at least until 1992</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Carolyn.Y.Ng</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1988-089A</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>

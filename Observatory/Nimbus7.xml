@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
+  <Version>2.1.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Nimbus7</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Nimbus 7</ResourceName>
+      <ReleaseDate>2010-05-19T20:55:03Z</ReleaseDate>
+      <Description>NASA's Nimbus 7 spacecraft was launched
+on 1978-10-24 into a ~950 km polar orbit and operated until 1993.
+It carried eight experiments:
+
+* (1) limb infrared monitoring of the stratosphere (LIMS),
+* (2) stratospheric and mesopheric sounder (SAMS),
+* (3) coastal-zone color scanner (CZCS),
+* (4) stratospheric aerosol measurement II (SAM II),
+* (5) earth radiation budget (ERB),
+* (6) scanning multichannel microwave radiometer (SMMR),
+* (7) solar backscatter UV and total ozone mapping spectrometer (SBUV/TOMS), and
+* (8) temperature-humidity infrared radiometer (THIR).</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Carolyn.Y.Ng</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1978-098A</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>

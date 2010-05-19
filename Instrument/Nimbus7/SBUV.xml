@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
+  <Version>2.1.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Nimbus7/SBUV</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SBUV</ResourceName>
+      <ReleaseDate>2010-05-19T20:52:50Z</ReleaseDate>
+      <Description>The Nimbus 7 Solar Backscatter Ultraviolet (SBUV) 
+instrument was to monitor the incident solar ultraviolet (UV) irradiance 
+and ultraviolet radiation backscattered from the Earth. The SBUV 
+consisted of a double Ebert-Fastie spectrometer and a filter photometer. 
+The SBUV spectrometer measured solar UV backscattered by the Earth's 
+atmosphere at 12 wavelengths between 0.25 and 0.34 micrometer, with a 
+spectral bandpass of 0.001 micrometer.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Donald.F.Heath</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Carolyn.Y.Ng</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSDC Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1978-098A-09</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Spectrometer</InstrumentType>
+    <InvestigationName>SBUV</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Nimbus7</ObservatoryID>
+  </Instrument>
+</Spase>
