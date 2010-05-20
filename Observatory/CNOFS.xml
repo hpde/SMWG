@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
+  <Version>2.1.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/CNOFS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Communication/Navigation Outage Forecasting System (C/NOFS)</ResourceName>
+      <AlternateName>Coupled Ion Neutral Dynamics Investigation (CINDI)</AlternateName>
+      <ReleaseDate>2010-05-20T00:40:49Z</ReleaseDate>
+      <Description> The Communications/Navigation Outage Forecasting System (C/NOFS) is spacecraft launched April 16, 2008, into an inclined orbit with perigee/apogee of 400/700 km and a 95-minute period to monitor and forecast ionospheric scintillation in real-time and on a global scale. The DOD Space Test Program provides the spacecraft, launch vehicle, launch and first year on-orbit operations. The US Air Force Research Laboratory is responsible for the multi-instrument payload, payload integration and test, model development, data center operations, and product generation and distribution.
+
+The C/NOFS carries three types of sensors:
+
+* 1) In-situ ionospheric plasma property instruments,
+* 2) Remote electron density GPS occultation sensor and imaging UV spectrographs, and
+* 3) RF beacon and receiver for ionospheric scintillation detection.
+
+The payload consists of six instruments:
+
+* the Planar Langmuir Probe (PLP) for measurements of plasma density,
+* the Vector Electric Field Instrument (VEFI) for measurements of vector electric and magnetic fields,
+* the Ion Velocity Meter (IVM) for measurements of plasma drift velocities and ion temperatures,
+* the Neutral Wind Meter (NWM) for measurements of neutral winds,
+* the C/NOFS Occultation Receiver for Ionospheric Sensing and Specification (CORISS) for remote sensing of the electron density vertical profile,
+* the Coherent Electromagnetic Radio Tomography (CERTO) for measurements of ionospheric scintillation parameters.
+
+Both the Neutral Wind Meter (NWM) and the Ion Velocity Meter (IVM) are provided by NASA via the University of Texas at Dallas as the Coupled Ion-Neutral Dynamics Investigation (CINDI) payload, which was selected as an Explorer Mission of Opportunity. The goal of C/NOFS is to forecast scintillation three to six hours before its onset such that system operators will be able to plan in ways that will optimize mission command and control.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Robert.F.Pfaff</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=2008-017A</URL>
+        <Description>Information about the Communication/Navigation Outage Forecasting System</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>US Air Force</Name>
+        <URL>http://www.kirtland.af.mil/library/factsheets/factsheet.asp?id=12776</URL>
+        <Description>Information about the Communication/Navigation Outage Forecasting System</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Coupled Ion Neutral Dynamics Investigation (CINDI)</Name>
+        <URL>http://cindispace.utdallas.edu/</URL>
+        <Description>Information about CINDI as part of C/NOFS</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroup>CNOFS</ObservatoryGroup>
+    <Location>
+      <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>

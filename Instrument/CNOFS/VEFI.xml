@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
+  <Version>2.1.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/CNOFS/VEFI</ResourceID>
+    <ResourceHeader>
+      <ResourceName>C/NOFS Vector Electric Field Instrument (VEFI)</ResourceName>
+      <AlternateName>VEFI</AlternateName>
+      <ReleaseDate>2010-05-20T00:43:57Z</ReleaseDate>
+      <Description>
+The Vector Electric Field Instrument (VEFI) on the Communication/Navigation Outage 
+Forecasting System (C/NOFS) satellite consists of one central electronics box that 
+receives inputs from three orthogonal 20m tip-to-tip electric field double probe antennas, 
+a fixed-bias Langmuir probe, a fluxgate magnetometer, and an optical lightning detector. 
+All of the instruments were designed, built, and tested at the Goddard Space Flight Center 
+with the exception of the lightning detector that was designed at the Univ. of Washington, 
+and fabricated and tested at Goddard. The VEFI instrument is thus one experiment with many 
+sensors to measure the AC and DC electric fields related to plasma shift and irregularity 
+development in the ionosphere. 
+	    </Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Robert.F.Pfaff</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2008-017A-02</URL>
+        <Description>Information about the VEFI on C/NOFS</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Antenna</InstrumentType>
+    <InstrumentType>LangmuirProbe</InstrumentType>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InstrumentType>ScintillationDetector</InstrumentType>
+    <InvestigationName>Vector Electric Field Instrument (VEFI) on C/NOFS</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/CNOFS</ObservatoryID>
+  </Instrument>
+</Spase>

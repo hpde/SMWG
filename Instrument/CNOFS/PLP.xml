@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
+  <Version>2.1.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/CNOFS/PLP</ResourceID>
+    <ResourceHeader>
+      <ResourceName>C/NOFS Planar Langmuir Probe (PLP)</ResourceName>
+      <AlternateName>PLP</AlternateName>
+      <ReleaseDate>2010-05-20T00:42:26Z</ReleaseDate>
+      <Description>
+The Planar Langmuir Probe (PLP) is a dual-disk probe designed to provide in situ measurements of plasma density and density fluctuations. Low time-resolution density measurements are intended as inputs for background ionosphere models and high time-resolution density irregularity measurements to specify disturbance conditions. PLP also monitors the spacecraft surface potential.
+	    </Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Donald.E.Hunton</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2008-017A-01</URL>
+        <Description>Information about the PLP on C/NOFS</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>LangmuirProbe</InstrumentType>
+    <InstrumentType>ScintillationDetector</InstrumentType>
+    <InvestigationName>Planar Langmuir Probe on C/NOFS</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/CNOFS</ObservatoryID>
+  </Instrument>
+</Spase>
