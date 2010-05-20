@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
+  <Version>2.1.0</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/Carolyn.Y.Ng</ResourceID>
-    <PersonName>Ms. Carolyn Y. Ng</PersonName>
-    <OrganizationName>GSFC-Code 612.4</OrganizationName>
+    <ReleaseDate>2010-05-20T00:35:27Z</ReleaseDate>
+    <PersonName>Carolyn Y. Ng</PersonName>
+    <OrganizationName>NASA/GSFC Code 672</OrganizationName>
+    <Email>carolyn.y.ng@nasa.gov</Email>
+    <PhoneNumber>+1 301 286 1359</PhoneNumber>
   </Person>
 </Spase>
