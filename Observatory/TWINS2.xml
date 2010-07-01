@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
+  <Version>2.1.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/TWINS2</ResourceID>
+    <ResourceHeader>
+      <ResourceName>TWINS 2</ResourceName>
+      <ReleaseDate>2010-07-01T20:01:35Z</ReleaseDate>
+      <Description>TWINS (Two Wide-angle Imaging Neutral-atom Spectrometers) is a Mission of Opportunity under NASA's Small Explorer (SMEX) program. TWINS-1 and TWINS-2 are the designations for NASA-sponsored instruments flying on unspecified non-NASA U.S. government spacecraft.The TWINS-1 instrument high voltages were turned on in April 2007 and the TWINS-2 high voltages in May 2008; the exact launchdates are not available. The data (including both science data and spacecraft ephemeris/attitude information) from the two NASA-funded science instruments are publicly available to the scientific research community.       
+          
+          TWINS is a stereo mission whose overall scientific objective is to establish the global connectivities and causal relationships between processes in different regions of the Earth's magnetosphere. To meet this goal, TWINS-1 and TWINS-2 provide stereoscopic neutral atom imaging of the magnetosphere from two widely spaced, high-altitude, high-inclination spacecraft.
+
+          Each spacecraft carrying TWINS instruments is in a Molniya orbit (63.4 deg, 7.2 Re apogee, 1000 km perigee; period 12 h), and is three-axis stabilized and approximately nadir-pointing. Each acquires image data with time resolution of 60 s. The time required to change actuator direction between scans (no data collection) was 25 seconds from June 2008 to July 2009, and 12 seconds at all other times.  This gives an effective cadence of 72 or 85 seconds.  The nominal design lifetime for each instrument is four years. TWINS operates  only during the apogee portion of each orbit, when the spacecraft is above the radiation belts.
+      </Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>TWINS Home Page</Name>
+        <URL>http://twins.swri.edu</URL>
+        <Description>?</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroup>TWINS</ObservatoryGroup>
+    <Location>
+      <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>
