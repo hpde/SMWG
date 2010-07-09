@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/NeutronMonitor/Bartol/Inuvik</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Inuvik Neutron Monitor</ResourceName>
+      <ReleaseDate>2010-07-09T21:10:14Z</ReleaseDate>
+      <Description>The Inuvik Neutron Monitor</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/John.Bieber</PersonID>
+        <Role>PrincipalInvestigator</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <InformationURL>
+        <Name>UNIVERSITY OF DELAWARE BARTOL RESEARCH INSTITUTE NEUTRON MONITOR PROGRAM</Name>
+        <URL>http://neutronm.bartol.udel.edu</URL>
+        <Description>This site provides basic information about the Bartol Neutron Monitor
+          Network as well as links to 1) discussions of recent events, 2) an explanation of how neutron
+          monitors work, 3) instructions for downloading of data, 4) listings of personnel and 
+          points of contact, and 5) other neutron monitor sites.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Inuvik</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/NeutronMonitor/Bartol/Inuvik</ObservatoryID>
+  </Instrument>
+</Spase>
