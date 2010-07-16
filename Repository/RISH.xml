@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>2.1.0</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/RISH</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Research Institute for Sustainable Humanosphere, Kyoto University, Japan</ResourceName>
+      <AlternateName>Radio Atmospheric Science Center, Kyoto University, Japan</AlternateName>
+      <ReleaseDate>2010-07-16T13:00:00Z</ReleaseDate>
+      <Description>Data repository at the Research Institute for Sustainable Humanosphere, Kyoto University, Japan</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessURL>
+    	<Name>GEOTAIL Plasma Wave Instrument</Name>
+    	<URL>http://www.kurasc.kyoto-u.ac.jp/gtlpwi/</URL>
+    	<Description>Geotail PWI repository for 24 Hour and 2 Hour Dynamic Spectrograms plus instrument descriptions and publication lists</Description>
+    </AccessURL>		
+  </Repository>
+</Spase>
