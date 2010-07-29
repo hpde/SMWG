@@ -4,13 +4,17 @@
   <Repository>
     <ResourceID>spase://SMWG/Repository/RISH</ResourceID>
     <ResourceHeader>
-      <ResourceName>Research Institute for Sustainable Humanosphere, Kyoto University, Japan</ResourceName>
-      <AlternateName>Radio Atmospheric Science Center, Kyoto University, Japan</AlternateName>
-      <ReleaseDate>2010-07-16T13:00:00Z</ReleaseDate>
-      <Description>Data repository at the Research Institute for Sustainable Humanosphere, Kyoto University, Japan</Description>
+      <ResourceName>Geotail PWI Data Repository at RISH, Kyoto University, Japan</ResourceName>
+      <AlternateName>Geotail PWI Data Repository at Radio Atmospheric Science Center, Kyoto University, Japan</AlternateName>
+      <ReleaseDate>2010-07-29T19:28:50Z</ReleaseDate>
+      <Description>Geotail PWI data repository at the Research Institute for Sustainable Humanosphere, Kyoto University, Japan</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Leonard.N.Garcia</PersonID>
+        <Role>MetadataContact</Role>
       </Contact>
     </ResourceHeader>
     <AccessURL>
