@@ -3,11 +3,11 @@
        xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd" lang="en">
   <Version>2.1.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/instrument/Geotail/PWI</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Geotail/PWI</ResourceID>
     <ResourceHeader>
       <ResourceName>Plasma Wave Investigation (PWI)</ResourceName>
       <AlternateName>PWI</AlternateName>
-      <ReleaseDate>2009-04-02T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2010-07-19T00:00:00Z</ReleaseDate>
       <Description>
 Description taken from 
 
@@ -88,7 +88,6 @@ A common problem of noise interference in the plasma wave instruments on spinnin
 Besides the Memory Mode, the WFC can be operated in a Direct mode, with two possible variations: one is the Single channel mode in which only one field component is measured continuously and telemetered to ground on a real-time basis. In this operation mode the instrument can measure continuous wave forms of one electric or one magnetic component with an upper limit in frequency of 640 kHz in telemetry Format 2 (or 470 Hz in telemetry Format 3). The other method of instrument operation is in the Dual channel mode where two field components are measured and telemetered alternately. In this mode the upper limit in frequency is 320 Hz in telemetry Format 2 (or 235 Hz in telemetry Format 3) for each component. For both of these mode, the data sampling frequency is three times the upper limit in frequency. 
 
 The WFC system can measure the wave amplitude with a dynamic range of 66 dB. The receiver gain keeping its dynamic range can be stepped up in the gain controller "H/L" by 40 dB and 20 dB in electric and magnetic channels to amplify the weak signal, respectively.
-
       </Description>
       <Acknowledgement />
       <Contact>
@@ -195,11 +194,11 @@ The WFC system can measure the wave amplitude with a dynamic range of 66 dB. The
         <Description>Information about the Plasma Wave Investigation (PWI) experiment on the Geotail mission.</Description>
       </InformationURL>
     </ResourceHeader>
-
     <InstrumentType>WaveformReceiver</InstrumentType>
     <InstrumentType>Antenna</InstrumentType>
     <InstrumentType>SearchCoil</InstrumentType>
-
+    <InstrumentType>LongWire</InstrumentType>
+    <InstrumentType>SpectralPowerReceiver</InstrumentType>
     <InvestigationName>Plasma Wave Investigation (PWI) on Geotail</InvestigationName>
     <ObservatoryID>spase://SMWG/observatory/Geotail</ObservatoryID>
   </Instrument>
