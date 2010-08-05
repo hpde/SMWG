@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.1.0</Version>
-    <Instrument>
-        <ResourceID>spase://SMWG/Instrument/ISIS 2/Fixed-Frequency Sounder</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Fixed-Frequency Sounder</ResourceName>
-	    <AlternateName>Topside Sounder</AlternateName>
-            <ReleaseDate>2010-07-20T00:00:00Z</ReleaseDate>
-            <Description>The ISIS 2 (International Satellites for Ionospheric Studies) Fixed-Frequency Sounder was designed to study ionospheric features of a smaller scale than could be detected by the sweep sounder and to study plasma resonances. Parameters measured were virtual range (a function of propagation time of the pulse) and time. These data were normally observed only when the spacecraft was in range of a telemetry station. The fixed-frequency sounder operated from the same antenna, transmitter, and receiver used for the sweep-frequency experiment. It normally operated for 3 to 5 s during the frequency flyback period of the sweep-frequency operation which was every 14 or 21 s. One of six frequencies (0.12, 0.48, 1.00, 1.95, 4.00, or 9.303 MHz) was chosen for use by the experimenter, as desired. Other modes of operation were available, including continuous observation at a selected frequency and a special mixed mode with transmission at a selected one of the six fixed frequencies and sweep reception.</Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Wynne.Calvert</PersonID>
-                <Role>PrincipalInvestigator</Role>
-            </Contact>
-            <InformationURL>
-            <Name>NSSDC's Master Catalog</Name>
-            <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1971-024A-02</URL>
-            <Description>Information about the Fixed-Frequency Sounder on ISIS 2</Description>
-            </InformationURL>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
+  <Version>2.1.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/ISIS2/FFS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>ISIS2 Fixed-Frequency Sounder</ResourceName>
+      <AlternateName>Topside Sounder</AlternateName>
+      <ReleaseDate>2010-08-05T14:57:27Z</ReleaseDate>
+      <Description>The ISIS 2 (International Satellites for Ionospheric Studies) Fixed-Frequency Sounder was designed to study ionospheric features of a smaller scale than could be detected by the sweep sounder and to study plasma resonances. Parameters measured were virtual range (a function of propagation time of the pulse) and time. These data were normally observed only when the spacecraft was in range of a telemetry station. The fixed-frequency sounder operated from the same antenna, transmitter, and receiver used for the sweep-frequency experiment. It normally operated for 3 to 5 s during the frequency flyback period of the sweep-frequency operation which was every 14 or 21 s. One of six frequencies (0.12, 0.48, 1.00, 1.95, 4.00, or 9.303 MHz) was chosen for use by the experimenter, as desired. Other modes of operation were available, including continuous observation at a selected frequency and a special mixed mode with transmission at a selected one of the six fixed frequencies and sweep reception.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Wynne.Calvert</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1971-024A-02</URL>
+        <Description>Information about the Fixed-Frequency Sounder on ISIS 2</Description>
+      </InformationURL>
     </ResourceHeader>
     <InstrumentType>Sounder</InstrumentType>
-      <InvestigationName>Fixed-Frequency Sounder on ISIS 2</InvestigationName>
+    <InvestigationName>Fixed-Frequency Sounder on ISIS 2</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/ISIS2</ObservatoryID>
-    </Instrument>
+  </Instrument>
 </Spase>
-
