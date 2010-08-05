@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
-  <Version>2.0.1</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/MEASURE/Darksky.Observatory</ResourceID>
     <ResourceHeader>
       <ResourceName>The Darksky Observatory Geomagnetic Observatory.</ResourceName>
-      <ReleaseDate>2010-03-30T22:31:05Z</ReleaseDate>
+      <ReleaseDate>2010-08-05T18:21:59Z</ReleaseDate>
       <Description>The Darksky Observatory (DSO) Geomagnetic Observatory.</Description>
       <Acknowledgement>Please acknowledge Mark Moldwin, Institute of Geophysics and Planetary Physics and the Department of Earth and Space Sciences, University of California, Los Angeles, Los Angeles, CA 90095-1567 for providing access to Darksky Observatory data resources.</Acknowledgement>
       <Contact>
@@ -21,12 +21,8 @@
         <URL>http://www-ssc.igpp.ucla.edu/gem/worldmag/measure.html</URL>
         <Description>The Darksky Observatory geomagnetic observatory web site.</Description>
       </InformationURL>
-      <Association>
-        <AssociationID>spase://SMWG/Observatory/MEASURE/MEASURE.Logical</AssociationID>
-        <AssociationType>PartOf</AssociationType>
-      </Association>
     </ResourceHeader>
-    <ObservatoryGroup>MEASURE</ObservatoryGroup>
+    <ObservatoryGroupID>spase://SMWG/Observatory/MEASURE</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
       <CoordinateSystemName>GEO</CoordinateSystemName>
