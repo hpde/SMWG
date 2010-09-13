@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
+   <Version>2.1.0</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/DoubleStar1/Ephemeris</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Double Star 1 Spacecraft Position</ResourceName>
+         <AlternateName>Double Star 1 Ephemeris</AlternateName>
+         <ReleaseDate>2010-09-09T12:34:56.789</ReleaseDate>
+         <Description>Double Star 1 spacecraft position information.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Double Star 1 Orbit Information</Name>
+            <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftOrbit.do?id=2003-061A</URL>
+            <Description>Introduction to the Double Star 1 Orbit.</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Platform</InstrumentType>
+      <InvestigationName>Double Star 1 Spacecraft Position</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/DoubleStar1</ObservatoryID>
+   </Instrument>
+</Spase>

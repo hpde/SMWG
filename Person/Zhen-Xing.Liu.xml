@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
+   <Version>2.1.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Zhen-Xing.Liu</ResourceID>
+      <ReleaseDate>2010-09-09T12:34:56.789</ReleaseDate>
+      <PersonName>Zhen-Xing Liu</PersonName>
+      <OrganizationName>Center for Space Science and Applied Research (CSSAR)</OrganizationName>
+      <Address>Center for Space Science and Applied Research, Chinese Academy of Sciences, Beijing 100080, China</Address>
+      <Email>liu@cssar.ac.cn</Email>
+      <PhoneNumber>+86 10 62548489</PhoneNumber>
+   </Person>
+</Spase>
