@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Explorer35/FaradayCup</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Faraday Cup</ResourceName>
+      <ReleaseDate>2010-05-19T00:00:00Z</ReleaseDate>
+      <Description>A multigrid, split-collector Faraday cup mounted 
+on the equator of the lunar-orbiting Explorer 35 spacecraft was used 
+to study the directional intensity of solar wind positive ions and 
+electrons with particular emphasis on the interaction of the solar 
+wind with the moon. Twenty-seven integral current samples (requiring 
+about 4.3 s) were taken in an energy-per-charge window from 80 to 2850 eV. 
+Then the current was sampled in eight differential energy-per-charge windows 
+between 50 and 5400 eV at the azimuth where the peak current appeared 
+in the previous series of integral measurements. These measurements 
+(integral and differential) took about 25 s. Both the sum and 
+difference of collector currents were obtained for positive ions. 
+Only the sum was obtained for electrons. A complete set of measurements 
+(two collector plate sums and one difference for protons, and one 
+collector plate sum for electrons) required 328 s. The experiment 
+worked well from launch until its failure in July 1968. For further 
+details, see Lyon et al., J. Geophys. Res., v. 72, p. 6113, 1967. 
+</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Alan.J.Lazarus</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1967-070A-06</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>FaradayCup</InstrumentType>
+    <InvestigationName>PlasmaProbe</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Explorer35</ObservatoryID>
+  </Instrument>
+</Spase>
