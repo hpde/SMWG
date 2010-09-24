@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.0</Version>
+  <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/IGPPLANL/Cambridge</ResourceID>
     <ResourceHeader>
       <ResourceName>IGPP-LANL Cambridge Magnetometer</ResourceName>
-      <ReleaseDate>2009-05-20T20:06:54Z</ReleaseDate>
+      <ReleaseDate>2010-09-24T22:10:23Z</ReleaseDate>
       <Description>Cambridge (CAM) Magnetometer Station is located in Cambridge, Minnesota, USA.</Description>
       <Acknowledgement>The CAM magnetometer is operated by Augsburg College.</Acknowledgement>
       <Contact>
@@ -17,11 +17,8 @@
         <URL>http://spc.igpp.ucla.edu/uclamag</URL>
         <Description>Information about the IGPP-LANL magnetometer array.</Description>
       </InformationURL>
-      <Association>
-        <AssociationID>spase://SMWG/Observatory/IGPPLANL</AssociationID>
-        <AssociationType>Other</AssociationType>
-      </Association>
     </ResourceHeader>
+    <ObservatoryGroupID>spase://Observatory/IGPPLANL</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
       <CoordinateSystemName>WGS84</CoordinateSystemName>
