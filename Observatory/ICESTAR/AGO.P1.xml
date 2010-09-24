@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
-  <Version>2.0.1</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/ICESTAR/AGO.P1</ResourceID>
     <ResourceHeader>
       <ResourceName>AGO P1 Ground Observatory</ResourceName>
-      <ReleaseDate>2010-03-30T22:25:54Z</ReleaseDate>
+      <ReleaseDate>2010-09-24T21:12:40Z</ReleaseDate>
       <Description>The AGO P1 Ground Observatory</Description>
       <Acknowledgement>Please acknowledge Theodore J. Rosenberg, Allan T. Weatherwax, Institute for Physical Science and Technology, University of Maryland, College Park, MD 20742-2431 for providing access to AGO P1 data resources.</Acknowledgement>
       <Contact>
@@ -30,7 +30,7 @@
         <AssociationType>PartOf</AssociationType>
       </Association>
     </ResourceHeader>
-    <ObservatoryGroup>ICESTAR</ObservatoryGroup>
+    <ObservatoryGroupID>spase://SMWG/Observatory/ICESTAR</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
       <CoordinateSystemName>GEO</CoordinateSystemName>

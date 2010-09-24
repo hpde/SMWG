@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
-  <Version>2.0.1</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/ICESTAR/Iqaluit</ResourceID>
     <ResourceHeader>
       <ResourceName>Iqaluit Ground Observatory</ResourceName>
-      <ReleaseDate>2010-03-30T22:25:54Z</ReleaseDate>
+      <ReleaseDate>2010-09-24T21:12:40Z</ReleaseDate>
       <Description>The Iqaluit Ground Observatory</Description>
       <Acknowledgement>Please acknowledge Larry Newitt, Natural Resources Canada, 2617 Anderson Road, Bldg. 5, Room. 5, Ottawa, Ontario, Canada K1A 0Y3 for providing access to Iqaluit data resources.</Acknowledgement>
       <Contact>
@@ -26,7 +26,7 @@
         <AssociationType>PartOf</AssociationType>
       </Association>
     </ResourceHeader>
-    <ObservatoryGroup>ICESTAR</ObservatoryGroup>
+    <ObservatoryGroupID>spase://SMWG/Observatory/ICESTAR</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
       <CoordinateSystemName>GEO</CoordinateSystemName>
