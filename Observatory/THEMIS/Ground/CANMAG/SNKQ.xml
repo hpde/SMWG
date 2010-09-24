@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/THEMIS/Ground/CANMAG/SNKQ</ResourceID>
     <ResourceHeader>
       <ResourceName>NASA THEMIS GBO Sanikiluaq Station</ResourceName>
       <AlternateName>SNKQ</AlternateName>
       <AlternateName>SNK</AlternateName>
-      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
+      <ReleaseDate>2010-09-24T21:32:07Z</ReleaseDate>
       <Description>Sanikiluaq (SNKQ) Station is located in Sanikiluaq,Nunavut, Canada.  SNKQ is part of the NRCan Network.
 				Magnetic Latitude: 65.91
 				Magnetic Longitude: 355.85
@@ -56,7 +56,7 @@ ASI/GBO: S. Mende and E. Donovan for use of the ASI data, and the CSA for logist
       </InformationURL>
       <PriorID>spase://SMWG/Observatory/THEMIS-Ground/CANMAG/SNKQ</PriorID>
     </ResourceHeader>
-    <ObservatoryGroup>THEMIS-CANMAG</ObservatoryGroup>
+    <ObservatoryGroupID>spase://SMWG/Observatory/THEMIS/Ground/CANMAG</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
       <CoordinateSystemName>WGS84</CoordinateSystemName>
