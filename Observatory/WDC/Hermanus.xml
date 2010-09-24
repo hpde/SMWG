@@ -1,42 +1,43 @@
 <?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
-   <Version>2.0.1</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/WDC/Hermanus</ResourceID>
-      <ResourceHeader>
-         <ResourceName>The Hermanus Geomagnetic Observatory.</ResourceName>
-         <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
-         <Description>The Hermanus (HER) Geomagnetic Observatory.</Description>
-         <Acknowledgement>Please acknowledge Pieter Kotze, Hermanus Magnetic Observatory, P.O. Box 32, Hermanus, South Africa 7200 for providing access to Hermanus data resources.</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Pieter.Kotze</PersonID>
-            <Role>GeneralContact</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>The Hermanus geomagnetic observatory English language web site.</Name>
-            <URL>http://www.intermagnet.org/imos/imoher_e.html</URL>
-            <Description>The Hermanus geomagnetic observatory English language web site hosted by the Intermagnet program (International Real-time Magnetic Observatory Network).</Description>
-         </InformationURL>
-         <InformationURL>
-            <Name>The Hermanus geomagnetic observatory French language web site.</Name>
-            <URL>http://www.intermagnet.org/imos/imoher_f.html</URL>
-            <Description>The Hermanus geomagnetic observatory French language web site hosted by the Intermagnet program (International Real-time Magnetic Observatory Network).</Description>
-         </InformationURL>
-         <Association>
-            <AssociationID>spase://SMWG/Observatory/Dst.Index.Logical</AssociationID>
-            <AssociationType>PartOf</AssociationType>
-         </Association>
-      </ResourceHeader>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>-34.425</Latitude>
-         <Longitude>19.225</Longitude>
-         <Elevation>26.0</Elevation>
-      </Location>
-   </Observatory>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/WDC/Hermanus</ResourceID>
+    <ResourceHeader>
+      <ResourceName>The Hermanus Geomagnetic Observatory.</ResourceName>
+      <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
+      <Description>The Hermanus (HER) Geomagnetic Observatory.</Description>
+      <Acknowledgement>Please acknowledge Pieter Kotze, Hermanus Magnetic Observatory, P.O. Box 32, Hermanus, South Africa 7200 for providing access to Hermanus data resources.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Pieter.Kotze</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The Hermanus geomagnetic observatory English language web site.</Name>
+        <URL>http://www.intermagnet.org/imos/imoher_e.html</URL>
+        <Description>The Hermanus geomagnetic observatory English language web site hosted by the Intermagnet program (International Real-time Magnetic Observatory Network).</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>The Hermanus geomagnetic observatory French language web site.</Name>
+        <URL>http://www.intermagnet.org/imos/imoher_f.html</URL>
+        <Description>The Hermanus geomagnetic observatory French language web site hosted by the Intermagnet program (International Real-time Magnetic Observatory Network).</Description>
+      </InformationURL>
+      <Association>
+        <AssociationID>spase://SMWG/Observatory/Dst.Index.Logical</AssociationID>
+        <AssociationType>PartOf</AssociationType>
+      </Association>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>-34.425</Latitude>
+      <Longitude>19.225</Longitude>
+      <Elevation>26.0</Elevation>
+    </Location>
+  </Observatory>
 </Spase>

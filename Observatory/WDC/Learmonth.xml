@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.0.1</Version>
+    <Version>2.2.0</Version>
     <Observatory>
         <ResourceID>spase://SMWG/Observatory/WDC/Learmonth</ResourceID>
         <ResourceHeader>
@@ -17,7 +17,7 @@
                 <Role>MetadataContact</Role>
             </Contact>
         </ResourceHeader>
-        <ObservatoryGroup>WDC</ObservatoryGroup>
+        <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
         <Location>
             <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
             <CoordinateSystemName>GEO</CoordinateSystemName>

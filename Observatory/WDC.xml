@@ -2,22 +2,18 @@
 <Spase xmlns="http://www.spase-group.org/data/schema">
     <Version>2.2.0</Version>
     <Observatory>
-        <ResourceID>spase://SMWG/Observatory/WDC/Whiteshell</ResourceID>
+        <ResourceID>spase://SMWG/Observatory/WDC</ResourceID>
         <ResourceHeader>
-            <ResourceName>Whiteshell Ground Observatory</ResourceName>
+            <ResourceName>WDC Ground Observatories</ResourceName>
             <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
-            <Description>The Whiteshell Observatory</Description>
+            <Description>A collection of World Data Center (WDC) ground observatories</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
                 <Role>MetadataContact</Role>
             </Contact>
         </ResourceHeader>
-        <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
         <Location>
             <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-            <CoordinateSystemName>GEO</CoordinateSystemName>
-            <Latitude>49.75</Latitude>
-            <Longitude>264.75</Longitude>
         </Location>
     </Observatory>
 </Spase>
