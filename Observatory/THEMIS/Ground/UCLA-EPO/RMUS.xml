@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-EPO/RMUS</ResourceID>
     <ResourceHeader>
       <ResourceName>NASA THEMIS EPO Remus Station</ResourceName>
       <AlternateName>RMUS</AlternateName>
       <AlternateName>RUMS</AlternateName>
-      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
+      <ReleaseDate>2010-09-24T21:22:14Z</ReleaseDate>
       <Description>Remus (RMUS) station is located in Remus, Michigan, USA. This station has an Educational Public Outreach magnetometer operated by UCLA.  EPO magnetometers should be used carefully, as they may be subject to environmental noise.
 Magnetic Latitude: 54.27
 Magnetic Longitude: 347.62
@@ -41,7 +41,7 @@ Magnetic coordinates obtained by calculation using the CGM online calculator wit
       <PriorID>spase://VMOU/Observatory/THEMIS/Ground-Magnetometers/EPO/RUMS</PriorID>
       <PriorID>spase://SMWG/Observatory/THEMIS-Ground/UCLA-EPO/RMUS</PriorID>
     </ResourceHeader>
-    <ObservatoryGroup>THEMIS-UCLA-EPO</ObservatoryGroup>
+    <ObservatoryGroupID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-EPO</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
       <CoordinateSystemName>WGS84</CoordinateSystemName>

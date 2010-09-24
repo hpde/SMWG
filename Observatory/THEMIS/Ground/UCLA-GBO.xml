@@ -1,19 +1,12 @@
 <?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-GBO/CHBG</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-GBO</ResourceID>
     <ResourceHeader>
-      <ResourceName>NASA THEMIS GBO Chibougamau Station</ResourceName>
-      <AlternateName>CHBG</AlternateName>
-      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
-      <Description>Chibougamau (CHBG) Station is located in Chibougamau, Quebec, Canada.  CHBG is part of the UCLA GBO Network.
-				Magnetic Latitude: 59.96
-				Magnetic Longitude: 363.62
-				UT of Magnetic Midnight: 4.8167
-				Magnetic Declination: -16.42
-				Magnetic coordinates obtained by calculation using the CGM online calculator with IGRF 2008 at altitude of 0 km. Magnetic declination obtained using CGM online calculator with IGRF 2007
-</Description>
+      <ResourceName>NASA THEMIS GBO Ground Stations</ResourceName>
+      <ReleaseDate>2010-09-24T21:25:26Z</ReleaseDate>
+      <Description>The UCLA GBO THEMIS ground station network.</Description>
       <Acknowledgement>We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically:S. Mende and C. T. Russell for use of the GMAG data</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
@@ -42,14 +35,9 @@
         <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
         <Description>Description of GMAGS on THEMIS web site.</Description>
       </InformationURL>
-      <PriorID>spase://SMWG/Observatory/THEMIS-Ground/UCLA-GBO/CHBG</PriorID>
     </ResourceHeader>
-    <ObservatoryGroup>THEMIS-UCLA-GBO</ObservatoryGroup>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-      <CoordinateSystemName>WGS84</CoordinateSystemName>
-      <Latitude>49.9</Latitude>
-      <Longitude>-74.4</Longitude>
     </Location>
   </Observatory>
 </Spase>

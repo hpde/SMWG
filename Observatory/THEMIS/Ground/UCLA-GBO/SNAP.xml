@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-GBO/SNAP</ResourceID>
     <ResourceHeader>
       <ResourceName>NASA THEMIS GBO Snap Lake Station</ResourceName>
       <AlternateName>SNAP</AlternateName>
-      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
+      <ReleaseDate>2010-09-24T21:25:55Z</ReleaseDate>
       <Description>Snap Lake (SNAP) Station is located in Snap Lake, NT, Canada. SNAP is part of the UCLA GBO Network.
 
 				Magnetic Latitude: 70.92 
@@ -45,7 +45,7 @@ Magnetic coordinates obtained by calculation using the CGM online calculator wit
         <Description>Description of GMAGS on THEMIS web site.</Description>
       </InformationURL>
     </ResourceHeader>
-    <ObservatoryGroup>THEMIS-UCLA-GBO</ObservatoryGroup>
+    <ObservatoryGroupID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-GBO</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
       <CoordinateSystemName>WGS84</CoordinateSystemName>
