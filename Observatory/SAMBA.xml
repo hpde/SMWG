@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
-   <Version>2.0.1</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+   <Version>2.2.0</Version>
    <Observatory>
-      <ResourceID>spase://SMWG/Observatory/SAMBA/SAMBA.Logical</ResourceID>
+      <ResourceID>spase://SMWG/Observatory/SAMBA</ResourceID>
       <ResourceHeader>
-         <ResourceName>The Logical Observatory created to represent the chain of stations in the SAMBA Array.</ResourceName>
+         <ResourceName>Chain of ground stations in the SAMBA Array.</ResourceName>
          <AlternateName>The SAMBA Logical Observatory Chain</AlternateName>
-         <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2010-09-24T21:16:46Z</ReleaseDate>
          <Description>The Logical Observatory created to represent the chain of stations present in the SAMBA.  The chain of stations includes:  Antofagasta, Los Cerrillos, Conception, Escudero, O'Higgins, Osorno, Punta Arenas, Puerto Natales, Putre, La Serena, and Valdivia.</Description>
          <Acknowledgement>Please acknowledge Eftyhia Zesta, Air Force Research Lab, Hanscom AFB, for providing access to SAMBA data resources.</Acknowledgement>
          <Contact>

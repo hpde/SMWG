@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
-  <Version>2.0.1</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/SAMBA/Putre</ResourceID>
     <ResourceHeader>
       <ResourceName>The Putre Geomagnetic Observatory.</ResourceName>
-      <ReleaseDate>2010-03-30T22:33:12Z</ReleaseDate>
+      <ReleaseDate>2010-09-24T21:17:17Z</ReleaseDate>
       <Description>The Putre (PUT) Geomagnetic Observatory.</Description>
       <Acknowledgement>Please acknowledge Eftyhia Zesta, Air Force Research Lab, Hanscom AFB, for providing access to SAMBA data resources.</Acknowledgement>
       <Contact>
@@ -58,7 +58,7 @@
         <AssociationType>PartOf</AssociationType>
       </Association>
     </ResourceHeader>
-    <ObservatoryGroup>SAMBA</ObservatoryGroup>
+    <ObservatoryGroupID>spase://SMWG/Observatory/SAMBA</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
       <CoordinateSystemName>GEO</CoordinateSystemName>
