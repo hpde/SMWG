@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_2.xsd">
-  <Version>2.0.2</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/CHAMP</ResourceID>
     <ResourceHeader>
       <ResourceName>CHAMP</ResourceName>
-      <ReleaseDate>2010-02-02T20:51:12Z</ReleaseDate>
+      <ReleaseDate>2010-08-05T18:19:18Z</ReleaseDate>
       <Description>CHAMP (CHAllenging Microsatellite Payload) is a German 
 spacecraft launched July 15, 2000, into an 87 deg inclination, 454 km 
 altitude orbit.  It was intended to provide data for improvement of models 

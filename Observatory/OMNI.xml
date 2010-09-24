@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
    xmlns="http://www.spase-group.org/data/schema" 
-   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
-   <Version>2.0.1</Version>
+   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+   <Version>2.2.0</Version>
    <Observatory>
       <ResourceID>spase://SMWG/Observatory/OMNI</ResourceID>
       <ResourceHeader>
          <ResourceName>OMNI</ResourceName>
-         <ReleaseDate>2010-04-30T00:00:00Z</ReleaseDate>
+         <ReleaseDate>2010-08-05T18:19:17Z</ReleaseDate>
          <Description>The OMNI observatory is a virtual observatory representing the collection of spacecraft used in the creation of the OMNI datasets.  
             The observatories used within the OMNI datasets are ACE, Wind, IMP8, Geotail, and various GOES spacecraft.  For any given time period 
             OMNI uses a selection criteria to select the "best" available data to be used.  Thus, a data record may consist of data from multiple

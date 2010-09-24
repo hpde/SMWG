@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_3.xsd">
-  <Version>2.0.3</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/SCATHA</ResourceID>
     <ResourceHeader>
       <ResourceName>SCATHA</ResourceName>
       <AlternateName>Spacecraft Charging AT High Altitudes</AlternateName>
       <AlternateName>STP P78-2</AlternateName>
-      <ReleaseDate>2010-03-26T00:33:34Z</ReleaseDate>
+      <ReleaseDate>2010-08-05T18:19:12Z</ReleaseDate>
       <Description>The P78-2 (SCATHA - Spacecraft Charging AT High Altitude) was placed into a near synchronous orbit in early February 1979. The objectives of the satellite were twofold; one was to obtain environmental and engineering information so as to provide design criteria, materials, techniques, tests and analytical methods to ensure control of the charging of satellite surfaces. The second objective was to collect scientific data of interest to each experiment sponsor and the scientific community. Key areas of scientific investigation include understanding plasma-wave interactions, substorm studies and further studies of the energetic ring current.
       
      The spacecraft was essentially a right circular cylinder, 1.7 m in diameter and 1.8 m high. It had a near-synchronous orbit and spun about the cylinder axis at a rate of 1 rpm. The spin vector was normal to the earth-sun line and in the equatorial plane of the earth. There were three 3-m booms, a 2-m, and a 7-m boom, all for deployment of experiments. In addition, there was a 101.7-m tip-to-tip electric field antenna. An electron gun and a positive ion (xenon) gun were included, to test the control of the spacecraft potential. Telemetry capability was both PCM and FM, and data could be stored up to 12 h using onboard tape recorders. The satellite has its spin axis approximately parallel to the orbit plane and perpendicular to he sun line for 1979-1987 period and perpendicular to ecliptic from 1988 to end of life. This allows good pitch angle coverage by the particle experiments. The experiment complement consists of a complete set of plasma, energetic particle, composition, field and wave experiments.

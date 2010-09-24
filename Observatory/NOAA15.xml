@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/NOAA15</ResourceID>
     <ResourceHeader>
@@ -9,7 +9,7 @@
       <AlternateName>Polar Operational Environmental Satellite</AlternateName>
       <AlternateName>POES 15</AlternateName>
       <AlternateName>Advanced TIROS-N (ATN)</AlternateName>
-      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
+      <ReleaseDate>2010-08-05T18:19:17Z</ReleaseDate>
       <Description>NOAA 15, also known as NOAA-K before launch, was an operational, polar orbiting, meteorological satellite operated by the National Oceanic and Atmospheric Administration (NOAA). It was the latest in the Advanced TIROS-N (ATN) series and the design was based on the Defense Meteorological Satellite Program (DMSP). Launched by the Titan II rocket from Vandenberg AFB, NOAA-K replaced the decommissioned NOAA 12 in an afternoon equator-crossing orbit. It provided support to environmental monitoring by complementing the NOAA/NESS geostationary meteorological satellite program (GOES). Instruments were flown for imaging and measurement of the Earth's atmosphere, its surface, and cloud cover, including Earth radiation, atmospheric ozone, aerosol distribution, sea surface temperature, vertical temperature and water profiles in the troposphere and stratosphere; measurement of proton and electron flux at orbit altitude, and remote platform data collection, and for SARSAT. They included: (1) an improved six-channel Advanced Very High Resolution Radiometer/3 (AVHRR/3); (2) an improved High Resolution Infrared Radiation Sounder (HIRS/3); (3) the Search and Rescue Satellite Aided Tracking System (S&amp;R), which consists of the Search and Rescue Repeater (SARR) and the Search and Rescue Processor (SARP-2); (4) the French/CNES-provided improved ARGOS Data Collection System (DCS-2); and (5) the Advanced Microwave Sounding Units (AMSUs), which replaced the previous MSU and SSU instruments to become the first in the NOAA series to support dedicated microwave measurements of temperature, moisture, surface and hydrological studies in cloudy regions where visible and infrared instruments have decreased capability. Further information can be found at http://poes2.gsfc.nasa.gov and http://www2.ncdc.noaa.gov/docs/intro.htm</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>

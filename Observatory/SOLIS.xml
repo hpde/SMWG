@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_2.xsd">
-  <Version>2.0.2</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/SOLIS</ResourceID>
     <ResourceHeader>
       <ResourceName>SOLIS</ResourceName>
-      <ReleaseDate>2010-02-02T20:28:05Z</ReleaseDate>
+      <ReleaseDate>2010-08-05T18:19:16Z</ReleaseDate>
       <Description>Synoptic Optical Long-term Investigations of the Sun (SOLIS)
 is a facility at Kitt Peak funded by NSF and designed and built by the National
 Solar Observatory.  It is intended to acquire a multi-decadal (&gt;~25 years) data 

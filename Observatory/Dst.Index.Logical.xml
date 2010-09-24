@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
-   <Version>2.0.1</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+   <Version>2.2.0</Version>
    <Observatory>
       <ResourceID>spase://SMWG/Observatory/Dst.Index.Logical</ResourceID>
       <ResourceHeader>
          <ResourceName>Dst Index Logical Observatory Chain</ResourceName>
          <AlternateName>The Logical Observatory created to represent the chain of magnetic field stations used to calculate the Dst Index.</AlternateName>
-         <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2010-08-05T18:19:16Z</ReleaseDate>
          <Description>The Logical Observatory created to represent the virtual chain of stations used to calculate the Dst Index.  The chain of stations includes:  Hermanus, Honolulu, Kakioka, and San Juan.</Description>
          <Acknowledgement>If Dst Index data are used in publication kindly acknowledge the World Data Center C2 for Geomagnetism, Kyoto University for the index production and distribution.</Acknowledgement>
          <Contact>

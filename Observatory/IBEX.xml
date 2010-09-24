@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
-  <Version>2.1.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/IBEX</ResourceID>
     <ResourceHeader>
       <ResourceName>IBEX</ResourceName>
-      <ReleaseDate>2010-05-20T00:24:46Z</ReleaseDate>
+      <ReleaseDate>2010-08-05T18:19:11Z</ReleaseDate>
       <Description>NASA's IBEX (Interstellar Boundary Explorer) spacecraft
 was launched 19-Oct-2008 to discover the interaction between the solar wind 
 and the interstellar medium.  Its two energetic neutral atom (ENA) 

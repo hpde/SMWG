@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
-  <Version>2.1.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Nimbus7</ResourceID>
     <ResourceHeader>
       <ResourceName>Nimbus 7</ResourceName>
-      <ReleaseDate>2010-05-19T20:55:03Z</ReleaseDate>
+      <ReleaseDate>2010-08-05T18:19:18Z</ReleaseDate>
       <Description>NASA's Nimbus 7 spacecraft was launched
 on 1978-10-24 into a ~950 km polar orbit and operated until 1993.
 It carried eight experiments:

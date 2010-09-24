@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_3.xsd">
-  <Version>2.0.3</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/AIM</ResourceID>
     <ResourceHeader>
       <ResourceName>AIM</ResourceName>
-      <ReleaseDate>2010-03-17T21:26:38Z</ReleaseDate>
+      <ReleaseDate>2010-08-05T18:19:12Z</ReleaseDate>
       <Description>AIM (Aeronomy of Ice in the Mesosphere) is a NASA Small
 Explorer spacecraft launched April 25, 2007, into a high-inclination, 
 600-km altitude orbit for study of noctilucent clouds (also called Polar 
