@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
-  <Version>2.1.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/TWINS2</ResourceID>
     <ResourceHeader>
       <ResourceName>TWINS 2</ResourceName>
-      <ReleaseDate>2010-07-01T20:01:35Z</ReleaseDate>
+      <ReleaseDate>2010-09-25T03:09:48Z</ReleaseDate>
       <Description>TWINS (Two Wide-angle Imaging Neutral-atom Spectrometers) is a Mission of Opportunity under NASA's Small Explorer (SMEX) program. TWINS-1 and TWINS-2 are the designations for NASA-sponsored instruments flying on unspecified non-NASA U.S. government spacecraft.The TWINS-1 instrument high voltages were turned on in April 2007 and the TWINS-2 high voltages in May 2008; the exact launchdates are not available. The data (including both science data and spacecraft ephemeris/attitude information) from the two NASA-funded science instruments are publicly available to the scientific research community.       
           
           TWINS is a stereo mission whose overall scientific objective is to establish the global connectivities and causal relationships between processes in different regions of the Earth's magnetosphere. To meet this goal, TWINS-1 and TWINS-2 provide stereoscopic neutral atom imaging of the magnetosphere from two widely spaced, high-altitude, high-inclination spacecraft.
@@ -22,7 +22,7 @@
         <Description>?</Description>
       </InformationURL>
     </ResourceHeader>
-    <ObservatoryGroup>TWINS</ObservatoryGroup>
+    <ObservatoryGroupID>spase://SMWG/Observatory/TWINS</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
     </Location>

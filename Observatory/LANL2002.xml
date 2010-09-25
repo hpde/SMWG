@@ -5,13 +5,14 @@
     <ResourceID>spase://SMWG/Observatory/LANL2002</ResourceID>
     <ResourceHeader>
       <ResourceName>LANL2002</ResourceName>
-      <ReleaseDate>2010-08-05T18:19:16Z</ReleaseDate>
+      <ReleaseDate>2010-09-25T03:08:17Z</ReleaseDate>
       <Description>Geosynchronous spacecraft carrying energetic electron and ion instruments</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
     </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/LANL</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
     </Location>

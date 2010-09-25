@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Prognoz6</ResourceID>
     <ResourceHeader>
       <ResourceName>Prognoz 6</ResourceName>
       <AlternateName>1977-093A</AlternateName>
-      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
+      <ReleaseDate>2010-09-25T03:09:48Z</ReleaseDate>
       <Description>This spacecraft was a member of a continuing series to measure charged particles, plasma, magnetic fields, and solar electromagnetic radiation. This mission was part of the socialist countries' contribution to the International Magnetospheric Study. The specific scientific goals of this mission were:
       
       * (1) to study acceleration processes in the solar corona and flare acceleration of charged particles;
@@ -53,7 +53,7 @@ Power supply of the board instrumentation is provided by solar batteries (4 plan
         <Description>Historical mission overview of Prognoz missions at IKI website</Description>
       </InformationURL>
     </ResourceHeader>
-    <ObservatoryGroup>PROGNOZ</ObservatoryGroup>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Prognoz</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
       <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>

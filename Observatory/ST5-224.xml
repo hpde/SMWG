@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/ST5-224</ResourceID>
     <ResourceHeader>
       <ResourceName>ST5-224</ResourceName>
       <AlternateName>ST5-C</AlternateName>
       <AlternateName>2006-008C</AlternateName>
-      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
+      <ReleaseDate>2010-09-25T03:09:48Z</ReleaseDate>
       <Description>
       ST5-224 is the last released of the three microsatellites in the Space Technology 5 mission of the American (NASA) New Millennium Program. They were launched at 14:04 UT on 22 March 2006 by a Pegasus XL rocket that was released from the belly of a Lockheed L-1011 plane flying out of Vandenberg AFB. Each, with a mass of 25 kg and power 20 W, is octagon-shaped (53 cm x 48 cm). Each is called a "full service" satellite, capable of orbit/attitude maneuver and radio links. In all, about 10 innovative, miniaturized technology advances were tested during the 90-day operational span. Among them are variable emittance coatings (to heat when cold and cool when hot), metal oxide logic circuits that can operate at 0.5 volts, miniature magnetometers, and miniature, spinning Sun-sensors. They orbit in a "string of pearls" formation. 
       
@@ -33,7 +33,7 @@ sensor location less than 10 nT (d.c.), 5 nT (a.c.). The spacecraft carried a sc
         <Description>NSSDC information about the ST5 mission</Description>
       </InformationURL>
     </ResourceHeader>
-    <ObservatoryGroup>ST5</ObservatoryGroup>
+    <ObservatoryGroupID>spase://SMWG/Observatory/ST5</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
     </Location>

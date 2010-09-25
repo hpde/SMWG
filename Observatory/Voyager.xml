@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Voyager</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Voyager Spacecraft</ResourceName>
+      <ReleaseDate>2010-09-25T02:38:11Z</ReleaseDate>
+      <Description>Voyager 1 and 2 was a pair of spacecraft launched to explore the planets of the outer solar system and the interplanetary environment. Each Voyager had as its major objectives at each planet to: (1) investigate the circulation, dynamics, structure, and composition of the planet's atmosphere; (2) characterize the morphology, geology, and physical state of the satellites of the planet; (3) provide improved values for the mass, size, and shape of the planet, its satellites, and any rings; and, (4) determine the magnetic field structure and characterize the composition and distribution of energetic trapped particles and plasma therein.
+
+Spacecraft and Subsystems
+
+Each Voyager consisted of a decahedral bus, 47 cm in height and 1.78 m across from flat to flat. A 3.66 m diameter parabolic high-gain antenna was mounted on top of the bus. The major portion of the science instruments were mounted on a science boom extending out some 2.5 m from the spacecraft. At the end of the science boom was a steerable scan platform on which were mounted the imaging and spectroscopic remote sensing instruments. Also mounted at various distances along the science boom were the plasma and charged particle detectors. The magnetometers were located along a separate boom extending 13 m on the side opposite the science boom. A third boom, extending down and away from the science instruments, held the spacecraft's radioisotope thermoelectric generators (RTGs). Two 10 m whip antennas (used for the plasma wave and planetary radio astronomy investigations) also extended from the spacecraft, each perpendicular to the other. The spacecraft was three-axis spin stabilized to enable long integration times and selective viewing for the instruments mounted on the scan platform.
+
+Power was provided to the spacecraft systems and instruments through the use of three radioisotope thermoelectric generators. The RTGs were assembled in tandem on a deployable boom hinged on an outrigger arrangement of struts attached to the basic structure. Each RTG unit, contained in a beryllium outer case, was 40.6 cm in diameter, 50.8 cm in length, and weighed 39 kg. The RTGs used a radioactive source (Plutonium-238 in the form of plutonium oxide, or PuO2, in this case) which, as it decayed, gave off heat. A bi-metallic thermoelectric device was used to convert the heat to electric power for the spacecraft. The total output of RTGs slowly decreases with time as the radioactive material is expended. Therefore, although the initial output of the RTGs on Voyager was approximately 470 W of 30 V DC power at launch, it had fallen off to approximately 335 W by the beginning of 1997 (about 19.5 years post-launch). As power continues to decrease, power loads on the spacecraft must also decrease. Current estimates (1998) are that increasingly limited instrument operations can be carried out at least until 2020.
+
+Communications were provided through the high-gain antenna with a low-gain antenna for backup. The high-gain antenna supported both X-band and S-band downlink telemetry. Voyager was the first spacecraft to utilize X-band as the primary telemetry link frequency. Data could be stored for later transmission to Earth through the use of an on-board digital tape recorder.
+
+Voyager, because of its distance from Earth and the resulting time-lag for commanding, was designed to operate in a highly-autonomous manner. In order to do this and carry out the complex sequences of spacecraft motions and instrument operations, three interconnected on-board computers were utilized. The Computer Command Subsystem (CCS) was responsible for storing commanding for the other two computers and issuing the commands at set times. The Attitude and Articulation Control Subsystem (AACS) was responsible for controlling spacecraft attitude and motions of the scan platform. The Flight Data Subsystem (FDS) controlled the instruments, including changes in configuration (state) or telemetry rates. All three computers had redundant components to ensure continued operations. The AACS included redundant star trackers and Sun sensors as well.
+
+Message in a Bottle
+
+Each Voyager has mounted to one of the sides of the bus a 12-inch gold-plated copper disk. The disk has recorded on it sounds and images of Earth designed to portray the diversity of life and culture on the planet. Each disk is encased in a protective aluminum jacket along with a cartridge and a needle. Instructions explaining from where the spacecraft originated and how to play the disk are engraved onto the jacket. Electroplated onto a 2 cm area on the cover is also an ultra-pure source of uranium-238 (with a radioactivity of about 0.26 nanocuries and a half-life of 4.51 billion years), allowing the determination of the elapsed time since launch by measuring the amount of daughter elements to remaining U238. The 115 images on the disk were encoded in analog form. The sound selections (including greetings in 55 languages, 35 sounds, natural and man-made, and portions of 27 musical pieces) are designed for playback at 1000 rpm. The Voyagers were not the first spacecraft designed with such messages to the future. Pioneers 10 and 11, LAGEOS, and the Apollo landers also included plaques with a similar intent, though not quite so ambitious.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Edward.C.Stone.Jr</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1977-084A</URL>
+        <Description>Information about the Voyager 1 mission</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1977-076A</URL>
+        <Description>Information about the Voyager 2 mission</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+      <ObservatoryRegion>Heliosphere.Outer</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>

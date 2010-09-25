@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Prognoz9</ResourceID>
     <ResourceHeader>
       <ResourceName>Prognoz 9</ResourceName>
       <AlternateName>1983-067A</AlternateName>
       <AlternateName>Relict</AlternateName>
-      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
+      <ReleaseDate>2010-09-25T03:09:48Z</ReleaseDate>
       <Description>This spacecraft was one of a continuing Prognoz series to measure electromagnetic radiation, magnetic fields, plasma, and charged particles. Although the specifics on all experiments are not available, it is known that a hard X-ray spectrometer, a magnetic field measuring experiment, and an 8-mm radio telescope were flown on Prognoz 9, and possibly a plasma experiment was also on board. The spacecraft was spin-stabilized, with a period of approximately two minutes, and the spin axis was oriented toward the sun. The initial apogee distance was 720,000 km, and the period was 27 days.
       
       Launch Date: 1983-07-01 at 12:14:00 UTC
@@ -44,7 +44,7 @@ Power supply of the board instrumentation is provided by solar batteries (4 plan
         <Description>Historical mission overview of Prognoz missions at IKI website</Description>
       </InformationURL>
     </ResourceHeader>
-    <ObservatoryGroup>PROGNOZ</ObservatoryGroup>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Prognoz</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
       <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>

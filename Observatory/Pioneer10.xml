@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Pioneer10</ResourceID>
     <ResourceHeader>
       <ResourceName>Pioneer 10</ResourceName>
       <AlternateName>1972-012A</AlternateName>
       <AlternateName>Pioneer-F</AlternateName>
-      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
+      <ReleaseDate>2010-09-25T03:09:48Z</ReleaseDate>
       <Description>This mission was the first to be sent to the outer solar system and the first to investigate the planet Jupiter, after which it followed an escape trajectory from the solar system. The spacecraft achieved its closest approach to Jupiter on December 3, 1973, when it reached approximately 2.8 Jovian radii (about 200,000 km). As of Jan. 1, 1997 Pioneer 10 was at about 67 AU from the Sun near the ecliptic plane and heading outward from the Sun at 2.6 AU/year and downstream through the heliomagnetosphere towards the tail region and interstellar space. This solar system escape direction is unique because the Voyager 1 and 2 spacecraft (and the now terminated Pioneer 11 spacecraft mission) are heading in the opposite direction towards the nose of the heliosphere in the upstream direction relative to the inflowing interstellar gas. The spacecraft is heading generally towards the red star Aldebaran, which forms the eye of Taurus (The Bull). The journey over a distance of 68 light years to Aldebaran will require about two million years to complete. Routine tracking and project data processing operatations were terminated on March 31, 1997 for budget reasons. Occasional tracking continued later under support of the Lunar Prospector project at NASA Ames Research Center with retrieval of energetic particle and radio science data. The last successful data acquisitions through NASA's Deep Space Network (DSN) occurred on March 3, 2002, the 30th anniversary of Pioneer 10's launch date, and on April 27, 2002. The spacecraft signal was last detected on Jan. 23, 2003 after an uplink was transmitted to turn off the last operational experiment, the Geiger Tube Telescope (GTT), but lock-on to the sub-carrier signal for data downlink was not achieved. No signal at all was detected during a final attempt on Feb. 6-7, 2003. Pioneer Project staff at NASA Ames then concluded that the spacecraft power level had fallen below that needed to power the onboard transmitter, so no further attempts would be made.
 
 The history of the Pioneer 10 tracking status is available from the web site of the former Pioneer Project at the following location:
@@ -35,7 +35,7 @@ The total mission cost for Pioneer 10 through the 1997 end of official science o
         <Description>Information about the Pioneer 10 mission</Description>
       </InformationURL>
     </ResourceHeader>
-    <ObservatoryGroup>PIONEER</ObservatoryGroup>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Pioneer</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
     </Location>
