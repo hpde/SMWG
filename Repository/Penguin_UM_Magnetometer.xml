@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2.1.0.xsd">
+  <Version>2.1.0</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/Penguin_UM_Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Penguin University of Michigan Magnetometer Repository</ResourceName>
+      <ReleaseDate>2010-09-27T12:34:56.789</ReleaseDate>
+      <Description>Polar Experiment Network for Geophysical Upper Atmosphere Investigation (PENGUIn) University of Michigan Antarctic Magnetometer Data Repository</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Aaron.J.Ridley</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Penguin University of Michigan Magnetometer Repository Information Web Site</Name>
+        <URL>http://herot.engin.umich.edu/~ridley/data/Penguin/README</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>Penguin University of Michigan Magnetometer Repository Access URL</Name>
+      <URL>http://herot.engin.umich.edu/~ridley/data/Penguin</URL>
+    </AccessURL>
+  </Repository>
+</Spase>

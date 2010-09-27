@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
+   <Version>2.1.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Aaron.J.Ridley</ResourceID>
+      <ReleaseDate>2010-09-27T12:34:56.789</ReleaseDate>
+      <PersonName>Aaron J. Ridley</PersonName>
+      <OrganizationName>Department of Atmospheric, Oceanic and Space Sciences</OrganizationName>
+      <Address>1416 Space Research Building, University of Michigan, 2455 Hayward Street, Ann Arbor, MI 48109-2143, USA</Address>
+      <Email>ridley@umich.edu</Email>
+      <PhoneNumber>734-764-5727</PhoneNumber>
+      <FaxNumber>734-647-3083</FaxNumber>
+   </Person>
+</Spase>
