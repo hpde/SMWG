@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Prognoz</ResourceID>
+    <ResourceHeader>
+        <ResourceName>Prognoz Spacecraft Series</ResourceName>
+      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
+      <Description>Prognoz is the name of the once soviet Earth research artificial satellites (ISZ for Russian) meant to study processes of solar activity, their influence on interplanetary environment and the Earth magnetosphere.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Prognoz spacecraft mission overview</Name>
+        <URL>http://arc.iki.rssi.ru/history/prognoz.html</URL>
+        <Description>Historical mission overview of Prognoz missions at IKI website</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>
