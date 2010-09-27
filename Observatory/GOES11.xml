@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/GOES11</ResourceID>
     <ResourceHeader>
@@ -8,7 +8,7 @@
       <AlternateName>2000-022A</AlternateName>
       <AlternateName>GOES-L</AlternateName>
       <AlternateName>GOES-NEXT</AlternateName>
-      <ReleaseDate>2009-11-25T22:41:03Z</ReleaseDate>
+      <ReleaseDate>2010-09-27T18:53:33Z</ReleaseDate>
       <Description>The Geostationary Operational Environmental Satellite GOES 11 is the fourth satellite in a series of next generation geosynchronous spacecraft, referred to as GOES-NEXT and represented by the GOES I through GOES M spacecraft. The GOES-NEXT series is a joint effort on the part of NASA and NOAA to provide continued operational monitoring of weather systems primarily over the United States, distribute meteorological data to regional and national weather offices within the USA, contribute to the development of an environmental data collection network, contribute to the search and rescue program, improve the capability for forcasting and provide real-time warnings of solar distrubances, and to extend knowledge and understanding of atmospheric processes to improve short and long-term weather forecasts.
       
       The GOES-NEXT series, extends the capabilities of the previous GOES 1-7 spacecraft. The GOES I-M spacecraft will be placed over the equator at 135 deg West or 75 deg West. The spacecraft structure is based on the Space Transportation System (STS)-launched, three-axis stabilized Insat (geostationary satellite for India) meteorological satellite design. The design allows unobstructed views of the Earth for operational coverage by the spacecraft sensors. The spacecraft configuration is a compact box-shaped main body that carries the Earth-observing instruments, a continuous-drive solar array attached to the south panel through a yoke assembly, and a solar pointing instrument gimbal mounted on the solar panel yoke. The main body accomodates the sensors, electronics, and support subsystems. The communication antennas, except the Tracking, Telemetry, and Command (TT&amp;C) antenna, are hard-mounted to the Earth-facing panel. The Propulsion Module consists of the fuel and oxidizer tanks for the bipropellant propulsion subsystem mounted on the central cylinder. The Attitude and Orbit Control Substem (AOCS) provides attitude control of the spacecraft. The AOCS consists of the sensors, electronics, and the actuators. The GOES power is generated from the solar array and two 12 A-hr batteries. Power is automatically regulated during solar eclipses.
@@ -26,7 +26,7 @@
         <Description>Information about the GOES 11 mission</Description>
       </InformationURL>
     </ResourceHeader>
-    <ObservatoryGroup>GOES</ObservatoryGroup>
+    <ObservatoryGroupID>spase://SMWG/Observatory/GOES</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
     </Location>

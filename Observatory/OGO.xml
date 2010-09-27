@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/OGO</ResourceID>
+    <ResourceHeader>
+      <ResourceName>OGO Satellites</ResourceName>
+      <ReleaseDate>2010-09-27T18:27:59Z</ReleaseDate>
+      <Description>OGO satellite series</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>

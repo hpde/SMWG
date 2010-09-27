@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/GOES</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Geostationary Operational Environmental Satellites</ResourceName>
+      <AlternateName>GOES Satellite Series</AlternateName>
+      <ReleaseDate>2010-09-27T18:53:19Z</ReleaseDate>
+      <Description>GOES is a series of NASA-developed, NOAA-operated, geosynchronous, and operational spacecraft.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Magnetosphere.RadiationBelt</ObservatoryRegion>
+      <ObservatoryRegion>Earth.NearSurface.Plasmasphere</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>

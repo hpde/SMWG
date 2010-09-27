@@ -2,19 +2,18 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/Observatory/IRIDIUM_1_70</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/GONG</ResourceID>
     <ResourceHeader>
-      <ResourceName>IRIDIUM_1_70</ResourceName>
-      <ReleaseDate>2010-09-27T18:22:20Z</ReleaseDate>
-      <Description/>
+      <ResourceName>GONG Observatory Group</ResourceName>
+      <ReleaseDate>2010-09-27T18:29:30Z</ReleaseDate>
+      <Description>GONG observatory group</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
     </ResourceHeader>
-    <ObservatoryGroupID>spase://SMWG/Observatory/IRIDIUM</ObservatoryGroupID>
     <Location>
-      <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
     </Location>
   </Observatory>
 </Spase>
