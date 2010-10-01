@@ -2,27 +2,19 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/Observatory/Explorer32</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/Explorer</ResourceID>
     <ResourceHeader>
-      <ResourceName>Explorer 32</ResourceName>
-      <AlternateName>1966-044A</AlternateName>
-      <AlternateName>AE-B</AlternateName>
-      <AlternateName>Atmosphere Explorer-B</AlternateName>
-      <ReleaseDate>2010-10-01T20:54:31Z</ReleaseDate>
+      <ResourceName>Explorer Spacecraft Series</ResourceName>
+      <ReleaseDate>2010-10-01T20:52:34Z</ReleaseDate>
       <Description>Explorer 32 was an aeronomy satellite which was designed to directly measure temperatures, composition, densities, and pressures in the upper atmosphere on a global basis. The satellite was a stainless steel, vacuum-sealed sphere, 0.889 m in diameter. The experimental payload included one ion and two neutral mass spectrometers, three magnetron density gauges, and two electrostatic probes. Additional equipment included optical and magnetic aspect sensors, magnetic attitude and spin rate control systems, and a tape recorder for data acquisition at locations remote from ground receiving stations. Power was supplied by silver-zinc batteries and a solar cell array mounted on the satellite exterior. Two identical pulse-modulated telemetry systems and a canted turnstile antenna were employed. The two neutral-particle mass spectrometers failed about 6 days after launch. The remaining experiments operated satisfactorily and provided useful data for most of the 10-month satellite lifetime. The spacecraft ceased to function due to battery failures which resulted from depressurization of the sphere.</Description>
       <Contact>
-        <PersonID>spase://SMWG/Person/Larry.H.Brace</PersonID>
-        <Role>ProjectScientist</Role>
+        <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
+        <Role>MetadataContact</Role>
       </Contact>
-      <InformationURL>
-        <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1966-044A</URL>
-        <Description>Information about the AE-B mission</Description>
-      </InformationURL>
     </ResourceHeader>
-    <ObservatoryGroupID>spase://SMWG/Observatory/Explorer</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+      <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
     </Location>
   </Observatory>
 </Spase>

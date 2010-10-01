@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-  xmlns="http://www.spase-group.org/data/schema" 
-  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Explorer33</ResourceID>
     <ResourceHeader>
       <ResourceName>Explorer 33</ResourceName>
-      <ReleaseDate>2010-05-19T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2010-10-01T20:52:44Z</ReleaseDate>
       <Description>NASA's Explorer 33 spacecraft, also known as
 Anchored IMP (AIMP) A and as IMP E, was launched into a geocentric
 orbit in July, 1966.  (A lunar-centered had been intended.)  Lunar
@@ -24,9 +22,9 @@ were made.  No data were obtained after October, 1971.</Description>
         <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1966-058A</URL>
       </InformationURL>
     </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/IMP</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
     </Location>
   </Observatory>
 </Spase>
- 

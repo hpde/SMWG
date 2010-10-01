@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Explorer35</ResourceID>
     <ResourceHeader>
       <ResourceName>Explorer 35</ResourceName>
-      <ReleaseDate>2010-05-19T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2010-10-01T20:52:48Z</ReleaseDate>
       <Description>NASA's Explorer 35 spacecraft, also known as
 Anchored IMP (AIMP) 2 and as IMP E, was launched into a lunar-
 centric orbit in July, 1967.  Apogee was about 5 lunar radii
@@ -22,9 +21,9 @@ were made.  The spacecraft was turned off in June, 1973.</Description>
         <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1967-070A</URL>
       </InformationURL>
     </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/IMP</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
     </Location>
   </Observatory>
 </Spase>
- 

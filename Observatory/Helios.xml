@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Helios</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Helios Mission</ResourceName>
+      <ReleaseDate>2010-10-01T20:44:34Z</ReleaseDate>
+      <Description>A pair of deep space probes developed by the Federal Republic of Germany (FRG) in a cooperative program with NASA. Experiments were provided by scientists from both FRG and the U.S. NASA supplied the Titan/Centaur launch vehicle.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/James.H.Trainor</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Herbert.Porsche</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Heliosphere.Inner</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>

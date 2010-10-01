@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/DoubleStar</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Double Star Mission</ResourceName>
+      <AlternateName>Tan Ce</AlternateName>
+      <AlternateName>TC</AlternateName>
+      <ReleaseDate>2010-10-01T20:40:07Z</ReleaseDate>
+      <Description>Double Star 1 and 2, also known as Explorer 1/2 or Tan Ce 1/2 (TC 1/2) , is a European-Chinese (PRC) (ESA-CNSA) two-satellite joint mission.
+          Double Star 1 is an equatorial orbiter, while Double Star 2 is a polar orbiter. The Project Scientist for Double Star is Philippe Escoubet of ESA/ESTEC.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Christophe.Philippe.Escoubet</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Double Star Home Page</Name>
+        <URL>http://sci.esa.int/science-e/www/area/index.cfm?fareaid=70</URL>
+        <Description>Information about the Double Star mission</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>
