@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
-  <Version>2.1.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/CNOFS</ResourceID>
     <ResourceHeader>
       <ResourceName>Communication/Navigation Outage Forecasting System (C/NOFS)</ResourceName>
       <AlternateName>Coupled Ion Neutral Dynamics Investigation (CINDI)</AlternateName>
-      <ReleaseDate>2010-05-20T00:40:49Z</ReleaseDate>
+      <ReleaseDate>2010-10-01T20:30:52Z</ReleaseDate>
       <Description> The Communications/Navigation Outage Forecasting System (C/NOFS) is spacecraft launched April 16, 2008, into an inclined orbit with perigee/apogee of 400/700 km and a 95-minute period to monitor and forecast ionospheric scintillation in real-time and on a global scale. The DOD Space Test Program provides the spacecraft, launch vehicle, launch and first year on-orbit operations. The US Air Force Research Laboratory is responsible for the multi-instrument payload, payload integration and test, model development, data center operations, and product generation and distribution.
 
 The C/NOFS carries three types of sensors:
@@ -45,7 +45,6 @@ Both the Neutral Wind Meter (NWM) and the Ion Velocity Meter (IVM) are provided 
         <Description>Information about CINDI as part of C/NOFS</Description>
       </InformationURL>
     </ResourceHeader>
-    <ObservatoryGroup>CNOFS</ObservatoryGroup>
     <Location>
       <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
     </Location>

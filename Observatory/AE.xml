@@ -2,14 +2,15 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/Observatory/DMSP</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/AE</ResourceID>
     <ResourceHeader>
-      <ResourceName>DMSP Series</ResourceName>
-      <ReleaseDate>2010-10-01T20:31:34Z</ReleaseDate>
-      <Description>Military imaging spacecraft series that also measure downward particle fluxes near the Earth; sun-synchronous polar orbit at 830 km altitude.</Description>
+      <ResourceName>AE Spacecraft</ResourceName>
+      <AlternateName>Atmosphere Explorer Spacecraft</AlternateName>
+      <ReleaseDate>2010-10-01T20:26:10Z</ReleaseDate>
+      <Description>Spacecraft of the Atmosphere Explorer (AE) series for investigation of the atmosphere, thermosphere and ionosphere.</Description>
       <Contact>
-        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
-        <Role>GeneralContact</Role>
+        <PersonID>spase://SMWG/Person/Nelson.W.Spencer</PersonID>
+        <Role>ProjectScientist</Role>
       </Contact>
     </ResourceHeader>
     <Location>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Apollo14-LM</ResourceID>
     <ResourceHeader>
@@ -10,7 +10,7 @@
       <AlternateName>Apollo 14C</AlternateName>
       <AlternateName>LEM 14</AlternateName>
       <AlternateName>LM-8</AlternateName>
-      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
+      <ReleaseDate>2010-10-01T20:29:00Z</ReleaseDate>
       <Description>The Apollo 14 Lunar Module (LM) "Antares" was the third crewed vehicle to land on the Moon. It carried two astronauts, Commander Alan B. Shepard Jr. and LM pilot Edgar D. Mitchell, the fifth and sixth men to walk on the Moon. Also included on the LM was the Apollo Lunar Surface Experiments Package (ALSEP) containing scientific experiments to be deployed and left on the lunar surface and other scientific and sample collection apparatus.
 
 Mission Profile
@@ -49,7 +49,6 @@ All ALSEP instruments were deployed on the surface by the astronauts and attache
       
       <PriorID>spase://nssdc/observatory/1971-008C</PriorID>
     </ResourceHeader>
-    <ObservatoryGroup>APOLLO</ObservatoryGroup>
     <Location>
       <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
