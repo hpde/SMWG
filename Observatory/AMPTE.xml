@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/AMPTE</ResourceID>
+    <ResourceHeader>
+      <ResourceName>AMPTE Mission</ResourceName>
+      <ReleaseDate>2010-10-01T20:10:13Z</ReleaseDate>
+      <Description>The AMPTE (Active Magnetospheric Particle Tracer Explorers) mission was designed to study the access of solar-wind ions to the magnetosphere, the convective-diffusive transport and energization of magnetospheric particles, and the interactions of plasmas in space.
+      
+The mission consisted of three spacecraft: the CCE; the IRM, which provided multiple ion releases in the solar wind, the magnetosheath, and the magnetotail, with in situ diagnostics of each; and the UKS, which uses thrusters to keep station near the IRM to provide two-point local measurements.
+
+The PI for the U.S. AMPTE Program and for the CCE was S. M. Krimigis (now Richard McEntire of JHU/APL); each instrument was managed by a lead investigator. 
+
+For more details, see J. Dassoulas et al., IEEE Transactions on Geoscience and Remote Sensing, Vol. GE-23, p. 182, 1985.</Description>
+      <Contact>
+        <!-- Richard McEntire -->
+        <PersonID>spase://SMWG/Person/Richard.W.McEntire</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere.Magnetotail</ObservatoryRegion>
+      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Cluster</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Cluster Mission</ResourceName>
+      <ReleaseDate>2010-10-01T20:22:01Z</ReleaseDate>
+      <Description>The four similar spacecraft of the Cluster II mission are part of ESA's and NASA's Solar-Terrestrial Science Program (STSP). The current Cluster II mission is a near-replica of the original four-spacecraft mission lost at launch in 1996. (NSSDC will carry the name "Cluster96" in its information files to designate the unsuccessful 1996 four-spacecraft Ariane 5 launch.) The purpose of the Cluster II mission is to study small-scale structures in three dimensions in the Earth's plasma environment, such as those involved in the interaction between the solar wind and the magnetospheric plasma, in global magnetotail dynamics, in cross-tail currents, and in the formation and dynamics of the neutral line and of plasmoids.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Melvyn.L.Goldstein</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere.Polar</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>
