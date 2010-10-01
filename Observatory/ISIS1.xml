@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-  <Version>2.0.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/ISIS1</ResourceID>
     <ResourceHeader>
@@ -8,7 +8,7 @@
       <AlternateName>1969-009A</AlternateName>
       <AlternateName>International Sats for Ionosph Studies</AlternateName>
       <AlternateName>ISIS-A</AlternateName>
-      <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
+      <ReleaseDate>2010-10-01T19:58:07Z</ReleaseDate>
       <Description>ISIS 1 was an ionospheric observatory instrumented with sweep- and fixed-frequency ionosondes, a VLF receiver, energetic and soft particle detectors, an ion mass spectrometer, an electrostatic probe, an electrostatic analyzer, a beacon transmitter, and a cosmic noise experiment. The sounder used two dipole antennas (73 and 18.7 m long). The satellite was spin-stabilized at about 2.9 rpm after antenna deployment. Some control was exercised over the spin rate and attitude by using magnetically induced torques to change the spin rate and to precess the spin axis. A tape recorder with 1-h capacity was included on the satellite. The satellite could be programmed to take recorded observations for four different time periods for each full recording period. The recorder data were dumped only at Ottawa. For non-tape-recorded observations, data for the satellite and subsatellite regions could be acquired and telemetered when the spacecraft was in the line of sight of telemetry stations. The selected telemetry stations were in areas that provided primary data coverage near the 80-deg-W meridian and in areas near Hawaii, Singapore, Australia, the UK, Norway, India, Japan, Antarctica, New Zealand, and Central Africa. NASA support of the ISIS project was terminated on October 1, 1979. A significant amount of experimental data, however, was acquired after this date by the Canadian project team. ISIS 1 operations were terminated in Canada on March 9, 1984. The Radio Research Laboratories (Tokyo, Japan) then requested and received permission to reactivate ISIS 1. Regular ISIS 1 operations were started from Kashima, Japan, in early August 1984. ISIS 1 was deactivated effective January 24, 1990. A data restoration effort began in the late ninties and successfully saved a considerable portion of the high-resolution data before the telemetry tapes were discarted. More information about this effort and access to the data on CDAWeb and nssdcftp can be found at
 
 http://nssdc.gsfc.nasa.gov/space/isis/isis-status.html</Description>
@@ -30,9 +30,9 @@ http://nssdc.gsfc.nasa.gov/space/isis/isis-status.html</Description>
         <Description>Information about the ISIS 1 mission</Description>
       </InformationURL>
     </ResourceHeader>
-    <ObservatoryGroup>ISIS</ObservatoryGroup>
+    <ObservatoryGroupID>spase://SMWG/Observatory/ISIS</ObservatoryGroupID>
     <Location>
-      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+      <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
     </Location>
   </Observatory>
 </Spase>
