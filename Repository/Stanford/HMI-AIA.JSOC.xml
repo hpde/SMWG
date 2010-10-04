@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/Stanford/HMI-AIA.JSOC</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SDO HMI-AIA JSOC at Stanford</ResourceName>
+      <ReleaseDate>2010-10-04T21:04:56Z</ReleaseDate>
+      <Description>The HMI-AIA (Helioseismic and Magnetic Imager -
+Atmospheric Imaging Assembly) SDO JSOC (Joint Science Operations Center) 
+at Stanford University archives, and provides multiple access paths 
+to, a wide range of digital and browse HMI and AIA solar data.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Philip.H.Scherrer</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>SDO JSOC at Stanford</Name>
+      <URL>http://jsoc.stanford.edu</URL>
+    </AccessURL>
+  </Repository>
+</Spase>
+ 

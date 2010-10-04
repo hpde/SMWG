@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/SDO/HMI</ResourceID>
+    <ResourceHeader>
+      <ResourceName>HMI</ResourceName>
+      <ReleaseDate>2010-10-04T20:56:28Z</ReleaseDate>
+      <Description>The SDO (Solar Dynamics Observatory) HMI
+(Helioseismic and Magnetic Imager) studies the origin of solar 
+variability by characterizing and developing an understanding 
+of the sun's interior and the various components of its magnetic 
+activity. It extends the capabilities of the SOHO/MDI instrument 
+to continuous full-disk coverage at higher spatial resolution 
+and vector magnetograms.
+
+HMI observes the full solar disk in the Fe I absorption line at 
+6173A with a resolution of 1 arc-second. HMI consists of a 
+refracting telescope, a polarization selector, an image 
+stabilization system, a narrow band tunable filter and two 4096 
+pixel CCD cameras with mechanical shutters and control electronics. 
+The continuous data rate is 55Mbits/s. Images are made in a 
+sequence of tuning and polarizations at a 4-second cadence for each 
+camera. One camera is dedicated to a 45s Doppler and line-of-sight 
+field sequence while the other to a 90s vector field sequence. All 
+of the images are downlinked for processing at the HMI/AIA Joint 
+Science Operations Center at Stanford University.
+</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Phillip.H.Scherrer</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>HMI web site at Stanford U.</Name>
+        <URL>http://hmi.stanford.edu</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Imager</InstrumentType>
+    <InvestigationName>HMI</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/SDO</ObservatoryID>
+  </Instrument>
+</Spase>

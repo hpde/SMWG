@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/UCOLO/LASP/SDO</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SDO EVE Repository at LASP</ResourceName>
+      <ReleaseDate>2010-10-04T21:01:11Z</ReleaseDate>
+      <Description>The U.Colorado Laboratory for Atmospheric
+and Space Physics (LASP) hosts a wide range of data from
+the ExtremeUltraviolet Variability Experiment (EVE) that
+flew on the Solar Dynamics Observatory.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Thomas.N.Woods</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>U.Colo LASP SDO EVE</Name>
+      <URL>http://lasp.colorado.edu/eve/data_access/</URL>
+    </AccessURL>
+  </Repository>
+</Spase>
+ 

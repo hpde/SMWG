@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/SDO/AIA</ResourceID>
+    <ResourceHeader>
+      <ResourceName>AIA</ResourceName>
+      <ReleaseDate>2010-10-04T20:54:57Z</ReleaseDate>
+      <Description>The SDO (Solar Dynamics Observatory) AIA
+(Atmospheric Imaging Assembly) is a battery of four telescopes 
+designed to image the dynamic solar atmosphere in multiple 
+different wavelengths to link changes in the surface to those 
+in the interior. Data will include images of the Sun that span 
+at least 1.3 solar diameters in 10 wavelengths (7 EUV and 
+3 UV-visible channels) nearly simultaneously, at a resolution 
+of about 1 arcsec and at a cadence of 10 seconds or better
+</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Alan.M.Title</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>AIA web site at Lockheed</Name>
+        <URL>http://aia.lmsal.com/</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Imager</InstrumentType>
+    <InvestigationName>AIA</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/SDO</ObservatoryID>
+  </Instrument>
+</Spase>
