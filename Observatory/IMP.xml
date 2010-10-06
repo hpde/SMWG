@@ -5,8 +5,33 @@
     <ResourceID>spase://SMWG/Observatory/IMP</ResourceID>
     <ResourceHeader>
       <ResourceName>IMP Spacecraft Series</ResourceName>
-      <ReleaseDate>2010-09-27T18:44:59Z</ReleaseDate>
-      <Description>The IMP spacecraft series.</Description>
+      <ReleaseDate>2010-10-06T18:37:16Z</ReleaseDate>
+      <Description>The IMP spacecraft series. Prelaunch, the 10 IMP's were
+          called IMP's A-J.  8 of them were intended for geocentric orbits
+          (A-C, F-J) and 2 for selenocentric orbits (D,E). Prelaunch, the
+          latter two were also called Anchored IMPs (AIMPs) A and B. 
+          After launch, the 8 intended for geocentric were also called
+          IMPs 1-8 and the 2 intended for lunar orbit were called
+          AIMP 1 and 2.  Only IMP E = AIMP B = AIMP 2 achieved lunar
+          orbit; IMP D = AIMP A = AIMP 1 went into a geocentric orbit.
+          The mapping of prelaunch IMP letters to postlaunch Explorer numbers
+          and IMP numbers was
+
+          +-----------------------------------------------+
+          | IMP (prelaunch) | IMP (postlaunch) | Explorer |
+          |-----------------------------------------------|
+          | A | 1 | 18 |
+          | B | 2 | 21 |
+          | C | 3 | 28 |
+          | D |   | 33 |
+          | E |   | 35 |
+          | F | 4 | 34 |
+          | G | 5 | 41 |
+          | H | 7 | 47 |
+          | I | 6 | 43 |
+          | J | 8 | 50 |
+          +------------+
+          </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
         <Role>MetadataContact</Role>
@@ -14,6 +39,7 @@
     </ResourceHeader>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
     </Location>
   </Observatory>
 </Spase>
