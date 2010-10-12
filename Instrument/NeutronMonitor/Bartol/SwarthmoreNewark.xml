@@ -4,11 +4,11 @@
   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
   <Version>2.0.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/NeutronMonitor/Bartol/SwathmoreNewark</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/NeutronMonitor/Bartol/SwarthmoreNewark</ResourceID>
     <ResourceHeader>
-      <ResourceName>SwathmoreNewark Neutron Monitor</ResourceName>
+      <ResourceName>SwarthmoreNewark Neutron Monitor</ResourceName>
       <ReleaseDate>2010-07-09T21:10:14Z</ReleaseDate>
-      <Description>The SwathmoreNewark Neutron Monitor</Description>
+      <Description>The SwarthmoreNewark Neutron Monitor</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/John.Bieber</PersonID>
         <Role>PrincipalInvestigator</Role>
@@ -24,7 +24,7 @@
       </InformationURL>
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
-    <InvestigationName>SwathmoreNewark</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/NeutronMonitor/Bartol/SwathmoreNewark</ObservatoryID>
+    <InvestigationName>SwarthmoreNewark</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/NeutronMonitor/Bartol/SwarthmoreNewark</ObservatoryID>
   </Instrument>
 </Spase>
