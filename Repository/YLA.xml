@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/YLA</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Yohkoh Legacy Archive</ResourceName>
+      <ReleaseDate>2010-12-08T21:35:20Z</ReleaseDate>
+      <Description>The Yohkoh Legacy Archive at Montana State 
+University provides access to Level 0 data from all Yohkoh
+instruments, and many higher level digital and display data
+products from the Soft X-Ray Telescope 
+(as of 12/03/2010).</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Loren.W.Acton</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>Yohkoh Legacy Archive</Name>
+      <URL>http://ylstone.physics.montana.edu/ylegacy/</URL>
+    </AccessURL>
+  </Repository>
+</Spase>
