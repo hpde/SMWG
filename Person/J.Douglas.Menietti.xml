@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/J.Douglas.Menietti</ResourceID>
+    <ReleaseDate>2010-12-08T13:00:00Z</ReleaseDate>
+    <PersonName>Dr. J. Douglas Menietti</PersonName>
+    <OrganizationName>University of Iowa</OrganizationName>
+    <PhoneNumber>+1-319-335-1919</PhoneNumber>
+  </Person>
+</Spase>
