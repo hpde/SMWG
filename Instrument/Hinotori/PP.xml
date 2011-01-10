@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Hinotori/PP</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Hinotori Plasma Probes</ResourceName>
+      <ReleaseDate>2011-01-10T23:44:32Z</ReleaseDate>
+      <Description>The Plasma Probes (PP) on the Japanese Hinotori spacecraft
+made measurements of ionospheric electron temperatures with a "rectification
+probe" and of electron densities with a "gyro plasma probe."  For details,
+see Oyama, K.-I., Electron temperature measurements carried out by Japanese
+scientific satellites, Adv. Space Res., Vol. 11, No. 10, pp 149-158, 
+1991</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Koh-Ichiro.Oyama</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>Unspecified</InstrumentType>
+    <InvestigationName>Hinotori Plasma Probes</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Hinotori</ObservatoryID>
+  </Instrument>
+</Spase>
