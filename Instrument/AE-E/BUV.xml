@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/AE-E/BUV</ResourceID>
+    <ResourceHeader>
+      <ResourceName>AE-E Backscatter Ultraviolet Spectrometer (BUV)</ResourceName>
+      <ReleaseDate>2011-02-02T17:23:29Z</ReleaseDate>
+      <Description>The backscatter ultraviolet instrument (BUV) monitored 
+the spatial distribution of atmospheric ozone by measuring the intensity 
+of the UV radiation backscattered from the earth's atmosphere. To obtain 
+this ozone distribution, the BUV subsystem measured direct solar radiation 
+and backscattered UV radiation from the daytime sun-illuminated atmosphere. 
+The instrument consisted of a spectrometer (monochromator) and a photometer. 
+The monochromator measured the intensity of UV radiation backscatter and 
+reflected radiation from the earth's atmosphere in 12 wavelengths (2555 
+to 3398 A) in which ozone attenuation occurs. The photometer measured the 
+reflected UV radiation in a single wavelength span in which attenuation by 
+ozone does not occur.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Donald.F.Heath</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSDC Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1975-107A-16</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Spectrometer</InstrumentType>
+    <InvestigationName>BUV</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/AE-E</ObservatoryID>
+  </Instrument>
+</Spase>
