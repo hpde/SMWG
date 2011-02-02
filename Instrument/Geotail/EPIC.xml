@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Geotail/EPIC</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Geotail Energetic Particles and Ion Composition</ResourceName>
+      <ReleaseDate>2011-02-02T17:11:58Z</ReleaseDate>
+      <Description>The principal objective of the EPIC (Energetic 
+Particles and Ion Composition) investigation is to explore the 
+outer magnetosphere and the distant magnetotail region and obtain 
+information on the origin, transport, storage, acceleration and 
+dynamics of suprathermal and non-thermal particle populations. 
+The instrument contains two main sensor heads. The STICS assembly 
+(Supra-Thermal Ion Composition Spectrometer) uses a quadrispherical 
+electrostatic analyzer followed by a foil/solid state detector 
+time-of-flight (TOF) telescope to measure charge state, mass and 
+energy of ions with energies of 10 - 230 keV/charge. The ICS 
+assembly (Ion Composition Subsystem) measures the mass and energy 
+of energetic ions with energies of less than 50 keV to 3 MeV. It 
+uses a pair of collimators with sweeping magnets to reject 
+electrons, followed by TOF and energy analysis. A thin foil/solid 
+state detector electron telescope measures electrons higher than 
+30 keV. Directional measurements with a time resolution less than
+3 s for all species are possible. A detailed instrument description, 
+and a complete set of EPIC summary plots from launch to the present, 
+plus on-line access to the digital data set, is available at the 
+EPIC link below.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Anthony.T.Y.Lui</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Donald.J.Williams</PersonID>
+        <Role>FormerPI</Role>
+      </Contact>
+      <InformationURL>
+        <Name>EPIC site at JHU_APL</Name>
+        <URL>http://sd-www.jhuapl.edu/Geotail/</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>QuadrisphericalAnalyser</InstrumentType>
+    <InvestigationName>Energetic Particles and Ion Composition</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Geotail</ObservatoryID>
+  </Instrument>
+</Spase>

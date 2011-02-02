@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Geotail/CPI/SWA</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Solar Wind Analyzer</ResourceName>
+      <ReleaseDate>2011-02-02T17:12:46Z</ReleaseDate>
+      <Description>The Solar Wind Analyzer (SWA) of the Comprehensive
+Plasma Instrumentation (CPI) on Geotail is a quadrispherical plasma 
+analyzer that measures three-dimensional fluxes of ions in the range 
+150-7,000 eV/Q</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Louis.A.Frank</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/William.R.Paterson</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>U.Iowa Geotail/CPI site</Name>
+        <URL>http://www-pi.physics.uiowa.edu/www/cpi/</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>QuadrisphericalAnalyser</InstrumentType>
+    <InvestigationName>Comprehensive Plasma Instrumentation</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Geotail</ObservatoryID>
+  </Instrument>
+</Spase>
