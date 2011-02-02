@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/RankinInlet/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>CARISMA Magnetometer at RankinInlet</ResourceName>
+      <ReleaseDate>2011-02-02T22:07:15Z</ReleaseDate>
+      <Description>CARISMA Magnetometer at RankinInlet Canadian ground station</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>CARISMA site</Name>
+        <URL>http://bluebird.phys.ualberta.ca/carisma/</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>RankinInlet/Magnetometer</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/RankinInlet</ObservatoryID>
+  </Instrument>
+</Spase>
