@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/IRIDIUM/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>IRIDIUM Magnetometer</ResourceName>
+      <ReleaseDate>2011-02-04T19:20:50Z</ReleaseDate>
+      <Description>The IRIDIUM series of spacecraft carry engineering 
+magnetometers whose data, in aggregate, are relevant to the study
+of Birkeland (magnetic field aligned) currents at auroral latitudes.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Brian.J.Anderson</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>IRIDIUM data pages at JHU/APL</Name>
+        <URL>http://dysprosium.jhuapl.edu/</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Birkeland Currents from IRIDIUM Data</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/IRIDIUM</ObservatoryID>
+  </Instrument>
+</Spase>
