@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Cluster-Rumba/Ephemeris</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Cluster-Rumba Positions</ResourceName>
+      <AlternateName>Cluster-Rumba Ephemeris</AlternateName>
+      <ReleaseDate>2011-02-04T15:37:46Z</ReleaseDate>
+      <Description>Cluster-Rumba spacecraft positions in various coordinate systems</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/M.Tatrallyay</PersonID>
+        <Role>DataProducer</Role>
+      </Contact>
+      <PriorID>spase://SMWG/Instrument/Cluster2-Rumba/Ephemeris</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Platform</InstrumentType>
+    <InvestigationName>Spacecraft position</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Cluster-Rumba</ObservatoryID>
+  </Instrument>
+</Spase>

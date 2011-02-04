@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Cluster-Salsa/FGM</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Fluxgate Magnetometer (FGM)</ResourceName>
+      <AlternateName>FGM</AlternateName>
+      <ReleaseDate>2011-02-04T15:37:33Z</ReleaseDate>
+      <Description>This instrument (FGM: Fluxgate Magnetometer) consists of two tri-axial fluxgate magnetometers mounted on one of the two 5 m radial booms, plus a data processing unit (DPU) on the main equipment platform. The magnetometer boom lies in the spacecraft spin plane, with the outboard sensor at the boom tip and the inboard sensor mounted 1.5 m inboard from the tip, to minimize the importance of the spacecraft background magnetic field and its variations. The sensors are mounted such that the X axes are aligned with the spacecraft spin axis, and the other axes are in the spin plane. There are five sensitivity ranges, from +/- 256 nT to +/- 65,500 nT (used only to facilitate ground testing). Range switching can be automatic or by command. Calibration is done by introducing a known current step into the feedback loop of the sensors. Telemetry allocation limits the normal output to about 20 vectors/s. For short periods at higher time resolution, data are stored at rates of up to 124.3 vectors/s in a memory block, the micro-structure analyzer (MSA). The MSA capacity is 32,000 vectors, more than 4 minutes of data at the highest sampling rate. This memory is continually over-written until a special event is detected, when its contents are frozen and held for readout interleaved with the normal lower-resolution data. The DPU has dual redundancy, including two CPUs. The CPU convolves the full bandwidth data with a Gaussian digital filter to match the rate and bandwidth of the transmitted vectors to the available telemetry rate. Unfiltered vector data are sent at 64.35 ms intervals to all but one of the other experiments. The DPU has a number of stored algorithms for recognition of events of particular interest, to trigger the MSA. The objective is to identify such events as boundary crossings or shocks when the high-rate capability of the MSA for short periods could capture the detailed signature of the event. The algorithms were defined at an early stage, but resettable thresholds for the event triggers will enable optimization in flight. There are eight different telemetry operating modes of the instrument, corresponding to both normal and burst modes, with MSA readout rates of 0, 9, 12, or 120 vectors/s. For more details of the Cluster mission, the spacecraft, and its instruments, see the report ``Cluster: mission, payload and supporting activities,'' March 1993, ESA SP-1159, and the included article ``The Cluster Magnetic Field Investigation: scientific objective and instrumentation,'' by A. Balogh et al., from which this information was obtained.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Andre.Balogh</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2000-041B&amp;ex=4</URL>
+        <Description>Information about the Fluxgate Magnetometer (FGM) experiment on the Cluster 2/FM6 (Salsa) mission.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Instrument/Cluster2-Salsa/FGM</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Fluxgate Magnetometer (FGM) on Cluster 2/FM6 (Salsa)</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Cluster-Salsa</ObservatoryID>
+  </Instrument>
+</Spase>
