@@ -5,14 +5,14 @@
     <ResourceID>spase://SMWG/Observatory/LANL2001</ResourceID>
     <ResourceHeader>
       <ResourceName>LANL2001</ResourceName>
-      <ReleaseDate>2011-01-05T18:45:39Z</ReleaseDate>
-      <Description>Geosynchronous spacecraft carrying energetic electron and ion instruments</Description>
+      <ReleaseDate>2011-01-05T00:00:00Z</ReleaseDate>
+      <Description>Geosynchronous spacecraft carrying plasma instrumentation</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
     </ResourceHeader>
-    <ObservatoryGroupID>spase://SMWG/Observatory/LANL</ObservatoryGroupID>
+      <ObservatoryGroupID>spase://SMWG/Observatory/LANL</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
       <ObservatoryRegion>Earth.Magnetosphere.RadiationBelt</ObservatoryRegion>
