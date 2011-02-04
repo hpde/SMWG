@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Akebono</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Akebono</ResourceName>
+      <ReleaseDate>2011-02-04T19:26:35Z</ReleaseDate>
+      <Description>Akebono was launched on February 22, 1989, by
+the Japanese Aerospace Exploration Agency (JAXA) predecessor to 
+investigate magnetospheric phenomena associated with the acceleration 
+of aurotal particles. The initial orbit had apogee/perigee altitudes 
+of 10,482 km and 272 km, and had a 75.1 deg inclination. Its spin
+vector was sun-pointing and its spin period was 8 sec. It carried
+a full complement of plasma and energetic particle, electric and 
+magnetic field, and wave detectors.  The spacecraft and its instruments
+are described in J. Geomag. Geoelect. 42, 1990.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Ayako.Matsuoka</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.NearSurface.AuroralRegion</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>

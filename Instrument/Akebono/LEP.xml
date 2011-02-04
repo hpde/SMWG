@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Akebobo/LEP</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Akebono Low Energy Particle (LEP) instrument</ResourceName>
+      <ReleaseDate>2011-02-04T19:25:27Z</ReleaseDate>
+      <Description>The Low Energy Particle instrumentation carried on the 
+Akebono spacecraft consists of many components.  Ion and electron E/Q
+analysis is carried out by two quadrispherical electrostatic analyzers
+(one for ions, one for electrons) each followed by five channeltrons.  
+Energy ranges for measured ions and electrone are 13 eV/Q - 20 keV/Q and 
+10 ev - 16 keV, respectively, with good spectral resolution in these 
+ranges.  Details on the instrument and its operations and data processing 
+is found in Mukai et. al., J. Geomag Geoelect, 42, 479-496, 1990.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Toshifumi.Mukai</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>QuadrisphericalAnalyser</InstrumentType>
+    <InvestigationName>Low Energy Particle (LEP)</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Akebono</ObservatoryID>
+  </Instrument>
+</Spase>
