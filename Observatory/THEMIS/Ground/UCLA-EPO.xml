@@ -4,8 +4,9 @@
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-EPO</ResourceID>
     <ResourceHeader>
-      <ResourceName>NASA THEMIS EPO Stations</ResourceName>
-      <ReleaseDate>2010-09-24T21:21:25Z</ReleaseDate>
+      <ResourceName>THEMIS-EPO</ResourceName>
+      <AlternateName>NASA THEMIS EPO Ground Stations</AlternateName>
+      <ReleaseDate>2011-02-17T12:34:56.789</ReleaseDate>
       <Description>Stations with Educational Public Outreach magnetometers operated by UCLA. EPO magnetometers should be used carefully, 
           as they may be subject to environmental noise.</Description>
       <Acknowledgement>We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically:S. Mende and C. T. Russell for use of the GMAG data</Acknowledgement>

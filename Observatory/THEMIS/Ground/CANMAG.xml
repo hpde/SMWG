@@ -4,8 +4,9 @@
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/THEMIS/Ground/CANMAG</ResourceID>
     <ResourceHeader>
-      <ResourceName>NASA THEMIS CANMAG Ground Stations</ResourceName>
-      <ReleaseDate>2010-09-24T21:31:36Z</ReleaseDate>
+      <ResourceName>CANMAG</ResourceName>
+      <AlternateName>NASA THEMIS CANMAG Ground Stations</AlternateName>
+      <ReleaseDate>2011-02-17T12:34:56.789</ReleaseDate>
       <Description>Chain of NASA THEMIS CANMAG ground stations</Description>
       <Acknowledgement>We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically:
 Martin Connors for building the Athabasca Station.
