@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Repository>
     <ResourceID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</ResourceID>
     <ResourceHeader>
       <ResourceName>CDAWeb Data Repository FTP Interface</ResourceName>
-      <ReleaseDate>2008-08-26T21:14:34Z</ReleaseDate>
+      <ReleaseDate>2011-02-23T18:39:43Z</ReleaseDate>
       <Description>Coordinated Data Analysis Web (CDAWeb) supports not only interactive plotting of variables from multiple instruments on multiple investigations simultaneously on arbitrary, user-defined time-scales. It also supports data retrieval in various formats using its interactive web interface or ftp service.</Description>
       <Contact>
         <!-- Robert McGuire -->
@@ -19,5 +19,9 @@
       </InformationURL>
       <PriorID>spase://VMO/Repository/CDAWeb</PriorID>
     </ResourceHeader>
+    <AccessURL>
+      <Name>FTP Access to CDAWeb Data</Name>
+      <URL>ftp://cdaweb.gsfc.nasa.gov/pub/</URL>
+    </AccessURL>
   </Repository>
 </Spase>
