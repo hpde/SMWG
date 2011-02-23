@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/ARTEMIS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>ARTEMIS</ResourceName>
+      <ReleaseDate>2011-02-23T22:21:31Z</ReleaseDate>
+      <Description>The Acceleration, Reconnection, Turbulence, and Electrodynamics of
+          the Moon’s Interaction with the Sun (ARTEMIS) mission is a spin-off from
+          NASA’s Medium-class Explorer (MIDEX) mission THEMIS, a five identical
+          micro-satellite (hereafter termed “probe”) constellation in high altitude Earth-orbit
+          since 17 February 2007. By repositioning two of the five THEMIS probes (P1 and
+          P2) in coordinated, lunar equatorial orbits, at distances of ~55-65 RE geocentric
+          (~1.1-12 RL selenocentric), ARTEMIS will perform the first systematic, two-point
+          observations of the distant magnetotail, the solar wind, and the lunar space and
+          planetary environment. The primary heliophysics science objectives of the
+          mission are to study from such unprecedented vantage points and inter-probe
+          separations how particles are accelerated at reconnection sites and shocks, and
+          how turbulence develops and evolves in Earth’s magnetotail and in the solar wind.
+          Additionally, the mission will determine the structure, formation, refilling, and
+          downstream evolution of the lunar wake and explore particle acceleration
+          processes within it. ARTEMIS’s orbits and instrumentation will also address key
+          lunar planetary science objectives: the evolution of lunar exospheric and sputtered
+          ions, the origin of electric fields contributing to dust charging and circulation, the
+          structure of the lunar interior as inferred by electromagnetic sounding, and the
+          lunar surface properties as revealed by studies of crustal magnetism. ARTEMIS is
+          synergistic with concurrent NASA missions LRO and LADEE and the anticipated
+          deployment of the International Lunar Network. It is expected to be a key element
+          in the NASA Heliophysics Great Observatory and to play an important role in
+          international plans for lunar exploration.
+      </Description>
+      <Acknowledgement>National Aeronautics and Space Administration/United States</Acknowledgement>
+      <Contact>
+        <!-- Vassilis Angelopoulos -->
+        <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <!-- David Sibeck -->
+        <PersonID>spase://SMWG/Person/David.G.Sibeck</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <InformationURL>
+        <Name>ARTEMIS Mission Page</Name>
+        <URL>http://www.nasa.gov/mission_pages/artemis/</URL>
+        <Description>ARTEMIS Mission Homepage</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere.Magnetotail</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>
