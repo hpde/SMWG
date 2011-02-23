@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://www.spase-group.org/data/schema" 
+xsi:schemaLocation="http://www.spase-group.org/data/schema 
+http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Akebobo/SMS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Suprathermal Mass Spectrometer(SMS)</ResourceName>
+      <ReleaseDate>2011-02-23T17:36:22Z</ReleaseDate>
+      <Description>The Akebono Suprathermal Mass Spectrometer (SMS) 
+is a radio-frequency ion mass spectrometer. It is designed to measure 
+the mass composition and velocity distribution (mass-per-charge, 
+energy-per-charge and angular distribution in the spacecraft 
+spin-plane) of thermal and suprathermal (0.1-4000 eV/q) ions in the 
+ionosphere and magnetosphere. It consists of a retarding potential 
+analyzer, a 3-stage modified Bennett ion mass spectrometer, and a 
+micro-channel plate detector. It can sample ions at 256 mass steps 
+over the 1-80 AMU/q mass range, and 256 retarding potential steps 
+in the 0.1-25.6V range, and 16 suprathermal energy steps in the 
+100-4000 V range. It operates in a number of fast scan and mass 
+scan operational modes.
+For a detailed description of the SMS instrument and its operation, 
+please see B. A. Whalen, J. R. Burrows, A. W. Yau, E. E. Budzinski, 
+A. M. Pilon, I. Iwamoto, K. Marubashi, S. Watanabe, H. Mori, and 
+E. Sagawa, The suprathermal ion mass spectrometer (SMS) onboard 
+the EXOS?D satellite. J. Geomag. Geoelectr. 42, 511-536, 1990 and 
+A. W. Yau, E. Drakou, M. J. Greffen, D. J. Knudsen, and E. Sagawa, 
+Radio-frequency ion mass spectrometer measurements of thermal ion 
+composition, velocity, and temperature: the EXOS-D Suprathermal 
+Mass Spectrometer, Geophys. Monogr. Ser., 102, 307-312, 1998.  See also
+http://www.darts.isas.jaxa.jp/akbn/readme/readme.sms.txt</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Andrew.W.Yau</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>MassSpectrometer</InstrumentType>
+    <InvestigationName>Suprathermal Mass Spectrometer (SMS)</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Akebono</ObservatoryID>
+  </Instrument>
+</Spase>

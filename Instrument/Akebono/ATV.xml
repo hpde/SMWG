@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://www.spase-group.org/data/schema" 
+xsi:schemaLocation="http://www.spase-group.org/data/schema 
+http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Akebobo/ATV</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Akebono Auroral TV Imagery(ATV)</ResourceName>
+      <ReleaseDate>2011-02-23T17:31:20Z</ReleaseDate>
+      <Description>The Akebono Auroral Television (ATV) acquired
+downlooking auroral imagery that is DARTS-accessible for almost
+a year in 1989-1990.  See the ATV paper in the set of Akebono
+papers in J. Geomag. Geoelect., 42, 1990, for further details.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Masaki.Ejiri</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>Imager</InstrumentType>
+    <InvestigationName>Auroral TV(ATV)</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Akebono</ObservatoryID>
+  </Instrument>
+</Spase>

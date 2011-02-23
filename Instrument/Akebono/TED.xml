@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://www.spase-group.org/data/schema" 
+xsi:schemaLocation="http://www.spase-group.org/data/schema 
+http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Akebobo/TED</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Akebono Thermal Electron Energy Distribution (TED)</ResourceName>
+      <ReleaseDate>2011-02-23T17:31:20Z</ReleaseDate>
+      <Description>The Thermal Electron Energy Distribution (TED)
+experiment measures 0-5 eV electrons in 32 energy steps.  The experiment 
+outputs numbers which are the second harmonic of electron flux incident
+on the TED probe, from these the energy distribution in units of 
+1/(eV cm**3) may be computed.  Data are available from DARTS as plots
+and digital binary data in the Akebono database.  See
+http://www.darts.isas.jaxa.jp/akbn/readme/readme.ted.txt and
+Abe et al, J. Geomag. Geoelect., 42, 537-554, 1990, for further
+details.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Koh-Ichiro.Oyama</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>Unspecified</InstrumentType>
+    <InvestigationName>Thermal Electron Energy Distribution (TED)</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Akebono</ObservatoryID>
+  </Instrument>
+</Spase>
