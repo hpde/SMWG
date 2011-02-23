@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Observatory/ARTEMIS</ResourceID>
     <ResourceHeader>
       <ResourceName>ARTEMIS</ResourceName>
-      <ReleaseDate>2011-02-23T22:21:31Z</ReleaseDate>
+      <ReleaseDate>2011-02-23T22:27:09Z</ReleaseDate>
       <Description>The Acceleration, Reconnection, Turbulence, and Electrodynamics of
           the Moon’s Interaction with the Sun (ARTEMIS) mission is a spin-off from
           NASA’s Medium-class Explorer (MIDEX) mission THEMIS, a five identical
@@ -45,6 +45,11 @@
         <Name>ARTEMIS Mission Page</Name>
         <URL>http://www.nasa.gov/mission_pages/artemis/</URL>
         <Description>ARTEMIS Mission Homepage</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>ARTEMIS Description</Name>
+        <URL>http://www.igpp.ucla.edu/public/THEMIS/SCI/Pubs/artemis/The_ARTEMIS_Mission_SSR_accepted.pdf</URL>
+        <Description>Angelopoulos' paper describing the ARTEMIS mission</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>
