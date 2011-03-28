@@ -1,0 +1,207 @@
+<Spase xmlns="http://www.spase-group.org/data/schema"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd" lang="en">
+  <Version>2.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Hawkeye/VLF</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Hawkeye VLF</ResourceName>
+      <AlternateName>Hawkeye Plasma Wave Experiment</AlternateName>
+      <AlternateName>ELF/VLF Receivers on Hawkeye 1</AlternateName>
+      <ReleaseDate>2011-03-25T00:00:00Z</ReleaseDate>
+      <Description>
+This experiment measured electric and magnetic fields using a 42.45-m electric dipole (tip-to-tip) which extended perpendicular to the spin axis and a search coil antenna deployed 1.58 m from the spacecraft. The electric field spectrum measurements were made in 16 logarithmically spaced frequency channels extending from 1.78 Hz to 178 kHz, and dc electric fields were also measured. The bandwidth of these channels varied from 7.5% to 30% depending on center frequency. Channel sensitivity and dynamic range were 1E-6 V/m and 100 dB, respectively. A wideband receiver was also used, with two selectable bandwidth ranges: 0.15 to 10 kHz or 1 to 45 kHz. The magnetic field spectrum was measured in eight discrete, logarithmically spaced channels from 1.78 Hz to 5.62 kHz. The bandwidth of these channels varied from 7.5% to 30% depending on frequency. The dynamic range was 100 dB, and the sensitivity ranged from 0.1 nT at 1.78 Hz to 3.4E-4 nT at 5.62 kHz. The wideband receiver described above could be used with the magnetic antenna. Each discrete channel was sampled once every 11.52 s. 
+
+Additional details from NASA's CDAWeb:
+
+                         Electric Antenna
+                         
+                         
+The electric antenna on HAWKEYE consisted of two extendible beryllium copper
+elements 0.025 inch in diameter which could be extended to a maximum tip-to-tip
+length of 42.7 m. Except for the outermost 6.1 m of each element, which had a
+conducting surface, the antenna was coated with Pyre-ML to electrically insulate
+the antenna from the surrounding plasma. The insulating coating was required to
+insulate the antenna from the perturbing effects of the plasma sheath
+surrounding the spacecraft body. At high altitudes, the thickness of the plasma
+sheath surrounding  the spacecraft body was quit large, on the order of 9 m.
+Since the conducting portion of the antenna must extend beyond the plasma
+sheath, it was necessary that the antenna be rather long, at least 30 m.
+tip-to-tip. The antenna mechanism used on HAWKEYE was the Dual-Tee extendible
+antenna manufactured by Fairchild Industries. The antenna length was 42.49
+meters after final deployment until the last orbit, when an attempt was made to
+retract the antenna to reduce the spacecraft drag.
+
+
+                   Magnetic Antenna
+                   
+                   
+ The magnetic antenna for this experiment consisted of a search coil with a high
+permeability core mounted on a boom approximately 1.5 m. from the centerline of
+the spacecraft body. The boom was a three element telescoping device developed
+at the University of Iowa. The boom supporting the flux gate magnetometer on the
+opposite side of the spacecraft was the same type. Both booms were extended
+simultaneously by an electric motor.
+
+
+           The search coil core was .305 m. long and was wound with
+approximately 20,000 turns of copper wire. The axis of the search coil was
+parallel to the spin axis of the spacecraft. A preamplifier was located with the
+sensor to provide low-impedance signals to the main electronics package in the
+spacecraft body. The frequency range of the search coil antenna was from 1.0 Hz
+to 10.0 kHz.
+
+                         Electronics
+                         
+ The potential difference between the electric antenna elements was amplified by
+a high input impedance differential amplifier to provide a 0 to 5 volt analog
+voltage, V-Diff, to the spacecraft encoder. As the spacecraft rotated the
+potential difference between the antenna elements  varied sinusoidally at the
+spacecraft rotation rate, with an amplitude proportional to the electric field
+strength and a phase determined by the direction of the electric field. The
+frequency response of the differential amplifier was 0.05 Hz to 10 Hz and
+included the entire range of spin rates expected as the antenna was deployed.
+The V-Diff signal was sampled 6 times each frame by the encoder. The gain of the
+differential amplifier could be controlled by command to provide dynamic ranges
+of +/-0.5 and +/-8.0 volts for the antenna potential difference measurements.
+
+
+           Signals from the electric antenna in the frequency range from 10 kHz
+to 200 kHz were analyzed by the narrow band step frequency receiver. The primary
+purpose of this receiver was to provide very good frequency resolution in the
+neighborhood of the electron plasma frequency and upper hybrid resonance
+frequency. The step frequency receiver consisted of 8 narrow band filters (+/-5%
+band-width) which were sequentially switched into a log compressor. The  log
+compressor provided a 0 to 5 volt analog voltage, SFR, to the spacecraft
+encoder. The switch (S4) position was controlled by clock lines from the
+spacecraft encoder and was stepped through 8 frequencies, 13.3, 17.8, 23.7,
+31.1, 42.2, 56.2, 100, and 178 kHz, at a rate of four frequencies per telemetry
+frame (5.76 seconds). The log compressor provided a 0 to 5 volt analog voltage,
+SFR, to the spacecraft encoder which was proportional to the logarithm of the
+signal strength over a dynamic range of 100 db.
+
+
+           The 8-channel spectrum analyzer  provided relatively coarse frequency
+spectrum measurements of both electric and magnetic fields over a broad
+frequency range of 1.0 Hz to 10.0 kHz. The primary purpose of the 8-channel
+spectrum analyzer was to provide field strength measurements to complement the
+high-resolution frequency-time spectra from the wide-band receiver.
+
+
+           Switches S1 and S2 were controlled by clock lines from the spacecraft
+encoder and commutate the filter outputs to two log compressors which provided
+field strength measurements SA-1 and SA-2 (0 to 5 volts) to the spacecraft
+encoder. These outputs were sampled twice per telemetry frame. Switch S3, which
+was controlled by a clock line, commutates the electric and magnetic field
+signals to the 8-channel spectrum analyzer.
+
+
+          Approximately every 5 minutes the impedance of the electric antenna
+was determined at a frequency of 17 Hz by driving a small AC current into the
+antennas and measuring the resultant voltage on the antennas with the 8-channel
+spectrum analyzer. The 17 Hz oscillator was gated on for 1 frame out of every 64
+frames by a clock line.
+
+
+           Immediately following the impedance measurement the pulser circuit
+produced a 10 volt pulse with a duration of 20 micro- seconds. This pulse was to
+stimulate local plasma resonances, such as plasma oscillation, from which the
+electron density could be determined. A pulse of +10 volts was applied to one
+antenna element and a -10 volt pulse was applied to the opposite antenna
+element. The pulser was switched on by command. The pulser was on when the
+experiment was in VLF45 mode and off when the experiment was in the VLF10 mode.
+The pulser voltage was coupled to the antenna through a 220 pf capacitor which
+would have allowed some meaningful data to be obtained from the experiment even
+if the pulser output were to short to ground. The pulse was applied at the end
+of the impedance measurement frame.
+
+
+ The potential difference between the electric antenna elements was amplified by
+a high input impedance differential amplifier to provide a 0 to 5 volt analog
+voltage, V-Diff, to the spacecraft encoder. As the spacecraft rotated the
+potential difference between the antenna elements  varied sinusoidally at the
+spacecraft rotation rate, with an amplitude proportional to the electric field
+strength and a phase determined by the direction of the electric field. The
+frequency response of the differential amplifier was 0.05 Hz to 10 Hz and
+included the entire range of spin rates expected as the antenna was deployed.
+The V-Diff signal was sampled 6 times each frame by the encoder. The gain of the
+differential amplifier could be controlled by command to provide dynamic ranges
+of +/-0.5 and +/-8.0 volts for the antenna potential difference measurements.
+
+
+           Signals from the electric antenna in the frequency range from 10 kHz
+to 200 kHz were analyzed by the narrow band step frequency receiver. The primary
+purpose of this receiver was to provide very good frequency resolution in the
+neighborhood of the electron plasma frequency and upper hybrid resonance
+frequency. The step frequency receiver consisted of 8 narrow band filters (+/-5%
+band-width) which were sequentially switched into a log compressor. The  log
+compressor provided a 0 to 5 volt analog voltage, SFR, to the spacecraft
+encoder. The switch (S4) position was controlled by clock lines from the
+spacecraft encoder and was stepped through 8 frequencies, 13.3, 17.8, 23.7,
+31.1, 42.2, 56.2, 100, and 178 kHz, at a rate of four frequencies per telemetry
+frame (5.76 seconds). The log compressor provided a 0 to 5 volt analog voltage,
+SFR, to the spacecraft encoder which was proportional to the logarithm of the
+signal strength over a dynamic range of 100 db.
+
+
+           The 8-channel spectrum analyzer  provided relatively coarse frequency
+spectrum measurements of both electric and magnetic fields over a broad
+frequency range of 1.0 Hz to 10.0 kHz. The primary purpose of the 8-channel
+spectrum analyzer was to provide field strength measurements to complement the
+high-resolution frequency-time spectra from the wide-band receiver.
+
+
+           Switches S1 and S2 were controlled by clock lines from the spacecraft
+encoder and commutate the filter outputs to two log compressors which provided
+field strength measurements SA-1 and SA-2 (0 to 5 volts) to the spacecraft
+encoder. These outputs were sampled twice per telemetry frame. Switch S3, which
+was controlled by a clock line, commutates the electric and magnetic field
+signals to the 8-channel spectrum analyzer.
+
+
+          Approximately every 5 minutes the impedance of the electric antenna
+was determined at a frequency of 17 Hz by driving a small AC current into the
+antennas and measuring the resultant voltage on the antennas with the 8-channel
+spectrum analyzer. The 17 Hz oscillator was gated on for 1 frame out of every 64
+frames by a clock line.
+
+
+           Immediately following the impedance measurement the pulser circuit
+produced a 10 volt pulse with a duration of 20 micro- seconds. This pulse was to
+stimulate local plasma resonances, such as plasma oscillation, from which the
+electron density could be determined. A pulse of +10 volts was applied to one
+antenna element and a -10 volt pulse was applied to the opposite antenna
+element. The pulser was switched on by command. The pulser was on when the
+experiment was in VLF45 mode and off when the experiment was in the VLF10 mode.
+The pulser voltage was coupled to the antenna through a 220 pf capacitor which
+would have allowed some meaningful data to be obtained from the experiment even
+if the pulser output were to short to ground. The pulse was applied at the end
+of the impedance measurement frame.
+
+      </Description>
+      <Acknowledgement />
+      <Contact>
+        <PersonID>spase://SMWG/Person/Donald.A.Gurnett</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/G.W.Pfeiffer</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Scott.Boardsen</PersonID>
+        <Role>TechnicalContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1974-040A-03</URL>
+        <Description>Information about the ELF/VLF Receivers experiment on the Hawkeye 1 mission.
+        </Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>LongWire</InstrumentType>
+    <InstrumentType>SearchCoil</InstrumentType>
+    <InvestigationName>ELF/VLF Receivers on Hawkeye 1</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Hawkeye</ObservatoryID>
+  </Instrument>
+</Spase>
