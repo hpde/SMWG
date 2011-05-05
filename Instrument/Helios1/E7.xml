@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xmlns="http://www.spase-group.org/data/schema" 
-xsi:schemaLocation="http://www.spase-group.org/data/schema 
-http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Helios1/E7</ResourceID>
     <ResourceHeader>
       <ResourceName>Galactic and Solar Cosmic Rays</ResourceName>
-      <ReleaseDate>2011-03-23T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2011-05-05T20:49:33Z</ReleaseDate>
       <Description>The detector complement of this experiment (E7) consisted of 
 three separate dE/dx vs E telescopes and a proportional counter for monitoring 
 solar X rays in the range 2-8 keV. The high-energy telescope had a geometric 
 factor of 0.22 sq cm-sr and measured electrons in three ranges between 2 and 8 MeV, 
 and protons and alpha particles in three ranges between 20 and 56 MeV/n. Protons 
 above 230 MeV were also measured. The first low-energy telescope (geometric factor 
-was 0.155 sq cm-sr) measured protons and Z>1 particles in three ranges between 
+was 0.155 sq cm-sr) measured protons and Z&gt;1 particles in three ranges between 
 3 and 21 MeV/n. The second low-energy telescope (geometric factor was 0.015 sq cm-sr) 
 measured protons in several ranges between 0.12 and 2.1 MeV, alpha particles in the 
 ranges 0.6-2.1 and 6-21.2 MeV/n, and electrons in four ranges between 0.12 and 2 MeV. 
