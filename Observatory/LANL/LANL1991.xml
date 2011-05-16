@@ -2,15 +2,17 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/Observatory/LANL1994</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/LANL/LANL1991</ResourceID>
     <ResourceHeader>
-      <ResourceName>LANL1994</ResourceName>
-      <ReleaseDate>2011-01-05T18:45:39Z</ReleaseDate>
+      <ResourceName>LANL1991</ResourceName>
+      <AlternateName>1991-080</AlternateName>
+      <ReleaseDate>2011-05-16T17:47:34Z</ReleaseDate>
       <Description>Geosynchronous spacecraft carrying energetic electron and ion instruments</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
+      <PriorID>spase://SMWG/Observatory/LANL1991</PriorID>
     </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/LANL</ObservatoryGroupID>
     <Location>
