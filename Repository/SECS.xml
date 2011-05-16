@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/SECS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SECS</ResourceName>
+      <ReleaseDate>2011-05-09T00:00:00Z</ReleaseDate>
+      <Description>The SECS repository contains a collection of spherical elementary currents systems obtained from a virtual observatory representing the collection of magnetometer arrays used in the creation of the SECS datasets. The SECS observatory consists of ground magnetometers from the CANMOS, CARISMA, DMI (in Greenland), GIMA, MACCS, THEMIS, STEP ground magnetometer arrays. Ground magnetometers contributing to each data file may vary from day to day depending upon data availabiliy.</Description>
+      <Contact>
+			  <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID> 
+			  <Role>Scientist</Role> 
+		  </Contact>
+		  <InformationURL>
+			  <Name>Overview of the Ground Magnetometers and the Magnetometer Arrays used to Calculate the Spherical Elementary Current Systems</Name> 
+			  <URL>http://www.igpp.ucla.edu/jweygand/htmls/EICS_NA_Greenland.html</URL> 
+			  <Description>Description of the magnetometer arrays, the people involved, the currents that can be obtained, and references.</Description> 
+		  </InformationURL>
+		  <InformationURL>
+        <Name>Journal of Earth, Planets, and Space article on the SECS technique</Name>
+        <URL>http://www.terrapub.co.jp/journals/EPS/pdf/5106/51060431.pdf</URL>
+        <Description>Research Article on the SECS technique.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Journal of Geophysical Research article on the SECS technique as Applied to North America</Name>
+        <URL>http://www.agu.org/journals/ja/ja1103/2010JA016177/2010JA016177.pdf</URL>
+        <Description>Research Article on the SECS technique applied to North America and Greenland.</Description>
+      </InformationURL>  
+      <Association>
+			  <AssociationID>spase://SMWG/Observatory/THEMIS/Ground/CANMAG</AssociationID> 
+			  <AssociationType>PartOf</AssociationType> 
+		  </Association>
+		  <Association>
+			  <AssociationID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-EPO</AssociationID> 
+			  <AssociationType>PartOf</AssociationType> 
+		  </Association>
+		  <Association>
+			  <AssociationID>spase://SMWG/Observatory/CANMOS</AssociationID> 
+			  <AssociationType>PartOf</AssociationType> 
+		  </Association>
+		  <Association>
+			  <AssociationID>spase://SMWG/Observatory/CANOPUS</AssociationID> 
+			  <AssociationType>PartOf</AssociationType> 
+		  </Association>
+		  <Association>
+			  <AssociationID>spase://SMWG/Observatory/DMI</AssociationID> 
+			  <AssociationType>PartOf</AssociationType> 
+		  </Association>
+		   <Association>
+			  <AssociationID>spase://SMWG/Observatory/GIMA</AssociationID> 
+			  <AssociationType>PartOf</AssociationType> 
+		  </Association>
+		   <Association>
+			  <AssociationID>spase://SMWG/Observatory/STEP</AssociationID> 
+			  <AssociationType>PartOf</AssociationType> 
+		  </Association>
+		  <Association>
+			  <AssociationID>spase://SMWG/Observatory/MACCS</AssociationID> 
+			  <AssociationType>PartOf</AssociationType> 
+		  </Association>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>Virtual Magnetospheric Observatory</Name>
+      <URL>http://vmo.igpp.ucla.edu/data1/SECS</URL>
+      <Description>Equivalent ionsheric current data produced over North America and Greenland</Description>
+    </AccessURL>
+  </Repository>
+</Spase>
