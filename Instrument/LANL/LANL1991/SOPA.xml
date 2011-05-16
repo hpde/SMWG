@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/LANL1994/SOPA</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/LANL/LANL1991/SOPA</ResourceID>
     <ResourceHeader>
-      <ResourceName>LANL1994 Synchronous Orbit Particle Analyzer</ResourceName>
-      <ReleaseDate>2011-02-04T19:17:04Z</ReleaseDate>
+      <ResourceName>LANL1991 Synchronous Orbit Particle Analyzer</ResourceName>
+      <ReleaseDate>2011-05-05T21:14:50Z</ReleaseDate>
       <Description>The Synchronous Orbit Particle Analyzer (SOPA) consists 
 of three nearly identical silicon solid state detector telescopes, pointed 
 at 30, 90, and 120 degrees to the satellite's earth-centered spin axis. 
@@ -50,9 +50,10 @@ J. Geophys. Res., 97, A11, pp. 16897-16906, 1992.</Description>
         <Name>SOPA-descriptive page at LANL</Name>
         <URL>http://leadbelly.lanl.gov/psm/dickb.html</URL>
       </InformationURL>
+      <PriorID>spase://SMWG/Instrument/LANL1991/SOPA</PriorID>
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
-    <InvestigationName>LANL1994 Synchronous Orbit Particle Analyzer</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/LANL1994</ObservatoryID>
+    <InvestigationName>LANL1991 Synchronous Orbit Particle Analyzer</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/LANL/LANL1991</ObservatoryID>
   </Instrument>
 </Spase>

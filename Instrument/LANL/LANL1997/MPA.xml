@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/LANL1990/MPA</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/LANL/LANL1997/MPA</ResourceID>
     <ResourceHeader>
-      <ResourceName>LANL1990 Magnetospheric Plasma Analyzer</ResourceName>
-      <ReleaseDate>2011-02-04T19:17:04Z</ReleaseDate>
+      <ResourceName>LANL1997 Magnetospheric Plasma Analyzer</ResourceName>
+      <ReleaseDate>2011-05-05T21:14:50Z</ReleaseDate>
       <Description>The Magnetospheric Plasma Analyzer (MPA) consists 
 of a single electrostatic analyzer (ESA) coupled to an array of channel 
 electron multipliers, and it measures three-dimensional energy/charge 
@@ -40,9 +40,10 @@ Rev. Sci. Instrum., 64, (4), pp. 1026-1033, 1993.</Description>
         <Name>MPA Home Page at LANL</Name>
         <URL>http://nis-www.lanl.gov/nis-projects/mpa/index.shtml</URL>
       </InformationURL>
+      <PriorID>spase://SMWG/Instrument/LANL1997/MPA</PriorID>
     </ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
-    <InvestigationName>LANL1990 Magnetospheric Plasma Analyzer</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/LANL1990</ObservatoryID>
+    <InvestigationName>LANL1997 Magnetospheric Plasma Analyzer</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/LANL/LANL1997</ObservatoryID>
   </Instrument>
 </Spase>
