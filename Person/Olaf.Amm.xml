@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Olaf.Amm</ResourceID>
+    <ReleaseDate>2011-05-16T21:41:36Z</ReleaseDate>
+    <PersonName>Dr. Olaf Amm</PersonName>
+    <OrganizationName>Finnish Meteorological Institute Arctic Research Unit</OrganizationName>
+    <Address>P.O. Box 503 FIN-00101 Helsinki, Finland</Address>
+    <Email>Olaf.Amm@fmi.fi</Email>
+    <PhoneNumber>+358-9-1929-4689</PhoneNumber>
+    <FaxNumber>+358-9-1929-4603</FaxNumber>
+  </Person>
+</Spase>
