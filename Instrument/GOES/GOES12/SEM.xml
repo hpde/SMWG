@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/GOES/GOES12/SEM</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Space Environment Monitor (SEM)</ResourceName>
+      <AlternateName>SEM</AlternateName>
+      <ReleaseDate>2011-06-01T00:00:00Z</ReleaseDate>
+      <Description>An instrument package named SEM (Space Environment Monitor) monitors the energetic electrons and protons in the magnetosphere and the x-rays from the Sun. The above three have been carried on the earlier GOES missions, but GOES 12 carries also an X-ray imager providing an X-ray (about 0.1-1.0 nm wavelength) picture of the solar disk.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2001-031A&amp;ex=3</URL>
+        <Description>Information about the Space Environment Monitor (SEM) experiment on the GOES 12 mission.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Instrument/GOES12/SEM</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Unspecified</InstrumentType>
+    <InvestigationName>Space Environment Monitor (SEM) on GOES 12</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/GOES/GOES12</ObservatoryID>
+  </Instrument>
+</Spase>

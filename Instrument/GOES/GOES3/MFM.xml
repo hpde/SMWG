@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
+   <Version>2.2.0</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/GOES/GOES3/MFM</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Biaxial Fluxgate Magnetometer</ResourceName>
+         <AlternateName>Magnetic Field Monitor (MFM)</AlternateName>
+         <ReleaseDate>2011-06-01T00:00:00Z</ReleaseDate>
+         <Description>The magnetometer was a biaxial, closed-loop, fluxgate magnetometer with the two sensors aligned at right angles to one another. After mounting on a short boom (about .61 m), one sensor was aligned parallel to the spacecraft spin axis and the other perpendicular to this axis. Each sensor had a selectable range (50, 100, 200, or 400 nT), an offset field capability (plus or minus 1200 nT in 40-nT steps), and an inflight calibration capability. </Description>
+         <Acknowledgement>NASA; Dr. Harold Leinbach; Dr. Ernest Hildner; Dr. Joann Joselyn; Dr. Howard J. Singer</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Harold.Leinbach</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Ernest.Hildner</PersonID>
+            <Role>TeamMember</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Joann.Joselyn</PersonID>
+            <Role>TeamMember</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Howard.J.Singer</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>NSSDC Master Catalog</Name>
+            <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1978-062A-04</URL>
+            <Description>Information about the Magnetic Field Monitor on the GOES 3 mission.</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>GOES Data Provider Read Me File</Name>
+            <URL>http://goes.ngdc.noaa.gov/data/avg/readme.txt</URL>
+            <Description>Caveats and more information about data from this instrument.</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Magnetometer</InstrumentType>
+      <InvestigationName>Magnetic Field Monitor on GOES 3</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/GOES/GOES3</ObservatoryID>
+   </Instrument>
+</Spase>
