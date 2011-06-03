@@ -1,13 +1,13 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/Observatory/GOES/GOES6</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/GOES/6</ResourceID>
     <ResourceHeader>
       <ResourceName>GOES 6</ResourceName>
       <AlternateName>1983-041A</AlternateName>
       <AlternateName>GOES-F</AlternateName>
-      <ReleaseDate>2011-06-01T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2011-06-03T20:34:50Z</ReleaseDate>
       <Description>GOES 6 was the eighth in a series of NASA-developed, NOAA-operated, geosynchronous, and operational spacecraft. The spin-stabilized spacecraft carried (1) a visible infrared spin-scan radiometer (VISSR) atmospheric sounder (VAS) to provide high-quality day/night cloudcover data, to take radiance-derived temperatures of the earth/atmosphere system, and to determine atmospheric temperature and water vapor content at various levels, (2) a meteorological data collection system to relay processed data from central weather facilities to regional stations equipped with APT and to collect and retransmit data from remotely located earth-based platforms, and (3) a space environment monitor (SEM) system to measure proton, electron, and solar X-ray fluxes and magnetic fields. The cylindrically shaped spacecraft measured 190.5 cm in diameter and 230 cm in length, exclusive of a magnetometer that extended an additional 83 cm beyond the cylindrical shell. The primary structural members were a honeycombed equipment shelf and a thrust tube. The VISSR telescope, which was mounted on the equipment shelf, viewed the earth through a special aperture in the side of the spacecraft. A support structure extended radially from the thrust tube and was affixed to the solar panels, which formed the outer wall of the spacecraft to provide the primary source of electrical power. Located in the annulus-shaped space between the thrust tube and the solar panels were stationkeeping and dynamics control equipment, batteries, and most of the SEM equipment. Proper spacecraft attitude and spin rate (approximately 100 rpm) were maintained by two separate sets of jet thrusters mounted around the spacecraft equator and activated by ground command. The spacecraft used both UHF-band and S-band frequencies in its telemetry and command subsystem. A low-power VHF transponder provided telemetry and command during launch and then served as a backup for the primary subsystem once the spacecraft attained synchronous orbit. GOES 6 was moved from its 135 deg W position to a more central 98 deg W position when GOES 5 failed on July 29, 1984. It was turned off on November 12, 1994.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/William.E.Shenk</PersonID>
