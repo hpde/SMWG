@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/GOES/5/SEM</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Space Environment Monitor (SEM)</ResourceName>
+      <ReleaseDate>2011-06-03T20:40:26Z</ReleaseDate>
+      <Description>The Space Environment Monitor Subsystem (SEM) measures in situ the effect of the sun on the near-earth solar-terrestrial electromagnetic environment on a real-time basis. This information is provided to the Space Environment Services Center where it is used for "near-space weather" reports. These reports, which include solar activity, are important to the operators of communication, navigation, electric power transmission systems, and satellites.
+The SEM consists of four instruments. The Energetic Particle Sensor (EP8,formerly called EPS) makes flux measurements of protons in the 0.8 to 500 MeV range. The High Energy Proton and Alpha Detector (HEPAD) monitors protons in four energy ranges above 350 MeV and alpha particles in two energy ranges above 640 MeV/nucleon. The solar X-Ray Sensor permits real-time determination of the solar x-ray emission in two spectral bands: 0.5-5 angstroms and 1-8 angstroms. The Magnetic Field Sensor (MFS) allows for the real-time determination of the magnitude and orientation of the magnetic field. Data will be telemetered twice a second for magnetic fields having a magnitude of +/- 1000 nanotesla (nT).</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Ronald.D.Zwickl</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Terry.Onsager</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <PriorID>spase://SMWG/Instrument/GOES5/SEM</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InstrumentType>IonChamber</InstrumentType>
+    <InvestigationName>Space Environment Monitor (SEM) on GOES 5</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/GOES/5</ObservatoryID>
+    <Caveats>From http://goes.ngdc.noaa.gov/data/avg/readme.txt: Electron Data Quality
+
+The Electron detector responds significantly to protons above 32 MeV; therefore, 
+electron data are contaminated when a proton event is in progress. Beginning 
+with GOES-8 the electron data have had a preliminary correction applied, 
+however, even these data are not to be considered research quality at this time.
+
+The GOES-5 electron channel is noisy from 1986 onwards and readings are a 
+possible factor of 2 high. One component of the GOES-6 particle detector system 
+has had radiation damage since 1986 that reduced its counting efficiency 
+progressively. At present the E1 and P4 channels derived from this component 
+record at only a few percent of their proper rates. In 1991 the telescope 
+component of the GOES-7 energetic particle detector system experienced episodes 
+of malfunction (noise). The first period began at 0330 UT, October 18, 1991 and 
+extended to November 5, 1991. The detector was commanded off for 12 hours. At 
+turn-on the detector appeared to have recovered, but failed again on November 
+11, with a rerecovery on November 12 after a second turn-off of three hours. The 
+detector has since operated normally. The noise periods may be identified by 
+unusually high rates being shown by the P1 channel and the derived &gt; 1 MeV 
+integral channel. Currently, the GOES-7 Energetic Particle Sensor is left turned 
+off for 4 hours after eclipse to minimize bad data.
+</Caveats>
+  </Instrument>
+</Spase>
