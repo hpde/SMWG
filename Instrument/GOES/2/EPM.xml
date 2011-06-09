@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+<Version>2.2.0</Version>
+<Instrument>
+   <ResourceID>spase://VMO/Instrument/GOES/2/EPM</ResourceID>
+   <ResourceHeader>
+      <ResourceName>Energetic Particle Monitor</ResourceName>
+      <AlternateName>1977-048A-02</AlternateName>
+      <ReleaseDate>2011-02-07T00:00:00Z</ReleaseDate>
+      <Description>The GOES 2  Energetic Particle Monitor (EPM) consists of number of separate silicon solid-state detectors, each having a tailored moderator thickness and a separate electronics unit for pulse amplification and pulse-height discrimination, were used to obtain particle-type/energy measurements. Seven channels measured protons in the range 1 to 500 MeV. Six channels measured alpha particles in the range 4 to 400 MeV. One channel measured electrons greater than 2.8 MeV.  </Description>
+      <Acknowledgement>NOAA Environmental Research Laboratories; Dr. Herbert H. Sauer; Dr. Harold Leinbach; Dr. Terry Onsager</Acknowledgement>
+      <Contact>
+         <PersonID>spase://SMWG/Person/Harold.Leinbach</PersonID>
+         <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+         <PersonID>spase://SMWG/Person/Herbert.H.Sauer</PersonID>
+         <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+            <PersonID>spase://SMWG/Person/Terry.Onsager</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+      <Contact>
+         <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+         <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+         <Name>NSSDC's Master Catalog on the GOES 2 Energetic Particle  Monitor</Name>
+         <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1975-100A-02</URL>
+         <Description>Introduction to the Energetic Particle Monitor on GOES 2</Description>
+      </InformationURL>
+      <Association>
+      	<AssociationID>spase://SMWG/Observatory/GOES/2</AssociationID>
+      	<AssociationType>PartOf</AssociationType>
+      	<Note>Number of available GOES spacecraft varies from year to year.</Note>
+      </Association>
+   </ResourceHeader>
+   <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+   <InvestigationName>Energetic Particle Monitor on GOES 2</InvestigationName>
+   <ObservatoryID>spase://SMWG/Observatory/GOES/2</ObservatoryID>
+   <Caveats></Caveats>
+</Instrument>
+</Spase>
