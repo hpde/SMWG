@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-    <Version>2.2.0</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/Alouette1</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Alouette 1</ResourceName>
-            <AlternateName>1962-049A</AlternateName>
-            <AlternateName>Alouette-A</AlternateName>
-            <ReleaseDate>2011-06-20T00:00:00Z</ReleaseDate>
-            <Description>Alouette 1 was a small ionospheric observatory instrumented with an ionospheric sounder, a VLF receiver, 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Alouette1</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Alouette 1</ResourceName>
+      <AlternateName>1962-049A</AlternateName>
+      <AlternateName>Alouette-A</AlternateName>
+      <ReleaseDate>2011-07-19T21:54:57Z</ReleaseDate>
+      <Description>Alouette 1 was a small ionospheric observatory instrumented with an ionospheric sounder, a VLF receiver, 
                 an energetic particle detector, and a cosmic noise experiment. Extended from the satellite shell were two dipole 
                 antennas (45.7 m and 22.8 m long, respectively) which were shared by three of the experiments on the spacecraft. 
                 The satellite was spin-stabilized at about 1.4 rpm after antenna extension. After about 500 days, the spin slowed more 
@@ -22,20 +21,18 @@
                 for about six hours per day. In September 1972, spacecraft operations were terminated. A data restoration effort began in the 
                 late nineties and successfully saved a considerable portion of the high-resolution data before the telemetry tapes were 
                 discarded.</Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/John.E.Jackson</PersonID>
-                <Role>ProjectScientist</Role>
-            </Contact> 
-            <InformationURL>
-                <Name>NSSDC's Master Catalog</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1962-049A</URL>
-                <Description>Information about the Alouette 1 mission</Description>
-            </InformationURL>
-        </ResourceHeader>
-        <Location>
-            <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
-        </Location>
-    </Observatory>
+      <Contact>
+        <PersonID>spase://SMWG/Person/John.E.Jackson</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1962-049A</URL>
+        <Description>Information about the Alouette 1 mission</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+    </Location>
+  </Observatory>
 </Spase>
-
-
