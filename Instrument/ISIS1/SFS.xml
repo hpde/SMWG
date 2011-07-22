@@ -7,7 +7,7 @@
         <ResourceHeader>
             <ResourceName>ISIS1 Swept-Frequency Sounder</ResourceName>
             <AlternateName>Topside Sounder</AlternateName>
-            <ReleaseDate>2011-06-27T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2011-07-22T17:50:57Z</ReleaseDate>
             <Description>The ISIS 1 (International Satellites for Ionospheric Studies) Swept-Frequency Sounder measured the 
                 ionospheric electron density in the altitude range 300 to 3500 km, and provided correlative data for the other 
                 ISIS 1 experiments, particularly those measuring ionospheric parameters. The ionosonde was a radio transmitter 
@@ -29,7 +29,7 @@
         </ResourceHeader>
         <InstrumentType>Sounder</InstrumentType>
         <InvestigationName>Swept-Frequency Sounder on ISIS 1</InvestigationName>
-        <ObservatoryID>spase://SMWG/Observatory/Alouette1</ObservatoryID>
+        <ObservatoryID>spase://SMWG/Observatory/ISIS1</ObservatoryID>
     </Instrument>
 </Spase>
 
