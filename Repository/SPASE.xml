@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema SPASE ">
+   <Version>2.2.1</Version>
+   <Repository>
+      <ResourceID>spase://SMWG/Repository/SPASE</ResourceID>
+      <ResourceHeader>
+         <ResourceName>SPASE</ResourceName>
+         <AlternateName>Space Physics Archive Search and Extract Group</AlternateName>
+         <ReleaseDate>2011-07-26T12:00:00</ReleaseDate>
+         <Description>The Space Physics Archive Search and Extract (SPASE) Group web site. The definitive source of SPASE documentation, conventions, schemas, tools and services. Also host of the SMWG registry for common Instrument, Observatory, Person, Service, Document and Repository resource descriptons.</Description>
+         <Acknowledgement>Please acknowledge the SPASE Group and reference the SPASE web site when documents are used by projects or referenced in publications.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.R.Theiman</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>The SPASE Group Web Site</Name>
+            <URL>http://www.spase-group.org</URL>
+            <Description>The main web page for the SPASE Group.</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <AccessURL>
+         <URL>http://www.spase-group.org</URL>
+      </AccessURL>
+   </Repository>
+</Spase>
