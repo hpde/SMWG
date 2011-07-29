@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.2.1</Version>
+  <Document>
+  	<ResourceID>spase://SMWG/Document/SPASE/DataModel/XMLSchemaSpecification</ResourceID>
+  	<ResourceHeader>
+  		<ResourceName>SPASE Data Model XML Schema Specification</ResourceName>
+  		<ReleaseDate>2011-07-15T12:00:00</ReleaseDate>
+  		<Description>Ths document details the SPASE metadata model expressed as an XML Schema. 
+  			It includes a formatted description of each element in the schema and standard model diagrams. </Description>
+  		<Contact>
+  			<PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+  			<Role>Publisher</Role>
+  		</Contact>
+  	</ResourceHeader>
+  	<AccessInformation>
+  		<RepositoryID>spase://SMWG/Repository/SPASE</RepositoryID>
+  		<AccessURL>
+  			<URL>http://spase-group.org/docs/model/spase-2_2_1.pdf</URL>
+  		</AccessURL>
+  		<Format>PDF</Format>
+  	</AccessInformation>
+  	<DocumentType>Paper</DocumentType>
+  </Document>
+</Spase>

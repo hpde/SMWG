@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.2.1</Version>
+  <Document>
+  	<ResourceID>spase://SMWG/Document/SPASE/Convention/TextNormalizationAndMarkUp</ResourceID>
+  	<ResourceHeader>
+  		<ResourceName>SPASE Text Normalization and Mark-up</ResourceName>
+  		<ReleaseDate>2011-03-11T12:00:00</ReleaseDate>
+  		<Description>SPASE resource metadata can contain textual content that describe the resource. While descriptive text
+  			may be brief some formatting of the text may be necessary to convey the necessary information. A
+  			principal of the SPASE data model is that an element may contain a value or other elements. Mixed
+  			content (values plus elements) is not allowed. To be consistent with this principal SPASE should adopt a
+  			set of text normalization rules which will allow some structuring of textual content. This document
+  			describes a recommended set of text normalization rules and demonstrates how those rules can be
+  			used in practice.</Description>
+  		<Contact>
+  			<PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+  			<Role>Publisher</Role>
+  		</Contact>
+  	</ResourceHeader>
+  	<AccessInformation>
+  		<RepositoryID>spase://SMWG/Repository/SPASE</RepositoryID>
+  		<AccessURL>
+  			<URL>http://spase-group.org/docs/conventions/Text-Normalization-and-Mark-up-v1.pdf</URL>
+  		</AccessURL>
+  		<Format>PDF</Format>
+  	</AccessInformation>
+  	<DocumentType>Paper</DocumentType>
+  </Document>
+</Spase>

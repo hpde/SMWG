@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.2.1</Version>
+  <Document>
+  	<ResourceID>spase://SMWG/Document/SPASE/Convention/DataModelVersionNumbers </ResourceID>
+  	<ResourceHeader>
+  		<ResourceName>SPASE Data Model Version Numbers</ResourceName>
+  		<ReleaseDate>2011-03-09T12:00:00</ReleaseDate>
+  		<Description>Each version of a SPASE data model specification will be assigned a version number which will clearly distinguish each instance.</Description>
+  		<Contact>
+  			<PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+  			<Role>Publisher</Role>
+  		</Contact>
+  	</ResourceHeader>
+  	<AccessInformation>
+  		<RepositoryID>spase://SMWG/Repository/SPASE</RepositoryID>
+  		<AccessURL>
+  			<URL>http://spase-group.org/docs/conventions/SPASE-Data-Model-Version-Numbers-v2.pdf</URL>
+  		</AccessURL>
+  		<Format>PDF</Format>
+  	</AccessInformation>
+  	<DocumentType>Paper</DocumentType>
+  </Document>
+</Spase>
