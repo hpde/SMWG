@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.0</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/DynamicsExplorer1/SAI</ResourceID>
+        <ResourceHeader>
+            <ResourceName>DE 1 Spin-Scan Auroral Imager</ResourceName>
+            <ReleaseDate>2011-07-29T00:00:00Z</ReleaseDate>
+            <Description>The Spin-Scan Auroral Imager (SAI) provided global auroral imaging at visible and ultraviolet wavelengths. It acquired (1) images at several visible wavelengths; (2) images within a vacuum ultraviolet "window", which allowed usable imaging of the aurora in the sunlit ionosphere; and (3) photometric measurements of the hydrogen corona. This investigation provided data that advanced the knowledge of (1) the spatial and temporal character of the entire auroral oval at both visible and vacuum ultraviolet wavelengths (with good time resolution); (2) the association of auroral and magnetospheric plasmas with the diverse auroral emission features; (3) the relationship of the auroral emissions with field-aligned currents; (4) the energy deposited in the auroral ionosphere by charged particles; (5) the acceleration mechanism responsible for "inverted-V" precipitation events; (6) the role of the polar cap and magnetotail in auroral and magnetospheric dynamics; and (7) the time-dependent distribution of neutral hydrogen in the ring current and polar regions. Of the three photometers, two measured radiation in the visible wavelength range and one measured it in the UV. A full image was 36 deg by 120 deg. Some of the wavelengths were 3914, 5577, 6300, 3175, 1304, 1216, 1400-1600, and 1400-1700 A. The spatial resolution of a pixel (picture element) at auroral altitudes in the nadir direction was 28 km at a spacecraft altitude of 1 earth radius (Re). At 3.9 Re altitude this resolution was 109 km. For each photometer, the time resolution was 3 to 12 minutes per image. For visible wavelengths, the photometers had a wide-angle collimator; a super-reflecting scanning mirror; a mirror-drive motor; a quartz field lens; an image-viewing assembly of field-stop, pinhole and collimating lens; a filter wheel with narrow-band interference filters; and a small photomultiplier tube with an extended red photocathode. The vacuum ultraviolet imaging photometer was a spin-scan Newtonian telescope. The first optical element was an aluminum scanning mirror with a MgF2 overcoat. The collimation and mirror drive were similar to that used for the visible imaging photometer. A filter wheel with MgF2, CaF2, and BaF2 filters allowed global imaging from 1370 to 1700, and at 1304, 1356, and 1216 A. The detector was a photomultiplier tube with a CsI photocathode and a MgF2 window. Additional details are found in L. A. Frank et al., Space Sci. Instrum., v. 5, n. 4, p. 369, 1981.</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Louis.A.Frank</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact> 
+            <InformationURL>
+                <Name>NSSDC's Master Catalog</Name>
+                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1981-070A-03</URL>
+                <Description>Information about the Spin-Scan Auroral Imager on DE 1</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>Imager</InstrumentType>
+        <InvestigationName>Spin-Scan Auroral Imager on DE 1</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/DynamicsExplorer1</ObservatoryID>
+    </Instrument>
+</Spase>
+
+
