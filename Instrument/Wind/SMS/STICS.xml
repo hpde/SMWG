@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
   <Version>2.1.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/WIND/SMS/STICS</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Wind/SMS/STICS</ResourceID>
     <ResourceHeader>
       <ResourceName>The SupraThermal Ion Composition Spectrometer (STICS)</ResourceName>
       <ReleaseDate>2010-04-20T19:50:26Z</ReleaseDate>
@@ -20,6 +20,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>The SupraThermal Ion Composition Spectrometer (STICS)</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/WIND</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Wind</ObservatoryID>
   </Instrument>
 </Spase>

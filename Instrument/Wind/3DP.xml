@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
    <Version>2.0.1</Version>
    <Instrument>
-      <ResourceID>spase://SMWG/Instrument/WIND/3DP</ResourceID>
+      <ResourceID>spase://SMWG/Instrument/Wind/3DP</ResourceID>
       <ResourceHeader>
          <ResourceName>Wind Hot Plasma and Charged Particles (3DP)</ResourceName>
          <AlternateName>Wind/3DP</AlternateName>
@@ -28,6 +28,6 @@
       </ResourceHeader>
       <InstrumentType>QuadrisphericalAnalyser</InstrumentType>
       <InvestigationName>Hot Plasma and Charged Particles (3DP) on Wind</InvestigationName>
-      <ObservatoryID>spase://SMWG/Observatory/WIND</ObservatoryID>
+      <ObservatoryID>spase://SMWG/Observatory/Wind</ObservatoryID>
    </Instrument>
 </Spase>

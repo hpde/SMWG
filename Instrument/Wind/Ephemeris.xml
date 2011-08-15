@@ -2,12 +2,12 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
   <Version>2.0.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/WIND/Ephemeris</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Wind/Ephemeris</ResourceID>
     <ResourceHeader>
-      <ResourceName>WIND Position</ResourceName>
-      <AlternateName>WIND Ephemeris</AlternateName>
+      <ResourceName>Wind Position</ResourceName>
+      <AlternateName>Wind Ephemeris</AlternateName>
       <ReleaseDate>2009-05-20T21:10:14Z</ReleaseDate>
-      <Description>WIND spacecraft position in various coordinate systems</Description>
+      <Description>Wind spacecraft position in various coordinate systems</Description>
       <Contact>
         <!-- Robert Candey -->
         <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
@@ -16,6 +16,6 @@
     </ResourceHeader>
     <InstrumentType>Platform</InstrumentType>
     <InvestigationName>Spacecraft position</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/WIND</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Wind</ObservatoryID>
   </Instrument>
 </Spase>

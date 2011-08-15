@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
   <Version>2.1.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/WIND/SMS/SWICS</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Wind/SMS/SWICS</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar Wind and Suprathermal Ion Composition Studies (SWICS)</ResourceName>
       <ReleaseDate>2010-04-20T19:50:26Z</ReleaseDate>
@@ -17,10 +17,10 @@
         <URL>http://wind.nasa.gov/inst_info.php#SMS_Docs</URL>
         <Description>Information related to the SMS instrument suite at the Wind spacecraft website.</Description>
       </InformationURL>
-      <PriorID>spase://SMWG/Instrument/WIND/SWICS</PriorID>
+      <PriorID>spase://SMWG/Instrument/Wind/SWICS</PriorID>
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Solar Wind and Suprathermal Ion Composition Studies (SWICS)</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/WIND</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Wind</ObservatoryID>
   </Instrument>
 </Spase>

@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
    <Version>2.0.1</Version>
    <Instrument>
-      <ResourceID>spase://SMWG/Instrument/WIND/MFI</ResourceID>
+      <ResourceID>spase://SMWG/Instrument/Wind/MFI</ResourceID>
       <ResourceHeader>
          <ResourceName>Wind Magnetic Field Investigation</ResourceName>
          <AlternateName>Wind MFI</AlternateName>
@@ -40,6 +40,6 @@
       </ResourceHeader>
       <InstrumentType>Magnetometer</InstrumentType>
       <InvestigationName>Magnetic Field Investigation</InvestigationName>
-      <ObservatoryID>spase://SMWG/Observatory/WIND</ObservatoryID>
+      <ObservatoryID>spase://SMWG/Observatory/Wind</ObservatoryID>
    </Instrument>
 </Spase>
