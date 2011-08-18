@@ -1,24 +1,25 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
   <Version>1.2.0</Version>
   <Repository>
-    <ResourceID>spase://SMWG/Repository/NASA/GSFC/WIND</ResourceID>
+    <ResourceID>spase://SMWG/Repository/NASA/GSFC/Wind</ResourceID>
     <ResourceHeader>
-      <ResourceName>WIND Spacecraft Home Page and Data Repository</ResourceName>
-      <ReleaseDate>2008-09-30T19:06:49Z</ReleaseDate>
-      <Description>Data Repository for WIND data files as well as instrument descriptions and related links for the WIND mission.</Description>
+      <ResourceName>Wind Spacecraft Home Page and Data Repository</ResourceName>
+      <ReleaseDate>2011-08-18T15:54:53Z</ReleaseDate>
+      <Description>Data Repository for Wind data files as well as instrument descriptions and related links for the Wind mission.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
         <Role>DataProducer</Role>
         <Role>Scientist</Role>
       </Contact>
       <InformationURL>
-        <Name>WIND Spacecraft Home Page</Name>
+        <Name>Wind Spacecraft Home Page</Name>
         <URL>http://wind.nasa.gov/</URL>
-        <Description>WIND home page with description of instruments and access to data files.</Description>
+        <Description>Wind home page with description of instruments and access to data files.</Description>
       </InformationURL>
       <PriorID>spase://VHO/Repository/WIND/MFI</PriorID>
       <PriorID>spase://SMWG/Repository/NASA/GSFC/WIND_MFI</PriorID>
+      <PriorID>spase://SMWG/Repository/NASA/GSFC/WIND</PriorID>
     </ResourceHeader>
   </Repository>
 </Spase>

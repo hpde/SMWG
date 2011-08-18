@@ -2,21 +2,22 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_3_0.xsd">
   <Version>1.3.0</Version>
   <Repository>
-    <ResourceID>spase://SMWG/Repository/UCB/WIND/3DP</ResourceID>
+    <ResourceID>spase://SMWG/Repository/UCB/Wind/3DP</ResourceID>
     <ResourceHeader>
-      <ResourceName>WIND 3DP Data Repository at Berkeley</ResourceName>
-      <ReleaseDate>2008-08-26T21:32:28Z</ReleaseDate>
-      <Description>WIND 3DP Data Repository at Berkeley</Description>
+      <ResourceName>Wind 3DP Data Repository at Berkeley</ResourceName>
+      <ReleaseDate>2011-08-18T15:53:10Z</ReleaseDate>
+      <Description>Wind 3DP Data Repository at Berkeley</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Peter.Schroeder</PersonID>
         <Role>DataProducer</Role>
       </Contact>
       <InformationURL>
-        <Name>WIND 3DP instrument home page</Name>
+        <Name>Wind 3DP instrument home page</Name>
         <URL>http://sprg.ssl.berkeley.edu/wind3dp/</URL>
-        <Description>The WIND 3DP instrument home page contains information on the WIND 3DP instruments and their associated data sets.</Description>
+        <Description>The Wind 3DP instrument home page contains information on the Wind 3DP instruments and their associated data sets.</Description>
       </InformationURL>
       <PriorID>spase://VHO/Repository/WIND/3DP</PriorID>
+      <PriorID>spase://SMWG/Repository/UCB/WIND/3DP</PriorID>
     </ResourceHeader>
   </Repository>
 </Spase>
