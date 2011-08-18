@@ -7,7 +7,7 @@
       <ResourceID>spase://SMWG/Observatory/OMNI</ResourceID>
       <ResourceHeader>
          <ResourceName>OMNI</ResourceName>
-         <ReleaseDate>2011-02-02T16:59:21Z</ReleaseDate>
+         <ReleaseDate>2011-08-18T15:57:51Z</ReleaseDate>
          <Description>The OMNI observatory is a virtual observatory representing the collection of spacecraft used in the creation of the OMNI datasets.  
             The observatories used within the OMNI datasets are ACE, Wind, IMP8, Geotail, GOES and various other spacecraft. For any given time period 
             OMNI uses a selection criteria to select the "best" available data to be used.  Thus, a data record may consist of data from multiple
@@ -33,7 +33,7 @@
             <AssociationType>PartOf</AssociationType>
          </Association>
          <Association>
-            <AssociationID>spase://SMWG/Observatory/WIND</AssociationID>
+            <AssociationID>spase://SMWG/Observatory/Wind</AssociationID>
             <AssociationType>PartOf</AssociationType>
          </Association>
          <Association>

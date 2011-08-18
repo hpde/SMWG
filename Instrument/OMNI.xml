@@ -5,7 +5,7 @@
       <ResourceID>spase://SMWG/Instrument/OMNI</ResourceID>
       <ResourceHeader>
          <ResourceName>OMNI Instrument</ResourceName>
-         <ReleaseDate>2011-02-02T17:00:18Z</ReleaseDate>
+         <ReleaseDate>2011-08-18T16:00:05Z</ReleaseDate>
          <Description>The OMNI instrument is a virtual instrument representing the collection of Magnetometers, Electrostatic Analyers,
             and Energetic Particle instruments used in the creation of the OMNI datasets. The instruments used within the OMNI datasets
             come from the ACE, Wind, IMP8, Geotail, GOES and various other spacecraft. For any given time period OMNI uses a selection criteria
@@ -37,11 +37,11 @@
             <AssociationType>PartOf</AssociationType>
          </Association>
          <Association>
-            <AssociationID>spase://SMWG/Instrument/WIND/MFI</AssociationID>
+            <AssociationID>spase://SMWG/Instrument/Wind/MFI</AssociationID>
             <AssociationType>PartOf</AssociationType>
          </Association>
          <Association>
-            <AssociationID>spase://SMWG/Instrument/WIND/SWE</AssociationID>
+            <AssociationID>spase://SMWG/Instrument/Wind/SWE</AssociationID>
             <AssociationType>PartOf</AssociationType>
          </Association>
          <Association>
