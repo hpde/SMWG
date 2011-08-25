@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/GOES/6/SXM</ResourceID>
+    <ResourceHeader>
+      <ResourceName>GOES 6 Solar X-ray Monitor</ResourceName>
+      <ReleaseDate>2011-08-23T00:00:00Z</ReleaseDate>
+      <Description>The X-ray monitor consisted of two ion chambers, mounted behind a slim rectangular field-of-view (48 deg x 3 deg) collimator made of lead-lined aluminum. The chamber for the lower wavelength band of 5 to 30 nanometer was filled with Xe-He mixture with an entry aperture made of 20 mil Be sheet. For the other band, 10-80 nm, the gas was Ar-He mixture and the aperture was a 2 mil Be. The threshold sensitivities were 1.0E-13 J per sq cm per s for the lower wavelength band, and 1.0E-12 J per sq cm per s for the higher band; each had a dynamic range of four decades. No usable data could be obtained from August, 94.</Description> 
+      <Contact>
+        <PersonID>spase://SMWG/Person/Howard.A.Garcia</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Herbert.H.Sauer</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1983-041A-03</URL>
+        <Description>Information about the Solar X-ray Monitor experiment on the GOES 6 mission.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Instrument/GOES/6/SXM</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Unspecified</InstrumentType>
+    <InvestigationName>Solar X-ray Monitor on GOES 6</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/GOES/6</ObservatoryID>
+  </Instrument>
+</Spase>
