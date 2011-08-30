@@ -7,7 +7,7 @@
    <ResourceID>spase://SMWG/Instrument/IAGA/CTO/Magnetometer</ResourceID>
    <ResourceHeader>
       <ResourceName>CTO Magnetometer</ResourceName>
-      <ReleaseDate>2011-08-30T08:37:35</ReleaseDate>
+      <ReleaseDate>2011-08-30T10:42:20</ReleaseDate>
       <Description>Magnetometer located at the station with the IAGA identifier CTO</Description>
       <Acknowledgement>Please acknowedge the CTO observatory when using data from this instrument.</Acknowledgement>
       <Contact>
@@ -25,8 +25,8 @@
    <InstrumentType>Magnetometer</InstrumentType>
    <InvestigationName>IAGA</InvestigationName>
    <OperatingSpan>
-      <StartDate>1932</StartDate>
-      <StopDate>1940</StopDate>
+      <StartDate>1932-01-01T00:00:00</StartDate>
+      <StopDate>1940-12-31T23:59:59</StopDate>
    </OperatingSpan>
    <ObservatoryID>spase://SMWG/Observatory/IAGA/CTO</ObservatoryID>
 </Instrument>

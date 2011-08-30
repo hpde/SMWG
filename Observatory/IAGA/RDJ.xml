@@ -7,7 +7,7 @@
    <ResourceID>spase://SMWG/Observatory/IAGA/RDJ</ResourceID>
    <ResourceHeader>
       <ResourceName>RDJ</ResourceName>
-      <ReleaseDate>2011-08-30T08:37:35</ReleaseDate>
+      <ReleaseDate>2011-08-30T10:42:20</ReleaseDate>
       <Description>RIO DE JANEIRO</Description>
       <Acknowledgement>As defined in Rasson J.L., (2001). The status of world-wide network of magnetic observatories, their location and instrumentation, Contributions to Geophysics &amp; Geodesy, 31, 1, pp 427-453 </Acknowledgement>
       <Contact>
@@ -29,8 +29,8 @@
       <Elevation>60</Elevation>
    </Location>
    <OperatingSpan>
-      <StartDate>1837</StartDate>
-      <StopDate>1910</StopDate>
+      <StartDate>1837-01-01T00:00:00</StartDate>
+      <StopDate>1910-12-31T23:59:59</StopDate>
    </OperatingSpan>
 </Observatory>
 </Spase>

@@ -7,7 +7,7 @@
    <ResourceID>spase://SMWG/Instrument/IAGA/BSL/Magnetometer</ResourceID>
    <ResourceHeader>
       <ResourceName>BSL Magnetometer</ResourceName>
-      <ReleaseDate>2011-08-30T08:37:35</ReleaseDate>
+      <ReleaseDate>2011-08-30T10:42:20</ReleaseDate>
       <Description>Magnetometer located at the station with the IAGA identifier BSL</Description>
       <Acknowledgement>Please acknowedge the BSL observatory when using data from this instrument.</Acknowledgement>
       <Contact>
@@ -25,7 +25,7 @@
    <InstrumentType>Magnetometer</InstrumentType>
    <InvestigationName>IAGA</InvestigationName>
    <OperatingSpan>
-      <StartDate>1986</StartDate>
+      <StartDate>1986-01-01T00:00:00</StartDate>
    </OperatingSpan>
    <ObservatoryID>spase://SMWG/Observatory/IAGA/BSL</ObservatoryID>
 </Instrument>

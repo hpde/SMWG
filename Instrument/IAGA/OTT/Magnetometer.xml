@@ -7,7 +7,7 @@
    <ResourceID>spase://SMWG/Instrument/IAGA/OTT/Magnetometer</ResourceID>
    <ResourceHeader>
       <ResourceName>OTT Magnetometer</ResourceName>
-      <ReleaseDate>2011-08-30T08:37:35</ReleaseDate>
+      <ReleaseDate>2011-08-30T10:42:20</ReleaseDate>
       <Description>Magnetometer located at the station with the IAGA identifier OTT</Description>
       <Acknowledgement>Please acknowedge the OTT observatory when using data from this instrument.</Acknowledgement>
       <Contact>
@@ -25,7 +25,7 @@
    <InstrumentType>Magnetometer</InstrumentType>
    <InvestigationName>IAGA</InvestigationName>
    <OperatingSpan>
-      <StartDate>1968</StartDate>
+      <StartDate>1968-01-01T00:00:00</StartDate>
    </OperatingSpan>
    <ObservatoryID>spase://SMWG/Observatory/IAGA/OTT</ObservatoryID>
 </Instrument>

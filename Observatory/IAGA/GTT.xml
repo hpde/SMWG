@@ -7,7 +7,7 @@
    <ResourceID>spase://SMWG/Observatory/IAGA/GTT</ResourceID>
    <ResourceHeader>
       <ResourceName>GTT</ResourceName>
-      <ReleaseDate>2011-08-30T08:37:35</ReleaseDate>
+      <ReleaseDate>2011-08-30T10:42:20</ReleaseDate>
       <Description>GOTTINGEN</Description>
       <Acknowledgement>As defined in Rasson J.L., (2001). The status of world-wide network of magnetic observatories, their location and instrumentation, Contributions to Geophysics &amp; Geodesy, 31, 1, pp 427-453 </Acknowledgement>
       <Contact>
@@ -29,8 +29,8 @@
       <Elevation>270</Elevation>
    </Location>
    <OperatingSpan>
-      <StartDate>1832</StartDate>
-      <StopDate>1867</StopDate>
+      <StartDate>1832-01-01T00:00:00</StartDate>
+      <StopDate>1867-12-31T23:59:59</StopDate>
    </OperatingSpan>
 </Observatory>
 </Spase>

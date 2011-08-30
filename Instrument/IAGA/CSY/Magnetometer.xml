@@ -7,7 +7,7 @@
    <ResourceID>spase://SMWG/Instrument/IAGA/CSY/Magnetometer</ResourceID>
    <ResourceHeader>
       <ResourceName>CSY Magnetometer</ResourceName>
-      <ReleaseDate>2011-08-30T08:37:35</ReleaseDate>
+      <ReleaseDate>2011-08-30T10:42:20</ReleaseDate>
       <Description>Magnetometer located at the station with the IAGA identifier CSY</Description>
       <Acknowledgement>Please acknowedge the CSY observatory when using data from this instrument.</Acknowledgement>
       <Contact>
@@ -25,7 +25,7 @@
    <InstrumentType>Magnetometer</InstrumentType>
    <InvestigationName>IAGA</InvestigationName>
    <OperatingSpan>
-      <StartDate>1978</StartDate>
+      <StartDate>1978-01-01T00:00:00</StartDate>
    </OperatingSpan>
    <ObservatoryID>spase://SMWG/Observatory/IAGA/CSY</ObservatoryID>
 </Instrument>

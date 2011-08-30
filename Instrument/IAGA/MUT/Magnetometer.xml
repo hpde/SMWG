@@ -7,7 +7,7 @@
    <ResourceID>spase://SMWG/Instrument/IAGA/MUT/Magnetometer</ResourceID>
    <ResourceHeader>
       <ResourceName>MUT Magnetometer</ResourceName>
-      <ReleaseDate>2011-08-30T08:37:35</ReleaseDate>
+      <ReleaseDate>2011-08-30T10:42:20</ReleaseDate>
       <Description>Magnetometer located at the station with the IAGA identifier MUT</Description>
       <Acknowledgement>Please acknowedge the MUT observatory when using data from this instrument.</Acknowledgement>
       <Contact>
@@ -25,7 +25,7 @@
    <InstrumentType>Magnetometer</InstrumentType>
    <InvestigationName>IAGA</InvestigationName>
    <OperatingSpan>
-      <StartDate>1951</StartDate>
+      <StartDate>1951-01-01T00:00:00</StartDate>
    </OperatingSpan>
    <ObservatoryID>spase://SMWG/Observatory/IAGA/MUT</ObservatoryID>
 </Instrument>

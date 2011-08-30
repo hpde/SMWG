@@ -7,7 +7,7 @@
    <ResourceID>spase://SMWG/Instrument/IAGA/MOS/Magnetometer</ResourceID>
    <ResourceHeader>
       <ResourceName>MOS Magnetometer</ResourceName>
-      <ReleaseDate>2011-08-30T08:37:35</ReleaseDate>
+      <ReleaseDate>2011-08-30T10:42:20</ReleaseDate>
       <Description>Magnetometer located at the station with the IAGA identifier MOS</Description>
       <Acknowledgement>Please acknowedge the MOS observatory when using data from this instrument.</Acknowledgement>
       <Contact>
@@ -25,7 +25,7 @@
    <InstrumentType>Magnetometer</InstrumentType>
    <InvestigationName>IAGA</InvestigationName>
    <OperatingSpan>
-      <StartDate>1889</StartDate>
+      <StartDate>1889-01-01T00:00:00</StartDate>
    </OperatingSpan>
    <ObservatoryID>spase://SMWG/Observatory/IAGA/MOS</ObservatoryID>
 </Instrument>

@@ -7,7 +7,7 @@
    <ResourceID>spase://SMWG/Instrument/IAGA/BUC/Magnetometer</ResourceID>
    <ResourceHeader>
       <ResourceName>BUC Magnetometer</ResourceName>
-      <ReleaseDate>2011-08-30T08:37:35</ReleaseDate>
+      <ReleaseDate>2011-08-30T10:42:20</ReleaseDate>
       <Description>Magnetometer located at the station with the IAGA identifier BUC</Description>
       <Acknowledgement>Please acknowedge the BUC observatory when using data from this instrument.</Acknowledgement>
       <Contact>
@@ -25,7 +25,7 @@
    <InstrumentType>Magnetometer</InstrumentType>
    <InvestigationName>IAGA</InvestigationName>
    <OperatingSpan>
-      <StartDate>1898</StartDate>
+      <StartDate>1898-01-01T00:00:00</StartDate>
    </OperatingSpan>
    <ObservatoryID>spase://SMWG/Observatory/IAGA/BUC</ObservatoryID>
 </Instrument>
