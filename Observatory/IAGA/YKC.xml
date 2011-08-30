@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://www.spase-group.org/data/schema" 
+	xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+<Version>2.2.1</Version>
+<Observatory>
+   <ResourceID>spase://SMWG/Observatory/IAGA/YKC</ResourceID>
+   <ResourceHeader>
+      <ResourceName>YKC</ResourceName>
+      <ReleaseDate>2011-08-30T08:37:35</ReleaseDate>
+      <Description>YELLOWKNIFE</Description>
+      <Acknowledgement>As defined in Rasson J.L., (2001). The status of world-wide network of magnetic observatories, their location and instrumentation, Contributions to Geophysics &amp; Geodesy, 31, 1, pp 427-453 </Acknowledgement>
+      <Contact>
+         <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+         <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+         <Name>IAGA Guides and Standards</Name>
+         <URL>http://www.iugg.org/IAGA/iaga_pages/pubs_prods/Products_services.htm</URL>
+         <Description>Overview of IAGA Guides and Standards which obtained within its 
+         	Divisions and Working Groups. Information about observatories 
+         	is maintained by the "Geomagntic Observatories" (V-OBS) working group.</Description>
+      </InformationURL>
+   </ResourceHeader>
+   <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <Latitude>62.470</Latitude>
+      <Longitude>245.530</Longitude>
+      <Elevation>198</Elevation>
+   </Location>
+   <OperatingSpan>
+      <StartDate>1957</StartDate>
+   </OperatingSpan>
+</Observatory>
+</Spase>

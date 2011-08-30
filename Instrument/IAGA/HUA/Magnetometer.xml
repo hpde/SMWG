@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://www.spase-group.org/data/schema" 
+	xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+<Version>2.2.1</Version>
+<Instrument>
+   <ResourceID>spase://SMWG/Instrument/IAGA/HUA/Magnetometer</ResourceID>
+   <ResourceHeader>
+      <ResourceName>HUA Magnetometer</ResourceName>
+      <ReleaseDate>2011-08-30T08:37:35</ReleaseDate>
+      <Description>Magnetometer located at the station with the IAGA identifier HUA</Description>
+      <Acknowledgement>Please acknowedge the HUA observatory when using data from this instrument.</Acknowledgement>
+      <Contact>
+         <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+         <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+         <Name></Name>
+         <URL>http://www.iugg.org/IAGA/iaga_pages/pubs_prods/Products_services.htm</URL>
+         <Description>Overview of IAGA Guides and Standards which obtained within its 
+         	Divisions and Working Groups. Information about observatories 
+         	is maintained by the "Geomagntic Observatories" (V-OBS) working group.</Description>
+      </InformationURL>
+   </ResourceHeader>
+   <InstrumentType>Magnetometer</InstrumentType>
+   <InvestigationName>IAGA</InvestigationName>
+   <OperatingSpan>
+      <StartDate>1922</StartDate>
+   </OperatingSpan>
+   <ObservatoryID>spase://SMWG/Observatory/IAGA/HUA</ObservatoryID>
+</Instrument>
+</Spase>
