@@ -1,12 +1,12 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/SAMBA/Los.Cerrillos</ResourceID>
     <ResourceHeader>
-      <ResourceName>The Los Cerrillos Geomagnetic Observatory.</ResourceName>
-      <ReleaseDate>2010-09-24T21:17:17Z</ReleaseDate>
-      <Description>The Los Cerrillos (CER) Geomagnetic Observatory.</Description>
+      <ResourceName>Los Cerrillos</ResourceName>
+      <ReleaseDate>2011-08-06T12:34:56.789</ReleaseDate>
+      <Description>Los Cerrillos (CER) Geomagnetic Observatory</Description>
       <Acknowledgement>Please acknowledge Eftyhia Zesta, Air Force Research Lab, Hanscom AFB, for providing access to SAMBA data resources.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Eftyhia.Zesta</PersonID>
@@ -49,12 +49,12 @@
         <Role>MetadataContact</Role>
       </Contact>
       <InformationURL>
-        <Name>The Los Cerrillos geomagnetic observatory web site.</Name>
+        <Name>Los Cerrillos geomagnetic observatory web site</Name>
         <URL>http://samba.atmos.ucla.edu/loscerrillius.html</URL>
-        <Description>The Los Cerrillos geomagnetic observatory web site.</Description>
+        <Description>Los Cerrillos geomagnetic observatory web site</Description>
       </InformationURL>
       <Association>
-        <AssociationID>spase://SMWG/Observatory/SAMBA/SAMBA.Logical</AssociationID>
+        <AssociationID>spase://SMWG/Observatory/SAMBA</AssociationID>
         <AssociationType>PartOf</AssociationType>
       </Association>
     </ResourceHeader>

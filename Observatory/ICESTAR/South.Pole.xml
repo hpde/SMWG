@@ -4,9 +4,9 @@
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/ICESTAR/South.Pole</ResourceID>
     <ResourceHeader>
-      <ResourceName>South Pole Ground Observatory</ResourceName>
-      <ReleaseDate>2010-09-24T21:12:40Z</ReleaseDate>
-      <Description>The South Pole Ground Observatory</Description>
+      <ResourceName>South Pole</ResourceName>
+      <ReleaseDate>2011-08-06T12:34:56.789</ReleaseDate>
+      <Description>South Pole Ground Observatory</Description>
       <Acknowledgement>Please acknowledge Theodore J. Rosenberg, Allan T. Weatherwax, Institute for Physical Science and Technology, University of Maryland, College Park, MD 20742-2431 for providing access to South Pole data resources.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Theodore.J.Rosenberg</PersonID>
@@ -21,12 +21,12 @@
         <Role>MetadataContact</Role>
       </Contact>
       <InformationURL>
-        <Name>The South Pole ground observatory web site</Name>
+        <Name>South Pole ground observatory web site</Name>
         <URL>http://scar-icestar.org</URL>
-        <Description>The South Pole ground observatory web site</Description>
+        <Description>South Pole ground observatory web site</Description>
       </InformationURL>
       <Association>
-        <AssociationID>spase://SMWG/Observatory/ICESTAR/ICESTAR.Logical</AssociationID>
+        <AssociationID>spase://SMWG/Observatory/ICESTAR</AssociationID>
         <AssociationType>PartOf</AssociationType>
       </Association>
     </ResourceHeader>

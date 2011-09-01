@@ -1,12 +1,12 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/WDC/Honolulu</ResourceID>
     <ResourceHeader>
-      <ResourceName>The Honolulu Geomagnetic Observatory.</ResourceName>
-      <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
-      <Description>The Honolulu (HON) Geomagnetic Observatory.</Description>
+      <ResourceName>Honolulu</ResourceName>
+      <ReleaseDate>2011-08-06T12:34:56.789</ReleaseDate>
+      <Description>Honolulu (HON) Geomagnetic Observatory</Description>
       <Acknowledgement>Please acknowledge Jeffrey J. Love, U.S. Geological Survey, Box 25046 MS 966, Denver Federal Center, Denver, Colorado 80225, USA for providing access to Honolulu data resources.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Jeffrey.J.Love</PersonID>
@@ -17,17 +17,17 @@
         <Role>MetadataContact</Role>
       </Contact>
       <InformationURL>
-        <Name>The Honolulu geomagnetic observatory English language web site.</Name>
+        <Name>Honolulu geomagnetic observatory English language web site</Name>
         <URL>http://www.intermagnet.org/imos/imohon_e.html</URL>
-        <Description>The Honolulu geomagnetic observatory English language web site hosted by the Intermagnet program (International Real-time Magnetic Observatory Network).</Description>
+        <Description>Honolulu geomagnetic observatory English language web site hosted by the Intermagnet program (International Real-time Magnetic Observatory Group).</Description>
       </InformationURL>
       <InformationURL>
-        <Name>The Honolulu geomagnetic observatory French language web site.</Name>
+        <Name>Honolulu geomagnetic observatory French language web site</Name>
         <URL>http://www.intermagnet.org/imos/imohon_f.html</URL>
-        <Description>The Honolulu geomagnetic observatory French language web site hosted by the Intermagnet program (International Real-time Magnetic Observatory Network).</Description>
+        <Description>Honolulu geomagnetic observatory French language web site hosted by the Intermagnet program (International Real-time Magnetic Observatory Group).</Description>
       </InformationURL>
       <Association>
-        <AssociationID>spase://SMWG/Observatory/Dst.Index.Logical</AssociationID>
+        <AssociationID>spase://SMWG/Observatory/Dst.Index</AssociationID>
         <AssociationType>PartOf</AssociationType>
       </Association>
     </ResourceHeader>

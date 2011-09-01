@@ -4,9 +4,9 @@
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/ICESTAR/AGO.P2</ResourceID>
     <ResourceHeader>
-      <ResourceName>AGO P2 Ground Observatory</ResourceName>
-      <ReleaseDate>2010-09-24T21:12:40Z</ReleaseDate>
-      <Description>The AGO P2 Ground Observatory</Description>
+      <ResourceName>AGO P2</ResourceName>
+      <ReleaseDate>2011-08-06T12:34:56.789</ReleaseDate>
+      <Description>AGO P2 Ground Observatory</Description>
       <Acknowledgement>Please acknowledge Theodore J. Rosenberg, Allan T. Weatherwax, Institute for Physical Science and Technology, University of Maryland, College Park, MD 20742-2431 for providing access to AGO P2 data resources.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Theodore.J.Rosenberg</PersonID>
@@ -21,12 +21,12 @@
         <Role>MetadataContact</Role>
       </Contact>
       <InformationURL>
-        <Name>The AGO P2 ground observatory web site</Name>
+        <Name>AGO P2 ground observatory web site</Name>
         <URL>http://scar-icestar.org</URL>
-        <Description>The AGO P2 ground observatory web site</Description>
+        <Description>AGO P2 ground observatory web site</Description>
       </InformationURL>
       <Association>
-        <AssociationID>spase://SMWG/Observatory/ICESTAR/ICESTAR.Logical</AssociationID>
+        <AssociationID>spase://SMWG/Observatory/ICESTAR</AssociationID>
         <AssociationType>PartOf</AssociationType>
       </Association>
     </ResourceHeader>
