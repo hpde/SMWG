@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/GOES/7/SEM</ResourceID>
     <ResourceHeader>
       <ResourceName>Space Environment Monitor (SEM)</ResourceName>
-      <ReleaseDate>2011-06-25T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2011-09-02T16:00:22Z</ReleaseDate>
       <Description>The Space Environment Monitor Subsystem (SEM) measures in situ the effect of the sun on the near-earth solar-terrestrial electromagnetic environment on a real-time basis. This information is provided to the Space Environment Services Center where it is used for "near-space weather" reports. These reports, which include solar activity, are important to the operators of communication, navigation, electric power transmission systems, and satellites.
 The SEM consists of four instruments. The Energetic Particle Sensor (EP8,formerly called EPS) makes flux measurements of protons in the 0.8 to 500 MeV range. The High Energy Proton and Alpha Detector (HEPAD) monitors protons in four energy ranges above 350 MeV and alpha particles in two energy ranges above 640 MeV/nucleon. The solar X-Ray Sensor permits real-time determination of the solar x-ray emission in two spectral bands: 0.5-5 angstroms and 1-8 angstroms. The Magnetic Field Sensor (MFS) allows for the real-time determination of the magnitude and orientation of the magnetic field. Data will be telemetered twice a second for magnetic fields having a magnitude of +/- 1000 nanotesla (nT).</Description>
       <Acknowledgement>NOAA Environmental Research Laboratories; Dr. Ronald Zwickl; Dr. Harold Leinbach;  Dr. Herbert H. Sauer; Dr. Terry Onsager;  Dr. Howard Singer; Mr. Howard Garcia</Acknowledgement>
@@ -14,61 +14,60 @@ The SEM consists of four instruments. The Energetic Particle Sensor (EP8,formerl
         <Role>GeneralContact</Role>
       </Contact>
       <Contact>
-         <PersonID>spase://SMWG/Person/Herbert.H.Sauer</PersonID>
-         <Role>PrincipalInvestigator</Role>
+        <PersonID>spase://SMWG/Person/Herbert.H.Sauer</PersonID>
+        <Role>PrincipalInvestigator</Role>
       </Contact>
       <Contact>
-          <PersonID>spase://SMWG/Person/Howard.J.Singer</PersonID>
-          <Role>PrincipalInvestigator</Role>
-       </Contact>
-       <Contact>
-          <PersonID>spase://SMWG/Person/Harold.Leinbach</PersonID>
-          <Role>PrincipalInvestigator</Role>
-       </Contact>
-       <Contact>
-         <PersonID>spase://SMWG/Person/Terry.Onsager</PersonID>
-         <Role>PrincipalInvestigator</Role>
-       </Contact>
-       <Contact>
-         <PersonID>spase://SMWG/Person/Howard.A.Garcia</PersonID>
-         <Role>PrincipalInvestigator</Role>
-       </Contact>   
-       <InformationURL>
-         <Name>GOES 7 Energetic Particle Monitor</Name>
-         <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1987-022A-02</URL>
-         <Description>Introduction to the GOES 7 Energetic Particle Sensor.</Description>
-       </InformationURL>
-       <InformationURL>
-         <Name>GOES 7 Energetic Particle Sensor Data File Information</Name>
-         <URL>http://goes.ngdc.noaa.gov/software/part.txt</URL>
-         <Description>Additional GOES EPM information.</Description>
-       </InformationURL>
-       <InformationURL>
-         <Name>GOES 7 Energetic Particle Sensor Additional Data File Information</Name>
-         <URL>ftp://satdat.ngdc.noaa.gov/sem/goes/data/full/readme.txt</URL>
-         <Description>Additional GOES EPM data file information.</Description>
-       </InformationURL>
-		   <InformationURL>
-		      <Name>GOES 7 Magnetic Field Monitor</Name>
-		      <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1987-022A-04</URL>
-		      <Description>Introduction to the GOES 7 Magnetic Field Monitor.</Description>
-		   </InformationURL>
-		   <InformationURL>
-		      <Name>GOES 7 Space Environment Monitor</Name>
-		      <URL>http://goes.ngdc.noaa.gov/data/full/readme.txt</URL>
-		      <Description>Additional GOES Magnetic Field Monitor information.</Description>
-		   </InformationURL>
-		   <InformationURL>
-		      <Name>GOES 7 Magnetic Field Monitor Example ASCII file</Name>
-		      <URL>http://goes.ngdc.noaa.gov/software/mag.txt</URL>
-		      <Description>Additional GOES Magnetic Field Monitor header information.</Description>
-		   </InformationURL>
-		   <InformationURL>
-		      <Name>GOES 7 Solar X-Ray Monitor</Name>
-		      <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1987-022A-03</URL>
-		      <Description>Additional GOES Solar X-Ray Monitor information.</Description>
-		   </InformationURL>
-       <PriorID>spase://SMWG/Instrument/GOES/7/SEM</PriorID>
+        <PersonID>spase://SMWG/Person/Howard.J.Singer</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Harold.Leinbach</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Terry.Onsager</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Howard.A.Garcia</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>GOES 7 Energetic Particle Monitor</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1987-022A-02</URL>
+        <Description>Introduction to the GOES 7 Energetic Particle Sensor.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>GOES 7 Energetic Particle Sensor Data File Information</Name>
+        <URL>http://goes.ngdc.noaa.gov/software/part.txt</URL>
+        <Description>Additional GOES EPM information.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>GOES 7 Energetic Particle Sensor Additional Data File Information</Name>
+        <URL>ftp://satdat.ngdc.noaa.gov/sem/goes/data/full/readme.txt</URL>
+        <Description>Additional GOES EPM data file information.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>GOES 7 Magnetic Field Monitor</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1987-022A-04</URL>
+        <Description>Introduction to the GOES 7 Magnetic Field Monitor.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>GOES 7 Space Environment Monitor</Name>
+        <URL>http://goes.ngdc.noaa.gov/data/full/readme.txt</URL>
+        <Description>Additional GOES Magnetic Field Monitor information.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>GOES 7 Magnetic Field Monitor Example ASCII file</Name>
+        <URL>http://goes.ngdc.noaa.gov/software/mag.txt</URL>
+        <Description>Additional GOES Magnetic Field Monitor header information.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>GOES 7 Solar X-Ray Monitor</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1987-022A-03</URL>
+        <Description>Additional GOES Solar X-Ray Monitor information.</Description>
+      </InformationURL>
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
