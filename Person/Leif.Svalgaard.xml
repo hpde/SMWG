@@ -1,16 +1,12 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-<Version>2.2.0</Version>
-<Person>
-   <ResourceID>spase://SMWG/Person/Leif.Svalgaard</ResourceID>
-   <ReleaseDate>2011-08-30T12:00:00</ReleaseDate>
-   <PersonName>Leif Svalgaard</PersonName>
-   <OrganizationName>LEIF.org</OrganizationName>
-   <Address>1591 Western Avenue; US Petaluma; CA; 94952; United States</Address>
-   <Email>leif@leif.org</Email>
-   <PhoneNumber></PhoneNumber>
-   <FaxNumber></FaxNumber>
-   <Note></Note>
-   <Extension></Extension>
-</Person>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Leif.Svalgaard</ResourceID>
+    <ReleaseDate>2011-09-02T16:06:26Z</ReleaseDate>
+    <PersonName>Leif Svalgaard</PersonName>
+    <OrganizationName>LEIF.org</OrganizationName>
+    <Address>1591 Western Avenue; US Petaluma; CA; 94952; United States</Address>
+    <Email>leif@leif.org</Email>
+  </Person>
 </Spase>

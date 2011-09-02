@@ -1,16 +1,14 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-<Version>2.2.0</Version>
-<Person>
-   <ResourceID>spase://SMWG/Person/Edward.W.Cliver</ResourceID>
-   <ReleaseDate>2011-08-30T12:00:00</ReleaseDate>
-   <PersonName>Edward W. Cliver</PersonName>
-   <OrganizationName>Boston College</OrganizationName>
-   <Address>AFRL-VSBXS; 29 Randolph Rd; US Hanscom AFB; MA; 01731-3010; United States</Address>
-   <Email>edward.cliver@hanscom.af.mil</Email>
-   <PhoneNumber>+1 781 377 3975</PhoneNumber>
-   <FaxNumber>+1 781 377 3160</FaxNumber>
-   <Note></Note>
-   <Extension></Extension>
-</Person>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Edward.W.Cliver</ResourceID>
+    <ReleaseDate>2011-09-02T16:06:26Z</ReleaseDate>
+    <PersonName>Edward W. Cliver</PersonName>
+    <OrganizationName>Boston College</OrganizationName>
+    <Address>AFRL-VSBXS; 29 Randolph Rd; US Hanscom AFB; MA; 01731-3010; United States</Address>
+    <Email>edward.cliver@hanscom.af.mil</Email>
+    <PhoneNumber>+1 781 377 3975</PhoneNumber>
+    <FaxNumber>+1 781 377 3160</FaxNumber>
+  </Person>
 </Spase>
