@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://www.spase-group.org/data/schema" 
+	xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+<Version>2.2.1</Version>
+<Observatory>
+   <ResourceID>spase://SMWG/Observatory/IAGA</ResourceID>
+   <ResourceHeader>
+      <ResourceName>IAGA</ResourceName>
+      <AlternateName>International Association of Geomagnetism and Aeronomy</AlternateName>
+      <ReleaseDate>2011-09-06T06:13:52</ReleaseDate>
+         <Description>
+IAGA, the International Association of Geomagnetism and Aeronomy (AIGA - Association Internationale de Geomagnetisme et d'Aeronomie) is one of the eight Associations of the International Union of Geodesy and Geophysics (IUGG). It is a non-governmental body funded through the subscriptions paid to IUGG by its Member Countries. IAGA has a long history and can trace its origins to the Commission for Terrestrial Magnetism and Atmospheric Electricity, part of the International Meteorological Organisation which was established in 1873.
+
+IAGA coordinates the global network of geomagnetic observatories by providing unique three-letter codes and maintaining an overview over past and present geomagnetic observatories. The list of observatories is maintained by the Working Group for Geomagnetic observations (V-OBS).
+         	</Description>
+      <Contact>
+         <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+         <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+         <Name>IAGA Geomagnetic Observatories</Name>
+         <URL>http://www.meteo.be/IAGA_WG_V.1/</URL>
+         <Description>Home page IAGA working group for Geomagnetic observations (V-OBS).
+         </Description>
+      </InformationURL>
+   </ResourceHeader>
+   <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+   </Location>
+</Observatory>
+</Spase>
