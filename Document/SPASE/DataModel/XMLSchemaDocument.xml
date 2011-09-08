@@ -2,24 +2,24 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
   <Version>2.2.1</Version>
   <Document>
-  	<ResourceID>spase://SMWG/Document/SPASE/DataModel/XMLSchemaDocument</ResourceID>
-  	<ResourceHeader>
-  		<ResourceName>SPASE Data Model XML Schema Document</ResourceName>
-  		<ReleaseDate>2011-07-15T12:00:00</ReleaseDate>
-  		<Description>Ths document contains a machine readable version of the XML expression of the SPASE metadata model. 
+    <ResourceID>spase://SMWG/Document/SPASE/DataModel/XMLSchemaDocument</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SPASE Data Model XML Schema Document</ResourceName>
+      <ReleaseDate>2011-09-08T15:20:32Z</ReleaseDate>
+      <Description>Ths document contains a machine readable version of the XML expression of the SPASE metadata model. 
   			</Description>
-  		<Contact>
-  			<PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
-  			<Role>Publisher</Role>
-  		</Contact>
-  	</ResourceHeader>
-  	<AccessInformation>
-  		<RepositoryID>spase://SMWG/Repository/SPASE</RepositoryID>
-  		<AccessURL>
-  			<URL>http://www.spase-group.org/data/schema/spase-2_2_1.xsd</URL>
-  		</AccessURL>
-  		<Format>XML</Format>
-  	</AccessInformation>
-  	<DocumentType>Paper</DocumentType>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+        <Role>Publisher</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/SPASE</RepositoryID>
+      <AccessURL>
+        <URL>http://www.spase-group.org/data/schema/spase-2_2_1.xsd</URL>
+      </AccessURL>
+      <Format>XML</Format>
+    </AccessInformation>
+    <DocumentType>Paper</DocumentType>
   </Document>
 </Spase>
