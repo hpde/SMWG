@@ -2,21 +2,21 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/GOES/8/Ephemeris</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/GOES/7/Ephemeris</ResourceID>
     <ResourceHeader>
-      <ResourceName>GOES 8 Position</ResourceName>
-      <AlternateName>GOES 8 Ephemeris</AlternateName>
-      <ReleaseDate>2011-10-01T20:40:29Z</ReleaseDate>
-      <Description>GOES 8 spacecraft position</Description>
+      <ResourceName>GOES 7 Positions</ResourceName>
+      <AlternateName>GOES 7 Ephemeris</AlternateName>
+      <ReleaseDate>2011-10-01T15:37:46Z</ReleaseDate>
+      <Description>GOES 7 spacecraft position.</Description>
       <Acknowledgement>NOAA</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Howard.J.Singer</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
-      <PriorID>spase://SMWG/Instrument/GOES/8/Ephemeris</PriorID>
+      <PriorID>spase://SMWG/Instrument/GOES/7/Ephemeris</PriorID>
     </ResourceHeader>
     <InstrumentType>Platform</InstrumentType>
     <InvestigationName>Spacecraft position</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/GOES/8</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/GOES/7</ObservatoryID>
   </Instrument>
 </Spase>
