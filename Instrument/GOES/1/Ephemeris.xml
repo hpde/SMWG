@@ -6,14 +6,13 @@
     <ResourceHeader>
       <ResourceName>GOES 1 Positions</ResourceName>
       <AlternateName>GOES 1 Ephemeris</AlternateName>
-      <ReleaseDate>2011-10-01T15:37:46Z</ReleaseDate>
+      <ReleaseDate>2011-10-04T18:17:00Z</ReleaseDate>
       <Description>GOES 1 spacecraft position.</Description>
       <Acknowledgement>NOAA</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Howard.J.Singer</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
-      <PriorID>spase://SMWG/Instrument/GOES/1/Ephemeris</PriorID>
     </ResourceHeader>
     <InstrumentType>Platform</InstrumentType>
     <InvestigationName>Spacecraft position</InvestigationName>
