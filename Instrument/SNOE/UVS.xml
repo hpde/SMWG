@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+    <Version>2.2.1</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/SNOE/UVS</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Student Nitric Oxide Explorer (SNOE) Ultraviolet Spectrometer (UVS)</ResourceName>
+            <AlternateName>Spectrometer</AlternateName>
+            <ReleaseDate>2011-10-04T00:00:00Z</ReleaseDate>
+            <Description>The objective of the ultraviolet spectrometer (UVS) on board the Student Nitric Oxide Explorer (SNOE) is to measure 
+                the density of nitric oxide in the terrestrial upper atmosphere (thermosphere) by observing the (1,0) and (0,1) gamma bands. 
+                The UVS design is similar to instruments flown on the Solar Mesospheric Explorer (SME), Pioneer Venus, and several rockets. 
+                It consists of an Ebert-Fastie spectrometer, an off-axis telescope, and two Hamamatsu phototube detectors. The combination of 
+                the spectrometer and the detectors produces a spacing of 22 nm between the two channels and the exit slits are sized to give 
+                each detector a 3.7 nm bandpass. The grating in the spectrometer is set to place the (1,0) gamma band (215 nm) on one detector 
+                and the (0,1) gamma band (237 nm) on the other detector. Both channels have a sensitivity of 450 counts/second/kiloRayleigh. The 
+                UVS is mounted with its optical axis perpendicular to the spin axis of the spacecraft. Its telescope images the entrance slit of 
+                the spectrometer on the limb with the long axis of the slit parallel to the horizon. The image of the slit on the limb is 3.5 km 
+                high, which determines the fundamental altitude resolution of the instrument. The integration time is 27 msec.
+            </Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Charles.A.Barth</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact> 
+            <InformationURL>
+                <Name>NSSDC's Master Catalog</Name>
+                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1998-012A-01</URL>
+                <Description>Information about the Ultraviolet Spectrometer (UVS) on the Student Nitric Oxide Explorer (SNOE)</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>Spectrometer</InstrumentType>
+        <InvestigationName>Ultraviolet Spectrometer (UVS) on Student Nitric Oxide Explorer (SNOE)</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/SNOE</ObservatoryID>
+    </Instrument>
+</Spase>
+
+
