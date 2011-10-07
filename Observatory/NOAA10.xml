@@ -1,29 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-    <Version>2.2.1</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/NOAA10</ResourceID>
-        <ResourceHeader>
-            <ResourceName>NOAA 10</ResourceName>
-	    <AlternateName>1986-073A</AlternateName>
-            <ReleaseDate>2011-10-04T00:00:00Z</ReleaseDate>
-            <Description>NOAA 10 was a third-generation operational meteorological satellite for use in the National Operational Environmental Satellite System (NOESS) and for the support of the Global Atmospheric Research Program (GARP) during 1978-84. The satellite design provided an economical and stable sun-synchronous platform for advanced operational instruments to measure the earth's atmosphere, its surface and cloud cover, and the near-space environment. Primary sensors included (1) an advanced very-high-resolution radiometer (AVHRR) for observing daytime and nighttime global cloud cover, (2) a TIROS operational vertical sounder (TOVS) for obtaining temperature and water vapor profiles through the earth's atmosphere, (3) an earth radiation experiment (ERBE) for measuring the energy exchange between the earth-atmosphere system and space, and (4) a solar backscatter ultraviolet spectrometer (SBUV/2) for providing ozone distributions in the atmosphere. Secondary experiments consisted of a space environment monitor (SEM), which measured the proton and electron fluxes near the earth, and a data collection system (DCS), which processed and relayed to central data acquisition stations the various meteorological data received from free-floating balloons and ocean buoys distributed around the globe. A search and rescue (SAR) system was also carried on NOAA-G to receive, process, and relay distress signals transmitted by beacons carried by civil aircraft and some classes of marine vessels. The satellite was based upon the Block 5D spacecraft bus developed for the U.S. Air Force, and was capable of maintaining an earth-pointing accuracy of better than plus or minus 0.1 deg with a motion rate of less than 0.035 deg/s. NOAA 10 operations were closed as of August 1991. </Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Albert.Arking</PersonID>
-                <Role>ProjectScientist</Role>
-            </Contact> 
-            <InformationURL>
-                <Name>NSSDC's Master Catalog</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1986-073A</URL>
-                <Description>Information about NOAA 10</Description>
-            </InformationURL>
-        </ResourceHeader>
-        <Location>
-            <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
-        </Location>
-    </Observatory>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.2.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/NOAA/10</ResourceID>
+    <ResourceHeader>
+      <ResourceName>NOAA 10</ResourceName>
+      <AlternateName>1986-073A</AlternateName>
+      <ReleaseDate>2011-10-07T18:29:43Z</ReleaseDate>
+      <Description>NOAA 10 was a third-generation operational meteorological satellite for use in the National Operational Environmental Satellite System (NOESS) and for the support of the Global Atmospheric Research Program (GARP) during 1978-84. The satellite design provided an economical and stable sun-synchronous platform for advanced operational instruments to measure the earth's atmosphere, its surface and cloud cover, and the near-space environment. Primary sensors included (1) an advanced very-high-resolution radiometer (AVHRR) for observing daytime and nighttime global cloud cover, (2) a TIROS operational vertical sounder (TOVS) for obtaining temperature and water vapor profiles through the earth's atmosphere, (3) an earth radiation experiment (ERBE) for measuring the energy exchange between the earth-atmosphere system and space, and (4) a solar backscatter ultraviolet spectrometer (SBUV/2) for providing ozone distributions in the atmosphere. Secondary experiments consisted of a space environment monitor (SEM), which measured the proton and electron fluxes near the earth, and a data collection system (DCS), which processed and relayed to central data acquisition stations the various meteorological data received from free-floating balloons and ocean buoys distributed around the globe. A search and rescue (SAR) system was also carried on NOAA-G to receive, process, and relay distress signals transmitted by beacons carried by civil aircraft and some classes of marine vessels. The satellite was based upon the Block 5D spacecraft bus developed for the U.S. Air Force, and was capable of maintaining an earth-pointing accuracy of better than plus or minus 0.1 deg with a motion rate of less than 0.035 deg/s. NOAA 10 operations were closed as of August 1991. </Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Albert.Arking</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1986-073A</URL>
+        <Description>Information about NOAA 10</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Observatory/NOAA10</PriorID>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+    </Location>
+  </Observatory>
 </Spase>
-
-

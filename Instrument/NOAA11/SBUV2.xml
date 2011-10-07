@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
   <Version>2.1.0</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/NOAA11/SBUV2</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/NOAA/11/SBUV2</ResourceID>
     <ResourceHeader>
       <ResourceName>SBUV/2</ResourceName>
-      <ReleaseDate>2010-05-19T20:52:50Z</ReleaseDate>
+      <ReleaseDate>2011-10-07T18:29:52Z</ReleaseDate>
       <Description>The NOAA 11 Solar Backscatter Ultraviolet Radiometer 
 (SBUV/2) is designed to provide the vertical distribution of ozone in the 
 Earth's atmosphere. The SBUV/2 instrument measures backscattered solar 
@@ -31,6 +31,7 @@ narrowband filter photometer channel, called the cloud cover radiometer
         <Name>NSDC Master Catalog</Name>
         <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1988-089A-05</URL>
       </InformationURL>
+      <PriorID>spase://SMWG/Instrument/NOAA11/SBUV2</PriorID>
     </ResourceHeader>
     <InstrumentType>Spectrometer</InstrumentType>
     <InvestigationName>SBUV2</InvestigationName>

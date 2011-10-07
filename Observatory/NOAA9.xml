@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/Observatory/NOAA9</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/NOAA/9</ResourceID>
     <ResourceHeader>
       <ResourceName>NOAA 9</ResourceName>
-      <ReleaseDate>2010-08-05T18:19:17Z</ReleaseDate>
+      <ReleaseDate>2011-10-07T18:29:43Z</ReleaseDate>
       <Description>The NOAA 9 spacecraft was launched
 on 1984-12-12 into a ~850 km, 99.17 deg inclination (sun synchronous)
 orbit.  Principal instruments were the Advanced Very High Resolution 
@@ -21,6 +21,7 @@ provided at least until 1990</Description>
         <Name>NSSDC Master Catalog</Name>
         <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1984-123A</URL>
       </InformationURL>
+      <PriorID>spase://SMWG/Observatory/NOAA9</PriorID>
     </ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
