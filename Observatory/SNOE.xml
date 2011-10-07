@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-    <Version>2.2.1</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/SNOE</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Student Nitric Oxide Explorer (SNOE)</ResourceName>
-            <ReleaseDate>2011-10-04T00:00:00Z</ReleaseDate>
-            <Description>The Student Nitric Oxide Explorer (SNOE) project was the first satellite to be launched in NASA's Student Explorer 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.2.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/SNOE</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Student Nitric Oxide Explorer (SNOE)</ResourceName>
+      <ReleaseDate>2011-10-07T18:18:04Z</ReleaseDate>
+      <Description>The Student Nitric Oxide Explorer (SNOE) project was the first satellite to be launched in NASA's Student Explorer 
                 Demonstration Initiative (STEDI) program. STEDI, managed for NASA by USRA, is a pilot program to demonstrate that high-quality 
                 space science can be carried out with small, low-cost (less than $4.4 Million) free-flying satellites on a time scale of two years 
                 from go-ahead to launch. The scientific objectives of the Student Nitric Oxide Explorer were a detailed study of variations in 
@@ -27,20 +25,18 @@
 
 SNOE re-entered the atmosphere on 12/13/03 at 09:34Z +/- 6 minutes, descending over 2.9 deg S, 273.8 deg E, on orbit 32248, after 5 years and 290 days.
             </Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Charles.A.Barth</PersonID>
-                <Role>PrincipalInvestigator</Role>
-            </Contact> 
-            <InformationURL>
-                <Name>NSSDC's Master Catalog</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1998-012A</URL>
-                <Description>Information about the Student Nitric Oxide Explorer (SNOE)</Description>
-            </InformationURL>
-        </ResourceHeader>
-        <Location>
-            <ObservatoryRegion>Earth.NearSurface.Thermosphere</ObservatoryRegion>
-        </Location>
-    </Observatory>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Charles.A.Barth</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1998-012A</URL>
+        <Description>Information about the Student Nitric Oxide Explorer (SNOE)</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.NearSurface.Thermosphere</ObservatoryRegion>
+    </Location>
+  </Observatory>
 </Spase>
-
-
