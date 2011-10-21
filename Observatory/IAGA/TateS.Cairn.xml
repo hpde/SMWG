@@ -9,7 +9,7 @@
       <ResourceName>Tate'S Cairn</ResourceName>
       <AlternateName>Tate'S.Cairn</AlternateName>
       <AlternateName>IAGA:TCN</AlternateName>
-      <ReleaseDate>2011-08-31T06:13:52</ReleaseDate>
+      <ReleaseDate>2011-10-21T17:43:46Z</ReleaseDate>
       <Description>Tate'S Cairn</Description>
       <Acknowledgement>As defined in Rasson J.L., (2001). The status of world-wide network of magnetic observatories, their location and instrumentation, Contributions to Geophysics &amp; Geodesy, 31, 1, pp 427-453 </Acknowledgement>
       <Contact>
@@ -24,6 +24,7 @@
          	is maintained by the "Geomagntic Observatories" (V-OBS) working group.</Description>
       </InformationURL>
    </ResourceHeader>
+   <ObservatoryGroupID>spase://SMWG/Observatory/IAGA</ObservatoryGroupID>
    <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
       <CoordinateSystemName>GEO</CoordinateSystemName>
