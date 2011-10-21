@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+<Version>2.2.1</Version>
+<Repository>
+   <ResourceID>spase://SMWG/Repository/UIowa/RadioPlasmaWaveGroup</ResourceID>
+   <ResourceHeader>
+      <ResourceName>The University of Iowa Radio and Plasma Wave Group Data Repository</ResourceName>
+      <AlternateName></AlternateName>
+      <ReleaseDate>2011-10-20T18:00:00Z</ReleaseDate>
+      <Description>Data Repository at The University of Iowa, Radio and Plasma Wave Research Group.         The Radio and Plasma Wave Group in the Department of Physics and Astronomy in The University of Iowa specializes in the study of naturally occurring radio and plasma waves in space plasmas. The group has provided radio and plasma wave receivers for more than 20 space missions, including Voyagers 1 and 2, Geotail, Wind, Cassini, Cluster (Rumba, Salsa, Samba, Tango), and Mars Express, which are currently operational. Our instrument on Galileo entered the atmosphere of Jupiter along with the rest of the spacecraft in September, 2003, and the Earth-orbiting Polar spacecraft was decommissioned in April, 2008. The group has recently developed an instrument for Juno, the Jupiter polar orbiter successfully launched August 5, 2011. We are also working on instruments for the Radiation Belt Storm Probes which will study the Earth's radiation belts, ionosphere, and thermosphere after launch in 2012.  This group is also the home of the outer planets subnode of the Planetary Data System's Planetary Plasma Interactions Node which provides access to and expertise on radio and plasma wave data sets from the Voyager observations at the outer planets Jupiter, Saturn, Uranus, and Neptune; Galileo observations from Venus, Earth, and Jupiter; and Pioneer 10 and 11 Geiger Tube Telescope observations at Jupiter and Saturn.  Wideband plasma wave observations from a number of Earth-orbiting spacecraft including Dynamics Explorer (DE) 1, International Sun Earth Explorers (ISEE) 1 and 2, Interplanetary Monitoring Platform (IMP) 6, Hawkeye, Small Scientific Satellite (SSS), Active Magnetospheric Particle Tracing Explorer (AMPTE), and Injun V are being archived here and can be ordered or accessed via specialized software. Browse images of some of these data are also available as part of our Space Physics Data Center.  The plasma wave group consists of one faculty member and several scientists, engineers, programmers, and support personnel.</Description>
+      <Acknowledgement>Please acknowledge the project PI and The University of Iowa.</Acknowledgement>
+      <Contact>
+         <PersonID>spase://SMWG/Person/Donald.A.Gurnett</PersonID>
+         <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+         <PersonID>spase://SMWG/Person/William.S.Kurth</PersonID>
+         <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+         <PersonID>spase://SMWG/Person/Jolene.S.Pickett</PersonID>
+         <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+         <PersonID>spase://SMWG/Person/Roger.R.Anderson</PersonID>
+         <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+         <PersonID>spase://SMWG/Person/Kathy.R.Kurth</PersonID>
+         <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+         <PersonID>spase://SMWG/Person/George.B.Hospodarsky</PersonID>
+         <Role>Scientist</Role>
+      </Contact>
+      <Contact>
+         <PersonID>spase://SMWG/Person/J.Douglas.Menietti</PersonID>
+         <Role>Scientist</Role>
+      </Contact>
+      <Contact>
+         <PersonID>spase://SMWG/Person/David.D.Morgan</PersonID>
+         <Role>Scientist</Role>
+      </Contact>
+      <Contact>
+         <PersonID>spase://SMWG/Person/Richard.L.Huff</PersonID>
+         <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+         <PersonID>spase://SMWG/Person/Ann.M.Persoon</PersonID>
+         <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+         <PersonID>spase://SMWG/Person/Larry.J.Granroth</PersonID>
+         <Role>TechnicalContact</Role>
+      </Contact>
+      <InformationURL>
+         <Name>The University of Iowa Radio and Plasma Wave Group Home Page</Name>
+         <URL>http://www-pw.physics.uiowa.edu/</URL>
+         <Description>Access to pages describing current and past spacecraft projects, description of the Radio and Plasma Wave Group,  their publications and links to other data system projects.</Description>
+         <Language></Language>
+      </InformationURL>
+      <PriorID></PriorID>
+   </ResourceHeader>
+   <AccessURL>
+      <Name>The University of Iowa Radio and Plasma Wave Group Data Repository</Name>
+      <URL>http://www-pw.physics.uiowa.edu/</URL>
+      <Description>Data access is available from the spacecraft project links off of the home page</Description>
+      <Language></Language>
+   </AccessURL>
+   <Extension></Extension>
+</Repository>
+</Spase>

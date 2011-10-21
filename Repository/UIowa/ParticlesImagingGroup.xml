@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/UIowa/ParticlesImagingGroup</ResourceID>
+    <ResourceHeader>
+      <ResourceName>University of Iowa</ResourceName>
+      <ReleaseDate>2008-12-05T00:40:06Z</ReleaseDate>
+      <Description>Data repository at The University of Iowa, Space Plasma Physics Particles &amp; Imaging Research Group</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+  </Repository>
+</Spase>
