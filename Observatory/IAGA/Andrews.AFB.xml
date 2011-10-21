@@ -4,13 +4,13 @@
 	xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
 <Version>2.2.1</Version>
 <Observatory>
-   <ResourceID>spase://SMWG/Observatory/IAGA/Melville.Afb</ResourceID>
+   <ResourceID>spase://SMWG/Observatory/IAGA/Andrews.AFB</ResourceID>
    <ResourceHeader>
-      <ResourceName>Melville Afb</ResourceName>
-      <AlternateName>Melville.Afb</AlternateName>
-      <AlternateName>IAGA:MEV</AlternateName>
-      <ReleaseDate>2011-08-31T06:13:52</ReleaseDate>
-      <Description>Melville Afb</Description>
+      <ResourceName>Andrews AFB</ResourceName>
+      <AlternateName>Andrews.AFB</AlternateName>
+      <AlternateName>IAGA:AWS</AlternateName>
+      <ReleaseDate>2011-10-21T17:36:16Z</ReleaseDate>
+      <Description>Andrews AFB</Description>
       <Acknowledgement>As defined in Rasson J.L., (2001). The status of world-wide network of magnetic observatories, their location and instrumentation, Contributions to Geophysics &amp; Geodesy, 31, 1, pp 427-453 </Acknowledgement>
       <Contact>
          <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
@@ -24,15 +24,15 @@
          	is maintained by the "Geomagntic Observatories" (V-OBS) working group.</Description>
       </InformationURL>
    </ResourceHeader>
+   <ObservatoryGroupID>spase://SMWG/Observatory/IAGA</ObservatoryGroupID>
    <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
       <CoordinateSystemName>GEO</CoordinateSystemName>
-      <Latitude>53.280</Latitude>
-      <Longitude>299.470</Longitude>
+      <Latitude>38.200</Latitude>
+      <Longitude>282.630</Longitude>
    </Location>
    <OperatingSpan>
-      <StartDate>1966-01-01T00:00:00</StartDate>
-      <StopDate>1972-12-31T23:59:59</StopDate>
+      <StartDate>1972-01-01T00:00:00</StartDate>
    </OperatingSpan>
 </Observatory>
 </Spase>
