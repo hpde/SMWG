@@ -4,14 +4,14 @@
 	xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
 <Version>2.2.1</Version>
 <Instrument>
-   <ResourceID>spase://SMWG/Instrument/IAGA/Melville.Afb/Magnetometer</ResourceID>
+   <ResourceID>spase://SMWG/Instrument/IAGA/Eielson.AFB/Magnetometer</ResourceID>
    <ResourceHeader>
-      <ResourceName>Melville Afb Magnetometer</ResourceName>
-      <AlternateName>Melville.Afb Magnetometer</AlternateName>
-      <AlternateName>IAGA:MEV Magnetometer</AlternateName>
-      <ReleaseDate>2011-08-31T06:13:52</ReleaseDate>
-      <Description>Magnetometer located at the station with the IAGA identifier MEV</Description>
-      <Acknowledgement>Please acknowedge the MEV observatory when using data from this instrument.</Acknowledgement>
+      <ResourceName>Eielson AFB Magnetometer</ResourceName>
+      <AlternateName>Eielson.AFB Magnetometer</AlternateName>
+      <AlternateName>IAGA:ENB Magnetometer</AlternateName>
+      <ReleaseDate>2011-10-21T17:46:53Z</ReleaseDate>
+      <Description>Magnetometer located at the station with the IAGA identifier ENB</Description>
+      <Acknowledgement>Please acknowedge the ENB observatory when using data from this instrument.</Acknowledgement>
       <Contact>
          <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
          <Role>MetadataContact</Role>
@@ -30,6 +30,6 @@
       <StartDate>1966-01-01T00:00:00</StartDate>
       <StopDate>1972-12-31T23:59:59</StopDate>
    </OperatingSpan>
-   <ObservatoryID>spase://SMWG/Observatory/IAGA/Melville.Afb</ObservatoryID>
+   <ObservatoryID>spase://SMWG/Observatory/IAGA/Eielson.AFB</ObservatoryID>
 </Instrument>
 </Spase>
