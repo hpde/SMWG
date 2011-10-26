@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+    <Version>2.2.1</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/SESAME/RIO</ResourceID>
+        <ResourceHeader>
+            <ResourceName>SESAME Riometer</ResourceName>
+            <ReleaseDate>2011-10-19T00:00:00Z</ReleaseDate>
+            <Description>The SESAME Rio (Satellite Experiments Simultaneous with Antarctic MEasurements Riometer) is a relative ionospheric opacity meter which is a radio receiver for monitoring the intensity of cosmic radio noise.  It measures the absorption of radio signals in the ionosphere (dB) in North, East, South and West, in each case direction shifted into an L-shell-aligned coordinate system. Data are sampled once per second with a sensitivity of 0.1 dB.</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/J.R.Dundeney</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact> 
+            <InformationURL>
+                <Name>IACG website</Name>
+                <URL>http://www.iacg.org/iacg/ground_stations/sesame.html</URL>
+                <Description>Information about SESAME</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>Riometer</InstrumentType>
+        <InvestigationName>Riometer Observations on SESAME</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/SESAME</ObservatoryID>
+    </Instrument>
+</Spase>
+
+

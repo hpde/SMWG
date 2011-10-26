@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+    <Version>2.2.1</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/SESAME/AIS</ResourceID>
+        <ResourceHeader>
+            <ResourceName>SESAME Advanced Ionospheric Sounder</ResourceName>
+            <ReleaseDate>2011-10-19T00:00:00Z</ReleaseDate>
+            <Description>The AIS (Advanced Ionospheric Sounder) is part of SESAME. A NOAA (National Oceanic and Atmospheric Administration) high frequency radar, this dynasonde measures the time of flight, amplitude and phase of radio signals transmitted from the ground and reflected from the ionosphere, as a function of frequency and time. It operates over the frequency range of 0.1-30 MHz with numerous frequency sounding patterns and an accuracy of 1-3 degrees.
+This instrument has detected auroral arcs and their relationship to the ionospheric structures.  It has been shown to be a sensitive detector of very localized fluxes of energetic particle precipitation.</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/J.R.Dundeney</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact> 
+            <InformationURL>
+                <Name>IACG website</Name>
+                <URL>http://www.iacg.org/iacg/ground_stations/sesame.html</URL>
+                <Description>Information about SESAME</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>Sounder</InstrumentType>
+        <InvestigationName>Advanced Ionospheric Sounder on SESAME</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/SESAME</ObservatoryID>
+    </Instrument>
+</Spase>
+
+
