@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-    <Version>2.2.0</Version>
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+    <Version>2.2.1</Version>
     <Instrument>
         <ResourceID>spase://SMWG/Instrument/SESAME/FPI</ResourceID>
         <ResourceHeader>
             <ResourceName>SESAME Fabry-Perot Interferometer</ResourceName>
-            <ReleaseDate>2011-10-19T00:00:00Z</ReleaseDate>
-            <Description>The SESAME FPI (Satellite Experiments Simultaneous with Antarctic MEasurements Fabry-Perot Interferometer) measured the ionospheric  
-
-.</Description>
-            <Contact>
+            <ReleaseDate>2011-11-01T00:00:00Z</ReleaseDate>
+            <Description>The SESAME FPI (Satellite Experiments Simultaneous with Antarctic MEasurements Fabry-Perot Interferometer) measured Doppler shifts by imaging the wavelengths of oxygen emissions with high resolution and precision. The instrument comprised of five optical components: a scanning mirror that viewed in the 4 cardinal directions at 30 deg elevation; an etalon that consisted of a pair of quartz plates; a 1-m focal length Cassegrain telescope; a 1-nm filter wheel and an imaging photon detector. The experiment contributed to the understanding of airglow and auroral processes in the thermosphere.</Description>
+           <Contact>   
                 <PersonID>spase://SMWG/Person/J.R.Dundeney</PersonID>
                 <Role>PrincipalInvestigator</Role>
             </Contact> 
-
             <InformationURL>
-                <Name>NSSDC's Master Catalog</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1962-049A</URL>
-                <Description>Information about the Sweep-Frequency Sounder on Alouette 1</Description>
+                <Name>IACG website</Name>
+                <URL>http://www.iacg.org/iacg/ground_stations/sesame.html</URL>
+                <Description>Information about SESAME</Description>
             </InformationURL>
-
         </ResourceHeader>
         <InstrumentType>Interferometer</InstrumentType>
         <InvestigationName>Fabry-Perot Interferometer on SESAME</InvestigationName>
         <ObservatoryID>spase://SMWG/Observatory/SESAME</ObservatoryID>
     </Instrument>
 </Spase>
-
 
