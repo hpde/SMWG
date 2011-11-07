@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema 
+    http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+    <Version>2.2.1</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/Aeros-A/NATE</ResourceID>
+        <ResourceHeader>
+            <ResourceName>The Neutral Atmosphere Temperature Experiment (NATE)</ResourceName>
+            <ReleaseDate>2011-11-07T00:00:00Z</ReleaseDate>
+            <Description>The Neutral Atmosphere Temperature Experiment (NATE) on AEROS-A, which was designed primarily to make in situ measurements of temperature, also functioned in an alternate mode as a neutral mass spectrometer to measure argon, atomic oxygen, nitrogen, and helium densities. Mounted at the satellite periphery was a spherical antechamber with a knife-edged orifice facing normal to the spin axis. This chamber, sealed under vacuum before launch, was opened to the atmosphere on command when the spacecraft was in orbit. The incoming atmospheric species underwent collisions with the chamber walls, and some of this thermalized gas entered a small dual-filament ion source that produced an ion beam proportional to the chamber density. The beam was directed into a quadrupole analyzer, that transmitted selected ions to an electron multiplier where individual ions at the input were converted to pulses of electrons, which were counted at the multiplier output. These output pulses were amplified and sent to a data processor that provided digital output signals to the telemetry system. Because of a difficulty in the timing system of the spacecraft, proper synchronization of the data frame with the spin position was not achieved--a requirement essential for the analysis of the data in the temperature mode. The instrument performed well as a mass spectrometer throughout the lifetime of the spacecraft, and good quality nitrogen, oxygen, and helium data were obtained from perigee to an altitude of about 550 km. For argon, the signal-to-noise ratio decreased rapidly above 350 km, and useful data were obtained only up to that altitude. </Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Nelson.W.Spencer</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact> 
+            <InformationURL>
+                <Name>NSSDC's Master Catalog</Name>
+                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1972-100A-05</URL>
+                <Description>Information about Aeros-A NATE</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>Spectrometer</InstrumentType>
+        <InvestigationName>The Neutral Atmosphere Temperature Experiment on Aeros-A</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/Aeros-A</ObservatoryID>
+    </Instrument>
+</Spase>
+
+
