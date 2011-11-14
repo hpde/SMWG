@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Solar Proton Monitor</ResourceName>
       <AlternateName>SPM</AlternateName>
-      <ReleaseDate>2011-10-07T18:29:52Z</ReleaseDate>
+      <ReleaseDate>2011-11-14T20:25:10Z</ReleaseDate>
       <Description>This experiment was designed to continuously monitor directional fluxes of: (1) protons in five contiguous intervals between 0.15 and 40 MeV (interval thresholds of 0.15, 0.30, 0.60, 1.5, and 6.6 MeV), (2) protons in the ranges 400 to 600 and 600 to 1000 MeV, (3) protons above 1000 MeV, (4) alpha particles in five contiguous energy intervals between 0.6 and 100 MeV (interval thresholds of 0.60, 0.90, 1.4, 3.5, and 11 MeV), (5) alpha particles between 330 and 600 MeV, (6) alpha particles above 600 MeV, and (7) electrons above 250 keV. Omnidirectional fluxes of protons above 10, 30, and 60 MeV were monitored.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Donald.J.Williams</PersonID>
@@ -21,6 +21,6 @@
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Solar Proton Monitor on NOAA  5</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/NOAA5</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/NOAA/5</ObservatoryID>
   </Instrument>
 </Spase>
