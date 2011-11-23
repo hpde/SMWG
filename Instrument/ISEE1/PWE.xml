@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd" lang="en">
+  <Version>2.2.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/ISEE1/PWE</ResourceID>
+    <ResourceHeader>
+      <ResourceName>ISEE-1 Plasma wave experiment</ResourceName>
+      <AlternateName>ISEE-1 Plasma wave investigation</AlternateName>
+      <ReleaseDate>2011-04-04T00:00:00Z</ReleaseDate>
+      <Description>
+This experiment, in conjunction with a similar (but simpler) experiment on ISEE 2, was designed to measure wave phenomena occurring within the magnetosphere and solar wind. Three electric dipole antennas (215 m, 73.5 m, and 0.61 m) and a triaxial search-coil antenna were used. The instrumentation consisted of four main elements: (1) a narrow-band sweep-frequency receiver with 32 frequency steps in each of four bands from 100 Hz to 400 kHz, a complete sweep required 32 s; (2) a high-time-resolution spectrum analyzer with 20 channels from 5.62 Hz to 311 kHz for electric field and 14 identical channels from 5.62 Hz to 10 kHz for magnetic field information, the electric and magnetic channels were sampled simultaneously; (3) a wave-normal analyzer to provide components for computing the wave normal and the Poynting flux, this analyzer had a 10-Hz bandwidth, and covered 32 frequencies from 100 Hz to 5 kHz; and (4) a wide-band receiver to condition electric and magnetic waveforms for transmission to the ground via the special-purpose analog transmitter, this receiver also provided the signals for long-baseline-interferometer measurements between ISEE 1 and ISEE 2. There were two basic frequency channels: 10 Hz to 1 kHz and 650 Hz to 10 or 40 kHz. In addition, the frequency range could be shifted by a frequency-conversion scheme to any of eight ranges up to 2 MHz.
+
+Selected References:
+
+Gurnett, D. A., et al., ISEE-1 and ISEE-2 plasma wave investigation, IEEE Trans. Geosci. Electron., GE-16, No. 3, 225-230, July 1978.
+
+Gurnett, D. A., et al., Survey of plasma wave observations from ISEE 1 and ISEE 2, In -- The 13th ESLAB Symp., Innsbruck, Austria, June 5-7, 1978.
+
+Gurnett, D. A., et al., Initial results from the ISEE-1 and -2 plasma wave investigation, Space Sci. Rev., 23, 103-122, 1979.
+      </Description>
+      <Acknowledgement />
+      <Contact>
+        <PersonID>spase://SMWG/Person/Donald.A.Gurnett</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Frederick.L.Scarf</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Robert.W.Fredricks</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Edward.J.Smith</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/H.Kent.Hills</PersonID>
+        <Role>TechnicalContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1977-102A-07</URL>
+        <Description>Information about the Plasma waves experiment on the ISEE 1 mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Antenna</InstrumentType>
+    <InstrumentType>SearchCoil</InstrumentType>
+    <InvestigationName>Plasma wave experiment on ISEE 1</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/ISEE1</ObservatoryID>
+  </Instrument>
+</Spase>
