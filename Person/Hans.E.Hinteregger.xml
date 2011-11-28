@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+    <Version>2.2.1</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Hans.E.Hinteregger</ResourceID>
+        <PersonName>Dr. Hans E Hinteregger</PersonName>
+        <OrganizationName>Cranfield University</OrganizationName> 
+	    <Note>Formerly with Phillips Laboratory of the United States Air Force</Note> 
+    </Person>
+</Spase>
+
+
