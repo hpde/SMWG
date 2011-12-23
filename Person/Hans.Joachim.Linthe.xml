@@ -1,13 +1,14 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Hans.Joachim.Linthe</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
-      <PersonName>Hans Joachim Linthe</PersonName>
-      <OrganizationName>GeoForschungsZentrum Potsdam</OrganizationName>
-      <Address>GeoForschungsZentrum Potsdam, Adolf-Schmidt-Observatorium Niemegk, Lindenstr. 7, D-14823 Niemegk</Address>
-      <Email>linthe@gfz-potsdam.de</Email>
-      <PhoneNumber>+49 33843 624 14</PhoneNumber>
-   </Person>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.2.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Hans.Joachim.Linthe</ResourceID>
+    <ReleaseDate>2011-12-23T20:53:01Z</ReleaseDate>
+    <PersonName>Dr. Hans Joachim Linthe</PersonName>
+    <OrganizationName>GeoForschungsZentrum (GFZ-Potsdam)</OrganizationName>
+    <Address>Lindenstrasse 7, D-14823 Niemegk, Germany</Address>
+    <Email>linthe@gfz-potsdam.de</Email>
+    <Email>kp_index@gfz-potsdam.de</Email>
+    <PhoneNumber>+49 33843 624 14</PhoneNumber>
+  </Person>
 </Spase>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema    http://www.spase-group.org/data/schema/spase-2_2.1.xsd">
+  <Version>2.2.1</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/GFZ</ResourceID>
+    <ResourceHeader>
+      <ResourceName>GeoForschungsZentrum (GFZ-Potsdam)</ResourceName>
+      <ReleaseDate>2011-12-23T20:54:26Z</ReleaseDate>
+      <Description>GFZ-Potsdam assumed responsibility for creating
+and distributing Kp and related geomagnetic activity indices in 1997.
+Otherwise, GFZ has a broad spectrum of activities.</Description>
+      <Acknowledgement>GFZ-Potsdam</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Hans.Joachim.Linthe</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>GFZ Top WWW Page</Name>
+      <URL>http://www.gfz-potsdam.de/</URL>
+      <Description>GFZ Top WWW Page</Description>
+      <Language>EN</Language>
+    </AccessURL>
+  </Repository>
+</Spase>

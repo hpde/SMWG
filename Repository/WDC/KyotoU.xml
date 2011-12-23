@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.2.1</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/WDC/KyotoU</ResourceID>
+    <ResourceHeader>
+      <ResourceName>WDC for Geomagnetism, Kyoto U.</ResourceName>
+      <ReleaseDate>2011-12-23T20:45:16Z</ReleaseDate>
+      <Description>WDC for Geomagnetism, Kyoto University</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Toshihiko.Iyemori</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>WDC for Geomagnetism, Kyoto University</Name>
+      <URL>http://wdc.kugi.kyoto-u.ac.jp/index.html</URL>
+      <Description>World Data Center system is in transition to the 
+World Data System, as of 2011.</Description>
+    </AccessURL>
+  </Repository>
+</Spase>
