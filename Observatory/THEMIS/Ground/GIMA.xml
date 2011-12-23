@@ -1,48 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema 
-    http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-    <Version>2.2.1</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/THEMIS/Ground/GIMA</ResourceID>
-        <ResourceHeader>
-            <ResourceName>THEMIS-GIMA</ResourceName>
-	    <AlternateName>NASA THEMIS Ground Stations in Alaska</AlternateName>
-            <ReleaseDate>2011-12-16T00:00:00Z</ReleaseDate>
-            <Description> The Alaska Geophysical Institute Magnetometer Array (GIMA) is part of the THEMIS Ground based observatory network.  The university operates magnetometer sites at locations across Alaska and Western Canada. Originally established as the Alaska Meridian Chain, the number of sites has increased to support the GI rocket program carried out at the Poker Flat Rocket Range. In addition to fluxgate magnetometer, all-sky cameras, Meridian Scanning Photometers and other instruments are occasionally operated at the sites.
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema      http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.2.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/THEMIS/Ground/GIMA</ResourceID>
+    <ResourceHeader>
+      <ResourceName>THEMIS-GIMA</ResourceName>
+      <AlternateName>NASA THEMIS Ground Stations in Alaska</AlternateName>
+      <ReleaseDate>2011-12-16T00:00:00Z</ReleaseDate>
+      <Description> The Alaska Geophysical Institute Magnetometer Array (GIMA) is part of the THEMIS Ground based observatory network.  The university operates magnetometer sites at locations across Alaska and Western Canada. Originally established as the Alaska Meridian Chain, the number of sites has increased to support the GI rocket program carried out at the Poker Flat Rocket Range. In addition to fluxgate magnetometer, all-sky cameras, Meridian Scanning Photometers and other instruments are occasionally operated at the sites.
            </Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
-                <Role>PrincipalInvestigator</Role>
-            </Contact> 
-            <Contact>
-                <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
-                <Role>CoInvestigator</Role>
-            </Contact> 
-            <Contact>
-                <PersonID>spase://SMWG/Person/Stephen.B.Mende</PersonID>
-                <Role>CoInvestigator</Role>
-            </Contact> 
-            <InformationURL>
-                <Name>THEMIS Web Site</Name>
-                <URL>
-                 http://magnet.asf.alaska.edu/access_data_back.html
-                </URL>
-                <Description>Description of GIMA Magnetometer Program on UAF web site</Description>
-            </InformationURL>
-            <InformationURL>
-                <Name>THEMIS Web Site</Name>
-                <URL>
-                 http://themis.ssl.berkeley.edu/instrument_gmags.shtml
-                </URL>
-                <Description>Description of GMAGS on THEMIS web site</Description>
-            </InformationURL>
-        </ResourceHeader>
-        <Location>
-            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-        </Location>
-    </Observatory>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Stephen.B.Mende</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>THEMIS Web Site</Name>
+        <URL>http://magnet.asf.alaska.edu/access_data_back.html</URL>
+        <Description>Description of GIMA Magnetometer Program on UAF web site</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>THEMIS Web Site</Name>
+        <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+        <Description>Description of GMAGS on THEMIS web site</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+    </Location>
+  </Observatory>
 </Spase>
-
-
