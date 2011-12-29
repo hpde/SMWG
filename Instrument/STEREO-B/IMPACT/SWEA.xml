@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+<Version>2.2.1</Version>
+<Instrument>
+    <ResourceID>spase://SMWG/Instrument/STEREO-B/IMPACT/SWEA</ResourceID>
+    <ResourceHeader>
+      <ResourceName>STEREO-B IMPACT/SWEA</ResourceName>
+      <AlternateName>STEREO-B IMPACT Solar Wind Plasma Electron Analyzer</AlternateName>
+      <ReleaseDate>2011-12-21T00:00:00Z</ReleaseDate>
+      <Description>
+SWEA is designed to measure the distribution function of the solar wind core and halo electrons from below an eV to several keV, with high spectral and angular resolution over practically the full spherical range. This capability allows the distinction between these components in detail during both undisturbed periods and the passage of CME generated disturbances, when the interplanetary field rotates far out of the ecliptic plane. SWEA consists of a hemispherical top-hat electrostatic analyzer (ESA) that provides a 360 deg. field of view in a plane, combined with electrostatic deflectors to provide nearly 4 pi coverage when SWEA is mounted at the end of the STEREO boom. The inner plate radius is 3.75 cm and the plate separation is 0.28 cm. The resulting energy resolution dE/E is 18%, and the geometric factor is 0.01 cm2 ster E (eV). SWEA compensates for the effects of spacecraft potential on the lowest energy particles by having an outer hemisphere that can be biased according to the plasma density measured by the PLASTIC solar wind ion instrument.  Detailed descriptions of the IMPACT SWEA can be found in Space Science Reviews 136, 227-239 (2008).
+      </Description>
+      <Acknowledgement>The STEREO IMPACT/SWEA Team</Acknowledgement>
+      <Contact>        
+        <PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+         <PersonID>spase://SMWG/Person/Jannis.S.Dandouras</PersonID>
+         <Role>CoInvestigator</Role>
+      </Contact>     
+      <Contact>
+         <PersonID>spase://SMWG/Person/Davin.Larson</PersonID>
+         <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+         <PersonID>spase://SMWG/Person/Jean-Andre.C.Sauvaud</PersonID>
+         <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>      
+        <PersonID>spase://SMWG/Person/Philippe.Louarn</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact> 
+       <InformationURL>
+        <Name>STEREO/IMPACT Mission Site</Name>
+        <URL>http://sprg.ssl.berkeley.edu/impact/</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>
+          http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2006-047B-03
+        </URL>
+      <Description>
+        In-Situ Measurements of Particles and CME Transients (IMPACT) experiment on the STEREO B mission.
+      </Description>
+     </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>ParticleDetector</InstrumentType>
+    <InvestigationName>
+      In-Situ Measurements of Particles and CME Transients (IMPACT) Low Energy Telescope on STEREO B mission. 
+    </InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/STEREO-B</ObservatoryID>
+   </Instrument>
+</Spase>
