@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/STEREO/AttitudeOrbit</ResourceID>
+    <ResourceHeader>
+      <ResourceName>STEREO Attitude and Orbit Data Repository</ResourceName>
+      <ReleaseDate>2012-01-03T18:13:46Z</ReleaseDate>
+      <Description>
+         STEREO attitude and orbit data are generated from SPICE kernels and offered
+         here in the following coordinate systems: GEI, GSE, GSM, HCI, HEE, HEEQ, RTN
+      </Description>
+      <Contact>
+        <!-- Janet Luhmann -->
+        <PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>STEREO Attitude and Orbit Data</Name>
+        <URL>http://www.srl.caltech.edu/STEREO/attorb.html</URL>
+        <Description>STEREO Attitude and Orbit Data Home Page</Description>
+      </InformationURL>
+      <PriorID>spase://VHO/Repository/STEREOattitude</PriorID>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>HTTP access to STEREO attitude and orbit data</Name>
+      <URL>http://www.srl.caltech.edu/STEREO2/Position/</URL>
+    </AccessURL>
+  </Repository>
+</Spase>

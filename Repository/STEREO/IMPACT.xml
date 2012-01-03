@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/STEREO/IMPACT</ResourceID>
+    <ResourceHeader>
+      <ResourceName>STEREO IMPACT</ResourceName>
+      <ReleaseDate>2012-01-03T18:10:07Z</ReleaseDate>
+      <Description>The STEREO IMPACT mission web site provides information about instruments as well as associated data sets. It provides summary plots and data retrieval.</Description>
+      <Contact>
+        <!-- Janet Luhmann -->
+        <PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>STEREO IMPACT Mission Site</Name>
+        <URL>http://sprg.ssl.berkeley.edu/impact</URL>
+        <Description>STEREO IMPACT data and information portal</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>STEREO IMPACT Level 1</Name>
+      <URL>http://stereo.ssl.berkeley.edu/l1data/</URL>
+    </AccessURL>
+  </Repository>
+</Spase>
