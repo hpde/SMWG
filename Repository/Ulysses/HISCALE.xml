@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/Ulysses/HISCALE</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Ulysses HISCALE Data Repository</ResourceName>
+      <ReleaseDate>2012-01-03T18:18:29Z</ReleaseDate>
+      <Description>
+        Site hosted by Fundamental Technologies with access to HISCALE data as well as documentation and explanations of HISCALE print-groups and CSV file nomenclature.
+      </Description>
+      <Contact>
+        <!-- Tom Armstrong -->
+        <PersonID>spase://SMWG/Person/Thomas.P.Armstrong</PersonID>
+        <Role>DataProducer</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Explaination of HISCALE print-groups and CSV file nomenclature</Name>
+        <URL>http://data.ftecs.com/archive/ulysses_hiscale/Explanations/must%20read/explanation-csv-files.htm</URL>
+        <Description> The Explanation.html page at Fundamental Technologies describes how the
+           numeric data from the Ulysses HISCALE instrument are divided into different
+           print-groups, the nomenclature of the ASCII-based comma-separated variable
+           (CSV) files, and how those files can be accessed.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>Ulysses HISCALE data repository</Name>
+      <URL>http://data.ftecs.com/archive/ulysses_hiscale/</URL>
+    </AccessURL>
+  </Repository>
+</Spase>
