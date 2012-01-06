@@ -34,17 +34,18 @@
         
         * (1) a wideband/long baseline receiver 
         with a bandwidth of 10 or 40 kHz in the range 0-2 MHz; 
-        * (2) a sweep-frequency correlator, containing two sweep-frequency 
+        * (2) a step-frequency correlator, containing two sweep-frequency 
         receivers and phase detectors, sweeping 100 Hz to 400 kHz in 32 
         s, and giving the phase between magnetic and electric components 
         of the field;
         * (3) a low-frequency correlator containing two 
         filter receivers and phase detectors (eight filters in the range 
-        1.78-100 Hz were swept in 8 s);
+        1.78-100 Hz). The sweep rate is 8 s/spectra at the high frequency end 
+        (above 18 Hz); it is 32 s/spectra for frequencies for 1.8-10 Hz;
         * (4) dc monitors that measured 
         the voltage difference between the two sets of long dipole 
         antennas; and
-        * (5) a linear wideband receiver, selectable from 
+        * (5) a linear wave receiver, selectable from 
         1.5 to 3.0, 3 to 6, or 10 to 16 kHz bands. 
         
         The wideband receiver 
