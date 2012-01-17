@@ -5,7 +5,6 @@
     <ResourceID>spase://SMWG/Instrument/FAST/MAG</ResourceID>
     <ResourceHeader>
       <ResourceName>Tri-Axial Fluxgate and Search-coil Magnetometers</ResourceName>
-      <AlternateName>TEAMS</AlternateName>
       <ReleaseDate>2009-05-20T21:10:14Z</ReleaseDate>
       <Description>The FAST magnetic field instrumentation includes a DC fluxgate magnetometer and an AC search coil magnetometer. The fluxgate magnetometer is a three-axis instrument using highly stable low noise ring core sensors. It is boom-mounted at 2 m from the spacecraft body in a shielded housing. It provides magnetic field information from DC to 100 Hz to a 16-bit analog-to-digital converter. Time resolution is 2 ms and the sensitivity below 50 Hz close to 1 nT. The search coil magnetometer (also boom-mounted) uses a three axis sensor system that contains laminated permalloy cores, windings and preamplifiers. The design is based on the OGO-5 instrument with recent developments implemented on classified projects. The signals are further amplified in the electronics before analog-to-digital conversion. An AC magnetic field measurement is provided over the frequency range 10 Hz to 2.5 kHz with a time resolution of 0.1 ms and a frequency-dependent sensitivity between 10^-8 and 10^-10 nT^2/Hz.</Description>
       <Contact>
