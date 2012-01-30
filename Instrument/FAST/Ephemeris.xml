@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/FAST/Ephemeris</ResourceID>
+    <ResourceHeader>
+      <ResourceName>FAST Position</ResourceName>
+      <AlternateName>FAST Ephemeris</AlternateName>
+      <ReleaseDate>2012-01-26T21:10:14Z</ReleaseDate>
+      <Description>FAST spacecraft position in GSE coordinate system</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
+        <Role>DataProducer</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>Platform</InstrumentType>
+    <InvestigationName>Spacecraft position</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/FAST</ObservatoryID>
+  </Instrument>
+</Spase>
