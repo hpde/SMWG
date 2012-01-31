@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/Savissivik</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Savissivik</ResourceName>
+         <AlternateName>Observatory Station Code: SVS</AlternateName>
+         <ReleaseDate>2012-01-31T12:34:56.789</ReleaseDate>
+         <Description>The Savissivik geophysical observatory.</Description>
+         <Acknowledgement>Danish Meteorological Institute, Lyngbyvej 100, DK-2100 Copenhagen</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Savissivik Vector Magnetic Field Data</Name>
+            <URL>http://geomag.dmi.dk</URL>
+            <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>76.02</Latitude>
+         <Longitude>294.9</Longitude>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2007-01-01T00:00:00.000</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>
