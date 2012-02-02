@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
-   <Version>2.0.1</Version>
-   <Instrument>
-      <ResourceID>spase://SMWG/Instrument/Interball-1/FGMI</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Interball-1 Tri-axial Fluxgate Magnetometer FGM-I</ResourceName>
-         <AlternateName>MFI</AlternateName>
-         <ReleaseDate>2010-02-04T12:34:56.789</ReleaseDate>
-         <Description>The FGM-I instrument on the Interball Tail Probe consists of a triaxial fluxgate magnetometer and a Langmuir split probe plasma current sensor. The analog signal is transmitted to the telemetry system and to the MIF-M filter bank.
+  <Version>2.0.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Interball-1/FGMI</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Interball-1 Tri-axial Fluxgate Magnetometer FGM-I</ResourceName>
+      <AlternateName>MFI</AlternateName>
+      <ReleaseDate>2010-02-04T12:34:56.789</ReleaseDate>
+      <Description>The FGM-I instrument on the Interball Tail Probe consists of a triaxial fluxgate magnetometer and a Langmuir split probe plasma current sensor. The analog signal is transmitted to the telemetry system and to the MIF-M filter bank.
             Fields and waves are measured on the Tail Probe by the ASPI consortium of experiments, which includes: MIF-M -- fluxgate and search-coil magnetometers; FGM-I -- triaxial fluxgate sensor and plasma current sensor; OPERA -- a complex of electric field instruments; and PRAM -- the digital waveform processor unit. Two more ASPI instruments, ADS and IFPE, failed to switch on, likely due to hardware problems.
             The FGMI magnetometer has the next parameters: measured range 0.3-37.5 nT, frequency range 0-2 Hz, sampling rate from 1/4 to 8 measurements per second.</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/J.Rustenbach</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Sergey.Savin</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <InformationURL>
-            <Name>NSSDC's Master Catalog</Name>
-            <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1995-039A-19</URL>
-            <Description>Information about the Tri-axial Fluxgate Magnetometer FGM-I experiment on the Interball Tail Probe mission.</Description>
-         </InformationURL>
-      </ResourceHeader>
-      <InstrumentType>Magnetometer</InstrumentType>
-      <InvestigationName>Tri-axial Fluxgate Magnetometer FGM-I on Interball Tail Probe</InvestigationName>
-      <ObservatoryID>spase://SMWG/Observatory/Interball-1</ObservatoryID>
-   </Instrument>
+      <Contact>
+        <PersonID>spase://SMWG/Person/J.Rustenbach</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Sergey.Savin</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1995-039A-19</URL>
+        <Description>Information about the Tri-axial Fluxgate Magnetometer FGM-I experiment on the Interball Tail Probe mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Tri-axial Fluxgate Magnetometer FGM-I on Interball Tail Probe</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Interball-1</ObservatoryID>
+  </Instrument>
 </Spase>

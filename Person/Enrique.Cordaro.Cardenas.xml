@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Enrique.Cordaro.Cardenas</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
-      <PersonName>Enrique Cordaro Cardenas</PersonName>
-      <OrganizationName>Physics Department</OrganizationName>
-      <Address>Physics Department, Blanco Encalada 2008, Postal Code 6511226, University of Chile, 487-3 Santiago, Chile</Address>
-      <PhoneNumber>56 2 9784383</PhoneNumber>
-      <FaxNumber>56 2 6967359</FaxNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Enrique.Cordaro.Cardenas</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
+    <PersonName>Enrique Cordaro Cardenas</PersonName>
+    <OrganizationName>Physics Department</OrganizationName>
+    <Address>Physics Department, Blanco Encalada 2008, Postal Code 6511226, University of Chile, 487-3 Santiago, Chile</Address>
+    <PhoneNumber>56 2 9784383</PhoneNumber>
+    <FaxNumber>56 2 6967359</FaxNumber>
+  </Person>
 </Spase>

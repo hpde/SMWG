@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd" lang="en">
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd" lang="en">
   <Version>2.2.1</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/ISEE1/PWE</ResourceID>
@@ -19,7 +18,7 @@ Gurnett, D. A., et al., Survey of plasma wave observations from ISEE 1 and ISEE 
 
 Gurnett, D. A., et al., Initial results from the ISEE-1 and -2 plasma wave investigation, Space Sci. Rev., 23, 103-122, 1979.
       </Description>
-      <Acknowledgement />
+      <Acknowledgement/>
       <Contact>
         <PersonID>spase://SMWG/Person/Donald.A.Gurnett</PersonID>
         <Role>PrincipalInvestigator</Role>

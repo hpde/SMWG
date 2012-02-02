@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.1</Version>
-    <Instrument>
-        <ResourceID>spase://SMWG/Instrument/AE-E/EUVS</ResourceID>
-        <ResourceHeader>
-            <ResourceName>The Extreme Ultraviolet Spectrometer (EUVS)</ResourceName>
-            <ReleaseDate>2011-11-16T00:00:00Z</ReleaseDate>
-            <Description>The Extreme Ultraviolet Spectrometer (EUVS) was used to observe the variations in the solar EUV flux in the wavelength range from 140 to 1850 A and the atmospheric attenuation at various fixed wavelengths. This provided quantitative atmospheric structure and composition data. The instrument consisted of 24 grazing-incidence grating monochromators, using parallel-slit systems for entrance collimation and photoelectric detectors at the exit slits. Twelve of these monochromators had wavelength scan capability, each with 128 selectable wavelength positions, which could also automatically step scan through these positions. The other 12 monochromators operated at fixed wavelengths with fields of view smaller than the full solar disk to aid in the atmospheric absorption analysis. The spectral resolution varied from 2 to 54 A depending upon the particular instrument. The field of view varied from 60 x 60 down to 3 x 6 arc min. All 24 monochromator-entrance axes were co-aligned parallel. A solar pointing system could point to 256 different positions, execute a 16-step one-dimensional scan or a full 256-step raster. The time resolution varied from 0.5 s for observing 12 fixed wavelengths up to 256 s for programming the EUVS through all possible modes. More details can be found in H. E. Hinteregger et al., Radio Sci., v. 8, n. 4, p. 349, 1973.</Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Hans.E.Hinteregger</PersonID>
-                <Role>PrincipalInvestigator</Role>
-            </Contact> 
-            <InformationURL>
-                <Name>NSSDC's Master Catalog</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1975-107A-06</URL>
-                <Description>Information about AE-E EUVS</Description>
-            </InformationURL>
-        </ResourceHeader>
-        <InstrumentType>Spectrometer</InstrumentType>
-        <InvestigationName>The Extreme Ultraviolet Spectrometer (EUVS) on AE-E</InvestigationName>
-        <ObservatoryID>spase://SMWG/Observatory/AE-E</ObservatoryID>
-    </Instrument>
+  <Version>2.2.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/AE-E/EUVS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>The Extreme Ultraviolet Spectrometer (EUVS)</ResourceName>
+      <ReleaseDate>2011-11-16T00:00:00Z</ReleaseDate>
+      <Description>The Extreme Ultraviolet Spectrometer (EUVS) was used to observe the variations in the solar EUV flux in the wavelength range from 140 to 1850 A and the atmospheric attenuation at various fixed wavelengths. This provided quantitative atmospheric structure and composition data. The instrument consisted of 24 grazing-incidence grating monochromators, using parallel-slit systems for entrance collimation and photoelectric detectors at the exit slits. Twelve of these monochromators had wavelength scan capability, each with 128 selectable wavelength positions, which could also automatically step scan through these positions. The other 12 monochromators operated at fixed wavelengths with fields of view smaller than the full solar disk to aid in the atmospheric absorption analysis. The spectral resolution varied from 2 to 54 A depending upon the particular instrument. The field of view varied from 60 x 60 down to 3 x 6 arc min. All 24 monochromator-entrance axes were co-aligned parallel. A solar pointing system could point to 256 different positions, execute a 16-step one-dimensional scan or a full 256-step raster. The time resolution varied from 0.5 s for observing 12 fixed wavelengths up to 256 s for programming the EUVS through all possible modes. More details can be found in H. E. Hinteregger et al., Radio Sci., v. 8, n. 4, p. 349, 1973.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Hans.E.Hinteregger</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1975-107A-06</URL>
+        <Description>Information about AE-E EUVS</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Spectrometer</InstrumentType>
+    <InvestigationName>The Extreme Ultraviolet Spectrometer (EUVS) on AE-E</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/AE-E</ObservatoryID>
+  </Instrument>
 </Spase>
-
-

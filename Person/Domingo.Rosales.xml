@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Domingo.Rosales</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
-      <PersonName>Domingo Rosales</PersonName>
-      <OrganizationName>Observatorio de Huancayo apartado 46 Huancayo</OrganizationName>
-      <Email>domingo@axil.igp.gob.pe</Email>
-      <PhoneNumber>(51)-064-216695</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Domingo.Rosales</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
+    <PersonName>Domingo Rosales</PersonName>
+    <OrganizationName>Observatorio de Huancayo apartado 46 Huancayo</OrganizationName>
+    <Email>domingo@axil.igp.gob.pe</Email>
+    <PhoneNumber>(51)-064-216695</PhoneNumber>
+  </Person>
 </Spase>

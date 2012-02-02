@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/Ny.Alesund</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Ny Alesund</ResourceName>
-         <AlternateName>Observatory Station Code: NAL</AlternateName>
-         <ReleaseDate>2012-01-31T12:34:56.789</ReleaseDate>
-         <Description>The Ny Alesund geophysical observatory.</Description>
-         <Acknowledgement>Tromso Geophysical Observatory, University of Tromso</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>Ny Alesund Vector Magnetic Field Data</Name>
-            <URL>http://flux.phys.uit.no/geomag.html</URL>
-            <Description>Main menu: data access</Description>
-         </InformationURL>
-      </ResourceHeader>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>78.9222</Latitude>
-         <Longitude>11.9339</Longitude>
-         <Elevation>10.0</Elevation>
-      </Location>
-      <OperatingSpan>
-         <StartDate>2009-01-18T00:00:00.000</StartDate>
-      </OperatingSpan>
-   </Observatory>
+  <Version>2.2.2</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/Ny.Alesund</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Ny Alesund</ResourceName>
+      <AlternateName>Observatory Station Code: NAL</AlternateName>
+      <ReleaseDate>2012-01-31T12:34:56.789</ReleaseDate>
+      <Description>The Ny Alesund geophysical observatory.</Description>
+      <Acknowledgement>Tromso Geophysical Observatory, University of Tromso</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Ny Alesund Vector Magnetic Field Data</Name>
+        <URL>http://flux.phys.uit.no/geomag.html</URL>
+        <Description>Main menu: data access</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>78.9222</Latitude>
+      <Longitude>11.9339</Longitude>
+      <Elevation>10.0</Elevation>
+    </Location>
+    <OperatingSpan>
+      <StartDate>2009-01-18T00:00:00.000</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

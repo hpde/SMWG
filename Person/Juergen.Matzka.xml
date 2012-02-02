@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Juergen.Matzka</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
-      <PersonName>Juergen Matzka</PersonName>
-      <OrganizationName>Geophysical Observatory</OrganizationName>
-      <Address>Geophysical Observatory, Ludwigshohe 8, D-82256 Furstenfeldbruck, Germany</Address>
-      <Email>magnetic@fur.observatory.uni-muenchen.de</Email>
-      <PhoneNumber>49 8141 92478</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Juergen.Matzka</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
+    <PersonName>Juergen Matzka</PersonName>
+    <OrganizationName>Geophysical Observatory</OrganizationName>
+    <Address>Geophysical Observatory, Ludwigshohe 8, D-82256 Furstenfeldbruck, Germany</Address>
+    <Email>magnetic@fur.observatory.uni-muenchen.de</Email>
+    <PhoneNumber>49 8141 92478</PhoneNumber>
+  </Person>
 </Spase>

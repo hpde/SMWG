@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/Tristan.da.Cunha</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Tristan da Cunha</ResourceName>
-         <AlternateName>Observatory Station Code: TDC</AlternateName>
-         <ReleaseDate>2012-01-31T12:34:56.789</ReleaseDate>
-         <Description>The Tristan da Cunha geophysical observatory.</Description>
-         <Acknowledgement>Tromso Geophysical Observatory, University of Tromso</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>Tristan da Cunha Vector Magnetic Field Data</Name>
-            <URL>http://flux.phys.uit.no/geomag.html</URL>
-            <Description>Main menu: data access</Description>
-         </InformationURL>
-      </ResourceHeader>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>-37.0678</Latitude>
-         <Longitude>-12.3167</Longitude>
-         <Elevation>45.0</Elevation>
-      </Location>
-      <OperatingSpan>
-         <StartDate>2009-09-01T00:00:00.000</StartDate>
-      </OperatingSpan>
-   </Observatory>
+  <Version>2.2.2</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/Tristan.da.Cunha</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Tristan da Cunha</ResourceName>
+      <AlternateName>Observatory Station Code: TDC</AlternateName>
+      <ReleaseDate>2012-01-31T12:34:56.789</ReleaseDate>
+      <Description>The Tristan da Cunha geophysical observatory.</Description>
+      <Acknowledgement>Tromso Geophysical Observatory, University of Tromso</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Tristan da Cunha Vector Magnetic Field Data</Name>
+        <URL>http://flux.phys.uit.no/geomag.html</URL>
+        <Description>Main menu: data access</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>-37.0678</Latitude>
+      <Longitude>-12.3167</Longitude>
+      <Elevation>45.0</Elevation>
+    </Location>
+    <OperatingSpan>
+      <StartDate>2009-09-01T00:00:00.000</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

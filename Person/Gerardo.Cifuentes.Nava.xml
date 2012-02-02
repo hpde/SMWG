@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Gerardo.Cifuentes.Nava</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
-      <PersonName>Gerardo Cifuentes Nava</PersonName>
-      <OrganizationName>Instituto de Geofisica</OrganizationName>
-      <Address>Instituto de Geofisica, Ciudad Universitaria, Delegacion de Coyoacan, Codigo 04510 Mexico D.F., Mexico</Address>
-      <Email>gercifue@igeofcu.unam.mx</Email>
-      <PhoneNumber>+52 5 62 41 49</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Gerardo.Cifuentes.Nava</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
+    <PersonName>Gerardo Cifuentes Nava</PersonName>
+    <OrganizationName>Instituto de Geofisica</OrganizationName>
+    <Address>Instituto de Geofisica, Ciudad Universitaria, Delegacion de Coyoacan, Codigo 04510 Mexico D.F., Mexico</Address>
+    <Email>gercifue@igeofcu.unam.mx</Email>
+    <PhoneNumber>+52 5 62 41 49</PhoneNumber>
+  </Person>
 </Spase>

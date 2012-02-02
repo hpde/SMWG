@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Toshifumi.Mukai</ResourceID>
-      <ReleaseDate>2011-02-02T16:49:41Z</ReleaseDate>
-      <PersonName>Prof. Toshifumi Mukai</PersonName>
-      <OrganizationName>Institute of Space and Astronautical Science, JAXA</OrganizationName>
-      <Address>3-1-1 Yoshinodai, Sagamihara, Kanagawa 229-8510, Japan</Address>
-      <Email>mukai@stp.isas.jaxa.jp</Email>
-      <PhoneNumber>+81 42 751 3911</PhoneNumber>
-      <FaxNumber>+81-42-759-8456</FaxNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Toshifumi.Mukai</ResourceID>
+    <ReleaseDate>2011-02-02T16:49:41Z</ReleaseDate>
+    <PersonName>Prof. Toshifumi Mukai</PersonName>
+    <OrganizationName>Institute of Space and Astronautical Science, JAXA</OrganizationName>
+    <Address>3-1-1 Yoshinodai, Sagamihara, Kanagawa 229-8510, Japan</Address>
+    <Email>mukai@stp.isas.jaxa.jp</Email>
+    <PhoneNumber>+81 42 751 3911</PhoneNumber>
+    <FaxNumber>+81-42-759-8456</FaxNumber>
+  </Person>
 </Spase>

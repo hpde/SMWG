@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.0</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/WDC/Hurbanovo</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Hurbanovo Ground Observatory</ResourceName>
-            <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
-            <Description>The Hurbanovo Observatory</Description>
-            <Acknowledgement>Geophysical Institute, Slovak Academy of Sciences</Acknowledgement>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Zoltan.Voros</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Magdalena.Vaczyova</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-                <Role>MetadataContact</Role>
-            </Contact>
-        </ResourceHeader>
-        <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
-        <Location>
-            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-            <CoordinateSystemName>GEO</CoordinateSystemName>
-            <Latitude>47.873</Latitude>
-            <Longitude>18.19</Longitude>
-        </Location>
-    </Observatory>
+  <Version>2.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/WDC/Hurbanovo</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Hurbanovo Ground Observatory</ResourceName>
+      <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
+      <Description>The Hurbanovo Observatory</Description>
+      <Acknowledgement>Geophysical Institute, Slovak Academy of Sciences</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Zoltan.Voros</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Magdalena.Vaczyova</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>47.873</Latitude>
+      <Longitude>18.19</Longitude>
+    </Location>
+  </Observatory>
 </Spase>

@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
-   <Version>2.0.1</Version>
-   <Instrument>
-      <ResourceID>spase://SMWG/Instrument/AUGSBURG/BAS.A81/SearchCoil</ResourceID>
-      <ResourceHeader>
-         <ResourceName>The BAS A81 Fluxgate SearchCoil Instrument.</ResourceName>
-         <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
-         <Description>The Fluxgate SearchCoil instrument at the BAS A81 geomagnetic observatory.</Description>
-         <Acknowledgement>Please acknowledge Mark J. Engebretson, Augsburg College (2211 Riverside Avenue, Minneapolis, MN 55454-1338, USA) for use of data from the BAS A81 SearchCoil instrument.</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Mark.J.Engebretson</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>The Augsburg Search Coil Magnetometer Array Home Page.</Name>
-            <URL>http://www.augsburg.edu/physics/antindex.htm</URL>
-            <Description>The Augsburg Antarctic station array information web site.</Description>
-         </InformationURL>
-         <Association>
-            <AssociationID>spase://SMWG/Observatory/AUGSBURG/BAS.A81</AssociationID>
-            <AssociationType>PartOf</AssociationType>
-         </Association>
-      </ResourceHeader>
-      <InstrumentType>SearchCoil</InstrumentType>
-      <InvestigationName>The AUGSBURG Magnetometer Array</InvestigationName>
-      <ObservatoryID>spase://SMWG/Observatory/AUGSBURG/BAS.A81</ObservatoryID>
-   </Instrument>
+  <Version>2.0.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/AUGSBURG/BAS.A81/SearchCoil</ResourceID>
+    <ResourceHeader>
+      <ResourceName>The BAS A81 Fluxgate SearchCoil Instrument.</ResourceName>
+      <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
+      <Description>The Fluxgate SearchCoil instrument at the BAS A81 geomagnetic observatory.</Description>
+      <Acknowledgement>Please acknowledge Mark J. Engebretson, Augsburg College (2211 Riverside Avenue, Minneapolis, MN 55454-1338, USA) for use of data from the BAS A81 SearchCoil instrument.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Mark.J.Engebretson</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The Augsburg Search Coil Magnetometer Array Home Page.</Name>
+        <URL>http://www.augsburg.edu/physics/antindex.htm</URL>
+        <Description>The Augsburg Antarctic station array information web site.</Description>
+      </InformationURL>
+      <Association>
+        <AssociationID>spase://SMWG/Observatory/AUGSBURG/BAS.A81</AssociationID>
+        <AssociationType>PartOf</AssociationType>
+      </Association>
+    </ResourceHeader>
+    <InstrumentType>SearchCoil</InstrumentType>
+    <InvestigationName>The AUGSBURG Magnetometer Array</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/AUGSBURG/BAS.A81</ObservatoryID>
+  </Instrument>
 </Spase>

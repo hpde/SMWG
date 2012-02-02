@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/N.H.Guya</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-      <PersonName>N. H. Guya</PersonName>
-      <OrganizationName>Magnetic Observatory</OrganizationName>
-      <Address>Magnetic Observatory, Institute of Geophysics, Tehran University, Kargar, 14374 Tehran 4, Iran</Address>
-      <PhoneNumber>+98 63 10 81 3</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/N.H.Guya</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
+    <PersonName>N. H. Guya</PersonName>
+    <OrganizationName>Magnetic Observatory</OrganizationName>
+    <Address>Magnetic Observatory, Institute of Geophysics, Tehran University, Kargar, 14374 Tehran 4, Iran</Address>
+    <PhoneNumber>+98 63 10 81 3</PhoneNumber>
+  </Person>
 </Spase>

@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.0</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/WDC/Fort.Churchill</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Fort Churchill Ground Observatory</ResourceName>
-            <ReleaseDate>2011-02-02T21:55:06Z</ReleaseDate>
-            <Description>The Fort Churchill Observatory</Description>
-            <Acknowledgement>Geological Survey of Canada</Acknowledgement>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Larry.Newitt</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-                <Role>MetadataContact</Role>
-            </Contact>
-        </ResourceHeader>
-        <ObservatoryGroupID>spase://SMWG/Observatory/CARISMA</ObservatoryGroupID>
-        <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
-        <Location>
-            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-            <CoordinateSystemName>GEO</CoordinateSystemName>
-            <Latitude>58.786</Latitude>
-            <Longitude>265.912</Longitude>
-        </Location>
-    </Observatory>
+  <Version>2.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/WDC/Fort.Churchill</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Fort Churchill Ground Observatory</ResourceName>
+      <ReleaseDate>2011-02-02T21:55:06Z</ReleaseDate>
+      <Description>The Fort Churchill Observatory</Description>
+      <Acknowledgement>Geological Survey of Canada</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Larry.Newitt</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/CARISMA</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>58.786</Latitude>
+      <Longitude>265.912</Longitude>
+    </Location>
+  </Observatory>
 </Spase>

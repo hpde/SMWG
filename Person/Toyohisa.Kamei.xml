@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Toyohisa.Kamei</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-      <PersonName>Toyohisa Kamei</PersonName>
-      <OrganizationName>WDC C2 for Geomagnetism</OrganizationName>
-      <Address>WDC C2 for Geomagnetism, Data Analysis Center for Geomagnetism and Spacemagnetism, Faculty of Science, Kyoto University, Japan</Address>
-      <Email>iyemori@swdcgw.kugi.kyoto-u.ac.jp</Email>
-      <PhoneNumber>81 75 753 3929</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Toyohisa.Kamei</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
+    <PersonName>Toyohisa Kamei</PersonName>
+    <OrganizationName>WDC C2 for Geomagnetism</OrganizationName>
+    <Address>WDC C2 for Geomagnetism, Data Analysis Center for Geomagnetism and Spacemagnetism, Faculty of Science, Kyoto University, Japan</Address>
+    <Email>iyemori@swdcgw.kugi.kyoto-u.ac.jp</Email>
+    <PhoneNumber>81 75 753 3929</PhoneNumber>
+  </Person>
 </Spase>

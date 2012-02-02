@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Liu.Changfa</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-      <PersonName>Liu Changfa</PersonName>
-      <OrganizationName>Institute of Geophysics</OrganizationName>
-      <Address>Institute of Geophysics, Chinese Academy of Sciences, Beijing 100101, China</Address>
-      <PhoneNumber>86-01-201-1118</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Liu.Changfa</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
+    <PersonName>Liu Changfa</PersonName>
+    <OrganizationName>Institute of Geophysics</OrganizationName>
+    <Address>Institute of Geophysics, Chinese Academy of Sciences, Beijing 100101, China</Address>
+    <PhoneNumber>86-01-201-1118</PhoneNumber>
+  </Person>
 </Spase>

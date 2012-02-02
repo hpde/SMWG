@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Umran.S.Inan</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-      <PersonName>Umran S. Inan</PersonName>
-      <OrganizationName>STAR Laboratories</OrganizationName>
-      <Address>STAR Laboratories, Durand Building, Stanford University, Stanford, CA 94305</Address>
-      <Email>inan@nova.stanford.edu</Email>
-      <PhoneNumber>+1 415 723 4994</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Umran.S.Inan</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
+    <PersonName>Umran S. Inan</PersonName>
+    <OrganizationName>STAR Laboratories</OrganizationName>
+    <Address>STAR Laboratories, Durand Building, Stanford University, Stanford, CA 94305</Address>
+    <Email>inan@nova.stanford.edu</Email>
+    <PhoneNumber>+1 415 723 4994</PhoneNumber>
+  </Person>
 </Spase>

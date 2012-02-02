@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.0</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/WDC/Changchun</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Changchun Ground Observatory</ResourceName>
-            <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
-            <Description>The Changchun Observatory</Description>
-            <Acknowledgement>State Seismological Bureau, Beijing, China</Acknowledgement>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-                <Role>MetadataContact</Role>
-            </Contact>
-        </ResourceHeader>
-        <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
-        <Location>
-            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-            <CoordinateSystemName>GEO</CoordinateSystemName>
-            <Latitude>43.827</Latitude>
-            <Longitude>125.299</Longitude>
-        </Location>
-    </Observatory>
+  <Version>2.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/WDC/Changchun</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Changchun Ground Observatory</ResourceName>
+      <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
+      <Description>The Changchun Observatory</Description>
+      <Acknowledgement>State Seismological Bureau, Beijing, China</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>43.827</Latitude>
+      <Longitude>125.299</Longitude>
+    </Location>
+  </Observatory>
 </Spase>

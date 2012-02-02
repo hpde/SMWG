@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/Igloolik</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Igloolik</ResourceName>
-         <AlternateName>Observatory Station Code: IGLO</AlternateName>
-         <ReleaseDate>2012-01-31T12:34:56.789</ReleaseDate>
-         <Description>The Igloolik geophysical observatory.</Description>
-         <Acknowledgement>MACCS, Augsburg College</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>Igloolik Vector Magnetic Field Data</Name>
-            <URL>http://space.augsburg.edu/MACCS_DATA/IAGA2000</URL>
-            <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
-         </InformationURL>
-      </ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/MACCS</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>69.3</Latitude>
-         <Longitude>278.2</Longitude>
-      </Location>
-      <OperatingSpan>
-         <StartDate>2008-10-17T00:00:00.000</StartDate>
-      </OperatingSpan>
-   </Observatory>
+  <Version>2.2.2</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/Igloolik</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Igloolik</ResourceName>
+      <AlternateName>Observatory Station Code: IGLO</AlternateName>
+      <ReleaseDate>2012-01-31T12:34:56.789</ReleaseDate>
+      <Description>The Igloolik geophysical observatory.</Description>
+      <Acknowledgement>MACCS, Augsburg College</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Igloolik Vector Magnetic Field Data</Name>
+        <URL>http://space.augsburg.edu/MACCS_DATA/IAGA2000</URL>
+        <Description>Access to ASCII, CDF, and plots via NASA/GSFC CDAWeb</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/MACCS</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>69.3</Latitude>
+      <Longitude>278.2</Longitude>
+    </Location>
+    <OperatingSpan>
+      <StartDate>2008-10-17T00:00:00.000</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

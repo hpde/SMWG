@@ -1,33 +1,33 @@
 <?xml version="1.0"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
-   <Version>2.0.1</Version>
-   <Instrument>
-      <ResourceID>spase://SMWG/Instrument/MEASURE/Millstone.Hill/Magnetometer</ResourceID>
-      <ResourceHeader>
-         <ResourceName>The Millstone Hill Fluxgate Magnetometer Instrument.</ResourceName>
-         <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
-         <Description>The Fluxgate Magnetometer instrument at the Millstone Hill geomagnetic observatory.</Description>
-         <Acknowledgement>Please acknowledge Mark Moldwin, Institute of Geophysics and Planetary Physics and the Department of Earth and Space Sciences (University of California, Los Angeles, Los Angeles, CA 90095-1567) for use of data from the Millstone Hill Magnetometer instrument.</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Mark.Moldwin</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>Measure Magnetometer Array Temporary Web Site</Name>
-            <URL>http://www-ssc.igpp.ucla.edu/gem/worldmag/measure.html</URL>
-            <Description>Temporary web site for the MEASURE magnetometer array.  MEASURE is an acronym for Magnetometers along the Eastern Atlantic Seaboard for Undergraduate Research and Education.  Measure is a meridional array of paired magnetometers along the east coast of the United States.  Begun in 1998.  The magnetometers were constructed by the UCLA magnetometer group.</Description>
-         </InformationURL>
-         <Association>
-            <AssociationID>spase://SMWG/Observatory/MEASURE/Millstone.Hill</AssociationID>
-            <AssociationType>PartOf</AssociationType>
-         </Association>
-      </ResourceHeader>
-      <InstrumentType>Magnetometer</InstrumentType>
-      <InvestigationName>The MEASURE Magnetometer Array</InvestigationName>
-      <ObservatoryID>spase://SMWG/Observatory/MEASURE/Millstone.Hill</ObservatoryID>
-   </Instrument>
+  <Version>2.0.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/MEASURE/Millstone.Hill/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>The Millstone Hill Fluxgate Magnetometer Instrument.</ResourceName>
+      <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
+      <Description>The Fluxgate Magnetometer instrument at the Millstone Hill geomagnetic observatory.</Description>
+      <Acknowledgement>Please acknowledge Mark Moldwin, Institute of Geophysics and Planetary Physics and the Department of Earth and Space Sciences (University of California, Los Angeles, Los Angeles, CA 90095-1567) for use of data from the Millstone Hill Magnetometer instrument.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Mark.Moldwin</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Measure Magnetometer Array Temporary Web Site</Name>
+        <URL>http://www-ssc.igpp.ucla.edu/gem/worldmag/measure.html</URL>
+        <Description>Temporary web site for the MEASURE magnetometer array.  MEASURE is an acronym for Magnetometers along the Eastern Atlantic Seaboard for Undergraduate Research and Education.  Measure is a meridional array of paired magnetometers along the east coast of the United States.  Begun in 1998.  The magnetometers were constructed by the UCLA magnetometer group.</Description>
+      </InformationURL>
+      <Association>
+        <AssociationID>spase://SMWG/Observatory/MEASURE/Millstone.Hill</AssociationID>
+        <AssociationType>PartOf</AssociationType>
+      </Association>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>The MEASURE Magnetometer Array</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/MEASURE/Millstone.Hill</ObservatoryID>
+  </Instrument>
 </Spase>

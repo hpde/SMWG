@@ -1,38 +1,38 @@
 <?xml version="1.0"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
-   <Version>2.0.1</Version>
-   <Instrument>
-      <ResourceID>spase://SMWG/Instrument/WDC/San.Juan/Magnetometer</ResourceID>
-      <ResourceHeader>
-         <ResourceName>The San Juan Fluxgate Magnetometer Instrument.</ResourceName>
-         <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
-         <Description>The Fluxgate Magnetometer instrument at the San Juan geomagnetic observatory.</Description>
-         <Acknowledgement>Please acknowledge Jeffrey J. Love, U.S. Geological Survey, Box 25046 MS 966, Denver Federal Center (Denver, Colorado 80225 USA) for use of data from the San Juan Magnetometer instrument.</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Jeffrey.J.Love</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>The San Juan geomagnetic observatory English language web site.</Name>
-            <URL>http://www.intermagnet.org/imos/imosjg_e.html</URL>
-            <Description>The San Juan geomagnetic observatory English language web site hosted by the Intermagnet program (International Real-time Magnetic Observatory Network).</Description>
-         </InformationURL>
-         <InformationURL>
-            <Name>The San Juan geomagnetic observatory French language web site.</Name>
-            <URL>http://www.intermagnet.org/imos/imosjg_f.html</URL>
-            <Description>The San Juan geomagnetic observatory French language web site hosted by the Intermagnet program (International Real-time Magnetic Observatory Network).</Description>
-         </InformationURL>
-         <Association>
-            <AssociationID>spase://SMWG/Observatory/WDC/San.Juan</AssociationID>
-            <AssociationType>PartOf</AssociationType>
-         </Association>
-      </ResourceHeader>
-      <InstrumentType>Magnetometer</InstrumentType>
-      <InvestigationName></InvestigationName>
-      <ObservatoryID>spase://SMWG/Observatory/WDC/San.Juan</ObservatoryID>
-   </Instrument>
+  <Version>2.0.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/WDC/San.Juan/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>The San Juan Fluxgate Magnetometer Instrument.</ResourceName>
+      <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
+      <Description>The Fluxgate Magnetometer instrument at the San Juan geomagnetic observatory.</Description>
+      <Acknowledgement>Please acknowledge Jeffrey J. Love, U.S. Geological Survey, Box 25046 MS 966, Denver Federal Center (Denver, Colorado 80225 USA) for use of data from the San Juan Magnetometer instrument.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jeffrey.J.Love</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The San Juan geomagnetic observatory English language web site.</Name>
+        <URL>http://www.intermagnet.org/imos/imosjg_e.html</URL>
+        <Description>The San Juan geomagnetic observatory English language web site hosted by the Intermagnet program (International Real-time Magnetic Observatory Network).</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>The San Juan geomagnetic observatory French language web site.</Name>
+        <URL>http://www.intermagnet.org/imos/imosjg_f.html</URL>
+        <Description>The San Juan geomagnetic observatory French language web site hosted by the Intermagnet program (International Real-time Magnetic Observatory Network).</Description>
+      </InformationURL>
+      <Association>
+        <AssociationID>spase://SMWG/Observatory/WDC/San.Juan</AssociationID>
+        <AssociationType>PartOf</AssociationType>
+      </Association>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName/>
+    <ObservatoryID>spase://SMWG/Observatory/WDC/San.Juan</ObservatoryID>
+  </Instrument>
 </Spase>

@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Mark.Moldwin</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-      <PersonName>Mark Moldwin</PersonName>
-      <OrganizationName>Atmospheric, Oceanic, and Spase Sciences</OrganizationName>
-      <Address>Space Research Building, University of Michigan, 2455 Hayward St., Ann Arbor, MI 48109-2143</Address>
-      <Email>mmoldwin@umich.edu</Email>
-      <PhoneNumber>+1 734 647 3370</PhoneNumber>
-      <FaxNumber>+1 734 647 3083</FaxNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Mark.Moldwin</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
+    <PersonName>Mark Moldwin</PersonName>
+    <OrganizationName>Atmospheric, Oceanic, and Spase Sciences</OrganizationName>
+    <Address>Space Research Building, University of Michigan, 2455 Hayward St., Ann Arbor, MI 48109-2143</Address>
+    <Email>mmoldwin@umich.edu</Email>
+    <PhoneNumber>+1 734 647 3370</PhoneNumber>
+    <FaxNumber>+1 734 647 3083</FaxNumber>
+  </Person>
 </Spase>

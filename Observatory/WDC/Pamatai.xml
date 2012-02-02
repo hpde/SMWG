@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.0</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/WDC/Pamatai</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Pamatai Ground Observatory</ResourceName>
-            <ReleaseDate>2009-11-05T12:34:56.789</ReleaseDate>
-            <Description>The Pamatai Observatory</Description>
-            <Acknowledgement>Institut de physique du globe de Paris (IPGP)</Acknowledgement>
-            <Contact>
-                <PersonID>spase://SMWG/Person/WDC/Director.Pamatai.Observatory</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-                <Role>MetadataContact</Role>
-            </Contact>
-        </ResourceHeader>
-        <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
-        <Location>
-            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-            <CoordinateSystemName>GEO</CoordinateSystemName>
-            <Latitude>-17.566</Latitude>
-            <Longitude>210.416</Longitude>
-        </Location>
-    </Observatory>
+  <Version>2.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/WDC/Pamatai</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Pamatai Ground Observatory</ResourceName>
+      <ReleaseDate>2009-11-05T12:34:56.789</ReleaseDate>
+      <Description>The Pamatai Observatory</Description>
+      <Acknowledgement>Institut de physique du globe de Paris (IPGP)</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/WDC/Director.Pamatai.Observatory</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>-17.566</Latitude>
+      <Longitude>210.416</Longitude>
+    </Location>
+  </Observatory>
 </Spase>

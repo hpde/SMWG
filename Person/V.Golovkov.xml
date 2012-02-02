@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/V.Golovkov</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-      <PersonName>V. Golovkov</PersonName>
-      <OrganizationName>IZMIRAN</OrganizationName>
-      <Address>IZMIRAN, Russian Academy of Sciences, Troitsk, Moscow Reg. 142092, Russia</Address>
-      <Email>izmiran@adonis.ias.msk.su</Email>
-      <PhoneNumber>(095) 334 0121</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/V.Golovkov</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
+    <PersonName>V. Golovkov</PersonName>
+    <OrganizationName>IZMIRAN</OrganizationName>
+    <Address>IZMIRAN, Russian Academy of Sciences, Troitsk, Moscow Reg. 142092, Russia</Address>
+    <Email>izmiran@adonis.ias.msk.su</Email>
+    <PhoneNumber>(095) 334 0121</PhoneNumber>
+  </Person>
 </Spase>

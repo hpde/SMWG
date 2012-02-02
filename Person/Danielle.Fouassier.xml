@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Danielle.Fouassier</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
-      <PersonName>Danielle Fouassier</PersonName>
-      <OrganizationName>Observatoire de Geophysique</OrganizationName>
-      <Address>Observatoire de Geophysique, Carrefour des 8 routes, F-45340 CHAMBON LA FORET, FRANCE</Address>
-      <Email>fouassie@ipgp.jussieu.fr</Email>
-      <PhoneNumber>+33 2 3833 9500</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Danielle.Fouassier</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
+    <PersonName>Danielle Fouassier</PersonName>
+    <OrganizationName>Observatoire de Geophysique</OrganizationName>
+    <Address>Observatoire de Geophysique, Carrefour des 8 routes, F-45340 CHAMBON LA FORET, FRANCE</Address>
+    <Email>fouassie@ipgp.jussieu.fr</Email>
+    <PhoneNumber>+33 2 3833 9500</PhoneNumber>
+  </Person>
 </Spase>

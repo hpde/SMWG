@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>1.2.2</Version>
-    <Repository>
-        <ResourceID>spase://SMWG/Repository/UCLA/IGPPLANL</ResourceID>
-        <ResourceHeader>
-            <ResourceName>UCLA IGPPLANL</ResourceName>
-            <ReleaseDate>2009-03-17T00:00:00Z</ReleaseDate>
-            <Description>UCLA IGPPLANL Magnetometer Data Center</Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Peter.J.Chi</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <InformationURL>
-                <Name>IGPPLANL Data Server</Name>
-                <URL>http://www-ssc.igpp.ucla.edu/uclamag/</URL>
-                <Description>UCLA IGPPLANL Magnetometer Data Center</Description>
-            </InformationURL>
-        </ResourceHeader>
-    </Repository>
+  <Version>1.2.2</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/UCLA/IGPPLANL</ResourceID>
+    <ResourceHeader>
+      <ResourceName>UCLA IGPPLANL</ResourceName>
+      <ReleaseDate>2009-03-17T00:00:00Z</ReleaseDate>
+      <Description>UCLA IGPPLANL Magnetometer Data Center</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Peter.J.Chi</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>IGPPLANL Data Server</Name>
+        <URL>http://www-ssc.igpp.ucla.edu/uclamag/</URL>
+        <Description>UCLA IGPPLANL Magnetometer Data Center</Description>
+      </InformationURL>
+    </ResourceHeader>
+  </Repository>
 </Spase>

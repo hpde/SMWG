@@ -1,56 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-    <Version>2.0.0</Version>
-    <Service>
-        <ResourceID>spase://SMWG/Service/POLAR/TIDE/Website</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Polar TIDE Website</ResourceName>
-            <ReleaseDate>2009-09-18T00:00:00</ReleaseDate>
-			<Description>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
+  <Service>
+    <ResourceID>spase://SMWG/Service/POLAR/TIDE/Website</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Polar TIDE Website</ResourceName>
+      <ReleaseDate>2009-09-18T00:00:00</ReleaseDate>
+      <Description>
 The TIDE Website contains information about the instrument, its operation, its level-zero data, and its processing software.  Users can 
 view spectrogram summary plots and interactively process TIDE level-zero data for the entire Polar Mission (03/28/96 through 
 04/16/08).  Only the major webpages are discussed below.  There are several other links on the home page.  There are mirror sites
 at the National Space Science and Technology Center (NSSTC) and GSFC. 
 			</Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Thomas.E.Moore</PersonID>
-                <Role>PrincipalInvestigator</Role>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Paul.D.Craven</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Peggy.Sloan</PersonID>
-                <Role>MetadataContact</Role>
-            </Contact>
-
-           <InformationURL>
-                <Name>NSSTC TIDE Home Page</Name>
-                <URL>http://tideuviRA.nsstc.nasa.gov/tide</URL>
-            </InformationURL>
-           <InformationURL>
-                <Name>GSFC TIDE Home Page</Name>
-                <URL>http://tide.gsfc.nasa.gov/</URL>
-				<Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Thomas.E.Moore</PersonID>
+        <Role>PrincipalInvestigator</Role>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Paul.D.Craven</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Peggy.Sloan</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSTC TIDE Home Page</Name>
+        <URL>http://tideuviRA.nsstc.nasa.gov/tide</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>GSFC TIDE Home Page</Name>
+        <URL>http://tide.gsfc.nasa.gov/</URL>
+        <Description>
 The TIDE Home Page contains links to all available information about the instrument, its data and software, summary plot viewing, 
 interactive data processing (Custom Plots and Data Dumps), mission information, and documentation about the website, data, 
 and the processing software.
 				</Description>
-            </InformationURL>
-
-            <InformationURL>
-                <Name>NSSTC TIDE Summary Plot Gifwalk</Name>
-                <URL>http://tideuviRA.nsstc.nasa.gov/tide</URL>
-            </InformationURL>
-            <InformationURL>
-                <Name>GSFC TIDE Summary Plot Gifwalk</Name>
-                <URL>http://tide.gsfc.nasa.gov/summary_plots.shtml/</URL>
-				<Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>NSSTC TIDE Summary Plot Gifwalk</Name>
+        <URL>http://tideuviRA.nsstc.nasa.gov/tide</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>GSFC TIDE Summary Plot Gifwalk</Name>
+        <URL>http://tide.gsfc.nasa.gov/summary_plots.shtml/</URL>
+        <Description>
 The TIDE Summary Plot Gifwalk lets the user scan through TIDE high time resolution spectrogram plots for the entire Polar mission.  
 The user selects the ion type: Total (Ion), H+, O+, or He+; the year, month, and day to start the viewing; the spectrogram type: half-orbit, 
 perigee, 6-hr PSI operations, or plasmasphere passes; and then presses Update Date/Type/Ion.  Once the gif image is displayed, 
@@ -60,31 +55,29 @@ bar at the bottom of the webpage.  The user can zoom in on an area of interest b
 user to the High Time Resolution Spectrogram Custom Plot Webpage, where after changing any default processing options and 
 Submitting Request, a new spectrogram plot will be created.
 				</Description>
-            </InformationURL>
-
-            <InformationURL>
-                <Name>NSSTC TIDE View Thumbnails</Name>
-                <URL>http://tideuviRA.nsstc.nasa.gov/tide/display_thumbnails.html</URL>
-            </InformationURL>
-            <InformationURL>
-                <Name>GSFC TIDE View Thumbnails</Name>
-                <URL>http://tide.gsfc.nasa.gov/display_thumbnails.shtml</URL>
-				<Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>NSSTC TIDE View Thumbnails</Name>
+        <URL>http://tideuviRA.nsstc.nasa.gov/tide/display_thumbnails.html</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>GSFC TIDE View Thumbnails</Name>
+        <URL>http://tide.gsfc.nasa.gov/display_thumbnails.shtml</URL>
+        <Description>
 The TIDE Thumbnails webpage provides a way to view several TIDE summary spectrograms quickly.  Just specify the time range 
 and select the ion and the spectrogram type (either half-orbit or perigee) and submit request.  Thumbnails of each spectrogram in 
 the time range are displayed 8 per row.  Move the mouse over a thumbnail to get the start time of the plot.  Click on the thumbnail to 
 view the full size gif and get a link to the pdf.
 				</Description>
-            </InformationURL>
-
-           <InformationURL>
-                <Name>NSSTC TIDE Custom Plots</Name>
-                <URL>http://tideuviRA.nsstc.nasa.gov/tide/custom_plots.html</URL>
-            </InformationURL>
-           <InformationURL>
-                <Name>GSFC TIDE Custom Plots</Name>
-                <URL>http://tide.gsfc.nasa.gov/custom_plots.shtml</URL>
-				<Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>NSSTC TIDE Custom Plots</Name>
+        <URL>http://tideuviRA.nsstc.nasa.gov/tide/custom_plots.html</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>GSFC TIDE Custom Plots</Name>
+        <URL>http://tide.gsfc.nasa.gov/custom_plots.shtml</URL>
+        <Description>
 The TIDE Custom Plots website allows users to process TIDE level-zero data for several different plot types including 1-D and 2-D 
 spectrograms, phase space density velocity distributions, moments (density, velocity, and temperature), phase space density versus 
 velocity, chromograms, and Polar orbit.  Once the processing is complete, the user can download the plots (gif, postscript, and/or pdf).  
@@ -92,71 +85,67 @@ If the plot is associated with a text file containing the results (moments, velo
 a download link for that file.  See http://tideuviRA.nsstc.nasa.gov/tide/Documentation/ProcessingSoftware/ProSoft.html or 
 http://tide.gsfc.nasa.gov/Documentation/ProcessingSoftware/ProSoft.html for details about each processing type.
 				</Description>
-            </InformationURL>
-
-            <InformationURL>
-                <Name>NSSTC TIDE Data Dumps</Name>
-                <URL>http://tideuviRA.nsstc.nasa.gov/tide/data_dumps.html</URL>
-            </InformationURL>
-            <InformationURL>
-                <Name>GSFC TIDE Data Dumps</Name>
-                <URL>http://tide.gsfc.nasa.gov/tide/data_dumps.shtml</URL>
-				<Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>NSSTC TIDE Data Dumps</Name>
+        <URL>http://tideuviRA.nsstc.nasa.gov/tide/data_dumps.html</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>GSFC TIDE Data Dumps</Name>
+        <URL>http://tide.gsfc.nasa.gov/tide/data_dumps.shtml</URL>
+        <Description>
 The TIDE Data Dumps webpage allows users to download text files or plots of certain types of data including 
 engineering/housekeeping text dump or summary plots, instrument parameters, magnetic field location, spin header information, 
 major frame byte dump, and dumps of raw and processed counts/flux.  Once the processing is complete, the user can download 
 the requested datafile or plots.  See http://tideuviRA.nsstc.nasa.gov/tide/Documentation/ProcessingSoftware/ProSoft.html or 
 http://tide.gsfc.nasa.gov/Documentation/ProcessingSoftware/ProSoft.html for details about each plot type.
 				</Description>
-            </InformationURL>
-
-            <InformationURL>
-                <Name>NSSTC TIDE Data Download</Name>
-                <URL>http://tideuviRA.nsstc.nasa.gov/tide/data_download.html</URL>
-            </InformationURL>
-            <InformationURL>
-                <Name>GSFC TIDE Data Download</Name>
-                <URL>http://tide.gsfc.nasa.gov/tide/data_download.shtml</URL>
-				<Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>NSSTC TIDE Data Download</Name>
+        <URL>http://tideuviRA.nsstc.nasa.gov/tide/data_download.html</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>GSFC TIDE Data Download</Name>
+        <URL>http://tide.gsfc.nasa.gov/tide/data_download.shtml</URL>
+        <Description>
 The TIDE Data Download webpage allows the user to download the files required by the TIDE processing software 
 including TIDE level-zero data files and ion mask files and Polar orbit, attitude, and spacecraft potential files.
 				</Description>
-            </InformationURL>
-
-            <InformationURL>
-                <Name>NSSTC TIDE Software Download</Name>
-                <URL>http://tideuviRA.nsstc.nasa.gov/tide/ProcSoft.html</URL>
-            </InformationURL>
-            <InformationURL>
-                <Name>GSFC TIDE Software Download</Name>
-                <URL>http://tide.gsfc.nasa.gov/tide/ProcSoft.shtml</URL>
-				<Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>NSSTC TIDE Software Download</Name>
+        <URL>http://tideuviRA.nsstc.nasa.gov/tide/ProcSoft.html</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>GSFC TIDE Software Download</Name>
+        <URL>http://tide.gsfc.nasa.gov/tide/ProcSoft.shtml</URL>
+        <Description>
 The TIDE Software Download webpage is used to download the latest version of the IDL-based TIDE processing software.  The site 
 includes links to installation instructions and a link to the processing software documentation.
 				</Description>
-            </InformationURL>
-
- 	        <InformationURL>
-				<Name>NSSTC TIDE Mission Documentation</Name>
-				<URL>http://tideuviRA.nsstc.nasa.gov/tide/documentation.html</URL>
-            </InformationURL>
-            <InformationURL>
-                <Name>GSFC TIDE Mission Documentation</Name>
-                <URL>http://tide.gsfc.nasa.gov/tide/documentation.shtml</URL>
-				<Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>NSSTC TIDE Mission Documentation</Name>
+        <URL>http://tideuviRA.nsstc.nasa.gov/tide/documentation.html</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>GSFC TIDE Mission Documentation</Name>
+        <URL>http://tide.gsfc.nasa.gov/tide/documentation.shtml</URL>
+        <Description>
 The TIDE Mission Documentation website documentations of all aspects of the Polar/TIDE Mission including the level-zero processing 
 software, instrument operations and commanding, the website, the data archive, the datafiles, and miscellaneous information.
 				</Description>
-			</InformationURL>
-        </ResourceHeader>
-		<AccessURL>
-             <Name>NSSTC TIDE Home Page</Name>
-             <URL>http://tideuviRA.nsstc.nasa.gov/tide</URL>
-			<Description>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>NSSTC TIDE Home Page</Name>
+      <URL>http://tideuviRA.nsstc.nasa.gov/tide</URL>
+      <Description>
 The TIDE Home Page contains links to all available information about the instrument, its data and software, summary plot viewing, 
 interactive data processing (Custom Plots and Data Dumps), mission information, and documentation about the website, data, 
 and the processing software.
 			</Description>
-		</AccessURL>
-    </Service>
+    </AccessURL>
+  </Service>
 </Spase>

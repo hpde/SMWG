@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Ingemar.Haggstrom</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
-      <PersonName>Ingemar Haggstrom</PersonName>
-      <OrganizationName>Swedish Institute of Space Physics</OrganizationName>
-      <Address>Swedish Institute of Space Physics, P.O. Box 812, S-981 28 Kiruna, Sweden</Address>
-      <PhoneNumber>(46) 980 12 240</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Ingemar.Haggstrom</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
+    <PersonName>Ingemar Haggstrom</PersonName>
+    <OrganizationName>Swedish Institute of Space Physics</OrganizationName>
+    <Address>Swedish Institute of Space Physics, P.O. Box 812, S-981 28 Kiruna, Sweden</Address>
+    <PhoneNumber>(46) 980 12 240</PhoneNumber>
+  </Person>
 </Spase>

@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/H.A.Deebes</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
-      <PersonName>H. A. Deebes</PersonName>
-      <OrganizationName>National Research Institute of</OrganizationName>
-      <Address>National Research Institute of, Astronomy Geophysics, Helwan, Cairo, Egypt</Address>
-      <PhoneNumber>(2) 78 06 45</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/H.A.Deebes</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
+    <PersonName>H. A. Deebes</PersonName>
+    <OrganizationName>National Research Institute of</OrganizationName>
+    <Address>National Research Institute of, Astronomy Geophysics, Helwan, Cairo, Egypt</Address>
+    <PhoneNumber>(2) 78 06 45</PhoneNumber>
+  </Person>
 </Spase>

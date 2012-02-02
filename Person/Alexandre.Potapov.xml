@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Alexandre.Potapov</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:45Z</ReleaseDate>
-      <PersonName>Alexandre Potapov</PersonName>
-      <OrganizationName>Institute of Solar-Terrestrial Physics</OrganizationName>
-      <Address>Institute of Solar-Terrestrial Physics, P.O.Box 4026, Irkutsk 33, 664033,Russia</Address>
-      <Email>potapov@iszf.irk.ru</Email>
-      <PhoneNumber>7-3952-461591</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Alexandre.Potapov</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:45Z</ReleaseDate>
+    <PersonName>Alexandre Potapov</PersonName>
+    <OrganizationName>Institute of Solar-Terrestrial Physics</OrganizationName>
+    <Address>Institute of Solar-Terrestrial Physics, P.O.Box 4026, Irkutsk 33, 664033,Russia</Address>
+    <Email>potapov@iszf.irk.ru</Email>
+    <PhoneNumber>7-3952-461591</PhoneNumber>
+  </Person>
 </Spase>

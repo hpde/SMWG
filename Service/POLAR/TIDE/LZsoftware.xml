@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-    <Version>2.0.0</Version>
-    <Service>
-        <ResourceID>spase://SMWG/Service/POLAR/TIDE/LZsoftware</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Polar TIDE Level-Zero Processing Software</ResourceName>
-            <ReleaseDate>2009-09-18T00:00:00</ReleaseDate>
-			<Description>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
+  <Service>
+    <ResourceID>spase://SMWG/Service/POLAR/TIDE/LZsoftware</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Polar TIDE Level-Zero Processing Software</ResourceName>
+      <ReleaseDate>2009-09-18T00:00:00</ReleaseDate>
+      <Description>
 TIDE level-zero processing software provides several analysis and display options with an extensive list of processing options.  The 
 TIDE team has provided websites that allow users to process data from the web and then download the processed datafiles and 
 plots, see the Custom Plot and Data Dump links on one of the TIDE Home Pages.  The software (C and IDL) can be downloaded 
@@ -18,85 +15,80 @@ orbit and attitude, extracted EFI spacecraft potential, and ion masks).  NOTE: T
 processing software.  See the TIDE Documentation link on one of the TIDE Home Pages for documentation of the processing 
 software and the input file data formats.  
 			</Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Thomas.E.Moore</PersonID>
-                <Role>PrincipalInvestigator</Role>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Paul.D.Craven</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Peggy.Sloan</PersonID>
-                <Role>MetadataContact</Role>
-            </Contact>
-
- 	        <InformationURL>
-				<Name>NSSTC TIDE Level-Zero Processing Software Documentation</Name>
-				<URL>http://tideuvira.nsstc.nasa.gov/tide/Documentation/ProcessingSoftware/ProSoft.html</URL>
-            </InformationURL>
-            <InformationURL>
-                <Name>GSFC TIDE Level-Zero Processing Software Documentation</Name>
-                <URL>http://tide.gsfc.nasa.gov/Documentation/ProcessingSoftware/ProSoft.html</URL>
-				<Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Thomas.E.Moore</PersonID>
+        <Role>PrincipalInvestigator</Role>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Paul.D.Craven</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Peggy.Sloan</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSTC TIDE Level-Zero Processing Software Documentation</Name>
+        <URL>http://tideuvira.nsstc.nasa.gov/tide/Documentation/ProcessingSoftware/ProSoft.html</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>GSFC TIDE Level-Zero Processing Software Documentation</Name>
+        <URL>http://tide.gsfc.nasa.gov/Documentation/ProcessingSoftware/ProSoft.html</URL>
+        <Description>
 The TIDE Level-Zero Processing Software Documentation webpage contains links to webpages that discuss all aspects of the TIDE 
 level-zero processing including the required input and all the processing options (see Parameter File Creation and Major Processing 
 Options).  Most of the processing options can be run from the Custom Plot and Data Dump links on one of the TIDE Home Pages.  
 Use of these webpages is discussed in the documentation.  The stand-alone IDL version of the software is also discussed in the 
 documentation.
 				</Description>
-			</InformationURL>
- 
-            <InformationURL>
-                <Name>NSSTC TIDE Software Download</Name>
-                <URL>http://tideuviRA.nsstc.nasa.gov/tide/ProcSoft.html</URL>
-            </InformationURL>
-            <InformationURL>
-                <Name>GSFC TIDE Software Download</Name>
-                <URL>http://tide.gsfc.nasa.gov/tide/ProcSoft.shtml</URL>
-				<Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>NSSTC TIDE Software Download</Name>
+        <URL>http://tideuviRA.nsstc.nasa.gov/tide/ProcSoft.html</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>GSFC TIDE Software Download</Name>
+        <URL>http://tide.gsfc.nasa.gov/tide/ProcSoft.shtml</URL>
+        <Description>
 The TIDE Software Download webpage is used to download the latest version of the IDL-based TIDE processing software.  The site 
 includes links to installation instructions and a link to the processing software documentation.
 				</Description>
-            </InformationURL>
-
-            <InformationURL>
-                <Name>NSSTC TIDE Data Download</Name>
-                <URL>http://tideuviRA.nsstc.nasa.gov/tide/data_download.html</URL>
-            </InformationURL>
-            <InformationURL>
-                <Name>GSFC TIDE Data Download</Name>
-                <URL>http://tide.gsfc.nasa.gov/tide/data_download.shtml</URL>
-				<Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>NSSTC TIDE Data Download</Name>
+        <URL>http://tideuviRA.nsstc.nasa.gov/tide/data_download.html</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>GSFC TIDE Data Download</Name>
+        <URL>http://tide.gsfc.nasa.gov/tide/data_download.shtml</URL>
+        <Description>
 The TIDE Data Download webpage allows the user to download the files required by the TIDE processing software 
 including TIDE level-zero data files and ion mask files and Polar orbit, attitude, and spacecraft potential files.
 				</Description>
-            </InformationURL>
-
-           <InformationURL>
-                <Name>NSSTC TIDE Home Page</Name>
-                <URL>http://tideuviRA.nsstc.nasa.gov/tide</URL>
-            </InformationURL>
-           <InformationURL>
-                <Name>GSFC TIDE Home Page</Name>
-                <URL>http://tide.gsfc.nasa.gov/</URL>
-				<Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>NSSTC TIDE Home Page</Name>
+        <URL>http://tideuviRA.nsstc.nasa.gov/tide</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>GSFC TIDE Home Page</Name>
+        <URL>http://tide.gsfc.nasa.gov/</URL>
+        <Description>
 The TIDE Home Page contains links to all available information about the instrument, its data and software, summary plot viewing, 
 interactive data processing (Custom Plots and Data Dumps), mission information, and documentation about the website, data, 
 and the processing software.
 				</Description>
-            </InformationURL>
-        </ResourceHeader>
-
-		<AccessURL>
-             <Name>NSSTC TIDE Home Page</Name>
-             <URL>http://tideuviRA.nsstc.nasa.gov/tide</URL>
-			<Description>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>NSSTC TIDE Home Page</Name>
+      <URL>http://tideuviRA.nsstc.nasa.gov/tide</URL>
+      <Description>
 The TIDE Home Page contains links to all available information about the instrument, its data and software, summary plot viewing, 
 interactive data processing (Custom Plots and Data Dumps), mission information, and documentation about the website, data, 
 and the processing software.
 			</Description>
-		</AccessURL>
-    </Service>
+    </AccessURL>
+  </Service>
 </Spase>

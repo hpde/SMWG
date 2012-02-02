@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.0</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/WDC/Sapa</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Sapa Ground Observatory</ResourceName>
-            <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
-            <Description>The Sapa Observatory</Description>
-            <Acknowledgement>Vietnam National Centre for Science and, Technology (V.N.C.S.T., Institute of Geophysics)</Acknowledgement>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Nguyen.Kim.Thoa</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-                <Role>MetadataContact</Role>
-            </Contact>
-        </ResourceHeader>
-        <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
-        <Location>
-            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-            <CoordinateSystemName>GEO</CoordinateSystemName>
-            <Latitude>22.35</Latitude>
-            <Longitude>103.833</Longitude>
-        </Location>
-    </Observatory>
+  <Version>2.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/WDC/Sapa</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Sapa Ground Observatory</ResourceName>
+      <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
+      <Description>The Sapa Observatory</Description>
+      <Acknowledgement>Vietnam National Centre for Science and, Technology (V.N.C.S.T., Institute of Geophysics)</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Nguyen.Kim.Thoa</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>22.35</Latitude>
+      <Longitude>103.833</Longitude>
+    </Location>
+  </Observatory>
 </Spase>

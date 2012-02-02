@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.0</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/WDC/Shumagin</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Shumagin Ground Observatory</ResourceName>
-            <ReleaseDate>2011-08-09T01:11:51Z</ReleaseDate>
-            <Description>The Shumagin Observatory</Description>
-            <Acknowledgement>Please acknowledge Jeffrey J. Love, U.S. Geological Survey, Box 25046 MS 966, Denver Federal Center, Denver, Colorado 80225, USA for providing access to Shumagin data resources.</Acknowledgement>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Jeffrey.J.Love</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-                <Role>MetadataContact</Role>
-            </Contact>
-        </ResourceHeader>
-        <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
-        <Location>
-            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-            <CoordinateSystemName>GEO</CoordinateSystemName>
-            <Latitude>55.35</Latitude>
-            <Longitude>-160.46</Longitude>
-            <Elevation>80.0</Elevation>
-        </Location>
-    </Observatory>
+  <Version>2.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/WDC/Shumagin</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Shumagin Ground Observatory</ResourceName>
+      <ReleaseDate>2011-08-09T01:11:51Z</ReleaseDate>
+      <Description>The Shumagin Observatory</Description>
+      <Acknowledgement>Please acknowledge Jeffrey J. Love, U.S. Geological Survey, Box 25046 MS 966, Denver Federal Center, Denver, Colorado 80225, USA for providing access to Shumagin data resources.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jeffrey.J.Love</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>55.35</Latitude>
+      <Longitude>-160.46</Longitude>
+      <Elevation>80.0</Elevation>
+    </Location>
+  </Observatory>
 </Spase>

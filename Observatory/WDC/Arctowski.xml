@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.0</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/WDC/Arctowski</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Arctowski Ground Observatory</ResourceName>
-            <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
-            <Description>The Arctowski Observatory</Description>
-            <Acknowledgement>Institute of Geophysics Polish Academy of Sciences</Acknowledgement>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Janusz.Marianiuk</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Jan.Reda</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-                <Role>MetadataContact</Role>
-            </Contact>
-        </ResourceHeader>
-        <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
-        <Location>
-            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-            <CoordinateSystemName>GEO</CoordinateSystemName>
-            <Latitude>-62.16</Latitude>
-            <Longitude>301.522</Longitude>
-        </Location>
-    </Observatory>
+  <Version>2.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/WDC/Arctowski</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Arctowski Ground Observatory</ResourceName>
+      <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
+      <Description>The Arctowski Observatory</Description>
+      <Acknowledgement>Institute of Geophysics Polish Academy of Sciences</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Janusz.Marianiuk</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jan.Reda</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>-62.16</Latitude>
+      <Longitude>301.522</Longitude>
+    </Location>
+  </Observatory>
 </Spase>

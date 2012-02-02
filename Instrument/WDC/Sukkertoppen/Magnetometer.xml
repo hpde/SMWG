@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.0.1</Version>
-    <Instrument>
-        <ResourceID>spase://SMWG/Instrument/WDC/Sukkertoppen/Magnetometer</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Sukkertoppen Ground Magnetic Field Instrument</ResourceName>
-            <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
-            <Description>The magnetic field instrument at the Sukkertoppen ground station</Description>
-            <Acknowledgement>Solar-Terrestrial Physics Division, Danish Meteorological Institute</Acknowledgement>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Ole.Rasmussen</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Boerge.Pedersen</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-                <Role>MetadataContact</Role>
-            </Contact>
-        </ResourceHeader>
-        <InstrumentType>Magnetometer</InstrumentType>
-        <InvestigationName>None Identified</InvestigationName>
-        <ObservatoryID>spase://SMWG/Observatory/WDC/Sukkertoppen</ObservatoryID>
-    </Instrument>
+  <Version>2.0.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/WDC/Sukkertoppen/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Sukkertoppen Ground Magnetic Field Instrument</ResourceName>
+      <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
+      <Description>The magnetic field instrument at the Sukkertoppen ground station</Description>
+      <Acknowledgement>Solar-Terrestrial Physics Division, Danish Meteorological Institute</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Ole.Rasmussen</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Boerge.Pedersen</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>None Identified</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/WDC/Sukkertoppen</ObservatoryID>
+  </Instrument>
 </Spase>

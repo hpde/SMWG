@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-    <Version>2.2.1</Version>
-    <Instrument>
-        <ResourceID>spase://SMWG/Instrument/SESAME/VLF-ELF</ResourceID>
-        <ResourceHeader>
-            <ResourceName>SESAME VELOX</ResourceName>
-            <ReleaseDate>2011-10-19T00:00:00Z</ReleaseDate>
-            <Description>The SESAME VELOX (Satellite Experiments Simultaneous with Antarctic MEasurements VLF-ELF Logger Experiment) is a 10-channel radio receiver in the 0.5-30 kHz range and various bandwidth to study magnetospheric plasma structures and motions, wave-particle interactions, wave-induced particle precipitation, and whistler-mode propagation. Recordings are normally made for 1 min every 15 min.</Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/J.R.Dundeney</PersonID>
-                <Role>PrincipalInvestigator</Role>
-            </Contact> 
-           <InformationURL>
-                <Name>IACG website</Name>
-                <URL>http://www.iacg.org/iacg/ground_stations/sesame.html</URL>
-                <Description>Information about SESAME</Description>
-            </InformationURL>
-        </ResourceHeader>
-        <InstrumentType>WaveformReceiver</InstrumentType>
-        <InvestigationName>VLF-ELF Logger Experiment from SESAME</InvestigationName>
-        <ObservatoryID>spase://SMWG/Observatory/SESAME</ObservatoryID>
-    </Instrument>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.2.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/SESAME/VLF-ELF</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SESAME VELOX</ResourceName>
+      <ReleaseDate>2011-10-19T00:00:00Z</ReleaseDate>
+      <Description>The SESAME VELOX (Satellite Experiments Simultaneous with Antarctic MEasurements VLF-ELF Logger Experiment) is a 10-channel radio receiver in the 0.5-30 kHz range and various bandwidth to study magnetospheric plasma structures and motions, wave-particle interactions, wave-induced particle precipitation, and whistler-mode propagation. Recordings are normally made for 1 min every 15 min.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/J.R.Dundeney</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>IACG website</Name>
+        <URL>http://www.iacg.org/iacg/ground_stations/sesame.html</URL>
+        <Description>Information about SESAME</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>WaveformReceiver</InstrumentType>
+    <InvestigationName>VLF-ELF Logger Experiment from SESAME</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/SESAME</ObservatoryID>
+  </Instrument>
 </Spase>
-
-

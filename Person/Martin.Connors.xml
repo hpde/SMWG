@@ -1,15 +1,13 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Martin.Connors</ResourceID>
-      <ReleaseDate>2011-05-16T21:17:22Z</ReleaseDate>
-      <PersonName>Dr. Martin Connors</PersonName>
-      <OrganizationName>Athabasca University Geophysical Observatory</OrganizationName>
-      <Address>1 University Drive, Athabasca, AB, Canada T9S 3A3</Address>
-      <Email>martinc@athabascau.ca</Email>
-      <PhoneNumber>+1 780 675 6310</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Martin.Connors</ResourceID>
+    <ReleaseDate>2011-05-16T21:17:22Z</ReleaseDate>
+    <PersonName>Dr. Martin Connors</PersonName>
+    <OrganizationName>Athabasca University Geophysical Observatory</OrganizationName>
+    <Address>1 University Drive, Athabasca, AB, Canada T9S 3A3</Address>
+    <Email>martinc@athabascau.ca</Email>
+    <PhoneNumber>+1 780 675 6310</PhoneNumber>
+  </Person>
 </Spase>
-
-

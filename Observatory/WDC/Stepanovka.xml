@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.0</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/WDC/Stepanovka</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Stepanovka Ground Observatory</ResourceName>
-            <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
-            <Description>The Stepanovka Observatory</Description>
-            <Acknowledgement>Arti Geophysical Observatory, Institute of Geophysics, Urals Branch of Russian Academy of Sciences</Acknowledgement>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Oleg.Kusonski</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-                <Role>MetadataContact</Role>
-            </Contact>
-        </ResourceHeader>
-        <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
-        <Location>
-            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-            <CoordinateSystemName>GEO</CoordinateSystemName>
-            <Latitude>46.783</Latitude>
-            <Longitude>30.883</Longitude>
-        </Location>
-    </Observatory>
+  <Version>2.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/WDC/Stepanovka</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Stepanovka Ground Observatory</ResourceName>
+      <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
+      <Description>The Stepanovka Observatory</Description>
+      <Acknowledgement>Arti Geophysical Observatory, Institute of Geophysics, Urals Branch of Russian Academy of Sciences</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Oleg.Kusonski</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>46.783</Latitude>
+      <Longitude>30.883</Longitude>
+    </Location>
+  </Observatory>
 </Spase>

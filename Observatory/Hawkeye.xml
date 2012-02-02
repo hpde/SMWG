@@ -1,6 +1,5 @@
-<Spase xmlns="http://www.spase-group.org/data/schema"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd" lang="en">
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd" lang="en">
   <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Hawkeye</ResourceID>
@@ -17,7 +16,7 @@ The broad science objectives of the Hawkeye 1 spacecraft were to survey the high
 
 The spacecraft was launched on June 3, 1974 into a polar orbit with initial apogee over the north pole and re-entered on April 28, 1978 after 667 orbits or nearly four years of continuous operation. The spacecraft apogee was between 20.28 and 20.92 Earth radii with less than a 1.7 Earth radii perigee. The orbital period was 51.3 hours. During its lifetime, the inclination of the plane of the spacecraft's orbit to the Earth's equator decreased monotonically from 89.81 to 81.85 degrees. The spacecraft was spin stabilized with a nominal rotational period of 11 s. In celestial coordinates, the positive spin axis coordinates were right ascension 299.4 deg (plus or minus 1.1 deg) and declination 8.6 deg (plus or minus 1.5 deg). There was no onboard orientation or spin rate control, but the orientation of the spin axis was stable. An optical aspect system operated from launch until September 3, 1974. After this period, aspect had to be determined from magnetometer measurements. The complete spacecraft with instruments had a mass of 22.65 kg. Power of 22 to 36 W, depending on solar aspect, was obtained from solar cells. Hawkeye 1 participated in the International Magnetospheric Study (IMS) and during the first half of 1977 data acquisition was confined to IMS special intervals. Data were obtained in real time only, at frequencies of 136 MHz and 400 MHz at 100 bps (or 200 bps with convolutional coding) plus wideband VLF data. For more details see "Hawkeye 1," U. of Iowa 77-6, January 1977 (TRF B29176).
       </Description>
-      <Acknowledgement />
+      <Acknowledgement/>
       <Contact>
         <PersonID>spase://SMWG/Person/James.A.Van.Allen</PersonID>
         <Role>ProjectScientist</Role>
@@ -33,12 +32,12 @@ The spacecraft was launched on June 3, 1974 into a polar orbit with initial apog
       </InformationURL>
     </ResourceHeader>
     <Location>
-	<ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
-	<ObservatoryRegion>Earth.Magnetosphere.Polar</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere.Polar</ObservatoryRegion>
     </Location>
     <OperatingSpan>
-	<StartDate>1974-06-03T00:00:00Z</StartDate>
-	<StopDate>1978-04-28T00:00:00Z</StopDate>
+      <StartDate>1974-06-03T00:00:00Z</StartDate>
+      <StopDate>1978-04-28T00:00:00Z</StopDate>
     </OperatingSpan>
   </Observatory>
 </Spase>

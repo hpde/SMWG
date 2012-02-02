@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Spomenko.J.Mihajlovic</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-      <PersonName>Spomenko J. Mihajlovic</PersonName>
-      <OrganizationName>Geomagnetic Institute</OrganizationName>
-      <Address>Geomagnetic Institute, Belgrade, 11306 Grocka, Yugoslavia</Address>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Spomenko.J.Mihajlovic</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
+    <PersonName>Spomenko J. Mihajlovic</PersonName>
+    <OrganizationName>Geomagnetic Institute</OrganizationName>
+    <Address>Geomagnetic Institute, Belgrade, 11306 Grocka, Yugoslavia</Address>
+  </Person>
 </Spase>

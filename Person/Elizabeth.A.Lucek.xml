@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Elizabeth.A.Lucek</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
-      <PersonName>Elizabeth A. Lucek</PersonName>
-      <OrganizationName>Space and Atmospheric Physics Group, Imperial College</OrganizationName>
-      <Email>e.lucek@ic.ac.uk</Email>
-      <PhoneNumber>+44-020-7594-7898</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Elizabeth.A.Lucek</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
+    <PersonName>Elizabeth A. Lucek</PersonName>
+    <OrganizationName>Space and Atmospheric Physics Group, Imperial College</OrganizationName>
+    <Email>e.lucek@ic.ac.uk</Email>
+    <PhoneNumber>+44-020-7594-7898</PhoneNumber>
+  </Person>
 </Spase>

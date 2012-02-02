@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Tsugunobu.Nagai</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-      <PersonName>Prof. Tsugunobu Nagai</PersonName>
-      <OrganizationName>Tokyo Institute of Technology</OrganizationName>
-      <Address>Department of Earth and Planetary Sciences, 2-12-1 Ookayama, Meguro-ku, Tokyo 152-8551, Japan</Address>
-      <Email>nagai@geo.titech.ac.jp</Email>
-      <FaxNumber>+81 3 5734 3537</FaxNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Tsugunobu.Nagai</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
+    <PersonName>Prof. Tsugunobu Nagai</PersonName>
+    <OrganizationName>Tokyo Institute of Technology</OrganizationName>
+    <Address>Department of Earth and Planetary Sciences, 2-12-1 Ookayama, Meguro-ku, Tokyo 152-8551, Japan</Address>
+    <Email>nagai@geo.titech.ac.jp</Email>
+    <FaxNumber>+81 3 5734 3537</FaxNumber>
+  </Person>
 </Spase>

@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_2.xsd">
   <Version>2.0.2</Version>
   <Instrument>
-      <ResourceID>spase://SMWG/Instrument/SuperDARN/Radars</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/SuperDARN/Radars</ResourceID>
     <ResourceHeader>
       <ResourceName>SuperDARN Radars</ResourceName>
       <ReleaseDate>2009-11-12T22:14:22Z</ReleaseDate>

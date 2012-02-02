@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Eoin.Moran</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
-      <PersonName>Eoin Moran</PersonName>
-      <OrganizationName>Valentia Observatory</OrganizationName>
-      <Address>Valentia Observatory, Cahirciveen, Co. Kerry, Ireland</Address>
-      <Email>eoin.moran@metvalentia.ie</Email>
-      <PhoneNumber>+353 66 9473463</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Eoin.Moran</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
+    <PersonName>Eoin Moran</PersonName>
+    <OrganizationName>Valentia Observatory</OrganizationName>
+    <Address>Valentia Observatory, Cahirciveen, Co. Kerry, Ireland</Address>
+    <Email>eoin.moran@metvalentia.ie</Email>
+    <PhoneNumber>+353 66 9473463</PhoneNumber>
+  </Person>
 </Spase>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.0.1</Version>
-    <Instrument>
-        <ResourceID>spase://SMWG/Instrument/WDC/MBour/Magnetometer</ResourceID>
-        <ResourceHeader>
-            <ResourceName>MBour Ground Magnetic Field Instrument</ResourceName>
-            <ReleaseDate>2009-11-05T12:34:56.789</ReleaseDate>
-            <Description>The magnetic field instrument at the MBour ground station</Description>
-            <Acknowledgement>Office pour la Recherche et de le Deloppement en Cooperation(O.R.S.T.O.M.)</Acknowledgement>
-            <Contact>
-                <PersonID>spase://SMWG/Person/WDC/Director.MBour.Observatory</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-                <Role>MetadataContact</Role>
-            </Contact>
-        </ResourceHeader>
-        <InstrumentType>Magnetometer</InstrumentType>
-        <InvestigationName>None Identified</InvestigationName>
-        <ObservatoryID>spase://SMWG/Observatory/WDC/MBour</ObservatoryID>
-    </Instrument>
+  <Version>2.0.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/WDC/MBour/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MBour Ground Magnetic Field Instrument</ResourceName>
+      <ReleaseDate>2009-11-05T12:34:56.789</ReleaseDate>
+      <Description>The magnetic field instrument at the MBour ground station</Description>
+      <Acknowledgement>Office pour la Recherche et de le Deloppement en Cooperation(O.R.S.T.O.M.)</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/WDC/Director.MBour.Observatory</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>None Identified</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/WDC/MBour</ObservatoryID>
+  </Instrument>
 </Spase>

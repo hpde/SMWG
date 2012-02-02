@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.0</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/WDC/Alma.Ata</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Alma Ata Ground Observatory</ResourceName>
-            <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
-            <Description>The Alma Ata Observatory</Description>
-            <Acknowledgement>Institute of Ionosphere, Ministry of Education and Science, Republic of Kazakstan</Acknowledgement>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Olga.Sokolova</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-                <Role>MetadataContact</Role>
-            </Contact>
-        </ResourceHeader>
-        <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
-        <Location>
-            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-            <CoordinateSystemName>GEO</CoordinateSystemName>
-            <Latitude>43.15</Latitude>
-            <Longitude>76.55</Longitude>
-        </Location>
-    </Observatory>
+  <Version>2.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/WDC/Alma.Ata</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Alma Ata Ground Observatory</ResourceName>
+      <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
+      <Description>The Alma Ata Observatory</Description>
+      <Acknowledgement>Institute of Ionosphere, Ministry of Education and Science, Republic of Kazakstan</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Olga.Sokolova</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>43.15</Latitude>
+      <Longitude>76.55</Longitude>
+    </Location>
+  </Observatory>
 </Spase>

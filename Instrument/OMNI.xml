@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
-   <Version>2.0.1</Version>
-   <Instrument>
-      <ResourceID>spase://SMWG/Instrument/OMNI</ResourceID>
-      <ResourceHeader>
-         <ResourceName>OMNI Instrument</ResourceName>
-         <ReleaseDate>2011-08-18T16:00:05Z</ReleaseDate>
-         <Description>The OMNI instrument is a virtual instrument representing the collection of Magnetometers, Electrostatic Analyers,
+  <Version>2.0.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/OMNI</ResourceID>
+    <ResourceHeader>
+      <ResourceName>OMNI Instrument</ResourceName>
+      <ReleaseDate>2011-08-18T16:00:05Z</ReleaseDate>
+      <Description>The OMNI instrument is a virtual instrument representing the collection of Magnetometers, Electrostatic Analyers,
             and Energetic Particle instruments used in the creation of the OMNI datasets. The instruments used within the OMNI datasets
             come from the ACE, Wind, IMP8, Geotail, GOES and various other spacecraft. For any given time period OMNI uses a selection criteria
             to select the "best" available data to be used. Thus, only one magnetometer, one electrostatic analyser, and one energetic particle
@@ -14,57 +14,57 @@
             which instruments contributed. As result, the OMNI instrument is used as a proxy for the set of possible contributing instruments.
             Complete details on the instruments and the selection criteria are available at the Information URLs listed below.
          </Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Joseph.H.King</PersonID>
-            <Role>Scientist</Role>
-         </Contact>
-         <InformationURL>
-            <Name>Overview of High Resolution OMNI</Name>
-            <URL>http://omniweb.gsfc.nasa.gov/html/HROdocum.html</URL>
-            <Description>Description of the instruments and processing techniques used in the creation of high resolution OMNI</Description>
-         </InformationURL>
-         <InformationURL>
-            <Name>Overview of Low Resolution OMNI</Name>
-            <URL>http://omniweb.gsfc.nasa.gov/html/ow_data.html</URL>
-            <Description>Description of the instruments and processing techniques used in the creation of low resolution OMNI</Description>
-         </InformationURL>
-         <Association>
-            <AssociationID>spase://SMWG/Instrument/ACE/MAG</AssociationID>
-            <AssociationType>PartOf</AssociationType>
-         </Association>
-         <Association>
-            <AssociationID>spase://SMWG/Instrument/ACE/SWEPAM</AssociationID>
-            <AssociationType>PartOf</AssociationType>
-         </Association>
-         <Association>
-            <AssociationID>spase://SMWG/Instrument/Wind/MFI</AssociationID>
-            <AssociationType>PartOf</AssociationType>
-         </Association>
-         <Association>
-            <AssociationID>spase://SMWG/Instrument/Wind/SWE</AssociationID>
-            <AssociationType>PartOf</AssociationType>
-         </Association>
-         <Association>
-            <AssociationID>spase://SMWG/Instrument/IMP8/MAG</AssociationID>
-            <AssociationType>PartOf</AssociationType>
-         </Association>
-         <Association>
-            <AssociationID>spase://SMWG/Instrument/IMP8/PLS</AssociationID>
-            <AssociationType>PartOf</AssociationType>
-         </Association>
-         <Association>
-            <AssociationID>spase://SMWG/Instrument/Geotail/MGF</AssociationID>
-            <AssociationType>PartOf</AssociationType>
-         </Association>
-         <Association>
-            <AssociationID>spase://SMWG/Instrument/Geotail/CPI</AssociationID>
-            <AssociationType>PartOf</AssociationType>
-         </Association>
-      </ResourceHeader>
-      <InstrumentType>Magnetometer</InstrumentType>
-      <InstrumentType>ElectrostaticAnalyser</InstrumentType>
-      <InstrumentType>EnergeticParticleInstrument</InstrumentType>
-      <InvestigationName>OMNI Instrument</InvestigationName>
-      <ObservatoryID>spase://SMWG/Observatory/OMNI</ObservatoryID>
-   </Instrument>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Joseph.H.King</PersonID>
+        <Role>Scientist</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Overview of High Resolution OMNI</Name>
+        <URL>http://omniweb.gsfc.nasa.gov/html/HROdocum.html</URL>
+        <Description>Description of the instruments and processing techniques used in the creation of high resolution OMNI</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Overview of Low Resolution OMNI</Name>
+        <URL>http://omniweb.gsfc.nasa.gov/html/ow_data.html</URL>
+        <Description>Description of the instruments and processing techniques used in the creation of low resolution OMNI</Description>
+      </InformationURL>
+      <Association>
+        <AssociationID>spase://SMWG/Instrument/ACE/MAG</AssociationID>
+        <AssociationType>PartOf</AssociationType>
+      </Association>
+      <Association>
+        <AssociationID>spase://SMWG/Instrument/ACE/SWEPAM</AssociationID>
+        <AssociationType>PartOf</AssociationType>
+      </Association>
+      <Association>
+        <AssociationID>spase://SMWG/Instrument/Wind/MFI</AssociationID>
+        <AssociationType>PartOf</AssociationType>
+      </Association>
+      <Association>
+        <AssociationID>spase://SMWG/Instrument/Wind/SWE</AssociationID>
+        <AssociationType>PartOf</AssociationType>
+      </Association>
+      <Association>
+        <AssociationID>spase://SMWG/Instrument/IMP8/MAG</AssociationID>
+        <AssociationType>PartOf</AssociationType>
+      </Association>
+      <Association>
+        <AssociationID>spase://SMWG/Instrument/IMP8/PLS</AssociationID>
+        <AssociationType>PartOf</AssociationType>
+      </Association>
+      <Association>
+        <AssociationID>spase://SMWG/Instrument/Geotail/MGF</AssociationID>
+        <AssociationType>PartOf</AssociationType>
+      </Association>
+      <Association>
+        <AssociationID>spase://SMWG/Instrument/Geotail/CPI</AssociationID>
+        <AssociationType>PartOf</AssociationType>
+      </Association>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InstrumentType>ElectrostaticAnalyser</InstrumentType>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>OMNI Instrument</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/OMNI</ObservatoryID>
+  </Instrument>
 </Spase>

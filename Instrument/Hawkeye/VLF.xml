@@ -1,6 +1,5 @@
-<Spase xmlns="http://www.spase-group.org/data/schema"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd" lang="en">
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd" lang="en">
   <Version>2.2.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Hawkeye/VLF</ResourceID>
@@ -179,7 +178,7 @@ if the pulser output were to short to ground. The pulse was applied at the end
 of the impedance measurement frame.
 
       </Description>
-      <Acknowledgement />
+      <Acknowledgement/>
       <Contact>
         <PersonID>spase://SMWG/Person/Donald.A.Gurnett</PersonID>
         <Role>PrincipalInvestigator</Role>

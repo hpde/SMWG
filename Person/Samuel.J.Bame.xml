@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Samuel.J.Bame</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-      <PersonName>Dr. Samuel J. Bame</PersonName>
-      <OrganizationName>Los Alamos National Laboratory, Retired</OrganizationName>
-      <Email>sbame@lanl.gov</Email>
-      <PhoneNumber>+1 505 662 7415</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Samuel.J.Bame</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
+    <PersonName>Dr. Samuel J. Bame</PersonName>
+    <OrganizationName>Los Alamos National Laboratory, Retired</OrganizationName>
+    <Email>sbame@lanl.gov</Email>
+    <PhoneNumber>+1 505 662 7415</PhoneNumber>
+  </Person>
 </Spase>

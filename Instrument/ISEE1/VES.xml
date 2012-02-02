@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema 
-    http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-    <Version>2.2.0</Version>
-    <Instrument>
-        <ResourceID>spase://SMWG/Instrument/ISEE1/VES</ResourceID>
-        <ResourceHeader>
-            <ResourceName>ISEE 1 Vector Electron Spectrometer (VES)</ResourceName>
-            <ReleaseDate>2011-06-30T00:00:00</ReleaseDate>
-            <Description>Two triaxial systems of 127-deg cylindrical 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema      http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/ISEE1/VES</ResourceID>
+    <ResourceHeader>
+      <ResourceName>ISEE 1 Vector Electron Spectrometer (VES)</ResourceName>
+      <ReleaseDate>2011-06-30T00:00:00</ReleaseDate>
+      <Description>Two triaxial systems of 127-deg cylindrical 
                 electrostatic analyzers were used to make three-dimensional 
                 measurements of the electron distribution function. There were 
                 three modes of operation, with the following nominal energy ranges: 
@@ -19,18 +16,18 @@
                 spectrometer measurements was taken while the satellite rotated 
                 through 60 deg. Each spectrometer consisted of a curved-plate 
                 analyzer and two channeltron detectors.</Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Keith.W.Ogilvie</PersonID>
-                <Role>PrincipalInvestigator</Role>
-            </Contact>
-            <InformationURL>
-                <Name>NSSDC's Master Catalog</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1977-102A-02</URL>
-                <Description>Information about the Vector Electron Spectrometer on the ISEE 1 spacecraft.</Description>
-            </InformationURL>
-        </ResourceHeader>
-        <InstrumentType>ElectrostaticAnalyser</InstrumentType>
-        <InvestigationName>Vector Electron Spectrometer (VES)</InvestigationName>
-        <ObservatoryID>spase://SMWG/Observatory/ISEE1</ObservatoryID>
-    </Instrument>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Keith.W.Ogilvie</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1977-102A-02</URL>
+        <Description>Information about the Vector Electron Spectrometer on the ISEE 1 spacecraft.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>ElectrostaticAnalyser</InstrumentType>
+    <InvestigationName>Vector Electron Spectrometer (VES)</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/ISEE1</ObservatoryID>
+  </Instrument>
 </Spase>

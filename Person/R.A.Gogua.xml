@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/R.A.Gogua</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-      <PersonName>R. A. Gogua</PersonName>
-      <OrganizationName>Institute of Geophysics</OrganizationName>
-      <Address>Institute of Geophysics, Georgia Academy of Sciences, 1 Rukhadze St., Tblisi 380093, Georgian Republic</Address>
-      <Email>root@geophy.acnet.ge</Email>
-      <PhoneNumber>+7 8832 36 30 7/36 54 80</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/R.A.Gogua</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
+    <PersonName>R. A. Gogua</PersonName>
+    <OrganizationName>Institute of Geophysics</OrganizationName>
+    <Address>Institute of Geophysics, Georgia Academy of Sciences, 1 Rukhadze St., Tblisi 380093, Georgian Republic</Address>
+    <Email>root@geophy.acnet.ge</Email>
+    <PhoneNumber>+7 8832 36 30 7/36 54 80</PhoneNumber>
+  </Person>
 </Spase>

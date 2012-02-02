@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Thorsteinn.Saemundsson</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-      <PersonName>Thorsteinn Saemundsson</PersonName>
-      <OrganizationName>Science Institute</OrganizationName>
-      <Address>Science Institute, University of Iceland, Dunhaga 5, Reykjavik IS-107, Iceland</Address>
-      <Email>halo@raunvis.hi.is</Email>
-      <PhoneNumber>+354 525 4809</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Thorsteinn.Saemundsson</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
+    <PersonName>Thorsteinn Saemundsson</PersonName>
+    <OrganizationName>Science Institute</OrganizationName>
+    <Address>Science Institute, University of Iceland, Dunhaga 5, Reykjavik IS-107, Iceland</Address>
+    <Email>halo@raunvis.hi.is</Email>
+    <PhoneNumber>+354 525 4809</PhoneNumber>
+  </Person>
 </Spase>

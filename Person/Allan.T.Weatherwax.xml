@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Allan.T.Weatherwax</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:45Z</ReleaseDate>
-      <PersonName>Allan T. Weatherwax</PersonName>
-      <OrganizationName>Institute for Physical Science and Technology</OrganizationName>
-      <Address>Institute for Physical Science and Technology, University of Maryland, College Park, MD 20742-2431</Address>
-      <Email>aweatherwax@siena.edu</Email>
-      <PhoneNumber>+1 301 405 4895</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Allan.T.Weatherwax</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:45Z</ReleaseDate>
+    <PersonName>Allan T. Weatherwax</PersonName>
+    <OrganizationName>Institute for Physical Science and Technology</OrganizationName>
+    <Address>Institute for Physical Science and Technology, University of Maryland, College Park, MD 20742-2431</Address>
+    <Email>aweatherwax@siena.edu</Email>
+    <PhoneNumber>+1 301 405 4895</PhoneNumber>
+  </Person>
 </Spase>

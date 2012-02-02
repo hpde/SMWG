@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
-   <Version>2.0.1</Version>
-   <Instrument>
-      <ResourceID>spase://SMWG/Instrument/CRRES/Ephemeris</ResourceID>
-      <ResourceHeader>
-         <ResourceName>CRRES Spacecraft Position</ResourceName>
-         <AlternateName>CRRES Ephemeris</AlternateName>
-         <ReleaseDate>2010-02-24T12:34:56.789</ReleaseDate>
-         <Description>CRESS spacecraft position information</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-      </ResourceHeader>
-      <InstrumentType>Platform</InstrumentType>
-      <InvestigationName>Spacecraft position</InvestigationName>
-      <ObservatoryID>spase://SMWG/Observatory/CRRES</ObservatoryID>
-   </Instrument>
+  <Version>2.0.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/CRRES/Ephemeris</ResourceID>
+    <ResourceHeader>
+      <ResourceName>CRRES Spacecraft Position</ResourceName>
+      <AlternateName>CRRES Ephemeris</AlternateName>
+      <ReleaseDate>2010-02-24T12:34:56.789</ReleaseDate>
+      <Description>CRESS spacecraft position information</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>Platform</InstrumentType>
+    <InvestigationName>Spacecraft position</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/CRRES</ObservatoryID>
+  </Instrument>
 </Spase>

@@ -1,30 +1,30 @@
-<?xml version="1.0" encoding="UTF-8" ?> 
-  <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version> 
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Observatory>
-	  <ResourceID>spase://SMWG/Observatory/MACCS</ResourceID> 
-		  <ResourceHeader>
-		  <ResourceName>Magnetometer Array for Cusp and Cleft Studies</ResourceName> 
-		  <AlternateName>MACCS</AlternateName>
-		  <ReleaseDate>2011-01-10T00:00:00Z</ReleaseDate> 
-		  <Description>The MACCS (Magnetometer Array for Cusp and Cleft Studies) project is a joint venture between the Augsburg College Physics Department and Boston University's Astronomy Department to study natural interactions in the Earth's space environment. Since 1991, faculty and students at the two colleges have worked together to build, calibrate and install magnetometers and computer-based recording systems at eight villages at the northern end of Hudson Bay, on Baffin Island and on the shores of the Arctic Ocean. Supported by grant ATM-0827903 from the National Science Foundation's Division of Atmospheric Sciences.</Description> 
-		  <Acknowledgement>Supported by grant ATM-0827903 from the National Science Foundation's Division of Atmospheric Sciences; Dr. Mark Engebretson; Dr. W. Jeffrey Hughes</Acknowledgement>
-		   <Contact>
-			  <PersonID>spase://SMWG/Person/Mark.Engebretson</PersonID> 
-			  <Role>PrincipalInvestigator</Role> 
-		  </Contact> 
-		  <Contact>
-			  <PersonID>spase://SMWG/Person/W.Jeffrey.Hughes</PersonID> 
-			  <Role>PrincipalInvestigator</Role> 
-		  </Contact>
-		  <InformationURL>
-			  <Name>Overview of the Magnetometer Array for Cusp and Cleft Studies</Name> 
-			  <URL>http://yspace.augsburg.edu/maccs.html</URL> 
-			  <Description>Description of Magnetometer Array for Cusp and Cleft Studies project.</Description> 
-		  </InformationURL>
-		</ResourceHeader>  
-		<Location>
-		  <ObservatoryRegion>Earth.Surface</ObservatoryRegion> 
-		</Location>
+    <ResourceID>spase://SMWG/Observatory/MACCS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Magnetometer Array for Cusp and Cleft Studies</ResourceName>
+      <AlternateName>MACCS</AlternateName>
+      <ReleaseDate>2011-01-10T00:00:00Z</ReleaseDate>
+      <Description>The MACCS (Magnetometer Array for Cusp and Cleft Studies) project is a joint venture between the Augsburg College Physics Department and Boston University's Astronomy Department to study natural interactions in the Earth's space environment. Since 1991, faculty and students at the two colleges have worked together to build, calibrate and install magnetometers and computer-based recording systems at eight villages at the northern end of Hudson Bay, on Baffin Island and on the shores of the Arctic Ocean. Supported by grant ATM-0827903 from the National Science Foundation's Division of Atmospheric Sciences.</Description>
+      <Acknowledgement>Supported by grant ATM-0827903 from the National Science Foundation's Division of Atmospheric Sciences; Dr. Mark Engebretson; Dr. W. Jeffrey Hughes</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Mark.Engebretson</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/W.Jeffrey.Hughes</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Overview of the Magnetometer Array for Cusp and Cleft Studies</Name>
+        <URL>http://yspace.augsburg.edu/maccs.html</URL>
+        <Description>Description of Magnetometer Array for Cusp and Cleft Studies project.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+    </Location>
   </Observatory>
-  </Spase>
+</Spase>

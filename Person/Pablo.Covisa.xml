@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Pablo.Covisa</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-      <PersonName>Pablo Covisa</PersonName>
-      <OrganizationName>Observatorio Geofisico de Toledo</OrganizationName>
-      <Address>Observatorio Geofisico de Toledo, Apdo: 446., 45071 TOLEDO, ESPANA</Address>
-      <Email>pcovisa@ign.es</Email>
-      <PhoneNumber>34-925 254 349</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Pablo.Covisa</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
+    <PersonName>Pablo Covisa</PersonName>
+    <OrganizationName>Observatorio Geofisico de Toledo</OrganizationName>
+    <Address>Observatorio Geofisico de Toledo, Apdo: 446., 45071 TOLEDO, ESPANA</Address>
+    <Email>pcovisa@ign.es</Email>
+    <PhoneNumber>34-925 254 349</PhoneNumber>
+  </Person>
 </Spase>

@@ -22,7 +22,7 @@ RPI was capable of detecting direct echoes from the plasmasphere from distances 
         <PersonID>spase://SMWG/Person/Ivan.A.Galkin</PersonID>
         <Role>DataProducer</Role>
         <Role>TechnicalContact</Role>
-      </Contact> 
+      </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-017A-01</URL>
@@ -33,13 +33,13 @@ RPI was capable of detecting direct echoes from the plasmasphere from distances 
         <URL>http://image.gsfc.nasa.gov/rpi/</URL>
         <Description>IMAGE RPI Instrument page maintained by NASA GSFC with RPI facts, description, team, data, documents, discoveries, and related links sections</Description>
         <Language>en</Language>
-       </InformationURL>
-       <InformationURL>
-         <Name>IMAGE RPI Instrument Page at UML</Name>
-         <URL>http://ulcar.uml.edu/rpi.html</URL>
-         <Description>IMAGE RPI Instrument page maintained by University of Massachusetts Lowell with RPI description, team, software downloads, software user guides, access to CORPRAL automated prospecting results, mission planning tools and commanding guide, data model descriptions for Level 0 and 1, sonification files of 2003 Halloween storm, and useful links</Description>
-         <Language>en</Language>
-       </InformationURL>
+      </InformationURL>
+      <InformationURL>
+        <Name>IMAGE RPI Instrument Page at UML</Name>
+        <URL>http://ulcar.uml.edu/rpi.html</URL>
+        <Description>IMAGE RPI Instrument page maintained by University of Massachusetts Lowell with RPI description, team, software downloads, software user guides, access to CORPRAL automated prospecting results, mission planning tools and commanding guide, data model descriptions for Level 0 and 1, sonification files of 2003 Halloween storm, and useful links</Description>
+        <Language>en</Language>
+      </InformationURL>
     </ResourceHeader>
     <InstrumentType>LongWire</InstrumentType>
     <InstrumentType>Sounder</InstrumentType>

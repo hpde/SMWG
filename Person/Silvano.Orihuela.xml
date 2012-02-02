@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Silvano.Orihuela</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-      <PersonName>Silvano Orihuela</PersonName>
-      <OrganizationName>Observatorio de Huancayo apartado 46 Huancayo</OrganizationName>
-      <Address>Observatorio de Huancayo apartado 46 Huancayo, Peru</Address>
-      <Email>sol@axil.igp.gob.pe</Email>
-      <PhoneNumber>(51)-064-216695</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Silvano.Orihuela</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
+    <PersonName>Silvano Orihuela</PersonName>
+    <OrganizationName>Observatorio de Huancayo apartado 46 Huancayo</OrganizationName>
+    <Address>Observatorio de Huancayo apartado 46 Huancayo, Peru</Address>
+    <Email>sol@axil.igp.gob.pe</Email>
+    <PhoneNumber>(51)-064-216695</PhoneNumber>
+  </Person>
 </Spase>

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.0.1</Version>
-    <Instrument>
-        <ResourceID>spase://SMWG/Instrument/WDC/Baguio/Magnetometer</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Baguio Ground Magnetic Field Instrument</ResourceName>
-            <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
-            <Description>The magnetic field instrument at the Baguio ground station</Description>
-            <Acknowledgement>IONO Division, Manila Observatory</Acknowledgement>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Ben.Estor</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-                <Role>MetadataContact</Role>
-            </Contact>
-        </ResourceHeader>
-        <InstrumentType>Magnetometer</InstrumentType>
-        <InvestigationName>None Identified</InvestigationName>
-        <ObservatoryID>spase://SMWG/Observatory/WDC/Baguio</ObservatoryID>
-    </Instrument>
+  <Version>2.0.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/WDC/Baguio/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Baguio Ground Magnetic Field Instrument</ResourceName>
+      <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
+      <Description>The magnetic field instrument at the Baguio ground station</Description>
+      <Acknowledgement>IONO Division, Manila Observatory</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Ben.Estor</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>None Identified</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/WDC/Baguio</ObservatoryID>
+  </Instrument>
 </Spase>

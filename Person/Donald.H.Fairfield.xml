@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Donald.H.Fairfield</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
-      <PersonName>Dr. Donald H. Fairfield</PersonName>
-      <OrganizationName>NASA Goddard Space Flight Center</OrganizationName>
-      <Address>Code 695, Greenbelt, MD 20771, USA</Address>
-      <Email>u2dhf@lepdhf.gsfc.nasa.gov</Email>
-      <PhoneNumber>+1 301 286 7472</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Donald.H.Fairfield</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
+    <PersonName>Dr. Donald H. Fairfield</PersonName>
+    <OrganizationName>NASA Goddard Space Flight Center</OrganizationName>
+    <Address>Code 695, Greenbelt, MD 20771, USA</Address>
+    <Email>u2dhf@lepdhf.gsfc.nasa.gov</Email>
+    <PhoneNumber>+1 301 286 7472</PhoneNumber>
+  </Person>
 </Spase>

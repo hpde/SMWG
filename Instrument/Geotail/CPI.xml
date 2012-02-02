@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
-   <Version>2.0.1</Version>
-   <Instrument>
-      <ResourceID>spase://SMWG/Instrument/Geotail/CPI</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Geotail CPI</ResourceName>
-         <AlternateName>Geotail Comprehensive Plasma Instrumentation</AlternateName>
-         <ReleaseDate>2010-02-04T12:34:56.789</ReleaseDate>
-         <Description>The objective of the Comprehensive Plasma Instrumentation (CPI) investigation is to make comprehensive observations of the three-dimensional velocity distribution functions of electrons and positive ions, with identification of ion species. The instrument contains three sets of quadrispherical analyzers with channel electron multipliers. These three obtain three-dimensional measurements for hot plasma and solar wind electrons, for solar wind ions, and for positive-ion composition measurements. The positive-ion composition measurement of the Ion Composition (IC) analyzer includes five miniature imaging mass spectrometers at the exit aperture of the analyzer, and covers masses from 1 to 550 u/Q at 100 eV, and 1 to 55 u/Q at 10 keV. The Hot Plasma (HP) analyzer measures electrons and ions in the range 1-50,000 eV/Q. The Solar Wind (SW) analyzer measures ions from 150 to 7,000 eV/Q. Sequencing of the energy analyzers and mass spectrometers, and other control functions, are provided by two microprocessors.</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Louis.A.Frank</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <InformationURL>
-            <Name>NSSDC's Master Catalog</Name>
-            <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1992-044A-04</URL>
-            <Description>Information about the Comprehensive Plasma Instrument (CPI)</Description>
-         </InformationURL>
-         <PriorID>spase://nssdc/instrument/1992-044A-04</PriorID>
-      </ResourceHeader>
-      <InstrumentType>QuadrisphericalAnalyser</InstrumentType>
-      <InvestigationName>CPI on GEOTAIL</InvestigationName>
-      <ObservatoryID>spase://SMWG/Observatory/Geotail</ObservatoryID>
-   </Instrument>
+  <Version>2.0.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Geotail/CPI</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Geotail CPI</ResourceName>
+      <AlternateName>Geotail Comprehensive Plasma Instrumentation</AlternateName>
+      <ReleaseDate>2010-02-04T12:34:56.789</ReleaseDate>
+      <Description>The objective of the Comprehensive Plasma Instrumentation (CPI) investigation is to make comprehensive observations of the three-dimensional velocity distribution functions of electrons and positive ions, with identification of ion species. The instrument contains three sets of quadrispherical analyzers with channel electron multipliers. These three obtain three-dimensional measurements for hot plasma and solar wind electrons, for solar wind ions, and for positive-ion composition measurements. The positive-ion composition measurement of the Ion Composition (IC) analyzer includes five miniature imaging mass spectrometers at the exit aperture of the analyzer, and covers masses from 1 to 550 u/Q at 100 eV, and 1 to 55 u/Q at 10 keV. The Hot Plasma (HP) analyzer measures electrons and ions in the range 1-50,000 eV/Q. The Solar Wind (SW) analyzer measures ions from 150 to 7,000 eV/Q. Sequencing of the energy analyzers and mass spectrometers, and other control functions, are provided by two microprocessors.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Louis.A.Frank</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1992-044A-04</URL>
+        <Description>Information about the Comprehensive Plasma Instrument (CPI)</Description>
+      </InformationURL>
+      <PriorID>spase://nssdc/instrument/1992-044A-04</PriorID>
+    </ResourceHeader>
+    <InstrumentType>QuadrisphericalAnalyser</InstrumentType>
+    <InvestigationName>CPI on GEOTAIL</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Geotail</ObservatoryID>
+  </Instrument>
 </Spase>

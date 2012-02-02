@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/William.R.Paterson</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-      <PersonName>Dr. William R. Paterson</PersonName>
-      <OrganizationName>Hampton University</OrganizationName>
-      <Address>Atmospheric and Planetary Science, Hampton University, Hampton, VA 23668-6401</Address>
-      <Email>bill.paterson@hamptonu.edu</Email>
-      <PhoneNumber>+1 757 728 6401</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/William.R.Paterson</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
+    <PersonName>Dr. William R. Paterson</PersonName>
+    <OrganizationName>Hampton University</OrganizationName>
+    <Address>Atmospheric and Planetary Science, Hampton University, Hampton, VA 23668-6401</Address>
+    <Email>bill.paterson@hamptonu.edu</Email>
+    <PhoneNumber>+1 757 728 6401</PhoneNumber>
+  </Person>
 </Spase>

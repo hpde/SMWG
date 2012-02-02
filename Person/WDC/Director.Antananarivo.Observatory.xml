@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.0.1</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/WDC/Director.Antananarivo.Observatory</ResourceID>
-      <ReleaseDate>2009-11-05T12:34:56.789</ReleaseDate>
-      <PersonName>Director Antananarivo Observatory</PersonName>
-      <OrganizationName>INSTITUT ET OBSERVATOIRE GEOPHYSIQUE</OrganizationName>
-      <Address>INSTITUT ET OBSERVATOIRE GEOPHYSIQUE, D'ANTANANARIVO, P.O. BOX 3843, Antananarivo (101), MADAGASCAR</Address>
-      <Email>fnranai@syfed.refer.mg</Email>
-      <PhoneNumber>(261) 2 22 253 53</PhoneNumber>
-   </Person>
+  <Version>2.0.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/WDC/Director.Antananarivo.Observatory</ResourceID>
+    <ReleaseDate>2009-11-05T12:34:56.789</ReleaseDate>
+    <PersonName>Director Antananarivo Observatory</PersonName>
+    <OrganizationName>INSTITUT ET OBSERVATOIRE GEOPHYSIQUE</OrganizationName>
+    <Address>INSTITUT ET OBSERVATOIRE GEOPHYSIQUE, D'ANTANANARIVO, P.O. BOX 3843, Antananarivo (101), MADAGASCAR</Address>
+    <Email>fnranai@syfed.refer.mg</Email>
+    <PhoneNumber>(261) 2 22 253 53</PhoneNumber>
+  </Person>
 </Spase>

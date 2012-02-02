@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Benito.J.Casas</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
-      <PersonName>Benito J. Casas</PersonName>
-      <OrganizationName>Observatorio Geofisico de Guimar-Tenerife</OrganizationName>
-      <Address>Observatorio Geofisico de Guimar-Tenerife, Apdo: 95, 38500 Guimar, Spain</Address>
-      <Email>bjcasas@arrakis.es</Email>
-      <PhoneNumber>34-922 287 054</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Benito.J.Casas</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
+    <PersonName>Benito J. Casas</PersonName>
+    <OrganizationName>Observatorio Geofisico de Guimar-Tenerife</OrganizationName>
+    <Address>Observatorio Geofisico de Guimar-Tenerife, Apdo: 95, 38500 Guimar, Spain</Address>
+    <Email>bjcasas@arrakis.es</Email>
+    <PhoneNumber>34-922 287 054</PhoneNumber>
+  </Person>
 </Spase>

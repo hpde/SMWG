@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Ricardo.Monreal.Mac-Mahon</ResourceID>
-      <PersonName>Ricardo Monreal Mac-Mahon</PersonName>
-      <OrganizationName>Laboratorio de Fisica Espacial</OrganizationName>
-      <Address>Laboratorio de Fisica Espacial, Física Solar Terrestre, Universidad de Magallanes, Chile</Address>
-      <Email>ricardo.monreal@umag.cl</Email>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Ricardo.Monreal.Mac-Mahon</ResourceID>
+    <PersonName>Ricardo Monreal Mac-Mahon</PersonName>
+    <OrganizationName>Laboratorio de Fisica Espacial</OrganizationName>
+    <Address>Laboratorio de Fisica Espacial, F&#xED;sica Solar Terrestre, Universidad de Magallanes, Chile</Address>
+    <Email>ricardo.monreal@umag.cl</Email>
+  </Person>
 </Spase>

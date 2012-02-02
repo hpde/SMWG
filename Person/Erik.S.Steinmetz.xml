@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Erik.S.Steinmetz</ResourceID>
-      <ReleaseDate>2012-01-31T12:34:56.789</ReleaseDate>
-      <PersonName>Erik S. Steinmetz</PersonName>
-      <OrganizationName>Augsburg College</OrganizationName>
-      <Address>2211 Riverside Avenue, Minneapolis, MN 55454-1338, USA</Address>
-      <Email>steinmee@augsburg.edu</Email>
-      <PhoneNumber>612 789-6940</PhoneNumber>
-   </Person>
+  <Version>2.2.2</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Erik.S.Steinmetz</ResourceID>
+    <ReleaseDate>2012-01-31T12:34:56.789</ReleaseDate>
+    <PersonName>Erik S. Steinmetz</PersonName>
+    <OrganizationName>Augsburg College</OrganizationName>
+    <Address>2211 Riverside Avenue, Minneapolis, MN 55454-1338, USA</Address>
+    <Email>steinmee@augsburg.edu</Email>
+    <PhoneNumber>612 789-6940</PhoneNumber>
+  </Person>
 </Spase>

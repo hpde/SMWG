@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-	xmlns="http://www.spase-group.org/data/schema" 
-	xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-<Version>2.2.1</Version>
-<Instrument>
-   <ResourceID>spase://SMWG/Instrument/IAGA/Kap.Tobin/Magnetometer</ResourceID>
-   <ResourceHeader>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.2.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/IAGA/Kap.Tobin/Magnetometer</ResourceID>
+    <ResourceHeader>
       <ResourceName>Kap Tobin Magnetometer</ResourceName>
       <AlternateName>Kap.Tobin Magnetometer</AlternateName>
       <AlternateName>IAGA:KTG Magnetometer</AlternateName>
@@ -13,23 +11,23 @@
       <Description>Magnetometer located at the station with the IAGA identifier KTG</Description>
       <Acknowledgement>Please acknowedge the KTG observatory when using data from this instrument.</Acknowledgement>
       <Contact>
-         <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
-         <Role>MetadataContact</Role>
+        <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+        <Role>MetadataContact</Role>
       </Contact>
       <InformationURL>
-         <Name>IAGA Guides and Standards</Name>
-         <URL>http://www.iugg.org/IAGA/iaga_pages/pubs_prods/Products_services.htm</URL>
-         <Description>Overview of IAGA Guides and Standards which obtained within its 
+        <Name>IAGA Guides and Standards</Name>
+        <URL>http://www.iugg.org/IAGA/iaga_pages/pubs_prods/Products_services.htm</URL>
+        <Description>Overview of IAGA Guides and Standards which obtained within its 
          	Divisions and Working Groups. Information about observatories 
          	is maintained by the "Geomagntic Observatories" (V-OBS) working group.</Description>
       </InformationURL>
-   </ResourceHeader>
-   <InstrumentType>Magnetometer</InstrumentType>
-   <InvestigationName>IAGA</InvestigationName>
-   <OperatingSpan>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>IAGA</InvestigationName>
+    <OperatingSpan>
       <StartDate>1959-01-01T00:00:00</StartDate>
       <StopDate>1967-12-31T23:59:59</StopDate>
-   </OperatingSpan>
-   <ObservatoryID>spase://SMWG/Observatory/IAGA/Kap.Tobin</ObservatoryID>
-</Instrument>
+    </OperatingSpan>
+    <ObservatoryID>spase://SMWG/Observatory/IAGA/Kap.Tobin</ObservatoryID>
+  </Instrument>
 </Spase>

@@ -1,6 +1,5 @@
-<Spase xmlns="http://www.spase-group.org/data/schema"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd" lang="en">
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd" lang="en">
   <Version>2.1.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Geotail/PWI</ResourceID>
@@ -27,7 +26,7 @@ In order to measure the weak electric and magnetic fields from plasma waves in t
 
 Two masts of 6 m in length are used for mounting the magnetic field sensors well away from the spacecraft in an attempt to the reduce the spacecraft noise. One of these masts, called `MST-F', mounts two sets of the flux-gate magnetometers which are used by the MGF team. They are dedicated primarily to the measurement of the DC magnetic field. Two sets of search coil and their pre-amplifiers which are used by both the PWI and MGF teams to measure wave magnetic fields or magnetic field fluctuations are mounted on the other mast called `MST-S'. 
 
-The antenna elements of the WANT and PANT are radially deployed from the spacecraft and orthogonal to each other. Their axes, U and V, deviate by 15  degrees clockwise from the spacecraft X and Y coordinate directions, respectively. The assembly of PWI tri-axial search coils (which is hereafter called PWI-SC) and their pre-amplifiers is mounted on the top of the MST-S. The tri-axial search coils associated with the MGF (MGF-SC) are mounted on the same mast but 2 m inside of the PWI-SC. The PWI-SC is normally connected to the PWI measurement system. However, we can select the MGF-SC by a telemetry command if necessary. The direction of the MST-S (and MST--F) deviates by 45° clockwise from the spacecraft Y (and -Y) axis. The three axes of the PWI search coils are defined in a cylindrical coordinate system as follows: \alpha is in the tangential direction, \beta measures in the radial direction, and \gamma is parallel to the spin Z axis of the spacecraft.
+The antenna elements of the WANT and PANT are radially deployed from the spacecraft and orthogonal to each other. Their axes, U and V, deviate by 15  degrees clockwise from the spacecraft X and Y coordinate directions, respectively. The assembly of PWI tri-axial search coils (which is hereafter called PWI-SC) and their pre-amplifiers is mounted on the top of the MST-S. The tri-axial search coils associated with the MGF (MGF-SC) are mounted on the same mast but 2 m inside of the PWI-SC. The PWI-SC is normally connected to the PWI measurement system. However, we can select the MGF-SC by a telemetry command if necessary. The direction of the MST-S (and MST--F) deviates by 45&#xB0; clockwise from the spacecraft Y (and -Y) axis. The three axes of the PWI search coils are defined in a cylindrical coordinate system as follows: \alpha is in the tangential direction, \beta measures in the radial direction, and \gamma is parallel to the spin Z axis of the spacecraft.
 
 Sweep Frequency Analyzer (SFA)
 
@@ -89,19 +88,19 @@ Besides the Memory Mode, the WFC can be operated in a Direct mode, with two poss
 
 The WFC system can measure the wave amplitude with a dynamic range of 66 dB. The receiver gain keeping its dynamic range can be stepped up in the gain controller "H/L" by 40 dB and 20 dB in electric and magnetic channels to amplify the weak signal, respectively.
       </Description>
-      <Acknowledgement />
+      <Acknowledgement/>
       <Contact>
         <PersonID>spase://SMWG/Person/Hiroshi.Matsumoto</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
-	  <Contact>
-		<PersonID>spase://SMWG/Person/Hirotsugu.Kojima</PersonID>
-		<Role>CoInvestigator</Role>
-		<Role>GeneralContact</Role>	
-	  </Contact>
       <Contact>
-         <PersonID>spase://SMWG/Person/Guan.Le</PersonID>
-         <Role>ProjectScientist</Role>
+        <PersonID>spase://SMWG/Person/Hirotsugu.Kojima</PersonID>
+        <Role>CoInvestigator</Role>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Guan.Le</PersonID>
+        <Role>ProjectScientist</Role>
       </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Stanley.D.Shawhan</PersonID>
@@ -202,4 +201,4 @@ The WFC system can measure the wave amplitude with a dynamic range of 66 dB. The
     <InvestigationName>Plasma Wave Investigation (PWI) on Geotail</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Geotail</ObservatoryID>
   </Instrument>
-  </Spase>
+</Spase>

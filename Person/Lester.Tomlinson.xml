@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Lester.Tomlinson</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-      <PersonName>Lester Tomlinson</PersonName>
-      <OrganizationName>Geoscience, Electronics Data Services</OrganizationName>
-      <Address>Geoscience, Electronics Data Services, 30 Kirner Street, Christchurch 9, New Zealand</Address>
-      <Email>lester@geoserve.southern.co.nz</Email>
-      <PhoneNumber>+64 3 383 1936</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Lester.Tomlinson</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
+    <PersonName>Lester Tomlinson</PersonName>
+    <OrganizationName>Geoscience, Electronics Data Services</OrganizationName>
+    <Address>Geoscience, Electronics Data Services, 30 Kirner Street, Christchurch 9, New Zealand</Address>
+    <Email>lester@geoserve.southern.co.nz</Email>
+    <PhoneNumber>+64 3 383 1936</PhoneNumber>
+  </Person>
 </Spase>

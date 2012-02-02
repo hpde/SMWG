@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-<Version>2.2.0</Version>
-<Instrument>
-   <ResourceID>spase://SMWG/Instrument/GOES/6/EPM</ResourceID>
-   <ResourceHeader>
+  <Version>2.2.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/GOES/6/EPM</ResourceID>
+    <ResourceHeader>
       <ResourceName>Energetic Particle Monitor</ResourceName>
       <AlternateName>1983-041A-02</AlternateName>
       <ReleaseDate>2011-09-20T21:42:36Z</ReleaseDate>
-      <Description>The GOES 6  Energetic Particle Monitor (EPM) consisted of three detector assemblies, each covering limited regions of the overall energy spectrum. The first two detector assemblies monitored protons in seven energy ranges between 0.8 and 500 MeV and alpha particles in six energy ranges from 4 to >400 MeV. There was also one channel for the measurement of electrons in the energy range above 500 keV. The third detector, high energy proton and alpha detector (HEPAD), monitored protons in four energy ranges above 370 MeV and alpha particles in two energy ranges above 640 MeV/nucleon. In all, there were 25 channels of data, each channel sampling at a slow rate of once in a few seconds, or once in a few minutes.   </Description>
+      <Description>The GOES 6  Energetic Particle Monitor (EPM) consisted of three detector assemblies, each covering limited regions of the overall energy spectrum. The first two detector assemblies monitored protons in seven energy ranges between 0.8 and 500 MeV and alpha particles in six energy ranges from 4 to &gt;400 MeV. There was also one channel for the measurement of electrons in the energy range above 500 keV. The third detector, high energy proton and alpha detector (HEPAD), monitored protons in four energy ranges above 370 MeV and alpha particles in two energy ranges above 640 MeV/nucleon. In all, there were 25 channels of data, each channel sampling at a slow rate of once in a few seconds, or once in a few minutes.   </Description>
       <Acknowledgement>NOAA Environmental Research Laboratories; Dr. Herbert H. Sauer; Dr. Terry Onsager</Acknowledgement>
       <Contact>
-         <PersonID>spase://SMWG/Person/Herbert.H.Sauer</PersonID>
-         <Role>PrincipalInvestigator</Role>
+        <PersonID>spase://SMWG/Person/Herbert.H.Sauer</PersonID>
+        <Role>PrincipalInvestigator</Role>
       </Contact>
       <Contact>
-            <PersonID>spase://SMWG/Person/Terry.Onsager</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
+        <PersonID>spase://SMWG/Person/Terry.Onsager</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
       <Contact>
-         <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
-         <Role>MetadataContact</Role>
+        <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+        <Role>MetadataContact</Role>
       </Contact>
       <InformationURL>
-         <Name>NSSDC's Master Catalog on the GOES 6 Energetic Particle Monitor</Name>
-         <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1983-041A-02</URL>
-         <Description>Introduction to the Energetic Particle Monitor on GOES 6</Description>
+        <Name>NSSDC's Master Catalog on the GOES 6 Energetic Particle Monitor</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1983-041A-02</URL>
+        <Description>Introduction to the Energetic Particle Monitor on GOES 6</Description>
       </InformationURL>
       <Association>
-      	<AssociationID>spase://SMWG/Observatory/GOES/6</AssociationID>
-      	<AssociationType>PartOf</AssociationType>
-      	<Note>Number of available GOES spacecraft varies from year to year.</Note>
+        <AssociationID>spase://SMWG/Observatory/GOES/6</AssociationID>
+        <AssociationType>PartOf</AssociationType>
+        <Note>Number of available GOES spacecraft varies from year to year.</Note>
       </Association>
-   </ResourceHeader>
-   <InstrumentType>EnergeticParticleInstrument</InstrumentType>
-   <InvestigationName>Energetic Particle Monitor on GOES 6</InvestigationName>
-   <ObservatoryID>spase://SMWG/Observatory/GOES/6</ObservatoryID>
-   <Caveats></Caveats>
-</Instrument>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Energetic Particle Monitor on GOES 6</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/GOES/6</ObservatoryID>
+    <Caveats/>
+  </Instrument>
 </Spase>

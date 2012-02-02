@@ -1,29 +1,29 @@
-<?xml version="1.0" encoding="UTF-8" ?> 
-  <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version> 
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Observatory>
-	  <ResourceID>spase://SMWG/Observatory/STEP</ResourceID> 
-		  <ResourceHeader>
-		  <ResourceName>Solar-Terrestrial Energy Program</ResourceName> 
-		  <AlternateName>STEP</AlternateName>
-		  <ReleaseDate>2011-01-10T00:00:00Z</ReleaseDate> 
-		  <Description>"STEP Polar Network" started in 1991 and has become known as the Solar-Terrestrial Energy Program (STEP) that lasted until 1997. However, STEP continues to provide those data for public including:  low time resolution(1 minute) data, high time resolution(1 second) data obtained by fluxgate magnetometgers, and induction magnetometer data which is sampled by 10Hz. </Description> 
-		  <Acknowledgement>Department of Earth
+    <ResourceID>spase://SMWG/Observatory/STEP</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Solar-Terrestrial Energy Program</ResourceName>
+      <AlternateName>STEP</AlternateName>
+      <ReleaseDate>2011-01-10T00:00:00Z</ReleaseDate>
+      <Description>"STEP Polar Network" started in 1991 and has become known as the Solar-Terrestrial Energy Program (STEP) that lasted until 1997. However, STEP continues to provide those data for public including:  low time resolution(1 minute) data, high time resolution(1 second) data obtained by fluxgate magnetometgers, and induction magnetometer data which is sampled by 10Hz. </Description>
+      <Acknowledgement>Department of Earth
 and Planetary Physics, The University of Tokyo; Prof. Kanji Hayashi</Acknowledgement>
-		   <Contact>
-			  <PersonID>spase://SMWG/Person/Kanji.Hayashi</PersonID> 
-			  <Role>PrincipalInvestigator</Role> 
-		  </Contact> 
-		  <InformationURL>
-			  <Name>Overview of the Solar-Terrestrial Energy Program Magnetometer Data</Name> 
-			  <URL>http://step-p.dyndns.org/~khay/</URL> 
-			  <Description>In this site you can find information and data recorded by   magnetometer networks which we operated in the northern polar  region.</Description> 
-		  </InformationURL>
-		</ResourceHeader>  
-		<Location>
-		  <ObservatoryRegion>Earth.NearSurface.AuroralRegion</ObservatoryRegion> 
-		  <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion> 
-		  <ObservatoryRegion>Earth.Surface</ObservatoryRegion> 
-		</Location>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Kanji.Hayashi</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Overview of the Solar-Terrestrial Energy Program Magnetometer Data</Name>
+        <URL>http://step-p.dyndns.org/~khay/</URL>
+        <Description>In this site you can find information and data recorded by   magnetometer networks which we operated in the northern polar  region.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.NearSurface.AuroralRegion</ObservatoryRegion>
+      <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+    </Location>
   </Observatory>
-  </Spase>
+</Spase>

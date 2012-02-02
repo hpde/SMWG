@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.0.1</Version>
-    <Instrument>
-        <ResourceID>spase://SMWG/Instrument/WDC/Yakutsk/Magnetometer</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Yakutsk Ground Magnetic Field Instrument</ResourceName>
-            <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
-            <Description>The magnetic field instrument at the Yakutsk ground station</Description>
-            <Acknowledgement>Geomagnetism Laboratory of Institute of, Cosmophysical Research and Aeronomy, Siberian Branch of RAS.</Acknowledgement>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Stepan.I.Soloyev</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Georgy.A.Makarov</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-                <Role>MetadataContact</Role>
-            </Contact>
-        </ResourceHeader>
-        <InstrumentType>Magnetometer</InstrumentType>
-        <InvestigationName>None Identified</InvestigationName>
-        <ObservatoryID>spase://SMWG/Observatory/WDC/Yakutsk</ObservatoryID>
-    </Instrument>
+  <Version>2.0.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/WDC/Yakutsk/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Yakutsk Ground Magnetic Field Instrument</ResourceName>
+      <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
+      <Description>The magnetic field instrument at the Yakutsk ground station</Description>
+      <Acknowledgement>Geomagnetism Laboratory of Institute of, Cosmophysical Research and Aeronomy, Siberian Branch of RAS.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Stepan.I.Soloyev</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Georgy.A.Makarov</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>None Identified</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/WDC/Yakutsk</ObservatoryID>
+  </Instrument>
 </Spase>

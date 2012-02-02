@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Nathan.Sterner</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-      <PersonName>Nathan Sterner</PersonName>
-      <OrganizationName>Air Force Research Lab</OrganizationName>
-      <PhoneNumber>+1 781 377 1307</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Nathan.Sterner</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
+    <PersonName>Nathan Sterner</PersonName>
+    <OrganizationName>Air Force Research Lab</OrganizationName>
+    <PhoneNumber>+1 781 377 1307</PhoneNumber>
+  </Person>
 </Spase>

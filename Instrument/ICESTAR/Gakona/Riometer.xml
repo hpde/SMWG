@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
-   <Version>2.0.1</Version>
-   <Instrument>
-      <ResourceID>spase://SMWG/Instrument/ICESTAR/Gakona/Riometer</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Gakona Riometer Instrument</ResourceName>
-         <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
-         <Description>The Riometer instrument at the Gakona ground station</Description>
-         <Acknowledgement>Please acknowledge Theodore J. Rosenberg, Allan T. Weatherwax, Institute for Physical Science and Technology (University of Maryland, College Park, MD 20742-2431) for use of data from the Gakona Riometer instrument.</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Theodore.J.Rosenberg</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Allan.T.Weatherwax</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>The Gakona Riometer web site</Name>
-            <URL>http://www.polar.umd.edu</URL>
-            <Description>The Gakona Riometer web site</Description>
-         </InformationURL>
-         <Association>
-            <AssociationID>spase://SMWG/Observatory/ICESTAR/Gakona</AssociationID>
-            <AssociationType>PartOf</AssociationType>
-         </Association>
-      </ResourceHeader>
-      <InstrumentType>Riometer</InstrumentType>
-      <InvestigationName></InvestigationName>
-      <ObservatoryID>spase://SMWG/Observatory/ICESTAR/Gakona</ObservatoryID>
-   </Instrument>
+  <Version>2.0.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/ICESTAR/Gakona/Riometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Gakona Riometer Instrument</ResourceName>
+      <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
+      <Description>The Riometer instrument at the Gakona ground station</Description>
+      <Acknowledgement>Please acknowledge Theodore J. Rosenberg, Allan T. Weatherwax, Institute for Physical Science and Technology (University of Maryland, College Park, MD 20742-2431) for use of data from the Gakona Riometer instrument.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Theodore.J.Rosenberg</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Allan.T.Weatherwax</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The Gakona Riometer web site</Name>
+        <URL>http://www.polar.umd.edu</URL>
+        <Description>The Gakona Riometer web site</Description>
+      </InformationURL>
+      <Association>
+        <AssociationID>spase://SMWG/Observatory/ICESTAR/Gakona</AssociationID>
+        <AssociationType>PartOf</AssociationType>
+      </Association>
+    </ResourceHeader>
+    <InstrumentType>Riometer</InstrumentType>
+    <InvestigationName/>
+    <ObservatoryID>spase://SMWG/Observatory/ICESTAR/Gakona</ObservatoryID>
+  </Instrument>
 </Spase>

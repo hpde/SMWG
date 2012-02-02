@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/J.J.Schott</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
-      <PersonName>J J Schott</PersonName>
-      <OrganizationName>ECOLE ET OBSERVATOIRE DES SCIENCES DE LA TERRE (EOST)</OrganizationName>
-      <Address>ECOLE ET OBSERVATOIRE DES SCIENCES DE LA TERRE (EOST), Service des observatoires magnetiques, 5, rue Rene Descartes, F-67084 STRASBOURG CEDEX, FRANCE</Address>
-      <Email>jbitterly@eost.u-strasbg.fr</Email>
-      <PhoneNumber>(33) 3 88 41 63 67</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/J.J.Schott</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
+    <PersonName>J J Schott</PersonName>
+    <OrganizationName>ECOLE ET OBSERVATOIRE DES SCIENCES DE LA TERRE (EOST)</OrganizationName>
+    <Address>ECOLE ET OBSERVATOIRE DES SCIENCES DE LA TERRE (EOST), Service des observatoires magnetiques, 5, rue Rene Descartes, F-67084 STRASBOURG CEDEX, FRANCE</Address>
+    <Email>jbitterly@eost.u-strasbg.fr</Email>
+    <PhoneNumber>(33) 3 88 41 63 67</PhoneNumber>
+  </Person>
 </Spase>

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase 
-		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-		xmlns="http://www.spase-group.org/data/schema" 
-		xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
   <Version>2.0.0</Version>
   <Service>
     <ResourceID>spase://SMWG/Service/POLAR/UVI/BrowseImages</ResourceID>
@@ -29,15 +26,15 @@ spacecraft location.
         <PersonID>spase://SMWG/Person/Peggy.Sloan</PersonID>
         <Role>MetadataContact</Role>
       </Contact>
-	  <InformationURL>
-	  	<Name>UVI Home Page</Name>
-		<URL>http://tideuvira.nsstc.nasa.gov/uvi/</URL>
-		<Description>
+      <InformationURL>
+        <Name>UVI Home Page</Name>
+        <URL>http://tideuvira.nsstc.nasa.gov/uvi/</URL>
+        <Description>
 The Polar Ultraviolet Imager (UVI) Home Page contains links that describe the instrument, its operation, allow the 
 user to view 36 second images and key parameter mosaics from the mission and download software, plus links 
 to the UVI data archive, to lists of UVI publications and presentations, and several miscellaneous mission sites.
 		</Description>
-	  </InformationURL>
+      </InformationURL>
     </ResourceHeader>
     <AccessURL>
       <Name>Polar UVI Browse Images</Name>

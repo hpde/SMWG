@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Luiz.Muniz.Barreto</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-      <PersonName>Luiz Muniz Barreto</PersonName>
-      <OrganizationName>CNPq - Observatorio Nacional</OrganizationName>
-      <Address>CNPq - Observatorio Nacional, Rua General Bruce, No. 586 Sao Cristovao, 20,921 Rio de Janeiro - RJ, Brazil</Address>
-      <Email>Bitnet:OGG3@LNCC</Email>
-      <PhoneNumber>(21) 589 7313 (ext.210)</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Luiz.Muniz.Barreto</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
+    <PersonName>Luiz Muniz Barreto</PersonName>
+    <OrganizationName>CNPq - Observatorio Nacional</OrganizationName>
+    <Address>CNPq - Observatorio Nacional, Rua General Bruce, No. 586 Sao Cristovao, 20,921 Rio de Janeiro - RJ, Brazil</Address>
+    <Email>Bitnet:OGG3@LNCC</Email>
+    <PhoneNumber>(21) 589 7313 (ext.210)</PhoneNumber>
+  </Person>
 </Spase>

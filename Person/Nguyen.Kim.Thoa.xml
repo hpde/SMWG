@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Nguyen.Kim.Thoa</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-      <PersonName>Nguyen Kim Thoa</PersonName>
-      <OrganizationName>Institute of Geophysics</OrganizationName>
-      <Address>Institute of Geophysics, Vietnam National Centre for Science and Technology, Box 411, Buu Dien Bo Ho, HANOI, Vietnam</Address>
-      <Email>chau@igp.ncst.ac.vn</Email>
-      <PhoneNumber>84 48 36 32 39</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Nguyen.Kim.Thoa</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
+    <PersonName>Nguyen Kim Thoa</PersonName>
+    <OrganizationName>Institute of Geophysics</OrganizationName>
+    <Address>Institute of Geophysics, Vietnam National Centre for Science and Technology, Box 411, Buu Dien Bo Ho, HANOI, Vietnam</Address>
+    <Email>chau@igp.ncst.ac.vn</Email>
+    <PhoneNumber>84 48 36 32 39</PhoneNumber>
+  </Person>
 </Spase>

@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.0.1</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/WDC/Director.Tamanrasset.Observatory</ResourceID>
-      <ReleaseDate>2009-11-05T12:34:56.789</ReleaseDate>
-      <PersonName>Director Tamanrasset Observatory</PersonName>
-      <OrganizationName>Observatoire de Tamanrasset.</OrganizationName>
-      <Address>Observatoire de Tamanrasset., BP32, 11000 TAMANRASSET, ALGERIA</Address>
-      <Email>bcmt@ipgp.jussieu.fr</Email>
-      <PhoneNumber>213 9 344 123</PhoneNumber>
-   </Person>
+  <Version>2.0.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/WDC/Director.Tamanrasset.Observatory</ResourceID>
+    <ReleaseDate>2009-11-05T12:34:56.789</ReleaseDate>
+    <PersonName>Director Tamanrasset Observatory</PersonName>
+    <OrganizationName>Observatoire de Tamanrasset.</OrganizationName>
+    <Address>Observatoire de Tamanrasset., BP32, 11000 TAMANRASSET, ALGERIA</Address>
+    <Email>bcmt@ipgp.jussieu.fr</Email>
+    <PhoneNumber>213 9 344 123</PhoneNumber>
+  </Person>
 </Spase>

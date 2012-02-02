@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <Observatory>
@@ -46,7 +46,6 @@ All ALSEP instruments were deployed on the surface by the astronauts and attache
         <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1971-008C</URL>
         <Description>Information about the Apollo 14 Lunar Module / ALSEP mission</Description>
       </InformationURL>
-      
       <PriorID>spase://nssdc/observatory/1971-008C</PriorID>
     </ResourceHeader>
     <Location>

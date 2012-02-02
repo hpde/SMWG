@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-   <Version>2.2.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Satoshi.Fujiwara</ResourceID>
-      <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-      <PersonName>Satoshi Fujiwara</PersonName>
-      <OrganizationName>Geodetic Department</OrganizationName>
-      <Address>Geodetic Department, Geographical Survey Institute, Kitazato-1, Tsukuba-shi, Ibara-ken 305, Japan</Address>
-      <PhoneNumber>(81) 0298-64-1111 (ext. 431)</PhoneNumber>
-   </Person>
+  <Version>2.2.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Satoshi.Fujiwara</ResourceID>
+    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
+    <PersonName>Satoshi Fujiwara</PersonName>
+    <OrganizationName>Geodetic Department</OrganizationName>
+    <Address>Geodetic Department, Geographical Survey Institute, Kitazato-1, Tsukuba-shi, Ibara-ken 305, Japan</Address>
+    <PhoneNumber>(81) 0298-64-1111 (ext. 431)</PhoneNumber>
+  </Person>
 </Spase>

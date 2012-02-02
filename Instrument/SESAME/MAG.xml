@@ -1,27 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-    <Version>2.2.1</Version>
-    <Instrument>
-        <ResourceID>spase://SMWG/Instrument/SESAME/MAG</ResourceID>
-        <ResourceHeader>
-            <ResourceName>SESAME Magnetometer</ResourceName>
-            <ReleaseDate>2011-10-19T00:00:00Z</ReleaseDate>
-            <Description>The SESAME MAG (Satellite Experiments Simultaneous with Antarctic MEasurements Magnetometer) is an EDA fluxgate magnetometer that samples the H, D, and Z components of the Earth's magnetic field once every second with a resolution of approximately 1 nT.</Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/J.R.Dundeney</PersonID>
-                <Role>PrincipalInvestigator</Role>
-            </Contact> 
-            <InformationURL>
-                <Name>IACG website</Name>
-                <URL>http://www.iacg.org/iacg/ground_stations/sesame.html</URL>
-                <Description>Information about SESAME</Description>
-            </InformationURL>
-        </ResourceHeader>
-        <InstrumentType>Magnetometer</InstrumentType>
-        <InvestigationName>Magnetometer Observations in SESAME</InvestigationName>
-        <ObservatoryID>spase://SMWG/Observatory/SESAME</ObservatoryID>
-    </Instrument>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.2.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/SESAME/MAG</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SESAME Magnetometer</ResourceName>
+      <ReleaseDate>2011-10-19T00:00:00Z</ReleaseDate>
+      <Description>The SESAME MAG (Satellite Experiments Simultaneous with Antarctic MEasurements Magnetometer) is an EDA fluxgate magnetometer that samples the H, D, and Z components of the Earth's magnetic field once every second with a resolution of approximately 1 nT.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/J.R.Dundeney</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>IACG website</Name>
+        <URL>http://www.iacg.org/iacg/ground_stations/sesame.html</URL>
+        <Description>Information about SESAME</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Magnetometer Observations in SESAME</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/SESAME</ObservatoryID>
+  </Instrument>
 </Spase>
-
-

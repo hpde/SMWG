@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Interball-Auroral</ResourceID>
     <ResourceHeader>
-        <ResourceName>Interball Auroral</ResourceName>
+      <ResourceName>Interball Auroral</ResourceName>
       <ReleaseDate>2010-09-27T18:42:12Z</ReleaseDate>
       <Description>The Interball Project is a multi-national effort that consists of four spacecraft: two main spacecraft of the Prognoz series, made in Russia, each with a small subsatellite made in Czechoslovakia. The main objective is to study the physical mechanisms responsible for the transmission of solar wind energy to the magnetosphere, its storage there, and subsequent dissipation in the tail and auroral regions of the magnetosphere, ionosphere, and atmosphere during magnetospheric substorms. One pair of spacecraft, Tail Probe and its subsatellite S2-X (X for the first letter of the Russian word for ``Tail''), will be launched into the magnetospheric tail. The second pair, Auroral Probe and S2-A (A for ``Auroral''), will have an orbit that crosses the auroral oval to observe the acceleration of auroral particles and the flow of electric currents that connect the magnetospheric tail with the conducting ionosphere.</Description>
       <Contact>

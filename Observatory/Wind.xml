@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-   <Version>2.2.0</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Wind</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Wind</ResourceName>
-         <AlternateName>ISTP/Wind</AlternateName>
-         <AlternateName>GGS/Wind</AlternateName>
-         <AlternateName>Wind/ISTP</AlternateName>
-         <AlternateName>Wind/GGS</AlternateName>
-         <ReleaseDate>2011-08-17T18:19:11Z</ReleaseDate>
-         <Description>The Wind spacecraft was launched on November 1, 1994 and is the first of two NASA spacecraft in the Global Geospace Science initiative and part of the ISTP Project. The science objectives of the Wind mission are: (1) Provide complete plasma, energetic particle, and magnetic field input for magnetospheric and ionospheric studies; (2) Determine the magnetospheric output to interplanetary space in the up-stream region; (3) Investigate basic plasma processes occurring in the near-Earth solar wind; and (4) Provide baseline ecliptic plane observations to be used in heliospheric latitudes from ULYSSES.
+  <Version>2.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Wind</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Wind</ResourceName>
+      <AlternateName>ISTP/Wind</AlternateName>
+      <AlternateName>GGS/Wind</AlternateName>
+      <AlternateName>Wind/ISTP</AlternateName>
+      <AlternateName>Wind/GGS</AlternateName>
+      <ReleaseDate>2011-08-17T18:19:11Z</ReleaseDate>
+      <Description>The Wind spacecraft was launched on November 1, 1994 and is the first of two NASA spacecraft in the Global Geospace Science initiative and part of the ISTP Project. The science objectives of the Wind mission are: (1) Provide complete plasma, energetic particle, and magnetic field input for magnetospheric and ionospheric studies; (2) Determine the magnetospheric output to interplanetary space in the up-stream region; (3) Investigate basic plasma processes occurring in the near-Earth solar wind; and (4) Provide baseline ecliptic plane observations to be used in heliospheric latitudes from ULYSSES.
             Wind has on-board propulsion and its design lifetime is three to five years, with redundant subsystems. Wind is cylindrical, approximately 2.8 m in diameter by 1.25 m high, with body-mounted solar cells. It has long wire spin-plane antennas, inertial booms, and spin-plane appendages to support sensors. Wind has experiment booms deployed along both Z axes. The spin rate is 20 rpm around an axis within 1 degree of normal to the ecliptic.
             Data are stored using on-board tape recorders and are relayed to the Deep Space Network at one of two rates: 5.5 or 11.1 kbps.
             For the first nine months of operation, Wind was placed in a double-lunar swingby orbit near the ecliptic plane, with apogee from 80 to 250 Earth radii and perigee of between 5 and 10 Earth radii. In this orbit, lunar gravity assists were used to keep its apogee over the day hemisphere of the Earth, and magnetospheric observations are made. Wind was then inserted into a small "halo" orbit, about the sunward Sun-Earth gravitational equilibrium point (L1), varying from 235 to 265 Earth radii. In this orbit Wind measures the incoming solar wind, magnetic fields and particles continuously and provides an approximately one-hour warning to the other ISTP spacecraft of changes in the solar wind.
             In 2001 and 2002 Wind has executed a distant prograde orbit that took it +/- 300 Re leading and legging Earth. This orbit provided a wide baseline to study solar wind structures and correlations. In 2003, Wind reached the L2 Lagrange point 240 Re anti-sunward from Earth providing a 500 Re spatial separation from ACE solar wind observations along with measurements of the distant Earth magnetotail. Since 2004, Wind has been permanently parked in a L1 halo orbit where it continues to provide high-quality solar wind measurements.</Description>
-         <Contact>
-            <!-- Adam Szabo -->
-            <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
-            <Role>ProjectScientist</Role>
-         </Contact>
-         <InformationURL>
-            <Name>Wind Spacecraft Home Page</Name>
-            <URL>http://wind.nasa.gov</URL>
-         </InformationURL>
-         <InformationURL>
-            <Name>NSSDC's Master Catalog</Name>
-            <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1994-071A</URL>
-            <Description>Information about the Wind mission</Description>
-         </InformationURL>
-         <PriorID>spase://vspo/observatory/84</PriorID>
-      </ResourceHeader>
-      <Location>
-         <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
-         <ObservatoryRegion>Heliosphere.Inner</ObservatoryRegion>
-         <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
-         <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
-         <ObservatoryRegion>Earth.Magnetosphere.Magnetotail</ObservatoryRegion>
-         <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
-      </Location>
-   </Observatory>
+      <Contact>
+        <!-- Adam Szabo -->
+        <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Wind Spacecraft Home Page</Name>
+        <URL>http://wind.nasa.gov</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1994-071A</URL>
+        <Description>Information about the Wind mission</Description>
+      </InformationURL>
+      <PriorID>spase://vspo/observatory/84</PriorID>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+      <ObservatoryRegion>Heliosphere.Inner</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere.Magnetotail</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
+    </Location>
+  </Observatory>
 </Spase>

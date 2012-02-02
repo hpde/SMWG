@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-   <Version>2.2.0</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/ISEE</ResourceID>
-      <ResourceHeader>
-         <ResourceName>ISEE Mission</ResourceName>
-         <ReleaseDate>2010-10-01T20:05:54Z</ReleaseDate>
-         <Description>The Explorer-class spacecraft, International Sun-Earth Explorer, that were part of the mother/daughter/heliocentric mission (ISEE 1, ISEE 2, ISEE 3). The purposes of the mission were:
+  <Version>2.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/ISEE</ResourceID>
+    <ResourceHeader>
+      <ResourceName>ISEE Mission</ResourceName>
+      <ReleaseDate>2010-10-01T20:05:54Z</ReleaseDate>
+      <Description>The Explorer-class spacecraft, International Sun-Earth Explorer, that were part of the mother/daughter/heliocentric mission (ISEE 1, ISEE 2, ISEE 3). The purposes of the mission were:
 
             * (1) to investigate solar-terrestrial relationships at the outermost boundaries of the Earth's magnetosphere,
             * (2) to examine in detail the structure of the solar wind near the Earth and the shock wave that forms the interface between the solar wind and the Earth's magnetosphere,
@@ -14,13 +14,13 @@
             * (4) to continue the investigation of cosmic rays and solar flare effects in the interplanetary region near 1 AU.
 
 The three spacecraft carried a number of complementary instruments for making measurements of plasmas, energetic particles, waves, and fields. The mission thus extended the investigations of previous IMP spacecraft.</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Keith.W.Ogilvie</PersonID>
-            <Role>ProjectScientist</Role>
-         </Contact>
-      </ResourceHeader>
-      <Location>
-         <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
-      </Location>
-   </Observatory>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Keith.W.Ogilvie</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+    </Location>
+  </Observatory>
 </Spase>

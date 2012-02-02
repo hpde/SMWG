@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_3.xsd">
   <Version>2.0.3</Version>
   <Instrument>
@@ -13,7 +13,7 @@
 
       The proton telescope (SC2-6) consisted of a front and a rear solid-state detector behind a collimator-magnet assembly. The particles entering the collimator passed through a uniform magnetic field that kept electrons from being detected and contaminating the proton measurement. The protons and heavy ion trajectories were unaffected by the magnetic field. The front detector was energy analyzed while the rear detector eliminated penetrating particles from the analysis and provided necessary background information. The proton analysis produced differential flux measurements in six energy windows and two integral flux channels. The instrument had a geometric factor of 2e-3 cm^2 sr.
 
-      The heavy-ion detection system SC2-3B was similar to the SC2-6 proton detector. The instrument was a two-element, solid-state telescope that was highly collimated, and the detectors were heavily shielded in all directions except the field of view .The electron rejection magnet was well separated from the detectors and deflected out of the incident beam all electrons with energies &lt; 1.7 MeV. The energetic ions were not affected by this &quot;broom magnet.&quot; The SC2-3B heavy-ion telescope had a geometric factor of 3.6e-4 cm^2 sr.
+      The heavy-ion detection system SC2-3B was similar to the SC2-6 proton detector. The instrument was a two-element, solid-state telescope that was highly collimated, and the detectors were heavily shielded in all directions except the field of view .The electron rejection magnet was well separated from the detectors and deflected out of the incident beam all electrons with energies &lt; 1.7 MeV. The energetic ions were not affected by this "broom magnet." The SC2-3B heavy-ion telescope had a geometric factor of 3.6e-4 cm^2 sr.
 
       The SC2-3B ion telescope had a very thin (2.3 μm, 10 mm^2) front detector and a thicker (42.1 μm, 25 mm^2) rear detector. The output from the front detector was energy-analyzed while the rear detector was used to reject penetrating particles. The ions were differentiated by the energy required for them to penetrate the front detector. Ions with energies &gt;90 keV/nucleon were detected. A high threshold was also used on the rear detector to measure particles that penetrated the brass shield or front detector and still deposit large amounts of energy. The shielding stopped &lt;45 MeV protons and &lt;5 MeV electrons.
       </Description>

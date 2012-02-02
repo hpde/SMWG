@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <Observatory>
@@ -14,7 +14,7 @@
     </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/NeutronMonitor</ObservatoryGroupID>
     <Location>
-      <ObservatoryRegion>Earth.Surface</ObservatoryRegion> 
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
       <Latitude>20.72</Latitude>
       <Longitude>203.72</Longitude>
       <Elevation>3030</Elevation>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
-   <Version>2.0.1</Version>
-   <Instrument>
-      <ResourceID>spase://SMWG/Instrument/Wind/3DP</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Wind Hot Plasma and Charged Particles (3DP)</ResourceName>
-         <AlternateName>Wind/3DP</AlternateName>
-         <ReleaseDate>2011-08-17T15:16:35Z</ReleaseDate>
-         <Description>The Wind 3DP investigation, a three-dimensional plasma analyzer, is designed to meet the following objectives:
+  <Version>2.0.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Wind/3DP</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Wind Hot Plasma and Charged Particles (3DP)</ResourceName>
+      <AlternateName>Wind/3DP</AlternateName>
+      <ReleaseDate>2011-08-17T15:16:35Z</ReleaseDate>
+      <Description>The Wind 3DP investigation, a three-dimensional plasma analyzer, is designed to meet the following objectives:
 
             * (1) to make the first detailed exploration of the interplanetary particle population in the suprathermal energy range between solar wind plasma energies and 100 keV;
             * (2) to study particle acceleration at the sun, in the interplanetary medium, and upstream from the earth;
@@ -15,19 +15,19 @@
             * (4) to study the basic plasma processes occurring in the interplanetary medium, such as the production of radio emission by beam-plasma processes (Type III bursts) and shock waves (Type II), soliton collapse, and solar wind flux.
 
             The instrument measures the three-dimensional distribution of plasma and energetic electrons and ions with high energy, angular, and temporal resolution, over the energy range 10 eV to 5 MeV (different ranges for different parts of the instrument). The instrument consists of three detector systems, SST, EESA, and PESA. The SST consists of two arrays of semiconductor detectors (electron and proton), each consisting of six separate telescopes covering an aperture of 108 x 36 deg. EESA and PESA are quadrispherical analyzers (electron and proton, respectively), each mounted on a separate inertia boom. These analyzers, of novel design, provide significant measurements even at the lowest flux levels likely to be encountered by this spacecraft. The symmetrical quadrispherical electrostatic analyzers provide a large geometric factor, a uniform angular response at all polar angles, with about 1-deg angular resolution, and a 360-deg field of view. Microprocessors are employed to provide physically meaningful onboard data processing and compression, as well as flexibility of operation. For example, 10 moments of positive ion and electron distributions are computed every half spin period. In addition, the particles are sorted by pitch angle, using the magnetic field vector obtained directly from the magnetometer on board.</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Robert.P.Lin</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <InformationURL>
-            <Name>NSSDC's Master Catalog</Name>
-            <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1994-071A-01</URL>
-            <Description>Information about the Hot Plasma and Charged Particles (3DP) experiment on the Wind mission.</Description>
-         </InformationURL>
-         <PriorID>spase://SMWG/instrument/1994-071A-01</PriorID>
-      </ResourceHeader>
-      <InstrumentType>QuadrisphericalAnalyser</InstrumentType>
-      <InvestigationName>Hot Plasma and Charged Particles (3DP) on Wind</InvestigationName>
-      <ObservatoryID>spase://SMWG/Observatory/Wind</ObservatoryID>
-   </Instrument>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Robert.P.Lin</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1994-071A-01</URL>
+        <Description>Information about the Hot Plasma and Charged Particles (3DP) experiment on the Wind mission.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/instrument/1994-071A-01</PriorID>
+    </ResourceHeader>
+    <InstrumentType>QuadrisphericalAnalyser</InstrumentType>
+    <InvestigationName>Hot Plasma and Charged Particles (3DP) on Wind</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Wind</ObservatoryID>
+  </Instrument>
 </Spase>
