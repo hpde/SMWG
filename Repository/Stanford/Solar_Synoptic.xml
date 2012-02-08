@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.2.1</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/Stanford/Solar_Synoptic</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Solar Synoptic Site at Stanford</ResourceName>
+      <ReleaseDate>2012-02-08T16:01:34Z</ReleaseDate>
+      <Description>The Solar Synoptic Site at Stanford provides access
+to solar synoptic maps from EIT and from MDI on the SOHO
+spacecraft</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Elena.Benevolenskaya</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>Solar Synoptic Site at Stanford</Name>
+      <URL>http://sun.stanford.edu/synoptic/</URL>
+    </AccessURL>
+  </Repository>
+</Spase>
