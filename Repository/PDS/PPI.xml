@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.2.1</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/PDS/PPI</ResourceID>
+    <ResourceHeader>
+      <ResourceName>PDS PPI</ResourceName>
+      <ReleaseDate>2012-02-09T21:25:21Z</ReleaseDate>
+      <Description>Planetary Plasma Interactions node of the 
+Planetary Data System</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Raymond.J.Walker</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>PDS PPI Web site</Name>
+      <URL>http://pds-ppi.igpp.ucla.edu</URL>
+    </AccessURL>
+  </Repository>
+</Spase>
