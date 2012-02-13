@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">   <Version>2.2.1</Version>
+   <Repository>
+     <ResourceID>spase://SMWG/Repository/TIMED/TIDI_POC</ResourceID>
+     <ResourceHeader>
+       <ResourceName>TIMED/TIDI Payload Operations Center</ResourceName>
+       <AlternateName>TIMED/TIDI POC</AlternateName>
+       <ReleaseDate>2011-10-24T21:34:00Z</ReleaseDate>
+       <Description>Repository containing TIMED/TIDI data</Description>
+       <Acknowledgement> The TIDI instrument and this website have been sponsored by NASA through grants NAG5-5049 and NNX07AB72G and is currently supported by NNX07AF48G.       </Acknowledgement>
+       <Contact>
+          <PersonID>spase://SMWG/Person/Timothy.L.Killeen</PersonID>
+          <Role>PrincipalInvestigator</Role>
+       </Contact>
+       <InformationURL>
+ 	  <Name>TIMED/TIDI POC web site</Name>
+ 	  <URL>http://tidi.engin.umich.edu/</URL>
+       </InformationURL>
+     </ResourceHeader>
+     <AccessURL>
+ 	  <Name>TIDI Data Products</Name>
+ 	  <URL>http://tidi.engin.umich.edu/html/go&amp;access_data/main_data_access.html&amp;menu_home-new.html</URL>
+     </AccessURL>
+   </Repository>
+ </Spase>

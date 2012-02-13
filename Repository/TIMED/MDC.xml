@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.2.1</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/TIMED/MDC</ResourceID>
+    <ResourceHeader>
+      <ResourceName>TIMED Mission Data Center</ResourceName>
+      <AlternateName>TIMED MDC</AlternateName>
+      <ReleaseDate>2011-10-24T21:34:00Z</ReleaseDate>
+      <Description>Repository containing TIMED Mission data</Description>
+      <Acknowledgement>
+Please acknowledge the TIMED instrument teams and the TIMED Science Data System in publications and presentations that use these data
+      </Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Stuart.R.Nylund</PersonID>
+	  <Role>TechnicalContact</Role>
+	  <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+         <PersonID>spase://SMWG/Person/Jeng-Hwa.Yee</PersonID>
+         <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+	  <Name>TIMED SDS/MDC web site</Name>
+	  <URL>http://www.timed.jhuapl.edu/WWW/scripts/mdc_home.pl</URL>
+      </InformationURL>
+      <InformationURL>
+	  <Name>TIMED Mission web site</Name>
+	  <URL>http://www.timed.jhuapl.edu/WWW/index.php</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessURL>
+	  <Name>TIMED MDC Data Products</Name>
+	  <URL>http://www.timed.jhuapl.edu/WWW/scripts/mdc_downloads.pl</URL>
+    </AccessURL>
+  </Repository>
+</Spase>

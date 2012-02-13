@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.2.1</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/TIMED/SEE_POC</ResourceID>
+    <ResourceHeader>
+      <ResourceName>LASP/CU TIMED/SEE Payload Operations Center</ResourceName>
+      <AlternateName>TIMED/SEE POC</AlternateName>
+      <ReleaseDate>2011-10-24T21:34:00Z</ReleaseDate>
+      <Description>Repository containing TIMED/SEE data</Description>
+      <Acknowledgement>
+All users should include an acknowledgement of the source of the SEE data similar to: The SEE data used here are provided through support from the NASA MO&amp;DA program. The Principal Investigator is Dr. Thomas N Woods.
+      </Acknowledgement>
+      <Contact>
+         <PersonID>spase://SMWG/Person/Thomas.N.Woods</PersonID>
+         <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+	  <Name>TIMED/SEE POC web site</Name>
+	  <URL>http://lasp.colorado.edu/see/</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessURL>
+	  <Name>SEE Data Products</Name>
+	  <URL>http://lasp.colorado.edu/see/see_data.html</URL>
+    </AccessURL>
+  </Repository>
+</Spase>

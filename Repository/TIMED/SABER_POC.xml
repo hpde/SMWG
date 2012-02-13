@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.2.1</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/TIMED/SABER_POC</ResourceID>
+    <ResourceHeader>
+      <ResourceName>TIMED/SABER Payload Operations Center</ResourceName>
+      <AlternateName>TIMED/SABER POC</AlternateName>
+      <ReleaseDate>2011-10-24T21:34:00Z</ReleaseDate>
+      <Description>Repository containing TIMED/SABER data</Description>
+      <Acknowledgement>
+All users should include an acknowledgement of the source of the SABER data similar to: The SABER data used here are provided through support from the NASA MO&amp;DA program. The Principal Investigator is Dr. James M. Russell III and the Co-PI is Dr. Martin G. Mlynczak.
+      </Acknowledgement>
+      <Contact>
+         <PersonID>spase://SMWG/Person/James.M.Russell.III</PersonID>
+         <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+	  <Name>TIMED/SABER POC web site</Name>
+	  <URL>http://saber.gats-inc.com/</URL>
+      </InformationURL>
+    </ResourceHeader>
+         <AccessURL>
+            <Name>SABER POC website</Name>
+            <URL>http://saber.gats-inc.com/</URL>
+            <Description>This SABER home page provides access to download data files for this product.  To request data: click "Data Servides", click "Browse Data", click "Level 2A", click year, month and day of interest, then select the desired file.</Description>
+         </AccessURL>
+  </Repository>
+</Spase>

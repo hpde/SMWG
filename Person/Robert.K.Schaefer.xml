@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.2.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Robert.K.Schaefer</ResourceID>
+    <ReleaseDate>2012-02-09T17:10:00Z</ReleaseDate>
+    <PersonName>Dr. Robert Schaefer</PersonName>
+    <OrganizationName>Applied Physics Laboratory</OrganizationName>
+    <Email>Robert.K.Schaefer@jhuapl.edu</Email>
+    <PhoneNumber>+1-240-228-2740</PhoneNumber>
+    <PhoneNumber>+1-443-778-2740</PhoneNumber>
+  </Person>
+</Spase>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.2.1</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/TIMED/GUVI_POC</ResourceID>
+    <ResourceHeader>
+      <ResourceName>JHU/APL TIMED/GUVI Payload Operations Center</ResourceName>
+      <AlternateName>TIMED/GUVI POC</AlternateName>
+      <ReleaseDate>2011-10-24T21:34:00Z</ReleaseDate>
+      <Description>Repository at JHU/APL containing TIMED/GUVI data</Description>
+      <Acknowledgement>
+All users should include an acknowledgement of the source of the GUVI data similar to: The GUVI data used here are provided through support from the NASA MO&amp;DA program. The GUVI instrument was designed and built by The Aerospace Corporation and The Johns Hopkins University. The Principal Investigator is Dr. Andrew B. Christensen and the Chief Scientist and co-PI is Dr. Larry J. Paxton.
+      </Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Robert.K.Schaefer</PersonID>
+	  <Role>TechnicalContact</Role>
+	  <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+         <PersonID>spase://SMWG/Person/Andrew.B.Christensen</PersonID>
+         <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+         <PersonID>spase://SMWG/Person/Larry.J.Paxton</PersonID>
+         <Role>CoInvestigator</Role>
+      </Contact>
+      <InformationURL>
+	  <Name>TIMED/GUVI POC web site</Name>
+	  <URL>http://guvi.jhuapl.edu/</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessURL>
+	  <Name>GUVI Data Products</Name>
+	  <URL>http://guvi.jhuapl.edu/site/data/guvi-dataproducts.shtml</URL>
+    </AccessURL>
+  </Repository>
+</Spase>
