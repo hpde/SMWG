@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">   <Version>2.2.1</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">   
+   <Version>2.2.1</Version>
    <Person>
      <ResourceID>spase://SMWG/Person/Stuart.R.Nylund</ResourceID>
-     <ReleaseDate>2011-10-20T17:35:46Z</ReleaseDate>
+     <ReleaseDate>2012-02-14T17:35:46Z</ReleaseDate>
      <PersonName>Mr. Stuart Nylund</PersonName>
      <OrganizationName>Applied Physics Laboratory</OrganizationName>
      <Email>stuart.nylund@jhuapl.edu</Email>
