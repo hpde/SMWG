@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+    <Version>2.2.1</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/IMAGE/HK</ResourceID>
+        <ResourceHeader>
+            <ResourceName>IMAGE HK - Housekeeping</ResourceName>
+            <AlternateName>IMAGE HK ADS, AST, COM, FSW, PWR, and TML</AlternateName>
+            <ReleaseDate>2012-02-16T00:00:00Z</ReleaseDate>
+            <Description>The housekeeping functions for the IMAGE mission include the Attitude Determination System, Autonomous Star Tracker, Communication Systems, Flight Software, Power Systems and Thermal Housekeeping.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>IMAGE CIDP</Name>
+        <URL>http://pluto.space.swri.edu/IMAGE/cidp.html</URL>
+        <Description>IMAGE Central Instrument Data Processor (CIDP)</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>IMAGE various subsystems</Name>
+        <URL>http://pluto.space.swri.edu/IMAGE/spacecraft_table.html</URL>
+        <Description>IMAGE various subsystems</Description>
+      </InformationURL>
+     </ResourceHeader>
+    <InstrumentType>Platform</InstrumentType>
+    <InvestigationName>NASA IMAGE Mission</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/IMAGE</ObservatoryID>
+  </Instrument>
+</Spase>
+
+
