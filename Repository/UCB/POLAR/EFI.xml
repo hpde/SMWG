@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.2.1</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/UCB/POLAR/EFI</ResourceID>
+    <ResourceHeader>
+      <ResourceName>POLAR EFI Data Repository</ResourceName>
+      <ReleaseDate>2012-03-05T21:25:16Z</ReleaseDate>
+      <Description>The Polar EFI Repository at UC Berkeley.</Description>
+      <Acknowledgement>The user will acknowledge, in any publication which uses POLAR EFI data, the instrument PI.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Forrest.S.Mozer</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessURL>
+      <URL>http://polarefi.ssl.berkeley.edu</URL>
+      <Language>en</Language>
+    </AccessURL>
+  </Repository>
+</Spase>
