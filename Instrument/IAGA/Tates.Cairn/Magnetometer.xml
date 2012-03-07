@@ -2,12 +2,12 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
   <Version>2.2.1</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/IAGA/TateS.Cairn/Magnetometer</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/IAGA/Tates.Cairn/Magnetometer</ResourceID>
     <ResourceHeader>
-      <ResourceName>Tate'S Cairn Magnetometer</ResourceName>
-      <AlternateName>Tate'S.Cairn Magnetometer</AlternateName>
+      <ResourceName>Tate's Cairn Magnetometer</ResourceName>
+      <AlternateName>Tate's.Cairn Magnetometer</AlternateName>
       <AlternateName>IAGA:TCN Magnetometer</AlternateName>
-      <ReleaseDate>2011-08-31T06:13:52</ReleaseDate>
+      <ReleaseDate>2012-03-07T05:00:22Z</ReleaseDate>
       <Description>Magnetometer located at the station with the IAGA identifier TCN</Description>
       <Acknowledgement>Please acknowedge the TCN observatory when using data from this instrument.</Acknowledgement>
       <Contact>
@@ -28,6 +28,6 @@
       <StartDate>1972-01-01T00:00:00</StartDate>
       <StopDate>1978-12-31T23:59:59</StopDate>
     </OperatingSpan>
-    <ObservatoryID>spase://SMWG/Observatory/IAGA/TateS.Cairn</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/IAGA/Tates.Cairn</ObservatoryID>
   </Instrument>
 </Spase>
