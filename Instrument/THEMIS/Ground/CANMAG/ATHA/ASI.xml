@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>THEMIS Ground Athabasca All Sky Imager</ResourceName>
       <AlternateName>ATHA ASI</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:04Z</ReleaseDate>
+      <ReleaseDate>2012-03-07T11:50:38</ReleaseDate>
       <Description>THEMIS Ground All Sky Imager at Athabasca, AB, Canada.  The ASI stations monitor a 170 degree field of view imaging the auroral oval at kilometer resolution.  The ASI is comprised of a fisheye lens and CCD (resolution 256 x 256 pixels) in a stainless steel enclosure topped with a transparent acrylic dome.  Exposure control ranges from 5 s to 1 ms although the typical data rate is one image every 3 seconds.  Silicone heaters keep the instrument within the nominal temperature range.  During daylight hours sun shades deploy to protect the CCD.  ATHA is part of the Norstar ASI network.  
       </Description>
       <Acknowledgement> We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically:
@@ -29,7 +29,7 @@ Martin Connors for building the Athabasca Station, S. Mende and E. Donovan for u
       </Contact>
       <InformationURL>
         <Name>Canadian Space Science Data Portal</Name>
-        <URL>http://portal.cssdp.ca:8080/ssdp/jsp/logon.jsp</URL>
+        <URL>http://cssdp.ca/</URL>
         <Description>Web portal to access Canadian GBO data.</Description>
       </InformationURL>
       <InformationURL>

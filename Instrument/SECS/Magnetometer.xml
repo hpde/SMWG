@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Spherical Elementary Current Systems Instrument</ResourceName>
       <AlternateName>SECS Instrument</AlternateName>
-      <ReleaseDate>2011-05-05T21:28:10Z</ReleaseDate>
+      <ReleaseDate>2012-03-07T11:50:38</ReleaseDate>
       <Description>The Spherical Elementary Current Systems instrument is a virtual instrument representing the collection of ground magnetometer arrays used to derive spherical elementary currents over North America and Greenland at 10 s resolution. The SECS observatory consists of ground magnetometers from the CANMOS, CARISMA, DMI (in Greenland), GIMA, MACCS, THEMIS, STEP ground magnetometer arrays. Ground magnetometers contributing to each SECS data file may vary from day to day depending upon data availability. As result, the SECS instrument is used as a proxy for the set of possible contributing ground magnetometers. Complete details on the magnetometer arrays at the Information URLs listed below.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
@@ -34,7 +34,7 @@
       </InformationURL>
       <InformationURL>
         <Name>CARISMA and CANMOS data at the Canadian Space Science Data Portal</Name>
-        <URL>https://cssdp.ca/ssdp/app/home</URL>
+        <URL>http://cssdp.ca/</URL>
         <Description>Informaton on the CARISMA and CANMOS operated magnetometer arrays.</Description>
       </InformationURL>
       <InformationURL>
