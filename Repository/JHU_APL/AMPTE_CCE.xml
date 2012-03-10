@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/JHU_APL/AMPTE_CCE</ResourceID>
+    <ResourceHeader>
+      <ResourceName>AMPTE CCE Science Data Center</ResourceName>
+      <ReleaseDate>2012-03-10T02:01:17Z</ReleaseDate>
+      <Description>AMPTE CCE Science Data Center</Description>
+      <Acknowledgement>Please acknowledge the AMPTE Science Data 
+Center at JHU/APL in publications and presentations that use these 
+data.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Stuart.R.Nylund</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>AMPTE Science Data Center</Name>
+        <URL>http://sd-www.jhuapl.edu/AMPTE/index.html</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>AMPTE Science Data Center</Name>
+      <URL>http://sd-www.jhuapl.edu/AMPTE/index.html</URL>
+    </AccessURL>
+  </Repository>
+</Spase>

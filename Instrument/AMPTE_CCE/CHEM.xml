@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/AMPTE_CCE/CHEM</ResourceID>
+    <ResourceHeader>
+      <ResourceName>AMPTE/CCE Charge-Energy-Mass Spectrometer</ResourceName>
+      <ReleaseDate>2012-03-10T01:55:44Z</ReleaseDate>
+      <Description>The AMPTE CCE Charge-Energy-Mass (CHEM) Spectrometer 
+measured the mass and charge-state compositions as well as the energy 
+spectra and pitch-angle distributions of all major ions from H through Fe 
+with energies from 0.3 to 300 keV/charge and a time resolution of less 
+than 1 minute in the Earth's magnetosphere and magnetosheath.  For further
+detail, see G. Gloeckler et al., IEEE Transactions on Geoscience and Remote 
+Sensing, v. GE-23, p. 234, 1985.</Description>
+      <Acknowledgement>User will acknowledge the AMPTE/CCE CHEM team in any 
+publication resulting from the use of these data.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1984-088A-03</URL>
+        <Description>NSSDC information about the AMPTE/CCE CHEM experiment</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>CHEM</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/AMPTE_CCE</ObservatoryID>
+    <Caveats/>
+  </Instrument>
+</Spase>

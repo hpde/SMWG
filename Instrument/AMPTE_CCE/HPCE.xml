@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/AMPTE_CCE/HPCE</ResourceID>
+    <ResourceHeader>
+      <ResourceName>AMPTE/CCE Hot Plasma Composition Experiment</ResourceName>
+      <ReleaseDate>2012-03-10T01:57:19Z</ReleaseDate>
+      <Description>The AMPTE CCE Hot-Plasma Composition Experiment (HPCE) 
+consists of an energetic ion-mass spectrometer and an electron background-
+environment monitor (EBEM). The mass spectrometer covers the entire mass 
+per charge range from below 1 to &gt;150 amu/e and the energy per charge range 
+from 0 eV/e (spacecraft potential) to 17 keV/e. The EBEM measures elctrons 
+between 50 eV and 25 keV in eight broad energy bands. The ion-mass spectrometer 
+was not operational after April 4, 1985.</Description>
+      <Acknowledgement>User will acknowledge the AMPTE/CCE HPCE team in any 
+publication resulting from the use of these data.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/David.M.Klumpar</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1984-088A-01</URL>
+        <Description>NSSDC information about the AMPTE/CCE HPCE experiment</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>HPCE</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/AMPTE_CCE</ObservatoryID>
+    <Caveats/>
+  </Instrument>
+</Spase>
