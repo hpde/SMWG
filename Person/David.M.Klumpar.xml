@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/David.M.Klumpar</ResourceID>
+    <ReleaseDate>2012-03-10T01:52:28Z</ReleaseDate>
     <PersonName>Dr. David M. Klumpar</PersonName>
     <OrganizationName>Montana State University</OrganizationName>
+    <Email>klump@physics.montana.edu</Email>
+    <PhoneNumber>406-994-6169</PhoneNumber>
   </Person>
 </Spase>
