@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
-  <Version>2.1.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/TWINS2/Imager</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/TWINS2/ENA</ResourceID>
     <ResourceHeader>
-      <ResourceName>TWINS-2 Neutral-atom Spectrometer</ResourceName>
+      <ResourceName>TWINS-2 Energetic Neutral Atom (ENA) Imager</ResourceName>
+      <AlternateName>TWINS-2 Neutral-atom Spectrometer</AlternateName>
       <AlternateName>TWINS-2 Wide-angle Imaging Neutral-atom Spectrometer</AlternateName>
-      <ReleaseDate>2010-07-01T20:17:20Z</ReleaseDate>
+      <ReleaseDate>2012-03-10T02:14:09Z</ReleaseDate>
       <Description>TWINS (Two Wide-angle Imaging Neutral-atom Spectrometers) is a Mission of Opportunity under NASA's Small Explorer (SMEX) program. TWINS-1 and TWINS-2 are the designations for NASA-sponsored instruments flying on unspecified non-NASA U.S. government spacecraft.The TWINS-1 instrument high voltages were turned on in April 2007 and the TWINS-2 high voltages in May 2008; the exact launchdates are not available. The data (including both science data and spacecraft ephemeris/attitude information) from the two NASA-funded science instruments are publicly available to the scientific research community.
 
           TWINS instrumentation includes an energetic neutral atom (ENA) imager to capture charge-exchange-produced neutral atoms over a broad energy range (approximately 1-100 keV) and a Lyman-alpha detector to measure the density of the neutral hydrogen geocorona needed for extraction of magnetospheric ion fluxes from neutral atom data. The TWINS-1 and TWINS-2 instruments are identical.
@@ -20,6 +21,7 @@
         <URL>http://twins.swri.edu</URL>
         <Description>?</Description>
       </InformationURL>
+      <PriorID>spase://SMWG/Instrument/TWINS2/Imager</PriorID>
     </ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>Energetic Neutral Atom Imager (ENA) on TWINS-2</InvestigationName>
