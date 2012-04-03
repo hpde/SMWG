@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.2.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/GIRO/MU12K_Madimbo</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MU12K Madimbo, South Africa</ResourceName>
+      <ReleaseDate>2012-03-20T08:35:00Z</ReleaseDate>
+      <Description>Ionospheric Station at Madimbo, South Africa; URSI-code: MU12K</Description>
+      <Acknowledgement>A heavy investment of time, effort, expertise, and funds continues to be made to produce, collect, quality control, interpret, and store digisonde ionograms. It is important that data suppliers and the UML DIDBase developers are appropriately acknowledged in scientific publications that involve analysis of data obtained from the Lowell DIDBase.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Bodo.W.Reinisch</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Ivan.A.Galkin</PersonID>
+        <Role>TechnicalContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>GIRO (Global Ionospheric Radio Observatory) Home Page.</Name>
+        <URL>http://giro.uml.edu/</URL>
+        <Description>Access to real-time data and software tools</Description>
+      </InformationURL>
+      <Association>
+        <AssociationID>spase://SMWG/Observatory/GIRO</AssociationID>
+        <AssociationType>PartOf</AssociationType>
+      </Association>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/GIRO</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>-22.39</Latitude>
+      <Longitude>30.88</Longitude>
+    </Location>
+    <OperatingSpan>
+      <StartDate>2000-01-01T09:25:00Z</StartDate>
+      <Note>Operating span per GIRO data holdings; earlier or later data may be available elsewhere.</Note>
+    </OperatingSpan>
+  </Observatory>
+</Spase>
+
