@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/Pioneer11/UVP</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Ultraviolet Photometer</ResourceName>
+            <AlternateName>Ultraviolet Photometry</AlternateName>
+            <ReleaseDate>2012-04-02T00:00:00</ReleaseDate>
+            <Description>This experiment consisted of a broadband photometer, sensitive between 200 and 800 A. During the cruise phase of the mission, this experiment was used to search for the supersonic-to-subsonic transition region in the solar wind. During the Jovian encounter, this experiment was used to look for evidence of an auroral oval on the Jovian dayside, to find the ratio of hydrogen to helium in the Jovian atmosphere, and to find the temperature of the outer portion of the Jovian atmosphere. Evidence of helium was found in the interplanetary region, indicating interactions between charged particles and neutral hydrogen.</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Darrell.L.Judge</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact> 
+            <InformationURL>
+                <Name>NSSDC's Master Catalog</Name>
+                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1973-019A-06</URL>
+                <Description>Information about the Ultraviolet Photometer on Pioneer 11</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>Photometer</InstrumentType>
+        <InvestigationName>Ultraviolet Photometer on Pioneer 11</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/Pioneer11</ObservatoryID>
+    </Instrument>
+</Spase>
+
+
