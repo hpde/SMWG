@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/SanMarco-DL/DBI</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Drag Balance Instrument</ResourceName>
+            <ReleaseDate>2012-04-04T00:00:00</ReleaseDate>
+            <Description>The drag balance instrument, which is an integral part of the satellite, consists of an inner mass, an elastic element, and an outer shell. The drag balance is the connecting elastic element between the outer light shell and the inner heavy body. The center of the balance is located at the satellite's geometric center, or that point which is the geometric center both of the inner body and the shell. This instrument measures the relative translations between the shell and the inner body both in value and direction, resolving any relative translation along three mutually orthogonal axes. These three axes are fixed to the body, one of them being coincident with the polar symmetry axis of the satellite. Being fixed to the satellite, the axis rotates with it in the free-precession motion around the center of gravity. The balance is designed in such a way that the maximum translation between the shell and the drum is generally of the order of 0.01 mm. In most cases the drag force at the apogee is negligible, and therefore the apogee data are used to get an inflight calibration of the balance. The translation of the elastic system is changed into voltages that are amplified and demodulated to obtain dc signals. 
+</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Luigi.Broglio</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact> 
+            <InformationURL>
+                <Name>NSSDC's Master Catalog</Name>
+                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1988-026A-01</URL>
+                <Description>Information about the Drag Balance Instrument on San Marco-DL</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>Unspecified</InstrumentType>
+        <InvestigationName>Drag Balance and Air Density on San Marco-DL</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/SanMarco-DL</ObservatoryID>
+    </Instrument>
+</Spase>
+
+

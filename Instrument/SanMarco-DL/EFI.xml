@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/SanMarco-DL/EFI</ResourceID>
+        <ResourceHeader>
+            <ResourceName>3-Axis Electric Field Instrument (EFI)</ResourceName>
+            <ReleaseDate>2012-04-04T00:00:00</ReleaseDate>
+            <Description>This experiment is designed to observe the three components of ambient electric field over the satellite trajectory. Three pairs of cylindrical probes are used, a pair for each component. For each component, the floating potential of each of the two symmetrically placed probes with respect to the spacecraft is measured. From these observations, the electric field can be calculated for known conditions of satellite motion, probe geometry, and magnetic field. Two pairs of probes extend from the satellite equator, and one pair is oriented along the spin axis. </Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Thomas.L.Aggson</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact> 
+            <InformationURL>
+                <Name>NSSDC's Master Catalog</Name>
+                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1988-026A-05</URL>
+                <Description>Information about the Electric Field Instrument on San Marco-DL</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>LangmuirProbe</InstrumentType>
+        <InvestigationName>Electric Field Instrument on San Marco-DL</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/SanMarco-DL</ObservatoryID>
+    </Instrument>
+</Spase>
+
+
