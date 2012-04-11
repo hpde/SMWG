@@ -1,0 +1,19 @@
+<Spase xmlns="http://www.spase-group.org/data/schema">
+<Version>1.2.0</Version>
+<Instrument>
+    <ResourceID>spase://SMWG/Instrument/OAC/OACT</ResourceID>
+    <ResourceHeader>
+      <ResourceName>OACT (VSO notation)</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>OACT (VSO notation) on OAC</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <PriorID>spase://vspo/instrument/171</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Unspecified</InstrumentType>
+    <InvestigationName>OACT (VSO notation) on OAC</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/OAC</ObservatoryID>
+  </Instrument>
+</Spase>

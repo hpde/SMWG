@@ -1,0 +1,19 @@
+<Spase xmlns="http://www.spase-group.org/data/schema">
+<Version>1.2.0</Version>
+<Instrument>
+    <ResourceID>spase://SMWG/Instrument/NOB_RH/NORH</ResourceID>
+    <ResourceHeader>
+      <ResourceName>NORH</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>NORH on NOB_RH</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <PriorID>spase://vspo/instrument/170</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Unspecified</InstrumentType>
+    <InvestigationName>NORH on NOB_RH</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/NOB_RH</ObservatoryID>
+  </Instrument>
+</Spase>

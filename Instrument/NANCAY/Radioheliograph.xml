@@ -1,0 +1,19 @@
+<Spase xmlns="http://www.spase-group.org/data/schema">
+<Version>1.2.0</Version>
+<Instrument>
+    <ResourceID>spase://SMWG/Instrument/NANCAY/Radioheliograph</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Radioheliograph</ResourceName>
+      <ReleaseDate>2007-04-06T00:00:00Z</ReleaseDate>
+      <Description>Radioheliograph at Nancay</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <PriorID>spase://vspo/instrument/358</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Unspecified</InstrumentType>
+    <InvestigationName>Radioheliograph at Nancay</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/NANCAY</ObservatoryID>
+  </Instrument>
+</Spase>

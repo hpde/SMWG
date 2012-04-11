@@ -1,0 +1,19 @@
+<Spase xmlns="http://www.spase-group.org/data/schema">
+<Version>1.2.0</Version>
+<Instrument>
+    <ResourceID>spase://SMWG/Instrument/MaunaLoaSO/ACOS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>ACOS</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>ACOS on MLSO</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <PriorID>spase://vspo/instrument/162</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Unspecified</InstrumentType>
+    <InvestigationName>ACOS on MLSO</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/MaunaLoaSO</ObservatoryID>
+  </Instrument>
+</Spase>

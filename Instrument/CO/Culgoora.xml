@@ -1,0 +1,19 @@
+<Spase xmlns="http://www.spase-group.org/data/schema">
+<Version>1.2.0</Version>
+<Instrument>
+    <ResourceID>spase://SMWG/Instrument/CO/Culgoora</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Culgoora Radioheliospectrograph</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>Culgoora Radioheliospectrograph on CO</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <PriorID>spase://vspo/instrument/61</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Unspecified</InstrumentType>
+    <InvestigationName>Culgoora Radioheliospectrograph on CO</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/CO</ObservatoryID>
+  </Instrument>
+</Spase>

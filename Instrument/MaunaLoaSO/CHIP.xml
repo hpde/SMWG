@@ -1,0 +1,19 @@
+<Spase xmlns="http://www.spase-group.org/data/schema">
+<Version>1.2.0</Version>
+<Instrument>
+    <ResourceID>spase://SMWG/Instrument/MaunaLoaSO/CHIP</ResourceID>
+    <ResourceHeader>
+      <ResourceName>CHIP</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>CHIP on MLSO</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <PriorID>spase://vspo/instrument/163</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Unspecified</InstrumentType>
+    <InvestigationName>CHIP on MLSO</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/MaunaLoaSO</ObservatoryID>
+  </Instrument>
+</Spase>

@@ -1,0 +1,19 @@
+<Spase xmlns="http://www.spase-group.org/data/schema">
+<Version>1.2.0</Version>
+<Instrument>
+    <ResourceID>spase://SMWG/Instrument/KittPeak/Magnetograph</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SPMG Spectromagnetograph</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>SPMG Spectromagnetograph on KP</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <PriorID>spase://vspo/instrument/150</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Unspecified</InstrumentType>
+    <InvestigationName>SPMG Spectromagnetograph on KP</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/KittPeak</ObservatoryID>
+  </Instrument>
+</Spase>

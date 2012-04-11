@@ -1,0 +1,19 @@
+<Spase xmlns="http://www.spase-group.org/data/schema">
+<Version>1.2.0</Version>
+<Instrument>
+    <ResourceID>spase://SMWG/Instrument/PicduMidi/Coronagraph</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Coronagraph</ResourceName>
+      <ReleaseDate>2007-04-06T00:00:00Z</ReleaseDate>
+      <Description>Coronagraph at Pic du Midi</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <PriorID>spase://vspo/instrument/359</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Unspecified</InstrumentType>
+    <InvestigationName>Coronagraph at Pic du Midi</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/PicduMidi</ObservatoryID>
+  </Instrument>
+</Spase>

@@ -1,0 +1,19 @@
+<Spase xmlns="http://www.spase-group.org/data/schema">
+<Version>1.2.0</Version>
+<Instrument>
+    <ResourceID>spase://SMWG/Instrument/Meudon/Spectroheliograph</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Spectroheliograph</ResourceName>
+      <ReleaseDate>2007-04-06T00:00:00Z</ReleaseDate>
+      <Description>Spectroheliograph at Meudon</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <PriorID>spase://vspo/instrument/357</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Unspecified</InstrumentType>
+    <InvestigationName>Spectroheliograph at Meudon</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Meudon</ObservatoryID>
+  </Instrument>
+</Spase>

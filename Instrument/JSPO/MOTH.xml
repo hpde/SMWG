@@ -1,0 +1,19 @@
+<Spase xmlns="http://www.spase-group.org/data/schema">
+<Version>1.2.0</Version>
+<Instrument>
+    <ResourceID>spase://SMWG/Instrument/JSPO/MOTH</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MOTH Magneto Optical filters at Two Heights</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>MOTH Magneto Optical filters at Two Heights on JSPO</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <PriorID>spase://vspo/instrument/147</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Unspecified</InstrumentType>
+    <InvestigationName>MOTH Magneto Optical filters at Two Heights on JSPO</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/JSPO</ObservatoryID>
+  </Instrument>
+</Spase>

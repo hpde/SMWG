@@ -1,0 +1,19 @@
+<Spase xmlns="http://www.spase-group.org/data/schema">
+<Version>1.2.0</Version>
+<Instrument>
+    <ResourceID>spase://SMWG/Instrument/EvanSolarFacility/SHG</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SHG Spectroheliograph</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>SHG Spectroheliograph on ESF</Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <PriorID>spase://vspo/instrument/75</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Unspecified</InstrumentType>
+    <InvestigationName>SHG Spectroheliograph on ESF</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/EvansSolarFacility</ObservatoryID>
+  </Instrument>
+</Spase>

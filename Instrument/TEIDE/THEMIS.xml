@@ -1,0 +1,19 @@
+<Spase xmlns="http://www.spase-group.org/data/schema">
+<Version>1.2.0</Version>
+<Instrument>
+    <ResourceID>spase://SMWG/Instrument/TEIDE/THEMIS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>THEMIS at the TEIDE Observatory</ResourceName>
+      <ReleaseDate>2007-04-06T00:00:00Z</ReleaseDate>
+      <Description></Description>
+      <Contact>
+        <PersonID>UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <PriorID>spase://vspo/instrument/360</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Unspecified</InstrumentType>
+    <InvestigationName>THEMIS at the TEIDE Observatory</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/TEIDE</ObservatoryID>
+  </Instrument>
+</Spase>
