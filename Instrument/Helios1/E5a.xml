@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd" lang="en">
+  <Version>2.2.2</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Helios1/E5a</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Helios-1 E5A Plasma Wave Experiment</ResourceName>
+      <AlternateName>Solar Wind Plasma Wave</AlternateName>
+      <ReleaseDate>2012-04-16T00:00:00Z</ReleaseDate>
+      <Description>
+The University of Iowa plasma wave experiment on Helios 1 provided measurements of electric field intensities in the frequency range from 31 Hz to 178 kHz. This frequency range includes most of the characteristic frequencies of the plasma (the electron plasma frequency, the ion plasma frequency and the electron gyrofrequency) expected in the solar wind from 0.3 to 1.0 AU (the nominal perihelion and aphelion distances for the Helios mission).
+
+This experiment (E5a) shared the 32-m, tip-to-tip electric antenna with experiments E5b and E5c. The electric dipole antenna extended outward perpendicular to the spin axis. 
+
+The instrument consisted of a 16-channel spectrum analyzer with approximately logarithmically equi-spaced center frequencies, 16 log compressors, 16 RC integrators for averaging the log compressed electric field amplitude between readouts, and 16 peak detectors which were reset after readout. The 16 averages and 16 peak log values were sampled almost simultaneously. The channels covered the frequency range of about 20 Hz to 200 kHz, with four channels per decade of frequency. The log compressors had a dynamic range of 100 dB. Sampling rate depended in detail on the spacecraft bit rate and telemetry format. The fastest real-time telemetered rate was for 16 averages and 16 peak values to be sampled every 1.125 s. Whenever a very strong signal was detected in a pre-selected channel, the shock alarm data mode was initiated in which the electric field spectrum, magnetic field, and plasma data were recorded into spacecraft memory for a period starting before and terminating after the triggering signal time. The maximum sampling rate of the spectrum data in this mode was 14.2 samples per second for each channel. 
+
+One half of the dipole antenna failed to extend properly and was short-circuited to the spacecraft ground. The resultant configuration was that of a monopole which was calculated to have an effective length of approximately 8 m. The primary detrimental effects were the loss of 6 dB in E-field sensitivity due to the shortened antenna and the increase in the noise level of the 178 kHz channel by 25 dB. Solar cell and sheath effects caused interference in the lowest 6 channels (which was less severe with increasing channel frequency). For more details, see J. Geophys. Res., v. 82, p. 632, 1977, and pp. 245-247 of Raumfahrtforschung, v. 19, n. 5, 1975.
+      </Description>
+      <Acknowledgement>Please acknowledge PI Donald Gurnett and The University of Iowa</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Donald.A.Gurnett</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Siegfried.J.Bauer</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Paul.J.Kellogg</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Robert.G.Stone</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/H.Kent.Hills</PersonID>
+        <Role>TechnicalContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Helios 1 and 2 Plasma Wave Experiment/Name>
+        <URL>http://www-pw.physics.uiowa.edu/plasma-wave/helios/home.html</URL>
+        <Description>Access to Science Summary, Publications and Data from The University of Iowa Helios E5A Plasma Wave Experiment</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Helios Final Report-May 1986/Name>
+        <URL>http://www-pw.physics.uiowa.edu/plasma-wave/helios/data1/doc/helios1.txt</URL>
+        <Description>Information about the Solar Wind Plasma Wave scientific objectives, instrumentation, anomalies, and details on the data format from the E5a experiment on the Helios-1 mission.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1974-097A-04</URL>
+        <Description>Information about the Solar Wind Plasma Wave experiment on the Helios-A mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Antenna</InstrumentType>
+    <InvestigationName>Solar Wind Plasma Wave on Helios-1</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Helios1</ObservatoryID>
+  </Instrument>
+</Spase>
