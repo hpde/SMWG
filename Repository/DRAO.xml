@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
   <Repository>
     <ResourceID>spase://SMWG/Repository/DRAO</ResourceID>
     <ResourceHeader>
       <ResourceName>DRAO</ResourceName>
-      <ReleaseDate>2012-04-11T12:00:00Z</ReleaseDate>
+      <ReleaseDate>2012-04-18T18:11:34Z</ReleaseDate>
       <Description>Dominion Radio Astrophysical Observatory, Solar Radio Monitoring Program, National Research Council, Canada.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
     </ResourceHeader>
+    <AccessURL>
+      <URL>Unknown</URL>
+    </AccessURL>
   </Repository>
 </Spase>
