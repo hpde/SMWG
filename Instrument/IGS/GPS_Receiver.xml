@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/IGS/GPS_Receiver</ResourceID>
+        <ResourceHeader>
+            <ResourceName>International GNSS Service (IGS) GPS Receiver</ResourceName>
+            <ReleaseDate>2012-04-24T00:00:00</ReleaseDate>
+            <Description>The GPS receiver in each tracking station within the International GNSS Service (IGS) global network generates raw orbit 
+                and tracking data.  Among a wide range of scientific and engineering applications and studies, these data help scientists monitor 
+                the ionosphere, improving and extending the International Earth Rotation Service (IERS) Terrestrial Reference Frame (ITRF).
+            </Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>  
+                <Role>GeneralContact</Role>
+            </Contact> 
+            <InformationURL>
+                <Name>The International GNSS Service </Name>
+                <URL>http://igscb.jpl.nasa.gov/</URL>
+                <Description>Information about IGS</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>WaveformReceiver</InstrumentType>
+        <InvestigationName>Global Positioning Satellites for Ionosphere Monitoring</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/IGS</ObservatoryID>
+    </Instrument>
+</Spase>
+
+
