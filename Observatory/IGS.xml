@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Observatory>
+        <ResourceID>spase://SMWG/ObservatoryIGS</ResourceID>
+        <ResourceHeader>
+            <ResourceName>International GNSS Service (IGS)</ResourceName>
+	    <AlternateName>International GPS Service</AlternateName>
+            <ReleaseDate>2012-04-24T00:00:00Z</ReleaseDate>
+            <Description>The IGS global system of satellite tracking stations, Data Centers, and Analysis
+Centers puts high-quality GPS data and data products on line in near real time
+to meet the objectives of a wide range of scientific and engineering
+applications and studies.  The IGS collects, archives, and distributes GPS
+observation data sets of sufficient accuracy to satisfy the objectives of a wide
+range of applications and experimentation.  These data sets are used by the IGS
+to generate the data products mentioned above which are made available to
+interested users through the Internet.  In particular, the accuracies of IGS
+products are sufficient for the improvement and extension of the International
+Terrestrial Reference Frame (ITRF), the monitoring of solid Earth deformations,
+the monitoring of Earth rotation and variations in the liquid Earth (sea level,
+ice-sheets, etc.), for scientific satellite orbit determinations, ionosphere
+monitoring, and recovery of precipitable water vapor measurements.  
+The primary mission of the International GPS Service, as stated in the
+organization's 2002-2007 Strategic Plan, is 
+    The International GPS Service provides quality data and products as the standard for global navigation satellite systems (GNSS)
+in support of Earth science research, multidisciplinary applications, and
+education. These activities aim to advance scientific understanding of the Earth
+system components and their interactions, as well as to facilitate other
+applications benefiting society.
+    The IGS Terms of Reference (comparable to the by-laws of the organization)
+describes in broad terms the goals and organization of the IGS.  To accomplish
+its mission, the IGS has a number of components: an international network of
+over 350 continuously operating dual-frequency GPS stations, more than a dozen
+regional and operational data centers, three global data centers, seven analysis
+centers and a number of associate or regional analysis centers. The Central
+Bureau for the service is located at the Jet Propulsion Laboratory, which
+maintains the Central Bureau Information System (CBIS) and ensures access to IGS
+products and information. An international Governing Board oversees all aspects
+of the IGS.  The IGS is an approved service of the International Association of
+Geodesy since 1994 and is recognized as a member of the Federation of
+Astronomical and Geophysical Data Analysis Services (FAGS) since 1996. 
+     The IGS collects, archives, and distributes GPS observation data sets of
+sufficient accuracy to meet the objectives of a wide range of scientific and
+engineering applications and studies. These data sets are used to generate the
+following products:
+  * GPS satellite ephemerides
+  * GLONASS satellite ephemerides
+  * Earth rotation parameters
+  * IGS tracking station coordinates and velocities
+  * GPS satellite and IGS tracking station clock information
+  * Zenith tropospheric path delay estimates
+  * Global ionospheric maps 
+           </Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>  
+                <Role>GeneralContact</Role>
+            </Contact> 
+            <InformationURL>
+                <Name>The International GNSS Service </Name>
+                <URL>http://igscb.jpl.nasa.gov/</URL>
+                <Description>Information about IGS</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <Location>
+            <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
+          </Location>
+    </Observatory>
+</Spase>
+
+
