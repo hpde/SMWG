@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/Injun5/VLF</ResourceID>
+        <ResourceHeader>
+            <ResourceName>  </ResourceName>    
+            <ReleaseDate>2012-04-11T00:00:00</ReleaseDate>
+            <Description>This very low frequency (VLF) receiver on Injun 5 was designed to study both electric and magnetic components 
+                (both phase and amplitude) of VLF signals. The direction of signal propagation could be determined and used to assist in 
+                identifying the origins of various VLF signals. The observations of antenna impedance for the electric antenna (ECA) were 
+                needed to study characteristics of such an antenna operating in a plasma. There were two antennas, one driving a magnetic-field 
+                component receiver (MCR), and the other driving two electric-field component receivers (ECR). The MCR operated from a 
+                55.9-cm-diameter loop antenna (MCA), and the ECRs operated from an antenna consisting of two 20.3-cm-diameter aluminum spheres 
+                mounted 2.85 m apart on opposite sides of the spacecraft (S/C). Both the MCA and ECA were mounted on booms to reduce interference 
+                from the S/C. Within a few weeks after launch, the S/C was despun and magnetically stabilized so that nominally, the antenna axes 
+                and the magnetic field line through the S/C were orthogonal. In the northern hemisphere, the MCA supporting boom was inclined 
+                earthward. Both the MCR and ECR operated from 10 to 30.E3 Hz. Also operating from the ECA was a narrow-band step frequency 
+                receiver (ECR 2) which operated through filters with center frequencies at 7.5, 10.5, 22, 52.5, 70, and 105 (plus or minus 7.5 %) 
+                kHz. Supplementary to these three receivers and two antennas were (1) a special circuit that could measure phase and amplitude of 
+                the impedance on the ECA between 20 and 2.E3 Hz and (2) an electron gun used to bias the ECA. The MCR and ECR 1 observed and 
+                telemetered (on a 0.8-W, 400-MHz channel) analog, broadband data in real time, when the S/C was in telemetry range of a ground 
+                station. When observing with the impedance circuit on, impedance measurements required 8 of each 30 s of wideband observing time. 
+                The signal strength values from the ECR 2, and separately from both the low (0.03 to 0.65 kHz) and high (0.3 to 10 kHz) ranges of 
+                the ECR 1 and MCR, were recorded on the S/C tape recorder and comprised the digital data for this experiment. In this experiment, 
+                the digital data were observed and recorded over a 30-s cycle within which the signal amplitudes from the two low-frequency steps 
+                of the ECR 2 were observed every 4 s (1-second duration) and the other frequencies observed every 8 s. When the impedance circuit 
+                was on, eight samples of the step receiver data were not observed during each 30-s cycle. Experiment performance was nominal. Failure 
+                of the S/C power regulator early in the mission limited operation to some extent, but nominal data were obtained until May 29, 1970. 
+                Principal telemetry sites for the data through May 1970 were in Iowa and Alaska. Further experiment details may be found in D. A. 
+                Gurnett et al., J. Geophys. Res., v. 74, n. 19, p. 4631, 1969. 
+</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Donald.A.Gurnett</PersonID>  
+                <Role>PrincipalInvestigator</Role>
+            </Contact> 
+            <InformationURL>
+                <Name>NSSDC's Master Catalog</Name>
+                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1968-066B-02</URL>  
+                <Description>Information about the Injun 5 VLF experiment</Description>  
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>WaveformReceiver</InstrumentType> 
+        <InvestigationName>Very Low Frequency Radio emission in the Ionosphere</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/Injun5</ObservatoryID>
+    </Instrument>
+</Spase>
+
+
