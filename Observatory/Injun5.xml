@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Injun5</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Injun 5</ResourceName>
+      <AlternateName>Explorer 40</AlternateName>
+      <AlternateName>Injun-C</AlternateName>
+      <ReleaseDate>2009-03-04T00:00:00Z</ReleaseDate>
+      <Description> Injun 5 (Explorer 40) was a 71-kg magnetically oriented spacecraft and was launched by a Scout rocket, together with a 
+        3.65-m inflatable balloon (Explorer 39) used for air density measurements. Injun 5 was designed to accomplish the following objectives: 
+        (1) comprehensive study of the downward flux of charged particles, (2) study of very low frequency (VLF) radio emission in the ionosphere 
+        associated with the downward flux, (3) study of geomagnetically trapped protons, alpha particles, and electrons, (4) observation of solar 
+        cosmic rays, (5) observation of the continuing decay of the Starfish artificial radiation belt, and (6) study of the temperature and density 
+        of electrons and positive ions of thermal and near thermal energy. The spacecraft systems performed normally except for the malfunction of 
+        the solar cell power dump device (shortly after launch) which caused the solar cells to deliver a lower power level to the experiments and 
+        reduced the time during which the onboard tape recorder could be run. The passive magnetic alignment became effective in mid-December 1968. 
+        The spacecraft was turned off from May 31, 1970, to February 18, 1971, after this period it was turned on again. The spacecraft was put in 
+        an operational off-mode in early June 1971, and became inoperable shortly thereafter.
+      </Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/James.A.Van.Allen</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1968-066B</URL>
+        <Description>Information about the Injun 5 mission</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+            <ObservatoryRegion>Earth.NearSurface.Atmosphere</ObservatoryRegion>
+            <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>
