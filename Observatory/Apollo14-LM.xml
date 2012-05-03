@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_3.xsd">
+  <Version>2.2.3</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Apollo14-LM</ResourceID>
     <ResourceHeader>
@@ -49,8 +50,7 @@ All ALSEP instruments were deployed on the surface by the astronauts and attache
       <PriorID>spase://nssdc/observatory/1971-008C</PriorID>
     </ResourceHeader>
     <Location>
-      <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
-      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+      <ObservatoryRegion>Moon</ObservatoryRegion>
     </Location>
   </Observatory>
 </Spase>
