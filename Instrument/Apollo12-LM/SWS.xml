@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/Apollo12-LM/SWS</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Solar Wind Spectrometer</ResourceName>
+            <ReleaseDate>2012-05-02T00:00:00Z</ReleaseDate>
+            <Description>The solar wind spectrometer, designed to measure protons and electrons at the lunar surface, was part of the Apollo 12 
+                ALSEP package left on the Moon. It consisted of seven modulated Faraday cups opened toward different, but slightly overlapping, 
+                portions of the lunar sky. The instrument was used to observe the directional intensities of the electron (6-1330 eV) and positive 
+                ion (18-9780 eV) components of the solar wind and magnetotail plasma that strike the surface of the Moon. The scientific objectives 
+                of the Solar Wind Spectrometer Experiment were to study the existence of the solar wind plasma on the Moon, the properties of the 
+                lunar surface and interior, general solar wind properties, and the magnetospheric tail of the Earth.
+
+                Each Faraday cup had a circular opening, five circular grids, and a circular collector. The five circular grids were an aperture 
+                grid, a modulator grid, a screen grid, a screen plate, and a suppressor grid. These served to apply an AC modulating field to 
+                incoming particles and screen the modulating field from the sensitive preamplifiers. Sensor covers were over each cup to protect 
+                against dust during the EVA's and lunar module ascent. Charged particles entered the cup and a current amplifier determined the 
+                resultant current flow. Energy spectra of positively and negatively charged particles were obtained by applying fixed sequences of 
+                square-wave AC retarding potentials to a modular grid and measuring the resultant changes in current. One cup was oriented vertically 
+                and the other six cups surrounded it symmetrically facing 60 degrees off vertical. The electronics were in a temperature-controlled 
+                container below the sensor assembly attached to a radiator. The instrument had deployed dimensions of 30.5 x 28.2 x 34.5 cm, a mass 
+                of 5.7 kg, used 12.5 W total power, and had an average data rate of 66.2 bits/sec.
+
+                A sequence of plasma measurements was made every 28.1 seconds, consisting of 14 energy steps spaced a factor of square root of 2 
+                apart for positive ions and 7 steps a factor of 2 apart for electrons. Flux rates of 2.5E6 to 2.5E11 particles cm^-2 sec^-1 could be 
+                measured. A large number of internal calibrations are provided. The instrument as deployed had the east-west axis of the instrument 
+                2.8 degrees north of east and 2.5 degrees off level with the west edge low. The north-south axis was self-leveling. These were well 
+                within the specifications for the instrument. The ALSEP central station was located at 3.0094 S latitude, 23.4246 W longitude. The 
+                solar wind spectrometer was situated 4 meters south of the central station.
+
+                The instrument was turned on with the sensor covers in place to provide background data and the covers were removed automatically on 
+                20 November at about 15:30 UT, approximately one hour after lunar module ascent. The instrument was turned to standby mode during the 
+                lunar night starting on 3 March 1976 to provide more power to heat the central station electronics and was turned off on 15 January 
+                1977 to increase power for central station thermal control. </Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/David.R.Williams</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact> 
+            <InformationURL>
+                <Name>NSSDC's Master Catalog</Name>
+                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1969-099C-02</URL>
+                <Description>Information about Apollo 12 Solar Wind Spectrometer</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>Spectrometer</InstrumentType>
+        <InvestigationName>Apollo 12 solar wind measurement at the lunar surface</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/Apollo12-LM</ObservatoryID>
+    </Instrument>
+</Spase>
+
+
