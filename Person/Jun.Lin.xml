@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Jun.Lin</ResourceID>
+        <ReleaseDate>2012-04-26T00:00:00Z</ReleaseDate>
+        <PersonName>jun Lin</PersonName>
+        <OrganizationName>Yunnan Astronomical Observatory</OrganizationName>
+        <Email>jlin@ynao.ac.cn</Email>
+        <Note>Dr. Lin has a personal web page at 
+http://159.226.148.131/~solar/new_page_chinese/homepage/~linj/j,lin.html</Note>
+    </Person>
+</Spase>
