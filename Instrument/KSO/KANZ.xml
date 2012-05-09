@@ -1,19 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<?xml version="1.0" encoding="utf-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/KSO/KANZ</ResourceID>
     <ResourceHeader>
       <ResourceName>KANZ (VSO notation)</ResourceName>
-      <ReleaseDate>2012-04-18T18:08:04Z</ReleaseDate>
-      <Description>KANZ (VSO notation) on KSO</Description>
+      <ReleaseDate>2012-04-04T00:00:00Z</ReleaseDate>
+      <Description>This instrument produces H-alpha solar imagery from 
+Kanzelhoehe Solar Observatory (KSO), Austria.  Its main purpose is a 
+high precision full disk imaging of the photosphere in order to derive 
+sunspot and faculae areas and positions as well. Other scientific 
+objectives are studies of the underlying photosphere before, during and 
+after chromospheric flares, hunting for the mystery white light flares 
+at the begin of a new solar cycle and providing a data set for 
+developing an automatic determination of sunspot relative numbers by 
+image segmentation techniques. The obtained time series will also 
+continue the support of the Debrecen Photoheliographic Data by daily 
+synoptic images.  The Kanzelhoehe Photosphere Telescope (KPT) is based 
+on the Kanzelh&#246;he Photoheliograph (PhoKa) which went into operation in 
+1989 and was described in detail in Pettauer, T.: 1990, in L. Desz&#246; (ed.), 
+The Dynamic Sun, Publ. Debrecen Heliophysical Observatory, Debrecen, 
+p. 62(1990).  See http://www.kso.ac.at/instrumente/kpt/kpt_en.php
+for further detail.</Description>
       <Contact>
-        <PersonID>UNKNOWN</PersonID>
+        <PersonID>spase://SMWG/Person/Dietmar.Baumgartner</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
-      <PriorID>spase://vspo/instrument/148</PriorID>
     </ResourceHeader>
-    <InstrumentType>Unspecified</InstrumentType>
+    <InstrumentType>Imager</InstrumentType>
     <InvestigationName>KANZ (VSO notation) on KSO</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/KSO</ObservatoryID>
   </Instrument>
