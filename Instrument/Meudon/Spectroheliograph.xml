@@ -1,20 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<?xml version="1.0" encoding="utf-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Meudon/Spectroheliograph</ResourceID>
     <ResourceHeader>
-      <ResourceName>Spectroheliograph</ResourceName>
-      <ReleaseDate>2012-04-18T18:08:04Z</ReleaseDate>
-      <Description>Spectroheliograph at Meudon</Description>
+      <ResourceName>Meudon Spectroheliograph</ResourceName>
+      <ReleaseDate>2012-04-24T00:00:00Z</ReleaseDate>
+      <Description>The spectroheliograph provides images of the 
+solar photosphere (blue wing of the CaII K 3934 Angstrom line, 
+or K1v) and chromosphere (centre of the CaII K 3934 Angstrom line, 
+or K3; and H-alpha 6563 Angstrom).  Data are acquired once a day 
+by performing scans of the solar disk using a entrance slit and 
+an exit slit.</Description>
       <Contact>
-        <PersonID>UNKNOWN</PersonID>
+        <PersonID>spase://SMWG/Person/Jean-Marie.Malherbe</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
-      <PriorID>spase://vspo/instrument/357</PriorID>
+      <PriorID>spase://vspo/Instrument/357</PriorID>
     </ResourceHeader>
-    <InstrumentType>Unspecified</InstrumentType>
-    <InvestigationName>Spectroheliograph at Meudon</InvestigationName>
+    <InstrumentType>Imager</InstrumentType>
+    <InvestigationName>Meudon Spectroheliograph</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Meudon</ObservatoryID>
   </Instrument>
 </Spase>

@@ -1,19 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<?xml version="1.0" encoding="utf-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/TEIDE/THEMIS</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS at the TEIDE Observatory</ResourceName>
-      <ReleaseDate>2012-04-18T18:08:04Z</ReleaseDate>
-      <Description/>
+      <ReleaseDate>2012-04-24T00:00:00Z</ReleaseDate>
+      <Description>THEMIS is a 90 cm telescope built in Tenerife 
+providing 3 observing modes: the MTR mode, the MSDP mode (see below) 
+and the IPM mode (imagery mode archived at Arthemis)  A reduction 
+software for these data will soon be available on our (TEIDE) site.  
+The observations cover a wide range of subjects, depending on the
+P.I. program.
+This instrument allows multi-line spectro-polarimetric observations
+on the THEMIS telescope (MTR mode). Available wavelengths are 
+currently in the range [430-870] nm and the polarimeter is optimized 
+for 6250 and 4250 Angstroms.    
+The Multichannel Subtractive Double Pass mode (MSDP) on THEMIS is a 
+spectro-imager mode allowing a spectral analysis of broad lines 
+(typically H alpha, Na D1 and Na D2) for a 2-D images 
+(9x170 arcsec2 and 25x170 arcsec2).
+THEMIS is the name of a private company jointly operated by
+French and Italian public research entities.</Description>
       <Contact>
-        <PersonID>UNKNOWN</PersonID>
+        <PersonID>spase://SMWG/Person/Bernard.Gelly</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
-      <PriorID>spase://vspo/instrument/360</PriorID>
+      <PriorID>spase://vspo/Instrument/360</PriorID>
     </ResourceHeader>
-    <InstrumentType>Unspecified</InstrumentType>
+    <InstrumentType>Imager</InstrumentType>
     <InvestigationName>THEMIS at the TEIDE Observatory</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/TEIDE</ObservatoryID>
   </Instrument>
