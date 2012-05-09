@@ -1,20 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<?xml version="1.0" encoding="utf-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_3.xsd">
+  <Version>2.2.3</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/WSO/Babcock</ResourceID>
     <ResourceHeader>
-      <ResourceName>Babcock solar magnetograph</ResourceName>
-      <ReleaseDate>2012-04-18T18:08:04Z</ReleaseDate>
-      <Description>Babcock solar magnetograph on WSO</Description>
+      <ResourceName>WSO Babcock solar magnetograph</ResourceName>
+      <ReleaseDate>2012-04-27T00:00:00Z</ReleaseDate>
+      <Description>The Babcock solar magnetograph at the Wilcox
+Solar Observatory observes the full solar disk with 3 arc minute
+resolution at least daily in FeI 5250, usually near 20:00 UT.</Description>
       <Contact>
-        <PersonID>UNKNOWN</PersonID>
+        <PersonID>spase://SMWG/Person/Philip.H.Scherrer</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
       <PriorID>spase://vspo/instrument/263</PriorID>
     </ResourceHeader>
-    <InstrumentType>Unspecified</InstrumentType>
-    <InvestigationName>Babcock solar magnetograph on WSO</InvestigationName>
+    <InstrumentType>Magnetograph</InstrumentType>
+    <InvestigationName>WSO Babcock Magnetograph</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/WSO</ObservatoryID>
   </Instrument>
 </Spase>
