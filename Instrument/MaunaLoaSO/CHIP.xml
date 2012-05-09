@@ -1,20 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<?xml version="1.0" encoding="utf-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/MaunaLoaSO/CHIP</ResourceID>
     <ResourceHeader>
-      <ResourceName>CHIP</ResourceName>
-      <ReleaseDate>2012-04-18T18:08:04Z</ReleaseDate>
-      <Description>CHIP on MLSO</Description>
+      <ResourceName>MLSO_ACOS_CHIP</ResourceName>
+      <ReleaseDate>2012-04-04T00:00:00Z</ReleaseDate>
+      <Description>The Chromospheric Helium-I Imaging Photometer (CHIP) 
+was installed at MLSO in April 1996. CHIP is a differential device using 
+properties of the Helium-I line at 1083 nm as an indicator of both 
+chromospheric and coronal structures. CHIP records images of the sun at 
+1083 nm, as well as at a number of other nearby wavelengths (for 
+calibration purposes). It is basically composed of a liquid crystal 
+variable retarder (tuneable) Lyot filter connected to an IR CCD.
+CHIP is unique compared with other Helium-I imagers, in that it obtains 
+images every 3 minutes, the high cadence crucial to study the rapid 
+evolution of CMEs. In addition, observations from CHIP should provide 
+better understanding of coronal holes, coronal arcades, and the 
+interaction between open and closed magnetic field structures.
+Seven line and continuum exposures are recorded within 2 seconds. The 
+difference of line and one continuum exposures is computed every 3 minutes 
+to produce one 1083 nm image.
+The CHIP FOV is approximately 1.8 solar radii. The CCD pixel size is 
+2.29 arcseconds and the measured spatial resolution is ~8 arcseconds. 
+For additional information on the tuneable filter see Kopp et al. 
+(1996).</Description>
       <Contact>
-        <PersonID>UNKNOWN</PersonID>
+        <PersonID>spase://SMWG/Person/Thomas.E.Holzer</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
-      <PriorID>spase://vspo/instrument/163</PriorID>
     </ResourceHeader>
-    <InstrumentType>Unspecified</InstrumentType>
-    <InvestigationName>CHIP on MLSO</InvestigationName>
+    <InstrumentType>Imager</InstrumentType>
+    <InstrumentType>Photometer</InstrumentType>
+    <InvestigationName>ACOS/CHIP at MLSO</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/MaunaLoaSO</ObservatoryID>
   </Instrument>
 </Spase>

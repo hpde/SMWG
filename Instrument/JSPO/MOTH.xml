@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<?xml version="1.0" encoding="utf-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/JSPO/MOTH</ResourceID>
     <ResourceHeader>
       <ResourceName>MOTH Magneto Optical filters at Two Heights</ResourceName>
-      <ReleaseDate>2012-04-18T18:08:04Z</ReleaseDate>
-      <Description>MOTH Magneto Optical filters at Two Heights on JSPO</Description>
+      <ReleaseDate>2012-04-04T00:00:00Z</ReleaseDate>
+      <Description>MOTH Magneto Optical filters at Two Heights at JSPO. Operational only in 2003.</Description>
       <Contact>
-        <PersonID>UNKNOWN</PersonID>
+        <PersonID>spase://SMWG/Person/Stuart.M.Jefferies</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
-      <PriorID>spase://vspo/instrument/147</PriorID>
     </ResourceHeader>
-    <InstrumentType>Unspecified</InstrumentType>
+    <InstrumentType>MultispectralImager</InstrumentType>
     <InvestigationName>MOTH Magneto Optical filters at Two Heights on JSPO</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/JSPO</ObservatoryID>
   </Instrument>

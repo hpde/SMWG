@@ -1,20 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<?xml version="1.0" encoding="utf-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/MaunaLoaSO/PICS</ResourceID>
     <ResourceHeader>
-      <ResourceName>PICS</ResourceName>
-      <ReleaseDate>2012-04-18T18:08:04Z</ReleaseDate>
-      <Description>PICS on MLSO</Description>
+      <ResourceName>MLSO_ACOS_PICS</ResourceName>
+      <ReleaseDate>2012-04-04T00:00:00Z</ReleaseDate>
+      <Description>The first H-alpha [656.3 nm] telescope at MLSO 
+was the Prominence Monitor (PMON), which went into operation on 
+4 February 1980. It acquired both disk and limb images on B/W 35mm film.
+On 20 February 1994, the Acme 35mm film camera was upgraded to a Kodak 
+Megaplus [Model 1.6] CCD detector (1534x1030 pixels) with a sample size 
+of 3 arcseconds, and the telescope was renamed the Digital Prominence 
+Monitor (DPM).  On 25 September 1997, the PICS instrument replaced the 
+DPM at MLSO. It provides several improvements over the DPM instrument, 
+including optics for polarization measurement (since removed), improved 
+temperature control, a narrower bandpass filter for disk observations, 
+and improved optics for limb observations. PICS takes images at 656.3 nm, 
+with a FOV of 2.3 solar radii, a spatial resolution of 2.9"/pixel, 
+and a nominal cadence of 3 minutes.
+PICS was decommissioned on 23 Feb, 2010 to make room on the tracking 
+spar for the Coronal Multi-channel Polarimeter (CoMP). In its place, 
+a small Coronado SolarMax60 Halpha imager was installed. The Coronado 
+has a full FOV out to 2.25 Rsun at low latitudes and 1.6 Rsun over the 
+poles before cropping (for large EPLs, the full FOV can be provided). 
+Its spacial resolution is 1.77 arcseconds per pixel, with a nominal 
+cadence of 3 minutes (capable of obtaining an image per 
+second).</Description>
       <Contact>
-        <PersonID>UNKNOWN</PersonID>
+        <PersonID>spase://SMWG/Person/Thomas.E.Holzer</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
-      <PriorID>spase://vspo/instrument/165</PriorID>
     </ResourceHeader>
-    <InstrumentType>Unspecified</InstrumentType>
-    <InvestigationName>PICS on MLSO</InvestigationName>
+    <InstrumentType>Imager</InstrumentType>
+    <InvestigationName>ACOS/PICS at MLSO</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/MaunaLoaSO</ObservatoryID>
   </Instrument>
 </Spase>

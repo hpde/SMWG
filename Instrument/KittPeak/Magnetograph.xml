@@ -1,20 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<?xml version="1.0" encoding="utf-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_3.xsd">
+  <Version>2.2.3</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/KittPeak/Magnetograph</ResourceID>
     <ResourceHeader>
-      <ResourceName>SPMG Spectromagnetograph</ResourceName>
-      <ReleaseDate>2012-04-18T18:08:04Z</ReleaseDate>
-      <Description>SPMG Spectromagnetograph on KP</Description>
+      <ResourceName>512-channel magnetograph</ResourceName>
+      <ReleaseDate>2007-02-22T00:00:00Z</ReleaseDate>
+      <Description>This archive contains daily full-disk solar observations 
+made with the NSO/KP solar magnetograph (Applied Optics, Vol. 15, 40).  An image of the sun is
+focused by the NSO/KP vacuum telescope on the slit of a Littrow
+spectrograph. The slit covers 0.7 arc seconds by about 550 arc seconds.  
+A pair of self-scanning 512-element integrated diode arrays are employed as
+detectors at the final focal plane of the spectrograph.  The spectrograph is
+arranged to produce a spectrum centered on one of these lines:  868.8 nm
+FeI, 1038 nm HeI, or 550.7 nm FeI.  For the FeI lines a Kerr cell is used
+as the electrooptic light modulator.  It passes alternately left or right
+circularly polarized light to allow longitudinal Zeeman splitting of the
+spectrum line to be observed.  The data are processed in real time to
+produce data quantities along the slit using selected wavelength windows
+that span the spectrum line.  By controlling the pointing of the telescope, 
+a full-disk image can be built up from four swaths in about 40 minutes.  
+The scans start in the northwest and end in the southeast.  The image 
+orientation is heliocentric with north at the top and east to the left.  
+The pixel size is nominally 1 arc second.  
+ftp://nsokp.nso.edu/512_cdrom/README</Description>
       <Contact>
-        <PersonID>UNKNOWN</PersonID>
+        <PersonID>spase://SMWG/Person/John.W.Harvey</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
-      <PriorID>spase://vspo/instrument/150</PriorID>
     </ResourceHeader>
-    <InstrumentType>Unspecified</InstrumentType>
-    <InvestigationName>SPMG Spectromagnetograph on KP</InvestigationName>
+    <InstrumentType>Magnetograph</InstrumentType>
+    <InvestigationName>512-channel magnetograph on KP</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/KittPeak</ObservatoryID>
   </Instrument>
 </Spase>

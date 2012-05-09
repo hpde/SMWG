@@ -1,20 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<?xml version="1.0" encoding="utf-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/MaunaLoaSO/ECHO</ResourceID>
     <ResourceHeader>
-      <ResourceName>ECHO</ResourceName>
-      <ReleaseDate>2012-04-18T18:08:04Z</ReleaseDate>
-      <Description>ECHO on MLSO</Description>
+      <ResourceName>MLSO_ECHO</ResourceName>
+      <ReleaseDate>2012-04-04T00:00:00Z</ReleaseDate>
+      <Description>The ECHO (Experiment for Coordinated 
+Helioseismic Observations) is a network of two instruments which 
+observe solar oscillations as seen in the radial velocity of the 
+solar surface. The ECHO will use the next generation of the LOWL 
+[Low degree(L)] instrument, which has been operated at the Mauna Loa 
+Solar Observatory of the National Center for Atmospheric Research 
+for the past several years. The first of the new ECHO instruments 
+became operational on Dec 15, 1999 at the Observatorio del Teide, 
+located at Izana, Tenerife, Spain. The LOWL instrument at MLSO
+was upgraded and became the second instrument in the ECHO 
+network.  The LOWL observes the oscillations as perturbations of 
+the radial velocity over the surface of the Sun. This is 
+accomplished by taking images in narrow bandpass filters 
+displaced slightly redward and blueward of a solar absorption 
+line.</Description>
       <Contact>
-        <PersonID>UNKNOWN</PersonID>
+        <PersonID>spase://SMWG/Person/Thomas.E.Holzer</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
-      <PriorID>spase://vspo/instrument/168</PriorID>
     </ResourceHeader>
-    <InstrumentType>Unspecified</InstrumentType>
-    <InvestigationName>ECHO on MLSO</InvestigationName>
+    <InstrumentType>Imager</InstrumentType>
+    <InvestigationName>ECHO at MLSO</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/MaunaLoaSO</ObservatoryID>
   </Instrument>
 </Spase>

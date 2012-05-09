@@ -1,20 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<?xml version="1.0" encoding="utf-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/MaunaLoaSO/PSPT</ResourceID>
     <ResourceHeader>
-      <ResourceName>PSPT</ResourceName>
-      <ReleaseDate>2012-04-18T18:08:04Z</ReleaseDate>
-      <Description>PSPT on MLSO</Description>
+      <ResourceName>MLSO_PSPT</ResourceName>
+      <ReleaseDate>2012-04-04T00:00:00Z</ReleaseDate>
+      <Description>The Precision Solar Photometric Telescope (PSPT) 
+is the centerpiece of the National Science Foundation Radiative 
+Inputs from Sun to Earth (RISE) program whose aim is to measure 
+and understand variability in the solar radiative output. The PSPT 
+produces seeing-limited full-disk (2048x2048 with 1.05"/pixel) 
+images in the blue continuum (409.4nm, FWHM 0.3nm), red continuum 
+(607.1nm, FWHM 0.5nm), CaII K (393.4nm, FWHM 0.3nm), CaII K Narrow 
+Band Wing (NBW) (393.6nm, FWHM 0.1nm), and CaII K Narrow Band Core 
+(NBC) (393.4nm, FWHM 0.1nm), with an unprecedented 0.1% pixel-to-
+pixel relative photometric precision.</Description>
       <Contact>
-        <PersonID>UNKNOWN</PersonID>
+        <PersonID>spase://SMWG/Person/Thomas.E.Holzer</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
-      <PriorID>spase://vspo/instrument/169</PriorID>
     </ResourceHeader>
-    <InstrumentType>Unspecified</InstrumentType>
-    <InvestigationName>PSPT on MLSO</InvestigationName>
+    <InstrumentType>MultispectralImager</InstrumentType>
+    <InstrumentType>Photometer</InstrumentType>
+    <InvestigationName>PSPT at MLSO</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/MaunaLoaSO</ObservatoryID>
   </Instrument>
 </Spase>
