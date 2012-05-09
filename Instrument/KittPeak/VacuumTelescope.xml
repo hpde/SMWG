@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/KittPeak/VacuumTelescope</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Kitt Peak Vacuum Telescope (KPVT)</ResourceName>
+      <ReleaseDate>2012-05-03T00:00:00Z</ReleaseDate>
+      <Description>After 29 years of solar imaging, the vacuum telescope at 
+Kitt Peak was decommissioned in 2002. Several types of data were derived 
+from daily full-disk observations of the sun: Line of sight magnetic fields;
+HeI 1083 nm equivalent width; CaII K line (1 nm passband) intensity; 
+continuum intensity. The SOLIS instrumentation succeeded KPVT.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/John.W.Harvey</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <PriorID>spase://vspo/instrument/366</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Imager</InstrumentType>
+    <InvestigationName>Kitt Peak Vacuum Telescope</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/KittPeak</ObservatoryID>
+  </Instrument>
+</Spase>

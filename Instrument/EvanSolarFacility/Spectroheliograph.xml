@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/EvansSolarFacility/Spectroheliograph</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Evans Solar Facility (ESF) Spectroheliograph</ResourceName>
+      <ReleaseDate>2012-05-03T00:00:00Z</ReleaseDate>
+      <Description>The National Solar Observatory's Evans Solar Facility 
+is at Sacramento Peak, Sunspot, New Mexico.  ESF is two telescopes in one, 
+both tracking the solar cycle. A 16" coronagraphic telescope maps magnetic 
+changes in the Sun's outer atmosphere. A special set of 12" coelostat 
+optics "squints" so the Sun appears as a pinpoint, allowing an "apples 
+and apples" comparison with the cycles of distant stars. The 
+spectroheliograph is basically a specially designed camera that scans 
+across an image of the sun, while letting only light from one particular 
+color fall onto a light detector, such as film. It is possible for the 
+spectroheliograph to pass light produced from the hydrogen or calcium 
+atoms of the sun, for example. Because of the temperature and density 
+variation with height in the solar atmosphere, and the resulting offset 
+in differents types of atoms, the solar atmospheric structure at 
+different heights can can be observed.  See http://nsosp.nso.edu/esf/
+</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Stephen.L.Kell</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <PriorID>spase://vspo/instrument/75</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Imager</InstrumentType>
+    <InvestigationName>ESF Spectroheliograph</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/EvansSolarFacility</ObservatoryID>
+  </Instrument>
+</Spase>
