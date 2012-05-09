@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Francesca.Zuccarelli</ResourceID>
+        <ReleaseDate>2012-03-08T00:00:00Z</ReleaseDate>
+        <PersonName>Francesca Zuccarelli</PersonName>
+        <OrganizationName>Catania Astrophysical Observatory, Sicily</OrganizationName>
+    </Person>
+</Spase>

@@ -1,19 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<?xml version="1.0" encoding="utf-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/NOB_RH/NORH</ResourceID>
     <ResourceHeader>
       <ResourceName>NORH</ResourceName>
-      <ReleaseDate>2012-04-18T18:08:04Z</ReleaseDate>
-      <Description>NORH on NOB_RH</Description>
+      <ReleaseDate>2012-04-12T00:00:00Z</ReleaseDate>
+      <Description>The Nobeyama Radioheliograph (NoRH) is a radio telescope 
+dedicated solar observations. It consists of 84 parabolic antennas with 
+80 cm diameter, sitting on lines of 490 m length in the east/west direction
+and of 220 m length in the north/south direction. The first observation was 
+in April, 1992 and daily 8-hour observations have been done since June, 1992.
+
+Frequency: 17GHz (Right and left circular polarization), 34GHz (only intensity)
+Field of view 	        Solar full disk
+Spatial resolution 	10 arcsec (17GHz), 5 arcsec (34GHz)
+Temporal resolution 	0.1 sec (Event), 1 sec (Steady)
+
+As the NoRH is a radio interferometer, original data are sets of 
+correlation values of all the combination of antennas. They correspond 
+to the spatial Fourier components of the brightness distribution of the 
+solar disk. In most cases, it is necessary to synthesize images from the 
+original raw data.
+
+To maximize the data use, we prepare images, indices and other related 
+materials routinely and put them on our Web page at 
+http://solar.nro.nao.ac.jp/norh/index.html. This Web page is to help 
+the scientists in the world to look for interesting phenomena detected by 
+the NoRH and to start the actual analysis using the original data set. 
+Software for image synthesis and analyses are available for remote 
+use.</Description>
       <Contact>
-        <PersonID>UNKNOWN</PersonID>
+        <PersonID>spase://SMWG/Person/Kiyoto.Shibasaki</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
       <PriorID>spase://vspo/instrument/170</PriorID>
     </ResourceHeader>
-    <InstrumentType>Unspecified</InstrumentType>
+    <InstrumentType>Photopolarimeter</InstrumentType>
+    <InstrumentType>Imager</InstrumentType>
     <InvestigationName>NORH on NOB_RH</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/NOB_RH</ObservatoryID>
   </Instrument>

@@ -1,19 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Instrument>
+<?xml version="1.0" encoding="utf-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+<Instrument>
     <ResourceID>spase://SMWG/Instrument/OAC/OACT</ResourceID>
     <ResourceHeader>
       <ResourceName>OACT (VSO notation)</ResourceName>
-      <ReleaseDate>2012-04-18T18:08:04Z</ReleaseDate>
-      <Description>OACT (VSO notation) on OAC</Description>
+      <ReleaseDate>2012-04-12T00:00:00Z</ReleaseDate>
+      <Description>The Catania Astrophysicsl Observatory (OAC)
+Telescope (OACT) used for solar observations has a
+Ha Lyot-filter (bandwidth of 0.25 - 0.50 Angstrom, tunable filter 
+range +/- 16 Angstrom) and a 1360 x 1200 Astromed TE4 CCD array. 
+In patrol full-disk mode the camera can taken images every 60 s, 
+with a dynamical range of 16 bit.  It has an H-alpha Halle filter
+with a camera for limb observations.  It has a 150 mm refractor 
+with a focal length of 230 cm.  A Cook refractor is used to make 
+daily drawings of sunspot-groups from visual observation.  See 
+http://web.ct.astro.it/sun/instrument.htm.</Description>
       <Contact>
-        <PersonID>UNKNOWN</PersonID>
+        <PersonID>spase://SMWG/Person/Francesca.Zuccarelli</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
       <PriorID>spase://vspo/instrument/171</PriorID>
     </ResourceHeader>
-    <InstrumentType>Unspecified</InstrumentType>
+    <InstrumentType>Imager</InstrumentType>
     <InvestigationName>OACT (VSO notation) on OAC</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/OAC</ObservatoryID>
   </Instrument>
