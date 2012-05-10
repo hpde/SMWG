@@ -2,9 +2,9 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/Observatory/CO</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/Culgoora</ResourceID>
     <ResourceHeader>
-      <ResourceName>CO</ResourceName>
+      <ResourceName>Culgoora</ResourceName>
       <ReleaseDate>2010-08-05T18:19:16Z</ReleaseDate>
       <Description>Ground based solar observatory with an optical telescope</Description>
       <Contact>
