@@ -3,7 +3,7 @@
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Observatory>
-        <ResourceID>spase://SMWG/ObservatoryIGS</ResourceID>
+        <ResourceID>spase://SMWG/Observatory/IGS</ResourceID>
         <ResourceHeader>
             <ResourceName>International GNSS Service (IGS)</ResourceName>
 	    <AlternateName>International GPS Service</AlternateName>
