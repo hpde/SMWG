@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema 
+    http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Observatory>
+        <ResourceID>spase://SMWG/Observatory/San.Fernando</ResourceID>
+        <ResourceHeader>
+            <ResourceName>San Fernando Observatory</ResourceName>
+            <ReleaseDate>2012-06-20T00:00:00Z</ReleaseDate>
+            <Description>San Fernando Observatory is a solar research
+                facility located in Sylmar, CA, and associated with California
+                State University, Northbridge (CSUN).</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Gary.A.Chapman</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name>SFO main page</Name>
+                <URL>http://www.csun.edu/sfo/</URL>
+            </InformationURL>
+        </ResourceHeader>
+        <Location>
+            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+        </Location>
+    </Observatory>
+</Spase>
+
