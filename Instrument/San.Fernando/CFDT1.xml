@@ -8,13 +8,13 @@
       <ReleaseDate>2012-04-18T18:08:04Z</ReleaseDate>
       <Description>CFDT1 Cartesian Full-Disk Telescope Number 1 on SFO</Description>
       <Contact>
-        <PersonID>UNKNOWN</PersonID>
+        <PersonID>spase://SMWG/Person/Gary.A.Chapman</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
       <PriorID>spase://vspo/instrument/205</PriorID>
     </ResourceHeader>
     <InstrumentType>Unspecified</InstrumentType>
     <InvestigationName>CFDT1 Cartesian Full-Disk Telescope Number 1 on SFO</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/WDC/San.Fernando</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/San.Fernando</ObservatoryID>
   </Instrument>
 </Spase>
