@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+  <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version> 
+  <Observatory>
+	  <ResourceID>spase://SMWG/Observatory/SYO</ResourceID> 
+		  <ResourceHeader>
+		  <ResourceName>Syowa Upper Atmosphere Physics Monitoring Data</ResourceName> 
+		  <AlternateName>SYO</AlternateName>
+		  <ReleaseDate>2012-11-01T00:00:00Z</ReleaseDate> 
+		  <Description>The Syowa Upper Atmosphere Physics Monitoring Data system provides magnetometer data from the Syowa magnetometer in Antarctica located at -69.00 Geographic latitude 39.58 Geographic longitude. </Description> 
+		  <Acknowledgement>National Institute of Polar Research;  Prof. Natsuo Sato</Acknowledgement>
+		   <Contact>
+			  <PersonID>spase://SMWG/Person/Natsuo.Sato</PersonID> 
+			  <Role>GeneralContact</Role> 
+		  </Contact> 
+		  <InformationURL>
+			  <Name>Magnetometer Data at Syowa Station Data Portal</Name> 
+			  <URL>http://polaris.nipr.ac.jp/~uap-mon/uapm/gtSyowaMag.html</URL> 
+			  <Description>Online magnetometer data at Syowa station. These data are in a variety of resolutions.</Description> 
+		  </InformationURL>
+		</ResourceHeader>  
+		<Location>
+		  <ObservatoryRegion>Earth.NearSurface.AuroralRegion</ObservatoryRegion> 
+		  <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion> 
+		  <ObservatoryRegion>Earth.Surface</ObservatoryRegion> 
+		</Location>
+  </Observatory>
+  </Spase>

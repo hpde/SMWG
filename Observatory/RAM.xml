@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+  <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version> 
+  <Observatory>
+	  <ResourceID>spase://SMWG/Observatory/RAM</ResourceID> 
+		  <ResourceHeader>
+		  <ResourceName>Russian Arctic and Antarctic Magnetometer (RAM) network</ResourceName> 
+		  <AlternateName>RAM Network</AlternateName>
+		  <ReleaseDate>2012-11-10T00:00:00Z</ReleaseDate> 
+		  <Description>The Russian Arctic and Antarctic Magnetometer (RAM) network consists of station in Antarctica and the Arctic. Information on the station locations are available at their homepage and some data are avaiable for download. The main goals are to: examine High-latitude geophysical phenomena and monitoring of space weather and understand the influence of solar activity and magnetospheric perturbations on atmospheric phenomena and processes.</Description> 
+		  <Acknowledgement>Geological Survey of Canada; Dr. David Boteler</Acknowledgement>
+		   <Contact>
+			  <PersonID>spase://SMWG/Person/Oleg.Troshichev</PersonID> 
+			  <Role>PrincipalInvestigator</Role> 
+		  </Contact> 
+		  <InformationURL>
+			  <Name>Overview of the Russian Arctic and Antarctic Magnetometer network</Name> 
+			  <URL>http://www.aari.nw.ru/clgmi/geophys/index.html</URL> 
+			  <Description>Description of nearly all aspects of the magnetometer array.</Description> 
+		  </InformationURL>
+		</ResourceHeader>  
+		<Location>
+		  <ObservatoryRegion>Earth.NearSurface.AuroralRegion</ObservatoryRegion> 
+		  <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion> 
+		  <ObservatoryRegion>Earth.Surface</ObservatoryRegion> 
+		</Location>
+  </Observatory>
+  </Spase>

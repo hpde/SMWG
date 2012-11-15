@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+  <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version> 
+  <Observatory>
+	  <ResourceID>spase://SMWG/Observatory/BAS</ResourceID> 
+		  <ResourceHeader>
+		  <ResourceName>British Antarctic Survey</ResourceName> 
+		  <AlternateName>BAS</AlternateName>
+		  <ReleaseDate>2012-11-11T00:00:00Z</ReleaseDate> 
+		  <Description>British Antarctic Survey is one of the world's leading environmental research centers and is responsible for the United Kingdon's national scientific activities in Antarctica. This site provide ground magnetometer data from a number of stations that are operated by several other institutes including: Japanese National Institute of Polar Research, Polar Research Institute of China, and TIstituto Nazionale di Geofisica e Vulcanologia</Description> 
+		  <Acknowledgement>British Antarctic Survey; Japanese National Institute of Polar Research; Polar Research Institute of China;  TIstituto Nazionale di Geofisica e Vulcanologia</Acknowledgement>
+		   <Contact>
+			  <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID> 
+			  <Role>MetadataContact</Role> 
+		  </Contact> 
+		  <InformationURL>
+			  <Name>British Antarctic Survey Data Portal</Name> 
+			  <URL>http://www.antarctica.ac.uk/bas_research/our_research/az/lpm/data/index.php</URL> 
+			  <Description>Online magnetometer data for a number of magnetometer stations in Antarctica.</Description> 
+		  </InformationURL>
+		</ResourceHeader>  
+		<Location>
+		  <ObservatoryRegion>Earth.NearSurface.AuroralRegion</ObservatoryRegion> 
+		  <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion> 
+		  <ObservatoryRegion>Earth.Surface</ObservatoryRegion> 
+		</Location>
+  </Observatory>
+  </Spase>
