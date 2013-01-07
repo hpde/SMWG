@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/SNOE/SXP</ResourceID>
+        <ResourceHeader>
+            <ResourceName>SNOE Solar X-ray Photometer, 0.2-3.5A</ResourceName>
+            <ReleaseDate>2012-12-27T00:00:00Z</ReleaseDate>
+            <Description>The solar X-ray photometer (SXP) measures the solar irradiance at wavelengths from 2 to 35 nm. Each of the five photometer channels contains a silicon photodiode; wavelength selection is accomplished by thin metallic films deposited onto the diode surface. Coatings are selected so that overlapping bandpasses can be used to isolate key parts of the spectrum at low resolution: Tin (Sn): 2-8 nm; Titanium (Ti): 2-16 nm; Zirconium/Titanium (Zr/Ti): 5-20 nm; Aluminum/Carbon (Al/C): 15-35 nm. The field of view is 70 degrees full cone. The SXP takes 12 measurements per spin, centered on the zenith, with a 63 second integration time. Thus, it obtains an integrated solar measurement once per orbit, when the sun is near the zenith.</Description>
+             <Contact>
+            <PersonID>spase://SMWG/Person/Charles.A.Barth</PersonID>
+            <Role>PrincipalInvestigator</Role>
+            </Contact>
+           <InformationURL>
+                 <Name>NSSDC's Master Catalog</Name>
+                 <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1998-012A-03</URL>
+                 <Description> Information about the Solar X-ray Photometer on the SNOE mission.</Description>
+           </InformationURL>
+        </ResourceHeader>
+     <InstrumentType>Photometer</InstrumentType>
+     <InvestigationName>Solar Irradiance at Wavelengths from 2 to 35 nm</InvestigationName>
+     <ObservatoryID>spase://SMWG/Observatory/SNOE</ObservatoryID>
+  </Instrument>   
+</Spase>
