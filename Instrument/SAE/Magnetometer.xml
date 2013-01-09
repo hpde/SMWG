@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
    <Version>2.2.0</Version>
    <Instrument>
-      <ResourceID>spase://SMWG/Instrument/Magnetometer</ResourceID>
+      <ResourceID>spase://SMWG/Instrument/SAE/Magnetometer</ResourceID>
       <ResourceHeader>
          <ResourceName>Southern Auroral Electrojet Index Instrument</ResourceName>
          <AlternateName>SAE Instrument</AlternateName>
