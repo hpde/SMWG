@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/RBSP/A/EMFISIS</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Electric and Magnetic Field Instrument Suite and Integrated Science (EMFISIS)</ResourceName>
+            <ReleaseDate>2010-08-11T00:00:00</ReleaseDate>
+            <Description>"RBSP-EMFISIS Instrument Suite ... 
+
+Tri-axial Magnetometer (MAG)  ... is a tri-axial fluxgate magnetometer: Vector B, DC-15 Hz, 0.1 nT accuracy, three sensors on rigid boom.
+
+WAVES, a tri-axial search coil magnetometer and sweep frequency receiver.
+
+    Waves Components:
+
+        Magnetic field - vector B
+        10 Hz - 12 kHz
+        sensitivity: 3x10-11 nT2Hz-1 @ 1 kHz
+        3 sensors on rigid boom
+
+        Electric field - spin-plane E
+        10 Hz- 12 kHz (vector)
+        10 kHz-400 kHz (single channel)
+        sensitivity: 3x10-17 V2m-2Hz-1 @ 1 kHz
+        shares booms with Electric Fields and Waves (EFW) Instrument" (EMFISIS Web Page)
+
+
+
+"This investigation will provide the observations needed to determine the origin of important plasma wave classes and their role in particle acceleration and loss processes. The investigation will also quantify the evolution of the magnetic field that defines the basic coordinate system controlling the structure of the radiation belts and the storm-time ring current. EMFISIS will provide calculations of on board spectra, including spectral matrices, making it possible to determine wave normal angles and Poynting fluxes for the plasma waves of interest and providing information for wave mode identification and propagation modeling which are essential for understanding and modeling of radiation particle physics. EMFISIS will also measure the upper hybrid frequency, permitting accurate determination of the electron plasma density required for analysis of wave propagation and instability growth rates."
+
+</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Craig.A.Kletzing</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <InformationURL>
+                <Name>EMFISIS Web Page</Name>
+                <URL>http://rbsp.jhuapl.edu/spacecraft/instruments/instruments_emfisis.php</URL>
+                <Description>EMFISIS Web Page</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>WaveformReceiver</InstrumentType>
+        <InvestigationName>Radiation Belt Storm Probe (RBSP) EMFISIS</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/RBSP/A</ObservatoryID>
+    </Instrument>
+</Spase>

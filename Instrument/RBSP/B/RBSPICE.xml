@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/RBSP/B/RBSPICE</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Radiation Belt Storm Probes Ion Composition Experiment (RBSPICE)</ResourceName>
+            <AlternateName>RBSPICE</AlternateName>
+            <ReleaseDate>2010-08-11T00:00:00</ReleaseDate>
+            <Description>"This investigation will provide observations that accurately resolve the ring current pressure distribution needed to understand how the inner magnetosphere changes during geomagnetic storms and how that storm environment supplies and supports the acceleration and loss processes involved in creating and sustaining hazardous radiation particle populations." ... "Puck – ring-current ion composition, pitch-angle, and energy sensor RBSPICE-Puck covers the full range of expected ring current intensities, from quiet to extreme events, with a factor of 10 margin against saturation.
+Measurement quality is independent of the angle between the B-field and the spin axis.
+- Ion composition energy range is low enough to determine the complete Ring Current energy density.
+- High angle and energy resolution provide detailed pitch-angle and energy spectra: Δθ = 22.5°, ΔE/E = 0.1"</Description>
+            <Acknowledgement/>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Louis.J.Lanzerotti</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Thomas.P.Armstrong</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Jerry.W.Manweiler</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Pontus.C.Brandt</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Guru.Ganguli</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Anthony.Lui</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <!-- Contact>
+                <PersonID>spase://SMWG/Person/Donald.G.Mitchell</PersonID>
+                <Role>InstrumentScientist</Role>
+            </Contact-->
+            <Contact>
+                <PersonID>spase://SMWG/Person/Y.Miyoshi</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Mikhail.I.Sitnov</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Danny.Summers</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Nikolai.A.Tsyganenko</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Aleksandr.Y.Ukhorskiy</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <InformationURL>
+                <Name>RBSPICE Web Page</Name>
+                <URL>http://rbsp.jhuapl.edu/spacecraft/instruments/instruments_rbspice.php</URL>
+                <Description>RBSPICE Web Page</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+        <InvestigationName>Radiation Belt Storm Probe (RBSP) RBSPICS instrument</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/RBSP/B</ObservatoryID>
+    </Instrument>
+</Spase>

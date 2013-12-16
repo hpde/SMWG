@@ -1,0 +1,12 @@
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Scot.R.Elkington</ResourceID>
+        <ReleaseDate>2010-12-01T00:00:00</ReleaseDate>
+        <PersonName>Dr. Scot R. Elkington</PersonName>
+        <OrganizationName>Laboratory for Atmospheric and Space Physics, University of Colorado at Boulder</OrganizationName>
+        <Address>Laboratory for Atmospheric and Space Physics, University of Colorado at Boulder, 1234 Innovation Drive, Boulder, CO 80303, USA</Address>
+        <Email>Scot.Elkington@lasp.colorado.edu</Email>
+    </Person>
+</Spase>

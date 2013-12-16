@@ -1,0 +1,12 @@
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Jerry.W.Manweiler</ResourceID>
+        <ReleaseDate>2010-08-04T00:00:00</ReleaseDate>
+        <PersonName>Dr. Jerry W. Manweiler</PersonName>
+        <OrganizationName>Fundamental Technologies, LLC</OrganizationName>
+        <Address>2411 Ponderosa, Suite A Lawrence, KS 66046</Address>
+        <Email>manweiler@ftecs.com</Email>
+    </Person>
+</Spase>
