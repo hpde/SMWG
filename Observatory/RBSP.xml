@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Observatory>
+        <ResourceID>spase://SMWG/Observatory/RBSP</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Radiation Belt Storm Probe Satellite</ResourceName>
+            <AlternateName>Radiation Belt Storm Probe</AlternateName>
+            <AlternateName>Van Allen Probes</AlternateName>
+            <ReleaseDate>2013-09-17T00:00:00</ReleaseDate>
+            <Description>The Van Allen Probes (formerly known as the Radiation Belt Storm Probes (RBSP)) are two robotic spacecraft being used to study the Van Allen radiation belts that surround Earth. NASA is conducting the Van Allen Probes mission as part of the Living With a Star program. Understanding the radiation belt environment and its variability has important practical applications in the areas of spacecraft operations, spacecraft system design, mission planning and astronaut safety. The probes were launched on August 30, 2012</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Barry.H.Mauk</PersonID>
+                <Role>ProjectScientist</Role>
+            </Contact>
+            <InformationURL>
+                <Name>Mission Web Pages</Name>
+                <URL>http://rbsp.jhuapl.edu/index.php</URL>
+                <Description>Mission Web Page</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <Location>
+            <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+        </Location><Extension/>
+    </Observatory>
+</Spase>

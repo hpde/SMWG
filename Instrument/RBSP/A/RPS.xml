@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/RBSP/A/RPS</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Relativistic Proton Spectrometer (RPS)</ResourceName>
+            <AlternateName/>
+            <ReleaseDate>2010-08-11T00:00:00</ReleaseDate>
+            <Description>
+				"The RPS will measure inner Van Allen belt protons with energies from 50 MeV to 2 GeV. Presently, the intensity of trapped protons with energies
+beyond about 150 MeV is not well known and thought to be underestimated in existing specification models. Such protons are known to pose a number of hazards to astronauts and spacecraft, 
+including total ionizing dose, displacement damage, single event effects, and nuclear activation. This instrument will address a priority highly ranked by the scientific and technical community and will extend 
+the measurement capability of this mission to a range beyond that originally planned. The project’s goal is development of a new standard radiation model for spacecraft design." Measurements include: 
+Energetic protons responsible for total dose in MEO for shielding thickness over 200 mils aluminum; Protons responsible for displacement damage; Telescope consists of 8 silicon detectors and a Cherenkov detector; 
+Stacked Si detectors used for 50 MeV to ~400 MeV, incident angle constrained by 8-fold coincidence; Chenrenkov detector used for &gt; 400 MeV; Absolute flux accuracy: dJ/J ~10%; Energy resolution: dE/E ~30% @ 50 MeV, to 100% @ 2 GeV; 
+Angular resolution: 30 degrees instantaneous, 5 degrees deconvolved" [http://rbsp.jhuapl.edu/spacecraft/instruments/instruments_rps.php].  The Aerospace Corporation designed and built the RPS instrument with funding from The National Reconnaissance Office. The RPS Principal Investigator is Dr. Joseph Mazur, and the NRO program principal investigator is Dr. David Byers.
+			</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Joseph.Mazur</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/David.Byers</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <InformationURL>
+                <Name>RPS Web Page at Aerospace</Name>
+                <URL>http://rbsp.aerospace.com/</URL>
+                <Description>RPS Web Page</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>RPS Web Page at ViRBO</Name>
+                <URL>http://virbo.org/RBSP/RPS</URL>
+                <Description>RPS Web Page</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>RPS Web Page at JHU/APL</Name>
+                <URL>http://rbsp.jhuapl.edu/spacecraft/instruments/instruments_rps.php</URL>
+                <Description>RPS Web Page</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+        <!-- InstrumentType>SSD</InstrumentType-->
+        <!-- InstrumentType>Scintillation Detector</InstrumentType-->
+        <InvestigationName>Radiation Belt Storm Probe RPS instrument</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/RBSP/A</ObservatoryID>
+    </Instrument>
+</Spase>

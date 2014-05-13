@@ -1,0 +1,12 @@
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Jerry.Goldstein</ResourceID>
+        <ReleaseDate>2010-12-11T00:00:00</ReleaseDate>
+        <PersonName>Dr. Jerry Goldstein</PersonName>
+        <OrganizationName>Southwest Research Institute</OrganizationName>
+        <Address>Southwest Research Institute, 6220 Culebra Road, San Antonio, TX 78238</Address>
+        <Email>jgoldstein@swri.edu</Email>
+    </Person>
+</Spase>

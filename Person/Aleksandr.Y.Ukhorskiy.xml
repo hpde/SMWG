@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Aleksandr.Y.Ukhorskiy</ResourceID>
+        <ReleaseDate>2010-03-01T00:00:00</ReleaseDate>
+        <PersonName>Dr. Aleksandr Y. Ukhorskiy</PersonName>
+        <OrganizationName>JHU/APL</OrganizationName>
+        <Address>JHU/APL 11100 Johns Hopkins Rd Laurel, MD 20723-6099</Address>
+        <Email>ukhorskiy@jhuapl.edu</Email>
+    </Person>
+</Spase>

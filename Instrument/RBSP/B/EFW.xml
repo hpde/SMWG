@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/RBSP/B/EFW</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Electric Field and Waves Suite (EFW)</ResourceName>
+            <ReleaseDate>2010-08-11T00:00:00</ReleaseDate>
+            <Description>"The investigation will provide the observations needed to understand the electric field properties associated with particle energization, scattering and transport, and the role of the large-scale convection electric field in modifying the structure of the inner magnetosphere. EFW measurements of the spacecraft potential will be used to infer the ambient plasma density." ... "Key Measurement Quantities:
+
+    Spin plane component of E at DC - 12 Hz (0.05 mV/m accuracy)
+    Spin axis component of E at DC - 12 Hz (~3 mV/m accuracy)
+    E- and B-field spectra for nearly-parallel and nearly-perpendicular to B components between 1 Hz and 12 kHz at 6-second cadence
+    Spacecraft potential estimate covering cold plasma densities of 0.1 to ~100 cm-3 at 1-second cadence
+    Burst recordings of high-frequency E- and B-field waveforms, as well as individual sensor potentials for interferometric analyses
+" (EFW Web Page)
+"The purpose of the Electric Field-Wave Instrument on the two RBSP spacecraft is to investigate the role of plasma structures and waves in the physical processes responsible for the acceleration, transport, and loss of energetic particles in the inner magnetosphere of the Earth. Some of these processes include: prompt acceleration induced by powerful interplanetary shocks, acceleration by the large scale convection electric field, abrupt energization by intense substorm injection fronts propagating in from the tail, coherent and stochastic radial transport by large scale MHD fluctuations, multi-step local energization and cattering by whistler waves, and scattering and energization by kinetic Alfven waves, ion cycltron waves, and other small scale waves and structures. In order to understand the role of these processes in accelerating particles, the EFW instrument measures the three dimensional electric field from dc to greater than 500 kHz. The spin plane electric field vector is obtained from spherical sensors at the ends of two pair of orthogonal booms with tip-to- tip separations of 80 and 100 m. The spin axis measurement is obtained by opposed stacer booms with a tip- to-tip separation of 12 meters or greater. The electric field below 12 Hz is telemetered continuously while higher time resolution is obtained from a programmable burst memory with a maximum sampling rate for six quantities of greater 30,000 samples/s each. DC magnetic fields from the fluxgate magnetometer and wave magnetic fields from the search coil, both associated with the University of Iowa Instrument are input into the EFW instrument for processing in the burst memory and in the Digital Signal Processing Board (DSP). The DSP provides wave spectra and cross spectra of electric and magnetic field data over the frequency range between 50 Hz and 10 kHz with a typical cadence of once per 12 seconds with a maximum rate of ~ 1 Hz in order to provide continuous information on wave properties including: the wave power, the normal direction, the phase velocity, the waves electrostatic or electro-magnetic structure, the longitudinal component of the electric field, the parallel component of the electric field, and Poynting flux. The EFW instrument also provides a wave electric field signal to the University of Iowa Instrument. " (EFW AGU Abstract)</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/John.R.Wygant</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <InformationURL>
+                <Name>EFW Web Page</Name>
+                <URL>http://rbsp.jhuapl.edu/spacecraft/instruments/instruments_efw.php</URL>
+                <Description>EFW Web Page</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>EFW AGU Abstract</Name>
+                <URL>http://adsabs.harvard.edu/abs/2006AGUFMSM33A0331W</URL>
+                <Description>EFW, 2006 AGU Presentation Abstract</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+        <InvestigationName>Radiation Belt Storm Probe (RBSP)</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/RBSP/B</ObservatoryID>
+    </Instrument>
+</Spase>
