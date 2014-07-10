@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/GOES/13/EPEAD</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Energetic Particle Monitor</ResourceName>
+      <ReleaseDate>2013-01-29T00:00:00Z</ReleaseDate>
+      <Description>The EPS, developed by Assurance Technology Corporation (ATC), (Formerly GE Panametrics
+Corp.) in Carlisle, Massachusetts measures the energetic particles at geosynchronous orbit,
+including protons, electrons, and alpha particles. The radiation in the environment consists of
+particles trapped within the Earth’s magnetosphere as well as particles arriving directly from the
+sun and cosmic rays that have been accelerated deep in space.
+
+The sensors accurately measure the number of particles over a broad energy range and are the
+basis for operational alerts and warnings of hazardous conditions. Energetic particles pose a risk
+to satellites and to astronauts, and they can disrupt navigation and communications systems used
+on the ground and in aircraft.
+
+The Magnetospheric Electron Detector (MAGED) and Energetic Proton, Electron, and Alpha
+Detector (EPEAD), two elements of the EPS, detect electrons over the energy range of 30,000
+electron volts (30 keV) to greater than 4 million electron volts (4 MeV), in eight channels. The
+Magnetosphere Proton Detector (MAGPD), EPEAD, and High Energy Proton and Alpha
+Detector (HEPAD), which are additional EPS elements, detect protons over the energy range of
+80 keV to greater than 700 MeV, in 16 channels. The EPEAD and HEPAD detect alpha particles
+over the energy range 3.8 MeV to greater than 3,400 MeV, in eight channels.
+
+The continuous long-term monitoring of the environment provided by these sensors forms the
+basis for engineering guidelines for satellite design, for analyzing satellite failure and anomalous
+behavior, for assessing the risk of human exposure to radiation, and for research leading to
+improved models of the radiation environment. The sensors on the EPS have been expanded on
+GOES-N,O,P to provide coverage over an extended energy range and with improved directional
+accuracy.</Description>
+      <Acknowledgement>National Oceanic and Atmospheric Administration</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>GOES N, O, and P Brochure</Name>
+        <URL>http://goes.gsfc.nasa.gov/text/brochure/GOES_NOP_print.pdf</URL>
+        <Description>Information about the EPS onboard GOES 13-15.</Description>
+        <Language>en</Language>
+      </InformationURL>
+      <InformationURL>
+        <Name>GOES N, O, and P EPS Documentation</Name>
+        <URL>http://ngdc.noaa.gov/stp/satellite/goes/documentation.html</URL>
+        <Description>Information about the EPS onboard GOES 13-15.</Description>
+        <Language>en</Language>
+      </InformationURL>
+      <PriorID>spase://SMWG/Instrument/GOES/13/EPS</PriorID>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Energetic Particle Sensor on GOES 13</InvestigationName>
+    <OperatingSpan>
+    	 <StartDate>2010-05-01T00:00:00Z</StartDate>
+    	 <Note>It is not clear if this mission is still active.</Note>
+    </OperatingSpan>
+    <ObservatoryID>spase://SMWG/Observatory/GOES/13</ObservatoryID>
+  </Instrument>
+</Spase>

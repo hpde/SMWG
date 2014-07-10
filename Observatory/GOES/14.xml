@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/GOES/14</ResourceID>
+    <ResourceHeader>
+      <ResourceName>GOES 14</ResourceName>
+      <AlternateName>Geostationary Operational Environmental Satellite 14</AlternateName>
+      <AlternateName>GOES O</AlternateName>
+      <AlternateName>2009-033A</AlternateName>
+      <ReleaseDate>2013-01-24T00:00:00Z</ReleaseDate>
+      <Description>GOES 14, also known as GOES-O, is an American (National Oceanic and Atmospheric Administration) geostationary weather satellite that was launched by a Delta 4 rocket from Cape Canaveral at 22:51 UT on 27 June 2009. It is the latest in the series of Geostationary Operational Environmental Satellites which carry an imager, sounder, a Space Environment Monitor (SEM) package, a solar X-ray imager, and SARSAT Search and Rescue ground-data relaying equipment. The SEM consists of an energetic particle sensor, two magnetometers, and solar X-ray and extreme ultraviolet sensors. GOES 14 was placed in orbit originally as a spare.</Description>
+      <Acknowledgement>National Oceanic and Atmospheric Administration</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=2009-033A</URL>
+        <Description>Information about the GOES 14 mission</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://en.wikipedia.org/wiki/GOES_14</URL>
+        <Description>Information about the GOES 14 mission</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Observatory/GOES/14</PriorID>
+		</ResourceHeader>    
+		<ObservatoryGroupID>spase://SMWG/Observatory/GOES</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>
