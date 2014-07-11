@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/Skylab/White_Light_Coronograph</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Skylab White Light Coronograph</ResourceName>
+	    <AlternateName>1973-027A-04</AlternateName>
+            <AlternateName>Skylab Experiment S052</AlternateName>
+            <ReleaseDate>2013-12-04T00:00:00Z</ReleaseDate>
+            <Description>The objectives of this experiment were to study brightness, form, size, composition, polarization, and movements of the corona, and correlate the observations with solar surface events and with solar wind effects. The experiment, located in the Apollo Telescope Mount (ATM), used an externally occulted coronagraph to monitor, between 4000 and 6000 A, the brightness, form, and polarization of the solar corona at radial distances of 1.5 to 6.0 solar radii. Sponsored by the High Altitude Observatory, the coronagraph was designed to block out the image of the sun's disk and to take pictures of the faint corona that extends from the sun far into space. Light scattering by optical elements and by structural surfaces was carefully avoided. This instrument contained four coaxial occulting disks and photodetectors for alignment corrections. Pictures were recorded on 35 mm film; they were taken either in unpolarized light or in one of three possible orientations of plane polarized light. Also, the instrument could operate in the ``video mode,'' which permitted display for the astronauts or TV transmission to the ground. For more details, see A. L. Poland et al., App. Opt., v. 16, p. 926, 1977.</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Robert.M.MacQueen</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact> 
+            <InformationURL>
+                <Name>NSSDC Master Catalog</Name>
+                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1973-027A-04</URL>
+                <Description>Information about White Light Coronograph on Skylab</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>Coronograph</InstrumentType>
+        <InvestigationName>White Light Coronograph</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/Skylab</ObservatoryID>
+    </Instrument>
+</Spase>
+
+
