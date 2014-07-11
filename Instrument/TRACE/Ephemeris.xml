@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/TRACE/Ephemeris</ResourceID>
+    <ResourceHeader>
+      <ResourceName>TRACE Positions</ResourceName>
+      <AlternateName>TRACE Ephemeris</AlternateName>
+      <ReleaseDate>2013-04-09T00:00:00Z</ReleaseDate>
+      <Description>TRACE spacecraft positions in various coordinate systems</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Robert.E.McGuire
+</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+        </ResourceHeader>
+    <InstrumentType>Platform</InstrumentType>
+    <InvestigationName>Spacecraft position</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/TRACE</ObservatoryID>
+  </Instrument>
+</Spase>

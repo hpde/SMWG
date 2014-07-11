@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/OV3-3/MES</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Magnetic Electron Telescope</ResourceName>
+            <ReleaseDate>2012-02-02T00:00:00Z</ReleaseDate>
+            <Description>Magnetic Electron Telescope on OV3-3</Description>
+            <Acknowledgement/>
+            <Contact>
+                <PersonID>spase://SMWG/Person/T.Paul.OBrien</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name>ViRBO's web page for OV3-3</Name>
+                <URL>http://virbo.org/OV</URL>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+        <InvestigationName>Magnetic Electron Telescope on OV3-3</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/OV3-3</ObservatoryID>
+    </Instrument>
+</Spase>

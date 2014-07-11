@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/LANL/01A/ESP</ResourceID>
+        <ResourceHeader>
+            <ResourceName>LANL01A Energetic Spectrometer for Particles (ESP)</ResourceName>
+            <ReleaseDate>2011-10-20T16:05:00Z</ReleaseDate>
+            <Description>Higher-energy particles have been measured since 1989 using the Energy Spectrometer for Particles (ESP). The ESP is a bismuth germanate crystal coupled to a thick plastic scintillator that is coupled to a photomultiplier tube [4]. The ESP instrument can measure the spectrum of electrons from 0.7 to 26 MeV and of protons from 11 to &gt;20 MeV.</Description>
+            <Acknowledgement/>
+            <Contact>
+                <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <InformationURL>
+                <Name>Long-Term Energetic-Particle Databases from Geosynchronous and GPS Orbits</Name>
+                <URL>http://www.osti.gov/bridge/servlets/purl/645545-Z0JXL9/webviewable/645545.pdf</URL>
+                <Description>Overview of Energetic Particle Instruments flown in association with LANL.</Description>
+            </InformationURL>
+            <PriorID/>
+        </ResourceHeader>
+        <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+        <!--InstrumentType>Photomultiplier Tube</InstrumentType-->
+        <!--<InstrumentType>ScintillationDetector</InstrumentType>-->
+        <InvestigationName>LANL01A Energetic Sensor for Particles</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/LANL01A</ObservatoryID>
+    </Instrument>
+</Spase>

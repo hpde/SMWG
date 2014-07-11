@@ -1,0 +1,34 @@
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Hawkeye/LEPEDEA</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Low-Energy Proton and Electron Differential Energy Analyzer (LEPEDEA)</ResourceName>
+      <AlternateName>LEPEDEA</AlternateName>
+      <ReleaseDate>2009-04-22T00:00:00Z</ReleaseDate>
+      <Description>
+This particle spectrometer (Low-Energy Proton and Electron Differential Energy Analyzer - LEPEDEA) employed two electrostatic analyzers to measure protrons and electrons simultaneously. A GM tube was an additional detector sensitive to protons above 600 keV and electrons above 45 keV. The sensors were mounted normal to the spacecraft spin axis. Angular distributions of particles were determined with a sector resolution of 50 deg for analyzer voltage steps and 10 deg for analyzer voltage sweeps of its whole range. The electrostatic analyzers had a field of view of 8 deg by 30 deg and measured protons and electrons from 0.05 to 40 keV. The GM tube had a conical field of view of 15-deg half-angle. Two modes of operation were used: one instrument cycle of 156 intensity measurements every 46 s, or one cycle of 312 intensity measurements every 92 s. Data from this investigation are available from the Principal Investigator. For more details of the LEPEDEA instrument see Frank, L. A., J. Geophys. Res., v. 72, n. 1, p. 185, January 1967.
+      </Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Louis.A.Frank</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/John.D.Craven</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/David.M.Yeager</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1974-040A-02</URL>
+        <Description>Information about the Low-Energy Protons and Electrons experiment on the Hawkeye 1 mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>ElectrostaticAnalyser</InstrumentType>
+    <InvestigationName>Low-Energy Protons and Electrons on Hawkeye 1</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Hawkeye</ObservatoryID>
+  </Instrument>
+</Spase>

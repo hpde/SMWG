@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/YNAO/Telescopes</ResourceID>
+    <ResourceHeader>
+      <ResourceName>YNAO Telescopes</ResourceName>
+      <ReleaseDate>2012-05-23T19:05:20Z</ReleaseDate>
+      <Description>The synoptic observations at YNAO (Yunnan 
+Astronomical Observatory, Kunming, China) are carried out in a solar 
+tower which hosts a twin telescope. Both telescopes have 18 cm 
+aperture and one of them is the full disk H-alpha telescope.
+Filter bandpass is 0.05 nm and tunable filter range is +/-0.1 nm.
+A 2K x 2K CCD camera is used</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jun.Lin</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <PriorID>spase://vspo/instrument/264</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Imager</InstrumentType>
+    <InvestigationName>YNAO H-alpha Telescope</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/YNAO</ObservatoryID>
+  </Instrument>
+</Spase>

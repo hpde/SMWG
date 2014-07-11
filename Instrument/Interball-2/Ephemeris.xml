@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+      xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/Interball-2/Ephemeris</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Interball-2 Orbit</ResourceName>
+            <AlternateName>Interball-2 Ephemeris</AlternateName>
+            <ReleaseDate>2012-06-19T00:00:00Z</ReleaseDate>
+            <Description>Interball Aurora Orbital modeling.</Description>
+             <Contact>
+            <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
+            <Role>MetadataContact</Role>
+            </Contact>
+           <InformationURL>
+                 <Name>IKI Satellite Situation Center</Name>
+                 <URL>http://www.iki.rssi.ru/vprokhor/</URL>
+                 <Description>
+                 This page maintains the Situation Analysis for the IKI International Space Missions and its coordination with the 
+                 Inter-Agency multimission campaigns.</Description>
+           </InformationURL>
+        </ResourceHeader>
+     <InstrumentType>Platform</InstrumentType>
+     <InvestigationName>Spacecraft position</InvestigationName>
+     <ObservatoryID>spase://SMWG/Observatory/Interball-2</ObservatoryID>
+  </Instrument>   
+</Spase>
+
+

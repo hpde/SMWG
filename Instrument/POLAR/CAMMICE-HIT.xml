@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/POLAR/CAMMICE-HIT</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Heavy Ion Telescope (HIT) from the Charge and Mass Magnetospheric Ion Composition Experiment (CAMMICE) suite</ResourceName>
+            <AlternateName>CAMMICE-HIT</AlternateName>
+            <ReleaseDate>2009-05-20T21:10:13Z</ReleaseDate>
+            <Description>The CAMMICE-HIT results include ion mass, elemental identification, and incident energy between ~100keV/ion to 60MeV/ion.  The sensor is a three-element Solid-State Detector (SSD).  Details of the sensor logic and detector thicknesses are available from the referenced instrument paper.  Spatial resolution is 8 degrees conical at 90 degrees to the spin axis.  Temporal resolution is 6 seconds for the full spectrum, with a 1/16 spin minimum sample time.  Energy resolution is 10%.  Sensitivity range is from 1 to 5E7 particles/(cm^2*steradian*sec).</Description>
+            <Acknowledgement/>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Theodore.Allan.Fritz</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Daniel.N.Baker</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Richard.D.Belian</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/J.Bernard.Blake</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Iannis.A.Daglis</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Joseph.F.Fennell</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Manuel.Grande</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Gerhard.Kremser</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Christopher.H.Perry</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Geoffrey.D.Reeves</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/James.L.Roeder</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Finn.Soraas</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Harlan.E.Spence</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Donald.J.Williams</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <InformationURL>
+                <Name>NSSDC's Master Catalog</Name>
+                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1996-013A-06</URL>
+                <Description>Information about the Charge and Mass Magnetospheric Ion Composition Experiment (CAMMICE) Magnetospheric Ion Composition Sensor (MICS) experiment on the Polar mission.</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>The POLAR CAMMICE Investigation</Name>
+                <URL>http://www.bu.edu/buspace/papers/CAMMICE_instrument_description.pdf</URL>
+                <Description>Detailed information concerning CAMMICE MICS and HIT, used to construct instrument description above.</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+        <!--InstrumentType>SSD</InstrumentType-->
+        <InvestigationName>Charge and Mass Magnetospheric Ion Composition Experiment (CAMMICE) on Polar</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/POLAR</ObservatoryID>
+    </Instrument>
+</Spase>
