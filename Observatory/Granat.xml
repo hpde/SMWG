@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+<Version>2.2.2</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Granat</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Granat</ResourceName>
+      <AlternateName>ASTRON 2</AlternateName>
+      <ReleaseDate>2012-09-05T00:00:00Z</ReleaseDate>      
+      <Description>Originally called Astron 2, Granat was an X- and gamma-ray astronomical observatory studying high energy emissions from galactic and extra-galactic sources. It was launched from Tyuratam by a four-stage Proton (D-1-e) booster. The observatory was based on the main bus design of earlier Venera and VEGA missions. It was cylindrical, about 4 m long and 2.5 m in diameter. Two solar panels extended from either side of the main body. Mass was about 4 metric tons, with 2.3 metric tons of experiments. The major experiment was a French Sigma coded-mask gamma radiation telescope. It measured 3.5 m by 1.2 m diameter and had a 4.45 by 4.20 deg. field of view. The satellite also carried a spectroscope and an X-ray imaging telescope. The astrophysics payload was developed in cooperation with France, Bulgaria and Denmark. The mission was expected to last 18 months, however, lengthy ground delays may have reduced its on-orbit life to eight months.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Natalia.E.Papitashvili</PersonID> 
+        <Role>GeneralContact</Role>  				 
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1989-096A</URL>
+        <Description>Information about the Granat mission</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+            <ObservatoryRegion>Heliosphere</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>
