@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema 
+    http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Observatory>
+        <ResourceID>spase://SMWG/Observatory/S-Cubed_A</ResourceID>
+        <ResourceHeader>
+            <ResourceName>S-Cubed A</ResourceName>
+	    <AlternateName>Explorer 45</AlternateName>
+            <AlternateName>SSS-A</AlternateName>
+            <ReleaseDate>2010-11-16T00:00:00Z</ReleaseDate>
+            <Description>Explorer 45 was designed to perform a wide variety of investigations within the magnetosphere with regards to particle fluxes, electric fields, and magnetic fields. Its primary scientific objectives were to: (1) study the characteristics and origin of the Earth's ring current and development of the main-phase magnetic storms; and, (2) study the relation between magnetic storms, substorms, and the acceleration of charged particles within the inner magnetosphere. To determine the major wave-particle interaction mechanisms, directional measurements of protons, electrons, and alpha particles were made over a wide energy range, and dc and ac electric and magnetic fields were measured. Explorer 45 had the capability for complete in-flight control of the data format through the use of an onboard set of stored program instructions. These instructions governed the collection of data and were reprogrammable via ground command. The command system handled 80 commands for controlling the spacecraft and experiment functions, as well as for flight program loads for the data processing system. The antenna system consisted of four dipole antennas spaced 90 deg apart on the surface of the spacecraft cover. The satellite contained two transmitters, one for digital (PCM) data at 446 bps, and the other for either the digital data or wideband analog data from 30 Hz to 10 kHz from the ac electric field probes and from one search coil sensor. The satellite power system consisted of a rechargeable battery and an array of solar cells. The spin rate was about 7 rpm, and the spin axis lay in the spacecraft orbital plane which was approximately the same as the earth's equatorial plane. The initial local time of apogee was about 21.8 h and the line of apsides moved around toward the sun at an initial rate of 12 deg per month. The satellite was operationally turned off on September 30, 1974, after approximately three years of successful and productive operation. A coordinated series of papers describing the satellite and the experiments was contained in J. Geophys. Res., v. 78, n. 22, August 1973.</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Robert.A.Hoffman</PersonID>
+                <Role>ProjectScientist</Role>
+            </Contact> 
+            <Contact>
+                <PersonID>spase://SMWG/Person/H.Kent.Hills</PersonID>
+                <Role>ProjectScientist</Role>
+            </Contact>
+            <InformationURL>
+                <Name>NSSDC's Master Catalog</Name>
+                <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1971-096A</URL>
+                <Description>Information about the S-Cubed A mission</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <Location>
+            <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+        </Location>
+    </Observatory>
+</Spase>
+
+
