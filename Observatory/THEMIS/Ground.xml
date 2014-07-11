@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://www.spase-group.org/data/schema" 
+xsi:schemaLocation="http://www.spase-group.org/data/schema 
+http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/THEMIS/Ground</ResourceID>
+    <ResourceHeader>
+      <ResourceName>THEMIS-Associated Ground Magnetometer Stations</ResourceName>
+      <ReleaseDate>2012-06-28T00:00:00Z</ReleaseDate>
+      <Description>This entry represents the ensemble of all ground
+stations hosting magnetometers associated with the THEMIS spaceflight 
+mission.  Note that VMO has provided many station-specific descriptors
+to the SMWG observatory registry.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.F.Bargatze</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>THEMIS web site ground magnetometer page</Name>
+        <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>
