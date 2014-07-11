@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/ROCSAT-1</ResourceID>
+    <ResourceHeader>
+      <ResourceName>ROCSAT-1</ResourceName>
+      <AlternateName>Formosat-1</AlternateName>
+      <AlternateName>Republic of China Satellite-1</AlternateName>
+      <ReleaseDate>2009-03-04T00:00:00Z</ReleaseDate>      
+      <Description>ROCSAT-1 is Taiwan's first experimental scientific satellite. It was launched from Cape Canaveral on January 27, 1999 by an Athena 1 into a circular orbit at 600 km altitude and 35 degree orbit inclination. The nodal precession makes the spacecraft drift around the Earth every 52 days. The payload included three instruments: the Ocean Color Imager (OCI), the Experimental Communication Payload (ECP) and the Ionospheric Plasma and Electrodynamics Instrument (IPEI). The ROCSAT-1 mission officially ended on June 16, 2004. The OCI homepage is at http://www.oci.ntou.edu.tw/ and the IPEI homepage at http://csrsddc.csrsr.ncu.edu.tw/
+      </Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Shin-Yi.Su</PersonID> 
+        <Role>GeneralContact</Role>  				 
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID> 
+        <Role>TechnicalContact</Role>  				 
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1999-002A</URL>
+        <Description>Information about the ROCSAT-1 mission</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+            <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>
