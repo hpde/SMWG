@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+<Version>2.2.2</Version>
+<Repository>
+<ResourceID>spase://SMWG/Repository/SMEI</ResourceID>
+<ResourceHeader>
+<ResourceName>The Solar Mass Ejection Imager (SMEI)</ResourceName>
+<ReleaseDate>2014-04-24T00:00:00Z</ReleaseDate>
+<Description>The SMEI repository, located at UCSD</Description>
+<Contact>
+<PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+<Role>GeneralContact</Role>
+</Contact>
+</ResourceHeader>
+<AccessURL>
+<Name>SMEI's Mission</Name>
+<URL>http://smei.ucsd.edu/</URL>
+</AccessURL>
+</Repository>
+</Spase>

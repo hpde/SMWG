@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/MEDOC</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MEDOC</ResourceName>
+      <ReleaseDate>2013-01-03T00:00:00Z</ReleaseDate>
+      <Description>MEDOC is a facility hosted 
+at the Institut d'Astrophysique Spatiale (IAS), a mixed entity from 
+Centre National de la Recherche Scientifique (CNRS) and l'Université 
+Paris-Sud, in  collaboration with the Centre National d'Etudes 
+Spatiales (CNES).</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+            <AccessURL>
+            <Name>IAS-MEDOC solar data archive web page</Name>
+            <URL>http://www.ias.u-psud.fr/medoc/</URL>
+            <Description>IAS-MEDOC solar data archive web page, allowing searches on the data from the SOHO mission, the TRACE satellite, the CORONAS/SPIRIT instrument and the STEREO/SECCHI instruments</Description>
+        </AccessURL>
+  </Repository>
+</Spase>
+ 

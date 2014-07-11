@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>1.2.0</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/WDC/Geomagnetism/DTU</ResourceID>
+    <ResourceHeader>
+      <ResourceName>World Data Center for Geomagnetism at the Technical University of Denmark, Copenhagn</ResourceName>
+      <ReleaseDate>2012-01-20T20:50:17Z</ReleaseDate>
+      <Description/>
+      <Contact>
+        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <PriorID>spase://SMWG/Repository/WDCG-DMI</PriorID>
+    </ResourceHeader>
+  </Repository>
+</Spase>

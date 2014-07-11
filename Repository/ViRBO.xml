@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Repository>
+        <ResourceID>spase://SMWG/Repository/ViRBO</ResourceID>
+        <ResourceHeader>
+            <ResourceName>The Virtual Radiation Belt Observatory Data Repository</ResourceName>
+            <ReleaseDate>2011-07-19T00:00:00Z</ReleaseDate>
+            <Description>The Virtual Radiation Belt Observatory Data Repository</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Robert.S.Weigel</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessURL>
+            <Name>ViRBO Data Repository Web Site</Name>
+            <URL>http://virbo.org/</URL>
+            <Description>ViRBO Data Repository Web Site</Description>
+        </AccessURL>
+    </Repository>
+</Spase>

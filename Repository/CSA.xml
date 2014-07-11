@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/CSA</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Cluster Science Archive</ResourceName>
+      <ReleaseDate>2013-11-14T00:00:00Z</ReleaseDate>
+      <Description>The Cluster Science Archive is a repository of processed and validated high-resolution Cluster data, raw data, 
+        processing software, calibration data, documentation and other value added products.  The archive provides online access to 
+        high-quality data from the Cluster instruments together with auxiliary and support data (such as orbit information) products.
+        In addition the CSA provides value-added capabilities such as data visualization services and VO support. 
+        The CSA supersedes the Cluster Active Archive (CAA) as the public interface to the Cluster mission archive. The design is 
+        based on the CAA interface so the look, feel and capabilities will be familiar to users of its predecessor. The CSA services 
+        can be accessed either via its Java based Graphical User Interface or by using Archive Inter-Operability (command line) 
+        interface. Users of the CSA may notice references to the CAA in products and documentation that they download; this simply 
+        reflects the heritage of the system.</Description>
+      <Acknowledgement>For presentations and publications, please acknowledge the instrument teams and the Cluster Science Archive.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Harri.Laakso</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Christopher.H.Perry</PersonID>
+        <Role>TechnicalContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>Cluster Science Archive Home Page</Name>
+      <URL>http://www.rssd.esa.int/csa</URL>
+      <Description>Authentication is required to access the restricted parts of the web site.</Description>
+      <Language>EN</Language>
+    </AccessURL>
+  </Repository>
+</Spase>

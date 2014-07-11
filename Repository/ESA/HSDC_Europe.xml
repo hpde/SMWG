@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.2</Version>
+    <Repository>
+        <ResourceID>spase://SMWG/Repository/ESA/HSDC_Europe</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Hinode Science Data Centre Europe</ResourceName>
+          <ReleaseDate>2013-11-06T00:00:00Z</ReleaseDate>
+            <Description>The Hinode Science Data Centre Europe is a joint project between Norway and the European Space Agency (ESA). The data centre is run by the Institute of Theoretical Astrophysics at the University of Oslo on behalf of the Norwegian Space Centre (NSC).</Description> 
+            <Contact>
+                <PersonID>spase://SMWG/Person/Stein.Vidar.Hagfors.Haugan</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact> 
+        </ResourceHeader>  
+                <AccessURL>
+                <Name>Hinode Science Data Centre Europe</Name>
+                <URL>http://sdc.uio.no/</URL>
+            </AccessURL>
+    </Repository>
+</Spase>
+

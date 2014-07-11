@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://www.spase-group.org/data/schema" 
+xsi:schemaLocation="http://www.spase-group.org/data/schema 
+http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/NASA/GSFC/Voyager/MAG</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Voyager MAG team archive</ResourceName>
+      <ReleaseDate>2012-08-28T00:00:00Z</ReleaseDate>
+      <Description>Voyager magnetometer team repository and web site</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Sandy.Kramer</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>Voyager MAG Team Repository</Name>
+      <URL>ftp://vgrmag-data.gsfc.nasa.gov/pub/voyager/</URL>
+    </AccessURL>
+  </Repository>
+</Spase>

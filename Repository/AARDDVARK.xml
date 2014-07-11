@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Repository>
+        <ResourceID>spase://SMWG/Repository/AARDDVARK</ResourceID>
+        <ResourceHeader>
+            <ResourceName>AARDDVARK</ResourceName>
+            <ReleaseDate>2010-10-16T00:00:00Z</ReleaseDate>
+            <Description>The Antarctic-Arctic Radiation-belt (Dynamic) Deposition - VLF Atmospheric Research Konsortium (AARDDVARK) provides continuous long-range observations of the lower-ionosphere. The Konsortia sensors detect changes in ionisation levels from ~30-85 km altitude, with the goal of increasing the understanding of energy coupling between the Earth's atmosphere, Sun, and Space. We use the upper atmosphere as a gigantic energetic particle detector to observe and understand changing energy flows; this Science area impacts our knowledge of global change, communications, and navigation. The joint NZ-UK Antarctic-Arctic Radiation-belt (Dynamic) Deposition - VLF Atmospheric Research Konsortia (AARDDVARK) is a new extension of a well-establish experimental technique, allowing long-range probing of ionisation changes at comparatively low altitudes. Most other instruments which can probe the same altitudes are limited to essentially overhead measurements. </Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Craig.J.Rodger</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name>Information page</Name>
+                <URL>http://www.physics.otago.ac.nz/space/AARDDVARK_homepage.htm</URL>
+                <Description>Information page</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessURL>
+            <Name>Information page</Name>
+            <URL>http://www.physics.otago.ac.nz/space/AARDDVARK_homepage.htm</URL>
+            <Description>Information page</Description>
+        </AccessURL>
+    </Repository>
+</Spase>

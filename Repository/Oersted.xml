@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/Oersted</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Oersted Magnetic Field Data</ResourceName>
+		  <ReleaseDate>2013-01-10T00:00:00Z</ReleaseDate> 
+      <Description>The Oersted repository contains a copy of the magnetic field data from the Compact Spherical Coil (CSC) Fluxgate Vector Magnetometer and Overhauser Effect Scalar Magnetometer (OESM). </Description>
+      <Acknowledgement>Dr. Torsten Neubert; The European Space Agency; Danish Meteorological Institute (Denmark); Danish Ministry of Commerce (Denmark); Danish Ministry of Transportation (Denmark); Centre National d'Etudes Spatiales (France); National Aeronautics and Space Administration (United States); Danish Ministry of Science (Denmark); Danish Space Research Institute (Denmark)</Acknowledgement>
+      <Contact>
+         <PersonID>spase://SMWG/Person/Torsten.Neubert</PersonID>
+         <Role>ProjectScientist</Role>
+      </Contact>
+      <Contact>
+			  <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID> 
+			  <Role>MetadataContact</Role> 
+		  </Contact>
+		  <InformationURL>
+         <Name>NSSDC's Master Catalog</Name>
+         <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1999-008B</URL>
+         <Description>Information about the Oersted mission</Description>
+         <Language>EN</Language>
+      </InformationURL>
+      <InformationURL>
+         <Name>The Oersted Satellite Project</Name>
+         <URL>http://web.dmi.dk/fsweb/Projects/oersted/</URL>
+         <Description>Information about the Oersted project</Description>
+         <Language>EN</Language>
+      </InformationURL>	  
+		  <Association>
+			  <AssociationID>spase://SMWG/Observatory/Oersted</AssociationID> 
+			  <AssociationType>PartOf</AssociationType> 
+		  </Association>
+		  </ResourceHeader>  
+    <AccessURL>
+      <Name>Virtual Magnetospheric Observatory</Name>
+      <URL>http://vmo.igpp.ucla.edu/data1/Oersted</URL>
+      <Description>Magnetic field data from the CSC and OESM magnetometers onboard the Oersted spacecraft.</Description>
+    </AccessURL>
+  </Repository>
+</Spase>
