@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/Equator-S/EDI</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Electron Drift Instrument (EDI)</ResourceName>
+            <ReleaseDate>2009-04-02T00:00:00Z</ReleaseDate>
+            <Description>This instrument measures the displacement of a weak (&lt; 1 microA) beam of test electrons, after one 
+                gyration in the ambient magnetic field, that is induced by electric fields or magnetic gradients. This displacement 
+                causes the beam to return to a detector on the spacecraft only when emitted in one of the two precisely determined 
+                directions. By employing two beam and two detectors, these directions can be monitored continuously and the displacement 
+                obtained by triangulation. For small magnetic fields the triangulation degenerates and the displacement is obtained 
+                instead from the difference in the travel times of the electrons in the two beams. As a by-product, the measured 
+                times-of-flight provide a precise measurement of the magnetic field magnitude. To separately determine the electric 
+                fields and the magnetic field gradients, the electron energy is varied between 1.0 and 0.5 keV. Time-resolution varies 
+                with ambient conditions, but should typically be 100 ms or better. The electron drift instrument on EQUATOR-S is identical 
+                to the instrument developed for CLUSTER.    
+      </Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Goetz.Paschmann</PersonID>  
+                <Role>PrincipalInvestigator</Role>
+            </Contact> 
+            <InformationURL>
+                <Name>NSSDC's Master Catalog</Name>
+                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1997-075B-02</URL>
+                <Description>Information about the Electron Drift Instrument (EDI) experiment on the Equator-S mission.</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>ElectronDriftInstrument</InstrumentType>
+        <InvestigationName>Electron Drift Instrument (EDI) on Equator-S</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/Equator-S</ObservatoryID>
+    </Instrument>
+</Spase>

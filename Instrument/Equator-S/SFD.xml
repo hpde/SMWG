@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/Equator-S/SFD</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Scintillating Fiber Detector (SFD)</ResourceName>
+            <AlternateName>SFD</AlternateName>
+             <ReleaseDate>2009-04-02T00:00:00Z</ReleaseDate>
+            <Description>SFD is based on the light emission property of some materials when hit by ionizing radiation. Optical fibres 
+                guide the emitted light to a photodiode operated in current mode. A logarithmic amplifier converts this detector 
+                current to an analog output voltage. Energy discrimination is achieved by using three differently shielded channels. 
+                This way electrons above 0.26, 0.4, and 1.9 MeV are measured, and protons above 6.3, 9.5, and 35 MeV, with a time 
+                resolution of 64 seconds. A constant current is added periodically to calibrate the system.
+      </Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/L.Adams</PersonID>  
+                <Role>PrincipalInvestigator</Role>
+            </Contact> 
+            <InformationURL>
+                <Name>NSSDC's Master Catalog</Name>
+                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1997-075B-07</URL>
+                <Description>Information about the Scintillating Fiber Detector (SFD) experiment on the Equator-S mission.</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>ScintillationDetector</InstrumentType>  
+        <InvestigationName>Scintillation Fiber Detector (SFD) on Equator-S</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/Equator-S</ObservatoryID>
+    </Instrument>
+</Spase>
