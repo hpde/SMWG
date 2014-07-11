@@ -1,0 +1,19 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/NOAA/19/Ephemeris</ResourceID>
+        <ResourceHeader>
+            <ResourceName>NOAA 19 Positions</ResourceName>
+            <AlternateName>NOAA 19 Ephemeris</AlternateName>
+            <ReleaseDate>2013-05-24T00:00:00Z</ReleaseDate>
+            <Description>NOAA 19 spacecraft positions in various coordinate systems</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
+                <Role>MetadataContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <InstrumentType>Platform</InstrumentType>
+        <InvestigationName>Spacecraft position</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/NOAA/19</ObservatoryID>
+    </Instrument>
+</Spase>
