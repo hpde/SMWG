@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/MarsExpress/ASPERA3/ELS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Mars Express ASPERA-3 Electron Spectrometer</ResourceName>
+      <ReleaseDate>2012-06-13T00:00:00Z</ReleaseDate>
+      <Description>The Electron Spectrometer (ELS) of the ASPERA-3 package
+flown on Mars Express measures electrons in the energy range 0.01-20 keV.
+The intrinsic field of view is 10 deg x 360 deg. The 360 deg aperture is 
+divided into 16 sectors. The sensor is a standard top-hat electrostatic 
+analyzer in a very compact design.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Rickard.Lundin</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>PDS ASPERA web page</Name>
+        <URL>http://starbrite.jpl.nasa.gov/pds/viewInstrumentProfile.jsp?INSTRUMENT_ID=ASPERA-3&amp;INSTRUMENT_HOST_ID=MEX</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>RetardingPotentialAnalyser</InstrumentType>
+    <InvestigationName>ASPERA3_ELS</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/MarsExpress</ObservatoryID>
+  </Instrument>
+</Spase>

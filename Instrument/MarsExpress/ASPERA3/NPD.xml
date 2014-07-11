@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://www.spase-group.org/data/schema" 
+xsi:schemaLocation="http://www.spase-group.org/data/schema 
+http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/MarsExpress/ASPERA3/NPD</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Mars Express ASPERA-3 Neutral Particle Detector</ResourceName>
+      <ReleaseDate>2012-06-13T00:00:00Z</ReleaseDate>
+      <Description>The Neutral Particle Detector (NPD) of the ASPERA-3 package
+flown on Mars Express provides measurements of the ENA differential flux over 
+the energy range 100 eV - 10 keV resolving H and O with a coarse 5 deg x 30 deg 
+angular resolution. The sensor consists of two identical detectors each with a 
+9 deg x 90 deg intrinsic field of view. The measurement technique is based on a 
+principle similar to the Neutral Particle Imager. ENAs incident on a surface at 
+a grazing angle of 15 deg are reflected and cause secondary electron emission. 
+The secondary electrons are transported to an MCP assembly, which gives the START 
+signal.  The reflected ENAs hit the second surface and again produce the secondary 
+electrons used to generate the STOP signal. The time-of-flight (TOF) electronics 
+give the ENA velocity. The pulse-height distribution analysis of the STOP signals 
+is used to provide a rough determination of the ENA mass.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Rickard.Lundin</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>PDS ASPERA web page</Name>
+        <URL>http://starbrite.jpl.nasa.gov/pds/viewInstrumentProfile.jsp?INSTRUMENT_ID=ASPERA-3&amp;INSTRUMENT_HOST_ID=MEX</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>NeutralAtomImager</InstrumentType>
+    <InvestigationName>ASPERA3_NPD</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/MarsExpress</ObservatoryID>
+  </Instrument>
+</Spase>

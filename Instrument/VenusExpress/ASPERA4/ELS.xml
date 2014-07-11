@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://www.spase-group.org/data/schema" 
+xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/VenusExpress/ASPERA4/ELS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Venus Express ASPERA-4 Electron Spectrometer</ResourceName>
+      <ReleaseDate>2012-06-13T00:00:00Z</ReleaseDate>
+      <Description>The Electron Spectrometer (ELS) of the ASPERA-4 package
+flown on Venus Express measures electrons in the energy range 0.01-20 keV.
+The intrinsic field of view is 4 deg x 360 deg. The 360 deg aperture is 
+divided into 16 sectors. The sensor is a standard top-hat electrostatic 
+analyzer in a very compact design.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Stas.Barabash</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>PSA ASPERA web page</Name>
+        <URL>ftp://psa.esac.esa.int/pub/mirror/VENUS-EXPRESS/ASPERA4/VEX-V-SW-ASPERA-2-ELS-V1.0/CATALOG/INST.CAT</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>RetardingPotentialAnalyser</InstrumentType>
+    <InvestigationName>ASPERA4_ELS</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/VenusExpress</ObservatoryID>
+  </Instrument>
+</Spase>

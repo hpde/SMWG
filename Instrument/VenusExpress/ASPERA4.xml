@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://www.spase-group.org/data/schema" 
+xsi:schemaLocation="http://www.spase-group.org/data/schema 
+http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/VenusExpress/ASPERA4</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Venus Express ASPERA-4</ResourceName>
+      <ReleaseDate>2012-06-13T00:00:00Z</ReleaseDate>
+      <Description>ASPERA-4 (Analysis of Space Plasmas and Energetic Atoms,
+version 4) consists of an ensemble of instruments to study the interaction
+between the solar wind and the Martian atmosphere and to characterize the 
+plasma and neutral gas environment.  The instruments consist of a Neutral
+Particle Imager (NPI), a Neutral Particle Detector (NPD), an Electron
+Spectrometer (ELS), and an ion Mass Analyzer (IMA).  NPI provides good 
+ENA arrival direction resolution but little energy or mass resolution, 
+while NPD provides energy and mass resolution but little directional 
+resolution.
+</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Stas.Barabash</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>PSA ASPERA web page</Name>
+        <URL>ftp://psa.esac.esa.int/pub/mirror/VENUS-EXPRESS/ASPERA4/VEX-V-SW-ASPERA-2-ELS-V1.0/CATALOG/INST.CAT</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>NeutralAtomImager</InstrumentType>
+    <InstrumentType>RetardingPotentialAnalyser</InstrumentType>
+    <InvestigationName>ASPERA4</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/VenusExpress</ObservatoryID>
+  </Instrument>
+</Spase>

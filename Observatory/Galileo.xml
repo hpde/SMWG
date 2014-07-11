@@ -1,0 +1,182 @@
+<Spase xmlns="http://www.spase-group.org/data/schema"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd" lang="en">
+  <Version>2.2.2</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Galileo</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Galileo</ResourceName>
+      <AlternateName>Galileo Orbiter</AlternateName>
+      <AlternateName>Jupiter Orbiter-Probe</AlternateName>
+      <ReleaseDate>2012-11-27T00:00:00Z</ReleaseDate>
+      <Description>
+Science Objectives
+==================
+The Galileo mission consists of two spacecraft: an orbiter and an atmospheric probe. The orbiter will be the sixth spacecraft to explore the Jovian magnetosphere, but the first to be placed into orbit around the giant planet. Scientific objectives addressed by the orbiter are to: (1) investigate the circulation and dynamics of the Jovian atmosphere; (2) investigate the upper Jovian atmosphere and ionosphere; (3) characterize the morphology, geology, and physical state of the Galilean satellites; (4) investigate the composition and distribution of surface minerals on the Galilean satellites; (5) determine the gravitational and magnetic fields and dynamic properties of the Galilean satellites; (6) study the atmospheres, ionospheres, and extended gas clouds of the Galilean satellites; (7) study the interaction of the Jovian magnetosphere with the Galilean satellites; and, (8) characterize the vector magnetic field and the energy spectra, composition, and angular distribution of energetic particles and plasma to a distance of 150 Rj.
+
+Spacecraft Overview
+===================
+
+The structure of the orbiter is divided into two sections. The main body of the spacecraft, comprised of the electronics bays, propellant system, RTG and science booms, and high-gain antenna, rotates at rates of 3.25 or 10.5 rpm. The despun section, aft of the main body, uses an electric motor to drive it counter to the rotation of the main section. This dual spin attitude control system accommodates instruments which require stable, accurate pointing (the imaging instruments) and those which benefit from repetitive, broad-angular coverage (the various particles and fields instruments). The length of the spacecraft is 9 m and, with the high-gain antenna (HGA) deployed, is 4.6 m in diameter.
+
+Power is provided to the spacecraft through the use of two radioisotope thermal generators (RTGs), each of which is located at the end of a short boom. The magnetometer sensors and plasma wave antenna are located on yet another boom, 10.9 m in length.
+
+Although it was intended that communications with the Deep Space Network (DSN) would be primarily through the HGA (which would remain pointing toward the Earth at all times), thermal constraints forced the use of the two low-gain antennas prior to the first Earth flyby. HGA deployment was planned thereafter, but at least three of the HGA "ribs" were unable to be moved much beyond their launch configurations, thereby jeopardizing the total science return of the mission. Several attempts have been made to deploy the antenna through a variety of techniques.
+
+QUICK FACTS
+===========
+
+Spacecraft
+==========
+
+Dimensions: 5.3 meters (17 feet) high; magnetometer boom extends 11 meters (36 feet) to one side
+
+Weight: 2,223 kilograms (2.5 tons, or 4,902 pounds), including 118 kilograms (260 pounds) of science instruments and 925 kilograms (2040 pounds) of propellant
+
+Power: 570 watts (at launch) from radioisotope thermoelectric generators
+
+Science instruments: Solid-state imaging camera, near-infrared mapping spectrometer,
+ultraviolet spectrometer, photopolarimeter radiometer, magnetometer, energetic particles detector, plasma investigation, plasma wave subsystem, dust detector, heavy ion counter
+
+Atmospheric Probe
+=================
+
+Size: 127 centimeters (50 inches) diameter, 91 centimeters (36 inches) high
+
+Weight: 339 kilograms (750 pounds)
+
+Science instruments: Atmospheric structure, neutral mass spectrometer, helium abundance,
+nephelometer, net flux radiometer, lightning/energetic particles, doppler wind experiment
+
+Mission
+=======
+
+Launch: Oct. 18, 1989 from Kennedy Space Center, Fla., on space shuttle Atlantis on mission STS-34
+
+End of Mission: Sep. 21, 2003
+
+Primary mission: October 1989 to December 1997
+
+Extended missions: Three, from 1997 to 2003
+
+Venus flyby: Feb. 10, 1990, at altitude of 16,000 km (10,000 mi)
+
+Earth flybys: Dec. 8, 1990, at altitude of 960 km (597 mi); Dec. 8, 1992 at altitude of
+303 km (188 mi)
+
+Asteroid Gaspra flyby: Oct. 29, 1991, at 1,601 km (1,000 mi)
+
+Comet Shoemaker-Levy 9: Impacts of comet fragments into Jupiter observed while en route
+in July 1994
+
+Asteroid Ida flyby: Aug. 28, 1993, at 2,400 km (1,400 mi)
+
+Atmospheric probe release: July 12, 1995
+
+Probe speed into Jupiter's atmosphere: 47.6 km per second (106,000 mi per hour) Jupiter arrival and orbit insertion: Dec. 7, 1995
+
+Probe atmospheric entry and relay: Dec. 7, 1995
+
+Number of Jupiter orbits during entire mission: 34
+
+Number of flybys of Jupiter moons: Io 7, Callisto 8, Ganymede 8, Europa 11, Amalthea 1
+
+  Mission Overview
+  ================
+
+The Galileo mission utilizes a single launch of a combined
+    Orbiter and Probe using the space shuttle Atlantis and an
+    inertial upper stage (IUS) to inject the Galileo spacecraft
+    on its interplanetary trajectory to Jupiter. The launch
+    window occurs from October 12, 1989 to November 21, 1989.
+    Since the IUS does not have the energy to inject Galileo on
+    a direct trajectory to Jupiter, the spacecraft will instead
+    be launched first towards Venus for the first leg of its
+    Venus-Earth-Earth gravity assist (VEEGA) trajectory to
+    Jupiter. Target-of-opportunity science observations will be
+    made at Venus (closest approach February 10, 1990), the
+    first Earth encounter (closest approach to Earth and Moon
+    December 8, 1990), the asteroid Gaspra (closest approach
+    October 29, 1991), the second Earth encounter (closest
+    approach to Earth and Moon December 8, 1992), and the
+    asteroid Ida (closest approach August 28, 1993).
+
+    At about 150 days before Galileo arrives at Jupiter, the
+    Probe is separated from the Orbiter. From this moment in
+    time, the Probe is on a ballistic trajectory to the Probe
+    entry point, about 6 degrees north latitude, into the
+    atmosphere of Jupiter. Using its 400 Newton engine for the
+    first time, the Orbiter executes an Orbiter deflection
+    maneuver to keep from following the Probe into the
+    atmosphere of Jupiter, and to retarget the Orbiter to the
+    proper encounter conditions required for the Jupiter Orbit
+    Insertion phase of the mission.
+
+    A close flyby (about 1,000 kilometer altitude) of the Jovian
+    satellite Io occurs in this phase for the purpose of science
+    observations as well as to slow the Orbiter down relative to
+    Jupiter by nearly 200 meters/second in order to reduce the
+    propellant required during the Jupiter Orbit Insertion (JOI)
+    400 Newton engine burn to capture Galileo into Jupiter's
+    orbit. Perijove of about 4 Jupiter radii occurs about 4
+    hours after Io encounter. A few minutes after perijove
+    passage, the Probe entry and beginning of the relay of data
+    from the Probe to the Orbiter occurs.
+
+    The Probe mission and data relay lasts 75 minutes, after
+    which JOI is performed, slowing the Orbiter down relative to
+    Jupiter by about 630 meters/second. The initial orbit period
+    is about 200 days. A large 400 Newton engine burn is
+    performed at the first apojove in order to raise perijove
+    from 4 Jupiter radii to about 9 Jupiter radii, thus allowing
+    at least 11 orbits with 10 targeted satellite encounters to
+    be completed by the Orbiter without exceeding the allowed
+    total accumulated radiation exposure at the spacecraft. Only
+    three orbits would be allowed before exceeding this limit if
+    perijove were allowed to stay at 4 Jupiter radii, where the
+    radiation environment is very severe. Also during this
+    perijove raise maneuver, Galileo is targeted to the
+    satellite Ganymede, the first of its Galilean satellite
+    encounters following JOI.
+
+    At this point, the targeting to satellite encounters begins,
+    such that a satellite tour consisting of a minimum of 10
+    targeted satellite encounters is achieved within the 23
+    month period allotted for the satellite tour. During the
+    course of the satellite tour, the orientation, shape and
+    size of the spacecraft orbits around the Jovian system,
+    referred to as petals because of how the spacecraft orbits
+    appear on a plan view of the Jovian satellite tour
+    trajectory, is controlled almost exclusively by gravity
+    assists of the satellites themselves. The orbit periods are
+    pumped down by successive encounters with the satellites
+    from the initial 200 days to approximately 35-40 days
+    between encounters. At the 8th orbit, when the orbit petal
+    orientation is approximately in the anti-sun direction, the
+    period is again pumped up to about 100 days, allowing one of
+    the primary objectives, probing the Jovian magnetotail, to
+    be accomplished. After this magnetotail orbit, the period is
+    again pumped down, by gravity assist encounters with the
+    Jovian satellites, to 35-40 days for the final 2-3 targeted
+    encounters.
+          </Description>
+      <Acknowledgement />
+      <Contact>
+        <PersonID>spase://SMWG/Person/Torrence.V.Johnson</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1989-084B</URL>
+        <Description>Information about the Galileo Orbiter mission</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Venus</ObservatoryRegion>
+      <ObservatoryRegion>Jupiter</ObservatoryRegion>
+      <ObservatoryRegion>Asteroid</ObservatoryRegion>
+      <ObservatoryRegion>Heliosphere</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere.Magnetotail</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://www.spase-group.org/data/schema" 
+xsi:schemaLocation="http://www.spase-group.org/data/schema 
+http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/VenusExpress/ASPERA4/NPI</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Venus Express ASPERA-4 Neutral Particle Imager</ResourceName>
+      <ReleaseDate>2012-06-13T00:00:00Z</ReleaseDate>
+      <Description>The Neutral Particle Imager (NPI) of the ASPERA-4 package
+flown on Venus Express provides measurements of the integral ENA flux with no 
+mass and energy resolution but with 4.6 deg x 11.5 deg angular resolution. The 
+intrinsic field of view is 9 deg x 344 deg. The sensor utilizes a graphite surface 
+to suppress the UV background. ENAs incident on the surface at a grazing angle of 
+20 deg are reflected and/or cause ion sputtering. An MCP stack detects the reflected 
+particles and sputtered fragments with a discrete anode.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Stas.Barabash</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>PSA ASPERA web page</Name>
+        <URL>ftp://psa.esac.esa.int/pub/mirror/VENUS-EXPRESS/ASPERA4/VEX-V-SW-ASPERA-2-ELS-V1.0/CATALOG/INST.CAT</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>NeutralAtomImager</InstrumentType>
+    <InvestigationName>ASPERA4_NPI</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/VenusExpress</ObservatoryID>
+  </Instrument>
+</Spase>

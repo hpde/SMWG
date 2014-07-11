@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://www.spase-group.org/data/schema" 
+xsi:schemaLocation="http://www.spase-group.org/data/schema 
+http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/VenusExpress/ASPERA4/IMA</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Venus Express ASPERA-4 Ion Mass Analyzer</ResourceName>
+      <ReleaseDate>2012-06-13T00:00:00Z</ReleaseDate>
+      <Description>The Ion Mass Analyzer (IMA) of the ASPERA-4 package
+flown on Venus Express provides ion measurements in the energy range 
+0.01 - 36 keV/q for the main ion components H+, H2+, He+, O+, and for the 
+group of molecular ions with M/q ration between 20 and 80 amu/e. IMA has a 90 deg x 360 deg field 
+of view. Electrostatic sweeping performs elevation (+/- 45 deg) coverage. 
+The IMA sensor is a spherical electrostatic analyzer followed by a circular 
+magnetic separating section. A large diameter MCP with a discrete anode images 
+the matrix azimuth x mass.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Stas.Barabash</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>PSA ASPERA web page</Name>
+        <URL>ftp://psa.esac.esa.int/pub/mirror/VENUS-EXPRESS/ASPERA4/VEX-V-SW-ASPERA-2-ELS-V1.0/CATALOG/INST.CAT</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>RetardingPotentialAnalyser</InstrumentType>
+    <InvestigationName>ASPERA4_IMA</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/VenusExpress</ObservatoryID>
+  </Instrument>
+</Spase>

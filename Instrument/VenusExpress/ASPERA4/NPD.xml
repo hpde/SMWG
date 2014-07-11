@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://www.spase-group.org/data/schema" 
+xsi:schemaLocation="http://www.spase-group.org/data/schema 
+http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/VenusExpress/ASPERA4/NPD</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Venus Express ASPERA-4 Neutral Particle Detector</ResourceName>
+      <ReleaseDate>2012-06-13T00:00:00Z</ReleaseDate>
+      <Description>The Neutral Particle Detector (NPD) of the ASPERA-4 package
+flown on Venus Express provides measurements of the ENA differential flux over 
+the energy range 100 eV - 10 keV resolving H and O with a coarse 5 deg x 30 deg 
+angular resolution. The sensor consists of two identical detectors each with a 
+9 deg x 90 deg intrinsic field of view. The measurement technique is based on a 
+principle similar to the Neutral Particle Imager. ENAs incident on a surface at 
+a grazing angle of 15 deg are reflected and cause secondary electron emission. 
+The secondary electrons are transported to an MCP assembly, which gives the START 
+signal.  The reflected ENAs hit the second surface and again produce the secondary 
+electrons used to generate the STOP signal. The time-of-flight (TOF) electronics 
+give the ENA velocity. The pulse-height distribution analysis of the STOP signals 
+is used to provide a rough determination of the ENA mass.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Stas.Barabash</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>PSA ASPERA web page</Name>
+        <URL>ftp://psa.esac.esa.int/pub/mirror/VENUS-EXPRESS/ASPERA4/VEX-V-SW-ASPERA-2-ELS-V1.0/CATALOG/INST.CAT</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>NeutralAtomImager</InstrumentType>
+    <InvestigationName>ASPERA4_NPD</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/VenusExpress</ObservatoryID>
+  </Instrument>
+</Spase>
