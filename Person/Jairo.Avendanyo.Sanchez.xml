@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Jairo.Avendanyo.Sanchez</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Jairo Avendanyo Sanchez</PersonName>
+      <OrganizationName>Instituto Geografico Agustin Codazzi, Bogota, Colombia</OrganizationName>
+      <Address>Observatorio Geomagnetico de Fuquene, Instituto Geografico Agustin Codazzi, Carrera 30 No 48-51, Bogota, Colombia</Address>
+      <Email>javendan@igac.gov.co</Email>
+   </Person>
+</Spase>

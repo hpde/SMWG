@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Benoit.Heumez</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Benoit Heumez</PersonName>
+      <OrganizationName>Centre de Recherche en Astronomie, Astrophysique et Geophysique, Algeria</OrganizationName>
+      <Address>IPGP, Carrefour des 8 routes, 45340 Chambon la Foret, France</Address>
+      <Email>heumez@ipgp.fr</Email>
+      <FaxNumber>+33 (0) 2 38 33 95 04</FaxNumber>
+   </Person>
+</Spase>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Galina.Semenova</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Galina Semenova</PersonName>
+      <OrganizationName>Geomagnetism Laboratory of Institute of Cosmophysical Research and Aeronomy, Siberian Branch of RAS.</OrganizationName>
+      <Address>IZMIRAN, Troitsk, Moscow region, 142190, Russia</Address>
+      <Email>gms@izmiran.ru</Email>
+   </Person>
+</Spase>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/C.Robert.Clauer</ResourceID>
+      <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
+      <PersonName>C. Robert Clauer</PersonName>
+      <OrganizationName>National Institute of Aerospace, Bradley Department of Electrical PERSON_ORGANIZATION_NAME_000amp; Computer Engineering</OrganizationName>
+      <Address>Electrical PERSON_ADDRESS_000amp; Computer Engineering, Engineering MC 0111,1185 Perry Street, Room 302, Blacksburg, VA 24061 USA</Address>
+      <Email>rclauer@vt.edu</Email>
+      <PhoneNumber>+1 734 476 9600</PhoneNumber>
+      <FaxNumber>+1 540 231 3362</FaxNumber>
+   </Person>
+</Spase>

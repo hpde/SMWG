@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Craig.J.Rodger</ResourceID>
+        <ReleaseDate>2010-10-16T00:00:00</ReleaseDate>
+        <PersonName>Dr. Craig J. Rodger</PersonName>
+        <OrganizationName>University of Otago</OrganizationName>
+        <Address>Department of Physics, PO Box 56, Dunedin 9016 NEW ZEALAND </Address>
+        <Email>crodger@physics.otago.ac.nz</Email>
+    </Person>
+</Spase>

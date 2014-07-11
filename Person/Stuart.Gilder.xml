@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Stuart.Gilder</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Stuart Gilder</PersonName>
+      <OrganizationName>Ludwig Maximilians University Munich</OrganizationName>
+      <Address>Ludwig Maximilians Universitaet (LMU), Department of Earth and Environmental Sciences, Theresienstrasse 41, 80333 Munich, Germany</Address>
+      <Email>gilder@lmu.de</Email>
+      <FaxNumber>+49 89 2180 4205</FaxNumber>
+   </Person>
+</Spase>

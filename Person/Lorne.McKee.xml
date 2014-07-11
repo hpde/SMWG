@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Lorne.McKee</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Lorne McKee</PersonName>
+      <OrganizationName>Geological Survey of Canada</OrganizationName>
+      <Address>Government of Canada, Natural Resources Canada, Geological Survey of Canada, Geomagnetic Laboratory, 7 Observatory Crescent, Ottawa, Ontario, K1A 0Y3, Canada</Address>
+      <Email>lmckee@nrcan.gc.ca</Email>
+      <FaxNumber>613 824 9803</FaxNumber>
+   </Person>
+</Spase>

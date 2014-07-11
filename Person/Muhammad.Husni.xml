@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Muhammad.Husni</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Muhammad Husni</PersonName>
+      <OrganizationName>Meteorological Geophysical Agency, Jl. Angkasa I No.2, Kemayoran Jakarta, 10720, Indonesia</OrganizationName>
+      <Address>Geomagnetic and Atmospheric Current Sub Division, Meteorological and Geophysical Agency (BMG), Jl. Angkasa I No. 2, Kemayoran, Jakarta Pusat 10720, Indonesia</Address>
+      <Email>muhammad.husni@bmkg.go.id</Email>
+      <FaxNumber>+6221 4246703</FaxNumber>
+   </Person>
+</Spase>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Wu.Baoyuan</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Wu Baoyuan</PersonName>
+      <OrganizationName>Chinese Academy of Sciences, Institute of Geophysics, Beijing, China</OrganizationName>
+      <Address>Beijin Ming Tombs Geomagnetic Observatory, De Sheng Kou, Ming Tombs Town, Chang Ping County, Beijing 102213, China</Address>
+      <Email>wuby@mail.igcas.ac.cn</Email>
+   </Person>
+</Spase>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Comodero.Ramon.A.Sonzini</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Comodero Ramon A. Sonzini</PersonName>
+      <OrganizationName>Servicio Meteorologico Nacional, Centro de Geophysica, Argentina</OrganizationName>
+      <Address>Servicio Meteorologico Nacional, 25 de Mayo 658, Cap. Federal, CP1002 Buenos Aires, Argentina</Address>
+   </Person>
+</Spase>

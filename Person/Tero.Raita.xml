@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Tero.Raita</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Tero Raita</PersonName>
+      <OrganizationName>Sodankyla Geophysical Observatory</OrganizationName>
+      <Address>Sodankyla Geophysical Observatory, University of Oulu, Tahtelentie 62, FIN-99600 Sodankyla, Finland</Address>
+      <Email>tero.raita@sgo.fi</Email>
+      <FaxNumber>+358 16 619875</FaxNumber>
+   </Person>
+</Spase>

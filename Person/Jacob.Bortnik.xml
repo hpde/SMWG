@@ -1,0 +1,12 @@
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Jacob.Bortnik</ResourceID>
+        <ReleaseDate>2010-12-01T00:00:00</ReleaseDate>
+        <PersonName>Dr. Jacob Bortnik</PersonName>
+        <OrganizationName>UCLA Dept. of Atmos &amp; Oceanic Sci.</OrganizationName>
+        <Address>UCLA Dept. of Atmos &amp; Oceanic Sci. Mathematical Sci bldg Rm7115 Los Angeles, CA 90095-1565 UNITED STATES OF AMERICA</Address>
+        <Email>jbortnik@gmail.com</Email>
+    </Person>
+</Spase>

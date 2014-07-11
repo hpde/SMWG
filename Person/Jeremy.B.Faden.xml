@@ -1,0 +1,12 @@
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Jeremy.B.Faden</ResourceID>
+        <ReleaseDate>2011-08-25T00:00:00</ReleaseDate>
+        <PersonName>Jeremy B. Faden</PersonName>
+        <OrganizationName>Cottage Systems</OrganizationName>
+        <Address>1141 E. Court St. Iowa City, IA 52240</Address>
+        <Email>faden@cottagesystems.com</Email>
+    </Person>
+</Spase>

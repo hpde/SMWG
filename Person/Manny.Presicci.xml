@@ -1,0 +1,11 @@
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Manny.Presicci</ResourceID>
+        <ReleaseDate>2010-12-23T00:00:00</ReleaseDate>
+        <PersonName>Dr. Manny Presicci</PersonName>
+        <OrganizationName>LASP/University of Colorado</OrganizationName>
+        <Email>Manny.Presicci@lasp.colorado.edu</Email>
+    </Person>
+</Spase>

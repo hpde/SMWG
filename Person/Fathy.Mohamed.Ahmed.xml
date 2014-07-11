@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Fathy.Mohamed.Ahmed</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Fathy Mohamed Ahmed</PersonName>
+      <OrganizationName>National Research Institute of Astronomy Geophysics, Cairo</OrganizationName>
+      <Address>National Research Institute of Astronomy and Geoph, Helwan, Cairo, Egypt</Address>
+   </Person>
+</Spase>

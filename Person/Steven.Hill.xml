@@ -1,0 +1,13 @@
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Steven.Hill</ResourceID>
+        <ReleaseDate>2013-05-24T00:00:00</ReleaseDate>
+        <PersonName>Steven Hill</PersonName>
+        <OrganizationName>NOAA Space Weather Prediction Center</OrganizationName>
+        <Address>Space Weather Prediction Center, W/NP9 325 Broadway, Boulder CO 80305</Address>
+        <Email>Steven.Hill@noaa.gov</Email>
+        <PhoneNumber>303-497-3283</PhoneNumber>
+    </Person>
+</Spase>

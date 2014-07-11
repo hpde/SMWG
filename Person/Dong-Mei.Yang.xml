@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Dong-Mei.Yang</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Dong-Mei Yang</PersonName>
+      <OrganizationName>State Seismological Bureau, Beijing, China</OrganizationName>
+      <Address>Institute of Geophysics, China Seismological Bureau, PO Box 8116, 100081 Beijing, China</Address>
+      <Email>ydmgeomag@263.net</Email>
+   </Person>
+</Spase>

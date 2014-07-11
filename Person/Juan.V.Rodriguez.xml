@@ -1,0 +1,13 @@
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Juan.V.Rodriguez</ResourceID>
+        <ReleaseDate>2013-05-24T00:00:00</ReleaseDate>
+        <PersonName>Juan V. Rodriguez</PersonName>
+        <OrganizationName>CIRES/SWPC</OrganizationName>
+        <Address>Space Weather Prediction Center, W/NP9 325 Broadway, Boulder CO 80305</Address>
+        <Email>Juan.Rodriguez@noaa.gov</Email>
+        <PhoneNumber>303-497-4604</PhoneNumber>
+    </Person>
+</Spase>

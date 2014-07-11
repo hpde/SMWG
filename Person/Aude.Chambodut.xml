@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Aude.Chambodut</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Aude Chambodut</PersonName>
+      <OrganizationName>Institut et Observatoire Geophysique d'Antananarivo (IOGA)</OrganizationName>
+      <Address>Ecole et Observatoire des Sciences de la Terre, Service des observatoires magnetiques, 5, rue Rene Descartes, France</Address>
+      <Email>aude.chambodut@unistra.fr</Email>
+      <FaxNumber>+33 (0) 3 68 85 01 25</FaxNumber>
+   </Person>
+</Spase>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/T.Chelidze</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>T. Chelidze</PersonName>
+      <OrganizationName>Institute of Geophysics, Georgia Academy of Sciences, Tblisi</OrganizationName>
+      <Address>Georgian Academy of Sciences, Institute of Geophysics, 1 Alexidze, Tbilisi 380093, Georgia</Address>
+      <Email>chelidze@ig.acnet.ge</Email>
+      <FaxNumber>995 32 332867</FaxNumber>
+   </Person>
+</Spase>

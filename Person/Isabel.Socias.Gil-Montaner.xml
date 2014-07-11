@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Isabel.Socias.Gil-Montaner</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Isabel Socias Gil-Montaner</PersonName>
+      <OrganizationName>Instituto Geografico Nacional, Madrid</OrganizationName>
+      <Address>Subdireccion General de Astronomia Geodesia y Geofisica, Direccion General del Instituto Geografico Nacional, General Ibanyez de Ibero 3, 28003 Madrid, Spain</Address>
+      <Email>isocias@fomento.es</Email>
+   </Person>
+</Spase>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Barbara.Leichter</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Barbara Leichter</PersonName>
+      <OrganizationName>Zentralanstalt fur Meteorologie und Geodynamik, Vienna, Austria</OrganizationName>
+      <Address>Zentralanstalt fuer Meteorologie und Geodynamik, Postfach 342, Hohe Warte 38, A-1191 Wien, Austria</Address>
+      <Email>barbara.leichter@zamg.ac.at</Email>
+   </Person>
+</Spase>

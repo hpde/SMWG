@@ -1,0 +1,12 @@
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Yuri.Y.Shprits</ResourceID>
+        <ReleaseDate>2010-03-01T00:00:00</ReleaseDate>
+        <PersonName>Dr. Yuri Y. Shprits</PersonName>
+        <OrganizationName>UCLA, Institute of Geophysics and Planetary Physics and Department of Atmospheric Sciences</OrganizationName>
+        <Address>405 Hilgard Ave/7127 Math Sciences Bldg Los Angeles, California 90095-1565</Address>
+        <Email>yshprits@atmos.ucla.edu</Email>
+    </Person>
+</Spase>

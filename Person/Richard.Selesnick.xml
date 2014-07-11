@@ -1,0 +1,12 @@
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Richard.Selesnick</ResourceID>
+        <ReleaseDate>2010-12-01T00:00:00</ReleaseDate>
+        <PersonName>Dr. Richard S. Selesnick</PersonName>
+        <OrganizationName>Aerospace Corporation</OrganizationName>
+        <Address>Chantilly, Virginia</Address>
+        <Email>rselesnick@gmail.com</Email>
+    </Person>
+</Spase>

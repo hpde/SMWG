@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Thomas.W.Narock</ResourceID>
+        <ReleaseDate>2013-05-22T00:00:00</ReleaseDate>
+        <PersonName>Thomas W. Narock</PersonName>
+        <OrganizationName>University of Maryland, Baltimore County</OrganizationName>
+        <Address>NASA/GSFC Code 672 Bldg 21 Rm 131C Greenbelt, MD 20771-0000</Address>
+        <Email>thomas.w.narock@nasa.gov</Email>
+    </Person>
+</Spase>

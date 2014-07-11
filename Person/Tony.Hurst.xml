@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Tony.Hurst</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Tony Hurst</PersonName>
+      <OrganizationName>Institute of Geological Nuclear Sciences Ltd, Wellington, New Zealand</OrganizationName>
+      <Address>Institute of Geological and Nuclear Sciences Ltd. P.O. Box 1320, Wellington, New Zealand</Address>
+      <Email>t.hurst@gns.cri.nz</Email>
+      <FaxNumber>+64 4 570 4600</FaxNumber>
+   </Person>
+</Spase>

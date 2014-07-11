@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Chosaka</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Chosaka</PersonName>
+      <OrganizationName>Kakioka Magnetic Observatory, Japan</OrganizationName>
+      <Address>Research Division, Kakioka Magnetic Observatory, Kakioka 595, Ishioka-shi, Ibaraki-ken, 315-0116, Japan</Address>
+      <Email>chosa@kakioka-jma.go.jp</Email>
+      <FaxNumber>+81 299 44 0173</FaxNumber>
+   </Person>
+</Spase>

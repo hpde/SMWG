@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/L.Talia</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>L. Talia</PersonName>
+      <OrganizationName>Institute of Geological Nuclear Sciences Ltd, Wellington, New Zealand</OrganizationName>
+      <Address>Apia Observatory, Dept. of Agriculture, Forestry, Fisheries and Meteorology, P.O. Box 3020, Apia, Samoa</Address>
+      <Email>geophysics@meteorology.gov.ws</Email>
+   </Person>
+</Spase>

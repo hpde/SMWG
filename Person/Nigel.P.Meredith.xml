@@ -1,0 +1,12 @@
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Nigel.P.Meredith</ResourceID>
+        <ReleaseDate>2010-12-01T00:00:00</ReleaseDate>
+        <PersonName>Dr. Nigel P. Meredith</PersonName>
+        <OrganizationName>British Antarctic Survey, Natural Environment Research Council</OrganizationName>
+        <Address>British Antarctic Survey, Natural Environment Research Council, High Cross, Madingley Road, Cambridge CB3 0ET, UK</Address>
+        <Email>nmer@bas.ac.uk</Email>
+    </Person>
+</Spase>

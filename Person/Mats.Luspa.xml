@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Mats.Luspa</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Mats Luspa</PersonName>
+      <OrganizationName>Swedish Institute of Space Physics, Kiruna</OrganizationName>
+      <Address>Institutet foer Rymdfysik, Box 812, SE-981 28 Kiruna, Sweden</Address>
+      <Email>matsl@irf.se</Email>
+      <FaxNumber>+46 980 79 050</FaxNumber>
+   </Person>
+</Spase>

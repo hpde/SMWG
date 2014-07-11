@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Jill.Caldwell</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Jill Caldwell</PersonName>
+      <OrganizationName>U.S. Geological Survey</OrganizationName>
+      <Address>U.S. Geological Survey, M.S. 966, DFC, Box 25046, Denver, Colorado 80225, U.S.A.</Address>
+      <Email>jcaldwell@usgs.gov</Email>
+   </Person>
+</Spase>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Yuri.Sumaruk</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Yuri Sumaruk</PersonName>
+      <OrganizationName>Arti Geophysical Observatory, Institute of Geophysics, Urals Branch of Russian Academy of Sciences</OrganizationName>
+      <Address>Magnetic Observatory Lviv, Kn. Olgi St. 12, Ivano-Frankovo City, Javoriv District, Lviv Region, Ukraine, 81070, Ukraine</Address>
+      <Email>sumar@mail.lviv.ua</Email>
+   </Person>
+</Spase>

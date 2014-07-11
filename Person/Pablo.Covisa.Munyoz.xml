@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Pablo.Covisa.Munyoz</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Pablo Covisa Munyoz</PersonName>
+      <OrganizationName>Instituto Geografico Nacional, Madrid</OrganizationName>
+      <Address>Observatorio Geofisico de Toledo, Instituto Geografico Nacional, 45005 Toledo, Spain</Address>
+      <Email>pcovisa@fomento.es</Email>
+      <FaxNumber>+34 925 250 642</FaxNumber>
+   </Person>
+</Spase>

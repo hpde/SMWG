@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Iliya.Cholakov</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Iliya Cholakov</PersonName>
+      <OrganizationName>Geomagnetic Observatory Panagyurishte and Geophysical Institute of the Bulgarian Academy of Sciences (BAS), Sofia, Bulgaria</OrganizationName>
+      <Address>Geomagnetic Observatory Panagyurishte, Panagyurishte 4500, Bulgaria</Address>
+      <Email>geomagpag@abv.bg</Email>
+      <FaxNumber>+359 357 63231</FaxNumber>
+   </Person>
+</Spase>

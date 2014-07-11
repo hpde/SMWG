@@ -1,0 +1,11 @@
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Michael.A.Xapsos</ResourceID>
+        <ReleaseDate>2011-06-06T00:00:00</ReleaseDate>
+        <PersonName>Michael A Xapsos</PersonName>
+        <OrganizationName>Radiation Effects and Analysis Group at NASA Goddard Space Flight Center</OrganizationName>
+        <Email>michael.a.xapsos@nasa.gov </Email>
+    </Person>
+</Spase>

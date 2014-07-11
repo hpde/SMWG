@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Ivan.Butchvarov</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Ivan Butchvarov</PersonName>
+      <OrganizationName>Geomagnetic Observatory Panagyurishte and Geophysical Institute of the Bulgarian Academy of Sciences (BAS), Sofia, Bulgaria</OrganizationName>
+      <Address>Geophysical Institute, Bulgarian Academy of Sciences, Block 3, Acad. G Bonchev Str. Sofia 1113, Bulgaria</Address>
+      <Email>buch@geophys.bas.bg</Email>
+   </Person>
+</Spase>

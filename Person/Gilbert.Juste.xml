@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Gilbert.Juste</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Gilbert Juste</PersonName>
+      <OrganizationName>Office pour la Recherche et de le Deloppement en Cooperation (O.R.S.T.O.M.)</OrganizationName>
+      <Address>IRD, Observations Geophysiques, Centre de Bondy, 93143 Bondy, France</Address>
+      <Email>gilbert.juste@bondy.ird.fr</Email>
+   </Person>
+</Spase>

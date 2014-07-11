@@ -1,0 +1,12 @@
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Jon.Vandegriff</ResourceID>
+        <ReleaseDate>2010-08-04T00:00:00</ReleaseDate>
+        <PersonName>Dr. Jon Vandegriff</PersonName>
+        <OrganizationName>JHU/APL</OrganizationName>
+        <Address>Applied Physics Laboratory Johns Hopkins University, 11100 Johns Hopkins Road, Laurel MD 20723-6099</Address>
+        <Email>jon.vandegriff@jhuapl.edu </Email>
+    </Person>
+</Spase>

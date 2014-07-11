@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Maria.Elena.Munyiz</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Maria Elena Munyiz</PersonName>
+      <OrganizationName>Cuban Academy of Sciences, Institute of Geophysics and Astronomy</OrganizationName>
+      <Address>Instituto de Geofisica y Astronomia, Agencia del Medio Ambiente, CITMA, Calle 212 No. 2906 e/n 29 y 31, Rpto. La Coronela, Municipio La Lisa, Codigo Postal 11600, Ciudad de La Habana, Cuba</Address>
+      <Email>mariae@iga.cu</Email>
+      <FaxNumber>(537) 33 9497</FaxNumber>
+   </Person>
+</Spase>

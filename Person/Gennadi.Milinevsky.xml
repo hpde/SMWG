@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Gennadi.Milinevsky</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Gennadi Milinevsky</PersonName>
+      <OrganizationName>1) British Antarctic Survey (Before Feb 96), 2) Ukrainian Antartic Center, Institute of Geophysics, Academy of Sciences of the Ukraine (After Feb 96)</OrganizationName>
+      <Address>Ukrainian Antarctic Center, 16 Blvd T Shevchenka, Kyiv 01601, Ukraine</Address>
+      <Email>antarc@carrier.kiev.ua</Email>
+      <FaxNumber>+38 044 246 3880</FaxNumber>
+   </Person>
+</Spase>

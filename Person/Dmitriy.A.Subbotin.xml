@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Dmitriy.A.Subbotin</ResourceID>
+        <ReleaseDate>2010-12-01T00:00:00</ReleaseDate>
+        <PersonName>Dmitriy A. Subbotin</PersonName>
+        <OrganizationName>UCLA, Department of Atmospheric Sciences</OrganizationName>
+        <Address>UCLA, Department of Atmospheric Sciences, 7127 MS, Box 951565, Los Angeles, CA 90095-1565, USA</Address>
+        <Email>subbotin@atmos.ucla.edu</Email>
+    </Person>
+</Spase>

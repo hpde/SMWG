@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Durand.Smith</ResourceID>
+        <ReleaseDate>2011-06-06T00:00:00</ReleaseDate>
+        <PersonName>Durand Smith</PersonName>
+        <OrganizationName>Sequoia Technologies, Inc. </OrganizationName>
+        <Address>Albuquerque, NM, 87102 </Address>
+        <Email>durand.smith@sequoia-tech.com</Email>
+    </Person>
+</Spase>

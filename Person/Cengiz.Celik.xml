@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Cengiz.Celik</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Cengiz Celik</PersonName>
+      <OrganizationName>Iznik Geomagnetic Observatory, Bogazici University Kandilli Observatory and E.R.I.</OrganizationName>
+      <Address>Inzik Geomagnetic Observatory, Bogazici University, Kandilli Observatory, Iznik Geomagnetic Observatory, 16860 Iznik-Bursa, Turkey</Address>
+      <Email>celikc@boun.edu.tr</Email>
+      <FaxNumber>+90 224 7576022</FaxNumber>
+   </Person>
+</Spase>

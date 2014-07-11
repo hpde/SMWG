@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Bronislaw.K.Dichter</ResourceID>
+        <ReleaseDate>2011-06-06T00:00:00</ReleaseDate>
+        <PersonName>Bronislaw K Dichter</PersonName>
+        <OrganizationName>Assurance Technology Corporation (ATC)</OrganizationName>
+        <Address>84 South Street, Carlisle, MA 01741</Address>
+        <Email>dichter@Assurtech.com </Email>
+    </Person>
+</Spase>

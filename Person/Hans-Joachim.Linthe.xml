@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Hans-Joachim.Linthe</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Hans-Joachim Linthe</PersonName>
+      <OrganizationName>GFZ, Adolf-Schmidt-Observatorium Niemegk</OrganizationName>
+      <Address>GeoForschungsZentrum Potsdam, Adolf-Schmidt-Observatorium fuer Erdmagnetismus, Lindenstrasse 7, D-14823 Niemegk, Germany</Address>
+      <Email>linthe@gfz-potsdam.de</Email>
+      <FaxNumber>+49 33843 62423</FaxNumber>
+   </Person>
+</Spase>

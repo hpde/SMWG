@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Mariusz.Neska</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Mariusz Neska</PersonName>
+      <OrganizationName>Institute of Geophysics, Polish Academy of Sciences</OrganizationName>
+      <Address>Central Geophysical Observatory, 05-622 Belsk, Poland</Address>
+      <Email>nemar@igf.edu.pl</Email>
+      <FaxNumber>+48 48 6610840</FaxNumber>
+   </Person>
+</Spase>

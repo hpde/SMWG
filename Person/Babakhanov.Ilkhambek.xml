@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Babakhanov.Ilkhambek</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Babakhanov Ilkhambek</PersonName>
+      <OrganizationName>Russian Academy of Sciences, Far Eastern Branch</OrganizationName>
+      <Address>IKIR FEB RAS, 684034 Kamchatka region, Elizovskiy district, Paratunka, Mirnaya Str. 7, Russia</Address>
+      <Email>ilham@ikir.ru</Email>
+      <FaxNumber>41531 33718</FaxNumber>
+   </Person>
+</Spase>
