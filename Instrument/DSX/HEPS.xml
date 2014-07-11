@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/DSX/HEPS</ResourceID>
+        <ResourceHeader>
+            <ResourceName>High Energy Particle Spectrometer (HEPS)</ResourceName>
+            <ReleaseDate>2011-06-06T00:00:00Z</ReleaseDate>
+            <Description>"The HEPS was originally designed and built by Amptek Inc. of Bedford MA. However for the DSX mission, HEPS was reconditioned, tested and calibrated by Assurance Technology Corp. of Carlisle MA. HEPS measures the differential energy spectrum of protons from 20 to 440 MeV, in twenty-two logarithmically spaced energy channels, and the integral flux for protons above 440 MeV. It has an angular resolution of 12° full cone. Although originally designed to measure protons, it also includes a number of data channels for measuring background events, and 20 channels for measuring electrons above -1.5 MeV. The HEPS instrument consists of two separate modules as shown in Figure 12. The sensor module (left box) is electrically connected to the electronics module (right box) with an electrical cable and is mounted on the DSX spacecraft in a tower configuration (see Figure 4). The HEPS instrument is designed to measure the energy of a proton entering the stack of detectors through the front collimator. Its incident energy and incident angle will determine the depth to which it penetrates the stack of detectors." (Fennelly, 2011)
+"HEPS will measure ... high energy particles ... responsible for microelectronics damage, displacement and total dose damage, SEEs, and deep dielectric charging. HEPS (Fig. 15) will be mounted on the AM battery enable bracket." (THE DEMONSTRATION AND SCIENCE EXPERIMENTS (DSX): A FUNDAMENTAL SCIENCE RESEARCH MISSION ADVANCING TECHNOLOGIES THAT ENABLE MEO SPACEFLIGHT)
+</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/James.I.Metcalf</PersonID>
+                <Role>ProjectScientist</Role>
+            </Contact>
+            <InformationURL>
+                <Name>Demonstration and Science Experiments
+(DSX) Satellite</Name>
+                <URL>http://www.kirtland.af.mil/shared/media/document/AFD-070404-096.pdf</URL>
+                <Description>DSX Fact Sheet, Sept. 2005</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>THE DEMONSTRATION AND SCIENCE EXPERIMENTS (DSX): A FUNDAMENTAL SCIENCE RESEARCH MISSION ADVANCING TECHNOLOGIES THAT ENABLE MEO SPACEFLIGHT</Name>
+                <URL>http://lws-set.gsfc.nasa.gov/documents/DSX_paper.pdf</URL>
+                <Description>2006 Instrument paper</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>AFRL's demonstration and science experiments (DSX) mission</Name>
+                <URL>http://hdl.handle.net/1721.1/52739</URL>
+                <Description>2009 DSX Paper</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>Demonstrations and Science Experiment (DSX) Space Weather
+Experiment (SWx)</Name>
+                <URL>http://www.dtic.mil/cgi-bin/GetTRDoc?Location=U2&amp;doc=GetTRDoc.pdf&amp;AD=ADA542684</URL>
+                <Description>Fennelly, 2011, Proc. of SPIE Vol. 7438</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+        <InvestigationName>DSX-SWx</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/DSX</ObservatoryID>
+        <Caveats/>
+        <Extension/>
+    </Instrument>
+</Spase>

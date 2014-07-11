@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/DSX/CREDANCE</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Cosmic Ray Environment Dosimetery and Charging Experiment (CREDANCE)</ResourceName>
+            <ReleaseDate>2011-09-16T00:00:00Z</ReleaseDate>
+            <Description>
+"Objectives: 1) Characterize the energetic space radiation environment and its interactions with spacecraft; 2) Provide data to other SET-1 experiments"
+"Goals: 1) Provide data to improve radiation environment models and design tools; 2) Demonstrate the value of a compact space weather monitor in operational spacecraft" (SET-1 payload site)
+"CREDANCE. Cosmic Ray Environment Dosimetery and Charging Experiment (CREDANCE) measures the radiation environment (total dose and single-event), and the charging environment for normal background and during space weather events. CREDANCE specific measurements include: 1. Proton flux &gt; 40 MeV per unit solid angle. 2. Charge deposition in large silicon diodes arranged in telescopes. Pulse height analysis is used to obtain ion LET spectra of heavy ions in the 100 MeV cm2/g to 25,000 MeV cm2/g range. 3. Threshold voltage shift as a function of time to measure total ionizing dose (TID) in silicon at two different shielding depths. 4. Charging current at three different shielding depths which provides energetic electron flux measurements at three energies. CREDANCE measurements overlap in part with the CEASE space weather instrument, and will provide for mutual validation through cross-correlation of both instruments. CREDANCE has been developed by QinetiQ/UK."(THE DEMONSTRATION AND SCIENCE EXPERIMENTS (DSX): A FUNDAMENTAL SCIENCE RESEARCH MISSION ADVANCING TECHNOLOGIES THAT ENABLE MEO SPACEFLIGHT)</Description>
+            <Acknowledgement/>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Clive.S.Dyer</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Michael.A.Xapsos</PersonID>
+                <Role>ProjectScientist</Role>
+            </Contact>
+            <InformationURL>
+                <Name>Demonstration and Science Experiments
+(DSX) Satellite</Name>
+                <URL>http://www.kirtland.af.mil/shared/media/document/AFD-070404-096.pdf</URL>
+                <Description>DSX Fact Sheet, Sept. 2005</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>THE DEMONSTRATION AND SCIENCE EXPERIMENTS (DSX): A FUNDAMENTAL SCIENCE RESEARCH MISSION ADVANCING TECHNOLOGIES THAT ENABLE MEO SPACEFLIGHT</Name>
+                <URL>http://lws-set.gsfc.nasa.gov/documents/DSX_paper.pdf</URL>
+                <Description>2006 Instrument paper</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>AFRL's demonstration and science experiments (DSX) mission</Name>
+                <URL>http://hdl.handle.net/1721.1/52739</URL>
+                <Description>2009 DSX Paper</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>DSX Mission/SET-1</Name>
+                <URL>http://lws-set.gsfc.nasa.gov/documents/DSX_and%20_SET_for_public_release.pdf</URL>
+                <Description>DSX powerpoint, includes data flow diagrams.</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>SET-1 payload site</Name>
+                <URL>http://lws-set.gsfc.nasa.gov/mission.html</URL>
+                <Description>NASA site detailing SET1 payload.</Description>
+            </InformationURL>
+            <PriorID/>
+        </ResourceHeader>
+        <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+        <!--InstrumentType>SSD</InstrumentType-->
+        <InvestigationName>DSX/SET1</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/DSX</ObservatoryID>
+        <Caveats/>
+        <Extension/>
+    </Instrument>
+</Spase>

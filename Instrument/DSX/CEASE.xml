@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/DSX/CEASE</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Compact Environment Anomaly Sensor (CEASE)</ResourceName>
+            <ReleaseDate>2011-06-06T00:00:00Z</ReleaseDate>
+            <Description>"CEASE will measure radiation dose, dose rate, surface dielectric charging, deep dielectric charging, and single event effects."
+"The CEASE was originally designed and built by Amptek Inc. of Bedford MA. However for the DSX mission, a CEASE was reconditioned, tested and calibrated by Assurance Technology Corp. of Carlisle MA. CEASE is comprised of two dosimeters, and two particles detectors and is shown in Figure 9. There is also a solid-state Si detector telescope, consisting of two coaxially mounted sensors, capable of measuring integral and broad differential fluxes of electrons in the range of 0.06MeV to &gt;2MeV and protons in the range from lMeV to ~ 120MeV. The two CEASE independent dosimeter sensors are located behind aluminum planar shields. 0.20cm and 0.63cm thick, respectively, making particle flux measurements. The two thicknesses correspond to penetration energy thresholds of 20 and 35 MeV for protons, and 0.1.2 and 2.5 MeV for electrons."
+"The CEASE telescope has a 90° field of view and the two dosimeters both have an 180° field of view as shown in Figure 10. CEASE has flight heritage on the Department of Defense (DoD) Space Test Program (STP) Tri-Service Experiment-5 (TSX-5) spacecraft in an low earth orbit that was launch 2000 and had continuous operations for over six years. The CEASE is a small and compact instrument with the dimensions of 85.34 x 101.6 x 12.0mm and has mass of 1.0 kg." (Fennelly, 2011)</Description>
+            <Acknowledgement/>
+            <Contact>
+                <PersonID>spase://SMWG/Person/James.I.Metcalf</PersonID>
+                <Role>ProjectScientist</Role>
+            </Contact>
+            <InformationURL>
+                <Name>Demonstration and Science Experiments
+(DSX) Satellite</Name>
+                <URL>http://www.kirtland.af.mil/shared/media/document/AFD-070404-096.pdf</URL>
+                <Description>DSX Fact Sheet, Sept. 2005</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>THE DEMONSTRATION AND SCIENCE EXPERIMENTS (DSX): A FUNDAMENTAL SCIENCE RESEARCH MISSION ADVANCING TECHNOLOGIES THAT ENABLE MEO SPACEFLIGHT</Name>
+                <URL>http://lws-set.gsfc.nasa.gov/documents/DSX_paper.pdf</URL>
+                <Description>2006 Instrument paper</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>AFRL's demonstration and science experiments (DSX) mission</Name>
+                <URL>http://hdl.handle.net/1721.1/52739</URL>
+                <Description>2009 DSX Paper</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>Compact Environmental Anomaly Sensor (CEASE) : Geometric Factors</Name>
+                <URL>http://www.dtic.mil/cgi-bin/GetTRDoc?Location=U2&amp;doc=GetTRDoc.pdf&amp;AD=ADA514447</URL>
+                <Description>A previously published technical report [AFRL-VS-HA-TR-2006-1030] was the first in a series by AFRL to document the performance of the Compact Environmental Anomaly Sensor (CEASE). That report includes (l) a
+definition of the response function and its relation to the geometric factor; (2) a description of the Monte Carlo simulations that were performed to determine the proton and electron response functions for the telescope and dosimeters; and (3) the resulting response functions and a comparison with experimental calibration results. This report details how these response functions are used to estimate a set of geometric factors for a set of integral flux channels derived for both the telescope and dosimeters.</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>Demonstrations and Science Experiment (DSX) Space Weather
+Experiment (SWx)</Name>
+                <URL>http://www.dtic.mil/cgi-bin/GetTRDoc?Location=U2&amp;doc=GetTRDoc.pdf&amp;AD=ADA542684</URL>
+                <Description>Fennelly, 2011, Proc. of SPIE Vol. 7438</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+        <!-- InstrumentType>SSD</InstrumentType-->
+        <InvestigationName>DSX-SWx</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/DSX</ObservatoryID>
+    </Instrument>
+</Spase>

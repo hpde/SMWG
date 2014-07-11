@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/DSX/LEESA</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Low Energy Electrostatic Analyzer (LEESA)</ResourceName>
+            <AlternateName>Low Energy Electrostatic Analyzer</AlternateName>
+            <ReleaseDate>2011-06-06T00:00:00Z</ReleaseDate>
+            <Description>
+"The LEESA sensor was built, tested and calibrated by the Air Force Research Laboratory (AFRL) Battlespace Environment Division (RVB). The original design was made by Amptek Inc. of Bedford MA. This design was adapted and modified by AFRL/RVB for the current LEESA. LEESA is two sets of spherical electrostatic analyzers, one for electron and the other for ion measurements. The LEESA measures the energy fluxes and energy spectra for low energy electrons and protons ranging from 20eV to 50 KeV at 40 log-spaced steps. These low energy particles are responsible for surface electric charging and damage to thin films such as thin-film photovoltaic, conventional solar cell cover glasses, and coatings. The expected energy resolution for the LEESA is AE/E = 4.9%. There are two equally sized apertures; one for ion and one for electron measurements. Each LEESA aperture has a field of view of 120° x 15°, as shown in Figure 7a. LEESA also measures the directionality of the particles by offering multiple angular zones.
+
+There are 11 micro-channel arrays, which provide 5 angular zones and one background channel (see Figure 7b). LEESA is comprised of two concentric quarter spherical sets, each having a small gap between them. This configuration
+of quarter spherical analyzers was chosen to increase sensitivity, minimize the size of the sensor and to exploit a compact layout. The inside spherical section has an attraction voltage and the outside section has the repelling voltage. The voltage difference between the two sections is step through the energy range. A charge particle with right energy will travel between the spheres sections (show in Figure 7b) and reach the detector plane.
+
+LEESA is designed to operate at two different data rate levels. At the high data rate level the instrument will sample 80 voltage steps in one second or an 80Hz sampling rate. The low data rate of the sensor will sample 8 voltage steps in one
+second, or an 8Hz sampling rate. The LEESA dimensions are 116.84 x 212.73 x 209.550 mm and weighs 3.5 kg." (Fennelly, 2011)
+</Description>
+            <Acknowledgement/>
+            <Contact>
+                <PersonID>spase://SMWG/Person/James.I.Metcalf</PersonID>
+                <Role>ProjectScientist</Role>
+            </Contact>
+            <InformationURL>
+                <Name>Demonstration and Science Experiments
+(DSX) Satellite</Name>
+                <URL>http://www.kirtland.af.mil/shared/media/document/AFD-070404-096.pdf</URL>
+                <Description>DSX Fact Sheet, Sept. 2005</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>THE DEMONSTRATION AND SCIENCE EXPERIMENTS (DSX): A FUNDAMENTAL SCIENCE RESEARCH MISSION ADVANCING TECHNOLOGIES THAT ENABLE MEO SPACEFLIGHT</Name>
+                <URL>http://lws-set.gsfc.nasa.gov/documents/DSX_paper.pdf</URL>
+                <Description>2006 Instrument paper</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>AFRL's demonstration and science experiments (DSX) mission</Name>
+                <URL>http://hdl.handle.net/1721.1/52739</URL>
+                <Description>2009 DSX Paper</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>Demonstrations and Science Experiment (DSX) Space Weather
+Experiment (SWx)</Name>
+                <URL>http://www.dtic.mil/cgi-bin/GetTRDoc?Location=U2&amp;doc=GetTRDoc.pdf&amp;AD=ADA542684</URL>
+                <Description>Fennelly, 2011, Proc. of SPIE Vol. 7438</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+        <!-- InstrumentType>Electrostatic Analyser</InstrumentType-->
+        <!-- InstrumentType>Quadrispherical Analyser</InstrumentType-->
+        <InvestigationName>DSX-SWx</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/DSX</ObservatoryID>
+    </Instrument>
+</Spase>

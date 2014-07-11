@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Observatory>
+        <ResourceID>spase://SMWG/Observatory/DSX</ResourceID>
+        <ResourceHeader>
+            <ResourceName>DSX</ResourceName>
+            <AlternateName>Demonstrations and Science Experiment</AlternateName>
+            <ReleaseDate>2011-06-06T00:00:00</ReleaseDate>
+            <Description>Demonstration and Science Experiments(DSX) Satellite When launched in 2008, the Demonstration and Science Experiments (DSX) spacecraft will conduct basic research designed to significantly advance Dept. of Defense capability to operate in the harsh radiation environment of medium earth orbit (MEO). The ability to operate effectively in the MEO environment significantly increases the DOD capability to field space systems that provide persistent global targeting grade space surveillance, high speed, satellite based communication, lower cost global positioning system navigation and protection from space weather on a responsive satellite platform. The three DSX experiments areas are: (1) Wave Particle Interaction Experiment (WPIx), which will research the physics of very low frequency (VLF) transmissions in the magnetosphere and characterize the capability of natural and man made VLF waves to reduce space radiation (2) Space Weather Experiment (SWx), which will characterize and model the space radiation environment in MEO, an orbital regime attractive for future DOD and commercial missions (3) Space Environmental Effects (SEE), which will investigate and characterize the space weather effects on spacecraft electronics and materials DSX uses a modular structure design that allows for launch either as a primary satellite on a conventional launcher like the Minotaur, or as a secondary payload on a larger rocket such as the evolved expendable launch vehicle (EELV). For the EELV launch scenario, the EELV secondary payload adapter (ESPA) ring is upgraded to provide host spacecraft functions with the addition of a host spacecraft bus (HSB). The experiment payloads are located in a payload module attached to the ring opposite the HSB. Unlike the traditional ESPA approach, where individual satellites separate from the ESPA ring to become free flyers, DSX’s HSB and payload module remain attached to the ring and are deployed as a single integrated spacecraft. For launch on a dedicated rocket, the HSB and payload module are removed from the ESPA and are directly attached to one another in a stacked configuration. DSX is baselined to be ready for launch in October 2008 and is seeking an elliptical orbit of 6,000 by 12,000 kilometers with a mid inclination. In addition, the spacecraft is designed for one year of orbital operations. The WPIx will transmit and receive VLF waves in the 10 to 50 kilohertz range, and quantify their effect on the trapped electron populations in the magnetosphere. In addition, DSX will use ground transmitters and other space receivers to measure critical parameters such as VLF injection across the ionosphere and the far field radiated patterns. The SWx will characterize the high and low energy electron and proton fluence, radiation dose rates, local magnetic fields and pitch angle distribution in the “slot region” orbit located near an altitude of 10,000 kilometers, between the inner and outer Van Allen radiation belts. It is an attractive orbit for future communications and surveillance satellites because it has a low radiation dose rate and sufficient altitude to allow for global coverage, but yet is four times closer than geostationary (GEO) satellites, which increases communications speed by a factor of eight. This attractive orbit has remained largely unexplored, with most commercial, military, and science satellites opting for low earth orbit (LEO) or GEO orbits. The SEE consists of NASA’s Space Environment Testbed (SET) and several AFRL developed photometers and radiometers. SET features four smaller experiments designed to investigate radiation effects on electronics such as field programmable gate arrays and linear devices. The AFRL instruments will directly measure the radiation induced degradation of the optical and thermal properties for several spacecraft materials of interest. DSX will benefit the warfighter by significantly enhancing understanding of the MEO environment, with particular emphasis on the “slot region,” which is attractive for future space surveillance and high speed communication. In addition, DSX will perform the basic research needed to assess the DOD’s ability to actively regulate agitations to the space weather environment that currently cause accelerated degradation of critical space assets. [From http://www.kirtland.af.mil/shared/media/document/AFD-070404-096.pdf]</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Gregory.P.Ginet</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Michael.A.Xapsos</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Jon.Schoenberg</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Aaron.Adler</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Mark.R.Scherbarth</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Durand.Smith</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name/>
+                <URL>http://lws-set.gsfc.nasa.gov/documents/DSX_paper.pdf</URL>
+            </InformationURL>
+        </ResourceHeader>
+        <Location>
+            <ObservatoryRegion>Earth.Magnetosphere.RadiationBelt</ObservatoryRegion>
+            <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+        </Location>
+    </Observatory>
+</Spase>
