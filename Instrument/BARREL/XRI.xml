@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/BARREL/XRI</ResourceID>
+        <ResourceHeader>
+            <ResourceName>X-Ray Instrument</ResourceName>
+            <AlternateName>Scintillation Detector</AlternateName>
+            <ReleaseDate>2011-06-06T00:00:00Z</ReleaseDate>
+            <Description>"The X-ray instrument measures the energy spectrum and flux of bremsstrahlung x-rays over time.  It consists of a cylindrical three inch diameter by three inch height scintillator NaI crystal, a PMT, and a peak detect board. It has an energy response from 10keV to 10MeV with a spectral resolution of 5keV. When x-rays from precipitating electrons enter the crystal, visible light photons are generated. The number of photons produced in the scintillator is proportional to the incident x-ray energy. These photons are detected by a photomultiplier tube which converts the light pulse into charge pulses. The amplitude of each charge pulse is then determined by a pulse height analyzer. The charge pulse amplitudes can be plotted to show the x-ray spectrum, which can then be used to study the energies of the precipitating electrons." (Ref. 1)
+"... effective area at 1 MeV of 16 cm2 (full energy deposited) or 35 cm2 (any energy deposited).
+To fit within telemetry constraints, the X-ray data are binned into three different kinds of spectra that trade between energy resolution and time resolution. The highest time resolution data, important for detecting electron microbursts, are count rates in four energy bands (10–180; 180–550; 550–840; 840–1500 keV) every 50 ms, similar to those shown in Fig. 1. Higher energy resolution is necessary for inverting the X-ray observations to determine the energy and flux of precipitating electrons (e.g., Smith et al., 1995). This is provided with binned X-ray spectra, acquired every 4 s in 48 logarithmically spaced energy channels between 20 keV and 7 MeV. Finally, the highest energy resolution spectra, used for in-flight calibration, consist of 256 energy channels between 20 keV and 7 MeV acquired over 32 s." (Ref 3)</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Robyn.Millan</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Robert.P.Lin</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/David.M.Smith</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Michael.P.McCarthy</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Mary.K.Hudson</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Mikhail.I.Panasyuk</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Lindsay.Magnus</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Andrew.B.Collier</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Mark.Clilverd</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <InformationURL>
+                <Name>Reference 1</Name>
+                <URL>http://www.dartmouth.edu/~rmillan/minis/MINIS.Instrumentation.pdf</URL>
+                <Description>BARREL instrument documentation, quoted for above instrument description.</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>Reference 2</Name>
+                <URL>http://www.dartmouth.edu/~rmillan/barrel/foldout_v2.pdf</URL>
+                <Description>BARREL poster.</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>Reference 3</Name>
+                <URL>http://www.sciencedirect.com/science/article/pii/S1364682611000071</URL>
+                <Description>"Understanding relativistic electron losses with BARREL", Description of science output from BARREL test flights, includes discussion of instruments and usage.</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>BARREL Team Information</Name>
+                <URL>http://www.dartmouth.edu/~barrel/team.html</URL>
+                <Description>Site used for BARREL team information.</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+        <InstrumentType>ScintillationDetector</InstrumentType>
+        <!-- InstrumentType>PhotoMultiplierTube</InstrumentType-->
+        <InvestigationName>Balloon Array for RBSP Relativistic Electron Losses (BARREL)</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/BARREL</ObservatoryID>
+    </Instrument>
+</Spase>

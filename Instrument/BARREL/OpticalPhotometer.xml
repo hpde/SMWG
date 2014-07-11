@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/BARREL/OpticalPhotometer</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Optical Photometer</ResourceName>
+            <ReleaseDate>2011-06-06T00:00:00Z</ReleaseDate>
+            <Description>"Objective: To detect the flux of visible light at wavelengths near 486.1 nm during a relativistic electron precipitation event. This will determine whether there are protons accompanying the precipitating electrons. (emissions near 486.1 nm are a signature of precipitating protons.) Correlated proton and relativistic electron precipitation would support scattering by EMIC (electromagnetic ion cyclotron) waves at the precipitation mechanism." (Ref. 1)  "How it works:  The photons are collected through a collimator tube that restricts the field of view to a cone approximately five degrees full width angle, tilted at 35 degrees from the zenith. A 2.5 nm wide Hβ filter is mounted near the base of the collimator. Each photon incident on the two inch diameter photomultiplier tube results in the generation of a charge pulse. These pulses then go into a charge-sensitive pre-amplifier, discriminator, and shaping electronics, producing a TTL pulse for each incident photon. By counting the number of pulses, the flux of the precipitating protons can be determined." (Ref. 1)</Description>
+            <Acknowledgement/>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Robyn.Millan</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Robert.P.Lin</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Michael.P.McCarthy</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Mary.K.Hudson</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Mikhail.I.Panasyuk</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <InformationURL>
+                <Name>Reference 1</Name>
+                <URL>http://www.dartmouth.edu/~rmillan/minis/MINIS.Instrumentation.pdf</URL>
+                <Description>BARREL instrument documentation, quoted for above instrument description.</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+        <InstrumentType>Photometer</InstrumentType>
+        <!--InstrumentType>PhotoMultiplier Tube (PMT)</InstrumentType-->
+        <InvestigationName>Balloon Array for RBSP Relativistic Electron Losses (BARREL)</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/BARREL</ObservatoryID>
+    </Instrument>
+</Spase>
