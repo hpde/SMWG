@@ -1,13 +1,13 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Gerhard.Schwarz</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
-    <PersonName>Gerhard Schwarz</PersonName>
-    <OrganizationName>Geological Survey of Sweden</OrganizationName>
-    <Address>Geological Survey of Sweden, Box 670, S-751 28 Uppsala, Sweden</Address>
-    <Email>gerhard@sgu.se</Email>
-    <PhoneNumber>+46 18 179344</PhoneNumber>
-  </Person>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Gerhard.Schwarz</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Gerhard Schwarz</PersonName>
+      <OrganizationName>Geological Survey of Sweden (SGU)</OrganizationName>
+      <Address>Documentation of Geomagnetism, Sveriges Geologiska Undersoekning, Box 670, Villavaegen 18, S-751 28 Uppsala, Sweden</Address>
+      <Email>gerhard.schwarz@sgu.se</Email>
+      <FaxNumber>+46 18 179210</FaxNumber>
+   </Person>
 </Spase>

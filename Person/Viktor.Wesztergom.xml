@@ -1,12 +1,13 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Viktor.Wesztergom</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-    <PersonName>Viktor Wesztergom</PersonName>
-    <OrganizationName>Geodetic and Geophysical Research Institute</OrganizationName>
-    <Email>wv@ggki.hu</Email>
-    <PhoneNumber>36-99-314290</PhoneNumber>
-  </Person>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Viktor.Wesztergom</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Viktor Wesztergom</PersonName>
+      <OrganizationName>Geodetic and Geophysical Research Institute of the Hungarian Academy of Sciences</OrganizationName>
+      <Address>Szechenyi Istvan Geophysical Observatory, Geodetic and Geophysical Research Institute, Hungarian Academy of Sciences, P.O. Box 5, H-9401 Sopron, Hungary</Address>
+      <Email>wv@ggki.hu</Email>
+      <FaxNumber>36 99 508 355</FaxNumber>
+   </Person>
 </Spase>

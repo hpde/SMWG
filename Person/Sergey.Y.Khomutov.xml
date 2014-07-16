@@ -1,13 +1,13 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Sergey.Y.Khomutov</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-    <PersonName>Sergey Y. Khomutov</PersonName>
-    <OrganizationName>Station of Ionospheric and Geomagnetic Observations</OrganizationName>
-    <Address>Station of Ionospheric and Geomagnetic Observations, Koptyug Av.,3, Novosibirsk 630090, Russia</Address>
-    <Email>hom@uiggm.nsc.ru</Email>
-    <PhoneNumber>+3832 302486</PhoneNumber>
-  </Person>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Sergey.Y.Khomutov</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Sergey Y. Khomutov</PersonName>
+      <OrganizationName>::UNKNOWN::</OrganizationName>
+      <Address>Geophysical Observatory Klyuchi, Koptyug av. 3, Novosibirsk, 630090, Russia</Address>
+      <Email>khomutov@gs.nsc.ru</Email>
+      <FaxNumber>7 (383) 3301261</FaxNumber>
+   </Person>
 </Spase>

@@ -1,13 +1,12 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Josef.Berger</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
-    <PersonName>Josef Berger</PersonName>
-    <OrganizationName>Zentralanstalt fur Meteorologie und Geodynamik</OrganizationName>
-    <Address>Zentralanstalt fur Meteorologie und Geodynamik, Hohe Warte 38, A-1190 Vienna, Austria</Address>
-    <Email>josef.berger@zamg.ac.at</Email>
-    <PhoneNumber>+43 1 36026 2510</PhoneNumber>
-  </Person>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Josef.Berger</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Josef Berger</PersonName>
+      <OrganizationName>Zentralanstalt fur Meteorologie und Geodynamik, Vienna, Austria</OrganizationName>
+      <Address>Zentralanstalt fuer Meteorologie und Geodynamik, Postfach 342, Hohe Warte 38, A-1191 Wien, Austria</Address>
+      <Email>josef.berger@zamg.ac.at</Email>
+   </Person>
 </Spase>

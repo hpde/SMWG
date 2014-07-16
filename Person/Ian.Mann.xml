@@ -1,10 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Ian.Mann</ResourceID>
-    <PersonName>Ian.Mann</PersonName>
-    <OrganizationName>University of Alberta</OrganizationName>
-    <Email>imann@phys.ualberta.ca</Email>
-  </Person>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Ian.Mann</ResourceID>
+      <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
+      <PersonName>Ian Mann</PersonName>
+      <OrganizationName>Department of Physics</OrganizationName>
+      <Address>1-001 CCIS, University of Alberta, Edmonton, AB T6G 2E9 Canada</Address>
+      <Email>imann@phys.ualberta.ca</Email>
+      <PhoneNumber>+1 780 492 6882</PhoneNumber>
+      <FaxNumber>+1 780 492 7033</FaxNumber>
+   </Person>
 </Spase>

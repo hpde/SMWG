@@ -1,12 +1,12 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Magdalena.Vaczyova</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-    <PersonName>Magdalena Vaczyova</PersonName>
-    <OrganizationName>Geomagnetic Observatory</OrganizationName>
-    <Address>Geomagnetic Observatory, 947 01 Hurbanovo, Slovakia</Address>
-    <PhoneNumber>(+421) 818 7602494</PhoneNumber>
-  </Person>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Magdalena.Vaczyova</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Magdalena Vaczyova</PersonName>
+      <OrganizationName>Geophysical Institute, Slovak Academy of Sciences</OrganizationName>
+      <Address>Slovenska Akademia Vied, Geofyzikalny Ustav, Geomagneticke Observatorium, 947 01 Hurbanovo, Slovakia</Address>
+      <Email>geomag@geomag.sk</Email>
+   </Person>
 </Spase>

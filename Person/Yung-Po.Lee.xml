@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Yung-Po.Lee</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:48Z</ReleaseDate>
-    <PersonName>Yung-Po Lee</PersonName>
-    <OrganizationName>Lunping Observatory</OrganizationName>
-    <Address>Lunping Observatory, 180 Lunping, Kuanyin, Taoyuan, Taiwan 328, Republic of China</Address>
-    <Email>lunping@dgt.gov.tw</Email>
-    <PhoneNumber>886-3-498-0084</PhoneNumber>
-  </Person>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Yung-Po.Lee</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Yung-Po Lee</PersonName>
+      <OrganizationName>Directorate General of Telecommunications (DGT)</OrganizationName>
+      <Address>Lunping Observatory, 180 Lunping, Kuanyin, Taoyuan, Taiwan 328, Taiwan</Address>
+      <Email>lunping@dgt.gov.tw</Email>
+   </Person>
 </Spase>

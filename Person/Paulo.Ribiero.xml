@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Paulo.Ribiero</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-    <PersonName>Paulo Ribiero</PersonName>
-    <OrganizationName>Instituto Geofisico</OrganizationName>
-    <Address>Instituto Geofisico, Universidade de Coimbra, Rua Anibal de Lima (Alto da Baleia), P-3000 Coimbra, Portugal</Address>
-    <Email>pribeiro@ci.uc.pt</Email>
-  </Person>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Paulo.Ribiero</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Paulo Ribiero</PersonName>
+      <OrganizationName>Instituto Geofysico, Universidade de Coimbra</OrganizationName>
+      <Address>Instituto Geofisico da Universidade de Coimbra, Rua Anibal de Lima Alto da Baleia, 3000 Coimbra, Portugal</Address>
+      <Email>pribeiro@ci.uc.pt</Email>
+   </Person>
 </Spase>

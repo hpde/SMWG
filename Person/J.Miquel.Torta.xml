@@ -1,13 +1,12 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/J.Miquel.Torta</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
-    <PersonName>J. Miquel Torta</PersonName>
-    <OrganizationName>Observatori de l'Ebre</OrganizationName>
-    <Address>Observatori de l'Ebre, 43520 Roquetes(Tarragona), Spain</Address>
-    <Email>ebre.jmtorta@readysoft.es</Email>
-    <PhoneNumber>34.977.500511</PhoneNumber>
-  </Person>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/J.Miquel.Torta</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>J. Miquel Torta</PersonName>
+      <OrganizationName>Ebro Observatory, Spain</OrganizationName>
+      <Address>Observatori de l'Ebre, 43520 Roquetes (Tarragona), Spain</Address>
+      <Email>jmtorta@obsebre.es</Email>
+   </Person>
 </Spase>

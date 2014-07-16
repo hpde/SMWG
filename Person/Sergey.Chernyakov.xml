@@ -1,13 +1,12 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Sergey.Chernyakov</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-    <PersonName>Sergey Chernyakov</PersonName>
-    <OrganizationName>Geophysical Observatory Loparskaya</OrganizationName>
-    <Address>Geophysical Observatory Loparskaya, 15 Khalturina Str., Murmansk, 183010 Russia</Address>
-    <Email>sergeich@pgi.ru</Email>
-    <PhoneNumber>7 8152 253 958</PhoneNumber>
-  </Person>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Sergey.Chernyakov</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Sergey Chernyakov</PersonName>
+      <OrganizationName>Geophysical Observatory Loparskaya, Polar Geophysical Institute, Kola Science Centre, Russian Academy of Science</OrganizationName>
+      <Address>Geophysical Observatory, Loparskaya, 15 Khalturina Str., Murmansk, 183010, Russia</Address>
+      <Email>sergeich@pgi.ru</Email>
+   </Person>
 </Spase>

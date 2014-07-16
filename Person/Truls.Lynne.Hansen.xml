@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-  <Version>2.2.2</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Truls.Lynne.Hansen</ResourceID>
-    <ReleaseDate>2012-01-31T12:34:56.789</ReleaseDate>
-    <PersonName>Truls Lynne Hansen</PersonName>
-    <OrganizationName>The Auroral Observatory</OrganizationName>
-    <Address>The Auroral Observatory, Institute of Mathematical Physical Sciences, University of Tromso, N-9037 Tromso, Norway</Address>
-    <Email>truls.hansen@uit.no</Email>
-    <PhoneNumber>(011) 47 8 34 44/(011) 47 8 34 51 46</PhoneNumber>
-  </Person>
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Truls.Lynne.Hansen</ResourceID>
+      <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
+      <PersonName>Truls Lynne Hansen</PersonName>
+      <OrganizationName>The Auroral Observatory</OrganizationName>
+      <Address>Tromso Geophysical Observatory, Faculy of Science, University of Tromso, N-9037 Tromso, Norway</Address>
+      <Email>truls.hansen@uit.no</Email>
+      <PhoneNumber>+47 776 45146</PhoneNumber>
+      <FaxNumber>+47 776 45150</FaxNumber>
+   </Person>
 </Spase>

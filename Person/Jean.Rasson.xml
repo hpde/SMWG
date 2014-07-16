@@ -1,13 +1,12 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Jean.Rasson</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
-    <PersonName>Jean Rasson</PersonName>
-    <OrganizationName>Centre de Physique du Globe</OrganizationName>
-    <Address>Centre de Physique du Globe, Institute Royal Meteorologique, B-5670 Dourbes, Belgium</Address>
-    <Email>jr@meteo.oma.be</Email>
-    <PhoneNumber>0032 (60) 399311/12</PhoneNumber>
-  </Person>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Jean.Rasson</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Jean Rasson</PersonName>
+      <OrganizationName>Universidad Nacional de La Plata, Depto. de Magnetisme Terrestre, Argentina</OrganizationName>
+      <Address>Institut Royal Meteorologique de Belgique, 2, Rue du Centre de Physique, Dourbes, B-5670 Viroinval, Belgium</Address>
+      <Email>jr@oma.be</Email>
+   </Person>
 </Spase>

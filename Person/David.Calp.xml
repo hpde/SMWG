@@ -1,14 +1,14 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/David.Calp</ResourceID>
-    <ReleaseDate>2011-05-16T21:41:36Z</ReleaseDate>
-    <PersonName>Dr. David Calp</PersonName>
-    <OrganizationName>Natural Resources Canada</OrganizationName>
-    <Address>2617 Anderson Road , 1st Floor , Room. 12A Ottawa, ON Canada  K1A 0Y3</Address>
-    <Email>David.Calp@NRCan-RNCan.gc.ca</Email>
-    <PhoneNumber>+613-837-1757</PhoneNumber>
-    <FaxNumber>+613-824-9803</FaxNumber>
-  </Person>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/David.Calp</ResourceID>
+      <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
+      <PersonName>David Calp</PersonName>
+      <OrganizationName>Natural Resources Canada</OrganizationName>
+      <Address>2617 Anderson Road, 1st Floor, Room 12A Ottawa, ON Canada K1A 0Y3</Address>
+      <Email>david.calp@nrcan-rncan.gc.ca</Email>
+      <PhoneNumber>+613 837 1757</PhoneNumber>
+      <FaxNumber>+613 824 9803</FaxNumber>
+   </Person>
 </Spase>

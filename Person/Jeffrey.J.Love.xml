@@ -1,13 +1,12 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Jeffrey.J.Love</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
-    <PersonName>Jeffrey J. Love</PersonName>
-    <OrganizationName>U.S. Geological Survey</OrganizationName>
-    <Address>U.S. Geological Survey, Box 25046 MS 966, Denver Federal Center, Denver, Colorado 80225, USA</Address>
-    <Email>jlove@usgs.gov</Email>
-    <PhoneNumber>+1 303 273 8540</PhoneNumber>
-  </Person>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Jeffrey.J.Love</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Jeffrey J. Love</PersonName>
+      <OrganizationName>U.S. Geological Survey</OrganizationName>
+      <Address>U.S.A.</Address>
+      <Email>jlove@usgs.gov</Email>
+   </Person>
 </Spase>

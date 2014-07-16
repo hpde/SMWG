@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/D.Karunakaran</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
-    <PersonName>D. Karunakaran</PersonName>
-    <OrganizationName>Koramongalam</OrganizationName>
-    <Address>Koramongalam, Bangalore 560 034, India</Address>
-  </Person>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/D.Karunakaran</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>D. Karunakaran</PersonName>
+      <OrganizationName>Indian Institute of Astrophysics, Bangalore</OrganizationName>
+      <Address>Indian Institute of Astrophysics, Kodaikanal-624103, India</Address>
+   </Person>
 </Spase>

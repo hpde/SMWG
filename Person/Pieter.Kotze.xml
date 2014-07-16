@@ -1,13 +1,12 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Pieter.Kotze</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-    <PersonName>Pieter Kotze</PersonName>
-    <OrganizationName>Hermanus Magnetic Observatory</OrganizationName>
-    <Address>Hermanus Magnetic Observatory, P.O. Box 32, Hermanus, South Africa 7200</Address>
-    <Email>pkotze@hmo.ac.za</Email>
-    <PhoneNumber>+227 283 21196</PhoneNumber>
-  </Person>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Pieter.Kotze</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Pieter Kotze</PersonName>
+      <OrganizationName>Hermanus Magnetic Observatory</OrganizationName>
+      <Address>Hermanus Magnetic Observatory, P.O. Box 32, Hermanus 7200, South Africa</Address>
+      <Email>pkotze@sansa.org.za</Email>
+   </Person>
 </Spase>

@@ -1,13 +1,14 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Juergen.Matzka</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
-    <PersonName>Juergen Matzka</PersonName>
-    <OrganizationName>Geophysical Observatory</OrganizationName>
-    <Address>Geophysical Observatory, Ludwigshohe 8, D-82256 Furstenfeldbruck, Germany</Address>
-    <Email>magnetic@fur.observatory.uni-muenchen.de</Email>
-    <PhoneNumber>49 8141 92478</PhoneNumber>
-  </Person>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Juergen.Matzka</ResourceID>
+      <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
+      <PersonName>Juergen Matzka</PersonName>
+      <OrganizationName>DTU Space Institute, National Space Institute</OrganizationName>
+      <Address>Technical University of Denmark, Juliane Maries vej 30, Building Rockefeller, Room 399, 2100 Kaberhaven, Denmark</Address>
+      <Email>jrgm@space.dtu.dk</Email>
+      <PhoneNumber>+45 353 25706</PhoneNumber>
+      <FaxNumber>+45 353 62475</FaxNumber>
+   </Person>
 </Spase>

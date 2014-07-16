@@ -1,12 +1,13 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/N.H.Guya</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-    <PersonName>N. H. Guya</PersonName>
-    <OrganizationName>Magnetic Observatory</OrganizationName>
-    <Address>Magnetic Observatory, Institute of Geophysics, Tehran University, Kargar, 14374 Tehran 4, Iran</Address>
-    <PhoneNumber>+98 63 10 81 3</PhoneNumber>
-  </Person>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/N.H.Guya</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>N. H. Guya</PersonName>
+      <OrganizationName>Institute of Geophysics, Tehran University</OrganizationName>
+      <Address>Institute of Geophysics, Tehran University, P.O. Box 14155 6466, Tehran, Iran</Address>
+      <Email>nhzguya@chamran.ut.ac.ir</Email>
+      <FaxNumber>98 21 8009560</FaxNumber>
+   </Person>
 </Spase>

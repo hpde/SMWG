@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Janet.C.Green</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
-    <PersonName>Dr. Janet C. Green</PersonName>
-    <OrganizationName>NOAA/SWPC</OrganizationName>
-    <Email>Janet.Green@noaa.gov</Email>
-  </Person>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Janet.C.Green</ResourceID>
+        <ReleaseDate>2008-06-17T21:44:47Z</ReleaseDate>
+        <PersonName>Dr. Janet C. Green</PersonName>
+        <OrganizationName>NOAA/NGDC/STPD</OrganizationName>
+        <Email>Janet.Green@noaa.gov</Email>
+        <PhoneNumber>303-497-4845</PhoneNumber>
+    </Person>
 </Spase>

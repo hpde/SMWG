@@ -1,13 +1,13 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Boris.Shirman</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
-    <PersonName>Boris Shirman</PersonName>
-    <OrganizationName>Survey of Israel</OrganizationName>
-    <Address>Survey of Israel, Institute of Geodesy, Mapping and Geography, P.O.B. 14171, 61141 Tel Aviv, Israel</Address>
-    <Email>bshirman@netvision.net.il</Email>
-    <PhoneNumber>972-3-6231816</PhoneNumber>
-  </Person>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Boris.Shirman</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Boris Shirman</PersonName>
+      <OrganizationName>Survey of Israel</OrganizationName>
+      <Address>Institute for Geodesy, Mapping and Geographic Info, Survey of Israel, 1 Lincoln St, 65220 Tel-Aviv, P.O. Box 14171-61141, Tel-Aviv, Israel</Address>
+      <Email>bshirman@soi.gov.il</Email>
+      <FaxNumber>972 3 6231806</FaxNumber>
+   </Person>
 </Spase>

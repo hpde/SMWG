@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/B.Nagarajan</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:45Z</ReleaseDate>
-    <PersonName>Brig (Dr.) B. Nagarajan</PersonName>
-    <OrganizationName>Geodetic and Research Branch, Survey of India</OrganizationName>
-    <Address>Post Box No. 77, Dehra Dun 248 001, India</Address>
-    <Email>gandrb@vsnl.net</Email>
-    <PhoneNumber>+910135654528</PhoneNumber>
-  </Person>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/B.Nagarajan</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>B. Nagarajan</PersonName>
+      <OrganizationName>Survey of India, Geodetic Research Branch</OrganizationName>
+      <Address>Geodetic and Research Branch, Survey of India, P.O. Box No. 77, 17-E.C. Road, Dehra Dun 248001 (U.P.), India</Address>
+      <Email>gandrb@vsnl.net.in</Email>
+      <FaxNumber>+910135654528</FaxNumber>
+   </Person>
 </Spase>

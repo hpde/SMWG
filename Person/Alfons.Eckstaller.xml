@@ -1,13 +1,12 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Alfons.Eckstaller</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:45Z</ReleaseDate>
-    <PersonName>Alfons Eckstaller</PersonName>
-    <OrganizationName>Colombusstrasse</OrganizationName>
-    <Address>Colombusstrasse, D-27568 Bremerhaven, Germany</Address>
-    <Email>alfons@awi-bremerhaven.de</Email>
-    <PhoneNumber>0049 4831 267</PhoneNumber>
-  </Person>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Alfons.Eckstaller</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Alfons Eckstaller</PersonName>
+      <OrganizationName>::UNKNOWN::</OrganizationName>
+      <Address>Alfred-Wegener-Institut Fuer Polar und Meeresforsch, Columbusstrasse, Postfach 12 01 61, 27515 Bremerhaven, Germany</Address>
+      <Email>alfons.eckstaller@awi.de</Email>
+   </Person>
 </Spase>

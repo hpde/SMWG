@@ -1,11 +1,11 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Ben.Estor</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
-    <PersonName>Ben Estor</PersonName>
-    <OrganizationName>IONO Division</OrganizationName>
-    <Address>IONO Division, Manila Observatory, Loyola Heights, Quezon City, P.O. Box 1231, Manila, Philippines</Address>
-  </Person>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Ben.Estor</ResourceID>
+      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Ben Estor</PersonName>
+      <OrganizationName>Department of Environment and Natural Resources, Geodetic Geophysics Division, Manila, Philippines</OrganizationName>
+      <Address>Manila Observatory, Loyola Heights, Quezon City, P.O. Box 1231, Manila, Republic of The Philippines</Address>
+   </Person>
 </Spase>
