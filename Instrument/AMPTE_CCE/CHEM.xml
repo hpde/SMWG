@@ -1,33 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-  <Version>2.2.2</Version>
-  <Instrument>
-    <ResourceID>spase://SMWG/Instrument/AMPTE_CCE/CHEM</ResourceID>
-    <ResourceHeader>
-      <ResourceName>AMPTE/CCE Charge-Energy-Mass Spectrometer</ResourceName>
-      <ReleaseDate>2012-03-10T01:55:44Z</ReleaseDate>
-      <Description>The AMPTE CCE Charge-Energy-Mass (CHEM) Spectrometer 
-measured the mass and charge-state compositions as well as the energy 
-spectra and pitch-angle distributions of all major ions from H through Fe 
-with energies from 0.3 to 300 keV/charge and a time resolution of less 
-than 1 minute in the Earth's magnetosphere and magnetosheath.  For further
-detail, see G. Gloeckler et al., IEEE Transactions on Geoscience and Remote 
-Sensing, v. GE-23, p. 234, 1985.</Description>
-      <Acknowledgement>User will acknowledge the AMPTE/CCE CHEM team in any 
-publication resulting from the use of these data.</Acknowledgement>
-      <Contact>
-        <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-      <InformationURL>
-        <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1984-088A-03</URL>
-        <Description>NSSDC information about the AMPTE/CCE CHEM experiment</Description>
-      </InformationURL>
-    </ResourceHeader>
-    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
-    <InvestigationName>CHEM</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/AMPTE_CCE</ObservatoryID>
-    <Caveats/>
-  </Instrument>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/AMPTE_CCE/CHEM</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Charge-Energy-Mass experiment (CHEM)</ResourceName>
+            <ReleaseDate>2011-06-15T00:00:00Z</ReleaseDate>
+            <Description>These 6.4-min averages of data from the Charge-Energy-Mass (CHEM) experiment are written on magnetic tape in SFDU format. Each physical block has a fixed length of 20,480 bytes, written in English/ASCII and VAX binary representation. The volume header file provides an outline of the content and structure of entries. It is followed by an ephemeris file of many blocks, which includes data on GSE Cartesian components of the spacecraft's location and velocity, its latitude and longitude, Cartesian components of the measured magnetic field, SM latitude and local time of the spacecraft, and local time of the subsatellite point, each listed every 5 min. Written next is an attitude file that includes the right ascension and declination of the direction of the spin axis, and the spin rate, listed once every orbit. It is followed by an "events" file that includes information on maneuvers, data gaps, anomalous conditions, etc. The final sequence of files contains the CHEM data written as one file per day of data. Each logical record of 5656 bytes includes the following 6.4-min averages: directional differential fluxes (1/(cm**2 s sr keV/Q) of H+, He+, He++, O+, and O++ from 16 channels covering the range 1.77-300.0 keV/Q; directional fluxes in three energy ranges (only two for He) from each of the 32 angular sectors in the spin plane, of the above five species and in the same units; and 512 matrix elements in a mass vs mass/charge space. Energy values of the matrix elements extend over the entire energy range of the instrument, and intercomparision of the elements should be avoided. Also included are data on the location of the spacecraft and measured GSE Cartesian components of the magnetic field. The header of each file provided adequate information on the content, structure, units, etc., so that little or no external documentation is required to abstract data of interest. Caution: the particle data are not corrected for background counts, and experimenters must be contacted for these counts.</Description>
+            <Acknowledgement/>
+            <Contact>
+                <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name/>
+                <URL>http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4072283&amp;tag=1</URL>
+                <Description>Paper about instrument</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+        <InvestigationName>CHEM CCE</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/AMPTE_CCE</ObservatoryID>
+    </Instrument>
 </Spase>

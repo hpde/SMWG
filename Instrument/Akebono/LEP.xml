@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Instrument>
-    <ResourceID>spase://SMWG/Instrument/Akebono/LEP</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Akebono Low Energy Particle (LEP) instrument</ResourceName>
-      <ReleaseDate>2011-03-01T22:09:07Z</ReleaseDate>
-      <Description>The Low Energy Particle instrumentation carried on the 
-Akebono spacecraft consists of many components.  Ion and electron E/Q
-analysis is carried out by two quadrispherical electrostatic analyzers
-(one for ions, one for electrons) each followed by five channeltrons.  
-Energy ranges for measured ions and electrone are 13 eV/Q - 20 keV/Q and 
-10 ev - 16 keV, respectively, with good spectral resolution in these 
-ranges.  Details on the instrument and its operations and data processing 
-is found in Mukai et. al., J. Geomag Geoelect, 42, 479-496, 1990.</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Toshifumi.Mukai</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-    </ResourceHeader>
-    <InstrumentType>QuadrisphericalAnalyser</InstrumentType>
-    <InvestigationName>Low Energy Particle (LEP)</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/Akebono</ObservatoryID>
-  </Instrument>
+<Spase>
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/Akebono/LEP</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Low Energy Particle Instrument (LEP)</ResourceName>
+            <ReleaseDate>2011-02-17T00:00:00Z</ReleaseDate>
+            <Description>The EXOS-D satellite has undertaken studies of particle-acceleration processes in the auroral magnetosphere; its low energy particle instrument gathers data on the energy and pitch-angle distributions of auroral electrons and ions, in conjunction with analyses of mass/charge of positive ions and onboard detections of particle-flux modulations in the HF and VLF. Attention is presently given to unique examples of high particle activity in the polar cap, and hot plasma distributions along the transpolar arc. These data are interpreted as signatures of longitudinal and/or temporal fluctuations of the magnetosheath plasma injection into the polar cusp. [Abstract of Journal of Geomagnetism and Geoelectricity (ISSN 0022-1392), vol. 42, no. 4, 1990, p. 479-496.]</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Toshifumi.Mukai</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <InformationURL>
+                <Name>Article describing instrument</Name>
+                <URL>http://adsabs.harvard.edu/abs/1990JGG....42..479M</URL>
+                <Description>Article describing instrument</Description>
+            </InformationURL>
+            <InformationURL>
+                <URL>http://darts.jaxa.jp/stp/akebono/LEP.html</URL>
+                <Description>Instrument web page</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+        <InvestigationName>Akebono LEP</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/Akebono</ObservatoryID>
+    </Instrument>
 </Spase>

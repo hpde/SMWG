@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Instrument>
-    <ResourceID>spase://SMWG/Instrument/Akebono/RDM</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Radiation Monitor(RDM)</ResourceName>
-      <ReleaseDate>2011-02-23T17:31:20Z</ReleaseDate>
-      <Description>The Akebono Radiation Monitor(RDM) consists of 
-a High Energy Particle Monitor (HPM) and a radiation effects monitor
-(RIC).  The HPM measured electrons at 0.3-0.95, 0.95-2.5, and &gt;2.5 MeV,
-protons at 6.3-15, 15-29, and 29-62 MeV, and 16-52 MeV alpha particlers.
-For further details, see Takagi, S., T. Nakamura, T. Kohno, N. Shiono, 
-F. Makino, Observation of Space Radiation Environment with EXOS-D, 
-IEEE Trans. Nucl. Sci., NS-40, 1491-1497, 1993.  See also
-http://www.darts.isas.jaxa.jp/akbn/readme/readme.rdm.txt</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Akira.S.Yukimatu</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-    </ResourceHeader>
-    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
-    <InvestigationName>Radiation Monitor(RDM)</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/Akebono</ObservatoryID>
-  </Instrument>
+<Spase>
+    <Version>2.2.2</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/Akebono/RDM</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Radiation Dose Instrument (RDM)</ResourceName>
+            <ReleaseDate>2011-02-17T00:00:00Z</ReleaseDate>
+            <Description>RDM (Radiation Monitor) on AKEBONO consists of HPM (High energy  particle monitor) and RIC (monitor for Radiation effect on IC).  RDM data files here on this SDB(Science Data Base) are summary files  for HPM data. This is a brief description for them.      HPM observes fluxes of electrons in three energy channels, protons  in three energy channels and alpha particles in one energy channel.  --------------------------------------- channel	 particle	energy range  name  ---------------------------------------   E1	 electron	&gt; 2.5MeV  	 E2	 electron	0.95 - 2.5MeV  	 E3	 electron	0.3  - 0.95MeV  	 P1	 proton		29   - 62MeV  	 P2	 proton		15   - 29MeV  	 P3	 proton		6.3  - 15MeV  	 AA	 alpha		16   - 52MeV  	 ---------------------------------------  [From: http://www.stp.isas.jaxa.jp/akebono/readme/readme.rdm.txt]</Description>
+            <Acknowledgement>http://dx.doi.org/10.1109/23.273513</Acknowledgement>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Akira.S.Yukimatu</PersonID>
+                <Role>CoInvestigator</Role>
+            </Contact>
+            <InformationURL>
+                <Name/>
+                <URL>http://darts.jaxa.jp/stp/akebono/RDM.html</URL>
+                <Description>Web page describing RDM instrument</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+        <InvestigationName>Akebono RDM</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/Akebono</ObservatoryID>
+    </Instrument>
 </Spase>
