@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Observatory>
-    <ResourceID>spase://SMWG/Observatory/SAMPEX</ResourceID>
-    <ResourceHeader>
-      <ResourceName>SAMPEX</ResourceName>
-      <AlternateName>1992-038A</AlternateName>
-      <AlternateName>Small Explorer/SAMPEX</AlternateName>
-      <AlternateName>Explorer 68</AlternateName>
-      <AlternateName>SMEX/SAMPEX</AlternateName>
-      <AlternateName>Solar Anomalous and Magnetospheric Particle Explorer</AlternateName>
-      <ReleaseDate>2010-08-05T18:19:17Z</ReleaseDate>
-      <Description>The Solar Anomalous and Magnetospheric Particle Explorer (SAMPEX) is the first of a series of spacecraft that was launched under the Small Explorer (SMEX) mission of program for low cost spacecraft. The main objectives of SAMPEX experiments was to obtained data for several continuous years on the anomalous components of cosmic rays, on solar energetic particles emissions from the sun, and on the precipitating magnetospheric relativistic electrons. The orbit of SAMPEX has an altitude of 512 by 687 km and an 81.7 degree inclination. The spacecraft uses an on-board 3-axis stabilized solar pointed/momentum bias system with the pitch axis pointed to towards the sun. Solar panels provide power for operations, including 16.7 W for science instruments. An on-board DPU preprocesses the science and other data and stores them in a RPP unit of about 65 Mb, before transmitting in the S-band at a rate of 1.5 Mb/s over Wallops (or a back-up) station. The command memory can store at least a thousand commands. The science instruments generally point toward local zenith, especially over the terrestrial poles, for optimal sampling of galactic and solar cosmic ray flux. Energetic magnetospheric particle precipitation is monitored at lower geomagnetic latitudes. It carries four science instruments: (1) low energy ion composition analyzer (LICA); (2) heavy ion large telescope (HILT); (3) mass spectrometer telescope (MAST); and (4) proton electron telescope (PET). Estimated useful lifetime of the spacecraft was about three years; however, the data stream continue to July, 2004. In 1997, NASA Goddard transferred operation of SAMPEX to the Flight Dynamics and Control Laboratory (FDCL) housed within the Aerospace Engineering Department of the University of Maryland. For more details, see IEEE Transactions on Geoscience and Remote Sensing (Vol 31, Issue 3, May 1993, pp. 531-574).</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Glenn.M.Mason</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-      <InformationURL>
-        <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1992-038A</URL>
-        <Description>Information about the SAMPEX mission</Description>
-      </InformationURL>
-    </ResourceHeader>
-    <Location>
-      <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
-    </Location>
-  </Observatory>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Observatory>
+        <ResourceID>spase://SMWG/Observatory/SAMPEX</ResourceID>
+        <ResourceHeader>
+            <ResourceName>SAMPEX</ResourceName>
+            <AlternateName>1992-038A</AlternateName>
+            <AlternateName>Small Explorer/SAMPEX</AlternateName>
+            <AlternateName>Explorer 68</AlternateName>
+            <AlternateName>SMEX/SAMPEX</AlternateName>
+            <AlternateName>Solar Anomalous and Magnetospheric Particle Explorer</AlternateName>
+            <ReleaseDate>2009-05-20T20:00:12Z</ReleaseDate>
+            <Description>The Solar Anomalous and Magnetospheric Particle Explorer (SAMPEX) is the first of a series of spacecraft that was launched under the Small Explorer (SMEX) mission of program for low cost spacecraft. The main objectives of SAMPEX experiments was to obtained data for several continuous years on the anomalous components of cosmic rays, on solar energetic particles emissions from the sun, and on the precipitating magnetospheric relativistic electrons. The orbit of SAMPEX has an altitude of 512 by 687 km and an 81.7 degree inclination. The spacecraft uses an on-board 3-axis stabilized solar pointed/momentum bias system with the pitch axis pointed to towards the sun. Solar panels provide power for operations, including 16.7 W for science instruments. An on-board DPU preprocesses the science and other data and stores them in a RPP unit of about 65 Mb, before transmitting in the S-band at a rate of 1.5 Mb/s over Wallops (or a back-up) station. The command memory can store at least a thousand commands. The science instruments generally point toward local zenith, especially over the terrestrial poles, for optimal sampling of galactic and solar cosmic ray flux. Energetic magnetospheric particle precipitation is monitored at lower geomagnetic latitudes. It carries four science instruments: (1) low energy ion composition analyzer (LICA); (2) heavy ion large telescope (HILT); (3) mass spectrometer telescope (MAST); and (4) proton electron telescope (PET). Estimated useful lifetime of the spacecraft was about three years; however, the data stream continue to July, 2004. In 1997, NASA Goddard transferred operation of SAMPEX to the Flight Dynamics and Control Laboratory (FDCL) housed within the Aerospace Engineering Department of the University of Maryland. For more details, see IEEE Transactions on Geoscience and Remote Sensing (Vol 31, Issue 3, May 1993, pp. 531-574).</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Glenn.M.Mason</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <InformationURL>
+                <Name>NSSDC's Master Catalog</Name>
+                <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1992-038A</URL>
+                <Description>Information about the SAMPEX mission</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <Location>
+            <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+        </Location>
+    </Observatory>
 </Spase>
