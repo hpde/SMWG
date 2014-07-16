@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/La.Ronge</ResourceID>
+      <ResourceHeader>
+         <ResourceName>La Ronge</ResourceName>
+         <AlternateName>Observatory Station Code: LARG</AlternateName>
+         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
+         <Description>The La Ronge geophysical observatory.</Description>
+         <Acknowledgement>NASA Contract NAS5-02099.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Martin.Connors</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>La Ronge Vector Magnetic Field Data</Name>
+            <URL>http://autumn.athabascau.ca/index_e.php</URL>
+            <Description>0.5-sec mag field data from 2008 10 17 to present</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>55.1581</Latitude>
+         <Longitude>254.7</Longitude>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2008-11-27T00:00:00.000</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

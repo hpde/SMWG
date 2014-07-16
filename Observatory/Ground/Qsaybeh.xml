@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/Qsaybeh</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Qsaybeh</ResourceName>
+         <AlternateName>Observatory Station Code: QSB</AlternateName>
+         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <Description>The Qsaybeh geophysical observatory.</Description>
+         <Acknowledgement>Please acknowledge:  National Center for Geophysical Research-CNRS</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Alexandre.Sursock</PersonID>
+            <Role>GeneralContact</Role>
+            <Role>DataProducer</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Benoit.Heumez</PersonID>
+            <Role>GeneralContact</Role>
+            <Role>DataProducer</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <PriorID>spase://SMWG/Observatory/WDC/Qsaybeh</PriorID>
+      </ResourceHeader>
+      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>33.87</Latitude>
+         <Longitude>35.644</Longitude>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2000-04-01T00:00:00.000</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

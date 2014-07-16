@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/Keetmanshoop</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Keetmanshoop</ResourceName>
+         <AlternateName>Observatory Station Code: KMH</AlternateName>
+         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <Description>The Keetmanshoop geophysical observatory.</Description>
+         <Acknowledgement>Please acknowledge:  Keetmanshoop Magnetic Observatory, Namibia</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Pieter.Kotze</PersonID>
+            <Role>GeneralContact</Role>
+            <Role>DataProducer</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+      </ResourceHeader>
+      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>-26.541</Latitude>
+         <Longitude>18.11</Longitude>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2009-01-01T00:00:00.000</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

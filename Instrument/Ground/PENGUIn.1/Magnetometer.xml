@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Ground/PENGUIn.1/Magnetometer</ResourceID>
+      <ResourceHeader>
+         <ResourceName>PENGUIn-1 Magnetometer</ResourceName>
+         <AlternateName>Magnetometer</AlternateName>
+         <AlternateName>Magnetometer Station Code: PG1</AlternateName>
+         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
+         <Description>The Magnetometer located at the PENGUIn-1 geophysical observatory.</Description>
+         <Acknowledgement>This effort is supported by the National Science Foundation throught the following awards: ANT0839858, ATM922979 (Virginia Tech), and ANT0838861 (University of Michigan).</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/C.Robert.Clauer</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>PENGUIn-1 Vector Magnetic Field Data</Name>
+            <URL>http://mist.nianet.org</URL>
+            <Description>PENGUIn Magnetometer Network informational web site</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Magnetometer</InstrumentType>
+      <InvestigationName></InvestigationName>
+      <OperatingSpan>
+         <StartDate>2008-01-09T00:00:00.000</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/Ground/PENGUIn.1</ObservatoryID>
+   </Instrument>
+</Spase>

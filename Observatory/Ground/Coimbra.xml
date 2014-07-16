@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/Coimbra</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Coimbra</ResourceName>
+         <AlternateName>Observatory Station Code: COI</AlternateName>
+         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <Description>The Coimbra geophysical observatory.</Description>
+         <Acknowledgement>Please acknowledge:  Instituto Geofysico, Universidade de Coimbra</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Paulo.Ribiero</PersonID>
+            <Role>GeneralContact</Role>
+            <Role>DataProducer</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <PriorID>spase://SMWG/Observatory/WDC/Coimbra</PriorID>
+      </ResourceHeader>
+      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>40.222</Latitude>
+         <Longitude>351.578</Longitude>
+      </Location>
+      <OperatingSpan>
+         <StartDate>1964-01-01T00:00:00.000</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

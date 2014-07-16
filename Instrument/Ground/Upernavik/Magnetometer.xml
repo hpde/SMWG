@@ -1,30 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-  <Version>2.2.2</Version>
-  <Instrument>
-    <ResourceID>spase://SMWG/Instrument/Ground/Upernavik/Magnetometer</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Upernavik Magnetometer</ResourceName>
-      <AlternateName>Magnetometer</AlternateName>
-      <AlternateName>Magnetometer Station Code: UPN</AlternateName>
-      <ReleaseDate>2012-01-31T12:34:56.789</ReleaseDate>
-      <Description>The Magnetometer located at the Upernavik geophysical observatory.</Description>
-      <Acknowledgement>Tromso Geophysical Observatory, University of Tromso</Acknowledgement>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-        <Role>MetadataContact</Role>
-      </Contact>
-      <InformationURL>
-        <Name>Upernavik Vector Magnetic Field Data</Name>
-        <URL>http://flux.phys.uit.no/geomag.html</URL>
-        <Description>Main menu: data access</Description>
-      </InformationURL>
-    </ResourceHeader>
-    <InstrumentType>Magnetometer</InstrumentType>
-    <InvestigationName>THEMIS Collaboration</InvestigationName>
-    <OperatingSpan>
-      <StartDate>2007-01-01T00:00:00.000</StartDate>
-    </OperatingSpan>
-    <ObservatoryID>spase://SMWG/Observatory/Ground/Upernavik</ObservatoryID>
-  </Instrument>
+   <Version>2.2.2</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Ground/Upernavik/Magnetometer</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Upernavik Magnetometer</ResourceName>
+         <AlternateName>Magnetometer</AlternateName>
+         <AlternateName>Magnetometer Station Code: UPN</AlternateName>
+         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
+         <Description>The Magnetometer located at the Upernavik geophysical observatory.</Description>
+         <Acknowledgement>Tromso Geophysical Observatory, University of Tromso, Norway</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Claudia.Stolle</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Juergen.Matzka</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Upernavik Vector Magnetic Field Data</Name>
+            <URL>http://www.space.dtu.dk/English/Research/Scientific_data_and_models/Magnetic_Ground_Stations.aspx</URL>
+            <Description>Main menu for access to magnetic field data</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Magnetometer</InstrumentType>
+      <InvestigationName></InvestigationName>
+      <OperatingSpan>
+         <StartDate>2007-01-01T00:00:00.000</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/Ground/Upernavik</ObservatoryID>
+   </Instrument>
 </Spase>

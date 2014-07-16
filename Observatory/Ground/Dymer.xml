@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/Dymer</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Dymer</ResourceName>
+         <AlternateName>Observatory Station Code: KIV</AlternateName>
+         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <Description>The Dymer geophysical observatory.</Description>
+         <Acknowledgement>Please acknowledge:  Arti Geophysical Observatory, Institute of Geophysics, Urals Branch of Russian Academy of Sciences</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Tatiana.Bondar</PersonID>
+            <Role>GeneralContact</Role>
+            <Role>DataProducer</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <PriorID>spase://SMWG/Observatory/WDC/Kiev</PriorID>
+      </ResourceHeader>
+      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>50.717</Latitude>
+         <Longitude>30.3</Longitude>
+      </Location>
+      <OperatingSpan>
+         <StartDate>1958-07-01T00:00:00.000</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

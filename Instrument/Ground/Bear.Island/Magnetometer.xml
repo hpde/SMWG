@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Ground/Bear.Island/Magnetometer</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Bear Island Magnetometer</ResourceName>
+         <AlternateName>Magnetometer Station Code: BJN</AlternateName>
+         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <Description>The Magnetometer located at the Bear Island geophysical observatory.</Description>
+         <Acknowledgement>Please acknowledge:  University of Tromso, The Auroral Observatory, Norway</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Truls.Lynne.Hansen</PersonID>
+            <Role>GeneralContact</Role>
+            <Role>DataProducer</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <PriorID>spase://SMWG/Instrument/WDC/Bear.Island/Magnetometer</PriorID>
+      </ResourceHeader>
+      <InstrumentType>Magnetometer</InstrumentType>
+      <InvestigationName>WDC_GDMC</InvestigationName>
+      <OperatingSpan>
+         <StartDate>1987-01-01T00:00:00.000</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/Ground/Bear.Island</ObservatoryID>
+   </Instrument>
+</Spase>

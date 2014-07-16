@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/Bangui</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Bangui</ResourceName>
+         <AlternateName>Observatory Station Code: BNG</AlternateName>
+         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <Description>The Bangui geophysical observatory.</Description>
+         <Acknowledgement>Please acknowledge:  Bureau Central de Magnetisme, Bangui, Central African Republic</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Gilbert.Juste</PersonID>
+            <Role>GeneralContact</Role>
+            <Role>DataProducer</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Benoit.Heumez</PersonID>
+            <Role>GeneralContact</Role>
+            <Role>DataProducer</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <PriorID>spase://SMWG/Observatory/WDC/Bangui</PriorID>
+      </ResourceHeader>
+      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>4.333</Latitude>
+         <Longitude>18.567</Longitude>
+      </Location>
+      <OperatingSpan>
+         <StartDate>1955-01-01T00:00:00.000</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

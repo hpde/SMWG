@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/Priddis</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Priddis</ResourceName>
+         <AlternateName>Observatory Station Code: ROTH</AlternateName>
+         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
+         <Description>The Priddis geophysical observatory.</Description>
+         <Acknowledgement>NASA Contract NAS5-02099.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Martin.Connors</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Priddis Vector Magnetic Field Data</Name>
+            <URL>http://sprg.ssl.berkeley.edu/themis</URL>
+            <Description>THEMIS Ground-based Observatory (GBO) MAGnetometers (GMAGs)</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>50.8727</Latitude>
+         <Longitude>245.7</Longitude>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2008-01-03T00:00:00.000</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

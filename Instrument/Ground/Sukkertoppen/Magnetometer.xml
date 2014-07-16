@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Ground/Sukkertoppen/Magnetometer</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Sukkertoppen Magnetometer</ResourceName>
+         <AlternateName>Magnetometer Station Code: SKT</AlternateName>
+         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <Description>The Magnetometer located at the Sukkertoppen geophysical observatory.</Description>
+         <Acknowledgement>Please acknowledge:  Sukkertoppen Observatory Director</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/WDC/Director.Sukkertoppen.Observatory</PersonID>
+            <Role>GeneralContact</Role>
+            <Role>DataProducer</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <PriorID>spase://SMWG/Instrument/WDC/Sukkertoppen/Magnetometer</PriorID>
+      </ResourceHeader>
+      <InstrumentType>Magnetometer</InstrumentType>
+      <InvestigationName>WDC_GDMC</InvestigationName>
+      <OperatingSpan>
+         <StartDate>1965-10-01T00:00:00.000</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/Ground/Sukkertoppen</ObservatoryID>
+   </Instrument>
+</Spase>

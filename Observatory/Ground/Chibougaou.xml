@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/Chibougaou</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Chibougaou</ResourceName>
+         <AlternateName>Observatory Station Code: CHBG</AlternateName>
+         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
+         <Description>The Chibougaou geophysical observatory.</Description>
+         <Acknowledgement>Please acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically: S. Mende and C. T. Russell for use of the data</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Chibougaou Vector Magnetic Field Data</Name>
+            <URL>http://themis.ssl.berkeley.edu/gmag_desc.shtml</URL>
+            <Description>THEMIS Ground-based Observatory (GBO) MAGnetometers (GMAGs)</Description>
+         </InformationURL>
+         <PriorID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-GBO/CHBG</PriorID>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>49.814</Latitude>
+         <Longitude>285.581</Longitude>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2006-11-18T00:00:00.000</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

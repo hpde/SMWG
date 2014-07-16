@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Ground/Pinawa/Magnetometer</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Pinawa Magnetometer</ResourceName>
+         <AlternateName>Magnetometer</AlternateName>
+         <AlternateName>Magnetometer Station Code: PINA</AlternateName>
+         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
+         <Description>The Magnetometer located at the Pinawa geophysical observatory.</Description>
+         <Acknowledgement>Please acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically: I. Mann for use of the data, and the CSA for support of the CARISMA network.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Ian.Mann</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Pinawa Vector Magnetic Field Data</Name>
+            <URL>http://themis.ssl.berkeley.edu/gmag_desc.shtml</URL>
+            <Description>THEMIS Ground-based Observatory (GBO) MAGnetometers (GMAGs)</Description>
+         </InformationURL>
+         <PriorID>spase://SMWG/Instrument/THEMIS/Ground/CANMAG/PINA/MAG</PriorID>
+      </ResourceHeader>
+      <InstrumentType>Magnetometer</InstrumentType>
+      <InvestigationName></InvestigationName>
+      <OperatingSpan>
+         <StartDate>2009-07-27T00:00:00.000</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/Ground/Pinawa</ObservatoryID>
+   </Instrument>
+</Spase>

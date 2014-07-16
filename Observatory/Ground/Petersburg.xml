@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/Petersburg</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Petersburg</ResourceName>
+         <AlternateName>Observatory Station Code: PTRS</AlternateName>
+         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
+         <Description>The Petersburg geophysical observatory.</Description>
+         <Acknowledgement>Please acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically: S. Mende and C. T. Russell for use of the data</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Petersburg Vector Magnetic Field Data</Name>
+            <URL>http://ds9.ssl.berkeley.edu/themis/schools/geons_schools.html</URL>
+            <Description>THEMIS</Description>
+         </InformationURL>
+         <PriorID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-EPO/PTRS</PriorID>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>56.81</Latitude>
+         <Longitude>227.05</Longitude>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2007-06-17T00:00:00.000</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

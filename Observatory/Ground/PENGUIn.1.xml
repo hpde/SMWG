@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/PENGUIn.1</ResourceID>
+      <ResourceHeader>
+         <ResourceName>PENGUIn-1</ResourceName>
+         <AlternateName>Observatory Station Code: PG1</AlternateName>
+         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
+         <Description>The PENGUIn-1 geophysical observatory.</Description>
+         <Acknowledgement>This effort is supported by the National Science Foundation throught the following awards: ANT0839858, ATM922979 (Virginia Tech), and ANT0838861 (University of Michigan).</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/C.Robert.Clauer</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>PENGUIn-1 Vector Magnetic Field Data</Name>
+            <URL>http://mist.nianet.org</URL>
+            <Description>PENGUIn Magnetometer Network informational web site</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>-85.501</Latitude>
+         <Longitude>77.199</Longitude>
+         <Elevation>3342.0</Elevation>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2008-01-09T00:00:00.000</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

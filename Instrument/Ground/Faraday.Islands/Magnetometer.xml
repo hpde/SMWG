@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Ground/Faraday.Islands/Magnetometer</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Faraday Islands Magnetometer</ResourceName>
+         <AlternateName>Argentine Island Magnetometer</AlternateName>
+         <AlternateName>Magnetometer Station Code: AIA</AlternateName>
+         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <Description>The Magnetometer located at the Faraday Islands geophysical observatory.</Description>
+         <Acknowledgement>Please acknowledge:  1) British Antarctic Survey (Before Feb 96), 2) Ukrainian Antartic Center, Institute of Geophysics, Academy of Sciences of the Ukraine (After Feb 96)</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Valery.Korepanov</PersonID>
+            <Role>GeneralContact</Role>
+            <Role>DataProducer</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Gennadi.Milinevsky</PersonID>
+            <Role>GeneralContact</Role>
+            <Role>DataProducer</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Vladimir.Bakhmutov</PersonID>
+            <Role>GeneralContact</Role>
+            <Role>DataProducer</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <PriorID>spase://SMWG/Instrument/WDC/Faraday.Islands/Magnetometer</PriorID>
+      </ResourceHeader>
+      <InstrumentType>Magnetometer</InstrumentType>
+      <InvestigationName>WDC_GDMC</InvestigationName>
+      <OperatingSpan>
+         <StartDate>1957-03-01T00:00:00.000</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/Ground/Faraday.Islands</ObservatoryID>
+   </Instrument>
+</Spase>

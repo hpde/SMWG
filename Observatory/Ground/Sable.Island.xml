@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/Sable.Island</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Sable Island</ResourceName>
+         <AlternateName>Observatory Station Code: SBL</AlternateName>
+         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <Description>The Sable Island geophysical observatory.</Description>
+         <Acknowledgement>Please acknowledge:  The results presented in this paper rely on the data collected at Sable Island observatory, operated by the British Geological Survey and Sable Offshore Energy with support from Sperry Drilling Services, Halliburton. These data may not be used for commercial purposes without the express permission of the British Geological Survey.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Sarah.Reay</PersonID>
+            <Role>GeneralContact</Role>
+            <Role>DataProducer</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+      </ResourceHeader>
+      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>43.933</Latitude>
+         <Longitude>299.983</Longitude>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2000-01-01T00:00:00.000</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

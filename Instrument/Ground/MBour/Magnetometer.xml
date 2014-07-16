@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Ground/MBour/Magnetometer</ResourceID>
+      <ResourceHeader>
+         <ResourceName>MBour Magnetometer</ResourceName>
+         <AlternateName>Magnetometer Station Code: MBO</AlternateName>
+         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <Description>The Magnetometer located at the MBour geophysical observatory.</Description>
+         <Acknowledgement>Please acknowledge:  Office pour la Recherche et de le Deloppement en Cooperation (O.R.S.T.O.M.)</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Gilbert.Juste</PersonID>
+            <Role>GeneralContact</Role>
+            <Role>DataProducer</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Benoit.Heumez</PersonID>
+            <Role>GeneralContact</Role>
+            <Role>DataProducer</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <PriorID>spase://SMWG/Instrument/WDC/MBour/Magnetometer</PriorID>
+      </ResourceHeader>
+      <InstrumentType>Magnetometer</InstrumentType>
+      <InvestigationName>WDC_GDMC</InvestigationName>
+      <OperatingSpan>
+         <StartDate>1952-03-01T00:00:00.000</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/Ground/MBour</ObservatoryID>
+   </Instrument>
+</Spase>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/Nampula</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Nampula</ResourceName>
+         <AlternateName>Observatory Station Code: NMP</AlternateName>
+         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <Description>The Nampula geophysical observatory.</Description>
+         <Acknowledgement>Please acknowledge:  Nampula Geomagnetic Observatory, Mozambique; Mucussete Antonio, Observatory operational support from Jean Rasson and John Riddick. Data processed by John Riddick and British Geological Survey. Nampula observatory is part of the INDIGO Programme (see http://nora.nerc.ac.uk/15125/).</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Chris.W.Turbitt</PersonID>
+            <Role>GeneralContact</Role>
+            <Role>DataProducer</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Mucussete.Antonio</PersonID>
+            <Role>GeneralContact</Role>
+            <Role>DataProducer</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <PriorID>spase://SMWG/Observatory/WDC/Nampula</PriorID>
+      </ResourceHeader>
+      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>-15.0886</Latitude>
+         <Longitude>39.2542</Longitude>
+      </Location>
+      <OperatingSpan>
+         <StartDate>1982-07-01T00:00:00.000</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

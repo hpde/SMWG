@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/Lethbridge</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Lethbridge</ResourceName>
+         <AlternateName>Observatory Station Code: LETH</AlternateName>
+         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
+         <Description>The Lethbridge geophysical observatory.</Description>
+         <Acknowledgement>NASA Contract NAS5-02099.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Martin.Connors</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Lethbridge Vector Magnetic Field Data</Name>
+            <URL>http://sprg.ssl.berkeley.edu/themis</URL>
+            <Description>THEMIS Ground-based Observatory (GBO) MAGnetometers (GMAGs)</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>49.6365</Latitude>
+         <Longitude>247.1</Longitude>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2007-01-06T00:00:00.000</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

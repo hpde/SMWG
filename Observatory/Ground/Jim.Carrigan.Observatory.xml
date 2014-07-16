@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/Jim.Carrigan.Observatory</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Jim Carrigan Observatory</ResourceName>
+         <AlternateName>Observatory Station Code: JCO</AlternateName>
+         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <Description>The Jim Carrigan Observatory geophysical observatory.</Description>
+         <Acknowledgement>Please acknowledge:  The results presented in this paper rely on the data collected at Jim Carrigan magnetic observatory, operated by Sperry Drilling Services, Halliburton and the British Geological Survey with support from BP. These data may not be used for commercial purposes without the express permission of Sperry Drilling Services, Halliburton.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Sarah.Reay</PersonID>
+            <Role>GeneralContact</Role>
+            <Role>DataProducer</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+      </ResourceHeader>
+      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>70.356</Latitude>
+         <Longitude>211.201</Longitude>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2005-01-01T00:00:00.000</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/Cha.Pa</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Cha Pa</ResourceName>
+         <AlternateName>Sapa</AlternateName>
+         <AlternateName>Observatory Station Code: CPA</AlternateName>
+         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <Description>The Cha Pa geophysical observatory.</Description>
+         <Acknowledgement>Please acknowledge:  Vietnam National Centre for Science and Technology (V.N.C.S.T. Institute of Geophysics)</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Ha.Duyen.Chau</PersonID>
+            <Role>GeneralContact</Role>
+            <Role>DataProducer</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <PriorID>spase://SMWG/Observatory/WDC/Sapa</PriorID>
+      </ResourceHeader>
+      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>22.35</Latitude>
+         <Longitude>103.833</Longitude>
+      </Location>
+      <OperatingSpan>
+         <StartDate>1957-09-01T00:00:00.000</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

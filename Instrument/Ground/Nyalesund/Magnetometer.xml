@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Ground/Nyalesund/Magnetometer</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Nyalesund Magnetometer</ResourceName>
+         <AlternateName>Magnetometer</AlternateName>
+         <AlternateName>Magnetometer Station Code: NAL</AlternateName>
+         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
+         <Description>The Magnetometer located at the Nyalesund geophysical observatory.</Description>
+         <Acknowledgement>Tromso Geophysical Observatory, University of Tromso, Norway</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Truls.Lynne.Hansen</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Nyalesund Vector Magnetic Field Data</Name>
+            <URL>http://flux.phys.uit.no/geomag.html</URL>
+            <Description>Main menu for access to magnetic field data</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Magnetometer</InstrumentType>
+      <InvestigationName>THEMIS Collaboration</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2009-01-18T00:00:00.000</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/Ground/Nyalesund</ObservatoryID>
+   </Instrument>
+</Spase>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/Cape.Dorset</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Cape Dorset</ResourceName>
+         <AlternateName>Observatory Station Code: CDRT</AlternateName>
+         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
+         <Description>The Cape Dorset geophysical observatory.</Description>
+         <Acknowledgement>MACCS, Augsburg College</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Erik.S.Steinmetz</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Cape Dorset Vector Magnetic Field Data</Name>
+            <URL>http://space.augsburg.edu</URL>
+            <Description>Automatic Geophysical Observatories</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>64.2</Latitude>
+         <Longitude>283.4</Longitude>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2008-01-01T00:00:00.000</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>
