@@ -1,5 +1,5 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
-    <Version>2.2.0</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
     <NumericalData>
         <ResourceID>spase://VMO/NumericalData/POLAR/TIDE/H0-CDF</ResourceID>
         <ResourceHeader>
@@ -50,7 +50,7 @@ about the data processing.</Description>
             <Format>CDF</Format>
         </AccessInformation>
         <AccessInformation>
-            <ResourceID>spase://SMWG/Repository/NASA/NSSTC/POLAR.TIDE</ResourceID>
+            <RepositoryID>spase://SMWG/Repository/NASA/NSSTC/POLAR.TIDE</RepositoryID>
             <Availability>Online</Availability>
             <AccessRights>Open</AccessRights>
             <AccessURL>
@@ -136,7 +136,7 @@ and continuing throughout the rest of the mission, the high voltage on the MCPs 
             <FillValue>-1.0E31</FillValue>
             <Particle>
                 <ParticleType>Ion</ParticleType>
-                <Qualifer>Moment</Qualifer>
+                <Qualifier>Moment</Qualifier>
                 <ParticleQuantity>NumberDensity</ParticleQuantity>
                 <AtomicNumber>1</AtomicNumber>
             </Particle>
@@ -167,7 +167,7 @@ see moments_lim.</Description>
             <FillValue>-1.0E31</FillValue>
             <Particle>
                 <ParticleType>Ion</ParticleType>
-                <Qualifer>Moment</Qualifer>
+                <Qualifier>Moment</Qualifier>
                 <ParticleQuantity>Velocity</ParticleQuantity>
                 <AtomicNumber>1</AtomicNumber>
             </Particle>
@@ -195,7 +195,7 @@ calculation limits.</Description>
             <FillValue>-1.0E31</FillValue>
             <Particle>
                 <ParticleType>Ion</ParticleType>
-                <Qualifer>Moment</Qualifer>
+                <Qualifier>Moment</Qualifier>
                 <ParticleQuantity>Temperature</ParticleQuantity>
                 <AtomicNumber>1</AtomicNumber>
             </Particle>
@@ -214,7 +214,7 @@ over spin and polar angles.  See spect_lim for sum/avg limits, see sum_avg to de
             <FillValue>-1.0E31</FillValue>
             <Particle>
                 <ParticleType>Ion</ParticleType>
-                <Qualifer>Differential</Qualifer>
+                <Qualifier>Differential</Qualifier>
                 <ParticleQuantity>EnergyFlux</ParticleQuantity>
                 <AtomicNumber>1</AtomicNumber>
                 <EnergyRange>
@@ -394,7 +394,7 @@ was used.</Description>
             <FillValue>-1.0E31</FillValue>
             <Particle>
                 <ParticleType>Ion</ParticleType>
-                <Qualifer>Differential</Qualifer>
+                <Qualifier>Differential</Qualifier>
                 <ParticleQuantity>EnergyFlux</ParticleQuantity>
                 <AtomicNumber>1</AtomicNumber>
                 <AzimuthalAngleRange>
@@ -579,7 +579,7 @@ was used.</Description>
             <FillValue>-1.0E31</FillValue>
             <Particle>
                 <ParticleType>Ion</ParticleType>
-                <Qualifer>Differential</Qualifer>
+                <Qualifier>Differential</Qualifier>
                 <ParticleQuantity>EnergyFlux</ParticleQuantity>
                 <AtomicNumber>1</AtomicNumber>
                 <PolarAngleRange>
@@ -634,7 +634,7 @@ was used.</Description>
             <FillValue>-1.0E31</FillValue>
             <Particle>
                 <ParticleType>Ion</ParticleType>
-                <Qualifer>Moment</Qualifer>
+                <Qualifier>Moment</Qualifier>
                 <ParticleQuantity>NumberDensity</ParticleQuantity>
                 <AtomicNumber>16</AtomicNumber>
             </Particle>
@@ -665,7 +665,7 @@ was used.</Description>
             <FillValue>-1.0E31</FillValue>
             <Particle>
                 <ParticleType>Ion</ParticleType>
-                <Qualifer>Moment</Qualifer>
+                <Qualifier>Moment</Qualifier>
                 <ParticleQuantity>Velocity</ParticleQuantity>
                 <AtomicNumber>16</AtomicNumber>
             </Particle>
@@ -693,7 +693,7 @@ calculation limits.</Description>
             <FillValue>-1.0E31</FillValue>
             <Particle>
                 <ParticleType>Ion</ParticleType>
-                <Qualifer>Moment</Qualifer>
+                <Qualifier>Moment</Qualifier>
                 <ParticleQuantity>Temperature</ParticleQuantity>
                 <AtomicNumber>16</AtomicNumber>
             </Particle>
@@ -712,7 +712,7 @@ over spin and polar angles.  See spect_lim for sum/avg limits, see sum_avg to de
             <FillValue>-1.0E31</FillValue>
             <Particle>
                 <ParticleType>Ion</ParticleType>
-                <Qualifer>Differential</Qualifer>
+                <Qualifier>Differential</Qualifier>
                 <ParticleQuantity>EnergyFlux</ParticleQuantity>
                 <AtomicNumber>16</AtomicNumber>
                 <EnergyRange>
@@ -892,7 +892,7 @@ was used.</Description>
             <FillValue>-1.0E31</FillValue>
             <Particle>
                 <ParticleType>Ion</ParticleType>
-                <Qualifer>Differential</Qualifer>
+                <Qualifier>Differential</Qualifier>
                 <ParticleQuantity>EnergyFlux</ParticleQuantity>
                 <AtomicNumber>16</AtomicNumber>
                 <AzimuthalAngleRange>
@@ -1077,7 +1077,7 @@ used.</Description>
             <FillValue>-1.0E31</FillValue>
             <Particle>
                 <ParticleType>Ion</ParticleType>
-                <Qualifer>Differential</Qualifer>
+                <Qualifier>Differential</Qualifier>
                 <ParticleQuantity>EnergyFlux</ParticleQuantity>
                 <AtomicNumber>16</AtomicNumber>
                 <PolarAngleRange>
@@ -1132,7 +1132,7 @@ used.</Description>
             <FillValue>-1.0E31</FillValue>
             <Particle>
                 <ParticleType>Ion</ParticleType>
-                <Qualifer>Moment</Qualifer>
+                <Qualifier>Moment</Qualifier>
                 <ParticleQuantity>NumberDensity</ParticleQuantity>
                 <AtomicNumber>4</AtomicNumber>
             </Particle>
@@ -1163,7 +1163,7 @@ used.</Description>
             <FillValue>-1.0E31</FillValue>
             <Particle>
                 <ParticleType>Ion</ParticleType>
-                <Qualifer>Moment</Qualifer>
+                <Qualifier>Moment</Qualifier>
                 <ParticleQuantity>Velocity</ParticleQuantity>
                 <AtomicNumber>4</AtomicNumber>
             </Particle>
@@ -1191,7 +1191,7 @@ calculation limits.</Description>
             <FillValue>-1.0E31</FillValue>
             <Particle>
                 <ParticleType>Ion</ParticleType>
-                <Qualifer>Moment</Qualifer>
+                <Qualifier>Moment</Qualifier>
                 <ParticleQuantity>Temperature</ParticleQuantity>
                 <AtomicNumber>4</AtomicNumber>
             </Particle>
@@ -1210,7 +1210,7 @@ spect_lim for sum/avg limits, see sum_avg to determine which one was used.</Desc
             <FillValue>-1.0E31</FillValue>
             <Particle>
                 <ParticleType>Ion</ParticleType>
-                <Qualifer>Differential</Qualifer>
+                <Qualifier>Differential</Qualifier>
                 <ParticleQuantity>EnergyFlux</ParticleQuantity>
                 <AtomicNumber>4</AtomicNumber>
                 <EnergyRange>
@@ -1390,7 +1390,7 @@ was used.</Description>
             <FillValue>-1.0E31</FillValue>
             <Particle>
                 <ParticleType>Ion</ParticleType>
-                <Qualifer>Differential</Qualifer>
+                <Qualifier>Differential</Qualifier>
                 <ParticleQuantity>EnergyFlux</ParticleQuantity>
                 <AzimuthalAngleRange>
                     <Low>0.00</Low>
@@ -1574,7 +1574,7 @@ used</Description>
             <FillValue>-1.0E31</FillValue>
             <Particle>
                 <ParticleType>Ion</ParticleType>
-                <Qualifer>Differential</Qualifer>
+                <Qualifier>Differential</Qualifier>
                 <ParticleQuantity>EnergyFlux</ParticleQuantity>
                 <AtomicNumber>4</AtomicNumber>
                 <PolarAngleRange>

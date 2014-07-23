@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-  <Version>2.2.1</Version>
+  <Version>2.2.2</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/GIRO/FZA0M_Fortaleza</ResourceID>
     <ResourceHeader>
@@ -34,7 +34,7 @@
       <Longitude>321.60</Longitude>
     </Location>
     <OperatingSpan>
-      <StartDate>2001-22-22T00:00:00Z</StartDate>
+      <StartDate>2001-01-22T00:00:00Z</StartDate>
       <Note>Operating span per GIRO data holdings; earlier or later data may be available elsewhere.</Note>
     </OperatingSpan>
   </Observatory>
