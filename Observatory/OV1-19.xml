@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Observatory>
+        <ResourceID>spase://SMWG/Observatory/OV1-19</ResourceID>
+        <ResourceHeader>
+            <ResourceName>LANL97A</ResourceName>
+            <AlternateName>1969-025C</AlternateName>
+            <AlternateName>03825</AlternateName>
+            <ReleaseDate>2014-07-24T00:00:00Z</ReleaseDate>
+            <Description>OV1-19 was one of four research satellites injected into orbit simultaneously from a single launch vehicle. 
+                The spacecraft was an 81-cm-long cylinder measuring 69 cm in diameter, and was fitted with hemispheric multifaced 
+                solar panel domes on either end. The spin-stabilized spacecraft had two major objectives: (1) to make a detailed 
+                study of events causing and sustaining trapped radiation in the Van Allen belts, and (2) to study the hazards to 
+                man of incoming and trapped radiation. The spacecraft performed normally from launch until early 1970, when serious 
+                problems developed in its telemetry system. The amount of useful data continually declined during this period, and 
+                the spacecraft was deactivated in March 1970.
+            </Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <ObservatoryGroupID>spase://SMWG/Observatory/OV1</ObservatoryGroupID>
+        <Location>
+            <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
+            <ObservatoryRegion>Earth.Magnetosphere.RadiationBelt</ObservatoryRegion>
+        </Location>
+        <OperatingSpan>
+            <StartDate>1969-03-18T00:00:00Z</StartDate>
+            <StopDate>1970-03-31T00:00:00Z</StopDate>
+            <Note>Exact Stop Date could not be determined.</Note>
+        </OperatingSpan>
+    </Observatory>
+</Spase>

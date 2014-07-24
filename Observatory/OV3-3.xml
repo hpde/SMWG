@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Observatory>
+        <ResourceID>spase://SMWG/Observatory/OV3-3</ResourceID>
+        <ResourceHeader>
+            <ResourceName>LANL97A</ResourceName>
+            <AlternateName>1966-070A</AlternateName>
+            <AlternateName>02389</AlternateName>
+            <ReleaseDate>2014-07-24T00:00:00Z</ReleaseDate>
+            <Description>The OV3-3 spacecraft was placed into a polar orbit to measure trapped and precipitating particles and 
+                correlated electromagnetic wave fields. The spacecraft was spin stabilized at 8 rpm, and its systems performed 
+                well for 14 months, until September 1967 when the onboard tape recorder failed. After that time, low-latitude, 
+                real-time tracking continued into 1969 when the spacecraft was deactivated.               
+            </Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <Location>
+            <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
+            <ObservatoryRegion>Earth.Magnetosphere.RadiationBelt</ObservatoryRegion>
+        </Location>
+        <OperatingSpan>
+            <StartDate>1966-08-04T00:00:00Z</StartDate>
+            <StopDate>1969-12-31T00:00:00Z</StopDate>
+            <Note>Exact Stop Date could not be determined.</Note>
+        </OperatingSpan>
+    </Observatory>
+</Spase>
