@@ -14,8 +14,12 @@ magnetometers associated with the THEMIS spaceflight mission.  Note
 that VMO has provided many station-specific instrument descriptors
 to the SMWG instrument registry.</Description>
       <Contact>
-        <PersonID>spase://SMWG/Person/Lee.F.Bargatze</PersonID>
+        <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
         <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
       </Contact>
       <InformationURL>
         <Name>THEMIS web site ground magnetometer page</Name>
