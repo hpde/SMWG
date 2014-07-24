@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Instrument/Wind/SMS/STICS</ResourceID>
     <ResourceHeader>
       <ResourceName>The SupraThermal Ion Composition Spectrometer (STICS)</ResourceName>
-      <ReleaseDate>2011-08-17T19:50:26Z</ReleaseDate>
+      <ReleaseDate>2014-07-24T00:00:00Z</ReleaseDate>
       <Description>The SupraThermal Ion Composition Spectrometer (STICS) determines the mass, mass per charge, and energy 
         for ions in the energy range of 6-230 keV/e.</Description>
       <Contact>
@@ -14,8 +14,8 @@
       </Contact>
       <InformationURL>
         <Name>Wind spacecraft SMS Documentation</Name>
-        <URL>http://wind.nasa.gov/inst_info.php#SMS_Docs</URL>
-        <Description>Information related to the SMS instrument suite at the Wind spacecraft website.</Description>
+        <URL>http://link.springer.com/article/10.1007/BF00751327</URL>
+        <Description>The Space Science Reviews paper describing the Wind SMS instrument suite.</Description>
       </InformationURL>
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
