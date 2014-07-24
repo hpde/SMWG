@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/GOES/5/EPS</ResourceID>
@@ -22,7 +22,7 @@
       </InformationURL>
       <InformationURL>
         <Name>Data Provider README</Name>
-        <URL>http://goes.ngdc.noaa.gov/data/avg/readme.txt</URL>
+        <URL>http://satdat.ngdc.noaa.gov/sem/goes/data/avg/readme.txt</URL>
         <Description>Caveats and more information about data from this instrument.</Description>
       </InformationURL>
       <PriorID>spase://SMWG/Instrument/GOES5/GOES/EPS</PriorID>
