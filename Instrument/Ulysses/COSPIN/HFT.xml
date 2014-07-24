@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>High Flux Telescope</ResourceName>
       <AlternateName>COSPIN/HFT</AlternateName>
-      <ReleaseDate>2009-09-18T21:10:12Z</ReleaseDate>
+      <ReleaseDate>2014-07-24T00:00:00Z</ReleaseDate>
       <Description>High Flux Telescope (HFT): ~0.3-7 MeV protons, 0.4-4 MeV/n He with a small aperture single detector telescope for use in 
         very high flux situations
         
@@ -23,9 +23,9 @@
         <Role>CoInvestigator</Role>
       </Contact>
       <InformationURL>
-        <Name>HFT Instrument Description</Name>
-        <URL>http://hiauly1.hia.nrc.ca/index.html</URL>
-        <Description>Information about the HFT experiment on the Ulysses mission.</Description>
+        <Name>HFT Instrument User Notes</Name>
+        <URL>http://www.rssd.esa.int/helio/archive/cospin_hft_un.html</URL>
+        <Description>User Notes about the HFT experiment on the Ulysses mission.</Description>
       </InformationURL>
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
