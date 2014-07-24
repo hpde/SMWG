@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Repository/NASA/GSFC/Wind</ResourceID>
     <ResourceHeader>
       <ResourceName>Wind Spacecraft Home Page and Data Repository</ResourceName>
-      <ReleaseDate>2011-08-18T15:54:53Z</ReleaseDate>
+      <ReleaseDate>2014-07-24T00:00:00Z</ReleaseDate>
       <Description>Data Repository for Wind data files as well as instrument descriptions and related links for the Wind mission.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
@@ -13,9 +13,9 @@
         <Role>Scientist</Role>
       </Contact>
       <InformationURL>
-        <Name>Wind Spacecraft Home Page</Name>
-        <URL>http://wind.nasa.gov/</URL>
-        <Description>Wind home page with description of instruments and access to data files.</Description>
+        <Name>Wind Spacecraft Data</Name>
+        <URL>ftp://pwgdata.gsfc.nasa.gov/pub/00readme.html</URL>
+        <Description>FTP Site for Distribution of Polar, Wind, and Geotail Science Data</Description>
       </InformationURL>
       <PriorID>spase://VHO/Repository/WIND/MFI</PriorID>
       <PriorID>spase://SMWG/Repository/NASA/GSFC/WIND_MFI</PriorID>

@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Repository/NASA/GSFC/POLAR.TIDE</ResourceID>
     <ResourceHeader>
       <ResourceName>GSFC POLAR TIDE Repository</ResourceName>
-      <ReleaseDate>2009-09-18T00:00:00</ReleaseDate>
+      <ReleaseDate>2014-07-24T00:00:00Z</ReleaseDate>
       <Description>
 Polar TIDE  web server and data archive located at GSFC.  There is a mirror site located at the National Space Science and 
 Technology Center (NSSTC) in Huntsville, Alabama, see spase://SMWG/Repository/NASA/NSSTC/POLAR.TIDE.
@@ -24,7 +24,7 @@ Technology Center (NSSTC) in Huntsville, Alabama, see spase://SMWG/Repository/NA
       </Contact>
       <InformationURL>
         <Name>TIDE Home Page</Name>
-        <URL>http://tide.gsfc.nasa.gov/</URL>
+        <URL>http://pwg.gsfc.nasa.gov/polar/data_products.shtml#instruments</URL>
         <Description>
 The Polar Thermal Ion Dynamics Experiment (TIDE) Home Page contains links to web pages that allow users to view summary plots 
 of the entire mission (View Summary Plots and View Thumbnails); analyze, plot, and dump data (Custom Plots and Data Dumps); 
@@ -38,7 +38,7 @@ instrument description.
     </ResourceHeader>
     <AccessURL>
       <Name>TIDE Data Archive</Name>
-      <URL>http://tide.gsfc.nasa.gov/archive/</URL>
+      <URL>http://spdf.sci.gsfc.nasa.gov/pub/data/polar/tide/</URL>
       <Description>
 				The TIDE Data Archive contains all TIDE data and plot files.  The files can most easily be accessed through the appropriate 
 				links on the TIDE website but they can be accessed directly.  See http://tide.gsfc.nasa.gov/data_archive_desc.shtml 
