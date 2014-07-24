@@ -15,11 +15,14 @@
            <InformationURL>
                  <Name>NSSDC's Master Catalog</Name>
                  <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1999-002A-03</URL>
-                 <Description> Information about the ROCSAT1,IPEI, Ionospheric Plasma and Electrodynamics Instrument experiment on the ROCSAT-1 mission.
+                 <Description>Information about the ROCSAT1,IPEI, Ionospheric Plasma and Electrodynamics Instrument experiment on the ROCSAT-1 mission.
 </Description>
            </InformationURL>
            <InformationURL>
-             <URL>http://csrsddc.csrsr.ncu.edu.tw/</URL>
+             <Name>Scientific Mission of the IPEI Payload Onboard ROCSAT-1</Name>
+             <URL>http://tao.cgu.org.tw/pdf/v10SI3p019.pdf</URL>
+             <Description>Published in the TAO, Supplementary Issue, 19-42, March 1999</Description>
+             <Language>en</Language>
            </InformationURL>
         </ResourceHeader>
      <InstrumentType>IonChamber</InstrumentType>
