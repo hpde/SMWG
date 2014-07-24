@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.2</Version>
+    <Observatory>
+        <ResourceID>spase://SMWG/Observatory/LANL/01A</ResourceID>
+        <ResourceHeader>
+            <ResourceName>LANL01A</ResourceName>
+            <ReleaseDate>2014-07-24T00:00:00Z</ReleaseDate>
+            <Description>Geosynchronous spacecraft carrying energetic electron and ion instruments</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <ObservatoryGroupID>spase://SMWG/Observatory/LANL</ObservatoryGroupID>
+        <Location>
+            <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
+            <ObservatoryRegion>Earth.Magnetosphere.RadiationBelt</ObservatoryRegion>
+        </Location>
+    </Observatory>
+</Spase>
