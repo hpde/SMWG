@@ -1,0 +1,33 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_3.xsd">
+    <Version>2.2.3</Version>
+    <Service>
+        <ResourceID>spase://SMWG/Service/NASA/GSFC/SPDF/FTPBrowser-Website</ResourceID>
+        <ResourceHeader>
+            <ResourceName>FTPBrowser Website</ResourceName>
+            <ReleaseDate>2014-10-27T00:00:00</ReleaseDate>
+            <Description>
+The FTPBrowser at GSFC/SPDF is an interface for graphical or digital display and/or retrieval of subsets of data that are in selected ones of SPDF's ftp-accessible ASCII or g-zipped ASCII data sets. 
+			</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Joseph.H.King</PersonID>
+                <Role>PrincipalInvestigator</Role>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Natalia.E.Papitashvili</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
+                <Role>MetadataContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <AccessURL>
+            <Name>FTPBrowser Home Page</Name>
+            <URL>http://omniweb.gsfc.nasa.gov/ftpbrowser/</URL>
+            <Description>
+The FTPBrowser Home Page contains links to  available SPDF's ftp-accessible ASCII data sets via SPDF ftp and OMNIWeb plus browser.
+			</Description>
+        </AccessURL>
+    </Service>
+</Spase>
