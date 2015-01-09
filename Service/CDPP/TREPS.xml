@@ -1,0 +1,29 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_3.xsd">
+<Version>2.2.3</Version>
+<Service>
+        <ResourceID>spase://SMWG/Service/CDPP/TREPS</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Transformation de REperes en Physique Spatiale Website</ResourceName>
+            <ReleaseDate>2014-07-11T00:00:00Z </ReleaseDate>
+            <Description>
+            TREPS is an online tool enabling common space physics coordinate transformations. It also allows time format transformations.
+            Input data can be loaded from files, URL, or transferred via the IVOA SAMP protocol; accepted formats are CDF, netCDF, ascii and VOTable.
+            Export to any of these formats are possible as well as direct vizualisation (plot) of input and output data.
+            </Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Vincent.Genot</PersonID>
+                <Role>ProjectScientist</Role>
+            </Contact>
+            <InformationURL>
+                <Name>TREPS home page</Name>
+                <URL>http://treps.cdpp.eu/</URL>
+                <Description>
+                    TREPS service home page at CDPP.
+                </Description>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessURL>
+            <URL>http://treps.cdpp.eu/</URL>
+        </AccessURL>
+    </Service>
+</Spase>

@@ -1,21 +1,28 @@
-<?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
-  <Version>2.0.1</Version>
-  <Repository>
-    <ResourceID>spase://SMWG/Repository/CDPP/SIPAD</ResourceID>
-    <ResourceHeader>
-      <ResourceName>SIPAD</ResourceName>
-      <ReleaseDate>2009-11-13T22:08:14Z</ReleaseDate>
-      <Description>This is the SIPAD.</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Christian.Jacquey</PersonID>
-        <Role>ProjectScientist</Role>
-      </Contact>
-    </ResourceHeader>
-    <AccessURL>
-      <Name>SIPAD home page</Name>
-      <URL>http://cdpp2.cnes.fr/cdpp/</URL>
-      <Description>Home page for the CDPP/CNES data repository.</Description>
-    </AccessURL>
-  </Repository>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_3.xsd">
+<Version>2.2.3</Version>
+<Repository>
+        <ResourceID>spase://SMWG/Repository/CDPP/SIPAD</ResourceID>
+        <ResourceHeader>
+            <ResourceName>SIPAD</ResourceName>
+            <ReleaseDate>2009-09-02T00:00:00Z </ReleaseDate>
+            <Description>
+            SIPAD is the data portal for perennial data holding of CDPP. It is developped and maintained by CNES.
+            Data include STEREO/SWAVES, WIND, DEMETER, ARCAD-3, GEOS, CASSINI/RPWS, ...
+            </Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Nicolas.Dufourg</PersonID>
+                <Role>ProjectScientist</Role>
+            </Contact>
+            <InformationURL>
+                <Name>SIPAD home page</Name>
+                <URL>http://cdpp2.cnes.fr/cdpp/</URL>
+                <Description>
+                    Home page for the CDPP/CNES data repository.
+                </Description>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessURL>
+            <URL>http://cdpp2.cnes.fr/cdpp</URL>
+        </AccessURL>
+    </Repository>
 </Spase>

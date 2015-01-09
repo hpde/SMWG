@@ -1,0 +1,29 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_3.xsd">
+<Version>2.2.3</Version>
+<Service>
+        <ResourceID>spase://SMWG/Service/CDPP/3DView</ResourceID>
+        <ResourceHeader>
+            <ResourceName>3DView Website</ResourceName>
+            <ReleaseDate>2014-07-11T00:00:00Z </ReleaseDate>
+            <Description>
+            3DView is a science tool that offers immediate 3D visualization of spacecraft position and attitude, planetary ephemerides, as well as scientific data representation (observations and models). 
+            A large number of mission trajectories are included (via Spice Kernels) : Cluster, Themis, Solar Orbiter, Juice, Juno, Maven, Mars Express, Venus Express, ...
+            3DView can access observational database (AMDA, CDAWeb, CLweb, ...) as well as simulation and model databases (from FMI, LATMOS, SINP, ...) 
+            </Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Vincent.Genot</PersonID>
+                <Role>ProjectScientist</Role>
+            </Contact>
+            <InformationURL>
+                <Name>3DView home page</Name>
+                <URL>http://3dview.cdpp.eu/</URL>
+                <Description>
+                    3DView service home page at CDPP.
+                </Description>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessURL>
+            <URL>http://3dview.cdpp.eu/</URL>
+        </AccessURL>
+    </Service>
+</Spase>

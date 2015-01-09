@@ -1,0 +1,31 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_3.xsd">
+<Version>2.2.3</Version>
+<Service>
+        <ResourceID>spase://SMWG/Service/CDPP/PropagationTool</ResourceID>
+        <ResourceHeader>
+            <ResourceName>PropagationTool Website</ResourceName>
+            <ReleaseDate>2014-07-11T00:00:00Z </ReleaseDate>
+            <Description>
+            The Propagation Tool is an interactive tool accessible to the solar, heliospheric and planetary science communities to track solar storms, streams and energetic particles in the heliosphere. This tool was defined and developed by IRAP and IAS staff through a subcontract with GFI informatique and CNES financial support. It follows on from and is complementary to the propagation tool developed by the FP7 HELIO project.
+            The Propagation Tool allows users:
+            - to propagate solar eruptions (CMEs) radially sunward or anti-sunward (Radial Propagation),
+            - to propagate corotating structures (CIRs) in the heliosphere (Corotation),
+            - to propagate solar energetic particles along magnetic fields lines sunward or anti-sunward (SEP Propagation).  
+            </Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Vincent.Genot</PersonID>
+                <Role>ProjectScientist</Role>
+            </Contact>
+            <InformationURL>
+                <Name>PropagationTool home page</Name>
+                <URL>http://propagationtool.cdpp.eu/</URL>
+                <Description>
+                    Propagation Tool home page at CDPP.
+                </Description>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessURL>
+            <URL>http://propagationtool.cdpp.eu/</URL>
+        </AccessURL>
+    </Service>
+</Spase>

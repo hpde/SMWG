@@ -1,11 +1,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_3.xsd">
 <Version>2.2.3</Version>
 <Person>
-        <ResourceID>spase://SMWG/Person/Vincent.Genot</ResourceID>
+        <ResourceID>spase://SMWG/Person/Nicolas.Dufourg</ResourceID>
         <ReleaseDate>2014-07-11T00:00:00Z</ReleaseDate>
-        <PersonName>Vincent Genot</PersonName>
-        <OrganizationName>IRAP / Centre National de la Recherche Scientifique / Universite de Toulouse (UPS)</OrganizationName>
-        <Email>vincent.genot@irap.omp.eu</Email>
-        <PhoneNumber>+33-561-558554</PhoneNumber>
+        <PersonName>Nicolas Dufourg</PersonName>
+        <OrganizationName>Centre National d’Etudes Spatiales</OrganizationName>
+        <Email>nicolas.dufourg@cnes.fr</Email>
+        <PhoneNumber>+33-561-282007</PhoneNumber>
     </Person>
 </Spase>

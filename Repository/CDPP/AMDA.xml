@@ -1,0 +1,27 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_3.xsd">
+<Version>2.2.3</Version>
+<Repository>
+        <ResourceID>spase://SMWG/Repository/CDPP/AMDA</ResourceID>
+        <ResourceHeader>
+            <ResourceName>AMDA</ResourceName>
+            <ReleaseDate>2014-07-11T00:00:00Z </ReleaseDate>
+            <Description>
+                AMDA is a web-based facility for on line analysis of space physics data coming from either its local database or distant ones. It allows the user to perform on line classical manipulations such as data visualization, parameter computation or data extraction. AMDA also offers innovative functionalities such as event search on the content of the data in either visual or automated way, and the generation, use and management of time-tables. AMDA is developed by the CDPP team and is funded by CNRS and CNES.
+            </Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Vincent.Genot</PersonID>
+                <Role>ProjectScientist</Role>
+            </Contact>
+            <InformationURL>
+                <Name>AMDA home page</Name>
+                <URL>http://amda.cdpp.eu/</URL>
+                <Description>
+                    AMDA home page at CDPP.
+                </Description>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessURL>
+            <URL>http://amda.cdpp.eu</URL>
+        </AccessURL>
+    </Repository>
+</Spase>

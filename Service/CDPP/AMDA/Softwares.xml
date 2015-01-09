@@ -1,27 +1,27 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_3.xsd">
 <Version>2.2.3</Version>
-<Repository>
-        <ResourceID>spase://SMWG/Repository/CDPP/AMDA_TT</ResourceID>
+<Service>
+        <ResourceID>spase://SMWG/Service/CDPP/AMDA/Softwares</ResourceID>
         <ResourceHeader>
-            <ResourceName>AMDA time table repository</ResourceName>
+            <ResourceName>AMDA related softwares</ResourceName>
             <ReleaseDate>2009-09-02T00:00:00Z </ReleaseDate>
             <Description>
-                This site holds time tables or event lists produced and shared by AMDA users.
+                Programs to read, manage, manipulates objects created and exported by AMDA like time tables.
             </Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Vincent.Genot</PersonID>
                 <Role>ProjectScientist</Role>
             </Contact>
             <InformationURL>
-                <Name>AMDA_TT_REPOSITORY home page</Name>
-                <URL>http://cdpp.eu/SHARED/timetablerepository.html</URL>
+                <Name>AMDA home page</Name>
+                <URL>http://cdpp-amda.cesr.fr/softwares/</URL>
                 <Description>
-                    AMDA_TT_REPOSITORY home page at CDPP.
+                    AMDA software page at CDPP.
                 </Description>
             </InformationURL>
         </ResourceHeader>
         <AccessURL>
-            <URL>http://amda.cdpp.eu</URL>
+            <URL>http://cdpp-amda.cesr.fr/softwares/</URL>
         </AccessURL>
-    </Repository>
+    </Service>
 </Spase>
