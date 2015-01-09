@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_3.xsd">
+    <Version>2.2.3</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/TGO.Editor</ResourceID>
+        <PersonName>TGO Editor</PersonName>
+        <OrganizationName>Tromsø Geophysical Observatory, UiT the Arctic University of Norway</OrganizationName>
+        <Note>http://www.tgo.uit.no/</Note>
+    </Person>
+</Spase>
