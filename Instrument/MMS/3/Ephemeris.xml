@@ -1,0 +1,23 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_3.xsd">
+    <Version>2.2.3</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/MMS/3/Ephemeris</ResourceID>
+        <ResourceHeader>
+            <ResourceName>MMS-3 Positions</ResourceName>
+            <ReleaseDate>2015-05-06T00:00:00Z</ReleaseDate>
+            <Description>MMS 3 positions.</Description>
+          <Contact>
+            <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
+            <Role>PrincipalInvestigator</Role>
+          </Contact>
+          <InformationURL>
+            <Name>Mission web page</Name>
+            <URL>http://mms.gsfc.nasa.gov/</URL>
+            <Description>Mission web page</Description>
+          </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>Platform</InstrumentType>
+        <InvestigationName>Spacecraft position</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/MMS/3</ObservatoryID>
+    </Instrument>
+</Spase>
