@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.3</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/PROBA2/DSLP</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Proba 2 Dual Segmented Langmuir Probe (DSLP)</ResourceName>
+            <ReleaseDate>2015-06-15T00:00:00Z</ReleaseDate>
+            <Description> The PROBA-2 Dual Segmented Langmuir Probe (DSLP) experiment was developed by a Czech consortium, led by the Institute of Atmospheric Physics, Academy of Sciences of the Czech Republic. In combination with SWAP and LYRA, it provides remote observations of solar activity with direct in-situ measurements of basic plasma properties.  Consists of two Langmuir probes, DSLP measures the ions and electrons in the dawn and dusk sectors of the upper terrestrial ionosphere and their dynamic variations on a time scale up to 1 second: the density in the range of 102-106 particles cm-3, the electron temperature in the 500 – 3000 K range, and the satellite pontential in the range of −5 V to 5 V. DSLP shares some interface, power and processing resources with TPMU. </Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Pavel.M.Travenicek</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact> 
+            <InformationURL>
+                <Name>Development of DSLP for ESA PROBA-2 Satellite</Name>
+                <URL>http://www.czechspace.cz/en/proba-2-dslp</URL>
+                <Description>PROBA2 DSLP</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>LangmuirProbe</InstrumentType>
+        <InvestigationName>Dual Segmented Langmuir Probe Experiment</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/PROBA2</ObservatoryID>
+    </Instrument>
+</Spase>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.3</Version>
+    <Observatory>
+        <ResourceID>spase://SMWG/Observatory/PROBA2</ResourceID>
+        <ResourceHeader>
+            <ResourceName>PROBA2</ResourceName>
+            <ReleaseDate>2015-05-27T00:00:00Z</ReleaseDate>
+            <Description>PROBA2, the second in the series of PRoject for OnBoard Autonomy and one of the smallest satellites ever built by ESA, piggybacked its way into orbit on the same rocket that launched SMOS on 2 November 2009 from the Plesetsk Cosmodrome in northern Russia. The spacecraft is 3-axis stablized, weighs 130 kg and flies in a sun-synchronous, near polar orbit at an altitude of 700-800 km.  In addition to demonstrating the usability and the technological readiness of innovative instruments and technologies, PROBA2 carries five experiments to observe the sun and study space weather.  It includes two complementary solar observation instruments and and two plasma measurement instruments: (1) The Sun Watcher using APS detectors and image Processing (SWAP) which consists of an extreme-unltraviolet telscope that uses new pixel sensor technology to measure the solar coronoa in a very narrow band; (2) The Large Yield RAdiometer (LYRA) that monitors four selected ultraviolet bands; (3) The Thermal Plasma Measurement Unit (TPMU) that measures ion densities and composition; (4) The Dual Segmented Langmuir Probe (DSLP) that measures electron density and temperature in the background plasma of the Earth’s magnetosphere; and (5) The Science Grade Vector Magnetometer (SGVM) that measures in real time the magnetic field with very high precision and can also be used by the spacecraft attitude control systems. 
+</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Joe.Zender</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact> 
+            <InformationURL>
+                <Name>PROBA2 ESA Website</Name>
+                <URL>http://sci.esa.int/proba2/</URL>
+                <Description>Information about PROBA2</Description>
+            </InformationURL>
+         </ResourceHeader>
+         <Location>
+            <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>   
+        </Location>
+    </Observatory>
+</Spase>
+

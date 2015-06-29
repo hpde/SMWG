@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.3</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/PROBA2/SWAP</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Proba 2 Sun Watcher using APS detectors and Image Processing (SWAP)</ResourceName>
+            <ReleaseDate>2015-06-15T00:00:00Z</ReleaseDate>
+            <Description>The Sun Watcher using APS detectors and image Processing (SWAP) is an extreme-ultraviolet telescope using new pixel sensor technology (APS), that measures the EUV solar corona in a very narrow band centered at 17.4 nm. The SWAP design is built on a similar concept as the MAGRITTE instrument suite for the NASA Solar Dynamics Observatory (SDO) mission that was launched in 2007. The optics have been adapted to the detector size. The SWAP PROBA-2 program is an opportunity to demonstrate and validate the optical concept of MAGRITTE, while it will also validate space remote sensing with APS detectors. 
+
+On the science outcomes, SWAP will provide solar corona images in the Fe XII line on a baselined 1-min cadence. Observations with this specific wavelength allow detecting phenomena, such as solar flares or 'EIT-waves", associated with the early phase of coronal mass ejections. Image recognition software will be developed that automatically detects these phenomena and sends out space weather warnings. Different modules of this software will run both on the ground system as well as on the onboard computer of PROBA II. The SWAP data will complement the observations provided by SOHO-EIT, and STEREO-SECCHI. </Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/David.Berghmans</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact> 
+            <InformationURL>
+                <Name> </Name>
+                <URL>http://proba2.oma.be/about/SWAP</URL>
+                <Description>PROBA2 Science Center SWAP Imager</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>Imager</InstrumentType>
+        <InvestigationName>Sun Watcher using APS detectors and image Processing</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/PROBA2</ObservatoryID>
+    </Instrument>
+</Spase>

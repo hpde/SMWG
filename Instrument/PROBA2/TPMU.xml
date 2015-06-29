@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.3</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/PROBA2/TPMU</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Proba 2 Thermal Plasma Measurement Unit (TPMU)</ResourceName>
+            <ReleaseDate>2015-06-15T00:00:00Z</ReleaseDate>
+            <Description> The PROBA-2 Thermal Plasma Measurement Unit was developed by a Czech consortium, led by the Institute of Atmospheric Physics, Academy of Sciences of the Czech Republic. The TMPU comprises a sensor unit, which consists of the probes and their preamplifiers, and a processing unit. TPMU’s objective is study the ionosphere, its dynamics, and response to solar and geomagnetic activity. It measures the total ion density and electron temperature, the ion composition and ion temperature, and the floating potential of the satellite body.  
+
+The electron temperature measurement is based on the radio frequency probe technique using the RF signal (∼50 kHz) modulated by the square wave. It uses three simple circular planar probes with guard rings. A constant voltage shift is maintained by applying the proper amplitude of the radio frequency signal. The probe potential is periodically scanned and adjusted for minimum electron temperature. 
+
+The ion measurement, based on the RPA (Retarding Potential Analyzer) technique, can work in two modes. The first mode measures the ion flux at plasma potential. The second mode is the measurement of volt-ampere retarding characteristics. This uses an analysing voltage sweep which can be selected in the range 0 V to 20 V. Individual measurements are time-stamped and can be related to the satellite onboard time and thus orbital position. The fields of view of the TPMU sensors are aligned with the flight direction of the satellite as far as is allowed by the Sun-pointing attitude. TPMU shares some interface, power and processing resources with DSLP. </Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Frantisek.Hruska</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact> 
+            <InformationURL>
+                <Name>Thermal Plasma Measurement Unit and Data</Name>
+                <URL>http://www.ufa.cas.cz/html/upperatm/tpmu/TPMU.html</URL>
+                <Description>PROBA2 TPMU</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>ParticleDetector</InstrumentType>
+        <InvestigationName>Thermal Plasma Measurement Unit</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/PROBA2</ObservatoryID>
+    </Instrument>
+</Spase>
