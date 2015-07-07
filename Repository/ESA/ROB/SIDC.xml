@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.3</Version>
+    <Repository>
+        <ResourceID>spase://SMWG/Repository/ESA/ROB/SIDC</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Solar Influences Data Analysis Center (SIDC) of the Royal Observatory of Belgium</ResourceName>
+          <ReleaseDate>2015-06-20T00:00:00Z</ReleaseDate>
+          <Description>The Solar Influences Data Analysis Center (SIDC) is the solar physics research department of the Royal Observatory of Belgium.  It includes the World Data Center for the sunspot index.  It is also an operational directorate “Solar Physics and Sapce Weather” and the “Regional Warning Center Belgium” of the International Space Environment Service (ISES). 
+          </Description>
+            <Acknowledgement>For presentations and publications, please acknowledge the instrument teams and the SIDC.</Acknowledgement> 
+            <Contact>
+                <PersonID>spase://SMWG/Person/David.Berghmans</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact> 
+        </ResourceHeader> 
+            <AccessURL>
+                <Name>Solar Influences Data Analysis Center (SIDC)</Name>
+                <URL>http://www.sidc.be/</URL>
+            </AccessURL>
+    </Repository>
+</Spase>
+
