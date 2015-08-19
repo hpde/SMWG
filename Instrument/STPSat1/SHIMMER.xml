@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.3</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/STPSat1/SHIMMER</ResourceID>
+        <ResourceHeader>
+            <ResourceName>STPSat-1Spatial Heterodyne Imager for Mesospheric Radicals (SHIMMER)</ResourceName>
+            <ReleaseDate>2015-06-15T00:00:00Z</ReleaseDate>
+            <Description>The Spatial Heterodyne Imager for Mesospheric Radicals (SHIMMER) was the primary payload on STPSat-1, the first mini satellite for the Department of Defense (DoD) Space Test Program (STP). SHIMMER measured the UV emission between about 30 and 100 km altitude and 307.9 - 309.4 nm by imaging the limb with an altitude sampling of about 2.2 km. The high spectral resolution of 120 mÅ allowed the removal of the scattered solar background from the spectra leaving the mesospheric hydroxyl (OH) resonance fluorescence from which OH vertical density profiles could be inferred. OH remains one of the least measured trace gases in the middle atmosphere. This method was pioneered by NRL's MAHRSI (Middle Atmospheric High Resolution Spectrograph Investigation) instrument on space shuttle missions in the 1990s. Compared to MAHRSI, SHIMMER was not only smaller by a factor of three in mass and volume, but it sampled the atmosphere seven times faster due to its higher sensitivity. One additional goal of SHIMMER was to observe the equatorward edge of the polar mesospheric cloud (PMC) region, around 55 deg latitude. Originally, PMCs were thought to be caused solely by water vapor lofted from the lower atmosphere over the summer polar region. However, MAHRSI demonstrated that water vapor exhaust injected into the upper atmosphere from the space shuttle can also form PMCs. By observing both the OH (water vapor) and the PMCs, SHIMMER results helped quantify this contribution to PMCs.</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Christoph.Englert</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact> 
+            <InformationURL>
+                <Name>SHIMMER Instrument</Name>
+                <URL>https://directory.eoportal.org/web/eoportal/satellite-missions/s/stpsat-1</URL>
+                <Description>SHIMMER sensor and experiment flown on STPSat-1</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>Interferometer</InstrumentType>
+        <InvestigationName>SHIMMER observaing water vapor (OH) and polar mesospheric cloud (PMC)</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/STPSat1</ObservatoryID>
+    </Instrument>
+</Spase>
+
+
+
+
+ 
