@@ -3,10 +3,10 @@
   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
   <Version>2.2.2</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/MaunaLoaSO/ACOS</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Ground/MaunaLoaSO/ACOS</ResourceID>
     <ResourceHeader>
       <ResourceName>MLSO_ACOS</ResourceName>
-      <ReleaseDate>2012-04-04T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2015-10-23T00:00:00Z</ReleaseDate>
       <Description>ACOS is the Advanced Coronal Observation System at
 Mauna Loa Solar Observatory.  It is a suite of instruments designed to 
 observe the solar atmosphere, including the Chromospheric Helium Imaging 
@@ -17,9 +17,10 @@ light K-corona from 1.12-2.79 solar radii (700-950 nm).</Description>
         <PersonID>spase://SMWG/Person/Thomas.E.Holzer</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
+      <PriorID>spase://SMWG/Instrument/MaunaLoaSO/ACOS</PriorID>
     </ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>ACOS at MLSO</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/MaunaLoaSO</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Ground/MaunaLoaSO</ObservatoryID>
   </Instrument>
 </Spase>

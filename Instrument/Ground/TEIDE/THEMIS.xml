@@ -3,10 +3,10 @@
   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
   <Version>2.2.2</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/TEIDE/THEMIS</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Ground/TEIDE/THEMIS</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS at the TEIDE Observatory</ResourceName>
-      <ReleaseDate>2012-04-24T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2015-10-23T00:00:00Z</ReleaseDate>
       <Description>THEMIS is a 90 cm telescope built in Tenerife 
 providing 3 observing modes: the MTR mode, the MSDP mode (see below) 
 and the IPM mode (imagery mode archived at Arthemis)  A reduction 
@@ -28,9 +28,10 @@ French and Italian public research entities.</Description>
         <Role>GeneralContact</Role>
       </Contact>
       <PriorID>spase://vspo/Instrument/360</PriorID>
+	  <PriorID>spase://SMWG/Instrument/TEIDE/THEMIS</PriorID>
     </ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>THEMIS at the TEIDE Observatory</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/TEIDE</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Ground/TEIDE</ObservatoryID>
   </Instrument>
 </Spase>

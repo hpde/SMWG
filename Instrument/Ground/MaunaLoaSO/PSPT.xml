@@ -3,10 +3,10 @@
   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
   <Version>2.2.2</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/MaunaLoaSO/PSPT</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Ground/MaunaLoaSO/PSPT</ResourceID>
     <ResourceHeader>
       <ResourceName>MLSO_PSPT</ResourceName>
-      <ReleaseDate>2012-04-04T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2015-10-23T00:00:00Z</ReleaseDate>
       <Description>The Precision Solar Photometric Telescope (PSPT) 
 is the centerpiece of the National Science Foundation Radiative 
 Inputs from Sun to Earth (RISE) program whose aim is to measure 
@@ -21,10 +21,11 @@ pixel relative photometric precision.</Description>
         <PersonID>spase://SMWG/Person/Thomas.E.Holzer</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
+      <PriorID>spase://SMWG/Instrument/MaunaLoaSO/PSPT</PriorID>
     </ResourceHeader>
     <InstrumentType>MultispectralImager</InstrumentType>
     <InstrumentType>Photometer</InstrumentType>
     <InvestigationName>PSPT at MLSO</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/MaunaLoaSO</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Ground/MaunaLoaSO</ObservatoryID>
   </Instrument>
 </Spase>

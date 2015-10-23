@@ -3,12 +3,12 @@
   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
   <Version>2.2.2</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/MaunaLoaSO/CHIP</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Ground/MaunaLoaSO/CHIP</ResourceID>
     <ResourceHeader>
       <ResourceName>MLSO_ACOS_CHIP</ResourceName>
       <AlternateName>CHP</AlternateName>
       <AlternateName>CHIP</AlternateName>
-      <ReleaseDate>2012-04-04T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2015-10-23T00:00:00Z</ReleaseDate>
       <Description>The Chromospheric Helium-I Imaging Photometer (CHIP) 
 was installed at MLSO in April 1996. CHIP is a differential device using 
 properties of the Helium-I line at 1083 nm as an indicator of both 
@@ -32,10 +32,11 @@ For additional information on the tuneable filter see Kopp et al.
         <PersonID>spase://SMWG/Person/Thomas.E.Holzer</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
+      <PriorID>spase://SMWG/Instrument/MaunaLoaSO/CHIP</PriorID>
     </ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InstrumentType>Photometer</InstrumentType>
     <InvestigationName>ACOS/CHIP at MLSO</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/MaunaLoaSO</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Ground/MaunaLoaSO</ObservatoryID>
   </Instrument>
 </Spase>

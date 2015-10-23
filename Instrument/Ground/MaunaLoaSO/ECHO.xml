@@ -3,10 +3,10 @@
   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
   <Version>2.2.2</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/MaunaLoaSO/ECHO</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Ground/MaunaLoaSO/ECHO</ResourceID>
     <ResourceHeader>
       <ResourceName>MLSO_ECHO</ResourceName>
-      <ReleaseDate>2012-04-04T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2015-10-23T00:00:00Z</ReleaseDate>
       <Description>The ECHO (Experiment for Coordinated 
 Helioseismic Observations) is a network of two instruments which 
 observe solar oscillations as seen in the radial velocity of the 
@@ -26,9 +26,10 @@ line.</Description>
         <PersonID>spase://SMWG/Person/Thomas.E.Holzer</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
+      <PriorID>spase://SMWG/Instrument/MaunaLoaSO/ECHO</PriorID>
     </ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>ECHO at MLSO</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/MaunaLoaSO</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Ground/MaunaLoaSO</ObservatoryID>
   </Instrument>
 </Spase>

@@ -2,16 +2,18 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/Observatory/TEIDE</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/Ground/MaunaLoaSO</ResourceID>
     <ResourceHeader>
-      <ResourceName>TEIDE Observatory</ResourceName>
-      <ReleaseDate>2010-08-05T18:19:17Z</ReleaseDate>
-      <Description>TEIDE Observatory</Description>
+      <ResourceName>MLSO</ResourceName>
+      <ReleaseDate>2015-10-23T18:29:57Z</ReleaseDate>
+      <Description>Mauna Loa Solar Observatory</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
+    <PriorID>spase://SMWG/Observatory/MaunaLoaSO</PriorID>
     </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/GONG</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
     </Location>

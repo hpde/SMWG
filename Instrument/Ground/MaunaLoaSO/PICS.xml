@@ -3,10 +3,10 @@
   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
   <Version>2.2.2</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/MaunaLoaSO/PICS</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Ground/MaunaLoaSO/PICS</ResourceID>
     <ResourceHeader>
       <ResourceName>MLSO_ACOS_PICS</ResourceName>
-      <ReleaseDate>2012-04-04T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2015-10-23T00:00:00Z</ReleaseDate>
       <Description>The first H-alpha [656.3 nm] telescope at MLSO 
 was the Prominence Monitor (PMON), which went into operation on 
 4 February 1980. It acquired both disk and limb images on B/W 35mm film.
@@ -32,9 +32,10 @@ second).</Description>
         <PersonID>spase://SMWG/Person/Thomas.E.Holzer</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
+      <PriorID>spase://SMWG/Instrument/Ground/MaunaLoaSO/PICS</PriorID>
     </ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>ACOS/PICS at MLSO</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/MaunaLoaSO</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Ground/MaunaLoaSO</ObservatoryID>
   </Instrument>
 </Spase>

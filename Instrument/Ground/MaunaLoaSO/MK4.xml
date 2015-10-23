@@ -3,10 +3,10 @@
   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
   <Version>2.2.2</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/MaunaLoaSO/MK4</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Ground/MaunaLoaSO/MK4</ResourceID>
     <ResourceHeader>
       <ResourceName>MLSO_ACOS_MK4</ResourceName>
-      <ReleaseDate>2012-04-04T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2015-10-23T00:00:00Z</ReleaseDate>
       <Description>The Mark-III instrument was the third generation white 
 light K-coronameter instrument at MLSO, and it operated from 4 February, 
 1980, through 30 September, 1999.  The field of view of the Mark-III 
@@ -48,11 +48,12 @@ Elmore et al. (199?).</Description>
         <PersonID>spase://SMWG/Person/Thomas.E.Holzer</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
+      <PriorID>spase://SMWG/Instrument/MaunaLoaSO/MK4</PriorID>
     </ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InstrumentType>Coronograph</InstrumentType>
     <InstrumentType>Photopolarimeter</InstrumentType>
     <InvestigationName>ACOS/MK4 at MLSO</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/MaunaLoaSO</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Ground/MaunaLoaSO</ObservatoryID>
   </Instrument>
 </Spase>

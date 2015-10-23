@@ -3,10 +3,10 @@
   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
   <Version>2.2.2</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/Culgoora/Radiospectrograph</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Ground/Culgoora/Radiospectrograph</ResourceID>
     <ResourceHeader>
       <ResourceName>Culgoora Solar Radiospectrograph</ResourceName>
-      <ReleaseDate>2012-05-10T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2015-10-23T00:00:00Z</ReleaseDate>
       <Description>The Culgoora Solar Observatory in New South Wales,
 Australia, has a 12 cm telescope used for solar H-alpha imagery, 
 a 30 cm heliostat used to observe sunspot evolution, and a 
@@ -18,9 +18,10 @@ http://www.ips.gov.au/Solar/2/2.</Description>
         <Role>GeneralContact</Role>
       </Contact>
       <PriorID>spase://vspo/instrument/61</PriorID>
+      <PriorID>spase://SMWG/Instrument/Culgoora/Radiospectrograph</PriorID>
     </ResourceHeader>
     <InstrumentType>Spectrometer</InstrumentType>
     <InvestigationName>Culgoora Radio Spectrograph</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/Culgoora</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Ground/Culgoora</ObservatoryID>
   </Instrument>
 </Spase>

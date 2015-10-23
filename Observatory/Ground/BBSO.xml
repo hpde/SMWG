@@ -2,15 +2,16 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/Observatory/BBSO</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/Ground/BBSO</ResourceID>
     <ResourceHeader>
       <ResourceName>BBSO</ResourceName>
-      <ReleaseDate>2010-09-27T18:29:57Z</ReleaseDate>
+      <ReleaseDate>2015-10-23T18:29:57Z</ReleaseDate>
       <Description>Big Bear Solar Observatory</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
+       <PriorID>spase://SMWG/Observatory/BBSO</PriorID>
     </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/GONG</ObservatoryGroupID>
     <Location>
