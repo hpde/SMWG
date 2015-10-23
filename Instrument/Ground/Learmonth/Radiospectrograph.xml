@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Ground/Learmonth/Radiospectrograph</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Learmonth Solar Radiospectrograph</ResourceName>
+      <ReleaseDate>2015-10-14T17:20:00Z</ReleaseDate>
+      <Description>The Learmonth Solar Observatory near North-West Cape, Western Australia, has a Global Oscillation Network Group (GONG) instrument which provides data for helioseismological studies of the interior of the Sun, an optical telescope to monitor sunspots and solar activity,
+a radio telescope with three parabolic dish antennae to monitor solar radio flux on 8 discrete frequencies in the range 245-15400 MHz, 
+and a radio spectrograph (which sweeps through a frequency range of 25-180 MHz
+every 3 seconds) used for monitoring solar radio bursts.  See details at
+http://www.ips.gov.au/Solar/3/1.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>Spectrometer</InstrumentType>
+    <InvestigationName>Learmonth Radio Spectrograph</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Ground/Learmonth</ObservatoryID>
+  </Instrument>
+</Spase>

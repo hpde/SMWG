@@ -1,34 +1,22 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/Learmonth</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Learmonth</ResourceName>
-         <AlternateName>Observatory Station Code: LRM</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
-         <Description>The Learmonth geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge:  Australian Geological Survey Organisation</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Liejun.Wang</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <PriorID>spase://SMWG/Observatory/WDC/Learmonth</PriorID>
-      </ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>-22.22</Latitude>
-         <Longitude>114.1</Longitude>
-      </Location>
-      <OperatingSpan>
-         <StartDate>1990-01-01T00:00:00.000</StartDate>
-      </OperatingSpan>
-   </Observatory>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_3.xsd">
+  <Version>2.2.3</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/Learmonth</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Learmonth</ResourceName>
+      <ReleaseDate>2015-10-14T17:20:05Z</ReleaseDate>
+      <Description>Located on North-West Cape, Western Australia (22.2°S, 114.1°E), the site overlooks Exmouth Gulf to the east and Cape Range to the west. It is part of a network of solar observatories (the Solar Electro-Optical Network, SEON) established by the USAF around the world, and one of two solar patrol observatories in Australia. Chosen for clear skies, the site averages over 9 hours sunshine per day.
+      
+      Learmonth Observatory operates optical and radio telescopes to monitor the Sun. In collaboration with the Australian Geological Survey Organisation, magnetometers are operated to sense geomagnetic effects of solar activity. An ionosonde is also used to probe the state of the Earth’s upper atmosphere.
+</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+    </Location>
+  </Observatory>
 </Spase>
