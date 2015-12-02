@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+
+    <Version>2.2.3</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/PICARD/SODISM</ResourceID>
+        <ResourceHeader>
+            <ResourceName>SOlar Diameter Imager and Surface Mapper (SODISM)</ResourceName>
+            <ReleaseDate>2015-10-25T00:00:00Z</ReleaseDate>
+            <Description>The Solar Diameter Imager and Surface Mapper (SODISM) is an 11-cm diameter telescope on board the PICARD space mission. It measures the solar irradiation and provides wide-field images of the photosphere and chromosphere of the Sun in five narrow pass bands (centered at 215.0, 393.37, 535.7, 607.1, and 782.2 nm).
+</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Alain.Hauchecorne</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact> 
+            <InformationURL>
+                <Name>PICARD spacecraft and instruments</Name>
+                <URL>https://directory.eoportal.org/web/eoportal/satellite-missions/p/picard</URL>
+                <Description>SOlar Diameter Imager and Surface Mapper (SODISM)</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>Imager</InstrumentType>
+        <InvestigationName>SOlar Diameter Imager and Surface Mapper</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/PICARD</ObservatoryID>
+    </Instrument>
+</Spase>
+
+
+
+
+ 

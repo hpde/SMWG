@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.6</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/CORONAS-F/SPIRIT</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Full Sun XUV Spectroscopy Imaging (SPIRIT)</ResourceName>
+            <ReleaseDate>2015-10-25T00:00:00Z</ReleaseDate>
+            <Description>The Full Sun XUV Spectroscopy Imaging Instrument (SPIRIT) onboard CORONAS-F uses X-ray and extreme UV imaging spectroscopy to study the dynamics of active Sun from high resolution X and XUV spectral images in the 1,85-304 Å band; the dynamics of non-stationary solar events - flares, jets, CME in time scale from ~1 sec to months; the fine structure of solar plasma in flares, active regions, coronal holes with T = 0,05-50 MK; and the Fe- and He-ions distribution in solar disk and corona up to 5 solar radii .  The SIPIRT is comprised of two components: the Solar X-Ray Telescope (SRT) and the X-Ray Spectroheliograph (RES-K).  
+
+The SRT, measuring the spatial structure and dynamics of the upper solar atmosphere, includes three optical channels: VR1, VR2 and SP (VR - "High Resolution", SP - "Wide Angle”).  The High Resolution Channel VR1 has a Ritchey-Chretien lense (France), 1024x1152 CCD matrix, spectrum bands: 171Å (FeIX-FeXI), 195 Å (FeXII), 284Å (FeXV), 304Å (HeII) , 42' x 42' view angle(full disk) with angular resolution 1".4 - 2".5/cell and exposition time 0.5 - 100 sec. The High Resolution Channel VR2 has two paraboloids, 1024x1152 CCD matrix, spectrum bands: 175Å and 304Å with angular resolution up to 1".8/cell, view angle 30' x 30' and exposition time 0.04 - 100 sec. The Wide Angle Channel SP has a Ritchey-Chretien lense, 1024x1152 CCD matrix, spectrum band: 304Å with angular resolution 8"/cell, view angle 2° x 2° (up to 3 RO).
+
+The RES-K instrument is an X-ray spectroheliograph to provide high-resolution images of the solar disk using the emission lines of FeXXIV and FeXXV in the 18.5-18.7 nm, and the MgXII line in the 84.1-84.3 nm range. Images in the emission lines covering 1800-2050 nm and 2850-3350 nm will also be obtained by scanning the range in widths of 0.3 nm. The images will be at a spatial resolution of six arc-sec. Each full-disk image is to be produced in about six seconds.</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/I.A.Zhitnik</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact> 
+            <InformationURL>
+                <Name>SPIRIT</Name>
+                <URL>http://coronas.izmiran.rssi.ru/F/SPIRIT/</URL>
+                <Description>Full Sun XUV Spectroscopy Imaging Instrument flown on Coronos-F</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <InstrumentType>Spectrometer</InstrumentType>
+        <InvestigationName>Full Sun XUV Spectroscopy Imaging</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/CORONAS-F</ObservatoryID>
+    </Instrument>
+</Spase>
+
+
+
+
+ 

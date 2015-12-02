@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.6</Version>
+    <Observatory>
+        <ResourceID>spase://SMWG/Observatory/PICARD</ResourceID>
+        <ResourceHeader>
+            <ResourceName>PICARD</ResourceName>
+            <ReleaseDate>2015-10-28T00:00:00Z</ReleaseDate>
+            <Description>PICARD, a French solar physics satellite, was launched into a sun-syncrhonous dawn-dusk orbit on a Dnepr rocket from the Dombarovsky Missile Base near Yasny, Russia at 14:42 UT on 15 June 2010. The satellite is nominally sun pointed, with the axis of the CCD aligned with the solar rotation axis. Picard is an investigation dedicated to the simultaneous measurement of the absolute total and spectral solar irradiance, the diameter and solar shape, and to studying the Sun's interior through helioseismology. Picard's 11 cm imaging telescope, called SODISM, will obtain ultra-precise measurements of the Sun's diameter, shape and rotation. Two more instruments, named SOVAP and PREMOS, will measure the total solar irradiance and energy fluctuations in ultraviolet, visible and infrared light. The instruments were operated by on-board electronics contained in a box named PGCU (Picard Gestion Charge Utile), which includes all functions necessary to operate the three instruments: formatting of telemetry, receipt of commands, thermal regulation system, image compression, measurements sequencing, power supply, safety management. The downlink data rate is 625 kbit/s, 2.6 Gbit/day.</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Alain.Hauchecorne</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact> 
+         </ResourceHeader>
+         <Location>
+            <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>   
+        </Location>
+    </Observatory>
+</Spase>
+
