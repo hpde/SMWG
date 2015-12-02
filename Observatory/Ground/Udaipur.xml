@@ -1,0 +1,19 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_3.xsd">
+    <Version>2.2.3</Version>
+    <Observatory>
+        <ResourceID>spase://SMWG/Observatory/Ground/Udaipur</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Udaipur</ResourceName>
+            <ReleaseDate>2015-10-21T00:00:00Z</ReleaseDate>
+            <Description>USO is situated at an elevation of 750 m in a semi-arid highland region of western India, midway between Delhi and Bombay. USO is administered by the Physical Research Laboratory, headquartered in Ahmedabad.  The main objective of obtaining the high spatial and temporal resolution observations of solar photospheric and chromospheric activity is to understand the various dynamic phenomena occurring on the surface of the Sun.</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Stephen.Heathcote</PersonID>
+                <Role>Scientist</Role>
+            </Contact>
+        </ResourceHeader>
+        <ObservatoryGroupID>spase://SMWG/Observatory/GONG</ObservatoryGroupID>
+        <Location>
+            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+        </Location>
+    </Observatory>
+</Spase>
