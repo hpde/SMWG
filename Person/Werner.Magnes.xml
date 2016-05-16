@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
+   <Version>2.2.6</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Werner.Magnes</ResourceID>
+      <ReleaseDate>2016-04-29T12:34:56.789</ReleaseDate>
+      <PersonName>Werner Magnes</PersonName>
+      <OrganizationName>Space Research Institute, Austrian Academy of Sciences</OrganizationName>
+      <Address>Schmiedlstrasse 6, 8042 Graz, Austria</Address>
+      <Email>werner.magnes@oeaw.ac.at</Email>
+      <PhoneNumber>+43 316 4120 562</PhoneNumber>
+   </Person>
+</Spase>

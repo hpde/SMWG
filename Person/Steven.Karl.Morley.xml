@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
+   <Version>2.2.6</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Steven.Karl.Morley</ResourceID>
+      <ReleaseDate>2016-04-29T12:34:56.789</ReleaseDate>
+      <PersonName>Steven Karl Morley</PersonName>
+      <OrganizationName>Intelligence and Space Research, Space Science and Applications, ISR-1</OrganizationName>
+      <Address>Los Alamos National Laboratory, Los Alamos, New Mexico</Address>
+      <Email>smorley@lanl.gov</Email>
+      <PhoneNumber>+1 505 667 0186</PhoneNumber>
+      <FaxNumber>+1 505 665 7395</FaxNumber>
+   </Person>
+</Spase>
