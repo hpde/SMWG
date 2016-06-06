@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.2.6</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/MMS/4/HotPlasmaCompositionAnalyzer</ResourceID>
+      <ResourceHeader>
+         <ResourceName>MMS 4 Hot Plasma Composition Analyzer (HPCA) Instrument</ResourceName>
+         <AlternateName>MMS 4 HPCA</AlternateName>
+         <ReleaseDate>2016-05-31T12:34:56.789</ReleaseDate>
+         <Description>The HPCA is based entirely on electrostatic optics combining an electrostatic energy analyzer with a carbon-foil based time-of-ﬂight analyzer. In order to fulﬁll mission requirements, the HPCA incorporates three unique technologies that give it very wide dynamic range capabilities essential to measuring minor ion species in the presence of extremely high proton ﬂuxes found in the region of magnetopause reconnection. Dynamic range is controlled primarily by a novel radio frequency system analogous to an RF mass spectrometer. The RF, in combination with capabilities for high TOF event processing rates and high current micro-channel plates, ensures the dynamic range and sensitivity needed for accurate measurements of ion ﬂuxes between ∼1 eV and 40 keV that are expected in the region of reconnection events. A third technology enhances mass resolution in the presence of high proton ﬂux. Energy range = ~10 eV to 30 keV. Energy resolution = 20%. Time resoluton = 15 s. The HPCA investigation is led by Co-I S. A. Fuselier (SwRI).</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Stephen.A.Fuselier</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Mission instrument web page</Name>
+            <URL>http://mms.space.swri.edu/instruments.html</URL>
+            <Description>Mission web page that describes the payload (instruments) on each spacecraft.</Description>
+            <Language>English</Language>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>ParticleDetector</InstrumentType>
+      <InvestigationName>MMS 4 Hot Plasma Composition Analyzer</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2015-03-13T02:44:00</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/MMS/4</ObservatoryID>
+   </Instrument>
+</Spase>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.2.6</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/MMS/4/FIELDS/EDI</ResourceID>
+      <ResourceHeader>
+         <ResourceName>MMS 4 FIELDS Suite, Electron Drift Instrument (EDI)</ResourceName>
+         <AlternateName>MMS 4 FIELDS Suite, EDI</AlternateName>
+         <ReleaseDate>2016-05-31T12:34:56.789</ReleaseDate>
+         <Description>Electron Drift Instrument (EDI) determines the electric and magnetic fields by measuring the drift of ~1 keV electrons emitted from the Gun Detector Unit (GDU). Each GDU sends (receives) a coded beam to (from) the other EDI-GDU. The EDI gun is being developed at the Institut fuer Weltraumforschung of the Austrian Academy of Sciences; EDI optics are being developed at the University of Iowa. It is part of the fields investigation which is led by Co-I R. B. Torbert (University of New Hampshire).</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Roy.B.Torbert</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Mission instrument web page</Name>
+            <URL>http://mms.space.swri.edu/instruments.html</URL>
+            <Description>Mission web page that describes the payload (instruments) on each spacecraft.</Description>
+            <Language>English</Language>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>ElectronDriftInstrument</InstrumentType>
+      <InvestigationName>MMS 4 FIELDS Suite, Electron Drift Instrument</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2015-03-13T02:44:00</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/MMS/4</ObservatoryID>
+   </Instrument>
+</Spase>

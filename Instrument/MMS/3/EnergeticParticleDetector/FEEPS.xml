@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.2.6</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/MMS/3/EnergeticParticleDetector/FEEPS</ResourceID>
+      <ResourceHeader>
+         <ResourceName>MMS 3 Energetic Particle Detector (EPD) Suite, Fly&apos;s Eye Energetic Particle Sensor (FEEPS) Instrument</ResourceName>
+         <AlternateName>MMS 3 EPD Suite, FEEPS</AlternateName>
+         <ReleaseDate>2016-05-31T12:34:56.789</ReleaseDate>
+         <Description>Fly&apos;s Eye Energetic Particle Sensor (FEEPS): The two FEEPS will measure three-dimensional energetic ion and electron flux distributions over the energy ranges ~25 keV to 500 keV (electrons) and ~45 keV to 500 keV (ions). Time resolution = 10 s. FEEPS development is led by Co-I J. B. Blake (Aerospace Corporation).</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/J.Bernard.Blake</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Mission instrument web page</Name>
+            <URL>http://mms.space.swri.edu/instruments.html</URL>
+            <Description>Mission web page that describes the payload (instruments) on each spacecraft.</Description>
+            <Language>English</Language>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+      <InvestigationName>MMS 3 EPD Suite, Fly&apos;s Eye Energetic Particle Sensor</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2015-03-13T02:44:00</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/MMS/3</ObservatoryID>
+   </Instrument>
+</Spase>

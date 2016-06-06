@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.2.6</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/MMS/3/InstrumentControl/ASPOC</ResourceID>
+      <ResourceHeader>
+         <ResourceName>MMS 3 Active Spacecraft Potential Control (ASPOC) Instrument</ResourceName>
+         <AlternateName>MMS 3 ASPOC</AlternateName>
+         <ReleaseDate>2016-05-31T12:34:56.789</ReleaseDate>
+         <Description>The Active Spacecraft Potential Control (ASPOC) generates beams of indium ions to limit positive spacecraft potentials to within +4V in order to improve the measurements obtained by the follwinf MMS instruments: FPI, HPCA, ADP, and SDP. There are two ASPOC units per MMS spacecraft. The ASPOC Lead Co-I for Phase E is Rumi Nakamura (IFW, OAF).</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Rumi.Nakamura</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Mission instrument web page</Name>
+            <URL>http://mms.space.swri.edu/instruments.html</URL>
+            <Description>Mission web page that describes the payload (instruments) on each spacecraft.</Description>
+            <Language>English</Language>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>SpacecraftPotentialControl</InstrumentType>
+      <InvestigationName>MMS 3 Active Spacecraft Potential Control</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2015-03-13T02:44:00</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/MMS/3</ObservatoryID>
+   </Instrument>
+</Spase>

@@ -1,23 +1,29 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_3.xsd">
-    <Version>2.2.3</Version>
-    <Instrument>
-        <ResourceID>spase://SMWG/Instrument/MMS/2/Ephemeris</ResourceID>
-        <ResourceHeader>
-            <ResourceName>MMS 2 planned, predicted, and definitive positions in GSE coordinates, in units of km</ResourceName>
-            <ReleaseDate>2015-05-06T00:00:00Z</ReleaseDate>
-            <Description>MMS 2 positions.</Description>
-          <Contact>
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.2.6</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/MMS/2/Ephemeris</ResourceID>
+      <ResourceHeader>
+         <ResourceName>MMS 2 Ephemeris</ResourceName>
+         <AlternateName>MMS 2 Ephemeris</AlternateName>
+         <ReleaseDate>2016-05-31T12:34:56.789</ReleaseDate>
+         <Description>MMS 2 planned, predicted, and definitive positions in GSE coordinates, in units of km.</Description>
+         <Contact>
             <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
             <Role>PrincipalInvestigator</Role>
-          </Contact>
-          <InformationURL>
+         </Contact>
+         <InformationURL>
             <Name>Mission web page</Name>
             <URL>http://mms.gsfc.nasa.gov/</URL>
             <Description>Mission web page</Description>
-          </InformationURL>
-        </ResourceHeader>
-        <InstrumentType>Platform</InstrumentType>
-        <InvestigationName>Spacecraft position</InvestigationName>
-        <ObservatoryID>spase://SMWG/Observatory/MMS/2</ObservatoryID>
-    </Instrument>
+            <Language>English</Language>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Platform</InstrumentType>
+      <InvestigationName>MMS 2 Ephemeris</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2015-03-13T02:44:00</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/MMS/2</ObservatoryID>
+   </Instrument>
 </Spase>

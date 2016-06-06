@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.2.6</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/MMS/2/FIELDS/SCM</ResourceID>
+      <ResourceHeader>
+         <ResourceName>MMS 2 FIELDS Suite, Search Coil Magnetometer (SCM) Instrument</ResourceName>
+         <AlternateName>MMS 2 FIELDS Suite, SCM</AlternateName>
+         <ReleaseDate>2016-05-31T12:34:56.789</ReleaseDate>
+         <Description>Search Coil Magnetometer (SCM) measures the 3-axis AC magnetic field up to 6 kHz and will be used together with the ADP and SDP to determine the contribution of plasma waves to the turbulent dissipation that occurs in the diffusion region. The SCM is being developed in France at the Centre d'etude des Environnements Terrestre et Planetaires.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Roy.B.Torbert</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Mission instrument web page</Name>
+            <URL>http://mms.space.swri.edu/instruments.html</URL>
+            <Description>Mission web page that describes the payload (instruments) on each spacecraft.</Description>
+            <Language>English</Language>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Magnetometer</InstrumentType>
+      <InvestigationName>MMS 2 FIELDS Suite, Search Coil Magnetometer</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2015-03-13T02:44:00</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/MMS/2</ObservatoryID>
+   </Instrument>
+</Spase>
