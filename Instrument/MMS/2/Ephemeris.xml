@@ -4,10 +4,10 @@
    <Instrument>
       <ResourceID>spase://SMWG/Instrument/MMS/2/Ephemeris</ResourceID>
       <ResourceHeader>
-         <ResourceName>MMS 2 Ephemeris</ResourceName>
-         <AlternateName>MMS 2 Ephemeris</AlternateName>
+         <ResourceName>MMS 2 Ephemeris Instrument</ResourceName>
+         <AlternateName>MMS 2 Ephemeris Instrument</AlternateName>
          <ReleaseDate>2016-05-31T12:34:56.789</ReleaseDate>
-         <Description>MMS 2 planned, predicted, and definitive positions in GSE coordinates, in units of km.</Description>
+         <Description>MMS 2 spacecraft ephemeris virtual instrument.</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
             <Role>PrincipalInvestigator</Role>
