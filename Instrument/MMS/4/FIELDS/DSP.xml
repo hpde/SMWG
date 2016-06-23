@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.2.6</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/MMS/4/FIELDS/DSP</ResourceID>
+      <ResourceHeader>
+         <ResourceName>MMS 4 FIELDS Suite, Digital Signal Processor (DSP)</ResourceName>
+         <AlternateName>MMS 4 FIELDS Suite, DSP</AlternateName>
+         <ReleaseDate>2016-06-18T12:34:56.789</ReleaseDate>
+         <Description>The Digital Signal Processing (DSP) units on the MMS spacecraft are designed to perform analog conditioning, analog-to-digital (A/D) conversion, and digital processing on the Axial Double-Probes (ADP), Spin-plane Double-Probes (SDP), and Search Coil Magnetometer (SCM). The DSP receives nine signals, six voltage signals from the SDP and ADP and three voltage signals from the SCM. The DSP units include digital filters, spectral processors, a high-speed burst memory, a Solitary Wave Detector(SWD), and data compression modules that are embedded in a RTAX2000 Field-Programmable Gate Array (FPGA) manufactured by the Actel Corporation. The DSP also creates calibration signals for the SCM. There are two DSPs, A and B, on each of the MMS spacecraft. One is active while the other is an unpowered spare. The DSP uses precision analog processing with, in most cases, greater than;100 dB in dynamic range, better than -80 dB common mode rejection in electric field (E) signal processing, and better than -80 dB cross talk between the E and SCM magnetic field (B) signals. The A/D conversion is at 16 bits with ~1/4 least significat bit (LSB) accuracy and ~1 LSB noise. The DSP is powerful and highly flexible allowing for maximum scientific return under a limited telemetry volume.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Roy.B.Torbert</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Mission instrument web page</Name>
+            <URL>http://mms.space.swri.edu/instruments.html</URL>
+            <Description>Mission web page that describes the payload (instruments) on each spacecraft.</Description>
+            <Language>English</Language>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Unspecified</InstrumentType>
+      <InvestigationName>MMS 4 FIELDS Suite, Digital Signal Processor</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2015-03-13T02:44:00</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/MMS/4</ObservatoryID>
+   </Instrument>
+</Spase>
