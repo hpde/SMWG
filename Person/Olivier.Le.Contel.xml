@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
+   <Version>2.2.6</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Olivier.Le.Contel</ResourceID>
+      <ReleaseDate>2016-06-23T12:34:56.789</ReleaseDate>
+      <PersonName>Olivier Le Contel</PersonName>
+      <OrganizationName>Laboratoire de Physique des Plasmas (LPP, UMR 7648)</OrganizationName>
+      <Address>Universite Pierre et Marie Curie, 4 place Jussieu, 75252 Paris Cedex 05, France</Address>
+      <Email>olivier.lecontel@lpp.polytechnique.fr</Email>
+      <PhoneNumber>33 1 4427 9253</PhoneNumber>
+   </Person>
+</Spase>
