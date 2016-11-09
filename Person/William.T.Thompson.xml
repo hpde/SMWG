@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+  <Version>2.2.8</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/William.T.Thompson</ResourceID>
     <PersonName>William T. Thompson</PersonName>
     <OrganizationName>NASA - GSFC</OrganizationName>
-    <Email>William.T.Thompson.1@gsfc.nasa.gov</Email>
+    <Email>William.T.Thompson@nasa.gov</Email>
   </Person>
 </Spase>
