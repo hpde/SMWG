@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+  <Version>2.2.8</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Craig.E.DeForest</ResourceID>
+    <ReleaseDate>2016-11-09T21:24:00Z</ReleaseDate>
+    <PersonName>Dr. Craig E. DeForest</PersonName>
+    <OrganizationName>Southwest Research Institute</OrganizationName>
+    <Email>deforest@boulder.swri.edu</Email>
+  </Person>
+</Spase>

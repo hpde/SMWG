@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_8_8.xsd">
+  <Version>2.2.8</Version>
   <Repository>
     <ResourceID>spase://SMWG/Repository/NASA/GSFC/STEREO_SC</ResourceID>
     <ResourceHeader>
       <ResourceName>STEREO Science Center</ResourceName>
       <AlternateName>SSC</AlternateName>
-      <ReleaseDate>2008-08-26T21:02:30Z</ReleaseDate>
+      <ReleaseDate>2016-11-09T21:39:00Z</ReleaseDate>
       <Description>STEREO Science Center, NASA/Goddard</Description>
       <Contact>
-        <PersonID>spase://SMWG/Person/Michael.L.Kaiser</PersonID>
+        <PersonID>spase://SMWG/Person/William.T.Thompson</PersonID>
         <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Joseph.B.Gurman</PersonID>
+        <Role>ProjectScientist</Role>
       </Contact>
       <InformationURL>
         <Name>STEREO Science Center</Name>
-        <URL>http://stereo-ssc.nascom.nasa.gov/</URL>
+        <URL>https://stereo-ssc.nascom.nasa.gov/</URL>
       </InformationURL>
-      <PriorID>spase://SMWG/Repository/STEREO_SC</PriorID>
     </ResourceHeader>
+    <AccessURL>
+      <Name>STEREO Science Center</Name>
+      <URL>https://stereo-ssc.nascom.nasa.gov/</URL>
+    </AccessURL>
   </Repository>
 </Spase>

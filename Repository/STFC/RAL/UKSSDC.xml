@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+  <Version>2.2.8</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/STFC/RAL/UKSSDC</ResourceID>
+    <ResourceHeader>
+      <ResourceName>UK Solar System Data Centre</ResourceName>
+      <AlternateName>UKSSDC</AlternateName>
+      <ReleaseDate>2016-11-09T21:10:00Z</ReleaseDate>
+      <Description>STEREO Science Center, NASA/Goddard</Description>
+      <Contact>
+        <PersonID>Stephen.Crothers</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>UK Solar System Data Centre</Name>
+        <URL>http://www.ukssdc.rl.ac.uk/</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>UK Solar System Data Centre</Name>
+      <URL>http://www.ukssdc.rl.ac.uk/</URL>
+    </AccessURL>
+  </Repository>
+</Spase>
