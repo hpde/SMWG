@@ -1,37 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
    <Observatory>
       <ResourceID>spase://SMWG/Observatory/Ground/Soroya</ResourceID>
       <ResourceHeader>
-         <ResourceName>Soroya</ResourceName>
-         <AlternateName>Observatory Station Code: SOR</AlternateName>
-         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
-         <Description>The Soroya geophysical observatory.</Description>
-         <Acknowledgement>Tromso Geophysical Observatory, University of Tromso, Norway</Acknowledgement>
+         <ResourceName>Soroya Geophysical Observatory</ResourceName>
+         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+         <Description>Soroya (SOR) Geophysical Observatory</Description>
+         <Acknowledgement>Please acknowledge: UiT The Arctic University of Norway</Acknowledgement>
          <Contact>
-            <PersonID>spase://SMWG/Person/TRO.Editor</PersonID>
-            <Role>Publisher</Role>
+            <PersonID>spase://SMWG/Person/Truls.Lynne.Hansen</PersonID>
+            <Role>PrincipalInvestigator</Role>
          </Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
          </Contact>
          <InformationURL>
-            <Name>Soroya Vector Magnetic Field Data</Name>
-            <URL>http://flux.phys.uit.no/geomag.html</URL>
-            <Description>Main menu for access to magnetic field data</Description>
+            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
       </ResourceHeader>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>70.5414</Latitude>
-         <Longitude>22.2247</Longitude>
+         <Latitude>70.5</Latitude>
+         <Longitude>22.2</Longitude>
          <Elevation>10.0</Elevation>
       </Location>
       <OperatingSpan>
-         <StartDate>2008-12-27T00:00:00.000</StartDate>
+         <StartDate>2007-01-08T00:00:00.000</StartDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

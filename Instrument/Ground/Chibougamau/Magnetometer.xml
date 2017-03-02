@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Ground/Chibougamau/Magnetometer</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Chibougamau Magnetometer</ResourceName>
+         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+         <Description>Chibougamau (CHBG) Geophysical Observatory Magnetometer</Description>
+         <Acknowledgement>Please acknowledge V. Angelopoulos, C.T. Russell, (University of California, Berkeley, University of California, Los Angeles, respectively, NASA NAS5-02099)</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Magnetometer</InstrumentType>
+      <InvestigationName>THEMIS GBO/UCLA Network</InvestigationName>
+      <InvestigationName>THEMIS Mission GMAGs</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2006-09-15T03:10:46</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/Ground/Chibougamau</ObservatoryID>
+   </Instrument>
+</Spase>

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
    <Observatory>
       <ResourceID>spase://SMWG/Observatory/Ground/Cape.Dorset</ResourceID>
       <ResourceHeader>
-         <ResourceName>Cape Dorset</ResourceName>
-         <AlternateName>Observatory Station Code: CDRT</AlternateName>
-         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
-         <Description>The Cape Dorset geophysical observatory.</Description>
-         <Acknowledgement>MACCS, Augsburg College</Acknowledgement>
+         <ResourceName>Cape Dorset Geophysical Observatory</ResourceName>
+         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+         <Description>Cape Dorset (CDRT) Geophysical Observatory</Description>
+         <Acknowledgement>Please acknowledge: Augsburg College</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Erik.S.Steinmetz</PersonID>
             <Role>PrincipalInvestigator</Role>
@@ -18,9 +17,9 @@
             <Role>MetadataContact</Role>
          </Contact>
          <InformationURL>
-            <Name>Cape Dorset Vector Magnetic Field Data</Name>
-            <URL>http://space.augsburg.edu</URL>
-            <Description>Automatic Geophysical Observatories</Description>
+            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
       </ResourceHeader>
       <Location>
@@ -30,7 +29,7 @@
          <Longitude>283.4</Longitude>
       </Location>
       <OperatingSpan>
-         <StartDate>2008-01-01T00:00:00.000</StartDate>
+         <StartDate>2007-01-14T00:00:00</StartDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

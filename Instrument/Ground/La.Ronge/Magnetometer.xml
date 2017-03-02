@@ -1,41 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
    <Instrument>
       <ResourceID>spase://SMWG/Instrument/Ground/La.Ronge/Magnetometer</ResourceID>
       <ResourceHeader>
          <ResourceName>La Ronge Magnetometer</ResourceName>
-         <AlternateName>Magnetometer</AlternateName>
-         <AlternateName>Magnetometer Station Code: LARG</AlternateName>
-         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
-         <Description>The Magnetometer located at the La Ronge geophysical observatory.</Description>
-         <Acknowledgement>NASA Contract NAS5-02099.</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Martin.Connors</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
+         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+         <Description>La Ronge (LRG) Geophysical Observatory Magnetometer</Description>
+         <Acknowledgement>Please acknowledge K. Hayashi, (University of Tokyo)</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
          </Contact>
          <InformationURL>
-            <Name>La Ronge Vector Magnetic Field Data</Name>
-            <URL>http://autumn.athabascau.ca/index_e.php</URL>
-            <Description>0.5-sec mag field data from 2008 10 17 to present</Description>
+            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
       </ResourceHeader>
       <InstrumentType>Magnetometer</InstrumentType>
-      <InvestigationName></InvestigationName>
+      <InvestigationName>STEP Polar Network</InvestigationName>
+      <InvestigationName>THEMIS Mission GMAGs</InvestigationName>
       <OperatingSpan>
-         <StartDate>2008-11-27T00:00:00.000</StartDate>
+         <StartDate>2007-01-01T00:00:00.000</StartDate>
       </OperatingSpan>
       <ObservatoryID>spase://SMWG/Observatory/Ground/La.Ronge</ObservatoryID>
    </Instrument>

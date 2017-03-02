@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
    <Instrument>
       <ResourceID>spase://SMWG/Instrument/Ground/Maniitsoq/Magnetometer</ResourceID>
       <ResourceHeader>
          <ResourceName>Maniitsoq Magnetometer</ResourceName>
-         <AlternateName>Magnetometer</AlternateName>
-         <AlternateName>Magnetometer Station Code: SKT</AlternateName>
-         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
-         <Description>The Magnetometer located at the Maniitsoq geophysical observatory.</Description>
-         <Acknowledgement>Tromso Geophysical Observatory, University of Tromso, Norway</Acknowledgement>
+         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+         <Description>Maniitsoq (SKT) Geophysical Observatory Magnetometer</Description>
+         <Acknowledgement>Please acknowledge C. Stolle, J. Matzka, (DTU Space, Denmark)</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Claudia.Stolle</PersonID>
             <Role>PrincipalInvestigator</Role>
@@ -23,13 +21,14 @@
             <Role>MetadataContact</Role>
          </Contact>
          <InformationURL>
-            <Name>Maniitsoq Vector Magnetic Field Data</Name>
-            <URL>http://www.space.dtu.dk/English/Research/Scientific_data_and_models/Magnetic_Ground_Stations.aspx</URL>
-            <Description>Main menu for access to magnetic field data</Description>
+            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
       </ResourceHeader>
       <InstrumentType>Magnetometer</InstrumentType>
-      <InvestigationName></InvestigationName>
+      <InvestigationName>DTU Network</InvestigationName>
+      <InvestigationName>THEMIS Mission GMAGs</InvestigationName>
       <OperatingSpan>
          <StartDate>2007-02-05T00:00:00.000</StartDate>
       </OperatingSpan>

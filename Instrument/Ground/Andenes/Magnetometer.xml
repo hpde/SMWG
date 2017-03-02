@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
    <Instrument>
       <ResourceID>spase://SMWG/Instrument/Ground/Andenes/Magnetometer</ResourceID>
       <ResourceHeader>
          <ResourceName>Andenes Magnetometer</ResourceName>
-         <AlternateName>Magnetometer</AlternateName>
-         <AlternateName>Magnetometer Station Code: AND</AlternateName>
-         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
-         <Description>The Magnetometer located at the Andenes geophysical observatory.</Description>
-         <Acknowledgement>Tromso Geophysical Observatory, University of Tromso, Norway</Acknowledgement>
+         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+         <Description>Andenes (AND) Geophysical Observatory Magnetometer</Description>
+         <Acknowledgement>Please acknowledge Tromso Geophysical Observatory, (UiT The Arctic University of Norway)</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Truls.Lynne.Hansen</PersonID>
             <Role>PrincipalInvestigator</Role>
@@ -19,15 +17,16 @@
             <Role>MetadataContact</Role>
          </Contact>
          <InformationURL>
-            <Name>Andenes Vector Magnetic Field Data</Name>
-            <URL>http://flux.phys.uit.no/geomag.html</URL>
-            <Description>Main menu for access to magnetic field data</Description>
+            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
       </ResourceHeader>
       <InstrumentType>Magnetometer</InstrumentType>
-      <InvestigationName>THEMIS Collaboration</InvestigationName>
+      <InvestigationName>TGO Network</InvestigationName>
+      <InvestigationName>THEMIS Mission GMAGs</InvestigationName>
       <OperatingSpan>
-         <StartDate>2010-09-20T00:00:00.000</StartDate>
+         <StartDate>2006-12-30T00:00:00.000</StartDate>
       </OperatingSpan>
       <ObservatoryID>spase://SMWG/Observatory/Ground/Andenes</ObservatoryID>
    </Instrument>

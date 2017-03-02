@@ -1,39 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
    <Instrument>
       <ResourceID>spase://SMWG/Instrument/Ground/Tiksi/Magnetometer</ResourceID>
       <ResourceHeader>
          <ResourceName>Tiksi Magnetometer</ResourceName>
-         <AlternateName>Magnetometer Station Code: TIK</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
-         <Description>The Magnetometer located at the Tiksi geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge:  Arctic and Antarctic Research Institute, St. Petersburg</Acknowledgement>
+         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+         <Description>Tiksi (TIK) Geophysical Observatory Magnetometer</Description>
+         <Acknowledgement>Please acknowledge O. Troshichev, (Arctic and Antarctic Research Institute)</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Oleg.A.Troshichev</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Galina.Semenova</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Tatiana.Bondar</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
+            <Role>PrincipalInvestigator</Role>
          </Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
          </Contact>
-         <PriorID>spase://SMWG/Instrument/WDC/Tixie.Bay/Magnetometer</PriorID>
+         <InformationURL>
+            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
+         </InformationURL>
       </ResourceHeader>
       <InstrumentType>Magnetometer</InstrumentType>
-      <InvestigationName>WDC_GDMC</InvestigationName>
+      <InvestigationName>AARI Network</InvestigationName>
+      <InvestigationName>THEMIS Mission GMAGs</InvestigationName>
       <OperatingSpan>
-         <StartDate>1957-01-01T00:00:00.000</StartDate>
+         <StartDate>2011-01-01T00:00:00.000</StartDate>
       </OperatingSpan>
       <ObservatoryID>spase://SMWG/Observatory/Ground/Tiksi</ObservatoryID>
    </Instrument>

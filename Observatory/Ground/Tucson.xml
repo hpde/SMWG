@@ -1,44 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
    <Observatory>
       <ResourceID>spase://SMWG/Observatory/Ground/Tucson</ResourceID>
       <ResourceHeader>
-         <ResourceName>Tucson</ResourceName>
-         <AlternateName>Observatory Station Code: TUC</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
-         <Description>The Tucson geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge:  U.S. Geological Survey</Acknowledgement>
+         <ResourceName>Tucson Geophysical Observatory</ResourceName>
+         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+         <Description>Tucson (TUC) Geophysical Observatory</Description>
+         <Acknowledgement>Please acknowledge: United States Geological Survey, Golden, CO</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Carol.A.K.Finn</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Jeffrey.J.Love</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Jill.Caldwell</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
+            <Role>PrincipalInvestigator</Role>
          </Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
          </Contact>
-         <PriorID>spase://SMWG/Observatory/WDC/Tucson</PriorID>
+         <InformationURL>
+            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
+         </InformationURL>
       </ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>32.17</Latitude>
-         <Longitude>249.27</Longitude>
+         <Latitude>32.2</Latitude>
+         <Longitude>249.3</Longitude>
+         <Elevation>946.0</Elevation>
       </Location>
       <OperatingSpan>
-         <StartDate>1909-11-01T00:00:00.000</StartDate>
+         <StartDate>2007-01-01T00:00:00.000</StartDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

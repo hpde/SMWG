@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
    <Observatory>
       <ResourceID>spase://SMWG/Observatory/Ground/Gakona</ResourceID>
       <ResourceHeader>
-         <ResourceName>Gakona</ResourceName>
-         <AlternateName>Observatory Station Code: GAKO</AlternateName>
-         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
-         <Description>The Gakona geophysical observatory.</Description>
-         <Acknowledgement>NASA Contract NAS5-02099.</Acknowledgement>
+         <ResourceName>Gakona Geophysical Observatory</ResourceName>
+         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+         <Description>Gakona (GAKO) Geophysical Observatory</Description>
+         <Acknowledgement>Please acknowledge: University of Alaska</Acknowledgement>
          <Contact>
-            <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
+            <PersonID>spase://SMWG/Person/Donald.Hampton</PersonID>
             <Role>PrincipalInvestigator</Role>
          </Contact>
          <Contact>
@@ -22,19 +17,19 @@
             <Role>MetadataContact</Role>
          </Contact>
          <InformationURL>
-            <Name>Gakona Vector Magnetic Field Data</Name>
-            <URL>http://themis.ssl.berkeley.edu/gmag_desc.shtml</URL>
-            <Description>THEMIS Ground-based Observatory (GBO) MAGnetometers (GMAGs)</Description>
+            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
       </ResourceHeader>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>62.393</Latitude>
-         <Longitude>214.87</Longitude>
+         <Latitude>62.4</Latitude>
+         <Longitude>214.8</Longitude>
       </Location>
       <OperatingSpan>
-         <StartDate>2006-12-31T00:00:00.000</StartDate>
+         <StartDate>2006-01-01T01:00:00</StartDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
    <Observatory>
       <ResourceID>spase://SMWG/Observatory/Ground/Repulse.Bay</ResourceID>
       <ResourceHeader>
-         <ResourceName>Repulse Bay</ResourceName>
-         <AlternateName>Observatory Station Code: RBAY</AlternateName>
-         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
-         <Description>The Repulse Bay geophysical observatory.</Description>
-         <Acknowledgement>MACCS, Augsburg College</Acknowledgement>
+         <ResourceName>Repulse Bay Geophysical Observatory</ResourceName>
+         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+         <Description>Repulse Bay (RBAY) Geophysical Observatory</Description>
+         <Acknowledgement>Please acknowledge: Augsburg College</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Erik.S.Steinmetz</PersonID>
             <Role>PrincipalInvestigator</Role>
@@ -18,19 +17,19 @@
             <Role>MetadataContact</Role>
          </Contact>
          <InformationURL>
-            <Name>Repulse Bay Vector Magnetic Field Data</Name>
-            <URL>http://space.augsburg.edu/maccs/index.html</URL>
-            <Description>Main menu for access to magnetic field data</Description>
+            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
       </ResourceHeader>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>66.5238</Latitude>
-         <Longitude>273.769</Longitude>
+         <Latitude>66.5</Latitude>
+         <Longitude>273.8</Longitude>
       </Location>
       <OperatingSpan>
-         <StartDate>2009-09-03T00:00:00.000</StartDate>
+         <StartDate>2008-01-01T00:00:00.000</StartDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

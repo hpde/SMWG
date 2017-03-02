@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
    <Observatory>
       <ResourceID>spase://SMWG/Observatory/Ground/Brorfelde</ResourceID>
       <ResourceHeader>
-         <ResourceName>Brorfelde</ResourceName>
-         <AlternateName>Observatory Station Code: BFE</AlternateName>
-         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
-         <Description>The Brorfelde geophysical observatory.</Description>
-         <Acknowledgement>Tromso Geophysical Observatory, University of Tromso, Norway</Acknowledgement>
+         <ResourceName>Brorfelde Geophysical Observatory</ResourceName>
+         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+         <Description>Brorfelde (BFE) Geophysical Observatory</Description>
+         <Acknowledgement>Please acknowledge: DTU Space, Denmark</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Claudia.Stolle</PersonID>
             <Role>PrincipalInvestigator</Role>
@@ -22,20 +21,20 @@
             <Role>MetadataContact</Role>
          </Contact>
          <InformationURL>
-            <Name>Brorfelde Vector Magnetic Field Data</Name>
-            <URL>http://www.space.dtu.dk/English/Research/Scientific_data_and_models/Magnetic_Ground_Stations.aspx</URL>
-            <Description>Main menu for access to magnetic field data</Description>
+            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
       </ResourceHeader>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>55.625</Latitude>
-         <Longitude>11.672</Longitude>
+         <Latitude>55.6</Latitude>
+         <Longitude>11.7</Longitude>
          <Elevation>80.0</Elevation>
       </Location>
       <OperatingSpan>
-         <StartDate>2009-07-05T00:00:00.000</StartDate>
+         <StartDate>2008-09-01T00:00:00.000</StartDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

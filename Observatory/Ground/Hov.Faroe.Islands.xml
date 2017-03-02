@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/Hov.Faroe.Islands</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Hov Faroe Islands Geophysical Observatory</ResourceName>
+         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+         <Description>Hov Faroe Islands (HOV) Geophysical Observatory</Description>
+         <Acknowledgement>Please acknowledge: UiT The Arctic University of Norway</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Truls.Lynne.Hansen</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>61.2</Latitude>
+         <Longitude>314.6</Longitude>
+         <Elevation>0.0</Elevation>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2016-06-21T00:00:00.000</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

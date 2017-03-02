@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
    <Instrument>
       <ResourceID>spase://SMWG/Instrument/Ground/Narsarsuaq/Magnetometer</ResourceID>
       <ResourceHeader>
          <ResourceName>Narsarsuaq Magnetometer</ResourceName>
-         <AlternateName>Magnetometer</AlternateName>
-         <AlternateName>Magnetometer Station Code: NRSQ</AlternateName>
-         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
-         <Description>The Magnetometer located at the Narsarsuaq geophysical observatory.</Description>
-         <Acknowledgement>Danish Meteorological Institute, Lyngbyvej 100, DK-2100 Copenhagen.</Acknowledgement>
+         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+         <Description>Narsarsuaq (NRSQ) Geophysical Observatory Magnetometer</Description>
+         <Acknowledgement>Please acknowledge H. Gleisner, (Danish Meteorological Institute, Denmark)</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Hans.Gleisner</PersonID>
             <Role>PrincipalInvestigator</Role>
@@ -19,16 +17,17 @@
             <Role>MetadataContact</Role>
          </Contact>
          <InformationURL>
-            <Name>Narsarsuaq Vector Magnetic Field Data</Name>
+            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
-            <Description>THEMIS Ground-based Observatory (GBO) MAGnetometers (GMAGs)</Description>
+            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
          <PriorID>spase://SMWG/Instrument/THEMIS/Ground/UCLA-GBO/NRSQ/MAG</PriorID>
       </ResourceHeader>
       <InstrumentType>Magnetometer</InstrumentType>
-      <InvestigationName>THEMIS Collaboration</InvestigationName>
+      <InvestigationName>DTU Network</InvestigationName>
+      <InvestigationName>THEMIS Mission GMAGs</InvestigationName>
       <OperatingSpan>
-         <StartDate>2009-04-04T00:00:00.000</StartDate>
+         <StartDate>2008-10-01T00:00:00.000</StartDate>
       </OperatingSpan>
       <ObservatoryID>spase://SMWG/Observatory/Ground/Narsarsuaq</ObservatoryID>
    </Instrument>

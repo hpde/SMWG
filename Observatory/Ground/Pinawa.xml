@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
    <Observatory>
       <ResourceID>spase://SMWG/Observatory/Ground/Pinawa</ResourceID>
       <ResourceHeader>
-         <ResourceName>Pinawa</ResourceName>
-         <AlternateName>Observatory Station Code: PINA</AlternateName>
-         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
-         <Description>The Pinawa geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically: I. Mann for use of the data, and the CSA for support of the CARISMA network.</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
+         <ResourceName>Pinawa Geophysical Observatory</ResourceName>
+         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+         <Description>Pinawa (PINA) Geophysical Observatory</Description>
+         <Acknowledgement>Please acknowledge: University of Alberta</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Ian.Mann</PersonID>
             <Role>PrincipalInvestigator</Role>
@@ -22,9 +17,9 @@
             <Role>MetadataContact</Role>
          </Contact>
          <InformationURL>
-            <Name>Pinawa Vector Magnetic Field Data</Name>
-            <URL>http://themis.ssl.berkeley.edu/gmag_desc.shtml</URL>
-            <Description>THEMIS Ground-based Observatory (GBO) MAGnetometers (GMAGs)</Description>
+            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
          <PriorID>spase://SMWG/Observatory/THEMIS/Ground/CANMAG/PINA</PriorID>
       </ResourceHeader>
@@ -32,10 +27,10 @@
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>50.2</Latitude>
-         <Longitude>263.96</Longitude>
+         <Longitude>263.9</Longitude>
       </Location>
       <OperatingSpan>
-         <StartDate>2009-07-27T00:00:00.000</StartDate>
+         <StartDate>2006-11-01T00:00:00</StartDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

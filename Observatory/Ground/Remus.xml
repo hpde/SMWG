@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
    <Observatory>
       <ResourceID>spase://SMWG/Observatory/Ground/Remus</ResourceID>
       <ResourceHeader>
-         <ResourceName>Remus</ResourceName>
-         <AlternateName>Observatory Station Code: RMUS</AlternateName>
-         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
-         <Description>The Remus geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically: S. Mende and C. T. Russell for use of the data</Acknowledgement>
+         <ResourceName>Remus Geophysical Observatory</ResourceName>
+         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+         <Description>Remus (RMUS) Geophysical Observatory</Description>
+         <Acknowledgement>Please acknowledge: University of California, Berkeley, University of California, Los Angeles, respectively, NASA NAS5-02099</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
             <Role>PrincipalInvestigator</Role>
@@ -22,20 +21,20 @@
             <Role>MetadataContact</Role>
          </Contact>
          <InformationURL>
-            <Name>Remus Vector Magnetic Field Data</Name>
-            <URL>http://ds9.ssl.berkeley.edu/themis/schools/geons_schools.html</URL>
-            <Description>THEMIS</Description>
+            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
          <PriorID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-EPO/RMUS</PriorID>
       </ResourceHeader>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>43.66</Latitude>
-         <Longitude>274.86</Longitude>
+         <Latitude>43.6</Latitude>
+         <Longitude>274.8</Longitude>
       </Location>
       <OperatingSpan>
-         <StartDate>2007-06-03T00:00:00.000</StartDate>
+         <StartDate>2005-08-24T19:21:53</StartDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

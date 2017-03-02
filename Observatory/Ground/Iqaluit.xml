@@ -1,34 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
    <Observatory>
       <ResourceID>spase://SMWG/Observatory/Ground/Iqaluit</ResourceID>
       <ResourceHeader>
-         <ResourceName>Iqaluit</ResourceName>
-         <AlternateName>Observatory Station Code: IQA</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
-         <Description>The Iqaluit geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge:  Geological Survey of Canada</Acknowledgement>
+         <ResourceName>Iqaluit Geophysical Observatory</ResourceName>
+         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+         <Description>Iqaluit (IQA) Geophysical Observatory</Description>
+         <Acknowledgement>Please acknowledge: Geological Survey of Canada</Acknowledgement>
          <Contact>
-            <PersonID>spase://SMWG/Person/Lorne.McKee</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
+            <PersonID>spase://SMWG/Person/David.Calp</PersonID>
+            <Role>PrincipalInvestigator</Role>
          </Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
          </Contact>
-         <PriorID>spase://SMWG/Observatory/WDC/Iqaluit</PriorID>
+         <InformationURL>
+            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
+         </InformationURL>
       </ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>63.75</Latitude>
-         <Longitude>291.482</Longitude>
+         <Latitude>63.8</Latitude>
+         <Longitude>291.5</Longitude>
+         <Elevation>72.0</Elevation>
       </Location>
       <OperatingSpan>
-         <StartDate>1995-01-01T00:00:00.000</StartDate>
+         <StartDate>2007-01-01T00:00:00.000</StartDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
    <Observatory>
       <ResourceID>spase://SMWG/Observatory/Ground/PENGUIn.1</ResourceID>
       <ResourceHeader>
-         <ResourceName>PENGUIn-1</ResourceName>
-         <AlternateName>Observatory Station Code: PG1</AlternateName>
-         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
-         <Description>The PENGUIn-1 geophysical observatory.</Description>
-         <Acknowledgement>This effort is supported by the National Science Foundation throught the following awards: ANT0839858, ATM922979 (Virginia Tech), and ANT0838861 (University of Michigan).</Acknowledgement>
+         <ResourceName>PENGUIn-1 Geophysical Observatory</ResourceName>
+         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+         <Description>PENGUIn-1 (PG1) Geophysical Observatory</Description>
+         <Acknowledgement>Please acknowledge: Virginia Tech</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/C.Robert.Clauer</PersonID>
             <Role>PrincipalInvestigator</Role>
@@ -18,16 +17,16 @@
             <Role>MetadataContact</Role>
          </Contact>
          <InformationURL>
-            <Name>PENGUIn-1 Vector Magnetic Field Data</Name>
-            <URL>http://mist.nianet.org</URL>
-            <Description>PENGUIn Magnetometer Network informational web site</Description>
+            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
       </ResourceHeader>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>-85.501</Latitude>
-         <Longitude>77.199</Longitude>
+         <Latitude>-84.5</Latitude>
+         <Longitude>77.2</Longitude>
          <Elevation>3342.0</Elevation>
       </Location>
       <OperatingSpan>

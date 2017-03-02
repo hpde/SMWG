@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
    <Observatory>
       <ResourceID>spase://SMWG/Observatory/Ground/Kuujjuaq</ResourceID>
       <ResourceHeader>
-         <ResourceName>Kuujjuaq</ResourceName>
-         <AlternateName>Observatory Station Code: KUUJ</AlternateName>
-         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
-         <Description>The Kuujjuaq geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically: S. Mende and C. T. Russell for use of the data</Acknowledgement>
+         <ResourceName>Kuujjuaq Geophysical Observatory</ResourceName>
+         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+         <Description>Kuujjuaq (KUUJ) Geophysical Observatory</Description>
+         <Acknowledgement>Please acknowledge: University of California, Berkeley, University of California, Los Angeles, respectively, NASA NAS5-02099</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
             <Role>PrincipalInvestigator</Role>
@@ -22,20 +21,20 @@
             <Role>MetadataContact</Role>
          </Contact>
          <InformationURL>
-            <Name>Kuujjuaq Vector Magnetic Field Data</Name>
-            <URL>http://themis.ssl.berkeley.edu/gmag_desc.shtml</URL>
-            <Description>THEMIS Ground-based Observatory (GBO) MAGnetometers (GMAGs)</Description>
+            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
          <PriorID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-GBO/KUUJ</PriorID>
       </ResourceHeader>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>58.1</Latitude>
-         <Longitude>291.6</Longitude>
+         <Latitude>58.3</Latitude>
+         <Longitude>291.8</Longitude>
       </Location>
       <OperatingSpan>
-         <StartDate>2007-12-03T00:00:00.000</StartDate>
+         <StartDate>2007-11-27T00:00:00</StartDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

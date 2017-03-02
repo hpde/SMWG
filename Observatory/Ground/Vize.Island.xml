@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/Vize.Island</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Vize Island Geophysical Observatory</ResourceName>
+         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+         <Description>Vize Island (VIZ) Geophysical Observatory</Description>
+         <Acknowledgement>Please acknowledge: Arctic and Antarctic Research Institute</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Oleg.A.Troshichev</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>79.3</Latitude>
+         <Longitude>76.5</Longitude>
+         <Elevation>0.0</Elevation>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2017-02-10T00:00:00.000</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

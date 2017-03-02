@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
    <Observatory>
       <ResourceID>spase://SMWG/Observatory/Ground/Snap.Lake</ResourceID>
       <ResourceHeader>
-         <ResourceName>Snap Lake</ResourceName>
-         <AlternateName>Observatory Station Code: SNAP</AlternateName>
-         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
-         <Description>The Snap Lake geophysical observatory.</Description>
-         <Acknowledgement>NASA Contract NAS5-02099.</Acknowledgement>
+         <ResourceName>Snap Lake Geophysical Observatory</ResourceName>
+         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+         <Description>Snap Lake (SNAP) Geophysical Observatory</Description>
+         <Acknowledgement>Please acknowledge: University of California, Berkeley, University of California, Los Angeles, respectively, NASA NAS5-02099</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
             <Role>PrincipalInvestigator</Role>
@@ -22,20 +21,20 @@
             <Role>MetadataContact</Role>
          </Contact>
          <InformationURL>
-            <Name>Snap Lake Vector Magnetic Field Data</Name>
-            <URL>http://themis.ssl.berkeley.edu/gmag_desc.shtml</URL>
-            <Description>THEMIS Ground-based Observatory (GBO) MAGnetometers (GMAGs)</Description>
+            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
          <PriorID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-GBO/SNAP</PriorID>
       </ResourceHeader>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>63.603</Latitude>
-         <Longitude>249.141</Longitude>
+         <Latitude>63.6</Latitude>
+         <Longitude>249.1</Longitude>
       </Location>
       <OperatingSpan>
-         <StartDate>2008-10-25T00:00:00.000</StartDate>
+         <StartDate>2008-10-22T19:43:07</StartDate>
       </OperatingSpan>
    </Observatory>
 </Spase>
