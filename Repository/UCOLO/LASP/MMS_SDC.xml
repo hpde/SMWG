@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+  <Version>2.2.8</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/UCOLO/LASP/MMS_SDC</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MMS Science Data Center</ResourceName>
+      <ReleaseDate>2017-04-12T18:30:00Z</ReleaseDate>
+      <Description>MMS science data is made available through the Science Data Center at the Laboratory for Atmospheric and Space Physics (LASP) at the University of Colorado, Boulder. The SDC has endeavoured to make the mission data available through as many different pathways as possible to meet the various needs of the scientific community. 
+
+For direct access to single files, the SDC data directories are available for browsing. Files within may be downloaded and saved locally via your web browser. The SDC also provides a robust set of web services through a RESTful HTTPS API for accessing most science and ancillary data files. These services may be used by the community to access MMS data in the method that best fills their own needs. The web services are also available via an interactive GUI interface on the Search page of the website.
+</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Kristopher.Larsen</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>MMS Science Data Center</Name>
+      <URL>https://lasp.colorado.edu/mms/sdc/public/</URL>
+    </AccessURL>
+  </Repository>
+</Spase>
