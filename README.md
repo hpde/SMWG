@@ -14,7 +14,7 @@ git clone -b master --single-branch https://github.com/hpde/spase-SMWG
 
 If you are a contributor, clone the repository and use the "draft" branch.
 ````
-git clone https://github.com/hpde/spase-SMWG
+git clone git@github.com:hpde/spase-SMWG.git
 git checkout draft
 ````
 
