@@ -1,4 +1,22 @@
-spase-SMWG
-==========
+# spase-SMWG
 
-Heliophysics resource descriptions with SMWG IDs in SPASE metadata format
+SPASE Metadata Working Group (SMWG).
+
+SPASE resource descriptions with the SMWG naming authority.
+
+# How to Use This Repository
+
+If you are a consumer of the metadata simple clone the repostory
+
+````
+git clone -b master --single-branch https://github.com/hpde/spase-SMWG
+````
+
+If you are a contributor, clone the repository and use the "draft" branch.
+````
+git clone https://github.com/hpde/spase-SMWG
+git checkout draft
+````
+
+After pushing updates send a "pull request". After a review, the changes
+will be added to the master branch and shared with consumers.
