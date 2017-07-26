@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+  <Version>2.2.8</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/DSCOVR/PlasMag/FaradayCup</ResourceID>
+    <ResourceHeader>
+      <ResourceName>DSCOVR PlasMag Faraday Cup</ResourceName>
+      <ReleaseDate>2017-07-25T00:00:00Z</ReleaseDate>
+      <Description> The PlasMag (Plasma Magnetometer) instrument suite of NASA/GSFC and MIT (Massachusetts Institute of Technology) is a comprehensive science and space-weather package that includes a fluxgate vector magnetometer, not present on SOHO, a Faraday Cup solar wind positive ion detector and a top-hat electron electrostatic analyzer. This instrument cluster provides high time resolution measurements in real time and represents the next generation of upstream solar wind monitors intended to provide continuity of measurements started by IMP-8, WIND, SOHO and ACE. 56)
+
+Faraday Cup: The PlasMag Faraday Cup provides very high time resolution (0.5 second) solar wind bulk properties in three dimensions, which coupled with magnetic field data (20 vectors/second), allows the investigation of solar wind waves and turbulence at unprecedented time resolution. This, in turn, allows new insights into the basic plasma properties: the process of turbulent cascade and the rate of reconnection. Both topics are critical in understanding the nature of coronal heating.
+</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Justin.C.Kasper</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Michael.L.Stevens</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Anthony.W.Case</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+      <InformationURL>
+        <Name>NOAA Satellite and Information Service DSCOVR PLASMA-MAGNETOMETER</Name>
+        <URL>https://www.nesdis.noaa.gov/sites/default/files/asset/document/dscovr_plasmag_instrument_info_sheet.pdf</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>FaradayCup</InstrumentType>
+    <InvestigationName>PlasmaProbe</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/DSCOVR</ObservatoryID>
+  </Instrument>
+</Spase>

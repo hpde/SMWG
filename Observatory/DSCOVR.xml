@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+  <Version>2.2.8</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/DSCOVR</ResourceID>
+    <ResourceHeader>
+      <ResourceName>DSCOVR</ResourceName>
+      <AlternateName>Deep Space Climate Observatory</AlternateName>
+      <ReleaseDate>2017-07-25T00:00:00Z</ReleaseDate>
+      <Description>The Deep Space Climate Observatory, or DSCOVR, will maintain the nation's real-time solar wind monitoring capabilities
+which are critical to the accuracy and lead time of NOAA's space weather alerts and forecasts. Without timely and accurate warnings, space weather events like the geomagnetic storms caused by changes in solar wind have the potential to disrupt nearly every major public infrastructure system, including power grids, telecommunications, aviation and GPS.
+DSCOVR will succeed NASA's Advanced Composition Explore's (ACE) role in supporting solar wind alerts and warnings from the L1 orbit, the neutral gravity point between the Earth and sun approximately one million miles from Earth. L1 is a good position from which to monitor the sun, because the constant stream of particles from the sun (the solar wind) reaches L1 about an hour before reaching Earth.
+From this position, DSCOVR will typically be able to provide 15 to 60 minute warning time before the surge of particles and magnetic field, known as a coronal mass ejection (or CME), associated with a geomagnetic storm reaches Earth. DSCOVR data will also be used to improve predictions of geomagnetic storm impact locations. Our national security and economic well-being, which depend on advanced technologies, are at risk without these advanced warnings.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Palmer.Dyal</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <InformationURL>
+        <Name>DSCOVR: Deep Space Climate Observatory</Name>
+        <URL>https://www.nesdis.noaa.gov/content/dscovr-deep-space-climate-observatory</URL>
+        <Description>Information about the DSCOVR mission</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+         <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+      </Location>
+  </Observatory>
+</Spase>
