@@ -1,0 +1,12 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+    <Version>2.2.8</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Robert.Redmon</ResourceID>
+        <ReleaseDate>2017-07-28T00:00:00.000</ReleaseDate>
+        <PersonName>Robert (Bob) Redmon</PersonName>
+        <OrganizationName>National Oceanic and Atmospheric Administration (NOAA)</OrganizationName>
+        <Address>325 Broadway, Boulder, CO USA 80305-3328 </Address>
+        <Email>Rob.Redmon@noaa.gov</Email>
+        <PhoneNumber>303-497-4331</PhoneNumber>
+    </Person>
+</Spase>
