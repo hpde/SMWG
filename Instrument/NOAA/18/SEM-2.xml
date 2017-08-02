@@ -2,7 +2,7 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
   <Version>2.2.2</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/NOAA/19/SEM</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/NOAA/18/SEM-2</ResourceID>
     <ResourceHeader>
       <ResourceName>Space Environment Monitor-2 (SEM-2)</ResourceName>
       <AlternateName>SEM-2</AlternateName>
@@ -14,12 +14,12 @@
       </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2002-032A&amp;ex=5</URL>
-        <Description>Information about the Space Environment Monitor-2 (sem-2) experiment on the NOAA 19 mission.</Description>
+        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2005-018A-05</URL>
+        <Description>Information about the Space Environment Monitor-2 (sem-2) experiment on the NOAA 18 mission.</Description>
       </InformationURL>
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
-    <InvestigationName>Space Environment Monitor-2 (SEM-2) on NOAA 19</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/NOAA/19</ObservatoryID>
+    <InvestigationName>Space Environment Monitor-2 (SEM-2) on NOAA 18</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/NOAA/18</ObservatoryID>
   </Instrument>
 </Spase>
