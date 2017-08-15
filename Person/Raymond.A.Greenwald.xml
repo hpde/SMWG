@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_.xsd">
+  <Version>2.2.8</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Raymond.A.Greenwald</ResourceID>
+    <ReleaseDate>2017-08-15T00:00:00.000</ReleaseDate>
+    <PersonName>Raymond A. Greenwald</PersonName>
+    <OrganizationName>SuperDARN collaboration</OrganizationName>
+    <Address>302 Whittemore (0111), Virginia Tech, Blacksburg, VA 24061</Address>
+    <Email>ray.greenwald@vt.edu</Email>
+  </Person>
+</Spase>
