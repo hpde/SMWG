@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Steven.L.Koontz</ResourceID>
+      <ReleaseDate>2017-08-22T12:34:56.789</ReleaseDate>
+      <PersonName>Steven L. Koontz</PersonName>
+      <OrganizationName>Structural Engineering Division</OrganizationName>
+      <Address>NASA Johnson Space Center, 2400 NASA Road 1, Houston, TX, 77058, USA</Address>
+      <Email>steven.l.koontz@jsc.nasa.gov</Email>
+      <PhoneNumber>+1 281 483 8860</PhoneNumber>
+   </Person>
+</Spase>

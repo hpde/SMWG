@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Amy.M.Kersee</ResourceID>
+      <ReleaseDate>2017-08-23T12:34:56.789</ReleaseDate>
+      <PersonName>Amy M. Kersee</PersonName>
+      <OrganizationName>Department of Physics and Astronomy</OrganizationName>
+      <Address>West Virginia University, Morgantown, WV, USA</Address>
+      <Email>amy.keesee@mail.wvu.edu</Email>
+      <PhoneNumber>+1 304 293 5113</PhoneNumber>
+   </Person>
+</Spase>
