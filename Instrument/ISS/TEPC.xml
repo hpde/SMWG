@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/ISS/TEPC</ResourceID>
+      <ResourceHeader>
+         <ResourceName>International Space Station, Tissue-Equivalent Dose Analyzer, TEPC</ResourceName>
+         <ReleaseDate>2017-08-23T12:34:56.789</ReleaseDate>
+         <Description>International Space Station, Tissue-Equivalent Dose Analyzer, TEPC. Establishment of Dosimetric Technique in the International Space Station, ISS, with Position Sensitive Tissue Equivalent Proportional Chamber, PS-TEPC, - 20170802</Description>
+         <Acknowledgement>E.N. Zapp,Space Radiation Analysis Group, NASA Johnson Space Center</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Edward.Neal.Zapp</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Tissue-Equivalent Dose Analyzer Web Site</Name>
+            <URL>https://www.nasa.gov/mission_pages/station/research/experiments/1079.html</URL>
+            <Description>Tissue-Equivalent Dose Analyzer, TEPC, Information and Details</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Unspecified</InstrumentType>
+      <InvestigationName>International Space Station TEPC</InvestigationName>
+      <OperatingSpan>
+         <StartDate>1998-11-20T00:00:00</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/ISS</ObservatoryID>
+   </Instrument>
+</Spase>

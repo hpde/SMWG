@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/DMSP_5D-3/S20</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Defense Meteorological Satellite Program, DMSP-S20</ResourceName>
+         <AlternateName>DMSP_5D-3/S20</AlternateName>
+         <ReleaseDate>2017-08-23T12:34:56.789</ReleaseDate>
+         <Description>Defense Meteorological Satellite Program, DMSP-S20 20th flight unit of the DMSP Block 5D series, 6th (last) of the Block 5D-3 series. Main missions: cloud imagery and MW imaging/temperature/humidity sounding. Substantial contribution to Space weather.</Description>
+         <Acknowledgement>DMSP Data Manager, NOAA National Environmental Satellite, Data, and Information Service, NESDIS</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Defense Meteorological Satellite Program, DMSP-S20 Web Site</Name>
+            <URL>https://www.wmo-sat.info/oscar/satellites/view/67</URL>
+            <Description>Defense Meteorological Satellite Program, DMSP-S20, Information and Details</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <ObservatoryGroupID>spase://SMWG/Observatory/DMSP</ObservatoryGroupID>
+      <Location>
+         <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2020-01-01T00:00:00</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

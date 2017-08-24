@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/DMSP_5D-3/F16/OLS</ResourceID>
+      <ResourceHeader>
+         <ResourceName>DMSP/F16, Operational Linescan System, OLS</ResourceName>
+         <ReleaseDate>2017-08-23T12:34:56.789</ReleaseDate>
+         <Description>DMSP/F16, Operational Linescan System, OLS, The OLS measures visible (0.4-1.1 micrometers) and infrared (10.25-12.6 micrometers) wavelengths to provide day and night cloud cover imagery. The satellite measures data at a 0.56 km resolution, which is averaged on board, to produce global coverage at 2.7 km resolution. All of the 2.7 km resolution (smooth) data is downlinked to the ground sites while a small amount of the 0.56 km resolution (fine) data is stored and downlinked. The OLS is the primary sensor on each DMSP satellite.</Description>
+         <Acknowledgement>DMSP Data Manager, NOAA National Environmental Satellite, Data, and Information Service, NESDIS</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/DMSP.Data.Manager</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Operational Linescan System Web Site</Name>
+            <URL>https://www.wmo-sat.info/oscar/instruments/view/376</URL>
+            <Description>Operational Linescan System, OLS, Information and Details</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Imager</InstrumentType>
+      <InvestigationName>Defense Meteorological Satellite Program, DMSP</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2003-10-18T00:00:00</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/DMSP_5D-3/F16</ObservatoryID>
+   </Instrument>
+</Spase>

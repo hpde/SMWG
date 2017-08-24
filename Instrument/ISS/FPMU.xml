@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/ISS/FPMU</ResourceID>
+      <ResourceHeader>
+         <ResourceName>International Space Station, Floating Potential Measurement Unit, FPMU</ResourceName>
+         <ReleaseDate>2017-08-23T12:34:56.789</ReleaseDate>
+         <Description>International Space Station, Floating Potential Measurement Unit. FPMU, The FPMU is used to correct the charging models of the station each time a new section is added to the structure. By providing feedback on the effectiveness of steps taken to control charging, the FPMU helps ensure a safe working environment for the astronauts.</Description>
+         <Acknowledgement>R.M. Suggs, S.L. Koontz, NASA Johnson Space Center, Contact Rob Suggs for support and use.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Robert.M.Suggs</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Steven.L.Koontz</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Floating Potential Measurement Unit Web Site</Name>
+            <URL>http://www.sdl.usu.edu/programs/fpmu</URL>
+            <Description>Floating Potential Measurement Unit, FPMU, Information and Details</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>LangmuirProbe</InstrumentType>
+      <InvestigationName>International Space Station FPMU</InvestigationName>
+      <OperatingSpan>
+         <StartDate>1998-11-20T00:00:00</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/ISS</ObservatoryID>
+   </Instrument>
+</Spase>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/DMSP.Data.Manager</ResourceID>
+      <ReleaseDate>2017-08-22T12:34:56.789</ReleaseDate>
+      <PersonName>DMSP Data Manager</PersonName>
+      <OrganizationName>NOAA National Environmental Satellite, Data, and Information Service, NESDIS</OrganizationName>
+      <Address>1335 East-West Highway, SSMC1, 8th Floor Silver Spring, MD 20910</Address>
+      <Email>ngdc.dmsp@noaa.gov</Email>
+      <PhoneNumber>+1 303 497 3053</PhoneNumber>
+   </Person>
+</Spase>

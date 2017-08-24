@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/ISS</ResourceID>
+      <ResourceHeader>
+         <ResourceName>International Space Station</ResourceName>
+         <ReleaseDate>2017-08-23T12:34:56.789</ReleaseDate>
+         <Description>International Space Station SPASE Observatory Description</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>International Space Station NASA Web Site</Name>
+            <URL>https://www.nasa.gov/mission_pages/station/main/index.html</URL>
+            <Description>International Space Station, Information and Details</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.NearSurface.Ionosphere.FRegion</ObservatoryRegion>
+         <ObservatoryRegion>Earth.NearSurface.Thermosphere</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>1998-11-20T00:00:00</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>
