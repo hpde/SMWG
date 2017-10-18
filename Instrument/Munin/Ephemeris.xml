@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
+   <Version>2.2.9</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Munin/Ephemeris</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Munin Ephemeris</ResourceName>
+         <AlternateName>Munin Ephemeris</AlternateName>
+         <ReleaseDate>2017-10-16T12:34:56.789</ReleaseDate>
+         <Description>Munin Spacecraft Ephemeris Virtual Instrument</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Olle.Norberg</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Munin Mission Home Page at IRF</Name>
+            <URL>http://munin.irf.se/</URL>
+            <Description>Munin Mission Home Page at the Swedish Institute of Space Physics, IRF</Description>
+            <Language>English</Language>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Platform</InstrumentType>
+      <InvestigationName>Munin Ephemeris</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2000-12-08T09:51:08</StartDate>
+         <StopDate>2001-02-12T05:57:30</StopDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/Munin</ObservatoryID>
+   </Instrument>
+</Spase>

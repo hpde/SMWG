@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
+   <Version>2.2.9</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Munin</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Munin Spacecraft</ResourceName>
+         <ReleaseDate>2017-10-16T12:34:56.789</ReleaseDate>
+         <Description>Munin Mission Overview: In September 1996, Plans to build and launch a very small Student Satellite were discussed at the Kiruna Division of the Swedish Institute of Space Physics, IRF. The Swedish Line of Microsatellites had given the institute the Inspiration and Experience needed to design, together with the Students of the Space Engineering Programme of Umea University, RYP, a "Nanosatellite". From the very beginning the Plans were to have a firm Scientific Goal with the Satellite, soon to be named Munin after one of the God Odins Ravens.  The Scientific Objective with Munin is to collect Data on the Auroral Activity on both the Northern and Southern Hemispheres, such that a Global Picture of the Current State of Activity can be made available Online. The Data acquired by Munin will then serve as an Input to the Prediction of Space Weather. Student Projects involving the Processing and Reduction of the Data is foreseen.  Using Modern Technology, a very small Satellite can be built and still have the necessary Functions needed to support a specific Scientific Mission. The Goal of the Munin Project is both to achieve the Scientific Objectives, and to show that it is possible to achieve them with a very small Satellite. The approximately 5 kg Satellite will have a combined Electron and Ion Spectrometer, an Instrument first to be flown on the Swedish Astrid-2 Mission. The Spectrometer, called MEDUSA, is built by Southwest Research Institute, SwRI. In addition, the Satellite will measure High Energy Particles with a Solid State Detector, and Image the Aurora with a Miniature CCD Camera. The Satellite has a Passive Attitude Control System by using a Magnet and Oscillation Dampers. Silicon Solar Cells and a Li-Ion Battery provide the needed Power. The Satellite uses the UHF-Band for the Uplink and Downlink to the Ground Station located at the Institute in Kiruna. Digital Signal Processors perform Instrument Control, Data Compression and Telemetry Formatting, as well as serving as a Software Modem. A Separation System has been developed by Staff and Ph.D. Students in Mechanical Engineering at the Lulea University of Technology, LUTH.  The Name of the Satellite comes from Nordic Mythology: &quot;The Ravens Munin and Hugin flew out and brought back News from every Corner of the World. Sitting on the God Odin&apos;s Shoulders, They whispered all the News in his Ears. Munin represented the Memory and Hugin the Intelligence... and They were his embodied Soul...&quot;</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Olle.Norberg</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Munin Mission Home Page at IRF</Name>
+            <URL>http://munin.irf.se/</URL>
+            <Description>Munin Mission Home Page at the Swedish Institute of Space Physics, IRF</Description>
+            <Language>English</Language>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+         <ObservatoryRegion>Earth.NearSurface.AuroralRegion</ObservatoryRegion>
+         <ObservatoryRegion>Earth.NearSurface.EquatorialRegion</ObservatoryRegion>
+         <ObservatoryRegion>Earth.NearSurface.Ionosphere.FRegion</ObservatoryRegion>
+         <ObservatoryRegion>Earth.NearSurface.PolarCap</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2000-12-08T09:51:08</StartDate>
+         <StopDate>2001-02-12T05:57:30</StopDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>
