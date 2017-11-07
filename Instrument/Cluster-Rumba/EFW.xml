@@ -14,8 +14,13 @@
       </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2000-045A&amp;ex=8</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-08</URL>
         <Description>Information about the Electric Field and Waves (EFW) experiment on the Cluster 2/FM5 (Rumba) mission.</Description>
+      </InformationURL>
+	  <InformationURL>
+        <Name>Space Science Reviews Journal Article</Name>
+        <URL>https://link.springer.com/chapter/10.1007/978-94-011-5666-0_6</URL>
+        <Description>Information about the Electric Field and Waves (EFW) experiment.</Description>
       </InformationURL>
       <PriorID>spase://SMWG/Instrument/Cluster2-Rumba/EFW</PriorID>
     </ResourceHeader>
