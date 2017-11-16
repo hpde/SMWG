@@ -1,14 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
-  <Version>2.1.0</Version>
-  <Instrument>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
+<Version>2.1.0</Version>
+<Instrument>
     <ResourceID>spase://SMWG/Instrument/AE-E/ESUM</ResourceID>
     <ResourceHeader>
       <ResourceName>Extreme Solar Ultraviolet Monitor (ESUM)</ResourceName>
       <ReleaseDate>2010-05-19T20:16:51Z</ReleaseDate>
-      <Description>The AE-E Extreme Solar Ultraviolet monitor (ESUM) made broadband
-spectro-radiometric measurements of solar UF from 200 A to Lyman alpha at 1216 A.
-Instrumentation consisted of two windowless EUV photodiodes and a filter wheel.</Description>
+      <Description>The Extreme Solar Ultraviolet Monitor (ESUM) experiment made absolute broadband spectro-radiometric measurements of the solar EUV flux from 200 A to Lyman-alpha at 1216 A and made precise measurements of the temporal variability. The instrument consisted of two identical windowless EUV photodiodes with aluminum oxide cathodes and a filter wheel containing two sets of unbacked metallic filters (aluminum, tin, indium) and an open position. A visible light diode measured the pinhole transmittance of the filters to determine the white light background. The tilt angle of the instrument relative to the +Z spacecraft axis was optimized for the maximum viewing time of the sun in both spinning and despun spacecraft modes. The instrument field of view was 60 deg. The nominal bandwidths in Angstroms for 50% of the signal were 270 to 550, 570 to 584, 800 to 935, and 1216 A. More experiment details can be found in D. F. Heath and J. F. Osantowski, Radio Sci., v. 8, n. 4, p. 361, 1973.
+          </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Donald.F.Heath</PersonID>
         <Role>PrincipalInvestigator</Role>
@@ -16,6 +14,12 @@ Instrumentation consisted of two windowless EUV photodiodes and a filter wheel.<
       <InformationURL>
         <Name>NSDC Master Catalog</Name>
         <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1975-107A-05</URL>
+		<Description>Information about the Extreme Solar Ultraviolet Monitor (ESUM) experiment.</Description>
+      </InformationURL>
+	  <InformationURL>
+        <Name>Radio Science Journal Article</Name>
+        <URL>http://onlinelibrary.wiley.com/doi/10.1029/RS008i004p00361/full</URL>
+		<Description>Detailed information the ESUM experiment.</Description>
       </InformationURL>
     </ResourceHeader>
     <InstrumentType>Spectrometer</InstrumentType>
