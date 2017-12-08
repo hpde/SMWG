@@ -7,16 +7,38 @@
       <ResourceName>Retarding Potential Analyzer/Drift Meter</ResourceName>
       <AlternateName>RPA</AlternateName>
       <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
-      <Description>This experiment was designed to determine vector ion drift velocities, ion concentration and temperature, total ion concentration roughness, and spacecraft potential. The experiment consisted of a retarding potential analyzer with four planar sensor heads. The sensor heads were spaced nearly equally around the satellite equator. Since the satellite spin axis was perpendicular to the orbit plane, these heads could observe along the spacecraft velocity vector in either the spin or despun mode of the spacecraft. Three of the sensor heads were similar. They had two grounded entrance grids, two retarding grids, a suppressor grid, a shield grid, and a collector. A linear sweep voltage (32 or 22 to 0 V, up or down) was normally applied to the retarding grids in 0.75 s. Interpretation of the resulting current-voltage profiles provided the ion temperature, the ion and electron concentration, some ion composition information, and vehicle potential and plasma drift velocity parallel to the velocity vector. With the retarding grid at constant zero volts, current changes could be observed for 3-s periods to obtain gradients of ion concentration. Electron parameters were measured in a manner similar to ions. Ions in mass ranges 1 to 4, 14 to 16, 24 to 32 and greater than 40 atomic mass units could be identified. The fourth sensor head was for the ion-drift velocity measurements, and consisted of four grounded grids, a negatively biased suppressor grid, and a four-segment collector. Differences in the collector segments' currents provided ion-drift directional component information. More details of this experiment are available in W. B. Hanson et al., Radio Sci., v. 8, n. 4, p. 333, 1973.</Description>
+      <Description>This experiment was designed to determine vector ion drift velocities, ion concentration 
+	  and temperature, total ion concentration roughness, and spacecraft potential. The experiment consisted 
+	  of a retarding potential analyzer with four planar sensor heads. The sensor heads were spaced nearly 
+	  equally around the satellite equator. Since the satellite spin axis was perpendicular to the orbit plane, 
+	  these heads could observe along the spacecraft velocity vector in either the spin or despun mode of 
+	  the spacecraft. Three of the sensor heads were similar. They had two grounded entrance grids, two 
+	  retarding grids, a suppressor grid, a shield grid, and a collector. A linear sweep voltage (32 or 22 
+	  to 0 V, up or down) was normally applied to the retarding grids in 0.75 s. Interpretation of the 
+	  resulting current-voltage profiles provided the ion temperature, the ion and electron concentration, 
+	  some ion composition information, and vehicle potential and plasma drift velocity parallel to the 
+	  velocity vector. With the retarding grid at constant zero volts, current changes could be observed for 
+	  3-s periods to obtain gradients of ion concentration. Electron parameters were measured in a manner 
+	  similar to ions. Ions in mass ranges 1 to 4, 14 to 16, 24 to 32 and greater than 40 atomic mass units 
+	  could be identified. The fourth sensor head was for the ion-drift velocity measurements, and consisted 
+	  of four grounded grids, a negatively biased suppressor grid, and a four-segment collector. Differences 
+	  in the collector segments' currents provided ion-drift directional component information. More details 
+	  of this experiment are available in W. B. Hanson et al., Radio Sci., v. 8, n. 4, p. 333, 
+	  1973.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/William.B.Hanson</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1975-107A&amp;ex=4</URL>
-        <Description>Information about the Retarding Potential Analyzer/Drift Meter experiment on the AE-E mission.</Description>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1975-107A-04</URL>
+        <Description>Information about the Retarding Potential Analyser/Drift Meter (RPA) experiment on the AE-E mission.</Description>
       </InformationURL>
+	  <InformationURL>
+        <Name>Radio Science Journal Article</Name>
+        <URL>https://doi.org/10.1029/RS008i004p00333</URL>
+        <Description>Detailed information about the Retarding Potential Analyser/Drift Meter (RPA) experiment on the AE-E mission.</Description>
+	  </InformationURL>
     </ResourceHeader>
     <InstrumentType>RetardingPotentialAnalyser</InstrumentType>
     <InvestigationName>Retarding Potential Analyzer/Drift Meter on AE-E</InvestigationName>

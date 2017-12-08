@@ -7,17 +7,33 @@
       <ResourceName>Visible Airglow Photometer (VAE)</ResourceName>
       <AlternateName>VAE</AlternateName>
       <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
-      <Description>This experiment provided detailed data on the rates of excitation of the atomic and molecular constituents of the thermosphere. The wavelength range, expressed in Angstroms, was measured in pairs: 7319 and 6563, 5300 and dark, 5577 and 7319, 2800 and 5200, 6300 and 5577, calibrate and 2800, and 6563 and 6300. A photometer was used which contained two separate optical channels, a narrow field of view and a wide field of view. Spectral selection was accomplished with a filter wheel that contained six interference filters and a dark and calibrate position. The two channels were separated by 90 deg. One channel had a 3-deg half-angle cone field of view for high sensitivity and pointed normally toward the local zenith. The second had a field of view of 0.75-deg half cone for high spatial resolution, pointing tangentially to the surface of the earth when the satellite was in the oriented mode. Both channels were protected from stray light contamination during the daytime with multistage baffle systems. Filters were operated in several modes. The two separate optical channels were monitored at time intervals consistent with their angular resolution in the spinning mode. More experiment details can be found in P. B. Hays et al., Radio Sci., v. 8, n. 4, p. 369, 1973. More information about the VAE instrument and data can be found at the University of Michigan WWW VAE pages:
-http://www.sprl.umich.edu/VAE.</Description>
+      <Description>This experiment provided detailed data on the rates of excitation of the atomic and 
+	  molecular constituents of the thermosphere. The wavelength range, expressed in Angstroms, was measured 
+	  in pairs: 7319 and 6563, 5300 and dark, 5577 and 7319, 2800 and 5200, 6300 and 5577, calibrate and 
+	  2800, and 6563 and 6300. A photometer was used which contained two separate optical channels, a narrow 
+	  field of view and a wide field of view. Spectral selection was accomplished with a filter wheel that 
+	  contained six interference filters and a dark and calibrate position. The two channels were separated 
+	  by 90 deg. One channel had a 3-deg half-angle cone field of view for high sensitivity and pointed 
+	  normally toward the local zenith. The second had a field of view of 0.75-deg half cone for high spatial 
+	  resolution, pointing tangentially to the surface of the earth when the satellite was in the oriented 
+	  mode. Both channels were protected from stray light contamination during the daytime with multistage 
+	  baffle systems. Filters were operated in several modes. The two separate optical channels were monitored 
+	  at time intervals consistent with their angular resolution in the spinning mode. More experiment details 
+	  can be found in P. B. Hays et al., Radio Sci., v. 8, n. 4, p. 369, 1973. </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Paul.B.Hays</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1975-107A&amp;ex=11</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1975-107A-11</URL>
         <Description>Information about the Visible Airglow Photometer (VAE) experiment on the AE-E mission.</Description>
       </InformationURL>
+	  <InformationURL>
+        <Name>Radio Science Journal Article</Name>
+        <URL>https://doi.org/10.1029/RS008i004p00369</URL>
+        <Description>Detailed information about the Visible Airglow Photometer (VAE) experiment on the AE-E mission.</Description>
+	  </InformationURL>
     </ResourceHeader>
     <InstrumentType>Photometer</InstrumentType>
     <InvestigationName>Visible Airglow Photometer (VAE) on AE-E</InvestigationName>

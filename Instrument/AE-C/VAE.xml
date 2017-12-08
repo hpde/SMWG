@@ -28,9 +28,7 @@
 	  the cathode. With these protective features it was possible to measure a dark feature with no apparent enhancement 
 	  in background within 120 ms after a direct view of the sun. Photons reaching the cathode were recorded using a 
 	  pulse-counting system. For more experiment details, see P. B. Hays et al., Radio Sci., v. 8, n. 4, p. 369, 1973. 
-	  NSSDC has all the useful data that exist from this investigation. More information about the VAE instrument and 
-	  data can be found at the University of Michigan WWW VAE pages:
-      http://www.sprl.umich.edu/VAE.</Description>
+	  NSSDC has all the useful data that exist from this investigation. </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Paul.B.Hays</PersonID>
         <Role>PrincipalInvestigator</Role>
@@ -42,7 +40,7 @@
       </InformationURL>
 	  <InformationURL>
         <Name>Radio Science Journal Article</Name>
-        <URL>http://ieeexplore.ieee.org/document/7773727/</URL>
+        <URL>https://doi.org/10.1029/RS008i004p00369</URL>
         <Description>Detailed information about the Visible Airglow Photometer (VAE) experiment on the AE-C mission.</Description>
 	  </InformationURL>
     </ResourceHeader>

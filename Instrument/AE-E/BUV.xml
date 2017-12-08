@@ -23,8 +23,15 @@ ozone does not occur.</Description>
       </Contact>
       <InformationURL>
         <Name>NSDC Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1975-107A-16</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1975-107A-16</URL>
+		<Description>Detailed information about the Backscatter Ultraviolet Spectrometer (BUV) on the AE-E mission.</Description>
       </InformationURL>
+	  <InformationURL>
+        <Name>Pure and Applied Geophysics Article</Name>
+        <URL>https://link.springer.com/content/pdf/10.1007%2FBF00881076.pdf</URL>
+        <Description>Detailed information about the Backscatter Ultraviolet Spectrometer (BUV) on the 
+		Nimbus-4 satellite and similar to the one on the AE-E mission.</Description>
+	  </InformationURL>
     </ResourceHeader>
     <InstrumentType>Spectrometer</InstrumentType>
     <InvestigationName>BUV</InvestigationName>
