@@ -14,8 +14,13 @@
       </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1997-045A&amp;ex=4</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1997-045A-04</URL>
         <Description>Information about the Solar Energetic Particle Ionic Charge Analyzer (SEPICA) experiment on the ACE mission.</Description>
+      </InformationURL>
+	  <InformationURL>
+        <Name>Space Science Reviews Journal Article</Name>
+        <URL>https://link.springer.com/article/10.1023/A:1005084014850</URL>
+        <Description>Detailed information about the Solar Energetic Particle Ionic Charge Analyzer (SEPICA) experiment on the ACE mission.</Description>
       </InformationURL>
     </ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>

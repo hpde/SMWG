@@ -34,6 +34,11 @@
         <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1997-045A-08</URL>
         <Description>Information about the EPAM experiment on the ACE mission.</Description>
       </InformationURL>
+	  <InformationURL>
+        <Name>Space Science Reviews Journal Article</Name>
+        <URL>https://link.springer.com/article/10.1023/A:1005088115759</URL>
+        <Description>Detailed information about the Electron Proton Alpha Monitor experiment on the ACE mission.</Description>
+      </InformationURL>
       <PriorID>spase://SMWG/instrument/1997-045A-08</PriorID>
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>

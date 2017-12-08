@@ -14,8 +14,13 @@
       </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1997-045A&amp;ex=1</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1997-045A-01</URL>
         <Description>Information about the Solar Wind Ion Mass Spectrometer (SWIMS) experiment on the ACE mission.</Description>
+      </InformationURL>
+	  <InformationURL>
+        <Name>Space Science Reviews Journal Article</Name>
+        <URL>https://link.springer.com/chapter/10.1007/978-94-011-4762-0_18</URL>
+        <Description>Detailed information about the Solar Wind Ion Composition Spectrometer (SWICS) and Solar Wind Ion Mass Spectrometer (SWIMS) on the ACE mission.</Description>
       </InformationURL>
     </ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>

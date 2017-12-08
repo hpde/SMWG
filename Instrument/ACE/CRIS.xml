@@ -30,8 +30,13 @@
       </InformationURL>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1997-045A&amp;ex=6</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1997-045A-06</URL>
         <Description>Information about the Cosmic Ray Isotope Spectrometer (CRIS) experiment on the ACE mission.</Description>
+      </InformationURL>
+	  <InformationURL>
+        <Name>Space Science Reviews Journal Article</Name>
+        <URL>https://link.springer.com/article/10.1023/A:1005075813033</URL>
+        <Description>Detailed information about the Cosmic Ray Isotope Spectrometer (CRIS) experiment on the ACE mission.</Description>
       </InformationURL>
       <PriorID>spase://SMWG/instrument/1997-045A-06</PriorID>
     </ResourceHeader>

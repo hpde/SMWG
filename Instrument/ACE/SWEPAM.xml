@@ -28,6 +28,11 @@
         <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1997-045A-07</URL>
         <Description>Information about the Solar Wind Electron, Proton and Alpha Monitor (SWEPAM) experiment on the ACE mission.</Description>
       </InformationURL>
+	  <InformationURL>
+        <Name>Space Science Reviews Journal Article</Name>
+        <URL>https://link.springer.com/chapter/10.1007/978-94-011-4762-0_20</URL>
+        <Description>Detailed information about the Solar Wind Electron, Proton, and Alpha Monitor (SWEPAM) instrument on the ACE mission.</Description>
+      </InformationURL>
       <PriorID>spase://SMWG/instrument/1997-045A-07</PriorID>
     </ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>

@@ -6,16 +6,48 @@
     <ResourceHeader>
       <ResourceName>Closed-Source Neutral Mass Spectrometer</ResourceName>
       <ReleaseDate>2009-05-20T21:10:01Z</ReleaseDate>
-      <Description>This experiment measured in situ the spatial distribution and temporal changes of the concentrations of the neutral atmospheric species. In addition, new insight into in situ measurement techniques was obtained from comparisons of these measurements with those obtained from other on-board experiments; namely, open source spectrometer (73-101A-07), solar EUV spectrophotometer (73-101A-06), and density accelerometer (73-101A-02). The mass-spectrometer sensor had a gold-plated stainless steel thermalizing chamber and ion source, a hyperbolic-rod quadrupole analyzer, and an off-axis electron multiplier. Five different sequences of mass selections were available and, expressed in atomic mass units (u), were (a) geophysical -1, 2, 4, total, 16, 28, 32, selected, 40, (b) analytical -12, 14, 18, 20, 22, 30, 44, calibrate, zero, (c) individual -selected, selected, selected, ... (any mass 1 to 44), (d) sweep digital -1, 2, 3, 4, 5, ... 45 (in 3/16 u steps), (e) sweep analog -2, 3, 4, 5, ... 45 (continuous). Five operational formats were available and selected by ground command, and each one contained a different combination of the five mass selection sequences listed above. When operating in the "normal format," the analyzer measured all masses in the range 1 to 44 with emphasis on hydrogen, helium, oxygen, nitrogen, and argon. Another format was optimized for minor constituent studies of any individual gas species in the measured range. Spatial resolution was determined primarily by the mode of spacecraft operation. In orbit, the presealed spectrometer was opened, and the atmospheric constituents passed through a knife-edged orifice into the thermalization chamber and ion source. Selected ions left the quadrupole analyzer through a weak focusing lens and were accelerated into a 14-stage electron multiplier, where they were turned 90 deg to strike the first dynode. For each impacting ion, the multiplier output was a pulse of 2.E6 electrons. These output pulses constituted the measurement, and the count rate was proportional to the chamber density of the selected species. These density values were then converted to ambient concentrations. The analyzer normally operated at a resolution of 1 u over the mass range. Pulses occurring during 0.015-s integration intervals were accumulated in a 16-bit counter. Multiple integration periods (up to 16) were assigned to each measurement for less dense atmospheric species. Automatically selected ranges of ionizing electron currents were used. The overall dynamic range of the measurements was greater than 1.E7. More experiment details can be found in D. T. Pelz et al., Radio Sci., v. 8, n. 4, p. 277, 1973. NSSDC has all the useful data that exist from this investigation.</Description>
+      <Description>This experiment measured in situ the spatial distribution and temporal changes of the 
+	  concentrations of the neutral atmospheric species. In addition, new insight into in situ measurement 
+	  techniques was obtained from comparisons of these measurements with those obtained from other on-board 
+	  experiments; namely, open source spectrometer (73-101A-07), solar EUV spectrophotometer (73-101A-06), 
+	  and density accelerometer (73-101A-02). The mass-spectrometer sensor had a gold-plated stainless steel 
+	  thermalizing chamber and ion source, a hyperbolic-rod quadrupole analyzer, and an off-axis electron 
+	  multiplier. Five different sequences of mass selections were available and, expressed in atomic mass 
+	  units (u), were (a) geophysical -1, 2, 4, total, 16, 28, 32, selected, 40, (b) analytical -12, 14, 
+	  18, 20, 22, 30, 44, calibrate, zero, (c) individual -selected, selected, selected, ... (any mass 1 to 44), 
+	  (d) sweep digital -1, 2, 3, 4, 5, ... 45 (in 3/16 u steps), (e) sweep analog -2, 3, 4, 5, ... 45 
+	  (continuous). Five operational formats were available and selected by ground command, and each one 
+	  contained a different combination of the five mass selection sequences listed above. When operating in 
+	  the "normal format," the analyzer measured all masses in the range 1 to 44 with emphasis on hydrogen, 
+	  helium, oxygen, nitrogen, and argon. Another format was optimized for minor constituent studies of any 
+	  individual gas species in the measured range. Spatial resolution was determined primarily by the mode 
+	  of spacecraft operation. In orbit, the presealed spectrometer was opened, and the atmospheric 
+	  constituents passed through a knife-edged orifice into the thermalization chamber and ion source. 
+	  Selected ions left the quadrupole analyzer through a weak focusing lens and were accelerated into a 
+	  14-stage electron multiplier, where they were turned 90 deg to strike the first dynode. For each impacting 
+	  ion, the multiplier output was a pulse of 2.E6 electrons. These output pulses constituted the measurement, 
+	  and the count rate was proportional to the chamber density of the selected species. These density values 
+	  were then converted to ambient concentrations. The analyzer normally operated at a resolution of 1 u over 
+	  the mass range. Pulses occurring during 0.015-s integration intervals were accumulated in a 16-bit counter.
+	  Multiple integration periods (up to 16) were assigned to each measurement for less dense atmospheric species. 
+	  Automatically selected ranges of ionizing electron currents were used. The overall dynamic range of the
+	  measurements was greater than 1.E7. More experiment details can be found in 
+	  D. T. Pelz et al., Radio Sci., v. 8, n. 4, p. 277, 1973. NSSDC has all the useful data that exist 
+	  from this investigation.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/D.T.Pelz</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1973-101A&amp;ex=8</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1973-101A-08</URL>
         <Description>Information about the Closed-Source Neutral Mass Spectrometer experiment on the AE-C mission.</Description>
       </InformationURL>
+	  <InformationURL>
+        <Name>Radio Science Journal Article</Name>
+        <URL>http://ieeexplore.ieee.org/document/7773717/</URL>
+        <Description>Detailed information about the neutral-atmosphere composition experiment on the AE-C mission.</Description>
+	  </InformationURL>
     </ResourceHeader>
     <InstrumentType>MassSpectrometer</InstrumentType>
     <InvestigationName>Closed-Source Neutral Mass Spectrometer on AE-C</InvestigationName>
