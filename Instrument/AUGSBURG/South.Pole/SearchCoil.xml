@@ -4,9 +4,11 @@
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/AUGSBURG/South.Pole/SearchCoil</ResourceID>
     <ResourceHeader>
-      <ResourceName>The South Pole Fluxgate SearchCoil Instrument.</ResourceName>
+      <ResourceName>The South Pole Search Coil Instrument.</ResourceName>
       <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
-      <Description>The Fluxgate SearchCoil instrument at the South Pole geomagnetic observatory.</Description>
+      <Description>The Search Coil instrument recording geomagnetic micropulsation data at 
+	  frequencies less than about 10 Hz at the South Pole geomagnetic observatory
+	  at about 90.0 GLat.</Description>
       <Acknowledgement>Please acknowledge Mark J. Engebretson, Augsburg College (2211 Riverside Avenue, Minneapolis, MN 55454-1338, USA) for use of data from the South Pole SearchCoil instrument.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Mark.J.Engebretson</PersonID>
@@ -18,7 +20,7 @@
       </Contact>
       <InformationURL>
         <Name>The Augsburg Search Coil Magnetometer Array Home Page.</Name>
-        <URL>http://www.augsburg.edu/physics/antindex.htm</URL>
+        <URL>http://space.augsburg.edu/searchcoil/</URL>
         <Description>The Augsburg Antarctic station array information web site.</Description>
       </InformationURL>
       <Association>

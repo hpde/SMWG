@@ -6,12 +6,17 @@
     <ResourceHeader>
       <ResourceName>AIM Cloud Imaging and Particle Size experiment</ResourceName>
       <ReleaseDate>2010-03-17T21:29:56Z</ReleaseDate>
-      <Description>The Cloud Imaging and Particle Size (CIPS) experiment is 
-a wide angle (120 deg along track by 80 deg across track) imager consisting 
-of four identical cameras arranged in a cross pattern. CIPS provides images 
-of Polar Mesospheric Clouds with a spatial resolution of 1 x 2 km in the 
-nadir and about 5 km at the edges of the forward and aft cameras.
-Images are taken in UV (10 nm passband centered at 265 nm).</Description>
+      <Description>The cloud imaging and particle size experiment (CIPS) is a UV panoramic imager that 
+	  uses intensified CCD cameras to image the Polar Mesospheric Clouds (PMC) latitude versus longitude 
+	  distribution. It provides nadir imaging with a 120 degrees by 80 degrees field of view (1140 by 
+	  960 km) with at least 3 km spatial resolution at 83 km. CIPS observes the backscattered radiance 
+	  from PMCs (near 82 km altitude) to derive the morphology of PMCs and the cloud particle sizes. 
+	  Rayleigh scattering from the background near 50 km altitude is used to measure gravity wave 
+	  activity. Multiple exposures of individual cloud elements provide a measurement of the scattering 
+	  phase function and detect spatial scales ~2 km. The Ultraviolet bandpass (265 plus or minus 5 nm) 
+	  maximizes cloud contrast. CIPS is designed, fabricated, and calibrated by the Laboratory for 
+	  Atmospheric and Space Physics (LASP) of Colorado University.
+          .</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Cora.Randall</PersonID>
         <Role>PrincipalInvestigator</Role>
@@ -24,6 +29,11 @@ Images are taken in UV (10 nm passband centered at 265 nm).</Description>
         <Name>AIM insrument descriptions at LASP</Name>
         <URL>http://lasp.colorado.edu/aim/aim_instruments.htm</URL>
       </InformationURL>
+	  <InformationURL>
+        <Name>Journal of Atmospheric and Solar-Terrestrial Physics Article</Name>
+        <URL>https://doi.org/10.1016/j.jastp.2008.08.011</URL>
+        <Description>Detailed information about the Aeronomy of Ice in the Mesosphere (AIM) mission and the CIPS experiment.</Description>
+	  </InformationURL>
     </ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>CIPS</InvestigationName>

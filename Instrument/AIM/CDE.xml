@@ -22,9 +22,14 @@ for background noise measurements.</Description>
         <URL>http://aim.hamptonu.edu/instrmt/cde.html</URL>
       </InformationURL>
       <InformationURL>
-        <Name>AIM insrument descriptions at LASP</Name>
+        <Name>AIM instrument descriptions at LASP</Name>
         <URL>http://lasp.colorado.edu/aim/aim_instruments.htm</URL>
-      </InformationURL>
+	  </InformationURL>
+	  <InformationURL>
+        <Name>Journal of Atmospheric and Solar-Terrestrial Physics Article</Name>
+        <URL>https://doi.org/10.1016/j.jastp.2008.08.011</URL>
+        <Description>Detailed information about the Aeronomy of Ice in the Mesosphere (AIM) mission and the Cosmic Dust Experiment (CDE).</Description>
+	  </InformationURL>
     </ResourceHeader>
     <InstrumentType>DustDetector</InstrumentType>
     <InvestigationName>CDE</InvestigationName>

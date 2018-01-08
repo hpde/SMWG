@@ -24,6 +24,11 @@
                 <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1984-088B-04</URL>
                 <Description>Information about AMPTE_IRM PWS</Description>
             </InformationURL>
+			<InformationURL>
+				<Name>IEEE Transaction  on Geoscience and Remote Sensing Article</Name>
+				<URL>https://doi.org/10.1109/TGRS.1985.289526</URL>
+				<Description>Detailed information about the AMPTE IRM Plasma Wave Spectrometer.</Description>
+			</InformationURL>
         </ResourceHeader>
         <InstrumentType>Spectrometer</InstrumentType>
         <InvestigationName>The Plasma Wave Spectrometer on AMPTE/IRM</InvestigationName>

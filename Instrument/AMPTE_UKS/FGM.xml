@@ -5,13 +5,19 @@
     <ResourceID>spase://SMWG/Instrument/AMPTE_UKS/FGM</ResourceID>
     <ResourceHeader>
       <ResourceName>AMPTE/UKS Magnetometer</ResourceName>
-      <AlternateName>AMPTE/IRM FGM</AlternateName>
-      <AlternateName>AMPTE/IRM Triaxial Fluxgate Magnetometer</AlternateName>
+      <AlternateName>AMPTE/UKS FGM</AlternateName>
+      <AlternateName>AMPTE/UKS Triaxial Fluxgate Magnetometer</AlternateName>
       <AlternateName>1984-088C-04</AlternateName>
       <ReleaseDate>2009-05-20T21:10:01Z</ReleaseDate>
-      <Description>The objective of this investigation was to study the magnetic fields in the near-earth environment. The instrument consisted of a three-axis orthogonal fluxgate magnetometer with ring-core sensors. It was a refurbished ISEE 1/2 flight spare. One of the two possible ranges, plus and minus 256 or 8192 nT, could be selected by ground command. The accuracy of the instrument was plus or minus 1 nT per axis in the high range and plus or minus 0.03 nT in the low range.
+      <Description>The objective of this investigation was to study the magnetic fields in the 
+	  near-earth environment. The instrument consisted of a three-axis orthogonal fluxgate 
+	  magnetometer with ring-core sensors. It was a refurbished ISEE 1/2 flight spare. One of 
+	  the two possible ranges, plus and minus 256 or 8192 nT, could be selected by ground command. 
+	  The accuracy of the instrument was plus or minus 1 nT per axis in the high range and plus 
+	  or minus 0.03 nT in the low range.
       
-For more details, see D.J. Southwood, et al., IEEE Transaction on Geoscience and Remote Sensing Vol. GE-23, p 301, 1985.
+For more details, see D.J. Southwood, et al., IEEE Transaction on Geoscience and Remote Sensing 
+Vol. GE-23, p 301, 1985.
 </Description>
       <Acknowledgement>User will acknowledge the AMPTE/UKS magnetometer team in any publication resulting from the use of these data.</Acknowledgement>
       <Contact>
@@ -24,16 +30,17 @@ For more details, see D.J. Southwood, et al., IEEE Transaction on Geoscience and
         <PersonID>spase://SMWG/Person/Malcolm.W.Dunlop</PersonID>
         <Role>DataProducer</Role>
       </Contact>
-      <InformationURL>
-        <Name>AMPTE/UKS documents</Name>
-        <URL>http://www.space-plasma.qmul.ac.uk/CDHF/</URL>
-        <Description>A collection of documents describing AMPTE/UKS instruments and data. Possibly outdated.</Description>
-      </InformationURL>
+      
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1984-088C&amp;ex=4</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1984-088C-04</URL>
         <Description>NSSDC information about the AMPTE/UKS Magnetometer</Description>
       </InformationURL>
+	  <InformationURL>
+        <Name>IEEE Transaction on Geoscience and Remote Sensing Article</Name>
+        <URL>https://doi.org/10.1109/TGRS.1985.289531</URL>
+        <Description>Detailed information about the AMPTE UKS Magnetometer.</Description>
+	  </InformationURL>
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Triaxial Fluxgate Magnetometer</InvestigationName>
