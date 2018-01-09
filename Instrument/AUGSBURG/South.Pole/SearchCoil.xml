@@ -23,6 +23,11 @@
         <URL>http://space.augsburg.edu/searchcoil/</URL>
         <Description>The Augsburg Antarctic station array information web site.</Description>
       </InformationURL>
+	  <InformationURL>
+        <Name>Journal of Geophysical Research Space Physics Article</Name>
+        <URL>https://doi.org/10.1029/2007JA012362</URL>
+        <Description>Detailed information about the Augsburg search coils.</Description>
+	  </InformationURL>
       <Association>
         <AssociationID>spase://SMWG/Observatory/AUGSBURG/South.Pole</AssociationID>
         <AssociationType>PartOf</AssociationType>
