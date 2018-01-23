@@ -23,14 +23,15 @@
         <Description>Information about the Rubidium Vector Magnetometer.</Description>
         <Language>en</Language>
       </InformationURL>	  
-		  <Association>
-			  <AssociationID>spase://SMWG/Observatory/OGO2</AssociationID> 
-			  <AssociationType>PartOf</AssociationType> 
-		  </Association>
-		  </ResourceHeader>  
+	  <Association>
+		  <AssociationID>spase://SMWG/Observatory/OGO2</AssociationID> 
+		  <AssociationType>PartOf</AssociationType> 
+	  </Association>
+	  <PriorID>spase://SMWG/Repository/OGO2</PriorID>
+    </ResourceHeader>  
     <AccessURL>
       <Name>Virtual Magnetospheric Observatory</Name>
-      <URL>http://vmo.igpp.ucla.edu/data1/OGO/OGO2/</URL>
+      <URL>http://vmo.igpp.ucla.edu/data1/OGO/OGO-2/</URL>
       <Description>Rubium vapor magnetometer magnitude data the OGO-2 spacecraft.</Description>
     </AccessURL>
   </Repository>

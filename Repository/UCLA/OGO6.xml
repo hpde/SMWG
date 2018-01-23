@@ -3,7 +3,7 @@
   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
   <Version>2.2.4</Version>
   <Repository>
-    <ResourceID>spase://SMWG/Repository/OGO/OGO6</ResourceID>
+    <ResourceID>spase://SMWG/Repository/OGO6</ResourceID>
     <ResourceHeader>
       <ResourceName>OGO-6 Magnetic Survey, Rubidium Vapor Magnetometer Repository</ResourceName>
 		  <ReleaseDate>2016-01-20T00:00:00Z</ReleaseDate> 
@@ -23,14 +23,15 @@
         <Description>Information about the Rubidium Vector Magnetometer.</Description>
         <Language>en</Language>
       </InformationURL>
-		  <Association>
-			  <AssociationID>spase://SMWG/Observatory/OGO6</AssociationID> 
-			  <AssociationType>PartOf</AssociationType> 
-		  </Association>
-		  </ResourceHeader>  
+	  <Association>
+		  <AssociationID>spase://SMWG/Observatory/OGO6</AssociationID> 
+		  <AssociationType>PartOf</AssociationType> 
+	  </Association>
+	  <PriorID>spase://SMWG/Repository/OGO/OGO4</PriorID>
+    </ResourceHeader>  
     <AccessURL>
       <Name>Virtual Magnetospheric Observatory</Name>
-      <URL>http://vmo.igpp.ucla.edu/data1/OGO/OGO6/</URL>
+      <URL>http://vmo.igpp.ucla.edu/data1/OGO/OGO-6/</URL>
       <Description>Rubium vapor magnetometer magnitude data the OGO-6 spacecraft.</Description>
     </AccessURL>
   </Repository>
