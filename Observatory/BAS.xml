@@ -7,16 +7,21 @@
 		  <ResourceName>British Antarctic Survey</ResourceName> 
 		  <AlternateName>BAS</AlternateName>
 		  <ReleaseDate>2012-11-11T00:00:00Z</ReleaseDate> 
-		  <Description>British Antarctic Survey is one of the world's leading environmental research centers and is responsible for the United Kingdon's national scientific activities in Antarctica. This site provide ground magnetometer data from a number of stations that are operated by several other institutes including: Japanese National Institute of Polar Research, Polar Research Institute of China, and TIstituto Nazionale di Geofisica e Vulcanologia</Description> 
-		  <Acknowledgement>British Antarctic Survey; Japanese National Institute of Polar Research; Polar Research Institute of China;  TIstituto Nazionale di Geofisica e Vulcanologia</Acknowledgement>
+		  <Description>British Antarctic Survey is one of the world's leading environmental research centers 
+		  and is responsible for the United Kingdon's national scientific activities in Antarctica. This site 
+		  provide ground magnetometer data from a number of stations that are operated by several other 
+		  institutes including: Japanese National Institute of Polar Research, Polar Research Institute of 
+		  China, and TIstituto Nazionale di Geofisica e Vulcanologia</Description> 
+		  <Acknowledgement>British Antarctic Survey; Japanese National Institute of Polar Research; Polar 
+		  Research Institute of China;  TIstituto Nazionale di Geofisica e Vulcanologia</Acknowledgement>
 		   <Contact>
 			  <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID> 
 			  <Role>MetadataContact</Role> 
 		  </Contact> 
 		  <InformationURL>
 			  <Name>British Antarctic Survey Data Portal</Name> 
-			  <URL>http://www.antarctica.ac.uk/bas_research/our_research/az/lpm/data/index.php</URL> 
-			  <Description>Online magnetometer data for a number of magnetometer stations in Antarctica.</Description> 
+			  <URL>http://www.bas.ac.uk/about/about-bas</URL> 
+			  <Description>About the British Antarctic Survey Program.</Description> 
 		  </InformationURL>
 		</ResourceHeader>  
 		<Location>

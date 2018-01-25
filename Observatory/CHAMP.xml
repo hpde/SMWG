@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.2.6</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/CHAMP</ResourceID>
     <ResourceHeader>
@@ -24,10 +24,20 @@ Potsdam.</Description>
       <InformationURL>
         <Name>CHAMP web page at the German Research Center for Geosciences</Name>
         <URL>http://op.gfz-potsdam.de/champ/</URL>
+		<Description>Detailed information about CHAMP.</Description>
+		<Language>German</Language>
+      </InformationURL>
+	  <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=2000-039B</URL>
       </InformationURL>
     </ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
     </Location>
+	<OperatingSpan>
+			<StartDate>2000-07-15T12:00:00Z</StartDate>
+			<StopDate>2010-09-19T08:00:59Z</StopDate>
+		</OperatingSpan>
   </Observatory>
 </Spase>
