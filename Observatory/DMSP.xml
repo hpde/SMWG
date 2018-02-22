@@ -5,12 +5,22 @@
     <ResourceID>spase://SMWG/Observatory/DMSP</ResourceID>
     <ResourceHeader>
       <ResourceName>DMSP Series</ResourceName>
+	  <AlternateName>Defense Meteorological Satellite Program</AlternateName>
       <ReleaseDate>2010-10-01T20:31:34Z</ReleaseDate>
-      <Description>Military imaging spacecraft series that also measure downward particle fluxes near the Earth; sun-synchronous polar orbit at 830 km altitude.</Description>
+      <Description>Military imaging spacecraft series that also measure downward particle fluxes, 
+	  magnetic fields, electron densities, ion drifts, and provide visible light images on the 
+	  different spacecraft near the Earth. Spacecraft are in sun-synchronous polar orbits at 
+	  830 km altitude crossing the polar regions 
+	  in either the dawn dusk direction or the pre-noon pre-midnight direction.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
+	  <InformationURL>
+        <Name>Wikipedia Article</Name>
+        <URL>https://en.wikipedia.org/wiki/Defense_Meteorological_Satellite_Program</URL>
+        <Description>Detailed Information about the Defense Meteorological Satellite Program</Description>
+      </InformationURL>
     </ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>

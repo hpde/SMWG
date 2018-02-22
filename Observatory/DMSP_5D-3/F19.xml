@@ -10,7 +10,14 @@
          <AlternateName>USA 249</AlternateName>
          <AlternateName>39630</AlternateName>
          <ReleaseDate>2017-08-23T12:34:56.789</ReleaseDate>
-         <Description>Defense Meteorological Satellite Program, DMSP-F19 19th flight unit of the DMSP Block 5D series, 5th of the Block 5D-3 series. Main missions: cloud imagery and MW imaging/temperature/humidity sounding. Substantial contribution to Space weather. Operation interrupted by a telecommand outage on 11 February 2016. Satellite loss confirmed on 24 March.</Description>
+         <Description>Defense Meteorological Satellite Program, DMSP-F19 19th flight unit of the DMSP Block 5D 
+		 series, 5th of the Block 5D-3 series. The 1,200 kg 
+		 DMSP-F19 satellited provide terrestrial 
+		 and space weather data from a near-polar, Sun-synchronous, 830 km altitude orbit with the Local 
+		 Time nodes for DMSP F18 of about 17:30 and about 05:30.  
+		 Main missions: cloud imagery and MW imaging/temperature/humidity 
+		 sounding. Substantial contribution to Space weather. Operation interrupted by a telecommand outage on 
+		 11 February 2016. Satellite loss confirmed on 24 March.</Description>
          <Acknowledgement>DMSP Data Manager, NOAA National Environmental Satellite, Data, and Information Service, NESDIS</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
@@ -24,6 +31,11 @@
             <Name>Defense Meteorological Satellite Program, DMSP-F19 Web Site</Name>
             <URL>https://www.wmo-sat.info/oscar/satellites/view/66</URL>
             <Description>Defense Meteorological Satellite Program, DMSP-F19, Information and Details</Description>
+         </InformationURL>
+		 <InformationURL>
+            <Name>Defense Meteorological Satellite Program, Block 5D-3 Spacecraft Overview</Name>
+            <URL>http://spaceflight101.com/spacecraft/dmsp-block-5d-3/</URL>
+            <Description>Detailed information on the Defense Meteorological Satellite Program 5D-3 satellite series.</Description>
          </InformationURL>
          <InformationURL>
             <Name>NSSDC&apos;s Master Catalog</Name>

@@ -10,7 +10,16 @@
          <AlternateName>USA 210</AlternateName>
          <AlternateName>35951</AlternateName>
          <ReleaseDate>2017-08-23T12:34:56.789</ReleaseDate>
-         <Description>Defense Meteorological Satellite Program, DMSP-F18 18th flight unit of the DMSP Block 5D series, 4th of the Block 5D-3 series. Main missions: cloud imagery and MW imaging/temperature/humidity sounding. Substantial contribution to Space weather.</Description>
+         <Description>DMSP-F18, also known as DMSP 5D-3 F18 or USA 210, is a US Department of Defense weather 
+		 satellite launched on an Atlas 5 rocket on 18 October 2009 at 16:12 UT from Vandenberg. The 1,200 kg 
+		 satellite, one of several in the Defense Meteorological Satellite Program, will provide terrestrial 
+		 and space weather data from a near-polar, Sun-synchronous, 830 km altitude orbit with the Local 
+		 Time nodes for DMSP F18 of 20:00 and 8:00. The DMSP satellites 
+		 monitor the meteorological, oceanographic and solar-terrestrial physics environments. The primary weather 
+		 sensor on DMSP is the Operational Linescan System, which provides continuous visual and infrared imagery 
+		 of cloud cover. Additional satellite sensors measure atmospheric vertical profiles of moisture and 
+		 temperature. DMSP satellites also measure space environmental parameters such as local charged 
+		 particles and electromagnetic fields.</Description>
          <Acknowledgement>DMSP Data Manager, NOAA National Environmental Satellite, Data, and Information Service, NESDIS</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
@@ -24,6 +33,11 @@
             <Name>Defense Meteorological Satellite Program, DMSP-F18 Web Site</Name>
             <URL>https://www.wmo-sat.info/oscar/satellites/view/65</URL>
             <Description>Defense Meteorological Satellite Program, DMSP-F18, Information and Details</Description>
+         </InformationURL>
+		 <InformationURL>
+            <Name>Defense Meteorological Satellite Program, Block 5D-3 Spacecraft Overview</Name>
+            <URL>http://spaceflight101.com/spacecraft/dmsp-block-5d-3/</URL>
+            <Description>Detailed information on the Defense Meteorological Satellite Program 5D-3 satellite series.</Description>
          </InformationURL>
          <InformationURL>
             <Name>NSSDC&apos;s Master Catalog</Name>
