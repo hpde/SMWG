@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
-  <Version>2.0.1</Version>
+  <Version>2.2.9</Version>
   <Repository>
     <ResourceID>spase://SMWG/Repository/UCLA/VMO</ResourceID>
     <ResourceHeader>
       <ResourceName>The Virtual Magnetospheric Observatory Data Repository.</ResourceName>
       <AlternateName>The VMO Data Repository hosted by the IGPP, UCLA.</AlternateName>
-      <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
-      <Description>The Virtual Magnetospheric Observatory Data Repository hosted by the Institute of Geophysics and Planetary Physics, University of California, Los Angeles.</Description>
-      <Acknowledgement>If data downloaded from the VMO Data Repository are used in publication kindly acknowledge the Virtual Magnetospheric Observatory, Institute of Geophysics and Planetary Physics, University of California, Los Angeles for providing access to the data.</Acknowledgement>
+      <ReleaseDate>2018-02-27T12:34:56.789</ReleaseDate>
+      <Description>The Virtual Magnetospheric Observatory Data Repository hosted by the Earth, Planetary and Space Science Department, University of California, Los Angeles.</Description>
+      <Acknowledgement>If data downloaded from the VMO Data Repository are used in publication kindly acknowledge the Virtual Magnetospheric Observatory, Earth, Planetary and Space Science Department, University of California, Los Angeles for providing access to the data.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Raymond.J.Walker</PersonID>
         <Role>PrincipalInvestigator</Role>
@@ -19,7 +19,7 @@
       </Contact>
       <InformationURL>
         <Name>The VMO Data Repository Web Site</Name>
-        <URL>http://vmo-repository.igpp.ucla.edu</URL>
+        <URL>http://vmo.igpp.ucla.edu/data1</URL>
         <Description>The main web page for information concerning data holdings hosted by the Virtual Magnetospheric Observatory Data Repository.</Description>
       </InformationURL>
     </ResourceHeader>
