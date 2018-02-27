@@ -6,13 +6,16 @@
     <ResourceHeader>
       <ResourceName>Explorer Spacecraft Series</ResourceName>
       <ReleaseDate>2010-10-06T18:43:13Z</ReleaseDate>
-      <Description>Explorer spacecraft series of ionospheric and aeronomy satellites.</Description>
+      <Description>Explorer spacecraft series of solar wind, lunar, magnetospheric, ionospheric and aeronomy satellites.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
         <Role>MetadataContact</Role>
       </Contact>
     </ResourceHeader>
     <Location>
+	  <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+	  <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
+	  <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
       <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
       <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
     </Location>

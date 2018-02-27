@@ -8,15 +8,24 @@
       <AlternateName>IMP E</AlternateName>
       <AlternateName>AIMP B</AlternateName>
       <AlternateName>AIMP 2</AlternateName>
+	  <AlternateName>Anchored IMP 2</AlternateName>
+	  <AlternateName>02884</AlternateName>
       <ReleaseDate>2010-10-06T18:45:31Z</ReleaseDate>
       <Description>NASA's Explorer 35 spacecraft, also known as
-Anchored IMP B (AIMP B) and as IMP E, was launched into a lunar-
-centric orbit in July, 1967.  Apogee was about 5 lunar radii
-and the period was about 12 hours.  Measurements of thermal
-plasma, energetic particles, magnetic fields and solar X-rays
-were made.  The spacecraft was turned off in June, 1973.</Description>
+		Anchored IMP B (AIMP B) and as IMP E, was launched into a lunar-
+		centric elliptical orbit in July, 1967.  Apogee was about 5 lunar radii
+		and the period was about 12 hours.  Measurements of thermal
+		plasma, energetic particles, magnetic fields and solar X-rays
+		were made. Explorer 35 was a spin-stabilized spacecraft and 
+		the spin axis direction was nearly perpendicular to 
+		the ecliptic plane, and the spin rate was 25.6 rpm. 
+		The spacecraft was turned off in June, 1973.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Joseph.H.King</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+	  <Contact>
+        <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
       <InformationURL>

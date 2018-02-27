@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.2.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Contwoyto</ResourceID>
     <ResourceHeader>
       <ResourceName>CONT</ResourceName>
       <ReleaseDate>2010-09-24T21:44:19Z</ReleaseDate>
-      <Description>Contwoyto magnetometer is part of the CARISMA magnetometer array. It is located at: 65.754 Glat	248.750 GLong.</Description>
+      <Description>Contwoyto magnetometer is part of the CARISMA magnetometer array. 
+	  It is located at: 65.754 Glat	248.750 GLong.</Description>
       <Contact>
-        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+        <PersonID>spase://SMWG/Person/Andy.Kale</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
 	  <InformationURL>
@@ -20,6 +21,9 @@
     <ObservatoryGroupID>spase://SMWG/Observatory/CARISMA</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+	  <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>65.754</Latitude>
+      <Longitude>248.750</Longitude>
     </Location>
   </Observatory>
 </Spase>

@@ -6,18 +6,23 @@
     <ResourceID>spase://SMWG/Observatory/Equator-S</ResourceID>
     <ResourceHeader>
       <ResourceName>Equator-S</ResourceName>
-      <AlternateName>ISTP/Equator-S</AlternateName>                
+      <AlternateName>ISTP/Equator-S</AlternateName> 
+      <AlternateName>25068</AlternateName>	  
       <ReleaseDate>2009-03-04T00:00:00Z</ReleaseDate>
       <Description>Equator-S is an element of the International Solar-Terrestrial Physics (ISTP) program. Spacecraft design, manufacturing and 
         testing were provided by the Max-Planck-Institut fur Extraterrestrische Physik (MPE). The project was financially supported by DARA 
         (Deutsche Agentur fur Raumfahrt Angelegenheiten). Some assistance and in-kind contributions were received from ESA/ESTEC and NASA. 
         Mission analysis and operations are the responsibility of the German Space Operations Center (GSOC) of the DLR. The spacecraft was 
         launched December 2, 1997, as a secondary payload on an Ariane IV vehicle from Kourou (French Guiana). Equator-S is different from 
-        NASA's ISTP/EQUATOR spacecraft, which was dropped when the ISTP mission was re-scoped in late 1989.  The Equator-S objectives are to 
+        NASA's ISTP/EQUATOR spacecraft, which was dropped when the ISTP mission was re-scoped in late 1989.  
+		
+		The Equator-S objectives are to 
         provide high-resolution plasma, magnetic, and electric field measurements in several regions not adequately covered by the existing 
         ISTP missions, namely the low-latitude dayside magnetopause and its boundary layer, the equatorial ring current region, and the near-earth 
         equatorial plasma sheet. These regions play key roles for our understanding of the global perspective of solar-terrestrial relations as 
-        well as the detailed plasmaphysical processes. The orbit is near-equatorial, with 500 km perigee altitude and 11 Re geocentric apogee 
+        well as the detailed plasmaphysical processes. 
+		
+		The orbit is near-equatorial, with 500 km perigee altitude and 11 Re geocentric apogee 
         distance. The payload consists of seven scientific instruments provided by international groups to study the solar wind and charged 
         particles trapped in the earth's magnetosphere. For reasons of cost and schedule, these instruments are largely derived from engineering 
         or spare units from other ISTP missions. Innovative sub-systems for solar power and orbit measurement are tested on Equator-S for the 
@@ -31,11 +36,7 @@
         This is attributed to a failure of the redundant processor, similar to the failure of the first processor on 17 December 1997. 
         All attempts to command the spacecraft failed. However, GSOC will continue this effort. If a latch-up caused by penetrating particle 
         radiation was the cause of the failure, there is hope that it may heal itself upon the next eclipse (August 1998) because of the complete 
-        temporary switch-off of the electrical system.
-
-        Further information is available on WWW at the following locations:
-        http://www.mpe-garching.mpg.de/www_plas/EQS/eq-s-home.html
-        http://www.op.dlr.de/wt-rm/eqs_mb_e.htm         
+        temporary switch-off of the electrical system.      
       </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Roy.B.Torbert</PersonID> 
@@ -46,6 +47,11 @@
         <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1997-075B</URL>
         <Description>Information about the Equator-S mission</Description>
       </InformationURL>
+	  <InformationURL>
+        <Name>Equator-S Overview Homepage</Name>
+        <URL>http://www2011.mpe.mpg.de/plasma/EQS/eq-s-home.html</URL>
+        <Description>Detailed information about the Equator-S mission.</Description>
+	  </InformationURL>
     </ResourceHeader>
     <Location>
     <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>   

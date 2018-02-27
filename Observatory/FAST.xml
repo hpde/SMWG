@@ -11,11 +11,39 @@
       <AlternateName>SMEX/FAST</AlternateName>
       <AlternateName>Fast Auroral SnapshoT Explorer</AlternateName>
       <ReleaseDate>2010-08-05T18:19:11Z</ReleaseDate>
-      <Description>The Fast Auroral SnapshoT Explorer (FAST) was successfully launched on 1996-08-21 into its intended orbit. FAST investigates the plasma physics of auroral phenomena at extremely high time and spatial resolution using the full complement of particle and fields instruments. FAST is the second spacecraft (SAMPEX was first) in the Small Explorer (SMEX) program at NASA-GSFC. SMEX was established to provide rapid (3 year development) low cost ($35M development) mission opportunities (1 per year) to the space science community using a single designated Principal Investigator (PI).
+      <Description>The Fast Auroral SnapshoT Explorer (FAST) was successfully 
+	  launched on 1996-08-21 into its intended orbit. FAST investigates the 
+	  plasma physics of auroral phenomena at extremely high time and spatial 
+	  resolution using the full complement of particle and fields instruments. 
+	  FAST is the second spacecraft (SAMPEX was first) in the Small Explorer 
+	  (SMEX) program at NASA-GSFC. SMEX was established to provide rapid (3 year 
+	  development) low cost ($35M development) mission opportunities (1 per year)
+	  to the space science community using a single designated Principal 
+	  Investigator (PI).
 
-In order to capture the auroral phenomena over small time (microseconds) and spatial scales, FAST utilizes high speed data sampling, a large, fast-loading ("burst") memory, and a smart, on-board software to trigger on the appearance of various key phenomena. Using a 1 Gb solid-state memory and a data acquisition rate of 8 Mbs (almost two orders of magnitude faster than previous satellites), FAST produces high-resolution "snapshots" of auroral arcs and other interesting auroral events. FAST flies in a highly eccentric, near-polar orbit precessing nominally one degree per day. Scientific investigations are operate in a campaign mode (about 60 days long) as apogee transitions through the northern auroral zone and in less intense survey mode during the rest of the orbit.
+      In order to capture the auroral phenomena over small time (microseconds) and spatial 
+      scales, FAST utilizes high speed data sampling, a large, fast-loading ("burst") 
+      memory, and a smart, on-board software to trigger on the appearance of various 
+      key phenomena. Using a 1 Gb solid-state memory and a data acquisition rate of 8 
+      Mbs (almost two orders of magnitude faster than previous satellites), FAST 
+      produces high-resolution "snapshots" of auroral arcs and other interesting auroral 
+      events. FAST flies in a highly eccentric, near-polar orbit precessing nominally 
+      one degree per day. Scientific investigations are operate in a campaign mode 
+      (about 60 days long) as apogee transitions through the northern auroral zone and 
+      in less intense survey mode during the rest of the orbit.
 
-The FAST mission uses a unique (not a SAMPEX derivative), lightweight, orbit-normal spinner spacecraft developed by the SMEX project. The spacecraft has body-mounted solar arrays, and is spin-stabilized, rotating at 12 rpm with the spin axis normal to the orbit plane ("cartwheel"). The four FAST experiments are: (1) the Electrostatic Analyzers (ESA) for measuring the electron and ion distribution function, (2) the Time-of-flight Energy Angle Mass Spectrograph (TEAMS) for measuring the full 3-dimensional distribution function of the major ion species, (3) the Tri-Axial Fluxgate and Search-coil Magnetometers for measuring magnetic field data, and (4) the Electric Field/Langmuir Probe Instrument for obtaining electric field data and plasma density and temperature. The FAST electric field instrument stopped providing meaningful data around 2002, all other instruments and systems continue to function nominally.</Description>
+      The FAST mission uses a unique (not a SAMPEX derivative), lightweight, orbit-normal 
+      spinner spacecraft developed by the SMEX project. The spacecraft has body-mounted 
+      solar arrays, and is spin-stabilized, rotating at 12 rpm with the spin axis normal 
+      to the orbit plane ("cartwheel"). The four FAST experiments are: (1) the 
+      Electrostatic Analyzers (ESA) for measuring the electron and ion distribution 
+      function, (2) the Time-of-flight Energy Angle Mass Spectrograph (TEAMS) for
+      measuring the full 3-dimensional distribution function of the major ion species, 
+      (3) the Tri-Axial Fluxgate and Search-coil Magnetometers for measuring magnetic 
+      field data, and (4) the Electric Field/Langmuir Probe Instrument for obtaining 
+      electric field data and plasma density and temperature. The FAST electric field 
+      instrument stopped providing meaningful data around 2002, all other instruments 
+      and systems continue to function nominally.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Charles.W.Carlson</PersonID>
         <Role>PrincipalInvestigator</Role>

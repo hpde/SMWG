@@ -6,11 +6,16 @@
     <ResourceHeader>
       <ResourceName>DAWS</ResourceName>
       <ReleaseDate>2010-09-24T21:44:19Z</ReleaseDate>
-      <Description>Dawson</Description>
+      <Description>The Dawson magnetometer is part of the CARISMA magnetometer array. It is located at: 64.048 Glat	220.890 GLong.</Description>
       <Contact>
-        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+        <PersonID>spase://SMWG/Person/Andy.Kale</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
+	  <InformationURL>
+        <Name>Canadian Array for Realtime Investigations of Magnetic Activity Homepage</Name>
+        <URL>http://www.carisma.ca</URL>
+        <Description>Detailed information about the Dawson magnetometer and the CARISMA Array.</Description>
+	  </InformationURL>
     </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/CARISMA</ObservatoryGroupID>
     <Location>

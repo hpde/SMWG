@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.2.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/FortMcMurray</ResourceID>
     <ResourceHeader>
       <ResourceName>MCMU</ResourceName>
       <ReleaseDate>2010-09-24T21:44:19Z</ReleaseDate>
-      <Description>Fort McMurray</Description>
+      <Description>The Fort McMurray magnetometer is part of the CARISMA magnetometer array. 
+	  It is located at: 56.657 Glat	248.790 GLong.</Description>
       <Contact>
-        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+        <PersonID>spase://SMWG/Person/Andy.Kale</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
+	  <InformationURL>
+        <Name>Canadian Array for Realtime Investigations of Magnetic Activity Homepage</Name>
+        <URL>http://www.carisma.ca</URL>
+        <Description>Detailed information about the Eskimo Point magnetometer and the CARISMA Array.</Description>
+	  </InformationURL>
     </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/CARISMA</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+	  <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>56.657</Latitude>
+      <Longitude>2248.790</Longitude>
     </Location>
   </Observatory>
 </Spase>
