@@ -6,7 +6,11 @@
     <ResourceHeader>
       <ResourceName>SN437 Osan AB, South Korea</ResourceName>
       <ReleaseDate>2012-03-20T09:05:00Z</ReleaseDate>
-      <Description>Ionospheric Station at Osan Air Base, South Korea; URSI-code: SN437</Description>
+      <Description>Ionospheric Station at Osan Air Base, South Korea; URSI-code: SN437.
+	  Digisonde belongs to a class of advanced ionosondes that evaluate angle of arrival, 
+	  polarization, and Doppler frequency shift of skywave signals reflected from the ionosphere, 
+	  in addition to their travel time that is conventionally used to determine range to 
+	  the reflection point.</Description>
       <Acknowledgement>A heavy investment of time, effort, expertise, and funds continues to be made to produce, collect, quality control, interpret, and store digisonde ionograms. It is important that data suppliers and the UML DIDBase developers are appropriately acknowledged in scientific publications that involve analysis of data obtained from the Lowell DIDBase.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Bodo.W.Reinisch</PersonID>
@@ -19,8 +23,13 @@
       <InformationURL>
         <Name>GIRO (Global Ionospheric Radio Observatory) Home Page.</Name>
         <URL>http://giro.uml.edu/</URL>
-        <Description>Access to real-time data and software tools</Description>
+        <Description>Access to real-time data and software tools.</Description>
       </InformationURL>
+	  <InformationURL>
+        <Name>Global Ionospheric Radio Observatory (GIRO) Article</Name>
+        <URL>https://doi.org/10.5047/eps.2011.03.001</URL>
+        <Description>Detailed information about the Global Ionospheric Radio Observatory.</Description>
+	  </InformationURL>
       <Association>
         <AssociationID>spase://SMWG/Observatory/GIRO</AssociationID>
         <AssociationType>PartOf</AssociationType>
