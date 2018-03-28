@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
+  <Version>2.2.9</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/UMN</ResourceID>
+    <ResourceHeader>
+      <ResourceName>University of Minnesota</ResourceName>
+      <ReleaseDate>2018-03-15T00:00:00Z</ReleaseDate>
+      <Description>School of Physics and Astronomy, Minnesota Institute for Astrophysics, RBSP/EFW Data</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/John.R.Wygant</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>RBSP/EFW Home - University of Minnesota</Name>
+        <URL>http://www.space.umn.edu/missions/rbspefw-home-university-of-minnesota/</URL>
+        <Description>RBSP/EFW Home - University of Minnesota portal</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>RBSP/EFW Data</Name>
+      <URL>http://www.space.umn.edu/rbspefw-data/</URL>
+    </AccessURL>
+  </Repository>
+</Spase>
