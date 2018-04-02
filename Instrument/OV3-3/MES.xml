@@ -5,9 +5,9 @@
     <Instrument>
         <ResourceID>spase://SMWG/Instrument/OV3-3/MES</ResourceID>
         <ResourceHeader>
-            <ResourceName>Magnetic Electron Spectrometers </ResourceName>
-            <ReleaseDate>2018-03-29T00:00:00Z</ReleaseDate>
-            <Description>Magnetic Electron Telescope on OV3-3</Description>
+            <ResourceName>Magnetic Electron Spectrometers</ResourceName>
+            <ReleaseDate>2018-04-02T00:00:00Z</ReleaseDate>
+            <Description>Magnetic Electron Spectrometers on OV3-3</Description>
             <Acknowledgement/>
             <Contact>
                 <PersonID>spase://SMWG/Person/T.Paul.OBrien</PersonID>
@@ -19,7 +19,7 @@
             </InformationURL>
         </ResourceHeader>
         <InstrumentType>EnergeticParticleInstrument</InstrumentType>
-        <InvestigationName>Magnetic Electron Telescope on OV3-3</InvestigationName>
+        <InvestigationName>Magnetic Electron Spectrometers on OV3-3</InvestigationName>
         <ObservatoryID>spase://SMWG/Observatory/OV3-3</ObservatoryID>
     </Instrument>
 </Spase>
