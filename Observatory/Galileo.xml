@@ -167,7 +167,12 @@ The Galileo mission utilizes a single launch of a combined
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1989-084B</URL>
-        <Description>Information about the Galileo Orbiter mission</Description>
+        <Description>Information about the Galileo Orbiter mission.</Description>
+      </InformationURL>
+	  <InformationURL>
+        <Name>Space Science Reviews Volume on Galileo Mission An Overview </Name>
+        <URL>https://doi.org/10.1007/BF00216848</URL>
+        <Description>Additional information about the Galileo Orbiter mission.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

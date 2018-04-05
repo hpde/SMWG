@@ -5,16 +5,25 @@
     <ResourceID>spase://SMWG/Observatory/Gillam</ResourceID>
     <ResourceHeader>
       <ResourceName>GILL</ResourceName>
-      <ReleaseDate>2010-09-24T21:44:19Z</ReleaseDate>
-      <Description>Gillam</Description>
+      <ReleaseDate>2018-03-28T12:30:00Z</ReleaseDate>
+      <Description>The Gillam magnetometer is part of the CARISMA magnetometer array. 
+	  It is located at: 56.376 Glat	265.360 GLong.</Description>
       <Contact>
-        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+        <PersonID>spase://SMWG/Person/Andy.Kale</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
+	  <InformationURL>
+        <Name>Canadian Array for Realtime Investigations of Magnetic Activity Homepage</Name>
+        <URL>http://www.carisma.ca</URL>
+        <Description>Detailed information about the Eskimo Point magnetometer and the CARISMA Array.</Description>
+	  </InformationURL>
     </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/CARISMA</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+	  <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>56.376</Latitude>
+      <Longitude>265.360</Longitude>
     </Location>
   </Observatory>
 </Spase>

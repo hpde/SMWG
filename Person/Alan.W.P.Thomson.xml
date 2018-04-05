@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.9</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Alan.W.P.Thomson</ResourceID>
+      <ReleaseDate>2018-03-28T12:30:00Z</ReleaseDate>
+    <PersonName>Alan W. P. Thomson</PersonName>
+    <OrganizationName>British Geological Survey</OrganizationName>
+    <Address>British Geological Survey, The Lyell Centre, Research Avenue, South Edinburgh, EH14 4AP, United Kingdom </Address>
+    <PhoneNumber>+44 (0)131 650 0257</PhoneNumber>
+  </Person>
+</Spase>
