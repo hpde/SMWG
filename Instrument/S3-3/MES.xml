@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
+  <Version>2.2.9</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/S3-3/MES</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Magnetic Electron Spectrometer</ResourceName>
+      <ReleaseDate>2018-03-29T21:06:59Z</ReleaseDate>
+      <Description>The Magnetic Electron Spectrometer (MES) consisted of two magnetic chambers with different magnetic field intensities which momentum analyzed charged particles entering through collimators</Description>
+      <Acknowledgement/>
+      <Contact>
+        <PersonID>spase://SMWG/Person/T.Paul.OBrien</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>ViRBO's web page for S3-3</Name>
+        <URL>http://virbo.org/S33</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Magnetic Electron Spectrometer on S3-3</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/S3-3</ObservatoryID>
+  </Instrument>
+</Spase>
