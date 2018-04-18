@@ -6,12 +6,18 @@
       <ResourceHeader>
          <ResourceName>World Data Center Ground Data Master Catalog</ResourceName>
          <AlternateName>WDC Ground Observatories</AlternateName>
+		 <AlternateName>WDC</AlternateName>
          <ReleaseDate>2012-04-12T12:34:56.789</ReleaseDate>
          <Description>A collection of World Data Center (WDC) ground observatories</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
          </Contact>
+		 <InformationURL>
+			<Name>World Data Center Geomagnetism Edinburgh</Name>
+			<URL>http://www.wdc.bgs.ac.uk/index.html</URL>
+			<Description>Information about the WDC for Geomagnetism in Edinburgh.</Description>
+		  </InformationURL>
       </ResourceHeader>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>

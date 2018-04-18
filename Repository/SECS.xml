@@ -4,7 +4,8 @@
   <Repository>
     <ResourceID>spase://SMWG/Repository/SECS</ResourceID>
     <ResourceHeader>
-      <ResourceName>SECS</ResourceName>
+      <ResourceName>North American Spherical Elementary Currents</ResourceName>
+	  <AlternateName>SECS</AlternateName>
       <ReleaseDate>2012-03-07T04:44:23Z</ReleaseDate>
       <Description>The SECS repository contains a collection of spherical elementary currents systems obtained from a virtual observatory representing the collection of magnetometer arrays used in the creation of the SECS datasets. The SECS observatory consists of ground magnetometers from the CANMOS, CARISMA, DMI (in Greenland), GIMA, MACCS, THEMIS, STEP ground magnetometer arrays. Ground magnetometers contributing to each data file may vary from day to day depending upon data availabiliy.</Description>
       <Contact>

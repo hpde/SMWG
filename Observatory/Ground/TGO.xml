@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+  <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.9</Version> 
+  <Observatory>
+	  <ResourceID>spase://SMWG/Observatory/Ground/TGO</ResourceID> 
+		  <ResourceHeader>
+		  <ResourceName>Tromso Geophysical Observatory</ResourceName> 
+		  <AlternateName>TGO</AlternateName>
+		  <ReleaseDate>2018-04-09T00:00:00Z</ReleaseDate> 
+		  <Description>Geomagnetic Data at the Tromsø Geophysical Observatory which is a part of the  
+		  Faculty of Science and Technology, UiT, at The Arctic University of Norway.</Description> 
+		  <Acknowledgement>Please acknowledge: UiT The Arctic University of Norway</Acknowledgement>
+		  <Contact>
+			  <PersonID>spase://SMWG/Person/Chris.Hall</PersonID> 
+			  <Role>TeamLeader</Role> 
+		  </Contact> 
+		  <InformationURL>
+			  <Name>Tromsø Geophysical Observatory</Name> 
+			  <URL>http://flux.phys.uit.no/geomag.html</URL> 
+			  <Description>Requestion form for magnetometer data, plots, indices, maps, etc.</Description> 
+		  </InformationURL>
+		</ResourceHeader>  
+		<Location>
+		  <ObservatoryRegion>Earth.NearSurface.AuroralRegion</ObservatoryRegion> 
+		  <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion> 
+		  <ObservatoryRegion>Earth.Surface</ObservatoryRegion> 
+		</Location>
+		<OperatingSpan>
+			<StartDate>2000-01-01T12:00:00Z</StartDate>
+			<Note>Effective 1. January 2000 this group was separated from the 
+			Department of Physics and established as a unit directly under the 
+			Faculty of Science and Mathematics given the name 'Tromsø 
+			Geophysical Observatory' (TGO).</Note>
+	    </OperatingSpan>
+  </Observatory>
+  </Spase>
