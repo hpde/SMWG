@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
+   <Version>2.2.9</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/AMPTE-CCE/Ephemeris</ResourceID>
+      <ResourceHeader>
+         <ResourceName>AMPTE/CCE Positions</ResourceName>
+         <AlternateName>AMPTE/CCE Ephemeris</AlternateName>
+         <ReleaseDate>2018-04-12T12:34:56.789</ReleaseDate>
+         <Description>AMPTE/CCE spacecraft positions in various coordinate systems</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <PriorID>spase://SMWG/Instrument/AMPTE_CCE/Ephemeris</PriorID>
+      </ResourceHeader>
+      <InstrumentType>Platform</InstrumentType>
+      <InvestigationName>Spacecraft position</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/AMPTE-CCE</ObservatoryID>
+   </Instrument>
+</Spase>
