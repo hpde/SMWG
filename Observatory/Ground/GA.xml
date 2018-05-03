@@ -2,11 +2,11 @@
   <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version> 
   <Observatory>
-	  <ResourceID>spase://SMWG/Observatory/GA</ResourceID> 
+	  <ResourceID>spase://SMWG/Observatory/Ground/GA</ResourceID> 
 		  <ResourceHeader>
 		  <ResourceName>Geoscience Australia</ResourceName> 
 		  <AlternateName>GA</AlternateName>
-		  <ReleaseDate>2012-11-11T00:00:00Z</ReleaseDate> 
+		  <ReleaseDate>2018-05-02T00:00:00Z</ReleaseDate> 
 		  <Description>The Geoscience Australia geomagnetism data and reports site is 
 		  operated by the Australian government. At the release date, GA provides 
 		  online minute values from 10 different magnetometers. </Description> 
@@ -21,6 +21,7 @@
 			  <Description>Requestion form for 1 minute resolution magnetometer data. 
 			  Links to additional information also available.</Description> 
 		  </InformationURL>
+		  <PriorID>spase://SMWG/Observatory/GA</PriorID>
 		</ResourceHeader>  
 		<Location>
 		  <ObservatoryRegion>Earth.NearSurface.AuroralRegion</ObservatoryRegion> 

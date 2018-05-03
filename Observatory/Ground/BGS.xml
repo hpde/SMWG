@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.9</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/BGS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>BGS</ResourceName>
+	  <AlternateName>British Geological Survey</AlternateName>	  
+      <ReleaseDate>2018-05-02T12:30:00Z</ReleaseDate>
+      <Description>The Geomagnetism team measures, records, models and interprets variations in the 
+	  Earth’s natural magnetic fields.
+
+	  Their data and expertise help to develop scientific understanding of change in the Earth and 
+	  the environment, from deep within the core out into space.
+
+      They also provide geomagnetic products and services to industry and to academic colleagues and 
+	  they use our knowledge for information and education.</Description>
+      <Acknowledgement></Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Alan.W.P.Thomson</PersonID>
+        <Role>TeamLeader</Role>
+      </Contact>
+	  <InformationURL>
+        <Name>British Geological Survey National Environment Research Council</Name>
+        <URL>http://www.geomag.bgs.ac.uk/</URL>
+        <Description>Information about the British Geological Survey.</Description>
+	  </InformationURL>
+	  <PriorID>spase://SMWG/Observatory/BGS</PriorID>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+    </Location>
+	<OperatingSpan>
+		<StartDate>1935-07-11T12:00:00Z</StartDate>
+		<Note>Originally called Ordnance Geological Survey.</Note>
+	</OperatingSpan>
+  </Observatory>
+</Spase>

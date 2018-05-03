@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.9</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/Observatory/INTERMAGNET</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/Ground/INTERMAGNET</ResourceID>
     <ResourceHeader>
       <ResourceName>INTERMAGNET</ResourceName>
 	  <AlternateName>International Real-time Magnetic Observatory Network</AlternateName>	  
-      <ReleaseDate>2018-04-03T12:30:00Z</ReleaseDate>
+      <ReleaseDate>2018-05-02T12:30:00Z</ReleaseDate>
       <Description>The INTERMAGNET programme exists to establish a global network 
 	  of cooperating digital magnetic observatories, adopting modern standard 
 	  specifications for measuring and recording equipment, in order to facilitate 
@@ -21,6 +21,7 @@
         <URL>http://www.intermagnet.org/index-eng.php</URL>
         <Description>Information about the International Real-time Magnetic Observatory Network.</Description>
 	  </InformationURL>
+	  <PriorID>spase://SMWG/Observatory/INTERMAGNET</PriorID>
     </ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>

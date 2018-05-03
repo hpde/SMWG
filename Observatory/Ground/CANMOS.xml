@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/Observatory/CANMOS</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/Ground/CANMOS</ResourceID>
     <ResourceHeader>
       <ResourceName>CANadian Magnetic Observatory System</ResourceName>
       <AlternateName>CANMOS</AlternateName>
-      <ReleaseDate>2011-01-10T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2018-05-02T00:00:00Z</ReleaseDate>
       <Description>The CANMOS (CANadian Magnetic Observatory System) is a modular PC-based data-acquisition 
 	  system that serves as the automated portion of the Canadian Magnetic Observatories, operated by 
 	  the Geological Survey of Canada (GSC). CANMOS uses commercially-available magnetometers that 
@@ -27,6 +27,7 @@
         <URL>http://geomag.nrcan.gc.ca/obs/canmos-en.php</URL>
         <Description>Description of nearly all aspects of the magnetometer array.</Description>
       </InformationURL>
+	  <PriorID>spase://SMWG/Observatory/CANMOS</PriorID>
     </ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>

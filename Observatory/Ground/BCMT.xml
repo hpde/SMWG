@@ -7,7 +7,7 @@
       <ResourceName>BCMT</ResourceName>
 	  <AlternateName>French National Magnetic Observatory</AlternateName>
       <AlternateName>Bureau Central De Magnetisme Terrestre France</AlternateName>		  
-      <ReleaseDate>2018-03-28T12:30:00Z</ReleaseDate>
+      <ReleaseDate>2018-05-02T12:30:00Z</ReleaseDate>
       <Description>Out mission is to provide ground-based geomagnetic observations 
 	  and data products of the highest quality.
 
@@ -27,6 +27,7 @@
         <URL>http://www.bcmt.fr/index.html</URL>
         <Description>Information about the BCMT.</Description>
 	  </InformationURL>
+	  <PriorID>spase://SMWG/Observatory/BCMT</PriorID>
     </ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>

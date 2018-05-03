@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/Observatory/GIMA</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/Ground/GIMA</ResourceID>
     <ResourceHeader>
       <ResourceName>Geophysical Institute Magnetometer Array</ResourceName>
       <AlternateName>GIMA</AlternateName>
-      <ReleaseDate>2011-01-10T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2018-05-02T00:00:00Z</ReleaseDate>
       <Description>The Geophysical Institute of the University of Alaska operates 
 	  magnetometer sites at locations across Alaska and Western Canada. Originally 
 	  established as the Alaska Meridian Chain, the number of sites has increased 
@@ -27,6 +27,7 @@
         <URL>https://www.asf.alaska.edu/magnetometer/</URL>
         <Description>Description of the magnetometer array.</Description>
       </InformationURL>
+	  <PriorID>spase://SMWG/Observatory/GIMA</PriorID>
     </ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
