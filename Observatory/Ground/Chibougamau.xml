@@ -5,7 +5,7 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Chibougamau</ResourceID>
       <ResourceHeader>
          <ResourceName>Chibougamau Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-05-16T12:34:56.789</ReleaseDate>
          <Description>Chibougamau (CHBG) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: University of California, Berkeley, University of California, Los Angeles, respectively, NASA NAS5-02099</Acknowledgement>
          <Contact>
@@ -26,11 +26,12 @@
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
       </ResourceHeader>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-GBO</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>49.8</Latitude>
-         <Longitude>285.6</Longitude>
+         <Latitude>49.814</Latitude>
+         <Longitude>285.581</Longitude>
       </Location>
       <OperatingSpan>
          <StartDate>2006-09-15T03:10:46</StartDate>

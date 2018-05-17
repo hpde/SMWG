@@ -5,16 +5,28 @@
     <ResourceID>spase://SMWG/Observatory/Ground/CTIO</ResourceID>
     <ResourceHeader>
       <ResourceName>CTIO</ResourceName>
-      <ReleaseDate>2015-10-21T00:00:00Z</ReleaseDate>
-      <Description>The facilities of Cerro Tololo Inter-American Observatory (CTIO), part of the U.S. National Optical Astronomy Observatory, continue to be the nucleus of U.S. astronomy in the Southern hemisphere. Cerro Tololo is located about 500km north of Santiago, Chile</Description>
+      <ReleaseDate>2018-05-16T00:00:00Z</ReleaseDate>
+      <Description>The facilities of Cerro Tololo Inter-American Observatory (CTIO), 
+	  part of the U.S. National Optical Astronomy Observatory, continue to be the 
+	  nucleus of U.S. astronomy in the Southern hemisphere. Cerro Tololo is located 
+	  about 500km north of Santiago, Chile</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Stephen.Heathcote</PersonID>
         <Role>Scientist</Role>
       </Contact>
+	  <InformationURL>
+        <Name>About the Cerro Tololo Inter-American Observatory</Name>
+        <URL>http://www.ctio.noao.edu/noao/content/About-CTIO</URL>
+        <Description>Information about the CTIO.</Description>
+	  </InformationURL>
     </ResourceHeader>
-<ObservatoryGroupID>spase://SMWG/Observatory/GONG</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/GONG</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+	  <CoordinateSystemName>GEO</CoordinateSystemName>
+	  <Latitude>-30.169</Latitude>
+	  <Longitude>70.804</Longitude>
+	  <Elevation>2200</Elevation>
     </Location>
   </Observatory>
 </Spase>

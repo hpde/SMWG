@@ -6,12 +6,13 @@
       <ResourceHeader>
          <ResourceName>Bear Island</ResourceName>
          <AlternateName>Observatory Station Code: BJN</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+		 <AlternateName>Bjørnøya</AlternateName>
+         <ReleaseDate>2018-05-09T12:34:56.789</ReleaseDate>
          <Description>The Bear Island geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  University of Tromso, The Auroral Observatory, Norway</Acknowledgement>
          <Contact>
-            <PersonID>spase://SMWG/Person/TRO.Editor</PersonID>
-            <Role>Publisher</Role>
+            <PersonID>spase://SMWG/Person/Chris.Hall</PersonID> 
+			  <Role>TeamLeader</Role> 
          </Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
@@ -20,6 +21,7 @@
          <PriorID>spase://SMWG/Observatory/WDC/Bear.Island</PriorID>
       </ResourceHeader>
       <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/TGO</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
