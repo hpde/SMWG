@@ -5,7 +5,7 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Dikson</ResourceID>
       <ResourceHeader>
          <ResourceName>Dikson Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-05-30T12:34:56.789</ReleaseDate>
          <Description>Dikson (DIK) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: Arctic and Antarctic Research Institute</Acknowledgement>
          <Contact>
@@ -21,7 +21,15 @@
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
+		 <InformationURL>
+			  <Name>Russian Arctic and Antarctic Magnetometer (RAM) network </Name> 
+			  <URL>http://www.geophys.aari.ru/mag_data_real.html</URL> 
+			  <Description>Request form for magnetometer data. 
+			  Links to additional information also available.</Description> 
+		  </InformationURL>
       </ResourceHeader>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/USGS</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/RAM</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
