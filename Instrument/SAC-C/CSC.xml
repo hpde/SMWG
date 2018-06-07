@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
+  <Version>2.2.9</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/SAC-C/CSC</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Compact Spherical Coil (CSC) Fluxgate Vector Magnetometer</ResourceName>
+      <AlternateName>CSC</AlternateName>
+      <ReleaseDate>2018-06-01T18:21:48Z</ReleaseDate>
+      <Description>The Compact Spherical Coil (CSC) Fluxgate Vector Magnetometer is the same as those flown on the &#xD8;rsted (launch Feb. 23, 1999) and CHAMP (July 15, 2000) missions. The autonomous instrument has a &#xB1; 65536 nT range with a resolution of 20 bits at 100 vector samples/s with a communication computer for telecommand/telemetry and control, and it includes Huffman encoding data compression.</Description>
+      <Acknowledgement>Centre National d'Etudes Spatiales (France); National Aeronautics and Space Administration (United States); Danish Space Research Institute (Denmark); National Commission of Space Activities (CONAE) (Argentina); Instituto Nacional de Pesquisas Espaciais, Brazil (Brazil); Agenzia Spaziale Italiana (Italy)</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The SAC-C Project</Name>
+        <URL>https://directory.eoportal.org/web/eoportal/satellite-missions/s/sac-c</URL>
+        <Description>Information about the SAC-C Compact Spherical Coil Fluxgate Vector Magnetometer.</Description>
+        <Language>en</Language>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Compact Spherical Coil (CSC) Fluxgate Vector Magnetometer on the SAC-C project</InvestigationName>
+    <OperatingSpan>
+      <StartDate>2001-01-23T00:00:00Z</StartDate>
+      <StopDate>2004-12-04T23:59:59Z</StopDate>
+    </OperatingSpan>
+    <ObservatoryID>spase://SMWG/Observatory/SAC-C</ObservatoryID>
+  </Instrument>
+</Spase>

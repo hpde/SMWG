@@ -2,14 +2,14 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
   <Version>2.2.9</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/Ground/Mbour/Magnetometer</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Ground/Papeete/Magnetometer</ResourceID>
     <ResourceHeader>
-      <ResourceName>Mbour Magnetometer</ResourceName>
-      <AlternateName>Mbour Magnetometer</AlternateName>
-      <AlternateName>IAGA:MBO Magnetometer</AlternateName>
+      <ResourceName>Papeete Magnetometer</ResourceName>
+      <AlternateName>Papeete Magnetometer</AlternateName>
+      <AlternateName>IAGA:PPT Magnetometer</AlternateName>
       <ReleaseDate>2018-06-01T18:21:48Z</ReleaseDate>
-      <Description>Magnetometer located at the station with the IAGA identifier MBO</Description>
-      <Acknowledgement>Please acknowedge the MBO observatory when using data from this instrument.</Acknowledgement>
+      <Description>Magnetometer located at the station with the IAGA identifier PPT</Description>
+      <Acknowledgement>Please acknowedge the PPT observatory when using data from this instrument.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
         <Role>MetadataContact</Role>
@@ -21,13 +21,13 @@
          	Divisions and Working Groups. Information about observatories 
          	is maintained by the "Geomagntic Observatories" (V-OBS) working group.</Description>
       </InformationURL>
-      <PriorID>spase://SMWG/Instrument/IAGA/Mbour/Magnetometer</PriorID>
+      <PriorID>spase://SMWG/Instrument/IAGA/Papeete/Magnetometer</PriorID>
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>IAGA</InvestigationName>
     <OperatingSpan>
-      <StartDate>1952-01-01T00:00:00</StartDate>
+      <StartDate>1968-01-01T00:00:00</StartDate>
     </OperatingSpan>
-    <ObservatoryID>spase://SMWG/Observatory/IAGA/Mbour</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/IAGA/Papeete</ObservatoryID>
   </Instrument>
 </Spase>
