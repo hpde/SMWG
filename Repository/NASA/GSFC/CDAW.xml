@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/NASA/GSFC/CDAW</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Coordinated Data Analysis Workshops (CDAW)</ResourceName>
+      <ReleaseDate>2018-06-07T15:48:04Z</ReleaseDate>
+      <Description>The Solar Physics Laboratory works to understand the Sun as a star and as the primary driver of activity throughout the solar system. Our research expands knowledge of the Earth-Sun system and helps to enable robotic and human exploration.
+We develop innovative instruments and mission concepts, theoretical models, and techniques to access and analyze data. The Laboratory provides project scientists for NASA missions, assists with strategic planning and mission definition, and communicates research results to the international scientific community and the public.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Charles.N.Arge</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>CDAW Data Center</Name>
+      <URL>https://cdaw.gsfc.nasa.gov/</URL>
+      <Description>Coordinated Data Analysis Workshops (CDAW) Data Center, Solar Physics laboratory, Heliophysics Science Division</Description>
+    </AccessURL>
+  </Repository>
+</Spase>
