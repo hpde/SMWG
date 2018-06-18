@@ -1,30 +1,33 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Instrument>
-      <ResourceID>spase://SMWG/Instrument/Ground/Surlari/Magnetometer</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Surlari Magnetometer</ResourceName>
-         <AlternateName>Magnetometer Station Code: SUA</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
-         <Description>The Magnetometer located at the Surlari geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge:  Observatorul Geofizic Surlari, Romania</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Andrei.Soare</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <PriorID>spase://SMWG/Instrument/WDC/Surlari/Magnetometer</PriorID>
-      </ResourceHeader>
-      <InstrumentType>Magnetometer</InstrumentType>
-      <InvestigationName>WDC_GDMC</InvestigationName>
-      <OperatingSpan>
-         <StartDate>1957-07-01T00:00:00.000</StartDate>
-      </OperatingSpan>
-      <ObservatoryID>spase://SMWG/Observatory/Ground/Surlari</ObservatoryID>
-   </Instrument>
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Ground/Surlari/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Surlari Magnetometer</ResourceName>
+      <AlternateName>Surlari Magnetometer</AlternateName>
+      <AlternateName>IAGA:SUA Magnetometer</AlternateName>
+      <ReleaseDate>2018-06-14T15:51:55Z</ReleaseDate>
+      <Description>Magnetometer located at the station with the IAGA identifier SUA</Description>
+      <Acknowledgement>Please acknowedge the SUA observatory when using data from this instrument.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>IAGA Guides and Standards</Name>
+        <URL>http://www.iugg.org/IAGA/iaga_pages/pubs_prods/Products_services.htm</URL>
+        <Description>Overview of IAGA Guides and Standards which obtained within its 
+         	Divisions and Working Groups. Information about observatories 
+         	is maintained by the "Geomagntic Observatories" (V-OBS) working group.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Instrument/IAGA/Surlari/Magnetometer</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>IAGA</InvestigationName>
+    <OperatingSpan>
+      <StartDate>1949-01-01T00:00:00</StartDate>
+    </OperatingSpan>
+    <ObservatoryID>spase://SMWG/Observatory/IAGA/Surlari</ObservatoryID>
+  </Instrument>
 </Spase>
