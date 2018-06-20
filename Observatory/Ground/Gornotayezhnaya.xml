@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Gornotayezhnaya</ResourceName>
          <AlternateName>Observatory Station Code: VLA</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-06-18T12:34:56.789</ReleaseDate>
          <Description>The Gornotayezhnaya geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Arti Geophysical Observatory, Institute of Geophysics, Urals Branch of Russian Academy of Sciences</Acknowledgement>
          <Contact>
@@ -33,7 +33,9 @@
          <Longitude>132.167</Longitude>
       </Location>
       <OperatingSpan>
-         <StartDate>1957-07-01T00:00:00.000</StartDate>
+         <StartDate>1957-01-01T00:00:00.000</StartDate>
+		 <StopDate>1997-01-01T00:00:00.000</StopDate>
+		 <Note>Exact stop date is unclear.</Note>
       </OperatingSpan>
    </Observatory>
 </Spase>

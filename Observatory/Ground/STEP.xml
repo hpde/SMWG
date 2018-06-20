@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.9</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/STEP</ResourceID>
+    <ResourceHeader>
+      <ResourceName>STEP Polar Network</ResourceName>
+	  <AlternateName>Solar-Terrestrial Energy Program Polar Network</AlternateName>
+	  <AlternateName>CANOPUS</AlternateName>	  
+      <ReleaseDate>2018-06-13T21:42:55Z</ReleaseDate>
+      <Description>Solar-Terrestrial Energy Program (STEP) Polar Network began in 1991.
+	  Other data obtained in several times of campaign observations before STEP period are also available. 
+	  The main data sources during STEP period came from fluxgate and induction magnetometers and all-sky TV 
+	  cameras deployed in the norther polar region, primarily in Canada and also in Svalbard and in Greenland. 
+	  This service is still experimental level and please call us if you find any problem. </Description>
+      <Acknowledgement>Dr. Kanji Hayashi; Department of Earth and Planetary Physics, The University of Tokyo Bunkyo.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Kanji.Hayashi</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+	  <InformationURL>
+        <Name>Solar-Terrestrial Energy Program Polar Network Homepage</Name>
+        <URL>http://step-p.dyndns.org/~khay/</URL>
+        <Description>Detailed information about the STEP Polar Network.</Description>
+	  </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+    </Location>
+	<OperatingSpan>
+		<StartDate>1991-01-01T12:00:00Z</StartDate>
+		<Note>Exact start date is unclear.</Note>
+	</OperatingSpan>
+  </Observatory>
+</Spase>

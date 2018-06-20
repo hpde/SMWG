@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Gnangara</ResourceName>
          <AlternateName>Observatory Station Code: GNA</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-06-18T12:34:56.789</ReleaseDate>
          <Description>The Gnangara geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Australian Geological Survey Organisation</Acknowledgement>
          <Contact>
@@ -21,6 +21,8 @@
          <PriorID>spase://SMWG/Observatory/WDC/Gnangara</PriorID>
       </ResourceHeader>
       <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GA</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
@@ -29,6 +31,7 @@
       </Location>
       <OperatingSpan>
          <StartDate>1957-07-01T00:00:00.000</StartDate>
+		 <StopDate>2012-12-31T23:59:59.000</StopDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

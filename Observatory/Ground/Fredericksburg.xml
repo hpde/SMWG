@@ -5,7 +5,8 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Fredericksburg</ResourceID>
       <ResourceHeader>
          <ResourceName>Fredericksburg Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+		 <AlternateName>Observatory Station Code: FRD</AlternateName>
+         <ReleaseDate>2018-06-13T12:34:56.789</ReleaseDate>
          <Description>Fredericksburg (FRD) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: United States Geological Survey, Golden, CO</Acknowledgement>
          <Contact>
@@ -21,12 +22,19 @@
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
+		 <InformationURL>
+			<Name>Overview of the USGS Geomagnetism Program Array</Name>
+			<URL>https://geomag.usgs.gov/monitoring/observatories/</URL>
+			<Description>Description and location of the magnetometer array.</Description>
+		 </InformationURL>
       </ResourceHeader>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/USGS</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>38.2</Latitude>
-         <Longitude>282.6</Longitude>
+         <Latitude>38.20</Latitude>
+         <Longitude>282.63</Longitude>
          <Elevation>69.0</Elevation>
       </Location>
       <OperatingSpan>
