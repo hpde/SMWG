@@ -5,7 +5,8 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Iqaluit</ResourceID>
       <ResourceHeader>
          <ResourceName>Iqaluit Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+		 <AlternateName>Observatory Station Code: IQA</AlternateName>
+         <ReleaseDate>2018-07-09T12:34:56.789</ReleaseDate>
          <Description>Iqaluit (IQA) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: Geological Survey of Canada</Acknowledgement>
          <Contact>
@@ -21,16 +22,24 @@
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
+		 <InformationURL>
+			<Name>Overview of the CANadian Magnetic Observatory System</Name>
+			<URL>http://geomag.nrcan.gc.ca/obs/canmos-en.php</URL>
+			<Description>Description of nearly all aspects of the magnetometer array.</Description>
+		 </InformationURL>
       </ResourceHeader>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/CANMOS</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>63.8</Latitude>
-         <Longitude>291.5</Longitude>
+         <Latitude>63.75</Latitude>
+         <Longitude>291.48</Longitude>
          <Elevation>72.0</Elevation>
       </Location>
       <OperatingSpan>
-         <StartDate>2007-01-01T00:00:00.000</StartDate>
+         <StartDate>1995-01-01T00:00:00.000</StartDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

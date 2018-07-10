@@ -5,7 +5,8 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Igloolik</ResourceID>
       <ResourceHeader>
          <ResourceName>Igloolik Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+		 <AlternateName>Observatory Station Code: IGLO</AlternateName>
+         <ReleaseDate>2018-07-09T12:34:56.789</ReleaseDate>
          <Description>Igloolik (IGLO) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: Augsburg College</Acknowledgement>
          <Contact>
@@ -21,7 +22,14 @@
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
+		 <InformationURL>
+			<Name>Augsburg Search Coil Magnetometer Array Home Page.</Name>
+			<URL>http://space.augsburg.edu/searchcoil/index.html</URL>
+			<Description>Augsburg Antarctic observatory array information web site</Description>
+		 </InformationURL>
       </ResourceHeader>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/AUGSBURG</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>

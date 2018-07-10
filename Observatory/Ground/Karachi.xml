@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Karachi</ResourceName>
          <AlternateName>Observatory Station Code: KRC</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-07-09T12:34:56.789</ReleaseDate>
          <Description>The Karachi geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Ionospheric Research Division, Pakistan Space Upper Atmosphere Research Commission, (SUPARCO), Karachi</Acknowledgement>
          <Contact>
@@ -33,7 +33,8 @@
          <Longitude>67.14</Longitude>
       </Location>
       <OperatingSpan>
-         <StartDate>1996-01-01T00:00:00.000</StartDate>
+         <StartDate>1988-01-01T00:00:00.000</StartDate>
+		 <StopDate>2008-12-31T00:00:00.000</StopDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

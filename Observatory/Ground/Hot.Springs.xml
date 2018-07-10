@@ -5,7 +5,8 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Hot.Springs</ResourceID>
       <ResourceHeader>
          <ResourceName>Hot Springs Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+		 <AlternateName>Observatory Station Code: HOTS</AlternateName>
+         <ReleaseDate>2018-06-25T12:34:56.789</ReleaseDate>
          <Description>Hot Springs (HOTS) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: University of California, Berkeley, University of California, Los Angeles, respectively, NASA NAS5-02099</Acknowledgement>
          <Contact>
@@ -27,11 +28,12 @@
          </InformationURL>
          <PriorID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-EPO/HOTS</PriorID>
       </ResourceHeader>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>47.6</Latitude>
-         <Longitude>245.3</Longitude>
+         <Latitude>47.59</Latitude>
+         <Longitude>245.34</Longitude>
       </Location>
       <OperatingSpan>
          <StartDate>2004-09-09T00:00:00</StartDate>

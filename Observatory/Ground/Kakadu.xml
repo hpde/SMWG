@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Kakadu</ResourceName>
          <AlternateName>Observatory Station Code: KDU</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-07-09T12:34:56.789</ReleaseDate>
          <Description>The Kakadu geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Australian Geological Survey Organisation</Acknowledgement>
          <Contact>
@@ -18,9 +18,17 @@
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
          </Contact>
+		 <InformationURL>
+			  <Name>Geoscience Australia: Minute Values Request Form</Name> 
+			  <URL>http://www.ga.gov.au/oracle/geomag/minute_ftp.jsp</URL> 
+			  <Description>Requestion form for 1 minute resolution magnetometer data. 
+			  Links to additional information also available.</Description> 
+		 </InformationURL>
          <PriorID>spase://SMWG/Observatory/WDC/Kakadu</PriorID>
       </ResourceHeader>
       <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GA</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>

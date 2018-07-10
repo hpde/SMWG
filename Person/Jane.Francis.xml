@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.9</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Jane.Francis</ResourceID>
+    <ReleaseDate>2018-06-25T17:35:46Z</ReleaseDate>
+    <PersonName>Jane Francis</PersonName>
+    <OrganizationName>British Antarctic Survey</OrganizationName>
+    <Address>British Antarctic Survey, High Cross, Madingley Road, CAMBRIDGE, CB3 0ET, United Kingdom</Address>
+    <PhoneNumber>+44 (0)1223 221400</PhoneNumber>
+  </Person>
+</Spase>
