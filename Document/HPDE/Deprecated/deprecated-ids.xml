@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
+  <Document>
+    <ResourceID>spase://SMWG/Document/HPDE/Deprecated/deprecated-ids</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Deprecated SPASE IDs which are no longer in use</ResourceName>
+			<ReleaseDate>2018-06-13T10:00:00.00</ReleaseDate>
+			<Description>
+			The SPASE IDs listed  in this document are deprecated and are no longer in use.
+			In some cases the SPASE ID was assigned in error and in other cases the resource no longer exists.
+			</Description>
+			<Contact>
+				<PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+				<Role>MetadataContact</Role>
+			</Contact>
+		</ResourceHeader>
+   <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/SPASE</RepositoryID>
+      <AccessURL>
+        <URL>http://spase-group.org/docs/deprecated/HPDE-Deprecated-ids.html</URL>
+      </AccessURL>
+      <Format>HTML</Format>
+    </AccessInformation>
+    <DocumentType>Other</DocumentType>
+   <MIMEType>text/html</MIMEType>
+  </Document>
+</Spase>
