@@ -6,13 +6,12 @@
       <ResourceHeader>
          <ResourceName>Logrono</ResourceName>
          <AlternateName>Observatory Station Code: LGR</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-08-03T12:34:56.789</ReleaseDate>
          <Description>The Logrono geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Logrono Observatory Director</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/WDC/Director.Logrono.Observatory</PersonID>
             <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
          </Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
@@ -29,6 +28,7 @@
       </Location>
       <OperatingSpan>
          <StartDate>1957-07-01T00:00:00.000</StartDate>
+		 <StopDate>1966-03-31T23:59:59</StopDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

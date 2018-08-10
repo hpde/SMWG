@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Loparskaya</ResourceName>
          <AlternateName>Observatory Station Code: MMK</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-08-03T12:34:56.789</ReleaseDate>
          <Description>The Loparskaya geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Geophysical Observatory Loparskaya, Polar Geophysical Institute, Kola Science Centre, Russian Academy of Science</Acknowledgement>
          <Contact>
@@ -26,9 +26,11 @@
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>68.25</Latitude>
          <Longitude>33.08</Longitude>
+		 <Elevation>210</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>1958-07-01T00:00:00.000</StartDate>
+		 <StopDate>1990-12-31T23:59:59</StopDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

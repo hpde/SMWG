@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Livingston Island</ResourceName>
          <AlternateName>Observatory Station Code: LIV</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-08-03T12:34:56.789</ReleaseDate>
          <Description>The Livingston Island geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Ebro Observatory, Spain</Acknowledgement>
          <Contact>
@@ -23,6 +23,11 @@
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
          </Contact>
+		 <InformationURL>
+            <Name>Home pagefor Observatori de l'Ebre</Name>
+            <URL>http://www.obsebre.es/</URL>
+            <Description>Information about Observatori de l'Ebre.</Description>
+         </InformationURL>
          <PriorID>spase://SMWG/Observatory/WDC/Livingston.Island</PriorID>
       </ResourceHeader>
       <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
@@ -31,6 +36,7 @@
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>-62.662</Latitude>
          <Longitude>299.605</Longitude>
+		 <Elevation>19.4</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>1996-12-01T00:00:00.000</StartDate>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/Learmonth.2</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Learmonth Geophysical Observatory</ResourceName>
+		 <AlternateName>Observatory Station Code: LRM</AlternateName>
+         <ReleaseDate>2018-08-03T12:34:56.789</ReleaseDate>
+         <Description>Learmonth (LRM) Geophysical Observatory</Description>
+         <Acknowledgement>Please acknowledge: Geoscience Australia</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+		 <InformationURL>
+			  <Name>Geoscience Australia: Minute Values Request Form</Name> 
+			  <URL>http://www.ga.gov.au/oracle/geomag/minute_ftp.jsp</URL> 
+			  <Description>Requestion form for 1 minute resolution magnetometer data. 
+			  Links to additional information also available.</Description> 
+		 </InformationURL>
+      </ResourceHeader>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GA</ObservatoryGroupID>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>-22.222</Latitude>
+         <Longitude>114.101</Longitude>
+         <Elevation>4.0</Elevation>
+      </Location>
+      <OperatingSpan>
+         <StartDate>1990-01-01T00:00:00.000</StartDate>
+		 <StopDate>2016-12-31T23:59:59</StopDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

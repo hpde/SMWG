@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>L'Aquila</ResourceName>
          <AlternateName>Observatory Station Code: AQU</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-07-26T12:34:56.789</ReleaseDate>
          <Description>The L'Aquila geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Istituto Nazionale di Geofisica, Rome</Acknowledgement>
          <Contact>
@@ -31,14 +31,17 @@
          <PriorID>spase://SMWG/Observatory/WDC/LAquila</PriorID>
       </ResourceHeader>
       <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>42.383</Latitude>
          <Longitude>13.317</Longitude>
+		 <Elevation>682</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>1960-01-01T00:00:00.000</StartDate>
+		 <StopDate>2010-01-01T23:59:59</StopDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

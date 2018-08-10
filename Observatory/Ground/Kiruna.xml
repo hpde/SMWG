@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Kiruna</ResourceName>
          <AlternateName>Observatory Station Code: KIR</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-07-26T12:34:56.789</ReleaseDate>
          <Description>The Kiruna geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Swedish Institute of Space Physics, Kiruna</Acknowledgement>
          <Contact>
@@ -18,6 +18,11 @@
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
          </Contact>
+		 <InformationURL>
+			  <Name>International Monitor for Auroral Geomagnetic Effects Homepage</Name> 
+			  <URL>http://space.fmi.fi/image/www/index.php?page=home</URL> 
+			  <Description>About the IMAGE program.</Description> 
+		 </InformationURL>
          <PriorID>spase://SMWG/Observatory/WDC/Kiruna</PriorID>
       </ResourceHeader>
       <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>

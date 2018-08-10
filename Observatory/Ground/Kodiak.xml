@@ -5,7 +5,8 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Kodiak</ResourceID>
       <ResourceHeader>
          <ResourceName>Kodiak Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+		 <AlternateName>Observatory Station Code: KODK</AlternateName>
+         <ReleaseDate>2018-07-26T12:34:56.789</ReleaseDate>
          <Description>Kodiak (KODK) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: United States Air Force Academy, University of California, Los Angeles</Acknowledgement>
          <Contact>
@@ -22,11 +23,12 @@
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
       </ResourceHeader>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>57.8</Latitude>
-         <Longitude>207.6</Longitude>
+         <Latitude>57.79</Latitude>
+         <Longitude>207.59</Longitude>
       </Location>
       <OperatingSpan>
          <StartDate>2010-01-01T00:00:00.000</StartDate>

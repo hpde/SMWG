@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Leadville</ResourceName>
          <AlternateName>Observatory Station Code: LDV</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-07-26T12:34:56.789</ReleaseDate>
          <Description>The Leadville geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Leadville Observatory Director</Acknowledgement>
          <Contact>
@@ -29,6 +29,8 @@
       </Location>
       <OperatingSpan>
          <StartDate>1957-07-01T00:00:00.000</StartDate>
+		 <StopDate>1959-01-31T23:59:59</StopDate>
+		 <Note>Exact stop date unclear.</Note>
       </OperatingSpan>
    </Observatory>
 </Spase>

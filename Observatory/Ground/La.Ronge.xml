@@ -5,7 +5,8 @@
       <ResourceID>spase://SMWG/Observatory/Ground/La.Ronge</ResourceID>
       <ResourceHeader>
          <ResourceName>La Ronge Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+		 <AlternateName>Observatory Station Code: LRG</AlternateName>
+         <ReleaseDate>2018-07-26T12:34:56.789</ReleaseDate>
          <Description>La Ronge (LRG) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: University of Tokyo</Acknowledgement>
          <Contact>
@@ -17,12 +18,19 @@
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
+		 <InformationURL>
+			<Name>Solar-Terrestrial Energy Program Polar Network Homepage</Name>
+			<URL>http://step-p.dyndns.org/~khay/</URL>
+			<Description>Detailed information about the STEP Polar Network.</Description>
+		 </InformationURL>
       </ResourceHeader>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/STEP</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>55.2</Latitude>
-         <Longitude>52.5</Longitude>
+         <Longitude>254.60</Longitude>
          <Elevation>18.0</Elevation>
       </Location>
       <OperatingSpan>

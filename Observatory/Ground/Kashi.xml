@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Kashi</ResourceName>
          <AlternateName>Observatory Station Code: KSH</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-07-26T12:34:56.789</ReleaseDate>
          <Description>The Kashi geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Institute of Geophysics, China Seismological Bureau</Acknowledgement>
          <Contact>
@@ -30,10 +30,10 @@
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>39.5</Latitude>
-         <Longitude>76</Longitude>
+         <Longitude>76.0</Longitude>
       </Location>
       <OperatingSpan>
-         <StartDate>1995-01-01T00:00:00.000</StartDate>
+         <StartDate>1988-01-01T00:00:00.000</StartDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

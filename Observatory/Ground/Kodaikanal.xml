@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Kodaikanal</ResourceName>
          <AlternateName>Observatory Station Code: KOD</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-07-26T12:34:56.789</ReleaseDate>
          <Description>The Kodaikanal geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Indian Institute of Astrophysics, Bangalore</Acknowledgement>
          <Contact>
@@ -26,6 +26,7 @@
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>10.23</Latitude>
          <Longitude>77.463</Longitude>
+		 <Elevation>2323</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>1957-07-01T00:00:00.000</StartDate>

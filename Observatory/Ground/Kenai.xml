@@ -5,7 +5,8 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Kenai</ResourceID>
       <ResourceHeader>
          <ResourceName>Kenai Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-08-27T00:00:00.000</ReleaseDate>
+		 <AlternateName>Observatory Station Code: KENA</AlternateName>
+         <ReleaseDate>2018-07-26T12:34:56.789</ReleaseDate>
          <Description>Kenai (KENA) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: University of Alaska</Acknowledgement>
          <Contact>
@@ -21,7 +22,14 @@
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
+		 <InformationURL>
+			<Name>Overview of the Alaska Satellite Facility Geophysical Institute Magnetometer Array</Name>
+			<URL>https://www.asf.alaska.edu/magnetometer/</URL>
+			<Description>Description of the magnetometer array.</Description>
+		 </InformationURL>
       </ResourceHeader>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GIMA</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>

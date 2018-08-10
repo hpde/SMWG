@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>AUTUMN</ResourceName>
 	  <AlternateName>Athabasca University THEMIS UCLA Magnetometer Network</AlternateName>	  
-      <ReleaseDate>2018-07-09T12:30:00Z</ReleaseDate>
+      <ReleaseDate>2018-07-26T12:30:00Z</ReleaseDate>
       <Description>The Athabasca University THEMIS UCLA Magnetometer Network 
 	  is a magnetometer array located mainly in Quebec, Canada.</Description>
       <Acknowledgement>AUTUMNX magnetometer network is funded through the Canadian Space Agency / Geospace Observatory (GO) Canada program
@@ -29,6 +29,7 @@ Athabasca University, Centre for Science / Faculty of Science and Technology, 20
     </ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+	  <CoordinateSystemName>GEO</CoordinateSystemName>
     </Location>
 	<OperatingSpan>
 		<StartDate>2014-11-01T00:00:00Z</StartDate>
