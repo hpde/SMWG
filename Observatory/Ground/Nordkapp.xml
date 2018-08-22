@@ -5,7 +5,8 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Nordkapp</ResourceID>
       <ResourceHeader>
          <ResourceName>Nordkapp Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+		 <AlternateName>Observatory Station Code: NOR</AlternateName>
+         <ReleaseDate>2018-08-21T12:34:56.789</ReleaseDate>
          <Description>Nordkapp (NOR) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: UiT The Arctic University of Norway</Acknowledgement>
          <Contact>
@@ -21,12 +22,17 @@
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
+		 <InformationURL>
+			  <Name>Tromsø Geophysical Observatory</Name> 
+			  <URL>http://flux.phys.uit.no/geomag.html</URL> 
+			  <Description>Requestion form for magnetometer data, plots, indices, maps, etc.</Description> 
+		 </InformationURL>
       </ResourceHeader>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>71.1</Latitude>
-         <Longitude>25.8</Longitude>
+         <Latitude>71.09</Latitude>
+         <Longitude>25.79</Longitude>
          <Elevation>1.0</Elevation>
       </Location>
       <OperatingSpan>

@@ -5,7 +5,8 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Muono</ResourceID>
       <ResourceHeader>
          <ResourceName>Muono Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+		 <AlternateName>Observatory Station Code: Muo</AlternateName>
+         <ReleaseDate>2018-08-21T12:34:56.789</ReleaseDate>
          <Description>Muono (MUO) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: Finnish Meteorological Institute</Acknowledgement>
          <Contact>
@@ -17,16 +18,21 @@
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
+		 <InformationURL>
+			  <Name>International Monitor for Auroral Geomagnetic Effects Homepage</Name> 
+			  <URL>http://space.fmi.fi/image/www/index.php?page=home</URL> 
+			  <Description>About the IMAGE program.</Description> 
+		  </InformationURL>
       </ResourceHeader>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>68.0</Latitude>
-         <Longitude>23.5</Longitude>
+         <Latitude>68.02</Latitude>
+         <Longitude>23.53</Longitude>
          <Elevation>258.0</Elevation>
       </Location>
       <OperatingSpan>
-         <StartDate>2017-01-01T00:00:00.000</StartDate>
+         <StartDate>1982-10-01T00:00:00.000</StartDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

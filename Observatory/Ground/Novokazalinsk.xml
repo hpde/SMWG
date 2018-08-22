@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Novokazalinsk</ResourceName>
          <AlternateName>Observatory Station Code: NKK</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-08-21T12:34:56.789</ReleaseDate>
          <Description>The Novokazalinsk geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  ::UNKNOWN::</Acknowledgement>
          <Contact>
@@ -29,6 +29,7 @@
       </Location>
       <OperatingSpan>
          <StartDate>1980-01-01T00:00:00.000</StartDate>
+		 <StopDate>1980-06-30T23:59:59</StopDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

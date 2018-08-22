@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Monte Capellino</ResourceName>
          <AlternateName>Observatory Station Code: MCP</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-08-21T12:34:56.789</ReleaseDate>
          <Description>The Monte Capellino geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Monte Capellino Observatory Director</Acknowledgement>
          <Contact>
@@ -29,6 +29,7 @@
       </Location>
       <OperatingSpan>
          <StartDate>1958-07-01T00:00:00.000</StartDate>
+		 <StopDate>1959-12-31T23:59:59</StopDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

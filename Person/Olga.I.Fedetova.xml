@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.3.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Olga.I.Fedetova</ResourceID>
+      <ReleaseDate>2018-08-21T12:34:56.789</ReleaseDate>
+      <PersonName>Olga I. Fedetova</PersonName>
+      <OrganizationName>Geophysical Observatory Klyuchi</OrganizationName>
+      <Address>Geophysical Observatory Klyuchi Koptyug av. 3 Novosibirsk RUSSIA</Address>
+      <Email>baley@ngs.ru</Email>
+   </Person>
+</Spase>

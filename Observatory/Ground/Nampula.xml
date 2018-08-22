@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Nampula</ResourceName>
          <AlternateName>Observatory Station Code: NMP</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-08-21T12:34:56.789</ReleaseDate>
          <Description>The Nampula geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Nampula Geomagnetic Observatory, Mozambique; Mucussete Antonio, Observatory operational support from Jean Rasson and John Riddick. Data processed by John Riddick and British Geological Survey. Nampula observatory is part of the INDIGO Programme (see http://nora.nerc.ac.uk/15125/).</Acknowledgement>
          <Contact>
@@ -31,6 +31,7 @@
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>-15.0886</Latitude>
          <Longitude>39.2542</Longitude>
+		 <Elevation>374</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>1982-07-01T00:00:00.000</StartDate>

@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Observatory/Ground/Learmonth</ResourceID>
     <ResourceHeader>
       <ResourceName>Learmonth</ResourceName>
-      <ReleaseDate>2018-07-26T17:20:05Z</ReleaseDate>
+      <ReleaseDate>2018-08-20T17:20:05Z</ReleaseDate>
       <Description>Located on North-West Cape, 
 	  Western Australia (22.2°S, 114.1°E), the site 
 	  overlooks Exmouth Gulf to the east and Cape Range to the 
@@ -24,6 +24,11 @@
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
+	  <InformationURL>
+			  <Name>Learmonth Solar Observatory Homepage at GONG</Name> 
+			  <URL>https://gong.nso.edu/sites/learmonth.shtml</URL> 
+			  <Description>About the Learmonth Solar Observatory.</Description> 
+      </InformationURL>
     </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/GONG</ObservatoryGroupID>
     <Location>

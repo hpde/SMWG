@@ -5,12 +5,22 @@
     <ResourceID>spase://SMWG/Observatory/Ground/MaunaLoaSO</ResourceID>
     <ResourceHeader>
       <ResourceName>MLSO</ResourceName>
-      <ReleaseDate>2015-10-23T18:29:57Z</ReleaseDate>
-      <Description>Mauna Loa Solar Observatory</Description>
+	  <AlternateName>Mauna Loa Solar Observatory</AlternateName>
+      <ReleaseDate>2015-10-23T18:29:57</ReleaseDate>
+      <Description>The Mauna Loa Solar Observatory (MLSO) is located at an 
+	  elevation of 3353m on National Oceanic and Atmospheric Administration 
+	  property situated on a lava field on the northwest flank of Mauna Loa 
+	  on the island of Hawaii. MLSO is administered by the High Altitude 
+	  Observatory of the National Center for Atmospheric Research in Boulder, Colorado. </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
+	  <InformationURL>
+			  <Name>Mauna Loa Solar Observatory Homepage at GONG</Name> 
+			  <URL>https://gong.nso.edu/sites/maunaloa.shtml</URL> 
+			  <Description>About the Mauna Loa Solar Observatory.</Description> 
+      </InformationURL>
     <PriorID>spase://SMWG/Observatory/MaunaLoaSO</PriorID>
     </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/GONG</ObservatoryGroupID>

@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Maputo</ResourceName>
          <AlternateName>Observatory Station Code: LMM</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-08-20T12:34:56.789</ReleaseDate>
          <Description>The Maputo geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Departamento de Geofisica Global, Direccao, National de Geologia, Maputo, Mozambique</Acknowledgement>
          <Contact>
@@ -41,6 +41,7 @@
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>-25.919</Latitude>
          <Longitude>32.5833</Longitude>
+		 <Elevation>47.0</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>1980-01-01T00:00:00.000</StartDate>

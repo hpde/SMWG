@@ -5,7 +5,8 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Meanook</ResourceID>
       <ResourceHeader>
          <ResourceName>Meanook Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+		 <AlternateName>Observatory Station Code: MEA</AlternateName>
+         <ReleaseDate>2018-08-20T12:34:56.789</ReleaseDate>
          <Description>Meanook (MEA) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: Geological Survey of Canada</Acknowledgement>
          <Contact>
@@ -22,15 +23,17 @@
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
       </ResourceHeader>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/CANMOS</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>54.6</Latitude>
-         <Longitude>246.7</Longitude>
+         <Latitude>54.616</Latitude>
+         <Longitude>246.653</Longitude>
          <Elevation>717.0</Elevation>
       </Location>
       <OperatingSpan>
-         <StartDate>2007-01-01T00:00:00.000</StartDate>
+         <StartDate>1932-01-01T00:00:00.000</StartDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

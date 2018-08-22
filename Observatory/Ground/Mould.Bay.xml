@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Mould Bay</ResourceName>
          <AlternateName>Observatory Station Code: MBC</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-08-21T12:34:56.789</ReleaseDate>
          <Description>The Mould Bay geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Geological Survey of Canada</Acknowledgement>
          <Contact>
@@ -21,14 +21,18 @@
          <PriorID>spase://SMWG/Observatory/WDC/Mould.Bay</PriorID>
       </ResourceHeader>
       <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/CANMOS</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>76.315</Latitude>
          <Longitude>240.638</Longitude>
+		 <Elevation>40.0</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>1962-08-01T00:00:00.000</StartDate>
+		 <StopDate>1997-06-30T23:59:59</StopDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

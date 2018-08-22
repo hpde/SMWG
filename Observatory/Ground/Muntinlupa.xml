@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Muntinlupa</ResourceName>
          <AlternateName>Observatory Station Code: MUT</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-08-21T12:34:56.789</ReleaseDate>
          <Description>The Muntinlupa geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Department of Environment and Natural Resources, Geodetic Geophysics Division, Manila, Philippines</Acknowledgement>
          <Contact>
@@ -31,9 +31,11 @@
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>14.375</Latitude>
          <Longitude>121.015</Longitude>
+		 <Elevation>62.0</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>1957-07-01T00:00:00.000</StartDate>
+		 <StopDate>1972-12-31T23:59:59</StopDate>
       </OperatingSpan>
    </Observatory>
 </Spase>
