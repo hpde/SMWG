@@ -7,7 +7,7 @@
          <ResourceName>Pedeli</ResourceName>
          <AlternateName>Penteli</AlternateName>
          <AlternateName>Observatory Station Code: PEG</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-09-06T12:34:56.789</ReleaseDate>
          <Description>The Pedeli geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  ::UNKNOWN::</Acknowledgement>
          <Contact>
@@ -27,6 +27,7 @@
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>38.08</Latitude>
          <Longitude>23.93</Longitude>
+		 <Elevation>380</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>1999-01-01T00:00:00.000</StartDate>

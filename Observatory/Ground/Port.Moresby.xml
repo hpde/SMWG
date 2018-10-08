@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Port Moresby</ResourceName>
          <AlternateName>Observatory Station Code: PMG</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-09-24T12:34:56.789</ReleaseDate>
          <Description>The Port Moresby geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Port Moresby Observatory Director</Acknowledgement>
          <Contact>
@@ -26,9 +26,12 @@
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>-9.408</Latitude>
          <Longitude>147.152</Longitude>
+		 <Elevation>80</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>1958-04-01T00:00:00.000</StartDate>
+		 <StopDate>1991-12-31T23:59:59</StopDate>
+		 <Note>Exact stop date is unknown.</Note>
       </OperatingSpan>
    </Observatory>
 </Spase>

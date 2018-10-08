@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Port Stanley</ResourceName>
          <AlternateName>Observatory Station Code: PST</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-09-24T12:34:56.789</ReleaseDate>
          <Description>The Port Stanley geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  British Geological Survey</Acknowledgement>
          <Contact>
@@ -18,14 +18,22 @@
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
          </Contact>
+		 <InformationURL>
+        <Name>British Geological Survey National Environment Research Council</Name>
+        <URL>http://www.geomag.bgs.ac.uk/</URL>
+        <Description>Information about the British Geological Survey.</Description>
+	  </InformationURL>
          <PriorID>spase://SMWG/Observatory/WDC/Port.Stanley</PriorID>
       </ResourceHeader>
       <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/BGS</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>-51.703</Latitude>
          <Longitude>302.11</Longitude>
+		 <Elevation>135</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>1994-02-01T00:00:00.000</StartDate>

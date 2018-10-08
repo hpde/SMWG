@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/Nyalesund</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Nyalesund</ResourceName>
+         <AlternateName>Observatory Station Code: NAL</AlternateName>
+         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
+         <Description>The Nyalesund geophysical observatory.</Description>
+         <Acknowledgement>Tromso Geophysical Observatory, University of Tromso, Norway</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/TRO.Editor</PersonID>
+            <Role>Publisher</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Nyalesund Vector Magnetic Field Data</Name>
+            <URL>http://flux.phys.uit.no/geomag.html</URL>
+            <Description>Main menu for access to magnetic field data</Description>
+         </InformationURL>
+      </ResourceHeader>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/TGO</ObservatoryGroupID>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>78.92</Latitude>
+         <Longitude>11.93</Longitude>
+         <Elevation>10.0</Elevation>
+      </Location>
+      <OperatingSpan>
+         <StartDate>1980-01-18T00:00:00.000</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

@@ -24,6 +24,8 @@
         <Description>Detailed information about the STEP Polar Network.</Description>
 	  </InformationURL>
     </ResourceHeader>
+	<ObservatoryGroupID>spase://SMWG/Observatory/Ground/STEP</ObservatoryGroupID>
+	<ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
     </Location>

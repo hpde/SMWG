@@ -5,7 +5,8 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Purcell</ResourceID>
       <ResourceHeader>
          <ResourceName>Purcell Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+		 <AlternateName>Observatory Station Code: PCEL</AlternateName>
+         <ReleaseDate>2018-09-24T12:34:56.789</ReleaseDate>
          <Description>Purcell (PCEL) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: University of California, Los Angeles</Acknowledgement>
          <Contact>
@@ -21,12 +22,19 @@
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
+		 <InformationURL>
+			<Name>McMAC Homepage</Name>
+			<URL>http://spc.igpp.ucla.edu/mcmac/</URL>
+			<Description>Description of McMAC project.</Description>
+		 </InformationURL>
       </ResourceHeader>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/McMAC</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>35.0</Latitude>
-         <Longitude>262.8</Longitude>
+         <Longitude>262.60</Longitude>
       </Location>
       <OperatingSpan>
          <StartDate>2007-01-01T00:00:00.000</StartDate>
