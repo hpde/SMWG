@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/RENU2</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Rocket Experiment for Neutral Upwelling 2, RENU 2</ResourceName>
+      <ReleaseDate>2018-10-17T18:19:18Z</ReleaseDate>
+      <Description>The Rocket Experiment for Neutral Upwelling (RENU2) NASA Sounding Rocket Mission launched into the Dayside Cusp Region from the Andoya Space Center at 07:34 UT on December 13, 2015.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Marc.R.Lessard</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Rocket Experiment for Neutral Upwelling 2, RENU 2, Overview, NASA Mission 52.002</Name>
+        <URL>http://mirl.sr.unh.edu/projects_renu2/projects_renu2.html</URL>
+        <Description>UNH Web Page for Overview of the RENU2 Sounding Rocket Mission</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
+      <ObservatoryRegion>Earth.NearSurface.Ionosphere.DRegion</ObservatoryRegion>
+      <ObservatoryRegion>Earth.NearSurface.Ionosphere.ERegion</ObservatoryRegion>
+      <ObservatoryRegion>Earth.NearSurface.Ionosphere.FRegion</ObservatoryRegion>
+      <ObservatoryRegion>Earth.NearSurface.Ionosphere.Topside</ObservatoryRegion>
+      <ObservatoryRegion>Earth.NearSurface.PolarCap</ObservatoryRegion>
+      <ObservatoryRegion>Earth.NearSurface.Thermosphere</ObservatoryRegion>
+    </Location>
+    <OperatingSpan>
+      <StartDate>2015-12-13T00:00:00</StartDate>
+      <StopDate>2015-12-13T23:59:59</StopDate>
+    </OperatingSpan>
+  </Observatory>
+</Spase>

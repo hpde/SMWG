@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/ISS/AMS-02</ResourceID>
+    <ResourceHeader>
+      <ResourceName>International Space Station, Alpha Magnetic Spectrometer-02, AMS-02</ResourceName>
+      <ReleaseDate>2018-10-17T12:34:56.789</ReleaseDate>
+      <Description>The Alpha Magnetic Spectrometer (AMS-02) is a State-of-the-Art Particle Physics Detector constructed, tested and operated by an International Team composed of 60 Institutes from 16 Countries and organized under United States Department of Energy (DOE) Sponsorship. The AMS-02 will use the unique Environment of Space to advance Knowledge of the Universe and lead to the understanding of the Universe's Origin by searching for Antimatter, Dark Matter and measuring Cosmic Rays. Experimental Evidence indicates that our Galaxy is made of Matter; however, there are more than 100 Hundred Million Galaxies in the Universe and the Big Bang Theory of the Origin of the Universe requires equal Amounts of Matter and Antimatter. Theories that explain this apparent Asymmetry violate other Measurements. Whether or not there is significant Antimatter is One of the Fundamental Questions of the Origin and Nature of the Universe. Any Observations of an Antihelium Nucleus would provide Evidence for the Existence of Antimatter. In 1999, AMS-01 established a new Upper Limit of 10^-6 for the Antihelium/Helium Flux Ratio in the Universe. AMS-02 will search with a Sensitivity of 10^-9, an Improvement of three Orders of Magnitude, sufficient to reach the Edge of the expanding Universe and resolve the Issue definitively. This Description has been excerpted from "Alpha Magnetic Spectrometer - A Physics Experiment on the International Space Station" by Dr. Sam Ting.</Description>
+      <Acknowledgement>use</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Samuel.C.Ting</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>ISS AMS-02 Instrument Overview</Name>
+        <URL>https://www.nasa.gov/mission_pages/station/research/experiments/742.html</URL>
+        <Description>NASA Web Page for the Alpha Mass Spectrometer-02 (AMS-02) onboard the International Space Station</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Spectrometer</InstrumentType>
+    <InvestigationName>International Space Station AMS-02</InvestigationName>
+    <OperatingSpan>
+      <StartDate>2011-05-19T00:00:00</StartDate>
+    </OperatingSpan>
+    <ObservatoryID>spase://SMWG/Observatory/ISS</ObservatoryID>
+  </Instrument>
+</Spase>
