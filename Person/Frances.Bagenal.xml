@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Frances.Bagenal</ResourceID>
+    <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
+    <PersonName>Frances Bagenal</PersonName>
+    <OrganizationName>Astrophysical and Planetary Sciences and Laboratory for Atmospheric and Space Physics, University of Colorado</OrganizationName>
+    <Address>Astrophysical and Planetary Sciences and Laboratory for Atmospheric and Space Physics, University of Colorado, Boulder, Colorado 80309-0391</Address>
+    <Email>bagenal@colorado.edu</Email>
+    <PhoneNumber>+1 303 492 2598</PhoneNumber>
+    <FaxNumber>+1 303 492 6946</FaxNumber>
+  </Person>
+</Spase>
