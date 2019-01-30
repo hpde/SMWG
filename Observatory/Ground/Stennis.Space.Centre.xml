@@ -7,7 +7,7 @@
          <ResourceName>Stennis Space Centre</ResourceName>
          <AlternateName>Bay St. Louis</AlternateName>
          <AlternateName>Observatory Station Code: BSL</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-01-18T12:34:56.789</ReleaseDate>
          <Description>The Stennis Space Centre geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  U.S. Geological Survey</Acknowledgement>
          <Contact>
@@ -29,14 +29,26 @@
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
          </Contact>
+		 <InformationURL>
+            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
+         </InformationURL>
+		 <InformationURL>
+			<Name>Overview of the USGS Geomagnetism Program Array</Name>
+			<URL>https://geomag.usgs.gov/monitoring/observatories/</URL>
+			<Description>Description and location of the magnetometer array.</Description>
+		 </InformationURL>
          <PriorID>spase://SMWG/Observatory/WDC/Bay.St.Louis</PriorID>
       </ResourceHeader>
       <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/USGS</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>30.35</Latitude>
          <Longitude>270.36</Longitude>
+		 <Elevation>8.0</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>1986-04-01T00:00:00.000</StartDate>

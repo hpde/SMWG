@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Sanae III</ResourceName>
          <AlternateName>Observatory Station Code: SNA</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-01-16T12:34:56.789</ReleaseDate>
          <Description>The Sanae III geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Sanae III Observatory Director</Acknowledgement>
          <Contact>
@@ -26,9 +26,11 @@
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>-70.312</Latitude>
          <Longitude>357.59</Longitude>
+		 <Elevation>52.0</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>1961-01-01T00:00:00.000</StartDate>
+		 <StopDate>1989-12-31T23:59:59</StopDate>
       </OperatingSpan>
    </Observatory>
 </Spase>
