@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Tuntungan</ResourceName>
          <AlternateName>Observatory Station Code: TUN</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-02-19T12:34:56.789</ReleaseDate>
          <Description>The Tuntungan geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Meteorological Geophysical Agency, Jl. Angkasa I No.2, Kemayoran Jakarta, 10720, Indonesia</Acknowledgement>
          <Contact>
@@ -31,6 +31,7 @@
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>3.51</Latitude>
          <Longitude>98.56</Longitude>
+		 <Elevation>86.0</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>1999-01-01T00:00:00.000</StartDate>

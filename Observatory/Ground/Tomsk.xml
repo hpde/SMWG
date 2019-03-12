@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Tomsk</ResourceName>
          <AlternateName>Observatory Station Code: TMK</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-02-18T12:34:56.789</ReleaseDate>
          <Description>The Tomsk geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Tomsk Observatory Director</Acknowledgement>
          <Contact>
@@ -29,6 +29,7 @@
       </Location>
       <OperatingSpan>
          <StartDate>1965-01-01T00:00:00.000</StartDate>
+		 <StopDate>1965-12-31T23:59:59</StopDate>
       </OperatingSpan>
    </Observatory>
 </Spase>
