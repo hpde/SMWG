@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>2.2.9</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/Madrigal</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Madrigal</ResourceName>
+      <ReleaseDate>2019-03-25T18:05:57Z</ReleaseDate>
+      <Description>Madrigal is a robust, World Wide Web based system capable of managing and 
+	  serving archival and real-time data, in a variety of formats, from a wide range of 
+	  upper atmospheric science instruments. Data at each Madrigal site is locally 
+	  controlled and can be updated at any time, but shared metadata between Madrigal 
+	  sites allow searching of all Madrigal sites at once from any Madrigal site.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+	  <InformationURL>
+		<Name>Madrigal CEDAR Database</Name>
+		<URL>http://cedar.openmadrigal.org/index.html/</URL>
+		<Description>Madrigal is an upper atmospheric science database used by groups throughout the world.</Description>
+		<Language>EN</Language>
+	  </InformationURL>
+    </ResourceHeader>
+	<AccessURL>
+		<Name>Madrigal CEDAR Database</Name>
+		<URL>http://cedar.openmadrigal.org/index.html/</URL>
+		<Description>Madrigal is an upper atmospheric science database used by groups 
+		throughout the world. A number of different datasets are located at this 
+		repository.</Description>
+		<Language>EN</Language>
+	</AccessURL>
+  </Repository>
+</Spase>
