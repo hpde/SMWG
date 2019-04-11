@@ -7,7 +7,7 @@
         <ResourceHeader>
             <ResourceName>LANL02A Energetic Spectrometer for Particles (ESP)</ResourceName>
             <AlternateName/>
-            <ReleaseDate>2011-10-20T16:05:00Z</ReleaseDate>
+            <ReleaseDate>2019-04-11T13:36:13.000</ReleaseDate>
             <Description>Higher-energy particles have been measured since 1989 using the Energy Spectrometer for Particles (ESP). The ESP is a bismuth germanate crystal coupled to a thick plastic scintillator that is coupled to a photomultiplier tube [4]. The ESP instrument can measure the spectrum of electrons from 0.7 to 26 MeV and of protons from 11 to &gt;20 MeV.</Description>
             <Acknowledgement/>
             <Contact>
@@ -24,6 +24,6 @@
         <InstrumentType>EnergeticParticleInstrument</InstrumentType>
         <!--<InstrumentType>ScintillationDetector</InstrumentType>-->
         <InvestigationName>LANL02A Energetic Sensor for Particles</InvestigationName>
-        <ObservatoryID>spase://SMWG/Observatory/LANL02A</ObservatoryID>
+        <ObservatoryID>spase://SMWG/Observatory/LANL/02A</ObservatoryID>
     </Instrument>
 </Spase>
