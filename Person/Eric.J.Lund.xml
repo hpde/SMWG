@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Eric.J.Lund</ResourceID>
+      <ReleaseDate>2019-04-10T20:06:31Z</ReleaseDate>
+      <PersonName>Eric J. Lund</PersonName>
+      <OrganizationName>Space Science Center</OrganizationName>
+      <Address>Institute for the Study of Earth, Oceans, and Space, Morse Hall, 8 College Road, Durham, NH 03824</Address>
+      <Email>eric.lund@unh.edu</Email>
+      <PhoneNumber>+1 603 862-0758</PhoneNumber>
+   </Person>
+</Spase>
