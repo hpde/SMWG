@@ -2,11 +2,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
    <Version>2.2.1</Version>
    <Observatory>
-      <ResourceID>spase://SMWG/Observatory/GIRO/MU230_Multan</ResourceID>
+      <ResourceID>spase://SMWG/Observatory/GIRO/AN438_Anyang</ResourceID>
       <ResourceHeader>
-         <ResourceName>MU230 Multan, Pakistan</ResourceName>
+         <ResourceName>AN438 Anyang, South Korea</ResourceName>
          <ReleaseDate>2019-04-19T12:34:56.789Z</ReleaseDate>
-         <Description>Ionospheric Station at Multan, Pakistan; URSI-code: MU230. Digisonde belongs to a class of advanced ionosondes that evaluate angle of arrival, polarization, and Doppler frequency shift of skywave signals reflected from the ionosphere, in addition to their travel time that is conventionally used to determine range to the reflection point.</Description>
+         <Description>Digisonde ionospheric station at Anyang, Korea; URSI-code: AN438. Digisonde belongs to a class of advanced ionosondes that evaluate angle of arrival, polarization, and Doppler frequency shift of skywave signals reflected from the ionosphere, in addition to their travel time that is conventionally used to determine range to the reflection point.</Description>
          <Acknowledgement>A heavy investment of time, effort, expertise, and funds continues to be made to produce, collect, quality control, interpret, and store digisonde ionograms. It is important that data suppliers and the UML DIDBase developers are appropriately acknowledged in scientific publications that involve analysis of data obtained from the Lowell DIDBase.</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Bodo.W.Reinisch</PersonID>
@@ -30,17 +30,17 @@
             <AssociationID>spase://SMWG/Observatory/GIRO</AssociationID>
             <AssociationType>PartOf</AssociationType>
          </Association>
-         <PriorID>spase://SMWG/Observatory/GIRO/MU320_Multan</PriorID>
       </ResourceHeader>
       <ObservatoryGroupID>spase://SMWG/Observatory/GIRO</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>33.03</Latitude>
-         <Longitude>72.01</Longitude>
+         <Latitude>37.39</Latitude>
+         <Longitude>126.95</Longitude>
       </Location>
       <OperatingSpan>
-         <StartDate>2009-03-01T00:00:00Z</StartDate>
+         <StartDate>1998-05-01T15:00:05Z</StartDate>
+         <StopDate>2009-08-05T23:53:00Z</StopDate>
          <Note>Operating span per GIRO data holdings; earlier or later data may be available elsewhere.</Note>
       </OperatingSpan>
    </Observatory>

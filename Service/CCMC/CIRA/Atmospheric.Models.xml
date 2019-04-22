@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
+   <Service>
+      <ResourceID>spase://SMWG/Service/CCMC/CIRA/Atmospheric.Models</ResourceID>
+      <ResourceHeader>
+         <ResourceName>CIRA-86 atmospheric model</ResourceName>
+         <ReleaseDate>2019-04-19T12:34:56.789Z</ReleaseDate>
+         <Description>CIRA-86 (COSPAR International Reference Atmosphere) neutral atmosphere density, composition and temperature empirical models</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>About the CIRA-86 model</Name>
+            <URL>https://ccmc.gsfc.nasa.gov/modelweb/atmos/cospar2.html</URL>
+         </InformationURL>
+         <PriorID>spase://VSPO/Service/P_CIRA_HDR</PriorID>
+         <PriorID>spase://VSPO/Service/CIRA/Atmospheric.Models</PriorID>
+      </ResourceHeader>
+      <AccessURL>
+         <Name>Access to files at the Community Coordinated Modeling Center</Name>
+         <URL>https://ccmc.gsfc.nasa.gov/pub/modelweb/atmospheric/cira/</URL>
+      </AccessURL>
+   </Service>
+</Spase>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
+   <Service>
+      <ResourceID>spase://SMWG/Service/CCMC/Solar.Models</ResourceID>
+      <ResourceHeader>
+         <ResourceName>CCMC: Solar Models</ResourceName>
+         <ReleaseDate>2019-04-19T12:34:56.789Z</ReleaseDate>
+         <Description>Run solar models (MAS, PFSS) at CCMC</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lutz.Rastaetter</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Jon.Linker</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>CCMC top page</Name>
+            <URL>https://ccmc.gsfc.nasa.gov/</URL>
+         </InformationURL>
+         <PriorID>spase://VSPO/Service/P_CCMC_HDR_SOLAR_RUN</PriorID>
+         <PriorID>spase://VSPO/Service/CCMC/Solar.Models</PriorID>
+      </ResourceHeader>
+      <AccessURL>
+         <Name>CCMC executable solar models page</Name>
+         <URL>https://ccmc.gsfc.nasa.gov/models/models_at_glance.php</URL>
+      </AccessURL>
+   </Service>
+</Spase>
