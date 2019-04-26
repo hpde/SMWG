@@ -6,10 +6,10 @@
     <ResourceHeader>
       <ResourceName>ISIS2 Swept-Frequency Sounder</ResourceName>
       <AlternateName>Topside Sounder</AlternateName>
-      <ReleaseDate>2010-08-05T14:57:27Z</ReleaseDate>
+      <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
       <Description>The ISIS 2 (International Satellites for Ionospheric Studies) Swept-Frequency Sounder measured the ionospheric electron density in the altitude range 300 to 1400 km, and provided  correlative data for the other ISIS 2 experiments, particularly those measuring ionospheric parameters. The ionosonde was a radio transmitter that recorded the time delay between a transmitted and returned radio-frequency pulse. A continuum of frequencies between 0.1 and 20 MHz was sampled every 14 or 21 s, and one of six selected frequencies was also used for sounding for a few seconds during each 14- or 21-s period. In addition to the sweep- and fixed-frequency modes of operation, a mixed mode was available in which the transmitter frequency was fixed at one of six possible frequencies while the receiver swept. Several virtual-range (delay-time) traces resulting from ground reflections, plasma resonances, birefringence of the ionosphere, nonvertical propagation, etc., were normally observed.</Description>
       <Contact>
-        <PersonID>spase://SMWG/Person/J.H.Whitteker</PersonID>
+        <PersonID>spase://SMWG/Person/James.H.Whitteker</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>

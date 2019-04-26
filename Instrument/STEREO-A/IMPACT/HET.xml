@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema">
+   <Version>2.3.0</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/STEREO-A/IMPACT/HET</ResourceID>
+      <ResourceHeader>
+         <ResourceName>STEREO-A IMPACT High Energy Telescope, HET</ResourceName>
+         <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
+         <Description> The High Energy Telescope (HET) is one of seven Instruments in the STEREO In-Situ Measurements of Particles and CME Transients (IMPACT) Investigation. With a Linear Array of six Solid State Detectors, it measures Protons and Helium Ions up to 100 MeV/n and Electrons up to 5 MeV. For more Informaiton, see http://www.srl.caltech.edu/STEREO/docs/STEREO-HET-SSR.pdf.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>NSSDC Master Catalog</Name>
+            <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2006-047A-03</URL>
+            <Description>In-Situ Measurements of Particles and CME Transients (IMPACT) Experiment on the STEREO A Mission.</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>ParticleDetector</InstrumentType>
+      <InvestigationName>In-Situ Measurements of Particles and CME Transients (IMPACT) Low Energy Telescope on STEREO A</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/STEREO-A</ObservatoryID>
+   </Instrument>
+</Spase>

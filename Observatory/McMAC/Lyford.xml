@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Observatory/McMAC/Lyford</ResourceID>
     <ResourceHeader>
       <ResourceName>Mid-continent Magnetoseismic Chain (McMAC) Lyford Station</ResourceName>
-      <ReleaseDate>2010-09-24T21:56:44Z</ReleaseDate>
+      <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
       <Description>Lyford (LYFD) Magnetometer Station is located in Lyford, Texas, USA.  It is one of the nine magnetometers of the Mid-continent MAgnetoseismic Chain (McMAC).</Description>
       <Acknowledgement>The operation of the Lyford fluxgate magnetometer is managed by Lyford High School.</Acknowledgement>
       <Contact>
@@ -18,7 +18,7 @@
         <Description>Information about the McMAC Lyford Ground Magnetometer Station</Description>
       </InformationURL>
       <Association>
-        <AssociationID>spase://SMWG/Observatory/McMAC</AssociationID>
+        <AssociationID>spase://SMWG/Observatory/Ground/McMAC</AssociationID>
         <AssociationType>Other</AssociationType>
       </Association>
     </ResourceHeader>

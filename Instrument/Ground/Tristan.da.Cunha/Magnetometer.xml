@@ -5,7 +5,7 @@
       <ResourceID>spase://SMWG/Instrument/Ground/Tristan.da.Cunha/Magnetometer</ResourceID>
       <ResourceHeader>
          <ResourceName>Tristan Da Cunha Magnetometer</ResourceName>
-         <ReleaseDate>2019-04-19T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
          <Description>Tristan Da Cunha (TDC) Geophysical Observatory Magnetometer</Description>
          <Acknowledgement>Please acknowledge C. Stolle, J. Matzka, (DTU Space, Denmark)</Acknowledgement>
          <Contact>
@@ -33,6 +33,6 @@
       <OperatingSpan>
          <StartDate>2009-09-01T00:00:00.000</StartDate>
       </OperatingSpan>
-      <ObservatoryID>spase://SMWG/Observatory/Ground/Tristan.Da.Cunha</ObservatoryID>
+      <ObservatoryID>spase://SMWG/Observatory/Ground/Tristan.da.Cunha</ObservatoryID>
    </Instrument>
 </Spase>

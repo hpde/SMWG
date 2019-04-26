@@ -5,7 +5,7 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Anchorage</ResourceID>
       <ResourceHeader>
          <ResourceName>Anchorage Geophysical Observatory</ResourceName>
-         <ReleaseDate>2018-04-09T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
          <Description>Anchorage (HLMS) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: University of Alaska</Acknowledgement>
          <Contact>
@@ -24,7 +24,7 @@
       </ResourceHeader>
 	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
 	  <ObservatoryGroupID>spase://SMWG/Observatory/THEMIS/Ground</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/GIMA</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/THEMIS/Ground/GIMA</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>

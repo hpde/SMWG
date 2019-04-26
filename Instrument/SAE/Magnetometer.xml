@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Southern Auroral Electrojet Index Instrument</ResourceName>
          <AlternateName>SAE Instrument</AlternateName>
-         <ReleaseDate>2012-11-11T00:00:00</ReleaseDate>
+         <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
          <Description>The southern auroral electrojet (SAE) index instrument is a virtual instrument representing the collection of ground magnetometer arrays used to derive a southern auroral electrojet index in the southern auroral region at 60 s resolution. The SAE observatory consists of ground magnetometers from the SAMBA, RAM (Russia), UAPM (Japan), South Africa, Geosciences Australia, and BAS (Bristish Antarctic Survey) ground magnetometer stations and arrays. The contributing magnetometers may vary from day to day. As result, the SAE index instrument is used as a proxy for the set of possible contributing ground magnetometers.</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
@@ -45,7 +45,7 @@
 				   <AssociationType>PartOf</AssociationType> 
 			   </Association>
 			   <Association>
-				   <AssociationID>spase://SMWG/Observatory/GA</AssociationID>  
+				   <AssociationID>spase://SMWG/Observatory/Ground/GA</AssociationID>  
 				   <AssociationType>PartOf</AssociationType> 
 			   </Association> 		       
       </ResourceHeader>

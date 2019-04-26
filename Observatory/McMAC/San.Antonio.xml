@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Observatory/McMAC/San.Antonio</ResourceID>
     <ResourceHeader>
       <ResourceName>Mid-continent Magnetoseismic Chain (McMAC) San Antonio Station</ResourceName>
-      <ReleaseDate>2010-09-24T21:56:44Z</ReleaseDate>
+      <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
       <Description>San Antonio (SATX) Magnetometer Station is located in San Antonio, Texas, USA.  It is one of the nine magnetometers of the Mid-continent MAgnetoseismic Chain (McMAC).</Description>
       <Acknowledgement>The operation of the San Antonio fluxgate magnetometer is managed by Michelle Reno at Southwest Research Institute.</Acknowledgement>
       <Contact>
@@ -18,7 +18,7 @@
         <Description>Information about the McMAC San Antonio Ground Magnetometer Station</Description>
       </InformationURL>
       <Association>
-        <AssociationID>spase://SMWG/Observatory/McMAC</AssociationID>
+        <AssociationID>spase://SMWG/Observatory/Ground/McMAC</AssociationID>
         <AssociationType>Other</AssociationType>
       </Association>
     </ResourceHeader>
