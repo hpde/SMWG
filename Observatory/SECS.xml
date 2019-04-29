@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Observatory/SECS</ResourceID>
     <ResourceHeader>
       <ResourceName>Spherical Elementary Current Systems</ResourceName>
-      <ReleaseDate>2011-05-16T17:49:34Z</ReleaseDate>
+      <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
       <Description>The SECS observatory is a virtual observatory representing the collection of magnetometer arrays used in the creation of the SECS datasets. The SECS observatory consists of ground magnetometers from the CANMOS, CARISMA, DMI (in Greenland), GIMA, MACCS, THEMIS, STEP ground magnetometer arrays. Ground magnetometers contributing to each data file may vary from day to day depending upon data availabiliy. Details on the magnetometer arrays are available at the information URLs listed below. </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
@@ -29,12 +29,12 @@
     </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/THEMIS/Ground/CANMAG</ObservatoryGroupID>
     <ObservatoryGroupID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-EPO</ObservatoryGroupID>
-    <ObservatoryGroupID>spase://SMWG/Observatory/CANMOS</ObservatoryGroupID>
-    <ObservatoryGroupID>spase://SMWG/Observatory/CANOPUS</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/CANMOS</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/CANOPUS</ObservatoryGroupID>
     <ObservatoryGroupID>spase://SMWG/Observatory/DTUMGS</ObservatoryGroupID>
-    <ObservatoryGroupID>spase://SMWG/Observatory/GIMA</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/THEMIS/Ground/GIMA</ObservatoryGroupID>
     <ObservatoryGroupID>spase://SMWG/Observatory/STEP</ObservatoryGroupID>
-    <ObservatoryGroupID>spase://SMWG/Observatory/MACCS</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/MACCS</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
     </Location>

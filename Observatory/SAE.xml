@@ -5,7 +5,7 @@
 	  <ResourceID>spase://SMWG/Observatory/SAE</ResourceID> 
 		  <ResourceHeader>
 		  <ResourceName>Southern Auroral Electrojet Index</ResourceName> 
-		  <ReleaseDate>2012-11-01T00:00:00Z</ReleaseDate> 
+		  <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate> 
 		  <Description>The SAE observatory is a virtual observatory representing the collection of magnetometers used in the creation of a southern auroral electrojet index dataset. The SAE observatory consists of ground magnetometers from SAMBA, RAM  network (Russia), UAPM (Japan), South Africa, Geoscience Australia, and BAS (Bristish Antarctic Survey) ground magnetometer stations and arrays. Availability of the SAE index may vary from day to day depending upon magnetometer data availabiliy. SAE indices were only produced when data from all stations were available. Details on the magnetometer arrays are available in the associationIDs listed below.</Description> 
 		  <Contact>
 			  <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID> 
@@ -25,11 +25,11 @@
 			  <AssociationType>PartOf</AssociationType> 
 		  </Association>
 		  <Association>
-			  <AssociationID>spase://SMWG/Observatory/UPAM</AssociationID> 
+			  <AssociationID>spase://SMWG/Observatory/Ground/UAPM</AssociationID> 
 			  <AssociationType>PartOf</AssociationType> 
 		  </Association>
 		  <Association>
-			  <AssociationID>spase://SMWG/Observatory/GA</AssociationID> 
+			  <AssociationID>spase://SMWG/Observatory/Ground/GA</AssociationID> 
 			  <AssociationType>PartOf</AssociationType> 
 		  </Association>
 		  </ResourceHeader>  

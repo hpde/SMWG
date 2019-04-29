@@ -2,12 +2,12 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
    <Version>2.3.0</Version>
    <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/CARISMA</ResourceID>
+      <ResourceID>spase://SMWG/Observatory/Ground/CANOPUS</ResourceID>
       <ResourceHeader>
-         <ResourceName>CARISMA</ResourceName>
-         <AlternateName>Canadian Array for Realtime Investigations of Magnetic Activity</AlternateName>
-         <AlternateName>CANOPUS</AlternateName>
+         <ResourceName>CANOPUS</ResourceName>
          <AlternateName>Canadian Auroral Network for the OPEN (Origins of Plasmas in Earth&#176;s Neighborhood) Program Unified Study</AlternateName>
+         <AlternateName>CARISMA</AlternateName>
+         <AlternateName>Canadian Array for Realtime Investigations of Magnetic Activity</AlternateName>
          <ReleaseDate>2019-04-28T12:34:56.789Z</ReleaseDate>
          <Description>CARISMA (Canadian Array for Realtime Investigations of Magnetic Activity) is the Magnetometer Element of the Geospace Observatory Canada Project.
 
@@ -34,7 +34,6 @@ The CARISMA Array spans a Range of Longitude from Dawson City, YK (near the Alas
             <URL>http://www.carisma.ca</URL>
             <Description>Detailed Information about the CARISMA Array</Description>
          </InformationURL>
-         <PriorID>spase://SMWG/Observatory/CARISMA</PriorID>
       </ResourceHeader>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
