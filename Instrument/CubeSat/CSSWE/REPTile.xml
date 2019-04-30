@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/CubeSat/CSSWE/REPTile</ResourceID>
+      <ResourceHeader>
+         <ResourceName>REPTile</ResourceName>
+         <AlternateName>Colorado Student Space Weather Experiment, CSSWE, Relativistic Electron and Proton Telescope integrated little experiment, REPTile, Instrument</AlternateName>
+         <ReleaseDate>2019-04-30T12:34:56.789Z</ReleaseDate>
+         <Description>The REPTile Instrument is a Loaded-Disc Collimated Telescope designed to measure Energetic Electrons and Protons with a Signal to Noise Ratio of two or greater. The Instrument consists of a Stack of four Solid-State Doped Silicon Detectors manufactured by Micron Semiconductor. Higher Energy Particles penetrate deeper into the Detector Stack and, as they do, they generate Electron-Hole Pairs in the Doped Silicon. A Bias Voltage is applied across each Detector to accelerate the loosened Electrons to an Anode, where they are collected and measured by Instrument Electronics. Using Coincidence Logic, the Electronics determine which Detectors the Particle impacted, and thus the Energy Range of the Particle.</Description>
+         <Acknowledgement>Please acknowledge the NSF, X. Xinlin, S. Palo, S. Kanekal, L. Blum, D. Gerhardt, and the Universtity of Colorado, Bouder Students that worked so hard to make this CubeSat Mission possible</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Xinlin.Li</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>CSSWE REPTile Instrument Description</Name>
+            <URL>http://lasp.colorado.edu/home/csswe/system/science-payload/instrument-design/</URL>
+            <Description>Description of the Colorado Student Space Weather Experiment, CSSWE, REPTile Instrument</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>ParticleDetector</InstrumentType>
+      <InstrumentType>SolidStateDetector</InstrumentType>
+      <InvestigationName>Colorado Student Space Weather Experiment, CSSWE, REPTile Instrument</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/CubeSat/CSSWE</ObservatoryID>
+   </Instrument>
+</Spase>
