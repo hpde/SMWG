@@ -5,31 +5,31 @@
     <ResourceID>spase://SMWG/Instrument/Explorer35/GSFC_Magnetometer</ResourceID>
     <ResourceHeader>
       <ResourceName>GSFC Magnetometer</ResourceName>
-      <ReleaseDate>2010-05-19T00:00:00Z</ReleaseDate>
-      <Description>Each sensor of the GSFC-supplied, boom-mounted triaxial fluxgate 
-magnetometer had dual ranges of minus to plus 24 nT and 64 nT, with digitization 
-resolutions of minus to plus 0.094 nT and 0.25 nT, respectively. Zero level drift 
-was checked by periodic reorientation of the sensors until May 20, 1969, when the 
-flipper mechanism failed. Past this point, data analysis was more difficult as the 
-zero level drift of the sensor parallel to the spacecraft spin axis was not readily 
-determined. Spacecraft interference was less than 0.125 nT. One vector measurement 
-was obtained each 5.12 s. The bandpass of the magnetometer was 0 to 5 Hz, with a 
-20-dB per decade decrease for higher frequencies. Except for the flipper failure, 
-the experiment functioned normally from launch to spacecraft turnoff (June 24, 1973). 
-For further details, see Ness et al., J. Geophys. Res., v. 72, p. 5769, 1969. 
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>Each sensor of the GSFC-supplied, boom-mounted triaxial fluxgate
+magnetometer had dual ranges of minus to plus 24 nT and 64 nT, with digitization
+resolutions of minus to plus 0.094 nT and 0.25 nT, respectively. Zero level drift
+was checked by periodic reorientation of the sensors until May 20, 1969, when the
+flipper mechanism failed. Past this point, data analysis was more difficult as the
+zero level drift of the sensor parallel to the spacecraft spin axis was not readily
+determined. Spacecraft interference was less than 0.125 nT. One vector measurement
+was obtained each 5.12 s. The bandpass of the magnetometer was 0 to 5 Hz, with a
+20-dB per decade decrease for higher frequencies. Except for the flipper failure,
+the experiment functioned normally from launch to spacecraft turnoff (June 24, 1973).
+For further details, see Ness et al., J. Geophys. Res., v. 72, p. 5769, 1969.
 There was also a NASA/ARC-supplied magnetometer on Explorer 35.
 </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1967-070A-04</URL>
-      </InformationURL>
-    </ResourceHeader>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1967-070A-04</URL>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>GSFC_Magnetometer</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Explorer35</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

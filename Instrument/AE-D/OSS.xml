@@ -6,47 +6,47 @@
     <ResourceHeader>
       <ResourceName>Open-Source Neutral Mass Spectrometer</ResourceName>
       <AlternateName>OSS</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
-      <Description>The objective of this experiment was to contribute to a study of the chemical, dynamic, and 
-	  energetic processes that control the structure of the thermosphere by providing direct, in situ 
-	  measurements of both major and minor neutral atmospheric constituents having masses in the range from 
-	  1 to 48 atomic mass units (u). A double-focusing Mattauch-Herzog magnetic deflection mass spectrometer
-	  with an impact ion source was flown. Two ion collectors were included to measure ions differing in mass 
-	  by a factor of 8, i.e., the two mass ranges covered were 1 to 6 u and 6 to 48 u. In the ion source the 
-	  neutral species were ionized by means of electron impact. At altitudes greater than 380 km, ion currents 
-	  were measured with an electron multiplier counting individual ions. Counts were accumulated for 1/20 s 
-	  before automatically switching to a different mass number. While complete mass spectra could be swept, 
-	  in the common mode of operation peak stepping was employed, with readings on the principal peaks in the 
-	  mass spectrum being repeated approximately every 0.5 s and on other species less frequently. Data below 
-	  380 km were measured using an electrometer. In addition to the peak-stepping mode, there were several 
-	  other operating modes which were selected by ground command. In the fly-through mode, the ion source 
-	  voltages were adjusted so that there was no electric field to draw ions out of the electron beam when 
-	  they were formed. Ambient particles striking the ion source retained energies less than 0.1 eV, which 
-	  is not high enough to overcome the negative space charge potential holding the ions in the beam. Those 
-	  ambient particles that did not strike the ion source retained their incoming energy of several eV after 
-	  ionization and escaped into the accelerating region of the analyzer. The electron accelerating potential 
-	  was 75 eV in normal mode operation and 25 eV in the fly-through mode. In another operating mode, the 
-	  instrument switched automatically to a sequence of masses of particular interest such as, e.g., 
-	  between masses 16 and 32 or between masses 28 and 32. More experiment details can be found in A. O. 
-	  Nier et al., Radio Sci., v. 8, n. 4, p. 271, 1973. NSSDC has all the useful data that exist from this 
-	  investigation.</Description>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The objective of this experiment was to contribute to a study of the chemical, dynamic, and
+   energetic processes that control the structure of the thermosphere by providing direct, in situ
+   measurements of both major and minor neutral atmospheric constituents having masses in the range from
+   1 to 48 atomic mass units (u). A double-focusing Mattauch-Herzog magnetic deflection mass spectrometer
+   with an impact ion source was flown. Two ion collectors were included to measure ions differing in mass
+   by a factor of 8, i.e., the two mass ranges covered were 1 to 6 u and 6 to 48 u. In the ion source the
+   neutral species were ionized by means of electron impact. At altitudes greater than 380 km, ion currents
+   were measured with an electron multiplier counting individual ions. Counts were accumulated for 1/20 s
+   before automatically switching to a different mass number. While complete mass spectra could be swept,
+   in the common mode of operation peak stepping was employed, with readings on the principal peaks in the
+   mass spectrum being repeated approximately every 0.5 s and on other species less frequently. Data below
+   380 km were measured using an electrometer. In addition to the peak-stepping mode, there were several
+   other operating modes which were selected by ground command. In the fly-through mode, the ion source
+   voltages were adjusted so that there was no electric field to draw ions out of the electron beam when
+   they were formed. Ambient particles striking the ion source retained energies less than 0.1 eV, which
+   is not high enough to overcome the negative space charge potential holding the ions in the beam. Those
+   ambient particles that did not strike the ion source retained their incoming energy of several eV after
+   ionization and escaped into the accelerating region of the analyzer. The electron accelerating potential
+   was 75 eV in normal mode operation and 25 eV in the fly-through mode. In another operating mode, the
+   instrument switched automatically to a sequence of masses of particular interest such as, e.g.,
+   between masses 16 and 32 or between masses 28 and 32. More experiment details can be found in A. O.
+   Nier et al., Radio Sci., v. 8, n. 4, p. 271, 1973. NSSDC has all the useful data that exist from this
+   investigation.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Alfred.O.C.Nier</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1975-096A-07</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1975-096A-07</URL>
         <Description>Information about the Open-Source Neutral Mass Spectrometer experiment on the AE-D mission.</Description>
-      </InformationURL>
-	  <InformationURL>
+</InformationURL>
+   <InformationURL>
         <Name>Radio Science Journal Article</Name>
-        <URL>https://doi.org/10.1029/RS008i004p00271</URL>
+        <URL>https://onlinelibrary.wiley.com/doi/abs/10.1029/RS008i004p00271</URL>
         <Description>Detailed information about the Open-Source Neutral Mass Spectrometer on the AE-D mission.</Description>
-	  </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>MassSpectrometer</InstrumentType>
     <InvestigationName>Open-Source Neutral Mass Spectrometer on AE-D</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/AE-D</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

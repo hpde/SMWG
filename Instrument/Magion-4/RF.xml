@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/Magion-4/RF</ResourceID>
     <ResourceHeader>
       <ResourceName>Soft Solar X-ray Photometer RF</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The X-ray photometer RF is designed to measure the solar X-ray radiation in the soft spectral range. In addition to continuous monitoring of the solar radiation in the X-ray range, the instrument can be used as an indicator for automatic switching-on of the scientific instrumentation for registering the processes of the active solar events, assuming a change in the solar X-ray radiation as a precursor of these phenomena. The photometer is oriented along the -Z-axis of the subsatellite, i.e. toward the Sun. The photometer consists of two units: the detector unit and electronics unit. The photometer is the scintillating detector with an aluminium foil in front of it to prevent penetration of soft particles and X-rays. The output signal is passed to the two-channel amplitude analyzer where it is selected in two ranges: 10-15 keV and 15-60 keV. The impulses from the channels with a fixed amplitude are transferred to the electronics unit where they are accumulated during 0.8 s (time of one exposure step). The maximum capacity of the detector is 183441 impulses/0.8 second, so for higher flux intensity (which is hardly probable) the detector data are not valid.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Frantisek.Farnik</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1995-039F&amp;ex=7</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1995-039F&amp;ex=7</URL>
         <Description>Information about the Soft Solar X-ray Photometer RF experiment on the Interball S2-X mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Photometer</InstrumentType>
     <InvestigationName>Soft Solar X-ray Photometer RF on Interball S2-X</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Magion-4</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

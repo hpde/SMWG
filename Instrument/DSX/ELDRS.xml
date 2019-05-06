@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Instrument>
@@ -7,7 +7,7 @@
         <ResourceHeader>
             <ResourceName>Development of Space-Based Test Platform for the Characterization of Proton Effects and Enhanced Low Dose Rate Sensitivity (ELDRS) in Bipolar Junction Transistors</ResourceName>
             <AlternateName/>
-            <ReleaseDate>2011-09-16T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>"Objective: Measure ELDRS (primary) and proton effects (secondary) in positive-negative-positive (PNP) bipolar junction transistors (BJTs)"
 "Goal:  Improve understanding of the physics of ELDRS and thereby improve/validate ground test protocol for linear bipolar technologies and reduce design margins" (SET-1 payload site)
 "Focused on characterization of proton effects and Enhanced Low Dose Rate Sensitivity (ELDRS) in Bipolar Junction Transistors (BJT), ELDRS measures space radiation induced total ionizing dose and displacement damage on linear devices sensitive to enhanced space low dose rate effects. ELDRS will measure base and collector currents for 24 commercial off-the-shelf (COTS) BJTs as functions of the emitter and gate voltages and time. ELDRS is being developed by Arizona State University (ASU)." (THE DEMONSTRATION AND SCIENCE EXPERIMENTS (DSX): A FUNDAMENTAL SCIENCE RESEARCH MISSION ADVANCING TECHNOLOGIES THAT ENABLE MEO SPACEFLIGHT)</Description>
@@ -15,40 +15,40 @@
             <Contact>
                 <PersonID>spase://SMWG/Person/Hugh.Barnaby</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact>
+</Contact>
             <Contact>
                 <PersonID>spase://SMWG/Person/Michael.A.Xapsos</PersonID>
                 <Role>ProjectScientist</Role>
-            </Contact>
+</Contact>
             <InformationURL>
                 <Name>Demonstration and Science Experiments
 (DSX) Satellite</Name>
-                <URL>http://www.kirtland.af.mil/shared/media/document/AFD-070404-096.pdf</URL>
+                <URL>https://www.amostech.com/TechnicalPapers/2009/Space-Based_Assets/Scherbarth.pdf</URL>
                 <Description>DSX Fact Sheet, Sept. 2005</Description>
-            </InformationURL>
+</InformationURL>
             <InformationURL>
                 <Name>THE DEMONSTRATION AND SCIENCE EXPERIMENTS (DSX): A FUNDAMENTAL SCIENCE RESEARCH MISSION ADVANCING TECHNOLOGIES THAT ENABLE MEO SPACEFLIGHT</Name>
-                <URL>http://lws-set.gsfc.nasa.gov/documents/DSX_paper.pdf</URL>
+                <URL>https://lws-set.gsfc.nasa.gov/documents/DSX_paper.pdf</URL>
                 <Description>2006 Instrument paper</Description>
-            </InformationURL>
+</InformationURL>
             <InformationURL>
                 <Name>AFRL's demonstration and science experiments (DSX) mission</Name>
-                <URL>http://hdl.handle.net/1721.1/52739</URL>
+                <URL>https://dspace.mit.edu/handle/1721.1/52739</URL>
                 <Description>2009 DSX Paper</Description>
-            </InformationURL>
+</InformationURL>
             <InformationURL>
                 <Name>DSX Mission/SET-1</Name>
-                <URL>http://lws-set.gsfc.nasa.gov/documents/DSX_and%20_SET_for_public_release.pdf</URL>
+                <URL>https://lws-set.gsfc.nasa.gov/documents/DSX_and%20_SET_for_public_release.pdf</URL>
                 <Description>DSX powerpoint, includes data flow diagrams.</Description>
-            </InformationURL>
+</InformationURL>
             <InformationURL>
                 <Name>SET-1 payload site</Name>
-                <URL>http://lws-set.gsfc.nasa.gov/mission.html</URL>
+                <URL>https://lws-set.gsfc.nasa.gov/mission.html</URL>
                 <Description>NASA site detailing SET1 payload.</Description>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
         <InstrumentType>EnergeticParticleInstrument</InstrumentType>
         <InvestigationName>DSX Mission/SET-1</InvestigationName>
         <ObservatoryID>spase://SMWG/Observatory/DSX</ObservatoryID>
-    </Instrument>
+</Instrument>
 </Spase>

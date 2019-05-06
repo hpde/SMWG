@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/DoubleStar1/HEED</ResourceID>
     <ResourceHeader>
       <ResourceName>HEED (High Energy Electron Detector)</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:13Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>HEED (High Energy Electron Detector) measures the flux of energetic electrons in the magnetosphere.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2003-061A&amp;ex=6</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2003-061A&amp;ex=6</URL>
         <Description>Information about the HEED (High Energy Electron Detector) experiment on the Double Star 1 mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>HEED (High Energy Electron Detector) on Double Star 1</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/DoubleStar1</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

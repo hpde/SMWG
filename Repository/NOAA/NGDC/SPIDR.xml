@@ -5,17 +5,17 @@
     <ResourceID>spase://SMWG/Repository/NOAA/NGDC/SPIDR</ResourceID>
     <ResourceHeader>
       <ResourceName>SPIDR</ResourceName>
-      <ReleaseDate>2008-07-10T18:05:57Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Space Physics Interactive Data Resource (SPIDR) is designed to allow a solar terrestrial physics customer to intelligently access and manage historical space physics data for integration with environment models and space weather forecasts. SPIDR is a distributed network of synchronous databases and 100% Java middle-ware servers accessed via the World Wide Web. By enabling easy data mirroring and eliminating the network bottlenecks associated with transcontinental links, the distributed system architecture is a key factor for low latency in multimedia data visualization and fast data delivery.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Eric.A.Kihn</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Web page</Name>
         <URL>http://spidr.ngdc.noaa.gov</URL>
         <Description>Web page for SPIDR</Description>
-      </InformationURL>
-    </ResourceHeader>
-  </Repository>
+</InformationURL>
+</ResourceHeader>
+</Repository>
 </Spase>

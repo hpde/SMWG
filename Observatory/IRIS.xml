@@ -5,8 +5,8 @@
         <ResourceID>spase://SMWG/Observatory/IRIS</ResourceID>
         <ResourceHeader>
             <ResourceName>Interface Region Imaging Spectrograph (IRIS)</ResourceName>
-	    <AlternateName>2013-033A</AlternateName>
-            <ReleaseDate>2013-11-04T00:00:00Z</ReleaseDate>
+     <AlternateName>2013-033A</AlternateName>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>The Interface Region Imaging Spectrograph (IRIS) is a NASA Small Explorer class solar mission. It was launched from a Pegasus XL flying out of Vandenberg AFB in California. The rocket was deployed from an Orbital L-1101 carrier aircraft flying over the Pacific Ocean at an altitude of 39,000 feet (about 12 km), roughly 100 miles northwest of Vandenberg. The rocket was dropped at 7:27 p.m. PDT on 27 June 2013 (02:27 UT, 28 June).
 
 IRIS is intended to advance Sun-Earth connection studies by tracing the flow of energy and plasma into the corona and heliosphere for which no suitable observations exist. To achieve this IRIS will obtain high-resolution UV spectra and images of the sun's chromosphere, specifically on the non-thermal energy that creates the corona and the solar wind.
@@ -15,19 +15,19 @@ IRIS seeks to determine: (1) the types of non-thermal energy which dominate in t
             <Contact>
                 <PersonID>spase://SMWG/Person/Alan.M.Title</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact> 
+</Contact>
             <InformationURL>
                 <Name>NSSDC's Master Catalog</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=2013-033A</URL>
+                <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2013-033A</URL>
                 <Description>Information about IRIS</Description>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
         <Location>
             <ObservatoryRegion>Sun.Chromosphere</ObservatoryRegion>
             <ObservatoryRegion>Sun.TransitionRegion</ObservatoryRegion>
-            <ObservatoryRegion>Sun.Corona</ObservatoryRegion>     
-        </Location>
-    </Observatory>
+            <ObservatoryRegion>Sun.Corona</ObservatoryRegion>
+</Location>
+</Observatory>
 </Spase>
 
 

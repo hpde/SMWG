@@ -7,7 +7,7 @@
          <ResourceName>AMPTE/IRM</ResourceName>
          <AlternateName>AMPTE/Ion Release Module</AlternateName>
          <AlternateName>IRM</AlternateName>
-         <ReleaseDate>2018-04-12T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>The AMPTE (Active Magnetospheric Particle Tracer Explorers) mission was designed to study the access of solar wind ions to the magnetosphere, the convective-diffusive transport and energization of magnetospheric particles, and the interactions of plasmas in space.
 
 The program consisted of three spacecraft: the CCE, which measured in the magnetosphere the ions released by the IRM; the IRM; and the UKS, which used thrusters to keep station near the IRM to provide two-point local measurements. The IRM provided multiple ion releases in the solar wind, the magnetosheath, and the magnetotail, with in situ diagnostics of each.
@@ -33,29 +33,29 @@ At launch the apogee of the IRM orbit was at a local time of 14:30 hours. As the
             <!-- Gerhard Haerendel -->
             <PersonID>spase://SMWG/Person/Gerhard.Haerendel</PersonID>
             <Role>PrincipalInvestigator</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>AMPTE/IRM page at University of New Hampshire</Name>
             <URL>http://www-ssg.sr.unh.edu/index.html?tof/Missions/Ampte-irm/amptemain.html</URL>
             <Description>Information on the AMPTE/IRM mission</Description>
-         </InformationURL>
+</InformationURL>
          <InformationURL>
             <Name>NSSDC Master Catalog</Name>
-            <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1984-088B</URL>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1984-088B</URL>
             <Description>NSSDC information about the AMPTE/IRM spacecraft</Description>
-         </InformationURL>
+</InformationURL>
          <PriorID>spase://SMWG/Observatory/AMPTE_IRM</PriorID>
-      </ResourceHeader>
+</ResourceHeader>
       <ObservatoryGroupID>spase://SMWG/Observatory/AMPTE</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
          <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
          <ObservatoryRegion>Earth.Magnetosphere.Magnetotail</ObservatoryRegion>
          <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
-      </Location>
+</Location>
       <OperatingSpan>
          <StartDate>9999-01-01T00:00:00.999</StartDate>
          <StopDate>9999-12-31T23:59:59.999</StopDate>
-      </OperatingSpan>
-   </Observatory>
+</OperatingSpan>
+</Observatory>
 </Spase>

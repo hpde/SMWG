@@ -6,21 +6,21 @@
     <ResourceHeader>
       <ResourceName>ISEE 2 Fast Plasma Experiment</ResourceName>
       <AlternateName>ISEE 2 FPE</AlternateName>
-      <ReleaseDate>2010-02-04T12:34:56.789</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>This experiment was designed to study plasma velocity distributions and their spatial and temporal variations in the solar wind, bow shock, magnetosheath, magnetopause, and magnetotail (within the magnetosphere). One-, two-, and three-dimensional velocity distributions for positive ions and electrons were measured using two 90-deg spherical electrostatic analyzers with channeltron electron multipliers as detectors. In conjunction with similar instrumentation (77-102A-01) provided by S. J. Bame/LANL for the mother spacecraft, protons from 50 eV to 40 keV (and electrons from 5 eV to 20 keV) were measured with 10% energy resolution in two ranges each.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Goetz.Paschmann</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1977-102B-01</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1977-102B-01</URL>
         <Description>NSSDC Master Catalog</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://nssdc/instrument/1977-102B-01</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Fast Plasma Experiment and Solar Wind Experiment</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/ISEE2</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

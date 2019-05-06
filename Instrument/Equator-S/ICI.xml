@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Instrument>
@@ -8,27 +8,27 @@
             <ResourceName>Ion Composition Instrument (ESIC)</ResourceName>
             <AlternateName>ESIC</AlternateName>
             <AlternateName>ICI</AlternateName>
-            <ReleaseDate>2009-04-02T00:00:00Z</ReleaseDate>
-            <Description>ESIC measures the 3D distribution functions of the major ion species, H, He+, He++, and O+. It consists of a 
-                retarding-potential analyzer (RPA), followed by a toroidal energy-per-charge (E/q) analyzer with disk-shaped field of view, 
-                followed by a 20 kV post-acceleration into a time-of-flight (ToF) analysis section. Without RPA operation, the E/q range is 
-                15 eV to 40 keV, otherwise it starts at essentially zero volts. To accommodate the large dynamic range in ion fluxes, the 
-                instrument has split the 360 degrees FoV into two 180 degree sections whose sensitivities differ by a factor 100. Moments 
-                of the distributions of all 4 ion species are computed on board and are available every 4 spins, i.e., every 6 seconds. 
-                The instrument is identical to the CODIF portion of the CIS instrument on CLUSTER.       
-      </Description>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+            <Description>ESIC measures the 3D distribution functions of the major ion species, H, He+, He++, and O+. It consists of a
+                retarding-potential analyzer (RPA), followed by a toroidal energy-per-charge (E/q) analyzer with disk-shaped field of view,
+                followed by a 20 kV post-acceleration into a time-of-flight (ToF) analysis section. Without RPA operation, the E/q range is
+                15 eV to 40 keV, otherwise it starts at essentially zero volts. To accommodate the large dynamic range in ion fluxes, the
+                instrument has split the 360 degrees FoV into two 180 degree sections whose sensitivities differ by a factor 100. Moments
+                of the distributions of all 4 ion species are computed on board and are available every 4 spins, i.e., every 6 seconds.
+                The instrument is identical to the CODIF portion of the CIS instrument on CLUSTER.      
+</Description>
             <Contact>
-                <PersonID>spase://SMWG/Person/Lynn.M.Kistler</PersonID>  
+                <PersonID>spase://SMWG/Person/Lynn.M.Kistler</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact> 
+</Contact>
             <InformationURL>
                 <Name>NSSDC's Master Catalog</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1997-075B-05</URL>
+                <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1997-075B-05</URL>
                 <Description>Information about the Ion Composition Instrument (ESIC) experiment on the Equator-S mission.</Description>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
         <InstrumentType>EnergeticParticleInstrument</InstrumentType>
         <InvestigationName>Ion Composition Instrument (ESIC) on Equator-S</InvestigationName>
         <ObservatoryID>spase://SMWG/Observatory/Equator-S</ObservatoryID>
-    </Instrument>
+</Instrument>
 </Spase>

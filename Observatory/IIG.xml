@@ -6,33 +6,33 @@
     <ResourceHeader>
       <ResourceName>Indian Institute of Geomagnetism</ResourceName>
       <AlternateName>IIG</AlternateName>
-      <ReleaseDate>2018-04-09T00:00:00Z</ReleaseDate>
-      <Description>The Indian Institute of Geomagnetism (IIG) today is a leading 
-	  institute of the country actively engaged in basic and applied research in 
-	  Geomagnetism and allied areas of Geophysics, Atmospheric, and Space Physics and 
-	  Plasma Physics. It started out as a successor to the Colaba Magnetic 
-	  Observatory, set up in 1826, where the first regular magnetic observatory 
-	  in the country was established in 1841.
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The Indian Institute of Geomagnetism (IIG) today is a leading
+   institute of the country actively engaged in basic and applied research in
+   Geomagnetism and allied areas of Geophysics, Atmospheric, and Space Physics and
+   Plasma Physics. It started out as a successor to the Colaba Magnetic
+   Observatory, set up in 1826, where the first regular magnetic observatory
+   in the country was established in 1841.
 
-      IIG became an autonomous research institute in 1971, and is now under the 
-	  Department of Science and Technology, Government of India. </Description>
+      IIG became an autonomous research institute in 1971, and is now under the
+   Department of Science and Technology, Government of India.</Description>
       <Acknowledgement>Indian Institute of Geomagnetism</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Overview of the Indian Institute of Geomagnetism Magnetic Observatories</Name>
-        <URL>http://www.iigm.res.in/index.php/centres-observatories/magnetic-observatories</URL>
+        <URL>http://www.iigm.res.in/observatories/</URL>
         <Description>Description and location of other magnetometers.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-    </Location>
-	<OperatingSpan>
-		<StartDate>1841-01-01T12:00:00Z</StartDate>
-		<Note>Actual start date in 1841 unknown.</Note>
-	</OperatingSpan>
-  </Observatory>
+</Location>
+ <OperatingSpan>
+  <StartDate>1841-01-01T12:00:00Z</StartDate>
+  <Note>Actual start date in 1841 unknown.</Note>
+</OperatingSpan>
+</Observatory>
 </Spase>

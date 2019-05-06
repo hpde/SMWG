@@ -8,7 +8,7 @@
          <AlternateName>AMPTE/IRM MAG</AlternateName>
          <AlternateName>AMPTE/IRM Triaxial Fluxgate Magnetometer</AlternateName>
          <AlternateName>1984-088B-02</AlternateName>
-         <ReleaseDate>2018-04-12T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>The instrument was a three-axis fluxgate magnetometer mounted on a 2 m boom. It had two switchable ranges (&#177;4 &#181;T, and &#177;60 &#181;T) with resolutions of 0.12 and 1.8 nT, respectively and was read out at 32, 16, 8, or 4 vector samples per second, depending on the T/M rate. Signals from each sensor were also fed into four band pass filters with 5.5, 11, 22, and 44 Hz center frequencies and were read out up to two times per second.
 
 For more details, see H. Luehr et al., The IRM Fluxgate Magnetometer, IEEE Transaction on Geoscience and Remote Sensing, Vol. GE-23, p 259, 1985.</Description>
@@ -16,26 +16,26 @@ For more details, see H. Luehr et al., The IRM Fluxgate Magnetometer, IEEE Trans
          <Contact>
             <PersonID>spase://SMWG/Person/Hermann.Luehr</PersonID>
             <Role>PrincipalInvestigator</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>AMPTE/IRM page at University of New Hampshire</Name>
             <URL>http://www-ssg.sr.unh.edu/index.html?tof/Missions/Ampte-irm/magnetic/magneticmain.html</URL>
             <Description>Information on the AMPTE/IRM magnetometer</Description>
-         </InformationURL>
+</InformationURL>
          <InformationURL>
             <Name>NSSDC Master Catalog</Name>
-            <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1984-088B-02</URL>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1984-088B-02</URL>
             <Description>NSSDC information about the AMPTE/IRM Magnetometer</Description>
-         </InformationURL>
+</InformationURL>
          <InformationURL>
             <Name>IEEE Transaction on Geoscience and Remote Sensing Article</Name>
-            <URL>https://doi.org/10.1109/TGRS.1985.289524</URL>
+            <URL>https://ieeexplore.ieee.org/document/4072288/</URL>
             <Description>Detailed information about the AMPTE IRM Magnetometer.</Description>
-         </InformationURL>
+</InformationURL>
          <PriorID>spase://SMWG/Instrument/AMPTE_IRM/MAG</PriorID>
-      </ResourceHeader>
+</ResourceHeader>
       <InstrumentType>Magnetometer</InstrumentType>
       <InvestigationName>Triaxial Fluxgate Magnetometer</InvestigationName>
       <ObservatoryID>spase://SMWG/Observatory/AMPTE-IRM</ObservatoryID>
-   </Instrument>
+</Instrument>
 </Spase>

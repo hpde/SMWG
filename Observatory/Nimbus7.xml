@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Observatory/Nimbus7</ResourceID>
     <ResourceHeader>
       <ResourceName>Nimbus 7</ResourceName>
-      <ReleaseDate>2010-08-05T18:19:18Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>NASA's Nimbus 7 spacecraft was launched
 on 1978-10-24 into a ~950 km polar orbit and operated until 1993.
 It carried eight experiments:
@@ -21,14 +21,14 @@ It carried eight experiments:
       <Contact>
         <PersonID>spase://SMWG/Person/Carolyn.Y.Ng</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1978-098A</URL>
-      </InformationURL>
-    </ResourceHeader>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1978-098A</URL>
+</InformationURL>
+</ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

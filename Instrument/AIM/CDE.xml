@@ -5,34 +5,34 @@
     <ResourceID>spase://SMWG/Instrument/AIM/CDE</ResourceID>
     <ResourceHeader>
       <ResourceName>AIM Cosmic Dust Experiment</ResourceName>
-      <ReleaseDate>2010-03-17T21:38:54Z</ReleaseDate>
-      <Description>The Cosmic Dust Experiment (CDE) measures inflowing 
-cosmic dust as a contributor to Polar Mesospheric Clouds.  CDE has a 
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The Cosmic Dust Experiment (CDE) measures inflowing
+cosmic dust as a contributor to Polar Mesospheric Clouds.  CDE has a
 sensor area of about 0.1 m^2, and can detect particles greater than
 about 1 micron in radius, by recording impact-generated signals on
-thin, permanently polarized Polyvinylidene Fluoride films. Twelve 
+thin, permanently polarized Polyvinylidene Fluoride films. Twelve
 detectors face the zenith, while two are shielded and face down
 for background noise measurements.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Mihaly.Horanyi</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>AIM/CDE web page at Hampton U.</Name>
         <URL>http://aim.hamptonu.edu/instrmt/cde.html</URL>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>AIM instrument descriptions at LASP</Name>
-        <URL>http://lasp.colorado.edu/aim/aim_instruments.htm</URL>
-	  </InformationURL>
-	  <InformationURL>
+        <URL>http://aim.hamptonu.edu/instrmt/cde.html</URL>
+</InformationURL>
+   <InformationURL>
         <Name>Journal of Atmospheric and Solar-Terrestrial Physics Article</Name>
-        <URL>https://doi.org/10.1016/j.jastp.2008.08.011</URL>
+        <URL>https://linkinghub.elsevier.com/retrieve/pii/S1364682608002204</URL>
         <Description>Detailed information about the Aeronomy of Ice in the Mesosphere (AIM) mission and the Cosmic Dust Experiment (CDE).</Description>
-	  </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>DustDetector</InstrumentType>
     <InvestigationName>CDE</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/AIM</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

@@ -5,22 +5,22 @@
     <ResourceID>spase://SMWG/Observatory/UARS</ResourceID>
     <ResourceHeader>
       <ResourceName>UARS</ResourceName>
-      <ReleaseDate>2010-08-05T18:19:11Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>NASA's Upper Atmosphere Research Satellite (UARS) was launched
-on 1991-09-12 into a low altitude (570 km), mid-inclination (57 deg) orbit for 
+on 1991-09-12 into a low altitude (570 km), mid-inclination (57 deg) orbit for
 upper atmospheric and ionospheric studies.  It operated until its 2005-12-14
 decommissioning.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1991-063B</URL>
-      </InformationURL>
-    </ResourceHeader>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1991-063B</URL>
+</InformationURL>
+</ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

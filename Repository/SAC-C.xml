@@ -6,28 +6,28 @@
     <ResourceHeader>
       <ResourceName>SAC-C Project</ResourceName>
       <AlternateName>Sat&#xE9;lite de Aplicaciones Cient&#xED;ficas-C</AlternateName>
-      <ReleaseDate>2018-06-01T18:21:48Z</ReleaseDate>
-      <Description>The SAC-C repository contains a copy of the magnetic field data from the Compact Spherical Coil (CSC) Fluxgate Vector Magnetometer. </Description>
-      <Acknowledgement>Centre National d'Etudes Spatiales (France); National Aeronautics and Space Administration (United States); Danish Space Research Institute (Denmark); National Commission of Space Activities (CONAE) (Argentina); Instituto Nacional de Pesquisas Espaciais, Brazil (Brazil); Agenzia Spaziale Italiana (Italy); </Acknowledgement>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The SAC-C repository contains a copy of the magnetic field data from the Compact Spherical Coil (CSC) Fluxgate Vector Magnetometer.</Description>
+      <Acknowledgement>Centre National d'Etudes Spatiales (France); National Aeronautics and Space Administration (United States); Danish Space Research Institute (Denmark); National Commission of Space Activities (CONAE) (Argentina); Instituto Nacional de Pesquisas Espaciais, Brazil (Brazil); Agenzia Spaziale Italiana (Italy);</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>The SAC-C Data set plus other similar data sets</Name>
-        <URL>http://www.space.dtu.dk/english/Research/Scientific_data_and_models/Magnetic_Satellites</URL>
+        <URL>https://www.space.dtu.dk/english/Research/Scientific_data_and_models/Magnetic_Satellites</URL>
         <Description>SAC-C data set.</Description>
         <Language>EN</Language>
-      </InformationURL>
+</InformationURL>
       <Association>
         <AssociationID>spase://SMWG/Observatory/SAC-C</AssociationID>
         <AssociationType>PartOf</AssociationType>
-      </Association>
-    </ResourceHeader>
+</Association>
+</ResourceHeader>
     <AccessURL>
       <Name>Virtual Magnetospheric Observatory</Name>
-      <URL>http://vmo.igpp.ucla.edu/data1/SAC-C</URL>
+      <URL>http://vmo.igpp.ucla.edu/data1/SAC-C/</URL>
       <Description>Magnetic field data from the CSC onboard the SAC-C spacecraft.</Description>
-    </AccessURL>
-  </Repository>
+</AccessURL>
+</Repository>
 </Spase>

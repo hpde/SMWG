@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Observatory/ARTEMIS</ResourceID>
     <ResourceHeader>
       <ResourceName>ARTEMIS</ResourceName>
-      <ReleaseDate>2011-02-23T22:27:09Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Acceleration, Reconnection, Turbulence, and Electrodynamics of
           the Moon’s Interaction with the Sun (ARTEMIS) mission is a spin-off from
           NASA’s Medium-class Explorer (MIDEX) mission THEMIS, a five identical
@@ -29,33 +29,33 @@
           deployment of the International Lunar Network. It is expected to be a key element
           in the NASA Heliophysics Great Observatory and to play an important role in
           international plans for lunar exploration.
-      </Description>
+</Description>
       <Acknowledgement>National Aeronautics and Space Administration/United States</Acknowledgement>
       <Contact>
         <!-- Vassilis Angelopoulos -->
         <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <!-- David Sibeck -->
         <PersonID>spase://SMWG/Person/David.G.Sibeck</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>ARTEMIS Mission Page</Name>
-        <URL>http://www.nasa.gov/mission_pages/artemis/</URL>
+        <URL>https://www.nasa.gov/mission_pages/artemis/</URL>
         <Description>ARTEMIS Mission Homepage</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>ARTEMIS Description</Name>
         <URL>http://www.igpp.ucla.edu/public/THEMIS/SCI/Pubs/artemis/The_ARTEMIS_Mission_SSR_accepted.pdf</URL>
         <Description>Angelopoulos' paper describing the ARTEMIS mission</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
       <ObservatoryRegion>Earth.Magnetosphere.Magnetotail</ObservatoryRegion>
       <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

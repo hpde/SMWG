@@ -9,35 +9,35 @@
       <AlternateName>Neutral Point Explorer</AlternateName>
       <AlternateName>Injun-F</AlternateName>
       <AlternateName>Explorer 52</AlternateName>
-      <ReleaseDate>2011-03-25T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>
-The broad science objectives of the Hawkeye 1 spacecraft were to survey the high latitude polar regions (cusp, auroral zone, mantle, bow shock and magnetopause) of the Earth's magnetosphere. Secondary objectives were to make magnetic field and plasma distribution measurements in the solar wind, and to study Type-3 radio emissions caused by solar electron streams in the interplanetary medium. To accomplish these objectives, the spacecraft was instrumented with a plasma wave receiver (VLF), a fluxgate magnetometer (MAG), and a low energy proton-electron differential energy analyzer (LEPEDEA). 
+The broad science objectives of the Hawkeye 1 spacecraft were to survey the high latitude polar regions (cusp, auroral zone, mantle, bow shock and magnetopause) of the Earth's magnetosphere. Secondary objectives were to make magnetic field and plasma distribution measurements in the solar wind, and to study Type-3 radio emissions caused by solar electron streams in the interplanetary medium. To accomplish these objectives, the spacecraft was instrumented with a plasma wave receiver (VLF), a fluxgate magnetometer (MAG), and a low energy proton-electron differential energy analyzer (LEPEDEA).
 
 
 The spacecraft was launched on June 3, 1974 into a polar orbit with initial apogee over the north pole and re-entered on April 28, 1978 after 667 orbits or nearly four years of continuous operation. The spacecraft apogee was between 20.28 and 20.92 Earth radii with less than a 1.7 Earth radii perigee. The orbital period was 51.3 hours. During its lifetime, the inclination of the plane of the spacecraft's orbit to the Earth's equator decreased monotonically from 89.81 to 81.85 degrees. The spacecraft was spin stabilized with a nominal rotational period of 11 s. In celestial coordinates, the positive spin axis coordinates were right ascension 299.4 deg (plus or minus 1.1 deg) and declination 8.6 deg (plus or minus 1.5 deg). There was no onboard orientation or spin rate control, but the orientation of the spin axis was stable. An optical aspect system operated from launch until September 3, 1974. After this period, aspect had to be determined from magnetometer measurements. The complete spacecraft with instruments had a mass of 22.65 kg. Power of 22 to 36 W, depending on solar aspect, was obtained from solar cells. Hawkeye 1 participated in the International Magnetospheric Study (IMS) and during the first half of 1977 data acquisition was confined to IMS special intervals. Data were obtained in real time only, at frequencies of 136 MHz and 400 MHz at 100 bps (or 200 bps with convolutional coding) plus wideband VLF data. For more details see "Hawkeye 1," U. of Iowa 77-6, January 1977 (TRF B29176).
-      </Description>
+</Description>
       <Acknowledgement/>
       <Contact>
         <PersonID>spase://SMWG/Person/James.A.Van.Allen</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Scott.Boardsen</PersonID>
         <Role>TechnicalContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1974-040A</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1974-040A</URL>
         <Description>Information about the Hawkeye 1 mission</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
       <ObservatoryRegion>Earth.Magnetosphere.Polar</ObservatoryRegion>
-    </Location>
+</Location>
     <OperatingSpan>
       <StartDate>1974-06-03T00:00:00Z</StartDate>
       <StopDate>1978-04-28T00:00:00Z</StopDate>
-    </OperatingSpan>
-  </Observatory>
+</OperatingSpan>
+</Observatory>
 </Spase>

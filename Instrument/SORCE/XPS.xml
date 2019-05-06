@@ -6,20 +6,20 @@
     <ResourceHeader>
       <ResourceName>Extreme Ultraviolet Photometer System (XPS)</ResourceName>
       <AlternateName>XPS</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:14Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>XPS (Xuv Photometer System) is a 3.6 kg, 9 W photometer which invokes filters to monitor the x-ray and UV band at 1-34 nm, at a resolution of about seven nm, and at an irradiance accuracy of about 15%.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Gary.J.Rottman</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2003-004A&amp;ex=4</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2003-004A&amp;ex=4</URL>
         <Description>Information about the XPS (Xuv Photometer System) experiment on the SORCE mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Photometer</InstrumentType>
     <InvestigationName>XPS (Xuv Photometer System) on SORCE</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/SORCE</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

@@ -5,41 +5,41 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Victoria</ResourceID>
       <ResourceHeader>
          <ResourceName>Victoria Geophysical Observatory</ResourceName>
-		 <AlternateName>Observatory Station Code: VIC</AlternateName>
-         <ReleaseDate>2019-03-08T12:34:56.789</ReleaseDate>
+   <AlternateName>Observatory Station Code: VIC</AlternateName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>Victoria (VIC) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: Geological Survey of Canada</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/David.Calp</PersonID>
             <Role>PrincipalInvestigator</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
-         </InformationURL>
-		 <InformationURL>
-			<Name>Overview of the CANadian Magnetic Observatory System</Name>
-			<URL>http://geomag.nrcan.gc.ca/obs/canmos-en.php</URL>
-			<Description>Description of nearly all aspects of the magnetometer array.</Description>
-		 </InformationURL>
-      </ResourceHeader>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
+</InformationURL>
+   <InformationURL>
+   <Name>Overview of the CANadian Magnetic Observatory System</Name>
+   <URL>https://geomag.nrcan.gc.ca/obs/canmos-en.php</URL>
+   <Description>Description of nearly all aspects of the magnetometer array.</Description>
+</InformationURL>
+</ResourceHeader>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>48.5</Latitude>
          <Longitude>236.6</Longitude>
          <Elevation>197.0</Elevation>
-      </Location>
+</Location>
       <OperatingSpan>
          <StartDate>1957-07-01T00:00:00.000</StartDate>
-      </OperatingSpan>
-   </Observatory>
+</OperatingSpan>
+</Observatory>
 </Spase>

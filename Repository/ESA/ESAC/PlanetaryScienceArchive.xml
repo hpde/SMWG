@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xmlns="http://www.spase-group.org/data/schema" 
-xsi:schemaLocation="http://www.spase-group.org/data/schema 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.spase-group.org/data/schema"
+xsi:schemaLocation="http://www.spase-group.org/data/schema
 http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
   <Version>2.2.2</Version>
   <Repository>
     <ResourceID>spase://SMWG/Repository/ESA/ESAC/PlanetaryScienceArchive</ResourceID>
     <ResourceHeader>
       <ResourceName>Planetary Science Archive</ResourceName>
-      <ReleaseDate>2012-06-13T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>ESA's Planetary Science Archive (PSA) is the central repository
 for all scientific and engineering data returned by ESA's Solar System missions:
 as of June, 2012, Giotto, Huygens, Mars Express, Rosetta, SMART-1, and Venus
 Express, as well as several ground-based cometary observations.  The PSA uses
-NASA's Planetary Data System standards as a baseline for the formatting and 
+NASA's Planetary Data System standards as a baseline for the formatting and
 structure of all data within the archive.  PSA is located at the European Space
 Astronomy Center near Madrid, Spain.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/David.Heather</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
-    </ResourceHeader>
+</Contact>
+</ResourceHeader>
     <AccessURL>
       <Name>Planetary Science Archive</Name>
-      <URL>http://www.rssd.esa.int/index.php?project=PSA&amp;page=home</URL>
-    </AccessURL>
-  </Repository>
+      <URL>https://www.cosmos.esa.int/?project=PSA</URL>
+</AccessURL>
+</Repository>
 </Spase>

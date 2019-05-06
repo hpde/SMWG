@@ -7,7 +7,7 @@
       <ResourceName>SORCE</ResourceName>
       <AlternateName>2003-004A</AlternateName>
       <AlternateName>SOlar Radiation and Climate Experiment</AlternateName>
-      <ReleaseDate>2010-08-05T18:19:17Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>SORCE (SOlar Radiation and Climate Experiment) is an American (NASA) Sun-Earth Connection satellite that was launched at 20:13 UT by a Pegasus XL rocket released from a L-1011 cargo aircraft flying out of Cape Canaveral. It is to measure solar irradiance in a number of wavelength-bands through three spectrometers and a photometer.
 
 The URL
@@ -18,15 +18,15 @@ provides much detailed descriptions of the experiments and data availability. Th
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2003-004A</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-004A</URL>
         <Description>Information about the SORCE mission</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

@@ -7,7 +7,7 @@
          <ResourceName>AMPTE/UKS</ResourceName>
          <AlternateName>AMPTE/United Kingdom Subsatellite</AlternateName>
          <AlternateName>UKS</AlternateName>
-         <ReleaseDate>2018-04-12T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>The AMPTE (Active Magnetospheric Particle Tracer Explorers) mission was designed to study the access of solar wind ions to the magnetosphere, the convective-diffusive transport and energization of magnetospheric particles, and the interactions of plasmas in space.
 
 The program consisted of three spacecraft: the CCE, which measured in the magnetosphere the ions released by the IRM; the IRM, which provided multiple ion releases in the solar wind, the magnetosheath, and the magnetotail, with in situ diagnostics of each; and the UKS. The UKS was one spacecraft of the AMPTE (Active Magnetosphere Particle Tracer Experiment) program (along with CCE and IRM) and served as a subsatellite of the IRM spacecraft. Its purpose was to help distinguish between spatial structure and temporal changes in the plasma phenomena initiated by ion releases from the IRM and in the natural magnetospheric environment. Measured quantities were similar to those of the IRM and include magnetic fields, positive ions, electrons, plasma waves, and modulations in ions and electrons.
@@ -39,29 +39,29 @@ Note that the UKS mission took place during the declining phase of solar cycle 2
             <!-- Duncan A. Bryant -->
             <PersonID>spase://SMWG/Person/Duncan.A.Bryant</PersonID>
             <Role>ProjectScientist</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>UK AMPTE User Guide</Name>
-            <URL>http://www.space-plasma.qmw.ac.uk/CDHF/AMPTE_DB_User_Guide/</URL>
+            <URL>http://www.sp.ph.ic.ac.uk/csc-web/DOCS/CU-QMW-MA-0008/index.html</URL>
             <Description>AMPTE UKS/IRM mission, instrument and parameter description</Description>
-         </InformationURL>
+</InformationURL>
          <InformationURL>
             <Name>NSSDC Master Catalog</Name>
-            <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1984-088C</URL>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1984-088C</URL>
             <Description>NSSDC information about the AMPTE/UKS spacecraft</Description>
-         </InformationURL>
+</InformationURL>
          <PriorID>spase://SMWG/Observatory/AMPTE_UKS</PriorID>
-      </ResourceHeader>
+</ResourceHeader>
       <ObservatoryGroupID>spase://SMWG/Observatory/AMPTE</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
          <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
          <ObservatoryRegion>Earth.Magnetosphere.Magnetotail</ObservatoryRegion>
          <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
-      </Location>
+</Location>
       <OperatingSpan>
          <StartDate>1984-08-16T00:00:00.999</StartDate>
          <StopDate>9999-12-31T23:59:59.999</StopDate>
-      </OperatingSpan>
-   </Observatory>
+</OperatingSpan>
+</Observatory>
 </Spase>

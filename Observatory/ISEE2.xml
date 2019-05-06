@@ -8,25 +8,25 @@
       <AlternateName>1977-102B</AlternateName>
       <AlternateName>International Sun-Earth Explorer-B</AlternateName>
       <AlternateName>ISEE-B</AlternateName>
-      <ReleaseDate>2010-10-01T20:06:06Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Explorer-class daughter spacecraft, International Sun-Earth Explorer 2, was part of the mother/daughter/heliocentric mission (ISEE 1, ISEE 2, ISEE 3). The purposes of the mission were: (1) to investigate solar-terrestrial relationships at the outermost boundaries of the Earth's magnetosphere, (2) to examine in detail the structure of the solar wind near the Earth and the shock wave that forms the interface between the solar wind and the Earth's magnetosphere, (3) to investigate motions of and mechanisms operating in the plasma sheets, and (4) to continue the investigation of cosmic rays and solar flare effects in the interplanetary region near 1 AU. The three spacecraft carried a number of complementary instruments for making measurements of plasmas, energetic particles, waves, and fields. The mission thus extended the investigations of previous IMP spacecraft. The mother/daughter portion of the mission consisted of two spacecraft (ISEE 1 and ISEE 2) with station-keeping capability in the same highly eccentric geocentric orbit with an apogee of 23 Earth radii. During the course of the mission, the ISEE 1 and ISEE 2 orbit parameters underwent short-term and long-term variations due to solar and lunar perturbations. These two spacecraft maintained a small separation distance, and made simultaneous coordinated measurements to permit separation of spatial from temporal irregularities in the near-Earth solar wind, the bow shock, and inside the magnetosphere. By maneuvering ISEE 2, the inter-spacecraft separation as measured near the Earth's bow shock was allowed to vary between 10 km and 5000 km; its value is accurately known as a function of time and orbital position. The spacecraft were spin stabilized, with the spin vectors maintained nominally within 1 degree of perpendicular to the ecliptic plane, pointing north. The spin rates were nominally 19.75 rpm for ISEE 1 and 19.8 rpm for ISEE 2, so that there was a slow differential rotation between the two spacecraft. The ISEE 2 body-mounted solar array supplied approximately 112 watts at launch. The ISEE 2 data rate was 2048 bps most of the time and 8192 bps during one orbit out of every five (with some exceptions). Both ISEE 1 and ISEE 2 re-entered the Earth's atmosphere during orbit 1518 on September 26, 1987. Seventeen of 21 on-board experiments were operational at the end. For instrument descriptions written by the investigators, see IEEE Trans. on Geosci. Electron., v. GE-16, no. 3, July 1978.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Keith.W.Ogilvie</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Alastair.C.Durney</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1977-102B</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1977-102B</URL>
         <Description>Information about the ISEE 2 mission</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/ISEE</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

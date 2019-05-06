@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_4.xsd">
   <Version>2.2.4</Version>
   <Observatory>
@@ -8,113 +8,113 @@
       <ResourceName>Apollo 12 Lunar Module/ALSEP</ResourceName>
       <AlternateName>Intrepid</AlternateName>
       <AlternateName>Apollo 12 LM/ALSEP</AlternateName>
-      <AlternateName>Apollo 12C</AlternateName>          
-      <AlternateName>LEM 12</AlternateName>              
-      <AlternateName>LM-6</AlternateName>                
-      <ReleaseDate>2012-05-02T00:00:00Z</ReleaseDate>
-      <Description>The Apollo 12 Lunar Module (LM) "Intrepid" was the second crewed vehicle to land on the Moon. It carried two astronauts, 
-        Commander Charles P. "Pete" Conrad and LM pilot Alan L. Bean, the third and fourth men to walk on the Moon. Also included on the LM was 
-        the Apollo Lunar Surface Experiments Package (ALSEP) containing scientific experiments to be deployed and left on the lunar surface and 
-        other scientific and sample collection apparatus. The experiments performed on the Moon, in addition to the ALSEP suite, were geologic 
-        sample collection, surface photography, soil mechanics investigations to study the physical properties of the lunar regolith, the solar 
+      <AlternateName>Apollo 12C</AlternateName>
+      <AlternateName>LEM 12</AlternateName>
+      <AlternateName>LM-6</AlternateName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The Apollo 12 Lunar Module (LM) "Intrepid" was the second crewed vehicle to land on the Moon. It carried two astronauts,
+        Commander Charles P. "Pete" Conrad and LM pilot Alan L. Bean, the third and fourth men to walk on the Moon. Also included on the LM was
+        the Apollo Lunar Surface Experiments Package (ALSEP) containing scientific experiments to be deployed and left on the lunar surface and
+        other scientific and sample collection apparatus. The experiments performed on the Moon, in addition to the ALSEP suite, were geologic
+        sample collection, surface photography, soil mechanics investigations to study the physical properties of the lunar regolith, the solar
         wind composition experiment which collected samples of solar wind for return to Earth, and collection of parts of the Surveyor 3 spacecraft.
 
         Mission Profile
 
-        The LM separated from the Command/Service Module (CSM) at 04:16:03 UT and landed at 06:54:35 UT (1:54:35 a.m. EST) on 19 November 1969 
-        in the Oceanus Procellarum area at 3.0124 S latitude, 23.4216 W longitude (IAU Mean Earth Polar Axis coordinate system) within about 180 
-        meters of the Surveyor 3 spacecraft, which had landed on April 20, 1967. Conrad and Bean took two moon walks of a total duration of 7 
-        hours 45 minutes covering a total traverse distance of 1.35 km. The first was from 11:32:35 to 15:28:38 UT (6:32 a.m. to 10:28 a.m. EST) 
-        and involved sample collections in the vicinity of the LM and deployment of the ALSEP and solar wind composition foil collector. The TV 
-        camera was inadvertantly pointed towards the Sun when it was being set up and the vidicon tube was damaged rendering the camera inoperable. 
-        On the second of these walks, on November 20 from 03:54:45 to 07:44:00 UT (10:54 p.m. Nov. 19 to 2:44 a.m. Nov. 20 EST) they completed a 
-        1.3 km geology traverse, collecting samples and taking photographs, and visited the Surveyor 3 spacecraft , bringing back about 10 kg of 
-        parts for later examination on Earth. They collected a total of 34.35 kg of rock and soil samples and also collected the solar wind foil. 
-        The LM lifted off on 20 November at 14:25:47 UT (9:25 a.m. EST) after spending 31 hours 31 minutes on the Moon. After docking with the CSM 
-        (piloted by Richard F. Gordon Jr.) at 17:58:22 UT, the LM was jettisoned at 20:21:30 and intentionally crashed into the Moon, striking at 
+        The LM separated from the Command/Service Module (CSM) at 04:16:03 UT and landed at 06:54:35 UT (1:54:35 a.m. EST) on 19 November 1969
+        in the Oceanus Procellarum area at 3.0124 S latitude, 23.4216 W longitude (IAU Mean Earth Polar Axis coordinate system) within about 180
+        meters of the Surveyor 3 spacecraft, which had landed on April 20, 1967. Conrad and Bean took two moon walks of a total duration of 7
+        hours 45 minutes covering a total traverse distance of 1.35 km. The first was from 11:32:35 to 15:28:38 UT (6:32 a.m. to 10:28 a.m. EST)
+        and involved sample collections in the vicinity of the LM and deployment of the ALSEP and solar wind composition foil collector. The TV
+        camera was inadvertantly pointed towards the Sun when it was being set up and the vidicon tube was damaged rendering the camera inoperable.
+        On the second of these walks, on November 20 from 03:54:45 to 07:44:00 UT (10:54 p.m. Nov. 19 to 2:44 a.m. Nov. 20 EST) they completed a
+        1.3 km geology traverse, collecting samples and taking photographs, and visited the Surveyor 3 spacecraft , bringing back about 10 kg of
+        parts for later examination on Earth. They collected a total of 34.35 kg of rock and soil samples and also collected the solar wind foil.
+        The LM lifted off on 20 November at 14:25:47 UT (9:25 a.m. EST) after spending 31 hours 31 minutes on the Moon. After docking with the CSM
+        (piloted by Richard F. Gordon Jr.) at 17:58:22 UT, the LM was jettisoned at 20:21:30 and intentionally crashed into the Moon, striking at
         3.94 S, 338.80 E, about 60 km from the seismic station at the Apollo 12 landing site, creating the first recorded artificial moonquake.
 
         Lunar Module Spacecraft and Subsystems
 
-        The lunar module was a two-stage vehicle designed for space operations near and on the Moon. The spacecraft mass of 15,116 kg was the mass 
-        of the LM including astronauts, propellants and expendables. The dry mass of the ascent stage was 2159 kg and it held 2615 kg of propellant. 
-        The descent stage dry mass was 2211 kg and 8131 kg of propellant were onboard initially. The ascent and descent stages of the LM operated as 
-        a unit until staging, when the ascent stage functioned as a single spacecraft for rendezvous and docking with the command and service module 
-        (CSM). The descent stage comprised the lower part of the spacecraft and was an octagonal prism 4.2 meters across and 1.7 m thick. Four 
-        landing legs with round footpads were mounted on the sides of the descent stage and held the bottom of the stage 1.5 m above the surface. 
-        The distance between the ends of the footpads on opposite landing legs was 9.4 m. One of the legs had a small astronaut egress platform and 
-        ladder. A one meter long conical descent engine skirt protruded from the bottom of the stage. The descent stage contained the landing rocket, 
-        two tanks of aerozine 50 fuel, two tanks of nitrogen tetroxide oxidizer, water, oxygen and helium tanks and storage space for the lunar 
-        equipment and experiments, and in the case of Apollo 15, 16, and 17, the lunar rover. The descent stage served as a platform for launching 
+        The lunar module was a two-stage vehicle designed for space operations near and on the Moon. The spacecraft mass of 15,116 kg was the mass
+        of the LM including astronauts, propellants and expendables. The dry mass of the ascent stage was 2159 kg and it held 2615 kg of propellant.
+        The descent stage dry mass was 2211 kg and 8131 kg of propellant were onboard initially. The ascent and descent stages of the LM operated as
+        a unit until staging, when the ascent stage functioned as a single spacecraft for rendezvous and docking with the command and service module
+        (CSM). The descent stage comprised the lower part of the spacecraft and was an octagonal prism 4.2 meters across and 1.7 m thick. Four
+        landing legs with round footpads were mounted on the sides of the descent stage and held the bottom of the stage 1.5 m above the surface.
+        The distance between the ends of the footpads on opposite landing legs was 9.4 m. One of the legs had a small astronaut egress platform and
+        ladder. A one meter long conical descent engine skirt protruded from the bottom of the stage. The descent stage contained the landing rocket,
+        two tanks of aerozine 50 fuel, two tanks of nitrogen tetroxide oxidizer, water, oxygen and helium tanks and storage space for the lunar
+        equipment and experiments, and in the case of Apollo 15, 16, and 17, the lunar rover. The descent stage served as a platform for launching
         the ascent stage and was left behind on the Moon.
 
-        The ascent stage was an irregularly shaped unit approximately 2.8 m high and 4.0 by 4.3 meters in width mounted on top of the descent stage. 
-        The ascent stage housed the astronauts in a pressurized crew compartment with a volume of 6.65 cubic meters. There was an ingress-egress 
-        hatch in one side and a docking hatch for connecting to the CSM on top. Also mounted along the top were a parabolic rendezvous radar antenna, 
-        a steerable parabolic S-band antenna, and 2 in-flight VHF antennas. Two triangular windows were above and to either side of the egress hatch 
-        and four thrust chamber assemblies were mounted around the sides. At the base of the assembly was the ascent engine. The stage also contained 
-        an aerozine 50 fuel and an oxidizer tank, and helium, liquid oxygen, gaseous oxygen, and reaction control fuel tanks. There were no seats in 
-        the LM. A control console was mounted in the front of the crew compartment above the ingress-egress hatch and between the windows and two 
-        more control panels mounted on the side walls. The ascent stage was launched from the Moon at the end of lunar surface operations and 
+        The ascent stage was an irregularly shaped unit approximately 2.8 m high and 4.0 by 4.3 meters in width mounted on top of the descent stage.
+        The ascent stage housed the astronauts in a pressurized crew compartment with a volume of 6.65 cubic meters. There was an ingress-egress
+        hatch in one side and a docking hatch for connecting to the CSM on top. Also mounted along the top were a parabolic rendezvous radar antenna,
+        a steerable parabolic S-band antenna, and 2 in-flight VHF antennas. Two triangular windows were above and to either side of the egress hatch
+        and four thrust chamber assemblies were mounted around the sides. At the base of the assembly was the ascent engine. The stage also contained
+        an aerozine 50 fuel and an oxidizer tank, and helium, liquid oxygen, gaseous oxygen, and reaction control fuel tanks. There were no seats in
+        the LM. A control console was mounted in the front of the crew compartment above the ingress-egress hatch and between the windows and two
+        more control panels mounted on the side walls. The ascent stage was launched from the Moon at the end of lunar surface operations and
         returned the astronauts to the CSM.
 
-        The descent engine was a deep-throttling ablative rocket with a maximum thrust of about 45,000 N mounted on a gimbal ring in the center of 
-        the descent stage. The ascent engine was a fixed, constant-thrust rocket with a thrust of about 15,000 N. Maneuvering was achieved via the 
-        reaction control system, which consisted of the four thrust modules, each one composed of four 450 N thrust chambers and nozzles pointing 
-        in different directions. Telemetry, TV, voice, and range communications with Earth were all via the S-band antenna. VHF was used for 
-        communications between the astronauts and the LM, and the LM and orbiting CSM. There were redundant tranceivers and equipment for both 
-        S-band and VHF. An environmental control system recycled oxygen and maintained temperature in the electronics and cabin. Power was provided 
-        by 6 silver-zinc batteries. Guidance and navigation control were provided by a radar ranging system, an inertial measurement unit consisting 
+        The descent engine was a deep-throttling ablative rocket with a maximum thrust of about 45,000 N mounted on a gimbal ring in the center of
+        the descent stage. The ascent engine was a fixed, constant-thrust rocket with a thrust of about 15,000 N. Maneuvering was achieved via the
+        reaction control system, which consisted of the four thrust modules, each one composed of four 450 N thrust chambers and nozzles pointing
+        in different directions. Telemetry, TV, voice, and range communications with Earth were all via the S-band antenna. VHF was used for
+        communications between the astronauts and the LM, and the LM and orbiting CSM. There were redundant tranceivers and equipment for both
+        S-band and VHF. An environmental control system recycled oxygen and maintained temperature in the electronics and cabin. Power was provided
+        by 6 silver-zinc batteries. Guidance and navigation control were provided by a radar ranging system, an inertial measurement unit consisting
         of gyroscopes and accelerometers, and the Apollo guidance computer.
 
         Apollo Lunar Surface Experiments Package (ALSEP)
 
-        The Apollo Lunar Surface Experiments Package (ALSEP) consisted of a set of scientific instruments emplaced at the landing site by the 
-        astronauts. The instruments were arrayed around a central station which supplied power to run the instruments and communications so data 
-        collected by the experiments could be relayed to Earth. The central station was a 25 kg box with a stowed volume of 34,800 cubic cm. 
-        Thermal control was achieved by passive elements (insulation, reflectors, thermal coatings) as well as power dissipation resistors and 
-        heaters. Communications with Earth were achieved through a 58 cm long, 3.8 cm diameter modified axial-helical antenna mounted on top of 
-        the central station and pointed towards Earth by the astronauts. Transmitters, receivers, data processors and multiplexers were housed 
-        within the central station. Data collected from the instruments were converted into a telemetry format and transmitted to Earth. The 
-        ALSEP system and instruments were controlled by commands from Earth. The uplink frequency for all Apollo mission ALSEP's was 2119 MHz, 
+        The Apollo Lunar Surface Experiments Package (ALSEP) consisted of a set of scientific instruments emplaced at the landing site by the
+        astronauts. The instruments were arrayed around a central station which supplied power to run the instruments and communications so data
+        collected by the experiments could be relayed to Earth. The central station was a 25 kg box with a stowed volume of 34,800 cubic cm.
+        Thermal control was achieved by passive elements (insulation, reflectors, thermal coatings) as well as power dissipation resistors and
+        heaters. Communications with Earth were achieved through a 58 cm long, 3.8 cm diameter modified axial-helical antenna mounted on top of
+        the central station and pointed towards Earth by the astronauts. Transmitters, receivers, data processors and multiplexers were housed
+        within the central station. Data collected from the instruments were converted into a telemetry format and transmitted to Earth. The
+        ALSEP system and instruments were controlled by commands from Earth. The uplink frequency for all Apollo mission ALSEP's was 2119 MHz,
         the downlink frequency for the Apollo 12 ALSEP was 2278.5 MHz.
 
         Radioisotope Thermoelectric Generator (RTG)
 
-        The SNAP-27 model RTG produced the power to run the ALSEP operations. The generator consisted of a 46 cm high central cylinder and eight 
-        radiating rectangular fins with a total tip-to-tip diameter of 40 cm. The central cylinder had a thinner concentric inner cylinder inside, 
-        and the two cylinders were attached along their surfaces by 442 spring-loaded lead-telluride thermoelectric couples mounted radially along 
-        the length of the cylinders. The generator assembly had a total mass of 17 kg. The power source was an approximately 4 kg fuel capsule in 
-        the shape of a long rod which contained plutonium-238 and was placed in the inner cylinder of the RTG by the astronauts on deployment. 
-        Plutonium-238 decays with a half-life of 89.6 years and produces heat. This heat would conduct from the inner cylinder to the outer via the 
-        thermocouples which would convert the heat directly to electrical power. Excess heat on the outer cylinder would be radiated to space by the 
-        fins. The RTG produced approximately 70 W DC at 16 V. (63.5 W after one year.) The electricity was routed through a cable to a power 
+        The SNAP-27 model RTG produced the power to run the ALSEP operations. The generator consisted of a 46 cm high central cylinder and eight
+        radiating rectangular fins with a total tip-to-tip diameter of 40 cm. The central cylinder had a thinner concentric inner cylinder inside,
+        and the two cylinders were attached along their surfaces by 442 spring-loaded lead-telluride thermoelectric couples mounted radially along
+        the length of the cylinders. The generator assembly had a total mass of 17 kg. The power source was an approximately 4 kg fuel capsule in
+        the shape of a long rod which contained plutonium-238 and was placed in the inner cylinder of the RTG by the astronauts on deployment.
+        Plutonium-238 decays with a half-life of 89.6 years and produces heat. This heat would conduct from the inner cylinder to the outer via the
+        thermocouples which would convert the heat directly to electrical power. Excess heat on the outer cylinder would be radiated to space by the
+        fins. The RTG produced approximately 70 W DC at 16 V. (63.5 W after one year.) The electricity was routed through a cable to a power
         conditioning unit and a power distribution unit in the central station to supply the correct voltage and power to each instrument.
 
         ALSEP Scientific Instruments
 
-        All ALSEP instruments were deployed on the surface by the astronauts and attached to the central station by cables. The Apollo 12 ALSEP 
-        instruments consisted of: (1) a passive seismometer, designed to measure seismic activity and physical properties of the lunar crust and 
-        interior; (2) a suprathermal ion detector, designed to measure the flux, composition, energy, and velocity of low-energy positive ions; 
-        (3) a cold cathode ion gauge, designed to measure the atmosphere and any variations with time or solar activity such atmosphere may have; 
-        (4) a lunar dust detector, to measure dust accumulation, radiation damage to solar cells, and reflected infrared energy and temperatures; 
-        (5) a lunar surface magnetometer (LSM), designed to measure the magnetic field at the lunar surface; and (6) a solar wind spectrometer, 
-        which measured the fluxes and spectra of the electrons and protons that emanate from the Sun and reach the lunar surface. The central 
-        station, located at 3.0094 S latitude, 23.4246 W longitude, was turned on at 14:21 UT on 19 November 1969 and shut down along with the 
+        All ALSEP instruments were deployed on the surface by the astronauts and attached to the central station by cables. The Apollo 12 ALSEP
+        instruments consisted of: (1) a passive seismometer, designed to measure seismic activity and physical properties of the lunar crust and
+        interior; (2) a suprathermal ion detector, designed to measure the flux, composition, energy, and velocity of low-energy positive ions;
+        (3) a cold cathode ion gauge, designed to measure the atmosphere and any variations with time or solar activity such atmosphere may have;
+        (4) a lunar dust detector, to measure dust accumulation, radiation damage to solar cells, and reflected infrared energy and temperatures;
+        (5) a lunar surface magnetometer (LSM), designed to measure the magnetic field at the lunar surface; and (6) a solar wind spectrometer,
+        which measured the fluxes and spectra of the electrons and protons that emanate from the Sun and reach the lunar surface. The central
+        station, located at 3.0094 S latitude, 23.4246 W longitude, was turned on at 14:21 UT on 19 November 1969 and shut down along with the
         other ALSEP stations on 30 September 1977.
-      </Description>
+</Description>
       <Contact>
-        <PersonID>spase://SMWG/Person/David.R.Williams</PersonID> 
-        <Role>GeneralContact</Role>  				 
-      </Contact>
+        <PersonID>spase://SMWG/Person/David.R.Williams</PersonID>
+        <Role>GeneralContact</Role>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1969-099C</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C</URL>
         <Description>Information about the Apollo 12 Lunar Module/ALSEP</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <Location>
             <ObservatoryRegion>Earth.Moon</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

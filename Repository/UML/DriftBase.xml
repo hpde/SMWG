@@ -7,14 +7,14 @@
         <ResourceID>spase://SMWG/Repository/UML/DriftBase</ResourceID>
         <ResourceHeader>
             <ResourceName>Plasma Drift Database Repository at UML</ResourceName>
-            <ReleaseDate>2012-03-21T16:37:00Z</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>
-The DriftBase repository at University of Massachusetts Lowell is a 
-relational database holding raw drift measurement data and derived Doppler 
-skymap, ionospheric tilt, and bulk plasma drift velocity records for the 
+The DriftBase repository at University of Massachusetts Lowell is a
+relational database holding raw drift measurement data and derived Doppler
+skymap, ionospheric tilt, and bulk plasma drift velocity records for the
 Global Ionospheric Radio Observatory (GIRO). Public access to the DriftBase
-resource is arranged via Drift Explorer software available 
-at http://umlcar.uml.edu/Drift-X.html 
+resource is arranged via Drift Explorer software available
+at http://umlcar.uml.edu/Drift-X.html
 and web access portal http://umlcar.uml.edu/DriftBase/
 </Description>
             <Contact>
@@ -22,21 +22,21 @@ and web access portal http://umlcar.uml.edu/DriftBase/
                 <Role>ArchiveSpecialist</Role>
                 <Role>MetadataContact</Role>
                 <Role>ProjectScientist</Role>
-            </Contact>
+</Contact>
             <Contact>
                 <PersonID>spase://SMWG/Person/Bodo.W.Reinisch</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact>
+</Contact>
             <InformationURL>
                 <Name>Web page</Name>
-                <URL>http://umlcar.uml.edu/DriftBase/</URL>
+                <URL>https://ulcar.uml.edu/DriftBase/</URL>
                 <Description>Web access portal for DriftBase</Description>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
         <AccessURL>
              <Name>Web page</Name>
-             <URL>http://umlcar.uml.edu/DriftBase/</URL>
+             <URL>https://ulcar.uml.edu/DriftBase/</URL>
              <Description>Web access portal for DriftBase</Description>
-        </AccessURL>
-    </Repository>
+</AccessURL>
+</Repository>
 </Spase>

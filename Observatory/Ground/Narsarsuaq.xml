@@ -5,43 +5,43 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Narsarsuaq</ResourceID>
       <ResourceHeader>
          <ResourceName>Narsarsuaq Geophysical Observatory</ResourceName>
-		 <AlternateName>Observatory Station Code: NRSQ</AlternateName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+   <AlternateName>Observatory Station Code: NRSQ</AlternateName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>Narsarsuaq (NRSQ) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: Danish Meteorological Institute, Denmark</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Hans.Gleisner</PersonID>
             <Role>PrincipalInvestigator</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
-         </InformationURL>
-		 <InformationURL>
-			  <Name>Technical University of Danmark</Name> 
-			  <URL>http://www.space.dtu.dk/English/Research/Scientific_data_and_models/Magnetic_Ground_Stations.aspx</URL> 
-			  <Description>Introduction to the DTU magnetometer data, plots, maps, etc.</Description> 
-		 </InformationURL>
+</InformationURL>
+   <InformationURL>
+     <Name>Technical University of Danmark</Name>
+     <URL>https://www.space.dtu.dk/English/Research/Scientific_data_and_models/Magnetic_Ground_Stations.aspx</URL>
+     <Description>Introduction to the DTU magnetometer data, plots, maps, etc.</Description>
+</InformationURL>
          <PriorID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-GBO/NRSQ</PriorID>
-      </ResourceHeader>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/DTU</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/TGO</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
+</ResourceHeader>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/DTU</ObservatoryGroupID>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/TGO</ObservatoryGroupID>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>61.2</Latitude>
          <Longitude>314.6</Longitude>
-      </Location>
+</Location>
       <OperatingSpan>
          <StartDate>2008-10-01T00:00:00.000</StartDate>
-      </OperatingSpan>
-   </Observatory>
+</OperatingSpan>
+</Observatory>
 </Spase>

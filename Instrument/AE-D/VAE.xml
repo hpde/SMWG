@@ -6,39 +6,39 @@
     <ResourceHeader>
       <ResourceName>Visible Airglow Photometer (VAE)</ResourceName>
       <AlternateName>VAE</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:11Z</ReleaseDate>
-      <Description>The visible airglow experiment provided volume emission rates for several dayglow, 
-	  nightglow, and auroral optical emission features. A photometer containing two separate optical channels 
-	  was used. Spectral selection was accomplished with a common filter wheel that contained six interference 
-	  filters and a dark and calibrate position. The wavelengths measured in pairs (in Angstroms) were 7319 
-	  and 4861, 5200 and dark, 5577 and 7319, 4278 and 5200, 6300 and 5577, calibration and 4278, and 4861 
-	  and 6300. The two channels were separated in angle by 90 deg. One channel had a large field of view 
-	  (3 deg half-angle) for high sensitivity, normally pointing toward the local zenith, and the second 
-	  channel had a small field of view (0.75 deg half-angle) for high spatial resolution, pointing tangent 
-	  to the surface of the earth when the satellite was in the despun mode. Both channels were protected from 
-	  stray light contamination during daytime by multistage baffle systems. Photons that had been spectrally 
-	  and spatially selected were sensed by a pulse-counting photomultiplier system capable of counting at a 
-	  rate of 5.E6 counts/s. The filters could be operated in several modes, e.g., fixed filter, and 
-	  automatic filter changes could be synchronized either to satellite orientation or to a fixed-time 
-	  base. More experiment details can be found in P. B. Hays et al., Radio Sci., v. 8, n. 4, p. 369, 1973. 
-	  NSSDC has all the useful data that exist from this investigation.</Description>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The visible airglow experiment provided volume emission rates for several dayglow,
+   nightglow, and auroral optical emission features. A photometer containing two separate optical channels
+   was used. Spectral selection was accomplished with a common filter wheel that contained six interference
+   filters and a dark and calibrate position. The wavelengths measured in pairs (in Angstroms) were 7319
+   and 4861, 5200 and dark, 5577 and 7319, 4278 and 5200, 6300 and 5577, calibration and 4278, and 4861
+   and 6300. The two channels were separated in angle by 90 deg. One channel had a large field of view
+   (3 deg half-angle) for high sensitivity, normally pointing toward the local zenith, and the second
+   channel had a small field of view (0.75 deg half-angle) for high spatial resolution, pointing tangent
+   to the surface of the earth when the satellite was in the despun mode. Both channels were protected from
+   stray light contamination during daytime by multistage baffle systems. Photons that had been spectrally
+   and spatially selected were sensed by a pulse-counting photomultiplier system capable of counting at a
+   rate of 5.E6 counts/s. The filters could be operated in several modes, e.g., fixed filter, and
+   automatic filter changes could be synchronized either to satellite orientation or to a fixed-time
+   base. More experiment details can be found in P. B. Hays et al., Radio Sci., v. 8, n. 4, p. 369, 1973.
+   NSSDC has all the useful data that exist from this investigation.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Paul.B.Hays</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1975-096A-13</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1975-096A-13</URL>
         <Description>Information about the Visible Airglow Photometer (VAE) experiment on the AE-D mission.</Description>
-      </InformationURL>
-	  <InformationURL>
+</InformationURL>
+   <InformationURL>
         <Name>Radio Science Journal Article</Name>
-        <URL>https://doi.org/10.1029/RS008i004p00369</URL>
+        <URL>https://onlinelibrary.wiley.com/doi/abs/10.1029/RS008i004p00369</URL>
         <Description>Detailed information about the Visible Airglow Photometer (VAE) experiment on the AE-D mission.</Description>
-	  </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Photometer</InstrumentType>
     <InvestigationName>Visible Airglow Photometer (VAE) on AE-D</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/AE-D</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

@@ -5,65 +5,65 @@
     <ResourceID>spase://SMWG/Observatory/SAMBA/Escudero</ResourceID>
     <ResourceHeader>
       <ResourceName>Escudero</ResourceName>
-      <ReleaseDate>2011-08-06T12:34:56.789</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Escudero (ESC) Geomagnetic Observatory</Description>
       <Acknowledgement>Please acknowledge Eftyhia Zesta, Air Force Research Lab, Hanscom AFB, for providing access to SAMBA data resources.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Eftyhia.Zesta</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Mark.Moldwin</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Athanasios.Boudouridis</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Kathryn.Rowe</PersonID>
         <Role>TechnicalContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Nathan.Sterner</PersonID>
         <Role>TechnicalContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Marina.Stepanova</PersonID>
         <Role>TeamMember</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Ricardo.Monreal.Mac-Mahon</PersonID>
         <Role>TeamMember</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Enrique.Cordaro.Cardenas</PersonID>
         <Role>TeamMember</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Vernonica.Vallejos.Marchant</PersonID>
         <Role>TeamMember</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Escudero geomagnetic observatory web site</Name>
-        <URL>http://samba.atmos.ucla.edu/escudero.html</URL>
+        <URL>http://magnetometers.bc.edu/data/dat/samba/escudero/</URL>
         <Description>Escudero geomagnetic observatory web site</Description>
-      </InformationURL>
+</InformationURL>
       <Association>
         <AssociationID>spase://SMWG/Observatory/SAMBA</AssociationID>
         <AssociationType>PartOf</AssociationType>
-      </Association>
-    </ResourceHeader>
+</Association>
+</ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/SAMBA</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
       <CoordinateSystemName>GEO</CoordinateSystemName>
       <Latitude>-62.180</Latitude>
       <Longitude>-58.920</Longitude>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

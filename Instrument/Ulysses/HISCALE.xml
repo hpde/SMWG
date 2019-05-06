@@ -6,25 +6,25 @@
     <ResourceHeader>
       <ResourceName>Heliosphere Instrument for Spectra, Composition and Anisotropy at Low Energies</ResourceName>
       <AlternateName>HISCALE</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The objectives of this investigation are (1) to investigate the solar-flare process with measurements of non-relativistic and relativistic electrons, and non-relativistic ions, and their dependence on heliolatitude; (2) to investigate solar elemental abundances with measurements of chemical composition of nuclei of solar origin at all heliolatitudes; (3) to investigate the interplanetary propagation of solar energetic particles by measurement of anisotropy and composition parameters; (4) to investigate acceleration processes; and (5) to investigate temporal and spatial variations of particle intensity in and near the Jovian magnetosphere. The instrumentation consists of two double-ended solid state detector systems which measure ions in the range 50 keV to 5 MeV and electrons in the range 30 to 300 keV, and a (dE/dX, E) telescope using a 5-micrometer-thick front detector for ion elemental abundances in the range 1 to 15 MeV/nucleon (Fe). Each double-ended system is composed on one end of a foil spectrometer in which a 0.35 mg/sq cm thin foil excludes ions below 0.350 keV, allowing electrons above 30 keV to be detected. Further, one of the other ends of one of the systems is a magnetic spectrometer, using a rare-earth magnet to separate electrons from ions (geometric factor for ions is approximately 0.5 sq cm-sr, and for electrons 0.05 sq cm-sr). Orientation of the sensor systems is such that complete pitch-angle coverage is obtained. The instrument has a mass of 5.8 kg including shielding, and uses 4.0 W of power. The data rate is 80 bps in cruise mode and 160 bps in tracking mode.  "The Heliosphere Instrument for Spectra, Composition, and Anisotropy at Low Energies (HI-SCALE) is designed to make measurements of interplanetary ions and electrons throughout the entire Ulysses mission.  This ions (Ei &gt; 50 keV) and electrons ( Ee &gt; 30 keV ) are identified uniquely and detected by five separate solid-state detector telescopes that are oriented to give nearly complete pitch-angle coverage (i.e., coverage of essentially 4 pi ster) from the spinning spacecraft.  Ion elemental abundances are determined by a delta E vs E telescope using a thin (5 micron) front solid state detector element in a three-element telescope.  Expirement operation is controlled by a microprocessor-based data system. Inflight calibration is provided by radioactive sources mounted on telescope covers which can be closed for calibration purposes and for radiation protection during the course of the mission. Ion nd electron spectral information is determined using both broad-energy-range rate channels and a 32 channel pulse-height analyser (channels spaced logarithmically) for more detailed spectra. The instrument weighs 5.775 kg and uses 4.0 W of power. Some initial in-ecliptic measurements are presented which demonstrate the features of the instrument". (quote of Abstract: L. Lanzerotti et al., Astron. Astrophys. Suppl. Ser. 92, 349-363, 1992). The HISCALE instrument utilizes five separate detector systems within two mechanical structures.  These systems are referenced by their name and angle with respect to the Ulysses spin axis.  The systems are the Low-Energy Magnetic Spectrometer (LEMS), the Low-Energy Foil Spectrometer (LEFS) and the Composition Aperature (CA). The LEMS/LEFS systems provide pulse-height-analyzed single-detector measurements with active anticoincidence.  The CA system uses a multiparameter detection technique to provide measurement of ion composition in an energy range similar to those of LEMS/LEFS.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Louis.J.Lanzerotti</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>HISCALE Website at JHU/APL</Name>
-        <URL>http://sd-www.jhuapl.edu/Ulysses/index.html</URL>
+        <URL>https://www.cosmos.esa.int/web/ulysses/hiscale</URL>
         <Description>Primary website for the Ulysses-HISCALE experiment.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>HISCALE detector systems</Name>
         <URL>http://hiscale.ftecs.com/chapter 4/1-genfeatures.html</URL>
         <Description>Detailed description and illustrations of the HISCALE detector systems.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Heliosphere Instrument for Spectra, Composition and Anisotropy at Low Energies</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Ulysses</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

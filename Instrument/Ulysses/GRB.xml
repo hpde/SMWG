@@ -7,20 +7,20 @@
       <ResourceName>Solar X-Rays and Cosmic Gamma-Ray Bursts (HUS/GRB)</ResourceName>
       <AlternateName>GRB</AlternateName>
       <AlternateName>HUS</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The objectives of this investigation are to study the acceleration and storage of energetic electrons accelerated during solar flares by measuring solar X-radiation; to identify gamma-ray burst sources with known celestial objects or phenomena; and to study plasma and energetic charged particle processes in the Jovian magnetosphere. The instrument consists of two hemispherical cesium iodide (sodium) crystals coupled to curved cathode photomultipliers; two small solid-state detectors with an americium 241 radioactive source deposited on the sensors, and a digital electronics unit. The scintillation counters measure X rays in the energy range from 15 to 150 keV, while the solid state detectors measure X rays from 5 to 15 keV. The instrument has a mass of 2.0 kg, uses 2.6 W of power, and has a data rate of 20 bps in storage mode and 40 bps in tracking mode.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Kevin.C.Hurley</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1990-090B&amp;ex=1</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1990-090B&amp;ex=1</URL>
         <Description>Information about the Solar X-Rays and Cosmic Gamma-Ray Bursts (HUS/GRB) experiment on the Ulysses mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Unspecified</InstrumentType>
     <InvestigationName>Solar X-Rays and Cosmic Gamma-Ray Bursts (HUS/GRB) on Ulysses</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Ulysses</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

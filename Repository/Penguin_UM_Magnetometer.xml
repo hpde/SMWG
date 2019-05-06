@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Repository/Penguin_UM_Magnetometer</ResourceID>
     <ResourceHeader>
       <ResourceName>Penguin University of Michigan Magnetometer Repository</ResourceName>
-      <ReleaseDate>2010-09-27T12:34:56.789</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Polar Experiment Network for Geophysical Upper Atmosphere Investigation (PENGUIn) University of Michigan Antarctic Magnetometer Data Repository</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Aaron.J.Ridley</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Penguin University of Michigan Magnetometer Repository Information Web Site</Name>
-        <URL>http://herot.engin.umich.edu/~ridley/data/Penguin/README</URL>
-      </InformationURL>
-    </ResourceHeader>
+        <URL>http://mist.nianet.org/CDFdata/VT_MIST_Data_Policy.pdf</URL>
+</InformationURL>
+</ResourceHeader>
     <AccessURL>
       <Name>Penguin University of Michigan Magnetometer Repository Access URL</Name>
-      <URL>http://herot.engin.umich.edu/~ridley/data/Penguin</URL>
-    </AccessURL>
-  </Repository>
+      <URL>http://mist.nianet.org</URL>
+</AccessURL>
+</Repository>
 </Spase>

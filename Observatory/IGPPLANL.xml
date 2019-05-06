@@ -6,20 +6,20 @@
     <ResourceHeader>
       <ResourceName>IGPP LANL</ResourceName>
       <AlternateName>IGPP LANL magnetometer chain</AlternateName>
-      <ReleaseDate>2011-02-17T12:34:56.789</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>IGPP LANL ground magnetometer chain</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Peter.J.Chi</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>UCLA Ground Magnetometer Data Center</Name>
-        <URL>http://spc.igpp.ucla.edu/uclamag</URL>
+        <URL>http://spc.igpp.ucla.edu/uclamag/</URL>
         <Description>Information about the IGPP-LANL magnetometer array.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

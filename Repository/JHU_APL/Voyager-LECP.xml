@@ -5,18 +5,18 @@
       <ResourceID>spase://SMWG/Repository/JHU_APL/Voyager-LECP</ResourceID>
       <ResourceHeader>
          <ResourceName>Voyager 1 and 2 LECP Data Repository</ResourceName>
-         <ReleaseDate>2019-04-19T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>Public repository hosted by JHU APL for Voyager 1 and 2 LECP data.</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/Lawrence.Brown</PersonID>
             <Role>DataProducer</Role>
-         </Contact>
+</Contact>
          <PriorID>spase://VEPO/Repository/JHU-APL/Voyager-LECP</PriorID>
          <PriorID>spase://SMWG/Repository/JHU-APL/Voyager-LECP</PriorID>
-      </ResourceHeader>
+</ResourceHeader>
       <AccessURL>
          <Name>Voyager 1 and 2 LECP Data Access and Instrument Information</Name>
-         <URL>http://sd-www.jhuapl.edu/VOYAGER</URL>
-      </AccessURL>
-   </Repository>
+         <URL>http://sd-www.jhuapl.edu/VOYAGER/</URL>
+</AccessURL>
+</Repository>
 </Spase>

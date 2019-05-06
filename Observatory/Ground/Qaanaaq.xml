@@ -5,49 +5,49 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Qaanaaq</ResourceID>
       <ResourceHeader>
          <ResourceName>Qaanaaq Geophysical Observatory</ResourceName>
-		 <AlternateName>Observatory Station Code: THL</AlternateName>
-		 <AlternateName>Thule Geophysical Observatory</AlternateName>
-         <ReleaseDate>2018-09-25T12:34:56.789</ReleaseDate>
+   <AlternateName>Observatory Station Code: THL</AlternateName>
+   <AlternateName>Thule Geophysical Observatory</AlternateName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>Qaanaaq (THL) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: DTU Space, Denmark</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Claudia.Stolle</PersonID>
             <Role>PrincipalInvestigator</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Juergen.Matzka</PersonID>
             <Role>PrincipalInvestigator</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
-         </InformationURL>
-		 <InformationURL>
-			  <Name>Technical University of Danmark</Name> 
-			  <URL>http://www.space.dtu.dk/English/Research/Scientific_data_and_models/Magnetic_Ground_Stations.aspx</URL> 
-			  <Description>Introduction to the DTU magnetometer data, plots, maps, etc.</Description> 
-		 </InformationURL>
-      </ResourceHeader>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/DTU</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/TGO</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
+</InformationURL>
+   <InformationURL>
+     <Name>Technical University of Danmark</Name>
+     <URL>https://www.space.dtu.dk/English/Research/Scientific_data_and_models/Magnetic_Ground_Stations.aspx</URL>
+     <Description>Introduction to the DTU magnetometer data, plots, maps, etc.</Description>
+</InformationURL>
+</ResourceHeader>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/DTU</ObservatoryGroupID>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/TGO</ObservatoryGroupID>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>77.483</Latitude>
          <Longitude>290.833</Longitude>
          <Elevation>57.0</Elevation>
-      </Location>
+</Location>
       <OperatingSpan>
          <StartDate>1947-01-01T00:00:00.000</StartDate>
-		 <Note>Exact start date is unclear.</Note>
-      </OperatingSpan>
-   </Observatory>
+   <Note>Exact start date is unclear.</Note>
+</OperatingSpan>
+</Observatory>
 </Spase>

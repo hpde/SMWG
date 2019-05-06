@@ -5,28 +5,28 @@
     <ResourceID>spase://SMWG/Instrument/MESSENGER/Magnetometer</ResourceID>
     <ResourceHeader>
       <ResourceName>Magnetometer</ResourceName>
-      <ReleaseDate>2012-01-18T00:00:00Z</ReleaseDate>
-      <Description>The magnetometer (MAG) on MESSENGER is a three-axis 
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The magnetometer (MAG) on MESSENGER is a three-axis
 ring core fluxgate magnetometer mounted on a 3.6 m boom in the anti-
-sunward direction.  The detector sampling rate is 40 Hz and readout 
-rates are selectable from 0.01, 0.1, 1, 10, 20, or 40 Hz. Averaging 
-intervals can be selected from 0.025 to 1 s. Digital filters provide 
+sunward direction.  The detector sampling rate is 40 Hz and readout
+rates are selectable from 0.01, 0.1, 1, 10, 20, or 40 Hz. Averaging
+intervals can be selected from 0.025 to 1 s. Digital filters provide
 selectable bandpassed channels of magnetic field variation.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Brian.J.Anderson</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>MAG site at JHU_APL</Name>
-        <URL>http://messenger.jhuapl.edu/instruments/MAG.html</URL>
-      </InformationURL>
+        <URL>http://messenger.jhuapl.edu/About/Spacecraft-and-Instruments.html#instruments</URL>
+</InformationURL>
       <InformationURL>
         <Name>NSSDC Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2004-030A-07</URL>
-      </InformationURL>
-    </ResourceHeader>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2004-030A-07</URL>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Magnetometer</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/MESSENGER</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

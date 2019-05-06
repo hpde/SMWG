@@ -6,31 +6,31 @@
     <ResourceHeader>
       <ResourceName>Magnetic Survey, Rubidium Vapor Magnetometer</ResourceName>
       <AlternateName>RVM</AlternateName>
-      <ReleaseDate>2016-01-20T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The OGO 6 rubidium vapor magnetometer was an optically pumped, self-oscillating dual-cell instrument used to measure the scalar magnetic field in polar orbit. The instrument was sampled every 0.288 s, and operated almost continuously from launch until June 28, 1971. The precision of the measurements was plus or minus 0.6 nT (gamma) with an absolute accuracy of approximately 2 nT. The accuracy of the measurements was limited by spacecraft fields.</Description>
       <Acknowledgement>National Aeronautics and Space Administration; Dr. Robert A. Langel, III; Dr. Joseph C. Cain;</Acknowledgement>
       <Contact>
          <PersonID>spase://SMWG/Person/Joseph.C.Cain</PersonID>
          <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
          <PersonID>spase://SMWG/Person/Robert.A.Langel.III</PersonID>
          <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>The OGO-6 Rubidium Vapor Magnetometer</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1969-051A-21</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1969-051A-21</URL>
         <Description>Information about the Rubidium Vector Magnetometer.</Description>
         <Language>en</Language>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://SMWG/Instrument/OGO6/RVM</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Magnetic Survey, Rubidium Vapor Magnetometer on the OGO-6 spacecraft</InvestigationName>
     <OperatingSpan>
-    	 <StartDate>1969-06-06T03:41:24Z</StartDate>
-    	 <StopDate>1971-04-26T00:52:58Z</StopDate>
-    </OperatingSpan>
+      <StartDate>1969-06-06T03:41:24Z</StartDate>
+      <StopDate>1971-04-26T00:52:58Z</StopDate>
+</OperatingSpan>
     <ObservatoryID>spase://SMWG/Observatory/OGO6</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

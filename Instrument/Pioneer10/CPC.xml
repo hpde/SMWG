@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/Pioneer10/CPC</ResourceID>
     <ResourceHeader>
       <ResourceName>Charged Particle Composition</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:15Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>This experiment (carried also on Pioneer 11) measured charged-particle composition and spectra using four detector systems: (1) the main telescope, consisting of seven elements and providing energy spectra (approximately 3 to 68 MeV for protons and 10 to 150 MeV/nucleon for oxygen), element resolution (through oxygen), and isotope resolution (for H and He); (2) the low-energy subsystem telescope, consisting of two elements and using a very small thin first element to extend the high-sensitivity proton measurements below 1 MeV (0.3 to 9 MeV) in the presence of a high gamma-ray background aboard the spacecraft; (3) the electron-current detector (ECG), consisting of a beryllium-shield silicon detector operated in current mode to measure high fluxes of electrons with energies above 3 MeV; and (4) the fission cell detector, recording fission fragments from the nucleon-induced fission of thorium 232 sandwiched between two large-area silicon detectors to measure fluxes of protons (above 30 MeV) in the presence of high fluxes of electrons. The experiment sample time was synchronized with the spacecraft spin, permitting sectoring of the readout of the main and low-energy telescopes into eight octants about the spin axis. Data also include the interplanetary region.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/John.A.Simpson</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1972-012A&amp;ex=2</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1972-012A&amp;ex=2</URL>
         <Description>Information about the Charged Particle Composition experiment on the Pioneer 10 mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Charged Particle Composition on Pioneer 10</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Pioneer10</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

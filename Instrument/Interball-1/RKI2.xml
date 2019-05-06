@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/Interball-1/RKI2</ResourceID>
     <ResourceHeader>
       <ResourceName>Hard ionizing radiation and solar UV radiation RKI-2</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:11Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>This instrument measures ionizing radiation at 5, 15, 40, 100, and 500 MeV, and UV radiation from the Sun.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Tamara.V.Kazachevskaya</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1995-039A&amp;ex=20</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1995-039A&amp;ex=20</URL>
         <Description>Information about the Hard ionizing radiation and solar UV radiation RKI-2 experiment on the Interball Tail Probe mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Unspecified</InstrumentType>
     <InvestigationName>Hard ionizing radiation and solar UV radiation RKI-2 on Interball Tail Probe</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Interball-1</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

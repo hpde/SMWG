@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Instrument>
         <ResourceID>spase://SMWG/Instrument/DSX/CREDANCE</ResourceID>
         <ResourceHeader>
             <ResourceName>Cosmic Ray Environment Dosimetery and Charging Experiment (CREDANCE)</ResourceName>
-            <ReleaseDate>2011-09-16T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>
 "Objectives: 1) Characterize the energetic space radiation environment and its interactions with spacecraft; 2) Provide data to other SET-1 experiments"
 "Goals: 1) Provide data to improve radiation environment models and design tools; 2) Demonstrate the value of a compact space weather monitor in operational spacecraft" (SET-1 payload site)
@@ -15,44 +15,44 @@
             <Contact>
                 <PersonID>spase://SMWG/Person/Clive.S.Dyer</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact>
+</Contact>
             <Contact>
                 <PersonID>spase://SMWG/Person/Michael.A.Xapsos</PersonID>
                 <Role>ProjectScientist</Role>
-            </Contact>
+</Contact>
             <InformationURL>
                 <Name>Demonstration and Science Experiments
 (DSX) Satellite</Name>
-                <URL>http://www.kirtland.af.mil/shared/media/document/AFD-070404-096.pdf</URL>
+                <URL>https://www.amostech.com/TechnicalPapers/2009/Space-Based_Assets/Scherbarth.pdf</URL>
                 <Description>DSX Fact Sheet, Sept. 2005</Description>
-            </InformationURL>
+</InformationURL>
             <InformationURL>
                 <Name>THE DEMONSTRATION AND SCIENCE EXPERIMENTS (DSX): A FUNDAMENTAL SCIENCE RESEARCH MISSION ADVANCING TECHNOLOGIES THAT ENABLE MEO SPACEFLIGHT</Name>
-                <URL>http://lws-set.gsfc.nasa.gov/documents/DSX_paper.pdf</URL>
+                <URL>https://lws-set.gsfc.nasa.gov/documents/DSX_paper.pdf</URL>
                 <Description>2006 Instrument paper</Description>
-            </InformationURL>
+</InformationURL>
             <InformationURL>
                 <Name>AFRL's demonstration and science experiments (DSX) mission</Name>
-                <URL>http://hdl.handle.net/1721.1/52739</URL>
+                <URL>https://dspace.mit.edu/handle/1721.1/52739</URL>
                 <Description>2009 DSX Paper</Description>
-            </InformationURL>
+</InformationURL>
             <InformationURL>
                 <Name>DSX Mission/SET-1</Name>
-                <URL>http://lws-set.gsfc.nasa.gov/documents/DSX_and%20_SET_for_public_release.pdf</URL>
+                <URL>https://lws-set.gsfc.nasa.gov/documents/DSX_and%20_SET_for_public_release.pdf</URL>
                 <Description>DSX powerpoint, includes data flow diagrams.</Description>
-            </InformationURL>
+</InformationURL>
             <InformationURL>
                 <Name>SET-1 payload site</Name>
-                <URL>http://lws-set.gsfc.nasa.gov/mission.html</URL>
+                <URL>https://lws-set.gsfc.nasa.gov/mission.html</URL>
                 <Description>NASA site detailing SET1 payload.</Description>
-            </InformationURL>
+</InformationURL>
             <PriorID/>
-        </ResourceHeader>
+</ResourceHeader>
         <InstrumentType>EnergeticParticleInstrument</InstrumentType>
         <!--InstrumentType>SSD</InstrumentType-->
         <InvestigationName>DSX/SET1</InvestigationName>
         <ObservatoryID>spase://SMWG/Observatory/DSX</ObservatoryID>
         <Caveats/>
         <Extension/>
-    </Instrument>
+</Instrument>
 </Spase>

@@ -7,7 +7,7 @@
       <ResourceName>Galileo</ResourceName>
       <AlternateName>Galileo Orbiter</AlternateName>
       <AlternateName>Jupiter Orbiter-Probe</AlternateName>
-      <ReleaseDate>2012-11-27T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>
 Science Objectives
 ==================
@@ -158,23 +158,23 @@ The Galileo mission utilizes a single launch of a combined
     again pumped down, by gravity assist encounters with the
     Jovian satellites, to 35-40 days for the final 2-3 targeted
     encounters.
-          </Description>
+</Description>
       <Acknowledgement />
       <Contact>
         <PersonID>spase://SMWG/Person/Torrence.V.Johnson</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1989-084B</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1989-084B</URL>
         <Description>Information about the Galileo Orbiter mission.</Description>
-      </InformationURL>
-	  <InformationURL>
-        <Name>Space Science Reviews Volume on Galileo Mission An Overview </Name>
-        <URL>https://doi.org/10.1007/BF00216848</URL>
+</InformationURL>
+   <InformationURL>
+        <Name>Space Science Reviews Volume on Galileo Mission An Overview</Name>
+        <URL>https://link.springer.com/article/10.1007%2FBF00216848</URL>
         <Description>Additional information about the Galileo Orbiter mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <Location>
       <ObservatoryRegion>Venus</ObservatoryRegion>
       <ObservatoryRegion>Jupiter</ObservatoryRegion>
@@ -182,6 +182,6 @@ The Galileo mission utilizes a single launch of a combined
       <ObservatoryRegion>Heliosphere</ObservatoryRegion>
       <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
       <ObservatoryRegion>Earth.Magnetosphere.Magnetotail</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

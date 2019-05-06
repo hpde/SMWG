@@ -5,75 +5,75 @@
     <ResourceID>spase://SMWG/Instrument/SDO/EVE</ResourceID>
     <ResourceHeader>
       <ResourceName>EVE</ResourceName>
-      <ReleaseDate>2010-10-04T20:55:51Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The SDO (Solar Dynamics Observatory) EVE
-ExtremeUltraviolet Variability Experiment) measures the solar 
-extreme ultraviolet irradiance variations based on the Sun's 
-magnetic features. With improved spectral resolution, 
-temporal cadence, accuracy, and precision, data will 
-supersede measurements made by TIMED SEE, SOHO and SORCE XPS. 
-It helps scientists to understand the Sun's role in driving 
-the outer atmosphere of Earth. The EUV radiation includes 
-the 0.1-105 nm range, which provides the majority of the 
-energy for heating Earth's thermosphere and creating Earth's 
-ionosphere. This wide spectral range requires the use of 
-multiple channels. Some key requirements for EVE are to 
-measure the solar EUV irradiance spectrum with 0.1 nm 
-spectral resolution and with 20 sec cadence. These drive the 
-EVE design to include grating spectrographs with array 
-detectors so that all EUV wavelengths can be measured 
-simultaneously. Another key requirement for EVE is to 
-measure the EUV radiation with an accuracy of 25% or better, 
-thus on-board calibration channels are included to go with 
-underflight calibration experiments to be conducted during 
+ExtremeUltraviolet Variability Experiment) measures the solar
+extreme ultraviolet irradiance variations based on the Sun's
+magnetic features. With improved spectral resolution,
+temporal cadence, accuracy, and precision, data will
+supersede measurements made by TIMED SEE, SOHO and SORCE XPS.
+It helps scientists to understand the Sun's role in driving
+the outer atmosphere of Earth. The EUV radiation includes
+the 0.1-105 nm range, which provides the majority of the
+energy for heating Earth's thermosphere and creating Earth's
+ionosphere. This wide spectral range requires the use of
+multiple channels. Some key requirements for EVE are to
+measure the solar EUV irradiance spectrum with 0.1 nm
+spectral resolution and with 20 sec cadence. These drive the
+EVE design to include grating spectrographs with array
+detectors so that all EUV wavelengths can be measured
+simultaneously. Another key requirement for EVE is to
+measure the EUV radiation with an accuracy of 25% or better,
+thus on-board calibration channels are included to go with
+underflight calibration experiments to be conducted during
 the SDO mission.
 
-The EVE instrument is a fairly large instrument with its 
-size being 100 cm (39") long by 61 cm (24") wide by 36 cm 
-(14") high and weighing 61 kg (135 lbs). Its average power 
-is 60 Watts, but can peak up to 137 Watts. The engineering 
-data are output at a low rate of 2 kilobits per sec (kbps), 
-but the science data rate is at 7 megabits per sec (Mbps) 
+The EVE instrument is a fairly large instrument with its
+size being 100 cm (39") long by 61 cm (24") wide by 36 cm
+(14") high and weighing 61 kg (135 lbs). Its average power
+is 60 Watts, but can peak up to 137 Watts. The engineering
+data are output at a low rate of 2 kilobits per sec (kbps),
+but the science data rate is at 7 megabits per sec (Mbps)
 in order to download both MEGS CCD images every 10 seconds.
 
 There are three instrument subsystems, MEGS, ESP, and EEB:
 
-1. MEGS (Multiple Euv Grating Spectrograph): set of 2 
-Rowland-circle grating spectrographs that measure the 
-5-105 nm spectral irradiance with 0.1 nm spectral 
-resolution and with 10-second cadence. Each spectrograph 
-uses a back-illuminated 2048 x 1024 CCD camera from MIT 
-Lincoln Laboratory. The CCD Electronics Box (CEB) is also 
-part of MEGS. MEGS has 4 channels: MEGS-A: grazing incidence 
-grating spectrograph for 5 nm to 37 nm range; MEGS-B: double 
-normal-incidence grating spectrograph for 35 nm to 105 nm; 
-MEGS-SAM: pinhole camera used with MEGS-A CCD to measure 
-individual X-ray photons in the 0.1 nm to 7 nm range; 
-MEGS-P: photodiode used with the first grating in MEGS-B 
+1. MEGS (Multiple Euv Grating Spectrograph): set of 2
+Rowland-circle grating spectrographs that measure the
+5-105 nm spectral irradiance with 0.1 nm spectral
+resolution and with 10-second cadence. Each spectrograph
+uses a back-illuminated 2048 x 1024 CCD camera from MIT
+Lincoln Laboratory. The CCD Electronics Box (CEB) is also
+part of MEGS. MEGS has 4 channels: MEGS-A: grazing incidence
+grating spectrograph for 5 nm to 37 nm range; MEGS-B: double
+normal-incidence grating spectrograph for 35 nm to 105 nm;
+MEGS-SAM: pinhole camera used with MEGS-A CCD to measure
+individual X-ray photons in the 0.1 nm to 7 nm range;
+MEGS-P: photodiode used with the first grating in MEGS-B
 to measure the bright H I Lyman-alpha emission
 
-2. ESP (Euv SpectroPhotometer): transmission grating 
-spectrograph that measures 4 bands in the 17-38 nm range 
-and also 0.1-7 nm in zeroth order. ESP provides calibrations 
-for MEGS sensitivity changes and higher time cadence 
-(0.25-second). The ESP is very similar to the SOHO SEM 
+2. ESP (Euv SpectroPhotometer): transmission grating
+spectrograph that measures 4 bands in the 17-38 nm range
+and also 0.1-7 nm in zeroth order. ESP provides calibrations
+for MEGS sensitivity changes and higher time cadence
+(0.25-second). The ESP is very similar to the SOHO SEM
 instrument.
 
-3. EEB (EVE Electronics Box): electronics that control the 
-MEGS and ESP instruments and provides an interface to/from 
+3. EEB (EVE Electronics Box): electronics that control the
+MEGS and ESP instruments and provides an interface to/from
 the SDO spacecraft.
 </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Thomas.N.Woods</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>EVE web site at LASP</Name>
-        <URL>http://lasp.colorado.edu/eve/</URL>
-      </InformationURL>
-    </ResourceHeader>
+        <URL>http://lasp.colorado.edu/home/eve/</URL>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Spectrometer</InstrumentType>
     <InvestigationName>EVE</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/SDO</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

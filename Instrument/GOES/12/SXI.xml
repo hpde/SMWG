@@ -5,25 +5,25 @@
     <ResourceID>spase://SMWG/Instrument/GOES/12/SXI</ResourceID>
     <ResourceHeader>
       <ResourceName>GOES 12 Solar X-Ray Imager</ResourceName>
-      <ReleaseDate>2011-06-03T20:40:22Z</ReleaseDate>
-      <Description>The GOES-12 Solar X-ray Imager (SXI) is a broadband 
-imager operating in the 0.6-6.0 nm bandpass. It has a full width at 
-half maximum (FWHM) of ~10 arcsec sampled with 5 arcsec pixels in a 
-512x512 array. It provide full-disk solar images at a 1-minute cadence 
-around the clock, except for brief periods during orbital eclipse 
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The GOES-12 Solar X-ray Imager (SXI) is a broadband
+imager operating in the 0.6-6.0 nm bandpass. It has a full width at
+half maximum (FWHM) of ~10 arcsec sampled with 5 arcsec pixels in a
+512x512 array. It provide full-disk solar images at a 1-minute cadence
+around the clock, except for brief periods during orbital eclipse
 seasons.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Instrument description</Name>
-        <URL>http://rsd.gsfc.nasa.gov/goes/text/databook/section06.pdf</URL>
-      </InformationURL>
+        <URL>https://sxi.ngdc.noaa.gov/images/section06.pdf</URL>
+</InformationURL>
       <PriorID>spase://SMWG/Instrument/GOES12/SXI</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>GOES 12 SXI</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/GOES/12</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

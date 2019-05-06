@@ -6,54 +6,54 @@
       <ResourceHeader>
          <ResourceName>Ephemeris</ResourceName>
          <AlternateName>Positions</AlternateName>
-         <ReleaseDate>2019-03-18T08:33:32.000</ReleaseDate>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>Parker Solar Probe Spacecraft Ephemeris</Description>
          <Acknowledgement>Please acknowledge the National Aeronautics and Space Administration, NASA</Acknowledgement>
          <PublicationInfo>
             <Authors>N.J. Fox, M.C. Velli, S.D. Bale, R. Decker, A. Driesman, R.A. Howard, J.C. Kasper, J. Kinnison, M. Kusterer, D. Lario, M.K. Lockwood, D.J. McComas, N.E. Raouafi, and A. Szabo</Authors>
             <PublicationDate>2015-11-11T00:00:00</PublicationDate>
             <PublishedBy>Space Science Reviews</PublishedBy>
-         </PublicationInfo>
+</PublicationInfo>
          <Funding>
             <Agency>National Aeronautics and Space Administration, Living With a Star, LWS, Program</Agency>
             <Project>Parker Solar Probe Mission</Project>
             <AwardNumber>NNN06AA01C</AwardNumber>
-         </Funding>
+</Funding>
          <Contact>
             <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>Parker Solar Probe Mission Web Page, JPL</Name>
             <URL>http://parkersolarprobe.jhuapl.edu/</URL>
             <Description>Parker Solar Probe Mission Web Page, NASA Jet Propulsion Laboratory, JPL</Description>
-         </InformationURL>
+</InformationURL>
          <InformationURL>
             <Name>Parker Solar Probe Mission Web Page, NASA</Name>
-            <URL>https://www.nasa.gov/content/goddard/parker-solar-probe</URL>
+            <URL>https://www.nasa.gov/content/goddard/parker-solar-probe/</URL>
             <Description>Additional information on the Parker Solar Probe</Description>
-         </InformationURL>
+</InformationURL>
          <InformationURL>
             <Name>Parker Solar Probe Spacecraft, NSSDC Master Catalog Listing</Name>
             <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2018-065A</URL>
             <Description>NSSDC Master Catalog Listing for the Parker Solar Probe Spacecraft, NSSDCA/COSPAR ID: 2018-065A</Description>
-         </InformationURL>
+</InformationURL>
          <InformationURL>
             <Name>Parker Solar Probe Mission Space Science Review Article</Name>
-            <URL>https://doi.org/10.1007/s11214-015-0211-6</URL>
+            <URL>https://link.springer.com/article/10.1007%2Fs11214-015-0211-6</URL>
             <Description>The Solar Probe Plus Mission: Humanity&apos;s First Visit to Our Star. Space Sci Rev, 204(1-4), 7-48, 2016.</Description>
-         </InformationURL>
-      </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
       <InstrumentType>Platform</InstrumentType>
       <InvestigationName>Parker Solar Probe Spacecraft Ephemeris</InvestigationName>
       <OperatingSpan>
          <StartDate>2018-08-12T07:31:00</StartDate>
          <Note>Parker Solar Probe Launch Date and Time until data are available</Note>
-      </OperatingSpan>
+</OperatingSpan>
       <ObservatoryID>spase://SMWG/Observatory/ParkerSolarProbe</ObservatoryID>
-   </Instrument>
+</Instrument>
 </Spase>

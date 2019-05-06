@@ -8,33 +8,33 @@
       <AlternateName>Oersted</AlternateName>
       <AlternateName>Orsted</AlternateName>
       <AlternateName>NSSDC ID: 1999-008B</AlternateName>
-      <ReleaseDate>2014-07-24T20:37:14Z</ReleaseDate>
-			<Description>Oersted is a European satellite.  The spacecraft primary science objectives were to perform highly accurate and sensitive measurements of the geomagnetic field and to perform global monitoring of the high energy charged particle environment. The principal research topics were in two areas: (1) studies of the generation of the magnetic field in the fluid core and the magnetic and electrical properties of the solid earth; and (2) studies of earth's magnetic field as the controlling parameter of the magnetosphere and of all the physical processes that take place in the earth's plasma environment, including phenomena like aurora and magnetic storms. </Description>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+   <Description>Oersted is a European satellite.  The spacecraft primary science objectives were to perform highly accurate and sensitive measurements of the geomagnetic field and to perform global monitoring of the high energy charged particle environment. The principal research topics were in two areas: (1) studies of the generation of the magnetic field in the fluid core and the magnetic and electrical properties of the solid earth; and (2) studies of earth's magnetic field as the controlling parameter of the magnetosphere and of all the physical processes that take place in the earth's plasma environment, including phenomena like aurora and magnetic storms.</Description>
       <Acknowledgement>Dr. Torsten Neubert; The European Space Agency; Danish Meteorological Institute (Denmark); Danish Ministry of Commerce (Denmark); Danish Ministry of Transportation (Denmark); Centre National d'Etudes Spatiales (France); National Aeronautics and Space Administration (United States); Danish Ministry of Science (Denmark); Danish Space Research Institute (Denmark)</Acknowledgement>
       <Contact>
          <PersonID>spase://SMWG/Person/Torsten.Neubert</PersonID>
          <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <InformationURL>
          <Name>NSSDC's Master Catalog</Name>
-         <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1999-008B</URL>
+         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1999-008B</URL>
          <Description>Information about the Oersted mission</Description>
          <Language>EN</Language>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
          <Name>The Ørsted Satellite Project</Name>
-        <URL>http://www.space.dtu.dk/english/Research/Projects/Oersted</URL>
+        <URL>https://www.space.dtu.dk/english/research/projects/project-descriptions/oersted</URL>
          <Description>Information about the Oersted project</Description>
          <Language>EN</Language>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <Location>
        <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
-    </Location>
+</Location>
     <OperatingSpan>
-    	 <StartDate>1999-02-23T10:29:55</StartDate>
-    	 <Note>It is not clear if this mission is still active.</Note>
-    </OperatingSpan>
-  </Observatory>
+      <StartDate>1999-02-23T10:29:55</StartDate>
+      <Note>It is not clear if this mission is still active.</Note>
+</OperatingSpan>
+</Observatory>
 </Spase>
-  	  	
+     

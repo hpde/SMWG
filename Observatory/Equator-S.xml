@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
   <Version>2.2.2</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Equator-S</ResourceID>
     <ResourceHeader>
       <ResourceName>Equator-S</ResourceName>
-      <AlternateName>ISTP/Equator-S</AlternateName> 
-      <AlternateName>25068</AlternateName>	  
-      <ReleaseDate>2009-03-04T00:00:00Z</ReleaseDate>
-      <Description>Equator-S is an element of the International Solar-Terrestrial Physics (ISTP) program. Spacecraft design, manufacturing and 
-        testing were provided by the Max-Planck-Institut fur Extraterrestrische Physik (MPE). The project was financially supported by DARA 
-        (Deutsche Agentur fur Raumfahrt Angelegenheiten). Some assistance and in-kind contributions were received from ESA/ESTEC and NASA. 
-        Mission analysis and operations are the responsibility of the German Space Operations Center (GSOC) of the DLR. The spacecraft was 
-        launched December 2, 1997, as a secondary payload on an Ariane IV vehicle from Kourou (French Guiana). Equator-S is different from 
-        NASA's ISTP/EQUATOR spacecraft, which was dropped when the ISTP mission was re-scoped in late 1989.  
-		
-		The Equator-S objectives are to 
-        provide high-resolution plasma, magnetic, and electric field measurements in several regions not adequately covered by the existing 
-        ISTP missions, namely the low-latitude dayside magnetopause and its boundary layer, the equatorial ring current region, and the near-earth 
-        equatorial plasma sheet. These regions play key roles for our understanding of the global perspective of solar-terrestrial relations as 
-        well as the detailed plasmaphysical processes. 
-		
-		The orbit is near-equatorial, with 500 km perigee altitude and 11 Re geocentric apogee 
-        distance. The payload consists of seven scientific instruments provided by international groups to study the solar wind and charged 
-        particles trapped in the earth's magnetosphere. For reasons of cost and schedule, these instruments are largely derived from engineering 
-        or spare units from other ISTP missions. Innovative sub-systems for solar power and orbit measurement are tested on Equator-S for the 
-        benefit of future spacecraft designs. Furthermore, some technological experiments have been added that exploit the hard radiation 
-        environment of the Equator-S orbit or make use of its orbital features. These include a GaAs solar cell to check on temperature and 
-        I/V - characteristics, and degradation by radiation; and a GPS receiver to study the GPS capabilities as a function of spacecraft 
+      <AlternateName>ISTP/Equator-S</AlternateName>
+      <AlternateName>25068</AlternateName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>Equator-S is an element of the International Solar-Terrestrial Physics (ISTP) program. Spacecraft design, manufacturing and
+        testing were provided by the Max-Planck-Institut fur Extraterrestrische Physik (MPE). The project was financially supported by DARA
+        (Deutsche Agentur fur Raumfahrt Angelegenheiten). Some assistance and in-kind contributions were received from ESA/ESTEC and NASA.
+        Mission analysis and operations are the responsibility of the German Space Operations Center (GSOC) of the DLR. The spacecraft was
+        launched December 2, 1997, as a secondary payload on an Ariane IV vehicle from Kourou (French Guiana). Equator-S is different from
+        NASA's ISTP/EQUATOR spacecraft, which was dropped when the ISTP mission was re-scoped in late 1989. 
+ 
+  The Equator-S objectives are to
+        provide high-resolution plasma, magnetic, and electric field measurements in several regions not adequately covered by the existing
+        ISTP missions, namely the low-latitude dayside magnetopause and its boundary layer, the equatorial ring current region, and the near-earth
+        equatorial plasma sheet. These regions play key roles for our understanding of the global perspective of solar-terrestrial relations as
+        well as the detailed plasmaphysical processes.
+ 
+  The orbit is near-equatorial, with 500 km perigee altitude and 11 Re geocentric apogee
+        distance. The payload consists of seven scientific instruments provided by international groups to study the solar wind and charged
+        particles trapped in the earth's magnetosphere. For reasons of cost and schedule, these instruments are largely derived from engineering
+        or spare units from other ISTP missions. Innovative sub-systems for solar power and orbit measurement are tested on Equator-S for the
+        benefit of future spacecraft designs. Furthermore, some technological experiments have been added that exploit the hard radiation
+        environment of the Equator-S orbit or make use of its orbital features. These include a GaAs solar cell to check on temperature and
+        I/V - characteristics, and degradation by radiation; and a GPS receiver to study the GPS capabilities as a function of spacecraft
         altitude. There is also a mass memory of 192 MBytes of CMOS RAM for temporary data storage.
 
-        The rapid spacecraft spin rate (60 rpm) allows unprecedented high temporal resolution of the measurements. At the regular telemetry 
-        contact with the Weilheim ground-station on 1 May 1998, EQUATOR-S stopped sending data, although the TM-signal was unchanged. 
-        This is attributed to a failure of the redundant processor, similar to the failure of the first processor on 17 December 1997. 
-        All attempts to command the spacecraft failed. However, GSOC will continue this effort. If a latch-up caused by penetrating particle 
-        radiation was the cause of the failure, there is hope that it may heal itself upon the next eclipse (August 1998) because of the complete 
-        temporary switch-off of the electrical system.      
-      </Description>
+        The rapid spacecraft spin rate (60 rpm) allows unprecedented high temporal resolution of the measurements. At the regular telemetry
+        contact with the Weilheim ground-station on 1 May 1998, EQUATOR-S stopped sending data, although the TM-signal was unchanged.
+        This is attributed to a failure of the redundant processor, similar to the failure of the first processor on 17 December 1997.
+        All attempts to command the spacecraft failed. However, GSOC will continue this effort. If a latch-up caused by penetrating particle
+        radiation was the cause of the failure, there is hope that it may heal itself upon the next eclipse (August 1998) because of the complete
+        temporary switch-off of the electrical system.     
+</Description>
       <Contact>
-        <PersonID>spase://SMWG/Person/Roy.B.Torbert</PersonID> 
-        <Role>PrincipalInvestigator</Role>  				 
-      </Contact>
+        <PersonID>spase://SMWG/Person/Roy.B.Torbert</PersonID>
+        <Role>PrincipalInvestigator</Role>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1997-075B</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1997-075B</URL>
         <Description>Information about the Equator-S mission</Description>
-      </InformationURL>
-	  <InformationURL>
+</InformationURL>
+   <InformationURL>
         <Name>Equator-S Overview Homepage</Name>
-        <URL>http://www2011.mpe.mpg.de/plasma/EQS/eq-s-home.html</URL>
+        <URL>http://www.mpe.mpg.de/35012/Equator-S</URL>
         <Description>Detailed information about the Equator-S mission.</Description>
-	  </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <Location>
-    <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>   
-    </Location>
-  </Observatory>
+    <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+</Location>
+</Observatory>
 </Spase>

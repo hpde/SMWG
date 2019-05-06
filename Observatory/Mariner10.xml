@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Observatory>
         <ResourceID>spase://SMWG/Observatory/Mariner10</ResourceID>
         <ResourceHeader>
             <ResourceName>Mariner 10</ResourceName>
-            <ReleaseDate>2012-04-11T00:00:00Z</ReleaseDate>
-            <Description> Mariner 10 was the seventh successful launch in the Mariner series, the first spacecraft to use the gravitational pull 
-                of one planet (Venus) to reach another (Mercury), and the first spacecraft mission to visit two planets. Mariner 10 was the first 
-                (and as of 2003 the only) spacecraft to visit Mercury. The spacecraft flew by Mercury three times in a retrograde heliocentric 
-                orbit and returned images and data on the planet. Mariner 10 returned the first-ever close-up images of Venus and Mercury. The 
-                primary scientific objectives of the mission were to measure Mercury's environment, atmosphere, surface, and body characteristics 
-                and to make similar investigations of Venus. Secondary objectives were to perform experiments in the interplanetary medium and to 
-                obtain experience with a dual-planet gravity-assist mission. The spacecraft structure was an eight-sided forger magnesium framework 
-                with eight electronics compartments. It measured 1.39 m diagonally and 0.457 m in depth. Two solar panels, each 2.69 m long and 0.97 
-                m wide, were attached at the top, supporting 5.1 sq m of solar cell area. Fully deployed the spacecraft measured 8.0 m across the 
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+            <Description>Mariner 10 was the seventh successful launch in the Mariner series, the first spacecraft to use the gravitational pull
+                of one planet (Venus) to reach another (Mercury), and the first spacecraft mission to visit two planets. Mariner 10 was the first
+                (and as of 2003 the only) spacecraft to visit Mercury. The spacecraft flew by Mercury three times in a retrograde heliocentric
+                orbit and returned images and data on the planet. Mariner 10 returned the first-ever close-up images of Venus and Mercury. The
+                primary scientific objectives of the mission were to measure Mercury's environment, atmosphere, surface, and body characteristics
+                and to make similar investigations of Venus. Secondary objectives were to perform experiments in the interplanetary medium and to
+                obtain experience with a dual-planet gravity-assist mission. The spacecraft structure was an eight-sided forger magnesium framework
+                with eight electronics compartments. It measured 1.39 m diagonally and 0.457 m in depth. Two solar panels, each 2.69 m long and 0.97
+                m wide, were attached at the top, supporting 5.1 sq m of solar cell area. Fully deployed the spacecraft measured 8.0 m across the
                 solar panels and 3.7 m from the top of the low-gain antenna to the bottom of the heat-shield. A scan platform with two degrees of
-                freedom was mounted on the anti-sunward face. A 5.8 m long hinged magnetometer boom extended from one of the octagonal sides of the 
-                body. Total launch mass was 502.9 kg, of this 29 kg were propellant and attitude control gas. The total mass of instruments onboard 
-                was 79.4 kg. The rocket engine was a 222-N liquid monopropellant hydrazine motor situated below a spherical propellant tank which was 
-                mounted in the center of the framework. The nozzle protruded through a sunshade. Two sets of three pairs of orthogonal reaction 
+                freedom was mounted on the anti-sunward face. A 5.8 m long hinged magnetometer boom extended from one of the octagonal sides of the
+                body. Total launch mass was 502.9 kg, of this 29 kg were propellant and attitude control gas. The total mass of instruments onboard
+                was 79.4 kg. The rocket engine was a 222-N liquid monopropellant hydrazine motor situated below a spherical propellant tank which was
+                mounted in the center of the framework. The nozzle protruded through a sunshade. Two sets of three pairs of orthogonal reaction
                 nitrogen gas jets, mounted on the tips of the solar panels, were used to stabilize the spacecraft on three axes. Command and control
-                were the responsibility of an on-board computer with a 512 word memory augmented by ground commands Mariner 10 carried a motor driven 
-                high-gain dish antenna, a 1.37 m diameter aluminum honeycomb-disk parabolic reflector, which was mounted on a boom on the side of the 
-                spacecraft. A low-gain omnidirectional antenna was mounted at the end of a 2.85 m boom extending from the anti-solar face of the 
-                spacecraft. Feeds enabled the spacecraft to transmit at S- and X-band frequencies, data could be transmitted at a maximum rate of 
-                117.6 kilobits per second. The spacecraft carried a Canopus star tracker, located on the upper ring structure of the octagonal 
-                satellite, and acquisition sun sensors on the tips of the solar panels. The interior of the spacecraft was insulated with multilayer 
-                thermal blankets at top and bottom. The sunshade was deployed after launch to protect the spacecraft on the solar-oriented side. 
-                Louvered sides on five of the eight electronics compartments also helped control the interior temperatures. Instruments on-board the 
-                spacecraft measured the atmospheric, surface, and physical characteristics of Mercury and Venus. Experiments included television 
-                photography, magnetic field, plasma, infrared radiometry, ultraviolet spectroscopy, and radio science detectors. An experimental 
-                X-band, high-frequency transmitter was flown for the first time on this spacecraft. Mariner 10 was placed in a parking orbit after 
-                launch for approximately 25 minutes, then placed in orbit around the Sun en route to Venus. The orbit direction was opposite to the 
-                motion of the Earth around the Sun. Mid-course corrections were made. The spacecraft passed Venus on February 5, 1974, at a distance 
-                of 4200 km. It crossed the orbit of Mercury on March 29, 1974, at 2046 UT, at a distance of about 704 km from the surface. The TV and 
-                UV experiments were turned on the comet Kohoutek while the spacecraft was on the way to Venus. A second encounter with Mercury, when 
-                more photographs were taken, occurred on September 21, 1974, at an altitude of about 47,000 km. A third and last Mercury encounter at 
-                an altitude of 327 km, with additional photography of about 300 photographs and magnetic field measurements occurred on March 16, 
-                1975. Engineering tests were continued until March 24, 1975, when the supply of attitude-control gas was depleted and the mission 
-                was terminated. Total research, development, launch, and support costs for the Mariner series of spacecraft (Mariners 1 through 10) 
-                was approximately $554 million. A back-up probe named Mariner-K was built and stood ready on a "borrowed" Atlas Centaur launch 
-                vehicle, in case the Mariner 10 launch failed. This probe was later donated to the Smithsonian and the launch vehicle was used for 
+                were the responsibility of an on-board computer with a 512 word memory augmented by ground commands Mariner 10 carried a motor driven
+                high-gain dish antenna, a 1.37 m diameter aluminum honeycomb-disk parabolic reflector, which was mounted on a boom on the side of the
+                spacecraft. A low-gain omnidirectional antenna was mounted at the end of a 2.85 m boom extending from the anti-solar face of the
+                spacecraft. Feeds enabled the spacecraft to transmit at S- and X-band frequencies, data could be transmitted at a maximum rate of
+                117.6 kilobits per second. The spacecraft carried a Canopus star tracker, located on the upper ring structure of the octagonal
+                satellite, and acquisition sun sensors on the tips of the solar panels. The interior of the spacecraft was insulated with multilayer
+                thermal blankets at top and bottom. The sunshade was deployed after launch to protect the spacecraft on the solar-oriented side.
+                Louvered sides on five of the eight electronics compartments also helped control the interior temperatures. Instruments on-board the
+                spacecraft measured the atmospheric, surface, and physical characteristics of Mercury and Venus. Experiments included television
+                photography, magnetic field, plasma, infrared radiometry, ultraviolet spectroscopy, and radio science detectors. An experimental
+                X-band, high-frequency transmitter was flown for the first time on this spacecraft. Mariner 10 was placed in a parking orbit after
+                launch for approximately 25 minutes, then placed in orbit around the Sun en route to Venus. The orbit direction was opposite to the
+                motion of the Earth around the Sun. Mid-course corrections were made. The spacecraft passed Venus on February 5, 1974, at a distance
+                of 4200 km. It crossed the orbit of Mercury on March 29, 1974, at 2046 UT, at a distance of about 704 km from the surface. The TV and
+                UV experiments were turned on the comet Kohoutek while the spacecraft was on the way to Venus. A second encounter with Mercury, when
+                more photographs were taken, occurred on September 21, 1974, at an altitude of about 47,000 km. A third and last Mercury encounter at
+                an altitude of 327 km, with additional photography of about 300 photographs and magnetic field measurements occurred on March 16,
+                1975. Engineering tests were continued until March 24, 1975, when the supply of attitude-control gas was depleted and the mission
+                was terminated. Total research, development, launch, and support costs for the Mariner series of spacecraft (Mariners 1 through 10)
+                was approximately $554 million. A back-up probe named Mariner-K was built and stood ready on a "borrowed" Atlas Centaur launch
+                vehicle, in case the Mariner 10 launch failed. This probe was later donated to the Smithsonian and the launch vehicle was used for
                 it's original purpose.
-            </Description>
+</Description>
             <Contact>
-                <PersonID>spase://SMWG/Person/Stephen.E.Dwornik</PersonID>  
+                <PersonID>spase://SMWG/Person/Stephen.E.Dwornik</PersonID>
                 <Role>Scientist</Role>
-            </Contact> 
+</Contact>
             <InformationURL>
                 <Name>NSSDC's Master Catalog</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1973-085A</URL>
+                <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1973-085A</URL>
                 <Description>Information about Mariner 10 spacecraft</Description>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
         <Location>
             <ObservatoryRegion>Heliosphere.Inner</ObservatoryRegion>
             <ObservatoryRegion>Mercury</ObservatoryRegion>
             <ObservatoryRegion>Venus</ObservatoryRegion>
-        </Location>
-    </Observatory>
+</Location>
+</Observatory>
 </Spase>

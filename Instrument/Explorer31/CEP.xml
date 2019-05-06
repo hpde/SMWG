@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/Explorer31/CEP</ResourceID>
     <ResourceHeader>
       <ResourceName>Cylindrical Electrostatic Probes</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:13Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The cylindrical electrostatic probes were used to measure electron temperature and density in the ionosphere. Each sensor was basically a Langmuir probe consisting of a collector electrode extending from the central axis of a cylindrical guard ring. The guard rings extended 23 cm from the spacecraft and the collector electrode extended 46 cm. The two sensors were mounted on opposite sides of the spacecraft, and were perpendicular to the spin axis and in the orbit plane. Data sets are no longer available from this experiment.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Larry.H.Brace</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1965-098B&amp;ex=2</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1965-098B&amp;ex=2</URL>
         <Description>Information about the Cylindrical Electrostatic Probes experiment on the DME-A mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>LangmuirProbe</InstrumentType>
     <InvestigationName>Cylindrical Electrostatic Probes on DME-A</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Explorer31</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

@@ -5,27 +5,27 @@
     <ResourceID>spase://SMWG/Observatory/SOLIS</ResourceID>
     <ResourceHeader>
       <ResourceName>SOLIS</ResourceName>
-      <ReleaseDate>2010-08-05T18:19:16Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Synoptic Optical Long-term Investigations of the Sun (SOLIS)
 is a facility at Kitt Peak funded by NSF and designed and built by the National
-Solar Observatory.  It is intended to acquire a multi-decadal (&gt;~25 years) data 
-base for studies of the solar activity cycle, sudden energy releases in the solar 
+Solar Observatory.  It is intended to acquire a multi-decadal (&gt;~25 years) data
+base for studies of the solar activity cycle, sudden energy releases in the solar
 atmosphere, and solar irradiance changes.  It has three primary instruments,
-a vector spectromagnetograph (VSM), a full disk patrol (FDP) and an Integrated 
-Sunlight Spectrometer.  Data are available between August, 2003 and a few days 
+a vector spectromagnetograph (VSM), a full disk patrol (FDP) and an Integrated
+Sunlight Spectrometer.  Data are available between August, 2003 and a few days
 ago.  Both synoptic and user-driven observations are made.
 </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/John.W.Harvey</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>SOLIS web page at the National Solar Observatory</Name>
-        <URL>http://solis.nso.edu/aboutsolis.html</URL>
-      </InformationURL>
-    </ResourceHeader>
+        <URL>https://solis.nso.edu/0/index.html</URL>
+</InformationURL>
+</ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

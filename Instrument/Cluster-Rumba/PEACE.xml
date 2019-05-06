@@ -5,26 +5,26 @@
     <ResourceHeader>
       <ResourceName>Plasma Electron and Current Experiment (PEACE)</ResourceName>
       <AlternateName>PEACE</AlternateName>
-      <ReleaseDate>2011-02-04T15:37:46Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The primary task of this instrument (PEACE: Plasma Electrons and Currents Experiment) is to obtain the velocity moments of the distribution function of electrons as frequently and as accurately as the spacecraft telemetry will allow. Detector counts are collected in energy, polar-angle, and azimuth-angle bins to form a three-dimensional matrix. Two sensors are used: LEEA (low-energy electron analyzer) and HEEA (high-energy electron analyzer). The energy coverage is from 0.67 eV to 30 KeV in 92 levels. The first 16 levels are equally spaced linearly up to 10.7 eV; the remainder are logarithmically spaced. Both sensors can use the full range, but the HEEA will normally operate over a higher energy range than the LEEA. The LEEA specializes in coverage of the energies from 0.7--10 eV, and has a geometric factor one fifth that of the HEAA. Both sensors consist of hemispherical electrostatic analyzers of the top-hat type and a detector in the form of an annular micro-channel plate with a position-sensitive readout. Each sensor covers the range 0--180 degrees with respect to the spin axis, and they are mounted opposite each other with a view perpendicular to the spin axis, thus covering the complete angular range in a half rotation of the spacecraft. The field of view perpendicular to the fan is 2 degrees for the LEEA and 5.6 degrees for the HEEA. Energy resolution (Delta-E)/E is 0.13 for LEEA and 0.16 for HEEA. There are four sweep modes, synchronized to the spin period (4 s), to vary the azimuthal angular resolution. The spin phasing can be made coincident with that of the CIS instrument, to ensure that the electron and ion moments will be measured simultaneously. On-board processing is used to calculate the moments of the distribution with an accuracy of 1% and to select suitable parts of the complete distribution for transmission. The normal science data format is based on one spin period, and consists of core data followed by other optional distributions as can be fit into the available telemetry for that spin. The core data (moments, spacecraft potential, and pitch angle distribution) are always transmitted (if the spin is nominal). The next distribution is transmitted if, before the end of the spin, all the previous data have been sent. Thus the next spin of data will be transmitted slightly late, but all of its core data will be transmitted before the following spin of data is started on. Eventually the transmission will catch up and be able to transmit the distribution after the core again, but only after some time. This applies at all telemetry rates. The instrument can adapt automatically to six different telemetry rates: a basic 1.52 Kbps rate (CIS priority); a normal 2.52 Kbps rate; an enhanced PEACE priority rate of 3.54 Kbps; and three burst mode rates, with a maximum of 15.98 Kbps. For more details of the Cluster mission, the spacecraft, and its instruments, see the report ``Cluster: mission, payload and supporting activities,&apos;&apos; March 1993, ESA SP-1159, and the included article ``PEACE: a Plasma Electron and Current Experiment,&apos;&apos; by A. D. Johnstone et al., from which this information was obtained.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Andrew.N.Fazakerley</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC&apos;s Master Catalog</Name>
-        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-05</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045A-05</URL>
         <Description>Information about the Plasma Electron and Current Experiment (PEACE) experiment on the Cluster 2/FM5 (Rumba) mission.</Description>
-      </InformationURL>
-	  <InformationURL>
+</InformationURL>
+   <InformationURL>
         <Name>Space Science Reviews Journal Article</Name>
         <URL>https://link.springer.com/chapter/10.1007/978-94-011-5666-0_13</URL>
         <Description>Detailed information about the Plasma Electron and Current Experiment (PEACE) experiment.</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://SMWG/Instrument/Cluster2-Rumba/PEACE</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Plasma Electron and Current Experiment (PEACE) on Cluster 2/FM5 (Rumba)</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Cluster-Rumba</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

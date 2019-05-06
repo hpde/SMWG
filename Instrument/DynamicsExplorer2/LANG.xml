@@ -6,20 +6,20 @@
     <ResourceHeader>
       <ResourceName>Langmuir Probe (LANG)</ResourceName>
       <AlternateName>LANG</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:10Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Langmuir Probe Instrument (LANG) was a cylindrical electrostatic probe that obtained measurements of electron temperature, Te, and electron or ion concentration, Ne or Ni, respectively, and spacecraft potential. Data from this investigation were used to provide temperature and density measurements along magnetic field lines related to thermal energy and particle flows within the magnetosphere-ionosphere system, to provide thermal plasma conditions for wave-particle interactions, and to measure large-scale and fine-structure ionospheric effects of energy deposition in the ionosphere. The Langmuir Probe instrument was identical to that used on the AE satellites and the Pioneer Venus Orbiter. Two independent sensors were connected to individual adaptive sweep voltage circuits which continuously tracked the changing electron temperature and spacecraft potential, while autoranging electrometers adjusted their gain in response to the changing plasma density. The control signals used to achieve this automatic tracking provided a continuous monitor of the ionospheric parameters without telemetering each volt-ampere (V-I) curve. Furthermore, internal data storage circuits permitted high resolution, high data rate sampling of selected V-I curves for transmission to ground to verify or correct the inflight processed data. Time resolution was 0.5 seconds. More details are in J. P. Krehbiel et al., Space Sci. Instrum., v. 5, n. 4, p. 493, 1981.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Larry.H.Brace</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1981-070B&amp;ex=9</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1981-070B&amp;ex=9</URL>
         <Description>Information about the Langmuir Probe (LANG) experiment on the Dynamics Explorer 2 mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>LangmuirProbe</InstrumentType>
     <InvestigationName>Langmuir Probe (LANG) on Dynamics Explorer 2</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/DynamicsExplorer2</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

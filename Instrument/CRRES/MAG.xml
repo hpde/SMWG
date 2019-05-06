@@ -5,24 +5,24 @@
     <ResourceID>spase://SMWG/Instrument/CRRES/MAG</ResourceID>
     <ResourceHeader>
       <ResourceName>Fluxgate Magnetometer</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:11Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The purpose of this experiment was to measure the ambient geomagnetic field and low-frequency variations in that field up to 10 Hz. This measurement was used together with the look angles of the particle experiments (1) to obtain pitch angles of the measured particles, (2) as a diagnostic of global geomagnetic disturbances, (3) as a diagnostic of very low frequency waves in the ambient environment, (4) to provide plasma gyrofrequencies, (5) to measure V x B electric fields, and (6) to provide a secondary source of spacecraft attitude information. Each axis of a triaxial fluxgate magnetometer was sampled 20 times per second in the range of +/- 45,000 nT. The instrument required a large dynamic range to measure fields near perigee where the field was approximately 45,000 nT and in the vicinity of synchronous orbit where the field was approximately 100 nT or less with periodic variations of amplitude down to fractions of 1 nT. Because of the instrument ranges and the 12-bit analog-to-digital converter the least significant bit resolution in each sensor was approximately 20 nT and approximately 0.4 nT at low and high resolutions, respectively. On command, the signal from one axis of the magnetometer could be amplified six times to provide better amplitude resolution at low field strengths near apogee. The improved sensitivity, which permitted the detection of high-frequency, low-amplitude wave signals from this particular axis, was also used to add confidence to the increased accuracy obtained from the other axes by digital averaging. This experiment was part of the SPACERAD project sponsored by AFGL.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Howard.J.Singer</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/E.Gary.Mullen</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1990-065A&amp;ex=19</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1990-065A&amp;ex=19</URL>
         <Description>Information about the Fluxgate Magnetometer experiment on the CRRES mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Fluxgate Magnetometer on CRRES</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/CRRES</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

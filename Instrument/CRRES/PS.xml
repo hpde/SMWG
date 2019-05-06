@@ -5,24 +5,24 @@
     <ResourceID>spase://SMWG/Instrument/CRRES/PS</ResourceID>
     <ResourceHeader>
       <ResourceName>Proton Switch</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:11Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>This experiment consisted of two lithium-drifted silicon detectors which were each centered under a hemispherical aluminum dome. These detectors measured the omnidirectional flux of protons in the energy range 20 - 80 MeV and were made insensitive to electrons by high electronic discriminator thresholds. The main use of this instrument was to signal the spacecraft Data Processing Unit that protons were present so that the telemetry allocations for certain experiments could be changed. This experiment was part of the SPACERAD project sponsored by AFGL.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/J.Bernard.Blake</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/E.Gary.Mullen</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1990-065A&amp;ex=14</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1990-065A&amp;ex=14</URL>
         <Description>Information about the Proton Switch experiment on the CRRES mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Proton Switch on CRRES</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/CRRES</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

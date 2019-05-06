@@ -6,8 +6,8 @@
     <ResourceHeader>
       <ResourceName>Communication/Navigation Outage Forecasting System (C/NOFS)</ResourceName>
       <AlternateName>Coupled Ion Neutral Dynamics Investigation (CINDI)</AlternateName>
-      <ReleaseDate>2010-10-01T20:30:52Z</ReleaseDate>
-      <Description> The Communications/Navigation Outage Forecasting System (C/NOFS) is spacecraft launched April 16, 2008, into an inclined orbit with perigee/apogee of 400/700 km and a 95-minute period to monitor and forecast ionospheric scintillation in real-time and on a global scale. The DOD Space Test Program provides the spacecraft, launch vehicle, launch and first year on-orbit operations. The US Air Force Research Laboratory is responsible for the multi-instrument payload, payload integration and test, model development, data center operations, and product generation and distribution.
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The Communications/Navigation Outage Forecasting System (C/NOFS) is spacecraft launched April 16, 2008, into an inclined orbit with perigee/apogee of 400/700 km and a 95-minute period to monitor and forecast ionospheric scintillation in real-time and on a global scale. The DOD Space Test Program provides the spacecraft, launch vehicle, launch and first year on-orbit operations. The US Air Force Research Laboratory is responsible for the multi-instrument payload, payload integration and test, model development, data center operations, and product generation and distribution.
 
 The C/NOFS carries three types of sensors:
 
@@ -28,25 +28,25 @@ Both the Neutral Wind Meter (NWM) and the Ion Velocity Meter (IVM) are provided 
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.F.Pfaff</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=2008-017A</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2008-017A</URL>
         <Description>Information about the Communication/Navigation Outage Forecasting System</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>US Air Force</Name>
-        <URL>http://www.kirtland.af.mil/About-Us/Fact-Sheets/Display/Article/826040/communicationnavigation-outage-forecasting-system/</URL>
+        <URL>https://www.kirtland.af.mil/About-Us/Fact-Sheets/Display/Article/826040/communicationnavigation-outage-forecasting-system/</URL>
         <Description>Information about the Communication/Navigation Outage Forecasting System</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Journal of Atmospheric and Solar-Terrestrial Physics Article</Name>
-        <URL>https://doi.org/10.1016/j.jastp.2004.07.030</URL>
+        <URL>https://linkinghub.elsevier.com/retrieve/pii/S1364682604001695</URL>
         <Description>Information about the C/NOFS mission</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

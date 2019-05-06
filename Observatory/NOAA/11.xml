@@ -5,25 +5,25 @@
     <ResourceID>spase://SMWG/Observatory/NOAA/11</ResourceID>
     <ResourceHeader>
       <ResourceName>NOAA 11</ResourceName>
-      <ReleaseDate>2011-10-07T18:29:43Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The NOAA 11 spacecraft was launched
 on 1988-09-24 into a ~850 km, 99 deg inclination (sun synchronous)
-orbit.  Principal instruments were the Advanced Very High Resolution 
-Radiometer (AVHRR), TIROS Operational Vertial Sounder (TOVS),  
-and the Solar Backscatter UV Radiometer (SBUV/2).  Data were 
+orbit.  Principal instruments were the Advanced Very High Resolution
+Radiometer (AVHRR), TIROS Operational Vertial Sounder (TOVS), 
+and the Solar Backscatter UV Radiometer (SBUV/2).  Data were
 provided at least until 1992</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Carolyn.Y.Ng</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1988-089A</URL>
-      </InformationURL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1988-089A</URL>
+</InformationURL>
       <PriorID>spase://SMWG/Observatory/NOAA11</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

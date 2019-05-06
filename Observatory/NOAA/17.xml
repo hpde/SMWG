@@ -7,21 +7,21 @@
       <ResourceName>NOAA 17</ResourceName>
       <AlternateName>2002-032A</AlternateName>
       <AlternateName>Advanced TIROS-N (ATN)</AlternateName>
-      <ReleaseDate>2011-10-07T18:29:43Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>NOAA 17 continued the fourth-generation of operational, polar orbiting, meteorological satellite series (NOAA K-N) operated by the National Environmental Satellite Service (NESS) of the National Oceanic and Atmospheric Administration (NOAA). NOAA 16 also continued the series of Advanced TIROS-N (ATN) spacecraft begun with the launch of NOAA-8 (NOAA-E) in 1983 but with additional new and improved instrumentation over the NOAA A-J series and a new launch vehicle (Titan II). NOAA 16 was an afternoon equator-crossing orbit and is intended to replace the NOAA-K as the prime afternoon spacecraft. The goal of the NOAA/NESS polar orbiting program is to provide output products used in meteorological prediction and warning, oceanographic and hydrologic services, and space environment monitoring. The polar orbiting system complements the NOAA/NESS geostationary meteorological satellite program (GOES). The NOAA 16 Advanced TIROS-N spacecraft was based on the Defense Meteorological Satellite Program (DMSP) Block 5D spacecraft and is a modified version of the ATN spacecraft (NOAA 6-16) to accomodate the new instrumentation, supporting antennas and electrical subsystems. The spacecraft structure consisted of four components: (1) the Reaction System Support (RSS); (2) the Equipment Support Module (ESM); (3) the Instrument Mounting Platform (IMP); and (4) the Solar Array (SA). All of the instruments are located on the ESM and the IMP. The spacecraft power was provided by a direct energy transfer system from the single solar array which is comprised of eight panels of solar cells. The in-orbit Attitude Determination and Control Subsystem (ADACS) provided three-axis pointing control by controlling torque in three mutually orthogonal momentum wheels with input from the Earth Sensor Assembly (ESA) for pitch, roll, and yaw updates. The ADACS controled the spacecraft attitude so that orientation of the three axes is maintained to within +/- 0.2 degrees and pitch, roll, and yaw to within 0.1 degree. The ADACS consisted of the Earth Sensor Assembly (ESA), the Sun Sensor Assembly (SSA), four Reaction Wheel Assemblies (RWA), two roll/yaw coils (RYC), two pitch torquing coils (PTC), four gyros, and computer software for data processing. The ATN data handling subsystem consisted of the TIROS Information Processor (TIP) for low data rate instruments, the Manipulated Information Rate Processor (MIRP) for high data rate AVHRR, digital tape recorders (DTR), and a cross strap unit (XSU). The NOAA-M instrument complement consisted of: (1) an improved six-channel Advanced Very High Resolution Radiometer/3 (AVHRR/3); (2) an improved High Resolution Infrared Radiation Sounder (HIRS/3); (3) the Search and Rescue Satellite Aided Tracking System (S&amp;R), which consists of the Search and Rescure Repeater (SARR) and the Search and Rescue Processor (SARP-2); (4) the French/CNES-provided improved ARGOS Data Collection System (DCS-2); (5) the Solar Backscatter Ultraviolet Spectral radiometer (SBUV/2); and (6) the Advanced Microwave Sounding Unit (AMSU), which consisted of three separate modules, A1, A2, and B to replace the previous MSU and SSU instruments.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2002-032A</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2002-032A</URL>
         <Description>Information about the NOAA 17 mission</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://SMWG/Observatory/NOAA17</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

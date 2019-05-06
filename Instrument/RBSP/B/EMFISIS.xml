@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Instrument>
         <ResourceID>spase://SMWG/Instrument/RBSP/B/EMFISIS</ResourceID>
         <ResourceHeader>
             <ResourceName>Electric and Magnetic Field Instrument Suite and Integrated Science (EMFISIS)</ResourceName>
-            <ReleaseDate>2010-08-11T00:00:00</ReleaseDate>
-            <Description>"RBSP-EMFISIS Instrument Suite ... 
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+            <Description>"RBSP-EMFISIS Instrument Suite ...
 
 Tri-axial Magnetometer (MAG)  ... is a tri-axial fluxgate magnetometer: Vector B, DC-15 Hz, 0.1 nT accuracy, three sensors on rigid boom.
 
@@ -34,15 +34,15 @@ WAVES, a tri-axial search coil magnetometer and sweep frequency receiver.
             <Contact>
                 <PersonID>spase://SMWG/Person/Craig.A.Kletzing</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact>
+</Contact>
             <InformationURL>
                 <Name>EMFISIS Web Page</Name>
-                <URL>http://rbsp.jhuapl.edu/spacecraft/instruments/instruments_emfisis.php</URL>
+                <URL>http://vanallenprobes.jhuapl.edu/Spacecraft/index.php#EMFISIS</URL>
                 <Description>EMFISIS Web Page</Description>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
         <InstrumentType>WaveformReceiver</InstrumentType>
         <InvestigationName>Radiation Belt Storm Probe (RBSP) EMFISIS</InvestigationName>
         <ObservatoryID>spase://SMWG/Observatory/RBSP/B</ObservatoryID>
-    </Instrument>
+</Instrument>
 </Spase>

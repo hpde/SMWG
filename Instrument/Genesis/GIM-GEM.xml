@@ -9,7 +9,7 @@
       <AlternateName>Genesis Electron Monitor (GEM)</AlternateName>
       <AlternateName>GIM</AlternateName>
       <AlternateName>GEM</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:02Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>There are two solar wind spectrometers on-board the Genesis spacecraft: the Genesis Ion Monitor (GIM) and the Genesis Electron Monitor (GEM). The primary purpose of these spectrometers is to enable the collection of appropriate samples of the solar wind by the Genesis sample collectors. This involves determining the type of solar wind that is flowing past the spacecraft, adjusting high-voltages in the Concentrator for the current conditions and deploying the appropriate Collector Array for the type of solar wind present, all in realtime. The secondary function of the Monitors is to obtain high-quality solar wind data that can be used for various scientific studies. Interested parties are referred to the detailed instrument description paper by Barraclough et al. (2003), listed on the publications page.
 Genesis Ion Monitor (GIM)
 GIM consists of a 120-degree spherical-section electrostatic analyzer (ESA) followed by an array of eight channel electron multipliers (CEMs) for energy and angle analysis of incoming ions. The ESA is negatively biased by a high-voltage power supply that steps across a number of voltage levels to build up an energy spectrum of the plasma population. The GIM is basically an E/q analyzer but does have a mass analysis capability in this instance due to the similar flow velocities of all ions in the solar wind beam. The energy range of the instrument is ~100 eV to 14 keV, with a resolution of 5.2%, but only a small fraction of this range is used at any one time. Onboard software tracks the solar wind flow speed and autonomously adjusts the energy range that is scanned to keep it centered on the beam.
@@ -20,15 +20,15 @@ Both the GEM and GIM were in continuous operation since shortly after launch in 
       <Contact>
         <PersonID>spase://SMWG/Person/Roger.Wiens</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2001-034A&amp;ex=1</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2001-034A&amp;ex=1</URL>
         <Description>Information about the Genesis Plasma Spectrometers experiment on the Genesis mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Genesis Plasma Spectrometers on Genesis</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Genesis</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

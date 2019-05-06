@@ -5,25 +5,25 @@
     <ResourceID>spase://SMWG/Observatory/IGPPLANL/Table.Mountain</ResourceID>
     <ResourceHeader>
       <ResourceName>IGPP-LANL Table Mountain Magnetometer</ResourceName>
-      <ReleaseDate>2010-09-24T22:10:24Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Table Mountain (TMT) Magnetometer Station is located near Los Angeles, California, USA.</Description>
       <Acknowledgement>The TMT magnetometer is operated by UCLA.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Peter.J.Chi</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>UCLA Ground Magnetometer Data Center</Name>
-        <URL>http://spc.igpp.ucla.edu/uclamag</URL>
+        <URL>http://spc.igpp.ucla.edu/uclamag/</URL>
         <Description>Information about the IGPP-LANL magnetometer array.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/IGPPLANL</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
       <CoordinateSystemName>WGS84</CoordinateSystemName>
       <Latitude>34.38</Latitude>
       <Longitude>-117.67</Longitude>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

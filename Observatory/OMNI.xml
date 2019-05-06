@@ -5,46 +5,46 @@
     <ResourceID>spase://SMWG/Observatory/OMNI</ResourceID>
     <ResourceHeader>
       <ResourceName>OMNI</ResourceName>
-      <ReleaseDate>2011-08-18T15:57:51Z</ReleaseDate>
-      <Description>The OMNI observatory is a virtual observatory representing the collection of spacecraft used in the creation of the OMNI datasets.  
-            The observatories used within the OMNI datasets are ACE, Wind, IMP8, Geotail, GOES and various other spacecraft. For any given time period 
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The OMNI observatory is a virtual observatory representing the collection of spacecraft used in the creation of the OMNI datasets. 
+            The observatories used within the OMNI datasets are ACE, Wind, IMP8, Geotail, GOES and various other spacecraft. For any given time period
             OMNI uses a selection criteria to select the "best" available data to be used.  Thus, a data record may consist of data from multiple
-            observatories.  Without looking at each data record it is not possible to tell which observatories contributed. As result, the OMNI 
-            observatories is used as a proxy for the set of possible contributing observatories. Complete details on the instruments and the 
+            observatories.  Without looking at each data record it is not possible to tell which observatories contributed. As result, the OMNI
+            observatories is used as a proxy for the set of possible contributing observatories. Complete details on the instruments and the
             selection criteria are available at the Information URLs listed below.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Joseph.H.King</PersonID>
         <Role>Scientist</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Overview of High Resolution OMNI</Name>
-        <URL>http://omniweb.gsfc.nasa.gov/html/HROdocum.html</URL>
+        <URL>https://omniweb.gsfc.nasa.gov/html/HROdocum.html</URL>
         <Description>Description of the instruments and processing techniques used in the creation of high resolution OMNI</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Overview of Low Resolution OMNI</Name>
-        <URL>http://omniweb.gsfc.nasa.gov/html/ow_data.html</URL>
+        <URL>https://omniweb.gsfc.nasa.gov/html/ow_data.html</URL>
         <Description>Description of the instruments and processing techniques used in the creation of low resolution OMNI</Description>
-      </InformationURL>
+</InformationURL>
       <Association>
         <AssociationID>spase://SMWG/Observatory/ACE</AssociationID>
         <AssociationType>PartOf</AssociationType>
-      </Association>
+</Association>
       <Association>
         <AssociationID>spase://SMWG/Observatory/Wind</AssociationID>
         <AssociationType>PartOf</AssociationType>
-      </Association>
+</Association>
       <Association>
         <AssociationID>spase://SMWG/Observatory/IMP8</AssociationID>
         <AssociationType>PartOf</AssociationType>
-      </Association>
+</Association>
       <Association>
         <AssociationID>spase://SMWG/Observatory/Geotail</AssociationID>
         <AssociationType>PartOf</AssociationType>
-      </Association>
-    </ResourceHeader>
+</Association>
+</ResourceHeader>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

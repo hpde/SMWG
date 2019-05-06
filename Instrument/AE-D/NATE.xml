@@ -6,43 +6,43 @@
     <ResourceHeader>
       <ResourceName>Neutral Atmosphere Temperature (NATE)</ResourceName>
       <AlternateName>NATE</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
-      <Description>This experiment was designed to measure the kinetic temperature of the neutral atmosphere by 
-	  determining the instantaneous density of molecular nitrogen in a spherical chamber coupled to the 
-	  atmosphere through a knife-edge orifice. Analysis of the measured molecular nitrogen density variation 
-	  over a spin cycle with a knowledge of the satellite's motion and orientation led to a determination of 
-	  the ambient temperature, independent of scale height. The NATE also provided measurements of the neutral 
-	  composition, when commanded into the appropriate mode. In addition, values for the zonal wind were 
-	  obtained, from measurement of the "stream" position relative to the satellite velocity. An alternate 
-	  measurement of neutral temperature also was undertaken, using a baffle inserted in front of the orifice 
-	  to intercept a portion of the gas particle stream entering the chamber. When the satellite was in the 
-	  despun mode, the baffle was made to oscillate in the stepwise fashion in order to interrupt the particle 
-	  stream seen by the orificed chamber. These chamber density variations were interpreted to yield the 
-	  neutral gas kinetic temperature also. A dual-filament ion source sampled the thermalized molecular 
-	  nitrogen in the chamber and produced an ion beam density proportional to the nitrogen chamber density. 
-	  From the source, the ionized beam was directed to a quadrupole analyzer, tuned to pass those particles 
-	  whose mass-to-charge ratio (M/Q) was 28. This ionized nitrogen beam then passed on to an electron 
-	  multiplier. The output pulses were amplified and counted in a 16-bit accumulator. The sensor was 
-	  vacuum-sealed prior to launch and opened to the atmosphere after the spacecraft was in orbit. More 
-	  experiment details can be found in N. W. Spencer et al., Radio Sci., v. 8, n. 4, p. 287, 1973. NSSDC 
-	  has all the useful data that exist from this investigation.</Description>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>This experiment was designed to measure the kinetic temperature of the neutral atmosphere by
+   determining the instantaneous density of molecular nitrogen in a spherical chamber coupled to the
+   atmosphere through a knife-edge orifice. Analysis of the measured molecular nitrogen density variation
+   over a spin cycle with a knowledge of the satellite's motion and orientation led to a determination of
+   the ambient temperature, independent of scale height. The NATE also provided measurements of the neutral
+   composition, when commanded into the appropriate mode. In addition, values for the zonal wind were
+   obtained, from measurement of the "stream" position relative to the satellite velocity. An alternate
+   measurement of neutral temperature also was undertaken, using a baffle inserted in front of the orifice
+   to intercept a portion of the gas particle stream entering the chamber. When the satellite was in the
+   despun mode, the baffle was made to oscillate in the stepwise fashion in order to interrupt the particle
+   stream seen by the orificed chamber. These chamber density variations were interpreted to yield the
+   neutral gas kinetic temperature also. A dual-filament ion source sampled the thermalized molecular
+   nitrogen in the chamber and produced an ion beam density proportional to the nitrogen chamber density.
+   From the source, the ionized beam was directed to a quadrupole analyzer, tuned to pass those particles
+   whose mass-to-charge ratio (M/Q) was 28. This ionized nitrogen beam then passed on to an electron
+   multiplier. The output pulses were amplified and counted in a 16-bit accumulator. The sensor was
+   vacuum-sealed prior to launch and opened to the atmosphere after the spacecraft was in orbit. More
+   experiment details can be found in N. W. Spencer et al., Radio Sci., v. 8, n. 4, p. 287, 1973. NSSDC
+   has all the useful data that exist from this investigation.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Nelson.W.Spencer</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1975-096A-09</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1975-096A-09</URL>
         <Description>Information about the Neutral Atmosphere Temperature (NATE) experiment on the AE-D mission.</Description>
-      </InformationURL>
-	  <InformationURL>
+</InformationURL>
+   <InformationURL>
         <Name>Radio Science Journal Article</Name>
-        <URL>https://doi.org/10.1029/RS008i004p00287</URL>
+        <URL>https://onlinelibrary.wiley.com/doi/abs/10.1029/RS008i004p00287</URL>
         <Description>Detailed information about the Neutral Atmosphere Temperature experiment on the AE-D mission.</Description>
-	  </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Unspecified</InstrumentType>
     <InvestigationName>Neutral Atmosphere Temperature (NATE) on AE-D</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/AE-D</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

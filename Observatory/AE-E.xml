@@ -8,26 +8,26 @@
       <AlternateName>Explorer 55</AlternateName>
       <AlternateName>AE 5</AlternateName>
       <AlternateName>Atmosphere Explorer-E</AlternateName>
-      <ReleaseDate>2010-10-01T20:26:32Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The purpose of the AE-E mission was to investigate the chemical processes and energy transfer mechanisms that control the structure and behavior of the earth&apos;s atmosphere and ionosphere in the region of high absorption of solar energy at low and equatorial latitudes. The simultaneous sampling at higher latitudes was carried out by the AE-D spacecraft until its failure on January 29, 1976, and then by AE-C, until it reentered on December 12, 1978. The same type of spacecraft as AE-C was used, and the payload consisted of the same types of instruments except that the low-energy electron and UV nitric oxide experiments were deleted and a backscatter UV spectrometer was added to monitor the ozone content of the atmosphere. The two experiments that were deleted were more appropriate for the high-latitude regions. The perigee swept through more than six full latitude cycles and two local time cycles during the first year after launch when the orbit was elliptical and the perigee height was varied between 130 and 400 km. The circularization of the orbit around 390 km was made on November 20, 1976 and the spacecraft was raised to this height whenever it would decay to about 250 km. AE-E reentered on June 10, 1981. More details can be found in A. Dalgarno et al., Radio Sci., v. 8, n. 4, p. 263, 1973.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Nelson.W.Spencer</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC&apos;s Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1975-107A</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1975-107A</URL>
         <Description>Information about the AE-E mission</Description>
-      </InformationURL>
-	  <InformationURL>
+</InformationURL>
+   <InformationURL>
         <Name>Radio Science Journal Article</Name>
-        <URL>http://onlinelibrary.wiley.com/doi/10.1029/RS008i004p00263/full</URL>
-		<Description>More detailed information about the AE-E mission</Description>
-      </InformationURL>
-    </ResourceHeader>
+        <URL>https://onlinelibrary.wiley.com/doi/full/10.1029/RS008i004p00263</URL>
+  <Description>More detailed information about the AE-E mission</Description>
+</InformationURL>
+</ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/AE</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

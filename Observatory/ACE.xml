@@ -8,27 +8,27 @@
       <AlternateName>Advanced Composition Explorer</AlternateName>
       <AlternateName>1997-045A</AlternateName>
       <AlternateName>Explorer 71</AlternateName>
-      <ReleaseDate>2010-08-05T18:19:16Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The objective of the Advanced Composition Explorer (ACE) is to collect observations of particles of solar, interplanetary, interstellar, and galactic origins, spanning the energy range from that of KeV solar wind ions to galactic cosmic ray nuclei up to 600 MeV/nucleon. Definitive studies will be made of the abundances of essentially all isotopes from H to Zn (Z = 1-30), with exploratory isotope studies extending to Zr (Z = 40). The ACE payload includes six high resolution spectrometers, each designed to provide the optimum charge, mass, or charge-state resolution in its particular energy range. Each spectrometer has a geometry factor optimized for the expected flux levels, so as to provide a collecting power greater by a factor of 10-1000 times that of previous or planned experiments. The payload also includes three additional instruments of standard design to monitor energetic electrons, H and He ions, and a magnetometer. The ACE spacecraft is based on the design of the Charge Composition Explorer, built at JHU/APL for the Active Magnetospheric Particle Tracer Explorer (AMPTE) program. The spacecraft spin axis is pointed towards the Sun to within +/- 20 degrees, and it occupies a halo orbit about the L1 Earth-Sun libration point. Powered by solar cells, the spacecraft has a design life of at least five years, and it returns data in daily tape recorder dumps, received through NASA JPL's Deep Space Network and initially processed at NASA-GSFC. The average data telemetry rate is 6.7 Kbs.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Edward.C.Stone.Jr</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>ACE Home Page</Name>
-        <URL>http://www.srl.caltech.edu/ACE</URL>
+        <URL>http://www.srl.caltech.edu/ACE/</URL>
         <Description>ACE mission home page at Caltech with data download</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1997-045A</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1997-045A</URL>
         <Description>Information about the ACE mission</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://vspo/observatory/2</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
       <ObservatoryRegion>Heliosphere.Inner</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

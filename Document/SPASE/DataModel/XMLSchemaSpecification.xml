@@ -5,21 +5,21 @@
     <ResourceID>spase://SMWG/Document/SPASE/DataModel/XMLSchemaSpecification</ResourceID>
     <ResourceHeader>
       <ResourceName>SPASE Data Model XML Schema Specification</ResourceName>
-      <ReleaseDate>2011-09-08T15:20:32Z</ReleaseDate>
-      <Description>Ths document details the SPASE metadata model expressed as an XML Schema. 
-  			It includes a formatted description of each element in the schema and standard model diagrams.</Description>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>Ths document details the SPASE metadata model expressed as an XML Schema.
+     It includes a formatted description of each element in the schema and standard model diagrams.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
         <Role>Publisher</Role>
-      </Contact>
-    </ResourceHeader>
+</Contact>
+</ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/SPASE</RepositoryID>
       <AccessURL>
-        <URL>http://spase-group.org/docs/model/spase-2_2_1.pdf</URL>
-      </AccessURL>
+        <URL>http://www.spase-group.org/docs/dictionary/spase-2_2_1.pdf</URL>
+</AccessURL>
       <Format>PDF</Format>
-    </AccessInformation>
+</AccessInformation>
     <DocumentType>Paper</DocumentType>
-  </Document>
+</Document>
 </Spase>

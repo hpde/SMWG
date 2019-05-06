@@ -5,28 +5,28 @@
     <ResourceID>spase://SMWG/Observatory/SECS</ResourceID>
     <ResourceHeader>
       <ResourceName>Spherical Elementary Current Systems</ResourceName>
-      <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
-      <Description>The SECS observatory is a virtual observatory representing the collection of magnetometer arrays used in the creation of the SECS datasets. The SECS observatory consists of ground magnetometers from the CANMOS, CARISMA, DMI (in Greenland), GIMA, MACCS, THEMIS, STEP ground magnetometer arrays. Ground magnetometers contributing to each data file may vary from day to day depending upon data availabiliy. Details on the magnetometer arrays are available at the information URLs listed below. </Description>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The SECS observatory is a virtual observatory representing the collection of magnetometer arrays used in the creation of the SECS datasets. The SECS observatory consists of ground magnetometers from the CANMOS, CARISMA, DMI (in Greenland), GIMA, MACCS, THEMIS, STEP ground magnetometer arrays. Ground magnetometers contributing to each data file may vary from day to day depending upon data availabiliy. Details on the magnetometer arrays are available at the information URLs listed below.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
         <Role>Scientist</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Overview of the Ground Magnetometers and the Magnetometer Arrays used to Calculate the Spherical Elementary Current Systems</Name>
         <URL>http://www.igpp.ucla.edu/jweygand/htmls/EICS_NA_Greenland.html</URL>
         <Description>Description of the magnetometer arrays, the people involved, the currents that can be obtained, and references.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Journal of Earth, Planets, and Space article on the SECS technique</Name>
         <URL>http://www.terrapub.co.jp/journals/EPS/pdf/5106/51060431.pdf</URL>
         <Description>Research Article on the SECS technique.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Journal of Geophysical Research article on the SECS technique as Applied to North America</Name>
-        <URL>http://www.agu.org/journals/ja/ja1103/2010JA016177/2010JA016177.pdf</URL>
+        <URL>https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2010JA016177</URL>
         <Description>Research Article on the SECS technique applied to North America and Greenland.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/THEMIS/Ground/CANMAG</ObservatoryGroupID>
     <ObservatoryGroupID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-EPO</ObservatoryGroupID>
     <ObservatoryGroupID>spase://SMWG/Observatory/Ground/CANMOS</ObservatoryGroupID>
@@ -37,6 +37,6 @@
     <ObservatoryGroupID>spase://SMWG/Observatory/Ground/MACCS</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

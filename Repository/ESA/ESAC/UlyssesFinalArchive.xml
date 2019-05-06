@@ -1,28 +1,28 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Repository>
         <ResourceID>spase://SMWG/Repository/ESA/ESAC/UlyssesFinalArchive</ResourceID>
         <ResourceHeader>
             <ResourceName>Ulysses Final Archive</ResourceName>
-            <ReleaseDate>2013-04-16T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>The goal of the Ulysses Final Archive (UFA) is the long term preservation at ESA of the unique data from the Ulysses mission. The UFA has been developed for the Ulysses project by the Science Archives Team in collaboration with the Ulysses Data System Team.  The data provided by the Ulysses investigations include measurements of:
 the interplanetary magnetic field (VHM/FGM);  solar wind plasma parameters(SWOOPS) and composition (SWICS); radio and plasma waves (URAP); ion and electron populations over a wide range of energies (HISCALE, EPAC and COSPIN);  interstellar neutral gas (GAS);  solar X-rays and gamma-ray bursts (GRB); cosmic dust (DUST); and coronal sounding measurements using radio science. Data coverage extends from launch in October 1990 until the end of the mission in June 2009 for most instruments, representing almost a complete solar magnetic cycle of continuous measurements.
- </Description>
+</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Richard.G.Marsden</PersonID>
                 <Role>GeneralContact</Role>
-            </Contact>
+</Contact>
            <InformationURL>
                 <Name>Ulysses Final Archive Home Page</Name>
                 <URL>http://ufa.esac.esa.int/ufa/</URL>
                 <Description>An introduction to the Ulysses Final Archive.</Description>
                 <Language>English</Language>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
         <AccessURL>
             <Name>The ESA Final Archive of scientific data from the  Ulysses mission</Name>
-            <URL>http://ufa.esac.esa.int/ufa/#data</URL>
-        </AccessURL>
-    </Repository>
+            <URL>http://ufa.esac.esa.int/ufa/</URL>
+</AccessURL>
+</Repository>
 </Spase>

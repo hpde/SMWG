@@ -8,7 +8,7 @@
       <AlternateName>IMP 8 PLS</AlternateName>
       <AlternateName>IMP 8 PLA</AlternateName>
       <AlternateName>1973-078A-02</AlternateName>
-      <ReleaseDate>2010-02-04T12:34:56.789</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>A modulated split-collector Faraday cup, perpendicular to the spacecraft spin axis, was used to study the directional intensity of positive ions and electrons in the solar wind, transition region, and magnetotail. The collector plate split is perpendicular to the spacecraft spin axis in order to measure the flow angle of the ions in a meridional plane; the flow angle in the spacecraft equatorial plane is determined from the fluxes measured as the spacecraft rotates.
             Electrons are measured using 21 logarithmically-spaced energy windows covering the energy/charge range between 23 and 1935 volts. Positive ions are studied using 24 energy windows covering the range between 50 and 7000 volts.
             The instrument has three operating modes. The tracking mode yields the best time resolution which is about 1 minute. A single energy window is used during a spacecraft rotation. The ion spectrum is obtained in eight spacecraft revolutions using a subset of the energy windows that track the peak of the solar wind. In this mode, fluxes are measured during 11.25-degree sectors of the spacecraft spin while the instrument is looking within the 90 degree sector centered on the sun direction and during 45 degree sectors for the remainder of the rotation. The other modes yield a spectrum using all 24 windows (with the same angular sectors described above) or a spectrum that results from integrating the observed fluxes over 45 degree sectors for the entire spacecraft rotation.
@@ -18,20 +18,20 @@
       <Contact>
         <PersonID>spase://SMWG/Person/Alan.J.Lazarus</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>IMP 8 Home Page</Name>
         <URL>ftp://space.mit.edu/pub/plasma/imp/www/imp.html</URL>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1973-078A-02</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1973-078A-02</URL>
         <Description>Information about the Solar Plasma Faraday Cup experiment on the IMP-J mission.</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://SMWG/instrument/1973-078A-02</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <InstrumentType>FaradayCup</InstrumentType>
     <InvestigationName>Solar Plasma Faraday Cup on IMP-J</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/IMP8</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

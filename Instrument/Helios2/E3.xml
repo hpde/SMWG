@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/Helios2/E3</ResourceID>
     <ResourceHeader>
       <ResourceName>Fluxgate Magnetometer for Average Fields</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:15Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>This experiment (E3) consisted of a boom-mounted triaxial-fluxgate magnetometer. An automatic inflight range switch system selected the optimum of four ranges: minus to plus 16, 48, 144, and 432 nT per sensor. These had corresponding digitization resolutions of minus to plus 0.03, 0.09, 0.28, and 0.84 nT. A sensor flipper was actuated every 36 h to assist in sensor zero level determination. For telemetry bit rates above 256 bps, vector measurements were made at rates between 1 and 16 per s, depending on bit rates. At lower bit rates, averages and variances were computed on board for transmission to earth. For further details, see pp. 237-240 of Raumfahrtforschung, v. 19, n. 5, 1975.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1976-003A&amp;ex=2</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1976-003A&amp;ex=2</URL>
         <Description>Information about the Fluxgate Magnetometer for Average Fields experiment on the Helios-B mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Fluxgate Magnetometer for Average Fields on Helios-B</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Helios2</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

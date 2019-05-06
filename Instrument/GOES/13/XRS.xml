@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Instrument/GOES/13/XRS</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar X-ray Sensor</ResourceName>
-      <ReleaseDate>2013-01-29T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The XRS is an x-ray telescope that observes and measures solar x-ray emissions in two
 ranges—one from 0.05 to 0.3 nanometers (nm) and the second from 0.1 to 0.8 nm. In real-time,
 it measures the intensity and duration of solar flares in order to provide alerts and warnings of
@@ -19,7 +19,7 @@ extreme ultraviolet energy in five wavelength bands from 10 nm to 126 nm. The EU
 provides a direct measure of the solar energy that heats the upper atmosphere and creates the
 ionosphere. Changes in solar EUV output can change the density of the upper atmosphere by a
 factor of 10, which will cause increased drag for satellites in low-Earth-orbit.
-Similarly, these changes in EUV level can increase the density of the ionosphere by a 
+Similarly, these changes in EUV level can increase the density of the ionosphere by a
 factor of 10, which will affect radio communications and satellite navigation.
 
 Both the XRS and EUV are provided by Assurance Technology Corporation, and
@@ -27,31 +27,31 @@ are part of the sun-observing package mounted on the solar panel yoke
 assembly. The entire package (including the SXI) continually points at the sun by
 using a Precision Sun Sensor (PSS) to control the solar panels to track the sun in
 azimuth and the x-ray positioner (XRP) to track the sun in elevation.</Description>
-			<Acknowledgement>National Oceanic and Atmospheric Administration; Assurance Technology Corporation</Acknowledgement>
+   <Acknowledgement>National Oceanic and Atmospheric Administration; Assurance Technology Corporation</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>GOES N, O, and P Brochure</Name>
-        <URL>http://goes.gsfc.nasa.gov/text/brochure/GOES_NOP_print.pdf</URL>
+        <URL>https://goes.gsfc.nasa.gov/text/brochure/GOES_NOP_print.pdf</URL>
         <Description>Information about the XRS onboard GOES 13-15.</Description>
         <Language>en</Language>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>GOES N, O, and P XRS Documentation</Name>
         <URL>http://www.goes-r.gov/downloads/GUC-7/day1/session03/03-Shouldis-SWPC.pdf</URL>
         <Description>Information about the XRS onboard GOES 13-15.</Description>
         <Language>en</Language>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://SMWG/Instrument/GOES/13/XRS</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>Solar X-ray Sensor on GOES 13</InvestigationName>
     <OperatingSpan>
-    	 <StartDate>2010-05-01T00:00:00Z</StartDate>
-    	 <Note>It is not clear if this mission is still active.</Note>
-    </OperatingSpan>
+      <StartDate>2010-05-01T00:00:00Z</StartDate>
+      <Note>It is not clear if this mission is still active.</Note>
+</OperatingSpan>
     <ObservatoryID>spase://SMWG/Observatory/GOES/13</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

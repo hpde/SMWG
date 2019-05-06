@@ -5,39 +5,39 @@
       <ResourceID>spase://SMWG/Repository/NASA/GSFC/POLAR.TIDE</ResourceID>
       <ResourceHeader>
          <ResourceName>Polar Thermal Ion Dynamics Experiment, TIDE, Resident Archive Repository, GSFC</ResourceName>
-         <ReleaseDate>2019-04-26T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>Polar TIDE Web Server and Data Archive located at GSFC.</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/Thomas.E.Moore</PersonID>
             <Role>PrincipalInvestigator</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Paul.D.Craven</PersonID>
             <Role>GeneralContact</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Peggy.Sloan</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>TIDE Home Page</Name>
-            <URL>http://pwg.gsfc.nasa.gov/polar/data_products.shtml#instruments</URL>
+            <URL>https://pwg.gsfc.nasa.gov/polar/data_products.shtml</URL>
             <Description>The Polar Thermal Ion Dynamics Experiment, TIDE, Home Page contains links to web pages that allow users to view summary plots of the entire mission. This Web Page is being kept online for archival purposes. Most, if not all Links on this Web Page no longer function. Links used to view Summary Plots and view Thumbnails; analyze, plot, and dump Data (Custom Plots and Data Dumps); download Processing Software and Data Files, or were Links to Mission Operations, Documentation, Publications, Data Archives, and the Instrument Description.</Description>
-         </InformationURL>
+</InformationURL>
          <InformationURL>
             <Name>Polar TIDE and Plasma Source Instrument Publication</Name>
             <URL>http://www.igpp.ucla.edu/public/vassilis/ESS265/2008/20080421/papers/Moore_SSR_1993.pdf</URL>
             <Description>The Polar Thermal Ion Dynamics Experiment, TIDE, TIDE, and Plasma Source Instrument Description.</Description>
-         </InformationURL>
-      </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
       <AccessURL>
          <Name>Polar TIDE Data Archive</Name>
-         <URL>http://spdf.sci.gsfc.nasa.gov/pub/data/polar/tide/</URL>
+         <URL>https://spdf.sci.gsfc.nasa.gov/pub/data/polar/tide/</URL>
          <Description>The TIDE Data Archive contains TIDE data including tide_h0, tide_h1, and tide_k0 CDF file directories. The files are stored by year in the three subdirectories just listed. All of the CDFs are also available at the CDAWeb. And, the archive contains all TIDE Data and Plot Files. The Files can most easily be accessed through the appropriate Links on the TIDE Web Site but they can be accessed directly. See http://tide.gsfc.nasa.gov/data_archive_desc.shtml (this URL is currently a dead link, 190426) for the Location of the Files used in the TIDE Level-Zero Processing Software (Level-Zero, Orbit, Attitude, Mask, and Spacecraft Potential) and the Location of the Spectrogram Summary Plot Files (GIF, JPEG, and PDF). The Archive contains Copies of the TIDE H1 and H0 CDF Files (also available at the CDAWeb). Documentation, Software, and Miscellaneous Files are also kept on the Archive.</Description>
-      </AccessURL>
-   </Repository>
+</AccessURL>
+</Repository>
 </Spase>

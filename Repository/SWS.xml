@@ -5,17 +5,17 @@
     <ResourceID>spase://SMWG/Repository/SWS</ResourceID>
     <ResourceHeader>
       <ResourceName>Space Weather Service</ResourceName>
-      <ReleaseDate>2008-06-18T18:05:57Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Space Weather Services(SWS)(former IPS) is a member of the ICSU World Data System. The World Data Centre (WDC) for Solar-Terrestrial Science (STS) is a part of and operated by Space Weather Services within the Australian Bureau of Meteorology (BOM). The centre operates in Sydney, New South Wales, Australia.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <PriorID>spase://SMWG/Repository/Culgoora</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <AccessURL>
-    	<Name>Space Weather Service - World Data Centre</Name>
-    	<URL>http://www.ips.gov.au/World_Data_Centre</URL>
-   	</AccessURL>
-  </Repository>
+     <Name>Space Weather Service - World Data Centre</Name>
+     <URL>http://www.sws.bom.gov.au/World_Data_Centre</URL>
+</AccessURL>
+</Repository>
 </Spase>

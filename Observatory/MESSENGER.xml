@@ -5,29 +5,29 @@
     <ResourceID>spase://SMWG/Observatory/MESSENGER</ResourceID>
     <ResourceHeader>
       <ResourceName>MESSENGER</ResourceName>
-      <ReleaseDate>2012-02-09T21:20:38Z</ReleaseDate>
-      <Description>The Mercury Surface, Space Environment, Geochemistry 
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The Mercury Surface, Space Environment, Geochemistry
 and Ranging (MESSENGER) mission, launched on 2004-08-03, was mainly
-designed to study the characteristics and environment of Mercury from 
+designed to study the characteristics and environment of Mercury from
 orbit.  After an Earth flyby July-August, 2005, Venus flybys October-
-November, 2006, and May-June, 2007, and Mercury flybys December 2007 - 
-January 2008, September-October, 2008, and September-October, 2009, 
+November, 2006, and May-June, 2007, and Mercury flybys December 2007 -
+January 2008, September-October, 2008, and September-October, 2009,
 MESSENGER entered Mercury orbit 2011-03-04.  Much data of interest to
 the heliospheric community was obtained during the cruise phases
-between planetary encounters from a magnetometer and an energetic 
+between planetary encounters from a magnetometer and an energetic
 particle and plasma spectrometer.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Ralph.L.McNutt.Jr</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=2004-030A</URL>
-      </InformationURL>
-    </ResourceHeader>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2004-030A</URL>
+</InformationURL>
+</ResourceHeader>
     <Location>
       <ObservatoryRegion>Heliosphere.Inner</ObservatoryRegion>
       <ObservatoryRegion>Mercury</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

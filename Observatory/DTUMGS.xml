@@ -5,25 +5,25 @@
     <ResourceID>spase://SMWG/Observatory/DTUMGS</ResourceID>
     <ResourceHeader>
       <ResourceName>Technical University of Denmark Magnetic Ground Stations</ResourceName>
-      <ReleaseDate>2011-01-10T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>DTU Space is monitoring the Earth’s magnetic field with a network of ground stations in Greenland, Denmark, and the South Atlantic. An array with 17 stations at coastal locations is operated in Greenland, previously 5 stations were maintained on the Greenland Ice Cap in cooperation with Virginia Tech, USA. All stations provide full vector geomagnetic field information with 1 Hz resolution. THL, GDH, NAQ, BFE and TDC are geomagnetic observatories and calibrated to INTERMAGNET standards.</Description>
       <Acknowledgement>Technical University of Denmark (DTU); Dr. David Boteler</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Claudia.Stolle</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Juergen.Matzka</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Overview of the DTU Magnetic Ground Stations</Name>
-        <URL>http://www.space.dtu.dk/English/Research/Scientific_data_and_models/Magnetic_Ground_Stations.aspx</URL>
+        <URL>https://www.space.dtu.dk/English/Research/Scientific_data_and_models/Magnetic_Ground_Stations.aspx</URL>
         <Description>Description of nearly all aspects of the DTU Magnetic Ground Stations including station locations, the instrumentation, and contact information.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

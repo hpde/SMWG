@@ -5,21 +5,21 @@
     <ResourceID>spase://SMWG/Observatory/MMS/2</ResourceID>
     <ResourceHeader>
       <ResourceName>MMS-2</ResourceName>
-      <ReleaseDate>2015-05-06T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Magnetospheric Multiscale (MMS) mission is a Solar Terrestrial Probes Program mission within NASA's Heliophysics Division. The MMS mission, consisting of four identically instrumented spacecraft, will use Earth's magnetosphere as a laboratory to study magnetic reconnection.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Mission web page</Name>
-        <URL>http://mms.gsfc.nasa.gov/</URL>
+        <URL>https://mms.gsfc.nasa.gov/</URL>
         <Description>Mission web page</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/MMS</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

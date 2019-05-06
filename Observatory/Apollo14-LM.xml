@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_4.xsd">
   <Version>2.2.4</Version>
   <Observatory>
@@ -11,7 +11,7 @@
       <AlternateName>Apollo 14C</AlternateName>
       <AlternateName>LEM 14</AlternateName>
       <AlternateName>LM-8</AlternateName>
-      <ReleaseDate>2010-10-01T20:29:00Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Apollo 14 Lunar Module (LM) "Antares" was the third crewed vehicle to land on the Moon. It carried two astronauts, Commander Alan B. Shepard Jr. and LM pilot Edgar D. Mitchell, the fifth and sixth men to walk on the Moon. Also included on the LM was the Apollo Lunar Surface Experiments Package (ALSEP) containing scientific experiments to be deployed and left on the lunar surface and other scientific and sample collection apparatus.
 
 Mission Profile
@@ -41,16 +41,16 @@ All ALSEP instruments were deployed on the surface by the astronauts and attache
       <Contact>
         <PersonID>spase://SMWG/Person/David.R.Williams</PersonID>
         <Role>TechnicalContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1971-008C</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-008C</URL>
         <Description>Information about the Apollo 14 Lunar Module / ALSEP mission</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://nssdc/observatory/1971-008C</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.Moon</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

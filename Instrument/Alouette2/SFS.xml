@@ -6,22 +6,22 @@
     <ResourceHeader>
       <ResourceName>Alouette 2 Sweep-Frequency Sounder</ResourceName>
       <AlternateName>Topside Sounder</AlternateName>
-      <ReleaseDate>2011-06-21T00:00:00Z</ReleaseDate>
-      <Description>The Alouette 2 Sweep-Frequency Sounder measured the ionospheric electron density in the altitude range 300 to 3000 km, 
-and extended the Alouette 1 measurements to higher altitudes and to a different period of the solar cycle. The ionosonde was a radio transmitter that recorded the time delay between a transmitted and returned radio-frequency pulse. A continuum of frequencies between 0.12 and 14.5 MHz was sampled once every 32 s. 
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The Alouette 2 Sweep-Frequency Sounder measured the ionospheric electron density in the altitude range 300 to 3000 km,
+and extended the Alouette 1 measurements to higher altitudes and to a different period of the solar cycle. The ionosonde was a radio transmitter that recorded the time delay between a transmitted and returned radio-frequency pulse. A continuum of frequencies between 0.12 and 14.5 MHz was sampled once every 32 s.
 The Alouette 2 sounder also provided greatly improved observations of plasma resonances. Several virtual-range (delay-time) traces resulting from ground reflections, plasma resonances, birefringence of the ionosphere, nonvertical propagation, etc., were normally observed.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Donald.B.Muldrew</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1965-098A-01</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1965-098A-01</URL>
         <Description>Information about the Sweep-Frequency Sounder on Alouette 2</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Sounder</InstrumentType>
     <InvestigationName>Sweep-Frequency Sounder on Alouette 2</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Alouette2</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

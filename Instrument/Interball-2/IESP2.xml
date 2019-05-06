@@ -5,22 +5,22 @@
     <ResourceID>spase://SMWG/Instrument/Interball-2/IESP2</ResourceID>
     <ResourceHeader>
       <ResourceName>DC Electric Field Intensity and ULF Waves (IESP-2)</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:10Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The IESP experiment measures the six components (3 magnetic, 3 electric) of the waves in the ULF range 0.1 - 10 Hz and (from time to time) 0 - 30 Hz. It also measures the three components of the DC electric field (1 sample per second), and the electric potential of the satellite (1 sample per 16 seconds), which is the voltage measured between one of the spheres and the structure of the satellite. The voltage is transmitted to the RON experiment which controls an ion gun to neutralize the ambient plasma. The magnetic components are measured with the triaxial search coil magnetometer of the MEMO experiment, and these signals come from MEMO to ISEP via the NVK-ONCH expeirment. The electric field is measured with six spheres (80 mm diameter) mounted at the ends of long booms. The longest booms (25 m tip to tip) are in the spin plane; the pair ED1 and ED2 corresponds to Ey, and ED3 and ED4 to Ez; the third pair of booms (ED5, ED6) is about 4.5 m long corresponding to Ex, more or less aligned along the spin axis. ED5 makes an angle of 6 degrees with respect to the spin axis in order to avoid shadowing effects on ED6. The IESP provides signals to the other wave experiments NVK-ONCH and MEMO.
 This information was taken from the paper by Perraut et al., Ann. Geophysicae 16, 1105-1110 (1998), which cantains more details of the experiment and its observations.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Vitaly.M.Chmyrev</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1996-050C&amp;ex=6</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1996-050C&amp;ex=6</URL>
         <Description>Information about the DC Electric Field Intensity and ULF Waves (IESP-2) experiment on the Interball Auroral Probe mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>SearchCoil</InstrumentType>
     <InstrumentType>DoubleSphere</InstrumentType>
     <InvestigationName>DC Electric Field Intensity and ULF Waves (IESP-2) on Interball Auroral Probe</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Interball-2</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

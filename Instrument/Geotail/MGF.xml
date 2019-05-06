@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Instrument/Geotail/MGF</ResourceID>
     <ResourceHeader>
       <ResourceName>Geotail MGF</ResourceName>
-      <ReleaseDate>2010-02-04T12:34:56.789</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The objective of this experiment is to measure the magnetic field variation of the magnetotail in the frequency below 50 Hz. The MGF experiment consists of dual three-axis fluxgate magnetometers and a three-axis search coil magnetometer. Triad fluxgate sensors, which utilize a ring core geometry, are installed at the end and middle of a 6 m deployable mast. Three search coils are mounted approximately one-half of the way out on another 6 m boom together with search coils for the VLF wave in the PWI system.
             The fluxgate magnetometers are of standard design and consist of an amplifier, filter, phase sensitive detector, integrator, and a voltage-current convertor. The fluxgate magnetometers operate in seven dynamic ranges to cover various regions of the Earth's magnetosphere and the solar wind: +/-16 nT, +/-64 nT, +/-256 nT, +/-1024 nT, +/-4096 nT, +/-16384 nT, and +/-65536 nT, and supply 16 vectors/sec.
             The automatic range control of the fluxgate magnetometers failed in 1999 so the observable range was manually fixed in the +/-256 nT where it has remained ever since. On November 23, 2006, the fluxgate magnetometer at the end of the boom failed and data from the second magnetometer at the middle of the boom has been used ever since. Neither of the above changes substantially affect the data.
@@ -13,24 +13,24 @@
       <Contact>
         <PersonID>spase://SMWG/Person/Tsugunobu.Nagai</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Donald.H.Fairfield</PersonID>
         <Role>Scientist</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1992-044A-06</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1992-044A-06</URL>
         <Description>Information about the Magnetic Fields Measurement (MGF)</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://nssdc/instrument/1992-044A-06</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>MGF on GEOTAIL</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Geotail</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

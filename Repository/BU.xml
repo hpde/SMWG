@@ -5,22 +5,22 @@
     <ResourceID>spase://SMWG/Repository/BU</ResourceID>
     <ResourceHeader>
       <ResourceName>BU</ResourceName>
-      <ReleaseDate>2012-03-07T04:51:49Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Boston University spacedata server hosts data from space missions of interest to BU's Energetic Particle Group.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Theodore.Allan.Fritz</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Jonathan.Thomas.Niehof</PersonID>
         <Role>TechnicalContact</Role>
-      </Contact>
-    </ResourceHeader>
+</Contact>
+</ResourceHeader>
     <AccessURL>
       <Name>BU spacedata web site</Name>
       <URL>http://spacedata.bu.edu</URL>
       <Description>Web site serving space physics data from Boston University</Description>
       <Language>EN</Language>
-    </AccessURL>
-  </Repository>
+</AccessURL>
+</Repository>
 </Spase>

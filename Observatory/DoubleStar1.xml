@@ -8,45 +8,45 @@
       <AlternateName>2003-061A</AlternateName>
       <AlternateName>Tan Ce1</AlternateName>
       <AlternateName>TC 1</AlternateName>
-	  <AlternateName>28140</AlternateName>
-      <ReleaseDate>2010-10-01T20:40:09Z</ReleaseDate>
-      <Description>Double Star 1 (also known as Tan Ce 1, and TC 1) is a Sino-European (CSNA-ESA) 
-	  satellite that was launched by a Long March 2C/SM rocket from Xichang Satellite Launch Center 
-	  in the Sichuan province of China (PRC) at 19:06 UT on 29 December 2003. The 330 kg, 260 W 
-	  satellite is cylindrical, with a diameter of 2.1 m, a height of 1.4 m, and spins at a rate 
-	  of 15 rpm. It carries eight instruments to probe Earth's magnetosphere, five from ESA and 
-	  three from CNSA. (The ESA instruments are legacies from ESA's Cluster mission.) The data 
-	  from all instruments will be stored on-board and dumped over three grounds stations: 
-	  Shanghai and Beijing in China, and Villafranca in Spain. There will be coordination 
-	  between the Cluster and Double Star missions. </Description>
+   <AlternateName>28140</AlternateName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>Double Star 1 (also known as Tan Ce 1, and TC 1) is a Sino-European (CSNA-ESA)
+   satellite that was launched by a Long March 2C/SM rocket from Xichang Satellite Launch Center
+   in the Sichuan province of China (PRC) at 19:06 UT on 29 December 2003. The 330 kg, 260 W
+   satellite is cylindrical, with a diameter of 2.1 m, a height of 1.4 m, and spins at a rate
+   of 15 rpm. It carries eight instruments to probe Earth's magnetosphere, five from ESA and
+   three from CNSA. (The ESA instruments are legacies from ESA's Cluster mission.) The data
+   from all instruments will be stored on-board and dumped over three grounds stations:
+   Shanghai and Beijing in China, and Villafranca in Spain. There will be coordination
+   between the Cluster and Double Star missions.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Christophe.Philippe.Escoubet</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2003-061A</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-061A</URL>
         <Description>Information about the Double Star 1 mission</Description>
-      </InformationURL>
-	  <InformationURL>
+</InformationURL>
+   <InformationURL>
         <Name>Double Star Mission Overview</Name>
         <URL>http://www.esa.int/Our_Activities/Space_Science/Double_Star_overview2</URL>
         <Description>Detailed information about the Double Star Mission.</Description>
-	  </InformationURL>
-	  <InformationURL>
+</InformationURL>
+   <InformationURL>
         <Name>Double Star Mission European Space Agency Homepage</Name>
         <URL>http://sci.esa.int/double-star/</URL>
         <Description>Detailed information about the Double Star Mission.</Description>
-	  </InformationURL>
-	  <InformationURL>
+</InformationURL>
+   <InformationURL>
         <Name>Double Star Mission Annales Geophysicae Article</Name>
-        <URL>https://doi.org/10.5194/angeo-23-2707-2005</URL>
+        <URL>https://www.ann-geophys.net/23/2707/2005/</URL>
         <Description>Detailed information about the Double Star Mission.</Description>
-	  </InformationURL>	  
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/DoubleStar</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

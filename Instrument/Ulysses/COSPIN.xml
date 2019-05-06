@@ -7,42 +7,42 @@
       <ResourceName>Cosmic Ray and Solar Particles (SIM/COSPIN)</ResourceName>
       <AlternateName>COSPIN</AlternateName>
       <AlternateName>SIM</AlternateName>
-      <ReleaseDate>2009-09-18T21:10:12Z</ReleaseDate>
-      <Description>The objectives of this investigation are to study the energy, charge, and mass spectra of energetic 
-        charged particles (both electrons and nuclei) in interplanetary space in the energy range from (for protons) approximately 0.5 MeV/nucleon  to 
-        approximately 100 MeV/nucleon with high resolution, extending to the order of 1 GeV with more basic low resolution measurements of flux  and/or intensity; and to study spatial gradients and the propagation of charged particles throughout the 
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The objectives of this investigation are to study the energy, charge, and mass spectra of energetic
+        charged particles (both electrons and nuclei) in interplanetary space in the energy range from (for protons) approximately 0.5 MeV/nucleon  to
+        approximately 100 MeV/nucleon with high resolution, extending to the order of 1 GeV with more basic low resolution measurements of flux  and/or intensity; and to study spatial gradients and the propagation of charged particles throughout the
         heliosphere by measuring absolute flux and vector anisotropy. COSPIN consists of a suite of five seperate instruments,
         each targeted at a distinct population of particles in the cosmic radiation.  All telescopes share a common power supply
         and interface to the spacecraft telemetry system through a common Data Processing Unit.  COSPIN consists of:
-        
+       
         Low Energy Telescope (LET): ~1-20 MeV/n P, He, and heavier nuclei using a dE/dx vs. E telescope with pha capability
-        
+       
         Anisotropy Telescopes (ATs): ~0.7-7 MeV/n P and He with telescopes oriented in two directions with respect to
         the spin axis to provide 3-dimensional anisotropy information
-        
-        High Flux Telescope (HFT): ~0.3-7 MeV protons, 0.4-4 MeV/n He with a small aperture single detector telescope for use in 
+       
+        High Flux Telescope (HFT): ~0.3-7 MeV protons, 0.4-4 MeV/n He with a small aperture single detector telescope for use in
         very high flux situations
-        
-        High Energy Telescope (HET): ~10-90 MeV/n P, He, and heavier nuclei with same range, and also ~3-10 MeV electrons using a large 
+       
+        High Energy Telescope (HET): ~10-90 MeV/n P, He, and heavier nuclei with same range, and also ~3-10 MeV electrons using a large
         geometry factor high resolution dE/dx vs. E and trajectory determining telescope with pha capability optimized for studies of the chemical and isotopic abundances in the cosmic radiation
-        
+       
         Kiel Electron Telescope (KET): ~3-200 MeV electrons and ~3-2100 MeV/n protons and He using a Large dE/dx vs. E and cerenkov telescope
         with pha capability optimized for studies of high energy electrons, protons, and helium.
-        
+       
 
-      </Description>
+</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/R.Bruce.McKibben</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1990-090B&amp;ex=2</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1990-090B&amp;ex=2</URL>
         <Description>Information about the Cosmic Ray and Solar Particles (SIM/COSPIN) experiment on the Ulysses mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Cosmic Ray and Solar Particles (SIM/COSPIN) on Ulysses</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Ulysses</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

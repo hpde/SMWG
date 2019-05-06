@@ -6,29 +6,29 @@
       <ResourceHeader>
          <ResourceName>Defense Meteorological Satellite Program, DMSP-S20</ResourceName>
          <AlternateName>DMSP_5D-3/S20</AlternateName>
-         <ReleaseDate>2017-08-23T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>Defense Meteorological Satellite Program, DMSP-S20 20th flight unit of the DMSP Block 5D series, 6th (last) of the Block 5D-3 series. Main missions: cloud imagery and MW imaging/temperature/humidity sounding. Substantial contribution to Space weather.</Description>
          <Acknowledgement>DMSP Data Manager, NOAA National Environmental Satellite, Data, and Information Service, NESDIS</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
             <Role>GeneralContact</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>Defense Meteorological Satellite Program, DMSP-S20 Web Site</Name>
-            <URL>https://www.wmo-sat.info/oscar/satellites/view/67</URL>
+            <URL>https://www.wmo-sat.info/oscar-staging/satellites/view/67</URL>
             <Description>Defense Meteorological Satellite Program, DMSP-S20, Information and Details</Description>
-         </InformationURL>
-      </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
       <ObservatoryGroupID>spase://SMWG/Observatory/DMSP</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
-      </Location>
+</Location>
       <OperatingSpan>
          <StartDate>2020-01-01T00:00:00</StartDate>
-      </OperatingSpan>
-   </Observatory>
+</OperatingSpan>
+</Observatory>
 </Spase>

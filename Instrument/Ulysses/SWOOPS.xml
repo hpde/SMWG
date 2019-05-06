@@ -7,20 +7,20 @@
       <ResourceName>Solar Wind Plasma (BAM/SWOOPS)</ResourceName>
       <AlternateName>BAM</AlternateName>
       <AlternateName>SWOOPS</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The objectives of this investigation are (1) to investigate and characterize bulk-flow parameters and internal-state conditions of the solar wind as functions of solar latitude; (2) to investigate radial variations of solar wind properties between Earth and Jupiter; and (3) to investigate the solar wind interactions with the Jovian magnetosphere. The instrument consists of two sensor systems and associated electronics that interface with the spacecraft. Electrons in the energy range between 1 and 900 eV are measured by a 120-deg spherical-section electrostatic analyzer with seven channel electron multipliers (CEMs) which cover a polar angle range of 146 deg. The plate spacing is 0.35 cm and the average radius of curvature is 4.2 cm. The solar wind ion analyzer makes three-dimensional measurements of solar-wind ions with energies in the range between 257 eV and 35 keV per charge. It consists of a 105-deg spherical-section electrostatic analyzer fitted with 16 CEM sensors which cover a polar angle range of 80 deg. It is mounted so that the first CEM views along the spin axis direction and the sixteenth at a polar angle of 75 deg from the spin axis. A stepping motor is used to rotate any one of seven apertures into place. The mass of the electron instrument is 2.6 kg. It uses 2.6 W of power and has a data rate of 24 bps in storage mode and 48 bps in tracking mode. The mass of the ion instrument is 4.1 kg. It uses 2.9 W mean and 7 W peak power, and has a data rate of 56 bps in storage mode and 112 bps in tracking mode.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1990-090B&amp;ex=5</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1990-090B&amp;ex=5</URL>
         <Description>Information about the Solar Wind Plasma (BAM/SWOOPS) experiment on the Ulysses mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Solar Wind Plasma (BAM/SWOOPS) on Ulysses</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Ulysses</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

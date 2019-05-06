@@ -7,7 +7,7 @@
       <ResourceName>Magnetometer</ResourceName>
       <AlternateName>MISCHA</AlternateName>
       <AlternateName>Magnetic Fields in Interplanetary Space during Comet Halley's approach</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:13Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The magnetometers on Vega 1 and Vega 2 were
 designed to measure the magnetic field and its low-frequency fluctuations in the
 cometary and solar wind interaction zone and in interplanetary space. The
@@ -30,35 +30,35 @@ Cruise phase data were mostly taken in the 2.5-min averaging mode.
       <Contact>
         <PersonID>spase://SMWG/Person/Willi.W.Riedler</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/N.A.Stjazhkin</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Ye.G.Yeroshenko</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Konrad.Schwingenschuh</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/R.Schmidt</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1984-125A-09</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1984-125A-09</URL>
         <Description>Information about the Magnetometer experiment on the Vega 1 mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Magnetic Fields in Interplanetary Space during Comet Halley's approach</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Vega1</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

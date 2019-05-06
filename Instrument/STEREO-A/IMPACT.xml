@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>STEREO-A IMPACT</ResourceName>
       <AlternateName>STEREO-A In situ Measurements of Particles and CME Transients</AlternateName>
-      <ReleaseDate>2009-06-11T18:54:04Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The In situ Measurements of Particles and CME Transients (IMPACT)
 investigation makes observations of plasma electrons, magnetic
 fields and energetic particles using an array of seven instruments.
@@ -22,7 +22,7 @@ Telescope (STE; UCB) consists of two arrays of silicon semiconductor
 devices measuring ~2-20 keV electrons. The arrays look in opposite
 directions with 80 x 80 deg fields of view.
 
-MAG (GSFC) is a boom-mounted triaxial fluxgate magnetometer just inboard 
+MAG (GSFC) is a boom-mounted triaxial fluxgate magnetometer just inboard
 of the SWEA and STE instruments.
 
 The Solar Electron Proton Telescope (SEPT; ESTEC; U. Kiel) consists of two dual,
@@ -48,19 +48,19 @@ Further IMPACT detail is available in Luhmann et al, Sp. Sci. Rev. (2008) 136: 1
       <Contact>
         <PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>STEREO/IMPACT Mission Site</Name>
         <URL>http://sprg.ssl.berkeley.edu/impact/</URL>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2006-047A-03</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2006-047A-03</URL>
         <Description>Information about the In-Situ Measurements of Particles and CME Transients (IMPACT) experiment on the STEREO A mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>In-Situ Measurements of Particles and CME Transients (IMPACT) on STEREO A</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/STEREO-A</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

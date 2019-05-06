@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Instrument>
@@ -7,7 +7,7 @@
         <ResourceHeader>
             <ResourceName>Low Energy Electrostatic Analyzer (LEESA)</ResourceName>
             <AlternateName>Low Energy Electrostatic Analyzer</AlternateName>
-            <ReleaseDate>2011-06-06T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>
 "The LEESA sensor was built, tested and calibrated by the Air Force Research Laboratory (AFRL) Battlespace Environment Division (RVB). The original design was made by Amptek Inc. of Bedford MA. This design was adapted and modified by AFRL/RVB for the current LEESA. LEESA is two sets of spherical electrostatic analyzers, one for electron and the other for ion measurements. The LEESA measures the energy fluxes and energy spectra for low energy electrons and protons ranging from 20eV to 50 KeV at 40 log-spaced steps. These low energy particles are responsible for surface electric charging and damage to thin films such as thin-film photovoltaic, conventional solar cell cover glasses, and coatings. The expected energy resolution for the LEESA is AE/E = 4.9%. There are two equally sized apertures; one for ion and one for electron measurements. Each LEESA aperture has a field of view of 120° x 15°, as shown in Figure 7a. LEESA also measures the directionality of the particles by offering multiple angular zones.
 
@@ -21,34 +21,34 @@ second, or an 8Hz sampling rate. The LEESA dimensions are 116.84 x 212.73 x 209.
             <Contact>
                 <PersonID>spase://SMWG/Person/James.I.Metcalf</PersonID>
                 <Role>ProjectScientist</Role>
-            </Contact>
+</Contact>
             <InformationURL>
                 <Name>Demonstration and Science Experiments
 (DSX) Satellite</Name>
-                <URL>http://www.kirtland.af.mil/shared/media/document/AFD-070404-096.pdf</URL>
+                <URL>https://www.amostech.com/TechnicalPapers/2009/Space-Based_Assets/Scherbarth.pdf</URL>
                 <Description>DSX Fact Sheet, Sept. 2005</Description>
-            </InformationURL>
+</InformationURL>
             <InformationURL>
                 <Name>THE DEMONSTRATION AND SCIENCE EXPERIMENTS (DSX): A FUNDAMENTAL SCIENCE RESEARCH MISSION ADVANCING TECHNOLOGIES THAT ENABLE MEO SPACEFLIGHT</Name>
-                <URL>http://lws-set.gsfc.nasa.gov/documents/DSX_paper.pdf</URL>
+                <URL>https://lws-set.gsfc.nasa.gov/documents/DSX_paper.pdf</URL>
                 <Description>2006 Instrument paper</Description>
-            </InformationURL>
+</InformationURL>
             <InformationURL>
                 <Name>AFRL's demonstration and science experiments (DSX) mission</Name>
-                <URL>http://hdl.handle.net/1721.1/52739</URL>
+                <URL>https://dspace.mit.edu/handle/1721.1/52739</URL>
                 <Description>2009 DSX Paper</Description>
-            </InformationURL>
+</InformationURL>
             <InformationURL>
                 <Name>Demonstrations and Science Experiment (DSX) Space Weather
 Experiment (SWx)</Name>
-                <URL>http://www.dtic.mil/cgi-bin/GetTRDoc?Location=U2&amp;doc=GetTRDoc.pdf&amp;AD=ADA542684</URL>
+                <URL>https://apps.dtic.mil/dtic/tr/fulltext/u2/a542684.pdf</URL>
                 <Description>Fennelly, 2011, Proc. of SPIE Vol. 7438</Description>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
         <InstrumentType>EnergeticParticleInstrument</InstrumentType>
         <!-- InstrumentType>Electrostatic Analyser</InstrumentType-->
         <!-- InstrumentType>Quadrispherical Analyser</InstrumentType-->
         <InvestigationName>DSX-SWx</InvestigationName>
         <ObservatoryID>spase://SMWG/Observatory/DSX</ObservatoryID>
-    </Instrument>
+</Instrument>
 </Spase>

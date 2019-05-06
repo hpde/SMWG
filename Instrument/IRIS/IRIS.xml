@@ -5,7 +5,7 @@
         <ResourceID>spase://SMWG/Instrument/IRIS/IRIS</ResourceID>
         <ResourceHeader>
             <ResourceName>Interface Region Imaging Spectrograph (IRIS)</ResourceName>
-            <ReleaseDate>2013-11-04T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>The Interface Region Imaging Spectrograph (IRIS) instrument is a multi-channel imaging spectrograph with a 20 cm UV telescope. IRIS obtains spectra along a slit (1/3 arcsec wide), and slit-jaw images. The CCD detectors have 1/6 arcsec pixels. IRIS has an effective spatial resolution between 0.33 and 0.4 arcsec and a maximum field of view of 120 arcsec.
 
 The far-ultraviolet channel covers 133.2-135.8 nm and 139.0-140.6 nm with a 4 nm resolution and an effective area of 2.8 square-cm. The near-ultraviolet channel covers 278.5-283.5 nm with a 8 nm resolution and an effective area of 0.3 square-cm. Slit-jaw imaging has four passbands: 133.5 nm and 140.0 nm with a 4 nm bandpass each; and 279.6 nm and 283.1 nm with a 0.4 nm bandpass each.
@@ -14,18 +14,18 @@ IRIS has a high data rate (0.7 Mbit/s on average) so that the baseline cadence i
             <Contact>
                 <PersonID>spase://SMWG/Person/Alan.M.Title</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact> 
+</Contact>
             <InformationURL>
                 <Name>NSSDC Master Catalog</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2013-033A-01</URL>
+                <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2013-033A-01</URL>
                 <Description>Information about IRIS telescope and Spectrograph on IRIS</Description>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
         <InstrumentType>Imager</InstrumentType>
         <InstrumentType>Spectrometer</InstrumentType>
         <InvestigationName>Interface Region Imaging Spectrograph</InvestigationName>
         <ObservatoryID>spase://SMWG/Observatory/IRIS</ObservatoryID>
-    </Instrument>
+</Instrument>
 </Spase>
 
 

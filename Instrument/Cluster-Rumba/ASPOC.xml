@@ -5,26 +5,26 @@
     <ResourceHeader>
       <ResourceName>Active Spacecraft Potential Control (ASPOC)</ResourceName>
       <AlternateName>ASPOC</AlternateName>
-      <ReleaseDate>2011-02-04T15:37:46Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The objective of this instrument (ASPOC: Active Spacecraft POtential Control) is to ensure effective, complete measurement of the ambient plasma distribution functions, especially the very cold component. Additional benefits may be found in improved data for the long-wire electric field measurement, and the electron-beam probe for electric fields. The ASPOC instrument is a single unit consisting of an electronics box and two cylindrical ion-emitter modules. The emitters will produce indium ions at approximately 6 KeV, in a current of &lt;50 microamps. This will be done by field evaporation of indium in the apex field of a needle. The outgoing beam will diverge from parallel by +/- 15 degrees (half maximum). Design lifetime is 10,000 hours. In the basic feedback mode of operation, a measurement of the spacecraft potential is supplied to the instrument from either the electric field experiment (EFW) or the electron analyzer (PEACE). This information is then used to adjust the emission current to reduce the spacecraft potential to some predetermined value. By default, priority is given to the EFW data, because of the higher resolution (0.034 V vs. ~1.4 V) and the more straightforward way in which the potential is derived. There is also a stand-alone mode for backup. The electrical parameters of the ion beam will be available to all experimenters, and this will also enable them to interpret their data with respect to any remaining effects of the spacecraft potential. A calibration mode will measure the current-voltage characteristics of the spacecraft, at the beginning of the mission and occasionally later to account for changes in the photo-emission properties of the surface. This measurement is carried out by sweeping the ion emission current in incremental steps over some convenient range, allowing simultaneous measurements of the spacecraft potential. The length of each step is 2--4 spin periods. In addition to providing an improved environment for other experiments, ASPOC will permit scientific investigations of the photoelectric characteristics of the dependence of the spacecraft potential on plasma parameters, and of spacecraft charging in different plasma environments to be carried out in the so-called active mode. The ion current can be varied in a defined way for a short time to enable the co-operating plasma experiments to calibrate their response to spacecraft potential variations. Such experiments will be carried out at large, regular intervals, preferably in sections of the orbit which are not of prime interest to the mission as a whole. For more details of the Cluster mission, the spacecraft, and its instruments, see the report ``Cluster: mission, payload and supporting activities,&apos;&apos; March 1993, ESA SP-1159, and the included article ``Active Spacecraft Potential Control: an ion emitter experiment for Cluster,&apos;&apos; by W. Riedler et al., from which this information was obtained.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Willi.W.Riedler</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC&apos;s Master Catalog</Name>
-        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-045A-01</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-045A-01</URL>
         <Description>Information about the Active Spacecraft Potential Control (ASPOC) experiment on the Cluster 2/FM5 (Rumba) mission.</Description>
-      </InformationURL>
-	  <InformationURL>
+</InformationURL>
+   <InformationURL>
         <Name>Space Science Reviews Journal Article</Name>
         <URL>https://link.springer.com/chapter/10.1007/978-94-011-5666-0_11</URL>
         <Description>Detailed information about the Active Spacecraft Potential Control (ASPOC) experiment.</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://SMWG/Instrument/Cluster2-Rumba/ASPOC</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <InstrumentType>SpacecraftPotentialControl</InstrumentType>
     <InvestigationName>Active Spacecraft Potential Control (ASPOC) on Cluster 2/FM5 (Rumba)</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Cluster-Rumba</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

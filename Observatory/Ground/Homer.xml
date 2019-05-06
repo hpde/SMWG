@@ -5,38 +5,38 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Homer</ResourceID>
       <ResourceHeader>
          <ResourceName>Homer Geophysical Observatory</ResourceName>
-		 <AlternateName>Observatory Station Code: HOMR</AlternateName>
-         <ReleaseDate>2018-06-25T12:34:56.789</ReleaseDate>
+   <AlternateName>Observatory Station Code: HOMR</AlternateName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>Homer (HOMR) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: University of Alaska</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Donald.Hampton</PersonID>
             <Role>PrincipalInvestigator</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
-         </InformationURL>
-		 <InformationURL>
-			<Name>Overview of the Alaska Satellite Facility Geophysical Institute Magnetometer Array</Name>
-			<URL>https://www.asf.alaska.edu/magnetometer/</URL>
-			<Description>Description of the magnetometer array.</Description>
-		 </InformationURL>
-      </ResourceHeader>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GIMA</ObservatoryGroupID>
+</InformationURL>
+   <InformationURL>
+   <Name>Overview of the Alaska Satellite Facility Geophysical Institute Magnetometer Array</Name>
+   <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+   <Description>Description of the magnetometer array.</Description>
+</InformationURL>
+</ResourceHeader>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GIMA</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>59.88</Latitude>
          <Longitude>208.35</Longitude>
-      </Location>
+</Location>
       <OperatingSpan>
          <StartDate>2007-01-01T01:00:00</StartDate>
-      </OperatingSpan>
-   </Observatory>
+</OperatingSpan>
+</Observatory>
 </Spase>

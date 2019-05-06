@@ -8,21 +8,21 @@
       <AlternateName>1971-019A</AlternateName>
       <AlternateName>Explorer 43</AlternateName>
       <AlternateName>IMP-I</AlternateName>
-      <ReleaseDate>2010-09-27T18:45:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>IMP-I continued the study, begun by earlier IMPs, of the interplanetary and outer magnetospheric regions by measuring energetic particles, plasma, and electric and magnetic fields. A radio astronomy experiment was also included in the spacecraft payload. The 16-sided spacecraft was 182.12 cm high by 135.64 cm in diameter. The spacecraft spin axis was normal to the ecliptic plane, and its spin rate was 5 rpm. The initial apogee point lay near the earth-sun line. The solar-cell and chemical-battery powered spacecraft carried two transmitters. One continuously transmitted PCM encoder data at a 1600-bps information bit rate. The second transmitter was used for transmission of VLF data and for ranging information. Three orthogonal pairs of dipole antennas were used for the electric fields experiments, and one of these pairs was also used for the radio astronomy experiment. The members of the antenna pair along the spacecraft spin axis extended 2.9 m, the members of the pair used in both the electric field and radio astronomy experiments extended 45.5 m, and the members of the third pair were slightly unbalanced, extending 24.4 and 27.6 m, respectively. All four elements perpendicular to the spin axis were to have extended 45.5 m. The spacecraft reentered the earth's atmosphere October 2, 1974, after a highly successful mission.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Frank.B.McDonald</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1971-019A</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-019A</URL>
         <Description>Information about the IMP-I mission</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/IMP</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

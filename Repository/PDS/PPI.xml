@@ -5,17 +5,17 @@
     <ResourceID>spase://SMWG/Repository/PDS/PPI</ResourceID>
     <ResourceHeader>
       <ResourceName>PDS PPI</ResourceName>
-      <ReleaseDate>2012-02-09T21:25:21Z</ReleaseDate>
-      <Description>Planetary Plasma Interactions node of the 
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>Planetary Plasma Interactions node of the
 Planetary Data System</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Raymond.J.Walker</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
-    </ResourceHeader>
+</Contact>
+</ResourceHeader>
     <AccessURL>
       <Name>PDS PPI Web site</Name>
-      <URL>http://pds-ppi.igpp.ucla.edu</URL>
-    </AccessURL>
-  </Repository>
+      <URL>https://pds-ppi.igpp.ucla.edu/</URL>
+</AccessURL>
+</Repository>
 </Spase>

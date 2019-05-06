@@ -6,39 +6,39 @@
     <ResourceHeader>
       <ResourceName>Photoelectron Spectrometer (PES)</ResourceName>
       <AlternateName>PES</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:01Z</ReleaseDate>
-      <Description>This experiment was designed to provide information on the intensity, angular distribution, 
-	  energy spectrum, and net flow along field lines, of electrons in the thermosphere with energies between 
-	  1 and 500 eV. The instrument consisted of two identical oppositely directed hemispherical electrostatic 
-	  analyzers, and 30 operating modes. Each spectrometer had a relative energy resolution of plus or minus 
-	  2.5% and a geometric factor on the order of 0.001 sq cm sr, independent of electron energy. Three separate 
-	  energy ranges could be sensed: 0 to 25, 0 to 100, or 0 to 500 eV. Measurements from these intervals could 
-	  be sequenced in five different ways. Data could be taken from either sensor separately, or alternately with 
-	  time resolution varying from 0.25 to 8 s. There were two deflection voltage scan rates determined by 
-	  spacecraft clock. This voltage was changed in 64 steps, and was done at 4 or 16 steps per telemetry frame. 
-	  With 16 frames/s, this allowed a choice of either one 64-point spectrum, or four 16-point spectra in 1 s. 
-	  The longest (8 s) cycle of data involved observations using increasing voltage steps for the lowest, 
-	  middle, lowest, then highest energy ranges (in that order) for 1 s each. A repeat for decreasing voltage 
-	  step completed the cycle. A more detailed description of this experiment may be found in 
-	  J. P. Doering et al., Radio Sci., v. 8, n. 4, p. 387, 1973. NSSDC has all the useful data that 
-	  exist from this investigation.</Description>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>This experiment was designed to provide information on the intensity, angular distribution,
+   energy spectrum, and net flow along field lines, of electrons in the thermosphere with energies between
+   1 and 500 eV. The instrument consisted of two identical oppositely directed hemispherical electrostatic
+   analyzers, and 30 operating modes. Each spectrometer had a relative energy resolution of plus or minus
+   2.5% and a geometric factor on the order of 0.001 sq cm sr, independent of electron energy. Three separate
+   energy ranges could be sensed: 0 to 25, 0 to 100, or 0 to 500 eV. Measurements from these intervals could
+   be sequenced in five different ways. Data could be taken from either sensor separately, or alternately with
+   time resolution varying from 0.25 to 8 s. There were two deflection voltage scan rates determined by
+   spacecraft clock. This voltage was changed in 64 steps, and was done at 4 or 16 steps per telemetry frame.
+   With 16 frames/s, this allowed a choice of either one 64-point spectrum, or four 16-point spectra in 1 s.
+   The longest (8 s) cycle of data involved observations using increasing voltage steps for the lowest,
+   middle, lowest, then highest energy ranges (in that order) for 1 s each. A repeat for decreasing voltage
+   step completed the cycle. A more detailed description of this experiment may be found in
+   J. P. Doering et al., Radio Sci., v. 8, n. 4, p. 387, 1973. NSSDC has all the useful data that
+   exist from this investigation.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/John.P.Doering</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1973-101A-03</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1973-101A-03</URL>
         <Description>Information about the Photoelectron Spectrometer (PES) experiment on the AE-C mission.</Description>
-      </InformationURL>
-	  <InformationURL>
+</InformationURL>
+   <InformationURL>
         <Name>Radio Science Journal Article</Name>
-        <URL>https://doi.org/10.1029/RS008i004p00387</URL>
+        <URL>https://onlinelibrary.wiley.com/doi/abs/10.1029/RS008i004p00387</URL>
         <Description>Detailed information about the Photoelectron Spectrometer (PES) experiment on the AE-C mission.</Description>
-	  </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Photoelectron Spectrometer (PES) on AE-C</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/AE-C</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

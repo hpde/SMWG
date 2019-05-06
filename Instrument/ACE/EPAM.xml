@@ -7,42 +7,42 @@
       <ResourceName>ACE Electron Proton Alpha Monitor</ResourceName>
       <AlternateName>ACE EPAM</AlternateName>
       <AlternateName>1997-045A-08</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:13Z</ReleaseDate>
-      <Description> EPAM is composed of five telescope apertures of three different types.
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>EPAM is composed of five telescope apertures of three different types.
       Two Low Energy Foil Spectrometers (LEFS) measure the flux and direction of electrons above 30 keV (geometry factor = 0.397 cm^2 sr),
       two Low Energy Magnetic Spectrometers (LEMS) measure the flux and direction of ions greater than 50 keV (geometry factor = 0.48 cm^2 sr),
       and the Composition Aperture (CA) measures the elemental composition of the ions (geometry factor = 0.24 cm^2 sr).
       The telescopes use the spin of the spacecraft to sweep the full sky. Solid-state detectors are used to measure the energy and composition of the incoming particles.
-      </Description>
+</Description>
       <Contact>
         <!-- Dennis Haggerty -->
         <PersonID>spase://SMWG/Person/Dennis.Haggerty</PersonID>
         <Role>TechnicalContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <!-- Robert Gold -->
         <PersonID>spase://SMWG/Person/Robert.E.Gold</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Instrument description</Name>
-        <URL>http://sd-www.jhuapl.edu/ACE/EPAM</URL>
+        <URL>http://sd-www.jhuapl.edu/ACE/EPAM/</URL>
         <Description>Description of the ACE EPAM instrument design and instrument characteristics, with links to data and other documentation</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1997-045A-08</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1997-045A-08</URL>
         <Description>Information about the EPAM experiment on the ACE mission.</Description>
-      </InformationURL>
-	  <InformationURL>
+</InformationURL>
+   <InformationURL>
         <Name>Space Science Reviews Journal Article</Name>
         <URL>https://link.springer.com/article/10.1023/A:1005088115759</URL>
         <Description>Detailed information about the Electron Proton Alpha Monitor experiment on the ACE mission.</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://SMWG/instrument/1997-045A-08</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Electron Proton and Alpha Monitor (EPAM) on ACE</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/ACE</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

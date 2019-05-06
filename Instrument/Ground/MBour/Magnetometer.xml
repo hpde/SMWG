@@ -7,27 +7,27 @@
          <ResourceName>MBour Magnetometer</ResourceName>
          <AlternateName>MBour Magnetometer</AlternateName>
          <AlternateName>IAGA:MBO Magnetometer</AlternateName>
-         <ReleaseDate>2019-04-19T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>Magnetometer located at the station with the IAGA identifier MBO</Description>
          <Acknowledgement>Please acknowedge the MBO observatory when using data from this instrument.</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>IAGA Guides and Standards</Name>
-            <URL>http://www.iugg.org/IAGA/iaga_pages/pubs_prods/Products_services.htm</URL>
+            <URL>http://www.intermagnet.org/publications/intermag_4-6.pdf</URL>
             <Description>Overview of IAGA Guides and Standards which obtained within its Divisions and Working Groups. Information about observatories is maintained by the "Geomagntic Observatories" (V-OBS) working group.</Description>
-         </InformationURL>
+</InformationURL>
          <PriorID>spase://SMWG/Instrument/Ground/Mbour/Magnetometer</PriorID>
          <PriorID>spase://SMWG/Instrument/IAGA/Mbour/Magnetometer</PriorID>
          <PriorID>spase://SMWG/Instrument/Ground/Mbour/Magnetometer</PriorID>
-      </ResourceHeader>
+</ResourceHeader>
       <InstrumentType>Magnetometer</InstrumentType>
       <InvestigationName>IAGA</InvestigationName>
       <OperatingSpan>
          <StartDate>1952-01-01T00:00:00</StartDate>
-      </OperatingSpan>
+</OperatingSpan>
       <ObservatoryID>spase://SMWG/Observatory/Ground/MBour</ObservatoryID>
-   </Instrument>
+</Instrument>
 </Spase>

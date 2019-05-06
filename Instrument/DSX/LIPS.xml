@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Instrument>
         <ResourceID>spase://SMWG/Instrument/DSX/LIPS</ResourceID>
         <ResourceHeader>
             <ResourceName>Low Energy Imaging Particle Spectrometer (LIPS)</ResourceName>
-            <ReleaseDate>2011-06-06T00:00:00</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>"The LIPS is a scintillator-based sensor is designed to monitoring the lower energy charged particle environment for the expected energy range of protons and electrons in 6 energy bins (logarithmically spaced) for 20 KeV through lMeV and has eight angular bins for angle of arrival measurements. This sensor was design, built, tested and calibrated by Physical Science Inc. (PSI) located in Andover, MA. This particle energy range is responsible for deep dielectric charging in electronic systems on spacecraft exposed to the inner magnetosphere."
 "The LIPS does not rely on a magnetic sector to discriminate between electron and proton particles. LIPS use the advantage of the particle cross-section characteristics and scintillator properties to differentiate between electrons and
 protons. Basically, the LIPS is configured as a "pinhole camera" type with particles entering the collimator aperture and incident on particle-specific scintillator focal planes (Figure 8a). The scintillator is designed specifically to respond only to either protons or electrons within a specific energy range. The scintillator is coupled directly to a multi-anode photomultiplier tube (PMT). Owing to their particle-specific response, the scintillator themselves provide the particle discrimination. The pulse amplitude defines the particle energy and the spatial position provides angular information."
@@ -15,34 +15,34 @@ protons. Basically, the LIPS is configured as a "pinhole camera" type with parti
             <Contact>
                 <PersonID>spase://SMWG/Person/James.I.Metcalf</PersonID>
                 <Role>ProjectScientist</Role>
-            </Contact>
+</Contact>
             <InformationURL>
                 <Name>Demonstration and Science Experiments
 (DSX) Satellite</Name>
-                <URL>http://www.kirtland.af.mil/shared/media/document/AFD-070404-096.pdf</URL>
+                <URL>https://www.amostech.com/TechnicalPapers/2009/Space-Based_Assets/Scherbarth.pdf</URL>
                 <Description>DSX Fact Sheet, Sept. 2005</Description>
-            </InformationURL>
+</InformationURL>
             <InformationURL>
                 <Name>THE DEMONSTRATION AND SCIENCE EXPERIMENTS (DSX): A FUNDAMENTAL SCIENCE RESEARCH MISSION ADVANCING TECHNOLOGIES THAT ENABLE MEO SPACEFLIGHT</Name>
-                <URL>http://lws-set.gsfc.nasa.gov/documents/DSX_paper.pdf</URL>
+                <URL>https://lws-set.gsfc.nasa.gov/documents/DSX_paper.pdf</URL>
                 <Description>2006 Instrument paper</Description>
-            </InformationURL>
+</InformationURL>
             <InformationURL>
                 <Name>AFRL's demonstration and science experiments (DSX) mission</Name>
-                <URL>http://hdl.handle.net/1721.1/52739</URL>
+                <URL>https://dspace.mit.edu/handle/1721.1/52739</URL>
                 <Description>2009 DSX Paper</Description>
-            </InformationURL>
+</InformationURL>
             <InformationURL>
                 <Name>Demonstrations and Science Experiment (DSX) Space Weather
 Experiment (SWx)</Name>
-                <URL>http://www.dtic.mil/cgi-bin/GetTRDoc?Location=U2&amp;doc=GetTRDoc.pdf&amp;AD=ADA542684</URL>
+                <URL>https://apps.dtic.mil/dtic/tr/fulltext/u2/a542684.pdf</URL>
                 <Description>Fennelly, 2011, Proc. of SPIE Vol. 7438</Description>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
         <InstrumentType>EnergeticParticleInstrument</InstrumentType>
         <!-- InstrumentType>Scintillation Detector</InstrumentType-->
         <!-- InstrumentType>PhotoMultiplier Tube (PMT)</InstrumentType -->
         <InvestigationName>DSX-SWx</InvestigationName>
         <ObservatoryID>spase://SMWG/Observatory/DSX</ObservatoryID>
-    </Instrument>
+</Instrument>
 </Spase>

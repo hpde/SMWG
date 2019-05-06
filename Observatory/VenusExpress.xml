@@ -5,20 +5,20 @@
       <ResourceID>spase://SMWG/Observatory/VenusExpress</ResourceID>
       <ResourceHeader>
          <ResourceName>Venus Express</ResourceName>
-         <ReleaseDate>2019-04-19T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>ESA's Venus Express mission was launched 09-Nov-2005 and arrived at Venus in April, 2006. The spacecraft went into a near-polar orbit on 06-May-2006, with apogee and perigee altitudes of 66,000 km and 250 km (10.9 and 0.04 Venus radii). The main goal of the mission is to conduct a comprehensive study of the atmosphere of Venus and to examine the plasma environment and the interaction between the upper atmosphere and the solar wind. Instruments carried on Venus Express are: the Venus Monitoring Camera, a wide angle imager; ASPERA, a combined energetic neutral atom imager, ion, and electron spectrometer, and magnetometer; PFS, an IR Fourier spectrometer; SPICAV/SOIR, a UV/IR spectrometer; VIRTIS, a UV, visible, IR imaging spectrometer; MAG, a suite of two magnetometers, and VeRa, a radio science experiment.</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/Hakan.Svedhem</PersonID>
             <Role>ProjectScientist</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>ESA Venus Express web page</Name>
-            <URL>http://www.esa.int/SPECIALS/Venus_Express/index.html</URL>
-         </InformationURL>
+            <URL>http://www.esa.int/Our_Activities/Space_Science/Venus_Express/</URL>
+</InformationURL>
          <PriorID>spase://SMWG/Observatory/VenusExpress/</PriorID>
-      </ResourceHeader>
+</ResourceHeader>
       <Location>
          <ObservatoryRegion>Venus</ObservatoryRegion>
-      </Location>
-   </Observatory>
+</Location>
+</Observatory>
 </Spase>
