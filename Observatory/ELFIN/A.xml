@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/ELFIN/A</ResourceID>
+      <ResourceHeader>
+         <ResourceName>ELFIN A, CubeSat</ResourceName>
+         <ReleaseDate>2019-06-12T12:34:56.789</ReleaseDate>
+         <Description>Electron Losses and Fields Investigation A, ELFIN A, CubeSat
+The ELFIN Mission is a Space Weather Mission using three Scientific Instruments in a 3U+ CubeSat Form Factor. The Spacecrafts, ELFIN A and ELFIN B, each have two Energetic Particle Detectors, one for Electrons, EPD-E, and one for Ions, EPD-I, as well as a Fluxgate Magnetometer deployed at the end of a 75 cm Stacer Boom. The Science Instruments were developed by UCLA Staff at the Institute for Geophysics and Planetary Physics, IGPP, and the Earth, Planetary, and Space Sciences Department, EPSS. ELFIN will explore the Key Mechanisms responsible for the Loss of Relativistic Electrons from the Radiation Belts and will provide a unique perspective into modeling and predicting the Radiation Environment of the Earth. ELFIN CubeSats will spin like a Hammer spinning Head over Handle every 3 s to be able to capture the full Range of Electron Pitch Angles. This Description Text is adapted from the ELFIN Mission Overview Web Page hosted by UCLA.</Description>
+         <Acknowledgement>Please acknowledge the Principal Investigator, V. Angelopoulos</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>ELFIN Mission Overview Web Page, UCLA</Name>
+            <URL>https://elfin.igpp.ucla.edu/about</URL>
+            <Description>Electron Losses and Fields Investigation, ELFIN, Mission Overview Web Page, University of California, Los Angeles</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+         <ObservatoryRegion>Earth.Magnetosphere.Polar</ObservatoryRegion>
+         <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+         <ObservatoryRegion>Earth.NearSurface.AuroralRegion</ObservatoryRegion>
+         <ObservatoryRegion>Earth.NearSurface.EquatorialRegion</ObservatoryRegion>
+         <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
+         <ObservatoryRegion>Earth.NearSurface.PolarCap</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2018-09-17T00:00:00.000</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>
