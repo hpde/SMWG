@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
+    <Version>2.2.6</Version>
+    <Observatory>
+        <ResourceID>spase://SMWG/Observatory/ObsParis/SID</ResourceID>
+        <ResourceHeader>
+            <ResourceName>SID</ResourceName>
+            <ReleaseDate>2019-07-09T15:45:00Z</ReleaseDate>
+            <Description>Sudden Ionospheric Disturbances Monitor</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Carine.Briand</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Baptiste.Cecconi</PersonID>
+                <Role>MetadataContact</Role>
+            </Contact>
+            <InformationURL>
+                <URL>https://www.obspm.fr/?lang=en</URL>
+            </InformationURL>
+        </ResourceHeader>
+        <ObservatoryGroupID>spase://SMWG/Observatory/ObsParis</ObservatoryGroupID>
+        <Location>
+            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+            <CoordinateSystemName>GEO</CoordinateSystemName>
+            <Latitude></Latitude>
+            <Longitude></Longitude>
+            <Elevation></Elevation>
+        </Location>
+    </Observatory>
+</Spase>
+
