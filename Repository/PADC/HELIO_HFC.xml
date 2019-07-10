@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
+    <Version>2.2.6</Version>
+    <Repository>
+        <ResourceID>spase://SMWG/Repository/PADC/HELIO_HCF</ResourceID>
+        <ResourceHeader>
+            <ResourceName>HELIO - Heliophysics Feature Catalogue</ResourceName>
+            <ReleaseDate>2018-10-16T22:37:57Z</ReleaseDate>
+            <Description></Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Jean.Aboudarham</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Xavier.Bonnin</PersonID>
+                <Role>TechnicalContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Baptiste.Cecconi</PersonID>
+                <Role>MetadataContact</Role>
+            </Contact>
+            <InformationURL>
+                <URL>http://hfc.obspm.fr</URL>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessURL>
+            <URL>http://hfc.obspm.fr</URL>
+        </AccessURL>
+    </Repository>
+</Spase>

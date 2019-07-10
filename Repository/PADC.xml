@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
+    <Version>2.2.6</Version>
+    <Repository>
+        <ResourceID>spase://SMWG/Repository/PADC</ResourceID>
+        <ResourceHeader>
+            <ResourceName>PADC</ResourceName>
+            <ReleaseDate>2019-09-10T14:05:00Z</ReleaseDate>
+            <Description>Paris Astronomical Data Centre</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Stephane.Erard</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Pierre.Le.Sidaner</PersonID>
+                <Role>TechnicalContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Baptiste.Cecconi</PersonID>
+                <Role>MetadataContact</Role>
+            </Contact>
+            <InformationURL>
+                <URL>http://padc.obspm.fr</URL>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessURL>
+            <URL>http://padc.obspm.fr</URL>
+        </AccessURL>
+    </Repository>
+</Spase>
