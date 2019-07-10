@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
+    <Version>2.2.6</Version>
+    <Observatory>
+        <ResourceID>spase://SMWG/Observatory/ObsNancay/NDA</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Nancay Decameter Array</ResourceName>
+            <ReleaseDate>2018-10-16T21:23:00Z</ReleaseDate>
+            <Description></Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Laurent.Lamy</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Baptiste.Cecconi</PersonID>
+                <Role>MetadataContact</Role>
+            </Contact>
+            <InformationURL>
+                <URL>https://www.obs-nancay.fr/-Reseau-decametrique-24-.html?lang=en</URL>
+            </InformationURL>
+        </ResourceHeader>
+        <ObservatoryGroupID>spase://SMWG/Observatory/ObsNancay</ObservatoryGroupID>
+        <Location>
+            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+            <CoordinateSystemName>GEO</CoordinateSystemName>
+            <Latitude>2.193226</Latitude>
+            <Longitude>47.380510</Longitude>
+            <Elevation>135</Elevation>
+        </Location>
+    </Observatory>
+</Spase>
