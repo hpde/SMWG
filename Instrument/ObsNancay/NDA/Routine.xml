@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
+  <Version>2.2.6</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/ObsNancay/NDA/Routine</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Routine</ResourceName>
+      <ReleaseDate>2018-10-16T22:13:00Z</ReleaseDate>
+      <Description></Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Laurent.Lamy</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Baptiste.Cecconi</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>SpectralPowerReceiver</InstrumentType>
+    <InvestigationName>Nancay Decameter Array</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/ObsNancay/NDA</ObservatoryID>
+  </Instrument>
+</Spase>

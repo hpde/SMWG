@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/ObsParis/Meudon/Heliograph</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Meudon Heliograph</ResourceName>
+      <ReleaseDate>2012-04-24T00:00:00Z</ReleaseDate>
+      <Description>The Meudon Heliograpn provides 3 images every 1.5 minute of the 
+solar disk in the H alpha line at 3 wavelengths: line core and 
+at 0.5 Angstroms from it on each side. A Lyot filter with a 
+0.5 Angstrom bandpass is used.  The objective is to detect and 
+observe solar eruptions at a high temporal cadence.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jean-Marie.Malherbe</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <PriorID>spase://vspo/Instrument/172</PriorID>
+      <PriorID>spase://SMWG/Instrument/OBSPM/OBSPM</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Imager</InstrumentType>
+    <InvestigationName>Meudon Heliograph</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/ObsParis</ObservatoryID>
+  </Instrument>
+</Spase>
+
