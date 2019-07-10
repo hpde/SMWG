@@ -7,10 +7,13 @@
         <ResourceHeader>
             <ResourceName>LOFAR</ResourceName>
             <ReleaseDate>2010-07-10T11:32:00Z</ReleaseDate>
-            <Description>LOFAR (Low Frequency Array) is an aperture synthesis array composed of phased array stations.
-            It is managed by ASTRON, in the Netherlands. The core of LOFAR is located in the Netherlands. LOFAR spans 
-            all over Europe with its international stations. One of its Key Projects focusses on Solar physics and 
-            space weather.</Description>
+            <Description>LOFAR is an interferometer with about 50 000 antennas grouped in 50 stations through 
+                Europe, with 60% of them located in the Netherlands. It has been running since 2012. 
+                It is connected to a central supercomputer in Groningen, Netherlands.
+                The key scientific objectives are deep sky surveys, the study of reionisation epoch, of variable 
+                sources like pulsars, jets, eruptive stars, planets and exoplanets, the detection of very high 
+                energy cosmic rays, and the interplanetary medium physics.
+                One of its Key Projects focusses on Solar physics and space weather.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Rene.Vermeulen</PersonID>
                 <Role>GeneralContact</Role>
