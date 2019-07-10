@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
- xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-    <Version>2.2.2</Version>
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
+    <Version>2.2.6</Version>
     <Person>
         <ResourceID>spase://SMWG/Person/Jean-Marie.Malherbe</ResourceID>
-        <ReleaseDate>2012-04-26T00:00:00Z</ReleaseDate>
+        <ReleaseDate>2019-07-09T15:36:00Z</ReleaseDate>
         <PersonName>Jean-Marie Malherbe</PersonName>
-        <OrganizationName>Observatoire de Paris</OrganizationName>
+        <OrganizationName>LESIA, CNRS, Observatoire de Paris, PSL</OrganizationName>
         <Email>jean-marie.malherbe@obspm.fr</Email>
+        <PhoneNumber>+33-1-45-07-79-52</PhoneNumber>
     </Person>
 </Spase>
