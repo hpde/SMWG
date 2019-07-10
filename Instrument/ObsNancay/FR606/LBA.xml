@@ -2,8 +2,8 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
     <Version>2.2.6</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/ObsNancay/FR606/LBA</ResourceID>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/ObsNancay/FR606/LBA</ResourceID>
         <ResourceHeader>
             <ResourceName>LOFAR FR606 LBA</ResourceName>
             <ReleaseDate>2018-10-16T21:59:00Z</ReleaseDate>
@@ -23,18 +23,9 @@
                 <PersonID>spase://SMWG/Person/Baptiste.Cecconi</PersonID>
                 <Role>MetadataContact</Role>
             </Contact>
-            <InformationURL>
-                <URL></URL>
-            </InformationURL>
         </ResourceHeader>
-        <ObservatoryGroupID>spase://SMWG/Observatory/ObsNancay</ObservatoryGroupID>
-        <ObservatoryGroupID>spase://SMWG/Observatory/LOFAR</ObservatoryGroupID>
-        <Location>
-            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-            <CoordinateSystemName>GEO</CoordinateSystemName>
-            <Latitude>47.375944</Latitude>
-            <Longitude>2.193361</Longitude>
-            <Elevation>136.195</Elevation>
-        </Location>
-    </Observatory>
+        <InstrumentType>SpectralPowerReceiver</InstrumentType>
+        <InvestigationName>LOFAR FR606</InvestigationName>
+        <ObservatoryID>spase://SMWG/Observatory/ObsNancay/FR606</ObservatoryID>
+    </Instrument>
 </Spase>
