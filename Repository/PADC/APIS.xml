@@ -5,7 +5,7 @@
     <Repository>
         <ResourceID>spase://SMWG/Repository/PADC/APIS</ResourceID>
         <ResourceHeader>
-            <ResourceName>Auroral Planetary Images and Spectra</ResourceName>
+            <ResourceName>Auroral Planetary Imaging and Spectroscopy</ResourceName>
             <ReleaseDate>2018-10-16T22:32:57Z</ReleaseDate>
             <Description>Auroral Planetary Images and Spectra</Description>
             <Contact>
@@ -21,11 +21,11 @@
                 <Role>MetadataContact</Role>
             </Contact>
             <InformationURL>
-                <URL>http://apis.obspm.fr</URL>
+                <URL>https://apis.obspm.fr</URL>
             </InformationURL>
         </ResourceHeader>
         <AccessURL>
-            <URL>http://apis.obspm.fr</URL>
+            <URL>https://apis.obspm.fr</URL>
         </AccessURL>
     </Repository>
 </Spase>
