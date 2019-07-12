@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
+    <Version>2.2.6</Version>
+    <Repository>
+        <ResourceID>spase://SMWG/Repository/PADC/MASER/Nancay</ResourceID>
+        <ResourceHeader>
+            <ResourceName>MASER repository in Station de Radioastronomie de Nancay</ResourceName>
+            <ReleaseDate>2019-07-12T10:08:00Z</ReleaseDate>
+            <Description>MASER database and services for Nancay data collections (NDA, NenuFAR, FR606)</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Baptiste.Cecconi</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Stephane.Aicardi</PersonID>
+                <Role>TechnicalContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Baptiste.Cecconi</PersonID>
+                <Role>MetadataContact</Role>
+            </Contact>
+            <InformationURL>
+                <URL>http://maser.lesia.obspm.fr/task-1-data-collections/maser-datasets/maser-datasets-obsnancay.html?lang=en</URL>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessURL>
+            <URL>http://maser.lesia.obspm.fr/task-1-data-collections/maser-datasets/maser-datasets-obsnancay.html?lang=en</URL>
+        </AccessURL>
+    </Repository>
+</Spase>
