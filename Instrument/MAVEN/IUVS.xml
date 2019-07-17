@@ -25,7 +25,11 @@ The Instrument operates in a Limb Scan Mode when the Spacecraft Altitude is less
             <AwardNumber>UNKNOWN</AwardNumber>
          </Funding>
          <Contact>
-            <PersonID>spase://SMWG/Person/William.E.McClintock, Nicholas.M.Schneider</PersonID>
+            <PersonID>spase://SMWG/Person/William.E.McClintock</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Nicholas.M.Schneider</PersonID>
             <Role>PrincipalInvestigator</Role>
          </Contact>
          <Contact>
