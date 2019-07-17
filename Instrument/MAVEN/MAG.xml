@@ -6,7 +6,8 @@
       <ResourceHeader>
          <ResourceName>MAVEN MAG</ResourceName>
          <AlternateName>MAVEN Magnetometer, MAG, Instrument</AlternateName>
-         <ReleaseDate>2019-07-07T12:34:56.789Z</ReleaseDate>
+         <DOI>10.1007/s11214-015-0169-4</DOI>
+         <ReleaseDate>2019-07-12T12:34:56.789Z</ReleaseDate>
          <Description>The MAVEN Magnetometer, MAG, Experiment will measure the Magnitude and Direction of the Interplanetary and Martian Induced and Ionospheric Magnetic Fields, as well as the regional Martian Crustal Magnetic Field. The Experiment comprises two Magnetometer Sensors, each one mounted on an Extension from the End of the two Solar Panel &quot;Wings&quot;. Each Sensor consists of two Ring-Core Fluxgate Magnetometers which are oriented in Planes intersecting at 90&#176;, so that all three Vector Components of the Magnetic Field are measured, one Component measured by both. The Magnetometers have three Dynamic Ranges:
 
 &#177;65536 nT with 2.0 nT resolution for Ground Testing primarily,
@@ -14,7 +15,12 @@
 &#177;2048 nT with 0.0625 nT resolution for Crustal Magnetic Anomalies,
 
 &#177;512 nT with 0.015625 nT resolution for the Solar Wind Environment.</Description>
-         <Acknowledgement>National Aeronautics and Space Administration, NASA, Laboratory of Atmospheric and Space Physics, LASP, University of Colorado, Boulder</Acknowledgement>
+         <Acknowledgement>National Aeronautics and Space Administration, NASA, Laboratory for Atmospheric and Space Physics, LASP, University of Colorado, Boulder</Acknowledgement>
+         <PublicationInfo>
+            <Authors>Connerney, J.E.P., J. Espley, P. Lawton, S. Murphy, J. Odom, R. Oliversen, and D. Sheppard</Authors>
+            <PublicationDate>2015-06-18T00:00:00</PublicationDate>
+            <PublishedBy>Space Sci. Rev.</PublishedBy>
+         </PublicationInfo>
          <Funding>
             <Agency>National Aeronautics and Space Administration, Mars Scout Program</Agency>
             <Project>MAVEN Magnetometer Investigation</Project>
@@ -34,7 +40,7 @@
             <Description>The Mars Atmosphere and Volatile Evolution, MAVEN, Magnetometer Instrument Home Page, Laboratory for Atmospheric and Space Physics, University of Colorado, Boulder</Description>
          </InformationURL>
          <InformationURL>
-            <Name>MAVEN Magnetometer, MAG, Instrument Space Science Review Publication</Name>
+            <Name>MAVEN Magnetometer, MAG, Instrument Space Science Reviews Publication</Name>
             <URL>https://doi.org/10.1007/s11214-015-0169-4</URL>
             <Description>Connerney, J.E.P., J. Espley, P. Lawton, S. Murphy, J. Odom, R. Oliversen, and D. Sheppard, The MAVEN Magnetic Field Investigation, Space Sci. Rev., 195, 257-291, 2015</Description>
          </InformationURL>
@@ -45,7 +51,7 @@
          </InformationURL>
       </ResourceHeader>
       <InstrumentType>Magnetometer</InstrumentType>
-      <InvestigationName>MAVEN Magnetometer, MAG, Investigation</InvestigationName>
+      <InvestigationName>MAVEN Magnetometer Investigation</InvestigationName>
       <OperatingSpan>
          <StartDate>2013-11-18T18:28:00Z</StartDate>
          <Note>MAVEN Launch Date and Time until data are available</Note>

@@ -6,9 +6,15 @@
       <ResourceHeader>
          <ResourceName>MAVEN Ephemeris</ResourceName>
          <AlternateName>MAVEN Spacecraft Position</AlternateName>
-         <ReleaseDate>2019-07-07T12:34:56.789Z</ReleaseDate>
+         <DOI>10.1007/s11214-015-0139-x</DOI>
+         <ReleaseDate>2019-07-12T12:34:56.789Z</ReleaseDate>
          <Description>Mars Atmosphere and Volatile Evolution, MAVEN, Spacecraft Ephemeris</Description>
-         <Acknowledgement>Please acknowledge the National Aeronautics and Space Administration, NASA</Acknowledgement>
+         <Acknowledgement>National Aeronautics and Space Administration, NASA</Acknowledgement>
+         <PublicationInfo>
+            <Authors>Jakosky, B.M., R.P. Lin, J.M. Grebowsky, J.G. Luhmann, D.F. Mitchell, G. Beutelschies, T. Priser, M. Acuna, L. Andersson, D. Baird, D. Baker, R. Bartlett, M. Benna, S. Bougher, D. Brain, D. Carson, S. Cauffman, P. Chamberlin, J.-Y. Chaufray, O. Cheatom, J. Clarke, J. Connerney, T. Cravens, D. Curtis, G. Delory, S. Demcak, A. DeWolfe, F. Eparvier, R. Ergun, A. Eriksson, J. Espley, X. Fang, D. Folta, J. Fox, C. Gomez-Rosa, S. Habenicht, J. Halekas, G. Holsclaw, M. Houghton, R. Howard, M. Jarosz, N. Jedrich, M. Johnson, W. Kasprzak, M. Kelley, T. King, M. Lankton, D. Larson, F. Leblanc, F. Lefevre, R. Lillis, P. Mahaffy, C. Mazelle, W. McClintock, J. McFadden, D.L. Mitchell, F. Montmessin, J. Morrissey, W. Peterson, W. Possel, J.-A. Sauvaud, N. Schneider, W. Sidney, S. Sparacino, A.I.F. Stewart, R. Tolson, D. Toublanc, C. Waters, T. Woods, R. Yelle, and R. Zurek</Authors>
+            <PublicationDate>2015-04-09T00:00:00</PublicationDate>
+            <PublishedBy>Space Sci. Rev.</PublishedBy>
+         </PublicationInfo>
          <Funding>
             <Agency>National Aeronautics and Space Administration, Mars Scout Program</Agency>
             <Project>MAVEN Mission</Project>
@@ -36,9 +42,9 @@
             <Description>MAVEN Mission Web Page with an Overview, Images, Videos and Media Resources, NASA</Description>
          </InformationURL>
          <InformationURL>
-            <Name>The Mars Atmosphere and Volatile Evolution, MAVEN, Mission Home Page, LASP, UCB</Name>
+            <Name>The Mars Atmosphere and Volatile Evolution, MAVEN, Mission Home Page, LASP, UC Boulder</Name>
             <URL>http://lasp.colorado.edu/home/maven/</URL>
-            <Description>General Information about the Mars Atmosphere and Volatile Evolution, MAVEN, Mission, Laboratory for Atmospheric and Space Physics, University of Colorado, Boulder, UCB</Description>
+            <Description>General Information about the Mars Atmosphere and Volatile Evolution, MAVEN, Mission, Laboratory for Atmospheric and Space Physics, University of Colorado, Boulder</Description>
          </InformationURL>
          <InformationURL>
             <Name>NSSDC Master Catalog Listing, MAVEN</Name>
@@ -47,7 +53,7 @@
          </InformationURL>
          <InformationURL>
             <Name>MAVEN Mission Space Science Review Article</Name>
-            <URL>https://link.springer.com/article/10.1007/s11214-015-0139-x</URL>
+            <URL>https://doi.org/10.1007/s11214-015-0139-x</URL>
             <Description>Jakosky, B.M., Lin, R.P., Grebowsky, J.M., et al., The Mars Atmosphere and Volatile Evolution (MAVEN) Mission, Space Sci. Rev., 195(1-4), 3-48, 2015.</Description>
          </InformationURL>
       </ResourceHeader>
