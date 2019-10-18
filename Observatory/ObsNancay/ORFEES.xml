@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
+    <Version>2.2.6</Version>
+    <Observatory>
+        <ResourceID>spase://SMWG/Observatory/ObsNancay/ORFEES</ResourceID>
+        <ResourceHeader>
+            <ResourceName>ORFEES</ResourceName>
+            <ReleaseDate>2018-10-16T21:58:00Z</ReleaseDate>
+            <Description>ORFEES is a 5 m diameter antenna dedicated to space 
+                meteorology, the prediction of solar eruptions.
+                This radiospectrometer observes the solar corona on a daily basis 
+                between 130 MHz and 1 GHz, allowing to track radio frequency 
+                emissions from the Sun in near real-time, thus monitoring our 
+                star’s activity.
+            </Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Ludwig.Klein</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <InformationURL>
+                <URL>https://www.obs-nancay.fr/-ORFEES-38-.html?lang=en</URL>
+            </InformationURL>
+        </ResourceHeader>
+        <ObservatoryGroupID>spase://SMWG/Observatory/ObsNancay</ObservatoryGroupID>
+        <Location>
+            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+            <CoordinateSystemName>GEO</CoordinateSystemName>
+            <Latitude>47.381494</Latitude>
+            <Longitude>2.195179</Longitude>
+            <Elevation>139</Elevation>
+        </Location>
+    </Observatory>
+</Spase>
