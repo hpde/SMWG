@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_4.xsd">
-  <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/SES-14</ResourceID>
     <ResourceHeader>
@@ -31,7 +31,6 @@
         <Description>More details on the SES-14 spacecraft.</Description>
       </InformationURL>
     </ResourceHeader>
-    <ObservatoryGroupID>spase://SMWG/Observatory/SES-14</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
     </Location>
