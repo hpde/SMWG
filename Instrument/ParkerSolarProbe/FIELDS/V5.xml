@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd" lang="en">
+   <Version>2.3.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/V5</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Parker Solar Probe, PSP, FIELDS Suite, V5 Voltage Probe, V5, Instrument</ResourceName>
+         <AlternateName>Solar Probe Plus, SPP, FIELDS Suite, V5 Voltage Probe, V5, Instrument</AlternateName>
+         <ReleaseDate>2020-03-16T12:34:56.789Z</ReleaseDate>
+         <Description>The FIELDS instrument combines magnetic and electric field measurements into a single, coordinated experiment. Magnetic fields are measured using both fluxgate and search-coil induction magnetometers mounted on a deployable boom in the spacecraft umbra. FIELDS will make electric field measurements both as a current-biased, resistively-coupled, double-probe instrument (Harvey et al. 1995, Bonnell et al. 2009, Wygant et al. 2013) and as a capacitively-coupled radio and plasma wave instrument (Bougeret et al. 1995, 2008). The V1, V2, V3, and V4 electric field probes are mounted at the base of the Parker Solar Probe, PSP, Thermal Protection System, TPS, or heat shield and deploy out into full sunlight. At the PSP perihelion altitude of 9.8 solar radii, these antennas will reach temperatures of more than 1300&#176;C. Another simple voltage sensor, the V5 antenna, is mounted on the magnetometer boom in the umbra of the spacecraft.</Description>
+         <Acknowledgement>Please acknowledge NASA, Stuart D. Bale, the PSP FIELDS Instrument Suite Principal Investigator, and Nicola J. Fox, the PSP Project Scientist.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Nicola.J.Fox</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Stuart.D.Bale</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Parker Solar Probe FIELDS Suite NSSDCA Master Catalog Listing</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2018-065A-01</URL>
+            <Description>NSSDC Master Catalog Listing for the Parker Solar Probe FIELDS Suite, NSSDCA/COSPAR ID: 2018-065A-01</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Antenna</InstrumentType>
+      <InvestigationName>Parker Solar Probe Mission</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2018-08-12T07:31:00.000Z</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/ParkerSolarProbe</ObservatoryID>
+   </Instrument>
+</Spase>

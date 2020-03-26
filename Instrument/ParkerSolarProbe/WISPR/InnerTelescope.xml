@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd" lang="en">
+   <Version>2.3.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/ParkerSolarProbe/WISPR/IT</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Parker Solar Probe, PSP, Wide-field Imager for Solar Probe, WISPR, Suite, Inner Telescope, IT, Instrument</ResourceName>
+         <AlternateName>Solar Probe Plus, SPP, Wide-field Imager for Solar Probe, WISPR, Suite, Inner Telescope, IT, Instrument</AlternateName>
+         <ReleaseDate>2020-03-16T12:34:56.789Z</ReleaseDate>
+         <Description>The Wide-field Imager for Solar Probe consists of two telescopes, designated the Outer Telescope and the Inner Telescope, mounted on the the side of the spacecraft behind the sunshield. The telescopes look in the direction of spacecraft travel off to the side of the Sun from behind the sunshield. The Inner Telescope views an area from 58.5&#176; from the center of the Sun to 98.5&#176;. The Outer Telescope views from 98.5&#176; to 156.5&#176; offset from the Sun center. The telescopes focus onto two imagers that use radiation-hardened 2000 by 2000 Active Pixel Sensor CMOS detectors. The telescope lenses are made of low dispersion and radiation hard borosilicate Schott BK7 glass. A combination of baffle systems is used to mitigate stray light coming into the instruments. The image cadence can be up to one per second.</Description>
+         <Acknowledgement>Please acknowledge NASA, Russell A. Howard, the PSP WISPR Instrument Suite Principal Investigator, and Nicola J. Fox, the PSP Project Scientist.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Nicola.J.Fox</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Russell.A.Howard</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Parker Solar Probe WISPR Suite NSSDCA Master Catalog Listing</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2018-065A-03</URL>
+            <Description>NSSDC Master Catalog Listing for the Parker Solar Probe Wide-field Imager for Solar Probe, WISPR, Suite, NSSDCA/COSPAR ID: 2018-065A-03</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Coronograph</InstrumentType>
+      <InstrumentType>Imager</InstrumentType>
+      <InvestigationName>Parker Solar Probe Mission</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2018-08-12T07:31:00.000Z</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/ParkerSolarProbe</ObservatoryID>
+   </Instrument>
+</Spase>

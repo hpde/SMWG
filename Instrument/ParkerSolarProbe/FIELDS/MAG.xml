@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd" lang="en">
+   <Version>2.3.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/MAG</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Parker Solar Probe, PSP, FIELDS Suite, Magnetometer, MAG, Instrument</ResourceName>
+         <AlternateName>Solar Probe Plus, SPP, FIELDS Suite, Magnetometer, MAG, Instrument</AlternateName>
+         <ReleaseDate>2020-03-16T12:34:56.789Z</ReleaseDate>
+         <Description>The two fluxgate magnetometers, MAGs, for PSP are similar to the triaxial, wide-range, low-power, and low-noise magnetometers built by Goddard Space Flight Center, GSFC, for MAVEN, Van Allen Probes, STEREO, etc. This line of flight magnetometers totals 79 instruments to date starting with IMP-4, launched in 1966. For PSP, the magnetometers will provide data with bandwidth of about 140 Hz, sampling at 292.97 Sa/s, as part of the FIELDS instrument suite. The primary science objectives addressed by the magnetometers are determining the structure and dynamics of the magnetic fields at the sources of the fast and slow solar wind, contributing to the study of the coronal processes that lead to heating of the solar corona, and exploring the roles of shocks, reconnection, and turbulence in accelerating energetic particles.
+
+Two fluxgate magnetometers, inner or MAGi and outer or MAGo, are mounted on the PSP boom that extends from the spacecraft back in to the umbra of the PSP Thermal Protection System, TPS, heat shield. MAGi is situated 190 cm along the boom while and MAGo is mounted further back at 272 cm from the spacecraft. Their relative separation and close proximity to the spacecraft compromise their gradiometric functionality, and thus the ability for an accurate removal of any spacecraft field contamination at the outer magnetometer. The measurement dynamic range is &#177;65,536 nT with a resolution of 16 bits.
+
+Each magnetometer sensor has a corresponding electronics board in the PSP FIELDS main electronics package, MEP. For enhanced reliability, the outer magnetometer board is controlled by the DCB, and the inner magnetometer board by the TDS. The control component on each board is the rad-hard Aeroflex FPGA that contains all of the magnetometer logic functions and onboard SRAM. These functions include command handling, telemetry packet formatting, ADC readout, auto-ranging algorithm, Drive clock generation, and housekeeping readout. magnetometer produces a data product at the required cadence of 1 message per 0.874 s. The ranging algorithm selects one of the four ranges: &#177;1024 nT, &#177;4096 nT, &#177;16,384 nT, and &#177;65,536 nT, based on the ambient magnetic field.</Description>
+         <Acknowledgement>Please acknowledge NASA, Stuart D. Bale, the PSP FIELDS Instrument Suite Principal Investigator, and Nicola J. Fox, the PSP Project Scientist.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Nicola.J.Fox</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Stuart.D.Bale</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Parker Solar Probe FIELDS Suite NSSDCA Master Catalog Listing</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2018-065A-01</URL>
+            <Description>NSSDC Master Catalog Listing for the Parker Solar Probe FIELDS Suite, NSSDCA/COSPAR ID: 2018-065A-01</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Magnetometer</InstrumentType>
+      <InvestigationName>Parker Solar Probe Mission</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2018-08-12T07:31:00.000Z</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/ParkerSolarProbe</ObservatoryID>
+   </Instrument>
+</Spase>

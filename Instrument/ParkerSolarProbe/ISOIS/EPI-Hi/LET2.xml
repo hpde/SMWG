@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd" lang="en">
+   <Version>2.3.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Hi/LET2</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Parker Solar Probe, PSP, Integrated Science Investigation of the Sun, ISOIS, Suite, Energetic Particle Instrument-Hi, Low Energy Telescope 2, EPI-Hi/LET2, Instrument</ResourceName>
+         <AlternateName>Solar Probe Plus, SPP, Integrated Science Investigation of the Sun, ISOIS, Suite, Energetic Particle Instrument-Hi, Low Energy Telescope 2, EPI-Hi/LET2, Instrument</AlternateName>
+         <ReleaseDate>2020-03-16T12:34:56.789Z</ReleaseDate>
+         <Description>The PSP Energetic Solar Probe high energy instrument, EPI-Hi, measures energetic particles in the upper portion of the ISIS energy range. The two ISIS instruments, EPI-Lo and EPI-Hi, are complementary in their energy range and sky coverage in order to obtain the comprehensive set of observations needed to fully understand solar energetic particle sources, acceleration, and transport close to the Sun.
+
+The EPI-Hi instrument measures energetic protons and Helium nuclei from approximately 1 MeV/nuc to 100 MeV/nuc, at higher energies for heavier elements, and for energetic electrons from approximately 0.5 MeV to 6 MeV. To cover this energy range and to provide a wide field of view, FOV, EPI-Hi has three telescopes, a double-ended high energy telescope, HET, a double-ended low energy telescope, LET1, and a single-ended low energy telescope, LET2. All three telescopes are mounted on the EPI-Hi Electronics Box, which contains an analog and digital processing electronics board for each telescope, a detector bias power supply, a digital processing unit for the instrument to coordinate its operations and communicate by command and telemetry channels with the spacecraft, and a low voltage power supply.
+
+ISIS is located as far aft on the spacecraft body as possible, on the ram side, just inside the umbra line of the shadow created by the PSP Thermal Protection System, TPS. This provides protection from direct solar heating, but still allows ISIS to view within 10&#176; of the Sun-probe line, thereby providing access to the nominal direction of the Parker Spiral magnetic field over much of the solar encounter phase.
+
+EPI-Hi measures energetic electrons, protons, and heavy ions in the MeV energy range using the dE/dx versus total energy technique in a sensor system based entirely on ion-implanted silicon SSDs. It builds on a heritage of more than 40 years of SSD-based energetic particle instruments, and most directly on the LET (Mewaldt et al. 2008) and HET (von Rosenvinge et al. 2008) that are part of the IMPACT instrument suite on the twin STEREO spacecraft. These instruments have been providing multi-point measurements of energetic particles in the heliosphere since late 2006. The sophistication of SSD instruments has steadily advanced as capabilities have improved with high performance, low power, and miniaturized, front-end electronics in the form of application-specific integrated circuits, ASICs.
+
+The conceptual design of the LETs is similar to that of HET, using a central detector stack in conjunction with position-sensitive detectors that define the FOV and subdivide it into a number of sectors that we use for measuring particle angular distributions. Similar to HET, the LET detectors, other than L0 and L1, have thicknesses of either 500 ZZZ#181;m for L2 or 1000 ZZZ#181;m for the remaining detectors. In order to achieve a low threshold energy for EPI-Hi and to minimize the energy gap between EPI-Hi and EPI-Lo, we have developed a process for fabricating very thin silicon detectors. At the front of LET we have L0 and L1 detectors with thicknesses of 12 ZZZ#181;m and 25 ZZZ#181;m, respectively. A 1 MeV proton has energy just sufficient to penetrate the L0 detector and the thin windows in front of the telescope, approximately 3 ZZZ#181;m silicon equivalent, and provide the two-parameter measurement required for particle identification. The thin detectors are sufficiently uniform in thickness to allow the required species separation, including distinguishing between the isotopes of Helium. Like the H1 and H2 detectors, L0, L1, and L2 are all position sensitive with a central bullZZZapos;s-eye surrounded by an annulus subdivided into four quadrants.
+
+Protons with energy greater than approximately 8 MeV will have energy losses in the L0 detector that fall below the detection threshold of the front-end electronics. For this reason, in LET we identify events either by a coincidence between L0 and L1 or a coincidence between L1 and L2. It is possible for an event to satisfy the L1-L2 coincidence without triggering L0 either because the signal fell below threshold in L0 or because the particle trajectory did not pass through the active area of this device. We have designed the L0 detector to have its 1 cmZZZ#178; active area located at the center of a large thin silicon membrane with an area of about 9 cmZZZ#178; that covers the entire field of view defined by the L1-L2 coincidence. This ensures that the analyzed particles will have passed through a consistent amount of material, thereby enabling accurate calculations of their incident energies. The L2 detector has a large annular guard region so that we can determine whether an event defined by a coincidence between L0 and the center element of L1 but lacking a signal in the central five segments of L2 is due to a particle stopping in L1 or to a trajectory passing outside the central part of L2.
+
+Unlike in HET, the central stack detectors in LET, L3 and L4, have an active diameter large enough to intercept even the widest-angle trajectories defined by the L1-L2 coincidence. Thus, the LET detectors do not require guard segments to identify side-exiting particles. We have also segmented these detectors into a central bullZZZapos;s-eye surrounded by a wide annular region so that we can dynamically adjust the LET geometrical factor and thereby increase the dynamic range in particle intensities that EPI-Hi can measure.</Description>
+         <Acknowledgement>Please acknowledge NASA, David J. McComas, the PSP ISOIS Instrument Suite Principal Investigator, and Nicola J. Fox, the PSP Project Scientist.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Nicola.J.Fox</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Parker Solar Probe ISOIS Suite NSSDCA Master Catalog Listing</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2018-065A-02</URL>
+            <Description>NSSDC Master Catalog Listing for the Parker Solar Probe Integrated Science Investigation of the Sun, ISOIS, Suite, NSSDCA/COSPAR ID: 2018-065A-02</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+      <InstrumentType>SolidStateDetector</InstrumentType>
+      <InvestigationName>Parker Solar Probe Mission</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2018-08-12T07:31:00.000Z</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/ParkerSolarProbe</ObservatoryID>
+   </Instrument>
+</Spase>

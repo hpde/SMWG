@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd" lang="en">
+   <Version>2.3.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/ParkerSolarProbe/SWEAP/SPC</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Parker Solar Probe, PSP, Solar Wind Electrons Alphas and Protons, SWEAP, Suite, Solar Probe Cup, SPC, Instrument</ResourceName>
+         <AlternateName>Solar Probe Plus, SPP, Solar Wind Electrons Alphas and Protons, SWEAP, Suite, Solar Probe Cup, SPC, Instrument</AlternateName>
+         <ReleaseDate>2020-03-16T12:34:56.789Z</ReleaseDate>
+         <Description>The PSP SWEAP instrument consists of the Solar Probe Cup, SPC, a Sun-viewing fast Faraday Cup designed to operate under extreme temperatures, and the Solar Probe Analyzers, SPAN, a combination of three electrostatic analyzers, ESAs, that make detailed measurements of ion and electron velocity distributions from the shadowed region behind the spacecraft heat shield. SPC precisely measures fluxes and flow angles as a function of energy from about 50 eV/q to 8 keV/q for ions and about 50 eV to 2 keV for electrons. SPAN consists of an ion and electron electrostatic analyzer, ESA, on the ram side of PSP, SPAN-A, and an electron ESA on the spacecraft anti-ram side, SPAN-B. The SPAN-A ion ESA measures ions as a function of direction and energy per charge from several eV/q to 20 keV/q and has a time of flight section that enables it to sort particles by their mass over charge ratio, permitting differentiation of ion species. The fields of view of SPC and the SPAN-A ion ESA allow SWEAP to continuously track ion flows in the presence of strong waves, nearly subsonic flows, and aberration due to the high orbital speeds of the spacecraft at closest approach. The SPAN-A and SPAN-B electron ESAs also run from several eV to 20 keV. SPAN-A and SPAN-B are rotated relative to one another so the broad fields of view of the two electron ESAs combine like the seams on a baseball to view the entire sky except for the region obscured by the heat shield and covered by SPC, permitting sensitive measurements of electron temperatures, heat fluxes, and field-aligned beams. Observations by SPC and SPAN produce the combined field of view and measurement capabilities required to fulfill the science objectives of SWEAP and Solar Probe Plus. The SPC, SPAN-A, and SPAN-B are managed by the SWEAP Electronics Module, SWEM, which distributes power, formats onboard data products, and serves as a single electrical interface to the spacecraft. SWEAP data products include ion and electron velocity distribution functions with high energy and angular resolution. Full resolution data are stored within the SWEM thus enabling high resolution observations of structures such as shocks, reconnection events, and other transient structures to be selected for download after the fact.
+
+SPC is a Faraday Cup, FC, with a 60&#176; full-width field of view, FOV, that views the Sun from the edge of the PSP heat shield and measures the reduced distribution function, RDF, and flow angles of ions and electrons as a function of energy per charge at high frequency. SPC measurements are essential for PSP and SWEAP because otherwise the solar wind would often be blocked by the heat shield. Faraday cups measure the current produced on a metal plate by charged particles that possess sufficient energy/charge to pass through a grid placed at a variable high voltage, HV. The underlying technology is straightforward and similar to the operating principles of vacuum tubes. SPC filters charged particles based on the component of their energy/charge parallel to the instrument line of sight. For a given parallel E/q, particles with any perpendicular E/q can enter SPC as long as their flow angle is within the FOV. In a single measurement, the HV oscillates between two voltages. The population of plasma with parallel between these two voltages produces an AC current on the plate. Then, the SWEAP electronics isolate the AC signal and record it.
+
+SPC measures the currents produced on a circular plate divided into four quadrants and placed behind a smaller circular aperture. The combined currents are directly related to the RDF. And, the ratios of the currents recorded by the different collector plates can be utilized to solve for the precise flow angle of the plasma as a function of energy per charge. Detailed properties of the solar wind such as velocity, density, and anisotropic temperatures are then determined by convolving a model velocity distribution function with a detailed instrument response function and deriving the best fit solar wind parameters (e.g. Kasper et al. 2006). The AC detection process makes SPC insensitive to lower-frequency noise sources, such as thermionic emission from hot surfaces, photo-electron emission from surfaces exposed to sunlight, and penetrating radiation from intense energetic particle events.</Description>
+         <Acknowledgement>Please acknowledge NASA, Justin C. Kasper, the PSP SWEAP Instrument Suite Principal Investigator, and Nicola J. Fox, the PSP Project Scientist.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Nicola.J.Fox</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Justin.C.Kasper</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Parker Solar Probe SWEAP Suite NSSDCA Master Catalog Listing</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2018-065A-04</URL>
+            <Description>NSSDC Master Catalog Listing for the Parker Solar Probe Solar Wind Electrons Alphas and Protons, SWEAP, Suite, NSSDCA/COSPAR ID: 2018-065A-04</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>FaradayCup</InstrumentType>
+      <InvestigationName>Parker Solar Probe Mission</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2018-08-12T07:31:00.000Z</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/ParkerSolarProbe</ObservatoryID>
+   </Instrument>
+</Spase>
