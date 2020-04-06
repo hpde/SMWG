@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd" lang="en">
+   <Version>2.3.1</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Juno</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Juno</ResourceName>
+         <AlternateName>Juno Orbiter</AlternateName>
+         <ReleaseDate>2020-04-05T12:34:56.789Z</ReleaseDate>
+         <Description>The Juno mission was launched on August 5, 2011 at 16:25 UTC or equivalently at 12:25 pm EDT from Cape Canaveral Air Force Station. The Juno mission has been designed to study Jupiter from polar orbit for approximately one year beginning in 2016. The primary scientific objectives of the mission are to collect data to investigate:
+
+* 1) The formation and origin of the Jovian atmosphere and the potential migration of planets through the measurement of Jupiter&apos;s global abundance of oxygen and nitrogen present in water and ammonia, respectively
+* 2) Variations in Jupiter&apos;s deep atmosphere related to meteorology, composition, temperature profiles, cloud opacity, and atmospheric dynamics
+* 3) The fine structure of Jupiter&apos;s magnetic field, providing information on its internal structure and the nature of the dynamo
+* 4) The gravity field and distribution of mass inside the planet
+* 5) Jupiter&apos;s three-dimensional polar magnetosphere and aurorae
+
+Juno carries eight experiments to achieve these objectives. Juno was the second mission chosen for the New Frontiers program.
+
+* Spacecraft and Subsystems
+* =========================
+
+The spacecraft is built around a hexagonal cylinder bus measuring 3.5 m in diameter &#10799; 3.5 m in height. Three solar panel wings extend from alternate sides of the hexagon giving a total diameter of approximately 20 m. A high gain antenna is mounted on top of the bus, with instruments mounted on the deck and propellant, oxygen, and pressurant tanks mounted within. At the center of the top deck is a 0.8 m &#10799; 0.8 m &#10799; 0.6 m titanium $quot;vault$quot;, which houses the spacecraft avionics and critical systems to protect them from the severe jovian radiation environment. The vault has a mass of 150 kg and walls up to over a cm in thickness. Power is provided by ultra triple junction Galium arsenide, GaAs, solar cells, covered with thick glass for radiation shielding, which are grouped into 11 solar panels, four on two of the wings and three on the remaining one. The end of the third wing is a boom structure holding science instruments. The solar panels will produce a total of 18 kW at Earth and 400 W initially at Jupiter. The science payload comprises ten instruments:
+
+* The Jovian Auroral Distributions Experiment, JADE
+* The Jupiter Energetic-particle Detector Instrument, JEDI
+* The Ultraviolet Spectrograph, UVS
+* The JunoCam
+* The Jovian Infrared Auroral Mapper, JIRAM
+* The Plasma Waves Instrument, Waves
+* The Microwave radiometer, MWR
+* The Fluxgate Magnetometer, FGM
+* The Advanced Stellar Compass, ASC
+* The Scalar Helium Magnetometer, SHM
+* The Gravity Science experiment
+
+* Mission Profile
+* ===============
+
+Juno was launched on an Atlas V 551 with a Centaur upper stage. There was one Earth flyby on October 9, 2013 with a closest approach of about 559 km at 19:21 UT or 3:21 pm EST. Juno was inserted into its initial 53.5 d Jupiter polar orbit on July 5, 2016 with confirmation of the completion of the 35 minute engine burn received at Earth at 03:53 UT or 11:53 pm EDT on July 4th. The science orbit will be a 14 day near-polar 90&#176;&#177;10&#176; orbit with a perijove of roughly 1.05 Jovian radii, Rj, which is about 4200 km above the cloud tops at its closest and an apojove of 39 Rj. The spacecraft will be rotating at 2 revolutions per minute, rpm, during the science orbit. Due to the intense radiation environment close to Jupiter, the mission will receive a critical dosage fairly rapidly and is planned to last for 37 orbits. At the end of the mission Juno will be deorbited and burn up in Jupiter&apos;s atmosphere.</Description>
+         <Acknowledgement>Please acknowledge the National Aeronautics and Space Administration, NASA</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Mary.M.Mellott</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>NSSDC Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2011-040A</URL>
+            <Description>Information about the Juno spacecraft and the overall mission</Description>
+            <Language>en</Language>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Jupiter</ObservatoryRegion>
+         <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+         <ObservatoryRegion>Heliosphere.Remote1AU</ObservatoryRegion>
+         <ObservatoryRegion>Heliosphere.Outer</ObservatoryRegion>
+         <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2011-08-05T16:25:00Z</StartDate>
+         <Note>The listed start date corresponds to the launch time of Juno</Note>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

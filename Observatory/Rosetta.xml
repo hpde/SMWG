@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd" lang="en">
+   <Version>2.3.1</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Rosetta</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Rosetta</ResourceName>
+         <AlternateName>Rosetta Comet Rendezvous</AlternateName>
+         <ReleaseDate>2020-04-05T12:34:56.789Z</ReleaseDate>
+         <Description>Rosetta was European Space Agency, ESA, Horizon 2000 cornerstone mission number 3 designed to rendezvous with Comet 67 P/Churyumov-Gerasimenko, drop a probe on the surface, study the comet from orbit, and fly by at least one asteroid en route. The principal goals are to study the origin of comets, the relationship between cometary and interstellar material, and its implications with regard to the origin of the solar system. Its scientific objectives to achieve these goals are:
+
+* 1) Global characterization of the nucleus, determination of dynamic properties, surface morphology and composition
+* 2) Determination of the chemical, mineralogical, and isotopic compositions of volatiles and refractories in a cometary nucleus
+* 3) Determination of the physical properties and interrelation of volatiles and refractories in a cometary nucleus
+* 4) Study of the development of cometary activity and the processes in the surface layer of the nucleus and the inner coma where dust/gas interactions occur
+* 5) Global characterisation of asteroids, including determination of dynamic properties, surface morphology, and composition
+
+* Spacecraft and Subsystems
+* =========================
+
+Rosetta&apos;s design was based on a box-shaped central frame, 2.8 m &#10799; 2.1 m &#10799; 2.0 m with an aluminum honeycomb main platform. Total launch mass was 3000 kg including the 100 kg lander and 165 kg of scientific instruments. Two solar panels, 32 m$#i178; each, extend outward from opposite sides of the box spanning 32 m tip-to-tip. The spacecraft consists of two primary modules, the Payload Support Module, PSM, which holds the scientific instrumentation and two payload boom deployment mechanisms in the top part of the frame and the Bus Support Module, BSM, which holds the spacecraft subsystems in the lower part. A steerable 2.2 m diameter high-gain parabolic dish antenna was attached to one side, and the lander will be mounted on the opposite side. The science instrument panel was mounted on the top and was designed to be facing the comet continuously during orbit while the antenna and solar panels faced the Earth and Sun. Radiators and louvers were mounted on the back and side panels which face away from the Sun and comet. In the center of the spacecraft protruding from the bottom was a vertical thrust tube made of corrugated aluminum with strengthening rings.
+
+The thrust tube provided the propulsion for primary maneuvers and contains two 1106 liter propellant tanks, the upper one containing propellant and the lower one oxidizer. A total of 660 kg of bipropellant monomethyl hydrazine propellant and 1060 kg of nitrogen tetroxide oxidizer was necessary to provide 2200 m/s delta-V over the course of the mission. The launch mass of the craft including fuel was 2900 kg. There were also four 35 liter pressurant tanks. The spacecraft was three-axis stabilized and the orientation controlled by 24 10 N thrusters. Attitude was maintained using two star trackers, a Sun sensor, navigation cameras, and three laser gyro packages. Power was supplied by the solar arrays, which was composed of low intensity, low temperature Silicon, Si, or Gallium arsenide, GaAs, solar cells. These provided 400 W at 5.2 AU and 850 W at 3.4 AU, when comet operations began. Power was stored in four 10 A hr Nickel Cadmium, NiCd, batteries which supplied the 28 V bus power. Communications were accompliched via the high-gain antenna, a fixed 0.8 meter medium-gain antenna, and two omnidirectional low gain antennas. Rosetta utilized an S-band telecommand uplink and S-band and X-band telemetry and science data downlink, with data transmission rates ranging from 5 kbits/s to 20 kbits/s. Communication equipment included a 28 W Radio Frequency, RF, X-band travelling wave tube amplifier, TWTA, and a dual 5 W RF S/X band transponder. Onboard heaters were used to keep the instrumentation from freezing during the period when the spacecraft was far from the Sun.
+
+* Philae Lander
+* =============
+
+The Rosetta lander, Philae, was attached to the side of the Rosetta spacecraft and released some time after Rosetta achieved orbit around the comet. For more information on Philae, see: http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=2004-006C.
+
+* Mission Profile
+* ===============
+
+Rosetta was launched at 07:17 UT on March 2, 2004 on an Ariane 5 G+ from Kourou, French Guiana. The spacecraft entered heliocentric orbit and had an Earth flyby and gravity assist on March 4, 2005. A Mars flyby/gravity assist followed on February 25, 2007, and two more Earth gravity assists on November 13, 2007 and November 13, 2009. In between these Earth flybys, on September 5, 2008 at 18:58 UTC Rosetta flew within 800 km of asteroid 2867 Steins at a relative velocity of 8.6 km/s. Steins is a main belt E-type asteroid 4.6 km in diameter. After the second Earth flyby, the spacecraft entered the main asteroid belt for the second time and flew by asteroid 21 Lutetia at a distance of 3000 km and a speed of 15 km/s on July 10, 2010. Lutetia is a large asteroid, about 100 km in diameter. The spacecraft entered a hibernation phase in June of 2011. On January 20, 2014, Rosetta came out of hibernation and began its rendezvous manuever for Comet Churyumov-Gerasimenko in May 2014. Rosetta made its rendezvous with the comet on August 6, 2014.
+
+The rendezvous maneuver lowered the spacecraft velocity relative to that of the comet to roughly 25 m/s and put it into the near comet drift phase. Some time after this, observations of the comet and the far approach trajectory phase started. At the end of this approximately 90 day phase, the relative velocity between Rosetta and the comet had been reduced to 2 m/s, at a distance of about 300 comet nucleus radii. At this point, landmarks and radiometric measurements were used to make a precise determination of spacecraft and comet relative positions and velocities and of the rotation and gravity of the comet nucleus to fine-tune the approach. This information was used to start orbit insertion at about 60 comet radii distance at a few cm/s. At about 25 comet radii a capture maneuver closed the orbit. Polar orbits at 5 to 25 comet nucleus radii were used for mapping the nucleus beginning in August 2014.
+
+Using the information gathered from orbit, a landing site was chosen for the Philae lander. An ejection mechanism separated Philae from the spacecraft with a maximum relative velocity up to 1.5 m/s in November 2014. The lander hit the surface at a relative velocity of about 1 m/s at 15:34 UT on November 12, 2014, but the thruster and harpoons failed and it bounced twice before coming to rest in a shaded area. It transmitted data from the surface to the spacecraft, which relayed it to Earth, until Philae&apos;s battery gave out. Last transmission ended at 00:36 UT on November 15th. Eight intermittent contacts were made between the June 13th and July 9th of 2015. The increased heating of the comet forced Rosetta to raise its orbit to a safe distance from the comet nucleus. Following perihelion in August 2015, as the comet moved away from the Sun activity began to diminish and Rosetta was able to lower its orbit again. It moved to a 170 km periapse on November 12, 2015. Attempts at contact with Philae were attempted from this closer position, but were unsuccessful. Rosetta remained in orbit about the comet past perihelion passage on August 13, 2015 and ended the mission on September 30, 2016 with a controlled impact on the comet surface at 11:19 UT.
+
+Rosetta was funded by the European Space Agency. The total cost of the mission including launch and operation was about $900 million before the launch delay. The mission was originally to rendezvous with Comet 46 P/Wirtanen. Flybys of two asteroids, 4979 Otawara and 140 Siwa, on the way to the comet were also planned. The mission was delayed due to problems with the Ariane booster. The delay has reportedly cost an extra $70 to $80 million.</Description>
+         <Acknowledgement>Please acknowledge the European Space Agency, ESA</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Walter.F.Huebner</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>NSSDC Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2004-006A</URL>
+            <Description>Information about the Rosetta spacecraft and the overall mission</Description>
+            <Language>en</Language>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Comet</ObservatoryRegion>
+         <ObservatoryRegion>Asteroid</ObservatoryRegion>
+         <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+         <ObservatoryRegion>Mars</ObservatoryRegion>
+         <ObservatoryRegion>Heliosphere.Remote1AU</ObservatoryRegion>
+         <ObservatoryRegion>Heliosphere.Outer</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2004-03-02T07:17:00Z</StartDate>
+         <StopDate>2016-09-30T00:00:00Z</StopDate>
+         <Note>The listed start date corresponds to the launch time of Rosetta</Note>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

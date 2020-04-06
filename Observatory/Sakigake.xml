@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd" lang="en">
+   <Version>2.3.1</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Sakigake</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Sakigake</ResourceName>
+         <AlternateName>Pioneer</AlternateName>
+         <ReleaseDate>2020-04-05T12:34:56.789Z</ReleaseDate>
+         <Description>Sakigake, whichs is the Japanese word that means Pioneer, was a test spacecraft similar to Suisei, which is also known by the name Planet-A. Sakigake flew by Comet P/Halley on its sunward side at a distance of about 7 million km on March 11, 1986. It carried three instruments to measure plasma wave spectra, solar wind ions, and interplanetary magnetic fields all of which worked normally. The spacecraft was spin-stabilized at two different rates measured in revolutions per minute, rpm: 5 rpm and 0.2 rpm, respectively. It was equipped with hydrazine thrusters for attitude and velocity control, star and sun sensors for attitude determination, and a mechanically despun off-set parabolic dish for long-range communication. Sakigake made an Earth swingby on January 8, 1992. The closest approach was at 23:08:47 JST, which is UTC+9h at a geocentric distance of 88,997 km. This was the first planet-swingby for a Japanese spacecraft. During the approach, Sakigake observed the geotail. A geotail passage occurred at 290 Earth radii, Re, on June 14, 1993 before ISTP&apos;s multi-spacecraft investigation of that region. The second Earth swingby was on June 14, 1993 at 40 Re and the third on October 28, 1994 at 86 Re. Almost no hydrazine remained so no further maneuvers were accomplished. Telemetry contact was lost on November 15, 1995 at a distance of 106 million km. Future mission planning had included a 23.6 km/s, 10,000 km flyby of Comet P/Honda-Mrkos-Pajdusakova on Feb 3, 1996 that would have had the spacecraft approaching the nucleus along the tail some 0.17 AU from the Sun, and a 14 million km passage of Comet P/Giacobini-Zinner on Nov 29, 1998.</Description>
+         <Acknowledgement>Please acknowledge the Institute of Space and Astronautical Science, ISAS, Japan Aerospace Exploration Agency, JAXA</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Hiroshi.Oya</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>NSSDC Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1985-001A</URL>
+            <Description>Information about the Sakigake spacecraft and the overall mission</Description>
+            <Language>en</Language>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Comet</ObservatoryRegion>
+         <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+         <ObservatoryRegion>Heliosphere.Inner</ObservatoryRegion>
+         <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+         <ObservatoryRegion>Heliosphere.Remote1AU</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>1985-01-08T19:26:00Z</StartDate>
+         <StopDate>1999-01-07T00:00:00Z</StopDate>
+         <Note>The listed start date corresponds to the launch time of Sakigake</Note>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

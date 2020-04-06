@@ -1,33 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-  <Version>2.2.1</Version>
-  <Observatory>
-    <ResourceID>spase://SMWG/Observatory/MESSENGER</ResourceID>
-    <ResourceHeader>
-      <ResourceName>MESSENGER</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
-      <Description>The Mercury Surface, Space Environment, Geochemistry
-and Ranging (MESSENGER) mission, launched on 2004-08-03, was mainly
-designed to study the characteristics and environment of Mercury from
-orbit.  After an Earth flyby July-August, 2005, Venus flybys October-
-November, 2006, and May-June, 2007, and Mercury flybys December 2007 -
-January 2008, September-October, 2008, and September-October, 2009,
-MESSENGER entered Mercury orbit 2011-03-04.  Much data of interest to
-the heliospheric community was obtained during the cruise phases
-between planetary encounters from a magnetometer and an energetic
-particle and plasma spectrometer.</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Ralph.L.McNutt.Jr</PersonID>
-        <Role>ProjectScientist</Role>
-</Contact>
-      <InformationURL>
-        <Name>NSSDC Master Catalog</Name>
-        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2004-030A</URL>
-</InformationURL>
-</ResourceHeader>
-    <Location>
-      <ObservatoryRegion>Heliosphere.Inner</ObservatoryRegion>
-      <ObservatoryRegion>Mercury</ObservatoryRegion>
-</Location>
-</Observatory>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd" lang="en">
+   <Version>2.3.1</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/MESSENGER</ResourceID>
+      <ResourceHeader>
+         <ResourceName>MESSENGER</ResourceName>
+         <AlternateName>Mercury Surface, Space Environment, Geochemistry and Ranging</AlternateName>
+         <ReleaseDate>2020-04-05T12:34:56.789Z</ReleaseDate>
+         <Description>The Mercury Surface, Space Environment, Geochemistry and Ranging, MESSENGER, mission, launched on 2004-08-03, was mainly designed to study the characteristics and environment of Mercury from orbit. After an Earth flyby July-August of 2005, Venus flybys October-November of 2006, and May-June of 2007, and Mercury flybys December 2007-January 2008, September-October of 2008, and September-October of 2009, MESSENGER entered Mercury orbit on March 4, 2011. Much data of interest to the heliospheric community was obtained during the cruise phases between planetary encounters from a magnetometer and an energetic particle and plasma spectrometer.</Description>
+         <Acknowledgement>Please acknowledge the National Aeronautics and Space Administration, NASA</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Ralph.L.McNutt.Jr</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>NSSDC Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2004-030A</URL>
+            <Description>Information about the MESSENGER spacecraft and the overall mission</Description>
+            <Language>en</Language>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Mercury</ObservatoryRegion>
+         <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+         <ObservatoryRegion>Heliosphere.Inner</ObservatoryRegion>
+         <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+         <ObservatoryRegion>Heliosphere.Remote1AU</ObservatoryRegion>
+         <ObservatoryRegion>Venus</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2004-08-03T06:15:56Z</StartDate>
+         <StopDate>2015-04-30T19:26:00Z</StopDate>
+         <Note>The listed start date corresponds to the launch time of MESSENGER</Note>
+      </OperatingSpan>
+   </Observatory>
 </Spase>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd" lang="en">
+   <Version>2.3.1</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Suisei</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Suisei</ResourceName>
+         <AlternateName>Planet A</AlternateName>
+         <ReleaseDate>2020-04-05T12:34:56.789Z</ReleaseDate>
+         <Description>Suisei, whichs is the Japanese word that means Comet, was launched on August 18, 1985 into a heliocentric orbit to fly by Comet P/Halley. It is identical to Sakigake apart from its payload: a CCD UV imaging system and a solar wind instrument. The main objective of the mission was to take UV images of the hydrogen corona for about 30 days before and after Comet Halley&apos;s downward crossing of the ecliptic plane. Solar wind parameters were measured for a much longer time period. The spacecraft is spin-stabilized at two different rates measured in revolutions per minute, rpm: 5 rpm and 0.2 rpm, respectively. Hydrazine thrusters are used for attitude and velocity control. Star and sun sensors are for attitude control. And, a mechanically despun off-set parabolic dish is used for long range communication. Suisei began UV observations in Novembber 1985, generating up to 6 images per day. The spacecraft encountered Comet P/Halley at 151,000 km on sunward side during March 8, 1986 while suffering only two dust impacts. Fifteen burns of the Suisei 3 N motors over the time interval spanning April 5-10 of 1987 yielded a 65 m/s velocity increase for a 60,000 km Earth gravity assist swingby on August 20, 1992, although the craft was then lost behind the Sun for the summer. The hydrazine was depleted on 22 February 1991. Preliminary tracking indicated a 900,000 km flyby had been achieved. ISAS had decided during 1987 to guide Suisei to a November 24, 1998 encounter with P/Giacobini-Zinner, but due to depletion of the hydrazine, this, as well as plans to fly within several million km of Comet P/Tempel-Tuttle on February 28, 1998 were been cancelled.</Description>
+         <Acknowledgement>Please acknowledge the Institute of Space and Astronautical Science, ISAS, Japan Aerospace Exploration Agency, JAXA</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Mikio.Shimizu</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>NSSDC Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1985-073A</URL>
+            <Description>Information about the Suisei spacecraft and the overall mission</Description>
+            <Language>en</Language>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Comet</ObservatoryRegion>
+         <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+         <ObservatoryRegion>Heliosphere.Inner</ObservatoryRegion>
+         <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+         <ObservatoryRegion>Heliosphere.Remote1AU</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>1985-08-18T23:33:00Z</StartDate>
+         <StopDate>1992-08-20T00:00:00Z</StopDate>
+         <Note>The listed start date corresponds to the launch time of Suisei</Note>
+      </OperatingSpan>
+   </Observatory>
+</Spase>
