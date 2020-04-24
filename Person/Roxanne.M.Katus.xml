@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd" lang="en">
+   <Version>2.3.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Roxanne.M.Katus</ResourceID>
+      <ReleaseDate>2020-04-23T12:34:56.789</ReleaseDate>
+      <PersonName>Roxanne M. Katus</PersonName>
+      <OrganizationName>Mathematics and Statistics, College of Arts and Sciences</OrganizationName>
+      <Address>Eastern Michigan University, Ypsilanti, MI, USA 48197</Address>
+      <Email>rkatus@emich.edu</Email>
+      <PhoneNumber>+1 734 487 1849</PhoneNumber>
+   </Person>
+</Spase>
