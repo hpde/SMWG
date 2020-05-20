@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/Observatory/SAMBA/Escudero</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/Ground/SAMBA/Los.Cerrillos</ResourceID>
     <ResourceHeader>
-      <ResourceName>Escudero</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
-      <Description>Escudero (ESC) Geomagnetic Observatory</Description>
+      <ResourceName>Los Cerrillos</ResourceName>
+      <ReleaseDate>2020-05-19T15:05:51Z</ReleaseDate>
+      <Description>Los Cerrillos (CER) Geomagnetic Observatory</Description>
       <Acknowledgement>Please acknowledge Eftyhia Zesta, Air Force Research Lab, Hanscom AFB, for providing access to SAMBA data resources.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Eftyhia.Zesta</PersonID>
@@ -49,21 +49,21 @@
         <Role>MetadataContact</Role>
 </Contact>
       <InformationURL>
-        <Name>Escudero geomagnetic observatory web site</Name>
-        <URL>http://magnetometers.bc.edu/data/dat/samba/escudero/</URL>
-        <Description>Escudero geomagnetic observatory web site</Description>
+        <Name>Los Cerrillos geomagnetic observatory web site</Name>
+        <URL>http://magnetometers.bc.edu/data/dat/samba/cerrillos/</URL>
+        <Description>Los Cerrillos geomagnetic observatory web site</Description>
 </InformationURL>
       <Association>
-        <AssociationID>spase://SMWG/Observatory/SAMBA</AssociationID>
+        <AssociationID>spase://SMWG/Observatory/Ground/SAMBA</AssociationID>
         <AssociationType>PartOf</AssociationType>
 </Association>
 </ResourceHeader>
-    <ObservatoryGroupID>spase://SMWG/Observatory/SAMBA</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/SAMBA</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
       <CoordinateSystemName>GEO</CoordinateSystemName>
-      <Latitude>-62.180</Latitude>
-      <Longitude>-58.920</Longitude>
+      <Latitude>-33.450</Latitude>
+      <Longitude>-70.600</Longitude>
 </Location>
 </Observatory>
 </Spase>

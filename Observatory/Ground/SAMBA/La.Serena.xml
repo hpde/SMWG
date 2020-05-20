@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/Observatory/SAMBA/La.Serena</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/Ground/SAMBA/La.Serena</ResourceID>
     <ResourceHeader>
       <ResourceName>La Serena</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2020-05-19T15:05:51Z</ReleaseDate>
       <Description>La Serena (SER) Geomagnetic Observatory</Description>
       <Acknowledgement>Please acknowledge Eftyhia Zesta, Air Force Research Lab, Hanscom AFB, for providing access to SAMBA data resources.</Acknowledgement>
       <Contact>
@@ -58,11 +58,11 @@
         <Description>La Serena geomagnetic observatory web site</Description>
 </InformationURL>
       <Association>
-        <AssociationID>spase://SMWG/Observatory/SAMBA</AssociationID>
+        <AssociationID>spase://SMWG/Observatory/Ground/SAMBA</AssociationID>
         <AssociationType>PartOf</AssociationType>
 </Association>
 </ResourceHeader>
-    <ObservatoryGroupID>spase://SMWG/Observatory/SAMBA</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/SAMBA</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
       <CoordinateSystemName>GEO</CoordinateSystemName>

@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
-  <Version>2.0.1</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/SAMBA/O.Higgins/Magnetometer</ResourceID>
     <ResourceHeader>
       <ResourceName>The O'Higgins Fluxgate Magnetometer Instrument.</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2020-05-19T15:05:51Z</ReleaseDate>
       <Description>The Fluxgate Magnetometer instrument at the O'Higgins geomagnetic observatory.</Description>
       <Acknowledgement>Please acknowledge Eftyhia Zesta, Department of Atmospheric Sciences (7127 Math Sciences Building, University of California, Los Angeles, Box 951565, CA, 90095-1565 USA) for use of data from the O'Higgins Magnetometer instrument.</Acknowledgement>
       <Contact>
@@ -58,12 +58,12 @@
         <Description>The O'Higgins geomagnetic observatory web site.</Description>
 </InformationURL>
       <Association>
-        <AssociationID>spase://SMWG/Observatory/SAMBA/O.Higgins</AssociationID>
+        <AssociationID>spase://SMWG/Observatory/Ground/SAMBA/O.Higgins</AssociationID>
         <AssociationType>PartOf</AssociationType>
 </Association>
 </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>The SAMBA Magnetometer Array</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/SAMBA/O.Higgins</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Ground/SAMBA/O.Higgins</ObservatoryID>
 </Instrument>
 </Spase>

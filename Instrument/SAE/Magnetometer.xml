@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
-   <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+   <Version>2.3.1</Version>
    <Instrument>
       <ResourceID>spase://SMWG/Instrument/SAE/Magnetometer</ResourceID>
       <ResourceHeader>
          <ResourceName>Southern Auroral Electrojet Index Instrument</ResourceName>
          <AlternateName>SAE Instrument</AlternateName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2020-05-19T15:05:51Z</ReleaseDate>
          <Description>The southern auroral electrojet (SAE) index instrument is a virtual instrument representing the collection of ground magnetometer arrays used to derive a southern auroral electrojet index in the southern auroral region at 60 s resolution. The SAE observatory consists of ground magnetometers from the SAMBA, RAM (Russia), UAPM (Japan), South Africa, Geosciences Australia, and BAS (Bristish Antarctic Survey) ground magnetometer stations and arrays. The contributing magnetometers may vary from day to day. As result, the SAE index instrument is used as a proxy for the set of possible contributing ground magnetometers.</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
@@ -33,7 +33,7 @@
          <Description>Online Magnetometer Data at Syowa Station. These data are in a variety of resolutions.</Description>
 </InformationURL>
         <Association>
-         <AssociationID>spase://SMWG/Observatory/SAMBA</AssociationID>
+         <AssociationID>spase://SMWG/Observatory/Ground/SAMBA</AssociationID>
          <AssociationType>PartOf</AssociationType>
 </Association>
       <Association>

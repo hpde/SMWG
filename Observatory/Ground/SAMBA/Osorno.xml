@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
   <Observatory>
-    <ResourceID>spase://SMWG/Observatory/SAMBA/Punta.Arenas</ResourceID>
+    <ResourceID>spase://SMWG/Observatory/Ground/SAMBA/Osorno</ResourceID>
     <ResourceHeader>
-      <ResourceName>Punta Arenas</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
-      <Description>Punta Arenas (PUC) Geomagnetic Observatory</Description>
+      <ResourceName>Osorno</ResourceName>
+      <ReleaseDate>2020-05-19T15:05:51Z</ReleaseDate>
+      <Description>Osorno (OSO) Geomagnetic Observatory</Description>
       <Acknowledgement>Please acknowledge Eftyhia Zesta, Air Force Research Lab, Hanscom AFB, for providing access to SAMBA data resources.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Eftyhia.Zesta</PersonID>
@@ -45,25 +45,29 @@
         <Role>TeamMember</Role>
 </Contact>
       <Contact>
+        <PersonID>spase://SMWG/Person/David.Martinez</PersonID>
+        <Role>TechnicalContact</Role>
+</Contact>
+      <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
 </Contact>
       <InformationURL>
-        <Name>Punta Arenas geomagnetic observatory web site</Name>
-        <URL>http://magnetometers.bc.edu/data/dat/samba/puntaarenas/</URL>
-        <Description>Punta Arenas geomagnetic observatory web site</Description>
+        <Name>Osorno geomagnetic observatory web site</Name>
+        <URL>http://magnetometers.bc.edu/data/dat/samba/osorno/</URL>
+        <Description>Osorno geomagnetic observatory web site</Description>
 </InformationURL>
       <Association>
-        <AssociationID>spase://SMWG/Observatory/SAMBA</AssociationID>
+        <AssociationID>spase://SMWG/Observatory/Ground/SAMBA</AssociationID>
         <AssociationType>PartOf</AssociationType>
 </Association>
 </ResourceHeader>
-    <ObservatoryGroupID>spase://SMWG/Observatory/SAMBA</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/SAMBA</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
       <CoordinateSystemName>GEO</CoordinateSystemName>
       <Latitude>-40.340</Latitude>
-      <Longitude>-70.090</Longitude>
+      <Longitude>-73.090</Longitude>
 </Location>
 </Observatory>
 </Spase>
