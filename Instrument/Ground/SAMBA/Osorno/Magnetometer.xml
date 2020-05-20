@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
   <Version>2.3.1</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/SAMBA/Osorno/Magnetometer</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Ground/SAMBA/Osorno/Magnetometer</ResourceID>
     <ResourceHeader>
       <ResourceName>The Osorno Fluxgate Magnetometer Instrument.</ResourceName>
-      <ReleaseDate>2020-05-19T15:05:51Z</ReleaseDate>
+      <ReleaseDate>2020-05-20T16:19:21Z</ReleaseDate>
       <Description>The Fluxgate Magnetometer instrument at the Osorno geomagnetic observatory.</Description>
       <Acknowledgement>Please acknowledge Eftyhia Zesta, Department of Atmospheric Sciences (7127 Math Sciences Building, University of California, Los Angeles, Box 951565, CA, 90095-1565 USA) for use of data from the Osorno Magnetometer instrument.</Acknowledgement>
       <Contact>
@@ -61,6 +61,7 @@
         <AssociationID>spase://SMWG/Observatory/Ground/SAMBA/Osorno</AssociationID>
         <AssociationType>PartOf</AssociationType>
 </Association>
+<PriorID>spase://SMWG/Instrument/SAMBA/Osorno/Magnetometer</PriorID>
 </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>The SAMBA Magnetometer Array</InvestigationName>

@@ -2,12 +2,12 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
   <Version>2.3.1</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/SAMBA/Putre/Magnetometer</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Ground/SAMBA/Valdivia/Magnetometer</ResourceID>
     <ResourceHeader>
-      <ResourceName>The Putre Fluxgate Magnetometer Instrument.</ResourceName>
-      <ReleaseDate>2020-05-19T15:05:51Z</ReleaseDate>
-      <Description>The Fluxgate Magnetometer instrument at the Putre geomagnetic observatory.</Description>
-      <Acknowledgement>Please acknowledge Eftyhia Zesta, Department of Atmospheric Sciences (7127 Math Sciences Building, University of California, Los Angeles, Box 951565, CA, 90095-1565 USA) for use of data from the Putre Magnetometer instrument.</Acknowledgement>
+      <ResourceName>The Valdivia Fluxgate Magnetometer Instrument.</ResourceName>
+      <ReleaseDate>2020-05-20T16:19:21Z</ReleaseDate>
+      <Description>The Fluxgate Magnetometer instrument at the Valdivia geomagnetic observatory.</Description>
+      <Acknowledgement>Please acknowledge Eftyhia Zesta, Department of Atmospheric Sciences (7127 Math Sciences Building, University of California, Los Angeles, Box 951565, CA, 90095-1565 USA) for use of data from the Valdivia Magnetometer instrument.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Eftyhia.Zesta</PersonID>
         <Role>PrincipalInvestigator</Role>
@@ -45,21 +45,26 @@
         <Role>TeamMember</Role>
 </Contact>
       <Contact>
+        <PersonID>spase://SMWG/Person/Christian.Lazo.Ramirez</PersonID>
+        <Role>TechnicalContact</Role>
+</Contact>
+      <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
 </Contact>
       <InformationURL>
-        <Name>The Putre geomagnetic observatory web site.</Name>
-        <URL>http://magnetometers.bc.edu/data/dat/samba/putre/</URL>
-        <Description>The Putre geomagnetic observatory web site.</Description>
+        <Name>The Valdivia geomagnetic observatory web site.</Name>
+        <URL>http://magnetometers.bc.edu/data/dat/samba/valdivia/</URL>
+        <Description>The Valdivia geomagnetic observatory web site.</Description>
 </InformationURL>
       <Association>
-        <AssociationID>spase://SMWG/Observatory/Ground/SAMBA/Putre</AssociationID>
+        <AssociationID>spase://SMWG/Observatory/Ground/SAMBA/Valdivia</AssociationID>
         <AssociationType>PartOf</AssociationType>
 </Association>
+<PriorID>spase://SMWG/Instrument/SAMBA/Valdivia/Magnetometer</PriorID>
 </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>The SAMBA Magnetometer Array</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/Ground/SAMBA/Putre</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/Ground/SAMBA/Valdivia</ObservatoryID>
 </Instrument>
 </Spase>
