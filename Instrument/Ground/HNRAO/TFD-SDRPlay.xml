@@ -19,13 +19,13 @@ selected to detect either RCP or LCP.
     <Role>TechnicalContact</Role>
    </Contact>
    <InformationURL>
-    <Name>Radio JOVE Spectrograph Users Group</Name>
+    <Name>RadioJOVE Spectrograph Users Group</Name>
     <URL>http://radiojove.org/SUG/</URL>
-    <Description>This site provide station diagrams and other reports for the receiver systems at several radio observatories associated with the Radio JOVE project.</Description>
+    <Description>This site provide station diagrams and other reports for the receiver systems at several radio observatories associated with the RadioJOVE project.</Description>
    </InformationURL>
   </ResourceHeader>
   <InstrumentType>Spectrometer</InstrumentType>
   <InvestigationName>Terminated Folded Dipole and SDRPlay spectrograph at HNRAO</InvestigationName>
-  <ObservatoryID>spase://SMWG/Observatory/Radio.JOVE/HNRAO</ObservatoryID>
+  <ObservatoryID>spase://SMWG/Observatory/RadioJOVE/HNRAO</ObservatoryID>
  </Instrument>
 </Spase>

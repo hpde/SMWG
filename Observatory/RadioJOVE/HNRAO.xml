@@ -1,15 +1,15 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
  <Version>2.3.1</Version>
  <Observatory>
-  <ResourceID>spase://SMWG/Observatory/Radio.JOVE/HNRAO</ResourceID>
+  <ResourceID>spase://SMWG/Observatory/RadioJOVE/HNRAO</ResourceID>
   <ResourceHeader>
    <ResourceName>Hawk's Nest Radio Astronomy Observatory</ResourceName>
    <AlternateName>HNRAO</AlternateName>
    <ReleaseDate>2019-04-18T11:08:36</ReleaseDate>
    <Description>Hawk's Nest Radio Astronomy Observatory is a
-   participant in the Radio JOVE project providing observations of
+   participant in the RadioJOVE project providing observations of
    radio emissions from Jupiter, the Sun, and the Galactic Background
-   to other members of the Radio JOVE community. The observatory
+   to other members of the RadioJOVE community. The observatory
    consists of an LWA (Long Wavelength Array) antenna, a TFD (Terminated
    Folded Dipole) array, a JOVE dipole array, and a Mosely 20 MHz
    Yagi.
@@ -25,12 +25,12 @@
     <Role>TechnicalContact</Role>
    </Contact>
    <InformationURL>
-    <Name>Radio JOVE Spectrograph Users Group (SUG)</Name>
+    <Name>RadioJOVE Spectrograph Users Group (SUG)</Name>
     <URL>http://radiojove.org/SUG/</URL>
-    <Description>This site provide station diagrams and other reports for the receiver systems at several radio observatories associated with the Radio JOVE project</Description>
+    <Description>This site provide station diagrams and other reports for the receiver systems at several radio observatories associated with the RadioJOVE project</Description>
    </InformationURL>
   </ResourceHeader>
-  <ObservatoryGroupID>spase://SMWG/Observatory/Radio.JOVE</ObservatoryGroupID>
+  <ObservatoryGroupID>spase://SMWG/Observatory/RadioJOVE</ObservatoryGroupID>
   <Location>
    <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
    <CoordinateSystemName>GEO</CoordinateSystemName>
