@@ -1,27 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-    <Version>2.2.2</Version>
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+    <Version>2.3.1</Version>
     <Observatory>
         <ResourceID>spase://SMWG/Observatory/RBSP/A</ResourceID>
         <ResourceHeader>
-            <ResourceName>Radiation Belt Storm Probe Satellite</ResourceName>
-            <AlternateName>Radiation Belt Storm Probe</AlternateName>
-            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+            <ResourceName>Van Allen Probe A</ResourceName>
+            <AlternateName>Radiation Belt Storm Probe A</AlternateName>
+            <ReleaseDate>2020-06-18T00:00:00Z</ReleaseDate>
             <Description>The fundamental processes that energize, transport, and cause the loss of charged particles operate throughout the plasma universe at locations as diverse as magnetized and un-magnetized planets, the solar wind, our Sun, and other stars. The same processes operate within our immediate environment, the inner magnetosphere and Earth's natural particle accelerator. The Living With a Star (LWS) program's RBSP mission will provide the in situ observations needed to obtain a comprehensive understanding of these fundamental processes. The two-year RBSP mission offers local time, altitude, and geomagnetic activity coverage sufficient to sample a wide range of energetic particle events, to identify the underlying physical processes, and to determine their relative significances and interaction modes. In addition, the mission will quantify the time-varying structure and processes of the inner magnetosphere, identify source populations, and determine when and where relevant plasma waves are generated. The knowledge gained from the RBSP mission will aid in developing both empirical and predictive models that can be used to safeguard astronauts and spacecraft in near-Earth orbit and future exploration missions to Mars and the other planets. Discriminating between proposed interaction mechanisms, distinguishing between energetic charged particle source and loss regions, and determining the spatial extent of the various phenomena manifested in the radiation belts requires simultaneous observations over a wide range of spacecraft separations. To accomplish this task, the RBSP mission will operate two Earth-orbiting spacecraft in near-equatorial, eccentric orbits with somewhat different apogees and orbital periods to provide a variety of radial and local time separations between the spacecraft over the course of the mission. The orbits of the spacecraft must be near-equatorial to observe full particle pitch angle distributions with respect to the magnetic field within the radiation belts and to observe processes that are confined to regions near the magnetic equator. The instruments must make charged particle observations over energies ranging from those of the source population (as low as 1 eV) to those representative of the most energetic particles within the radiation belts (1 GeV). Distinguishing between source populations, identifying the predominant contributors to the ring current, and understanding wave-particle interaction modes requires ion composition measurements over energies ranging from 1 eV to 1000 keV. Understanding the transport and energization of relativistic particles within the inner magnetosphere requires observations of the slowly evolving DC electric and magnetic fields. Identification of wave-particle interaction modes that lead to both particle acceleration and loss requires observations of 3D wave electric and magnetic fields over the full range of frequencies capable of interacting with particles (nominally, 10 Hz to 12 kHz for the Earth's inner magnetosphere). Finally, plasma densities governing the structure of the inner magnetosphere are best determined from combined observations of low energy (&lt;1 keV) ions, the spacecraft potential, and plasma wave resonances to 400 kHz.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Barry.H.Mauk</PersonID>
                 <Role>ProjectScientist</Role>
-</Contact>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+                <Role>MetadataContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Carolyn.Y.Ng</PersonID>
+                <Role>MetadataContact</Role>
+            </Contact>
             <InformationURL>
                 <Name>Mission Web Pages</Name>
                 <URL>http://vanallenprobes.jhuapl.edu/index.php</URL>
                 <Description>Mission Web Page</Description>
-</InformationURL>
-</ResourceHeader>
+            </InformationURL>
+        </ResourceHeader>
         <ObservatoryGroupID>spase://SMWG/Observatory/RBSP</ObservatoryGroupID>
         <Location>
             <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
-</Location><Extension/>
-</Observatory>
+            <ObservatoryRegion>Earth.Magnetosphere.RadiationBelt</ObservatoryRegion>
+            <ObservatoryRegion>Earth.NearSurface.EquatorialRegion</ObservatoryRegion>
+        </Location>
+        <OperatingSpan>
+            <StartDate>2012-08-30T08:05:00Z</StartDate>
+            <StopDate>2019-10-18T23:59:59Z</StopDate>
+            <Note>Van Allen Probe A - end of mission, propellant exhausted</Note>
+        </OperatingSpan>
+    </Observatory>
 </Spase>
