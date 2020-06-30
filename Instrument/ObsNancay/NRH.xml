@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
-  <Version>2.2.6</Version>
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/ObsNancay/NRH</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/SRN/NRH</ResourceID>
     <ResourceHeader>
       <ResourceName>Nancay Radioheliograph</ResourceName>
       <ReleaseDate>2018-10-15T21:24:00Z</ReleaseDate>
@@ -29,6 +29,6 @@ mode from 150 to 450 MHz in order to produce 2D radiograms.</Description>
     </ResourceHeader>
     <InstrumentType>MultispectralImager</InstrumentType>
     <InvestigationName>Nancay Radioheliograph</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/ObsNancay/NRH</ObservatoryID>
+    <ObservatoryID>spase://SMWG/Observatory/SRN/NRH</ObservatoryID>
   </Instrument>
 </Spase>
