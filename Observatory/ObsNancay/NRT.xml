@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
-    <Version>2.2.6</Version>
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+    <Version>2.3.1</Version>
     <Observatory>
-        <ResourceID>spase://SMWG/Observatory/ObsNancay/NRT</ResourceID>
+        <ResourceID>spase://SMWG/Observatory/SRN/NRT</ResourceID>
         <ResourceHeader>
             <ResourceName>Nancay Radioheliograph</ResourceName>
             <ReleaseDate>2019-07-09T14:09:00Z</ReleaseDate>
@@ -20,10 +20,10 @@
                 <Role>GeneralContact</Role>
             </Contact>
             <InformationURL>
-                <URL>https://www.obs-nancay.fr/-Grand-Radiotelescope-.html</URL>
+                <URL>https://www.obs-nancay.fr/radiotelescope-decimetrique/</URL>
             </InformationURL>
         </ResourceHeader>
-        <ObservatoryGroupID>spase://SMWG/Observatory/ObsNancay</ObservatoryGroupID>
+        <ObservatoryGroupID>spase://SMWG/Observatory/SRN</ObservatoryGroupID>
         <Location>
             <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
             <CoordinateSystemName>GEO</CoordinateSystemName>
@@ -31,5 +31,8 @@
             <Longitude>2.197451</Longitude>
             <Elevation>139.</Elevation>
         </Location>
+        <OperatingSpan>
+            <StartDate>1965-05-15T00:00:00.000Z</StartDate>
+        </OperatingSpan>
     </Observatory>
 </Spase>
