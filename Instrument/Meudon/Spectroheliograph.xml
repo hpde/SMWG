@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
-  <Version>2.2.6</Version>
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/ObsParis/Meudon/Spectroheliograph</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/Meudon/Spectroheliograph</ResourceID>
     <ResourceHeader>
       <ResourceName>Meudon Spectroheliograph</ResourceName>
       <ReleaseDate>2012-04-24T00:00:00Z</ReleaseDate>
@@ -18,10 +18,12 @@
         <Role>GeneralContact</Role>
       </Contact>
       <PriorID>spase://vspo/Instrument/357</PriorID>
-      <PriorID>spase://SMWG/Instrument/Meudon/Spectroheliograph</PriorID>
     </ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>Meudon Spectroheliograph</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/ObsParis</ObservatoryID>
+    <OperatingSpan>
+      <StartDate>1980-01-02T00:00:00.000Z</StartDate>
+    </OperatingSpan>
+    <ObservatoryID>spase://SMWG/Observatory/Meudon</ObservatoryID>
   </Instrument>
 </Spase>
