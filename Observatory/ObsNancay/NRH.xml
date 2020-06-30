@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
-    <Version>2.2.6</Version>
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+    <Version>2.3.1</Version>
     <Observatory>
-        <ResourceID>spase://SMWG/Observatory/ObsNancay/NRH</ResourceID>
+        <ResourceID>spase://SMWG/Observatory/SRN/NRH</ResourceID>
         <ResourceHeader>
             <ResourceName>Nancay Radioheliograph</ResourceName>
             <ReleaseDate>2018-10-16T21:58:00Z</ReleaseDate>
@@ -25,10 +25,10 @@
                 <Role>GeneralContact</Role>
             </Contact>
             <InformationURL>
-                <URL>https://www.obs-nancay.fr/-Radioheliographe-.html</URL>
+                <URL>https://www.obs-nancay.fr/radioheliographe/</URL>
             </InformationURL>
         </ResourceHeader>
-        <ObservatoryGroupID>spase://SMWG/Observatory/ObsNancay</ObservatoryGroupID>
+        <ObservatoryGroupID>spase://SMWG/Observatory/SRN</ObservatoryGroupID>
         <Location>
             <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
             <CoordinateSystemName>GEO</CoordinateSystemName>
@@ -36,5 +36,8 @@
             <Longitude>2.195179</Longitude>
             <Elevation>139</Elevation>
         </Location>
+        <OperatingSpan>
+            <StartDate>1956-01-01T00:00:00.000Z</StartDate>
+        </OperatingSpan>
     </Observatory>
 </Spase>
