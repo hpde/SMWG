@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
-    <Version>2.2.6</Version>
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+    <Version>2.3.1</Version>
     <Instrument>
-        <ResourceID>spase://SMWG/Instrument/ObsNancay/NenuFAR/BeamFormer</ResourceID>
+        <ResourceID>spase://SMWG/Instrument/SRN/NenuFAR/BeamFormer</ResourceID>
         <ResourceHeader>
-            <ResourceName>NenuFAR Radio BeamFormer</ResourceName>
+            <ResourceName>NenuFAR Standalone BeamFormer</ResourceName>
             <ReleaseDate>2019-07-10T13:49:00Z</ReleaseDate>
             <Description></Description>
             <Contact>
@@ -19,6 +19,9 @@
         </ResourceHeader>
         <InstrumentType>SpectralPowerReceiver</InstrumentType>
         <InvestigationName>NenuFAR</InvestigationName>
-        <ObservatoryID>spase://SMWG/Observatory/ObsNancay/NenuFAR</ObservatoryID>
+        <OperatingSpan>
+            <StartDate>2019-07-01T00:00:00.000Z</StartDate>
+        </OperatingSpan>
+        <ObservatoryID>spase://SMWG/Observatory/SRN/NenuFAR</ObservatoryID>
     </Instrument>
 </Spase>
