@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
-    <Version>2.2.6</Version>
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+    <Version>2.3.1</Version>
     <Instrument>
-        <ResourceID>spase://SMWG/Instrument/ObsNancay/FR606/LBA</ResourceID>
+        <ResourceID>spase://SMWG/Instrument/SRN/FR606/LBA</ResourceID>
         <ResourceHeader>
-            <ResourceName>LOFAR FR606 LBA</ResourceName>
+            <ResourceName>LOFAR FR606 LBA Standalone Receiver</ResourceName>
             <ReleaseDate>2018-10-16T21:59:00Z</ReleaseDate>
             <Description>LOFAR is an interferometer with about 50 000 antennas grouped in 50 stations through 
                 Europe, with 60% of them located in the Netherlands. It has been running since 2012. Nançay’s 
@@ -26,6 +26,9 @@
         </ResourceHeader>
         <InstrumentType>SpectralPowerReceiver</InstrumentType>
         <InvestigationName>LOFAR FR606</InvestigationName>
-        <ObservatoryID>spase://SMWG/Observatory/ObsNancay/FR606</ObservatoryID>
+        <OperatingSpan>
+            <StartDate>2011-11-30T00:00:00.000Z</StartDate>
+        </OperatingSpan>
+        <ObservatoryID>spase://SMWG/Observatory/SRN/FR606</ObservatoryID>
     </Instrument>
 </Spase>
