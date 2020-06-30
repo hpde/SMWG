@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
-  <Version>2.2.6</Version>
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
   <Instrument>
-    <ResourceID>spase://SMWG/Instrument/ObsNancay/NDA/JunoN</ResourceID>
+    <ResourceID>spase://SMWG/Instrument/SRN/NDA/JunoN</ResourceID>
     <ResourceHeader>
       <ResourceName>JunoN</ResourceName>
       <AlternateName>Juno-Nancay</AlternateName>
@@ -14,7 +14,7 @@
         <Role>GeneralContact</Role>
       </Contact>
       <Contact>
-        <PersonID>spase://SMWG/Person/Laurent.Denis</PersonID>
+        <PersonID>spase://SMWG/Person/Alexandre.LeGall</PersonID>
         <Role>TechnicalContact</Role>
       </Contact>
       <Contact>
@@ -24,6 +24,9 @@
     </ResourceHeader>
     <InstrumentType>SpectralPowerReceiver</InstrumentType>
     <InvestigationName>Nancay Decameter Array</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/ObsNancay/NDA</ObservatoryID>
+    <OperatingSpan>
+      <StartDate>2016-06-26T00:00:00.000Z</StartDate>
+    </OperatingSpan>
+    <ObservatoryID>spase://SMWG/Observatory/SRN/NDA</ObservatoryID>
   </Instrument>
 </Spase>
