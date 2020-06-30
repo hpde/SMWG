@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
-    <Version>2.2.6</Version>
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+    <Version>2.3.1</Version>
     <Observatory>
-        <ResourceID>spase://SMWG/Observatory/ObsParis/Meudon/Spectroheliograph</ResourceID>
+        <ResourceID>spase://SMWG/Observatory/Meudon/Spectroheliograph</ResourceID>
         <ResourceHeader>
-            <ResourceName>Spectroheliograph</ResourceName>
+            <ResourceName>Meudon Spectroheliograph</ResourceName>
             <ReleaseDate>2015-10-16T21:46:17Z</ReleaseDate>
             <Description></Description>
             <Contact>
@@ -21,7 +21,6 @@
             </InformationURL>
             <PriorID>spase://SMWG/Observatory/Meudon</PriorID>
         </ResourceHeader>
-        <ObservatoryGroupID>spase://SMWG/Observatory/ObsParis</ObservatoryGroupID>
         <Location>
             <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
             <CoordinateSystemName>GEO</CoordinateSystemName>
@@ -29,5 +28,8 @@
             <Longitude>2.229371</Longitude>
             <Elevation>166.</Elevation>
         </Location>
+        <OperatingSpan>
+            <StartDate>1980-01-02T00:00:00.000Z</StartDate>
+        </OperatingSpan>
     </Observatory>
 </Spase>

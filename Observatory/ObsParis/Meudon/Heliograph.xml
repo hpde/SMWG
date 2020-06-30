@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
-    <Version>2.2.6</Version>
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+    <Version>2.3.1</Version>
     <Observatory>
-        <ResourceID>spase://SMWG/Observatory/ObsParis/Meudon/Heliograph</ResourceID>
+        <ResourceID>spase://SMWG/Observatory/Meudon/Heliograph</ResourceID>
         <ResourceHeader>
-            <ResourceName>Heliograph</ResourceName>
+            <ResourceName>Meudon Heliograph</ResourceName>
             <ReleaseDate>2015-10-16T21:49:17Z</ReleaseDate>
             <Description>Observatoire Solaire de Paris a Meudon</Description>
             <Contact>
@@ -21,7 +21,7 @@
             </InformationURL>
             <PriorID>spase://SMWG/Observatory/OBSPM</PriorID>
         </ResourceHeader>
-        <ObservatoryGroupID>spase://SMWG/Observatory/ObsParis</ObservatoryGroupID>
+        <ObservatoryGroupID>spase://SMWG/Observatory/Meudon</ObservatoryGroupID>
         <ObservatoryGroupID>spase://SMWG/Observatory/HANET</ObservatoryGroupID>
         <Location>
             <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
@@ -30,5 +30,8 @@
             <Longitude>2.229371</Longitude>
             <Elevation>166.</Elevation>
         </Location>
+        <OperatingSpan>
+            <StartDate>1960-01-01T00:00:00.000Z</StartDate>
+        </OperatingSpan>
     </Observatory>
 </Spase>
