@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
-    <Version>2.2.6</Version>
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+    <Version>2.3.1</Version>
     <Observatory>
-        <ResourceID>spase://SMWG/Observatory/ObsNancay/FR606</ResourceID>
+        <ResourceID>spase://SMWG/Observatory/SRN/FR606/LBA</ResourceID>
         <ResourceHeader>
-            <ResourceName>LOFAR FR606 LBA</ResourceName>
+            <ResourceName>LOFAR FR606 Low Band Array</ResourceName>
             <ReleaseDate>2018-10-16T21:59:00Z</ReleaseDate>
             <Description>LOFAR is an interferometer with about 50 000 antennas grouped in 50 stations through 
 		Europe, with 60% of them located in the Netherlands. It has been running since 2012. Nançay’s 
@@ -24,17 +24,20 @@
                 <Role>MetadataContact</Role>
             </Contact>
             <InformationURL>
-                <URL></URL>
+                <URL>https://www.obs-nancay.fr/lofar/</URL>
             </InformationURL>
         </ResourceHeader>
-        <ObservatoryGroupID>spase://SMWG/Observatory/ObsNancay</ObservatoryGroupID>
+        <ObservatoryGroupID>spase://SMWG/Observatory/SRN</ObservatoryGroupID>
         <ObservatoryGroupID>spase://SMWG/Observatory/LOFAR</ObservatoryGroupID>
         <Location>
             <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
             <CoordinateSystemName>GEO</CoordinateSystemName>
-            <Latitude>47.375944</Latitude>
-            <Longitude>2.193361</Longitude>
-            <Elevation>136.195</Elevation>
+            <Latitude>47.3759456</Latitude>
+            <Longitude>2.1933559</Longitude>
+            <Elevation>182.1</Elevation>
         </Location>
+        <OperatingSpan>
+            <StartDate>2011-11-30T00:00:00.000Z</StartDate>
+        </OperatingSpan>
     </Observatory>
 </Spase>
