@@ -6,7 +6,7 @@
         <ResourceID>spase://SMWG/Repository/PADC/HELIO_HCF</ResourceID>
         <ResourceHeader>
             <ResourceName>HELIO - Heliophysics Feature Catalogue</ResourceName>
-            <ReleaseDate>2018-10-16T22:37:57Z</ReleaseDate>
+            <ReleaseDate>2020-07-01T13:16:00Z</ReleaseDate>
             <Description></Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Jean.Aboudarham</PersonID>
@@ -26,6 +26,8 @@
         </ResourceHeader>
         <AccessURL>
             <URL>http://voparis-helio.obspm.fr/hfc-gui</URL>
+            <Style>Search</Style>
+            <Language>en</Language>
         </AccessURL>
     </Repository>
 </Spase>
