@@ -6,7 +6,7 @@
         <ResourceID>spase://SMWG/Observatory/SRN/ORFEES</ResourceID>
         <ResourceHeader>
             <ResourceName>ORFEES</ResourceName>
-            <ReleaseDate>2018-10-16T21:58:00Z</ReleaseDate>
+            <ReleaseDate>2020-07-01T13:41:00Z</ReleaseDate>
             <Description>ORFEES (Observation Radio Fréquences pour l'Etudes des Eruptions Solaires) is a 5 m diameter 
                 antenna dedicated to space weather, the prediction of solar eruptions.
                 This radiospectrometer observes the solar corona on a daily basis between 130 MHz and 1 GHz, allowing 
@@ -18,6 +18,7 @@
             </Contact>
             <InformationURL>
                 <URL>https://www.obs-nancay.fr/orfees/</URL>
+                <Language>fr</Language>
             </InformationURL>
         </ResourceHeader>
         <ObservatoryGroupID>spase://SMWG/Observatory/SRN</ObservatoryGroupID>
