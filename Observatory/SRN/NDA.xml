@@ -6,7 +6,7 @@
         <ResourceID>spase://SMWG/Observatory/SRN/NDA</ResourceID>
         <ResourceHeader>
             <ResourceName>Nancay Decameter Array</ResourceName>
-            <ReleaseDate>2020-07-01T13:07:00Z</ReleaseDate>
+            <ReleaseDate>2020-07-01T13:34:00Z</ReleaseDate>
             <Description></Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Laurent.Lamy</PersonID>
@@ -22,6 +22,7 @@
             </Contact>
             <InformationURL>
                 <URL>https://www.obs-nancay.fr/reseau-decametrique/</URL>
+                <Language>en</Language>
             </InformationURL>
         </ResourceHeader>
         <ObservatoryGroupID>spase://SMWG/Observatory/SRN</ObservatoryGroupID>
