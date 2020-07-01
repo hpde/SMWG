@@ -6,7 +6,7 @@
         <ResourceID>spase://SMWG/Repository/PADC/BASS2000</ResourceID>
         <ResourceHeader>
             <ResourceName>Base de Données Solaire</ResourceName>
-            <ReleaseDate>2018-10-16T22:32:57Z</ReleaseDate>
+            <ReleaseDate>2020-07-01T13:17:00Z</ReleaseDate>
             <Description></Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Jean.Aboudarham</PersonID>
@@ -22,10 +22,13 @@
             </Contact>
             <InformationURL>
                 <URL>http://bass2000.obspm.fr</URL>
+                <Language>en</Language>
             </InformationURL>
         </ResourceHeader>
         <AccessURL>
             <URL>http://bass2000.obspm.fr</URL>
+            <Style>Overview</Style>
+            <Language>en</Language>
         </AccessURL>
     </Repository>
 </Spase>
