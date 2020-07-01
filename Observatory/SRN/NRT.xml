@@ -6,11 +6,11 @@
         <ResourceID>spase://SMWG/Observatory/SRN/NRT</ResourceID>
         <ResourceHeader>
             <ResourceName>Nancay Radioheliograph</ResourceName>
-            <ReleaseDate>2019-07-09T14:09:00Z</ReleaseDate>
+            <ReleaseDate>2020-07-01T13:34:00Z</ReleaseDate>
             <Description>The Nançay radio-telescope (NRT) is composed of an adjustable plane mirror (200 m x 40 m) 
 		which reflects radio waves towards the spherical mirror (300 m x 35 m). The latter sends those 
 		waves towards the focal chariot where they are collected and sent to specific receivers.
-		It is the world’s fourth largest radio-telescope and has been inaugurated on May 15th 1965 by 
+		It is the world's fourth largest radio-telescope and has been inaugurated on May 15th 1965 by 
 		general De Gaulle.
 		Initially built for hydrogen gas observations, this instrument has been constantly improved since 
 		then, today it observes galaxies, star envelops, comets, and it also times pulsars.
@@ -21,6 +21,7 @@
             </Contact>
             <InformationURL>
                 <URL>https://www.obs-nancay.fr/radiotelescope-decimetrique/</URL>
+                <Language>fr</Language>
             </InformationURL>
         </ResourceHeader>
         <ObservatoryGroupID>spase://SMWG/Observatory/SRN</ObservatoryGroupID>
