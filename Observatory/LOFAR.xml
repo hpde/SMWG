@@ -6,7 +6,7 @@
         <ResourceID>spase://SMWG/Observatory/LOFAR</ResourceID>
         <ResourceHeader>
             <ResourceName>LOFAR</ResourceName>
-            <ReleaseDate>2010-07-10T11:32:00Z</ReleaseDate>
+            <ReleaseDate>2020-07-01T13:27:00Z</ReleaseDate>
             <Description>LOFAR is an interferometer with about 50 000 antennas grouped in 50 stations through 
                 Europe, with 60% of them located in the Netherlands. It has been running since 2012. 
                 It is connected to a central supercomputer in Groningen, Netherlands.
@@ -20,6 +20,7 @@
             </Contact>
             <InformationURL>
                 <URL>http://www.lofar.org</URL>
+                <Language>en</Language>
             </InformationURL>
         </ResourceHeader>
         <Location>
