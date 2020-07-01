@@ -6,11 +6,11 @@
         <ResourceID>spase://SMWG/Observatory/SRN/NenuFAR</ResourceID>
         <ResourceHeader>
             <ResourceName>NenuFAR</ResourceName>
-            <ReleaseDate>2018-10-16T21:59:00Z</ReleaseDate>
+            <ReleaseDate>2020-07-01T13:41:00Z</ReleaseDate>
             <Description>Located on the site of the Nançay Radioastronomy Station, which gathers in the heart of Sologne 
-                French radio telescopes observing at frequencies ≤ 3 GHz, NenuFAR is a very large low-frequency radio 
+                French radio telescopes observing at frequencies below 3 GHz, NenuFAR is a very large low-frequency radio 
                 telescope, which will be among the most powerful in the world in its frequency range between 10 MHz and 
-                85 MHz. This range corresponds to the lowest spectral “window” in which we can observe with radio 
+                85 MHz. This range corresponds to the lowest spectral "window" in which we can observe with radio 
                 telescopes from the surface of the Earth. NenuFAR, optimized for the frequency range from 10 MHz to 
                 85 MHz (wavelengths from 4 m to 30 m), will have there the best sensitivity.</Description>
             <Contact>
@@ -23,6 +23,7 @@
             </Contact>
             <InformationURL>
                 <URL>https://nenufar.obs-nancay.fr/en/homepage-en/</URL>
+                <Language>en</Language>
             </InformationURL>
         </ResourceHeader>
         <ObservatoryGroupID>spase://SMWG/Observatory/SRN</ObservatoryGroupID>
