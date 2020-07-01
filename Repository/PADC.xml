@@ -6,7 +6,7 @@
         <ResourceID>spase://SMWG/Repository/PADC</ResourceID>
         <ResourceHeader>
             <ResourceName>PADC</ResourceName>
-            <ReleaseDate>2019-09-10T14:05:00Z</ReleaseDate>
+            <ReleaseDate>2020-07-01T13:20:00Z</ReleaseDate>
             <Description>Paris Astronomical Data Centre</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Stephane.Erard</PersonID>
@@ -22,10 +22,13 @@
             </Contact>
             <InformationURL>
                 <URL>http://padc.obspm.fr</URL>
+                <Language>en</Language>
             </InformationURL>
         </ResourceHeader>
         <AccessURL>
             <URL>http://padc.obspm.fr</URL>
+            <Style>Overview</Style>
+            <Language>en</Language>
         </AccessURL>
     </Repository>
 </Spase>
