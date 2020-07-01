@@ -6,7 +6,7 @@
         <ResourceID>spase://SMWG/Repository/PADC/APIS</ResourceID>
         <ResourceHeader>
             <ResourceName>Auroral Planetary Imaging and Spectroscopy</ResourceName>
-            <ReleaseDate>2018-10-16T22:32:57Z</ReleaseDate>
+            <ReleaseDate>2020-07-01T13:19:00Z</ReleaseDate>
             <Description>Auroral Planetary Images and Spectra</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Laurent.Lamy</PersonID>
@@ -22,10 +22,13 @@
             </Contact>
             <InformationURL>
                 <URL>https://apis.obspm.fr</URL>
+                <Language>en</Language>
             </InformationURL>
         </ResourceHeader>
         <AccessURL>
             <URL>https://apis.obspm.fr</URL>
+            <Style>Overview</Style>
+            <Language>en</Language>
         </AccessURL>
     </Repository>
 </Spase>
