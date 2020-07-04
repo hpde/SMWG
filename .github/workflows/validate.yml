@@ -25,8 +25,8 @@ jobs:
     # Runs a single command using the runners shell
     - name: Setup
       run: |
-        sudo apt install nodejs
-        sudo npm install spase-resource-tools -g
+        sudo apt install nodejs 
+        sudo npm install spase-resource-tools -g --unsafe-perm
 
     # Runs a set of commands using the runners shell
     - name: Run script
