@@ -26,7 +26,7 @@ jobs:
     - name: Setup
       run: |
         sudo apt install nodejs
-        npm install spase-resource-tools -g
+        sudo npm install spase-resource-tools -g
 
     # Runs a set of commands using the runners shell
     - name: Run script
