@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+    <Version>2.3.1</Version>
+    <Repository>
+        <ResourceID>spase://SMWG/Repository/PADC/MASER</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Measurements Analysis and Simulations of Emissions in the Radio range</ResourceName>
+            <ReleaseDate>2020-07-01T13:15:00Z</ReleaseDate>
+            <Description>A database of space and ground based radio observations and simulations, coupled with a 
+                tool box for low frequency radio astronomy</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Baptiste.Cecconi</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Stephane.Aicardi</PersonID>
+                <Role>TechnicalContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Baptiste.Cecconi</PersonID>
+                <Role>MetadataContact</Role>
+            </Contact>
+            <InformationURL>
+                <URL>http://maser.lesia.obspm.fr</URL>
+                <Language>en</Language>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessURL>
+            <URL>http://maser.lesia.obspm.fr</URL>
+            <Style>Overview</Style>
+            <Language>en</Language>
+        </AccessURL>
+    </Repository>
+</Spase>

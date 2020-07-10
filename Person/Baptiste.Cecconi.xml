@@ -1,11 +1,13 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_3.xsd">
-<Version>2.2.3</Version>
-<Person>
-        <ResourceID>spase://SMWG/Person/Baptiste.Cecconi</ResourceID>
-        <ReleaseDate>2009-09-02T00:00:00Z</ReleaseDate>
-        <PersonName>Baptiste Cecconi </PersonName>
-        <OrganizationName>LESIA / Observatoire de Paris</OrganizationName>
-        <Email>baptiste.cecconi@obspm.fr</Email>
-        <PhoneNumber>+33-145-077759</PhoneNumber>
-    </Person>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Baptiste.Cecconi</ResourceID>
+    <ReleaseDate>2020-07-01T13:43:00Z</ReleaseDate>
+    <PersonName>Baptiste Cecconi</PersonName>
+    <OrganizationName>LESIA, CNRS, Observatoire de Paris, PSL</OrganizationName>
+    <Email>baptiste.cecconi@obspm.fr</Email>
+    <PhoneNumber>+33-1-45-07-77-59</PhoneNumber>
+  </Person>
 </Spase>

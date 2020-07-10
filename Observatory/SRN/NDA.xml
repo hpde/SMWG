@@ -1,35 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
     <Version>2.3.1</Version>
     <Observatory>
-        <ResourceID>spase://SMWG/Observatory/Meudon</ResourceID>
+        <ResourceID>spase://SMWG/Observatory/SRN/NDA</ResourceID>
         <ResourceHeader>
-            <ResourceName>Observatoire de Paris (Meudon site)</ResourceName>
-            <ReleaseDate>2020-07-01T13:28:00Z</ReleaseDate>
+            <ResourceName>Nancay Decameter Array</ResourceName>
+            <ReleaseDate>2020-07-01T22:17:00Z</ReleaseDate>
             <Description></Description>
             <Contact>
-                <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+                <PersonID>spase://SMWG/Person/Laurent.Lamy</PersonID>
                 <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Alexandre.Le.Gall</PersonID>
+                <Role>TechnicalContact</Role>
             </Contact>
             <Contact>
                 <PersonID>spase://SMWG/Person/Baptiste.Cecconi</PersonID>
                 <Role>MetadataContact</Role>
             </Contact>
             <InformationURL>
-                <URL>https://www.obspm.fr/?lang=en</URL>
+                <URL>https://www.obs-nancay.fr/reseau-decametrique/</URL>
                 <Language>en</Language>
             </InformationURL>
         </ResourceHeader>
+        <ObservatoryGroupID>spase://SMWG/Observatory/SRN</ObservatoryGroupID>
         <Location>
             <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
             <CoordinateSystemName>GEO</CoordinateSystemName>
-            <Latitude>48.805963</Latitude>
-            <Longitude>2.229371</Longitude>
-            <Elevation>166.</Elevation>
+            <Latitude>47.380510</Latitude>
+            <Longitude>2.193226</Longitude>
+            <Elevation>135</Elevation>
         </Location>
         <OperatingSpan>
-            <StartDate>1876-01-01T00:00:00.000Z</StartDate>
+            <StartDate>1978-01-01T00:00:00.000Z</StartDate>
         </OperatingSpan>
     </Observatory>
 </Spase>
