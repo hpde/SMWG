@@ -29,6 +29,6 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Run script
       run: |
-        git diff @{u}...HEAD"
+        git diff @{u}...HEAD
         for f in `git diff --name-only @{u}...HEAD`; do spase-validate $f; done 
         
