@@ -31,8 +31,8 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Run script
       run: |
-        echo $GITHUB_BASE_REF
-        echo $GITHUB_SHA
+        echo "GitHub Fork Base = $GITHUB_BASE_REF"
+        echo "GitHub Commit SHA = $GITHUB_SHA"
         git diff "$GITHUB_BASE_REF..$GITHUB_SHA"
         for f in `git diff --name-only "$GITHUB_BASE_REF..$GITHUB_SHA"`; do spase-validate $f; done 
         
