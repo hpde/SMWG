@@ -34,6 +34,12 @@ jobs:
       - name: Validate
         # Check only the source codes that have differences
         run: |
-          for f in $(echo ${{ env.GIT_DIFF }}); do spase-validate $f; done 
+          mkdir -p logs
+          for f in $(echo ${{ env.GIT_DIFF }}); do spase-validate $f; done > logs/validate.log
         if: env.GIT_DIFF
+      - name: Keep log artifacts
+        uses: actions/upload-artifact@v1
+        with:
+          name: logs
+          path: logs
         
