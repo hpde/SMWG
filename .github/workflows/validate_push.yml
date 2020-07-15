@@ -32,6 +32,6 @@ jobs:
       - name: Validate
         # Check only the source codes that have differences
         run: |
-          for f in ${{env.GIT_DIFF}}; do spase-validate $f; done 
+          for f in `echo ${{ env.GIT_DIFF }}`; do spase-validate $f; done 
         if: env.GIT_DIFF
         
