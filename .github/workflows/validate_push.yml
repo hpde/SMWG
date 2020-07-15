@@ -23,7 +23,7 @@ jobs:
       - uses: technote-space/get-diff-action@v2
         with:
           SUFFIX_FILTER: .xml    
-          SEPARATOR: ';'
+          SEPARATOR: ' '
       - name: Install Package dependencies
         run: |
           sudo apt install nodejs 
@@ -32,7 +32,6 @@ jobs:
       - name: Validate
         # Check only the source codes that have differences
         run: |
-          export FILES=$(echo ${{ env.GIT_DIFF }} | tr ";" "\n")
-          for f in $FILES; do spase-validate $f; done 
+          for f in $(echo ${{ env.GIT_DIFF }}); do spase-validate $f; done 
         if: env.GIT_DIFF
         
