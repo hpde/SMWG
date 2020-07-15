@@ -10,25 +10,28 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
+  # This workflow contains a single job called "validate"
+  validate:
+    name: SPASE-Validate
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
-
-    # Runs a single command using the runners shell
-    - name: Setup
-      run: |
-        sudo apt install nodejs 
-        sudo npm install spase-resource-tools -g --unsafe-perm
-
-    # Runs a set of commands using the runners shell
-    - name: Run script
-      run: |
-        git diff @{u}...HEAD
-        for f in `git diff --name-only @{u}...HEAD`; do spase-validate $f; done 
+      - uses: actions/checkout@v2
+      - uses: technote-space/get-diff-action@v2
+        with:
+          SUFFIX_FILTER: .xml    
+          SEPARATOR: '\n'
+      - name: Install Package dependencies
+        run: |
+          sudo apt install nodejs 
+          sudo npm install spase-resource-tools -g --unsafe-perm
+        if: env.GIT_DIFF
+      - name: Validate
+        # Check only the source codes that have differences
+        run: |
+          for f in ${{env.GIT_DIFF}}; do spase-validate $f; done 
+        if: env.GIT_DIFF
         
