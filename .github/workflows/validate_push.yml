@@ -7,7 +7,7 @@ name: CI SPASE Validation
 on:
   push:
     branches: [ master ]
-  pull-request:
+  pull_request:
     branches: [ master]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
