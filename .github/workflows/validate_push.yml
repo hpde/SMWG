@@ -31,11 +31,11 @@ jobs:
           sudo apt install nodejs 
           sudo npm install spase-resource-tools -g --unsafe-perm
         if: env.GIT_DIFF
+      - name: Prepare Log dir
+        run: mkdir -p logs
       - name: Validate
         # Check only the source codes that have differences
-        run: |
-          mkdir -p logs
-          for f in $(echo ${{ env.GIT_DIFF }}); do spase-validate $f; done > logs/validate.log
+        run: for f in $(echo ${{ env.GIT_DIFF }}); do spase-validate $f; done > logs/validate.log
         if: env.GIT_DIFF
       - name: Keep log artifacts
         uses: actions/upload-artifact@v1
