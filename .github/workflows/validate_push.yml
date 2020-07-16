@@ -26,11 +26,10 @@ jobs:
         with:
           SUFFIX_FILTER: .xml    
           SEPARATOR: ' '
-#      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v1
+      - run: npm install
       - name: Install SPASE-Resource-tools
-        run: | 
-          sudo apt install nodejs  
-          sudo npm install spase-resource-tools -g --unsafe-perm
+        run: npm install spase-resource-tools -g --unsafe-perm
       - name: Prepare Log directory
         run: mkdir -p logs
       - name: Validate updated files
