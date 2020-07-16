@@ -26,18 +26,16 @@ jobs:
         with:
           SUFFIX_FILTER: .xml    
           SEPARATOR: ' '
-      - name: Install Package dependencies
-        run: |
-          sudo apt install nodejs 
-          sudo npm install spase-resource-tools -g --unsafe-perm
-        if: env.GIT_DIFF
-      - name: Prepare Log dir
+      - uses: actions/setup-node@v1
+      - name: Install SPASE-Resource-tools
+        run: sudo npm install spase-resource-tools -g --unsafe-perm
+      - name: Prepare Log directory
         run: mkdir -p logs
-      - name: Validate
+      - name: Validate updated files
         # Check only the source codes that have differences
         run: for f in $(echo ${{ env.GIT_DIFF }}); do spase-validate $f; done > logs/validate.log
         if: env.GIT_DIFF
-      - name: Keep log artifacts
+      - name: Download log artifacts
         uses: actions/upload-artifact@v1
         with:
           name: logs
