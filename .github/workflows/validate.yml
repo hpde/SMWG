@@ -39,6 +39,6 @@ jobs:
       - name: Download log artifacts
         uses: actions/upload-artifact@v1
         with:
-          name: logs
-          path: logs
+          name: validate-log
+          path: logs/validate.log
         
