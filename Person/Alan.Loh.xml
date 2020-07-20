@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+    <Version>2.3.1</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Alan.Loh</ResourceID>
+        <ReleaseDate>2020-07-16T16:55:00Z</ReleaseDate>
+        <PersonName>Alan Loh</PersonName>
+        <OrganizationName>LESIA, CNRS, Observatoire de Paris, PSL</OrganizationName>
+        <Email>alan.loh@obspm.fr</Email>
+        <PhoneNumber>+33-1-45-07-75-88</PhoneNumber>
+        <ORCIdentifier>0000-0002-4698-9542</ORCIdentifier>
+    </Person>
+</Spase>
+
