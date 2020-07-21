@@ -41,4 +41,5 @@ jobs:
         with:
           name: validate-log
           path: logs/validate.log
+        if: env.GIT_DIFF
         
