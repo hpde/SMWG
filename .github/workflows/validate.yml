@@ -30,16 +30,16 @@ jobs:
       - run: npm install
       - name: Install SPASE-Resource-tools
         run: npm install spase-resource-tools -g --unsafe-perm
-      - name: Prepare Log directory
-        run: mkdir -p logs
+#      - name: Prepare Log directory
+#        run: mkdir -p logs
       - name: Validate updated files
         # Check only the source codes that have differences
-        run: for f in $(echo ${{ env.GIT_DIFF }}); do spase-validate $f; done > logs/validate.log
+        run: for f in $(echo ${{ env.GIT_DIFF }}); do spase-validate $f; done #> logs/validate.log
         if: env.GIT_DIFF
-      - name: Download log artifacts
-        uses: actions/upload-artifact@v1
-        with:
-          name: validate-log
-          path: logs/validate.log
-        if: env.GIT_DIFF
+#      - name: Download log artifacts
+#        uses: actions/upload-artifact@v1
+#        with:
+#          name: validate-log
+#          path: logs/validate.log
+#        if: env.GIT_DIFF
         
