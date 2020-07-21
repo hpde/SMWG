@@ -30,26 +30,26 @@ jobs:
       - run: npm install
       - name: Install SPASE-Resource-tools
         run: npm install spase-resource-tools -g --unsafe-perm
-      - name: Prepare Log directory
-        run: mkdir -p logs
+#      - name: Prepare Log directory
+#        run: mkdir -p logs
       - name: RefCheck IDs in updated files
         # Check only the source codes that have differences
-        run: for f in $(echo ${{ env.GIT_DIFF }}); do spase-refcheck -i -v $f; done > logs/refcheck_id.log
+        run: for f in $(echo ${{ env.GIT_DIFF }}); do spase-refcheck -i -v $f; done #> logs/refcheck_id.log
         if: env.GIT_DIFF
-      - name: Download log artifacts
-        uses: actions/upload-artifact@v1
-        with:
-          name: refcheck_id-log
-          path: logs/refcheck_id.log
-        if: env.GIT_DIFF
+#      - name: Download log artifacts
+#        uses: actions/upload-artifact@v1
+#        with:
+#          name: refcheck_id-log
+#          path: logs/refcheck_id.log
+#        if: env.GIT_DIFF
       - name: RefCheck URLs in updated files
         # Check only the source codes that have differences
-        run: for f in $(echo ${{ env.GIT_DIFF }}); do spase-refcheck -u -v $f; done > logs/refcheck_url.log
+        run: for f in $(echo ${{ env.GIT_DIFF }}); do spase-refcheck -u -v $f; done #> logs/refcheck_url.log
         if: env.GIT_DIFF
-      - name: Download log artifacts
-        uses: actions/upload-artifact@v1
-        with:
-          name: refcheck_url-log
-          path: logs/refcheck_url.log
-        if: env.GIT_DIFF
+#      - name: Download log artifacts
+#        uses: actions/upload-artifact@v1
+#        with:
+#          name: refcheck_url-log
+#          path: logs/refcheck_url.log
+#        if: env.GIT_DIFF
         
