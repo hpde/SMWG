@@ -1,0 +1,9 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+ <Version>2.3.1</Version>
+ <Person>
+  <ResourceID>spase://SMWG/Person/Chuck.Higgins</ResourceID>
+  <PersonName>Chuck Higgins</PersonName>
+  <OrganizationName>Middle Tennessee State University</OrganizationName>
+  <Address>Murfreesboro, Tennessee</Address>
+ </Person>
+</Spase>
