@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.9</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Marc.Chaussidon</ResourceID>
+    <ReleaseDate>2018-04-03T13:00:00Z</ReleaseDate>
+    <PersonName>Dr. Marc Chaussidon</PersonName>
+    <OrganizationName>Bureau Central De Magnetisme Terrestre and Institut de Physique du Globe de Paris</OrganizationName>
+    <Address>Vincent Lesur, 1 rue Jussieu, 75238 Paris Cedex 05</Address>
+    <Email>bcmt@ipgp.fr</Email>
+    <PhoneNumber>+33 (0)1 83 95 74 84</PhoneNumber>
+  </Person>
+</Spase>

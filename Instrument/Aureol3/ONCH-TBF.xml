@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Instrument>
         <ResourceID>spase://SMWG/Instrument/Aureol3/ONCH-TBF</ResourceID>
         <ResourceHeader>
             <ResourceName>Electric and Magnetic Field Probes (ONCH-TBF)</ResourceName>
-            <ReleaseDate>2012-03-19T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>The electric and magnetic field probes (ONCH-TBF) on Aureol 3 measured the three components of the magnetic field at frequencies between 10 Hz and 16 kHz. The combined Soviet-French ONCH-TBF onboard instrument was designed to allow comprehensive measurements of both electric and magnetic wave fields. The measurements in real-time modes included 5-component wave-form data in the range 10 Hz - 1.5 kHz for 3 magnetic and 2 electric field components, or a wide-band mode in the range 10 Hz - 1.5 kHz, and several filter banks. In memory modes the data only from several filter-banks in the range from 10 Hz to 16 kHz were recorded. For further details, see Berthelier et al., Ann. Geophys., V. 38, N5, p. 643, 1982.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/P.Lefeuvre</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact> 
+</Contact>
             <InformationURL>
                 <Name>NSSDC's Master Catalog</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1981-094A-10</URL>
+                <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1981-094A-10</URL>
                 <Description>Information about Aureol3 ONCH-TBF</Description>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
         <InstrumentType>WaveformReceiver</InstrumentType>
         <InvestigationName>The Electric and Magnetic Field Probes on Aureo-3</InvestigationName>
         <ObservatoryID>spase://SMWG/Observatory/Aureol3</ObservatoryID>
-    </Instrument>
+</Instrument>
 </Spase>
 
 

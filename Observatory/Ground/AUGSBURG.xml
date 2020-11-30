@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/AUGSBURG</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Augsburg Searchcoil Observatory Group</ResourceName>
+      <AlternateName>Augsburg College Search Coil Ground Observatory Group</AlternateName>
+      <ReleaseDate>2018-05-02T12:34:56.789</ReleaseDate>
+      <Description>Observatory Group created to represent the chain of stations based in Antartica that have Augsburg College search coil magnetometers.  The chain of stations includes:  British Antarctic Survey A80, British Antarctic Survey A81, British Antarctic Survey A84, Halley Bay, and South Pole.</Description>
+      <Acknowledgement>Please acknowledge Mark J. Engebretson, Department of Physics, Augsburg College, 2211 Riverside Avenue, Minneapolis, MN 55454-1338, USA for providing access to Augsburg Array data resources.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Mark.J.Engebretson</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Augsburg Search Coil Magnetometer Array Home Page.</Name>
+        <URL>http://space.augsburg.edu/searchcoil/index.html</URL>
+        <Description>Augsburg Antarctic observatory array information web site</Description>
+      </InformationURL>
+	  <PriorID>spase://SMWG/Observatory/AUGSBURG</PriorID>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>

@@ -5,27 +5,27 @@
     <ResourceID>spase://SMWG/Repository/NASA/GSFC/SPDF</ResourceID>
     <ResourceHeader>
       <ResourceName>SPDF</ResourceName>
-      <ReleaseDate>2008-08-26T21:02:30Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Space Physics Data Facility</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Tamara.J.Kovalick</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
         <Role>TechnicalContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>SPDF</Name>
-        <URL>http://spdf.gsfc.nasa.gov/</URL>
+        <URL>https://spdf.gsfc.nasa.gov/</URL>
         <Description>Space Physics Data Facility</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://vspo/repository/61</PriorID>
       <PriorID>spase://SMWG/Repository/SPDF</PriorID>
-    </ResourceHeader>
-  </Repository>
+</ResourceHeader>
+</Repository>
 </Spase>

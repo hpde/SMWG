@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
+   <Version>2.2.9</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/AMPTE-CCE/HPCE</ResourceID>
+      <ResourceHeader>
+         <ResourceName>AMPTE/CCE Hot Plasma Composition Experiment</ResourceName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <Description>The AMPTE CCE Hot Plasma Composition Experiment (HPCE) consists of an energetic ion mass spectrometer and an electron background- environment monitor (EBEM). This instrument consisted of an entrance collimator and retarding potential analyzer, a curved-plate electrostatic energy analyzer, and a combined electrostatic-magnetic mass analyzer in series. The mass spectrometer covers the entire mass per charge range from below 1 to &gt;150 amu/e and the energy per charge range from 0 eV/e (spacecraft potential) to 17 keV/e with a geometric factor ranging from 0.01 to 0.05 cm^2 sr, an energy resolution from 6 to 60%, and a mass over charge resolution of 10%. The EBEM measures elctrons between 50 eV and 25 keV in eight broad energy bands. This instrument cleanly separated Li+ and Ba+ tracer ions from the background. It was nearly identical to one flown on DE 1 by the same group of investigators. An additional set of eight spectrometers containing permanent bending magnets and channeltrons measured electrons in eight channels from 50 eV to 25 keV. For more details, see e.g. Shelley et al., IEEE Transactions on Geoscience and Remote Sensing, Vol. GE-23, p. 241, 1985. The ion mass spectrometer was not operational after April 4, 1985.</Description>
+         <Acknowledgement>User will acknowledge the AMPTE/CCE HPCE team in any publication resulting from the use of these data.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/David.M.Klumpar</PersonID>
+            <Role>PrincipalInvestigator</Role>
+</Contact>
+         <InformationURL>
+            <Name>NSSDC Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1984-088A-01</URL>
+            <Description>NSSDC information about the AMPTE/CCE HPCE experiment</Description>
+</InformationURL>
+         <InformationURL>
+            <Name>IEEE Transactions on Geoscience and Remote Sensing Journal Article</Name>
+            <URL>https://ieeexplore.ieee.org/document/4072284/</URL>
+            <Description>Detailed information about the instrument.</Description>
+</InformationURL>
+         <PriorID>spase://SMWG/Instrument/AMPTE_CCE/HPCE</PriorID>
+</ResourceHeader>
+      <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+      <InvestigationName>HPCE</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/AMPTE-CCE</ObservatoryID>
+      <Caveats>
+</Caveats>
+</Instrument>
+</Spase>

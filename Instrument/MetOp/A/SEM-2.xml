@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+  <Version>2.2.8</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/MetOp/A/SEM-2</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Space Environmental Monitor-2 (SEM-2)</ResourceName>
+      <AlternateName>SEM-2</AlternateName>
+      <ReleaseDate>2017-07-27T00:00:00Z</ReleaseDate>
+      <Description> 
+The Space Environmental Monitor (SEM-2) is one of the complement of American instruments provided by the National Oceanic and Atmospheric Administration (NOAA) to fly on MetOp-A, -B and -C.
+SEM-2 is a spectrometer that provides measurements to determine the intensity of the Earth's radiation belts and the flux of charged particles at the satellite altitude. It provides knowledge of solar terrestrial phenomena and also provides warnings of solar wind occurrences that may impair long-range communication, high-altitude operations, damage to satellite circuits and solar panels, or cause changes in drag and magnetic torque on satellites.
+The instrument is a multi-channel, charged-particle spectrometer, which senses the flux of charged particles from the Sun-ionized plasma (at the satellite altitude) and contributes to the solar terrestrial energy knowledge. It consists of two separate sensor units and a common Data Processing Unit (DPU). The sensor units are the Total Energy Detector (TED) and the Medium Energy Proton and Electron Detector (MEPED).
+The TED senses and quantifies the intensity in the sequentially selected energy bands. The particles of interest have energies ranging from 0.05 keV to 20 keV. The MEPED senses protons, electrons, and ions with energies from 30 keV to levels exceeding 6900 keV.
+SEM-2 is provided by the National Oceanic and Atmospheric Administration (NOAA) and developed by NASA and Assurance Technology Corporation (formerly Panametrics), Waltham, Massachusetts, USA.
+.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/R.Bushnell</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>European Organisation for the Exploitation of Meteorological Satellites SEM page</Name>
+        <URL>https://www.eumetsat.int/website/home/Satellites/CurrentSatellites/Metop/MetopDesign/SEM/index.html</URL>
+        <Description>The Space Environmental Monitor (SEM-2) provides information on solar activity and space weather which may affect the satellites and instruments.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Space Environmental Monitor-2 (SEM-2) on MetOp-A</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/MetOp/A</ObservatoryID>
+  </Instrument>
+</Spase>

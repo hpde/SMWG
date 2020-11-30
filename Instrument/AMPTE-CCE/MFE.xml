@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
+   <Version>2.2.9</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/AMPTE-CCE/MFE</ResourceID>
+      <ResourceHeader>
+         <ResourceName>AMPTE/CCE Magnetic Field Experiment (MFE)</ResourceName>
+         <AlternateName>AMPTE_CCE MAG</AlternateName>
+         <AlternateName>AMPTE/CCE Magnetometer</AlternateName>
+         <AlternateName>1984-088A-05</AlternateName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <Description>The Magnetic Field Experiment (MFE) includes a fluxgate magnetometer sensor mounted on a 2.3 m boom (Potemra et al., IEEE Trans. Geosci. Remote Sensing, Vol. GE-23, 246, 1985). The fluxgate sensor was sampled at a rate of 8 vector samples/s. It had seven automatically switchable ranges (from plus and minus 16 nT to plus and minus 65,536 nT) with resolution commensurate with a 13-bit A/D converter, and was read out at 8.6 vector samples/s. The signals from two sensors (one parallel to the spin axis and one orthogonal) were also fed into 5-50 Hz bandpass channels that were read out every 5 s. The data span the entire AMPTE/CCE mission, from 1984 day 234, August 21, through 1989 day 009 with occasional data gaps. A lengthy data gap occurred in 1986 from day 252, September 9, &#8764;1300UT through day 286, October 12, &#8764;1800UT, during an extended eclipse period. For more details, see T. A. Potemra et al., IEEE Transactions on Geoscience and Remote Sensing, Vol. GE-23, p. 246, 1985.</Description>
+         <Acknowledgement>User will acknowledge the AMPTE/CCE magnetometer team in any publication resulting from the use of these data.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Brian.J.Anderson</PersonID>
+            <Role>PrincipalInvestigator</Role>
+            <Role>DataProducer</Role>
+</Contact>
+         <InformationURL>
+            <Name>AMPTE/CCE Magnetic Field Experiment Home Page</Name>
+            <URL>http://sd-www.jhuapl.edu/AMPTE/MAG/</URL>
+            <Description>A web site hosting AMPTE/CCE magnetic experiment instrument information as well as spin-averaged data.</Description>
+</InformationURL>
+         <InformationURL>
+            <Name>NSSDC Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1984-088A-05</URL>
+            <Description>NSSDC information about the AMPTE/CCE Magnetometer</Description>
+</InformationURL>
+         <InformationURL>
+            <Name>IEEE Transactions on Geoscience and Remote Sensing Journal Article</Name>
+            <URL>https://ieeexplore.ieee.org/document/4072285/</URL>
+            <Description>Detailed information about the instrument.</Description>
+</InformationURL>
+         <PriorID>spase://SMWG/Instrument/AMPTE_CCE/MFE</PriorID>
+</ResourceHeader>
+      <InstrumentType>Magnetometer</InstrumentType>
+      <InvestigationName>Magnetic Field Experiment</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/AMPTE-CCE</ObservatoryID>
+      <Caveats>
+</Caveats>
+</Instrument>
+</Spase>

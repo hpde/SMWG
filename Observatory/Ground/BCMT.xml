@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.9</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/BCMT</ResourceID>
+    <ResourceHeader>
+      <ResourceName>BCMT</ResourceName>
+	  <AlternateName>French National Magnetic Observatory</AlternateName>
+      <AlternateName>Bureau Central De Magnetisme Terrestre France</AlternateName>		  
+      <ReleaseDate>2018-09-06T12:30:00Z</ReleaseDate>
+      <Description>Our mission is to provide ground-based geomagnetic observations 
+	  and data products of the highest quality.
+
+      The BCMT operates the French National Magnetic Observatory, located in 
+	  Chambon-la-Forêt (Loiret, France), a network of 18 overseas observatories 
+	  and a network of 11 repeat stations in metropolitan France.
+      
+	  You will find on this site all the data collected (raw magnetic measurements 
+	  as well as various data products derived from these measurements).</Description>
+      <Acknowledgement>Bureau Central de Magnetisme Terrestre</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Marc.Chaussidon</PersonID>
+        <Role>TeamLeader</Role>
+      </Contact>
+	  <InformationURL>
+        <Name>Bureau Central De Magnetisme Terrestre France Homepage</Name>
+        <URL>http://www.bcmt.fr/index.html</URL>
+        <Description>Information about the BCMT.</Description>
+	  </InformationURL>
+	  <PriorID>spase://SMWG/Observatory/BCMT</PriorID>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+    </Location>
+	<OperatingSpan>
+		<StartDate>1921-01-01T12:00:00Z</StartDate>
+		<Note>Exact start date is unknown.</Note>
+	</OperatingSpan>
+  </Observatory>
+</Spase>

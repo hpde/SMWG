@@ -6,20 +6,20 @@
     <ResourceHeader>
       <ResourceName>Infrared Radiometer (OIR)</ResourceName>
       <AlternateName>OIR</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:14Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>This investigation used an 8 channel radiometer for vertical temperature sounding of the atmosphere from the cloud tops (60 Km) to 150 Km and for investigations of cloud morphology, including the identification of possible multiple layers and water vapor mapping. The instrument was based on the selective chopper radiometer and the pressure modulator radiometer designs flown on Nimbus satellites. Instrument failed to operate after February 14, 1979.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Fredric.W.Taylor</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1978-051A&amp;ex=16</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1978-051A&amp;ex=16</URL>
         <Description>Information about the Infrared Radiometer (OIR) experiment on the Pioneer Venus Orbiter mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Radiometer</InstrumentType>
     <InvestigationName>Infrared Radiometer (OIR) on Pioneer Venus Orbiter</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/PioneerVenusOrbiter</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

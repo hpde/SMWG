@@ -5,36 +5,36 @@
     <ResourceID>spase://SMWG/Instrument/Helios2/E7</ResourceID>
     <ResourceHeader>
       <ResourceName>Galactic and Solar Cosmic Rays</ResourceName>
-      <ReleaseDate>2011-05-05T20:50:16Z</ReleaseDate>
-      <Description>The detector complement of this experiment (E7) consisted of 
-three separate dE/dx vs E telescopes and a proportional counter for monitoring 
-solar X rays in the range 2-8 keV. The high-energy telescope had a geometric 
-factor of 0.22 sq cm-sr and measured electrons in three ranges between 2 and 8 MeV, 
-and protons and alpha particles in three ranges between 20 and 56 MeV/n. Protons 
-above 230 MeV were also measured. The first low-energy telescope (geometric factor 
-was 0.155 sq cm-sr) measured protons and Z&gt;1 particles in three ranges between 
-3 and 21 MeV/n. The second low-energy telescope (geometric factor was 0.015 sq cm-sr) 
-measured protons in several ranges between 0.12 and 2.1 MeV, alpha particles in the 
-ranges 0.6-2.1 and 6-21.2 MeV/n, and electrons in four ranges between 0.12 and 2 MeV. 
-For a number of coincidence modes, counting-rate data sectored into eight 45-deg 
-sectors were obtained. The data cycle time was dependent on the spacecraft telemetry 
-rate (variable between 4096 and 8 bits/s) and format. Under optimum conditions, five 
-events per second were pulse-height analyzed and the rate data cycle was of the order 
-of 5 min. At the slowest combination of bit rate and format, a complete data cycle 
-required about 2.5 h. See IEEE Trans. on Nuc. Sci., NS-22, p. 570, 1975, and 
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The detector complement of this experiment (E7) consisted of
+three separate dE/dx vs E telescopes and a proportional counter for monitoring
+solar X rays in the range 2-8 keV. The high-energy telescope had a geometric
+factor of 0.22 sq cm-sr and measured electrons in three ranges between 2 and 8 MeV,
+and protons and alpha particles in three ranges between 20 and 56 MeV/n. Protons
+above 230 MeV were also measured. The first low-energy telescope (geometric factor
+was 0.155 sq cm-sr) measured protons and Z&gt;1 particles in three ranges between
+3 and 21 MeV/n. The second low-energy telescope (geometric factor was 0.015 sq cm-sr)
+measured protons in several ranges between 0.12 and 2.1 MeV, alpha particles in the
+ranges 0.6-2.1 and 6-21.2 MeV/n, and electrons in four ranges between 0.12 and 2 MeV.
+For a number of coincidence modes, counting-rate data sectored into eight 45-deg
+sectors were obtained. The data cycle time was dependent on the spacecraft telemetry
+rate (variable between 4096 and 8 bits/s) and format. Under optimum conditions, five
+events per second were pulse-height analyzed and the rate data cycle was of the order
+of 5 min. At the slowest combination of bit rate and format, a complete data cycle
+required about 2.5 h. See IEEE Trans. on Nuc. Sci., NS-22, p. 570, 1975, and
 Raumfahrtforschung, v. 19, n. 5, pp. 258-260, 1975, for further details.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Nand.Lal</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1976-003A&amp;ex=8</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1976-003A&amp;ex=8</URL>
         <Description>Information about the Solar and Galactic Cosmic Ray experiment on the Helios-B mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Galactic and SolarCosmic Ray Experiment on Helios-B</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Helios2</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

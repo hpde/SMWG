@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Ground/Hayriver/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Hayriver Magnetometer</ResourceName>
+      <AlternateName>Hayriver Magnetometer</AlternateName>
+      <AlternateName>IAGA:HRI Magnetometer</AlternateName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>Magnetometer located at the station with the IAGA identifier HRI</Description>
+      <Acknowledgement>Please acknowedge the HRI observatory when using data from this instrument.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+        <Role>MetadataContact</Role>
+</Contact>
+      <InformationURL>
+        <Name>IAGA Guides and Standards</Name>
+        <URL>http://www.intermagnet.org/publications/intermag_4-6.pdf</URL>
+        <Description>Overview of IAGA Guides and Standards which obtained within its
+          Divisions and Working Groups. Information about observatories
+          is maintained by the "Geomagntic Observatories" (V-OBS) working group.</Description>
+</InformationURL>
+      <PriorID>spase://SMWG/Instrument/IAGA/Hayriver/Magnetometer</PriorID>
+</ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>IAGA</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/IAGA/Hayriver</ObservatoryID>
+</Instrument>
+</Spase>

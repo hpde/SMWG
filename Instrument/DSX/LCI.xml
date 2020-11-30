@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Instrument>
         <ResourceID>spase://SMWG/Instrument/DSX/LCI</ResourceID>
         <ResourceHeader>
             <ResourceName>DSX Wave Particle Interaction eXperiment (WPIx) Loss Cone Imager (LCI)</ResourceName>
-            <ReleaseDate>2011-09-16T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>"The Loss Cone Imager (LCI) is an electron loss-cone particle experiment that will provide a measurement of three dimensional energetic particle distributions with emphasis on the measurement of the fluxes of energetic
 electrons along the direction parallel and anti-parallel to the local geomagnetic field vector. The LCI consists of three sensor systems. There are two rotating sensor
 heads (RSH), with ±180° motorized articulation capability, and each projects a 180° field of view fan with each scan head position, so that together the full 4π unit sphere may be imaged. In addition to full rotation modes each of the RSH can use data from the DC Vector Magnetometer (VMAG) for its motor pointing control loop and be oriented independently. The VMAG data is included in the LCI data stream for later
@@ -18,28 +18,28 @@ This telescope is designed to have a geometric factor of 0.1 cm2 steradian with 
             <Contact>
                 <PersonID>spase://SMWG/Person/Theodore.Allan.Fritz</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact>
+</Contact>
             <InformationURL>
                 <Name>Demonstration and Science Experiments
 (DSX) Satellite</Name>
-                <URL>http://www.kirtland.af.mil/shared/media/document/AFD-070404-096.pdf</URL>
+                <URL>https://www.amostech.com/TechnicalPapers/2009/Space-Based_Assets/Scherbarth.pdf</URL>
                 <Description>DSX Fact Sheet, Sept. 2005</Description>
-            </InformationURL>
+</InformationURL>
             <InformationURL>
                 <Name>THE DEMONSTRATION AND SCIENCE EXPERIMENTS (DSX): A FUNDAMENTAL SCIENCE RESEARCH MISSION ADVANCING TECHNOLOGIES THAT ENABLE MEO SPACEFLIGHT</Name>
-                <URL>http://lws-set.gsfc.nasa.gov/documents/DSX_paper.pdf</URL>
+                <URL>https://lws-set.gsfc.nasa.gov/documents/DSX_paper.pdf</URL>
                 <Description>2006 Instrument paper</Description>
-            </InformationURL>
+</InformationURL>
             <InformationURL>
                 <Name>AFRL's demonstration and science experiments (DSX) mission</Name>
-                <URL>http://hdl.handle.net/1721.1/52739</URL>
+                <URL>https://dspace.mit.edu/handle/1721.1/52739</URL>
                 <Description>2009 DSX Paper</Description>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
         <InstrumentType>EnergeticParticleInstrument</InstrumentType>
         <InstrumentType>Magnetometer</InstrumentType>
         <!--InstrumentType>SSD</InstrumentType-->
         <InvestigationName>DSX-WPIx</InvestigationName>
         <ObservatoryID>spase://SMWG/Observatory/DSX</ObservatoryID>
-    </Instrument>
+</Instrument>
 </Spase>

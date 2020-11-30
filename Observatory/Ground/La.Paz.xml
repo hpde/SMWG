@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>La Paz</ResourceName>
          <AlternateName>Observatory Station Code: LPB</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-07-26T12:34:56.789</ReleaseDate>
          <Description>The La Paz geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  La Paz Observatory Director</Acknowledgement>
          <Contact>
@@ -28,6 +28,7 @@
       </Location>
       <OperatingSpan>
          <StartDate>1964-01-01T00:00:00.000</StartDate>
+		 <StopDate>1976-12-31T23:59:59</StopDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

@@ -5,15 +5,40 @@
     <ResourceID>spase://SMWG/Observatory/GONG</ResourceID>
     <ResourceHeader>
       <ResourceName>GONG Observatory Group</ResourceName>
-      <ReleaseDate>2010-09-27T18:29:30Z</ReleaseDate>
-      <Description>GONG observatory group</Description>
+   <AlternateName>Global Oscillation Network Group</AlternateName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The Global Oscillation Network Group (GONG) is a community-based program to
+   conduct a detailed study of solar internal structure and dynamics using helioseismology.
+   In order to exploit this new technique, GONG has developed a six-station network of
+   extremely sensitive, and stable velocity imagers located around the Earth to obtain nearly
+   continuous observations of the Sun's "five-minute" oscillations, or pulsations.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
-    </ResourceHeader>
-    <Location>
+</Contact>
+ <InformationURL>
+        <Name>Global Oscillation Network Group Home Page</Name>
+        <URL>https://gong.nso.edu/</URL>
+        <Description>Access to real-time data and data archives.</Description>
+</InformationURL>
+   <InformationURL>
+        <Name>The Global Oscillation Network Group Site Survey Article</Name>
+        <URL>https://link.springer.com/article/10.1007%2FBF00680443</URL>
+        <Description>Detailed information about the GONG data collection and analysis methods.</Description>
+</InformationURL>
+ <InformationURL>
+        <Name>Second Global Oscillation Network Group Site Survey Article</Name>
+        <URL>https://link.springer.com/article/10.1007%2FBF00680444</URL>
+        <Description>Additional detailed information about the Global Oscillation Network Group.</Description>
+</InformationURL>
+  <InformationURL>
+        <Name>Global Oscillation Network Group Homepage</Name>
+        <URL>https://gong.nso.edu/</URL>
+        <Description>Additional detailed information about the Global Oscillation Network Group.</Description>
+</InformationURL>
+</ResourceHeader>
+ <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

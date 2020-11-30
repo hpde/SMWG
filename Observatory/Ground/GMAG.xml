@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.spase-group.org/data/schema"
+xsi:schemaLocation="http://www.spase-group.org/data/schema
+http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.9</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/GMAG</ResourceID>
+    <ResourceHeader>
+      <ResourceName>THEMIS-Associated Ground Magnetometer Stations</ResourceName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>This entry represents the ensemble of all ground
+stations hosting magnetometers associated with the THEMIS spaceflight
+mission.  Note that VMO has provided many station-specific descriptors
+to the SMWG observatory registry.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
+        <Role>PrincipalInvestigator</Role>
+</Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>GeneralContact</Role>
+</Contact>
+      <InformationURL>
+        <Name>THEMIS web site ground magnetometer page</Name>
+        <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+  <Description>Up to date information on the THEMIS Ground Magnetometer Stations.</Description>
+</InformationURL>
+   <InformationURL>
+        <Name>Space Science REviews Article</Name>
+        <URL>https://link.springer.com/article/10.1007%2Fs11214-008-9337-0</URL>
+        <Description>Description of THEMIS Ground Magnetometer Stations.</Description>
+</InformationURL>
+      <PriorID>spase://SMWG/Observatory/THEMIS/GMAG</PriorID>
+</ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+</Location>
+ <OperatingSpan>
+  <StartDate>2005-01-01T12:00:00Z</StartDate>
+  <Note>Exact start date is unclear.</Note>
+</OperatingSpan>
+</Observatory>
+</Spase>

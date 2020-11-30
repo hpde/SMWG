@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/David.M.Malaspina</ResourceID>
+      <ReleaseDate>2017-08-22T12:34:56.789</ReleaseDate>
+      <PersonName>David M. Malaspina</PersonName>
+      <OrganizationName>Laboratory for Atmospheric and Space Physics, LASP, University of Colorado, Boulder</OrganizationName>
+      <Address>3665 Discovery Drive, Boulder, CO 80303, USA</Address>
+      <Email>david.malaspina@colorado.edu</Email>
+      <PhoneNumber>+1 303 492 9501</PhoneNumber>
+      <FaxNumber>+1 303 492 6444</FaxNumber>
+   </Person>
+</Spase>

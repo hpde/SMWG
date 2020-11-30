@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>STEREO-B Waves (SWAVES)</ResourceName>
       <AlternateName>SWAVES</AlternateName>
-      <ReleaseDate>2010-03-10T21:08:40Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>This experiment is designed to measure remotely and in situ:
 * Type II radio bursts associated with electrons accelerated
 by CME-driven shocks;
@@ -26,15 +26,15 @@ components.  Antenna systems include three mutually orthogonal
       <Contact>
         <PersonID>spase://SMWG/Person/Jean-Louis.Henry.Bougeret</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2006-047B&amp;ex=2</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2006-047B&amp;ex=2</URL>
         <Description>Information about the Stereo/Waves (Swaves) experiment on the STEREO B mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Unspecified</InstrumentType>
     <InvestigationName>Stereo/Waves (Swaves) on STEREO B</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/STEREO-B</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

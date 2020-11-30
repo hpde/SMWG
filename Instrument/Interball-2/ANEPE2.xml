@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/Interball-2/ANEPE2</ResourceID>
     <ResourceHeader>
       <ResourceName>Electron and proton spectrometer (ANEPE-2)</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:10Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The ANEPE instrument on Interball Auroral Probe is identical to that on the spacecraft Intercosmos-Bulgaria-1300. It consists of three sets of cylindrical electrostatic analyzers (ESA); each set had three ESAs, one to measure protons and two to measure electrons. The angular field of view for each individual analyzer was 7 degrees X 24 degrees. One set viewed out along the spacecraft Z-axis and the other two along perpendicular axes in the spacecraft X_Y plane at azimuthal angles of 50 and 140 deg. The energy per charge range from 0.2 to 15 keV/q could be covered by up to 16 channels/s and the energy rsolution adjusted to 0.1, 0.2 or 0.3. The flux range was 1.E4 to 1.E9 particles/(sq cm-sr-keV-s).</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1996-050C&amp;ex=3</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1996-050C&amp;ex=3</URL>
         <Description>Information about the Electron and proton spectrometer (ANEPE-2) experiment on the Interball Auroral Probe mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Electron and proton spectrometer (ANEPE-2) on Interball Auroral Probe</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Interball-2</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/WDC/CosmicRays/NagoyaU</ResourceID>
+    <ResourceHeader>
+      <ResourceName>WDC for Cosmic Rays, Nagoya U.</ResourceName>
+      <ReleaseDate>2018-06-07T15:48:04Z</ReleaseDate>
+      <Description>WDC for Cosmic Rays, Solar-Terrestrial Environment laboratory, Nagoya University</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Takashi.Watanabe</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>WDC for Cosmic Rays, Nagoya University</Name>
+      <URL>http://cidas.isee.nagoya-u.ac.jp/WDCCR/</URL>
+      <Description>World Data Center for Cosmic Rays (WDCCR) was established in 1957, as a part of the activity of the International Geophysical Year (IGY) held in 1957-58, at the Institute of Physical and Chemical Research (RIKEN) to provide with database of cosmic-ray neutron observations in unified formats. The WDCCR was moved to the Solar-Terrestrial Environment Laboratory (STELAB), Nagoya University, in 1991, and data-management works of the WDCCR were carried out through the collaboration with the Department of Environmental Sciences, Ibaraki University in the interval from 1993 to 2009. Since July 2009, whole works of the WDCCR have been done at the Geospace Research Center, STELAB, Nagoya University..</Description>
+    </AccessURL>
+  </Repository>
+</Spase>

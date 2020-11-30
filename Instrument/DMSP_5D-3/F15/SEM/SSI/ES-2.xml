@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/DMSP_5D-3/F15/SEM/SSI/ES-2</ResourceID>
+      <ResourceHeader>
+         <ResourceName>DMSP/F15, SEM Special Sensor Ionospheric Plasma Drift/Scintillation Monitor-2, SEM/SSI/ES-2</ResourceName>
+         <ReleaseDate>2017-08-23T12:34:56.789</ReleaseDate>
+         <Description>DMSP/F15, SEM Special Sensor Ionospheric Plasma Drift/Scintillation Monitor-2, SEM/SSI/ES-2, The SSI/ES measures the ambient electron density and temperatures, ambient ion density, the average ion temperature and molecular weight, the plasma drift and scintillation at the DMSP orbital altitude.</Description>
+         <Acknowledgement>DMSP Data Manager, NOAA National Environmental Satellite, Data, and Information Service, NESDIS</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/DMSP.Data.Manager</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>SEM Special Sensor Ionospheric Plasma Drift/Scintillation Monitor-2 Web Site</Name>
+            <URL>https://www.wmo-sat.info/oscar/instruments/view/1126</URL>
+            <Description>SEM Special Sensor Ionospheric Plasma Drift/Scintillation Monitor-2, SEM/SSI/ES-2, Information and Details</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>LangmuirProbe</InstrumentType>
+      <InstrumentType>ScintillationDetector</InstrumentType>
+      <InvestigationName>Defense Meteorological Satellite Program, DMSP</InvestigationName>
+      <OperatingSpan>
+         <StartDate>1999-12-12T00:00:00</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/DMSP_5D-3/F15</ObservatoryID>
+   </Instrument>
+</Spase>

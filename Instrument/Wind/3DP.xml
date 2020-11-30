@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Wind Hot Plasma and Charged Particles (3DP)</ResourceName>
       <AlternateName>Wind/3DP</AlternateName>
-      <ReleaseDate>2011-08-17T15:16:35Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Wind 3DP investigation, a three-dimensional plasma analyzer, is designed to meet the following objectives:
 
             * (1) to make the first detailed exploration of the interplanetary particle population in the suprathermal energy range between solar wind plasma energies and 100 keV;
@@ -18,16 +18,16 @@
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.P.Lin</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1994-071A-01</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1994-071A-01</URL>
         <Description>Information about the Hot Plasma and Charged Particles (3DP) experiment on the Wind mission.</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://SMWG/instrument/1994-071A-01</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <InstrumentType>QuadrisphericalAnalyser</InstrumentType>
     <InvestigationName>Hot Plasma and Charged Particles (3DP) on Wind</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Wind</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

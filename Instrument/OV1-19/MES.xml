@@ -5,9 +5,9 @@
     <Instrument>
         <ResourceID>spase://SMWG/Instrument/OV1-19/MES</ResourceID>
         <ResourceHeader>
-            <ResourceName>Magnetic Electron Telescope</ResourceName>
-            <ReleaseDate>2012-02-02T00:00:00Z</ReleaseDate>
-            <Description>Magnetic Electron Telescope on OV1-19</Description>
+            <ResourceName>Magnetic Electron Spectrometers</ResourceName>
+            <ReleaseDate>2018-04-02T00:00:00Z</ReleaseDate>
+            <Description>Magnetic Electron Spectrometers on OV1-19</Description>
             <Acknowledgement/>
             <Contact>
                 <PersonID>spase://SMWG/Person/T.Paul.OBrien</PersonID>
@@ -19,7 +19,7 @@
             </InformationURL>
         </ResourceHeader>
         <InstrumentType>EnergeticParticleInstrument</InstrumentType>
-        <InvestigationName>Magnetic Electron Telescope on OV1-19</InvestigationName>
+        <InvestigationName>Magnetic Electron Spectrometers on OV1-19</InvestigationName>
         <ObservatoryID>spase://SMWG/Observatory/OV1-19</ObservatoryID>
     </Instrument>
 </Spase>

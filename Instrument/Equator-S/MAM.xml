@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Instrument>
         <ResourceID>spase://SMWG/Instrument/Equator-S/MAM</ResourceID>
         <ResourceHeader>
             <ResourceName>Magnetic Field Instrument (MAM)</ResourceName>
-            <ReleaseDate>2009-04-02T00:00:00Z</ReleaseDate>
-            <Description>The magnetic field instrument consists of two three-axis flux-gate magnetometers, one mounted at the end of a 
-                1.8-m boom, the other 50 cm further inboard, to reduce (and determine) the amount of interference from the spacecraft. 
-                The sampling rate is 128 vectors/second when only one of the magnetometers is utilized, and 64 vectors/second when both 
-                are utilized. Resolution is 16 bits, and ranges can be selected (automatically or manually) in steps of 4, between 250 
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+            <Description>The magnetic field instrument consists of two three-axis flux-gate magnetometers, one mounted at the end of a
+                1.8-m boom, the other 50 cm further inboard, to reduce (and determine) the amount of interference from the spacecraft.
+                The sampling rate is 128 vectors/second when only one of the magnetometers is utilized, and 64 vectors/second when both
+                are utilized. Resolution is 16 bits, and ranges can be selected (automatically or manually) in steps of 4, between 250
                 and 64000 nT.
-      </Description>
+</Description>
             <Contact>
-                <PersonID>spase://SMWG/Person/Wolfgang.Baumjohann</PersonID>  
+                <PersonID>spase://SMWG/Person/Wolfgang.Baumjohann</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact> 
+</Contact>
             <InformationURL>
                 <Name>NSSDC's Master Catalog</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1997-075B-01</URL>
+                <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1997-075B-01</URL>
                 <Description>Information about the Magnetic field instrument (MAM) experiment on the Equator-S mission.</Description>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
         <InstrumentType>Magnetometer</InstrumentType>
         <InvestigationName>Magnetic field instrument (MAM) on Equator-S</InvestigationName>
         <ObservatoryID>spase://SMWG/Observatory/Equator-S</ObservatoryID>
-    </Instrument>
+</Instrument>
 </Spase>

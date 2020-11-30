@@ -5,31 +5,40 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Kaktovik</ResourceID>
       <ResourceHeader>
          <ResourceName>Kaktovik Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+   <AlternateName>Observatory Station Code: KAKO</AlternateName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>Kaktovik (KAKO) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: University of Alaska</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Donald.Hampton</PersonID>
             <Role>PrincipalInvestigator</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
-         </InformationURL>
-      </ResourceHeader>
+</InformationURL>
+   <InformationURL>
+   <Name>Overview of the Alaska Satellite Facility Geophysical Institute Magnetometer Array</Name>
+   <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+   <Description>Description of the magnetometer array.</Description>
+</InformationURL>
+</ResourceHeader>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GIMA</ObservatoryGroupID>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>70.1</Latitude>
-         <Longitude>217.4</Longitude>
-      </Location>
+         <Latitude>70.13</Latitude>
+         <Longitude>217.35</Longitude>
+</Location>
       <OperatingSpan>
-         <StartDate>2007-01-01T01:00:00</StartDate>
-      </OperatingSpan>
-   </Observatory>
+         <StartDate>1999-01-01T01:00:00</StartDate>
+   <StopDate>2014-12-31T01:00:00</StopDate>
+</OperatingSpan>
+</Observatory>
 </Spase>

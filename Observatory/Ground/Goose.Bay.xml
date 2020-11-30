@@ -5,7 +5,8 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Goose.Bay</ResourceID>
       <ResourceHeader>
          <ResourceName>Goose Bay Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+		 <AlternateName>Observatory Station Code: GBAY</AlternateName>
+         <ReleaseDate>2018-06-18T12:34:56.789</ReleaseDate>
          <Description>Goose Bay (GBAY) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: University of California, Berkeley, University of California, Los Angeles, respectively, NASA NAS5-02099</Acknowledgement>
          <Contact>
@@ -27,6 +28,7 @@
          </InformationURL>
          <PriorID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-GBO/GBAY</PriorID>
       </ResourceHeader>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>

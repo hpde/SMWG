@@ -6,20 +6,20 @@
     <ResourceHeader>
       <ResourceName>Solar Wind Plasma Analyzer (OPA)</ResourceName>
       <AlternateName>OPA</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:14Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The instrument for this experiment was a quadrispherical electrostatic analyzer (similar to the plasma instrument on Pioneers 10 and 11), with five current collectors and electrometers. The energy/charge range was 50-8000 (ions) in 32 steps and 1-500 (electrons) in 16 steps. The angular range covered was plus or minus 85 deg elevation by 360 deg azimuth, and the detector field of view was 15 deg by 25 deg or 15 deg by 45 deg, depending on position. The logic design was essentially that used on Pioneers 8 and 9. The objectives were to measure solar wind conditions outside the Venusian bow shock, inside the magnetosheath flow field, and to study the ionopausal structure. Solar-wind measurements were made during the transit to Venus, particularly to study macroscale problems and to determine average gradients. The near-planet wake region was also available for study.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Aaron.Barnes</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1978-051A&amp;ex=18</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1978-051A&amp;ex=18</URL>
         <Description>Information about the Solar Wind Plasma Analyzer (OPA) experiment on the Pioneer Venus Orbiter mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Solar Wind Plasma Analyzer (OPA) on Pioneer Venus Orbiter</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/PioneerVenusOrbiter</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

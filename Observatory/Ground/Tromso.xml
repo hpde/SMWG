@@ -5,7 +5,8 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Tromso</ResourceID>
       <ResourceHeader>
          <ResourceName>Tromso Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+		 <AlternateName>Observatory Station Code: TRO</AlternateName>
+         <ReleaseDate>2019-02-18T12:34:56.789</ReleaseDate>
          <Description>Tromso (TRO) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: UiT The Arctic University of Norway</Acknowledgement>
          <Contact>
@@ -21,6 +22,11 @@
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
+		 <InformationURL>
+			  <Name>International Monitor for Auroral Geomagnetic Effects Homepage</Name> 
+			  <URL>http://space.fmi.fi/image/www/index.php?page=home</URL> 
+			  <Description>About the IMAGE program.</Description> 
+		 </InformationURL>
       </ResourceHeader>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
@@ -30,7 +36,7 @@
          <Elevation>105.0</Elevation>
       </Location>
       <OperatingSpan>
-         <StartDate>2006-12-30T00:00:00.000</StartDate>
+         <StartDate>1957-07-30T00:00:00.000</StartDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

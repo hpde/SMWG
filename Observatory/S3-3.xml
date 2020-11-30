@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
+  <Version>2.2.9</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/S3-3</ResourceID>
+    <ResourceHeader>
+      <ResourceName>S3-3</ResourceName>
+      <AlternateName>SESP S74-2A</AlternateName>
+      <AlternateName>SS74-2A</AlternateName>
+      <AlternateName>S74-2</AlternateName>
+      <AlternateName>09007</AlternateName>
+      <ReleaseDate>2018-03-30T14:12:05Z</ReleaseDate>
+      <Description>This spacecraft was a small observatory in a near-polar orbit with eight different sensors on board. It was designed to observe various magnetospheric parameters and their interrelationships. Sensors, which observed energetic protons and Alpha particles, also provided real-time observations for use by the U.S. Air Force Air Weather Service.
+            </Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/T.Paul.OBrien</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Magnetosphere.Polar</ObservatoryRegion>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1976-07-08T00:00:00Z</StartDate>
+      <StopDate>1979-04-25T00:00:00Z</StopDate>
+    </OperatingSpan>
+  </Observatory>
+</Spase>

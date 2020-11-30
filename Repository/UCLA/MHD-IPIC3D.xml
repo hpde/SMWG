@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/UCLA/MHD-IPIC3D</ResourceID>
+    <ResourceHeader>
+      <ResourceName>UCLA MHD and iPic3D model Repository</ResourceName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>Selected output from simulations.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+        <Role>MetadataContact</Role>
+</Contact>
+   <Contact>
+        <PersonID>spase://SMWG/Person/Raymond.J.Walker</PersonID>
+        <Role>PrincipalInvestigator</Role>
+</Contact>
+      <InformationURL>
+        <Name>Journal of Geophysical Research, Space Physics Article</Name>
+        <URL>https://onlinelibrary.wiley.com/doi/abs/10.1029/2018JA025509</URL>
+        <Description>Description of the agryotropy, magnetic field,
+  electric field, pressure, flows, and density from the UCLA MHD IPIC3D model.</Description>
+</InformationURL>
+</ResourceHeader>
+    <AccessURL>
+      <Name>Virtual Magnetospheric Observatory</Name>
+      <URL>http://vmo.igpp.ucla.edu/data1/UCLA-SPSG/MHD-IPIC3D/</URL>
+      <Description>Results from the UCLA MHD and iPic3D model runs.</Description>
+</AccessURL>
+</Repository>
+</Spase>

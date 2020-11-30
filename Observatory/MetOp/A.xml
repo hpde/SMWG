@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+  <Version>2.2.8</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/MetOp/A</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MetOp-A</ResourceName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The Meteorological Operational satellite programme (MetOp) is a European undertaking providing weather data services to monitor the climate and improve weather forecasts. The programme was jointly established by ESA and the European Organisation for the Exploitation of Meteorological Satellites (Eumetsat), forming the space segment of Eumetsat's Polar System (EPS).
+
+The programme also represents the European contribution to a cooperative venture with the United States' National Oceanic and Atmospheric Administration (NOAA), which for the last 40 years has been delivering meteorological data from polar orbit, free of charge, to users worldwide.
+
+Launched in October 2006, MetOp-A, the first satellite in the series of three, replaced one of two satellite services operated by NOAA and is Europe's first polar-orbiting satellite dedicated to operational meteorology. Once operational in orbit, responsibilities for the meteorological satellite services have been shared between the USA and Europe.
+
+The MetOp satellites are designed to work in conjunction with the NOAA satellite system, flying in complementary orbits. MetOp's polar orbit is Sun synchronous, so that the satellite track along the Earth is always at the same local time, in this case in the mid-morning. NOAA still continues to operate its mid-afternoon orbit satellite service as part of the Polar Orbit Enviromental Satellites (POES) system.</Description>
+ <Contact>
+            <PersonID>spase://SMWG/Person/Janet.C.Green</PersonID>
+            <Role>ProjectScientist</Role>
+</Contact>
+      <InformationURL>
+        <Name>Overview</Name>
+        <URL>http://www.esa.int/Our_Activities/Observing_the_Earth/Meteorological_missions/MetOp/Overview14</URL>
+</InformationURL>
+</ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+</Location>
+</Observatory>
+</Spase>

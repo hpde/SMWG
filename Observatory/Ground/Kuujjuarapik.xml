@@ -5,35 +5,43 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Kuujjuarapik</ResourceID>
       <ResourceHeader>
          <ResourceName>Kuujjuarapik Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+   <AlternateName>Observatory Station Code: KJPK</AlternateName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>Kuujjuarapik (KJPK) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: Athabasca University</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Martin.Connors</PersonID>
             <Role>PrincipalInvestigator</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Ian.Schofield</PersonID>
             <Role>PrincipalInvestigator</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
-         </InformationURL>
-      </ResourceHeader>
+</InformationURL>
+   <InformationURL>
+   <Name>Related Earth, Planets and Space Article</Name>
+   <URL>https://earth-planets-space.springeropen.com/articles/10.1186/s40623-015-0354-4</URL>
+   <Description>Information about and data from the Athabasca University THEMIS UCLA Magnetometer Network.</Description>
+</InformationURL>
+</ResourceHeader>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/AUTUMN</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>55.3</Latitude>
-         <Longitude>282.2</Longitude>
-      </Location>
+         <Latitude>55.28</Latitude>
+         <Longitude>282.24</Longitude>
+</Location>
       <OperatingSpan>
          <StartDate>2014-10-17T00:00:00.000</StartDate>
-      </OperatingSpan>
-   </Observatory>
+</OperatingSpan>
+</Observatory>
 </Spase>

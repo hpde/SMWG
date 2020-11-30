@@ -6,33 +6,33 @@
     <ResourceHeader>
       <ResourceName>Double Star Science Data Centre, The Data Ring</ResourceName>
       <AlternateName>Double Star Data Ring</AlternateName>
-      <ReleaseDate>2010-09-09T12:34:56.789</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>This site provides access to other sites with the prime parameter and summary parameter data from the Double Star mission. Some of this data is proprietary and subject to access controls. Please read their rules of use, or see the Double Star Data System Users Guide.</Description>
       <Acknowledgement>ESA; Double Star; Center for Space Science and Applied Research, Chinese Academy of Sciences</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>ESA Double Star Home Page</Name>
-        <URL>http://sci.esa.int/science-e/www/area/index.cfm?fareaid=70</URL>
+        <URL>http://sci.esa.int/double-star/</URL>
         <Description>An introduction to the Double Star mission.</Description>
         <Language>English</Language>
-      </InformationURL>
+</InformationURL>
       <Association>
         <AssociationID>spase://SMWG/Observatory/DoubleStar1</AssociationID>
         <AssociationType>PartOf</AssociationType>
-      </Association>
+</Association>
       <Association>
         <AssociationID>spase://SMWG/Observatory/DoubleStar2</AssociationID>
         <AssociationType>PartOf</AssociationType>
-      </Association>
-    </ResourceHeader>
+</Association>
+</ResourceHeader>
     <AccessURL>
       <Name>Double Star Science Data Centre, The Data Ring</Name>
-      <URL>http://www.rssd.esa.int/index.php?project=DOUBLESTAR&amp;page=data_ring</URL>
+      <URL>https://www.cosmos.esa.int/?project=DOUBLESTAR</URL>
       <Description>Double Star Data Center Hub web page. This page provides access to other sites with the prime parameter and summary parameter data from the Double Star mission.</Description>
       <Language>English</Language>
-    </AccessURL>
-  </Repository>
+</AccessURL>
+</Repository>
 </Spase>

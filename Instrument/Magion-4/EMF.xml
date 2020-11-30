@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/Magion-4/EMF</ResourceID>
     <ResourceHeader>
       <ResourceName>Wave-form Analyzer ULF, Electric &amp; Magnetic</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The ULF instrument is designed for collecting and processing information on three components of magnetic field and one component of electric field. The instrument provides the analog and digital processing of the magnetic and electric field signals through the telemetry system STS. The three-component magnetic sensor is a component of the instrument KEM-3 (95-039F-01). The dynamical range of the instrument (106 dB) is from -76 dB to +30 dB. There are two operational modes: (1) Transmission of all 4 components at 20 or 40 kbits/second with the digitizer frequency of 280 Hz; (2) Transmission of one selected component for the telemetry rates 5 or 1.25 kbits/second with the digitizer frequency 70 Hz.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Frantisek.Jiricek</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1995-039F&amp;ex=3</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1995-039F&amp;ex=3</URL>
         <Description>Information about the Wave-form Analyzer ULF, Electric &amp; Magnetic experiment on the Interball S2-X mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>WaveformReceiver</InstrumentType>
     <InvestigationName>Wave-form Analyzer ULF, Electric &amp; Magnetic on Interball S2-X</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Magion-4</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

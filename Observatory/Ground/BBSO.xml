@@ -4,13 +4,27 @@
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Ground/BBSO</ResourceID>
     <ResourceHeader>
-      <ResourceName>BBSO</ResourceName>
-      <ReleaseDate>2015-10-23T18:29:57Z</ReleaseDate>
-      <Description>Big Bear Solar Observatory</Description>
+      <ResourceName>Big Bear Solar Observatory</ResourceName>
+	  <AlternateName>BBSO</AlternateName>
+      <ReleaseDate>2018-05-02T18:29:57Z</ReleaseDate>
+      <Description>Big Bear Solar Observatory (BBSO) is the premier university-based solar observatory 
+	  in the United States. It is operated by New Jersey Institute of Technology (NJIT). 
+	  BBSO features the most powerful solar telescope in the world – the 1.6 m clear aperture 
+	  Goode Solar Telescope (GST), which has no obscuration in the optical train. 
+	  
+	  BBSO is located on the north side of Big Bear Lake in the San Bernardino Mountains of southwestern 
+	  San Bernardino County, California (USA), approximately 120 kilometers (75 mi) east of downtown 
+	  Los Angeles. The telescopes and instruments at the observatory are designed and employed 
+	  specifically for studying the activities and phenomena of the Sun.</Description>
       <Contact>
-        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
-        <Role>GeneralContact</Role>
+        <PersonID>spase://SMWG/Person/Wenda.Cao</PersonID>
+        <Role>TeamLeader</Role>
       </Contact>
+	  <InformationURL>
+        <Name>Big Bear Solar Observatory Homepage</Name>
+        <URL>http://www.bbso.njit.edu/</URL>
+        <Description>Information about the Big Bear Solar Observatory.</Description>
+      </InformationURL>
        <PriorID>spase://SMWG/Observatory/BBSO</PriorID>
     </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/GONG</ObservatoryGroupID>

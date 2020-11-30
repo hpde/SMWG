@@ -6,33 +6,33 @@
     <ResourceHeader>
       <ResourceName>SCATHA Electric Field Detector (SC10)</ResourceName>
       <AlternateName>SC10</AlternateName>
-      <ReleaseDate>2010-03-26T00:36:29Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The SC10 experiment measures the DC electric field and the satellite potential.  The sensor is a 100 m tip-to-tip (50 m per side) cylindrical (0.64cm diameter) dipole that is used as a double floating probe.  The two halves of the antenna are extended perpendicular to the spin axis.  The inner 30 m of each 50 m segment is coated with Kapton insulation.  The primary emphasis of the experiment is on electric fields from DC to 200 Hz.  The antenna is also used by SC1 in the HF and VLF experiments.
-      
+     
       The differential signal on the dipole antenna yielded direct measurement of the ambient convection electric fields in the plasma. Also, the common mode signal of a single antenna monitored spacecraft charging events.
-      </Description>
+</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Thomas.L.Aggson</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Jonathan.Thomas.Niehof</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>SCATHA server at BU</Name>
-        <URL>http://spacedata.bu.edu/scatha.html</URL>
+        <URL>https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/SP020p0065</URL>
         <Description>Spacecraft/instrument description and data.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Electric Field Detector at NSSDC</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1979-007A-05</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1979-007A-05</URL>
         <Description>Electric Field Detector (SC10) on SCATHA.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Antenna</InstrumentType>
     <InstrumentType>LongWire</InstrumentType>
     <InvestigationName>Spacecraft Charging At High Altitudes (SCATHA)</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/SCATHA</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

@@ -5,37 +5,42 @@
     <ResourceID>spase://SMWG/Instrument/AIM/SOFIE</ResourceID>
     <ResourceHeader>
       <ResourceName>AIM Solar Occultation For Ice Experiment</ResourceName>
-      <ReleaseDate>2010-03-17T21:37:11Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Solar Occultation For Ice Experiment (SOFIE)
-flown on the AIM spacecraft performs solar occultation measurements 
+flown on the AIM spacecraft performs solar occultation measurements
 in eight pairs of spectral bands covering the 0.29 to 5.26 microns
-range. The spectral data are used to retrieve vertical profiles of 
+range. The spectral data are used to retrieve vertical profiles of
 temperature, O3, H2O, CO2, CH4, NO, and PMC (Polar Mesospheric Clouds)
-extinction at 11 wavelengths.  Each day SOFIE provides 15 sunset 
-measurements at latitudes ranging from 65-85 deg S (depending on time 
-of year) and 15 sunrise measurements at latitudes from 65 - 85 deg N. 
-SOFIE images the sun with a 2D detector array to obtain pointing 
-knowledge of the FOV position relative to the sun center to within 
+extinction at 11 wavelengths.  Each day SOFIE provides 15 sunset
+measurements at latitudes ranging from 65-85 deg S (depending on time
+of year) and 15 sunrise measurements at latitudes from 65 - 85 deg N.
+SOFIE images the sun with a 2D detector array to obtain pointing
+knowledge of the FOV position relative to the sun center to within
 plus or minus 0.1 arc second through image edge analysis.
 
-SOFIE was defined and built by the Space Dynamics Lab at Utah State University 
+SOFIE was defined and built by the Space Dynamics Lab at Utah State University
 and collaborators; it has a heritage in the TIMED/SABER instrument.
 </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Mark.Hervig</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>AIM/SOFIE web page at Hampton U.</Name>
         <URL>http://aim.hamptonu.edu/instrmt/sofie.html</URL>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>AIM/SOFIE web page at Gats, Inc.</Name>
         <URL>http://sofie.gats-inc.com/sofie/index.php</URL>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+   <InformationURL>
+        <Name>Journal of Atmospheric and Solar-Terrestrial Physics Article</Name>
+        <URL>https://linkinghub.elsevier.com/retrieve/pii/S1364682608002204</URL>
+        <Description>Detailed information about the Aeronomy of Ice in the Mesosphere (AIM) mission and SOFIE.</Description>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Spectrometer</InstrumentType>
     <InvestigationName>SOFIE</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/AIM</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

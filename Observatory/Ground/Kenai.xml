@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/Kenai</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Kenai Geophysical Observatory</ResourceName>
+   <AlternateName>Observatory Station Code: KENA</AlternateName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <Description>Kenai (KENA) Geophysical Observatory</Description>
+         <Acknowledgement>Please acknowledge: University of Alaska</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Donald.Hampton</PersonID>
+            <Role>PrincipalInvestigator</Role>
+</Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+</Contact>
+         <InformationURL>
+            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
+</InformationURL>
+   <InformationURL>
+   <Name>Overview of the Alaska Satellite Facility Geophysical Institute Magnetometer Array</Name>
+   <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+   <Description>Description of the magnetometer array.</Description>
+</InformationURL>
+</ResourceHeader>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GIMA</ObservatoryGroupID>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>60.6</Latitude>
+         <Longitude>208.7</Longitude>
+</Location>
+      <OperatingSpan>
+         <StartDate>2016-08-15T22:28:09</StartDate>
+</OperatingSpan>
+</Observatory>
+</Spase>

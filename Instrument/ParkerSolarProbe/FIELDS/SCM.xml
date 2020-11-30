@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd" lang="en">
+   <Version>2.3.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/SCM</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Parker Solar Probe, PSP, FIELDS Suite, Search Coil Magnetometer, SCM, Instrument</ResourceName>
+         <AlternateName>Solar Probe Plus, SPP, FIELDS Suite, Search Coil Magnetometer, SCM, Instrument</AlternateName>
+         <ReleaseDate>2020-03-16T12:34:56.789Z</ReleaseDate>
+         <Description>The FIELDS search coil magnetometer, SCM, is mounted at the end of the Parker Solar Probe, PSP, instrument boom. The SCM will measure all three components of the AC magnetic signature of solar wind fluctuations, from 10 Hz to 50 kHz and a single component from 1 kHz to 1 MHz. The wide bandwidth and dynamic range allows FIELDS to investigate transients caused by interplanetary shocks and reconnection, the turbulent cascade beyond the electron kinetic scale, but also numerous plasma wave modes.
+
+The SCM instrument consists of a triaxial search-coil that has a solid technical heritage in several past missions (Dudok de Wit et al. 2011). Nearly identical instruments are being built for the Taranis and Solar Orbiter missions. Each sensor consists of a magnetic core with a winding whose voltage is proportional to the time derivative of the magnetic field (Seran and Fergeau, 2005). Two sensor components of SCM cover the ELF/VLF frequency range from 10 Hz to 50 kHz. The third one is a dual-band sensor that covers both the extremely low frequency and very low frequency, ELF/VLF, range and the low frequency and medium frequency, LF/MF range from 1 kHz to 1 MHz. The three sensors, each of which is 104 mm long, are mounted orthogonally on a non-magnetic support.
+
+Two challenges raised by Solar Probe Plus are the low temperature environment on the magnetometer boom, and the unusually large dynamic range of the instrument. The latter is needed to accommodate both small-amplitude fluctuations of solar wind turbulence, and large transients near the Sun. Peak values, as scaled from observations made by Helios at distances from the Sun down to 0.29 AU, may reach 3000 nT in the ELF/VLF range. Thanks to a careful design, the dynamic range of the instrument has been increased from past models by several tens of dB, now reaching 160 dB in the ELF/VLF range and 130 dB in the LF/MF range.</Description>
+         <Acknowledgement>Please acknowledge NASA, Stuart D. Bale, the PSP FIELDS Instrument Suite Principal Investigator, and Nicola J. Fox, the PSP Project Scientist.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Nicola.J.Fox</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Stuart.D.Bale</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Parker Solar Probe FIELDS Suite NSSDCA Master Catalog Listing</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2018-065A-01</URL>
+            <Description>NSSDC Master Catalog Listing for the Parker Solar Probe FIELDS Suite, NSSDCA/COSPAR ID: 2018-065A-01</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>SearchCoil</InstrumentType>
+      <InvestigationName>Parker Solar Probe Mission</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2018-08-12T07:31:00.000Z</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/ParkerSolarProbe</ObservatoryID>
+   </Instrument>
+</Spase>

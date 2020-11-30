@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/ELFIN/A/Ephemeris</ResourceID>
+      <ResourceHeader>
+         <ResourceName>ELFIN A, Ephemeris Instrument</ResourceName>
+         <ReleaseDate>2019-06-12T12:34:56.789</ReleaseDate>
+         <Description>Electron Losses and Fields Investigation, ELFIN, Virtual Ephemeris Instrument</Description>
+         <Acknowledgement>Please acknowledge the Principal Investigator, V. Angelopoulos</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>ELFIN Mission Overview Web Page, UCLA</Name>
+            <URL>https://elfin.igpp.ucla.edu/about</URL>
+            <Description>Electron Losses and Fields Investigation, ELFIN, Mission Overview Web Page, University of California, Los Angeles</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>ELFIN Attitude Determination and Control Subsystem Web Page, UCLA</Name>
+            <URL>https://elfin.igpp.ucla.edu/adcs</URL>
+            <Description>ELFIN Attitude Determination and Control Subsystem, ADCS, Web Page, University of California, Los Angeles</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Platform</InstrumentType>
+      <InvestigationName>Electron Losses and Fields Investigation, ELFIN</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2018-09-17T00:00:00.000</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/ELFIN/A</ObservatoryID>
+   </Instrument>
+</Spase>

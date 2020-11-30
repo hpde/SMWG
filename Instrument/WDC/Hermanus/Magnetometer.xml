@@ -5,34 +5,34 @@
     <ResourceID>spase://SMWG/Instrument/WDC/Hermanus/Magnetometer</ResourceID>
     <ResourceHeader>
       <ResourceName>The Hermanus Fluxgate Magnetometer Instrument.</ResourceName>
-      <ReleaseDate>2012-03-07T11:50:38</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Fluxgate Magnetometer instrument at the Hermanus geomagnetic observatory.</Description>
       <Acknowledgement>Please acknowledge Pieter Kotze, Hermanus Magnetic Observatory, P.O. Box 32 (Hermanus, South Africa 7200) for use of data from the Hermanus Magnetometer instrument.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Pieter.Kotze</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>The Hermanus geomagnetic observatory English language web site.</Name>
-        <URL>http://www.intermagnet.org/imos/imos_details_e.php?IAGA=HER</URL>
+        <URL>http://www.intermagnet.org/imos/imos-list/imos-details-eng.php?iaga_code=HER</URL>
         <Description>The Hermanus geomagnetic observatory English language web site hosted by the Intermagnet program (International Real-time Magnetic Observatory Network).</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>The Hermanus geomagnetic observatory French language web site.</Name>
-        <URL>http://www.intermagnet.org/imos/imos_details_f.php?IAGA=HER</URL>
+        <URL>http://www.intermagnet.org/imos/imos-list/imos-details-eng.php?iaga_code=HER</URL>
         <Description>The Hermanus geomagnetic observatory French language web site hosted by the Intermagnet program (International Real-time Magnetic Observatory Network).</Description>
-      </InformationURL>
+</InformationURL>
       <Association>
         <AssociationID>spase://SMWG/Observatory/WDC/Hermanus</AssociationID>
         <AssociationType>PartOf</AssociationType>
-      </Association>
-    </ResourceHeader>
+</Association>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName/>
     <ObservatoryID>spase://SMWG/Observatory/WDC/Hermanus</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

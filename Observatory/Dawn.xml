@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd" lang="en">
+   <Version>2.3.1</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Dawn</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Dawn</ResourceName>
+         <ReleaseDate>2020-04-05T12:34:56.789Z</ReleaseDate>
+         <Description>Dawn is a mission designed to rendezvous and orbit the asteroids 4 Vesta and 1 Ceres. The scientific objectives of the mission are to characterize the asteroids&apos; internal structure, density, shape, size, composition, and mass and to return data on surface morphology, cratering, and magnetism. These measurements will help determine the thermal history, size of the core, role of water in asteroid evolution, and what meteorites found on Earth come from these bodies with the ultimate goal of understanding the conditions and processes present at the solar system&apos;s earliest epoch and the role of water content and size in planetary evolution. The data returned will include for both asteroids:
+
+* 1) Full surface imagery
+* 2) Full surface spectrometric mapping
+* 3) Elemental abundances
+* 4) Topographic profiles
+* 5) Gravity fields
+* 6) Mapping of remnant magnetism, if any
+
+* Spacecraft and Subsystems
+* =========================
+
+The Dawn spacecraft is generally box-shaped with dimensions equal to 1.64 m &#10799; 1.27 m &#10799; 1.77 m. The box structure is made of aluminum and graphite composite with a dry mass of 747.1 kg and a fueled launch mass of 1217.7 kg. The spacecraft core is a graphite composite cylinder with the titanium hydrazine and xenon tanks mounted inside. Mounting, access, and other panels are aluminum core with aluminum facesheets. Two solar panel wings extend 19.7 m tip-to-tip and are mounted on opposite sides of the spacecraft. A parabolic fixed 1.52 m high gain dish antenna is mounted on one side of the spacecraft in the same plane as the solar arrays. Three low gain antennas are also mounted on the spacecraft. A 5 m long magnetometer boom extends from the top panel of the spacecraft. Also mounted on the top panel is the instrument bench, which holds the cameras, mapping spectrometer, laser altimeter, and star trackers. A gamma ray/neutron spectrometer is mounted on the top panel as well.
+
+The two 2.3 &#10799; 8.3 m solar arrays, which are composed of InGaP/InGaAs/Ge triple-junction cells, provide 10.3 kW at 1 AU and are expected to provide 1.3 kW at end of life at 3 AU to drive the spacecraft (22 V to 35 V) and the solar electric ion propulsion system (80 V to 140 V). Power is stored in a 35 A h Nickel-Hydrogen, NiH2, battery. The ion propulsion consists of three ion thrusters and is based on the Deep Space 1 spacecraft ion drive using xenon which is ionized and accelerated by electrodes. The xenon ion engines have a maximum thrust at 2.6 kW input power of 92 mN and a specific impulse of 3200 s to 1900 s. The 30 cm diameter thrusters are two-axis gimbal mounted at the base of the spacecraft. The xenon tank held 425 kg of propellant at launch.
+
+Attitude control is maintained by reaction wheels and twelve 0.9 N hydrazine engines placed around the spacecraft. The hydrazine tank holds 45.6 kg propellant at launch. The hydrazine thrusters can also be used to help orbit insertion maneuvers. Attitude knowledge is provided by star trackers and gyros. The thermal control system consists of ammonia-based heat pipes and louvers, and requires roughly 200 W at 3 AU. Communications are in X-band for both uplink and downlin, through the body-fixed high gain and medium gain antennas and a low gain omnidirectional antenna, utilizing a 100 W traveling wave tube amplifier, TWTA. The command and data handling system utilizes a radiation-hardened single board computer RAD6000 processor, 8 Gb mass memory, and a Mil-Std-1553B data bus. Uplink data rates range from 7.8 b/s to 2.0 kb/s and downlink rates from 10 b/s to 124 kb/s.
+
+* Mission Profile
+* ===============
+
+Launch from Cape Canaveral on a Delta 2 (7925-H) took place on September 27, 2007 at 11:34 UT  or equvalently 07:34 am EDT. Transfer into a trajectory towards the asteroid belt took place approximately 1 h later. After a four year heliocentric cruise including a Mars flyby to within 542 km of the surface and gravity assist on February 18, 2009 at 00:27:58 UT. Dawn reached Vesta on July 16, 2011 and used its hydrazine thrusters to go into orbit. Dawn spiraled down to a high survey orbit at 2750 km altitude with a period of 69 h on August 2nd, followed by a 12.3 h mapping orbit at 680 km on September 27th and then a lower 210 km, 4.3 h mapping orbit on December 8th. Dawn departed Vesta on September 5, 2012 at 06:26 UT and entered initial orbit around Ceres on March 6, 2015 at 12:29 UT. It reshaped the orbit to its first science orbit, circular with an altitude of 13500 km, reaching this configuration on April 23rd. It spiraled down into lower orbits, and finally to a 375 km altitude circular science orbit achieving this in December of 2015. The end of the primary mission took place in June 2016. After the end of the mission, Dawn remained in orbit around Ceres, communications ended on October 31, 2018. The final orbit will be stable with a lifetime of several hundred years. The total cost for the mission is estimated to be $446 million.</Description>
+         <Acknowledgement>Please acknowledge the National Aeronautics and Space Administration, NASA</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>NSSDC Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2007-043A</URL>
+            <Description>Information about the Dawn spacecraft and the overall mission</Description>
+            <Language>en</Language>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Asteroid</ObservatoryRegion>
+         <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+         <ObservatoryRegion>Heliosphere.Remote1AU</ObservatoryRegion>
+         <ObservatoryRegion>Heliosphere.Outer</ObservatoryRegion>
+         <ObservatoryRegion>Mars</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2007-09-27T11:34:00Z</StartDate>
+         <Note>The listed start date corresponds to the launch time of Dawn</Note>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

@@ -10,71 +10,71 @@
       <AlternateName>DE-A</AlternateName>
       <AlternateName>DE 1</AlternateName>
       <AlternateName>Dynamics Explorer-A</AlternateName>
-      <ReleaseDate>2010-10-01T20:42:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>
-          The Dynamics Explorer (DE) mission's general objective is to 
-          investigate the strong interactive processes coupling the hot, 
-          tenuous, convecting plasmas of the magnetosphere and the 
-          cooler, denser plasmas and gases corotating in the earth's 
-          ionosphere, upper atmosphere, and plasmasphere. Two 
-          satellites, DE 1 and DE 2, were launched together and were 
-          placed in polar coplanar orbits, permitting simultaneous 
-          measurements at high and low altitudes in the same field-line 
-          region. 
-          
-          The DE 1 spacecraft (high-altitude mission) uses an 
-          elliptical orbit selected to allow 
-          
-          * (1) measurements extending 
-          from the hot magnetospheric plasma through the plasmasphere to 
-          the cool ionosphere; 
-          * (2) global auroral imaging, wave 
-          measurements in the heart of the magnetosphere, and crossing 
-          of auroral field lines at several earth radii; and 
-          * (3) measurements for significant periods along a magnetic field 
-          flux tube. 
-          
-          The spacecraft approximated a short polygon 137 cm 
-          in diameter and 115 cm high. The antennas in the X-Y plane 
+          The Dynamics Explorer (DE) mission's general objective is to
+          investigate the strong interactive processes coupling the hot,
+          tenuous, convecting plasmas of the magnetosphere and the
+          cooler, denser plasmas and gases corotating in the earth's
+          ionosphere, upper atmosphere, and plasmasphere. Two
+          satellites, DE 1 and DE 2, were launched together and were
+          placed in polar coplanar orbits, permitting simultaneous
+          measurements at high and low altitudes in the same field-line
+          region.
+         
+          The DE 1 spacecraft (high-altitude mission) uses an
+          elliptical orbit selected to allow
+         
+          * (1) measurements extending
+          from the hot magnetospheric plasma through the plasmasphere to
+          the cool ionosphere;
+          * (2) global auroral imaging, wave
+          measurements in the heart of the magnetosphere, and crossing
+          of auroral field lines at several earth radii; and
+          * (3) measurements for significant periods along a magnetic field
+          flux tube.
+         
+          The spacecraft approximated a short polygon 137 cm
+          in diameter and 115 cm high. The antennas in the X-Y plane
           measured 200-m tip-to-tip, and on the Z-axis are 9 meters tip-
-          to-tip. Two six-meter booms are provided for remote 
-          measurements. Power is supplied by a solar cell array, mounted 
-          on the side and end panels. The spacecraft is spin stabilized, 
-          with the spin axis normal to the orbital plane, and the spin 
-          rate at ten plus or minus 0.1 rpm. A pulse code modulation 
-          (PCM) telemetry data system is used that operates in real time 
-          or in a tape-recorder mode. Data have been acquired on a 
-          science-problem-oriented basis, with closely coordinated 
-          operations of the various instruments, both satellites, and 
-          supportive experiments. Data acquired from the instruments are 
-          temporarily stored on tape recorders before transmission at an 
-          8:1 playback-to-record ratio. Additional operational 
-          flexibility allows a playback-to-record ratio of 4:1. The 
-          primary data rate is 16,384 bits per second. Since commands 
-          are stored in a command memory unit, spacecraft operations are 
-          not real time, except for the transmission of the wideband 
-          analog data from the Plasma Wave Instrument (81-070A-02). 
-          
-          On October 22, 1990 science operations were terminated. On 
-          February 28, 1991 Dynamics Explorer 1 operations were 
+          to-tip. Two six-meter booms are provided for remote
+          measurements. Power is supplied by a solar cell array, mounted
+          on the side and end panels. The spacecraft is spin stabilized,
+          with the spin axis normal to the orbital plane, and the spin
+          rate at ten plus or minus 0.1 rpm. A pulse code modulation
+          (PCM) telemetry data system is used that operates in real time
+          or in a tape-recorder mode. Data have been acquired on a
+          science-problem-oriented basis, with closely coordinated
+          operations of the various instruments, both satellites, and
+          supportive experiments. Data acquired from the instruments are
+          temporarily stored on tape recorders before transmission at an
+          8:1 playback-to-record ratio. Additional operational
+          flexibility allows a playback-to-record ratio of 4:1. The
+          primary data rate is 16,384 bits per second. Since commands
+          are stored in a command memory unit, spacecraft operations are
+          not real time, except for the transmission of the wideband
+          analog data from the Plasma Wave Instrument (81-070A-02).
+         
+          On October 22, 1990 science operations were terminated. On
+          February 28, 1991 Dynamics Explorer 1 operations were
           offically terminated.
-          
-          Additional details may be found in R. A. 
-          Hoffman et al., Space Sci. Instrum., v. 5, n. 4, p. 349, 1981. 
-      </Description>
+         
+          Additional details may be found in R. A.
+          Hoffman et al., Space Sci. Instrum., v. 5, n. 4, p. 349, 1981.
+</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.A.Hoffman</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1981-070A</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1981-070A</URL>
         <Description>Information about the Dynamics Explorer 1 mission</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/DE</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

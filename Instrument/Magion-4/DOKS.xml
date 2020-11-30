@@ -5,22 +5,22 @@
     <ResourceID>spase://SMWG/Instrument/Magion-4/DOKS</ResourceID>
     <ResourceHeader>
       <ResourceName>Energetic Electron and Proton Spectrometer DOK-S</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The DOK-S spectrometer is designed to measure the energetic spectrum and angular distribution of electrons in the energy range 20-180 keV and of ions in the range 20-1300 keV.
 In the main operational mode the range of measurements includes 8 energy channels. The instrument consists of two units: detector unit and electronics unit. Two pairs of silicon detectors are used; before one of them in each pair a magnetic filter is placed. The filter deflects from the field of view the electrons with energies lower than 600 keV. A mylar foil is placed before the other detector in each pair to capture the protons with energies up to 400 keV.
 The electronics unit is based on the M80C85 processor, the amplified signals are accumulated in 8 energy channels during 150 ms and then are transformed to digital and analog forms for the instrument data analysis.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Karel.Kudela</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1995-039F&amp;ex=5</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1995-039F&amp;ex=5</URL>
         <Description>Information about the Energetic Electron and Proton Spectrometer DOK-S experiment on the Interball S2-X mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Energetic Electron and Proton Spectrometer DOK-S on Interball S2-X</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Magion-4</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

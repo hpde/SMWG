@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
+   <Version>2.2.9</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/AMPTE-CCE/MEPA</ResourceID>
+      <ResourceHeader>
+         <ResourceName>AMPTE/CCE Medium Energy Particle Analyzer</ResourceName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <Description>The AMPTE CCE Medium Energy Particle Analyzer (MEPA) measured the spectra and composition of magnetospheric particle populations from 10 keV per nucleon (for oxygen) to more than 6 MeV. The instrument has 32-sector angular resolution and provides for high background rejection and a geometry factor large enough (10^-2 cm^2 sr) to be sensitive to rare natural species and tracer ions beyond geosynchronous orbit, while having the ability to operate in the very high flux regions of the inner magnetosphere. The MEPA telescope measures time of flight and thus velocity of energetic ions from a thin front foil to a rear solid state, total energy detector, determining the incident ion mass. The telescope was capable of isotopic resolution of hydrogen and helium, of elemental resolution up through oxygen, and could resolve major species and groups to beyond iron with 32-sector angular resolution and temporal resolution of 0.2 to 24 s. For more details, see R. W. McEntire et al., IEEE Transactions on Geoscience and Remote Sensing, Vol. GE-23, p. 230, 1985.</Description>
+         <Acknowledgement>User will acknowledge the AMPTE/CCE MEPA team in any publication resulting from the use of these data.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Richard.W.McEntire</PersonID>
+            <Role>PrincipalInvestigator</Role>
+</Contact>
+         <InformationURL>
+            <Name>NSSDC Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1984-088A-02</URL>
+            <Description>NSSDC information about the AMPTE/CCE MEPA experiment</Description>
+</InformationURL>
+         <InformationURL>
+            <Name>IEEE Transactions on Geoscience and Remote Sensing Journal Article</Name>
+            <URL>https://ieeexplore.ieee.org/document/4072282/</URL>
+            <Description>Detailed information about the instrument.</Description>
+</InformationURL>
+         <PriorID>spase://SMWG/Instrument/AMPTE_CCE/MEPA</PriorID>
+</ResourceHeader>
+      <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+      <InvestigationName>MEPA</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/AMPTE-CCE</ObservatoryID>
+      <Caveats>
+</Caveats>
+</Instrument>
+</Spase>

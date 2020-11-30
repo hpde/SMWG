@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/DMSP_5D-3/F19</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Defense Meteorological Satellite Program, DMSP-F19</ResourceName>
+         <AlternateName>DMSP_5D-3/F19</AlternateName>
+         <AlternateName>DMSP-F19</AlternateName>
+         <AlternateName>USA 249</AlternateName>
+         <AlternateName>39630</AlternateName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <Description>Defense Meteorological Satellite Program, DMSP-F19 19th flight unit of the DMSP Block 5D
+   series, 5th of the Block 5D-3 series. The 1,200 kg
+   DMSP-F19 satellited provide terrestrial
+   and space weather data from a near-polar, Sun-synchronous, 830 km altitude orbit with the Local
+   Time nodes for DMSP F18 of about 17:30 and about 05:30. 
+   Main missions: cloud imagery and MW imaging/temperature/humidity
+   sounding. Substantial contribution to Space weather. Operation interrupted by a telecommand outage on
+   11 February 2016. Satellite loss confirmed on 24 March.</Description>
+         <Acknowledgement>DMSP Data Manager, NOAA National Environmental Satellite, Data, and Information Service, NESDIS</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
+            <Role>GeneralContact</Role>
+</Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+</Contact>
+         <InformationURL>
+            <Name>Defense Meteorological Satellite Program, DMSP-F19 Web Site</Name>
+            <URL>https://www.wmo-sat.info/oscar/satellites/view/66</URL>
+            <Description>Defense Meteorological Satellite Program, DMSP-F19, Information and Details</Description>
+</InformationURL>
+   <InformationURL>
+            <Name>Defense Meteorological Satellite Program, Block 5D-3 Spacecraft Overview</Name>
+            <URL>http://spaceflight101.com/spacecraft/dmsp-block-5d-3/</URL>
+            <Description>Detailed information on the Defense Meteorological Satellite Program 5D-3 satellite series.</Description>
+</InformationURL>
+         <InformationURL>
+            <Name>NSSDC&apos;s Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2014-015A</URL>
+            <Description>Information about the DMSP 5D-3/F19 mission</Description>
+</InformationURL>
+</ResourceHeader>
+      <ObservatoryGroupID>spase://SMWG/Observatory/DMSP</ObservatoryGroupID>
+      <Location>
+         <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
+</Location>
+      <OperatingSpan>
+         <StartDate>2014-04-03T00:00:00</StartDate>
+         <StopDate>2016-02-11T00:00:00</StopDate>
+</OperatingSpan>
+</Observatory>
+</Spase>

@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Parc St Maur</ResourceName>
          <AlternateName>Observatory Station Code: PSM</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-09-06T12:34:56.789</ReleaseDate>
          <Description>The Parc St Maur geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Parc St Maur Observatory Director</Acknowledgement>
          <Contact>
@@ -20,11 +20,13 @@
          </Contact>
       </ResourceHeader>
       <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/BCMT</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>48.81</Latitude>
          <Longitude>2.49</Longitude>
+		 <Elevation>50.0</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>1883-01-01T00:00:00.000</StartDate>

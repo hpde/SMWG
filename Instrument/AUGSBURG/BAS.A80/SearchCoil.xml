@@ -4,30 +4,37 @@
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/AUGSBURG/BAS.A80/SearchCoil</ResourceID>
     <ResourceHeader>
-      <ResourceName>The BAS A80 Fluxgate SearchCoil Instrument.</ResourceName>
-      <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
-      <Description>The Fluxgate SearchCoil instrument at the BAS A80 geomagnetic observatory.</Description>
+      <ResourceName>The BAS A80 Search Coil Instrument.</ResourceName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The Search Coil instrument recording geomagnetic micropulsation data at
+   frequencies less than about 10 Hz at the BAS A80 geomagnetic observatory
+   at about 80.8 GLat, 339.6 East Glong.</Description>
       <Acknowledgement>Please acknowledge Mark J. Engebretson, Augsburg College (2211 Riverside Avenue, Minneapolis, MN 55454-1338, USA) for use of data from the BAS A80 SearchCoil instrument.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Mark.J.Engebretson</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>The Augsburg Search Coil Magnetometer Array Home Page.</Name>
-        <URL>http://www.augsburg.edu/physics/antindex.htm</URL>
+        <URL>http://space.augsburg.edu/searchcoil/</URL>
         <Description>The Augsburg Antarctic station array information web site.</Description>
-      </InformationURL>
+</InformationURL>
+   <InformationURL>
+        <Name>Journal of Geophysical Research Space Physics Article</Name>
+        <URL>https://onlinelibrary.wiley.com/doi/abs/10.1029/2007JA012362</URL>
+        <Description>Detailed information about the Augsburg search coils.</Description>
+</InformationURL>
       <Association>
         <AssociationID>spase://SMWG/Observatory/AUGSBURG/BAS.A80</AssociationID>
         <AssociationType>PartOf</AssociationType>
-      </Association>
-    </ResourceHeader>
+</Association>
+</ResourceHeader>
     <InstrumentType>SearchCoil</InstrumentType>
     <InvestigationName>The AUGSBURG Magnetometer Array</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/AUGSBURG/BAS.A80</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

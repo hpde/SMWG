@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Richard.J.Niciejewski</ResourceID>
+      <ReleaseDate>2017-08-22T12:34:56.789</ReleaseDate>
+      <PersonName>Richard J. Niciejewski</PersonName>
+      <OrganizationName>Department of Climate and Space Sciences and Engineering, College of Engineering</OrganizationName>
+      <Address>Space Research Building, University of Michigan, 2455 Hayward St., Ann Arbor, MI 48109-2143, USA</Address>
+      <Email>niciejew@umich.edu</Email>
+      <PhoneNumber>+1 734 647-3445</PhoneNumber>
+      <FaxNumber>+1 734 763-0437</FaxNumber>
+   </Person>
+</Spase>

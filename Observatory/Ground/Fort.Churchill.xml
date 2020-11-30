@@ -5,8 +5,9 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Fort.Churchill</ResourceID>
       <ResourceHeader>
          <ResourceName>Fort Churchill Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
-         <Description>Fort Churchill (FCC) Geophysical Observatory</Description>
+		 <AlternateName>Observatory Station Code: FCC</AlternateName>
+         <ReleaseDate>2018-06-13T12:34:56.789</ReleaseDate>
+         <Description>Fort Churchill (FCC) Geophysical Observatory. This site is different from FCHU.</Description>
          <Acknowledgement>Please acknowledge: Geological Survey of Canada</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/David.Calp</PersonID>
@@ -21,12 +22,20 @@
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
+		 <InformationURL>
+			<Name>Canadian Array for Realtime Investigations of Magnetic Activity Homepage</Name>
+			<URL>http://www.carisma.ca</URL>
+			<Description>Detailed information about the CARISMA Array.</Description>
+		 </InformationURL>
       </ResourceHeader>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/CANMOS</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>58.8</Latitude>
-         <Longitude>265.9</Longitude>
+         <Latitude>58.759</Latitude>
+         <Longitude>265.912</Longitude>
          <Elevation>15.0</Elevation>
       </Location>
       <OperatingSpan>

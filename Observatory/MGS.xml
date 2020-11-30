@@ -8,9 +8,9 @@
       <AlternateName>1996-062A</AlternateName>
       <AlternateName>MGS</AlternateName>
       <AlternateName>1996-062A</AlternateName>
-      <ReleaseDate>2010-08-05T18:19:17Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Mars Global Surveyor (MGS) orbited Mars over a seven year period and collected data on the surface morphology, topography, composition, gravity, atmospheric dynamics, and magnetic field. This data is used to investigate the surface processes, geology, distribution of material, internal properties, evolution of the magnetic field, and the weather and climate of Mars.
-      
+     
 Spacecraft and Subsystems
 
 The spacecraft itself is a rectangular box approximately 1.17 x 1.17 x 1.7 meters in size, made up of two parts, the equipment module and the propulsion module. All instruments except the magnetometer are stored on the nadir equipment deck, on one of the 1.17 x 1.17 meter surfaces. This is the top of the equipment module, which is 0.735 m high. The main thruster and propulsion tanks are on the opposite side from the instruments, on the propulsion module, which is approximately 1 meter high. Two solar panels, each 3.5 x 1.9 m in size, extend out from opposite sides of the craft. A 1.5 meter diameter parabolic high gain dish antenna is mounted on an adjacent side, and attached to a 2 meter boom, which is extended for mapping operations so the antenna is held away from the body of the spacecraft.
@@ -28,15 +28,15 @@ After aerobraking ended in February 1999, MGS was in a 118 minute circular polar
         <!-- Arden Albee -->
         <PersonID>spase://SMWG/Person/Arden.L.Albee</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1996-062A</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1996-062A</URL>
         <Description>Information about the Mars Global Surveyor mission</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <Location>
       <ObservatoryRegion>Heliosphere.Outer</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

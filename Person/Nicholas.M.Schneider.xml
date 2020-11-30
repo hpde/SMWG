@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Nicholas.M.Schneider</ResourceID>
+      <ReleaseDate>2019-07-17T14:47:53Z</ReleaseDate>
+      <PersonName>Nicholas M. Schneider</PersonName>
+      <OrganizationName>Laboratory for Atmospheric and Space Physics, University of Colorado, Boulder</OrganizationName>
+      <Address>Astrophysical and Planetary Sciences, 391 UCB, 2000 Colorado Ave, Boulder, CO 80309, Duane Physics Building, Room E226</Address>
+      <Email>nick.schneider@lasp.colorado.edu</Email>
+      <PhoneNumber>1 303 492 7672</PhoneNumber>
+   </Person>
+</Spase>

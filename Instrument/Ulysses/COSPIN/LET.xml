@@ -6,34 +6,34 @@
     <ResourceHeader>
       <ResourceName>Low Energy Telescope</ResourceName>
       <AlternateName>COSPIN/LET</AlternateName>
-      <ReleaseDate>2014-07-24T20:37:16Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Low Energy Telescope (LET): ~1-20 MeV/n P, He, and heavier nuclei using a dE/dx vs. E telescope with pha capability
-        
-        LET is one of five instruments that make up the COSPIN suite on the Ulysses spacecraft.  LET was built, and 
+       
+        LET is one of five instruments that make up the COSPIN suite on the Ulysses spacecraft.  LET was built, and
         primary data analysis is maintained, by ESTEC, Noordwijk, The Netherlands
-        
-      </Description>
+       
+</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/R.Bruce.McKibben</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Silvia.Dalla</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>LET Instrument User Notes</Name>
-        <URL>http://www.rssd.esa.int/helio/archive/cospin_let_un.html</URL>
+        <URL>https://www.cosmos.esa.int/</URL>
         <Description>User Notes about the LET experiment on the Ulysses mission.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>LET Instrument Handbook</Name>
-        <URL>http://www.rssd.esa.int/helio/archive/LET_Handbook_rev1.pdf</URL>
+        <URL>https://www.cosmos.esa.int/</URL>
         <Description>Information about the LET experiment on the Ulysses mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Low Energy Telescope</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Ulysses</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

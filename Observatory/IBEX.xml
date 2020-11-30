@@ -5,35 +5,35 @@
     <ResourceID>spase://SMWG/Observatory/IBEX</ResourceID>
     <ResourceHeader>
       <ResourceName>IBEX</ResourceName>
-      <ReleaseDate>2010-08-05T18:19:11Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>NASA's IBEX (Interstellar Boundary Explorer) spacecraft
-was launched 19-Oct-2008 to discover the interaction between the solar wind 
-and the interstellar medium.  Its two energetic neutral atom (ENA) 
-instruments measure 10 eV - 6 keV ENA's indicative of charged particle 
-populations near and beyond the heliosphere's termination shock.  The 
-spacecraft is in a geocentric, 8-day orbit between 7000 km and 37 Re.  
-Its spin axis is adjusted each orbit to point towards the sun.  Its two ENA 
-detectors look normal to the spin axis, thus measuring 360 deg swaths of 
+was launched 19-Oct-2008 to discover the interaction between the solar wind
+and the interstellar medium.  Its two energetic neutral atom (ENA)
+instruments measure 10 eV - 6 keV ENA's indicative of charged particle
+populations near and beyond the heliosphere's termination shock.  The
+spacecraft is in a geocentric, 8-day orbit between 7000 km and 37 Re. 
+Its spin axis is adjusted each orbit to point towards the sun.  Its two ENA
+detectors look normal to the spin axis, thus measuring 360 deg swaths of
 the sky each 15-sec spacecraft spin.  The full sky is measured every
 6 months.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>IBEX web pages at SWRI</Name>
         <URL>http://ibex.swri.edu/researchers/index.shtml</URL>
         <Description>Section of overall IBEX pages at SWRI for researchers,
 with links to published descriptive and science-results papers</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Space Science Reviews paper</Name>
-        <URL>http://www.springerlink.com/content/7564r86462532748/?p=a5b60fca2252481b94e0230c7d1e4b25&amp;pi=2</URL>
+        <URL>https://link.springer.com/article/10.1007%2Fs11214-009-9499-4</URL>
         <Description>Paper is by D.J. McComas and 28 co-authors.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

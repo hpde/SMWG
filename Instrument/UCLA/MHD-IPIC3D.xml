@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/UCLA/MHD-IPIC3D</ResourceID>
+    <ResourceHeader>
+      <ResourceName>UCLA MHD and iPic3D model</ResourceName>
+      <ReleaseDate>2018-10-05T18:19:57Z</ReleaseDate>
+      <Description>Simulation technique in which a particle-in-cell simulation is embedded in a global magnetohydrodynamic simulation.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Raymond.J.Walker</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+	  <Contact>
+        <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>UCLA Space Plasma Homepage</Name>
+        <URL>https://epss.ucla.edu/research-areas/space-physics/</URL>
+        <Description>Information related to the Space Plasma Simulation Group.</Description>
+		<Language>EN</Language>
+	  </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InstrumentType>Antenna</InstrumentType>
+    <InstrumentType>ParticleDetector</InstrumentType>
+    <InvestigationName>UCLA MHD and iPic3D model</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/UCLA/SPSG</ObservatoryID>
+  </Instrument>
+</Spase>

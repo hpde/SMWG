@@ -5,29 +5,36 @@
     <ResourceID>spase://SMWG/Instrument/AE-E/BUV</ResourceID>
     <ResourceHeader>
       <ResourceName>AE-E Backscatter Ultraviolet Spectrometer (BUV)</ResourceName>
-      <ReleaseDate>2011-02-02T17:23:29Z</ReleaseDate>
-      <Description>The backscatter ultraviolet instrument (BUV) monitored 
-the spatial distribution of atmospheric ozone by measuring the intensity 
-of the UV radiation backscattered from the earth's atmosphere. To obtain 
-this ozone distribution, the BUV subsystem measured direct solar radiation 
-and backscattered UV radiation from the daytime sun-illuminated atmosphere. 
-The instrument consisted of a spectrometer (monochromator) and a photometer. 
-The monochromator measured the intensity of UV radiation backscatter and 
-reflected radiation from the earth's atmosphere in 12 wavelengths (2555 
-to 3398 A) in which ozone attenuation occurs. The photometer measured the 
-reflected UV radiation in a single wavelength span in which attenuation by 
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The backscatter ultraviolet instrument (BUV) monitored
+the spatial distribution of atmospheric ozone by measuring the intensity
+of the UV radiation backscattered from the earth's atmosphere. To obtain
+this ozone distribution, the BUV subsystem measured direct solar radiation
+and backscattered UV radiation from the daytime sun-illuminated atmosphere.
+The instrument consisted of a spectrometer (monochromator) and a photometer.
+The monochromator measured the intensity of UV radiation backscatter and
+reflected radiation from the earth's atmosphere in 12 wavelengths (2555
+to 3398 A) in which ozone attenuation occurs. The photometer measured the
+reflected UV radiation in a single wavelength span in which attenuation by
 ozone does not occur.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Donald.F.Heath</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSDC Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1975-107A-16</URL>
-      </InformationURL>
-    </ResourceHeader>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1975-107A-16</URL>
+  <Description>Detailed information about the Backscatter Ultraviolet Spectrometer (BUV) on the AE-E mission.</Description>
+</InformationURL>
+   <InformationURL>
+        <Name>Pure and Applied Geophysics Article</Name>
+        <URL>https://link.springer.com/content/pdf/10.1007%2FBF00881076.pdf</URL>
+        <Description>Detailed information about the Backscatter Ultraviolet Spectrometer (BUV) on the
+  Nimbus-4 satellite and similar to the one on the AE-E mission.</Description>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Spectrometer</InstrumentType>
     <InvestigationName>BUV</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/AE-E</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

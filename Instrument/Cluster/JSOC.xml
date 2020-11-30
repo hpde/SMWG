@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Cluster/JSOC</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Cluster Joint Science Operations Centre (JSOC) Virtual Instrument for Cluster Model Data</ResourceName>
+         <ReleaseDate>2017-08-23T12:34:56.789</ReleaseDate>
+         <Description>The Cluster team at the Joint Science Operations Centre (JSOC), located at RAL (UK), generates the payload operation plan and translates it into a set of telecommands, to be uplinked to the spacecraft. This activity is performed in coordination with the PI teams and ESA&apos;s European Space Operations Centre (ESOC) located in Darmstadt (Germany). The JSOC also monitor the accuracy of the models used to generate predicted planning data, as well as disseminating planning information.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Christophe.Philippe.Escoubet</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Cluster Mission Team Web Page</Name>
+            <URL>http://sci.esa.int/cluster/45059-the-teams-behind-cluster/</URL>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Unspecified</InstrumentType>
+      <InvestigationName>Cluster/JSOC Model Data</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/Cluster</ObservatoryID>
+   </Instrument>
+</Spase>

@@ -1,0 +1,10 @@
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.2.4</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Robert.F.Fellows</ResourceID>
+        <ReleaseDate>2016-01-20T00:00:00</ReleaseDate>
+        <PersonName>Robert F. Fellows</PersonName>
+        <OrganizationName>NASA Headquarters</OrganizationName>
+    </Person>
+</Spase>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd" lang="en">
+   <Version>2.3.1</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/MarsScienceLaboratory</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Mars Science Laboratory, MSL</ResourceName>
+         <AlternateName>Curiosity</AlternateName>
+         <ReleaseDate>2020-04-05T12:34:56.789Z</ReleaseDate>
+         <Description>The Mars Science Laboratory, MSL, which is nicknamed Curiosity, is a large rover with the objective of exploring the martian environment as a former or current habitat for life. The mission is planned to operate on Mars over at least a full martian year or 687 Earth days. The rover has eight science objectives:
+
+* 1) Determine the nature and inventory of organic carbon compounds
+* 2) Inventory the chemical building blocks of life
+* 3) Identify features that may represent the effects of biological processes
+* 4) Investigate the chemical, isotopic, and mineralogical composition of the martian surface and near surface geological materials
+* 5) Interpret the processes that have formed and modified rocks and soils
+* 6) Assess long timescale (i.e., 4 billion year) atmospheric evolution processes
+* 7) Determine the present state, distribution, and cycling of water and carbon dioxide
+* 8) Characterize the broad spectrum of surface radiation, including galactic cosmic radiation, solar proton events, and secondary neutrons.
+
+* Spacecraft and Subsystems
+* =========================
+
+The rover is a six wheeled vehicle approximately 2.8 m in length with a mass of over 750 kg. The main rover body is a warm electronics box, WEB, which houses the electronics and computer. Mounted on top of the WEB is a triangular Rover Equipment Deck, RED, on which is mounted a mast, cameras, and other scientific equipment. A robot arm with sample collection devices and scientific instruments is also mounted on the rover. The six wheels are mounted on a rocker-bogie suspension. The two front and two rear wheels have individual steering motors. Top speed of the rover is about 4 cm/s. Power is provided by a radioisotope thermoelectric generator, RTG, which produces 125 W at the start of the mission. Thermal control is achieved by a system of tubes with heating provided by excess heat from equipment and the RTG. The rover is equipped with four hazard avoidance cameras, two navigation cameras, and a science stereo camera mounted on the mast. There is also a descent imager designed to take images of the lading site before touchdown. Other scientific instruments on the MSL include the Sample Analysis at Mars, SAM, Instrument Suite, the MArs Hand Lens Imager, MAHLI, Alpha Particle X-Ray Spectrometer, APXS, Chemistry and Camera, ChemCam, Chemistry and Mineralogy X-Ray Diffraction/X-Ray Fluorescence Instrument, CheMin, the Radiation Assessment Detector, RAD, the Dynamic Albedo of Neutrons, DAN, experiment, the Rover Environmental Monitoring Station, REMS, and the Mars Science Laboratory Entry Descent and Landing Instrument, MEDLI.
+
+* Mission Profile
+* ===============
+
+Mars Science Laboratory launched on November 26, 2011 at 15:02 UT or equivalently 10:52 a.m. EST on an Atlas V 541 into a circular Earth parking orbit. After leaving Earth orbit and completing an eight month cruise, MSL reached Mars in August 2012. The entry phase began at an altitude of 125 km with the MSL enclosed in an aeroshell and heat shield. Following a series of S-curve manuevers to slow its descent, about three minutes before touchdown a parachute was deployed. Retrorockets were used in the final phase of the descent, ending with the rover being lowered to the surface from the descent stage on a tether. Touchdown occured at 05:32 UTC or 1:32 EDT on August 6th. After a checkout period, the rover made its first drive on August 22nd. Over the nominal one martian year period, the rover will travel 5 km to 20 km and collect and analyze roughly seventy rock and soil samples. The landing site in Gale Crater was chosen for its potential as a former or current habitat for life.</Description>
+         <Acknowledgement>Please acknowledge the National Aeronautics and Space Administration, NASA</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Michael.A.Meyer</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>NSSDC Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2011-070A</URL>
+            <Description>Information about the Mars Science Laboratory spacecraft and the overall mission</Description>
+            <Language>en</Language>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Mars</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2011-11-26T15:02:00Z</StartDate>
+         <Note>The listed start date corresponds to the launch time of Mars Science Laboratory</Note>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

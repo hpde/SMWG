@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
+  <Version>2.2.9</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/LANL/02A/SOPA</ResourceID>
+    <ResourceHeader>
+      <ResourceName>LANL-02A Synchronous Orbit Particle Analyzer</ResourceName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The Synchronous Orbit Particle Analyzer (SOPA) consists
+of three nearly identical silicon solid state detector telescopes, pointed
+at 30, 90, and 120 degrees to the satellite's earth-centered spin axis.
+The working end of the telescope consists of a very thin front silicon
+detector, D1, followed by a thick back detector, D2. The D1 sensors are
+mounted with the thin aluminum contact out. The thinner than usual Al
+contact was chosen to minimize the entrance deadlayer to allow as low a
+proton threshold as possible. Measurements show that the deadlayer is
+approximately 30 micrograms/cm**2. The detector stack is surrounded,
+except for the aperture, by passive low-Z (aluminum) and high-A (copper)
+shielding, which excludes side-penetrating protons up to about 65 MeV and
+electrons up to 6 MeV. The front collimator baffle is designed to require
+at least two-fold scattering of particles not in the acceptance angle of
+the detector to encounter the D1 detector. This provides an extremely
+sharp angular cutoff of incident particles. The full acceptance angle of
+the telescopes is about 11 degrees. Each telescope has a geometrical
+factor of 8.49 E-4 cm**2 sr for ions, and 1.09 E-3 cm**2 sr for low-energy
+electrons.  A single rotation requires about 10 s, and in that time,
+64 cuts of the unit sphere are taken by the three telescopes in a certain
+pattern. Passive cooling keeps the telescope temperatures within the range
+-15 to +5 C. In this range, essentially all of the noise associated with
+leakage current in the surface barrier detectors is eliminated. Even so,
+the high capacitance of the D1 sensors (~500 pF) requires setting the
+first energy threshold relatively high. The numerous thresholds and logic
+channels (including anti-coincidence) result in identification of
+differential fluxes of protons from 50 KeV to 50 MeV. Differential fluxes
+of electrons are determined from 50 KeV to 1.5 MeV, with integral flux
+above 1.5 MeV. The differential flux range for alpha particles is
+0.5--1.3 MeV; for CNO, 1.5--3.55 MeV; for carbon, 5.0--13 MeV; for
+nitrogen, 6.0--14 MeV; and for oxygen, 7.2--15 MeV. Integral ion fluxes
+are determined for sulphur above 8 MeV, and for bromine above 15 MeV.
+A sun sensor with three collimators that overlap the fields-of-view of
+the three telescopes provides input to tag the pulse pairs that are
+potentially contaminated by sun-generated pulses from D1. For more
+details of the instrument, see the paper by R. D. Belian et al.,
+J. Geophys. Res., 97, A11, pp. 16897-16906, 1992.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Richard.D.Belian</PersonID>
+        <Role>PrincipalInvestigator</Role>
+</Contact>
+      <InformationURL>
+        <Name>SOPA-descriptive page at LANL</Name>
+        <URL>https://pwg.gsfc.nasa.gov/istp/collaborating/lanl_inst.html</URL>
+</InformationURL>
+</ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>LANL-01A Synchronous Orbit Particle Analyzer</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/LANL/02A</ObservatoryID>
+</Instrument>
+</Spase>

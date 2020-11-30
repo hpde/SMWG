@@ -1,44 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_3.xsd">
-  <Version>2.0.3</Version>
-  <Instrument>
-    <ResourceID>spase://SMWG/Instrument/STEREO-B/IMPACT/STE</ResourceID>
-    <ResourceHeader>
-      <ResourceName>STEREO-B IMPACT STE</ResourceName>
-      <AlternateName>STEREO-B IMPACT Suprathermal Electron Telescope</AlternateName>
-      <ReleaseDate>2010-03-18T14:37:51Z</ReleaseDate>
-      <Description>
-The Suprathermal Electron Telescope (STE) is a new instrument designed to measure electrons in the energy range ~2-20 keV which are present as a superhalo on the solar wind electrons, and as CME shock-accelerated, or flare-accelerated populations extending beyond the SWEA range. These electrons are ideal for tracing heliospheric magnetic field lines back to their source regions on the Sun and for determining field line lengths, thus probing the structure of interplanetary coronal mass ejections (ICMEs) and of the ambient inner heliosphere.
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/STEREO-B/IMPACT/STE</ResourceID>
+      <ResourceHeader>
+         <ResourceName>STEREO-B IMPACT STE</ResourceName>
+         <AlternateName>STEREO-B IMPACT Suprathermal Electron Telescope</AlternateName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <Description>The Suprathermal Electron Telescope, STE, is a new Instrument designed to measure Electrons in the Energy Range ~2 keV to 20 keV which are present as a Superhalo on the Solar Wind Electrons, and as CME Shock-Accelerated, or Flare-Accelerated Populations extending beyond the SWEA Range. These Electrons are ideal for tracing Heliospheric magnetic Field Lines back to their Source Regions on the Sun and for determining Field Line Lengths, thus probing the Structure of Interplanetary Coronal Mass Ejections, ICMEs, and of the ambient Inner Heliosphere.
 
-STE utilizes passively cooled silicon semiconductor devices (SSDs) which measure all energies simultaneously. The STE consists of two arrays of four SSDs in a row, each ~0.1 cm2 area and ~500 microns thick. Each array looks through a rectangular opening that provides a ~20X80 degree field of view for each SSD with the 80 degree direction perpendicular to the ecliptic. Adjacent FOVs are offset for a total FOV of ~80X80 degrees. The two arrays are mounted back-to-back, looking in opposite directions, centered about 25 deg. from the average Parker Spiral field direction. STE is located just inboard of SWEA on the STEREO boom to clear its field of view and remain in shadow. 
-      </Description>
-      <Acknowledgement>The STEREO IMPACT/STE Team</Acknowledgement>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Robert.P.Lin</PersonID>
-        <Role>CoInvestigator</Role>
-      </Contact>
-      <InformationURL>
-        <Name>STEREO/IMPACT Mission Site</Name>
-        <URL>http://sprg.ssl.berkeley.edu/impact/</URL>
-      </InformationURL>
-      <InformationURL>
-        <Name>NSSDC's Master Catalog</Name>
-        <URL>
-          http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2006-047A-03
-        </URL>
-        <Description>
-        In-Situ Measurements of Particles and CME Transients (IMPACT) experiment on the STEREO B mission.
-      </Description>
-      </InformationURL>
-    </ResourceHeader>
-    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
-    <InvestigationName>
-      In-Situ Measurements of Particles and CME Transients (IMPACT)  Suprathermal Electron Telescope on STEREO B
-    </InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/STEREO-B</ObservatoryID>
-  </Instrument>
+STE utilizes passively cooled Silicon Semiconductor Devices, SSDs, which measure all Energies simultaneously. The STE consists of two Arrays of four SSDs in a row, each ~0.1 cm^2 Area and ~500 microns thick. Each Array looks through a rectangular opening that provides a ~20&#176;&#215;80&#176; Field of View for each SSD with the 80&#176; direction perpendicular to the Ecliptic. Adjacent Fields of View are offset for a total Field of View of ~80&#176;&#215;80&#176;. The two Arrays are mounted back-to-back, looking in opposite Directions, centered about 25&#176;. from the average Parker Spiral Field Direction. STE is located just inboard of SWEA on the STEREO Boom to clear its Field of View and remain in shadow.</Description>
+         <Acknowledgement>The STEREO IMPACT STE Team</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Robert.P.Lin</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>STEREO/IMPACT Mission Site</Name>
+            <URL>http://sprg.ssl.berkeley.edu/impact/</URL>
+         </InformationURL>
+         <InformationURL>
+            <Name>NSSDC Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2006-047B-03</URL>
+            <Description>In-Situ Measurements of Particles and CME Transients, IMPACT, Experiment on the STEREO B Mission</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+      <InvestigationName>In-Situ Measurements of Particles and CME Transients, IMPACT, Suprathermal Electron Telescope on STEREO B</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/STEREO-B</ObservatoryID>
+   </Instrument>
 </Spase>

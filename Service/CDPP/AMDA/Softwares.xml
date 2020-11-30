@@ -4,24 +4,24 @@
         <ResourceID>spase://SMWG/Service/CDPP/AMDA/Softwares</ResourceID>
         <ResourceHeader>
             <ResourceName>AMDA related softwares</ResourceName>
-            <ReleaseDate>2009-09-02T00:00:00Z </ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>
                 Programs to read, manage, manipulates objects created and exported by AMDA like time tables.
-            </Description>
+</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Vincent.Genot</PersonID>
                 <Role>ProjectScientist</Role>
-            </Contact>
+</Contact>
             <InformationURL>
                 <Name>AMDA home page</Name>
-                <URL>http://cdpp-amda.cesr.fr/softwares/</URL>
+                <URL>http://amda.irap.omp.eu</URL>
                 <Description>
                     AMDA software page at CDPP.
-                </Description>
-            </InformationURL>
-        </ResourceHeader>
+</Description>
+</InformationURL>
+</ResourceHeader>
         <AccessURL>
-            <URL>http://cdpp-amda.cesr.fr/softwares/</URL>
-        </AccessURL>
-    </Service>
+            <URL>http://amda.irap.omp.eu</URL>
+</AccessURL>
+</Service>
 </Spase>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/HEO1</ResourceID>
+      <ResourceHeader>
+         <ResourceName>HEO-1</ResourceName>
+         <ReleaseDate>2019-04-19T12:34:56.789Z</ReleaseDate>
+         <Description>The HEO acronym indicates satellites in a Highly Elliptical Orbit, also known as Molniya orbits. These orbits have period of roughly 12 hours, with a perigee of no more than a few hundred kilometers, apogee of roughly 7 Re, and an inclination of about 63 degrees. The three HEO spacecraft are referred to as HEO-1, HEO-2, and HEO-3 or F1, F2, and F3, meaning flights 1-3. Because science is not the primary mission of the host vehicle, many of the details on the HEO spacecraft cannot be released at this time.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/T.Paul.OBrien</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Joseph.F.Fennell</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>ViRBO web page about HEO</Name>
+            <URL>http://virbo.org/HEO</URL>
+            <Description>Information about HEO data</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+      </Location>
+   </Observatory>
+</Spase>

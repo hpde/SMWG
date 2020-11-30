@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Manzhouli</ResourceName>
          <AlternateName>Observatory Station Code: MZL</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-08-20T12:34:56.789</ReleaseDate>
          <Description>The Manzhouli geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Institute of Geophysics, China Seismological Bureau</Acknowledgement>
          <Contact>
@@ -31,6 +31,7 @@
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>49.6</Latitude>
          <Longitude>117.4</Longitude>
+		 <Elevation>682.0</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>1995-01-01T00:00:00.000</StartDate>

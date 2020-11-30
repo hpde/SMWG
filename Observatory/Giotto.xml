@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd" lang="en">
+   <Version>2.3.1</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Giotto</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Giotto</ResourceName>
+         <ReleaseDate>2020-04-05T12:34:56.789Z</ReleaseDate>
+         <Description>The Giotto mission was designed to study Comet P/Halley. The major objectives of the mission were to:
+
+* 1) Obtain color photographs of the nucleus
+* 2) Determine the elemental and isotopic composition of volatile components in the cometary coma, particularly parent molecules
+* 3) Characterize the physical and chemical processes that occur in the cometary atmosphere and ionosphere
+* 4) Determine the elemental and isotopic composition of dust particles
+* 5) Measure the total gas production rate and dust flux and size to mass ratio distribution and derive the dust to gas ratio
+* 6) Investigate the macroscopic systems of plasma flows resulting from the cometary-solar wind interaction
+
+The spacecraft encountered the comet on March 13, 1986 at a distance of 0.89 AU from the sun and 0.98 AU from the Earth and an angle of 107&#176; from the comet-sun line. The spacecraft was based as much as possible on the ESA GEOstationary Scientific Satellite, GEOS, spacecraft and was spin stabilized with a rate of 15 revolutions per minute, rpm. During the encounter with Halley&apos;s comet, the spin axis was aligned with the relative velocity vector. The 1.5 m dish antenna, operating in the X-band, was inclined and despun in order to point at the Earth. The dish was 44&#176; with respect to the velocity vector during this phase of the mission. The goal was to come within 500 km of Halley&apos;s comet at closest encounter. The actual closest approach was measured at 596 km.
+
+The main body of Giotto was a short cylinder 1.85 m in diameter by about 1.1 m in length, with three interior platforms. The top platform, 30 cm thick, a main platform, 40 cm thick, and an experiment platform, 30 cm thick. Each platform consisted of a disc within the cylinder on which was mounted subsystem and science apparatus. The cylinder was topped by a tripod that surrounded a high gain dish antenna and gave the spacecraft a total height of 2.85 m. The main rocket was positioned in the center of the cylinder with the nozzle protruding out the bottom. The spacecraft had a dust shield consisting of a front sheet of aluminum, which was 1 mm thick, and a 12 mm Kevlar near sheet separated by 25 cm, which could withstand impacts of particles up to 1 g. The scientific payload was comprised of ten hardware experiments:
+
+* Dust Impact Detector, DID
+* Energetic Particle Analyser, EPA
+* Halley Multicolor Camera, HMC
+* Ion Mass Spectrometer, IMS
+* Magnetometer, MAG
+* Neutral Mass Spectrometer, NMS
+* Optical Probe Experiment, OPE
+* Particle Impact Analyser, PIA
+* Radio Science Experiment, GRE
+* Retarding Potential Analyser, RPA
+* Three-dimensional Positive Ion Analyser, JPA
+
+All experiments performed well and returned a wealth of new scientific results of which perhaps the most important was the clear identification of the cometary nucleus. Fourteen seconds before closest approach, Giotto was hit by a &quot;large&quot; dust particle. The impact caused the spacecraft angular momentum vector to shift by 0.9&#176;. Following the dust impact, the spacecraft performed a nutation around the new axis with a period of 16 s and an amplitude of 0.9&#176;. Thus, the maximum deviation from the desired attitude was 1.8&#176;. Scientific data were received intermittently for the next 32 min. Some experiment sensors suffered damage during this 32 min interval. Other experiments including the camera baffle and deflecting mirror, the dust detector sensors on the front sheet of the bumper shield, and most experiment apertures were exposed to dust particles regardless of the accident and also suffered damage. Many of the sensors survived the encounter with little or no damage. Questionable or partially damaged sensors included the camera, which later proved to not be functional and the Retarding Potential Analyser. Inoperable experiments included the neutral and ion mass spectrometers and one sensor each on the dust detector and the other plasma analyzer, the Three-dimensional Positive Ion Analyser.
+
+During the Giotto extended mission, the spacecraft flew by the Earth on July 2, 1990 at a distance of 16,300 km at 10:01:18 UTC. This was the first encounter of Earth by a spacecraft coming from deep space. During the encounter, observations were made of the Earth&apos;s magnetic field and energetic particles. Giotto obtained a gravitational assist from this flyby and successfully encountered Comet P/Grigg-Skjellerup on July 10, 1992. The closest approach was 200 km at a relative velocity of 13.99 km/s. The heliocentric distance of the spacecraft was 1.01 AU and the geocentric distance was 1.43 AU at the time of the encounter. The payload was switched on in the evening of July 9th. Eight experiments were operated and provided a surprising wealth of exciting data. The Johnstone Plasma Analyser detected the first presence of cometary ions 600,000 km from the nucleus at 12 h before the closest approach. The Dust Impact Detectors reported the first impact of a fairly large particle at 15:30:56 UT. Bow shocks/waves and acceleration regions were also detected.
+
+On July 23, 1992 Giotto operations were officially terminated after completion of final orbit adjustments and configuration of the spacecraft for its third hibernation. Only 1 kg to 7 kg of fuel is left on board, which is insufficient for any extensive future maneuvers. Giotto flew by the Earth on July 1, 1999 at a closest approach of about 219,000 km at approximately 02:40 UT, which was at 10:40 pm EDT on June 30th. The spacecraft was moving at about 3.5 km/sec relative to Earth.</Description>
+         <Acknowledgement>Please acknowledge the European Space Agency, ESA</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Ruedeger.Reinhard</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>NSSDC Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1985-056A</URL>
+            <Description>Information about the Giotto spacecraft and the overall mission</Description>
+            <Language>en</Language>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Comet</ObservatoryRegion>
+         <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+         <ObservatoryRegion>Heliosphere.Remote1AU</ObservatoryRegion>
+         <ObservatoryRegion>Heliosphere.Outer</ObservatoryRegion>
+         <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+         <ObservatoryRegion>Mars</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>1985-07-02T11:23:13Z</StartDate>
+         <StopDate>1992-07-23T00:00:00Z</StopDate>
+         <Note>The listed start date corresponds to the launch time of Giotto</Note>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

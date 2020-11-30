@@ -7,28 +7,28 @@
       <ResourceName>Toroidal Imaging Mass-Angle Spectrograph (TIMAS)</ResourceName>
       <AlternateName>TIMAS</AlternateName>
       <AlternateName>1996-013A-01</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:13Z</ReleaseDate>
-      <Description>This investigation onboard POLAR spacecraft utilizes a toroidal ion mass spectrograph (TIMS) to fulfill its objectives, which are to study (1) the properties, location, and morphology of the principal source region for the entry of solar wind plasma into the magnetosphere, i.e., the polar cusp; (2) the properties, location, and morphology of the principal source region for hot ionospheric plasma in the magnetosphere, i.e., the auroral acceleration region; (3) the details of the processes by which the source plasmas are injected into trapped orbits, with special emphasis on the mass dependence of these processes; (4) details of the processes by which relatively cool source plasmas are energized into hot plasma, with special emphasis on the mass dependence of these processes; and (5) the details of the processes by which the hot magnetospheric plasma are lost, for example through wave-particle scattering and charge exchange, with special emphasis on the mass dependence of these processes. 
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>This investigation onboard POLAR spacecraft utilizes a toroidal ion mass spectrograph (TIMS) to fulfill its objectives, which are to study (1) the properties, location, and morphology of the principal source region for the entry of solar wind plasma into the magnetosphere, i.e., the polar cusp; (2) the properties, location, and morphology of the principal source region for hot ionospheric plasma in the magnetosphere, i.e., the auroral acceleration region; (3) the details of the processes by which the source plasmas are injected into trapped orbits, with special emphasis on the mass dependence of these processes; (4) details of the processes by which relatively cool source plasmas are energized into hot plasma, with special emphasis on the mass dependence of these processes; and (5) the details of the processes by which the hot magnetospheric plasma are lost, for example through wave-particle scattering and charge exchange, with special emphasis on the mass dependence of these processes.
 
  The Toroidal Imaging Mass-Angle Spectrograph (TIMAS) instrument measures the full three-dimensional velocity distribution functions of all major magnetospheric ion species with one-half spin period time resolution. The TIMAS is a first order double focusing (angle and energy), imaging spectrograph that simultaneously measures all mass per charge components from 1 AMU/e to greater than 32 AMU/e over a nearly 360 degrees by 10 degree instantaneous field-of-view in 20 milliseconds. Mass per charge is dispersed radially on an anular microchannel plate detector and the azimuthal position on the detector is a map of the instantaneous 360 degrees field of view. With the rotation of the spacecraft, the TIMAS sweeps out a 4pi solid angle image in a half spin period. The energy per charge range from 15eV/e to 32 keV/e is covered in 28 non-contiguous steps spaced approximately logarithmically with adjacent steps separated by about 30%. In order to handle the large volume of data within the telemetry limitations the distributions are compressed to varying degrees in angle and energy, log-count compressed and then further compressed by a lossless technique. This data processing task is supported by two SA3300 microprocessors. The voltages (up to + 5 kV) for the tandem toroidal electrostatic analyzers are supplied from common high voltage supplies using optically controlled series-shunt regulators.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/W.K.Peterson</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Full instrument description</Name>
-        <URL>http://lasp.colorado.edu/timas/full_instrument_description.html</URL>
+        <URL>http://lasp.colorado.edu/home/timas/</URL>
         <Description>Full and detailed descriptions of the TIMAS instrument goals, design and calibration (written in 1996).</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1996-013A&amp;ex=1</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1996-013A&amp;ex=1</URL>
         <Description>Information about the Toroidal Imaging Mass-Angle Spectrograph (TIMAS) experiment on the POLAR mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InstrumentType>MassSpectrometer</InstrumentType>
     <InvestigationName>Toroidal Imaging Mass-Angle Spectrograph (TIMAS) on Polar</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/POLAR</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

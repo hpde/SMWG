@@ -6,20 +6,42 @@
     <ResourceHeader>
       <ResourceName>Low-Energy Electrons (LEE)</ResourceName>
       <AlternateName>LEE</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:02Z</ReleaseDate>
-      <Description>This experiment provided direct measurements of the energy input into the upper atmosphere due to electrons and protons in the energy range of 0.2 to 25 keV. The experiment acquired differential measurements of the energy influx and angular distribution. There were two detectors measuring electrons and protons from 0.2 to 25 keV in 16 logarithmically spaced steps, and one detector measuring 5 keV electrons continuously. Each detector consisted of a cylindrical electrostatic analyzer for species and energy selection, and a Spiraltron electron multiplier for particle detection. Energy distributions were obtained by applying different fixed or stepped voltages to the deflection plates. Distributions in angle were measured using the spacecraft spin and the analyzers' positions on the spacecraft. In the despun modes, measurements were obtained at 45 deg to the spacecraft equator, and radially away from the earth. Detector look angles were chosen to give optimum magnetic pitch-angle coverage when the spacecraft was moving either poleward or equatorward. All detectors were identical in construction and used 1- x 6-mm entrance apertures. Counts were accumulated over 55.7 ms and read out each main telemetry frame (62.5 ms). The two stepped detectors moved one energy step once each main frame with the same accumulation time, requiring about 1 s for a complete cycle of steps. More complete details of this experiment may be found in R. A. Hoffman et al., Radio Sci., v. 8, n. 4, p. 393, 1973. NSSDC has all the useful data that exist from this investigation.</Description>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>This experiment provided direct measurements of the energy input into the upper
+   atmosphere due to electrons and protons in the energy range of 0.2 to 25 keV. The experiment
+   acquired differential measurements of the energy influx and angular distribution. There were
+   two detectors measuring electrons and protons from 0.2 to 25 keV in 16 logarithmically spaced
+   steps, and one detector measuring 5 keV electrons continuously. Each detector consisted of a
+   cylindrical electrostatic analyzer for species and energy selection, and a Spiraltron electron
+   multiplier for particle detection. Energy distributions were obtained by applying different
+   fixed or stepped voltages to the deflection plates. Distributions in angle were measured using
+   the spacecraft spin and the analyzers' positions on the spacecraft. In the despun modes,
+   measurements were obtained at 45 deg to the spacecraft equator, and radially away from the
+   earth. Detector look angles were chosen to give optimum magnetic pitch-angle coverage when the
+   spacecraft was moving either poleward or equatorward. All detectors were identical in construction
+   and used 1- x 6-mm entrance apertures. Counts were accumulated over 55.7 ms and read out each
+   main telemetry frame (62.5 ms). The two stepped detectors moved one energy step once each main
+   frame with the same accumulation time, requiring about 1 s for a complete cycle of steps. More
+   complete details of this experiment may be found in
+   R. A. Hoffman et al., Radio Sci., v. 8, n. 4, p. 393, 1973. NSSDC has all the useful data that
+   exist from this investigation.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.A.Hoffman</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1973-101A&amp;ex=12</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1973-101A-12</URL>
         <Description>Information about the Low-Energy Electrons (LEE) experiment on the AE-C mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+   <InformationURL>
+        <Name>Radio Science Journal Article</Name>
+        <URL>https://onlinelibrary.wiley.com/doi/abs/10.1029/RS008i004p00393</URL>
+        <Description>Detailed information about the Low-Energy Electrons experiment on the AE-C mission.</Description>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Low-Energy Electrons (LEE) on AE-C</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/AE-C</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

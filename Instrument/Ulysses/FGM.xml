@@ -8,20 +8,20 @@
       <AlternateName>FGM</AlternateName>
       <AlternateName>HED</AlternateName>
       <AlternateName>VHM</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The objectives of this investigation are to determine the strength and geometry of the interplanetary magnetic field in the inner heliosphere (particularly at high solar latitudes) and to investigate the heliographic latitude dependence of the field fluctuation spectra with special emphasis on the frequency range below 0.01 Hz. Secondary objectives are to study the internal dynamics of the solar wind, the role of discontinuities and waves in the interplanetary field on propagation and acceleration of energetic particles, the interplanetary propagation and development of discontinuities and waves, and the structure and dynamics of the dusk region of the Jovian magnetosphere. The instrument consists of a triaxial fluxgate magnetometer, a vector helium magnetometer, and associated electronics. The instrument has a mass of 4.75 kg and uses 5.4 W of power. It has a data rate of 40 bps in the cruise mode and 80 bps in the tracking mode.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Andre.Balogh</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1990-090B&amp;ex=8</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1990-090B&amp;ex=8</URL>
         <Description>Information about the Magnetic Field (HED/VHM/FGM) experiment on the Ulysses mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Magnetic Field (HED/VHM/FGM) on Ulysses</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Ulysses</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

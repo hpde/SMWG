@@ -5,7 +5,8 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Sanikiluaq</ResourceID>
       <ResourceHeader>
          <ResourceName>Sanikiluaq Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+		 <AlternateName>Observatory Station Code: SNKQ</AlternateName>
+         <ReleaseDate>2019-01-16T12:34:56.789</ReleaseDate>
          <Description>Sanikiluaq (SNKQ) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: University of Alberta</Acknowledgement>
          <Contact>
@@ -21,6 +22,11 @@
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
+		 <InformationURL>
+			<Name>Canadian Array for Realtime Investigations of Magnetic Activity Homepage</Name>
+			<URL>http://www.carisma.ca</URL>
+			<Description>Detailed information about the CARISMA Array.</Description>
+		 </InformationURL>
          <PriorID>spase://SMWG/Observatory/THEMIS/Ground/CANMAG/SNKQ</PriorID>
       </ResourceHeader>
       <Location>

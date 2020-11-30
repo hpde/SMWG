@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.9</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/AUTUMN</ResourceID>
+    <ResourceHeader>
+      <ResourceName>AUTUMN</ResourceName>
+   <AlternateName>Athabasca University THEMIS UCLA Magnetometer Network</AlternateName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The Athabasca University THEMIS UCLA Magnetometer Network
+   is a magnetometer array located mainly in Quebec, Canada.</Description>
+      <Acknowledgement>AUTUMNX magnetometer network is funded through the Canadian Space Agency / Geospace Observatory (GO) Canada program
+Athabasca University, Centre for Science / Faculty of Science and Technology, 2014</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Martin.Connors</PersonID>
+        <Role>PrincipalInvestigator</Role>
+</Contact>
+   <InformationURL>
+        <Name>The AUTUMN homepage</Name>
+        <URL>http://autumn.athabascau.ca/</URL>
+        <Description>Information about and data from the Athabasca University THEMIS UCLA Magnetometer Network.</Description>
+</InformationURL>
+   <InformationURL>
+        <Name>Related Earth, Planets and Space Article</Name>
+        <URL>https://earth-planets-space.springeropen.com/articles/10.1186/s40623-015-0354-4</URL>
+        <Description>Information about and data from the Athabasca University THEMIS UCLA Magnetometer Network.</Description>
+</InformationURL>
+</ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+</Location>
+ <OperatingSpan>
+  <StartDate>2014-11-01T00:00:00Z</StartDate>
+  <Note>Originally called Ordnance Geological Survey.</Note>
+</OperatingSpan>
+</Observatory>
+</Spase>

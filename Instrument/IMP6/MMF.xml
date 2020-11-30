@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.2.2</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/IMP6/MMF</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Triaxial Fluxgate Magnetometer</ResourceName>
+      <AlternateName>Measurement of Magnetic Fields</AlternateName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>This experiment was designed to measure accurately the vector magnetic
+      field in the interplanetary medium and in the earth's magnetosphere, magnetotail,
+      and magnetosheath. The detector was a boom-mounted triaxial fluxgate magnetometer
+      with four ranges: minus to plus 16, 48, 144, and 432 nT, respectively. Corresponding
+      sensitivities were plus or minus 0.06, 0.19, 0.56, and 1.69 nT, respectively.
+      Automatic range selection capability was included. A flipping mechanism permitted
+      inflight calibration of the three sensor zero levels. The vector sampling rate
+      was 12.5 samples per second. The experiment functioned normally through the
+      spacecraft life. For further details, see D. H. Fairfield, J. Geophys. Res.,
+      v. 79, p. 1368, 1974. Hourly averaged interplanetary data also exist as part of
+      data sets in the NSSDC supplementary data file.</Description>
+      <Acknowledgement>National Aeronautics and Space Administration; Dr. Norman F. Ness</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
+        <Role>PrincipalInvestigator</Role>
+</Contact>
+      <Contact>
+         <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+         <Role>MetadataContact</Role>
+</Contact>
+      <InformationURL>
+        <Name>IMP 6 Fluxgate Magnetometer</Name>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1971-019A-01</URL>
+        <Description>Basic information about the magnetometer onboard IMP 6.</Description>
+        <Language>en</Language>
+</InformationURL>
+      <InformationURL>
+        <Name>IMP 6 Fluxgate Magnetometer</Name>
+        <URL>https://onlinelibrary.wiley.com/doi/full/10.1029/JA079i010p01368</URL>
+        <Description>Additional details on the magnetometer onboard IMP 6.</Description>
+        <Language>en</Language>
+</InformationURL>
+      <PriorID>spase://SMWG/Instrument/IMP6/MMF</PriorID>
+</ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Triaxial Fluxgate Magnetometer on IMP 6</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/IMP6</ObservatoryID>
+</Instrument>
+</Spase>

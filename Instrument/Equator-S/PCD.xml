@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Instrument>
@@ -7,26 +7,26 @@
         <ResourceHeader>
             <ResourceName>Potential Control Device (PCD)</ResourceName>
             <AlternateName>PCD</AlternateName>
-             <ReleaseDate>2009-04-02T00:00:00Z</ReleaseDate>
-            <Description>The purpose of the PCD is to reduce the spacecraft potentials to a few volts, levels sufficiently low to allow 
-                plasma particle measurements down to very low energies. For this purpose, the PDC emits beams of 6 keV indium ions to 
-                compensate the positive charging that would otherwise exist under most circumstances. The emission principle is field 
-                evaporation and ionzation of the liquid metal covering a needle by applying a high voltage. Beam currents are variable 
-                and can either be set to fixed values, or are adjusted automatically based on the electron energy spectrum measured by 
-                the 3DA instrument that is transmitted to PCD in real-time. PCD is identical to the ASPOC instrument developed for CLUSTER.      
-      </Description>
+             <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+            <Description>The purpose of the PCD is to reduce the spacecraft potentials to a few volts, levels sufficiently low to allow
+                plasma particle measurements down to very low energies. For this purpose, the PDC emits beams of 6 keV indium ions to
+                compensate the positive charging that would otherwise exist under most circumstances. The emission principle is field
+                evaporation and ionzation of the liquid metal covering a needle by applying a high voltage. Beam currents are variable
+                and can either be set to fixed values, or are adjusted automatically based on the electron energy spectrum measured by
+                the 3DA instrument that is transmitted to PCD in real-time. PCD is identical to the ASPOC instrument developed for CLUSTER.     
+</Description>
             <Contact>
-                <PersonID>spase://SMWG/Person/Klaus.M.Torkar</PersonID>  
+                <PersonID>spase://SMWG/Person/Klaus.M.Torkar</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact> 
+</Contact>
             <InformationURL>
                 <Name>NSSDC's Master Catalog</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1997-075B-06</URL>
+                <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1997-075B-06</URL>
                 <Description>Information about the Potential control device (PCD) experiment on the Equator-S mission.</Description>
-            </InformationURL>
-        </ResourceHeader>
-        <InstrumentType>Unspecified</InstrumentType> 
+</InformationURL>
+</ResourceHeader>
+        <InstrumentType>Unspecified</InstrumentType>
         <InvestigationName>Potential control device (PCD) on Equator-S</InvestigationName>
         <ObservatoryID>spase://SMWG/Observatory/Equator-S</ObservatoryID>
-    </Instrument>
+</Instrument>
 </Spase>

@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_3.xsd">
-  <Version>2.2.3</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_4.xsd">
+  <Version>2.2.4</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Ground/CTIO</ResourceID>
     <ResourceHeader>
       <ResourceName>CTIO</ResourceName>
-      <ReleaseDate>2015-10-21T00:00:00Z</ReleaseDate>
-      <Description>The facilities of Cerro Tololo Inter-American Observatory (CTIO), part of the U.S. National Optical Astronomy Observatory, continue to be the nucleus of U.S. astronomy in the Southern hemisphere. Cerro Tololo is located about 500km north of Santiago, Chile</Description>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The facilities of Cerro Tololo Inter-American Observatory (CTIO),
+   part of the U.S. National Optical Astronomy Observatory, continue to be the
+   nucleus of U.S. astronomy in the Southern hemisphere. Cerro Tololo is located
+   about 500km north of Santiago, Chile</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Stephen.Heathcote</PersonID>
         <Role>Scientist</Role>
-      </Contact>
-    </ResourceHeader>
-<ObservatoryGroupID>spase://SMWG/Observatory/GONG</ObservatoryGroupID>
+</Contact>
+   <InformationURL>
+        <Name>About the Cerro Tololo Inter-American Observatory</Name>
+        <URL>http://ast.noao.edu/facilities/ctio/</URL>
+        <Description>Information about the CTIO.</Description>
+</InformationURL>
+</ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/GONG</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-    </Location>
-  </Observatory>
+   <CoordinateSystemName>GEO</CoordinateSystemName>
+   <Latitude>-30.169</Latitude>
+   <Longitude>70.804</Longitude>
+   <Elevation>2200</Elevation>
+</Location>
+</Observatory>
 </Spase>

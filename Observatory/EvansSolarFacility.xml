@@ -6,16 +6,26 @@
     <ResourceHeader>
       <ResourceName>Evans Solar Facility</ResourceName>
       <AlternateName>ESF</AlternateName>
-      <ReleaseDate>2010-09-27T18:33:27Z</ReleaseDate>
-      <Description>Evans Solar Facility</Description>
+   <AlternateName>John W. Evans Solar Facility</AlternateName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The John W. Evans Solar Facility (ESF) is two telescopes in one,
+   both tracking the solar cycle. A 16" coronagraphic telescope maps magnetic changes
+   in the Sun's outer atmosphere. A special set of 12" coelostat optics "squints" so
+   the Sun appears as a pinpoint, allowing an "apples and apples" comparison with the
+   cycles of distant stars.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
-    </ResourceHeader>
+</Contact>
+   <InformationURL>
+        <Name>John W. Evans Solar Facility Homepage</Name>
+        <URL>https://nsosp.nso.edu/telescopes/john-w-evans-solar-facility/</URL>
+        <Description>Detailed information about the Evans Solar Facility including instruments and data.</Description>
+</InformationURL>
+</ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/NSO</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

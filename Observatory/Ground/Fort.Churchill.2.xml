@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/Fort.Churchill.2</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Fort Churchill Geophysical Observatory</ResourceName>
+         <AlternateName>Observatory Station Code: FCHU</AlternateName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <Description>Fort Churchill (FCHU) Geophysical Observatory. This site is different from FCC and has a variometer.</Description>
+         <Acknowledgement>Please acknowledge: Geological Survey of Canada</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/David.Boteler</PersonID>
+            <Role>PrincipalInvestigator</Role>
+</Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/David.Calp</PersonID>
+            <Role>GeneralContact</Role>
+</Contact>
+         <InformationURL>
+            <Name>Overview of the CANadian Magnetic Observatory System</Name>
+            <URL>https://geomag.nrcan.gc.ca/obs/canmos-en.php</URL>
+            <Description>Description of nearly all aspects of the magnetometer array.</Description>
+</InformationURL>
+         <PriorID>spase://SMWG/Observatory/Ground/Fort.Churchill</PriorID>
+</ResourceHeader>
+      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/CARISMA</ObservatoryGroupID>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>58.763</Latitude>
+         <Longitude>265.920</Longitude>
+</Location>
+</Observatory>
+</Spase>

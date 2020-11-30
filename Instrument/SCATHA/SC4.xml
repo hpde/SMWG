@@ -6,29 +6,29 @@
     <ResourceHeader>
       <ResourceName>SCATHA Electron and Ion Beam Emission (SC4)</ResourceName>
       <AlternateName>SC4</AlternateName>
-      <ReleaseDate>2010-03-10T15:47:58Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The SC4 experiment was to provide current sources for charging and discharging the satellite.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Herbert.A.Cohen</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Jonathan.Thomas.Niehof</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>SCATHA server at BU</Name>
-        <URL>http://spacedata.bu.edu/scatha.html</URL>
+        <URL>https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/SP020p0065</URL>
         <Description>Spacecraft/instrument description and data.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Electron Gun-Ion Gun at NSSDC</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1979-007A-07</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1979-007A-07</URL>
         <Description>Electron Gun-Ion Gun (SC4) on SCATHA.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>SpacecraftPotentialControl</InstrumentType>
     <InvestigationName>Spacecraft Charging At High Altitudes (SCATHA)</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/SCATHA</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

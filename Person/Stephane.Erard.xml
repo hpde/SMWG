@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Stephane.Erard</ResourceID>
+    <ReleaseDate>2020-07-01T13:52:00Z</ReleaseDate>
+    <PersonName>Stéphane Erard</PersonName>
+    <OrganizationName>LESIA, CNRS, Observatoire de Paris, PSL</OrganizationName>
+    <Email>stephane.erard@obspm.fr</Email>
+    <PhoneNumber>+33-1-45-07-78-19</PhoneNumber>
+  </Person>
+</Spase>

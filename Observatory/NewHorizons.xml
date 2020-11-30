@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd" lang="en">
+   <Version>2.3.1</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/NewHorizons</ResourceID>
+      <ResourceHeader>
+         <ResourceName>New Horizons</ResourceName>
+         <AlternateName>New Horizons Pluto Kuiper Belt Flyby</AlternateName>
+         <ReleaseDate>2020-04-05T12:34:56.789Z</ReleaseDate>
+         <Description>The New Horizons Mission is helping us understand Worlds at the Edge of our Solar System by making the first Reconnaissance of the Planet Pluto and by venturing deeper into the distant, mysterious Kuiper Belt, a Relic of Solar System Formation. New Horizons launched on Jan. 19, 2006. It swung past Jupiter for a Gravity Boost and Scientific Studies in February 2007, and conducted a six month long Reconnaissance Flyby Study of Pluto and its Moons in the Summer of 2015, culminating with Pluto Closest Approach on July 14, 2015. As Part of an extended Mission, pending NASA Approval, the Spacecraft is expected to head farther into the Kuiper Belt to examine another of the ancient, icy Mini-Worlds in that vast Region, at least a billion Miles beyond Neptune&apos;s Orbit.</Description>
+         <Acknowledgement>Please acknowledge the National Aeronautics and Space Administration, NASA</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Andrew.F.Cheng</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>NSSDC Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2006-001A</URL>
+            <Description>Information about the New Horizons spacecraft and the overall mission</Description>
+            <Language>en</Language>
+         </InformationURL>
+         <InformationURL>
+            <Name>NASA New Horizons Overview</Name>
+            <URL>https://www.nasa.gov/mission_pages/newhorizons/overview/index.html</URL>
+            <Description>New Horizons: The First Mission to the Pluto System and the Kuiper Belt</Description>
+            <Language>en</Language>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Asteroid</ObservatoryRegion>
+         <ObservatoryRegion>Jupiter</ObservatoryRegion>
+         <ObservatoryRegion>Jupiter.Magnetosphere</ObservatoryRegion>
+         <ObservatoryRegion>Jupiter.Magnetosphere.Magnetotail</ObservatoryRegion>
+         <ObservatoryRegion>Pluto</ObservatoryRegion>
+         <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+         <ObservatoryRegion>Heliosphere.Outer</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2006-01-19T19:00:00Z</StartDate>
+         <Note>The listed start date corresponds to the launch time of New Horizons</Note>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

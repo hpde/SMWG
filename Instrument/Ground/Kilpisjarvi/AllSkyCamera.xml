@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Ground/Kilpisjarvi/AllSkyCamera</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Kilpisjarvi All Sky Camera</ResourceName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <Description>Kilpisjarvi All Sky Camera. All-sky colour cameras have fisheye optics and nowadays image detectors with colour filter masks. Previously 16-mm or 35-mm cinematographic film was used. These cameras reproduce the aurora as it looks to the human eye.</Description>
+         <Acknowledgement>Markku Lehtinen, Project Head, Sodankyla Geophysical Observatory, University of Oulu</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Markku.Lehtinen</PersonID>
+            <Role>GeneralContact</Role>
+</Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+</Contact>
+         <InformationURL>
+            <Name>Finnish Meteorological Institute, FMI, All Sky Camera Web Site</Name>
+            <URL>http://www.geo.fmi.fi/MIRACLE/ASC/</URL>
+            <Description>Finnish Meteorological Institute, FMI, All Sky Camera Information and Details</Description>
+</InformationURL>
+</ResourceHeader>
+      <InstrumentType>Imager</InstrumentType>
+      <InvestigationName>Finnish Meteorological Institute, FMI, All Sky Cameras</InvestigationName>
+      <OperatingSpan>
+         <StartDate>1996-01-01T00:00:00</StartDate>
+</OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/Ground/Kilpisjarvi</ObservatoryID>
+</Instrument>
+</Spase>

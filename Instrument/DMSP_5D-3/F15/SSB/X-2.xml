@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/DMSP_5D-3/F15/SSB/X-2</ResourceID>
+      <ResourceHeader>
+         <ResourceName>DMSP/F15, Gamma Ray Particle Detector, SSB/X-2</ResourceName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <Description>DMSP/F15, Gamma Ray Particle Detector, SSB/X-2, The SSB/X-2 is an array-based system that detects the location, intensity, and spectrum of X-rays emitted from the Earth&apos;s atmosphere.</Description>
+         <Acknowledgement>DMSP Data Manager, NOAA National Environmental Satellite, Data, and Information Service, NESDIS</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/DMSP.Data.Manager</PersonID>
+            <Role>GeneralContact</Role>
+</Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+</Contact>
+         <InformationURL>
+            <Name>Gamma Ray Particle Detector Web Site</Name>
+            <URL>https://nsidc.org/data-set-404</URL>
+            <Description>Gamma Ray Particle Detector, SSB/X-2, Information and Details</Description>
+</InformationURL>
+</ResourceHeader>
+      <InstrumentType>Spectrometer</InstrumentType>
+      <InvestigationName>Defense Meteorological Satellite Program, DMSP</InvestigationName>
+      <OperatingSpan>
+         <StartDate>1999-12-12T00:00:00</StartDate>
+</OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/DMSP_5D-3/F15</ObservatoryID>
+</Instrument>
+</Spase>

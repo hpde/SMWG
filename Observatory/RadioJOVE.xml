@@ -1,0 +1,21 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+ <Version>2.3.1</Version>
+ <Observatory>
+  <ResourceID>spase://SMWG/Observatory/RadioJOVE</ResourceID>
+  <ResourceHeader>
+   <ResourceName>Radio JOVE Observatory Network</ResourceName>
+   <ReleaseDate>2019-04-18T12:22:22</ReleaseDate>
+   <Description>The Radio JOVE project encourages students and the general public to engage in science discovery by participating in making radio observations of Jupiter, the Sun and the Galactic Background. RadioJOVE observers can share their data through archives and via email. The recommend standard set of equipment for RadioJOVE participants is the RadioJOVE receiver which operates at 20.1 MHz and a pair of dipole antennas. Several more advanced participants have enhanced their stations with additional equipment. </Description>
+   <Contact>
+    <PersonID>spase://SMWG/Person/James.R.Thieman</PersonID>
+    <Role>PrincipalInvestigator</Role>
+   </Contact>
+  </ResourceHeader>
+  <Location>
+   <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+  </Location>
+  <OperatingSpan>
+   <StartDate>1998-11-01T00:00:00</StartDate>
+  </OperatingSpan>
+ </Observatory>
+</Spase>

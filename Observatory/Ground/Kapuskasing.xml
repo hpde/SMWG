@@ -5,7 +5,8 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Kapuskasing</ResourceID>
       <ResourceHeader>
          <ResourceName>Kapuskasing Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+		 <AlternateName>Observatory Station Code: KAPU</AlternateName>
+         <ReleaseDate>2018-07-09T12:34:56.789</ReleaseDate>
          <Description>Kapuskasing (KAPU) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: University of California, Berkeley, University of California, Los Angeles, respectively, NASA NAS5-02099</Acknowledgement>
          <Contact>
@@ -27,11 +28,12 @@
          </InformationURL>
          <PriorID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-GBO/KAPU</PriorID>
       </ResourceHeader>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>49.4</Latitude>
-         <Longitude>277.7</Longitude>
+         <Latitude>49.39</Latitude>
+         <Longitude>277.68</Longitude>
       </Location>
       <OperatingSpan>
          <StartDate>2006-05-17T16:31:38</StartDate>

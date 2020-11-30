@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Wuhan</ResourceName>
          <AlternateName>Observatory Station Code: WHN</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-03-08T12:34:56.789</ReleaseDate>
          <Description>The Wuhan geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  State Seismological Bureau, Beijing, China</Acknowledgement>
          <Contact>
@@ -31,6 +31,7 @@
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>30.528</Latitude>
          <Longitude>114.559</Longitude>
+		 <Elevation>42.0</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>1980-01-01T00:00:00.000</StartDate>

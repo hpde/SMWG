@@ -1,0 +1,47 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9-draft.xsd">
+ <Version>2.2.4</Version>
+ <Observatory>
+  <ResourceID>spase://SMWG/Observatory/OGO2</ResourceID>
+  <ResourceHeader>
+   <ResourceName>OGO 2</ResourceName>
+   <AlternateName>OGO-C</AlternateName>
+   <AlternateName>POGO 1</AlternateName>
+   <AlternateName>01620</AlternateName>
+   <AlternateName>1965-081A</AlternateName>
+   <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+   <Description>OGO 2 was a large observatory instrumented with 20 experiments designed to make simultaneous, correlative observations of aurora and airglow emissions, energetic particles, magnetic field variations, ionospheric properties, etc., especially over the polar areas.
+
+
+OGO 2 consisted of a main body, generally parallelepipedal in form, two rectangular solar panels, each with a solar-oriented experiment package (SOEP), and two orbital plane experiment packages (OPEP). It also included six experiment packages (EP-1,-2,-3,-4,-5, and -6) mounted on booms extending generally fore and aft of the spacecraft along the Y axis. Antenna and attitude control fixtures also extended from separate and/or EP booms. The main body was attitude-controlled by use of horizon scanners and gas jets and was designed to point toward the earth (Z axis). The axis connecting the two solar panels (X axis) was designed to oscillate in order to remain perpendicular to the earth-sun-spacecraft plane. The solar panels activated by sun sensors could rotate about this X axis in order to obtain maximum radiation for the solar cells and concurrently orient the SOEP properly. The OPEPs were reoriented on either end of an axis that was parallel to the Z axis and attached to the forward end of the main body. These OPEP sensors normally were maintained looking forward in the orbital plane of the satellite. To maintain this orientation, the OPEP axis could rotate over 90 degrees. In addition, an angular difference of over 90 degrees was possible between the orientation of the upper and lower OPEP packages. The SOEP contained four experiments, and the OPEP contained five experiments.
+
+
+Soon after achieving orbit, difficulties in maintaining earth lock with horizon scanners caused exhaustion of attitude control gas by October 23, 1965, 10 days after launch. At this time, the spacecraft entered a spin mode (about 0.11 rpm) with a large coning angle about the previously vertical axis. Five experiments became useless when the satellite went into this spin mode. Six additional experiments were degraded by this loss of attitude control. By April 1966, both batteries had failed, so subsequent observations were limited to sunlit portions of the orbit. By December 1966, only eight experiments were operational, five of which were not degraded by the spin mode operation. By April 1967, the tape recorders had malfunctioned and only one third of the recorded data could be processed. Spacecraft power and periods of operational scheduling conflicts created six large data gaps so that data were observed on a total of about 306 days of the 2-yr, 18-day total span of observed satellite data to November 1, 1967. The data gaps were (a) October 24, 1965, to November 5, 1965, (b) December 6, 1965, to January 7, 1966, (c) April 9, 1966, to June 21, 1966, (d) September 2, 1966, to November 18, 1966, (e) December 27, 1966, to April 11, 1967, and (f) May 9, 1967, to September 19, 1967. The spacecraft was shut down on November 1, 1967, with eight experiments still operational. It was reactivated for 2 weeks in February 1968 to operate experiment 65-081A-05. For additional information see J. E. Jackson and J. I. Vette, OGO Program Summary, NASA SP-7601, December 1975.</Description>
+   <Contact>
+    <PersonID>spase://SMWG/Person/Nelson.W.Spencer</PersonID>
+    <Role>ProjectScientist</Role>
+</Contact>
+   <Contact>
+    <PersonID>spase://SMWG/Person/Robert.F.Fellows</PersonID>
+    <Role>ProjectScientist</Role>
+</Contact>
+   <Contact>
+    <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+    <Role>MetadataContact</Role>
+</Contact>
+   <InformationURL>
+    <Name>NSSDC's Master Catalog</Name>
+    <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1965-081A</URL>
+    <Description>Information about the OGO 2 mission</Description>
+    <Language>EN</Language>
+</InformationURL>
+</ResourceHeader>
+  <ObservatoryGroupID>spase://SMWG/Observatory/OGO</ObservatoryGroupID>
+  <Location>
+   <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+</Location>
+  <OperatingSpan>
+   <StartDate>1965-10-14T21:32:34Z</StartDate>
+   <StopDate>1967-10-02T22:03:00Z</StopDate>
+</OperatingSpan>
+</Observatory>
+</Spase>

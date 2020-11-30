@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/CANOPUS/BARS</ResourceID>
+      <ResourceHeader>
+         <ResourceName>CANOPUS Baristatic Auroral Radar System (BARS)</ResourceName>
+         <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
+         <Description>The CANOPUS Baristatic Auroral Radar System (BARS) comprosed a ground-based radar array for remote sensing the high latitude ionosphere during the ISTP/GGS program. The system consisted of two 48 MHz coherent radars situated in Nipawin, Saskatchewan and Red Lake, Ontario. These radars illuminated the region roughly defined by the 333.0&apos; and 340.5&apos; EDFL meridians and the 63.0&apos; and 67.8&apos; EDFL latitudes via one broad transmitter beam and receive via 8 contiguous vertical fan beams. These beams plus range gating produced a two dimensional array of backscatter intensity and Doppler shift data. The CANOPUS program has been superseded by the CARISMA (Canadian Array for Realtime Investigations of Magnetic Activity).</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Gordon.Rostoker</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>CANOPUS Description</Name>
+            <URL>http://adsabs.harvard.edu/full/1995SSRv...71..743R</URL>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Radar</InstrumentType>
+      <InvestigationName>CANOPUS/BARS</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/Ground/CANOPUS</ObservatoryID>
+   </Instrument>
+</Spase>

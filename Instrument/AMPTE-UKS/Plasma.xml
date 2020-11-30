@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
+   <Version>2.2.9</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/AMPTE-UKS/Plasma</ResourceID>
+      <ResourceHeader>
+         <ResourceName>AMPTE/UKS 3-D Plasma Analyzer</ResourceName>
+         <AlternateName>1984-088C-03</AlternateName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <Description>The objective of the 3-D Plasma Analyzer instrument was to study the three-dimensional ion distributions in the plasma clouds, the solar wind, the magnetosphere, and the boundaries between them and to measure these distributions with high time and angular resolutions. The instrument consisted of a pair of 270&#176; spherical electrostatic energy analyzers with micro-channel plate detectors that measured the three-dimensional energy/charge distribution of positive ions from 10 eV/q to 20 keV/q over the polar angle range 0&#176; to 180&#176; with respect to the spin axis of the spacecraft. A complete set of measurements was obtained every 5 s spin period.
+
+For more details, see A.J. Coates, et al., IEEE Transaction on Geoscience and Remote Sensing, Vol. GE-23, p 287, 1985.</Description>
+         <Acknowledgement>User will acknowledge the AMPTE/UKS 3-D Plasma Analyzer instrument team in any publication resulting from the use of these data.</Acknowledgement>
+         <Contact>
+            <!-- Alan D. Johnstone -->
+            <PersonID>spase://SMWG/Person/Alan.D.Johnstone</PersonID>
+            <Role>PrincipalInvestigator</Role>
+</Contact>
+         <InformationURL>
+            <Name>NSSDC Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1984-088C-03</URL>
+            <Description>NSSDC information about the AMPTE/UKS plasma instrument</Description>
+</InformationURL>
+         <InformationURL>
+            <Name>IEEE Transaction on Geoscience and Remote Sensing Article</Name>
+            <URL>https://ieeexplore.ieee.org/document/4072293/</URL>
+            <Description>Detailed information about the AMPTE UKS Plasma Analyzer.</Description>
+</InformationURL>
+         <PriorID>spase://SMWG/Instrument/AMPTE_UKS/Plasma</PriorID>
+</ResourceHeader>
+      <InstrumentType>ElectrostaticAnalyser</InstrumentType>
+      <InvestigationName>UKS 3D Plasma Analyzer</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/AMPTE-UKS</ObservatoryID>
+</Instrument>
+</Spase>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+  <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.0</Version> 
+  <Observatory>
+	  <ResourceID>spase://SMWG/Observatory/Ground/IMAGE</ResourceID> 
+		  <ResourceHeader>
+		  <ResourceName>International Monitor for Auroral Geomagnetic Effects</ResourceName> 
+		  <AlternateName>IMAGE</AlternateName>
+		  <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate> 
+		  <Description>IMAGE consists of 41 magnetometer stations maintained by 10 institutes 
+		  from Estonia, Finland, Germany, Norway, Poland, Russia and Sweden. The prime objectives 
+		  of IMAGE are to study auroral electrojets and moving two-dimensional current 
+		  systems. The long profile covering geographic latitudes from 51 to 79 degrees 
+		  is especially favourable for electrojet studies. Together with other ground-based 
+		  recordings (by radars, riometers, all-sky cameras) and satellite observations, 
+		  IMAGE is an essential part in the investigations of high-latitude 
+		  magnetospheric-ionospheric physics. Together with its predecessor, the EISCAT 
+		  magnetometer cross started in 1982, IMAGE also provides high-quality data useful 
+		  for studies of geomagnetic induction and long-term geomagnetic activity in the 
+		  auroral region. </Description> 
+		  <Acknowledgement>Finnish Meterological Institute (FMI); 
+		  Polar Geophysical Institute (PGI); Swedish Institute for Space Physics (IRF);
+		  Helmholtz Center Potsdam, German Research Centre for Geosciences;
+		  Institute for Geophysics, Polish Academy of Sciences; Geological Survey Sweden; 
+		  University of Oulu; University of Tromso; Technical University of Braunschweig;
+		  Adolf-Schmidt Observatory</Acknowledgement>
+		   <Contact>
+			  <PersonID>spase://SMWG/Person/Liisa.Juusola</PersonID> 
+			  <Role>PrincipalInvestigator</Role> 
+		   </Contact> 
+		   <Contact>
+			  <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID> 
+			  <Role>MetadataContact</Role> 
+		  </Contact> 
+		  <InformationURL>
+			  <Name>International Monitor for Auroral Geomagnetic Effects Homepage</Name> 
+			  <URL>http://space.fmi.fi/image/www/index.php?page=home</URL> 
+			  <Description>About the IMAGE program.</Description> 
+		  </InformationURL>
+		</ResourceHeader>  
+		<Location>
+		  <ObservatoryRegion>Earth.NearSurface.AuroralRegion</ObservatoryRegion> 
+		  <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion> 
+		  <ObservatoryRegion>Earth.Surface</ObservatoryRegion> 
+		</Location>
+  </Observatory>
+  </Spase>

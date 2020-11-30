@@ -6,40 +6,40 @@
     <ResourceHeader>
       <ResourceName>THEMIS Ground White Horse All Sky Imager</ResourceName>
       <AlternateName>WHIT ASI</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:03Z</ReleaseDate>
-      <Description>THEMIS Ground All Sky Imager at Whitehorse, YT, Canada.  The ASI stations monitor a 170 degree field of view imaging the auroral oval at kilometer resolution.  The ASI is comprised of a fisheye lens and CCD (resolution 256 x 256 pixels) in a stainless steel enclosure topped with a transparent acrylic dome.  Exposure control ranges from 5 s to 1 ms although the typical data rate is one image every 3 seconds.  Silicone heaters keep the instrument within the nominal temperature range.  During daylight hours sun shades deploy to protect the CCD.  
-      </Description>
-      <Acknowledgement> We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission; specifically S. Mende and E. Donovan for use of the ASI data.
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>THEMIS Ground All Sky Imager at Whitehorse, YT, Canada.  The ASI stations monitor a 170 degree field of view imaging the auroral oval at kilometer resolution.  The ASI is comprised of a fisheye lens and CCD (resolution 256 x 256 pixels) in a stainless steel enclosure topped with a transparent acrylic dome.  Exposure control ranges from 5 s to 1 ms although the typical data rate is one image every 3 seconds.  Silicone heaters keep the instrument within the nominal temperature range.  During daylight hours sun shades deploy to protect the CCD. 
+</Description>
+      <Acknowledgement>We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission; specifically S. Mende and E. Donovan for use of the ASI data.
 </Acknowledgement>
       <!--Vassilis Angelopoulos -->
       <Contact>
         <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <!--Stephen Mende-->
       <Contact>
         <PersonID>spase://SMWG/Person/Stephen.B.Mende</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <!--Eric Donovan-->
       <Contact>
         <PersonID>spase://SMWG/Person/Eric.Donovan</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>THEMIS All Sky Imager Instrument</Name>
         <URL>http://themis.ssl.berkeley.edu/instrument_asi.shtml</URL>
         <Description>Brief description of ASI instrument and links to related papers.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>NSSDC: THEMIS All Sky Imager</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=THEMIS-GB-01</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=THEMIS-GB-01</URL>
         <Description>National Space Science Data Center: ASI description.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>THEMIS Ground All Sky Imager</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-GBO/WHIT</ObservatoryID>
     <Caveats/>
-  </Instrument>
+</Instrument>
 </Spase>

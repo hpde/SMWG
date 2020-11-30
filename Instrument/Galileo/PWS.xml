@@ -4,715 +4,715 @@
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Galileo/PWS</ResourceID>
     <ResourceHeader>
-      <ResourceName>Galileo PWS</ResourceName>    
+      <ResourceName>Galileo PWS</ResourceName>
       <AlternateName>Galileo Plasma Wave Spectrometer</AlternateName>
       <AlternateName>Galileo Plasma Wave Subsystem</AlternateName>
       <AlternateName>Galileo Plasma Wave Investigation</AlternateName>
       <AlternateName>Galileo Plasma Wave Receiver</AlternateName>
-      <ReleaseDate>2012-11-27T21:10:13Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>
 
-The Galileo Plasma Wave Receiver is described by     
+The Galileo Plasma Wave Receiver is described by    
 
 
       Gurnett, D. A., W. S. Kurth, R. R. Shaw, A. Roux, R. Gendrin, C. F. Kennel,
-    F. L. Scarf, and S. D. Shawhan, The Galileo Plasma Wave Investigation, 
+    F. L. Scarf, and S. D. Shawhan, The Galileo Plasma Wave Investigation,
     Space Sci. Rev., 60, 341-355, 1992.
-                          
-                                                                              
-Scientific Objectives:                                                        
-                                                                              
-The basic objective of this investigation is the study of plasma              
-waves and radio emissions in the magnetosphere of Jupiter.  The               
-Voyager 1 and 2 flybys of Jupiter have now clearly shown that many            
-complex types of plasma wave and radio-emission phenomena occur in the        
-Jovian magnetosphere.  These include electromagnetic whistler mode            
-emissions called chorus and hiss, electromagnetic continuum radiation         
-trapped in the magnetospheric cavity, electrostatic waves associated          
-with harmonics of the electron cyclotron frequency, and a wide variety        
-of escaping radio emissions.  Some of these waves, such as the whistler       
-mode emissions, are believed to play an important role in the dynamics        
-of the magnetosphere by controlling the pitch-angle scattering and loss       
-of energetic charged particles.  In other cases plasma waves provide an       
-important diagnostic tool by revealing various characteristic                 
-frequencies of the plasma, from which quantities such as the electron         
-density can be computed.                                                      
-                                                                              
-Since the Galileo spacecraft will be the first orbiter of Jupiter,            
-this spacecraft will provide a much more comprehensive study of the           
-Jovian magnetosphere than was possible with the previous Pioneer and          
-Voyager flybys of Jupiter.  Specifically, the orbit of Galileo will           
-provide a survey of the magnetotail at distances of up to 150 RJ over a       
-range of local times near local midnight, a region that has never             
-previously been explored; repeated passes through the plasma sheet, and       
-the tail lobes; and numerous close flybys of the Galilean satellites.         
-Of particular importance will be a very close pass by the satellite Io.       
-The Voyager flybys showed that volcanic gases escaping from this moon         
-are the main source of plasma in the Jovian magnetosphere.  The primary       
-energization of plasma in the Jovian magnetosphere is believed to occur       
-in a dense plasma torus that surrounds Jupiter near Io's orbit.  This         
-energization is associated with many complex plasma wave phenomena,           
-including the generation of intense kilometric and decametric radio           
-emissions.                                                                    
-                                                                              
-In addition to exploring regions never previously investigated,               
-Galileo, by virtue of its long lifetime in orbit around Jupiter, also         
-provides a unique new capability for carrying out studies of temporal         
-variations on time scales that cannot be investigated with a single           
-flyby.  For example, it is known that the kilometric and decametric           
-radio emissions associated with Io and its plasma torus have temporal         
-variations on time scales of weeks and longer. With Galileo these             
-temporal variations can be monitored over periods of several years and        
-compared with other remote sensing instruments. These measurements            
-should be able to tell us, for example, whether the variations are            
-associated with changes in the volcanoes on Io. Considerable interest         
-also exists in searching for evidence of magnetospheric substorm              
-phenomena, possibly comparable to auroral substorms in the Earth's            
-magnetosphere.  With the Galileo plasma wave instrument, it should be         
-possible to provide remote sensing of substorms in a manner comparable        
-to the remote sensing of terrestrial auroral kilometric radiation,            
-which is known to be closely associated with terrestrial substorms.           
-                                                                              
-To carry out comprehensive studies of plasma waves and radio                  
-emissions at Jupiter, the Galileo plasma wave instrument incorporates         
-several new features that provide improvements over the previous              
-Voyager 1 and 2 measurements.  These improvements include (1) nearly          
-simultaneous electric and magnetic field measurements to distinguish          
-electrostatic waves from electromagnetic waves, (2) direction finding         
-measurements to determine source locations, and (3) better frequency          
-and time resolution to resolve fine structure in the plasma wave and          
-radio emission spectrum.  The main instrument package and the electric        
-dipole antenna system were designed and constructed at the University         
-of Iowa, and the search coil magnetic antenna was provided by the             
-Centre de Recherches en Physique de l'Environnement Terrestre et              
-Planetaire (CRPE).                                                            
-                                                                              
-                                                                              
-Calibration:                                                                  
-                                                                              
-                                                                              
-An extensive series of calibrations and performance checks were               
-performed on the plasma wave instrument both on and off the spacecraft.       
-Since the logarithmic compressors used in the spectrum analyzers do           
-not give a true logarithmic response, the transfer function of the            
-logarithmic compressors must be calibrated.  Because of the large             
-number of channels, it is not practical to calibrate each frequency           
-channel separately.  Instead, the transfer function is measured for           
-each logarithmic compressor, and a frequency response calibration is          
-performed at a fixed amplitude for all channels using that compressor.        
-This procedure provides accurate calibrations for each frequency step         
-because each band of the receiver uses a single filter and logarithmic        
-compressor.                                                                   
-                                                                              
-A look-up table can be constructed which converts the telemetry               
-data number to input signal strength.  When combined with the overall         
-frequency response across each band, these calibrations are sufficient        
-to determine the signal strength in all channels served by this filter        
-band and compressor.                                                          
-                                                                              
-In addition to the amplitude response of the compressors, a                   
-frequency response is also performed for each frequency channel. All          
-frequency channels are checked to confirm that the filter bands have          
-the proper shape and no spurious responses.  The effective noise              
-bandwidths are measured by stimulating the instrument with a white            
-noise signal of known spectral density.                                       
-                                                                              
-For the electric field antenna, the electric field strength is                
-computed by assuming that the antenna has an effective length of              
-Leff = 3.5 meters. This length is the distance between the geometric          
-centers of the two dipole elements.  For the search coil magnetic             
-antennas, the magnetic field sensitivity and frequency response was           
-calibrated in the IPG magnetic field observatory at Chambon La Foret,         
-France.  These calibrations were performed using a Helmholtz coil             
-driven by a known AC current source.  The absolute accuracy of the            
-sensitivity calibration is estimated to be about 3 percent. The               
-magnetic noise levels were measured by placing the search coils in a          
-mu-metal chamber, which shields the sensors from external noise               
-sources.                                                                      
-                                                                              
-                                                                              
-Operational Considerations:                                                   
-                                                                              
-                                                                              
-Nominally, the instrument is operated any time low rate science               
-(LRS) or greater data rate capability is available.  When LRS is the          
-maximum data rate, the instrument is operated in its power-up mode,           
-with the SA and SFR toggling back and forth between the electric and          
-magnetic antennas.  When wideband data can be recorded or transmitted         
-to the Earth, then the wide range of instrument modes and antenna             
-configurations are utilized based on the science objectives for a given       
-time interval.  The UVS instrument has a stepper motor that drives its        
-grating which is a major source of magnetic interference in the               
-frequency range from about 100 Hz to 2 kHz.  Every attempt is made to         
-work with the UVS team to minimize the times during which the grating         
-is moved while PWS is observing on the magnetic antenna.  In many             
-cases, this requires a time- sharing arrangement which allows for some        
-percentage of magnetic viewing time in an interference-free                   
-environment, but which also allows UVS to observe with a moving grating       
-in order to achieve its science objectives.                                   
-                                                                              
-Detectors:                                                                    
-                                                                              
-                                                                              
-The plasma wave sensors on Galileo consist of one 6.6 meter                   
-tip-to-tip electric dipole antenna and two search coil magnetic               
-antennas.  The electric dipole antenna is mounted at the end of the           
-magnetometer boom approximately 10.6 meters from the spacecraft, and          
-the search coil magnetic antennas are mounted on the high gain antenna        
-feed.  The electric antenna consists of two graphite epoxy elements           
-with a root diameter of 2.0 cm, tapering to 0.3 cm at the tip.  The           
-dipole elements are mounted perpendicular to the magnetometer boom to         
-minimize electric field distortion effects due to the spacecraft              
-structure.  The antenna axis is also oriented perpendicular to the            
-spacecraft spin axis in order to permit direction finding.  Each              
-element is hinged 1.8 meters from the tip so that the antenna can be          
-folded for launch.  A housing at the base of the dipole elements              
-contains two preamplifiers.  These preamplifiers provide low impedance        
-signals to the main electronics package. Each element is grounded to          
-the spacecraft structure through a 250 MegOhm resistance to limit             
-differential charging effects.                                                
-                                                                              
-The search coil magnetic antenna consists of two high permeability            
-rods, 25.5 and 27.5 cm long, one optimized for low frequencies, 5 Hz to       
-3.5 kHz, and the other optimized for high frequencies, 1 kHz to 50 kHz.       
-The winding on the low frequency search coil consists of 50,000 turns of      
-0.07 mm diameter copper wire and the winding on the high frequency            
-search coil consists of 2000 turns of 0.14 mm diameter copper wire.           
-The two search coils are mounted orthogonally to minimize the electrical      
-coupling between the sensors.  Both search coils are mounted                  
-perpendicular to the spacecraft spin axis.  The high frequency sensor is      
-perpendicular to the electric dipole antenna and the low frequency            
-sensor is parallel to the electric dipole antenna.  Two preamplifiers         
-mounted in a housing near the search coil are used to provide low             
-impedance signals to the main electronics package.  Frequencies below         
-2.4 kHz are obtained from the low frequency search coil, and                  
-frequencies above 2.4 kHz are obtained from the high frequency search         
-coil.                                                                         
-                                                                              
-Electronics:                                                                  
-                                                                              
-All of the signal processing for the plasma wave experiment is                
-performed in a single main electronics package.  The main electronics         
-package is mounted in the spacecraft body near the base of the                
-magnetometer boom. Signals from the electric dipole antenna and the two       
-search coils are processed by a wideband receiver and three spectrum          
-analyzers:  a high frequency spectrum analyzer also called the High           
-Frequency Receiver (HFR), a medium frequency spectrum analyzer also           
-called the Sweep Frequency Receiver (SFR), and a low frequency spectrum       
-analyzer also called simply the Spectrum Analyzer (SA).  The HFR              
-provides 42 frequencies from 100.8 kHz to 5.645 MHz with a fractional         
-frequency spacing of delta-f/f ~ 10.0% and a bandwidth of 2 kHz.  One         
-spectral sweep is provided every 18.67 seconds with a dynamic range of        
-100 db.  The SFR provides 112 frequencies from 40 Hz to 160 kHz with a        
-fractional frequency spacing of delta-f/f ~ 8.0%.  This analyzer gives        
-one spectral sweep every 18.67 seconds with a dynamic range of 100 db.        
-The low frequency SA provides 4 logarithmically spaced frequency              
-channels from 5.62 Hz to 31.1 Hz.  All four channels are sampled once         
-every 2.67 seconds with a dynamic range of 110 db.  The data from the         
-HFR, SFR, and SA (and survey wideband data as described below) are            
-transmitted to the ground via the low rate telemetry at a bit rate of         
-240 bits/sec.                                                                 
-                                                                              
-The wideband waveform receiver provides waveform measurements in              
-three frequency bands, 5 Hz to 1 kHz, 50 Hz to 10 kHz, and 50 Hz              
-to 80 kHz.  The frequency band to be used is controlled by the                
-spacecraft Command and Data Subsystem (CDS).  An automatic gain control       
-(AGC) circuit is used to control the amplitude of the output waveform.        
-The AGC time constant is 0.1 seconds in the two high frequency bands          
-and 1.0 second in the low frequency band.  The waveform from the              
-wideband receiver is digitized by a 4-bit analog-to-digital converter         
-(ADC).  The sample rate of the ADC is fixed at either 3,150, 25,200, or       
-201,600 samples per second, depending on the frequency band selected.         
-The waveform data can be transmitted in real time or recorded on the          
-spacecraft digital tape recorder.                                             
-                                                                              
-The plasma wave instrument has several modes of operation and                 
-methods of data transmission.  These modes are also controlled by             
-the spacecraft CDS. The medium and low frequency spectrum analyzers and       
-the wideband waveform receiver can be connected to either the electric        
-dipole antenna or the search coil magnetic antennas.  In the normal           
-mode of operation, the SFR and SA are cycled between the electric and         
-magnetic antennas so that alternate electric and magnetic spectrums are       
-obtained.  Since the search coils do not provide signals in the               
-frequency range covered by the HFR, this analyzer is always connected         
-to the electric antenna.  In the cycling mode of operation, the time          
-required for a complete set of electric and magnetic field spectrums is       
-37.33 seconds.  The SFR and SA can also be locked on either the               
-electric or magnetic antennas to provide improved time resolution at          
-the expense of complementary electric and magnetic field coverage.  In        
-all cases the HFR, SFR, and SA outputs consist of an 8-bit binary             
-numbers that are approximately proportional to the logarithm of the           
-received signal strength.  In the ground data processing the data from        
-the HFR, SFR, and SA will be displayed in the form of color                   
-frequency-time spectrograms.  The frequency scale of the Galileo              
-spectrograms will extend from 5.6 Hz to 5.65 MHz, and variable time           
-scales will be available, ranging from 30 minutes to more than 24             
-hours, depending on the application.  Normally, 24-hour spectrograms          
-will be used to survey the plasma wave data.  These survey spectrograms       
-will be used to select specific intervals for more detailed analysis,         
-such as comparison with charged particle or magnetic field data, or           
-direction-finding analyses.                                                   
-                                                                              
-The greatest flexibility in the operation of the plasma wave                  
-instrument is available in the wideband waveform receiver.  This              
-receiver provides very high resolution measurements of electric and           
-magnetic field waveforms during times of special interest, such as the        
-pass through the Io torus and satellite encounters.  The waveform data        
-provide the highest possible frequency and time resolution, subject           
-only to the constraints of Fourier analysis, delta-f*delta-t ~ 1.             
-Although the waveform receiver has only three frequency bands, with bit       
-rates of 12.6, 100.8, and 806.4 kbits/sec, several spacecraft modes are       
-available for recording and transmitting the data to the ground.  In          
-the highest time resolution mode, an essentially continuous sample of         
-the electric or magnetic field waveform can be obtained over a                
-bandwidth of 50 Hz to 80 kHz for periods of up to 18 minutes (the time        
-required to fill the spacecraft tape recorder).                               
-                                                                              
-On the ground the waveform data will be Fourier transformed in                
-discrete packets, usually consisting of 1024 samples, and                     
-displayed in the form of a frequency-time spectrogram.  These                 
-frequency-time spectrograms provide the highest time resolution data          
-available from the Galileo plasma wave instrument.  In certain modes of       
-operation, such as MPW, XPW, and PW4, the duration of the wideband            
-recording can be extended at the expense of reduced duty cycle,               
-frequency coverage, or analysis bandwidth.  To provide some wideband          
-telemetry even when the high rate telemetry link is not available, a          
-waveform survey output is included in the regular low rate telemetry          
-data. This waveform survey output provides one block of 280 waveform          
-samples every 18.67 seconds in two frequency bands, 5 Hz to 1 kHz and         
-50 Hz to 10 kHz.                                                              
-                                                                              
-Filters:                                                                      
-                                                                              
-The following three tables describe the 158 frequency channels                
-which make up the low rate science portion of the Galileo PWS.                
-                                                                              
-Table 1.  Spectrum Analyzer (SA) Channels                                     
-                                                                              
-Channel   MOD(mf,4) Center Frequency (Hz)    Bandwidth (Hz)                   
-1         0 (4)           5.62               0.832                            
-2         3              10.0                1.86                             
-3         2              17.8                2.75                             
-4         1              31.1                4.79                             
-                                                                              
-mf is the minor frame counted from 1 through 28.                              
-                                                                              
-                                                                              
-Table 2.  Sweep Frequency Receiver (SFR) Channels                             
-                                                                              
-Chan mf        Freq. (Hz)     Bandwidth (Hz)                                  
-                                                                              
-Band 1                                                                        
-1     1       42.1             4.26                                           
-2     2       45.6                                                            
-3     3       49.0                                                            
-4     4       52.5                                                            
-5     5       56.0                                                            
-6     6       59.6                                                            
-7     7       66.7                                                            
-8     8       70.4                                                            
-9     9       77.7                                                            
-10    10      81.5                                                            
-11    11      89.0                                                            
-12    12      96.7                                                            
-13    13     104.5                                                            
-14    14     112.5                                                            
-15    15     120.6                                                            
-16    16     128.9                                                            
-17    17     137.3                                                            
-18    18     150.2                                                            
-19    19     158.9                                                            
-20    20     172.5                                                            
-21    21     186.4                                                            
-22    22     200.7                                                            
-23    23     215.5                                                            
-24    24     235.9                                                            
-25    25     251.7                                                            
-26    26     268.0                                                            
-27    27     290.6                                                            
-28    28     314.1                                                            
-                                                                              
-Band 2                                                                        
-29    1      337.              6.76                                           
-30    2      364.                                                             
-31    3      392.                                                             
-32    4      420.                                                             
-33    5      448.                                                             
-34    6      476.                                                             
-35    7      534.                                                             
-36    8      563.                                                             
-37    9      622.                                                             
-38    10     652.                                                             
-39    11     712.                                                             
-40    12     774.                                                             
-41    13     836.                                                             
-42    14     900.                                                             
-43    15     965.                                                             
-44    16       1.031k                                                         
-45    17       1.098k                                                         
-46    18       1.201k                                                         
-47    19       1.272k                                                         
-48    20       1.380k                                                         
-49    21       1.491k                                                         
-50    22       1.606k                                                         
-51    23       1.724k                                                         
-52    24       1.887k                                                         
-53    25       2.013k                                                         
-54    26       2.144k                                                         
-55    27       2.325k                                                         
-56    28       2.513k                                                         
-                                                                              
-Band 3                                                                        
-57    1        2.70k           120.                                           
-58    2        2.91k                                                          
-59    3        3.14k                                                          
-60    4        3.36k                                                          
-61    5        3.58k                                                          
-62    6        3.81k                                                          
-63    7        4.27k                                                          
-64    8        4.50k                                                          
-65    9        4.98k                                                          
-66    10       5.21k                                                          
-67    11       5.70k                                                          
-68    12       6.19k                                                          
-69    13       6.69k                                                          
-70    14       7.20k                                                          
-71    15       7.72k                                                          
-72    16       8.25k                                                          
-73    17       8.78k                                                          
-74    18       9.61k                                                          
-75    19      10.17k                                                          
-76    20      11.04k                                                          
-77    21      11.93k                                                          
-78    22      12.85k                                                          
-79    23      13.79k                                                          
-80    24      15.09k                                                          
-81    25      16.11k                                                          
-82    26      17.15k                                                          
-83    27      18.59k                                                          
-84    28      20.10k                                                          
-                                                                              
-Band 4                                                                        
-85    1       21.6k            1520.                                          
-86    2       23.3k                                                           
-87    3       25.1k                                                           
-88    4       26.9k                                                           
-89    5       28.7k                                                           
-90    6       30.5k                                                           
-91    7       34.2k                                                           
-92    8       36.0k                                                           
-93    9       39.8k                                                           
-94    10      41.7k                                                           
-95    11      45.6k                                                           
-96    12      49.5k                                                           
-97    13      53.5k                                                           
-98    14      57.6k                                                           
-99    15      61.7k                                                           
-100   16      66.0k                                                           
-101   17      70.3k                                                           
-102   18      76.9k                                                           
-103   19      81.4k                                                           
-104   20      88.3k                                                           
-105   21      95.4k                                                           
-106   22     102.8k                                                           
-107   23     110.3k                                                           
-108   24     120.7k                                                           
-109   25     128.9k                                                           
-110   26     137.2k                                                           
-111   27     148.8k                                                           
-112   28     160.8k                                                           
-(Note that the same bandwidth applies to the entire set of channels in        
-band.)                                                                        
-                                                                              
-                                                                              
-Table 3.  High Frequency Receiver (HFR) Channels                              
-                                                                              
-HFR                  Center Frequency                                         
-Channel    mf             (MHz)                                               
-1          1, 2          0.1008                                               
-2          5, 6          0.1134                                               
-3          9, 10         0.1260                                               
-4          13, 14        0.1386                                               
-5          17, 18        0.1512                                               
-6          21, 22        0.1638                                               
-7          25, 26        0.1764                                               
-8          3, 4          0.2016                                               
-9          7, 8          0.2268                                               
-10         1, 12         0.2520                                               
-11         5, 16         0.2772                                               
-12         9, 20         0.3024                                               
-13         3, 24         0.3276                                               
-14         7, 28         0.3528                                               
-15         1             0.4032                                               
-16         5             0.4536                                               
-17         9             0.5040                                               
-18         13            0.5544                                               
-19         17            0.6048                                               
-20         21            0.6552                                               
-21         25            0.7056                                               
-22         2             0.8060                                               
-23         6             0.9070                                               
-24         10            1.008                                                
-25         14            1.109                                                
-26         18            1.210                                                
-27         22            1.310                                                
-28         26            1.411                                                
-29         3             1.613                                                
-30         7             1.814                                                
-31         11            2.016                                                
-32         15            2.218                                                
-33         19            2.419                                                
-34         23            2.621                                                
-35         27            2.822                                                
-36         4             3.226                                                
-37         8             3.629                                                
-38         12            4.032                                                
-39         16            4.435                                                
-40         20            4.838                                                
-41         24            5.242                                                
-42         28            5.645                                                
-(The bandwidth for all channels is 1340 Hz)                                   
-                                                                              
-Mounting Offsets:                                                             
-                                                                              
-The electric antenna is mounted at the end of the magnetometer                
-boom such that its effective axis is parallel to the spacecraft X             
-axis (perpendicular to both the magnetometer boom and the spacecraft          
-spin axis.  The low frequency magnetic search coil is mounted with its        
-effective axis parallel to the spacecraft X axis and the high frequency       
-search coil is parallel to the spacecraft Y axis (perpendicular to the        
-X axis and to the spacecraft spin axis.                                       
-                                                                              
-Field of View:                                                                
-                                                                              
-The field of view of the PWS, whether from the electric dipole                
-antenna or one of the magnetic search coils is a standard dipole              
-antenna pattern which has a maximum sensitivity to the field along the        
-axis of the sensor.  For radio waves which propagate above the                
-characteristic frequencies of the plasma and which do not interact with       
-the local plasma, this means maximum sensitivity is to sources in a           
-plane perpendicular to the antenna axis, since the electric and               
-magnetic fields of a radio wave are normally perpendicular to the             
-propagation vector.                                                           
-                                                                              
-Data Rates:                                                                   
-                                                                              
-The basic low rate science (LRS) data rate of the instrument is               
-240 bps. Wideband waveform receiver data rates range from 19.2                
-kbps to 806.4 kbps, depending on the telemetry mode.  Rates of 94._           
-kbps and lower can be either recorded on the spacecraft tape recorder         
-or transmitted directly to the ground; rates of 403.2 and 806.4 kbps          
-can only be recorded onboard for later playback at lower rates.               
-                                                                              
-Instrument Modes:                                                             
-                                                                              
-The PWS has several modes of operation.  The SA and SFR can either            
-monitor only the electric antenna, only the magnetic antenna, or toggle       
-back and forth between the two, obtaining a complete spectral scan from       
-each antenna before switching to the other.  This toggling mode is the        
-most commonly utilized mode.  There is also a mode which enables the          
-magnetic search coil calibration tone.  When enabled, the calibration         
-signal is excited for 56 mf (37.33 sec) at the beginning of each              
-MOD(RIM,8)=0 until disabled.                                                  
-                                                                              
-The wideband receiver has three basic modes (analysis bandwidths)             
-and can be attached to either the electric antenna or the magnetic.           
-The three modes provide analysis bandwidths of 10 kHz, 80 kHz, and            
-1 kHz although there is an additional mode which toggles between the          
-10 kHz and 1 kHz mode.  In this mode, the waveform data is collected          
-for 14 mf (9.33 sec) in one bandwidth and then for 14 mf in the other         
-bandwidth.                                                                    
-                                                                              
-A wide range of telemetry formats are available for the wideband              
-data. For any one of the three wideband modes, the instantaneous              
-data rate is fixed (806.4 kbps for the 80 kHz mode, 100.8 kbps for the        
-10 kHz mode, and 12.6 kbps for the 1 kHz mode.  However, the different        
-telemetry modes differ primarily in the number of consecutive samples         
-collected during an RTI.  This results in a variation in the duty cycle       
-depending on the data rate allocated to this data stream in the               
-selected telemetry mode.                                                      
-                                                                              
-Phase 2 Software Implications:                                                
-                                                                              
-In response to the failure of the high gain antenna and the                   
-resulting reduction in downlink telecommunications capabilities for the       
-Galileo spacecraft, the Galileo Project undertook a massive                   
-re-programming of onboard software in order to enable science                 
-observations in Jupiter orbit.  Coupled with flight software changes,         
-modifications to the Deep Space Network were also undertaken to improve       
-the overall downlink capability from the spacecraft.  Together, these         
-actions increased the actual bit-to-ground capability from a maximum of       
-about 10 bps to a maximum of 160 bps.  In addition, onboard data              
-compression was implemented which increased the information content of        
-the downlink by roughly a factor of 10.                                       
-                                                                              
-The PWS instrument has no microprocessor; all of its functions                
-are hardwired, hence, no reprogramming of the instrument itself was           
-possible.  One result of this is that the basic timing of the                 
-instrument is identical to that described in the section above.               
-However, significant software additions in the CDS and AACS were              
-implemented which enable the PWS to perform its basic observations at         
-dramatically lower data rates.  These changes can be categorized simply       
-as editing and compression. The LRS observations are edited as                
-described below to reduce the observations retained for downlink from         
-240 bps to 65 bps.  The remaining 65 bps LRS data stream is then              
-compressed using the same integer cosine transform (ICT) algorithm as         
-used for the Solid State Imaging (SSI) data.  The severity of this            
-compression is variable and can range from 40 bps to 5 bps, with 5 bps        
-being the most often utilized data rate. The wideband data are not            
-compressed and are minimized through editing functions only.  In              
-addition, a new wideband telemetry mode was developed which uses bit          
-allocations in the original LRS telemetry frame originally reserved for       
-Golay encoding to produce a mode with drastically reduced data rate           
-requirements.                                                                 
-                                                                              
-Realtime Science                                                              
-                                                                              
-LRS Editing and Compression:  The original PWS LRS data                       
-stream is edited to reduce the data rate before compression from 240          
-bps to 65 bps.  First, the 120 bits of waveform survey data are edited        
-out of the data stream.  Second, all housekeeping and status                  
-information is removed; if one assumes that the sequenced commands are        
-executed properly and the instrument timing is maintained, the status         
-of the instrument can be unambiguously determined from the most recent        
-mode command and the current spacecraft clock.  A recorded mode like          
-the original LRS but now called LPW preserves the full, original PWS          
-LRS data stream and can be used to compare realtime science with the          
-full data steam at limited times in case questions arise about the            
-assumptions of correct command execution or instrument timing.  Third,        
-only one sample per channel is preserved in a given 18.67-second              
-instrument cycle.  Accordingly, only the first sample of the four SA          
-channels are retained and only the first sample of the lower frequency        
-HFR channels are retained.  Further, since there is an overlap between        
-the upper frequency range of Band 4 of the MFR with the lower range           
-of the HFR, and since the HFR has better sensitivity over this range,         
-the highest frequency 6 channels of MFR band 4 are edited out.  What          
-remains is a single sample of each of 152 of the original 158 channels        
-in the low rate portion of the instrument.  This is the data stream           
-which is forwarded to the AACS for ICT compression.                           
-                                                                              
-The ICT compression works on 8x8 pixel blocks of an image.                    
-Since The PWS dynamic spectrogram can be thought of as an                     
-image, the compression algorithm can be used to compress the                  
-spectrogram prior to transmission to the ground.  One complication is         
-that the PWS generally alternates between a magnetic and electric             
-spectrum (at least for the SA and MFR channels) and the resulting             
-alternating spectra add entropy to the 'image' and thereby reduce the         
-compressibility of the data set.  Therefore, the electric and magnetic        
-spectra are separated or 'unzipped' prior to compression.  Also, it is        
-necessary to build up 8x8 blocks of the spectrogram.  152 channels can        
-be broken into 19 8-channel segments, hence, 8 electric and 8 magnetic        
-spectra are accumulated in order to make an 8x152 pixel strip (19 8x8         
-blocks) of electric field data and a similar strip for the magnetic           
-data.  (Note that the electric HFR data is included with the magnetic         
-strip so that the 18.67-sec samples of the HFR channels are preserved.)       
- Hence, data is collected on 16 x 18.67 second time intervals (about 5        
-minutes) in order to build the two 8x152 pixel strips.  Each of the           
-strips is compressed individually with all 19 8x8 blocks in each being        
-used to generate a downlink packet.  Since transmission errors will           
-make decompression impossible for all data following the error, a             
-5-minute gap will appear for any packet with a telemetry error.               
-Fortunately, telemetry errors are very infrequent and the data which          
-reaches the ground intact is virtually immune from the spikes typical         
-of bursty bit errors in an uncompressed telemetry stream.                     
-                                                                              
-Once on the ground, the electric and magnetic strips are                      
-decompressed and 'zipped' back together in the original time order.           
-This allows sequential electric (or magnetic) spectra to be maintained        
-together in the event the instrument is not cycled between E and B            
-sweeps. The net result of this compression/decompression scheme is that       
-the full temporal and spectral resolution of the PWS instrument is            
-maintained even though the real data rate to the ground is as low as 5        
-bps.  Of course, as in any lossy compression scheme, information is           
-lost.  By maintaining the spectral and temporal resolution, the loss in       
-the resulting data set is in amplitude inaccuracy.  Based on both             
-ground experimentation and analysis of the Jupiter data, we believe the       
-amplitude errors at 5 bps are no more than about 6 dB and are much less       
-at the higher data rates (less severe compression).  At 5 bps these           
-amplitude errors appear as 'tiling' in which all pixels in a given 8x8        
-block have similar values but are different from adjoining 8x8 blocks         
-or else the 8x8 blocks take on a checkerboard appearance.  The errors         
-do not appear to be systematic, hence, we believe that averaging pixels       
-in frequency and time over regions of the spectrogram where the               
-spectrum appears to be 'simple' could provide a better estimate of the        
-true signal strength.  Generally, however, the 5 dB accuracy will             
-enable a wide range of studies without need to know the absolute              
-amplitude better than a few dB.                                               
-                                                                              
-Recorded Data                                                                 
-                                                                              
-LRS data:  When PWS data are recorded, the full LRS data stream               
-is recorded and played back.  This includes all status bits,                  
-additional samples of multiply-sampled channels (e.g. SA channels), and       
-the waveform survey data.  The discussion of data in the original             
-instrument description is fully applicable in this case.                      
-                                                                              
-Wideband data:  The wideband data suffered the most through the               
-process of reducing the downlink requirements.  Nevertheless, a minimal       
-wideband capability was retained.  Beginning with the Io flyby, a new         
-data mode was introduced which replace the Golay encoding bits formerly       
-used for the LRS data format with PWS wideband data in the LPW format.        
-This mode is called LPW and is usually modified with the term Golay           
-bits to distinguish these data from the low rate data.  All three of          
-the bandwidths (wideband modes) can be used with the LPW format and for       
-each, a total of 832(????) contiguous 4-bit samples are acquired.             
-However, these 832 samples are recorded only once per 2 minor frames,         
-or 2.67 seconds, hence, the best spectral temporal resolution (temporal       
-resolution of Fourier transforms assuming 1 transform per set of              
-contiguous samples) is 2.67 seconds.  The spectral resolution (416            
-spectral components is very competitive with the HPW (94._ kbps mode)         
-but the temporal resolution is poorer by a factor of about 50.  It            
-is this mode, however, which is used for virtually all of the orbital         
-tour recording.                                                               
-                                                                              
-Some of the original wideband telemetry modes were eliminated                 
-and those which remain (in addition to the LPW/Golay bits) are MPW,           
-MPP, and HPW.  These provide 7.68, 19.2, and 94._ kbps, respectively.         
-In practice, the LPW/Golay bits provides superior spectral resolution         
-over the MPW mode at significantly reduced bit rate (due to the               
-poor temporal resolution) and the MPW mode is not utilized in the             
-tour.  Limited use of the MPP and HPW modes is included in the tour           
-data set, however.                                                            
-                                                                              
-For all the wideband telemetry modes, an additional capability                
-for reducing the downlink requirements was implemented.  This is              
-an editing function often referred to as '1 of n-line editing' and            
-consists of returning 1 of every n sets of contiguous samples recorded.       
-Most of the tour data were returned with n = 2 or n = 4 so that               
-the temporal resolution of the Fourier transformed spectra are a factor       
-of 2 or 4 poorer than the original recorded data.  For example, in            
-the LPW/Golay bits mode, if n = 2, the time between returned spectra          
-is not 2.67 seconds, but 5.33 seconds.  Reducing the number of samples        
-in a contiguous set of samples by returning every nth sample was              
-never considered because this would under sample the waveform and             
-lead to aliasing problems.  Likewise, truncating the number of                
-samples in a set would reduce the spectral resolution, thereby                
-defeating the remaining attribute of the wideband data."                      
+                         
+                                                                             
+Scientific Objectives:                                                       
+                                                                             
+The basic objective of this investigation is the study of plasma             
+waves and radio emissions in the magnetosphere of Jupiter.  The              
+Voyager 1 and 2 flybys of Jupiter have now clearly shown that many           
+complex types of plasma wave and radio-emission phenomena occur in the       
+Jovian magnetosphere.  These include electromagnetic whistler mode           
+emissions called chorus and hiss, electromagnetic continuum radiation        
+trapped in the magnetospheric cavity, electrostatic waves associated         
+with harmonics of the electron cyclotron frequency, and a wide variety       
+of escaping radio emissions.  Some of these waves, such as the whistler      
+mode emissions, are believed to play an important role in the dynamics       
+of the magnetosphere by controlling the pitch-angle scattering and loss      
+of energetic charged particles.  In other cases plasma waves provide an      
+important diagnostic tool by revealing various characteristic                
+frequencies of the plasma, from which quantities such as the electron        
+density can be computed.                                                     
+                                                                             
+Since the Galileo spacecraft will be the first orbiter of Jupiter,           
+this spacecraft will provide a much more comprehensive study of the          
+Jovian magnetosphere than was possible with the previous Pioneer and         
+Voyager flybys of Jupiter.  Specifically, the orbit of Galileo will          
+provide a survey of the magnetotail at distances of up to 150 RJ over a      
+range of local times near local midnight, a region that has never            
+previously been explored; repeated passes through the plasma sheet, and      
+the tail lobes; and numerous close flybys of the Galilean satellites.        
+Of particular importance will be a very close pass by the satellite Io.      
+The Voyager flybys showed that volcanic gases escaping from this moon        
+are the main source of plasma in the Jovian magnetosphere.  The primary      
+energization of plasma in the Jovian magnetosphere is believed to occur      
+in a dense plasma torus that surrounds Jupiter near Io's orbit.  This        
+energization is associated with many complex plasma wave phenomena,          
+including the generation of intense kilometric and decametric radio          
+emissions.                                                                   
+                                                                             
+In addition to exploring regions never previously investigated,              
+Galileo, by virtue of its long lifetime in orbit around Jupiter, also        
+provides a unique new capability for carrying out studies of temporal        
+variations on time scales that cannot be investigated with a single          
+flyby.  For example, it is known that the kilometric and decametric          
+radio emissions associated with Io and its plasma torus have temporal        
+variations on time scales of weeks and longer. With Galileo these            
+temporal variations can be monitored over periods of several years and       
+compared with other remote sensing instruments. These measurements           
+should be able to tell us, for example, whether the variations are           
+associated with changes in the volcanoes on Io. Considerable interest        
+also exists in searching for evidence of magnetospheric substorm             
+phenomena, possibly comparable to auroral substorms in the Earth's           
+magnetosphere.  With the Galileo plasma wave instrument, it should be        
+possible to provide remote sensing of substorms in a manner comparable       
+to the remote sensing of terrestrial auroral kilometric radiation,           
+which is known to be closely associated with terrestrial substorms.          
+                                                                             
+To carry out comprehensive studies of plasma waves and radio                 
+emissions at Jupiter, the Galileo plasma wave instrument incorporates        
+several new features that provide improvements over the previous             
+Voyager 1 and 2 measurements.  These improvements include (1) nearly         
+simultaneous electric and magnetic field measurements to distinguish         
+electrostatic waves from electromagnetic waves, (2) direction finding        
+measurements to determine source locations, and (3) better frequency         
+and time resolution to resolve fine structure in the plasma wave and         
+radio emission spectrum.  The main instrument package and the electric       
+dipole antenna system were designed and constructed at the University        
+of Iowa, and the search coil magnetic antenna was provided by the            
+Centre de Recherches en Physique de l'Environnement Terrestre et             
+Planetaire (CRPE).                                                           
+                                                                             
+                                                                             
+Calibration:                                                                 
+                                                                             
+                                                                             
+An extensive series of calibrations and performance checks were              
+performed on the plasma wave instrument both on and off the spacecraft.      
+Since the logarithmic compressors used in the spectrum analyzers do          
+not give a true logarithmic response, the transfer function of the           
+logarithmic compressors must be calibrated.  Because of the large            
+number of channels, it is not practical to calibrate each frequency          
+channel separately.  Instead, the transfer function is measured for          
+each logarithmic compressor, and a frequency response calibration is         
+performed at a fixed amplitude for all channels using that compressor.       
+This procedure provides accurate calibrations for each frequency step        
+because each band of the receiver uses a single filter and logarithmic       
+compressor.                                                                  
+                                                                             
+A look-up table can be constructed which converts the telemetry              
+data number to input signal strength.  When combined with the overall        
+frequency response across each band, these calibrations are sufficient       
+to determine the signal strength in all channels served by this filter       
+band and compressor.                                                         
+                                                                             
+In addition to the amplitude response of the compressors, a                  
+frequency response is also performed for each frequency channel. All         
+frequency channels are checked to confirm that the filter bands have         
+the proper shape and no spurious responses.  The effective noise             
+bandwidths are measured by stimulating the instrument with a white           
+noise signal of known spectral density.                                      
+                                                                             
+For the electric field antenna, the electric field strength is               
+computed by assuming that the antenna has an effective length of             
+Leff = 3.5 meters. This length is the distance between the geometric         
+centers of the two dipole elements.  For the search coil magnetic            
+antennas, the magnetic field sensitivity and frequency response was          
+calibrated in the IPG magnetic field observatory at Chambon La Foret,        
+France.  These calibrations were performed using a Helmholtz coil            
+driven by a known AC current source.  The absolute accuracy of the           
+sensitivity calibration is estimated to be about 3 percent. The              
+magnetic noise levels were measured by placing the search coils in a         
+mu-metal chamber, which shields the sensors from external noise              
+sources.                                                                     
+                                                                             
+                                                                             
+Operational Considerations:                                                  
+                                                                             
+                                                                             
+Nominally, the instrument is operated any time low rate science              
+(LRS) or greater data rate capability is available.  When LRS is the         
+maximum data rate, the instrument is operated in its power-up mode,          
+with the SA and SFR toggling back and forth between the electric and         
+magnetic antennas.  When wideband data can be recorded or transmitted        
+to the Earth, then the wide range of instrument modes and antenna            
+configurations are utilized based on the science objectives for a given      
+time interval.  The UVS instrument has a stepper motor that drives its       
+grating which is a major source of magnetic interference in the              
+frequency range from about 100 Hz to 2 kHz.  Every attempt is made to        
+work with the UVS team to minimize the times during which the grating        
+is moved while PWS is observing on the magnetic antenna.  In many            
+cases, this requires a time- sharing arrangement which allows for some       
+percentage of magnetic viewing time in an interference-free                  
+environment, but which also allows UVS to observe with a moving grating      
+in order to achieve its science objectives.                                  
+                                                                             
+Detectors:                                                                   
+                                                                             
+                                                                             
+The plasma wave sensors on Galileo consist of one 6.6 meter                  
+tip-to-tip electric dipole antenna and two search coil magnetic              
+antennas.  The electric dipole antenna is mounted at the end of the          
+magnetometer boom approximately 10.6 meters from the spacecraft, and         
+the search coil magnetic antennas are mounted on the high gain antenna       
+feed.  The electric antenna consists of two graphite epoxy elements          
+with a root diameter of 2.0 cm, tapering to 0.3 cm at the tip.  The          
+dipole elements are mounted perpendicular to the magnetometer boom to        
+minimize electric field distortion effects due to the spacecraft             
+structure.  The antenna axis is also oriented perpendicular to the           
+spacecraft spin axis in order to permit direction finding.  Each             
+element is hinged 1.8 meters from the tip so that the antenna can be         
+folded for launch.  A housing at the base of the dipole elements             
+contains two preamplifiers.  These preamplifiers provide low impedance       
+signals to the main electronics package. Each element is grounded to         
+the spacecraft structure through a 250 MegOhm resistance to limit            
+differential charging effects.                                               
+                                                                             
+The search coil magnetic antenna consists of two high permeability           
+rods, 25.5 and 27.5 cm long, one optimized for low frequencies, 5 Hz to      
+3.5 kHz, and the other optimized for high frequencies, 1 kHz to 50 kHz.      
+The winding on the low frequency search coil consists of 50,000 turns of     
+0.07 mm diameter copper wire and the winding on the high frequency           
+search coil consists of 2000 turns of 0.14 mm diameter copper wire.          
+The two search coils are mounted orthogonally to minimize the electrical     
+coupling between the sensors.  Both search coils are mounted                 
+perpendicular to the spacecraft spin axis.  The high frequency sensor is     
+perpendicular to the electric dipole antenna and the low frequency           
+sensor is parallel to the electric dipole antenna.  Two preamplifiers        
+mounted in a housing near the search coil are used to provide low            
+impedance signals to the main electronics package.  Frequencies below        
+2.4 kHz are obtained from the low frequency search coil, and                 
+frequencies above 2.4 kHz are obtained from the high frequency search        
+coil.                                                                        
+                                                                             
+Electronics:                                                                 
+                                                                             
+All of the signal processing for the plasma wave experiment is               
+performed in a single main electronics package.  The main electronics        
+package is mounted in the spacecraft body near the base of the               
+magnetometer boom. Signals from the electric dipole antenna and the two      
+search coils are processed by a wideband receiver and three spectrum         
+analyzers:  a high frequency spectrum analyzer also called the High          
+Frequency Receiver (HFR), a medium frequency spectrum analyzer also          
+called the Sweep Frequency Receiver (SFR), and a low frequency spectrum      
+analyzer also called simply the Spectrum Analyzer (SA).  The HFR             
+provides 42 frequencies from 100.8 kHz to 5.645 MHz with a fractional        
+frequency spacing of delta-f/f ~ 10.0% and a bandwidth of 2 kHz.  One        
+spectral sweep is provided every 18.67 seconds with a dynamic range of       
+100 db.  The SFR provides 112 frequencies from 40 Hz to 160 kHz with a       
+fractional frequency spacing of delta-f/f ~ 8.0%.  This analyzer gives       
+one spectral sweep every 18.67 seconds with a dynamic range of 100 db.       
+The low frequency SA provides 4 logarithmically spaced frequency             
+channels from 5.62 Hz to 31.1 Hz.  All four channels are sampled once        
+every 2.67 seconds with a dynamic range of 110 db.  The data from the        
+HFR, SFR, and SA (and survey wideband data as described below) are           
+transmitted to the ground via the low rate telemetry at a bit rate of        
+240 bits/sec.                                                                
+                                                                             
+The wideband waveform receiver provides waveform measurements in             
+three frequency bands, 5 Hz to 1 kHz, 50 Hz to 10 kHz, and 50 Hz             
+to 80 kHz.  The frequency band to be used is controlled by the               
+spacecraft Command and Data Subsystem (CDS).  An automatic gain control      
+(AGC) circuit is used to control the amplitude of the output waveform.       
+The AGC time constant is 0.1 seconds in the two high frequency bands         
+and 1.0 second in the low frequency band.  The waveform from the             
+wideband receiver is digitized by a 4-bit analog-to-digital converter        
+(ADC).  The sample rate of the ADC is fixed at either 3,150, 25,200, or      
+201,600 samples per second, depending on the frequency band selected.        
+The waveform data can be transmitted in real time or recorded on the         
+spacecraft digital tape recorder.                                            
+                                                                             
+The plasma wave instrument has several modes of operation and                
+methods of data transmission.  These modes are also controlled by            
+the spacecraft CDS. The medium and low frequency spectrum analyzers and      
+the wideband waveform receiver can be connected to either the electric       
+dipole antenna or the search coil magnetic antennas.  In the normal          
+mode of operation, the SFR and SA are cycled between the electric and        
+magnetic antennas so that alternate electric and magnetic spectrums are      
+obtained.  Since the search coils do not provide signals in the              
+frequency range covered by the HFR, this analyzer is always connected        
+to the electric antenna.  In the cycling mode of operation, the time         
+required for a complete set of electric and magnetic field spectrums is      
+37.33 seconds.  The SFR and SA can also be locked on either the              
+electric or magnetic antennas to provide improved time resolution at         
+the expense of complementary electric and magnetic field coverage.  In       
+all cases the HFR, SFR, and SA outputs consist of an 8-bit binary            
+numbers that are approximately proportional to the logarithm of the          
+received signal strength.  In the ground data processing the data from       
+the HFR, SFR, and SA will be displayed in the form of color                  
+frequency-time spectrograms.  The frequency scale of the Galileo             
+spectrograms will extend from 5.6 Hz to 5.65 MHz, and variable time          
+scales will be available, ranging from 30 minutes to more than 24            
+hours, depending on the application.  Normally, 24-hour spectrograms         
+will be used to survey the plasma wave data.  These survey spectrograms      
+will be used to select specific intervals for more detailed analysis,        
+such as comparison with charged particle or magnetic field data, or          
+direction-finding analyses.                                                  
+                                                                             
+The greatest flexibility in the operation of the plasma wave                 
+instrument is available in the wideband waveform receiver.  This             
+receiver provides very high resolution measurements of electric and          
+magnetic field waveforms during times of special interest, such as the       
+pass through the Io torus and satellite encounters.  The waveform data       
+provide the highest possible frequency and time resolution, subject          
+only to the constraints of Fourier analysis, delta-f*delta-t ~ 1.            
+Although the waveform receiver has only three frequency bands, with bit      
+rates of 12.6, 100.8, and 806.4 kbits/sec, several spacecraft modes are      
+available for recording and transmitting the data to the ground.  In         
+the highest time resolution mode, an essentially continuous sample of        
+the electric or magnetic field waveform can be obtained over a               
+bandwidth of 50 Hz to 80 kHz for periods of up to 18 minutes (the time       
+required to fill the spacecraft tape recorder).                              
+                                                                             
+On the ground the waveform data will be Fourier transformed in               
+discrete packets, usually consisting of 1024 samples, and                    
+displayed in the form of a frequency-time spectrogram.  These                
+frequency-time spectrograms provide the highest time resolution data         
+available from the Galileo plasma wave instrument.  In certain modes of      
+operation, such as MPW, XPW, and PW4, the duration of the wideband           
+recording can be extended at the expense of reduced duty cycle,              
+frequency coverage, or analysis bandwidth.  To provide some wideband         
+telemetry even when the high rate telemetry link is not available, a         
+waveform survey output is included in the regular low rate telemetry         
+data. This waveform survey output provides one block of 280 waveform         
+samples every 18.67 seconds in two frequency bands, 5 Hz to 1 kHz and        
+50 Hz to 10 kHz.                                                             
+                                                                             
+Filters:                                                                     
+                                                                             
+The following three tables describe the 158 frequency channels               
+which make up the low rate science portion of the Galileo PWS.               
+                                                                             
+Table 1.  Spectrum Analyzer (SA) Channels                                    
+                                                                             
+Channel   MOD(mf,4) Center Frequency (Hz)    Bandwidth (Hz)                  
+1         0 (4)           5.62               0.832                           
+2         3              10.0                1.86                            
+3         2              17.8                2.75                            
+4         1              31.1                4.79                            
+                                                                             
+mf is the minor frame counted from 1 through 28.                             
+                                                                             
+                                                                             
+Table 2.  Sweep Frequency Receiver (SFR) Channels                            
+                                                                             
+Chan mf        Freq. (Hz)     Bandwidth (Hz)                                 
+                                                                             
+Band 1                                                                       
+1     1       42.1             4.26                                          
+2     2       45.6                                                           
+3     3       49.0                                                           
+4     4       52.5                                                           
+5     5       56.0                                                           
+6     6       59.6                                                           
+7     7       66.7                                                           
+8     8       70.4                                                           
+9     9       77.7                                                           
+10    10      81.5                                                           
+11    11      89.0                                                           
+12    12      96.7                                                           
+13    13     104.5                                                           
+14    14     112.5                                                           
+15    15     120.6                                                           
+16    16     128.9                                                           
+17    17     137.3                                                           
+18    18     150.2                                                           
+19    19     158.9                                                           
+20    20     172.5                                                           
+21    21     186.4                                                           
+22    22     200.7                                                           
+23    23     215.5                                                           
+24    24     235.9                                                           
+25    25     251.7                                                           
+26    26     268.0                                                           
+27    27     290.6                                                           
+28    28     314.1                                                           
+                                                                             
+Band 2                                                                       
+29    1      337.              6.76                                          
+30    2      364.                                                            
+31    3      392.                                                            
+32    4      420.                                                            
+33    5      448.                                                            
+34    6      476.                                                            
+35    7      534.                                                            
+36    8      563.                                                            
+37    9      622.                                                            
+38    10     652.                                                            
+39    11     712.                                                            
+40    12     774.                                                            
+41    13     836.                                                            
+42    14     900.                                                            
+43    15     965.                                                            
+44    16       1.031k                                                        
+45    17       1.098k                                                        
+46    18       1.201k                                                        
+47    19       1.272k                                                        
+48    20       1.380k                                                        
+49    21       1.491k                                                        
+50    22       1.606k                                                        
+51    23       1.724k                                                        
+52    24       1.887k                                                        
+53    25       2.013k                                                        
+54    26       2.144k                                                        
+55    27       2.325k                                                        
+56    28       2.513k                                                        
+                                                                             
+Band 3                                                                       
+57    1        2.70k           120.                                          
+58    2        2.91k                                                         
+59    3        3.14k                                                         
+60    4        3.36k                                                         
+61    5        3.58k                                                         
+62    6        3.81k                                                         
+63    7        4.27k                                                         
+64    8        4.50k                                                         
+65    9        4.98k                                                         
+66    10       5.21k                                                         
+67    11       5.70k                                                         
+68    12       6.19k                                                         
+69    13       6.69k                                                         
+70    14       7.20k                                                         
+71    15       7.72k                                                         
+72    16       8.25k                                                         
+73    17       8.78k                                                         
+74    18       9.61k                                                         
+75    19      10.17k                                                         
+76    20      11.04k                                                         
+77    21      11.93k                                                         
+78    22      12.85k                                                         
+79    23      13.79k                                                         
+80    24      15.09k                                                         
+81    25      16.11k                                                         
+82    26      17.15k                                                         
+83    27      18.59k                                                         
+84    28      20.10k                                                         
+                                                                             
+Band 4                                                                       
+85    1       21.6k            1520.                                         
+86    2       23.3k                                                          
+87    3       25.1k                                                          
+88    4       26.9k                                                          
+89    5       28.7k                                                          
+90    6       30.5k                                                          
+91    7       34.2k                                                          
+92    8       36.0k                                                          
+93    9       39.8k                                                          
+94    10      41.7k                                                          
+95    11      45.6k                                                          
+96    12      49.5k                                                          
+97    13      53.5k                                                          
+98    14      57.6k                                                          
+99    15      61.7k                                                          
+100   16      66.0k                                                          
+101   17      70.3k                                                          
+102   18      76.9k                                                          
+103   19      81.4k                                                          
+104   20      88.3k                                                          
+105   21      95.4k                                                          
+106   22     102.8k                                                          
+107   23     110.3k                                                          
+108   24     120.7k                                                          
+109   25     128.9k                                                          
+110   26     137.2k                                                          
+111   27     148.8k                                                          
+112   28     160.8k                                                          
+(Note that the same bandwidth applies to the entire set of channels in       
+band.)                                                                       
+                                                                             
+                                                                             
+Table 3.  High Frequency Receiver (HFR) Channels                             
+                                                                             
+HFR                  Center Frequency                                        
+Channel    mf             (MHz)                                              
+1          1, 2          0.1008                                              
+2          5, 6          0.1134                                              
+3          9, 10         0.1260                                              
+4          13, 14        0.1386                                              
+5          17, 18        0.1512                                              
+6          21, 22        0.1638                                              
+7          25, 26        0.1764                                              
+8          3, 4          0.2016                                              
+9          7, 8          0.2268                                              
+10         1, 12         0.2520                                              
+11         5, 16         0.2772                                              
+12         9, 20         0.3024                                              
+13         3, 24         0.3276                                              
+14         7, 28         0.3528                                              
+15         1             0.4032                                              
+16         5             0.4536                                              
+17         9             0.5040                                              
+18         13            0.5544                                              
+19         17            0.6048                                              
+20         21            0.6552                                              
+21         25            0.7056                                              
+22         2             0.8060                                              
+23         6             0.9070                                              
+24         10            1.008                                               
+25         14            1.109                                               
+26         18            1.210                                               
+27         22            1.310                                               
+28         26            1.411                                               
+29         3             1.613                                               
+30         7             1.814                                               
+31         11            2.016                                               
+32         15            2.218                                               
+33         19            2.419                                               
+34         23            2.621                                               
+35         27            2.822                                               
+36         4             3.226                                               
+37         8             3.629                                               
+38         12            4.032                                               
+39         16            4.435                                               
+40         20            4.838                                               
+41         24            5.242                                               
+42         28            5.645                                               
+(The bandwidth for all channels is 1340 Hz)                                  
+                                                                             
+Mounting Offsets:                                                            
+                                                                             
+The electric antenna is mounted at the end of the magnetometer               
+boom such that its effective axis is parallel to the spacecraft X            
+axis (perpendicular to both the magnetometer boom and the spacecraft         
+spin axis.  The low frequency magnetic search coil is mounted with its       
+effective axis parallel to the spacecraft X axis and the high frequency      
+search coil is parallel to the spacecraft Y axis (perpendicular to the       
+X axis and to the spacecraft spin axis.                                      
+                                                                             
+Field of View:                                                               
+                                                                             
+The field of view of the PWS, whether from the electric dipole               
+antenna or one of the magnetic search coils is a standard dipole             
+antenna pattern which has a maximum sensitivity to the field along the       
+axis of the sensor.  For radio waves which propagate above the               
+characteristic frequencies of the plasma and which do not interact with      
+the local plasma, this means maximum sensitivity is to sources in a          
+plane perpendicular to the antenna axis, since the electric and              
+magnetic fields of a radio wave are normally perpendicular to the            
+propagation vector.                                                          
+                                                                             
+Data Rates:                                                                  
+                                                                             
+The basic low rate science (LRS) data rate of the instrument is              
+240 bps. Wideband waveform receiver data rates range from 19.2               
+kbps to 806.4 kbps, depending on the telemetry mode.  Rates of 94._          
+kbps and lower can be either recorded on the spacecraft tape recorder        
+or transmitted directly to the ground; rates of 403.2 and 806.4 kbps         
+can only be recorded onboard for later playback at lower rates.              
+                                                                             
+Instrument Modes:                                                            
+                                                                             
+The PWS has several modes of operation.  The SA and SFR can either           
+monitor only the electric antenna, only the magnetic antenna, or toggle      
+back and forth between the two, obtaining a complete spectral scan from      
+each antenna before switching to the other.  This toggling mode is the       
+most commonly utilized mode.  There is also a mode which enables the         
+magnetic search coil calibration tone.  When enabled, the calibration        
+signal is excited for 56 mf (37.33 sec) at the beginning of each             
+MOD(RIM,8)=0 until disabled.                                                 
+                                                                             
+The wideband receiver has three basic modes (analysis bandwidths)            
+and can be attached to either the electric antenna or the magnetic.          
+The three modes provide analysis bandwidths of 10 kHz, 80 kHz, and           
+1 kHz although there is an additional mode which toggles between the         
+10 kHz and 1 kHz mode.  In this mode, the waveform data is collected         
+for 14 mf (9.33 sec) in one bandwidth and then for 14 mf in the other        
+bandwidth.                                                                   
+                                                                             
+A wide range of telemetry formats are available for the wideband             
+data. For any one of the three wideband modes, the instantaneous             
+data rate is fixed (806.4 kbps for the 80 kHz mode, 100.8 kbps for the       
+10 kHz mode, and 12.6 kbps for the 1 kHz mode.  However, the different       
+telemetry modes differ primarily in the number of consecutive samples        
+collected during an RTI.  This results in a variation in the duty cycle      
+depending on the data rate allocated to this data stream in the              
+selected telemetry mode.                                                     
+                                                                             
+Phase 2 Software Implications:                                               
+                                                                             
+In response to the failure of the high gain antenna and the                  
+resulting reduction in downlink telecommunications capabilities for the      
+Galileo spacecraft, the Galileo Project undertook a massive                  
+re-programming of onboard software in order to enable science                
+observations in Jupiter orbit.  Coupled with flight software changes,        
+modifications to the Deep Space Network were also undertaken to improve      
+the overall downlink capability from the spacecraft.  Together, these        
+actions increased the actual bit-to-ground capability from a maximum of      
+about 10 bps to a maximum of 160 bps.  In addition, onboard data             
+compression was implemented which increased the information content of       
+the downlink by roughly a factor of 10.                                      
+                                                                             
+The PWS instrument has no microprocessor; all of its functions               
+are hardwired, hence, no reprogramming of the instrument itself was          
+possible.  One result of this is that the basic timing of the                
+instrument is identical to that described in the section above.              
+However, significant software additions in the CDS and AACS were             
+implemented which enable the PWS to perform its basic observations at        
+dramatically lower data rates.  These changes can be categorized simply      
+as editing and compression. The LRS observations are edited as               
+described below to reduce the observations retained for downlink from        
+240 bps to 65 bps.  The remaining 65 bps LRS data stream is then             
+compressed using the same integer cosine transform (ICT) algorithm as        
+used for the Solid State Imaging (SSI) data.  The severity of this           
+compression is variable and can range from 40 bps to 5 bps, with 5 bps       
+being the most often utilized data rate. The wideband data are not           
+compressed and are minimized through editing functions only.  In             
+addition, a new wideband telemetry mode was developed which uses bit         
+allocations in the original LRS telemetry frame originally reserved for      
+Golay encoding to produce a mode with drastically reduced data rate          
+requirements.                                                                
+                                                                             
+Realtime Science                                                             
+                                                                             
+LRS Editing and Compression:  The original PWS LRS data                      
+stream is edited to reduce the data rate before compression from 240         
+bps to 65 bps.  First, the 120 bits of waveform survey data are edited       
+out of the data stream.  Second, all housekeeping and status                 
+information is removed; if one assumes that the sequenced commands are       
+executed properly and the instrument timing is maintained, the status        
+of the instrument can be unambiguously determined from the most recent       
+mode command and the current spacecraft clock.  A recorded mode like         
+the original LRS but now called LPW preserves the full, original PWS         
+LRS data stream and can be used to compare realtime science with the         
+full data steam at limited times in case questions arise about the           
+assumptions of correct command execution or instrument timing.  Third,       
+only one sample per channel is preserved in a given 18.67-second             
+instrument cycle.  Accordingly, only the first sample of the four SA         
+channels are retained and only the first sample of the lower frequency       
+HFR channels are retained.  Further, since there is an overlap between       
+the upper frequency range of Band 4 of the MFR with the lower range          
+of the HFR, and since the HFR has better sensitivity over this range,        
+the highest frequency 6 channels of MFR band 4 are edited out.  What         
+remains is a single sample of each of 152 of the original 158 channels       
+in the low rate portion of the instrument.  This is the data stream          
+which is forwarded to the AACS for ICT compression.                          
+                                                                             
+The ICT compression works on 8x8 pixel blocks of an image.                   
+Since The PWS dynamic spectrogram can be thought of as an                    
+image, the compression algorithm can be used to compress the                 
+spectrogram prior to transmission to the ground.  One complication is        
+that the PWS generally alternates between a magnetic and electric            
+spectrum (at least for the SA and MFR channels) and the resulting            
+alternating spectra add entropy to the 'image' and thereby reduce the        
+compressibility of the data set.  Therefore, the electric and magnetic       
+spectra are separated or 'unzipped' prior to compression.  Also, it is       
+necessary to build up 8x8 blocks of the spectrogram.  152 channels can       
+be broken into 19 8-channel segments, hence, 8 electric and 8 magnetic       
+spectra are accumulated in order to make an 8x152 pixel strip (19 8x8        
+blocks) of electric field data and a similar strip for the magnetic          
+data.  (Note that the electric HFR data is included with the magnetic        
+strip so that the 18.67-sec samples of the HFR channels are preserved.)      
+ Hence, data is collected on 16 x 18.67 second time intervals (about 5       
+minutes) in order to build the two 8x152 pixel strips.  Each of the          
+strips is compressed individually with all 19 8x8 blocks in each being       
+used to generate a downlink packet.  Since transmission errors will          
+make decompression impossible for all data following the error, a            
+5-minute gap will appear for any packet with a telemetry error.              
+Fortunately, telemetry errors are very infrequent and the data which         
+reaches the ground intact is virtually immune from the spikes typical        
+of bursty bit errors in an uncompressed telemetry stream.                    
+                                                                             
+Once on the ground, the electric and magnetic strips are                     
+decompressed and 'zipped' back together in the original time order.          
+This allows sequential electric (or magnetic) spectra to be maintained       
+together in the event the instrument is not cycled between E and B           
+sweeps. The net result of this compression/decompression scheme is that      
+the full temporal and spectral resolution of the PWS instrument is           
+maintained even though the real data rate to the ground is as low as 5       
+bps.  Of course, as in any lossy compression scheme, information is          
+lost.  By maintaining the spectral and temporal resolution, the loss in      
+the resulting data set is in amplitude inaccuracy.  Based on both            
+ground experimentation and analysis of the Jupiter data, we believe the      
+amplitude errors at 5 bps are no more than about 6 dB and are much less      
+at the higher data rates (less severe compression).  At 5 bps these          
+amplitude errors appear as 'tiling' in which all pixels in a given 8x8       
+block have similar values but are different from adjoining 8x8 blocks        
+or else the 8x8 blocks take on a checkerboard appearance.  The errors        
+do not appear to be systematic, hence, we believe that averaging pixels      
+in frequency and time over regions of the spectrogram where the              
+spectrum appears to be 'simple' could provide a better estimate of the       
+true signal strength.  Generally, however, the 5 dB accuracy will            
+enable a wide range of studies without need to know the absolute             
+amplitude better than a few dB.                                              
+                                                                             
+Recorded Data                                                                
+                                                                             
+LRS data:  When PWS data are recorded, the full LRS data stream              
+is recorded and played back.  This includes all status bits,                 
+additional samples of multiply-sampled channels (e.g. SA channels), and      
+the waveform survey data.  The discussion of data in the original            
+instrument description is fully applicable in this case.                     
+                                                                             
+Wideband data:  The wideband data suffered the most through the              
+process of reducing the downlink requirements.  Nevertheless, a minimal      
+wideband capability was retained.  Beginning with the Io flyby, a new        
+data mode was introduced which replace the Golay encoding bits formerly      
+used for the LRS data format with PWS wideband data in the LPW format.       
+This mode is called LPW and is usually modified with the term Golay          
+bits to distinguish these data from the low rate data.  All three of         
+the bandwidths (wideband modes) can be used with the LPW format and for      
+each, a total of 832(????) contiguous 4-bit samples are acquired.            
+However, these 832 samples are recorded only once per 2 minor frames,        
+or 2.67 seconds, hence, the best spectral temporal resolution (temporal      
+resolution of Fourier transforms assuming 1 transform per set of             
+contiguous samples) is 2.67 seconds.  The spectral resolution (416           
+spectral components is very competitive with the HPW (94._ kbps mode)        
+but the temporal resolution is poorer by a factor of about 50.  It           
+is this mode, however, which is used for virtually all of the orbital        
+tour recording.                                                              
+                                                                             
+Some of the original wideband telemetry modes were eliminated                
+and those which remain (in addition to the LPW/Golay bits) are MPW,          
+MPP, and HPW.  These provide 7.68, 19.2, and 94._ kbps, respectively.        
+In practice, the LPW/Golay bits provides superior spectral resolution        
+over the MPW mode at significantly reduced bit rate (due to the              
+poor temporal resolution) and the MPW mode is not utilized in the            
+tour.  Limited use of the MPP and HPW modes is included in the tour          
+data set, however.                                                           
+                                                                             
+For all the wideband telemetry modes, an additional capability               
+for reducing the downlink requirements was implemented.  This is             
+an editing function often referred to as '1 of n-line editing' and           
+consists of returning 1 of every n sets of contiguous samples recorded.      
+Most of the tour data were returned with n = 2 or n = 4 so that              
+the temporal resolution of the Fourier transformed spectra are a factor      
+of 2 or 4 poorer than the original recorded data.  For example, in           
+the LPW/Golay bits mode, if n = 2, the time between returned spectra         
+is not 2.67 seconds, but 5.33 seconds.  Reducing the number of samples       
+in a contiguous set of samples by returning every nth sample was             
+never considered because this would under sample the waveform and            
+lead to aliasing problems.  Likewise, truncating the number of               
+samples in a set would reduce the spectral resolution, thereby               
+defeating the remaining attribute of the wideband data."                     
 
 
-    </Description>
+</Description>
       <Acknowledgement/>
             <Contact>
                 <PersonID>spase://SMWG/Person/Donald.A.Gurnett</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact>
+</Contact>
             <Contact>
                 <PersonID>spase://SMWG/Person/William.S.Kurth</PersonID>
                 <Role>CoInvestigator</Role>
-            </Contact>
+</Contact>
       <InformationURL>
         <Name>Instrument home page at The University of Iowa</Name>
         <URL>http://www-pw.physics.uiowa.edu/galileo/</URL>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Experiment Details at the National Space Science Data Center (NSSDC)</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1989-084B-07</URL>
-      </InformationURL>
-    </ResourceHeader>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1989-084B-07</URL>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Antenna</InstrumentType>
-    <InstrumentType>SearchCoil</InstrumentType>    
+    <InstrumentType>SearchCoil</InstrumentType>
     <InvestigationName>Plasma Wave Spectrometer</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Galileo</ObservatoryID>
     <Caveats/>
-  </Instrument>
+</Instrument>
 </Spase>

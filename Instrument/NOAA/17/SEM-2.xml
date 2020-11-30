@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.0.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/NOAA/17/SEM-2</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Space Environment Monitor-2 (SEM-2)</ResourceName>
+      <AlternateName>SEM-2</AlternateName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The Space Environment Monitor-2 (SEM-2) on the Advanced TIROS-N (ATN) NOAA K-N series of polar orbiting meteorological satellites provides measurements to determine the population of the Earth's radiation belts and data on charged particle precipitation in the upper atmosphere as a result of solar activity. The SEM-2 consists of two separate sensors the Total Energy Detector (TED) and the Medium Energy Proton/Electron Detector (MEPED). In addition, the SEM-2 includes a common Data Processing Unit (DPU). The TED uses eight programmed swept electrostatic curved-plate analyzers to select particle type and energy and Channeltron detectors to measure the intensity in the selected energy bands. The particle energies range from 50 eV to 20 keV. The MEPED detects protons, electrons, and ions with energies from 30keV to several tens of MeV. The MEPED consists of four directional solid-state detector telescopes and four omnidirectional sensors. The DPU sorts and counts the events and the results are multiplexed and incorporated into the satellite telemetry system. Once received on the ground, the SEM-2 data is separated from the rest of the data and sent to the NOAA Space Environment Laboratory in Boulder, CO for processing and dissemination.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/R.Bushnell</PersonID>
+        <Role>PrincipalInvestigator</Role>
+</Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2002-032A&amp;ex=5</URL>
+        <Description>Information about the Space Environment Monitor-2 (sem-2) experiment on the NOAA 17 mission.</Description>
+</InformationURL>
+      <PriorID>spase://SMWG/Instrument/NOAA17/SEM</PriorID>
+</ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Space Environment Monitor-2 (SEM-2) on NOAA 17</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/NOAA/17</ObservatoryID>
+</Instrument>
+</Spase>

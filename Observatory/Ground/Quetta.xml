@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Quetta</ResourceName>
          <AlternateName>Observatory Station Code: QUE</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-09-25T12:34:56.789</ReleaseDate>
          <Description>The Quetta geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Pakistan Meteorological Department, Geophysical Centre</Acknowledgement>
          <Contact>
@@ -26,9 +26,12 @@
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>30.187</Latitude>
          <Longitude>66.95</Longitude>
+		 <Elevation>1737.0</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>1965-01-01T00:00:00.000</StartDate>
+		 <StopDate>1965-12-31T23:59:59</StopDate>
+		 <Note>Exact start and stop date is unclear.</Note>
       </OperatingSpan>
    </Observatory>
 </Spase>

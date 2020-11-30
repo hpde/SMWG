@@ -8,53 +8,53 @@
     <ResourceHeader>
       <ResourceName>Helios-2 E5A Plasma Wave Experiment</ResourceName>
       <AlternateName>Solar Wind Plasma Wave</AlternateName>
-      <ReleaseDate>2012-04-16T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>
 The University of Iowa plasma wave experiment on Helios 2 provided measurements of electric field intensities in the frequency range from 31 Hz to 178 kHz. This frequency range includes most of the characteristic frequencies of the plasma (the electron plasma frequency, the ion plasma frequency and the electron gyrofrequency) expected in the solar wind from 0.3 to 1.0 AU (the nominal perihelion and aphelion distances for the Helios mission).
 
-This experiment (E5a) shared the 32-m, tip-to-tip electric antenna with experiments E5b and E5c. The electric dipole antenna extended outward perpendicular to the spin axis. 
+This experiment (E5a) shared the 32-m, tip-to-tip electric antenna with experiments E5b and E5c. The electric dipole antenna extended outward perpendicular to the spin axis.
 
 The instrument consisted of a 16-channel spectrum analyzer with approximately logarithmically equispaced center frequencies, 16 log compressors, 16 R-C integrators for averaging the log-compressed, electric field amplitude between readouts, and 16 peak detectors which were reset after readout. The 16 averages and 16 peak log values were sampled almost simultaneously. The channels covered the frequency range of about 20 Hz to 200 kHz, with four channels per decade of frequency. The log compressors had a dynamic range of 100 dB. Sampling rate depended in detail on the spacecraft bit rate and telemetry format. The fastest real-time telemetered rate was for 16 averages and 16 peak values to be sampled every 1.125 s. Whenever a very strong signal was detected in a pre-selected channel, the shock alarm data mode was initiated in which the electric field spectrum, magnetic field, and plasma data were recorded into spacecraft memory for a period starting before and terminating after the triggering signal time. The maximum sampling rate of the spectrum data in this mode was 14.2 samples per s for each channel. Interference, caused by solar cell noise, occurred primarily in the lowest six channels, and harmonics were related to the spin frequency and the spacecraft sheath. However, a combination of factors, including the proper deployment of the dipole antenna and the conductive spacecraft coating, resulted in data from this spacecraft being of higher quality than data from Helios-A. For further details, see pp. 245-247 of Raumfahrtforschung, v. 19, n. 5, 1975.
-      </Description>
+</Description>
       <Acknowledgement>Please acknowledge PI Donald Gurnett and The University of Iowa</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Donald.A.Gurnett</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Siegfried.J.Bauer</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Paul.J.Kellogg</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.G.Stone</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/H.Kent.Hills</PersonID>
         <Role>TechnicalContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Helios 1 and 2 Plasma Wave Experiment</Name>
         <URL>http://www-pw.physics.uiowa.edu/plasma-wave/helios/home.html</URL>
         <Description>Access to Science Summary, Publications and Data from The University of Iowa Helios E5A Plasma Wave Experiment</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Helios Final Report-May 1986</Name>
         <URL>http://www-pw.physics.uiowa.edu/plasma-wave/helios/data2/doc/helios1.txt</URL>
         <Description>Information about the Solar Wind Plasma Wave scientific objectives, instrumentation, anomalies, and details on the data format from the E5a experiment on the Helios-2 mission.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1976-003A-04</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1976-003A-04</URL>
         <Description>Information about the Solar Wind Plasma Wave experiment on the Helios-B mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Antenna</InstrumentType>
     <InvestigationName>Solar Wind Plasma Wave on Helios-2</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Helios2</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

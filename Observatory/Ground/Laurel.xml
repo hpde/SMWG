@@ -5,7 +5,8 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Laurel</ResourceID>
       <ResourceHeader>
          <ResourceName>Laurel Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+		 <AlternateName>Observatory Station Code: LREL</AlternateName>
+         <ReleaseDate>2018-07-26T12:34:56.789</ReleaseDate>
          <Description>Laurel (LREL) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: United States Air Force Academy, University of California, Los Angeles</Acknowledgement>
          <Contact>
@@ -22,11 +23,12 @@
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
       </ResourceHeader>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>39.1</Latitude>
-         <Longitude>283.2</Longitude>
+         <Latitude>39.10</Latitude>
+         <Longitude>283.15</Longitude>
       </Location>
       <OperatingSpan>
          <StartDate>2012-01-01T00:00:00.000</StartDate>

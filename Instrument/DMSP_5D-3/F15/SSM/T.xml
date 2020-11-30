@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/DMSP_5D-3/F15/SSM/T</ResourceID>
+      <ResourceHeader>
+         <ResourceName>DMSP/F15, Special Sensor Microwave Temperature Sounder, SSM/T</ResourceName>
+         <ReleaseDate>2017-08-23T12:34:56.789</ReleaseDate>
+         <Description>DMSP/F15, Special Sensor Microwave Temperature Sounder, SSM/T, The SSM/T is a seven channel, cross track nadir scanning passive microwave sounder having a field of view of 14.4 degrees. It measures the Earth&apos;s surface and atmospheric emission in the 50 to 60 GHz oxygen band. At nominal altitude, the subtrack spatial resolution is a circle of 174 km at nadir and an ellipse of 213x304 km toward the limb. There are seven total cross-track scan positions separated by 12 degrees at frequencies 50.5, 53.2, 54.35, 54.9, 58.4, 58.825 and 59.4 GHz.</Description>
+         <Acknowledgement>DMSP Data Manager, NOAA National Environmental Satellite, Data, and Information Service, NESDIS</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/DMSP.Data.Manager</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Special Sensor Microwave Temperature Sounder Web Site</Name>
+            <URL>https://www.wmo-sat.info/oscar/instruments/view/534</URL>
+            <Description>Special Sensor Microwave Temperature Sounder, SSM/T, Information and Details</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Sounder</InstrumentType>
+      <InvestigationName>Defense Meteorological Satellite Program, DMSP</InvestigationName>
+      <OperatingSpan>
+         <StartDate>1999-12-12T00:00:00</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/DMSP_5D-3/F15</ObservatoryID>
+   </Instrument>
+</Spase>

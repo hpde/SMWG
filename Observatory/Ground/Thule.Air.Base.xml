@@ -5,32 +5,40 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Thule.Air.Base</ResourceID>
       <ResourceHeader>
          <ResourceName>Thule Air Base Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+   <AlternateName>Observatory Station Code: TAB</AlternateName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>Thule Air Base (TAB) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: UiT The Arctic University of Norway</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Truls.Lynne.Hansen</PersonID>
             <Role>PrincipalInvestigator</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
-         </InformationURL>
-      </ResourceHeader>
+</InformationURL>
+   <InformationURL>
+     <Name>Technical University of Danmark</Name>
+     <URL>https://www.space.dtu.dk/English/Research/Scientific_data_and_models/Magnetic_Ground_Stations.aspx</URL>
+     <Description>Introduction to the DTU magnetometer data, plots, maps, etc.</Description>
+</InformationURL>
+</ResourceHeader>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/DTU</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>76.5</Latitude>
          <Longitude>291.2</Longitude>
          <Elevation>0.0</Elevation>
-      </Location>
+</Location>
       <OperatingSpan>
          <StartDate>2013-07-01T00:00:00.000</StartDate>
-      </OperatingSpan>
-   </Observatory>
+</OperatingSpan>
+</Observatory>
 </Spase>

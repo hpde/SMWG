@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Observatory>
         <ResourceID>spase://SMWG/Observatory/IGS</ResourceID>
         <ResourceHeader>
             <ResourceName>International GNSS Service (IGS)</ResourceName>
-	    <AlternateName>International GPS Service</AlternateName>
-            <ReleaseDate>2012-04-24T00:00:00Z</ReleaseDate>
+     <AlternateName>International GPS Service</AlternateName>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>The IGS global system of satellite tracking stations, Data Centers, and Analysis
 Centers puts high-quality GPS data and data products on line in near real time
 to meet the objectives of a wide range of scientific and engineering
@@ -20,9 +20,9 @@ products are sufficient for the improvement and extension of the International
 Terrestrial Reference Frame (ITRF), the monitoring of solid Earth deformations,
 the monitoring of Earth rotation and variations in the liquid Earth (sea level,
 ice-sheets, etc.), for scientific satellite orbit determinations, ionosphere
-monitoring, and recovery of precipitable water vapor measurements.  
+monitoring, and recovery of precipitable water vapor measurements. 
 The primary mission of the International GPS Service, as stated in the
-organization's 2002-2007 Strategic Plan, is 
+organization's 2002-2007 Strategic Plan, is
     The International GPS Service provides quality data and products as the standard for global navigation satellite systems (GNSS)
 in support of Earth science research, multidisciplinary applications, and
 education. These activities aim to advance scientific understanding of the Earth
@@ -39,7 +39,7 @@ maintains the Central Bureau Information System (CBIS) and ensures access to IGS
 products and information. An international Governing Board oversees all aspects
 of the IGS.  The IGS is an approved service of the International Association of
 Geodesy since 1994 and is recognized as a member of the Federation of
-Astronomical and Geophysical Data Analysis Services (FAGS) since 1996. 
+Astronomical and Geophysical Data Analysis Services (FAGS) since 1996.
      The IGS collects, archives, and distributes GPS observation data sets of
 sufficient accuracy to meet the objectives of a wide range of scientific and
 engineering applications and studies. These data sets are used to generate the
@@ -50,22 +50,22 @@ following products:
   * IGS tracking station coordinates and velocities
   * GPS satellite and IGS tracking station clock information
   * Zenith tropospheric path delay estimates
-  * Global ionospheric maps 
-           </Description>
+  * Global ionospheric maps
+</Description>
             <Contact>
-                <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>  
+                <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
                 <Role>GeneralContact</Role>
-            </Contact> 
+</Contact>
             <InformationURL>
-                <Name>The International GNSS Service </Name>
-                <URL>http://igscb.jpl.nasa.gov/</URL>
+                <Name>The International GNSS Service</Name>
+                <URL>http://www.igs.org/</URL>
                 <Description>Information about IGS</Description>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
         <Location>
             <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
-          </Location>
-    </Observatory>
+</Location>
+</Observatory>
 </Spase>
 
 

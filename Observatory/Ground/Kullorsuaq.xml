@@ -5,36 +5,40 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Kullorsuaq</ResourceID>
       <ResourceHeader>
          <ResourceName>Kullorsuaq Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+   <AlternateName>Observatory Station Code: KUV</AlternateName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>Kullorsuaq (KUV) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: DTU Space, Denmark</Acknowledgement>
          <Contact>
-            <PersonID>spase://SMWG/Person/Claudia.Stolle</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Juergen.Matzka</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
+     <PersonID>spase://SMWG/Person/Anna.Naemi.Willer</PersonID>
+     <Role>GeneralContact</Role>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
-         </InformationURL>
-      </ResourceHeader>
+</InformationURL>
+   <InformationURL>
+     <Name>Technical University of Danmark</Name>
+     <URL>https://www.space.dtu.dk/English/Research/Scientific_data_and_models/Magnetic_Ground_Stations.aspx</URL>
+     <Description>Introduction to the DTU magnetometer data, plots, maps, etc.</Description>
+</InformationURL>
+</ResourceHeader>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/DTU</ObservatoryGroupID>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>74.6</Latitude>
-         <Longitude>302.8</Longitude>
+         <Latitude>74.57</Latitude>
+         <Longitude>302.82</Longitude>
          <Elevation>1.0</Elevation>
-      </Location>
+</Location>
       <OperatingSpan>
          <StartDate>2007-01-01T00:00:00.000</StartDate>
-      </OperatingSpan>
-   </Observatory>
+</OperatingSpan>
+</Observatory>
 </Spase>

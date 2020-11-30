@@ -6,20 +6,20 @@
     <ResourceHeader>
       <ResourceName>Electric Field Detector (OEFD)</ResourceName>
       <AlternateName>OEFD</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:14Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>This experiment consisted of a modified version of the Pioneer 8 and Pioneer 9 experiments to measure the electric-field components in four 30%, narrow-band channels centered at 100, 730, 7350, and 30,000 Hz. The aims of the investigation were to perform an analysis of VLF electric fields at Venus and to elucidate the plasma interactions between the solar wind and the ionospheric or exospheric plasma. The role of plasma instabilities in modifying the heat flux from the solar wind and in thermalizing newly-born ions from Venus was also studied. A self-contained balanced V-type antenna with a differential preamplifier was employed to make the measurements. At the 512 bps satellite mode, one frequency scan per second was obtained.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.J.Strangeway</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1978-051A&amp;ex=13</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1978-051A&amp;ex=13</URL>
         <Description>Information about the Electric Field Detector (OEFD) experiment on the Pioneer Venus Orbiter mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Antenna</InstrumentType>
     <InvestigationName>Electric Field Detector (OEFD) on Pioneer Venus Orbiter</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/PioneerVenusOrbiter</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

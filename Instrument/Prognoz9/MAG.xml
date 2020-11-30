@@ -5,10 +5,10 @@
     <ResourceID>spase://SMWG/Instrument/Prognoz9/MAG</ResourceID>
     <ResourceHeader>
       <ResourceName>Triaxial Fluxgate Magnetometer</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:14Z</ReleaseDate>
-      <Description>SG-70 fluxgate magnetometer provided by 
-IZMIRAN's Space Magnetic Research Laboratory. The magnetometer had 
-a range of +/- 60 nT and an accuracy of about 0.3 nT.  
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>SG-70 fluxgate magnetometer provided by
+IZMIRAN's Space Magnetic Research Laboratory. The magnetometer had
+a range of +/- 60 nT and an accuracy of about 0.3 nT. 
 It made one vector measurement every 10.24 sec.
 
 Magnetic field measurements on the Prognoz satellites
@@ -17,19 +17,19 @@ Magnetic field measurements on the Prognoz satellites
       <Contact>
         <PersonID>spase://SMWG/Person/Valery.G.Petrov</PersonID>
         <Role>DataProducer</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1983-067A-03</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1983-067A-03</URL>
         <Description>Information about the Triaxial Fluxgate Magnetometer experiment on the Prognoz 9 mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Triaxial Fluxgate Magnetometer on Prognoz 9</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Prognoz9</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

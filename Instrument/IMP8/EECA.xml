@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/IMP8/EECA</ResourceID>
     <ResourceHeader>
       <ResourceName>Solid-State Detectors</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:02Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>This experiment was designed to determine the composition and energy spectra of low-energy particles observed during solar flares and 27-d recurrent events. The detectors used included (1) an electrostatic analyzer (to select particles of the desired energy per charge) combined with an array of windowless solid-state detectors (to measure the energy loss) and surrounded by an anticoincidence shield, and (2) a thin-window proportional counter, solid-state particle telescope. The experiment measured particle energies from 0.1 to 10 MeV per charge in 12 bands and uniquely identified positrons and electrons as well as nuclei with charges of Z from 1 to 8 (no charge resolution for Z greater than 8). Two 1000-channel pulse-height analyzers, one for each detector, were included in the experiment payload.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Fred.M.Ipavich</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1973-078A&amp;ex=3</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1973-078A&amp;ex=3</URL>
         <Description>Information about the Solid-State Detectors experiment on the IMP-J mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Solid-State Detectors on IMP-J</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/IMP8</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

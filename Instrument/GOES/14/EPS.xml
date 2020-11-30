@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Instrument/GOES/14/EPS</ResourceID>
     <ResourceHeader>
       <ResourceName>Energetic Particle Monitor</ResourceName>
-      <ReleaseDate>2013-01-29T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The EPS, developed by Assurance Technology Corporation (ATC), (Formerly GE Panametrics
 Corp.) in Carlisle, Massachusetts measures the energetic particles at geosynchronous orbit,
 including protons, electrons, and alpha particles. The radiation in the environment consists of
@@ -35,23 +35,23 @@ accuracy.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>GOES N, O, and P Brochure</Name>
-        <URL>http://goes.gsfc.nasa.gov/text/brochure/GOES_NOP_print.pdf</URL>
+        <URL>https://goes.gsfc.nasa.gov/text/brochure/GOES_NOP_print.pdf</URL>
         <Description>Information about the EPS onboard GOES 13-15.</Description>
         <Language>en</Language>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>GOES N, O, and P EPS Documentation</Name>
-        <URL>http://ngdc.noaa.gov/stp/satellite/goes/documentation.html</URL>
+        <URL>https://ngdc.noaa.gov/stp/satellite/goes/documentation.html</URL>
         <Description>Information about the EPS onboard GOES 13-15.</Description>
         <Language>en</Language>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://SMWG/Instrument/GOES/14/EPS</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Energetic Particle Sensor on GOES 14</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/GOES/14</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

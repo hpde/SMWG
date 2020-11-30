@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/DoubleStar1/HEPD</ResourceID>
     <ResourceHeader>
       <ResourceName>HEPD (High Energy Proton Detector)</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:13Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>HEPD (High Energy Proton Detector) detects energetic protons in the magnetosphere and solar wind.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2003-061A&amp;ex=7</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2003-061A&amp;ex=7</URL>
         <Description>Information about the HEPD (High Energy Proton Detector) experiment on the Double Star 1 mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>HEPD (High Energy Proton Detector) on Double Star 1</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/DoubleStar1</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

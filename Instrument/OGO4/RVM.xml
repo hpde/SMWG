@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.2.4</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/OGO4/RVM</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Magnetic Survey, Rubidium Vapor Magnetometer</ResourceName>
+      <AlternateName>RVM</AlternateName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>A continuation of the only complete pole-to-pole survey (started by OGO 2) of the earth's magnetic field was conducted with the optically pumped, self-oscillating rubidium magnetometer aboard OGO 4. Magnetic fields were monitored with a time resolution of 0.5 s from launch until January 19, 1969, when the instrument failed. The instrument produced scalar magnetic field measurements with an absolute accuracy of better than 2.5 nT throughout its operational lifetime. Data from this instrument may be used to study changes in field magnitude of greater than that amount. The dynamic range of the instruments extends to 6.4E4 nT.</Description>
+      <Acknowledgement>National Aeronautics and Space Administration; Dr. Robert A. Langel, III; Dr. Joseph C. Cain;</Acknowledgement>
+      <Contact>
+         <PersonID>spase://SMWG/Person/Joseph.C.Cain</PersonID>
+         <Role>PrincipalInvestigator</Role>
+</Contact>
+      <Contact>
+         <PersonID>spase://SMWG/Person/Robert.A.Langel.III</PersonID>
+         <Role>CoInvestigator</Role>
+</Contact>
+      <InformationURL>
+        <Name>The OGO-4 Rubidium Vapor Magnetometer</Name>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1967-073A-06</URL>
+        <Description>Information about the Rubidium Vector Magnetometer.</Description>
+        <Language>en</Language>
+</InformationURL>
+      <PriorID>spase://SMWG/Instrument/OGO4/RVM</PriorID>
+</ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Magnetic Survey, Rubidium Vapor Magnetometer on the OGO-4 spacecraft</InvestigationName>
+    <OperatingSpan>
+      <StartDate>1967-07-29T06:22:13Z</StartDate>
+      <StopDate>1969-01-19T12:16:32Z</StopDate>
+</OperatingSpan>
+    <ObservatoryID>spase://SMWG/Observatory/OGO4</ObservatoryID>
+</Instrument>
+</Spase>

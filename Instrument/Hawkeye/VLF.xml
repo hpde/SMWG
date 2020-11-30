@@ -7,15 +7,15 @@
       <ResourceName>Hawkeye VLF</ResourceName>
       <AlternateName>Hawkeye Plasma Wave Experiment</AlternateName>
       <AlternateName>ELF/VLF Receivers on Hawkeye 1</AlternateName>
-      <ReleaseDate>2011-03-25T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>
-This experiment measured electric and magnetic fields using a 42.45-m electric dipole (tip-to-tip) which extended perpendicular to the spin axis and a search coil antenna deployed 1.58 m from the spacecraft. The electric field spectrum measurements were made in 16 logarithmically spaced frequency channels extending from 1.78 Hz to 178 kHz, and dc electric fields were also measured. The bandwidth of these channels varied from 7.5% to 30% depending on center frequency. Channel sensitivity and dynamic range were 1E-6 V/m and 100 dB, respectively. A wideband receiver was also used, with two selectable bandwidth ranges: 0.15 to 10 kHz or 1 to 45 kHz. The magnetic field spectrum was measured in eight discrete, logarithmically spaced channels from 1.78 Hz to 5.62 kHz. The bandwidth of these channels varied from 7.5% to 30% depending on frequency. The dynamic range was 100 dB, and the sensitivity ranged from 0.1 nT at 1.78 Hz to 3.4E-4 nT at 5.62 kHz. The wideband receiver described above could be used with the magnetic antenna. Each discrete channel was sampled once every 11.52 s. 
+This experiment measured electric and magnetic fields using a 42.45-m electric dipole (tip-to-tip) which extended perpendicular to the spin axis and a search coil antenna deployed 1.58 m from the spacecraft. The electric field spectrum measurements were made in 16 logarithmically spaced frequency channels extending from 1.78 Hz to 178 kHz, and dc electric fields were also measured. The bandwidth of these channels varied from 7.5% to 30% depending on center frequency. Channel sensitivity and dynamic range were 1E-6 V/m and 100 dB, respectively. A wideband receiver was also used, with two selectable bandwidth ranges: 0.15 to 10 kHz or 1 to 45 kHz. The magnetic field spectrum was measured in eight discrete, logarithmically spaced channels from 1.78 Hz to 5.62 kHz. The bandwidth of these channels varied from 7.5% to 30% depending on frequency. The dynamic range was 100 dB, and the sensitivity ranged from 0.1 nT at 1.78 Hz to 3.4E-4 nT at 5.62 kHz. The wideband receiver described above could be used with the magnetic antenna. Each discrete channel was sampled once every 11.52 s.
 
 Additional details from NASA's CDAWeb:
 
                          Electric Antenna
-                         
-                         
+                        
+                        
 The electric antenna on HAWKEYE consisted of two extendible beryllium copper
 elements 0.025 inch in diameter which could be extended to a maximum tip-to-tip
 length of 42.7 m. Except for the outermost 6.1 m of each element, which had a
@@ -33,8 +33,8 @@ retract the antenna to reduce the spacecraft drag.
 
 
                    Magnetic Antenna
-                   
-                   
+                  
+                  
  The magnetic antenna for this experiment consisted of a search coil with a high
 permeability core mounted on a boom approximately 1.5 m. from the centerline of
 the spacecraft body. The boom was a three element telescoping device developed
@@ -51,7 +51,7 @@ spacecraft body. The frequency range of the search coil antenna was from 1.0 Hz
 to 10.0 kHz.
 
                          Electronics
-                         
+                        
  The potential difference between the electric antenna elements was amplified by
 a high input impedance differential amplifier to provide a 0 to 5 volt analog
 voltage, V-Diff, to the spacecraft encoder. As the spacecraft rotated the
@@ -177,30 +177,30 @@ would have allowed some meaningful data to be obtained from the experiment even
 if the pulser output were to short to ground. The pulse was applied at the end
 of the impedance measurement frame.
 
-      </Description>
+</Description>
       <Acknowledgement/>
       <Contact>
         <PersonID>spase://SMWG/Person/Donald.A.Gurnett</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/G.W.Pfeiffer</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Scott.Boardsen</PersonID>
         <Role>TechnicalContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1974-040A-03</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1974-040A-03</URL>
         <Description>Information about the ELF/VLF Receivers experiment on the Hawkeye 1 mission.
-        </Description>
-      </InformationURL>
-    </ResourceHeader>
+</Description>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>LongWire</InstrumentType>
     <InstrumentType>SearchCoil</InstrumentType>
     <InvestigationName>ELF/VLF Receivers on Hawkeye 1</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Hawkeye</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

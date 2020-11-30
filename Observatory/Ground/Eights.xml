@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Eights</ResourceName>
          <AlternateName>Observatory Station Code: EGS</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-05-30T12:34:56.789</ReleaseDate>
          <Description>The Eights geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Eights Observatory Director</Acknowledgement>
          <Contact>
@@ -28,7 +28,8 @@
          <Longitude>282.833</Longitude>
       </Location>
       <OperatingSpan>
-         <StartDate>1964-02-01T00:00:00.000</StartDate>
+         <StartDate>1963-01-01T00:00:00.000</StartDate>
+		 <StopDate>1965-12-31T00:00:00.000</StopDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

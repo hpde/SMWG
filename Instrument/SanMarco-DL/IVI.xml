@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Instrument>
         <ResourceID>spase://SMWG/Instrument/SanMarco-DL/IVI</ResourceID>
         <ResourceHeader>
             <ResourceName>Ion Velocity Investigation</ResourceName>
-            <ReleaseDate>2012-04-04T00:00:00</ReleaseDate>
-            <Description>This investigation uses a planar retarding potential analyzer, designed to obtain measurements of relative thermal-ion velocity, plasma density, and ion temperature. The ion angle of arrival can be determined by use of a square aperture collimator and a split collector. Together with knowledge of spacecraft motion, this allows computation of the three-dimensional thermal-ion motion along the orbital path. Plasma density and temperature are calculated by interpretation of the volt-ampere profile produced by the instrument for a given impressed voltage pattern on the grids and collector. Ion velocity measurements are obtained once each spacecraft spin period (10 s).  </Description>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+            <Description>This investigation uses a planar retarding potential analyzer, designed to obtain measurements of relative thermal-ion velocity, plasma density, and ion temperature. The ion angle of arrival can be determined by use of a square aperture collimator and a split collector. Together with knowledge of spacecraft motion, this allows computation of the three-dimensional thermal-ion motion along the orbital path. Plasma density and temperature are calculated by interpretation of the volt-ampere profile produced by the instrument for a given impressed voltage pattern on the grids and collector. Ion velocity measurements are obtained once each spacecraft spin period (10 s).</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/William.B.Hanson</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact> 
+</Contact>
             <InformationURL>
                 <Name>NSSDC's Master Catalog</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1988-026A-03</URL>
+                <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1988-026A-03</URL>
                 <Description>Information about the Ion Velocity Investigation on San Marco-DL</Description>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
         <InstrumentType>RetardingPotentialAnalyser</InstrumentType>
         <InstrumentType>IonDrift</InstrumentType>
         <InvestigationName>Ion Velocity Investigation on San Marco-DL</InvestigationName>
         <ObservatoryID>spase://SMWG/Observatory/SanMarco-DL</ObservatoryID>
-    </Instrument>
+</Instrument>
 </Spase>
 
 

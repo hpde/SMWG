@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Tatuoca</ResourceName>
          <AlternateName>Observatory Station Code: TTB</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-02-15T12:34:56.789</ReleaseDate>
          <Description>The Tatuoca geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  CNPq - Observatorio Nacional, Rio de Janeiro, Brazil</Acknowledgement>
          <Contact>
@@ -31,9 +31,11 @@
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>-1.205</Latitude>
          <Longitude>311.487</Longitude>
+		 <Elevation>10</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>1957-08-01T00:00:00.000</StartDate>
+		 <StopDate>1999-12-31T23:59:59.000</StopDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Andriy.Koval</ResourceID>
+      <ReleaseDate>2017-08-22T12:34:56.789</ReleaseDate>
+      <PersonName>Andriy Koval</PersonName>
+      <OrganizationName>Goddard Planetary Physics Institute, University of Maryland, Baltimore County</OrganizationName>
+      <Address>8800 Greenbelt Road, Code 672, Greenbelt, MD, 20771, USA</Address>
+      <Email>andriy.koval-1@nasa.gov</Email>
+      <PhoneNumber>+1 301 286 5227</PhoneNumber>
+   </Person>
+</Spase>

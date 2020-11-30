@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.4</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/OGO4</ResourceID>
+    <ResourceHeader>
+      <ResourceName>OGO 4</ResourceName>
+      <AlternateName>1967-073A</AlternateName>
+      <AlternateName>OGO-D</AlternateName>
+      <AlternateName>POGO 2</AlternateName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>OGO 4 was a large observatory instrumented with experiments designed to study the interrelationships between the aurora and airglow emissions, energetic particle activity, geomagnetic field variation, ionospheric ionization and recombination, and atmospheric heating which take place during a period of increased solar activity. OGO 4 consisted of a main body, generally parallelepipedal in form, two rectangular solar panels each including a solar-oriented experiment package (SOEP), and two orbital plane experiment packages (OPEP). The main body was attitude controlled by use of horizon scanners and gas jets and was designed to be pointed toward the earth (Z axis). The axis connecting the two solar panels (X axis) was designed to oscillate so as to remain perpendicular to the earth-sun-spacecraft plane. The solar panels, activated by sun sensors, could rotate about this X axis to obtain maximum radiation for the solar cells and, concurrently, orient the SOEP properly. The OPEPs were mounted on either end of an axis which was parallel to the Z axis and attached to the forward end of the main body. The OPEP sensors normally were maintained looking forward in the orbital plane of the satellite. To maintain this orientation, the OPEP axis could rotate over 90 deg, and, in addition, an angular difference of over 90 deg was possible between the orientation of the upper and lower OPEP packages. The SOEP contained four experiments, and the OPEP contained five experiments. After the spacecraft achieved orbit and the experiments were deployed into an operating mode, an attitude control problem occurred. This condition was corrected by ground control procedures until complete failure of the tape recording systems in mid-January 1969. At that time, due to the difficulty of maintaining attitude control without the tape recorders, the attitude control system was commanded off, and the spacecraft was placed into a spin-stabilized mode about the axis which was previously maintained vertically. Initial spin period was 202 s with the mean spin axis approximately perpendicular to the orbit plane (spin period as of March 12, 1969, was 217 s). The precession period of the mean spin axis was about 5 days. In this mode, seven of the remaining experiments were turned off since no meaningful data could be observed by them. On October 23, 1969, the satellite was turned off. It was reactivated again in January 1970 for 2 months to obtain VLF observations. For additional information see J. E. Jackson and J.I. Vette, OGO Program Summary, NASA SP-7601, December 1975.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Robert.F.Fellows</PersonID>
+        <Role>ProjectScientist</Role>
+</Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Nelson.W.Spencer</PersonID>
+        <Role>ProjectScientist</Role>
+</Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-073A</URL>
+        <Description>Information about the OGO 4 mission</Description>
+</InformationURL>
+</ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/OGO</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+</Location>
+</Observatory>
+</Spase>

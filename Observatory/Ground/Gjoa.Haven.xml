@@ -5,7 +5,8 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Gjoa.Haven</ResourceID>
       <ResourceHeader>
          <ResourceName>Gjoa Haven Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+		 <AlternateName>Observatory Station Code: GJOA</AlternateName>
+         <ReleaseDate>2018-06-18T12:34:56.789</ReleaseDate>
          <Description>Gjoa Haven (GJOA) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: Augsburg College</Acknowledgement>
          <Contact>
@@ -21,7 +22,14 @@
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
+		 <InformationURL>
+			<Name>Overview of the Magnetometer Array for Cusp and Cleft Studies</Name>
+			<URL>http://space.augsburg.edu/maccs/</URL>
+			<Description>Description of Magnetometer Array for Cusp and Cleft Studies project.</Description>
+		 </InformationURL>
       </ResourceHeader>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/MACCS</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Andy.Kale</ResourceID>
+      <ReleaseDate>2018-01-23T13:00:00</ReleaseDate>
+      <PersonName>Andy Kale</PersonName>
+      <OrganizationName>Department of Physics</OrganizationName>
+      <Address>3-247 Centennial Ctr For Interdisciplinary SCS II 11335 Saskatchewan Drive NW  Edmonton, AB Canada T6G 2H5</Address>
+      <Email>akale@ualberta.ca</Email>
+      <PhoneNumber>+1 780 492 9056</PhoneNumber>
+      <FaxNumber>+1 780 492 7033</FaxNumber>
+   </Person>
+</Spase>

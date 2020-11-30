@@ -7,21 +7,60 @@
             <AlternateName>DMSP-F12</AlternateName>
             <AlternateName>USA 106</AlternateName>
             <AlternateName>23233</AlternateName>
-            <ReleaseDate>2013-04-08T00:00:00Z</ReleaseDate>
-            <Description>DMSP 5D-2/F12 is one of a series of meteorological satellites developed and operated by the Air Force under the Defense Meteorological Satellite Program (DMSP).The objective of this program is to provide global visual and infrared cloudcover data and specialized environmental data to support Department of Defense operational weather analysis and forecasting requirements. Operationally, the program consists of two satellites in sun-synchronous polar orbits, with the ascending node of one satellite in early morning and the other at local noon.</Description>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+            <Description>DMSP 5D-2/F12, also known as USA 106, is one of a series of meteorological satellites
+   developed and operated by the Air Force under the Defense Meteorological Satellite Program (DMSP).
+   This program, previously known as DAPP (Data Acquisition and Processing Program), was classified
+   until March 1973. The objective of this program is to provide global visual and infrared cloudcover
+   data and specialized environmental data to support Department of Defense operational weather analysis
+   and forecasting requirements. Operationally, the program consists of two satellites in sun-synchronous
+   polar orbits, with the ascending node of one satellite in early morning and the other at local noon.
+   The local time nodes for DMSP F12 are 20:30 and 08:30.
+
+
+         The 6.4-m-long spacecraft is separated into four sections: (1) a precision mounting platform for sensors
+   and equipment requiring precise alignment; (2) an equipment support module containing the electronics,
+   reaction wheels, and some meteorological sensors; (3) a reaction control equipment support structure
+   containing the third-stage rocket motor and supporting the ascent phase reaction control equipment;
+   nd (4) a 9.29-sq-m solar cell panel. The spacecraft stabilization is controlled by a combination
+   flywheel and magnetic control coil system so that sensors are maintained in the desired earth-looking
+   mode. One feature is the precision-pointing accuracy of the primary imager to 0.01 deg provided by a
+   star sensor and an updated ephemeris navigation system. This allows automatic geographical mapping of
+   the digital imagery to the nearest picture element.
+
+
+        The operational linescan system is the primary data acquisition system and provides real-time or stored,
+  multi-orbit, day-and-night, visual and infrared imagery of clouds. A supplementary sensor package
+  contains: (1) a microwave imager; (2) a microwave temperature sounder; (3) a microwave water vapor
+  profiler; (4) an ion and electron scintillation monitor; (5) a precipitating electron/ion spectrometer;
+  (6) a gamma/X-ray detector, and (7) a magnetometer.
+
+
+        Data are transmitted to ground receiving sites by two redundant S-band transmitters.
+  Real-time data are received at tactical sites world-wide. Recorded data are transmitted to and
+  processed by the Air Force Global Weather Central (AFGWC), Offutt AFB, Nebraska, and the Fleet
+  Numerical Meteorology and Oceanography Center (FNMOC), Monterey, California. Both AFGWC and FNMOC
+  relay the SSM/I, SSM/T, and SSM/T2 data to the National Environmental Satellite Data and Information
+  System (NESDIS). AFGWC also sends the entire data stream to the National Geophysical Data Center,
+  Boulder, Colorado.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
                 <Role>GeneralContact</Role>
-            </Contact>
+</Contact>
             <InformationURL>
                 <Name>NSSDC's Master Catalog</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1994-057A</URL>
+                <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1994-057A</URL>
                 <Description>Information about the DMSP 5D-2/F12 mission</Description>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+   <InformationURL>
+                <Name>Optical Engineering Article</Name>
+                <URL>https://www.spiedigitallibrary.org/redirect/opticalengineering/article?doi=10.1117/12.7971832</URL>
+                <Description>Information about the Defense Meteorological Satellite Program.</Description>
+</InformationURL>
+</ResourceHeader>
         <ObservatoryGroupID>spase://SMWG/Observatory/DMSP</ObservatoryGroupID>
         <Location>
             <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
-        </Location>
-    </Observatory>
+</Location>
+</Observatory>
 </Spase>

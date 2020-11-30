@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
+  <Version>2.2.9</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/SAC-C</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SAC-C Project</ResourceName>
+      <AlternateName>Sat&#xE9;lite de Aplicaciones Cient&#xED;ficas-C</AlternateName>
+      <AlternateName>Scientific Application Satellite-C</AlternateName>
+      <AlternateName>Oersted-2</AlternateName>
+      <AlternateName>NSSDC ID: 2000-075B</AlternateName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>SAC-C is an International (Argentina plus USA, France, Italy, Denmark, and Brazil) satellite that was launched by a Delta 2 rocket at 13:24 UT from Vandenberg AFB. Its mission is to remotely-sense vegetation, wetlands, and ecosystem in four wavelength bands covering 0.4-1.75 microns, with a spatial resolution of 1 km. The orbital planes of SAC-C, EO 1, Landsat 7 (1999-020A), and Terra (1999-068A) are closely coplanar, with a given site being successively visited by each spacecraft within an hour of each other. SAC-C's periapsis is 682 km, its apoapsis is 701 km, it's orbital period is about 99 min, and the inclination of the orbit is 98.2 degrees. Also on-board, that is relevant to the VMO, is a helium magnetometer.</Description>
+      <Acknowledgement>Centre National d'Etudes Spatiales (France); National Aeronautics and Space Administration (United States); Danish Space Research Institute (Denmark); National Commission of Space Activities (CONAE) (Argentina); Instituto Nacional de Pesquisas Espaciais, Brazil (Brazil); Agenzia Spaziale Italiana (Italy);</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+        <Role>ProjectScientist</Role>
+</Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2000-075B</URL>
+        <Description>Information about the SAC-C mission</Description>
+        <Language>EN</Language>
+</InformationURL>
+      <InformationURL>
+        <Name>The SAC-C Project</Name>
+        <URL>https://directory.eoportal.org/web/eoportal/satellite-missions/s/sac-c</URL>
+        <Description>Information about the SAC-C project</Description>
+        <Language>EN</Language>
+</InformationURL>
+</ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+</Location>
+    <OperatingSpan>
+      <StartDate>2001-02-01T00:00:00</StartDate>
+      <StopDate>2013-08-13T23:59:59</StopDate>
+</OperatingSpan>
+</Observatory>
+</Spase>

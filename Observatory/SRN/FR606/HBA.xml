@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+    <Version>2.3.1</Version>
+    <Observatory>
+        <ResourceID>spase://SMWG/Observatory/SRN/FR606/HBA</ResourceID>
+        <ResourceHeader>
+            <ResourceName>LOFAR FR606 High Band Array</ResourceName>
+            <ReleaseDate>2020-07-01T13:31:00Z</ReleaseDate>
+            <Description>LOFAR is an interferometer with about 50 000 antennas grouped in 50 stations through 
+		Europe, with 60% of them located in the Netherlands. It has been running since 2012. Nançay's 
+		LOFAR station is composed of 2 antennas array and one shipment container housing the receptors 
+		and the computing systems. It is connected to a central supercomputer in Groningen, Netherlands.
+		The key scientific objectives are deep sky surveys, the study of reionisation epoch, of variable 
+		sources like pulsars, jets, eruptive stars, planets and exoplanets, the detection of very high 
+		energy cosmic rays, and the interplanetary medium physics.
+		LOFAR High Band Array (HBA) covers the spectral range from 120 to 270 MHz</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Jean-Mathias.Griessmeier</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Baptiste.Cecconi</PersonID>
+                <Role>MetadataContact</Role>
+            </Contact>
+            <InformationURL>
+                <URL>https://www.obs-nancay.fr/lofar/</URL>
+                <Language>fr</Language>
+            </InformationURL>
+        </ResourceHeader>
+        <ObservatoryGroupID>spase://SMWG/Observatory/SRN</ObservatoryGroupID>
+        <ObservatoryGroupID>spase://SMWG/Observatory/LOFAR</ObservatoryGroupID>
+        <Location>
+            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+            <CoordinateSystemName>GEO</CoordinateSystemName>
+            <Latitude>47.375525</Latitude>
+            <Longitude>2.192500</Longitude>
+            <Elevation>182.1</Elevation>
+        </Location>
+        <OperatingSpan>
+            <StartDate>2011-11-30T00:00:00.000Z</StartDate>
+        </OperatingSpan>
+    </Observatory>
+</Spase>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd" lang="en">
+   <Version>2.3.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/ParkerSolarProbe/SWEAP/SPAN-B</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Parker Solar Probe, PSP, Solar Wind Electrons Alphas and Protons, SWEAP, Suite, Solar Probe Analyzer-B, SPAN-B, Instrument</ResourceName>
+         <AlternateName>Solar Probe Plus, SPP, Solar Wind Electrons Alphas and Protons, SWEAP, Suite, Solar Probe Analyzer-B, SPAN-B, Instrument</AlternateName>
+         <ReleaseDate>2020-03-16T12:34:56.789Z</ReleaseDate>
+         <Description>The PSP SWEAP instrument consists of the Solar Probe Cup, SPC, a Sun-viewing fast Faraday Cup designed to operate under extreme temperatures, and the Solar Probe Analyzers, SPAN, a combination of three electrostatic analyzers, ESAs, that make detailed measurements of ion and electron velocity distributions from the shadowed region behind the spacecraft heat shield. SPC precisely measures fluxes and flow angles as a function of energy from about 50 eV/q to 8 keV/q for ions and about 50 eV to 2 keV for electrons. SPAN consists of an ion and electron electrostatic analyzer, ESA, on the ram side of PSP, SPAN-A, and an electron ESA on the spacecraft anti-ram side, SPAN-B. The SPAN-A ion ESA measures ions as a function of direction and energy per charge from several eV/q to 20 keV/q and has a time of flight section that enables it to sort particles by their mass over charge ratio, permitting differentiation of ion species. The fields of view of SPC and the SPAN-A ion ESA allow SWEAP to continuously track ion flows in the presence of strong waves, nearly subsonic flows, and aberration due to the high orbital speeds of the spacecraft at closest approach. The SPAN-A and SPAN-B electron ESAs also run from several eV to 20 keV. SPAN-A and SPAN-B are rotated relative to one another so the broad fields of view of the two electron ESAs combine like the seams on a baseball to view the entire sky except for the region obscured by the heat shield and covered by SPC, permitting sensitive measurements of electron temperatures, heat fluxes, and field-aligned beams. Observations by SPC and SPAN produce the combined field of view and measurement capabilities required to fulfill the science objectives of SWEAP and Solar Probe Plus. The SPC, SPAN-A, and SPAN-B are managed by the SWEAP Electronics Module, SWEM, which distributes power, formats onboard data products, and serves as a single electrical interface to the spacecraft. SWEAP data products include ion and electron velocity distribution functions with high energy and angular resolution. Full resolution data are stored within the SWEM thus enabling high resolution observations of structures such as shocks, reconnection events, and other transient structures to be selected for download after the fact.
+
+The SPAN-A module has two ESAs to measure ions and electrons from the ram direction and nadir. SPAN-B consists of a single ESA to measure electrons from the anti-ram direction. SPAN-A is located on the ram direction side of PSP and SPAN-B is on the anti-ram side. Significant savings in mass are realized by combining the electron and ion ESAs, which was a lesson learned from FAST and THEMIS. Electrostatic deflectors extend the narrow planar intrinsic angular field of view, FOV, of each ESA to 240&#176;&#10799;120&#176;. Together the SPAN electron sensors provide a nearly 4&#960; sr FOV for electrons only excluding the region of the sky blocked by the heat shield. Meanwhile, SPAN-A and SPC provide a continuous view of the solar wind ions, with SPAN-A providing the primary measurement at closest approach when the velocity aberration from the lateral motion of the spacecraft brings the solar wind into its FOV. SPAN-A includes a pre-acceleration stage and carbon foils, closely based on the MAVEN STATIC design (McFadden et al. 2015), allowing the separation of solar wind protons, alpha particles, and heavier species. All three sensors include both mechanical and electrostatic attenuators that provide a broad dynamic range, allowing optimal sensitivity over the entire PSP orbit.
+
+The SPAN design results from a long and successful history of ESA development at the U.C. Berkeley Space Sciences Laboratory, including sounding rockets, Mars Global Surveyor (Mitchell et al. 2001), Wind 3D-Plasma (Lin et al. 1995), Lunar Prospector, FAST Plasma Experiment (Carlson et al. 1998), THEMIS (McFadden et al. 2008), and MAVEN (Halekas et al. 2013, McFadden et al. 2015). The UCB SSL group also participated in the development of the STEREO IMPACT SWEA instrument (Sauvaud et al. 2007). The SPAN sensors closely follow heritage designs from MAVEN, which add deflectors to the proven heritage analyzer to allow out-of-plane particle measurements. The electronics use heritage designs developed for MAVEN, with the addition of some application-specific integrated circuit, ASIC, electronics to reduce mass and power.
+
+The SPAN sensors utilize the classic top-hat hemispherical ESA design developed by UCB (Carlson et al. 1983) that affords a uniform response over a planar 360&#176; FOV. Particles entering the analyzer are selected for energy per charge, E/q, by a voltage applied to the inner hemisphere. This voltage is swept from near zero to several kV to measure ion and electron energies as low as a few eV/q to as high as 30 keV/q thus providing excellent energy coverage and resolution. Angular resolution is provided in one plane by discrete segmented anodes and out of that plane by electrostatic deflectors, resulting in a broad instrumental FOV appropriate for a non-spinning spacecraft like PSP. Similar design challenges have been met by UCB on STEREO and MAVEN both 3-axis stabilized spacecraft like PSP.
+
+Both ion and electron sensors use microchannel plate, MCP, detectors for particle detection, and discrete anodes for MCP charge collection. The electron sensor uses chevron-pair detectors, while the ion sensor utilizes a Z-stack to provide larger pulses for constant fraction discrimination timing measurements of start and stop pulses. Particle events from each anode are then accumulated in counters and read-out each 0.5 ms. Pulse-counting electronics for the electron sensors utilize a multi-channel preamplifier ASIC developed by researchers at the Laboratoire de Physique du Plasmas, LPP, for the Solar Orbiter mission. The ion sensor also utilizes ASIC electronics for constant fraction discrimination and time-to-digital conversion, for the purposes of measuring time of flight, TOF, and thus determining ion mass per charge. Low voltage and high voltage power supplies used designs closely based on FAST, THEMIS, and MAVEN. The sensors also include a one-time use, manually resettable Shape Memory Alloy, SMA, aperture release mechanism that keeps the sensor sealed until after launch, preventing contamination of the MCP detectors. This mechanism also acts as a pressure relief valve, allowing nitrogen purge to be applied periodically rather than continuously, to simplify integration and testing. The one-time cover release mechanism is tightly integrated with the mechanical attenuator, which is also based on SMA technology.
+
+SPAN-B measures electrons only and is a near duplicate of the SPAN-A e-analyzer as only the anode patterns are different. SPAN-B is mounted in an orthogonal orientation to SPAN-A and it is on the opposite side of the spacecraft. The ability of SWEAP to use the same design for both SPAN-A and SPAN-B electron sensors provides significant savings in design time and analysis.</Description>
+         <Acknowledgement>Please acknowledge NASA, Justin C. Kasper, the PSP SWEAP Instrument Suite Principal Investigator, and Nicola J. Fox, the PSP Project Scientist.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Nicola.J.Fox</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Justin.C.Kasper</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Parker Solar Probe SWEAP Suite NSSDCA Master Catalog Listing</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2018-065A-04</URL>
+            <Description>NSSDC Master Catalog Listing for the Parker Solar Probe Solar Wind Electrons Alphas and Protons, SWEAP, Suite, NSSDCA/COSPAR ID: 2018-065A-04</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>ElectrostaticAnalyser</InstrumentType>
+      <InstrumentType>MicrochannelPlate</InstrumentType>
+      <InvestigationName>Parker Solar Probe Mission</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2018-08-12T07:31:00.000Z</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/ParkerSolarProbe</ObservatoryID>
+   </Instrument>
+</Spase>

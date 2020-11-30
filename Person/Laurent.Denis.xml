@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Laurent.Denis</ResourceID>
+    <ReleaseDate>2020-07-01T13:47:00Z</ReleaseDate>
+    <PersonName>Laurent Denis</PersonName>
+    <OrganizationName>USN, Observatoire de Paris, PSL, CNRS, Université d'Orléans</OrganizationName>
+    <Email>laurent.denis@obs-nancay.fr</Email>
+  </Person>
+</Spase>

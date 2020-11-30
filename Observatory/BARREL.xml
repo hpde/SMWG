@@ -1,25 +1,44 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2.xsd"><Version>2.2.2</Version>    <Observatory>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2.xsd">
+ <Version>2.2.2</Version><Observatory>
         <ResourceID>spase://SMWG/Observatory/BARREL</ResourceID>
         <ResourceHeader>
             <ResourceName>BARREL</ResourceName>
-            <ReleaseDate>2014-04-04T00:00:00Z</ReleaseDate>
-            <Description>BARREL (Balloon Array for Radiation-belt Relativistic Electron Losses) is a multiple-balloon investigation to study particles that escape from the radiation belts and funnel down Earth's magnetic field lines toward the poles. It involves two multi-balloon launches from the South African Antarctic Station (SANAE IV) and the British station, Halley Bay, wih an option for a third Northern Hemisphere campaign. During each campaign, 5-8 long-duration balloons payloads (~20 kg) would be launched to an altitude of 30-35 km simultaneously for three to 40 days. Each balloon will carry a NaI scintillator to measure the Bremsstrahlung X-rays produced by precipitating relativistic electrons as they collide with neutrals in Earth's atmosphere to allow an estimate of the total electron loss from the radiation belts. The payload also includes a DC magnetometer. Besides the two scientific instruments, each payload includes solar panels generating 6 W and an onboard battery for power, a number of sensors to monitor the operation of the payload, a GPS receiver to track the position and altitude of the balloon, and an Iridium satellite link that transfer all data at a rate of 2 kps. 
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+            <Description>BARREL (Balloon Array for Radiation-belt Relativistic Electron Losses) is a multiple-balloon
+   investigation to study particles that escape from the radiation belts and funnel down Earth's magnetic
+   field lines toward the poles. It involves two multi-balloon launches from the South African Antarctic
+   Station (SANAE IV) and the British station, Halley Bay, with an option for a third Northern Hemisphere
+   campaign. During each campaign, 5-8 long-duration balloons payloads (~20 kg) would be launched to an
+   altitude of 30-35 km simultaneously for three to 40 days. Each balloon will carry a NaI scintillator to
+   measure the Bremsstrahlung X-rays produced by precipitating relativistic electrons as they collide with
+   neutrals in Earth's atmosphere to allow an estimate of the total electron loss from the radiation belts.
+   The payload also includes a DC magnetometer. Besides the two scientific instruments, each payload includes
+   solar panels generating 6 W and an onboard battery for power, a number of sensors to monitor the operation of
+   the payload, a GPS receiver to track the position and altitude of the balloon, and an Iridium satellite link
+   that transfer all data at a rate of 2 kps.
 
-BARREL is the first NASA Living with a Star Geospace Mission of Opportunity.  Observations are planned for when the balloon-array will be conjugate with NASA's Van Allen Probes spacecraft, such that direct comparison is possible between one another.</Description>
+BARREL is the first NASA Living with a Star Geospace Mission of Opportunity.  Observations are planned for when the
+balloon-array will be conjugate with NASA's Van Allen Probes spacecraft, such that direct comparison is possible
+between one another.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Robyn.Millan</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact> 
+</Contact>
             <InformationURL>
                 <Name>BARREL's Home Page at Dartmouth College</Name>
                 <URL>http://www.dartmouth.edu/~barrel/index.html</URL>
                 <Description>Information about BARREL</Description>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+   <InformationURL>
+    <Name>Space Science Reviews Article</Name>
+    <URL>https://link.springer.com/article/10.1007%2Fs11214-013-9971-z</URL>
+    <Description>Detailed information about the BARREL mission.</Description>
+</InformationURL>
+</ResourceHeader>
         <Location>
             <ObservatoryRegion>Earth.NearSurface.Stratosphere</ObservatoryRegion>
-        </Location>
-    </Observatory>
+</Location>
+</Observatory>
 </Spase>
 
 

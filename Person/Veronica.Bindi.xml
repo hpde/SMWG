@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Veronica.Bindi</ResourceID>
+    <ReleaseDate>2018-10-13T12:34:56.789</ReleaseDate>
+    <PersonName>Veronica Bindi</PersonName>
+    <OrganizationName>Department of Physics and Astronomy</OrganizationName>
+    <Address>University of Hawai'i at Manoa, Honolulu, HI 96822</Address>
+    <Email>bindi@hawaii.edu</Email>
+    <PhoneNumber>+1 808 932-2318</PhoneNumber>
+  </Person>
+</Spase>

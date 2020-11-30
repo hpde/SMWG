@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+  <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.9</Version> 
+  <Observatory>
+	  <ResourceID>spase://SMWG/Observatory/Ground/RAM</ResourceID> 
+		  <ResourceHeader>
+		  <ResourceName>Russian Arctic and Antarctic Magnetometer network</ResourceName> 
+		  <AlternateName>RAM</AlternateName>
+		  <ReleaseDate>2018-05-02T00:00:00Z</ReleaseDate> 
+		  <Description>Russian Arctic and Antarctic Magnetometer network is part of the 
+		  Arctic and Antarctic Research Institute.</Description> 
+		  <Acknowledgement>Please acknowledge: Arctic and Antarctic Research Institute</Acknowledgement>
+		  <Contact>
+			  <PersonID>spase://SMWG/Person/Oleg.A.Troshichev</PersonID> 
+			  <Role>GeneralContact</Role> 
+		  </Contact> 
+		  <InformationURL>
+			  <Name>Russian Arctic and Antarctic Magnetometer (RAM) network </Name> 
+			  <URL>http://www.geophys.aari.ru/</URL> 
+			  <Description>Request form for magnetometer data. 
+			  Links to additional information also available.</Description> 
+		  </InformationURL>
+		  <PriorID>spase://SMWG/Observatory/RAM</PriorID>
+		</ResourceHeader>  
+		<Location>
+		  <ObservatoryRegion>Earth.NearSurface.AuroralRegion</ObservatoryRegion> 
+		  <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion> 
+		  <ObservatoryRegion>Earth.Surface</ObservatoryRegion> 
+		</Location>
+		<OperatingSpan>
+		<StartDate>1920-03-03T12:00:00Z</StartDate>
+		<Note>This is the date Arctic and Antarctic Research Institute was founded.</Note>
+	</OperatingSpan>
+  </Observatory>
+  </Spase>

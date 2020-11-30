@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+   <Version>2.3.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Ground/Pelly.Bay/Magnetometer</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Pelly Bay Magnetometer</ResourceName>
+         <ReleaseDate>2020-07-27T12:34:56.789</ReleaseDate>
+         <Description>Pelly Bay (PEB) Geophysical Observatory Magnetometer</Description>
+         <Acknowledgement>Please acknowledge Prof. Mark J. Engebretson, Dr. E.S. Steinmetz, Augsburg College</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Erik.S.Steinmetz</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+			<Name>Overview of the Magnetometer Array for Cusp and Cleft Studies</Name>
+			<URL>http://space.augsburg.edu/maccs/</URL>
+			<Description>Description of Magnetometer Array for Cusp and Cleft Studies project.</Description>
+		 </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Magnetometer</InstrumentType>
+      <InvestigationName>MACCS Network</InvestigationName>
+      <OperatingSpan>
+         <StartDate>1993-08-13T00:00:00.000</StartDate>
+		 <StopDate>2002-03-17T23:59:59</StopDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/Ground/Pelly.Bay</ObservatoryID>
+   </Instrument>
+</Spase>

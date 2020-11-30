@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+   <Version>2.0.0</Version>
+   <Repository>
+      <ResourceID>spase://SMWG/Repository/JHU_APL/Voyager-LECP</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Voyager 1 and 2 LECP Data Repository</ResourceName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <Description>Public repository hosted by JHU APL for Voyager 1 and 2 LECP data.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lawrence.Brown</PersonID>
+            <Role>DataProducer</Role>
+</Contact>
+         <PriorID>spase://VEPO/Repository/JHU-APL/Voyager-LECP</PriorID>
+         <PriorID>spase://SMWG/Repository/JHU-APL/Voyager-LECP</PriorID>
+</ResourceHeader>
+      <AccessURL>
+         <Name>Voyager 1 and 2 LECP Data Access and Instrument Information</Name>
+         <URL>http://sd-www.jhuapl.edu/VOYAGER/</URL>
+</AccessURL>
+</Repository>
+</Spase>

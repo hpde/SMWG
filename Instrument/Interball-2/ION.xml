@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Instrument/Interball-2/ION</ResourceID>
     <ResourceHeader>
       <ResourceName>Ion Spectra and Anisotropy (ION)</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:11Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The ION experiment flown on the Interball-Aurora mission performs simultaneous ion and electron measurements. Two mass spectrometers looking in opposing directions perpendicular to the satellite spin axis, which points toward the sun, measure ions in the mass and energy ranges 1-32 amu and ~ 0 to 14,000 eV. The ion measurements are complemented by simple electron spectrometers performing measurements in the energy range ~10 eV (or 60 eV) to 20,000 eV.
 Ion composition analyzers:&lt;br&gt; The design of the detector heads of the ION-1 and ION-2 mass spectrometers is based on the principle of the Wien filter, where the mass filtering is performed by crossed electric and magnetic fields. The energy over charge (E/Q) selection is made by a cylindrical electrostatic analyzer placed in front of the filter. At each energy step, the electric field in the magnetic analyzer is programmed in order either to scan 2 or 4 ions (H+, He++, He+, O+).
 Electron analyzers:&lt;br&gt; Two spectrometers, ION3 and 4, measure electron fluxes. They consist of two cylindrical electrostatic analyzer heads and associated electronics.
@@ -13,15 +13,15 @@ The ION SADS page available at http://sads.cnes.fr:8010 has additional informati
       <Contact>
         <PersonID>spase://SMWG/Person/Jean-Andre.C.Sauvaud</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1996-050C&amp;ex=2</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1996-050C&amp;ex=2</URL>
         <Description>Information about the Ion Spectra and Anisotropy (ION) experiment on the Interball Auroral Probe mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>MassSpectrometer</InstrumentType>
     <InvestigationName>Ion Spectra and Anisotropy (ION) on Interball Auroral Probe</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Interball-2</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

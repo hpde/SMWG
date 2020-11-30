@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd" lang="en">
+   <Version>2.3.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Hi/HET</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Parker Solar Probe, PSP, Integrated Science Investigation of the Sun, ISOIS, Suite, Energetic Particle Instrument-Hi, High Energy Telescope, EPI-Hi/HET, Instrument</ResourceName>
+         <AlternateName>Solar Probe Plus, SPP, Integrated Science Investigation of the Sun, ISOIS, Suite, Energetic Particle Instrument-Hi, High Energy Telescope, EPI-Hi/HET, Instrument</AlternateName>
+         <ReleaseDate>2020-03-16T12:34:56.789Z</ReleaseDate>
+         <Description>The PSP Energetic Solar Probe high energy instrument, EPI-Hi, measures energetic particles in the upper portion of the ISIS energy range. The two ISIS instruments, EPI-Lo and EPI-Hi, are complementary in their energy range and sky coverage in order to obtain the comprehensive set of observations needed to fully understand solar energetic particle sources, acceleration, and transport close to the Sun.
+
+The EPI-Hi instrument measures energetic protons and Helium nuclei from approximately 1 MeV/nuc to 100 MeV/nuc, at higher energies for heavier elements, and for energetic electrons from approximately 0.5 MeV to 6 MeV. To cover this energy range and to provide a wide field of view, FOV, EPI-Hi has three telescopes, a double-ended high energy telescope, HET, a double-ended low energy telescope, LET1, and a single-ended low energy telescope, LET2. All three telescopes are mounted on the EPI-Hi Electronics Box, which contains an analog and digital processing electronics board for each telescope, a detector bias power supply, a digital processing unit for the instrument to coordinate its operations and communicate by command and telemetry channels with the spacecraft, and a low voltage power supply.
+
+ISIS is located as far aft on the spacecraft body as possible, on the ram side, just inside the umbra line of the shadow created by the PSP Thermal Protection System, TPS. This provides protection from direct solar heating, but still allows ISIS to view within 10&#176; of the Sun-probe line, thereby providing access to the nominal direction of the Parker Spiral magnetic field over much of the solar encounter phase.
+
+EPI-Hi measures energetic electrons, protons, and heavy ions in the MeV energy range using the dE/dx versus total energy technique in a sensor system based entirely on ion-implanted silicon SSDs. It builds on a heritage of more than 40 years of SSD-based energetic particle instruments, and most directly on the LET (Mewaldt et al. 2008) and HET (von Rosenvinge et al. 2008) that are part of the IMPACT instrument suite on the twin STEREO spacecraft. These instruments have been providing multi-point measurements of energetic particles in the heliosphere since late 2006. The sophistication of SSD instruments has steadily advanced as capabilities have improved with high performance, low power, and miniaturized, front-end electronics in the form of application-specific integrated circuits, ASICs.
+
+The HETs have a thick central stack of detectors together with a single detector spaced farther away at each end. A coincidence between this front detector and the central stack defines the FOV of the telescope. The front detectors, H1, and the outermost detectors at each end of the central stack, H2, have five main active elements, consisting of a central bull&apos;s-eye and four quadrants of a surrounding annular region, with all elements having equal areas. Identifying which detector segment was hit by an incident particle in each of the two detectors allows us to sub-divide the FOV into 25 overlapping sectors, thus enabling measurements of the distribution of particle incidence directions.</Description>
+         <Acknowledgement>Please acknowledge NASA, David J. McComas, the PSP ISOIS Instrument Suite Principal Investigator, and Nicola J. Fox, the PSP Project Scientist.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Nicola.J.Fox</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Parker Solar Probe ISOIS Suite NSSDCA Master Catalog Listing</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2018-065A-02</URL>
+            <Description>NSSDC Master Catalog Listing for the Parker Solar Probe Integrated Science Investigation of the Sun, ISOIS, Suite, NSSDCA/COSPAR ID: 2018-065A-02</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+      <InstrumentType>SolidStateDetector</InstrumentType>
+      <InvestigationName>Parker Solar Probe Mission</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2018-08-12T07:31:00.000Z</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/ParkerSolarProbe</ObservatoryID>
+   </Instrument>
+</Spase>

@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Wind Solar Wind Experiment (SWE)</ResourceName>
       <AlternateName>Wind SWE</AlternateName>
-      <ReleaseDate>2014-07-24T20:37:16Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>This investigation is designed to provide complete, accurate specification of solar wind flow parameters in real time. The SWE Faraday Cup sub-system was designed to measure solar wind thermal protons and positive ions. The SWE electron sub-system consists of two electrostatic analyzers, the vector spectrometer (VEIS) and the Strahl spectrometer. They were both designed to measure the solar wind electron distribution function. After the failure of the high-voltage power supply of VEIS in 2001, the Strahl detector was reconfigured to recover most of the measurement capabilities.
 
           The instrument is a six-axis ion-electron spectrometer which provides three-dimensional velocity distribution functions for ions and electrons, with high time resolution. The energy range covered extends from 7 eV to 30 keV for electrons in four different modes, and from 30 eV to 30 keV in four different ion modes. In addition, two Faraday cups are used to obtain three-dimensional measurements of ions in 15-s periods, in the energy range 5 eV to 5 keV.</Description>
@@ -14,27 +14,27 @@
         <!-- Keith Ogilvie -->
         <PersonID>spase://SMWG/Person/Keith.W.Ogilvie</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Complete description of the SWE instrument</Name>
-        <URL>http://link.springer.com/article/10.1007/BF00751326</URL>
+        <URL>https://link.springer.com/article/10.1007/BF00751326</URL>
         <Description>Space Science Review article by Ogilvie et al. [1995].</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Reconfigured instrument description after VEIS failure</Name>
-        <URL>http://wind.nasa.gov/docs/SWE_Updated_Ogilvie_SSR1995.doc</URL>
+        <URL>https://wind.nasa.gov/docs/SWE_Updated_Ogilvie_SSR1995.doc</URL>
         <Description>An updated version of the SWE Space Science Reviews article reflecting the reconfiguration of the Strahl instrument to recover most of the VEIS measurement capabilities.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1994-071A&amp;ex=6</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1994-071A&amp;ex=6</URL>
         <Description>Information about the Solar Wind Experiment (SWE) experiment on the Wind mission.</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://SMWG/instrument/1994-071A-06</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <InstrumentType>FaradayCup</InstrumentType>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Solar Wind Experiment (SWE) on Wind</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Wind</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

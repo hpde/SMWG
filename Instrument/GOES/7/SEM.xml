@@ -5,70 +5,70 @@
     <ResourceID>spase://SMWG/Instrument/GOES/7/SEM</ResourceID>
     <ResourceHeader>
       <ResourceName>Space Environment Monitor (SEM)</ResourceName>
-      <ReleaseDate>2014-07-24T20:37:23Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Space Environment Monitor Subsystem (SEM) measures in situ the effect of the sun on the near-earth solar-terrestrial electromagnetic environment on a real-time basis. This information is provided to the Space Environment Services Center where it is used for "near-space weather" reports. These reports, which include solar activity, are important to the operators of communication, navigation, electric power transmission systems, and satellites.
 The SEM consists of four instruments. The Energetic Particle Sensor (EP8,formerly called EPS) makes flux measurements of protons in the 0.8 to 500 MeV range. The High Energy Proton and Alpha Detector (HEPAD) monitors protons in four energy ranges above 350 MeV and alpha particles in two energy ranges above 640 MeV/nucleon. The solar X-Ray Sensor permits real-time determination of the solar x-ray emission in two spectral bands: 0.5-5 angstroms and 1-8 angstroms. The Magnetic Field Sensor (MFS) allows for the real-time determination of the magnitude and orientation of the magnetic field. Data will be telemetered twice a second for magnetic fields having a magnitude of +/- 1000 nanotesla (nT).</Description>
       <Acknowledgement>NOAA Environmental Research Laboratories; Dr. Ronald Zwickl; Dr. Harold Leinbach;  Dr. Herbert H. Sauer; Dr. Terry Onsager;  Dr. Howard Singer; Mr. Howard Garcia</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Ronald.D.Zwickl</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Herbert.H.Sauer</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Howard.J.Singer</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Harold.Leinbach</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Terry.Onsager</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Howard.A.Garcia</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>GOES 7 Energetic Particle Monitor</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1987-022A-02</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1987-022A-02</URL>
         <Description>Introduction to the GOES 7 Energetic Particle Sensor.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>GOES 7 Energetic Particle Sensor Data File Information</Name>
-        <URL>http://satdat.ngdc.noaa.gov/sem/goes/software/part.txt</URL>
+        <URL>https://satdat.ngdc.noaa.gov/sem/goes/software/part.txt</URL>
         <Description>Additional GOES EPM information.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>GOES 7 Energetic Particle Sensor Additional Data File Information</Name>
-        <URL>ftp://satdat.ngdc.noaa.gov/sem/goes/data/full/readme.txt</URL>
+        <URL>ftp://satdat.ngdc.noaa.gov/sem/goes/goes_docs/full/readme.txt</URL>
         <Description>Additional GOES EPM data file information.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>GOES 7 Magnetic Field Monitor</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1987-022A-04</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1987-022A-04</URL>
         <Description>Introduction to the GOES 7 Magnetic Field Monitor.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>GOES 7 Space Environment Monitor</Name>
-        <URL>http://satdat.ngdc.noaa.gov/sem/goes/data/full/readme.txt</URL>
+        <URL>https://satdat.ngdc.noaa.gov/sem/goes/goes_docs/full/readme.txt</URL>
         <Description>Additional GOES Magnetic Field Monitor information.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>GOES 7 Magnetic Field Monitor Example ASCII file</Name>
-        <URL>http://satdat.ngdc.noaa.gov/sem/goes/software/mag.txt</URL>
+        <URL>https://satdat.ngdc.noaa.gov/sem/goes/software/mag.txt</URL>
         <Description>Additional GOES Magnetic Field Monitor header information.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>GOES 7 Solar X-Ray Monitor</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1987-022A-03</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1987-022A-03</URL>
         <Description>Additional GOES Solar X-Ray Monitor information.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InstrumentType>IonChamber</InstrumentType>
@@ -76,21 +76,21 @@ The SEM consists of four instruments. The Energetic Particle Sensor (EP8,formerl
     <ObservatoryID>spase://SMWG/Observatory/GOES/7</ObservatoryID>
     <Caveats>From http://goes.ngdc.noaa.gov/data/avg/readme.txt: Electron Data Quality
 
-The Electron detector responds significantly to protons above 32 MeV; therefore, 
-electron data are contaminated when a proton event is in progress. Beginning 
-with GOES-8 the electron data have had a preliminary correction applied, 
+The Electron detector responds significantly to protons above 32 MeV; therefore,
+electron data are contaminated when a proton event is in progress. Beginning
+with GOES-8 the electron data have had a preliminary correction applied,
 however, even these data are not to be considered research quality at this time.
 
- In 1991 the telescope 
-component of the GOES-7 energetic particle detector system experienced episodes 
-of malfunction (noise). The first period began at 0330 UT, October 18, 1991 and 
-extended to November 5, 1991. The detector was commanded off for 12 hours. At 
-turn-on the detector appeared to have recovered, but failed again on November 
-11, with a rerecovery on November 12 after a second turn-off of three hours. The 
-detector has since operated normally. The noise periods may be identified by 
-unusually high rates being shown by the P1 channel and the derived &gt; 1 MeV 
-integral channel. Currently, the GOES-7 Energetic Particle Sensor is left turned 
+ In 1991 the telescope
+component of the GOES-7 energetic particle detector system experienced episodes
+of malfunction (noise). The first period began at 0330 UT, October 18, 1991 and
+extended to November 5, 1991. The detector was commanded off for 12 hours. At
+turn-on the detector appeared to have recovered, but failed again on November
+11, with a rerecovery on November 12 after a second turn-off of three hours. The
+detector has since operated normally. The noise periods may be identified by
+unusually high rates being shown by the P1 channel and the derived &gt; 1 MeV
+integral channel. Currently, the GOES-7 Energetic Particle Sensor is left turned
 off for 4 hours after eclipse to minimize bad data.
-     </Caveats>
-  </Instrument>
+</Caveats>
+</Instrument>
 </Spase>

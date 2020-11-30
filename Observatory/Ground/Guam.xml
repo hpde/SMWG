@@ -6,39 +6,46 @@
       <ResourceHeader>
          <ResourceName>Guam</ResourceName>
          <AlternateName>Observatory Station Code: GUA</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>The Guam geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  U.S. Geological Survey</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Jill.Caldwell</PersonID>
             <Role>GeneralContact</Role>
             <Role>DataProducer</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Carol.A.K.Finn</PersonID>
             <Role>GeneralContact</Role>
             <Role>DataProducer</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Jeffrey.J.Love</PersonID>
             <Role>GeneralContact</Role>
             <Role>DataProducer</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
+   <InformationURL>
+   <Name>Overview of the USGS Geomagnetism Program Array</Name>
+   <URL>https://www.usgs.gov/natural-hazards/geomagnetism</URL>
+   <Description>Description and location of the magnetometer array.</Description>
+</InformationURL>
          <PriorID>spase://SMWG/Observatory/WDC/Guam</PriorID>
-      </ResourceHeader>
+</ResourceHeader>
       <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/USGS</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>13.59</Latitude>
          <Longitude>144.87</Longitude>
-      </Location>
+</Location>
       <OperatingSpan>
-         <StartDate>1957-07-01T00:00:00.000</StartDate>
-      </OperatingSpan>
-   </Observatory>
+         <StartDate>1957-01-01T00:00:00.000</StartDate>
+</OperatingSpan>
+</Observatory>
 </Spase>

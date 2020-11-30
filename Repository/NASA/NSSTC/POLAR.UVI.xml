@@ -5,42 +5,42 @@
     <ResourceID>spase://SMWG/Repository/NASA/NSSTC/POLAR.UVI</ResourceID>
     <ResourceHeader>
       <ResourceName>NSSTC POLAR UVI Repository</ResourceName>
-      <ReleaseDate>2009-11-20T21:04:22Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>
-Polar UVI Resident Archive web server and data archive located at the National Space Science and Technology Center (NSSTC) in 
-Huntsville, Alabama.  
-			</Description>
+Polar UVI Resident Archive web server and data archive located at the National Space Science and Technology Center (NSSTC) in
+Huntsville, Alabama. 
+</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/George.K.Parks</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Paul.D.Craven</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Peggy.Sloan</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>UVI Home Page</Name>
-        <URL>http://earthweb.ess.washington.edu/space/SpaceExp/POLAR/</URL>
+        <URL>https://earthweb.ess.washington.edu/space/SpaceExp/POLAR/</URL>
         <Description>
-The Polar Ultraviolet Imager (UVI) Home Page contains links that describe the instrument, its operation, allow the 
-user to view 36 second images and key parameter mosaics from the mission and download software, plus links 
+The Polar Ultraviolet Imager (UVI) Home Page contains links that describe the instrument, its operation, allow the
+user to view 36 second images and key parameter mosaics from the mission and download software, plus links
 to the UVI data archive, to lists of UVI publications and presentations, and several miscellaneous mission sites.
-				</Description>
-      </InformationURL>
-    </ResourceHeader>
+</Description>
+</InformationURL>
+</ResourceHeader>
     <AccessURL>
       <Name>UVI Data Archive</Name>
-      <URL>http://spdf.sci.gsfc.nasa.gov/pub/data/polar/uvi/</URL>
+      <URL>https://spdf.sci.gsfc.nasa.gov/pub/data/polar/uvi/</URL>
       <Description>
-The UVI Data Archive contains UVI data and plot files including level-one (l1), orbit (or), attitude (at), and pitch angle 
-(pa) CDF files, and the 36-second UVI Image gif files (gifs).  The files are stored by year/doy-of-year in the 
-subdirectories in parentheses.   All of the CDFs are also available at the CDAWeb.  The archive also contains the 
+The UVI Data Archive contains UVI data and plot files including level-one (l1), orbit (or), attitude (at), and pitch angle
+(pa) CDF files, and the 36-second UVI Image gif files (gifs).  The files are stored by year/doy-of-year in the
+subdirectories in parentheses.   All of the CDFs are also available at the CDAWeb.  The archive also contains the
 key parameter mosaic gif/png files and software.
-			</Description>
-    </AccessURL>
-  </Repository>
+</Description>
+</AccessURL>
+</Repository>
 </Spase>

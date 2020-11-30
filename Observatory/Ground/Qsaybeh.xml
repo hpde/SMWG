@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Qsaybeh</ResourceName>
          <AlternateName>Observatory Station Code: QSB</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-09-25T12:34:56.789</ReleaseDate>
          <Description>The Qsaybeh geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  National Center for Geophysical Research-CNRS</Acknowledgement>
          <Contact>
@@ -26,14 +26,19 @@
          <PriorID>spase://SMWG/Observatory/WDC/Qsaybeh</PriorID>
       </ResourceHeader>
       <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/BCMT</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>33.87</Latitude>
+         <Latitude>33.871</Latitude>
          <Longitude>35.644</Longitude>
+		 <Elevation>525.0</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>2000-04-01T00:00:00.000</StartDate>
+		 <StopDate>2007-11-30T23:59:59</StopDate>
+		 <Note>Exact stop date is unclear.</Note>
       </OperatingSpan>
    </Observatory>
 </Spase>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
+   <Version>2.2.9</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Munin/MEDUSA</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Munin MEDUSA</ResourceName>
+         <AlternateName>Munin MEDUSA, Miniaturized Electrostatic DUal-tophat Spherical Analyser</AlternateName>
+         <ReleaseDate>2017-10-16T12:34:56.789</ReleaseDate>
+         <Description>Munin Spacecraft MEDUSA, Miniaturized Electrostatic DUal-tophat Spherical Analyser. MEDUSA is a combined Electron and Ion Spectrometer. The Instrument Sensor is provided by the Southwest Research Institute, San Antonio, Texas. Electrons and Ions with Energies up to 17 keV/q will be measured simultaneously, with a Resolution of 4 Energy Sweeps/s for Electrons, and 2 Sweeps/s for Ions. Particles are measured in 16 Sectors in the Plane of Acceptance, which is aligned with the Earth&apos;s Magnetic Field. The Mass of MEDUSA is 600 g and the Power Consumption is 900 mW. Particles enter the Spectrometer Aperture at any Angle in the Plane of Incidence, Electrons and Ions are then deflected into their respective Spectrometer Unit by a Spherical Electrostatic Analyser. The Particles Hit a Microchannel Plate after being filtered in Energy in the Electrostatic Analyser, the Hits are counted by Preamplifiers connected to Registers, and the Hits per Sample Interval are then further processed by the Data Processing Unit, DPU.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/J.David.Winningham</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Munin MEDUSA Web Page at IRF</Name>
+            <URL>http://munin.irf.se/frames/technology_index.html</URL>
+            <Description>Munin MEDUSA Web Page at the Swedish Institute of Space Physics, IRF</Description>
+            <Language>English</Language>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>ElectrostaticAnalyser</InstrumentType>
+      <InvestigationName>Munin MEDUSA</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2000-12-09T11:46:12</StartDate>
+         <StopDate>2001-02-11T15:18:33</StopDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/Munin</ObservatoryID>
+   </Instrument>
+</Spase>

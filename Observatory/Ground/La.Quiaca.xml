@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>La Quiaca</ResourceName>
          <AlternateName>Observatory Station Code: LQA</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-07-26T12:34:56.789</ReleaseDate>
          <Description>The La Quiaca geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Servicio Meteorologico Nacional, Centro de Geophysica, Argentina</Acknowledgement>
          <Contact>
@@ -26,9 +26,11 @@
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>-22.103</Latitude>
          <Longitude>294.395</Longitude>
+		 <Elevation>3450</Elevation>
       </Location>
       <OperatingSpan>
-         <StartDate>1964-01-01T00:00:00.000</StartDate>
+         <StartDate>1942-01-01T00:00:00.000</StartDate>
+		 <StopDate>1992-12-31T23:59:59</StopDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

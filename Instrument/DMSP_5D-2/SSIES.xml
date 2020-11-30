@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/DMSP_5D-2/SSIES</ResourceID>
     <ResourceHeader>
       <ResourceName>SSIES Special Sensor Topside Thermal Plasma Monitor</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:10Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>SSIES Special Sensor Topside Thermal Plasma Monitor on DMSP_5D-2.  The SSI/ES is an improved version of the Special Sensor for Ions and Electrons (SSI/E). The SSI/E instruments measure the ambient electron density and temperatures, the ambient ion density, and the average ion temperature and molecular weight at the DMSP orbital altitude.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Rita.C.Sagalyn</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1995-015A&amp;ex=03</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1995-015A&amp;ex=03</URL>
         <Description>Information about the Ionosph. Plasma Drift / Scintill Monitor (SSIES2) experiment on the DMSP 5D-2 mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>LangmuirProbe</InstrumentType>
     <InvestigationName>SSIES Special Sensor Topside Thermal Plasma Monitor on DMSP_5D-2</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/DMSP_5D-2</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

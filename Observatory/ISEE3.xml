@@ -11,7 +11,7 @@
       <AlternateName>International Cometary Explorer</AlternateName>
       <AlternateName>ICE</AlternateName>
       <AlternateName>Explorer 59</AlternateName>
-      <ReleaseDate>2010-10-01T20:06:06Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Explorer-class heliocentric spacecraft, International Sun-Earth Explorer 3, was part of the mother/daughter/heliocentric mission (ISEE 1, 2, and 3). The purposes of the mission were: (1) to investigate solar-terrestrial relationships at the outermost boundaries of the Earth's magnetosphere; (2) to examine in detail the structure of the solar wind near the Earth and the shock wave that forms the interface between the solar wind and Earth's magnetosphere; (3) to investigate motions of and mechanisms operating in the plasma sheets; and, (4) to continue the investigation of cosmic rays and solar flare emissions in the interplanetary region near 1 AU.
             The three spacecraft carried a number of complementary instruments for making measurements of plasmas, energetic particles, waves, and fields. The mission thus extended the investigations of previous IMP spacecraft. The launch of three coordinated spacecraft in this mission permitted the separation of spatial and temporal effects. This heliocentric spacecraft had a spin axis normal to the ecliptic plane and a spin rate of about 20 rpm. It was initially placed into an elliptical halo orbit about the Lagrangian libration point (L1) 235 Earth radii on the sunward side of the Earth, where it continuously monitored changes in the near-Earth interplanetary medium. In conjunction with the mother and daughter spacecraft, which had eccentric geocentric orbits, this mission explored the coupling and energy transfer processes between the incident solar wind and the Earth's magnetosphere. In addition, the heliocentric ISEE 3 spacecraft also provided a near-Earth baseline for making cosmic-ray and other planetary measurements for comparison with corresponding measurements from deep-space probes. ISEE 3 was the first spacecraft to use the halo orbit.
             For instrument descriptions written by the investigators, see IEEE Trans. on Geosci. Electron., v. GE-16, no. 3, July 1978.
@@ -23,16 +23,16 @@
       <Contact>
         <PersonID>spase://SMWG/Person/Keith.W.Ogilvie</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1978-079A</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1978-079A</URL>
         <Description>Information about the ISEE 3 mission</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/ISEE</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

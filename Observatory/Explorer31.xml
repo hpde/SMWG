@@ -7,21 +7,26 @@
       <ResourceName>Explorer 31</ResourceName>
       <AlternateName>1965-098B</AlternateName>
       <AlternateName>DME-A</AlternateName>
-      <ReleaseDate>2010-10-01T20:54:31Z</ReleaseDate>
+   <AlternateName>01806</AlternateName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Explorer 31 was a small ionospheric observatory instrumented to make direct measurements of selected ionospheric parameters at the spacecraft. It carried seven experiments: a thermal ion experiment, a thermal electron experiment, an electrostatic probe, an electron temperature probe, a spherical mass spectrometer, an energetic electron current monitor, and a magnetic ion-mass spectrometer. Since the spacecraft had no tape recorder, data could be observed at the spacecraft only when the spacecraft was in sight of the telemetry station and when commanded on. Experiments were operated either simultaneously or sequentially, as desired. The satellite was spin-stabilized with the spin axis perpendicular to the orbit plane. The spin rate and spin axis were controlled by an onboard magnetic torquing system. The attitude and spin rate information were observed by a sun sensor and a three-axis magnetometer. Satellite performance was satisfactory except for a partial power failure in May 1966, which reduced data acquisition time to about half the nominal amount. Some difficulties were encountered in obtaining attitude information that was necessary for the reduction of the experiment observations. On July 1, 1969, the satellite data observations were terminated with five of the seven experiments operating. Responsibility for standby monitoring of the satellite was given to the ESSA telemetry station at Boulder, Colorado, on July 8, 1969. During this standby operation, experiment data were collected only once on October 1, 1969, for 9 min from the electrostatic probe for use in studying a red arc event. On January 15, 1971, no response was received from a variety of satellite commands, and the satellite was abandoned.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/John.E.Jackson</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
+   <Contact>
+        <PersonID>spase://SMWG/Person/E.R.Shiffmacher</PersonID>
+        <Role>ProjectScientist</Role>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1965-098B</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1965-098B</URL>
         <Description>Information about the DME-A mission</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/Explorer</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

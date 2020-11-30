@@ -8,28 +8,28 @@
       <AlternateName>Geostationary Operational Environmental Satellite 13</AlternateName>
       <AlternateName>2006-018A</AlternateName>
       <AlternateName>GOES N</AlternateName>
-      <ReleaseDate>2013-01-24T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>GOES 13 is an American (National Oceanic and Atmospheric Administration) geostationary weather satellite that was launched by a Delta 4 rocket from Cape Canaveral at 22:11 UT on 24 May 2006. It carries the usual set of GOES monitors: imager, sounder, Space Environment Monitor package, X-ray imager, energetic particle detector, and ground-data relaying equipment. It was placed in orbit originally as a spare.</Description>
       <Acknowledgement>National Oceanic and Atmospheric Administration</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=2006-018A</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2006-018A</URL>
         <Description>Information about the GOES 13 mission</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://en.wikipedia.org/wiki/GOES_13</URL>
+        <URL>https://en.wikipedia.org/wiki/GOES_13</URL>
         <Description>Information about the GOES 13 mission</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://SMWG/Observatory/GOES/13</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/GOES</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

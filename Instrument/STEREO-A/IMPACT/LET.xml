@@ -1,69 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_3.xsd">
-  <Version>2.0.3</Version>
-  <Instrument>
-    <ResourceID>spase://SMWG/Instrument/STEREO-A/IMPACT/LET</ResourceID>
-    <ResourceHeader>
-      <ResourceName>STEREO-A IMPACT Low Energy Telescope</ResourceName>
-      <AlternateName>STEREO-A IMPACT LET</AlternateName>
-      <ReleaseDate>2010-03-17T21:59:27Z</ReleaseDate>
-      <Description>The Low Energy Telescope (LET) is one of four sensors that make up the Solar Energetic Particle (SEP) instrument of the IMPACT investigation for NASA's STEREO mission. LET is a special double-fan arrangement of 14 solid state detectors designed to measure the elemental composition, energy spectra, angular distributions, and arrival times of H to Ni ions from ~3 to 30 MeV/nucleon.  It will also identify the rare isotope 3He and trans-iron nuclei with 30 ≤ Z ≤ 83.
-      
-      The SEP measurements from the two STEREO spacecraft will be combined with data from ACE and other 1-AU spacecraft to provide multipoint investigations of the energetic particles that result from interplanetary shocks driven by coronal mass ejections (CMEs) and from solar flare events. The multipoint in situ observations of SEPs and solar-wind plasma will complement STEREO images of CMEs in order to investigate their role in space weather.
-      
-      LET uses a standard dE/dx vs. E technique, identifying particles that stop at depths of ~20-70 microns and ~70-2000 microns corresponding to two general energy ranges. The large field of view spans from 20 deg above to 20 deg below the ecliptic plane, and extends 65 deg to either side of the forward and backward Parker Spiral field directions in the ecliptic plane. LET's large geometric factor also ensures the detection of even small SEP events.
-      
-      Each LET instrument includes a sensor system made up of an array of 14 solid-state detectors composed of 54 segments that are individually analyzed by custom Pulse Height Analysis System Integrated Circuits (PHASIC). The signals from four PHASIC chips in each LET are used by a Minimal Instruction Set Computer (MISC) to provide on-board particle identification of a dozen species in ~12 energy intervals at event rates of ~1000 events/sec. An additional control unit, called SEP Central, gathers data from the four SEP sensors, controls the SEP bias supply, and manages the interfaces to the sensors and the SEP interface to the IMPACT Data Processing Unit (IDPU).
-      
-      The LET design, calibration and operation is described in detail by Mewaldt et al. in Space Science Reviews 136, 285-362 (2008).
-      </Description>
-      <Acknowledgement>The STEREO IMPACT/LET Team</Acknowledgement>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Mark.E.Wiedenbeck</PersonID>
-        <Role>CoInvestigator</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Alan.C.Cummings</PersonID>
-        <Role>CoInvestigator</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Branislav.Kecman</PersonID>
-        <Role>CoInvestigator</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Richard.Leske</PersonID>
-        <Role>CoInvestigator</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Richard.A.Mewaldt</PersonID>
-        <Role>CoInvestigator</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Edward.C.Stone.Jr</PersonID>
-        <Role>CoInvestigator</Role>
-      </Contact>
-      <InformationURL>
-        <Name>STEREO/IMPACT Mission Site</Name>
-        <URL>http://sprg.ssl.berkeley.edu/impact/</URL>
-      </InformationURL>
-      <InformationURL>
-        <Name>NSSDC's Master Catalog</Name>
-        <URL>
-          http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2006-047A-03
-        </URL>
-        <Description>
-        In-Situ Measurements of Particles and CME Transients (IMPACT) experiment on the STEREO A mission.
-      </Description>
-      </InformationURL>
-    </ResourceHeader>
-    <InstrumentType>ParticleDetector</InstrumentType>
-    <InvestigationName>
-      In-Situ Measurements of Particles and CME Transients (IMPACT) Low Energy Telescope on STEREO A
-    </InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/STEREO-A</ObservatoryID>
-  </Instrument>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/STEREO-A/IMPACT/LET</ResourceID>
+      <ResourceHeader>
+         <ResourceName>STEREO-A IMPACT LET</ResourceName>
+         <AlternateName>STEREO-A IMPACT Low Energy Telescope</AlternateName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <Description>The Low Energy Telescope, LET, is one of four Sensors that make up the Solar Energetic Particle, SEP, Instrument of the IMPACT Investigation for the NASA STEREO Mission. LET is a special Double-Fan Arrangement of 14 Solid State Detectors designed to measure the Elemental Composition, Energy Spectra, Angular Distributions, and Arrival Times of H to Ni Ions from ~3 to 30 MeV/n. It will also identify the rare Isotope 3He and trans-Iron Nuclei with 30&#8804;Z&#8804;83.
+
+The SEP Measurements from the two STEREO Spacecraft will be combined with Data from ACE and other 1 AU Spacecraft to provide multipoint Investigations of the Energetic Particles that result from Interplanetary Shocks driven by Coronal Mass Ejections, CMEs, and from Solar Flare Events. The multipoint in situ Observations of SEPs and Solar Wind Plasma will complement STEREO Images of CMEs in order to investigate their Role in Space Weather.
+
+LET uses a standard dE/dx versus E Technique, where E stands for Energy, identifying Particles that stop at Depths of ~20 micron to 70 micron and ~70 micron to 2000 micron corresponding to two general Energy Ranges. The large Field of View spans from 20&#176; above to 20&#176; below the Ecliptic Plane, and extends 65&#176; to either Side of the forward and backward Parker Spiral Field Directions in the Ecliptic Plane. LET&#39;s large Geometric Factor also ensures the Detection of even small SEP Events.
+
+Each LET Instrument includes a Sensor System made up of an Array of 14 Solid State Detectors composed of 54 Segments that are individually analyzed by custom Pulse Height Analysis System Integrated Circuits, PHASIC. The Signals from four PHASIC Chips in each LET are used by a Minimal Instruction Set Computer, MISC, to provide onboard Particle Identification of a dozen Species in ~12 Energy Intervals at Event Rates of ~1000 Events/s. An additional Control Unit, called SEP Central, gathers Data from the four SEP Sensors, controls the SEP Bias Supply, and manages the Interfaces to the Sensors and the SEP Interface to the IMPACT Data Processing Unit, IDPU.
+
+The LET Design, Calibration and Operation is described in detail by Mewaldt et al. in Space Science Reviews 136, 285-362, 2008.</Description>
+         <Acknowledgement>The STEREO IMPACT LET Team</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Mark.E.Wiedenbeck</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Alan.C.Cummings</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Branislav.Kecman</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Richard.Leske</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Richard.A.Mewaldt</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Edward.C.Stone.Jr</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>STEREO/IMPACT Mission Site</Name>
+            <URL>http://sprg.ssl.berkeley.edu/impact/</URL>
+         </InformationURL>
+         <InformationURL>
+            <Name>NSSDC Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2006-047A-03</URL>
+            <Description>In-Situ Measurements of Particles and CME Transients, IMPACT, Experiment on the STEREO A Mission</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>ParticleDetector</InstrumentType>
+      <InvestigationName>In-Situ Measurements of Particles and CME Transients, IMPACT, Low Energy Telescope on STEREO A</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/STEREO-A</ObservatoryID>
+   </Instrument>
 </Spase>

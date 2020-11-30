@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>SCATHA Engineering and Wave Experiment (SC2)</ResourceName>
       <AlternateName>SC2</AlternateName>
-      <ReleaseDate>2010-03-26T00:35:10Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The SC2 experiment has both science and engineering applications. The electrostatic analyzers measure ions and electrons with energies from a few 10's of eV to ~20 keV, perpendicular to the spin axis. SC2 also measures 20 keV ions with a temporal resolution of 250 msec for He and the CNO group (&gt;150keV/AMU) and one sec for protons.
 
       The plasma sensors consisted of three miniature electrostatic analyzers that measured the fluxes of electrons and ions over a limited range of energies. Two of the analyzers were enclosed within boom-mounted spherical probes, and the third was mounted behind the center band on the spacecraft. The booms were 180 degrees apart and were mounted near the centerline of the vehicle. The fields of view of the analyzers were parallel to each other and to the fields of view of the energetic ion sensors. The angular response of the units (FW at 10% maximum response) were approximately 9° by 7° for the electrons and 16° by 9° for the ions in planes parallel and perpendicular, respectively, to the spacecraft spin axis. They had geometric factors of ~1.7e-4 cm^2 sr for electrons and 6.7e-4 cm^2 sr for ions. The energy resolutions were dE/E = 0.14 for ions, and dE/E = 0.09 for electrons.
@@ -16,35 +16,35 @@
       The heavy-ion detection system SC2-3B was similar to the SC2-6 proton detector. The instrument was a two-element, solid-state telescope that was highly collimated, and the detectors were heavily shielded in all directions except the field of view .The electron rejection magnet was well separated from the detectors and deflected out of the incident beam all electrons with energies &lt; 1.7 MeV. The energetic ions were not affected by this "broom magnet." The SC2-3B heavy-ion telescope had a geometric factor of 3.6e-4 cm^2 sr.
 
       The SC2-3B ion telescope had a very thin (2.3 μm, 10 mm^2) front detector and a thicker (42.1 μm, 25 mm^2) rear detector. The output from the front detector was energy-analyzed while the rear detector was used to reject penetrating particles. The ions were differentiated by the energy required for them to penetrate the front detector. Ions with energies &gt;90 keV/nucleon were detected. A high threshold was also used on the rear detector to measure particles that penetrated the brass shield or front detector and still deposit large amounts of energy. The shielding stopped &lt;45 MeV protons and &lt;5 MeV electrons.
-      </Description>
+</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Joseph.F.Fennell</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Jonathan.Thomas.Niehof</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>SCATHA server at BU</Name>
-        <URL>http://spacedata.bu.edu/scatha.html</URL>
+        <URL>https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/SP020p0065</URL>
         <Description>Spacecraft/instrument description and data.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Spacecraft Sheath Fields Detector at NSSDC</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1979-007A-06</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1979-007A-06</URL>
         <Description>Spacecraft Sheath Fields Detector (part of SC2) on SCATHA.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Energetic Proton Detector at NSSDC</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1979-007A-14</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1979-007A-14</URL>
         <Description>Energetic Proton Detector (part of SC2) on SCATHA.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InstrumentType>ParticleDetector</InstrumentType>
     <InvestigationName>Spacecraft Charging At High Altitudes (SCATHA)</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/SCATHA</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

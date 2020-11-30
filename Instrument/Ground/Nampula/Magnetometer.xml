@@ -1,35 +1,34 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Instrument>
-      <ResourceID>spase://SMWG/Instrument/Ground/Nampula/Magnetometer</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Nampula Magnetometer</ResourceName>
-         <AlternateName>Magnetometer Station Code: NMP</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
-         <Description>The Magnetometer located at the Nampula geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge:  Nampula Geomagnetic Observatory, Mozambique; Mucussete Antonio, Observatory operational support from Jean Rasson and John Riddick. Data processed by John Riddick and British Geological Survey. Nampula observatory is part of the INDIGO Programme (see http://nora.nerc.ac.uk/15125/).</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Chris.W.Turbitt</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Mucussete.Antonio</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <PriorID>spase://SMWG/Instrument/WDC/Nampula/Magnetometer</PriorID>
-      </ResourceHeader>
-      <InstrumentType>Magnetometer</InstrumentType>
-      <InvestigationName>WDC_GDMC</InvestigationName>
-      <OperatingSpan>
-         <StartDate>1982-07-01T00:00:00.000</StartDate>
-      </OperatingSpan>
-      <ObservatoryID>spase://SMWG/Observatory/Ground/Nampula</ObservatoryID>
-   </Instrument>
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Ground/Nampula/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Nampula Magnetometer</ResourceName>
+      <AlternateName>Nampula Magnetometer</AlternateName>
+      <AlternateName>IAGA:NMP Magnetometer</AlternateName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>Magnetometer located at the station with the IAGA identifier NMP</Description>
+      <Acknowledgement>Please acknowedge the NMP observatory when using data from this instrument.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+        <Role>MetadataContact</Role>
+</Contact>
+      <InformationURL>
+        <Name>IAGA Guides and Standards</Name>
+        <URL>http://www.intermagnet.org/publications/intermag_4-6.pdf</URL>
+        <Description>Overview of IAGA Guides and Standards which obtained within its
+          Divisions and Working Groups. Information about observatories
+          is maintained by the "Geomagntic Observatories" (V-OBS) working group.</Description>
+</InformationURL>
+      <PriorID>spase://SMWG/Instrument/IAGA/Nampula/Magnetometer</PriorID>
+</ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>IAGA</InvestigationName>
+    <OperatingSpan>
+      <StartDate>1982-01-01T00:00:00</StartDate>
+      <StopDate>1987-12-31T23:59:59</StopDate>
+</OperatingSpan>
+    <ObservatoryID>spase://SMWG/Observatory/IAGA/Nampula</ObservatoryID>
+</Instrument>
 </Spase>

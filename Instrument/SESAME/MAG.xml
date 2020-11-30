@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/SESAME/MAG</ResourceID>
     <ResourceHeader>
       <ResourceName>SESAME Magnetometer</ResourceName>
-      <ReleaseDate>2014-07-24T20:37:17Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The SESAME MAG (Satellite Experiments Simultaneous with Antarctic MEasurements Magnetometer) is an EDA fluxgate magnetometer that samples the H, D, and Z components of the Earth's magnetic field once every second with a resolution of approximately 1 nT.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/J.R.Dudeney</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Project Overview</Name>
-        <URL>http://link.springer.com/article/10.1007%2FBF00751348</URL>
+        <URL>https://link.springer.com/article/10.1007%2FBF00751348</URL>
         <Description>Information about SESAME</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Magnetometer Observations in SESAME</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/SESAME</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

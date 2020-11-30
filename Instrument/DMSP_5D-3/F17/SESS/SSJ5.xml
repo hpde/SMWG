@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/DMSP_5D-3/F17/SESS/SSJ5</ResourceID>
+      <ResourceHeader>
+         <ResourceName>DMSP/F17, SESS Special Sensor Precipitating Electron and Ion Spectrometer 5, SESS/SSJ5</ResourceName>
+         <ReleaseDate>2017-08-23T12:34:56.789</ReleaseDate>
+         <Description>DMSP/F17, SESS Special Sensor Precipitating Electron and Ion Spectrometer 5, SESS/SSJ5, The SSJ5 measures the transfer energy, mass, and momentum through the magnetosphere-ionosphere in the Earth&apos;s magnetic field. The SSJ/4 sensor consists of four electrostatic analyzers that record the flux of precipitating ions or electrons at 20 fixed energy channels between 50 eV and 30 keV.</Description>
+         <Acknowledgement>DMSP Data Manager, NOAA National Environmental Satellite, Data, and Information Service, NESDIS</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/DMSP.Data.Manager</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>SESS Special Sensor Precipitating Electron and Ion Spectrometer 5 Web Site</Name>
+            <URL>https://www.wmo-sat.info/oscar/instruments/view/1021</URL>
+            <Description>SESS Special Sensor Precipitating Electron and Ion Spectrometer 5, SESS/SSJ5, Information and Details</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Spectrometer</InstrumentType>
+      <InvestigationName>Defense Meteorological Satellite Program, DMSP</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2006-11-04T00:00:00</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/DMSP_5D-3/F17</ObservatoryID>
+   </Instrument>
+</Spase>

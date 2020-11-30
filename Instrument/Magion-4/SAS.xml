@@ -5,22 +5,22 @@
     <ResourceID>spase://SMWG/Instrument/Magion-4/SAS</ResourceID>
     <ResourceHeader>
       <ResourceName>Electric and Magnetic Spectrum Analyzer SAS</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The SAS instrument consists of two SFA analyzers plus a time transformer and analog telemetry unit. The instrument is designed as the well-known step-frequency analyzer with two intermediate frequences: 465 kHz and 5 kHz.
 The signals under analysis are as follows: (1) electric component, 1-400 kHz (32-2000 Hz); (2) magnetic component, 400 Hz - 20 kHz; (3) magnetic component, 32-2000 Hz (Bx, By, Bz selected through the multiplexer); (4) current density XZ, 0.4-20 kHz; (5) current density YZ, 0.4-20 kHz; (6) analog frequency range, 1-480 Hz divided into 8 subranges.
 The analog output to telemetry is wide-band of 60 kHz.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/J.Juchniewicz</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1995-039F&amp;ex=2</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1995-039F&amp;ex=2</URL>
         <Description>Information about the Electric and Magnetic Spectrum Analyzer SAS experiment on the Interball S2-X mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Unspecified</InstrumentType>
     <InvestigationName>Electric and Magnetic Spectrum Analyzer SAS on Interball S2-X</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Magion-4</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

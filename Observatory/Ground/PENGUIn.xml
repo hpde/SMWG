@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+   <Version>2.2.9</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/PENGUIn</ResourceID>
+      <ResourceHeader>
+         <ResourceName>PENGUIn</ResourceName>
+         <AlternateName>Polar Experimental Network for Geospace Upper atmosphere Investigations</AlternateName>
+         <ReleaseDate>2019-04-19T12:34:56.789Z</ReleaseDate>
+         <Description>The digital, low-powered magnetometers in Antarctica are operated by a collaboration between Space @ Virginia Tech, the Space Physics Research Laboratory at the University of Michigan, Ann Arbor, and the National Institute of Aerospace in Hampton, VA. Professor C. Robert Clauer is the PI at Virginia Tech. These magnetometers complete the PENGUIn (Polar Experimental Network for Geospace Upper atmosphere Investigations) 40 degree magnetic meridian chain, conjugate to a chain on the western Greenland coast.</Description>
+         <Acknowledgement>Space at Virginia Tech,; the Space Physics Research Laboratory at the University of Michigan, Ann Arbor; the National Institute of Aerospace in Hampton, VA; and Professor C. Robert Clauer.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/C.Robert.Clauer</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Polar Experimental Network for Geospace Upper Atmosphere Investigations Homepage</Name>
+            <URL>http://mist.nianet.org/index.html</URL>
+            <Description>Information about the PENGUIn magnetometers.</Description>
+         </InformationURL>
+         <PriorID>spase://SMWG/Observatory/PENGUIn</PriorID>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2008-01-09T00:00:00Z</StartDate>
+         <Note>Exact start date is unknown.</Note>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

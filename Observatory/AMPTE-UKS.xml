@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
+   <Version>2.2.9</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/AMPTE-UKS</ResourceID>
+      <ResourceHeader>
+         <ResourceName>AMPTE/UKS</ResourceName>
+         <AlternateName>AMPTE/United Kingdom Subsatellite</AlternateName>
+         <AlternateName>UKS</AlternateName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <Description>The AMPTE (Active Magnetospheric Particle Tracer Explorers) mission was designed to study the access of solar wind ions to the magnetosphere, the convective-diffusive transport and energization of magnetospheric particles, and the interactions of plasmas in space.
+
+The program consisted of three spacecraft: the CCE, which measured in the magnetosphere the ions released by the IRM; the IRM, which provided multiple ion releases in the solar wind, the magnetosheath, and the magnetotail, with in situ diagnostics of each; and the UKS. The UKS was one spacecraft of the AMPTE (Active Magnetosphere Particle Tracer Experiment) program (along with CCE and IRM) and served as a subsatellite of the IRM spacecraft. Its purpose was to help distinguish between spatial structure and temporal changes in the plasma phenomena initiated by ion releases from the IRM and in the natural magnetospheric environment. Measured quantities were similar to those of the IRM and include magnetic fields, positive ions, electrons, plasma waves, and modulations in ions and electrons.
+
+The spacecraft was spin-stabilized at 12 rpm and employed S-band communications. It carried a cold gas propulsion system and a VHF radar system for station keeping with the IRM normally at a distance of a few hundred kilometers. The lead investigator for the UKS spacecraft was D. A. Bryant.
+
+For more details, see A.K. Ward, et al., IEEE Transaction on Geoscience and Remote Sensing, Vol. GE-23, p 202, 1985.
+
+Data-taking periods
+
+The operation of UKS was constrained by the power available from the solar panels and onboard battery capacity. This limited operation of the full set of instruments to a maximum duration of 5 hours after which 10 hours were required to recharge batteries. Longer periods of operation were possible with a subset of the instruments. Operation was further constrained by the need to transmit data back to the ground in real-time. Thus, in general, the instruments were operated only when the spacecraft was in view of the telemetry stations in the UK (but on a few special occasions, such as ion releases, this constraint was overcome by use of the NASA Deep Space Network). As a result, the UKS data are discontinuous with coverage of up to 6 hours per day.
+
+Note that the database contains data for most, but not all, of the data-taking periods. Some data are omitted because of problems in processing.
+
+Lifetime
+
+After launch on 16 August 1984 UKS was taken through the usual commissioning phase and was declared fully operational on 25 August 1984. The spacecraft was then operated almost every day up to and including 15 January 1985 when the spacecraft power supply failed. Telemetry contact could not be established when it came into view of the ground station on 16 January or on several later attempts.
+
+Control
+
+The spacecraft was operated in real-time from a control center located at the Rutherford Appleton Laboratory. A duty scientist, selected for each day from the instrument teams, was responsible for operational decisions within a strategy set primarily by the UK Science Team. These decisions were typically to select operating periods and modes of instruments in order to optimize the scientific return, e.g. targeting magnetospheric boundaries by using the instruments in a low power survey mode to refine predictions of crossing times.
+
+Orbit evolution
+
+At launch the apogee of the UKS orbit was at a local time of 14:30 hours. As the mission progressed, the UKS apogee precessed to earlier local times at a rate of about 2 hours per month reaching a local time of 05:00 hours when the spacecraft ceased operation on 15 January 1985. Thus UKS gave good coverage of the dayside magnetopause, magnetosheath and bow shock from the early afternoon sector through midday to the dawn sector. These dayside orbits also yielded a large amount of solar wind data. No data are available from the downstream magnetopause or the tail because the spacecraft died before precession allowed it to sample those regions.
+
+Note that the UKS mission took place during the declining phase of solar cycle 21. This was characterised by corotating high-speed streams in the solar wind. These were well observed by UKS in the early months of its mission.</Description>
+         <Contact>
+            <!-- Duncan A. Bryant -->
+            <PersonID>spase://SMWG/Person/Duncan.A.Bryant</PersonID>
+            <Role>ProjectScientist</Role>
+</Contact>
+         <InformationURL>
+            <Name>UK AMPTE User Guide</Name>
+            <URL>http://www.sp.ph.ic.ac.uk/csc-web/DOCS/CU-QMW-MA-0008/index.html</URL>
+            <Description>AMPTE UKS/IRM mission, instrument and parameter description</Description>
+</InformationURL>
+         <InformationURL>
+            <Name>NSSDC Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1984-088C</URL>
+            <Description>NSSDC information about the AMPTE/UKS spacecraft</Description>
+</InformationURL>
+         <PriorID>spase://SMWG/Observatory/AMPTE_UKS</PriorID>
+</ResourceHeader>
+      <ObservatoryGroupID>spase://SMWG/Observatory/AMPTE</ObservatoryGroupID>
+      <Location>
+         <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
+         <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+         <ObservatoryRegion>Earth.Magnetosphere.Magnetotail</ObservatoryRegion>
+         <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+</Location>
+      <OperatingSpan>
+         <StartDate>1984-08-16T00:00:00.999</StartDate>
+         <StopDate>9999-12-31T23:59:59.999</StopDate>
+</OperatingSpan>
+</Observatory>
+</Spase>

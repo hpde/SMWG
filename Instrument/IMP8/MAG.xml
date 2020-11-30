@@ -6,26 +6,26 @@
     <ResourceHeader>
       <ResourceName>IMP 8 Magnetic Field Experiment</ResourceName>
       <AlternateName>IMP8 MAG</AlternateName>
-      <ReleaseDate>2010-02-04T12:34:56.789</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The magnetic field experiment on the IMP-8 spacecraft utilizes a tri-axial fluxgate (saturable inductor) magnetometer. The instrument originally had three, automatically determined, ranges, +/-12 nT, +/-36 nT, and +/-108 nT, full scale. Because of a range-change circuit failure occurring in early July 1975, the experiment was commanded into a fixed +/-36 nT range on July 11, 1975 at 12:55:09 UT and has been in that range ever since. The measurements are A-to-D converted onboard, to an 8-bit resolution, yielding +/-0.14 nT quantization sensitivity, which is larger than the intrinsic sensor noise level of 0.025 nT RMS. The data from the two-bit (per component) adaptive delta modulator, incorporated into the instrument, and applied to the intrinsic sample rate of 25 vectors/sec., was never utilized, and hence the rate of the full (8-bit) vector words, which occur every 320 ms, represents the effective sample period of the instrument. The sampling rate is synchronized to the spacecraft clock; the basic spacecraft clock frequency is 6.4 kHz. The sensor unit is mounted on the end of a boom approximately 4 m from the center of the spacecraft.</Description>
       <Acknowledgement>User will acknowledge the IMP-8 magnetometer team in any publication resulting from the use of these data.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>IMP-8 Magnetometer Home Page</Name>
-        <URL>http://spdf.gsfc.nasa.gov/imp8/project.html</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/imp/imp8/documents/archived_website/project.html</URL>
         <Description>A web site hosting IMP-8 experiment instrument information as well as web utilities for plotting and downloading data.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1973-078A-01</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1973-078A-01</URL>
         <Description>Information about the Magnetic Field Experiment experiment on the IMP 8 mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Magnetic Field Experiment</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/IMP8</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

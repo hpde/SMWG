@@ -5,7 +5,8 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Nain</ResourceID>
       <ResourceHeader>
          <ResourceName>Nain Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+		 <AlternateName>Observatory Station Code: NAIN</AlternateName>
+         <ReleaseDate>2018-08-21T12:34:56.789</ReleaseDate>
          <Description>Nain (NAIN) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: Augsburg College</Acknowledgement>
          <Contact>
@@ -21,12 +22,19 @@
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
+		 <InformationURL>
+			<Name>Overview of the Magnetometer Array for Cusp and Cleft Studies</Name>
+			<URL>http://space.augsburg.edu/maccs/</URL>
+			<Description>Description of Magnetometer Array for Cusp and Cleft Studies project.</Description>
+		 </InformationURL>
       </ResourceHeader>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/MACCS</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>56.4</Latitude>
-         <Longitude>298.3</Longitude>
+         <Latitude>56.40</Latitude>
+         <Longitude>298.30</Longitude>
       </Location>
       <OperatingSpan>
          <StartDate>2007-06-08T00:00:00</StartDate>

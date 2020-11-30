@@ -5,24 +5,24 @@
     <ResourceID>spase://SMWG/Instrument/CANOPUS/MARI</ResourceID>
     <ResourceHeader>
       <ResourceName>CANOPUS Magnetometer and Riometer Array (MARI)</ResourceName>
-      <ReleaseDate>2011-02-02T17:45:48Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The CANOPUS Magnetometer and Riometer Array
-(MARI) was a ground based instrument array for remote sensing 
-the high latitude ionosphere during the ISTP/GGS program. The 
+(MARI) was a ground based instrument array for remote sensing
+the high latitude ionosphere during the ISTP/GGS program. The
 CANOPUS program has been superseded by the CARISMA (Canadian
 Array for Realtime Investigations of Magnetic Activity).</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Gordon.Rostoker</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>CANOPUS status, 1999</Name>
-        <URL>http://www-ssc.igpp.ucla.edu/gem/geomag/CANOPUS.html</URL>
-      </InformationURL>
-    </ResourceHeader>
+        <URL>http://www.sp-agency.ca/www/maria.htm</URL>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InstrumentType>Riometer</InstrumentType>
     <InvestigationName>CANOPUS/MARI</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/CANOPUS</ObservatoryID>
-  </Instrument>
+    <ObservatoryID>spase://SMWG/Observatory/Ground/CANOPUS</ObservatoryID>
+</Instrument>
 </Spase>

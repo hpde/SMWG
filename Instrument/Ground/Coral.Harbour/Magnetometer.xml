@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+   <Version>2.3.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Ground/Coral.Harbour/Magnetometer</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Coral Harbour Magnetometer</ResourceName>
+         <ReleaseDate>2020-04-18T12:34:56.789</ReleaseDate>
+         <Description>Coral Harbour (CHBR) Geophysical Observatory Magnetometer</Description>
+         <Acknowledgement>Please acknowledge E.S. Steinmetz, (Augsburg College)</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Erik.S.Steinmetz</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Augsburg College, Magnetometer for Cusp and Cleft Studies (MACCS) Magnetic Field Data Portal</Name>
+            <URL>http://space.augsburg.edu/maccs/index.html</URL>
+            <Description>Main menu for access to magnetic field data</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Magnetometer</InstrumentType>
+      <InvestigationName>MACCS Network</InvestigationName>
+      <InvestigationName>THEMIS Mission GMAGs</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2012-07-16T00:00:00.000</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/Ground/Coral.Harbour</ObservatoryID>
+   </Instrument>
+</Spase>

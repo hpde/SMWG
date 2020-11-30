@@ -4,19 +4,19 @@
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Cassini/RPWS</ResourceID>
     <ResourceHeader>
-      <ResourceName>Cassini RPWS</ResourceName>    
+      <ResourceName>Cassini RPWS</ResourceName>
       <AlternateName>Cassini Radio And Plasma Wave Science</AlternateName>
-      <ReleaseDate>2012-11-27T21:10:13Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Cassini Radio and Plasma Wave Science instrument consists of
     three electric field sensors, three search coil magnetometers, and a
     Langmuir probe as well as an array of receivers covering the
     frequency range from 1 Hz to 16 MHz with varying degrees of spectral
     and temporal resolution.
-    
-    
+   
+   
     The text of this instrument description has been abstracted from the
     instrument paper:
-    
+   
      Gurnett, D. A., W. S. Kurth, D. L. Kirchner, G. B. Hospodarsky, T.
     F. Averkamp, P. Zarka, A. Lecacheux, R. Manning, A. Roux, P. Canu,
     N. Cornilleau-Wehrlin, P. Galopeau, A. Meyer, R. Bostrom, G.
@@ -127,7 +127,7 @@
 
   Calibration
   ===========
-  
+ 
     An extensive series of amplitude calibrations, frequency responses,
     phase calibrations, and instrument performance checks were carried
     out on the RPWS prior to launch, both before and after integration
@@ -142,7 +142,7 @@
 
   Operational Considerations
   ==========================
-  
+ 
     The different types of receivers used to cover the spectral and
     temporal range covered by the RPWS does not lend itself to a
     monolithic, synchronous mode of operation. Nevertheless, to reduce
@@ -177,7 +177,7 @@
 
   Detectors
   =========
-  
+ 
     The RPWS utilizes three 10-m electric antennas, three magnetic
     antennas, and a Langmuir probe for detectors.  Three monopole
     electric field antennas, labeled Eu, Ev, and Ew, are used to provide
@@ -217,7 +217,7 @@
 
   Electronics
   ===========
-  
+ 
     The electronics consists of five receivers. These receivers are
     connected to the antennas described above by a network of switches.
     The high frequency receiver (HFR) provides simultaneous auto- and
@@ -280,30 +280,30 @@
     receiver."
 
 
-    </Description>
+</Description>
       <Acknowledgement/>
             <Contact>
                 <PersonID>spase://SMWG/Person/Donald.A.Gurnett</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact>
+</Contact>
             <Contact>
                 <PersonID>spase://SMWG/Person/William.S.Kurth</PersonID>
                 <Role>CoInvestigator</Role>
-            </Contact>
+</Contact>
       <InformationURL>
         <Name>Instrument home page at The University of Iowa</Name>
         <URL>http://www-pw.physics.uiowa.edu/cassini/</URL>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Experiment Details at the National Space Science Data Center (NSSDC)</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1997-061A-07</URL>
-      </InformationURL>
-    </ResourceHeader>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1997-061A-07</URL>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Antenna</InstrumentType>
-    <InstrumentType>SearchCoil</InstrumentType>    
-    <InstrumentType>LangmuirProbe</InstrumentType>        
+    <InstrumentType>SearchCoil</InstrumentType>
+    <InstrumentType>LangmuirProbe</InstrumentType>
     <InvestigationName>Radio And Plasma Wave Science</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Cassini</ObservatoryID>
     <Caveats/>
-  </Instrument>
+</Instrument>
 </Spase>

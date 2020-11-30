@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.9</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/USGS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>United State Geological Survey</ResourceName>
+      <AlternateName>USGA</AlternateName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The USGS Geomagnetism Program currently operates 14 magnetic observatories.
+   Magnetometer data are collected at these facilities, and the data are then transmitted to
+   Program headquarters in Golden Colorado. The geographic distribution of the Program’s
+   observatories, shown below, has been determined by the need to monitor and study
+   the geomagnetic field on a global scale, primarily for purposes of space-weather
+   diagnosis and main field modelling and mapping, as well as the practical issues
+   of availability of land, communication and operational logistics, and the relative
+   locations of observatories operated by other foreign-national programs.</Description>
+      <Acknowledgement>United State Geological Survey National Geomagnetism Program</Acknowledgement>
+   <Contact>
+        <PersonID>spase://SMWG/Person/Carol.A.K.Finn</PersonID>
+        <Role>TeamLeader</Role>
+</Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+        <Role>MetadataContact</Role>
+</Contact>
+      <InformationURL>
+        <Name>Overview of the USGS Geomagnetism Program Array</Name>
+        <URL>https://www.usgs.gov/natural-hazards/geomagnetism</URL>
+        <Description>Description and location of the magnetometer array.</Description>
+</InformationURL>
+</ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+</Location>
+ <OperatingSpan>
+  <StartDate>1807-02-10T12:00:00Z</StartDate>
+  <Note>Exact start date is unknown.</Note>
+</OperatingSpan>
+</Observatory>
+</Spase>

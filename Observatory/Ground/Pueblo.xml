@@ -5,7 +5,8 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Pueblo</ResourceID>
       <ResourceHeader>
          <ResourceName>Pueblo Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+		 <AlternateName>Observatory Station Code: PBLO</AlternateName>
+         <ReleaseDate>2018-09-24T12:34:56.789</ReleaseDate>
          <Description>Pueblo (PBLO) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: United States Air Force Academy, University of California, Los Angeles</Acknowledgement>
          <Contact>
@@ -22,14 +23,16 @@
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
       </ResourceHeader>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>38.3</Latitude>
-         <Longitude>255.4</Longitude>
+         <Latitude>38.25</Latitude>
+         <Longitude>255.39</Longitude>
       </Location>
       <OperatingSpan>
          <StartDate>2009-05-13T00:00:00.000</StartDate>
+		 <StopDate>2012-05-02T23:59:59</StopDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

@@ -5,7 +5,8 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Longyearbyen</ResourceID>
       <ResourceHeader>
          <ResourceName>Longyearbyen Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+		 <AlternateName>Observatory Station Code: LYR</AlternateName>
+         <ReleaseDate>2018-08-03T12:34:56.789</ReleaseDate>
          <Description>Longyearbyen (LYR) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: UiT The Arctic University of Norway</Acknowledgement>
          <Contact>
@@ -16,12 +17,19 @@
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
          </Contact>
+		 <InformationURL>
+			  <Name>Tromsø Geophysical Observatory</Name> 
+			  <URL>http://flux.phys.uit.no/geomag.html</URL> 
+			  <Description>Requestion form for magnetometer data, plots, indices, maps, etc.</Description> 
+		 </InformationURL>
          <InformationURL>
             <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
       </ResourceHeader>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/TGO</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>

@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Instrument>
         <ResourceID>spase://SMWG/Instrument/CNOFS/CINDI/IVM</ResourceID>
         <ResourceHeader>
             <ResourceName>Coupled Ion-Neutral Dynamics Investigation (CINDI)</ResourceName>
-	    <AlternateName>2008-017A-03</AlternateName>
-            <ReleaseDate>2013-03-15T00:00:00Z</ReleaseDate>
+     <AlternateName>2008-017A-03</AlternateName>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>The Coupled Ion-Neutral Dynamics Investigation (CINDI) payload is funded by NASA as an Explorer Mission of Opportunity. CINDI consists of two instruments: the Ion Velocity Meter (IVM) and the Neutral Wind Meter (NWM). The IVM instrument includes a ion drift meter (IDM) and a retarding potential analyzer (RPA). IVM measure the ion drift vector, the ion temperature, and the major ion composition with a spatial resolution of about 4 km along the satellite track; the ion drift meter also provides vertical and horizontal ion drift components at 500 m resolution. The NWM consists of a cross track wind sensor and a ram wind sensor providing a direct measure of the neutral wind vector with a spatial resolution of about 8 km along the satellite track. The CINDI homepage is at http://cindispace.utdallas.edu/</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Roderick.A.Heelis</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact> 
+</Contact>
             <InformationURL>
                 <Name>NSSDC Master Catalog</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2008-017A-03</URL>
+                <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2008-017A-03</URL>
                 <Description>Information the CINDI IVM and NWM on CNOFS</Description>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
         <InstrumentType>ParticleDetector</InstrumentType>
         <InstrumentType>IonDrift</InstrumentType>
         <InstrumentType>NeutralParticleDetector</InstrumentType>
         <InvestigationName>Coupled Ion-Neutral Dynamics Investigation</InvestigationName>
         <ObservatoryID>spase://SMWG/Observatory/CNOFS</ObservatoryID>
-    </Instrument>
+</Instrument>
 </Spase>
 
 

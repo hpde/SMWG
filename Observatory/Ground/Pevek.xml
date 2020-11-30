@@ -5,7 +5,8 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Pevek</ResourceID>
       <ResourceHeader>
          <ResourceName>Pevek Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+		 <AlternateName>Observatory Station Code: PBK</AlternateName>
+         <ReleaseDate>2018-09-06T12:34:56.789</ReleaseDate>
          <Description>Pevek (PBK) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: Arctic and Antarctic Research Institute</Acknowledgement>
          <Contact>
@@ -22,6 +23,8 @@
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
       </ResourceHeader>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/RAM</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>

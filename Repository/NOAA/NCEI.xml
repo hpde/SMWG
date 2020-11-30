@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
+  <Version>2.3.0</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/NOAA/NCEI</ResourceID>
+    <ResourceHeader>
+      <ResourceName>NCEI</ResourceName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>NOAA's National Centers for Environmental Information (NCEI) hosts and provides public access to one of the most significant archives for environmental data on Earth. Through the Center for Weather and Climate and the Center for Coasts, Oceans, and Geophysics, it provides over 25 petabytes of comprehensive atmospheric, coastal, oceanic, and geophysical data.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/William.F.Rowland</PersonID>
+        <Role>GeneralContact</Role>
+</Contact>
+      <InformationURL>
+        <Name>Web page</Name>
+        <URL>https://www.ngdc.noaa.gov/dscovr/portal/</URL>
+        <Description>Web page for NCEI</Description>
+</InformationURL>
+</ResourceHeader>
+    <AccessURL>
+      <URL>https://www.ncei.noaa.gov/</URL>
+</AccessURL>
+</Repository>
+</Spase>

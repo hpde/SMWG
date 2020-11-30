@@ -5,38 +5,38 @@
     <ResourceID>spase://SMWG/Instrument/Oersted/OESM</ResourceID>
     <ResourceHeader>
       <ResourceName>Overhauser Effect Scalar Magnetometer</ResourceName>
-      <ReleaseDate>2014-07-24T20:37:19Z</ReleaseDate>
-      <Description>The Overhauser Effect Scalar Magnetometer is one of four instruments onboard the Oersted spacecraft.  The purpose of the scalar magnetometer is to provide an in-flight, absolute calibration of the vector magnetometer, independent on environmental conditions. The measuring range of the instrument is from 16000 nT to 54000 nT with an accuracy of better than 1 nT. Rate of measurements will be 1 sample per second. Power consumption is limited to 3 W in CW mode and less than 0.5 W in stand-by mode. Weight of the instrument including electronic box is less than 2.5 kg. The scalar magnetometer is provided by Centre National d`Etudes Spatiale (CNES) in Toulouse, and developed by Laboratory for Electronics, Technology and Instrumentation (LETI) in Grenoble. </Description>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The Overhauser Effect Scalar Magnetometer is one of four instruments onboard the Oersted spacecraft.  The purpose of the scalar magnetometer is to provide an in-flight, absolute calibration of the vector magnetometer, independent on environmental conditions. The measuring range of the instrument is from 16000 nT to 54000 nT with an accuracy of better than 1 nT. Rate of measurements will be 1 sample per second. Power consumption is limited to 3 W in CW mode and less than 0.5 W in stand-by mode. Weight of the instrument including electronic box is less than 2.5 kg. The scalar magnetometer is provided by Centre National d`Etudes Spatiale (CNES) in Toulouse, and developed by Laboratory for Electronics, Technology and Instrumentation (LETI) in Grenoble.</Description>
       <Acknowledgement>Dr. Jose J Achache; Dr. Ib Laursen; The European Space Agency; Danish Meteorological Institute (Denmark); Danish Ministry of Commerce (Denmark); Danish Ministry of Transportation (Denmark); Centre National d'Etudes Spatiales (France); National Aeronautics and Space Administration (United States); Danish Ministry of Science (Denmark); Danish Space Research Institute (Denmark)</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Jose.J.Achache</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Ib.Laursen</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1999-008B-02</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1999-008B-02</URL>
         <Description>Information about the Overhauser Effect Scalar Magnetometer.</Description>
         <Language>en</Language>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Overhauser Effect Scalar Magnetometer</Name>
         <URL>http://www.geophysik.uni-bremen.de/statisch/downloads/254/Overhauser-Magnetometers.pdf</URL>
         <Description>Information about the Overhauser Effect Scalar Magnetometer including some theory.</Description>
         <Language>en</Language>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://SMWG/Instrument/Oersted/OESM</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Overhauser Effect Scalar Magnetometer on the Oersted spacecraft</InvestigationName>
     <OperatingSpan>
-    	 <StartDate>1999-03-15T00:00:00Z</StartDate>
-    	 <StopDate>2009-03-25T23:59:59Z</StopDate>
-    	 <Note>It is not clear if this mission is still active.</Note>
-    </OperatingSpan>
+      <StartDate>1999-03-15T00:00:00Z</StartDate>
+      <StopDate>2009-03-25T23:59:59Z</StopDate>
+      <Note>It is not clear if this mission is still active.</Note>
+</OperatingSpan>
     <ObservatoryID>spase://SMWG/Observatory/Oersted</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

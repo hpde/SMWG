@@ -5,17 +5,34 @@
     <ResourceID>spase://SMWG/Observatory/Ground/TEIDE</ResourceID>
     <ResourceHeader>
       <ResourceName>TEIDE Observatory</ResourceName>
-      <ReleaseDate>2015-10-23T18:19:17Z</ReleaseDate>
-      <Description>TEIDE Observatory</Description>
+      <ReleaseDate>2019-02-15T18:19:17Z</ReleaseDate>
+      <Description>El Teide Observatory, Canary Islands Latitude N 028,18′,03.0″ 
+	  Longitude W 016,30′,43.0″ Elevation 2425.0m This Instituto Astrofisica de 
+	  Canarias (IAC) site is located near Izaña at an altitude of 2398m on the 
+	  island of Tenerife, in the Canary Islands off the west coast of Africa. 
+	  The IAC is administered by a public consortium which includes the 
+	  Universidad de la Laguna.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
+	  <InformationURL>
+        <Name>Global Oscillation Network Group Homepage</Name>
+        <URL>https://gong.nso.edu/</URL>
+        <Description>Additional detailed information about the Global Oscillation Network Group.</Description>
+	  </InformationURL>
 	  <PriorID>spase://SMWG/Observatory/TEIDE</PriorID>
     </ResourceHeader>
-<ObservatoryGroupID>spase://SMWG/Observatory/GONG</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/GONG</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+	  <CoordinateSystemName>GEO</CoordinateSystemName>
+	  <Latitude>28.30</Latitude>
+	  <Longitude>16.51</Longitude>
+	  <Elevation>2398.0</Elevation>
     </Location>
+	<OperatingSpan>
+         <StartDate>2010-04-26T01:20:54.000</StartDate>
+    </OperatingSpan>
   </Observatory>
 </Spase>

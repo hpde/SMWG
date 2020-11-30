@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Wind Magnetic Field Investigation</ResourceName>
       <AlternateName>Wind MFI</AlternateName>
-      <ReleaseDate>2014-07-24T20:37:15Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The magnetic field experiment on Wind provides data for studies of a broad range of scales of structures and fluctuation characteristics of the interplanetary magnetic field throughout the mission, and, where appropriate, relate them to the statics and dynamics of the magnetosphere. The basic instrument of the Magnetic Field Investigation (MFI) on the Wind Spacecraft  is a boom-mounted dual triaxial fluxgate magnetometer and associated electronics. The dual configuration provides redudancy and also permits accurate removal of the dipolar portion of the spacecraft magnetic field. The instrument provides:
 
             * (1) near real-time data at nominally one vector per 92 s as key paramter data for broad dissemination,
@@ -22,24 +22,24 @@
       <Contact>
         <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
         <Role>DataProducer</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Ronald.P.Lepping</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Wind Magnetic Field Investigation (MFI) Paper</Name>
-        <URL>http://link.springer.com/article/10.1007%2FBF00751330</URL>
+        <URL>https://link.springer.com/article/10.1007%2FBF00751330</URL>
         <Description>The Space Science Reviews paper describing Wind Magnetic Field Investigation (MFI).</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1994-071A-04</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1994-071A-04</URL>
         <Description>Information about the Magnetic Field Investigation (MFI) experiment on the Wind mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Magnetic Field Investigation</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Wind</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

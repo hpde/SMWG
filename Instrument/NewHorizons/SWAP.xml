@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/NewHorizons/SWAP</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Solar Wind Around Pluto, SWAP</ResourceName>
+         <AlternateName>SWAP</AlternateName>
+         <ReleaseDate>2017-08-03T00:00:00Z</ReleaseDate>
+         <Description>The Solar Wind Around Pluto, SWAP, Instrument on New Horizons will measure the Interaction between the Solar Wind and Ions created by Atmospheric Loss from Pluto. These Measurements provide a Characterization of the Total Loss Rate and allow us to examine the Complex Plasma Interactions at Pluto for the First Time. Constrained to fit within Minimal Resources, SWAP is optimized to make Plasma-Ion Measurements at all Rotation Angles as the New Horizons Spacecraft scans to image Pluto and Charon during the Flyby. In order to meet these Unique Requirements, we combined a Cylindrically Symmetric Retarding Potential Analyzer, RPA, with small Deflectors, a Top-Hat Analyzer, and a Redundant/Coincidence Detection Scheme. This Configuration allows for highly sensitive Measurements and a controllable Energy Passband at all Scan Angles of the Spacecraft.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>The Solar Wind Around Pluto, SWAP, Instrument Aboard New Horizons</Name>
+            <URL>https://arxiv.org/ftp/arxiv/papers/0709/0709.4505.pdf</URL>
+            <Description>SWAP Instrument Detailed Description</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>NASA New Horisons SWAP Instrument</Name>
+            <URL>https://www.nasa.gov/mission_pages/newhorizons/multimedia/swap.html</URL>
+            <Description>SWAP Instrument on NASA&apos;s New Horizons Spacecraft</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+      <InvestigationName>Solar Wind Around Pluto, SWAP, on New Horizons</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/NewHorizons</ObservatoryID>
+   </Instrument>
+</Spase>

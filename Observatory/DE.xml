@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
   <Version>2.2.0</Version>
   <Observatory>
@@ -6,9 +5,8 @@
     <ResourceHeader>
       <ResourceName>Dynamics Explorer Mission</ResourceName>
       <AlternateName>DE</AlternateName>
-      <ReleaseDate>2010-10-01T20:41:57Z</ReleaseDate>
-      <Description>
-          The Dynamics Explorer (DE) mission's general objective is to 
+      <ReleaseDate>2018-05-03T20:37:33.475</ReleaseDate>
+      <Description>The Dynamics Explorer (DE) mission's general objective is to 
           investigate the strong interactive processes coupling the hot, 
           tenuous, convecting plasmas of the magnetosphere and the 
           cooler, denser plasmas and gases corotating in the earth's 
@@ -16,15 +14,16 @@
           satellites, DE 1 and DE 2, were launched together and were 
           placed in polar coplanar orbits, permitting simultaneous 
           measurements at high and low altitudes in the same field-line 
-          region. 
-          
-          Additional details may be found in R. A. 
-          Hoffman et al., Space Sci. Instrum., v. 5, n. 4, p. 349, 1981. 
-      </Description>
+          region.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.A.Hoffman</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
+      <InformationURL>
+        <Name>Space Science Instrumentation Article</Name>
+        <URL>https://spdf.gsfc.nasa.gov/pub/data/de/documents/HoffmanEtAl_1981_DESpacecraftAndGroundOps_SpaceScienceInstrumentation.pdf</URL>
+        <Description>Detailed Information about the Dynamics Explorer mission.</Description>
+      </InformationURL>
     </ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>

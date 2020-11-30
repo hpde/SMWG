@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Douglas.Biesecker</ResourceID>
+    <ReleaseDate>2018-09-18T15:40:50Z</ReleaseDate>
+    <PersonName>Douglas Biesecke</PersonName>
+    <OrganizationName>
+        Space Weather Prediction Center National Oceanic and Atmospheric Administration</OrganizationName>
+    <Address>NOAA Space Environment Center, 325 Broadway, Boulder CO 80305 USA</Address>
+    <Email>Doug.Biesecker@noaa.gov</Email>
+    <FaxNumber>+1 303 497-4474</FaxNumber>
+  </Person>
+</Spase>

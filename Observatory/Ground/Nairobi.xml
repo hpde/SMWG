@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Nairobi</ResourceName>
          <AlternateName>Observatory Station Code: NAI</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2018-08-21T12:34:56.789</ReleaseDate>
          <Description>The Nairobi geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Nairobi Observatory Director</Acknowledgement>
          <Contact>
@@ -26,9 +26,11 @@
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>-1.327</Latitude>
          <Longitude>36.815</Longitude>
+		 <Elevation>1670</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>1964-09-01T00:00:00.000</StartDate>
+		 <StopDate>1967-05-30T23:59:59</StopDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

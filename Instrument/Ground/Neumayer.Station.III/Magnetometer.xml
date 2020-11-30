@@ -1,30 +1,33 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Instrument>
-      <ResourceID>spase://SMWG/Instrument/Ground/Neumayer.Station.III/Magnetometer</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Neumayer Station III Magnetometer</ResourceName>
-         <AlternateName>Magnetometer Station Code: VNA</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
-         <Description>The Magnetometer located at the Neumayer Station III geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge:  ::UNKNOWN::</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Alfons.Eckstaller</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <PriorID>spase://SMWG/Instrument/WDC/Neumayer.Station/Magnetometer</PriorID>
-      </ResourceHeader>
-      <InstrumentType>Magnetometer</InstrumentType>
-      <InvestigationName>WDC_GDMC</InvestigationName>
-      <OperatingSpan>
-         <StartDate>1999-01-01T00:00:00.000</StartDate>
-      </OperatingSpan>
-      <ObservatoryID>spase://SMWG/Observatory/Ground/Neumayer.Station.III</ObservatoryID>
-   </Instrument>
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Ground/Neumayer.Station.III/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Neumayer Station III Magnetometer</ResourceName>
+      <AlternateName>Neumayer.Station.III Magnetometer</AlternateName>
+      <AlternateName>IAGA:VNA Magnetometer</AlternateName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>Magnetometer located at the station with the IAGA identifier ZUY</Description>
+      <Acknowledgement>Please acknowedge the ZUY observatory when using data from this instrument.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+        <Role>MetadataContact</Role>
+</Contact>
+      <InformationURL>
+        <Name>IAGA Guides and Standards</Name>
+        <URL>http://www.intermagnet.org/publications/intermag_4-6.pdf</URL>
+        <Description>Overview of IAGA Guides and Standards which obtained within its
+          Divisions and Working Groups. Information about observatories
+          is maintained by the "Geomagntic Observatories" (V-OBS) working group.</Description>
+</InformationURL>
+      <PriorID>spase://SMWG/Instrument/IAGA/Neumayer.Station.III/Magnetometer</PriorID>
+</ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>IAGA</InvestigationName>
+    <OperatingSpan>
+      <StartDate>2009-04-01T00:00:00</StartDate>
+</OperatingSpan>
+    <ObservatoryID>spase://SMWG/Observatory/IAGA/Neumayer.Station.III</ObservatoryID>
+</Instrument>
 </Spase>

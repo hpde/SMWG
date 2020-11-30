@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Observatory/Voyager</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager Spacecraft</ResourceName>
-      <ReleaseDate>2010-09-25T02:38:11Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Voyager 1 and 2 was a pair of spacecraft launched to explore the planets of the outer solar system and the interplanetary environment. Each Voyager had as its major objectives at each planet to: (1) investigate the circulation, dynamics, structure, and composition of the planet's atmosphere; (2) characterize the morphology, geology, and physical state of the satellites of the planet; (3) provide improved values for the mass, size, and shape of the planet, its satellites, and any rings; and, (4) determine the magnetic field structure and characterize the composition and distribution of energetic trapped particles and plasma therein.
 
 Spacecraft and Subsystems
@@ -24,21 +24,21 @@ Each Voyager has mounted to one of the sides of the bus a 12-inch gold-plated co
       <Contact>
         <PersonID>spase://SMWG/Person/Edward.C.Stone.Jr</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1977-084A</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1977-084A</URL>
         <Description>Information about the Voyager 1 mission</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1977-076A</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1977-076A</URL>
         <Description>Information about the Voyager 2 mission</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
       <ObservatoryRegion>Heliosphere.Outer</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

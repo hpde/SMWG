@@ -5,27 +5,27 @@
     <ResourceID>spase://SMWG/Repository/Ulysses/HISCALE</ResourceID>
     <ResourceHeader>
       <ResourceName>Ulysses HISCALE Data Repository</ResourceName>
-      <ReleaseDate>2012-01-03T18:18:29Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>
         Site hosted by Fundamental Technologies with access to HISCALE data as well as documentation and explanations of HISCALE print-groups and CSV file nomenclature.
-      </Description>
+</Description>
       <Contact>
         <!-- Tom Armstrong -->
         <PersonID>spase://SMWG/Person/Thomas.P.Armstrong</PersonID>
         <Role>DataProducer</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Explaination of HISCALE print-groups and CSV file nomenclature</Name>
-        <URL>http://data.ftecs.com/archive/ulysses_hiscale/Explanations/must%20read/explanation-csv-files.htm</URL>
-        <Description> The Explanation.html page at Fundamental Technologies describes how the
+        <URL>ftp://ftp.cosmos.esa.int/ULYSSES/HISCALE/metadata/Guide%20to%20Scientific%20Use%20of%20Ulysses%20HISCALE%20Data%20available%20through%20VHO-rev3.doc</URL>
+        <Description>The Explanation.html page at Fundamental Technologies describes how the
            numeric data from the Ulysses HISCALE instrument are divided into different
            print-groups, the nomenclature of the ASCII-based comma-separated variable
            (CSV) files, and how those files can be accessed.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <AccessURL>
       <Name>Ulysses HISCALE data repository</Name>
       <URL>http://data.ftecs.com/archive/ulysses_hiscale/</URL>
-    </AccessURL>
-  </Repository>
+</AccessURL>
+</Repository>
 </Spase>

@@ -7,7 +7,7 @@
          <ResourceName>Yangi Bazar</ResourceName>
          <AlternateName>Tashkent</AlternateName>
          <AlternateName>Observatory Station Code: TKT</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-03-08T12:34:56.789</ReleaseDate>
          <Description>The Yangi Bazar geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Arti Geophysical Observatory, Institute of Geophysics, Urals Branch of Russian Academy of Sciences</Acknowledgement>
          <Contact>
@@ -32,9 +32,11 @@
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>41.333</Latitude>
          <Longitude>69.617</Longitude>
+		 <Elevation>810.0</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>1957-07-01T00:00:00.000</StartDate>
+		 <StopDate>2015-12-31T23:59:59.000</StopDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

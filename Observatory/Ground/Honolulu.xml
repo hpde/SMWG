@@ -5,7 +5,8 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Honolulu</ResourceID>
       <ResourceHeader>
          <ResourceName>Honolulu Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+		 <AlternateName>Observatory Station Code: HON</AlternateName>
+         <ReleaseDate>2018-06-25T12:34:56.789</ReleaseDate>
          <Description>Honolulu (HON) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: United States Geological Survey, Golden, CO</Acknowledgement>
          <Contact>
@@ -22,15 +23,18 @@
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
       </ResourceHeader>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/USGS</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>21.3</Latitude>
+         <Latitude>21.32</Latitude>
          <Longitude>202.0</Longitude>
          <Elevation>4.0</Elevation>
       </Location>
       <OperatingSpan>
-         <StartDate>2007-01-01T00:00:00.000</StartDate>
+         <StartDate>1961-01-01T00:00:00.000</StartDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

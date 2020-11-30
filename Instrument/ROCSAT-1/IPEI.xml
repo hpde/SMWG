@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Instrument>
         <ResourceID>spase://SMWG/Instrument/ROCSAT-1/IPEI</ResourceID>
         <ResourceHeader>
             <ResourceName>ROCSAT1,IPEI, Ionospheric Plasma and Electrodynamics Instrument</ResourceName>
-            <ReleaseDate>2014-07-24T20:37:18Z</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>The Ionospheric Plasma and Electrodynamics Instrument (IPEI) is a joint project of the National Space Program Office of the Republic of China, the University of Texas at Dallas, The National Central University, and the National Chiao-Tung University. The IPEI sensors consist of an ion-trap (IT), a pair of ion drift meters (IDM), and a retarding potential analyzer (RPA). The instrument is designed to measure the ion density, temperature, and drift velocity in order to study the large-scale electrodynamics, plasma distribution, and the small-scale plasma structure in the low-latitude ionosphere with emphasis on the equatorial region above Taiwan. The high-resolution measurements will enable detailed studies of equatorial bubbles, Rayleigh-Taylor instability, the ExB drift instability, and the Perkins instability.</Description>
             <Contact>
               <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
               <Role>TechnicalContact</Role>
-            </Contact>
+</Contact>
            <InformationURL>
                  <Name>NSSDC's Master Catalog</Name>
-                 <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1999-002A-03</URL>
+                 <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1999-002A-03</URL>
                  <Description>Information about the ROCSAT1,IPEI, Ionospheric Plasma and Electrodynamics Instrument experiment on the ROCSAT-1 mission.
 </Description>
-           </InformationURL>
+</InformationURL>
            <InformationURL>
              <Name>Scientific Mission of the IPEI Payload Onboard ROCSAT-1</Name>
-             <URL>http://tao.cgu.org.tw/pdf/v10SI3p019.pdf</URL>
+             <URL>http://tao.wordpedia.com/pdf_down.aspx?filename=JO00000290_SU10_19-42</URL>
              <Description>Published in the TAO, Supplementary Issue, 19-42, March 1999</Description>
              <Language>en</Language>
-           </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
      <InstrumentType>IonChamber</InstrumentType>
      <InstrumentType>IonDrift</InstrumentType>
      <InstrumentType>RetardingPotentialAnalyser</InstrumentType>
      <InvestigationName>ROCSAT1,IPEI, Ionospheric Plasma and Electrodynamics Instrument on ROCSAT-1</InvestigationName>
      <ObservatoryID>spase://SMWG/Observatory/ROCSAT-1</ObservatoryID>
-  </Instrument>   
+</Instrument>
 </Spase>

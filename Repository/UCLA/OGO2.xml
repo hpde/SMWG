@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.4</Version>
+   <Repository>
+      <ResourceID>spase://SMWG/Repository/UCLA/OGO2</ResourceID>
+      <ResourceHeader>
+         <ResourceName>OGO-2 Magnetic Survey, Rubidium Vapor Magnetometer Repository</ResourceName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <Description>The OGO-2 repository contains a copy of the rubium vapor magnetometer data.</Description>
+         <Acknowledgement>National Aeronautics and Space Administration; Dr. Nelson W. Spencer; Dr. Robert F. Fellows; Dr. Robert A. Langel, III; Dr. Joseph C. Cain; Technical University of Denmark National Space Institute</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Joseph.C.Cain</PersonID>
+            <Role>PrincipalInvestigator</Role>
+</Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Robert.A.Langel.III</PersonID>
+            <Role>CoInvestigator</Role>
+</Contact>
+         <InformationURL>
+            <Name>The OGO-2 Rubidium Vapor Magnetometer</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1965-081A-05</URL>
+            <Description>Information about the Rubidium Vector Magnetometer.</Description>
+            <Language>en</Language>
+</InformationURL>
+         <Association>
+            <AssociationID>spase://SMWG/Observatory/OGO2</AssociationID>
+            <AssociationType>PartOf</AssociationType>
+</Association>
+         <PriorID>spase://SMWG/Repository/OGO2</PriorID>
+</ResourceHeader>
+      <AccessURL>
+         <Name>Virtual Magnetospheric Observatory</Name>
+         <URL>http://vmo.igpp.ucla.edu/data1/OGO/OGO2/</URL>
+         <Description>Rubium vapor magnetometer magnitude data from the OGO-2 spacecraft.</Description>
+</AccessURL>
+</Repository>
+</Spase>

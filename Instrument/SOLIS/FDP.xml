@@ -5,21 +5,21 @@
     <ResourceID>spase://SMWG/Instrument/SOLIS/FDP</ResourceID>
     <ResourceHeader>
       <ResourceName>The SOLIS Full Disk Patrol</ResourceName>
-      <ReleaseDate>2010-02-02T20:36:59Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The SOLIS Full Disk Patrol (PDP) is a  14-cm telescope providing
 full disk images at each of several wavelengths in the 380-670 nm range and at 1083 nm.
 It has spectral resolution of 25,000 and spatial resolution of 1 arcsec.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/John.W.Harvey</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>SOLIS/FDP web page at NSO</Name>
-        <URL>http://solis.nso.edu/FDPOverview.html</URL>
-      </InformationURL>
-    </ResourceHeader>
+        <URL>https://solis.nso.edu/FDPOverview.html</URL>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>SOLIS_FDP</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/SOLIS</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

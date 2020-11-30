@@ -5,7 +5,8 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Fort.Simpson</ResourceID>
       <ResourceHeader>
          <ResourceName>Fort Simpson Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+		 <AlternateName>Observatory Station Code: FSIM</AlternateName>
+         <ReleaseDate>2018-06-13T12:34:56.789</ReleaseDate>
          <Description>Fort Simpson (FSIM) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: University of Alberta</Acknowledgement>
          <Contact>
@@ -21,13 +22,21 @@
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
+		 <InformationURL>
+			<Name>Canadian Array for Realtime Investigations of Magnetic Activity Homepage</Name>
+			<URL>http://www.carisma.ca</URL>
+			<Description>Detailed information about the CARISMA Array.</Description>
+		 </InformationURL>
          <PriorID>spase://SMWG/Observatory/THEMIS/Ground/CANMAG/FSIM</PriorID>
       </ResourceHeader>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/CARISMA</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>61.8</Latitude>
-         <Longitude>238.8</Longitude>
+         <Latitude>61.756</Latitude>
+         <Longitude>238.770</Longitude>
       </Location>
       <OperatingSpan>
          <StartDate>2006-11-01T00:00:00</StartDate>

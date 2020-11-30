@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.9</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Magnar.G.Johnsen</ResourceID>
+    <ReleaseDate>2018-05-09T17:35:46Z</ReleaseDate>
+    <PersonName>Dr. Magnar Gullikstad Johnsen</PersonName>
+    <OrganizationName>Southwest Research Institute</OrganizationName>
+	<Address>Auroral Observatory Institute of Mathematical and Physical Science University of Tromso¸ NORWAY</Address>
+	<Email>magnar.g.johnsen@uit.no</Email>
+  </Person>
+</Spase>

@@ -1,97 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Instrument>
-    <ResourceID>spase://SMWG/Instrument/SECS/Magnetometer</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Spherical Elementary Current Systems Instrument</ResourceName>
-      <AlternateName>SECS Instrument</AlternateName>
-      <ReleaseDate>2014-07-24T20:37:18Z</ReleaseDate>
-      <Description>The Spherical Elementary Current Systems instrument is a virtual instrument representing the collection of ground magnetometer arrays used to derive spherical elementary currents over North America and Greenland at 10 s resolution. The SECS observatory consists of ground magnetometers from the CANMOS, CARISMA, DMI (in Greenland), GIMA, MACCS, THEMIS, STEP ground magnetometer arrays. Ground magnetometers contributing to each SECS data file may vary from day to day depending upon data availability. As result, the SECS instrument is used as a proxy for the set of possible contributing ground magnetometers. Complete details on the magnetometer arrays at the Information URLs listed below.</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
-        <Role>MetadataContact</Role>
-      </Contact>
-      <InformationURL>
-        <Name>Overview of the Ground Magnetometers and the Magnetometer Arrays used to Calculate the Spherical Elementary Current Systems</Name>
-        <URL>http://www.igpp.ucla.edu/jweygand/htmls/EICS_NA_Greenland.html</URL>
-        <Description>Description of the magnetometer arrays, the people involved, the currents that can be obtained, and references.</Description>
-      </InformationURL>
-      <InformationURL>
-        <Name>Journal of Earth, Planets, and Space article on the SECS technique</Name>
-        <URL>http://www.terrapub.co.jp/journals/EPS/pdf/5106/51060431.pdf</URL>
-        <Description>Research Article on the SECS technique.</Description>
-      </InformationURL>
-      <InformationURL>
-        <Name>Journal of Geophysical Research article on the SECS technique as Applied to North America</Name>
-        <URL>http://www.agu.org/journals/ja/ja1103/2010JA016177/2010JA016177.pdf</URL>
-        <Description>Research Article on the SECS technique applied to North America and Greenland.</Description>
-      </InformationURL>
-      <InformationURL>
-        <Name>Geophysical Institute Magnetometer Array (GIMA)</Name>
-        <URL>http://magnet.asf.alaska.edu/</URL>
-        <Description>Informaton on the Geophysical Institute of the University of Alaska operated magnetometer array.</Description>
-      </InformationURL>
-      <InformationURL>
-        <Name>CARISMA and CANMOS data at the Canadian Space Science Data Portal</Name>
-        <URL>http://cssdp.ca/</URL>
-        <Description>Informaton on the CARISMA and CANMOS operated magnetometer arrays.</Description>
-      </InformationURL>
-      <InformationURL>
-        <Name>STEP Polar Network Informaton on the STEP magnetometer array.</Name>
-        <URL>http://step-p.dyndns.org/~khay/</URL>
-        <Description>Informaton on the STEP magnetometer array.</Description>
-      </InformationURL>
-      <InformationURL>
-        <Name>MACCS Project Information Center</Name>
-        <URL>http://space.augsburg.edu/space/</URL>
-        <Description>Informaton on the MACCS magnetometer array.</Description>
-      </InformationURL>
-      <InformationURL>
-        <Name>Greenland Magnetometers Operated by DMI and SPRL</Name>
-        <URL>http://www.space.dtu.dk/English/Research/Scientific_data_and_models/Magnetic_Ground_Stations.aspx</URL>
-        <Description>Informaton on the Greenland magnetometer array.</Description>
-      </InformationURL>
-      <InformationURL>
-        <Name>THEMIS Ground Magnetometer Data</Name>
-        <URL>http://themis.ssl.berkeley.edu/beta/data_download.shtml</URL>
-        <Description>THEMIS magnetometer array and links with information on the magnetometers.</Description>
-      </InformationURL>
-      <Association>
-        <AssociationID>spase://SMWG/Observatory/THEMIS/Ground/CANMAG</AssociationID>
-        <AssociationType>PartOf</AssociationType>
-      </Association>
-      <Association>
-        <AssociationID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-EPO</AssociationID>
-        <AssociationType>PartOf</AssociationType>
-      </Association>
-      <Association>
-        <AssociationID>spase://SMWG/Observatory/CANMOS</AssociationID>
-        <AssociationType>PartOf</AssociationType>
-      </Association>
-      <Association>
-        <AssociationID>spase://SMWG/Observatory/CARISMA</AssociationID>
-        <AssociationType>PartOf</AssociationType>
-      </Association>
-      <Association>
-        <AssociationID>spase://SMWG/Observatory/DMI</AssociationID>
-        <AssociationType>PartOf</AssociationType>
-      </Association>
-      <Association>
-        <AssociationID>spase://SMWG/Observatory/GIMA</AssociationID>
-        <AssociationType>PartOf</AssociationType>
-      </Association>
-      <Association>
-        <AssociationID>spase://SMWG/Observatory/STEP</AssociationID>
-        <AssociationType>PartOf</AssociationType>
-      </Association>
-      <Association>
-        <AssociationID>spase://SMWG/Observatory/MACCS</AssociationID>
-        <AssociationType>PartOf</AssociationType>
-      </Association>
-    </ResourceHeader>
-    <InstrumentType>Magnetometer</InstrumentType>
-    <InvestigationName>Spherical Elementary Current Systems Instrument</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/SECS</ObservatoryID>
-  </Instrument>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/SECS/Magnetometer</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Spherical Elementary Current Systems Instrument</ResourceName>
+         <AlternateName>SECS Instrument</AlternateName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <Description>The Spherical Elementary Current Systems instrument is a virtual instrument representing the collection of ground magnetometer arrays used to derive spherical elementary currents over North America and Greenland at 10 s resolution. The SECS observatory consists of ground magnetometers from the CANMOS, CARISMA, DMI (in Greenland), GIMA, MACCS, THEMIS, STEP ground magnetometer arrays. Ground magnetometers contributing to each SECS data file may vary from day to day depending upon data availability. As result, the SECS instrument is used as a proxy for the set of possible contributing ground magnetometers. Complete details on the magnetometer arrays at the Information URLs listed below.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+            <Role>MetadataContact</Role>
+</Contact>
+         <InformationURL>
+            <Name>Overview of the Ground Magnetometers and the Magnetometer Arrays used to Calculate the Spherical Elementary Current Systems</Name>
+            <URL>http://www.igpp.ucla.edu/jweygand/htmls/EICS_NA_Greenland.html</URL>
+            <Description>Description of the magnetometer arrays, the people involved, the currents that can be obtained, and references.</Description>
+</InformationURL>
+         <InformationURL>
+            <Name>Journal of Earth, Planets, and Space article on the SECS technique</Name>
+            <URL>http://www.terrapub.co.jp/journals/EPS/pdf/5106/51060431.pdf</URL>
+            <Description>Research Article on the SECS technique.</Description>
+</InformationURL>
+         <InformationURL>
+            <Name>Journal of Geophysical Research article on the SECS technique as Applied to North America</Name>
+            <URL>https://onlinelibrary.wiley.com/doi/abs/10.1029/2010JA016177</URL>
+            <Description>Research Article on the SECS technique applied to North America and Greenland.</Description>
+</InformationURL>
+         <InformationURL>
+            <Name>Geophysical Institute Magnetometer Array (GIMA)</Name>
+            <URL>https://www.asf.alaska.edu</URL>
+            <Description>Informaton on the Geophysical Institute of the University of Alaska operated magnetometer array.</Description>
+</InformationURL>
+         <InformationURL>
+            <Name>CARISMA and CANMOS data at the Canadian Space Science Data Portal</Name>
+            <URL>http://cssdp.ca/</URL>
+            <Description>Informaton on the CARISMA and CANMOS operated magnetometer arrays.</Description>
+</InformationURL>
+         <InformationURL>
+            <Name>STEP Polar Network Informaton on the STEP magnetometer array.</Name>
+            <URL>http://artemis.igpp.ucla.edu/roadrules.shtml</URL>
+            <Description>Informaton on the STEP magnetometer array.</Description>
+</InformationURL>
+         <InformationURL>
+            <Name>Documents concerning the MACCS Ground Station Chain</Name>
+            <URL>http://www.serc.kyushu-u.ac.jp/ultima/6Engebretson_MACCS.pdf</URL>
+            <Description>Documents concerning the MACCS Ground Station Chain, hosted by the Kyushu University Ultima Web Page</Description>
+</InformationURL>
+         <InformationURL>
+            <Name>Greenland Magnetometers Operated by DMI and SPRL</Name>
+            <URL>https://www.space.dtu.dk/English/Research/Scientific_data_and_models/Magnetic_Ground_Stations.aspx</URL>
+            <Description>Informaton on the Greenland magnetometer array.</Description>
+</InformationURL>
+         <InformationURL>
+            <Name>THEMIS Ground Magnetometer Data</Name>
+            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+            <Description>THEMIS magnetometer array and links with information on the magnetometers.</Description>
+</InformationURL>
+         <Association>
+            <AssociationID>spase://SMWG/Observatory/THEMIS/Ground/CANMAG</AssociationID>
+            <AssociationType>PartOf</AssociationType>
+</Association>
+         <Association>
+            <AssociationID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-EPO</AssociationID>
+            <AssociationType>PartOf</AssociationType>
+</Association>
+         <Association>
+            <AssociationID>spase://SMWG/Observatory/Ground/CANMOS</AssociationID>
+            <AssociationType>PartOf</AssociationType>
+</Association>
+         <Association>
+            <AssociationID>spase://SMWG/Observatory/CARISMA</AssociationID>
+            <AssociationType>PartOf</AssociationType>
+</Association>
+         <Association>
+            <AssociationID>spase://SMWG/Observatory/DMI</AssociationID>
+            <AssociationType>PartOf</AssociationType>
+</Association>
+         <Association>
+            <AssociationID>spase://SMWG/Observatory/THEMIS/Ground/GIMA</AssociationID>
+            <AssociationType>PartOf</AssociationType>
+</Association>
+         <Association>
+            <AssociationID>spase://SMWG/Observatory/STEP</AssociationID>
+            <AssociationType>PartOf</AssociationType>
+</Association>
+         <Association>
+            <AssociationID>spase://SMWG/Observatory/Ground/MACCS</AssociationID>
+            <AssociationType>PartOf</AssociationType>
+</Association>
+</ResourceHeader>
+      <InstrumentType>Magnetometer</InstrumentType>
+      <InvestigationName>Spherical Elementary Current Systems Instrument</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/SECS</ObservatoryID>
+</Instrument>
 </Spase>

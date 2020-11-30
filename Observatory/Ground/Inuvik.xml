@@ -5,7 +5,8 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Inuvik</ResourceID>
       <ResourceHeader>
          <ResourceName>Inuvik Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+		 <AlternateName>Observatory Station Code: INUV</AlternateName>
+         <ReleaseDate>2018-07-09T12:34:56.789</ReleaseDate>
          <Description>Inuvik (INUV) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: University of California, Berkeley, University of California, Los Angeles, respectively, NASA NAS5-02099</Acknowledgement>
          <Contact>
@@ -27,11 +28,12 @@
          </InformationURL>
          <PriorID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-GBO/INUV</PriorID>
       </ResourceHeader>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>68.4</Latitude>
-         <Longitude>226.2</Longitude>
+         <Latitude>68.41</Latitude>
+         <Longitude>226.23</Longitude>
       </Location>
       <OperatingSpan>
          <StartDate>2005-08-13T00:00:00</StartDate>

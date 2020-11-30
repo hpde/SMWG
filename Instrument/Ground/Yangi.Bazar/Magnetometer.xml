@@ -1,36 +1,33 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Instrument>
-      <ResourceID>spase://SMWG/Instrument/Ground/Yangi.Bazar/Magnetometer</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Yangi Bazar Magnetometer</ResourceName>
-         <AlternateName>Tashkent Magnetometer</AlternateName>
-         <AlternateName>Magnetometer Station Code: TKT</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
-         <Description>The Magnetometer located at the Yangi Bazar geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge:  Arti Geophysical Observatory, Institute of Geophysics, Urals Branch of Russian Academy of Sciences</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Galina.Semenova</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Tatiana.Bondar</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <PriorID>spase://SMWG/Instrument/WDC/Y.Basar/Magnetometer</PriorID>
-      </ResourceHeader>
-      <InstrumentType>Magnetometer</InstrumentType>
-      <InvestigationName>WDC_GDMC</InvestigationName>
-      <OperatingSpan>
-         <StartDate>1957-07-01T00:00:00.000</StartDate>
-      </OperatingSpan>
-      <ObservatoryID>spase://SMWG/Observatory/Ground/Yangi.Bazar</ObservatoryID>
-   </Instrument>
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Ground/Yangi.Bazar/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Yangi Bazar Magnetometer</ResourceName>
+      <AlternateName>Yangi.Bazar Magnetometer</AlternateName>
+      <AlternateName>IAGA:TKT Magnetometer</AlternateName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>Magnetometer located at the station with the IAGA identifier TKT</Description>
+      <Acknowledgement>Please acknowedge the TKT observatory when using data from this instrument.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+        <Role>MetadataContact</Role>
+</Contact>
+      <InformationURL>
+        <Name>IAGA Guides and Standards</Name>
+        <URL>http://www.intermagnet.org/publications/intermag_4-6.pdf</URL>
+        <Description>Overview of IAGA Guides and Standards which obtained within its
+          Divisions and Working Groups. Information about observatories
+          is maintained by the "Geomagntic Observatories" (V-OBS) working group.</Description>
+</InformationURL>
+      <PriorID>spase://SMWG/Instrument/IAGA/Yangi.Bazar/Magnetometer</PriorID>
+</ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>IAGA</InvestigationName>
+    <OperatingSpan>
+      <StartDate>1964-01-01T00:00:00</StartDate>
+</OperatingSpan>
+    <ObservatoryID>spase://SMWG/Observatory/IAGA/Yangi.Bazar</ObservatoryID>
+</Instrument>
 </Spase>

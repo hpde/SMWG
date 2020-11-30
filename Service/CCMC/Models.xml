@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
+   <Service>
+      <ResourceID>spase://SMWG/Service/CCMC/Models</ResourceID>
+      <ResourceHeader>
+         <ResourceName>CCMC Modelweb page</ResourceName>
+         <ReleaseDate>2019-04-19T12:34:56.789Z</ReleaseDate>
+         <Description>CCMC Modelweb page, addressing among others the following models: Jacchia, MET, NRLMSISE, HWM, Chiu, Bent, SLIM, FAIM, CCIR foF2, IONCAP, WBMOD, AEROS, AE/ISIS, Volland, Heelis, Utah, IZMIRAN, Millstone Hill, Heppner-Maynard-Rich, Rice, AFGL, EGM96, Jensen-Cain, POGO, MGST, USGS, Olson-Pfitzer, Mead-Fairfield, Tsyganenko, Toffoletto-Hill, SOLPRO</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <PriorID>spase://VSPO/Service/P_MODELWEB_HDR</PriorID>
+         <PriorID>spase://VSPO/Service/CCMC/Models</PriorID>
+      </ResourceHeader>
+      <AccessURL>
+         <Name>CCMC Modelweb page</Name>
+         <URL>https://ccmc.gsfc.nasa.gov/modelweb/</URL>
+      </AccessURL>
+   </Service>
+</Spase>

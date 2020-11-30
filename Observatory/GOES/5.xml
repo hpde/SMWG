@@ -1,27 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Observatory>
-    <ResourceID>spase://SMWG/Observatory/GOES/5</ResourceID>
-    <ResourceHeader>
-      <ResourceName>GOES 5</ResourceName>
-      <AlternateName>1981-049A</AlternateName>
-      <AlternateName>GOES-E</AlternateName>
-      <ReleaseDate>2011-06-03T20:47:57Z</ReleaseDate>
-      <Description>GOES 5 was the seventh in a series of NASA-developed, NOAA-operated, geosynchronous, and operational spacecraft. The spin-stabilized spacecraft was stationed at 75 deg W, and carried (1) an infrared spin-scan radiometer (VISSR) atmospheric sounder (VAS) to provide high-quality day/night cloudcover data, to take radiance-derived temperatures of the earth/atmosphere system, and to determine atmospheric temperature and water vapor content at various levels, (2) a meteorological data collection and transmission system to relay processed data from central weather facilities to APT-equipped regional stations and to collect and retransmit data from remotely located earth-based platforms, and (3) a space environment monitor (SEM) system to measure proton, electron, and solar X-ray fluxes and magnetic fields. The cylindrically shaped spacecraft measured 190.5 cm in diameter and 230 cm in length, exclusive of a magnetometer that extended an additional 83 cm beyond the cylindrical shell. The primary structural members were a honeycombed equipment shelf and thrust tube. The VISSR telescope was mounted on the equipment shelf and viewed the earth through a special aperture in the side of the spacecraft. A support structure extended radially from the thrust tube and was affixed to the solar panels, which formed the outer walls of the spacecraft to provide the primary source of electrical power. Located in the annulus-shaped space between the thrust tube and the solar panels were stationkeeping and dynamics control equipment, batteries, and most of the SEM equipment. Proper spacecraft attitude and spin rate (approximately 100 rpm) were maintained by two separate sets of jet thrusters mounted around the spacecraft equator and activated by ground command. The spacecraft used both UHF-band and S-band frequencies in its telemetry and command subsystem. A low-power VHF transponder provided telemetry and command during launch and then served as a backup for the primary subsystem once the spacecraft had attained synchronous orbit. On July 30, 1984, GOES 5 VAS experienced a failure, thus NOAA was prompted to reactivate GOES 1 and 4, to relocate GOES 6 to a more central 98 deg W position, and to reactivate GOES 1 and GOES 4 for the acquisition and relay of VISSR information, respectively, from the western United States.</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/William.E.Shenk</PersonID>
-        <Role>ProjectScientist</Role>
-      </Contact>
-      <InformationURL>
-        <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1981-049A</URL>
-        <Description>Information about the GOES 5 mission</Description>
-      </InformationURL>
-      <PriorID>spase://SMWG/Observatory/GOES5</PriorID>
-    </ResourceHeader>
-    <Location>
-      <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
-    </Location>
-  </Observatory>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+   <Version>2.3.1</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/GOES/5</ResourceID>
+      <ResourceHeader>
+         <ResourceName>GOES 5</ResourceName>
+         <AlternateName>1981-049A</AlternateName>
+         <AlternateName>GOES-E</AlternateName>
+         <ReleaseDate>2019-07-01T12:34:56Z</ReleaseDate>
+         <Description>GOES 5 was the seventh in a series of NASA-developed, NOAA-operated, geosynchronous, and operational spacecraft. The spin-stabilized spacecraft was stationed at 75&#176; W, and carried (1) an infrared spin-scan radiometer, VISSR, atmospheric sounder, VAS, to provide high-quality day/night cloudcover data, to take radiance-derived temperatures of the earth/atmosphere system, and to determine atmospheric temperature and water vapor content at various levels, (2) a meteorological data collection and transmission system to relay processed data from central weather facilities to APT-equipped regional stations and to collect and retransmit data from remotely located earth-based platforms, and (3) a space environment monitor, SEM, system to measure proton, electron, and solar X-ray fluxes and magnetic fields. The cylindrically shaped spacecraft measured 190.5 cm in diameter and 230 cm in length, exclusive of a magnetometer that extended an additional 83 cm beyond the cylindrical shell. The primary structural members were a honeycombed equipment shelf and thrust tube. The VISSR telescope was mounted on the equipment shelf and viewed the earth through a special aperture in the side of the spacecraft. A support structure extended radially from the thrust tube and was affixed to the solar panels, which formed the outer walls of the spacecraft to provide the primary source of electrical power. Located in the annulus-shaped space between the thrust tube and the solar panels were stationkeeping and dynamics control equipment, batteries, and most of the SEM equipment. Proper spacecraft attitude and spin rate (approximately 100 rpm) were maintained by two separate sets of jet thrusters mounted around the spacecraft equator and activated by ground command. The spacecraft used both UHF-band and S-band frequencies in its telemetry and command subsystem. A low-power VHF transponder provided telemetry and command during launch and then served as a backup for the primary subsystem once the spacecraft had attained synchronous orbit. On July 30, 1984, GOES 5 VAS experienced a failure, thus NOAA was prompted to reactivate GOES 1 and 4, to relocate GOES 6 to a more central 98&#176; W position, and to reactivate GOES 1 and GOES 4 for the acquisition and relay of VISSR information, respectively, from the western United States.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/William.E.Shenk</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <InformationURL>
+            <Name>NSSDC Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1981-049A</URL>
+            <Description>Information about the GOES 5 mission</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>Earth Observation Resources Webpage on GOES</Name>
+            <URL>https://earth.esa.int/web/eoportal/satellite-missions/g/goes-2nd-generation</URL>
+            <Description>Detailed information about GOES Series</Description>
+         </InformationURL>
+         <PriorID>spase://SMWG/Observatory/GOES5</PriorID>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>1981-05-22T00:00:00Z</StartDate>
+         <StopDate>1984-07-30T23:59:59</StopDate>
+         <Note>Useful operating span</Note>
+      </OperatingSpan>
+   </Observatory>
 </Spase>

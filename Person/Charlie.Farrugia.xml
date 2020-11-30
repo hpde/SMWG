@@ -1,0 +1,10 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
+ <Version>2.2.9</Version>
+ <Person>
+  <ResourceID>spase://SMWG/Person/Charlie.Farrugia</ResourceID>
+  <ReleaseDate>2018-05-16T00:00:00.000</ReleaseDate>
+  <PersonName>Charlie Farrugia</PersonName>
+  <OrganizationName>Dept. of Physics and Space Science, EOS, University of New Hampshire</OrganizationName>
+  <Email>charlie.farrugia@unh.edu</Email>
+ </Person>
+</Spase>

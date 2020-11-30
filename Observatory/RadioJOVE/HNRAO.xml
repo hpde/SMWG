@@ -1,0 +1,45 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+ <Version>2.3.1</Version>
+ <Observatory>
+  <ResourceID>spase://SMWG/Observatory/RadioJOVE/HNRAO</ResourceID>
+  <ResourceHeader>
+   <ResourceName>Hawk's Nest Radio Astronomy Observatory</ResourceName>
+   <AlternateName>HNRAO</AlternateName>
+   <ReleaseDate>2019-04-18T11:08:36</ReleaseDate>
+   <Description>Hawk's Nest Radio Astronomy Observatory is a
+   participant in the RadioJOVE project providing observations of
+   radio emissions from Jupiter, the Sun, and the Galactic Background
+   to other members of the RadioJOVE community. The observatory
+   consists of an LWA (Long Wavelength Array) antenna, a TFD (Terminated
+   Folded Dipole) array, a JOVE dipole array, and a Mosely 20 MHz
+   Yagi.
+
+   The
+   JOVE I receiver is fed the output from the TFD array, the JOVE II
+   receiver the JOVE dipole array, the FSX 8S 12-bit switching dual
+   polarization spectrograph receives the TFD array, the FSX 2 10-bit
+   single polarization spectrograph receives the LWA array, and the
+   SDRPlay RSP2 Software Defined Radio receives the TFD array. </Description>
+   <Contact>
+    <PersonID>spase://SMWG/Person/James.Brown</PersonID>
+    <Role>TechnicalContact</Role>
+   </Contact>
+   <InformationURL>
+    <Name>RadioJOVE Spectrograph Users Group (SUG)</Name>
+    <URL>http://radiojove.org/SUG/</URL>
+    <Description>This site provide station diagrams and other reports for the receiver systems at several radio observatories associated with the RadioJOVE project</Description>
+   </InformationURL>
+  </ResourceHeader>
+  <ObservatoryGroupID>spase://SMWG/Observatory/RadioJOVE</ObservatoryGroupID>
+  <Location>
+   <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+   <CoordinateSystemName>GEO</CoordinateSystemName>
+   <Latitude>40.673181</Latitude>
+   <Longitude>80.437885</Longitude>
+   <Elevation>366</Elevation>
+  </Location>
+  <OperatingSpan>
+   <StartDate>2013-01-01T00:00:00</StartDate>
+  </OperatingSpan>
+ </Observatory>
+</Spase>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Samuel.C.Ting</ResourceID>
+    <ReleaseDate>2018-10-13T12:34:56.789</ReleaseDate>
+    <PersonName>Samuel C. Ting</PersonName>
+    <OrganizationName>Department of Physics</OrganizationName>
+    <Address>Department of Physics, 4-304, Massachusetts Institute of Technology, 77 Massachusetts Avenue, Cambridge, MA 02139-4307, USA</Address>
+    <Email>sccting@mit.edu</Email>
+    <PhoneNumber>+1 617 253-8326</PhoneNumber>
+    <FaxNumber>+1 617 253-8554</FaxNumber>
+  </Person>
+</Spase>

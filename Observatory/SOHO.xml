@@ -7,7 +7,7 @@
       <ResourceName>SOHO</ResourceName>
       <AlternateName>1995-065A</AlternateName>
       <AlternateName>Solar and Heliospheric Observatory</AlternateName>
-      <ReleaseDate>2010-08-05T18:19:18Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The primary scientific aims of the Solar and Heliospheric Observatory mission (SOHO) were to investigate: (1) the physical processes that form and heat the Sun's corona, maintain it and give rise to the expanding solar wind; and, (2) the interior structure of the Sun. Imaging and collection of spectroscopic plasma diagnostics of the solar chromosphere, transition region and corona, as well as in situ solar-wind measurements are used to study the corona and solar wind. Solar interior structure is investigated by helioseismological means and by the observation of variations in solar irradiance. SOHO was part of the International Solar-Terrestrial Physics Program (ISTP).
 
 The SOHO spacecraft was three-axis stabilized and pointed towards the Sun with an accuracy of +/- 10 arcsec per 15 min. It consisted of a Payload Module to accommodate the instruments and a Service Module carrying the spacecraft subsystems and solar arrays. SOHO occupied a halo orbit at the Earth-Sun L1 Lagrangian point to obtain uninterrupted sunlight. The design life was two years, but on-board consumables were sufficient for an extra four years of operations.
@@ -24,15 +24,15 @@ Attitude analysis led to the conclusion that SOHO went into a spin such that the
       <Contact>
         <PersonID>spase://SMWG/Person/Arthur.I.Poland</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1995-065A</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1995-065A</URL>
         <Description>Information about the SOHO mission</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

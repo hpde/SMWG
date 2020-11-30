@@ -6,20 +6,40 @@
     <ResourceHeader>
       <ResourceName>Atmospheric Density Accelerometer (MESA)</ResourceName>
       <AlternateName>MESA</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
-      <Description>The Miniature Electrostatic Analyzer (MESA) obtained data on the neutral density of the atmosphere in the altitude range of 120 to 400 km, by the measurements of satellite deceleration due to aerodynamic drag, which is directly proportional to atmospheric density. The instrument consisted of three single-axis accelerometers, mounted mutually at right angles, two in the spacecraft X-Y plane and the other along the Z-axis. The instrument determined the applied acceleration from the electrostatic force required to recenter a proof mass. The output of the device was a digital pulse rate proportional to the applied acceleration. The sample time of each instrument was 0.25 s. The measurements allowed determination of the density of the neutral atmosphere, monitored the thrust of the Orbit-Adjust Propulsion System (OAPS), determined the satellite minimum altitude, measured spacecraft roll, and provided some attitude-sensing information. Spacecraft nutations of less than 0.01 deg were monitored. The instrument had three sensitivity ranges: 8.E-3 earth's gravity (G) in OAPS monitor mode; 4.E-4 G between 120 km (plus or minus 2%) and 280 km (plus or minus 10%); and 2.E-5 G between 180 km (plus or minus 2%) and 400 km (plus or minus 10%). Numbers in parentheses represent errors. There may be a systematic error of up to plus or minus 5% due to drag coefficient uncertainty. The highest measurement altitude was determined assuming the instrument could sense to 0.2% of full scale. More details can be found in K. S. Champion et al., Radio Sci., v. 8, n. 4, p. 297, 1973.</Description>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The Miniature Electrostatic Analyzer (MESA) obtained data on the neutral density of the
+   atmosphere in the altitude range of 120 to 400 km, by the measurements of satellite deceleration due
+   to aerodynamic drag, which is directly proportional to atmospheric density. The instrument consisted
+   of three single-axis accelerometers, mounted mutually at right angles, two in the spacecraft X-Y plane
+   and the other along the Z-axis. The instrument determined the applied acceleration from the electrostatic
+   force required to recenter a proof mass. The output of the device was a digital pulse rate proportional
+   to the applied acceleration. The sample time of each instrument was 0.25 s. The measurements allowed
+   determination of the density of the neutral atmosphere, monitored the thrust of the Orbit-Adjust
+   Propulsion System (OAPS), determined the satellite minimum altitude, measured spacecraft roll,
+   and provided some attitude-sensing information. Spacecraft nutations of less than 0.01 deg were
+   monitored. The instrument had three sensitivity ranges: 8.E-3 earth's gravity (G) in OAPS monitor mode;
+   4.E-4 G between 120 km (plus or minus 2%) and 280 km (plus or minus 10%); and 2.E-5 G between 180 km
+   (plus or minus 2%) and 400 km (plus or minus 10%). Numbers in parentheses represent errors. There may
+   be a systematic error of up to plus or minus 5% due to drag coefficient uncertainty. The highest
+   measurement altitude was determined assuming the instrument could sense to 0.2% of full scale.
+   More details can be found in K. S. Champion et al., Radio Sci., v. 8, n. 4, p. 297, 1973.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Kenneth.S.W.Champion</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1975-107A&amp;ex=2</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1975-107A-02</URL>
         <Description>Information about the Atmospheric Density Accelerometer (MESA) experiment on the AE-E mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+   <InformationURL>
+        <Name>Radio Science Journal Article</Name>
+        <URL>https://onlinelibrary.wiley.com/doi/abs/10.1029/RS008i004p00297</URL>
+        <Description>Detailed information about the Atmospheric Density Accelerometer experiment on the AE-E mission.</Description>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Atmospheric Density Accelerometer (MESA) on AE-E</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/AE-E</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

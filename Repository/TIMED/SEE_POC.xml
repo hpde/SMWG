@@ -6,23 +6,23 @@
     <ResourceHeader>
       <ResourceName>LASP/CU TIMED/SEE Payload Operations Center</ResourceName>
       <AlternateName>TIMED/SEE POC</AlternateName>
-      <ReleaseDate>2011-10-24T21:34:00Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Repository containing TIMED/SEE data</Description>
       <Acknowledgement>
 All users should include an acknowledgement of the source of the SEE data similar to: The SEE data used here are provided through support from the NASA MO&amp;DA program. The Principal Investigator is Dr. Thomas N Woods.
-      </Acknowledgement>
+</Acknowledgement>
       <Contact>
          <PersonID>spase://SMWG/Person/Thomas.N.Woods</PersonID>
          <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
-	  <Name>TIMED/SEE POC web site</Name>
-	  <URL>http://lasp.colorado.edu/see/</URL>
-      </InformationURL>
-    </ResourceHeader>
+   <Name>TIMED/SEE POC web site</Name>
+   <URL>http://lasp.colorado.edu/home/see/</URL>
+</InformationURL>
+</ResourceHeader>
     <AccessURL>
-	  <Name>SEE Data Products</Name>
-	  <URL>http://lasp.colorado.edu/see/see_data.html</URL>
-    </AccessURL>
-  </Repository>
+   <Name>SEE Data Products</Name>
+   <URL>http://lasp.colorado.edu/home/see/data/</URL>
+</AccessURL>
+</Repository>
 </Spase>

@@ -1,33 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.2.6</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/CHAMP</ResourceID>
     <ResourceHeader>
       <ResourceName>CHAMP</ResourceName>
-      <ReleaseDate>2010-08-05T18:19:18Z</ReleaseDate>
-      <Description>CHAMP (CHAllenging Microsatellite Payload) is a German 
-spacecraft launched July 15, 2000, into an 87 deg inclination, 454 km 
-altitude orbit.  It was intended to provide data for improvement of models 
-of Earth's gravitational and magnetic fields.  It carried a GPS receiver, 
-a triaxial accelerometer, vector (fluxgate) and scalar magnetometers, and 
-a digital ion drift meter for electric field determination.  GPS 
-occultation and sounding measurements contributed to atmospheric and 
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>CHAMP (CHAllenging Microsatellite Payload) is a German
+spacecraft launched July 15, 2000, into an 87 deg inclination, 454 km
+altitude orbit.  It was intended to provide data for improvement of models
+of Earth's gravitational and magnetic fields.  It carried a GPS receiver,
+a triaxial accelerometer, vector (fluxgate) and scalar magnetometers, and
+a digital ion drift meter for electric field determination.  GPS
+occultation and sounding measurements contributed to atmospheric and
 ionospheric profiles.  The mission continues to operate as of January, 2010.
-The science and data activities of the mission are managed by the 
-GeoForschungsZentrum (GFZ; German Research Center for Geosciences) in 
+The science and data activities of the mission are managed by the
+GeoForschungsZentrum (GFZ; German Research Center for Geosciences) in
 Potsdam.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Hermann.Luehr</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>CHAMP web page at the German Research Center for Geosciences</Name>
         <URL>http://op.gfz-potsdam.de/champ/</URL>
-      </InformationURL>
-    </ResourceHeader>
+  <Description>Detailed information about CHAMP.</Description>
+  <Language>German</Language>
+</InformationURL>
+   <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2000-039B</URL>
+</InformationURL>
+</ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+ <OperatingSpan>
+   <StartDate>2000-07-15T12:00:00Z</StartDate>
+   <StopDate>2010-09-19T08:00:59Z</StopDate>
+</OperatingSpan>
+</Observatory>
 </Spase>

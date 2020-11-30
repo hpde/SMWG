@@ -1,0 +1,31 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+ <Version>2.3.1</Version>
+ <Instrument>
+  <ResourceID>spase://SMWG/Instrument/AWESOME/VLF</ResourceID>
+  <ResourceHeader>
+   <ResourceName>VLF AWESOME</ResourceName>
+   <AlternateName>Very Low Frequency Atmospheric Weather Electromagnetic System for Observation, Modeling, and Education</AlternateName>
+   <ReleaseDate>2020-08-21T19:35:36Z</ReleaseDate>
+   <Description>The VLF AWESOME, completed in 2004 provides high
+   sensitivity broadband radio measurements of natural lightning
+   emissions, transmitting beacons, and radio emissions from the
+   near-Earth space environment over the the frequency band 0.8-50
+   kHz.  </Description> 
+   <Contact>
+    <PersonID>spase://SMWG/Person/Morris.Cohen</PersonID>
+    <Role>PrincipalInvestigator</Role>
+   </Contact>
+   <InformationURL>
+    <URL>http://waldo.world/description-of-data/</URL>
+   </InformationURL>
+   <InformationURL>
+     <Name>Sensitive Broadband ELF/VLF Radio Reception With the AWESOME Instrument
+     </Name>
+    <URL>https://doi.org/10.1109/TGRS.2009.2028334</URL>
+   </InformationURL>
+  </ResourceHeader>
+  <InstrumentType>SpectralPowerReceiver</InstrumentType>
+  <InvestigationName>AWESOME</InvestigationName>
+  <ObservatoryID>spase://SMWG/Observatory/AWESOME</ObservatoryID>
+ </Instrument>
+</Spase>

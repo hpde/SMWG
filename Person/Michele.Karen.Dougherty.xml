@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Michele.Karen.Dougherty</ResourceID>
+      <ReleaseDate>2017-08-22T12:34:56.789</ReleaseDate>
+      <PersonName>Michele Karen Dougherty</PersonName>
+      <OrganizationName>Faculty of Natural Sciences, Department of Physics, Imperial College London</OrganizationName>
+      <Address>Huxley Building, Room 707, South Kensington Campus, London SW7 2AZ</Address>
+      <Email>m.dougherty@ic.ac.uk</Email>
+      <PhoneNumber>+44 020 7594 7757</PhoneNumber>
+      <FaxNumber>+44 020 7594 7772</FaxNumber>
+   </Person>
+</Spase>

@@ -1,0 +1,11 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+    <Version>2.2.8</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Donald.Hampton</ResourceID>
+        <ReleaseDate>2017-08-22T00:00:00.000</ReleaseDate>
+        <PersonName>Donald (Don) Hampton</PersonName>
+        <OrganizationName>University of Alaska, Fairbanks</OrganizationName>
+        <Email>dhampton@alaska.edu</Email>
+        <PhoneNumber>(907)455-2256</PhoneNumber>
+    </Person>
+</Spase>

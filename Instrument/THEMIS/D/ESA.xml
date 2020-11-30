@@ -6,34 +6,34 @@
     <ResourceHeader>
       <ResourceName>THEMIS-D Electrostatic Analyzers</ResourceName>
       <AlternateName>THEMIS-D ESA</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:03Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The THEMIS Electrostatic Analyzers (ESAs) measure the flux of thermal particles in a 360° field of view over the energy range from ~3 eV to 30 keV. There are two ESAs on each THEMIS spacecraft, one measures ions, the other electrons. The ESA measures the full 3-D distributions, as well as the density, velocity, and temperature of the ambient electrons and ions.</Description>
-      <Acknowledgement> NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically: C. W. Carlson and J. P. McFadden for use of ESA data. </Acknowledgement>
+      <Acknowledgement>NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically: C. W. Carlson and J. P. McFadden for use of ESA data.</Acknowledgement>
       <Contact>
         <!--Vassilis Angelopoulos -->
         <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <!--Charles Carlson -->
         <PersonID>spase://SMWG/Person/Charles.W.Carlson</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <!--James Mcfadden -->
         <PersonID>spase://SMWG/Person/James.P.McFadden</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>THEMIS-D Electrostatic Analyzers</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2007-004D-02</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2007-004D-02</URL>
         <Description>Instrument description from NSSDC database</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://SMWG/Instrument/THEMIS-D/ESA</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Dual Full Distribution Electrostatic Analyzers</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/THEMIS/D</ObservatoryID>
     <Caveats/>
-  </Instrument>
+</Instrument>
 </Spase>

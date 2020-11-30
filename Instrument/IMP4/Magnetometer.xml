@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.4</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/IMP4/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>IMP 4 Triaxial Fluxgate Magnetometer</ResourceName>
+      <AlternateName>Explorer 34 Triaxial Fluxgate Magnetometer</AlternateName>
+      <AlternateName>IMP-F Triaxial Fluxgate Magnetometer</AlternateName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>This experiment used a triaxial fluxgate magnetometer. Each sensor
+       had dual ranges of minus to plus 32 nT and 128 nT and digitization errors of
+       minus to plus 0.16 and 0.64 nT, respectively. The operating range could be
+       changed by ground command. The sensor parallel to the spin axis was on a 1.8-m
+       boom and was flipped every 3.9 d to check the zero level. The other two sensors
+       were on a separate boom. Vector measurements were returned each 2.56 s. An
+       onboard autocorrelation computer was included. Autocorrelation data based on
+       240 samplings were returned on alternate components each 20.45 s. The experiment
+       worked well throughout the life of the spacecraft. However, failure of the
+       spacecraft optical aspect system on March 4, 1969, rendered impossible the
+       determination of the magnetic field direction over the last 2 months of data
+       acquisition. For further details, see Fairfield, J. Geophys. Res., v. 74, p.
+       3541, 1969. NSSDC has all the useful data that now exist from this investigation.
+       Hourly averaged interplanetary data also exist as part of data sets in the NSSDC
+       supplementary data file.        
+</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
+        <Role>PrincipalInvestigator</Role>
+</Contact>
+      <Contact>
+         <PersonID>spase://SMWG/Person/Donald.H.Fairfield</PersonID>
+         <Role>CoInvestigator</Role>
+</Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+        <Role>MetadataContact</Role>
+</Contact>
+      <InformationURL>
+        <Name>NSSDC Master Catalog</Name>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1967-051A-11</URL>
+</InformationURL>
+</ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Magnetometer</InvestigationName>
+    <OperatingSpan>
+     <StartDate>1967-05-24T14:22:00</StartDate>
+     <StopDate>1969-02-01T09:11:00</StopDate>
+     <Note>Many of the time values in the data file are suspect or unclear.</Note>
+</OperatingSpan>
+    <ObservatoryID>spase://SMWG/Observatory/IMP4</ObservatoryID>
+</Instrument>
+</Spase>

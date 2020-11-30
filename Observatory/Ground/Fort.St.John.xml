@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/Fort.St.John</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Fort St. John Geophysical Observatory</ResourceName>
+         <AlternateName>Observatory Station Code: FSJ</AlternateName>
+         <ReleaseDate>2019-04-28T12:34:56.789Z</ReleaseDate>
+         <Description>Fort St. John (FSJ) Geophysical Observatory</Description>
+         <Acknowledgement>Please acknowledge: University of Tokyo</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Kanji.Hayashi</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>THEMIS Data Policy for the Solar-Terrestrial Energy Program Polar Network and other Ground Magnetometers</Name>
+            <URL>http://themis.igpp.ucla.edu/roadrules.shtml</URL>
+            <Description>Information and Acknowledgement Suggestions concerning Dr. Kanji Hayashi and the Solar-Terrestrial Energy Program, STEP, Polar Network.</Description>
+         </InformationURL>
+         <PriorID>spase://SMWG/Observatory/Ground/Fort.St.John</PriorID>
+      </ResourceHeader>
+      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/STEP</ObservatoryGroupID>
+      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>56.3</Latitude>
+         <Longitude>239.2</Longitude>
+         <Elevation>18.0</Elevation>
+      </Location>
+      <OperatingSpan>
+         <StartDate>1991-07-24T00:00:00.000</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

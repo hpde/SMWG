@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/RENU2/EPLAS</ResourceID>
+      <ResourceHeader>
+         <ResourceName>RENU2, Electron Plasma, EPLAS, Top Hat Analyzer</ResourceName>
+         <ReleaseDate>2019-06-12T12:34:56.789</ReleaseDate>
+         <Description>Rocket Experiment for Neutral Upwelling 2, RENU2, Electron Plasma, EPLAS, Instrument - The RENU2 NASA Sounding Rocket Mission launched into the Dayside Cusp Region from the Andoya Space Center at 07:34 UT on December 13, 2015. The EPLAS Instrument provided by University of New Hampshire measured the Energy Distribution of Electrons from 10 eV to 15 keV in 1 ms Time Steps. This allowed for Measurements of Small-Scale Structures within the Poleward Moving Auroral Forms, PMAFs, observed by RENU2. In addition, EPLAS had a 360&#176; Field of View with 10&#176; Angular Resolution to record Pitch Angle Information of the Precipitating Electron Population. This Presentation Reports the Details and Results of a new Algorithm developed to define the Field-Aligned, FA, Electron Population and determine the Precipitating Energy Flux. Electron Energy Spectra Observations from the Rocket are presented along with simultaneous Particle and Field Observations from the Magnetospheric Multiscale, MMS, Spacecraft at the Dayside Magnetopause. This Conjunction between RENU2 and MMS presents a unique and ideal Opportunity to study the in situ Dynamics of Magnetosphere-Ionosphere Coupling in the Cusp along with Dayside Reconnection. This Description is adapted from "Cusp Electron Populations During a Neutral Upwelling Event: Measurements from RENU2 and MMS Conjunction" by Kenward, D.R., Lessard, M., Lynch, K.A., Hysell, D.L., Hecht, J.H., Clemmons, J.H., Crowley, G., Cohen, I.J., Sigernes, F., Oksavik, K., Yeoman, T.K., Lee, S.H., and J.L. Burch, American Geophysical Union, Fall General Assembly 2016, Abstract ID: SM51C-2508</Description>
+         <Acknowledgement>Please acknowledge the Principal Investigator, M.R. Lessard</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Marc.R.Lessard</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>RENU2 Mission Overview Web Page, UNH</Name>
+            <URL>http://mirl.sr.unh.edu/projects_renu2/projects_renu2.html</URL>
+            <Description>Rocket Experiment for Neutral Upwelling 2, RENU2, Mission Overview Web Page, University of New Hampshire</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>RENU2 Instrumentation Overview, UNH</Name>
+            <URL>http://mirl.sr.unh.edu/projects_renu2/FlightData/FlightData.html</URL>
+            <Description>UNH Web Page for the Instrumentation onboard the RENU2 Sounding Rocket, University of New Hampshire</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>RENU2 Instrument Overview Web Page, DU</Name>
+            <URL>http://www.dartmouth.edu/~aurora/renu/instruments.html</URL>
+            <Description>Rocket Experiment for Neutral Upwelling 2, RENU2, Instrument Overview Web Page, Lynch Rocket Lab, Dartmouth University</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>RENU2 Overview Lessard et al. (2019) GRL Publication</Name>
+            <URL>https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2018GL081885</URL>
+            <Description>Lessard, M.R., Fritz, B., Sadler, B., Cohen, I., Kenward, D., Godbole, N., Clemmons, J.H., Hecht, J.H., Lynch, K.A., Harrington, M., Roberts, T.M., Hysell, D., Crowley, G., Sigernes, F., Syrjasuo, M., Ellingson, P., Partamies, N., Moen, J., Clausen, L., Oksavik, K., and T. Yeoman, Overview of the Rocket Experiment for Neutral1, Upwelling Sounding Rocket 2 (RENU2), Geophys. Res. Lett., 46, https://doi.org/10.1029/2018GL081885</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>ElectrostaticAnalyser</InstrumentType>
+      <InvestigationName>Rocket Experiment for Neutral Upwelling 2, RENU2, NASA Mission 52.002</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2015-12-13T00:00:00</StartDate>
+         <StopDate>2015-12-13T23:59:59</StopDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/RENU2</ObservatoryID>
+   </Instrument>
+</Spase>

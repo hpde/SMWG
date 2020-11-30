@@ -5,21 +5,21 @@
     <ResourceID>spase://SMWG/Instrument/IGPPLANL/Air.Force.Academy/Magnetometer</ResourceID>
     <ResourceHeader>
       <ResourceName>IGPP-LANL Air Force Academy Fluxgate Magnetometer</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:09Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The magnetometer at the IGPP-LANL Air Force Academy station</Description>
       <Acknowledgement>The operation of the Air Force Academy fluxgate magnetometer is managed by Dr. Francis Chun, USAF Academy.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Peter.J.Chi</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>UCLA Ground Magnetometer Data Center</Name>
-        <URL>http://spc.igpp.ucla.edu/uclamag</URL>
+        <URL>http://spc.igpp.ucla.edu/uclamag/</URL>
         <Description>Online Information and data for IGPP-LANL Magnetometer Array</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>IGPP-LANL Magnetometer Array</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/IGPPLANL/Air.Force.Academy</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

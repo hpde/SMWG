@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
+  <Version>2.2.9</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/AGU/JGR</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Journal of Geophysical Reasearch</ResourceName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>Journal of Geophysical Research (JGR) publishes original scientific research on the physical, chemical, and biological processes that contribute to the understanding of the Earth, Sun, and solar system and all of their environments and components. JGR is currently organized into seven disciplinary sections (Atmospheres, Biogeosciences, Earth Surface, Oceans, Planets, Solid Earth, Space Physics). Sections may be added or combined in response to changes in the science.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+</Contact>
+</ResourceHeader>
+    <AccessURL>
+      <Name>Journal of Geophysical Reasearch</Name>
+      <URL>https://agupubs.onlinelibrary.wiley.com/journal/21562202</URL>
+      <Description>
+Online ISSN: 2156-2202
+Journal of Geophysical Research, organized into seven disciplinary sections, publishes original scientific research on the physical, chemical, and biological processes that contribute to the understanding of the Earth, Sun, and solar system and all of their environments and components..</Description>
+      <Language>English</Language>
+</AccessURL>
+</Repository>
+</Spase>

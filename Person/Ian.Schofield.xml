@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.9</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Ian.Schofield</ResourceID>
+    <ReleaseDate>2018-07-09T17:35:46Z</ReleaseDate>
+    <PersonName>Ian Schofield</PersonName>
+    <OrganizationName>Physics and Astronomy, Athabasca University</OrganizationName>
+    <Address>1 University Drive, Athabasca, AB, T9S 3A3 Canada</Address>
+    <Email>scholfiel@athabascau.ca</Email>
+    <PhoneNumber>+1 780 675 6310</PhoneNumber>
+  </Person>
+</Spase>

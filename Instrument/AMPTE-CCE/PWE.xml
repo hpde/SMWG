@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
+   <Version>2.2.9</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/AMPTE-CCE/PWE</ResourceID>
+      <ResourceHeader>
+         <ResourceName>AMPTE/CCE Plasma Wave Experiment Experiment</ResourceName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <Description>The AMPTE CCE Plasma Wave Experiment had five plasma center frequencies of 100 Hz, 730 Hz, 5.4 kHz, 30 kHz and 178 kHz that were sampled every 0.62 s. The instrument consisted of a balanced electric dipole with an effective length of 70 cm. The instrument was the flight spare of the Pioneer Venus Electric Field Detector. For more details, see F. L. Scarf, IEEE Transactions on Geoscience and Remote Sensing, Vol. GE-23, p. 250, 1985.</Description>
+         <Acknowledgement>User will acknowledge the AMPTE/CCE PWE team in any publication resulting from the use of these data.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Richard.W.McEntire</PersonID>
+            <Role>GeneralContact</Role>
+</Contact>
+         <InformationURL>
+            <Name>NSSDC Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1984-088A-04</URL>
+            <Description>NSSDC information about the AMPTE/CCE PWE experiment</Description>
+</InformationURL>
+         <InformationURL>
+            <Name>IEEE Transactions on Geoscience and Remote Sensing Journal Article</Name>
+            <URL>https://ieeexplore.ieee.org/document/4072286/</URL>
+            <Description>Detailed information about the instrument.</Description>
+</InformationURL>
+         <PriorID>spase://SMWG/Instrument/AMPTE_CCE/PWE</PriorID>
+</ResourceHeader>
+      <InstrumentType>DoubleSphere</InstrumentType>
+      <InvestigationName>PWE</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/AMPTE-CCE</ObservatoryID>
+      <Caveats>
+</Caveats>
+</Instrument>
+</Spase>

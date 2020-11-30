@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/DMSP_5D-3/F15/SSM/I</ResourceID>
+      <ResourceHeader>
+         <ResourceName>DMSP/F15, Special Sensor Microwave Imager, SSM/I</ResourceName>
+         <ReleaseDate>2017-08-23T12:34:56.789</ReleaseDate>
+         <Description>DMSP/F15, Special Sensor Microwave Imager, SSM/I, The SSM/I is a seven-channel, four-frequency, orthogonally polarized, passive microwave radiometric system that measures atmospheric, ocean and terrain microwave brightness temperatures at 19.35, 22.2, 37.0, and 85.5 GHz.</Description>
+         <Acknowledgement>DMSP Data Manager, NOAA National Environmental Satellite, Data, and Information Service, NESDIS</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/DMSP.Data.Manager</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Special Sensor Microwave Imager Web Site</Name>
+            <URL>https://www.wmo-sat.info/oscar/instruments/view/533</URL>
+            <Description>Special Sensor Microwave Imager, SSM/I, Information and Details</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Imager</InstrumentType>
+      <InvestigationName>Defense Meteorological Satellite Program, DMSP</InvestigationName>
+      <OperatingSpan>
+         <StartDate>1999-12-12T00:00:00</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/DMSP_5D-3/F15</ObservatoryID>
+   </Instrument>
+</Spase>

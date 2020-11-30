@@ -5,7 +5,8 @@
       <ResourceID>spase://SMWG/Observatory/Ground/McGrath</ResourceID>
       <ResourceHeader>
          <ResourceName>McGrath Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+		 <AlternateName>Observatory Station Code: MCGR</AlternateName>
+         <ReleaseDate>2018-08-20T12:34:56.789</ReleaseDate>
          <Description>McGrath (MCGR) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: University of California, Berkeley, University of California, Los Angeles, respectively, NASA NAS5-02099</Acknowledgement>
          <Contact>
@@ -27,6 +28,7 @@
          </InformationURL>
          <PriorID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-GBO/MCGR</PriorID>
       </ResourceHeader>
+      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>

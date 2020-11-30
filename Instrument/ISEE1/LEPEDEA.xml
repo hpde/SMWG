@@ -6,33 +6,33 @@
     <ResourceHeader>
       <ResourceName>Low-Energy Proton and Electron Differential Energy Analyzer (LEPEDEA)</ResourceName>
       <AlternateName>LEPEDEA</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:16Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>This experiment was designed to study, by means of identical instrumentation on the mother/daughter spacecraft, the spatial and temporal variations of the solar wind and magnetosheath electrons and ions. Protons and electrons in the energy range from 1 eV to 45 keV were measured in 64 contiguous energy bands with an energy resolution (delta E/E) of 0.16. A quadrispherical low-energy proton and electron differential energy analyzer (LEPEDEA), employing seven continuous channel electron multipliers in each of its two (one for protons and one for electrons) electrostatic analyzers was flown on both the mother and the daughter spacecraft. All but 2% of the 4-pi-sr solid angle was covered for particle velocity vectors. A GM tube was also included, with a conical field of view of 40-deg full-angle, perpendicular to the spin axis. This detector was sensitive to electrons with E&gt;45 keV, and to protons with E&gt;600 keV.</Description>
       <Acknowledgement/>
       <Contact>
         <PersonID>spase://SMWG/Person/H.Kent.Hills</PersonID>
         <Role>TechnicalContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Charles.F.Kennel</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Vytenis.M.Vasyliunas</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Louis.A.Frank</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1977-102A-03</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1977-102A-03</URL>
         <Description>Information about the Low-Energy Proton and Electron Differential Energy Analyzer (LEPEDEA) experiment on the ISEE 1 mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Low-Energy Proton and Electron Differential Energy Analyzer (LEPEDEA) on ISEE 1</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/ISEE1</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

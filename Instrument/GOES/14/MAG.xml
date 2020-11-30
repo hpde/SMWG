@@ -5,8 +5,8 @@
     <ResourceID>spase://SMWG/Instrument/GOES/14/MAG</ResourceID>
     <ResourceHeader>
       <ResourceName>Triaxial Fluxgate Magnetometer</ResourceName>
-      <AlternateName>MAG</AlternateName> 
-      <ReleaseDate>2013-01-29T00:00:00Z</ReleaseDate>
+      <AlternateName>MAG</AlternateName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Each of the GOES-N,O,P satellites have two identical magnetometers, provided by Science
 Applications International Corporation (SAIC), Inc. in Columbia, Maryland. They can operate
 independently and simultaneously to measure the magnitude and direction of the Earth’s
@@ -17,21 +17,21 @@ interested users. One magnetometer sensor is mounted on the end of the boom 27.9
 from the spacecraft. The other is positioned on the same boom 2.6 feet (0.8 m) closer to the
 spacecraft. The second magnetometer sensor serves as a backup in case the first magnetometer
 sensor fails and provides for better calibration of the magnetometer data channel.</Description>
- 	    <Acknowledgement>Dr. Howard Singer; National Oceanic and Atmospheric Administration; Science Applications International Corporation (SAIC), Inc.</Acknowledgement>
+      <Acknowledgement>Dr. Howard Singer; National Oceanic and Atmospheric Administration; Science Applications International Corporation (SAIC), Inc.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Howard.J.Singer</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>GOES N, O, and P Brochure</Name>
-        <URL>http://goes.gsfc.nasa.gov/text/brochure/GOES_NOP_print.pdf</URL>
+        <URL>https://goes.gsfc.nasa.gov/text/brochure/GOES_NOP_print.pdf</URL>
         <Description>Information about the magnetometers onboard GOES 13.</Description>
         <Language>en</Language>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://SMWG/Instrument/GOES/14/MAG</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Triaxial Fluxgate Magnetometer on GOES 14</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/GOES/14</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

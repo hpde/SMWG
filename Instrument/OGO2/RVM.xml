@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_0.xsd">
+  <Version>2.2.4</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/OGO2/RVM</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Rubidium Vapor Magnetometer</ResourceName>
+      <AlternateName>RVM</AlternateName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The primary objectives of this experiment were to refine the analytical description of the main geomagnetic field (as part of the U.S. contribution to the world magnetic survey) and to measure the secular change in the main field. The detector system consisted of two dual-cell, optically pumped, self-oscillating, rubidium (85) vapor magnetometers. The oscillation frequency (proportional to the ambient field magnitude) was counted by two electronic scalers for alternate half-seconds. Each scaler was read out once in each main frame. Since the spacecraft operated at 4 kbs, 16 kbs, or 64 kbs, the main frame was read out in 0.288, 0.072, or 0.018 s. Because of the rate difference between the half-second sampling times and the times between readouts, the same data point was often read out more than once. The oscillation frequency of the magnetometer was also transmitted in real time on one channel of the spacecraft's special purpose telemeter to provide information on field fluctuations. This magnetometer system made scalar measurements over a range of 1.5E4 to 6.4E4 nT and had precision of 0.5 to 1.5 nT over this range. In spite of the spacecraft attitude control system problems, the magnetometer functioned well. The instrument operation was nominal for the first 6 months of the satellite lifetime, after which a failure of one scaler power supply caused the loss of the special-purpose telemetry signal and half of the digital data. The reduction in the scientific usefulness of the data received from the remaining scaler was minor, however, because of the redundancies built into the system. The rest of the data from the magnetometer were obtained with the remaining scaler until May 1967 and then in the interval from September 19 to October 2, 1967, during which time data collection was very intermittent.</Description>
+      <Acknowledgement>National Aeronautics and Space Administration; Dr. Robert A. Langel, III; Dr. Joseph C. Cain;</Acknowledgement>
+      <Contact>
+         <PersonID>spase://SMWG/Person/Joseph.C.Cain</PersonID>
+         <Role>PrincipalInvestigator</Role>
+</Contact>
+      <Contact>
+         <PersonID>spase://SMWG/Person/Robert.A.Langel.III</PersonID>
+         <Role>CoInvestigator</Role>
+</Contact>
+      <InformationURL>
+        <Name>The OGO-2 Rubidium Vapor Magnetometer</Name>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1965-081A-05</URL>
+        <Description>Information about the Rubidium Vector Magnetometer.</Description>
+        <Language>en</Language>
+</InformationURL>
+      <PriorID>spase://SMWG/Instrument/OGO2/RVM</PriorID>
+</ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>Rubidium Vapor Magnetometer on the OGO-2 spacecraft</InvestigationName>
+    <OperatingSpan>
+      <StartDate>1965-10-14T21:32:34Z</StartDate>
+      <StopDate>1967-10-02T22:03:00Z</StopDate>
+</OperatingSpan>
+    <ObservatoryID>spase://SMWG/Observatory/OGO2</ObservatoryID>
+</Instrument>
+</Spase>

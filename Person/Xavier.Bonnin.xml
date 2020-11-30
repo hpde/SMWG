@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Xavier.Bonnin</ResourceID>
+    <ReleaseDate>2020-07-16T15:48:00Z</ReleaseDate>
+    <PersonName>Xavier Bonnin</PersonName>
+    <OrganizationName>LESIA, CNRS, Observatoire de Paris, PSL</OrganizationName>
+    <Email>xavier.bonnin@obspm.fr</Email>
+    <ORCIdentifier>0000-0003-4217-7333</ORCIdentifier>
+  </Person>
+</Spase>

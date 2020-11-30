@@ -5,31 +5,31 @@
     <ResourceID>spase://SMWG/Instrument/SOLIS/ISS</ResourceID>
     <ResourceHeader>
       <ResourceName>The SOLIS Integrated Sunlight Spectrometer</ResourceName>
-      <ReleaseDate>2010-02-02T20:36:59Z</ReleaseDate>
-      <Description>The SOLIS Integrated Sunlight Spectrometer (ISS) is designed 
-to obtain both high (R = 300,000) and moderate (R = 30,000) spectral resolution 
-observations of the Sun as a star. ISS provides observations of disk-integrated 
-sunlight through the use of a fiber optic feed. A small optical system utilizing 
-a lens of 8-mm diameter will focus a 400 micron diameter image of the Sun on the 
-input face of the fiber. The output beam from the fiber will consist of sunlight 
-scrambled in both angle and position so that any output angle from any position 
-on the exit face will be well-integrated.  A prism pre-disperser will isolate 
-the desired wavelength band. The McPherson 2-m Czerny-Turner spectrograph in 
-the ISS employs a 316 g/mm grating blazed at 63.5 degrees. The focal plane 
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The SOLIS Integrated Sunlight Spectrometer (ISS) is designed
+to obtain both high (R = 300,000) and moderate (R = 30,000) spectral resolution
+observations of the Sun as a star. ISS provides observations of disk-integrated
+sunlight through the use of a fiber optic feed. A small optical system utilizing
+a lens of 8-mm diameter will focus a 400 micron diameter image of the Sun on the
+input face of the fiber. The output beam from the fiber will consist of sunlight
+scrambled in both angle and position so that any output angle from any position
+on the exit face will be well-integrated.  A prism pre-disperser will isolate
+the desired wavelength band. The McPherson 2-m Czerny-Turner spectrograph in
+the ISS employs a 316 g/mm grating blazed at 63.5 degrees. The focal plane
 detector is a movable, back-illuminated 1024 X 256 CCD.  Among the many
-wavelengths measured are the Ca II H and K lines at 396.8 and 393.4 nm, 
+wavelengths measured are the Ca II H and K lines at 396.8 and 393.4 nm,
 He I 1083 nm, H-alpha 656.3 nm, and the Ca II triplet at 854.2 nm.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/John.W.Harvey</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>SOLIS/ISS web page at NSO</Name>
-        <URL>http://solis.nso.edu/ISSOverview.html</URL>
-      </InformationURL>
-    </ResourceHeader>
+        <URL>https://solis.nso.edu/ISSOverview.html</URL>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Spectrometer</InstrumentType>
     <InvestigationName>SOLIS_ISS</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/SOLIS</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+   <Version>2.2.8</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Liam.M.Kilcommons</ResourceID>
+      <ReleaseDate>2017-08-22T12:34:56.789</ReleaseDate>
+      <PersonName>Liam M. Kilcommons</PersonName>
+      <OrganizationName>Colorado Center for Astrodynamics Research, CCAR, University of Colorado, Boulder</OrganizationName>
+      <Address>ECNT 320, 431 UCB, University of Colorado, Boulder, CO 80309-0431, USA</Address>
+      <Email>liam.kilcommons</Email>
+      <PhoneNumber>+1 303 492 3105</PhoneNumber>
+      <FaxNumber>+1 303 492 2825</FaxNumber>
+   </Person>
+</Spase>

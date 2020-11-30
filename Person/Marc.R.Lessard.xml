@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Marc.R.Lessard</ResourceID>
+    <PersonName>Marc R. Lessard</PersonName>
+    <OrganizationName>Department of Physics and Space Science Center</OrganizationName>
+    <Address>University of New Hampshire, 39 College Road, Durham, New Hampshire, 03824</Address>
+    <Email>marc.lessard@unh.edu</Email>
+    <PhoneNumber>603-862-2590</PhoneNumber>
+  </Person>
+</Spase>

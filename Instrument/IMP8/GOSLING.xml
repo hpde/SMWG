@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/IMP8/GOSLING</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar Plasma Electrostatic Analyzer</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:02Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>A hemispherical electrostatic analyzer measured the directional intensity of positive ions and electrons in the solar wind, magnetosheath, and magnetotail. Ions as heavy as oxygen were resolved when the solar wind temperature was low. Energy analysis was accomplished by charging the plates to known voltage levels and allowing them to discharge with known RC time constants. In the solar wind, positive ions from 200 eV to 5 keV (15% spacing, 3% resolution) and electrons from 5 eV to 1 keV (30% spacing, 15% resolution) were studied. In the magnetosheath, positive ions from 200 eV to 5 keV (15% spacing, 3% resolution) and from 200 eV to 20 keV (30% spacing, 15% resolution) and electrons from 5 eV to 1 keV (30% spacing, 15% resolution) were studied. In the magnetotail, positive ions from 200 eV to 20 keV (30% spacing, 15% resolution) and electrons from 5 eV to 1 keV (30% spacing, 15% resolution) and from 100 eV to 20 keV (15% resolution) were studied. For further details see W. C. Feldman et al., J. Geophys., v. 80, p. 4181, 1975. No data were obtained from this experiment past October 2001.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/John.T.Gosling</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1973-078A&amp;ex=10</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1973-078A&amp;ex=10</URL>
         <Description>Information about the Solar Plasma Electrostatic Analyzer experiment on the IMP-J mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Solar Plasma Electrostatic Analyzer on IMP-J</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/IMP8</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

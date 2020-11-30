@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
+   <Version>2.2.9</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/AMPTE-IRM/PWS</ResourceID>
+      <ResourceHeader>
+         <ResourceName>AMPTE/IRM Plasma Wave Spectrometer</ResourceName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <Description>The Plasma Wave Spectrometer onboard the AMPTE (Active Magnetospheric Particle Tracer Explorers) IRM spacecraft used a 42 m tip-to-tip antenna to measure electric fields from dc to 5 MHz and two boom-mounted search coil magnetometers to measure magnetic fields from 30 Hz to 1 MHz. The signals were analyzed by a VLF/MF 16-channel spectrum analyzer, three VLF narrow-band, swept-frequency receivers, a 60-channel HF stepped-frequency receiver, and an analog wide band receiver. For more details, see B. Hausler, et al., IEEE Transaction on Geoscience and Remote Sensing, Vol. GE-23, p 267, 1985.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Bernd.Hausler</PersonID>
+            <Role>PrincipalInvestigator</Role>
+</Contact>
+         <InformationURL>
+            <Name>NSSDC Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1984-088B-04</URL>
+            <Description>Information about AMPTE_IRM PWS</Description>
+</InformationURL>
+         <InformationURL>
+            <Name>IEEE Transaction on Geoscience and Remote Sensing Article</Name>
+            <URL>https://ieeexplore.ieee.org/document/4072290/</URL>
+            <Description>Detailed information about the AMPTE IRM Plasma Wave Spectrometer.</Description>
+</InformationURL>
+         <PriorID>spase://SMWG/Instrument/AMPTE_IRM/PWS</PriorID>
+</ResourceHeader>
+      <InstrumentType>Spectrometer</InstrumentType>
+      <InvestigationName>The Plasma Wave Spectrometer on AMPTE/IRM</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/AMPTE-IRM</ObservatoryID>
+</Instrument>
+</Spase>

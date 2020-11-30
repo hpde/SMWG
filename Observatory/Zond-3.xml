@@ -1,29 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema 
-    http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-    <Version>2.2.2</Version>
-    <Observatory>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema      http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+<Version>2.2.2</Version>
+<Observatory>
         <ResourceID>spase://SMWG/Observatory/Zond-3</ResourceID>
         <ResourceHeader>
             <ResourceName>Zond 3</ResourceName>
-            <ReleaseDate>2011-01-10T00:00:00Z</ReleaseDate>
-            <Description>Zond 3 was launched from a Tyazheliy Sputnik (65-056B) earth orbiting platform towards the moon and interplanetary space. The spacecraft was equipped with an f106 mm camera and TV system that provided automatic inflight film processing. On July 20 lunar flyby occurred approximately 33 hours after launch at a closest approach of 9200 km. 25 pictures of very good quality were taken of the lunar farside from distances of 11,570 to 9960 km over a period of 68 minutes. The photos covered 19,000,000 square km of the lunar surface. Photo transmissions by facsimile were returned to earth from a distance of 2,200,000 km and were retransmitted from a distance of 31,500,000 km (some signals still being transmitted from the distance of the orbit of Mars), thus proving the ability of the communications system. After the lunar flyby, Zond 3 continued space exploration in a heliocentric orbit. The spacecraft design was similar to Zond 2, in addition to the imaging equipment it carried a magnetometer, ultraviolet (0.25 - 0.35 micron and 0.19 - 0.27 micron) and infrared (3 - 4 micron) spectrographs, radiation sensors (gas-discharge and scintillation counters), a radiotelescope and a micrometeoroid instrument. It also had an experimental ion engine. It is believed that Zond 3 was initially designed as a companion spacecraft to Zond 2 to be launched to Mars during the 1964 launch window. The opportunity to launch was missed, and the spacecraft was launched on a Mars trajectory, although Mars was no longer attainable, as a spacecraft test. For more information on Zond 2, see: http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1964-078C</Description>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+            <Description>Zond 3 was launched from a Tyazheliy Sputnik (65-056B) Earth orbiting platform towards the Moon and interplanetary space. The spacecraft was equipped with an f106 mm camera and TV system that provided automatic inflight film processing. On July 20 lunar flyby occurred approximately 33 hours after launch at a closest approach of 9200 km. 25 pictures of very good quality were taken of the lunar farside from distances of 11,570 to 9960 km over a period of 68 minutes. The photos covered 19,000,000 square km of the lunar surface. Photo transmissions by facsimile were returned to Earth from a distance of 2,200,000 km and were retransmitted from a distance of 31,500,000 km (some signals still being transmitted from the distance of the orbit of Mars), thus proving the ability of the communications system. After the lunar flyby, Zond 3 continued space exploration in a heliocentric orbit until the last communications were made in March, 1966 from 153.5 million km distance.
+
+Zond 3 had the science objectives of studying the UV and IR spectra of the lunar surface, magnetic properties of near-Earth and interplanetary space, the solar wind, cosmic rays, micrometeorites, and low-frequency galactic radiation. It photographed the remaining 30% of the lunar farside.
+
+Spacecraft and Subsystems
+
+The spacecraft design was similar to Zond 2. The Zond 3 station consisted of two hermetically sealed modules, the orbital module and the special module. Mounted on the orbital module were a large parabolic dish antenna for tranmissions, a broad beam receiving antenna, solar panels, hemispherical radiators for thermal control, trajectory correction engines, compressed nitrogen bottles, gas-reaction orientation system engines, optical sensors for the orientation system, and scientific sensors. Housed within the orbital module were the gyroscopes and command, control, orientation, and correction systems, batteries, timers, radio telemetry system, thermal regulation internal heat exchangers, and some scientific equipment. The special module held the phototelevision unit, optical sensor for pointing at the Moon, centimeter waveband radio system, batteries, and the scientific instrument payload. In addition to the imaging equipment it carried a magnetometer, ultraviolet (0.25 - 0.35 micron and 0.19 - 0.27 micron) and infrared (3 - 4 micron) spectrographs, radiation sensors (gas-discharge and scintillation counters), a radiotelescope and a micrometeoroid instrument. It also had an experimental ion engine.
+
+It is believed that Zond 3 was initially designed as a companion spacecraft to Zond 2 to be launched to Mars during the 1964 launch window. The opportunity to launch was missed, and the spacecraft was launched on a Mars trajectory, although Mars was no longer attainable, as a spacecraft test.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/David.R.Williams</PersonID>
                 <Role>TechnicalContact</Role>
-            </Contact> 
+</Contact>
             <InformationURL>
-                <Name>NSSDC's Master Catalog</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1965-056A</URL>
+                <Name>NSSDC&apos;s Master Catalog</Name>
+                <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1965-056A</URL>
                 <Description>Information about the Zond 3 mission</Description>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL><InformationURL>
+                <Name>NSSDC&apos;s Master Catalog</Name>
+                <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1964-078C</URL>
+                <Description>Information about the Zond 2 mission</Description>
+</InformationURL>
+</ResourceHeader>
         <Location>
             <ObservatoryRegion>Heliosphere</ObservatoryRegion>
-        </Location>
-    </Observatory>
+</Location>
+</Observatory>
 </Spase>
-
-

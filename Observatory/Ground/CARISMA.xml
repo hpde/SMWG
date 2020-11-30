@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/CARISMA</ResourceID>
+      <ResourceHeader>
+         <ResourceName>CARISMA</ResourceName>
+         <AlternateName>Canadian Array for Realtime Investigations of Magnetic Activity</AlternateName>
+         <AlternateName>CANOPUS</AlternateName>
+         <AlternateName>Canadian Auroral Network for the OPEN (Origins of Plasmas in Earth&#176;s Neighborhood) Program Unified Study</AlternateName>
+         <ReleaseDate>2019-04-28T12:34:56.789Z</ReleaseDate>
+         <Description>CARISMA (Canadian Array for Realtime Investigations of Magnetic Activity) is the Magnetometer Element of the Geospace Observatory Canada Project.
+
+CARISMA is the Continuation and Expansion of an original Magnetometer Array that was part of the CANOPUS Ground-Based Instrumentation Array. The Data from the Array has contributed to the Publication of Hundreds of Scientific Papers and helped to establish CARISMA as an essential International Resource for Magnetospheric Physics.
+
+The CARISMA Network is an Array of Magnetometers, which are Devices that are used to measure Disturbances in the Magnetic Field of the Earth, caused by Activity occurring in a Region of Space near the Earth, known as the Magnetosphere. From these Measurements, the Nature of the Event can be determined and, by using a Distributed Array of Magnetometers, more Information can be calculated about their Temporal and Spatial Evolution.
+
+The CARISMA Array spans a Range of Longitude from Dawson City, YK (near the Alaska Border, 220.89&#176;E) to Rankin Inlet, NU (267.89&#176;E) and a Range of Latitude from Taloyoak, NU (69.54&#176;N) to Osakis, MN, USA (45.87&#176;N). Currently most of these Sites are on a North-South Meridian known as the &#39;Churchill Line&#39; By arranging the Magnetometers in this way, it is possible to investigate the Radial Propagation of Events, because the Magnetic Field measured at Higher Latitudes is affected by Regions further from the Earth than those measured at Lower Latitudes.</Description>
+         <Acknowledgement>I.R. Mann, D.K. Milling and the Rest of the CARISMA Team for Use of GMAG Data. CARISMA is operated by the University of Alberta, funded by the Canadian Space Agency.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Ian.Mann</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Andy.Kale</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Canadian Array for Realtime Investigations of Magnetic Activity Home Page</Name>
+            <URL>http://www.carisma.ca</URL>
+            <Description>Detailed Information about the CARISMA Array</Description>
+         </InformationURL>
+         <PriorID>spase://SMWG/Observatory/CARISMA</PriorID>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2005-01-01T00:00:00.000Z</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

@@ -5,31 +5,31 @@
     <ResourceID>spase://SMWG/Observatory/ICESTAR/AGO.P4</ResourceID>
     <ResourceHeader>
       <ResourceName>AGO P4</ResourceName>
-      <ReleaseDate>2011-08-06T12:34:56.789</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>AGO P4 Ground Observatory</Description>
       <Acknowledgement>Please acknowledge Theodore J. Rosenberg, Allan T. Weatherwax, Institute for Physical Science and Technology, University of Maryland, College Park, MD 20742-2431 for providing access to AGO P4 data resources.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Theodore.J.Rosenberg</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Allan.T.Weatherwax</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>AGO P4 ground observatory web site</Name>
-        <URL>http://scar-icestar.org</URL>
+        <URL>https://www.scar.org/science/icestar/</URL>
         <Description>AGO P4 ground observatory web site</Description>
-      </InformationURL>
+</InformationURL>
       <Association>
         <AssociationID>spase://SMWG/Observatory/ICESTAR</AssociationID>
         <AssociationType>PartOf</AssociationType>
-      </Association>
-    </ResourceHeader>
+</Association>
+</ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/ICESTAR</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
@@ -37,6 +37,6 @@
       <Latitude>-82.01</Latitude>
       <Longitude>96.76</Longitude>
       <Elevation>3597.0</Elevation>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

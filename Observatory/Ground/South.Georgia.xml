@@ -7,7 +7,7 @@
          <ResourceName>South Georgia</ResourceName>
          <AlternateName>Grytviken</AlternateName>
          <AlternateName>Observatory Station Code: SGE</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-01-18T12:34:56.789</ReleaseDate>
          <Description>The South Georgia geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  ::UNKNOWN::</Acknowledgement>
          <Contact>
@@ -27,9 +27,11 @@
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>-54.282</Latitude>
          <Longitude>323.507</Longitude>
+		 <Elevation>7.0</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>1975-01-01T00:00:00.000</StartDate>
+		 <StopDate>1977-12-31T23:59:59</StopDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

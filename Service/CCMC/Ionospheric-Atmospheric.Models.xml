@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
+   <Service>
+      <ResourceID>spase://SMWG/Service/CCMC/Ionospheric-Atmospheric.Models</ResourceID>
+      <ResourceHeader>
+         <ResourceName>CCMC: Ionosphere/Atmosphere Models</ResourceName>
+         <ReleaseDate>2019-04-19T12:34:56.789Z</ReleaseDate>
+         <Description>Run ionosphere/atmosphere models (SAMI2, CTIP) at CCMC</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Masha.Kuznetsova</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Joseph.Huba</PersonID>
+            <!-- for SAMI2 -->
+            <Role>GeneralContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Tim.Fuller-Rowell</PersonID>
+            <!--for CTIP -->
+            <Role>GeneralContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>CCMC top page</Name>
+            <URL>https://ccmc.gsfc.nasa.gov/</URL>
+         </InformationURL>
+         <PriorID>spase://VSPO/Service/P_CCMC_HDR_IONOSPH_RUN</PriorID>
+         <PriorID>spase://VSPO/Service/Ionospheric-Atmospheric.Models</PriorID>
+         <PriorID>spase://VSPO/Service/CCMC/Ionospheric-Atmospheric.Models</PriorID>
+      </ResourceHeader>
+      <AccessURL>
+         <Name>CCMC executable ionosphere models page</Name>
+         <URL>https://ccmc.gsfc.nasa.gov/models/models_at_glance.php</URL>
+      </AccessURL>
+   </Service>
+</Spase>

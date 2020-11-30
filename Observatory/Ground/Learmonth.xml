@@ -1,23 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_3.xsd">
-  <Version>2.2.3</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_4.xsd">
+  <Version>2.2.4</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Ground/Learmonth</ResourceID>
     <ResourceHeader>
       <ResourceName>Learmonth</ResourceName>
-      <ReleaseDate>2015-10-14T17:20:05Z</ReleaseDate>
-      <Description>Located on North-West Cape, Western Australia (22.2°S, 114.1°E), the site overlooks Exmouth Gulf to the east and Cape Range to the west. It is part of a network of solar observatories (the Solar Electro-Optical Network, SEON) established by the USAF around the world, and one of two solar patrol observatories in Australia. Chosen for clear skies, the site averages over 9 hours sunshine per day.
+      <ReleaseDate>2018-08-20T17:20:05Z</ReleaseDate>
+      <Description>Located on North-West Cape, 
+	  Western Australia (22.2°S, 114.1°E), the site 
+	  overlooks Exmouth Gulf to the east and Cape Range to the 
+	  west. It is part of a network of solar observatories 
+	  (the Solar Electro-Optical Network, SEON) established by the 
+	  USAF around the world, and one of two solar patrol observatories 
+	  in Australia. Chosen for clear skies, the site averages over 9 
+	  hours sunshine per day.
       
-      Learmonth Observatory operates optical and radio telescopes to monitor the Sun. In collaboration with the Australian Geological Survey Organisation, magnetometers are operated to sense geomagnetic effects of solar activity. An ionosonde is also used to probe the state of the Earth’s upper atmosphere.
-</Description>
+      Learmonth Observatory operates optical and radio telescopes to monitor 
+	  the Sun. In collaboration with the Australian Geological Survey 
+	  Organisation, magnetometers are operated to sense geomagnetic effects 
+	  of solar activity. An ionosonde is also used to probe the state of the 
+	  Earth’s upper atmosphere.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
+	  <InformationURL>
+			  <Name>Learmonth Solar Observatory Homepage at GONG</Name> 
+			  <URL>https://gong.nso.edu/sites/learmonth.shtml</URL> 
+			  <Description>About the Learmonth Solar Observatory.</Description> 
+      </InformationURL>
     </ResourceHeader>
-<ObservatoryGroupID>spase://SMWG/Observatory/GONG</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/GONG</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+	  <CoordinateSystemName>GEO</CoordinateSystemName>
+	  <Latitude>-22.2190951</Latitude>
+	  <Longitude>114.103034</Longitude>
     </Location>
   </Observatory>
 </Spase>
