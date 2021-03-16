@@ -1,0 +1,58 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://spase-group.org/data/schema/spase-2.3.2.xsd">
+<Version>2.3.2</Version>
+ <Observatory>
+  <ResourceID>spase://SMWG/Observatory/RadioJOVE/AJ4CO</ResourceID>
+  <ResourceHeader>
+   <ResourceName>AJ4CO Radio Observatory</ResourceName>
+   <AlternateName>AJ4CO</AlternateName>
+   <ReleaseDate>2021-03-09T11:08:36</ReleaseDate>
+   <Description>AJ4CO Observatory in High Springs, Florida is a
+   participant in the Radio JOVE project providing observations of
+   radio emissions from Jupiter, the Sun, and the Galactic Background
+   to other members of the Radio JOVE community. The observatory
+   consists of a TFD (Terminated Folded Dipole) array and a Radio JOVE
+   dipole array which feed a variety of receiver systems including a
+   Dual-Polarization Spectrograph (DPS), a Tunable Wideband Receiver
+   (TWB), a FS-200B radio spectrograph, and Radio JOVE receivers.
+
+   The TFD array consists of two square arrays on a NS line, eight
+   30-foot TFD elements with beam steering in 5 degree increments NS
+   and 15 degree increments EW.
+
+ </Description>
+   <Contact>
+    <PersonID>spase://SMWG/Person/David.Typinski</PersonID>
+    <Role>TechnicalContact</Role>
+   </Contact>
+   <InformationURL>
+    <Name>Radio JOVE Spectrograph Users Group (SUG)</Name>
+    <URL>http://radiojove.org/SUG/</URL>
+    <Description>This site provide station diagrams and other reports for the receiver systems at several radio observatories associated with the Radio JOVE project</Description>
+   </InformationURL>
+     <InformationURL>
+    <Name>AJ4CO Radio Astronomy Publications</Name>
+    <URL>http://www.typnet.net/AJ4CO/Publications/Publications.htm</URL>
+    <Description>This site provides descriptions of radio receiver
+    systems at AJ4CO as well as other radio astronomy-related
+    documentation</Description>
+   </InformationURL>
+    <InformationURL>
+    <Name>AJ4CO Miscellaneous Data</Name>
+    <URL>https://pds-ppi.igpp.ucla.edu/radiojove/radiojove-aj4co/radiojove-aj4co-misc-data/</URL>
+    <Description>This site provides descriptions of radio receiver
+    systems at AJ4CO, observation logs and other documentation</Description>
+   </InformationURL>
+  </ResourceHeader>
+  <ObservatoryGroupID>spase://SMWG/Observatory/RadioJOVE</ObservatoryGroupID>
+  <Location>
+   <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+   <CoordinateSystemName>GEO</CoordinateSystemName>
+   <Latitude>29.8369</Latitude>
+   <Longitude>82.6214</Longitude>
+   <Elevation>16</Elevation>
+  </Location>
+  <OperatingSpan>
+   <StartDate>2014-01-01T00:00:00</StartDate>
+  </OperatingSpan>
+ </Observatory>
+</Spase>
