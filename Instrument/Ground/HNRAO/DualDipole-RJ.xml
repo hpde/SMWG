@@ -1,5 +1,5 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
- <Version>2.3.1</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+ <Version>2.3.2</Version>
  <Instrument>
   <ResourceID>spase://SMWG/Instrument/Ground/HNRAO/DualDipole-RJ</ResourceID>
   <ResourceHeader>
@@ -24,6 +24,7 @@ conversion receiver has a 7 KHz RF bandwidth and operates at 20.1 MHz .
    </InformationURL>
   </ResourceHeader>
   <InstrumentType>Riometer</InstrumentType>
+   <InstrumentGroupID>spase://SMWG/Instrument/Ground/RadioJOVE-DualDipole-RJ</InstrumentGroupID>
   <InvestigationName>RadioJOVE phased Dual Dipole Array and RadioJOVE receiver
   system at HNRAO</InvestigationName>
   <ObservatoryID>spase://SMWG/Observatory/RadioJOVE/HNRAO</ObservatoryID>
