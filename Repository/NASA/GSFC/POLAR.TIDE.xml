@@ -5,7 +5,7 @@
       <ResourceID>spase://SMWG/Repository/NASA/GSFC/POLAR.TIDE</ResourceID>
       <ResourceHeader>
          <ResourceName>Polar Thermal Ion Dynamics Experiment, TIDE, Resident Archive Repository, GSFC</ResourceName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
          <Description>Polar TIDE Web Server and Data Archive located at GSFC.</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/Thomas.E.Moore</PersonID>
@@ -36,7 +36,7 @@
 </ResourceHeader>
       <AccessURL>
          <Name>Polar TIDE Data Archive</Name>
-         <URL>https://spdf.sci.gsfc.nasa.gov/pub/data/polar/tide/</URL>
+         <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/tide/</URL>
          <Description>The TIDE Data Archive contains TIDE data including tide_h0, tide_h1, and tide_k0 CDF file directories. The files are stored by year in the three subdirectories just listed. All of the CDFs are also available at the CDAWeb. And, the archive contains all TIDE Data and Plot Files. The Files can most easily be accessed through the appropriate Links on the TIDE Web Site but they can be accessed directly. See http://tide.gsfc.nasa.gov/data_archive_desc.shtml (this URL is currently a dead link, 190426) for the Location of the Files used in the TIDE Level-Zero Processing Software (Level-Zero, Orbit, Attitude, Mask, and Spacecraft Potential) and the Location of the Spectrogram Summary Plot Files (GIF, JPEG, and PDF). The Archive contains Copies of the TIDE H1 and H0 CDF Files (also available at the CDAWeb). Documentation, Software, and Miscellaneous Files are also kept on the Archive.</Description>
 </AccessURL>
 </Repository>
