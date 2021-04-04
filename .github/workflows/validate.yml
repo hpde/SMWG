@@ -2,8 +2,10 @@
 
 name: SPASE Validation
 
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
+# Controls when the action will run. 
+# Triggers the workflow manually
+on: workflow_dispatch
+# Triggers the workflow on push
 # on: push
 #  push:
 #    branches: [ main ]
@@ -18,15 +20,15 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-       # Checks out a copy of your repository on the ubuntu-latest machine
-      - name: Checkout code
-        uses: actions/checkout@v2
-
       # Install spase-resource-tools
       - uses: actions/setup-node@v1
       - run: npm install
       - name: Install SPASE-Resource-tools
         run: npm install -g spase-resource-tools
+
+       # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
 
       # Prepare for logs
       - name: Prepare Log directory
@@ -50,15 +52,17 @@ jobs:
       # Check if log contains any INVALID items
       - name: Check for invalid items
         run: |
-          echo -n "Number of invalid files: "
-          # Turn off exit code - we handle it differently
-          set +e
-          grep -c "^ INVALID:" logs/validate.log
-          if [ `grep -c "^ INVALID:" logs/validate.log` -eq 0 ]; then
-            echo "No FAILURE found: $?"
-            exit 0
-          else
-            echo "FAILURE found: $?"
-            exit 1
+          if [ -f logs/validate.log ]; then
+            set +e
+            echo -n "Number of invalid files: "
+            # Turn off exit code - we handle it differently
+            grep -c "^ INVALID:" logs/validate.log
+            if [ `grep -c "^ INVALID:" logs/validate.log` -eq 0 ]; then
+              echo "No FAILURE found: $?"
+              exit 0
+            else
+              echo "FAILURE found: $?"
+              exit 1
+            fi
+            set -e
           fi
-          set -e

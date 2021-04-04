@@ -18,6 +18,12 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      # Install spase-resource-tools
+      - uses: actions/setup-node@v1
+      - run: npm install
+      - name: Install SPASE-Resource-tools
+        run: npm install -g spase-resource-tools
+
        # Checks out a copy of your repository on the ubuntu-latest machine
       - name: Checkout code
         uses: actions/checkout@v2
@@ -30,29 +36,23 @@ jobs:
             **/*.xml
           SEPARATOR: ' '
 
-      # Install spase-resource-tools
-      - uses: actions/setup-node@v1
-      - run: npm install
-      - name: Install SPASE-Resource-tools
-        run: npm install -g spase-resource-tools
-
       # Prepare for logs
       - name: Prepare Log directory
         run: mkdir -p logs
 
       # Check only the source codes that have differences
       # Check descriptions for schema conformance
-        if: env.GIT_DIFF
+      #  if: env.GIT_DIFF
       - name: Schema compliance ...
         run: for f in $(echo ${{ env.GIT_DIFF }}); do spase-validate $f; done > logs/validate.log
 
       # Perform referential checks
-        if: env.GIT_DIFF
+      #  if: env.GIT_DIFF
       - name: Referential checks ...
         run: for f in $(echo ${{ env.GIT_DIFF }}); do spase-refcheck $f; done >> logs/validate.log
 
       # Upload logs
-        if: env.GIT_DIFF
+      #  if: env.GIT_DIFF
       - name: Upload log artifacts
         uses: actions/upload-artifact@v2
         with:
@@ -60,18 +60,19 @@ jobs:
           path: logs/validate.log
 
       # Check if log contains any INVALID items
-        if: env.GIT_DIFF
       - name: Check for invalid items
         run: |
-          echo -n "Number of invalid files: "
-          # Turn off exit code - we handle it differently
-          set +e
-          grep -c "^ INVALID:" logs/validate.log
-          if [ `grep -c "^ INVALID:" logs/validate.log` -eq 0 ]; then
-            echo "No FAILURE found: $?"
-            exit 0
-          else
-            echo "FAILURE found: $?"
-            exit 1
+          if [ -f logs/validate.log ]; then
+            set +e
+            echo -n "Number of invalid files: "
+            # Turn off exit code - we handle it differently
+            grep -c "^ INVALID:" logs/validate.log
+            if [ `grep -c "^ INVALID:" logs/validate.log` -eq 0 ]; then
+              echo "No FAILURE found: $?"
+              exit 0
+            else
+              echo "FAILURE found: $?"
+              exit 1
+            fi
+            set -e
           fi
-          set -e
