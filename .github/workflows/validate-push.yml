@@ -60,6 +60,7 @@ jobs:
           path: logs/validate.log
 
       # Check if log contains any INVALID items
+        if: env.GIT_DIFF
       - name: Check for invalid items
         run: |
           echo -n "Number of invalid files: "
