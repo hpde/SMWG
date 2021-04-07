@@ -1,10 +1,10 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
- <Version>2.3.1</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+ <Version>2.3.2</Version>
  <Instrument>
   <ResourceID>spase://SMWG/Instrument/Ground/MTSU/TFD-FSX6S</ResourceID>
   <ResourceHeader>
    <ResourceName>MTSU Terminated Folded Dipole and FSX-6S spectrograph system</ResourceName>
-   <ReleaseDate>2020-09-25T19:20:59Z</ReleaseDate>
+   <ReleaseDate>2021-04-07T17:26:53Z</ReleaseDate>
    <Description>Terminated Folded Dipole and FSX-6S 12 bit switching
    dual polarization spectrograph system at the Middle Tennessee State
    University.
@@ -26,6 +26,7 @@ operates at 15 -30 MHz simultaneous RCP and LCP.
    </InformationURL>
   </ResourceHeader>
   <InstrumentType>Spectrometer</InstrumentType>
+  <InstrumentGroupID>spase://SMWG/Instrument/Ground/RadioJOVE-TFD-FSX</InstrumentGroupID>
   <InvestigationName>Terminated Folded Dipole and FSX-6S spectrograph at MTSU</InvestigationName>
   <ObservatoryID>spase://SMWG/Observatory/RadioJOVE/MTSU</ObservatoryID>
  </Instrument>
