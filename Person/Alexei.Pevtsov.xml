@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
+  xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+  <Version>2.3.2</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Alexei.Pevtsov</ResourceID>
+    <ReleaseDate>2021-04-22T16:08:20Z</ReleaseDate>
+    <PersonName>Alexei Pevtsov</PersonName>
+    <OrganizationName>National Solar Observatory (NSO)</OrganizationName>
+    <Email>apevtsov@nso.edu</Email>
+    <PhoneNumber>(303) 735-7728</PhoneNumber>
+  </Person>
+</Spase>
+
+

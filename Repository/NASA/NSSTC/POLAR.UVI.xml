@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Repository/NASA/NSSTC/POLAR.UVI</ResourceID>
     <ResourceHeader>
       <ResourceName>NSSTC POLAR UVI Repository</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2021-03-29T17:14:50Z</ReleaseDate>
       <Description>
 Polar UVI Resident Archive web server and data archive located at the National Space Science and Technology Center (NSSTC) in
 Huntsville, Alabama. 
@@ -34,7 +34,7 @@ to the UVI data archive, to lists of UVI publications and presentations, and sev
 </ResourceHeader>
     <AccessURL>
       <Name>UVI Data Archive</Name>
-      <URL>https://spdf.sci.gsfc.nasa.gov/pub/data/polar/uvi/</URL>
+      <URL>https://spdf.gsfc.nasa.gov/pub/data/polar/uvi/</URL>
       <Description>
 The UVI Data Archive contains UVI data and plot files including level-one (l1), orbit (or), attitude (at), and pitch angle
 (pa) CDF files, and the 36-second UVI Image gif files (gifs).  The files are stored by year/doy-of-year in the

@@ -1,10 +1,12 @@
  # This is a basic workflow to help you get started with Actions
 
-name: SPASE Manual Validation
+name: SPASE Monthly Validation
 
 # Controls when the action will run. 
-# Triggers the workflow manually
-on: workflow_dispatch
+# Use cron to run on the first of the month.
+on:
+  schedule:
+    - cron: "* * 1 * *"
 # Triggers the workflow on push
 # on: push
 #  push:

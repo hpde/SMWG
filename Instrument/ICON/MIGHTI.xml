@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_4.xsd">
+  <Version>2.3.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/ICON/MIGHTI</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Michelson Interferometer for Global High-resolution Thermospheric Imaging</ResourceName>
+	  <AlternateName>MIGHTI</AlternateName>
+      <ReleaseDate>2021-01-01T00:00:00Z</ReleaseDate>
+      <Description>The MIGHTI instrument measures the horizontal wind speed and direction (the wind vector). Each MIGHTI unit measures the wind along its line of sight. Two discrete MIGHTI units, their views separated by 90 degrees, are mounted on the ICON Payload Interface Plate. Combining data from both units, this 90 degrees separation between their views allows the wind vector to be determined.</Description>
+	  <Acknowledgement>National Aeronautics and Space Administration; Dr. Christoph Englert </Acknowledgement>
+	  <Funding>
+		<Agency>National Aeronautics and Space Administration</Agency>
+		<Project>Explorers Program</Project>
+		<AwardNumber>contracts NNG12FA45C and NNG12FA42I</AwardNumber>
+	  </Funding>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Christoph.Englert</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Additional information on ICON</Name>
+        <URL>https://en.wikipedia.org/wiki/Ionospheric_Connection_Explorer</URL>
+        <Description>More details on the ICON spacecraft.</Description>
+      </InformationURL>
+	  <InformationURL>
+        <Name>Additional information on ICON</Name>
+        <URL>https://icon.ssl.berkeley.edu/</URL>
+        <Description>ICON spacecraft Homepage.</Description>
+      </InformationURL>
+	  <InformationURL>
+        <Name>The Ionospheric Connection Explorer mission: mission goals and design</Name>
+        <URL>https://doi.org/10.1007/s11214-017-0449-2</URL>
+        <Description>Space Science Reviews, 214:13 (36pp.). Public access. DOI: 10.1007/s11214-017-0449-2</Description>
+      </InformationURL>
+	  <InformationURL>
+        <Name>Michelson Interferometer for Global High-resolution Thermospheric Imaging (MIGHTI): instrument design and calibration</Name>
+        <URL>https://doi.org/10.1007/s11214-017-0358-4</URL>
+        <Description>Space Science Reviews, 212(1-2), pp.553-584. DOI: 10.1007/s11214-017-0358-4</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Interferometer</InstrumentType>
+	<InvestigationName>Michelson Interferometer for Global High-resolution Thermospheric Imaging</InvestigationName>
+	<OperatingSpan>
+		<StartDate>2019-10-11T02:00:00Z</StartDate>
+	</OperatingSpan>
+	<ObservatoryID>spase://SMWG/Observatory/ICON</ObservatoryID>
+  </Instrument>
+</Spase>
