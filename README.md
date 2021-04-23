@@ -1,4 +1,4 @@
-[![SPASE Manual Validation](https://github.com/hpde/SMWG/actions/workflows/validate.yml/badge.svg)](https://github.com/hpde/SMWG/actions/workflows/validate.yml)
+[![SPASE Monthly Validation](https://github.com/hpde/SMWG/actions/workflows/validate-schedule.yml/badge.svg)](https://github.com/hpde/SMWG/actions/workflows/validate-schedule.yml)
 [![SPASE Push Validation](https://github.com/hpde/SMWG/actions/workflows/validate-push.yml/badge.svg)](https://github.com/hpde/SMWG/actions/workflows/validate-push.yml)
 
 # spase-SMWG
