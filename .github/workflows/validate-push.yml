@@ -44,12 +44,17 @@ jobs:
       # Check descriptions for schema conformance
       #  if: env.GIT_DIFF
       - name: Schema compliance ...
-        run: for f in $(echo ${{ env.GIT_DIFF }}); do spase-validate $f; done > logs/validate.log
+        run: |
+          echo "Schema compliance ..." > logs/validate.log
+          for f in $(echo ${{ env.GIT_DIFF }}); do spase-validate $f; done >> logs/validate.log
 
-      # Perform referential checks
+      # Check references
       #  if: env.GIT_DIFF
       - name: Referential checks ...
-        run: for f in $(echo ${{ env.GIT_DIFF }}); do spase-refcheck -u -i $f; done >> logs/validate.log
+        run: |
+          echo "" >> logs/validate.log
+          echo "Referential checks ..." >> logs/validate.log
+          for f in $(echo ${{ env.GIT_DIFF }}); do spase-refcheck -u -i $f; done >> logs/validate.log
 
       # Upload logs
       #  if: env.GIT_DIFF
