@@ -1,0 +1,60 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+ <Version>2.3.1</Version>
+ <Observatory>
+  <ResourceID>spase://SMWG/Observatory/SipleExperiment</ResourceID>
+  <ResourceHeader>
+   <ResourceName>Siple Experiment</ResourceName>
+   <ReleaseDate>2020-12-29T15:51:48</ReleaseDate>
+   <Description>
+     During its operation from 1973 to 1988, the Siple Station
+     experiment provided numerous observations of magnetospheric
+     wave's particle and wave's interactions and it remains the
+     preeminent source for validating computer simulations of whistler
+     mode wave's particle interactions.  The Siple Station Experiment
+     consisted of a transmitting station in Antarctica and a
+     receiving station located at the conjugate point in Quebec,
+     Canada. Siple Station, Antarctica was located at 75.93 deg. S,
+     84.25 deg. W geographic, corresponding to an invariant latitude
+     of 60.4 deg. S, at L = 4.2. The facility operated a  100 kW, 21.2
+     Km elevated dipole transmitting between 1 to ~6kHz. In 1986 the
+     Siple station facility was upgraded with the addition of crossed
+     dipoles for the generation of variable  polarization.
+
+ 
+   The main observation point for the whistler mode signals
+   from Siple station was near the geomagnetic conjugate point 
+   first (1973-1985) at Roberval, Quebec (48.52 deg. N, 72.23 deg. W)
+   and from 1986 to 1988
+   near Lake Mistissini, Canada (50.42 deg. N, 73.87
+   deg. W). The receiver system consisted of two delta-shaped crossed loops
+     mounted on a central 30-foot-high(~9 m) support with a base of 60
+     feet (18.3 m). 
+
+    Complete results of the Siple
+   station experiment are summarized in Helliwell, R. A.,(1988)
+   Rev. Geophys., 26, 551-578, but analysis
+   work on this dataset continued well after the experiment
+   ended. These data were originally stored on Ampex magnetic tapes
+   then converted over to a digitized format with some error
+   correction applied as described by Li et al., (2014) JGR, 119,1837-1850.  </Description>
+   <Contact>
+    <PersonID>spase://SMWG/Person/Robert.A.Helliwell</PersonID>
+    <Role>PrincipalInvestigator</Role>
+   </Contact>
+  <Contact>
+    <PersonID>spase://SMWG/Person/Morris.Cohen</PersonID>
+    <Role>ArchiveSpecialist</Role>
+   </Contact>
+   <InformationURL>
+    <URL>http://waldo.world/description-of-data/</URL>
+   </InformationURL>
+  </ResourceHeader>
+  <Location>
+   <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+  </Location>
+  <OperatingSpan>
+    <StartDate>1973-01-01T00:00:00</StartDate>
+    <StopDate>1988-01-01T00:00:00</StopDate>
+  </OperatingSpan>
+ </Observatory>
+</Spase>

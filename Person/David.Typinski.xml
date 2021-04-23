@@ -1,0 +1,9 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://spase-group.org/data/schema/spase-2.3.2.xsd">
+<Version>2.3.2</Version>
+ <Person>
+  <ResourceID>spase://SMWG/Person/David.Typinski</ResourceID>
+  <PersonName>Dave Typinski</PersonName>
+  <OrganizationName>AJ4CO Observatory</OrganizationName>
+  <Address>High Springs, Florida</Address>
+ </Person>
+</Spase>

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/GOLD</ResourceID>
+    <ResourceHeader>
+      <ResourceName>GOLD</ResourceName>
+	  <AlternateName>Global-scale Observations of the Limb and Disk Mission</AlternateName>
+      <ReleaseDate>2020-09-14T16:47:17Z</ReleaseDate>
+      <Description>The Global-scale Observations of the Limb and Disk (GOLD) mission 
+	  is a heliophysics Mission of Opportunity for NASA’s Explorers program. GOLD is 
+	  intended to perform a two-year mission imaging Earth's thermosphere and ionosphere 
+	  from geostationary orbit. GOLD is a two-channel far-ultraviolet (FUV) imaging 
+	  spectrograph built by the Laboratory for Atmospheric and Space Physics at the 
+	  University of Colorado Boulder and flown as a hosted payload on the commercial 
+	  communications satellite SES-14.
+	  
+	  The scientific objectives of the GOLD mission are to determine how geomagnetic 
+	  storms alter the temperature and composition of Earth’s atmosphere, to analyze 
+	  the global-scale response of the thermosphere to solar extreme-ultraviolet variability, 
+	  to investigate the significance of atmospheric waves and tides propagating from 
+	  below the temperature structure of the thermosphere and to resolve how the structure 
+	  of the equatorial ionosphere influences the formation and evolution of equatorial 
+	  plasma density irregularities. The viewpoint provided by GOLD’s geostationary 
+	  orbit – from which the same hemisphere is always observable – is a new perspective 
+	  on the Earth’s upper atmosphere. This viewpoint allows local time, universal time 
+	  and longitudinal variations of the thermosphere and ionosphere's response to the 
+	  various forcing mechanisms to be uniquely determined.
+	  </Description>
+	  <Acknowledgement>National Aeronautics and Space Administration; Dr. Richard Eastes</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Richard.Eastes</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>GOLD Homepage web page</Name>
+        <URL>http://gold.cs.ucf.edu/</URL>
+        <Description>GOLD web page with news and other information.</Description>
+      </InformationURL>
+	  <InformationURL>
+        <Name>GOLD Missions Space Science Reviews Article</Name>
+        <URL>https://doi.org/10.1007/s11214-017-0392-2</URL>
+        <Description>Eastes, R.W., McClintock, W.E., Burns, A.G. et al. Space Sci. Rev. (2017) vol. 212, pp.383.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Instrument/SES-14/GOLD</PriorID>
+    </ResourceHeader>
+    <InstrumentType>Photometer</InstrumentType>
+	<InvestigationName>Global-scale Observations of the Limb and Disk</InvestigationName>
+	<OperatingSpan>
+		<StartDate>2018-01-25T00:00:00Z</StartDate>
+	</OperatingSpan>
+	<ObservatoryID>spase://SMWG/Observatory/GOLD</ObservatoryID>
+  </Instrument>
+</Spase>
