@@ -23,6 +23,9 @@ jobs:
       # Install spase-resource-tools
       - uses: actions/setup-node@v1
       - run: npm install
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
       - name: Install SPASE-Resource-tools
         run: npm install -g spase-resource-tools
 
@@ -40,7 +43,7 @@ jobs:
 
       # Perform 
       - name: Referential checks ...
-        run: spase-refcheck -r . >> logs/validate.log
+        run: spase-refcheck -r -u -i . >> logs/validate.log
 
       # Upload logs
       - name: Upload log artifacts
@@ -66,3 +69,27 @@ jobs:
             fi
             set -e
           fi
+      - name: Send mail
+        # Define the following secrets for the repository: EMAIL_SERVER, EMAIL_USERNAME, EMAIL_PASSWORD, EMAIL_TO, EMAIL_LIST
+        if: always()
+        uses: dawidd6/action-send-mail@v2
+        with:
+          # mail server settings
+          server_address: ${{ secrets.EMAIL_SERVER }}
+          server_port: 465
+          # user credentials
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          # email subject
+          subject: ${{ steps.date.outputs.date }} ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
+          # email body as text
+          body: |
+            ${{ github.job }} job in workflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
+            ""
+            For details see attachment.
+          # comma-separated string, send email to
+          to: ${{ secrets.EMAIL_LIST }},${{ secrets.EMAIL_TO }}
+          # from email name
+          from: HPDE Mailer
+          # Attachements:
+          attachments: logs/validate.log
