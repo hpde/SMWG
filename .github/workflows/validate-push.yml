@@ -19,7 +19,9 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Install spase-resource-tools
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'      
       - run: npm install
       - name: Install SPASE-Resource-tools
         run: npm install -g spase-resource-tools
