@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd" lang="en">
-   <Version>2.3.1</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+   <Version>2.3.2</Version>
    <Observatory>
       <ResourceID>spase://SMWG/Observatory/BepiColombo</ResourceID>
       <ResourceHeader>
-         <ResourceName>BepiColombo</ResourceName>
-         <ReleaseDate>2020-02-29T12:34:56.789Z</ReleaseDate>
+         <ResourceName>BepiColombo Spacecraft</ResourceName>
+         <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2021-05-30T12:34:56.000</ReleaseDate>
+               <Note>Updated to SPASE Version 2.3.2 if needed, Applied quality conntrol for DOI usage, LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
          <Description>BepiColombo is a joint European Space Agency, ESA, and Japanese Aerospace Exploration Agency, JAXA, Cornerstone mission to Mercury. The mission involves two components: the Mercury Planetary Orbiter, MPO, and the Mercury Magnetospheric Orbiter, MMO. MMO is also now known as Mio, which means a waterway in Japanese. According to JAXA, the name Mio symbolizes the research and development milestones reached thus far, and wishes for safe travel ahead. JAXA said the spacecraft will travel through the solar wind just like a ship traveling through the ocean. Due to budgetary constraints the lander portion, which was called Mercury Surface Element, MSE, of the mission has been cancelled.
 
 The two components were launched together on an Arianne 5 rocket from Kourou, French Guiana at 01:45:28 UT on 19 October 2018. The spacecraft will have a nearly seven year interplanetary cruise to Mercury using solar-electric propulsion and gravity assists. There are nine scheduled planetary assist encounters as follows:
@@ -41,11 +47,6 @@ The scientific objectives for the BepiColombo mission are to study :
 
 The MPO and MMO spacecraft will each be driven by a Solar-Electric Propulsion Module, SEPM, and a chemical propulsion module, CPM. The SEPM is optimal for slow cruise manuevers and will consist of a set of Xenon ion thrusters housed in a rectangular prism powered by two GaAs-cell solar panel wings covering 33 square meters. The panels will be progressively tilted away from the Sun as the spacecraft gets closer from 0.6 AU to 0.32 AU in order to provide approximately constant power, about twice the 5.5 kW available at 1 AU. Three thrusters will be available, one or two to be used at any given time. The nominal thrust is planned to be 0.17 or 0.34 N. The total dry mass of the unit is 365 kg with 230 kg of xenon fuel for the MPO and 238 kg for the MMO. The CPM is a bi-propellant, Monomethylhydrazine N2O4-MMH, system for attitude control and orbital insertion. Attitude control will be achieved by eight 20 N thrusters while other maneuvers will be achieved with a single 4000 N engine. The dry mass of the CPM is 71 kg, with 156 kg of fuel for MPO and 334 kg for MMO. The total launch mass of the entire MPO system will be 1229 kg and for MMO about 1200 kg.</Description>
          <Acknowledgement>Please acknowledge the European Space Agency, ESA, and the Japanese Aerospace Exploration Agency, JAXA</Acknowledgement>
-         <PublicationInfo>
-            <Authors>R. Schulz and J. Benkhoff</Authors>
-            <PublicationDate>2005-05-23T00:00:00</PublicationDate>
-            <PublishedBy>Adv. Space Res.</PublishedBy>
-         </PublicationInfo>
          <Funding>
             <Agency>European Space Agency, ESA, and the Japanese Aerospace Exploration Agency, JAXA Programs</Agency>
             <Project>BepiColombo Mission</Project>
@@ -70,26 +71,25 @@ The MPO and MMO spacecraft will each be driven by a Solar-Electric Propulsion Mo
          </InformationURL>
          <InformationURL>
             <Name>BepiColombo Mercury Exploration Web Page, JAXA, English Version</Name>
-            <URL>http://www.stp.isas.jaxa.jp/mercury/p_intro.html</URL>
+            <URL>https://www.stp.isas.jaxa.jp/mercury/p_intro.html</URL>
             <Description>BepiColombo scientific objectives and mission baseline with links to more detailed information</Description>
             <Language>en</Language>
          </InformationURL>
          <InformationURL>
             <Name>BepiColombo Mercury Exploration Web Page, JAXA, Japanese Version</Name>
-            <URL>http://www.stp.isas.jaxa.jp/mercury/p_intro.html</URL>
+            <URL>https://www.stp.isas.jaxa.jp/mercury/p_intro-j.html</URL>
             <Description>BepiColombo scientific objectives and mission baseline with links to more detailed information</Description>
             <Language>ja</Language>
+         </InformationURL>
+         <InformationURL>
+            <Name>BepiColombo Spacecraft paper, Published by Adv. Space Res., Date: 2005-05-23</Name>
+            <URL>https://doi.org/10.1016/j.asr.2005.05.084</URL>
+            <Description>Author List: Schulz, R., &amp; Benkhoff, J.</Description>
          </InformationURL>
          <InformationURL>
             <Name>BepiColombo Spacecraft, NSSDC Master Catalog Listing</Name>
             <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=BEPICLMBO</URL>
             <Description>NSSDC Master Catalog Listing for the BepiColombo Spacecraft, NSSDCA/COSPAR ID: BEPICLMBO</Description>
-            <Language>en</Language>
-         </InformationURL>
-         <InformationURL>
-            <Name>BepiColombo Advances in Space Research journal article</Name>
-            <URL>https://doi.org/10.1016/j.asr.2005.05.084</URL>
-            <Description>Schulz, R., and Benkhoff, J., BepiColombo: Payload and Mission Updates, Adv. Space Res., 38(4), 572-577, 2006.</Description>
             <Language>en</Language>
          </InformationURL>
       </ResourceHeader>
@@ -99,7 +99,7 @@ The MPO and MMO spacecraft will each be driven by a Solar-Electric Propulsion Mo
          <ObservatoryRegion>Mercury</ObservatoryRegion>
       </Location>
       <OperatingSpan>
-         <StartDate>2018-10-19T01:45:28Z</StartDate>
+         <StartDate>2018-10-19T01:45:28</StartDate>
          <Note>The start date and time listed here correspond to when BepiColombo was launched</Note>
       </OperatingSpan>
    </Observatory>

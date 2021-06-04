@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
-   <Version>2.3.0</Version>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+   <Version>2.3.2</Version>
    <Instrument>
       <ResourceID>spase://SMWG/Instrument/MAVEN/Ephemeris</ResourceID>
       <ResourceHeader>
-         <ResourceName>MAVEN Ephemeris</ResourceName>
+         <ResourceName>MAVEN Spacecraft Ephemeris Instrument</ResourceName>
          <AlternateName>MAVEN Spacecraft Position</AlternateName>
-         <DOI>10.1007/s11214-015-0139-x</DOI>
-         <ReleaseDate>2019-07-12T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+               <Note>Updated to SPASE Version 2.3.2 if needed, Applied quality conntrol for DOI usage, LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
          <Description>Mars Atmosphere and Volatile Evolution, MAVEN, Spacecraft Ephemeris</Description>
          <Acknowledgement>National Aeronautics and Space Administration, NASA</Acknowledgement>
-         <PublicationInfo>
-            <Authors>Jakosky, B.M., R.P. Lin, J.M. Grebowsky, J.G. Luhmann, D.F. Mitchell, G. Beutelschies, T. Priser, M. Acuna, L. Andersson, D. Baird, D. Baker, R. Bartlett, M. Benna, S. Bougher, D. Brain, D. Carson, S. Cauffman, P. Chamberlin, J.-Y. Chaufray, O. Cheatom, J. Clarke, J. Connerney, T. Cravens, D. Curtis, G. Delory, S. Demcak, A. DeWolfe, F. Eparvier, R. Ergun, A. Eriksson, J. Espley, X. Fang, D. Folta, J. Fox, C. Gomez-Rosa, S. Habenicht, J. Halekas, G. Holsclaw, M. Houghton, R. Howard, M. Jarosz, N. Jedrich, M. Johnson, W. Kasprzak, M. Kelley, T. King, M. Lankton, D. Larson, F. Leblanc, F. Lefevre, R. Lillis, P. Mahaffy, C. Mazelle, W. McClintock, J. McFadden, D.L. Mitchell, F. Montmessin, J. Morrissey, W. Peterson, W. Possel, J.-A. Sauvaud, N. Schneider, W. Sidney, S. Sparacino, A.I.F. Stewart, R. Tolson, D. Toublanc, C. Waters, T. Woods, R. Yelle, and R. Zurek</Authors>
-            <PublicationDate>2015-04-09T00:00:00</PublicationDate>
-            <PublishedBy>Space Sci. Rev.</PublishedBy>
-         </PublicationInfo>
          <Funding>
             <Agency>National Aeronautics and Space Administration, Mars Scout Program</Agency>
             <Project>MAVEN Mission</Project>
@@ -43,24 +43,24 @@
          </InformationURL>
          <InformationURL>
             <Name>The Mars Atmosphere and Volatile Evolution, MAVEN, Mission Home Page, LASP, UC Boulder</Name>
-            <URL>http://lasp.colorado.edu/home/maven/</URL>
+            <URL>https://lasp.colorado.edu/home/maven/</URL>
             <Description>General Information about the Mars Atmosphere and Volatile Evolution, MAVEN, Mission, Laboratory for Atmospheric and Space Physics, University of Colorado, Boulder</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>MAVEN Mission paper, Published by Space Sci. Rev., Date: 2015-04-09</Name>
+            <URL>https://doi.org/10.1007/s11214-015-0139-x</URL>
+            <Description>Author List: Jakosky, B. M., Lin, R. P., Grebowsky, J. M., Luhmann, J. G., Mitchell, D. F., Beutelschies, G., Priser, T., Acuna, M., Andersson, L., Baird, D., Baker, D. N., Bartlett, R., Benna, M., Bougher, S., Brain, D., Carson, D., Cauffman, S., Chamberlin, P. C., Chaufray, J.-Y., Cheatom, O., Clarke, J. T., Connerney, J. E. P., Cravens, T., Curtis, D. W., Delory, G. T., Demcak, S., DeWolfe, A., Eparvier, F. G., Ergun, R., Eriksson, A., Espley, J., Fang, X., Folta, D., Fox, J., Gomez-Rosa, C., Habenicht, S., Halekas, J. S., Holsclaw, G. M., Houghton, M., Howard, R. A., Jarosz, M., Jedrich, N., Johnson, M., Kasprzak, W., Kelley, M., King, T., Lankton, M., Larson, D. E., Leblanc, F., Lefevre, F., Lillis, R. J., Mahaffy, P. R., Mazelle, C., McClintock, W. E., McFadden, J. P., Mitchell, D. L., Montmessin, F., Morrissey, J., Peterson, W., Possel, W., Sauvaud, J.-A., Schneider, N. M., Sidney, W., Sparacino, S., Stewart, A. I. F., Tolson, R., Toublanc, D., Waters, C., Woods, T. N., Yelle, R. V., &amp; Zurek, R.</Description>
          </InformationURL>
          <InformationURL>
             <Name>NSSDC Master Catalog Listing, MAVEN</Name>
             <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2013-063A</URL>
             <Description>NSSDC Master Catalog Listing for the MAVEN Spacecraft, NSSDCA/COSPAR ID: 2013-063A</Description>
          </InformationURL>
-         <InformationURL>
-            <Name>MAVEN Mission Space Science Review Article</Name>
-            <URL>https://doi.org/10.1007/s11214-015-0139-x</URL>
-            <Description>Jakosky, B.M., Lin, R.P., Grebowsky, J.M., et al., The Mars Atmosphere and Volatile Evolution (MAVEN) Mission, Space Sci. Rev., 195(1-4), 3-48, 2015.</Description>
-         </InformationURL>
       </ResourceHeader>
       <InstrumentType>Platform</InstrumentType>
       <InvestigationName>Mars Atmosphere and Volatile Evolution, MAVEN, Spacecraft Ephemeris</InvestigationName>
       <OperatingSpan>
-         <StartDate>2013-11-18T18:28:00Z</StartDate>
+         <StartDate>2013-11-18T18:28:00</StartDate>
          <Note>MAVEN Launch Date and Time until data are available</Note>
       </OperatingSpan>
       <ObservatoryID>spase://SMWG/Observatory/MAVEN</ObservatoryID>

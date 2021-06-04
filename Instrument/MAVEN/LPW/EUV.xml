@@ -1,13 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
-   <Version>2.3.0</Version>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+   <Version>2.3.2</Version>
    <Instrument>
       <ResourceID>spase://SMWG/Instrument/MAVEN/LPW/EUV</ResourceID>
       <ResourceHeader>
-         <ResourceName>MAVEN LPW/EUV</ResourceName>
-         <AlternateName>MAVEN Langmuir Probe and Waves, LPW, Extreme Ultraviolet Monitor, EUV, Instrument</AlternateName>
-         <DOI>10.1007/s11214-015-0195-2</DOI>
-         <ReleaseDate>2019-07-12T12:34:56.789Z</ReleaseDate>
+         <ResourceName>MAVEN Langmuir Probe and Waves, LPW, Extreme Ultraviolet Monitor, EUV, Instrument</ResourceName>
+         <AlternateName>MAVEN LPW/EUV Instrument</AlternateName>
+         <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+               <Note>Updated to SPASE Version 2.3.2 if needed, Applied quality conntrol for DOI usage, LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
          <Description>The Extreme Ultraviolet, EUV, Monitor is an Instrument on the NASA Mars Atmosphere and Volatile EvolutioN, MAVEN, Mission, designed to measure the Variability of the Solar Soft X-rays and EUV Irradiance at Mars. The Solar Output in this Wavelength Range is a primary Energy Input to the Mars Atmosphere and a Driver for the Processes leading to Atmospheric Escape. The MAVEN EUV Monitor consists of three broadband Radiometers. The Radiometers consist of Silicon Photodiodes with different bandpass-limiting Filters for each Channel. The Filters for the Radiometers are:
 
 Channel A: Thin Foil C/Al/Nb/C for 0.1 nm to 3 nm and 17 nm to 22 nm,
@@ -24,11 +29,6 @@ The EUV Monitor for MAVEN is a Part of Langmuir Probe and Waves, LPW, Experiment
 
 This Description has been adapted from The Abstract and Introduction of Eparvier, F.G., Chamberlin, P.C., Woods, T.N. et al. Space Sci. Rev. (2015) 195: 293. https://doi.org/10.1007/s11214-015-0195-2.</Description>
          <Acknowledgement>National Aeronautics and Space Administration, NASA, Laboratory for Atmospheric and Space Physics, LASP, University of Colorado, Boulder</Acknowledgement>
-         <PublicationInfo>
-            <Authors>Eparvier, F.G., P.C. Chamberlin, T.N. Woods, and E.M.B. Thiemann</Authors>
-            <PublicationDate>2015-09-01T00:00:00</PublicationDate>
-            <PublishedBy>Space Sci. Rev.</PublishedBy>
-         </PublicationInfo>
          <Funding>
             <Agency>National Aeronautics and Space Administration, Mars Scout Program</Agency>
             <Project>MAVEN Langmuir Probe and Waves, Extreme Ultraviolet Monitor Investigation</Project>
@@ -44,13 +44,13 @@ This Description has been adapted from The Abstract and Introduction of Eparvier
          </Contact>
          <InformationURL>
             <Name>The Mars Atmosphere and Volatile Evolution, MAVEN, Langmuir Probe and Waves, LPW, Extreme Ultraviolet Monitor Instrument Home Page, LASP, UC Boulder</Name>
-            <URL>http://lasp.colorado.edu/home/maven/science/instrument-package/lpw/extreme-ultraviolet-euv-monitor/</URL>
+            <URL>https://lasp.colorado.edu/home/maven/science/instrument-package/lpw/extreme-ultraviolet-euv-monitor/</URL>
             <Description>The Mars Atmosphere and Volatile Evolution, MAVEN, Langmuir Probe and Waves, LPW, Extreme Ultraviolet Monitor Instrument Home Page, Laboratory for Atmospheric and Space Physics, LASP, University of Colorado, Boulder</Description>
          </InformationURL>
          <InformationURL>
-            <Name>MAVEN Langmuir Probe and Waves, LPW, Extreme Ultraviolet Monitor, EUV, Instrument Space Science Reviews Publication</Name>
+            <Name>MAVEN Langmuir Probe and Waves, LPW, Extreme Ultraviolet Monitor, EUV, Instrument paper, Published by Space Sci. Rev., Date: 2015-09-01</Name>
             <URL>https://doi.org/10.1007/s11214-015-0195-2</URL>
-            <Description>Eparvier, F.G., Chamberlin, P.C., Woods, T.N., and E.M.B. Thiemann, The Solar Extreme Ultraviolet Monitor for MAVEN, Space Sci. Rev., 195, 293-301, 2015</Description>
+            <Description>Author List: Eparvier, F. G., Chamberlin, P. C., Woods, T. N., &amp; Thiemann, E. M. B.</Description>
          </InformationURL>
          <InformationURL>
             <Name>NSSDC Master Catalog Listing, MAVEN Langmuir Probe and Waves, LPW, Extreme Ultraviolet Monitor, EUV, Instrument</Name>
@@ -61,7 +61,7 @@ This Description has been adapted from The Abstract and Introduction of Eparvier
       <InstrumentType>Photometer</InstrumentType>
       <InvestigationName>MAVEN Langmuir Probe and Waves, Extreme Ultraviolet Monitor Investigation</InvestigationName>
       <OperatingSpan>
-         <StartDate>2013-11-18T18:28:00Z</StartDate>
+         <StartDate>2013-11-18T18:28:00</StartDate>
          <Note>MAVEN Launch Date and Time until data are available</Note>
       </OperatingSpan>
       <ObservatoryID>spase://SMWG/Observatory/MAVEN</ObservatoryID>
