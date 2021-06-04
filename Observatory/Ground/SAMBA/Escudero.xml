@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Observatory/Ground/SAMBA/Escudero</ResourceID>
     <ResourceHeader>
       <ResourceName>Escudero</ResourceName>
-      <ReleaseDate>2020-05-19T15:05:51Z</ReleaseDate>
+      <ReleaseDate>2021-06-02T15:05:51Z</ReleaseDate>
       <Description>Escudero (ESC) Geomagnetic Observatory</Description>
       <Acknowledgement>Please acknowledge Eftyhia Zesta, Air Force Research Lab, Hanscom AFB, for providing access to SAMBA data resources.</Acknowledgement>
       <Contact>
@@ -65,5 +65,8 @@
       <Latitude>-62.180</Latitude>
       <Longitude>-58.920</Longitude>
 </Location>
+    <OperatingSpan>
+      <StartDate>2004-01-01T00:00:00</StartDate>
+    </OperatingSpan>
 </Observatory>
 </Spase>

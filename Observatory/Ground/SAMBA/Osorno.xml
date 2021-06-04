@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Observatory/Ground/SAMBA/Osorno</ResourceID>
     <ResourceHeader>
       <ResourceName>Osorno</ResourceName>
-      <ReleaseDate>2020-05-19T15:05:51Z</ReleaseDate>
+      <ReleaseDate>2021-06-02T15:05:51Z</ReleaseDate>
       <Description>Osorno (OSO) Geomagnetic Observatory</Description>
       <Acknowledgement>Please acknowledge Eftyhia Zesta, Air Force Research Lab, Hanscom AFB, for providing access to SAMBA data resources.</Acknowledgement>
       <Contact>
@@ -69,5 +69,8 @@
       <Latitude>-40.340</Latitude>
       <Longitude>-73.090</Longitude>
 </Location>
+    <OperatingSpan>
+      <StartDate>2002-04-01T00:00:00</StartDate>
+    </OperatingSpan>
 </Observatory>
 </Spase>

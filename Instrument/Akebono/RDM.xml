@@ -5,7 +5,7 @@
         <ResourceID>spase://SMWG/Instrument/Akebono/RDM</ResourceID>
         <ResourceHeader>
             <ResourceName>Radiation Dose Instrument (RDM)</ResourceName>
-            <ReleaseDate>2011-02-17T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2021-06-02T00:00:00Z</ReleaseDate>
             <Description>RDM (Radiation Monitor) on AKEBONO consists of HPM (High energy  particle monitor) and RIC (monitor for Radiation effect on IC).  RDM data files here on this SDB(Science Data Base) are summary files  for HPM data. This is a brief description for them.      HPM observes fluxes of electrons in three energy channels, protons  in three energy channels and alpha particles in one energy channel.  --------------------------------------- channel	 particle	energy range  name  ---------------------------------------   E1	 electron	&gt; 2.5MeV  	 E2	 electron	0.95 - 2.5MeV  	 E3	 electron	0.3  - 0.95MeV  	 P1	 proton		29   - 62MeV  	 P2	 proton		15   - 29MeV  	 P3	 proton		6.3  - 15MeV  	 AA	 alpha		16   - 52MeV  	 ---------------------------------------  [From: http://www.stp.isas.jaxa.jp/akebono/readme/readme.rdm.txt]</Description>
             <Acknowledgement>http://dx.doi.org/10.1109/23.273513</Acknowledgement>
             <Contact>
@@ -13,7 +13,7 @@
                 <Role>CoInvestigator</Role>
             </Contact>
             <InformationURL>
-                <Name/>
+                <Name>RDM Description</Name>
                 <URL>http://darts.jaxa.jp/stp/akebono/RDM.html</URL>
                 <Description>Web page describing RDM instrument</Description>
             </InformationURL>

@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Observatory/Ground/SAMBA/Putre</ResourceID>
     <ResourceHeader>
       <ResourceName>Putre</ResourceName>
-      <ReleaseDate>2020-05-19T15:05:51Z</ReleaseDate>
+      <ReleaseDate>2021-06-02T15:05:51Z</ReleaseDate>
       <Description>Putre (PUT) Geomagnetic Observatory</Description>
       <Acknowledgement>Please acknowledge Eftyhia Zesta, Air Force Research Lab, Hanscom AFB, for providing access to SAMBA data resources.</Acknowledgement>
       <Contact>
@@ -65,5 +65,8 @@
       <Latitude>-18.330</Latitude>
       <Longitude>-69.500</Longitude>
 </Location>
+    <OperatingSpan>
+      <StartDate>2003-05-01T00:00:00</StartDate>
+    </OperatingSpan>
 </Observatory>
 </Spase>

@@ -7,7 +7,7 @@
          <ResourceName>The Pas Magnetometer</ResourceName>
          <AlternateName>Flin Flon Magnetometer</AlternateName>
          <AlternateName>Magnetometer Station Code: TPAS</AlternateName>
-         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2021-06-02T12:34:56.789</ReleaseDate>
          <Description>The Magnetometer located at the The Pas geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically: S. Mende and C. T. Russell for use of the data</Acknowledgement>
          <Contact>
@@ -30,7 +30,7 @@
          <PriorID>spase://SMWG/Instrument/THEMIS/Ground/UCLA-GBO/TPAS/MAG</PriorID>
       </ResourceHeader>
       <InstrumentType>Magnetometer</InstrumentType>
-      <InvestigationName></InvestigationName>
+      <InvestigationName>The Pas Magnetometer</InvestigationName>
       <OperatingSpan>
          <StartDate>2006-09-24T00:00:00.000</StartDate>
       </OperatingSpan>

@@ -10,7 +10,6 @@
             <Description>"PNI Corp. TCM2-20 axis. The magnetometer uses three orthogonal magneto-inductive sensors and measures the three components of B with 10nT resolution. Serial data is transferred to the flight computer, COM3. In addition, the TCM2 provides pitch &amp; roll information." (Reference 1)
 
 "Each payload will also carry a commercial three-axis magnetometer, made by PNI Corp., with 50 nT resolution sampled at 1 s cadence. Since ground-based magnetometers are often not available near the balloon locations, the on-board magnetometer is useful for identifying substorm activity and ULF oscillations of the magnetic field, important for investigating the ULF-timescale modulations of precipitation. The magnetometer includes a tilt sensor to separate horizontal and vertical components of the magnetic field."  (Reference 2)</Description>
-            <Acknowledgement/>
             <Contact>
                 <PersonID>spase://SMWG/Person/Robyn.Millan</PersonID>
                 <Role>PrincipalInvestigator</Role>

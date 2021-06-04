@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Observatory/Ground/SAMBA/Punta.Arenas</ResourceID>
     <ResourceHeader>
       <ResourceName>Punta Arenas</ResourceName>
-      <ReleaseDate>2020-05-19T15:05:51Z</ReleaseDate>
+      <ReleaseDate>2021-06-02T15:05:51Z</ReleaseDate>
       <Description>Punta Arenas (PUC) Geomagnetic Observatory</Description>
       <Acknowledgement>Please acknowledge Eftyhia Zesta, Air Force Research Lab, Hanscom AFB, for providing access to SAMBA data resources.</Acknowledgement>
       <Contact>
@@ -65,5 +65,9 @@
       <Latitude>-40.340</Latitude>
       <Longitude>-70.090</Longitude>
 </Location>
+    <OperatingSpan>
+      <StartDate>2013-05-01T00:00:00</StartDate>
+      <Note>Actual StartDate is not certain.</Note>
+    </OperatingSpan>
 </Observatory>
 </Spase>

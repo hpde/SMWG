@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Observatory/Ground/SAMBA/O.Higgins</ResourceID>
     <ResourceHeader>
       <ResourceName>O'Higgins</ResourceName>
-      <ReleaseDate>2020-05-19T15:05:51Z</ReleaseDate>
+      <ReleaseDate>2021-06-02T15:05:51Z</ReleaseDate>
       <Description>O'Higgins (OHI) Geomagnetic Observatory</Description>
       <Acknowledgement>Please acknowledge Eftyhia Zesta, Air Force Research Lab, Hanscom AFB, for providing access to SAMBA data resources.</Acknowledgement>
       <Contact>
@@ -69,5 +69,9 @@
       <Latitude>-63.320</Latitude>
       <Longitude>-57.900</Longitude>
 </Location>
+    <OperatingSpan>
+      <StartDate>2004-01-01T00:00:00</StartDate>
+      <Note>Some stations in the SAMBA array have been active since April 2002.</Note>
+    </OperatingSpan>
 </Observatory>
 </Spase>

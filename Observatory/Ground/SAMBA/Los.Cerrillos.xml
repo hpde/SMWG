@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Observatory/Ground/SAMBA/Los.Cerrillos</ResourceID>
     <ResourceHeader>
       <ResourceName>Los Cerrillos</ResourceName>
-      <ReleaseDate>2020-05-19T15:05:51Z</ReleaseDate>
+      <ReleaseDate>2021-06-01T15:05:51Z</ReleaseDate>
       <Description>Los Cerrillos (CER) Geomagnetic Observatory</Description>
       <Acknowledgement>Please acknowledge Eftyhia Zesta, Air Force Research Lab, Hanscom AFB, for providing access to SAMBA data resources.</Acknowledgement>
       <Contact>
@@ -65,5 +65,9 @@
       <Latitude>-33.450</Latitude>
       <Longitude>-70.600</Longitude>
 </Location>
+    <OperatingSpan>
+      <StartDate>2003-05-01T00:00:00</StartDate>
+      <Note>Some stations in the SAMBA array have been active since April 2002.</Note>
+    </OperatingSpan>
 </Observatory>
 </Spase>

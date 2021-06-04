@@ -6,12 +6,10 @@
         <ResourceID>spase://SMWG/Instrument/DSX/ELDRS</ResourceID>
         <ResourceHeader>
             <ResourceName>Development of Space-Based Test Platform for the Characterization of Proton Effects and Enhanced Low Dose Rate Sensitivity (ELDRS) in Bipolar Junction Transistors</ResourceName>
-            <AlternateName/>
             <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>"Objective: Measure ELDRS (primary) and proton effects (secondary) in positive-negative-positive (PNP) bipolar junction transistors (BJTs)"
 "Goal:  Improve understanding of the physics of ELDRS and thereby improve/validate ground test protocol for linear bipolar technologies and reduce design margins" (SET-1 payload site)
 "Focused on characterization of proton effects and Enhanced Low Dose Rate Sensitivity (ELDRS) in Bipolar Junction Transistors (BJT), ELDRS measures space radiation induced total ionizing dose and displacement damage on linear devices sensitive to enhanced space low dose rate effects. ELDRS will measure base and collector currents for 24 commercial off-the-shelf (COTS) BJTs as functions of the emitter and gate voltages and time. ELDRS is being developed by Arizona State University (ASU)." (THE DEMONSTRATION AND SCIENCE EXPERIMENTS (DSX): A FUNDAMENTAL SCIENCE RESEARCH MISSION ADVANCING TECHNOLOGIES THAT ENABLE MEO SPACEFLIGHT)</Description>
-            <Acknowledgement/>
             <Contact>
                 <PersonID>spase://SMWG/Person/Hugh.Barnaby</PersonID>
                 <Role>PrincipalInvestigator</Role>
