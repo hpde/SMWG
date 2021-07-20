@@ -5,7 +5,7 @@
       <ResourceID>spase://SMWG/Instrument/BARREL/2F/DataProcessingUnit</ResourceID>
       <ResourceHeader>
          <ResourceName>BARREL Balloon 2F Data Processing Unit</ResourceName>
-         <ReleaseDate>2019-04-29T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2021-07-20T13:41:27Z</ReleaseDate>
          <Description>This Document describes the BARREL Balloon 2F Data Processing Unit.
 
 The BARREL DPUs acquires Data from the X-Ray Spectrometer, Magnetometer, a GPS Module, and an Engineering Data Interface, EDI. It outputs formatted Data Frames to an Iridium Modem for Downlink, and controls the Command-Cutdown System. The DPU is a general purpose Instrument Controller Board, which communicates with other Boards through a Backplane and a Memory-Type Interface. Flexibility is achieved through the Use of an Field-Programmable Gate Array, FPGA, that contains Interface Logic for the Backplane Signals. The Instrument Controller Board has flown successfully on three Sounding Rocket Experiments, and about 26 Balloon Flights, most recently in the 2010 BARREL Test Flights.</Description>
@@ -19,12 +19,12 @@ The BARREL DPUs acquires Data from the X-Ray Spectrometer, Magnetometer, a GPS M
          </Contact>
          <InformationURL>
             <Name>BARREL Instrument Descriptions (Reference #1)</Name>
-            <URL>http://www.dartmouth.edu/~rmillan/minis/MINIS.Instrumentation.pdf</URL>
+            <URL>https://doi.org/10.1007/s11214-013-9971-z</URL>
             <Description>Overall BARREL Instrument Descriptions for the Arctic Flight MINIS North</Description>
          </InformationURL>
          <InformationURL>
             <Name>BARREL Mission Overview Poster (Reference #2)</Name>
-            <URL>http://www.dartmouth.edu/~rmillan/barrel/foldout_v2.pdf</URL>
+            <URL>https://barrel.rmillan.host.dartmouth.edu/</URL>
             <Description>BARREL Mission Foldout Sheet Overview Poster</Description>
          </InformationURL>
          <InformationURL>

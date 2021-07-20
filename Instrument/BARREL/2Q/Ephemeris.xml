@@ -5,7 +5,7 @@
       <ResourceID>spase://SMWG/Instrument/BARREL/2Q/Ephemeris</ResourceID>
       <ResourceHeader>
          <ResourceName>BARREL Balloon 2Q Trajectory Positions</ResourceName>
-         <ReleaseDate>2019-04-29T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2021-07-20T13:41:27Z</ReleaseDate>
          <Description>This Document describes BARREL Balloon 2Q Ephemeris virtual Instrument.
 
 Trajectory Positions are provided in various Coordinate Systems</Description>
@@ -51,12 +51,12 @@ Trajectory Positions are provided in various Coordinate Systems</Description>
          </Contact>
          <InformationURL>
             <Name>BARREL Instrument Descriptions (Reference #1)</Name>
-            <URL>http://www.dartmouth.edu/~rmillan/minis/MINIS.Instrumentation.pdf</URL>
+            <URL>https://doi.org/10.1007/s11214-013-9971-z</URL>
             <Description>Overall BARREL Instrument Descriptions for the Arctic Flight MINIS North</Description>
          </InformationURL>
          <InformationURL>
             <Name>BARREL Mission Overview Poster (Reference #2)</Name>
-            <URL>http://www.dartmouth.edu/~rmillan/barrel/foldout_v2.pdf</URL>
+            <URL>https://barrel.rmillan.host.dartmouth.edu/</URL>
             <Description>BARREL Mission Foldout Sheet Overview Poster</Description>
          </InformationURL>
          <InformationURL>

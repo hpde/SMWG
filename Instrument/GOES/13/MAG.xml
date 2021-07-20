@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Triaxial Fluxgate Magnetometer</ResourceName>
       <AlternateName>MAG</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2021-07-20T13:41:27Z</ReleaseDate>
       <Description>Each of the GOES-N,O,P satellites have two identical magnetometers, provided by Science
 Applications International Corporation (SAIC), Inc. in Columbia, Maryland. They can operate
 independently and simultaneously to measure the magnitude and direction of the Earth’s
@@ -24,7 +24,7 @@ sensor fails and provides for better calibration of the magnetometer data channe
 </Contact>
       <InformationURL>
         <Name>GOES N, O, and P Brochure</Name>
-        <URL>https://goes.gsfc.nasa.gov/text/brochure/GOES_NOP_print.pdf</URL>
+        <URL>https://www.nasa.gov/pdf/112855main_GOESNOPWeb1.pdf</URL>
         <Description>Information about the magnetometers onboard GOES 13.</Description>
         <Language>en</Language>
 </InformationURL>

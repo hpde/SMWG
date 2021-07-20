@@ -5,7 +5,7 @@
       <ResourceID>spase://SMWG/Instrument/BARREL/2O/EngineeringDataInterface</ResourceID>
       <ResourceHeader>
          <ResourceName>BARREL Balloon 2O Data Processing Unit</ResourceName>
-         <ReleaseDate>2019-04-29T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2021-07-20T13:41:27Z</ReleaseDate>
          <Description>This Document describes the BARREL Balloon 2O Engineering Data Interface.
 
 The Engineering Data Interface, EDI, performs Analog to Digital Conversion, ADC, of key Temperatures, Voltages, and Currents. There are eight Inputs of Voltage and Current Pairs, four Inputs of Voltage only and sixteen Inputs nominally for Temperature Sensors. Temperature Inputs can also be configured to monitor Voltage. All Inputs are scaled to the nominal 5 V ADC, full-scale Range and converted two Channels at a time with 16-bit Precision.</Description>
@@ -19,12 +19,12 @@ The Engineering Data Interface, EDI, performs Analog to Digital Conversion, ADC,
          </Contact>
          <InformationURL>
             <Name>BARREL Instrument Descriptions (Reference #1)</Name>
-            <URL>http://www.dartmouth.edu/~rmillan/minis/MINIS.Instrumentation.pdf</URL>
+            <URL>https://doi.org/10.1007/s11214-013-9971-z</URL>
             <Description>Overall BARREL Instrument Descriptions for the Arctic Flight MINIS North</Description>
          </InformationURL>
          <InformationURL>
             <Name>BARREL Mission Overview Poster (Reference #2)</Name>
-            <URL>http://www.dartmouth.edu/~rmillan/barrel/foldout_v2.pdf</URL>
+            <URL>https://barrel.rmillan.host.dartmouth.edu/</URL>
             <Description>BARREL Mission Foldout Sheet Overview Poster</Description>
          </InformationURL>
          <InformationURL>

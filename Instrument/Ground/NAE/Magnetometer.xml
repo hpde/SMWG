@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Nouthern Auroral Electrojet Index Instrument</ResourceName>
          <AlternateName>NAE Instrument</AlternateName>
-         <ReleaseDate>2020-05-22T20:25:57Z</ReleaseDate>
+         <ReleaseDate>2021-07-20T13:41:27Z</ReleaseDate>
          <Description>The northern auroral electrojet (NAE) index instrument is a virtual instrument representing the collection of ground magnetometer arrays used to derive a southern auroral electrojet index in the northern auroral region at 60 s resolution. The NAE observatory consists of ground magnetometers from the GIME, THEMIS GBO, INTERMAGNET, DTU, University of Iceland, and NIPR ground magnetometer data. The contributing magnetometers may vary from day to day. As result, the NAE index instrument is used as a proxy for the set of possible contributing ground magnetometers.</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
@@ -14,7 +14,7 @@
          </Contact>       
 	     <InformationURL>
 	      <Name>Comparison of auroral electrojet indices in the Northern and Southern Hemispheres</Name> 
-	      <URL>https://doi.org/10.1029/2008JA01305</URL> 
+	      <URL>https://www.gi.alaska.edu/monitors/magnetometer</URL> 
 	      <Description>Journal of Geophysical Research (Space Physics) on the Souther Auroral Electrojet Index</Description> 
 	     </InformationURL>		
 	     <InformationURL>
@@ -24,7 +24,7 @@
 	     </InformationURL>  
 	     <InformationURL>
             <Name>Overview of the CANadian Magnetic Observatory System</Name>
-            <URL>http://gsc.nrcan.gc.ca/geomag/obs/index_e.php</URL>
+            <URL>https://www.geomag.nrcan.gc.ca/obs/default-en.php</URL>
             <Description>Description of nearly all aspects of the magnetometer array.</Description>
          </InformationURL>
 	     <InformationURL>
@@ -34,7 +34,7 @@
          </InformationURL>
          <InformationURL>
             <Name>Overview of the Alaska Satellite Facility Geophysical Institute Magnetometer Array</Name>
-            <URL>http://www.asf.alaska.edu/program/gdc/project/magnetometer</URL>
+            <URL>https://www.gi.alaska.edu/monitors/magnetometer</URL>
             <Description>Description of the magnetometer array.</Description>
          </InformationURL>
 		 <Association>

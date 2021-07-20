@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>The Far Ultra Violet Imaging Spectrograph</ResourceName>
 	  <AlternateName>FUV</AlternateName>
-      <ReleaseDate>2021-01-01T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2021-07-20T13:41:27Z</ReleaseDate>
       <Description>The FUV instrument takes 2D images of the Earth’s horizon in the Far ultraviolet. The imager is pointing approximately 90 degrees to the spacecraft motion, similar to looking out of the side window of a car as it drives down the road. Onboard electronics read the image 8 times per second and perform Time Delay Integration (TDI) to remove the motion-blur from the images. A turret is used to steer the field of view of the instrument left to right to ensure it always looks along the magnetic meridian (towards the magnetic pole).</Description>
 	  <Acknowledgement>National Aeronautics and Space Administration; Dr. Stephen Mende</Acknowledgement>
 	  <Funding>
@@ -15,7 +15,7 @@
 		<AwardNumber>contracts NNG12FA45C</AwardNumber>
 	  </Funding>
       <Contact>
-        <PersonID>spase://SMWG/Person/Stephen.Mende</PersonID>
+        <PersonID>spase://SMWG/Person/Stephen.B.Mende</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>

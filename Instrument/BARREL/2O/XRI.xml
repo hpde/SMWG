@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>BARREL 2O X-Ray Instrument, XRI</ResourceName>
          <AlternateName>Scintillation Detector</AlternateName>
-         <ReleaseDate>2019-04-29T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2021-07-20T13:41:27Z</ReleaseDate>
          <Description>This Document describes the BARREL Balloon 2O X-Ray Instrument.
 
 The X-Ray Instrument measures the Energy Spectrum and Flux of Bremsstrahlung X-Rays over Time.  It consists of a cylindrical 7.5 cm Diameter by 7.5 cm Height Scintillator NaI Crystal, a Photomultiplier Tube, PMT, and a Peak Detect Board. It has an Energy Response from 10 keV to 10 MeV with a Spectral Resolution of 5 keV. When X-Rays from Precipitating Electrons enter the Crystal, visible light Photons are generated. The Number of Photons produced in the Scintillator is proportional to the incident X-Ray Energy. These Photons are detected by a PMT which converts the Light Pulse into Charge Pulses. The Amplitude of each Charge Pulse is then determined by a Pulse Height Analyzer. The Charge Pulse Amplitudes can be plotted to show the X-Ray Spectrum, which can then be used to study the Energies of the precipitating Electrons. This Part of the Description is adapted from Reference #1 in the Information URL List.
@@ -54,12 +54,12 @@ To fit within Telemetry Constraints, the X-Ray Data are binned into three differ
          </Contact>
          <InformationURL>
             <Name>BARREL Instrument Descriptions (Reference #1)</Name>
-            <URL>http://www.dartmouth.edu/~rmillan/minis/MINIS.Instrumentation.pdf</URL>
+            <URL>https://doi.org/10.1007/s11214-013-9971-z</URL>
             <Description>Overall BARREL Instrument Descriptions for the Arctic Flight MINIS North</Description>
          </InformationURL>
          <InformationURL>
             <Name>BARREL Mission Overview Poster (Reference #2)</Name>
-            <URL>http://www.dartmouth.edu/~rmillan/barrel/foldout_v2.pdf</URL>
+            <URL>https://barrel.rmillan.host.dartmouth.edu/</URL>
             <Description>BARREL Mission Foldout Sheet Overview Poster</Description>
          </InformationURL>
          <InformationURL>

@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Instrument/ST5-224/MAG</ResourceID>
     <ResourceHeader>
       <ResourceName>ST5-224 Fluxgate Magnetometer</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:02Z</ReleaseDate>
+      <ReleaseDate>2021-07-20T13:41:27Z</ReleaseDate>
       <Description>
       Each ST5 spacecraft includes a low power science-grade fluxgate magnetometer. The magnetometer design is based on heritage from earlier missions such as Polar, FAST, and the Australian mission, FedSat. The magnetometers were developed at the University of California, Los Angelese (UCLA).
       
@@ -37,11 +37,6 @@ Data Resolution: 	      	18 bits (1:range, 1:sign, 16:value)
         <PersonID>spase://SMWG/Person/Robert.J.Strangeway</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
-      <InformationURL>
-        <Name>Fluxgate magnetometers for ST5 mission</Name>
-        <URL>http://www-ssc.igpp.ucla.edu/st5/design.html</URL>
-        <Description>UCLA web page describing history and design of the ST5 fluxgate magnetometers</Description>
-      </InformationURL>
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Magnetic Field Investigation</InvestigationName>

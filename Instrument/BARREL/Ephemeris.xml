@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Instrument/BARREL/Ephemeris</ResourceID>
     <ResourceHeader>
       <ResourceName>BARREL Positions</ResourceName>
-      <ReleaseDate>2018-04-04T18:19:57Z</ReleaseDate>
+      <ReleaseDate>2021-07-20T13:41:27Z</ReleaseDate>
       <Description>BARREL spacecraft positions in various coordinate systems</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Robyn.Millan</PersonID>
@@ -45,12 +45,12 @@
       </Contact>
       <InformationURL>
         <Name>Reference 1</Name>
-        <URL>http://www.dartmouth.edu/~rmillan/minis/MINIS.Instrumentation.pdf</URL>
+        <URL>https://doi.org/10.1007/s11214-013-9971-z</URL>
         <Description>BARREL instrument documentation, quoted for above instrument description.</Description>
       </InformationURL>
       <InformationURL>
         <Name>Reference 2</Name>
-        <URL>http://www.dartmouth.edu/~rmillan/barrel/foldout_v2.pdf</URL>
+        <URL>https://barrel.rmillan.host.dartmouth.edu/</URL>
         <Description>BARREL poster.</Description>
       </InformationURL>
       <InformationURL>

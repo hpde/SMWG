@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Instrument/GOES/15/XRS</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar X-ray Sensor</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2021-07-20T13:41:27Z</ReleaseDate>
       <Description>The XRS is an x-ray telescope that observes and measures solar x-ray emissions in two
 ranges—one from 0.05 to 0.3 nanometers (nm) and the second from 0.1 to 0.8 nm. In real-time,
 it measures the intensity and duration of solar flares in order to provide alerts and warnings of
@@ -34,13 +34,13 @@ azimuth and the x-ray positioner (XRP) to track the sun in elevation.</Descripti
 </Contact>
       <InformationURL>
         <Name>GOES N, O, and P Brochure</Name>
-        <URL>https://goes.gsfc.nasa.gov/text/brochure/GOES_NOP_print.pdf</URL>
+        <URL>https://www.nasa.gov/pdf/112855main_GOESNOPWeb1.pdf</URL>
         <Description>Information about the XRS onboard GOES 13-15.</Description>
         <Language>en</Language>
 </InformationURL>
       <InformationURL>
         <Name>GOES N, O, and P XRS Documentation</Name>
-        <URL>http://www.goes-r.gov/downloads/GUC-7/day1/session03/03-Shouldis-SWPC.pdf</URL>
+        <URL>https://www.goes-r.gov/</URL>
         <Description>Information about the XRS onboard GOES 13-15.</Description>
         <Language>en</Language>
 </InformationURL>

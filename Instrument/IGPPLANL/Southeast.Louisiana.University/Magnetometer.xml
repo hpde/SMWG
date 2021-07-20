@@ -5,18 +5,13 @@
     <ResourceID>spase://SMWG/Instrument/IGPPLANL/Southeast.Louisiana.University/Magnetometer</ResourceID>
     <ResourceHeader>
       <ResourceName>IGPP-LANL Southeast Louisiana University Fluxgate Magnetometer</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2021-07-20T13:41:27Z</ReleaseDate>
       <Description>The magnetometer at the IGPP-LANL Southeast Louisiana University station</Description>
       <Acknowledgement>The operation of the Southeast Louisiana University fluxgate magnetometer is managed by Dr. Gerard Blanchard, Southeast Louisiana University.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Peter.J.Chi</PersonID>
         <Role>ProjectScientist</Role>
 </Contact>
-      <InformationURL>
-        <Name>UCLA Ground Magnetometer Data Center</Name>
-        <URL>http://spc.igpp.ucla.edu/uclamag/</URL>
-        <Description>Online Information and data for IGPP-LANL Magnetometer Array</Description>
-</InformationURL>
 </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>IGPP-LANL Magnetometer Array</InvestigationName>

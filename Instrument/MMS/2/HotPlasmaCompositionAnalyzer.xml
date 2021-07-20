@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>MMS 2 Hot Plasma Composition Analyzer (HPCA) Instrument</ResourceName>
          <AlternateName>MMS 2 HPCA</AlternateName>
-         <ReleaseDate>2016-06-18T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2021-07-20T13:41:27Z</ReleaseDate>
          <Description>The Hot Plasma Composition Analyzer (HPCA) is based entirely on electrostatic optics combining an electrostatic energy analyzer with a carbon-foil based time-of-flight (TOF) analyzer. In order to fulfill mission requirements, the HPCA incorporates three unique technologies that give it very wide dynamic range capabilities essential to measuring minor ion species in the presence of extremely high proton fluxes found in the region of magnetopause reconnection. Dynamic range is controlled primarily by a novel radio frequency system analogous to an RF mass spectrometer. The RF, in combination with capabilities for high TOF event processing rates and high current micro-channel plates, ensures the dynamic range and sensitivity needed for accurate measurements of ion fluxes between ~1 eV and 40 keV that are expected in the region of reconnection events. A third technology enhances mass resolution in the presence of high proton flux. Energy range = ~10 eV to 30 keV. Energy resolution = 20%. Time resoluton = 15 s. The HPCA investigation is led by Co-I S. A. Fuselier (SwRI).</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
@@ -18,7 +18,7 @@
          </Contact>
          <InformationURL>
             <Name>Mission instrument web page</Name>
-            <URL>http://mms.space.swri.edu/instruments.html</URL>
+            <URL>https://www.nasa.gov/mission_pages/mms/spacecraft/mms-instruments.html</URL>
             <Description>Mission web page that describes the payload (instruments) on each spacecraft.</Description>
             <Language>English</Language>
          </InformationURL>

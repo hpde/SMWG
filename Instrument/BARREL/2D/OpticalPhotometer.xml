@@ -5,7 +5,7 @@
       <ResourceID>spase://SMWG/Instrument/BARREL/2D/OpticalPhotometer</ResourceID>
       <ResourceHeader>
          <ResourceName>BARREL 2D Optical Photometer</ResourceName>
-         <ReleaseDate>2019-04-29T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2021-07-20T13:41:27Z</ReleaseDate>
          <Description>This Document describes the BARREL Balloon 2D Optical Photometer Instrument.
 
 Objective: To detect the Flux of visible Light at Wavelengths near 486.1 nm during a Relativistic Electron Precipitation Event. This will determine whether there are Protons accompanying the precipitating Electrons. Emissions near 486.1 nm are a Signature of precipitating Protons. Correlated Proton and Relativistic Electron Precipitation would support scattering by EMIC (Electromagnetic Ion Cyclotron) Waves at the Precipitation Mechanism. How it works: The Photons are collected through a Collimator Tube that restricts the Field of View to a Cone approximately 5&#176; full-width angle, tilted at 35&#176; from the Zenith. A 2.5 nm wide H&#946; Filter is mounted near the Base of the Collimator. Each Photon incident on the 5 cm Diameter Photomultiplier Tube results in the Generation of a Charge Pulse. These Pulses then go into a charge-sensitive Pre-Amplifier, Discriminator, and Shaping Electronics, producing a TTL Pulse for each incident Photon. By counting the Number of Pulses, the Flux of the precipitating Protons can be determined. This Description is adapted from Reference #1 in the Information URL List.</Description>
@@ -35,12 +35,12 @@ Objective: To detect the Flux of visible Light at Wavelengths near 486.1 nm duri
          </Contact>
          <InformationURL>
             <Name>BARREL Instrument Descriptions (Reference #1)</Name>
-            <URL>http://www.dartmouth.edu/~rmillan/minis/MINIS.Instrumentation.pdf</URL>
+            <URL>https://doi.org/10.1007/s11214-013-9971-z</URL>
             <Description>Overall BARREL Instrument Descriptions for the Arctic Flight MINIS North</Description>
          </InformationURL>
          <InformationURL>
             <Name>BARREL Mission Overview Poster (Reference #2)</Name>
-            <URL>http://www.dartmouth.edu/~rmillan/barrel/foldout_v2.pdf</URL>
+            <URL>https://barrel.rmillan.host.dartmouth.edu/</URL>
             <Description>BARREL Mission Foldout Sheet Overview Poster</Description>
          </InformationURL>
          <InformationURL>

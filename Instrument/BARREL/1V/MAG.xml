@@ -5,7 +5,7 @@
       <ResourceID>spase://SMWG/Instrument/BARREL/1V/MAG</ResourceID>
       <ResourceHeader>
          <ResourceName>BARREL Balloon 1V Tilt Compensated Magnetometer, TCM2, Instrument</ResourceName>
-         <ReleaseDate>2019-04-29T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2021-07-20T13:41:27Z</ReleaseDate>
          <Description>This Document describes the BARREL Balloon 1V Magnetometer Instrument.
 
 The BARREL Magnetometers, Model TCM2-20 Axis, made by the PNI Sensor Corp., uses three Orthogonal Magneto-Inductive Sensors and measures the three Components of the Magnetic Field with 10 nT Resolution. Serial Data are transferred to the Flight Computer, COM3. In addition, the TCM2 provides Pitch and Roll Information. This Part of the Description is adapted from Reference #1 in the Information URL List.
@@ -53,12 +53,12 @@ Each Payload will also carry a commercial three-axis Magnetometer with 50 nT Res
          </Contact>
          <InformationURL>
             <Name>BARREL Instrument Descriptions (Reference #1)</Name>
-            <URL>http://www.dartmouth.edu/~rmillan/minis/MINIS.Instrumentation.pdf</URL>
+            <URL>https://doi.org/10.1007/s11214-013-9971-z</URL>
             <Description>Overall BARREL Instrument Descriptions for the Arctic Flight MINIS North</Description>
          </InformationURL>
          <InformationURL>
             <Name>BARREL Mission Overview Poster (Reference #2)</Name>
-            <URL>http://www.dartmouth.edu/~rmillan/barrel/foldout_v2.pdf</URL>
+            <URL>https://barrel.rmillan.host.dartmouth.edu/</URL>
             <Description>BARREL Mission Foldout Sheet Overview Poster</Description>
          </InformationURL>
          <InformationURL>
