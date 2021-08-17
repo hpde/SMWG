@@ -92,10 +92,10 @@ jobs:
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
           # email subject
-          subject: ${{ steps.date.outputs.date }} ${{ job.status }}: ${{ github.job }} run on ${{ github.repository }}
+          subject: ${{ steps.date.outputs.date }} ${{ job.status }} - ${{ github.job }} run on ${{ github.repository }}
           # email body as text
           body: |
-            Run date: ${{ steps.date.outputs.date }}
+            Run date ${{ steps.date.outputs.date }}
             ${{ job.status }} of ${{ github.job }} run in workflow ${{ github.workflow }} of ${{ github.repository }}
             ""
             For details see attachment.
