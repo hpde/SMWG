@@ -83,3 +83,54 @@ jobs:
             fi
             set -e
           fi
+          
+  notify:
+    name: Notify that a push has occurred
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2.1.0
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
+      - name: Get changed files
+        uses: jitterbit/get-changed-files@v1
+        id: changed
+        with:
+          format: json
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Send mail
+        # Define the following secrets for the repository: EMAIL_SERVER, EMAIL_USERNAME, EMAIL_PASSWORD, EMAIL_TO, EMAIL_LIST
+        if: always()
+        uses: dawidd6/action-send-mail@v2
+        with:
+          # mail server settings
+          server_address: ${{ secrets.EMAIL_SERVER }}
+          server_port: 465
+          # user credentials
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          # email subject
+          subject: ${{ steps.date.outputs.date }} ${{ github.repository }} push
+          # email body as text
+          body: |
+            Run date ${{ steps.date.outputs.date }}
+            ${{ github.repository }} files added or updated:
+            --
+            Added
+            ${{ steps.changed.outputs.added }}
+            --
+            Removed
+            ${{ steps.changed.outputs.removed }}
+            --
+            Renamed
+            ${{ steps.changed.outputs.renamed }}
+            --
+            Modified
+            ${{ steps.changed.outputs.modified }}
+            --
+            Added+Modified:
+            ${{ steps.changed.outputs.added_modified }}
+          # comma-separated string, send email to
+          to: ${{ secrets.EMAIL_LIST }},${{ secrets.EMAIL_TO }}
+          # from email name
+          from: HPDE Mailer
