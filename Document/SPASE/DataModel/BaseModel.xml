@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.4.0</Version>
+  <Document>
+    <ResourceID>spase://SMWG/Document/SPASE/DataModel/BaseModel</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Space Physics Archive Search and Extract (SPASE) Base Information Model</ResourceName>
+      <DOI>TBD</DOI>
+      <ReleaseDate>2021-06-10T00:00:00.000Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2010-03-19T00:00:00.000Z</ReleaseDate>
+          <Note>Release 2.0.1. Update enumerations, update definitions, change occurence of RenderingHints, and other refinements.</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2011-01-06T00:00:00.000Z</ReleaseDate>
+          <Note>Release 2.2.0. Update enumerations, change ObservatoryGroup to ObervatoryGroupID, add coordinate systems, and other refinements.</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2018-05-31T00:00:00.000Z</ReleaseDate>
+          <Note>Release 2.3.0. Addition of DOI and PublicationInfo, and Style to AccessURL.</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2019-11-14T00:00:00.000Z</ReleaseDate>
+          <Note>Release 2.3.1. Additions to multiple enumerations.</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2020-06-10T00:00:00.000Z</ReleaseDate>
+          <Note>Release 2.3.2. Additions to multiple enumerations.</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2021-06-10T00:00:00.000Z</ReleaseDate>
+          <Note>Release 2.4.0. Major addition is Software resource.</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>Research in Heliophysics requires information from multiple sources which includes data from
+and about spacecrafts, groundbased observatories, models, simulations and more. The
+results from research are also invaluable in building up a body of knowledge and need to be
+available. All the different sources and types of information are considered a "Resource". The
+Resources exist, are shared, exchanged and used in a framework called the "data
+environment". The SPASE (Space Physics Archive Search and Extract) group has defined a
+Data Model which is a set of terms and values along with the relationships between them that
+allow describing all the resources in a heliophysics data environment. It is the result of many
+years of effort by an international collaboration of heliophysicists and information scientists to
+unify and improve on existing Space and Solar Physics data models. The intent of this Data
+Model is to provide the means to describe resources, most importantly scientifically useful
+data products, in a uniform way so they may be easily registered, found, accessed, and used.
+
+The Data Model provides enough detail to allow a scientist to understand the content of Data
+Products (e.g., a set of files for 3 second resolution Geotail magnetic field data for1992 to
+2005), together with essential retrieval and contact information. It also allows for the
+incremental annotation of resources with expert assessments and the free association of
+resources to create bundles or networks of resources. Resource descriptions can be stored
+with the data or at remote locations. Sites can harvest the resource descriptions to enable
+services like a search engine or portal (Virtual Observatory). A typical use would be to have a
+collection of descriptions stored in one or more related internet-based registries of products;
+that can be queried with specifically designed search engines and ultimately link users to the
+data they need. The Data Model also provides constructs for describing components of such
+a data delivery system. This includes repositories, registries and services.</Description>
+      <Acknowledgement>SPASE Group</Acknowledgement>
+      <PublicationInfo>
+        <Authors>SPASE Group</Authors>
+        <PublicationDate>2021-06-10T00:00:00.000Z</PublicationDate>
+        <PublishedBy>SPASE Group</PublishedBy>
+      </PublicationInfo>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+        <Role>Publisher</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/SPASE</RepositoryID>
+      <AccessURL>
+        <URL>https://spase-group.org/data/model/spase-2.4.0.pdf</URL>
+      </AccessURL>
+      <Format>PDF</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/SPASE</RepositoryID>
+      <AccessURL>
+        <URL>https://spase-group.org/data/schema/spase-2.4.0.xsd</URL>
+      </AccessURL>
+      <Format>XML</Format>
+    </AccessInformation>
+    <Keyword>SPASE</Keyword>
+    <Keyword>Base Model</Keyword>
+    <Keyword>Specification</Keyword>
+    <DocumentType>Specification</DocumentType>
+    <MIMEType>application/pdf</MIMEType>
+  </Document>
+</Spase>
