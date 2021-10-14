@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>SPASE Simulation Extensions for the Space Physics Archive Search and Extract (SPASE) Data Model</ResourceName>
       <DOI>https://doi.org/10.48322/TXCA-X050</DOI>
-      <ReleaseDate>2021-10-12T00:00:00.000Z</ReleaseDate>
+      <ReleaseDate>2021-10-114T00:00:00.000Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2014-05-19T00:00:00.000Z</ReleaseDate>
@@ -35,6 +35,7 @@ sponsored project, which was subsequently endorsed by the SPASE consortium.</Des
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/SPASE</RepositoryID>
       <AccessURL>
+        <Name>PDF</Name>
         <URL>https://spase-group.org/data/simulation/spase-sim-1.0.0.pdf</URL>
       </AccessURL>
       <Format>PDF</Format>
@@ -42,6 +43,7 @@ sponsored project, which was subsequently endorsed by the SPASE consortium.</Des
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/SPASE</RepositoryID>
       <AccessURL>
+        <Name>XML Schema</Name>
         <URL>https://spase-group.org/data/schema/spase-sim-1.0.0.xsd</URL>
       </AccessURL>
       <Format>XML</Format>

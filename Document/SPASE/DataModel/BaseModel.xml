@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Space Physics Archive Search and Extract (SPASE) Base Information Model</ResourceName>
       <DOI>https://doi.org/10.48322/E72C-5Y75</DOI>
-      <ReleaseDate>2021-06-10T00:00:00.000Z</ReleaseDate>
+      <ReleaseDate>2021-10-14T00:00:00.000Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2010-03-19T00:00:00.000Z</ReleaseDate>
@@ -71,6 +71,7 @@ a data delivery system. This includes repositories, registries and services.</De
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/SPASE</RepositoryID>
       <AccessURL>
+        <Name>PDF</Name>
         <URL>https://spase-group.org/data/model/spase-2.4.0.pdf</URL>
       </AccessURL>
       <Format>PDF</Format>
@@ -78,6 +79,7 @@ a data delivery system. This includes repositories, registries and services.</De
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/SPASE</RepositoryID>
       <AccessURL>
+        <Name>XML Schema</Name>
         <URL>https://spase-group.org/data/schema/spase-2.4.0.xsd</URL>
       </AccessURL>
       <Format>XML</Format>
