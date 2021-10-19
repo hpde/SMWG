@@ -1,0 +1,59 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+ <Version>2.4.0</Version>
+ <Observatory>
+  <ResourceID>spase://SMWG/Observatory/SGO</ResourceID>
+  <ResourceHeader>
+   <ResourceName>Sodankylä Geophysical Observatory</ResourceName>
+   <ReleaseDate>2021-10-15T17:41:42</ReleaseDate>
+   <Description>Sodankylä Geophysical Observatory 
+(from the SGO Overview page:
+https://www.sgo.fi/Overview/overview.php )
+
+Sodankylä Geophysical Observatory was established in 1913 by the Finnish Academy of Science and Letters to perform geophysical measurements and research based on the observation results. Measurements of the Earth&#039;s magnetic field began on 1st January 1914. On 1st August 1997, the observatory became an independent research department of the University of Oulu.
+
+Location
+
+The Sodankylä Geophysical Observatory is located at 67° 22′ N, 26° 38′ E, which is 130 km north of Rovaniemi and 7 km south of Sodankylä, in the middle of Finnish Lapland at the beautiful banks of the river Kitinen.
+
+Observations and Data
+
+The Sodankylä Geophysical Observatory performs continuous measurements of the Earth&#039;s magnetic field, cosmic radio noise, seismic activities, and cosmic rays. The observatory operates two ionospheric radars and plays an active role in the scientific and technical research related to the EISCAT incoherent scatter radar system. An innovative measurement is the tomographic imaging of a 2-dimensional cross-section of the ionosphere from northern Norway to southern Finland. Altogether SGO runs measurements in 19 different locations from southern Finland to Svalbard.
+
+Local magnetograms and the latest images from the All-Sky Camera are available in real time. Latest results of most continuous measurements are easily available. Descriptions of measurements and the recorded data can be found in the Archive. The data of measurements carried out by the Oulu Unit (seismic recordings and cosmic rays) can be found on the unit&#039;s web pages.</Description>
+   <Acknowledgement>NOTE: SGO data are available free of charge for
+   scientific and educational purposes. If the data are used for
+   scientific publications, the SGO requires you to contact them in order to
+   discuss under which conditions these data can be published,
+   i.e. whether an acknowledgment of the Sodankylä Geophysical
+   Observatory in your paper is sufficient or whether SGO requires
+   co-authorship. For detailed access to additional data, please
+   contact the SGO office or the observer in charge.
+   
+   See the detailed data license, https://www.sgo.fi/Data/licence.php</Acknowledgement>
+   <Contact>
+    <PersonID>spase://SMWG/Person/Jyrki.Manninen</PersonID>
+    <Role>GeneralContact</Role>
+   </Contact>
+   <Contact>
+    <PersonID>spase://SMWG/Person/Eija.Tanskanen</PersonID>
+    <Role>TeamLeader</Role>
+   </Contact>
+   <Contact>
+    <PersonID>spase://SMWG/Person/Leonard.N.Garcia</PersonID>
+    <Role>MetadataContact</Role>
+   </Contact>
+   <InformationURL>
+    <URL>https://www.sgo.fi/index.php</URL>
+   </InformationURL>
+  </ResourceHeader>
+  <Location>
+   <ObservatoryRegion>Earth</ObservatoryRegion>
+   <CoordinateSystemName>GEO</CoordinateSystemName>
+   <Latitude>67.367</Latitude>
+   <Longitude>26.633</Longitude>
+  </Location>
+  <OperatingSpan>
+   <StartDate>1914-01-01T00:00:00</StartDate>
+  </OperatingSpan>
+ </Observatory>
+</Spase>
