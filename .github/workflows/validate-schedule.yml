@@ -82,7 +82,9 @@ jobs:
           fi
       - name: Send mail
         # Define the following secrets for the repository: EMAIL_SERVER, EMAIL_USERNAME, EMAIL_PASSWORD, EMAIL_TO, EMAIL_LIST
-        if: always()
+        # Only send e-mail when a 'failure' occurs.
+        # if: always()
+        if: job.status == 'failure'
         uses: dawidd6/action-send-mail@v2
         with:
           # mail server settings
