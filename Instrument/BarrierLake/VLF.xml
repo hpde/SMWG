@@ -1,0 +1,26 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+ <Version>2.4.0</Version>
+ <Instrument>
+  <ResourceID>spase://SMWG/Instrument/BarrierLake/VLF</ResourceID>
+  <ResourceHeader>
+   <ResourceName>VLF Receiver</ResourceName>
+   <ReleaseDate>2021-10-18T16:38:21</ReleaseDate>
+   <Description>GO-ABOVE (Geospace Observatory - Array for
+   Broadband Observations of VLF/ELF Emissions) is a set of ground-based VLF receivers operating from 100 Hz to 75 kHz. The ABOVE instruments monitor electromagnetic covering chorus and hiss emissions as well as U.S. Navy transmitters near 25 kHz. The
+absolute timing accuracy is 10 ns, from GPS.  
+
+The instrument utilizes two VLF antennas, one aligned North-South, the other East-West. </Description>
+   <Contact>
+    <PersonID>spase://SMWG/Person/C.M.Cully</PersonID>
+    <Role>PrincipalInvestigator</Role>
+   </Contact>
+   <Contact>
+    <PersonID>spase://SMWG/Person/Leonard.N.Garcia</PersonID>
+    <Role>MetadataContact</Role>
+   </Contact>
+  </ResourceHeader>
+  <InstrumentType>WaveformReceiver</InstrumentType>
+  <InvestigationName>VLF receiver for the Canadian GO-ABOVE ground-based array</InvestigationName>
+  <ObservatoryID>spase://SMWG/Observatory/ABOVE</ObservatoryID>
+ </Instrument>
+</Spase>
