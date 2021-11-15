@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  https://spase-group.org/data/schema/spase-2.3.2.xsd">
- <Version>2.3.2</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+ <Version>2.4.0</Version>
  <Instrument>
   <ResourceID>spase://SMWG/Instrument/CALLISTO/spectrometer</ResourceID>
   <ResourceHeader>
@@ -14,6 +13,6 @@
   </ResourceHeader>
   <InstrumentType>Spectrometer</InstrumentType>
   <InvestigationName>CALLISTO</InvestigationName>
-  <ObservatoryID>spase://SMWG/Observatory/E-CALLISTO</ObservatoryID>
+  <ObservatoryID>spase://SMWG/Observatory/e-CALLISTO</ObservatoryID>
  </Instrument>
 </Spase>

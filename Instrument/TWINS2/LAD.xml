@@ -1,32 +1,31 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
-   <Version>2.2.8</Version>
-   <Instrument>
-      <ResourceID>spase://SMWG/Instrument/TWINS2/LAD</ResourceID>
-      <ResourceHeader>
-         <ResourceName>TWINS2, Lyman-alpha Detector, LAD</ResourceName>
-         <ReleaseDate>2017-08-24T12:34:56.789</ReleaseDate>
-         <Description>TWINS2, Lyman-alpha Detector, LAD, The TWINS Lyman-alpha detector consists of two independent sensors to measure Lyman-alpha radiation being emitted by neutral hydrogen atoms. The sensors are oriented at angles of &#177;40&#176; with respect to the actuator spin axis. Each sensor has a full width, half maximum, FWHM, field of view of 4&#176;, defined by collimation hole baffles, uses Lyman-a interference filters as narrow band transmissions filters, and applies a KBr or CsI photodiode for photon detection. The Lyman-alpha detector is located on the rotating actuator platform in order to provide a full 360&#176; azimuthal angle coverage. It has a time resolution of 60 s.</Description>
-         <Acknowledgement>D.J. McComas, Mission Principal Investigator, J. Goldstein, General Contact</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Jerry.Goldstein</PersonID>
-            <Role>GeneralContact</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>Lyman-alpha Detector Web Site</Name>
-            <URL>http://twins.swri.edu/</URL>
-            <Description>Lyman-alpha Detector, LAD, Information and Details</Description>
-         </InformationURL>
-      </ResourceHeader>
-      <InstrumentType>Imager</InstrumentType>
-      <InvestigationName>Two Wide-angle Imaging Neutral-atom Spectrometer, TWINS</InvestigationName>
-      <OperatingSpan>
-         <StartDate>2008-03-13T10:02:00</StartDate>
-      </OperatingSpan>
-      <ObservatoryID>spase://SMWG/Observatory/TWINS2</ObservatoryID>
-   </Instrument>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+ <Version>2.4.0</Version>
+ <Instrument>
+  <ResourceID>spase://SMWG/Instrument/TWINS2/LAD</ResourceID>
+  <ResourceHeader>
+   <ResourceName>TWINS2, Lyman-alpha Detector, LAD</ResourceName>
+   <ReleaseDate>2017-08-24T12:34:56.789</ReleaseDate>
+   <Description>TWINS2, Lyman-alpha Detector, LAD, The TWINS Lyman-alpha detector consists of two independent sensors to measure Lyman-alpha radiation being emitted by neutral hydrogen atoms. The sensors are oriented at angles of ±40° with respect to the actuator spin axis. Each sensor has a full width, half maximum, FWHM, field of view of 4°, defined by collimation hole baffles, uses Lyman-a interference filters as narrow band transmissions filters, and applies a KBr or CsI photodiode for photon detection. The Lyman-alpha detector is located on the rotating actuator platform in order to provide a full 360° azimuthal angle coverage. It has a time resolution of 60 s.</Description>
+   <Acknowledgement>D.J. McComas, Mission Principal Investigator, J. Goldstein, General Contact</Acknowledgement>
+   <Contact>
+    <PersonID>spase://SMWG/Person/Jerry.Goldstein</PersonID>
+    <Role>GeneralContact</Role>
+   </Contact>
+   <Contact>
+    <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+    <Role>MetadataContact</Role>
+   </Contact>
+   <InformationURL>
+    <Name>NASA Master Catalog TWINS Lyman-alpha Detector </Name>
+    <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2008-010A-02</URL>
+    <Description>Lyman-alpha Detector, LAD, Information and Details</Description>
+   </InformationURL>
+  </ResourceHeader>
+  <InstrumentType>Imager</InstrumentType>
+  <InvestigationName>Two Wide-angle Imaging Neutral-atom Spectrometer, TWINS</InvestigationName>
+  <OperatingSpan>
+   <StartDate>2008-03-13T10:02:00</StartDate>
+  </OperatingSpan>
+  <ObservatoryID>spase://SMWG/Observatory/TWINS2</ObservatoryID>
+ </Instrument>
 </Spase>
