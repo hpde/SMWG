@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.4.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Seiji.Yashiro</ResourceID>
+      <ReleaseDate>2022-02-17T12:34:56.789</ReleaseDate>
+      <PersonName>Seiji Yashiro</PersonName>
+      <OrganizationName>NASA Goddard Space Flight Center</OrganizationName>
+      <Address>Mail Code 671, Greenbelt , MD 20771</Address>
+      <Email>seiji.yashiro@nasa.gov</Email>
+      <PhoneNumber>+1 301 286 6144</PhoneNumber>
+   </Person>
+</Spase>
