@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
-   <Version>2.2.8</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.4.0</Version>
    <Observatory>
       <ResourceID>spase://SMWG/Observatory/Ground/Wallops.Island</ResourceID>
       <ResourceHeader>
          <ResourceName>Wallops Island Geophysical Observatory</ResourceName>
-		 <AlternateName>Observatory Station Code: WLPS</AlternateName>
-         <ReleaseDate>2019-03-08T12:34:56.789</ReleaseDate>
-         <Description>Wallops Island (WLPS) Geophysical Observatory</Description>
+         <AlternateName>Observatory Station Code: WLPS</AlternateName>
+         <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+               <Note>McMAC Observatories: Delete obsolete www-spc.igpp.ucla.edu Information URL, Add McMAC Observatory Group ID if missing. Metadata submitted by J.M. Weygand on 2022-02-11, reviewed by LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>Wallops Island, WLPS, Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: United States Air Force Academy, University of California, Los Angeles</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Peter.J.Chi</PersonID>
@@ -17,18 +23,18 @@
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
          </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
          <InformationURL>
-            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+            <Name>THEMIS Fluxgate Ground-based Magnetometer, GMAG, Web Site</Name>
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
-		 <InformationURL>
-			<Name>McMAC Homepage</Name>
-			<URL>http://spc.igpp.ucla.edu/mcmac/</URL>
-			<Description>Description of McMAC project.</Description>
-		 </InformationURL>
       </ResourceHeader>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
+      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
+      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/McMAC</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
