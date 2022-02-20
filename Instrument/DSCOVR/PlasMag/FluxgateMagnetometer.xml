@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
-  <Version>2.2.8</Version>
-  <Instrument>
-    <ResourceID>spase://SMWG/Instrument/DSCOVR/PlasMag/FluxgateMagnetometer</ResourceID>
-    <ResourceHeader>
-      <ResourceName>DSCOVR PlasMag Fluxgate Magnetometer</ResourceName>
-      <ReleaseDate>2017-07-25T00:00:00Z</ReleaseDate>
-      <Description> The PlasMag (Plasma Magnetometer) instrument suite of NASA/GSFC and MIT (Massachusetts Institute of Technology) is a comprehensive science and space-weather package that includes a fluxgate vector magnetometer, not present on SOHO, a Faraday Cup solar wind positive ion detector and a top-hat electron electrostatic analyzer. This instrument cluster provides high time resolution measurements in real time and represents the next generation of upstream solar wind monitors intended to provide continuity of measurements started by IMP-8, WIND, SOHO and ACE. 56)
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.4.0</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/DSCOVR/PlasMag/FluxgateMagnetometer</ResourceID>
+      <ResourceHeader>
+         <ResourceName>DSCOVR PlasMag Fluxgate Magnetometer</ResourceName>
+         <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+               <Note>DSCOVR Instruments: Update obsolete www.nesdis.noaa.gov URL. Metadata submitted by J.M. Weygand on 2022-02-11, reviewed by LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The PlasMag (Plasma Magnetometer) instrument suite of NASA/GSFC and MIT (Massachusetts Institute of Technology) is a comprehensive science and space-weather package that includes a fluxgate vector magnetometer, not present on SOHO, a Faraday Cup solar wind positive ion detector and a top-hat electron electrostatic analyzer. This instrument cluster provides high time resolution measurements in real time and represents the next generation of upstream solar wind monitors intended to provide continuity of measurements started by IMP-8, WIND, SOHO and ACE. 56).
 
-fluxgate magnetometer : The magnetometer is a triaxial fluxgate magnetometer that measures the three dimensional 
-magnetic field vector of the solar wind with a sensitivity level of better than 0.1 nanoTesla at a  very high 
-time resolution of 0.02 seconds.  
-</Description>
+Fluxgate Magnetometer: The magnetometer is a triaxial fluxgate magnetometer that measures the three dimensional magnetic field vector of the solar wind with a sensitivity level of better than 0.1 nanoTesla at a very high time resolution of 0.02 seconds.</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/Justin.C.Kasper</PersonID>
             <Role>PrincipalInvestigator</Role>
@@ -24,14 +27,22 @@ time resolution of 0.02 seconds.
             <PersonID>spase://SMWG/Person/Anthony.W.Case</PersonID>
             <Role>PrincipalInvestigator</Role>
          </Contact>
-      <InformationURL>
-        <Name>NOAA Satellite and Information Service DSCOVR PLASMA-MAGNETOMETER</Name>
-        <URL>https://www.nesdis.noaa.gov/sites/default/files/asset/document/dscovr_plasmag_instrument_info_sheet.pdf</URL>
-      </InformationURL>
-    </ResourceHeader>
-    <InstrumentType>Magnetometer</InstrumentType>
-    <InvestigationName>Fluxgate Magnetometer on DSCOVR</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/DSCOVR</ObservatoryID>
-  </Instrument>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>NOAA Satellite and Information Service DSCOVR PLASMA-MAGNETOMETER</Name>
+            <URL>https://en.wikipedia.org/wiki/Deep_Space_Climate_Observatory</URL>
+            <Description>A general description of the DSCOVR magnetometer.</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Magnetometer</InstrumentType>
+      <InvestigationName>Fluxgate Magnetometer on DSCOVR</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/DSCOVR</ObservatoryID>
+   </Instrument>
 </Spase>
-
