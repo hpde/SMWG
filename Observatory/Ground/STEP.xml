@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
-   <Version>2.3.0</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.4.0</Version>
    <Observatory>
       <ResourceID>spase://SMWG/Observatory/Ground/STEP</ResourceID>
       <ResourceHeader>
@@ -8,9 +8,15 @@
          <AlternateName>Solar-Terrestrial Energy Program, STEP, Polar Network</AlternateName>
          <AlternateName>UAPM</AlternateName>
          <AlternateName>Upper Atmospheric Monitoring Program</AlternateName>
-         <ReleaseDate>2019-04-28T12:34:56.789Z</ReleaseDate>
-         <Description>The Solar-Terrestrial Energy Program (STEP) Polar Network officially began in 1991. Other Data are also available that were obtained in several Campaigns that took place before the official STEP Period. The STEP Program lasted until 1997. The Upper Atmospheric Monitoring Program, UAPM, is strongly associated with STEP. However, STEP continues to provide Data for Public Access including: High and Low Time Resolution (1 s and 1 min, respectively) Data obtained by Fluxgate Magnetometgers, and Induction Magnetometer Data sampled at 10 Hz. The main Data Sources during STEP Period came from Fluxgate and Induction Magnetometers and All-Sky TV Cameras deployed in the northern Polar Region, primarily in Canada and also in Svalbard and in Greenland. This Service is still experimental. Please contact us if you find any Problems.</Description>
-         <Acknowledgement>Please acknowledge K. Hayashi, Department of Earth and Planetary Physics, The University of Tokyo. When accessing STEP Polar Megnetometer Data via THEMIS GBO/GMAG access please use the following: &#34;Dr. Kanji Hayashi, University of Tokyo for the Use of GMAG Data.&#34; And, for Publications that use STEP Data please add the following: &#34;We acknowledge the Pioneering Work by the University of Tokyo (UT), Department of Earth and Planetary Science for the Establishment of the STEP, Solar-Terrestrial Energy Program, Polar Network, as well as the Long-Term Efforts by UT Professor Emeritus, Dr. Kanji Hayashi, for continuing to operate and maintain the STEP Magnetometer Chain for many Years. We are grateful for this unique, Multi-Decade spanning Magnetic Data Set.&#34;</Acknowledgement>
+         <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+               <Note>STEP Observatory Group: Update obsolete www.stelab.nagoya-u.ac.jp URL. Metadata submitted by J.M. Weygand on 2022-01-28, reviewed by LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The Solar-Terrestrial Energy Program, STEP, Polar Network officially began in 1991. Other data are also available that were obtained in several campaigns that took place before the official STEP period. The STEP program lasted until 1997. The Upper Atmospheric Monitoring Program, UAPM, is strongly associated with STEP. However, STEP continues to provide data for public access including: high and low time resolution (1 s and 1 min, respectively) data obtained by fluxgate magnetometers, and induction magnetometer data sampled at 10 Hz. The main data sources during STEP period came from fluxgate and induction magnetometers and all-sky TV cameras deployed in the northern polar region, primarily in Canada and also in Svalbard and in Greenland. This service is still experimental. Please contact us if you find any problems.</Description>
+         <Acknowledgement>Please acknowledge K. Hayashi, Department of Earth and Planetary Physics, The University of Tokyo. When accessing STEP polar megnetometer data via THEMIS GBO/GMAG access please use the following: &quot;Dr. Kanji Hayashi, University of Tokyo for the use of GMAG data.&quot; And, for publications that use STEP data please add the following: &quot;We acknowledge the pioneering work by the University of Tokyo (UT), Department of Earth and Planetary Science for the establishment of the Solar-Terrestrial Energy Program, STEP, polar network, as well as the long-term efforts by UT Professor Emeritus, Dr. Kanji Hayashi, for continuing to operate and maintain the STEP magnetometer chain for many years. We are grateful for this unique, multi-decade spanning magnetic data set.&quot;</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Kanji.Hayashi</PersonID>
             <Role>PrincipalInvestigator</Role>
@@ -19,10 +25,14 @@
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
          </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
          <InformationURL>
-            <Name>Magnetic Field Data from the STEP Polar Network</Name>
-            <URL>http://www.stelab.nagoya-u.ac.jp/cawses2/archives/catalog-e2012.pdf</URL>
-            <Description> Detailed Description of the Solar-Terrestrial Energy Program, STEP, Polar Network, which appears in the CAWSES - II Space Weather International Collaborative Research Database in Japan Data Catalog and Reference Manual. This PDF Document is hosted by the Solar-Terrestrial Environment Laboratory, STELSB, University of Nagoya CAWSES Archive.</Description>
+            <Name>Station location information for the STEP polar network at the THEMIS GMAG page</Name>
+            <URL>http://themis.ssl.berkeley.edu/gmag/gmag_list.php?selyear=4000&amp;selmonth=13&amp;smap=on&amp;sinfo=on&amp;saelist=on&amp;ae=on</URL>
+            <Description>Station location information for the STEP polar network at the THEMIS GMAG site.</Description>
          </InformationURL>
       </ResourceHeader>
       <ObservatoryGroupID>spase://SMWG/Observatory/Ground/UAPM</ObservatoryGroupID>
@@ -32,7 +42,8 @@
       </Location>
       <OperatingSpan>
          <StartDate>1984-01-01T12:00:00Z</StartDate>
-         <Note>The exact Start Date is unclear</Note>
+         <StopDate>2018-12-31T23:59:59</StopDate>
+         <Note>The exact start date and stop date are unclear and may need revision</Note>
       </OperatingSpan>
    </Observatory>
 </Spase>
