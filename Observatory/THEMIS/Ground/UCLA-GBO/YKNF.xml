@@ -1,59 +1,77 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Observatory>
-    <ResourceID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-GBO/YKNF</ResourceID>
-    <ResourceHeader>
-      <ResourceName>NASA THEMIS GBO Yellow Knife Station</ResourceName>
-      <AlternateName>YKNF</AlternateName>
-      <ReleaseDate>2010-09-24T21:25:55Z</ReleaseDate>
-      <Description>Yellowknife (YKNF) station is located in Yellowknife, NT, Canada. YKNF is part of the UCLA GBO Network.
-		Magnetic Latitude: 69.37
-		Magnetic Longitude: 302.64
-		UT of Magnetic Midnight: 8.35
-		Magnetic Declination: 20.71
-		Magnetic coordinates obtained by calculation using the CGM online calculator with IGRF 2008 at altitude of 0 km. Magnetic declination obtained using CGM online calculator with IGRF 2007
-</Description>
-      <Acknowledgement>We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically:S. Mende and C. T. Russell for use of the GMAG data</Acknowledgement>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
-        <Role>CoInvestigator</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Stephen.B.Mende</PersonID>
-        <Role>CoInvestigator</Role>
-      </Contact>
-      <InformationURL>
-        <Name>THEMIS Ground Based Observatory System Design</Name>
-        <URL>http://www.igpp.ucla.edu/public/THEMIS/SCI/Pubs/2007_Refereed/harris_ssr_2007_gbo_sys_design_published.pdf</URL>
-        <Description>Harris et al., Nov. 2007; In depth description of GBO design.</Description>
-      </InformationURL>
-      <InformationURL>
-        <Name>THEMIS Ground Magnetometer Data Center at UCLA</Name>
-        <URL>http://spc.igpp.ucla.edu/uclamag/themis_center/</URL>
-        <Description>Web server for displaying and downloading THEMIS ground magnetometer data</Description>
-      </InformationURL>
-      <InformationURL>
-        <Name>THEMIS Web Site</Name>
-        <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
-        <Description>Description of GMAGS on THEMIS web site.</Description>
-      </InformationURL>
-      <Association>
-        <AssociationID>spase://SMWG/Observatory/WDC/Yellowknife</AssociationID>
-        <AssociationType>Other</AssociationType>
-      </Association>
-      <PriorID>spase://SMWG/Observatory/THEMIS-Ground/UCLA-GBO/YKNF</PriorID>
-    </ResourceHeader>
-    <ObservatoryGroupID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-GBO</ObservatoryGroupID>
-    <Location>
-      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-      <CoordinateSystemName>WGS84</CoordinateSystemName>
-      <Latitude>62.52</Latitude>
-      <Longitude>245.96</Longitude>
-    </Location>
-  </Observatory>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.4.0</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-GBO/YKNF</ResourceID>
+      <ResourceHeader>
+         <ResourceName>NASA THEMIS GBO Yellow Knife Station</ResourceName>
+         <AlternateName>YKNF</AlternateName>
+         <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+               <Note>THEMIS Ground Observatories: Delete obsolete www-spc.igpp.ucla.edu Information URL, Resource Header Description reformated, Replace spurious YKNF information present in the NRSQ description. Metadata submitted by L.F. Bargatze on 2022-02-14, reviewed by LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>Yellowknife (YKNF) station is located in Yellowknife, NT, Canada. YKNF is part of the UCLA GBO Network.
+
++--------------------------------------------+
+| Station Characteristics | Value  | Units   |
+|-------------------------|--------|---------|
+| Magnetic Latitude       |  69.37 | degrees |
+| Magnetic Longitude      | 302.64 | degrees |
+| Magnetic Declination    |  20.71 | degrees |
+| UT of Magnetic Midnight |  08:21 | HH:MM   |
++--------------------------------------------+
+
+Magnetic coordinates obtained by calculation using the CGM online calculator with IGRF 2008 at altitude of 0 km. Magnetic declination obtained using CGM online calculator with IGRF 2007.</Description>
+         <Acknowledgement>We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically: S. Mende and C. T. Russell for use of the GMAG data.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Stephen.B.Mende</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>THEMIS Ground Based Observatory System Design</Name>
+            <URL>http://www.igpp.ucla.edu/public/THEMIS/SCI/Pubs/2007_Refereed/harris_ssr_2007_gbo_sys_design_published.pdf</URL>
+            <Description>Harris et al., Nov. 2007; In depth description of GBO design.</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>THEMIS Web Site</Name>
+            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+            <Description>Description of GMAGS on THEMIS web site</Description>
+         </InformationURL>
+         <Association>
+            <AssociationID>spase://SMWG/Observatory/WDC/Yellowknife</AssociationID>
+            <AssociationType>Other</AssociationType>
+         </Association>
+         <PriorID>spase://SMWG/Observatory/THEMIS-Ground/UCLA-GBO/YKNF</PriorID>
+      </ResourceHeader>
+      <ObservatoryGroupID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-GBO</ObservatoryGroupID>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>WGS84</CoordinateSystemName>
+         <Latitude>62.52</Latitude>
+         <Longitude>245.96</Longitude>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2008-03-11T00:00:00</StartDate>
+         <Note>Start Date taken as the start of the day, that ia 00:00:00 UT, for the first CDF data file under the https://spdf.gsfc.nasa.gov/pub/data/themis/thg/l2/mag/ data tree.</Note>
+      </OperatingSpan>
+   </Observatory>
 </Spase>
