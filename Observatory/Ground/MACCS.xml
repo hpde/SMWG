@@ -1,49 +1,53 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
- <Version>2.4.0</Version>
- <Observatory>
-  <ResourceID>spase://SMWG/Observatory/Ground/MACCS</ResourceID>
-  <ResourceHeader>
-   <ResourceName>Magnetometer Array for Cusp and Cleft Studies</ResourceName>
-   <AlternateName>MACCS</AlternateName>
-   <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
-   <Description>The MACCS (Magnetometer Array for Cusp and Cleft Studies) project is a joint
-   venture between the Augsburg College Physics Department and Boston University&#039;s Astronomy
-   Department to study natural interactions in the Earth&#039;s space environment. Since 1991,
-   faculty and students at the two colleges have worked together to build, calibrate and
-   install magnetometers and computer-based recording systems at eight villages at the northern
-   end of Hudson Bay, on Baffin Island and on the shores of the Arctic Ocean. Supported by grant
-   ATM-0827903 from the National Science Foundation&#039;s Division of Atmospheric Sciences.</Description>
-   <Acknowledgement>Supported by grant ATM-0827903 from the National Science Foundation&#039;s Division of Atmospheric Sciences; Dr. Mark Engebretson; Dr. W. Jeffrey Hughes</Acknowledgement>
-   <Contact>
-    <PersonID>spase://SMWG/Person/Mark.J.Engebretson</PersonID>
-    <Role>PrincipalInvestigator</Role>
-   </Contact>
-   <Contact>
-    <PersonID>spase://SMWG/Person/W.Jeffrey.Hughes</PersonID>
-    <Role>PrincipalInvestigator</Role>
-   </Contact>
-   <InformationURL>
-    <Name>Overview of the Magnetometer Array for Cusp and Cleft Studies</Name>
-    <URL>http://space.augsburg.edu/maccs/</URL>
-    <Description>Description of Magnetometer Array for Cusp and Cleft Studies project.</Description>
-   </InformationURL>
-   <InformationURL>
-    <Name>Journal of Geophysical Research Article</Name>
-    <URL>https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/95JA00768</URL>
-    <Description>Description of Magnetometer Array for Cusp and Cleft Studies project.</Description>
-   </InformationURL>
-   <InformationURL>
-    <Name>Journal of Geophysical Research Article</Name>
-    <URL>https://onlinelibrary.wiley.com/doi/abs/10.1029/95JA00768</URL>
-    <Description>Description of Magnetometer Array for Cusp and Cleft Studies project.</Description>
-   </InformationURL>
-   <PriorID>spase://SMWG/Observatory/MACCS</PriorID>
-  </ResourceHeader>
-  <Location>
-   <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-  </Location>
-  <OperatingSpan>
-   <StartDate>1992-08-10T00:00:00</StartDate>
-  </OperatingSpan>
- </Observatory>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.4.0</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/MACCS</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Magnetometer Array for Cusp and Cleft Studies</ResourceName>
+         <AlternateName>MACCS</AlternateName>
+         <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+               <Note>MACCS, NAE Observatories: Delete obsolete agupubs.onlinelibrary.wiley.com Information URL, Files reformated. Metadata submitted by J.M. Weygand on 2021-11-16, reviewed by LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The MACCS (Magnetometer Array for Cusp and Cleft Studies) project is a joint venture between the Augsburg College Physics Department and Boston University&#039;s Astronomy Department to study natural interactions in the Earth&#039;s space environment. Since 1991, faculty and students at the two colleges have worked together to build, calibrate and install magnetometers and computer-based recording systems at eight villages at the northern end of Hudson Bay, on Baffin Island and on the shores of the Arctic Ocean. Supported by grant ATM-0827903 from the National Science Foundation&#039;s Division of Atmospheric Sciences.</Description>
+         <Acknowledgement>Supported by grant ATM-0827903 from the National Science Foundation&#039;s Division of Atmospheric Sciences; Dr. Mark Engebretson; Dr. W. Jeffrey Hughes</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Mark.J.Engebretson</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/W.Jeffrey.Hughes</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Overview of the Magnetometer Array for Cusp and Cleft Studies</Name>
+            <URL>http://space.augsburg.edu/maccs/</URL>
+            <Description>Description of Magnetometer Array for Cusp and Cleft Studies project.</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>Journal of Geophysical Research Article</Name>
+            <URL>https://onlinelibrary.wiley.com/doi/abs/10.1029/95JA00768</URL>
+            <Description>Description of Magnetometer Array for Cusp and Cleft Studies project.</Description>
+         </InformationURL>
+         <PriorID>spase://SMWG/Observatory/MACCS</PriorID>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>1992-08-10T00:00:00</StartDate>
+      </OperatingSpan>
+   </Observatory>
 </Spase>
