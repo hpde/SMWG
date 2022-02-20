@@ -1,32 +1,44 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
- <Version>2.4.0</Version>
- <Instrument>
-  <ResourceID>spase://SMWG/Instrument/Akebono/LEP</ResourceID>
-  <ResourceHeader>
-   <ResourceName>Low Energy Particle Instrument (LEP)</ResourceName>
-   <ReleaseDate>2011-02-17T00:00:00Z</ReleaseDate>
-   <Description>The EXOS-D satellite has undertaken studies of particle-acceleration processes in the auroral magnetosphere; its low energy particle instrument gathers data on the energy and pitch-angle distributions of auroral electrons and ions, in conjunction with analyses of mass/charge of positive ions and onboard detections of particle-flux modulations in the HF and VLF. Attention is presently given to unique examples of high particle activity in the polar cap, and hot plasma distributions along the transpolar arc. These data are interpreted as signatures of longitudinal and/or temporal fluctuations of the magnetosheath plasma injection into the polar cusp. [Abstract of Journal of Geomagnetism and Geoelectricity (ISSN 0022-1392), vol. 42, no. 4, 1990, p. 479-496.]</Description>
-   <Contact>
-    <PersonID>spase://SMWG/Person/Toshifumi.Mukai</PersonID>
-    <Role>PrincipalInvestigator</Role>
-   </Contact>
-   <InformationURL>
-    <Name>Article describing instrument</Name>
-    <URL>http://adsabs.harvard.edu/abs/1990JGG....42..479M</URL>
-    <Description>Article describing instrument</Description>
-   </InformationURL>
-   <InformationURL>
-    <Name>Article describing instrument</Name>
-    <URL>https://ui.adsabs.harvard.edu/abs/1990JGG....42..479M/abstract</URL>
-    <Description>Article describing instrument</Description>
-   </InformationURL>
-   <InformationURL>
-    <URL>https://darts.jaxa.jp/stp/akebono/LEP.html</URL>
-    <Description>Instrument web page</Description>
-   </InformationURL>
-  </ResourceHeader>
-  <InstrumentType>EnergeticParticleInstrument</InstrumentType>
-  <InvestigationName>Akebono LEP</InvestigationName>
-  <ObservatoryID>spase://SMWG/Observatory/Akebono</ObservatoryID>
- </Instrument>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.4.0</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Akebono/LEP</ResourceID>
+      <ResourceHeader>
+         <ResourceName>AKEBONO Low Energy Particle, LEP, Instrument</ResourceName>
+         <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+               <Note>AKEBONO Observatory and two Instruments: Update JAXA URL, File reformated, RDM file rewritten. Metadata submitted by J.M. Weygand on 2021-11-16, reviewed by LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The AKEBONO, also known as EXOS-D, satellite has undertaken studies of particle-acceleration processes in the auroral magnetosphere. Its low energy particle instrument gathers data on the energy and pitch-angle distributions of auroral electrons and ions, in conjunction with analyses of mass/charge of positive ions and onboard detections of particle-flux modulations in the high frequency, HF, and very low frequency, VLF, domains. Attention is presently given to unique examples of high particle activity in the polar cap, and hot plasma distributions along the transpolar arc. These data are interpreted as signatures of longitudinal and/or temporal fluctuations of the magnetosheath plasma injection into the polar cusp. (text adapted fom the abstract of Mukai et al., 1990, see Infomation URL elow).</Description>
+         <Acknowledgement>Before submission, you should contact to Toshifumi Mukai, mukai@stp.isas.jaxa.jp, for the confirmation of the data reliability. We ask you to send reprints to AKEBONO Project Office. The use of the DARTS/AEBONO data should be acknowledged, for example, as &quot;AKEBONO LEP data were provided by Prof. Mukai through DARTS at Institute of Space and Astronautical Science, ISAS, Japan.&quot;</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Toshifumi.Mukai</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>AKEBONO LEP instrument description publication</Name>
+            <URL>https://doi.org/10.5636/jgg.42.479</URL>
+            <Description>Mukai, T., N. Kaya, E. Sagawa, M. Hirahara, W. Miyake, T. Obara, H. Miyaoka, S. Machida, H. Yamagishi, M. Ejiri, H. Matsumoto, and T. Itoh, Low Energy Charged Particle Observations in the &quot;Auroral&quot; Magnetosphere, J. Geomag. Geoelect., 42(4), 479-496, 1990. (ISSN 0022-1392)</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>AKEBONO LEP instrument website</Name>
+            <URL>https://darts.jaxa.jp/stp/akebono/LEP.html</URL>
+            <Description>AKEBONO LEP instrument website listing the data format, data usage policy, and contact information as well as providing data access and plotting options.</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+      <InvestigationName>AKEBONO LEP</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/Akebono</ObservatoryID>
+   </Instrument>
 </Spase>

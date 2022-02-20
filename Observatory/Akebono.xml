@@ -1,62 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-    <Version>2.2.2</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/Akebono</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Akebono</ResourceName>
-            <AlternateName>EXOS-D</AlternateName>
-            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
-            <Description>AKEBONO (EXOS-D) is an aurora observation satellite launched by the M-3SII-4
-   launch vehicle from Uchinoura Space Center (USC) on February 22, 1989. The objective
-   of AKEBBONO is to investigate the magnetospheric phenomena associated with the
-   acceleration process of
-   aurora particles. Aurora is a luminous phenomenon that occurs when solar-wind particles
-   trapped in the magnetosphere collide with Earth’s atmospheric particles. A better
-   understanding of this phenomenon will help us understand the physical processes taking
-   place in the Sun and the reaction on Earth. AKEBONO observes these physical processes to
-   create a greater understanding of the structure of the magnetosphere and the flow and
-   momentum of energy from the Sun through the geospace.  AKEBONO is an ambitious satellite
-   carrying a number of "world-first" technologies. AKEBONO carries eight sets of instruments
-   for scientific observation. It also has a radiation monitor, and anti-radiation technology
-   that has been applied to a satellite for the first time in the world. This technology
-   provides protection against radiation, even in the near-Earth radiation belt, as it is
-   designed to tolerate about ten times the intensity withstood by conventional satellites.
-   Other world-first technology applied to AKEBONO includes an extension mast for antenna and
-   surface electrical conduction processing, to gain better conductivity and protection from
-   charged particles. The GEOTAIL and NOZOMI satellites have inherited these technologies.
-   GEOTAIL operates in the world-best quiet environment, which has never before been possible
-   without the electromagnetic compatibility test conducted by AKEBONO.  The AKEBONO has
-   operated for more than 20 years. Although the aurora imager camera has deteriorated due
-   to the severe radioactive environment, all the other instruments are in good order. The
-   direction of the major magnetic field of the Sun is known to reverse in a 22-year cycle.
-   The Sun’s activeness, which is typically measured by the number of sunspots, increases and
-   decreases twice in this 22-year cycle. In other words, the Sun’s behavior is changing in
-   an 11-year cycle. To study the response of the magnetosphere to various activities of the
-   Sun, we need to acquire data for 22 years. The AKEBONO will, therefore, continue its
-   observations. [From: http://www.jaxa.jp/projects/sat/akebono/index_e.html]</Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Toshifumi.Mukai</PersonID>
-                <Role>ProjectScientist</Role>
-</Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Toshifumi.Mukai</PersonID>
-                <Role>ProjectScientist</Role>
-</Contact>
-            <InformationURL>
-                <Name>Akebono web site</Name>
-                <URL>http://www.stp.isas.jaxa.jp/akebono/</URL>
-                <Description>Akebono web site</Description>
-</InformationURL>
-   <InformationURL>
-                <Name>NSSDC's Master Catalog</Name>
-                <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1989-016A</URL>
-                <Description>Additional information on the Akebono spacecraft.</Description>
-</InformationURL>
-</ResourceHeader>
-        <Location>
-            <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
-</Location>
-</Observatory>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.4.0</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Akebono</ResourceID>
+      <ResourceHeader>
+         <ResourceName>AKEBONO</ResourceName>
+         <AlternateName>EXOS-D</AlternateName>
+         <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+               <Note>AKEBONO Observatory and two Instruments: Update JAXA URL, File reformated, RDM file rewritten. Metadata submitted by J.M. Weygand on 2021-11-16, reviewed by LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>AKEBONO (EXOS-D) is an aurora observation satellite launched by the M-3SII-4 launch vehicle from Uchinoura Space Center (USC) on February 22, 1989. The objective of AKEBONO is to investigate the magnetospheric phenomena associated with the acceleration process of aurora particles. Aurora is a luminous phenomenon that occurs when solar-wind particles trapped in the magnetosphere collide with Earth&#39;s atmospheric particles. A better understanding of this phenomenon will help us understand the physical processes taking place in the Sun and the reaction on Earth. AKEBONO observes these physical processes to create a greater understanding of the structure of the magnetosphere and the flow and momentum of energy from the Sun through the geospace. AKEBONO is an ambitious satellite carrying a number of &quot;world-first&quot; technologies. AKEBONO carries eight sets of instruments for scientific observation. It also has a radiation monitor, and anti-radiation technology that has been applied to a satellite for the first time in the world. This technology provides protection against radiation, even in the near-Earth radiation belt, as it is designed to tolerate about ten times the intensity withstood by conventional satellites. Other world-first technology applied to AKEBONO includes an extension mast for antenna and surface electrical conduction processing, to gain better conductivity and protection from charged particles. The GEOTAIL and NOZOMI satellites have inherited these technologies. GEOTAIL operates in the world-best quiet environment, which has never before been possible without the electromagnetic compatibility test conducted by AKEBONO. AKEBONO has operated for more than 20 years. Although the aurora imager camera has deteriorated due to the severe radioactive environment, all the other instruments are in good order. The direction of the major magnetic field of the Sun is known to reverse in a 22-year cycle. The Sun&#39;s activeness, which is typically measured by the number of sunspots, increases and decreases twice in this 22-year cycle. In other words, the Sun&#39;s behavior is changing in an 11-year cycle. To study the response of the magnetosphere to various activities of the Sun, we need to acquire data for 22 years. AKEBONO will, therefore, continue its observations. [From: http://www.jaxa.jp/projects/sat/akebono/index_e.html]</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Toshifumi.Mukai</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Toshifumi.Mukai</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>AKEBONO web site</Name>
+            <URL>https://www.stp.isas.jaxa.jp/akebono/</URL>
+            <Description>AKEBONO web site</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>NSSDC&#039;s Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1989-016A</URL>
+            <Description>Additional information on the AKEBONO spacecraft.</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>1989-03-01T00:00:00</StartDate>
+         <StopDate>1998-12-31T23:59:59</StopDate>
+      </OperatingSpan>
+   </Observatory>
 </Spase>

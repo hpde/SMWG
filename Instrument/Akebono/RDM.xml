@@ -1,24 +1,60 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
- <Version>2.4.0</Version>
- <Instrument>
-  <ResourceID>spase://SMWG/Instrument/Akebono/RDM</ResourceID>
-  <ResourceHeader>
-   <ResourceName>Radiation Dose Instrument (RDM)</ResourceName>
-   <ReleaseDate>2021-06-02T00:00:00Z</ReleaseDate>
-   <Description>RDM (Radiation Monitor) on AKEBONO consists of HPM (High energy  particle monitor) and RIC (monitor for Radiation effect on IC).  RDM data files here on this SDB(Science Data Base) are summary files  for HPM data. This is a brief description for them.      HPM observes fluxes of electrons in three energy channels, protons  in three energy channels and alpha particles in one energy channel.  --------------------------------------- channel	 particle	energy range  name  ---------------------------------------   E1	 electron	&gt; 2.5MeV  	 E2	 electron	0.95 - 2.5MeV  	 E3	 electron	0.3  - 0.95MeV  	 P1	 proton		29   - 62MeV  	 P2	 proton		15   - 29MeV  	 P3	 proton		6.3  - 15MeV  	 AA	 alpha		16   - 52MeV  	 ---------------------------------------  [From: http://www.stp.isas.jaxa.jp/akebono/readme/readme.rdm.txt]</Description>
-   <Acknowledgement>http://dx.doi.org/10.1109/23.273513</Acknowledgement>
-   <Contact>
-    <PersonID>spase://SMWG/Person/Akira.S.Yukimatu</PersonID>
-    <Role>CoInvestigator</Role>
-   </Contact>
-   <InformationURL>
-    <Name>RDM Description</Name>
-    <URL>https://darts.jaxa.jp/stp/akebono/RDM.html</URL>
-    <Description>Web page describing RDM instrument</Description>
-   </InformationURL>
-  </ResourceHeader>
-  <InstrumentType>EnergeticParticleInstrument</InstrumentType>
-  <InvestigationName>Akebono RDM</InvestigationName>
-  <ObservatoryID>spase://SMWG/Observatory/Akebono</ObservatoryID>
- </Instrument>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.4.0</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Akebono/RDM</ResourceID>
+      <ResourceHeader>
+         <ResourceName>AKEBONO Radiation Dose, RDM, Instrument</ResourceName>
+         <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+               <Note>AKEBONO Observatory and two Instruments: Update JAXA URL, File reformated, RDM file rewritten. Metadata submitted by J.M. Weygand on 2021-11-16, reviewed by LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>AKEBONO, also known as EXOS-D, satellite has undertaken studies of particle-acceleration processes in the auroral magnetosphere. The Radiation Monitor, RDM, on AKEBONO consists of the High energy Particle Monitor, HPM, and the monitor for Radiation effect on IC, RIC. RDM data files hosted on the Science Data Base, SDB, are summary files for the HPM data. HPM observes fluxes of electrons in three energy channels, protons in three energy channels, and alpha particles in one energy channel. The table below is adapted from text listed at the following UL: http://www.stp.isas.jaxa.jp/akebono/readme/readme.rdm.txt.
+
++-------------------------------------------+
+| Channel | Particle | Energy Range         |
+|---------|----------|----------------------|
+| E1      | electron | &gt;2.5MeV           |
+| E2      | electron | 0.95 MeV to 2.5 MeV  |
+| E3      | electron | 0.3 MeV to 0.95 MeV  |
+| P1      | proton   | 29 MeV to 62 MeV     |
+| P2      | proton   | 15 MeV to 29 MeV     |
+| P3      | proton   | 6.3 MeV to 15 MeV    |
+| AA      | alpha    | 16 MeV to 52 MeV     |
++-------------------------------------------+</Description>
+         <Acknowledgement>Data are free for scientific publications. If you have any questions or requests about the RDM data, please contact Tsugunobu Nagai at the Tokyo Institute of Technology. When you publish a paper, please inform Prof. Nagai of your publication. In any publications, the use of the AKEBONO/RDM data should be acknowledged, for example, as &quot;The AKEBONO/RDM data were provided through DARTS at Institute of Space and Astronautical Science, JAXA.&quot;</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Tsugunobu.Nagai</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Akira.S.Yukimatu</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>AKEBONO RDM instrument description publication</Name>
+            <URL>https://doi.org/10.1109/23.273513</URL>
+            <Description>Takagi, S., T. Nakamura, T. Kohno, N. Shiono, and F. Makino, Observation of space radiation environment with EXOS-D, IEEE Trans. Nucl. Sci., 40(6), 1491-1497, 1993. (ISSN 1558-1578)</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>AKEBONO RDM instrument website</Name>
+            <URL>https://darts.jaxa.jp/stp/akebono/RDM.html</URL>
+            <Description>AKEBONO RDM instrument website listing the data format, data usage policy, contact information, and instrument related publications as well as providing data access via TDAS and data plotting options.</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+      <InvestigationName>AKEBONO RDM</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/Akebono</ObservatoryID>
+   </Instrument>
 </Spase>
