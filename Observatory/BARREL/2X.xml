@@ -1,14 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
-   <Version>2.3.0</Version>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.4.0</Version>
    <Observatory>
       <ResourceID>spase://SMWG/Observatory/BARREL/2X</ResourceID>
       <ResourceHeader>
          <ResourceName>BARREL Balloon 2X</ResourceName>
-         <ReleaseDate>2019-04-29T12:34:56.789Z</ReleaseDate>
+         <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+               <Note>BARREL Observatories: Delete obsolete www.dartmouth.edu Information URL, Resource Header Description reformated. Metadata submitted by J.M. Weygand on 2022-01-28, reviewed by LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
          <Description>This Document describes BARREL Balloon 2X.
 
-BARREL, which is an Acronym for Balloon Array for RBSP Relativistic Electron Losses, is a Multiple Balloon Investigation to study Particles that escape from the Radiation Belts and funnel down Earth&apos;s Magnetic Field Lines toward the Poles. It involves two Multi-Balloon Launches from the South African Antarctic Station, SANAE IV, and the British Station, Halley Bay, with later for a Northern Hemisphere Campaigns. During each Campaign, 5-8 long-duration Balloon Payloads (~20 kg) would be launched to an Altitude of 30 km to 35 km simultaneously for three to 40 Days. Each Balloon will carry a NaI Scintillator to measure the Bremsstrahlung X-Rays produced by precipitating Relativistic Electrons as they collide with Neutrals in Earth&apos;s Atmosphere to allow an Estimate of the total Electron Loss from the Radiation Belts. The Payload also includes a DC Magnetometer. Besides the two Scientific Instruments, each Payload includes Solar Panels generating 6 W and an onboard Battery for Power, a Number of Sensors to monitor the Operation of the Payload, a GPS Receiver to track the Position and Altitude of the Balloon, and an Iridium Satellite Link that transfer all Data at a Rate of 2 kps.
+BARREL, which is an Acronym for Balloon Array for RBSP Relativistic Electron Losses, is a Multiple Balloon Investigation to study Particles that escape from the Radiation Belts and funnel down Earth&#039;s Magnetic Field Lines toward the Poles. It involves two Multi-Balloon Launches from the South African Antarctic Station, SANAE IV, and the British Station, Halley Bay, with later for a Northern Hemisphere Campaigns. During each Campaign, 5-8 long-duration Balloon Payloads (~20 kg) would be launched to an Altitude of 30 km to 35 km simultaneously for three to 40 Days. Each Balloon will carry a NaI Scintillator to measure the Bremsstrahlung X-Rays produced by precipitating Relativistic Electrons as they collide with Neutrals in Earth&#039;s Atmosphere to allow an Estimate of the total Electron Loss from the Radiation Belts. The Payload also includes a DC Magnetometer. Besides the two Scientific Instruments, each Payload includes Solar Panels generating 6 W and an onboard Battery for Power, a Number of Sensors to monitor the Operation of the Payload, a GPS Receiver to track the Position and Altitude of the Balloon, and an Iridium Satellite Link that transfer all Data at a Rate of 2 kps.
 
 BARREL is the first NASA Living with a Star Geospace Mission of Opportunity. Observations are planned for when the Balloon Array will be conjugate with the NASA Van Allen Probes Spacecraft, such that direct Comparison is possible between one another.</Description>
          <Contact>
@@ -19,14 +25,13 @@ BARREL is the first NASA Living with a Star Geospace Mission of Opportunity. Obs
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
          </Contact>
-         <InformationURL>
-            <Name>BARREL Instrument Descriptions (Reference #1)</Name>
-            <URL>http://www.dartmouth.edu/~rmillan/minis/MINIS.Instrumentation.pdf</URL>
-            <Description>Overall BARREL Instrument Descriptions for the Arctic Flight MINIS North</Description>
-         </InformationURL>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
          <InformationURL>
             <Name>BARREL Mission Overview Poster (Reference #2)</Name>
-            <URL>http://www.dartmouth.edu/~rmillan/barrel/foldout_v2.pdf</URL>
+            <URL>https://barrel.rmillan.host.dartmouth.edu/documents/BARREL.foldout_v2.pdf</URL>
             <Description>BARREL Mission Foldout Sheet Overview Poster</Description>
          </InformationURL>
          <InformationURL>
