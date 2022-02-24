@@ -1,33 +1,42 @@
-<?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Observatory>
-    <ResourceID>spase://SMWG/Observatory/MEASURE/Clarkson.University</ResourceID>
-    <ResourceHeader>
-      <ResourceName>The Clarkson University Geomagnetic Observatory.</ResourceName>
-      <ReleaseDate>2010-08-05T18:21:59Z</ReleaseDate>
-      <Description>The Clarkson University (CLK) Geomagnetic Observatory.</Description>
-      <Acknowledgement>Please acknowledge Mark Moldwin, Institute of Geophysics and Planetary Physics and the Department of Earth and Space Sciences, University of California, Los Angeles, Los Angeles, CA 90095-1567 for providing access to Clarkson University data resources.</Acknowledgement>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Mark.Moldwin</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-        <Role>MetadataContact</Role>
-      </Contact>
-      <InformationURL>
-        <Name>The Clarkson University geomagnetic observatory web site.</Name>
-        <URL>http://www-ssc.igpp.ucla.edu/gem/worldmag/measure.html</URL>
-        <Description>The Clarkson University geomagnetic observatory web site.</Description>
-      </InformationURL>
-    </ResourceHeader>
-    <ObservatoryGroupID>spase://SMWG/Observatory/MEASURE</ObservatoryGroupID>
-    <Location>
-      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-      <CoordinateSystemName>GEO</CoordinateSystemName>
-      <Latitude>44.700</Latitude>
-      <Longitude>-75.000</Longitude>
-    </Location>
-  </Observatory>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.4.0</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/MEASURE/Clarkson.University</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Clarkson University Geomagnetic Observatory</ResourceName>
+         <ReleaseDate>2022-02-24T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2022-02-24T12:34:56.789</ReleaseDate>
+               <Note>MEASURE Observatory: Delete obsolete http://www-ssc.igpp.ucla.edu/gem/worldmag/measure.html Information URL. Metadata submitted by J.M. Weygand on 2022-02-23, reviewed by LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The Clarkson University, CLK, Geomagnetic Observatory</Description>
+         <Acknowledgement>Please acknowledge Mark Moldwin, Institute of Geophysics and Planetary Physics and the Department of Earth and Space Sciences, University of California, Los Angeles, Los Angeles, CA 90095-1567 for providing access to Clarkson University data resources.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Mark.Moldwin</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+      </ResourceHeader>
+      <ObservatoryGroupID>spase://SMWG/Observatory/MEASURE</ObservatoryGroupID>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>44.700</Latitude>
+         <Longitude>-75.000</Longitude>
+      </Location>
+      <OperatingSpan>
+         <StartDate>9999-01-01T00:00:00</StartDate>
+         <Note>No information available.</Note>
+      </OperatingSpan>
+   </Observatory>
 </Spase>
