@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.4.0</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/STEREO-A/SECCHI/Cor2</ResourceID>
+      <ResourceHeader>
+         <ResourceName>STEREO-A SECCHI Cor2 Coronagraph</ResourceName>
+         <ReleaseDate>2022-02-24T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2022-02-24T12:34:56.789</ReleaseDate>
+               <Note>STEREO SECCHI: Initial SPASE XML resource description submission. Metadata submitted by A. Vourlidas on 2022-02-21, reviewed by LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>Cor2 is one of the coronagraphs aboard the STEREO-A spacecraft. It is part of the SECCHI instrument suite. It observes the off-limb corona between 2.5-15 solar radii in visible light. It acquires both total and polarized brightness images</Description>
+         <Acknowledgement>The SECCHI data are produced by an international consortium of the NRL, LMSAL, and NASA GSFC (USA), RAL and University of Birmingham (UK), MPS (Germany), CSL (Belgium), and IOTA and IAS (France). SOHO is a project of international cooperation between ESA and NASA.</Acknowledgement>
+         <PublicationInfo>
+            <Authors>Howard, R.A., J.D. Moses, A. Vourlidas, et al.</Authors>
+            <PublicationDate>2008-04-01T00:00:00</PublicationDate>
+            <PublishedBy>Space Science Reviews</PublishedBy>
+         </PublicationInfo>
+         <Funding>
+            <Agency>NASA</Agency>
+            <Project>STEREO</Project>
+         </Funding>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Angelos.Vourlidas</PersonID>
+            <Role>MetadataContact</Role>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>SECCHI Instrument Publication</Name>
+            <URL>https://link.springer.com/article/10.1007%2Fs11214-008-9341-4</URL>
+            <Description>The SECCHI instrument paper has general information on data products: Howard, R.A., J.D. Moses, A. Vourlidas, et al., Sun Earth Connection Coronal and Heliospheric Investigation (SECCHI). Space Sci. Rev., 136, 67, 2008. (https://doi.org/10.1007/s11214-008-9341-4)</Description>
+            <Language>en</Language>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Coronograph</InstrumentType>
+      <InvestigationName>SECCHI</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2007-02-01T00:00:00</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/STEREO-A</ObservatoryID>
+   </Instrument>
+</Spase>
