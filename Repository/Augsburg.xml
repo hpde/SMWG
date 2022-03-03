@@ -1,38 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
-    <Version>2.3.1</Version>
-    <Repository>
-        <ResourceID>spase://SMWG/Repository/Augsburg</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Augsburg Search Coil Observatory Group and  Magnetometer Array for Cusp and Cleft Studies</ResourceName>
-			<AlternateName>Augsburg College Search Coil Ground Observatory Group and Magnetometer Array for Cusp and Cleft Studies</AlternateName>
-			<ReleaseDate>2020-07-27T20:37:12Z</ReleaseDate>
-			<Description>Observatory Group created to represent the chain of stations based in Antartica that have Augsburg College search coil magnetometers.  The chain of stations includes:  British Antarctic Survey A80, British Antarctic Survey A81, British Antarctic Survey A84, Halley Bay, and South Pole. The Magnetometer Array for Cusp and Cleft Studies program operates magnetometers in the northern hemisphere arctic to study the near-Earth space environment.</Description>
-            <Acknowledgement>Please acknowledge Mark J. Engebretson, Department of Physics, Augsburg College, 2211 Riverside Avenue, Minneapolis, MN 55454-1338, USA for providing access to Augsburg Array data resources.</Acknowledgement>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Mark.Engebretson</PersonID>
-                <Role>PrincipalInvestigator</Role>
-            </Contact>
-			<Contact>
-				<PersonID>spase://SMWG/Person/Erik.S.Steinmetz</PersonID>
-				<Role>GeneralContact</Role>
-		    </Contact>
-			<InformationURL>
-                <Name>Augsburg Search Coil Magnetometer Array Home Page</Name>
-                <URL>http://space.augsburg.edu/searchcoil/index.html</URL>
-                <Description>Augsburg Antarctic observatory array information web site</Description>
-            </InformationURL>
-			<InformationURL>
-                <Name>Magnetometer Array for Cusp and Cleft Studies</Name>
-                <URL>http://space.augsburg.edu/maccs/</URL>
-                <Description>Augsburg arctic observatory array information web site</Description>
-            </InformationURL>
-        </ResourceHeader>
-        <AccessURL>
-            <Name>Augsburg Web Site</Name>
-            <URL>http://space.augsburg.edu/</URL>
-            <Description>Augsburg Web Site</Description>
-        </AccessURL>
-    </Repository>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.4.0</Version>
+   <Repository>
+      <ResourceID>spase://SMWG/Repository/Augsburg</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Augsburg Search Coil Observatory Group and Magnetometer Array for Cusp and Cleft Studies</ResourceName>
+         <AlternateName>Augsburg College Search Coil Ground Observatory Group and Magnetometer Array for Cusp and Cleft Studies</AlternateName>
+         <ReleaseDate>2022-03-03T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2022-03-03T12:34:56.789</ReleaseDate>
+               <Note>Fix Mark J. Engebretson Person ID, update to SPASE 2.4.0, LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>Observatory Group created to represent the chain of stations based in Antartica that have Augsburg College search coil magnetometers. The chain of stations includes: British Antarctic Survey A80, British Antarctic Survey A81, British Antarctic Survey A84, Halley Bay, and South Pole. The Magnetometer Array for Cusp and Cleft Studies program operates magnetometers in the northern hemisphere arctic to study the near-Earth space environment.</Description>
+         <Acknowledgement>Please acknowledge Mark J. Engebretson, Department of Physics, Augsburg College, 2211 Riverside Avenue, Minneapolis, MN 55454-1338, USA for providing access to Augsburg Array data resources.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Mark.J.Engebretson</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Erik.S.Steinmetz</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Augsburg Search Coil Magnetometer Array Home Page</Name>
+            <URL>http://space.augsburg.edu/searchcoil/index.html</URL>
+            <Description>Augsburg Antarctic observatory array information web site</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>Magnetometer Array for Cusp and Cleft Studies</Name>
+            <URL>http://space.augsburg.edu/maccs/</URL>
+            <Description>Augsburg arctic observatory array information web site</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <AccessURL>
+         <Name>Augsburg Web Site</Name>
+         <URL>http://space.augsburg.edu/</URL>
+         <Description>Augsburg Web Site</Description>
+      </AccessURL>
+   </Repository>
 </Spase>
