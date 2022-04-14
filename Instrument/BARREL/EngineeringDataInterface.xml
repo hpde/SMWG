@@ -2,59 +2,22 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
    <Version>2.4.0</Version>
    <Instrument>
-      <ResourceID>spase://SMWG/Instrument/BARREL/Ephemeris</ResourceID>
+      <ResourceID>spase://SMWG/Instrument/BARREL/EngineeringDataInterface</ResourceID>
       <ResourceHeader>
-         <ResourceName>BARREL Balloon Trajectory Positions</ResourceName>
-         <AlternateName>BARREL Balloon Ephemeris</AlternateName>
+         <ResourceName>BARREL Balloon Engineering Data Interfaces</ResourceName>
          <ReleaseDate>2022-04-12T12:34:56.789</ReleaseDate>
          <RevisionHistory>
             <RevisionEvent>
-               <ReleaseDate>2021-07-20T13:41:27</ReleaseDate>
-               <Note>BARREL Ephemeris Instruments: SPASE 2.2.9 XML resource description, last known revision, metadata submitted by LFB, reviewed by Reine Chimiak</Note>
-            </RevisionEvent>
-            <RevisionEvent>
                <ReleaseDate>2022-04-12T12:34:56.789</ReleaseDate>
-               <Note>BARREL Ephemeris Instruments: SPASE description revised to standardize the Information URL content for all BARREL instrument descriptions, upgrade to SPASE 2.4.0, metadata submitted by LFB</Note>
+               <Note>BARREL Engineering Data Interface units: Initial SPASE 2.4.0 XML resource description submission, metadata submitted by LFB</Note>
             </RevisionEvent>
          </RevisionHistory>
-         <Description>This document describes the full set of BARREL Balloon Ephemeris, EPHM, virtual instruments and allows for search aggregation of Ephemeris information from all balloons.
+         <Description>This document describes the full set of BARREL Balloon Engineering Data Interfaces, EDIs, and allows for search aggregation of EDI information from all balloons.
 
-Trajectory positions are provided in various coordinate systems</Description>
+The BARREL EDI units perform analog to digital conversion, ADC, of key temperatures, voltages, and currents. There are eight inputs of voltage and current pairs, four inputs of voltage only and sixteen inputs nominally for temperature sensors. Temperature inputs can also be configured to monitor voltage. All inputs are scaled to the nominal 5 V ADC, full-scale range and converted two channels at a time with 16-bit precision.</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/Robyn.Millan</PersonID>
             <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Robert.P.Lin</PersonID>
-            <Role>CoInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/David.M.Smith</PersonID>
-            <Role>CoInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Michael.P.McCarthy</PersonID>
-            <Role>CoInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Mary.K.Hudson</PersonID>
-            <Role>CoInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Mikhail.I.Panasyuk</PersonID>
-            <Role>CoInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lindsay.Magnus</PersonID>
-            <Role>CoInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Andrew.B.Collier</PersonID>
-            <Role>CoInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Mark.Clilverd</PersonID>
-            <Role>CoInvestigator</Role>
          </Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
