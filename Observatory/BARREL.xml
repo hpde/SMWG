@@ -1,44 +1,67 @@
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2.xsd">
- <Version>2.2.2</Version><Observatory>
-        <ResourceID>spase://SMWG/Observatory/BARREL</ResourceID>
-        <ResourceHeader>
-            <ResourceName>BARREL</ResourceName>
-            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
-            <Description>BARREL (Balloon Array for Radiation-belt Relativistic Electron Losses) is a multiple-balloon
-   investigation to study particles that escape from the radiation belts and funnel down Earth's magnetic
-   field lines toward the poles. It involves two multi-balloon launches from the South African Antarctic
-   Station (SANAE IV) and the British station, Halley Bay, with an option for a third Northern Hemisphere
-   campaign. During each campaign, 5-8 long-duration balloons payloads (~20 kg) would be launched to an
-   altitude of 30-35 km simultaneously for three to 40 days. Each balloon will carry a NaI scintillator to
-   measure the Bremsstrahlung X-rays produced by precipitating relativistic electrons as they collide with
-   neutrals in Earth's atmosphere to allow an estimate of the total electron loss from the radiation belts.
-   The payload also includes a DC magnetometer. Besides the two scientific instruments, each payload includes
-   solar panels generating 6 W and an onboard battery for power, a number of sensors to monitor the operation of
-   the payload, a GPS receiver to track the position and altitude of the balloon, and an Iridium satellite link
-   that transfer all data at a rate of 2 kps.
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.4.0</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/BARREL</ResourceID>
+      <ResourceHeader>
+         <ResourceName>BARREL</ResourceName>
+         <ReleaseDate>2022-04-12T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2019-05-05T12:34:56.789</ReleaseDate>
+               <Note>BARREL Observatory Group: Initial SPASE 2.2.2 XML resource description submission, metadata submitted by LFB, reviewed by Reine Chimiak</Note>
+            </RevisionEvent>
+            <RevisionEvent>
+               <ReleaseDate>2022-04-12T12:34:56.789</ReleaseDate>
+               <Note>BARREL Observatory Group: SPASE description revised to include information for all five BARREL campaigns and to standardize the Information URL content, upgrade to SPASE 2.4.0, metadata submitted by LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>This Document describes BARREL Balloon observatory group.
 
-BARREL is the first NASA Living with a Star Geospace Mission of Opportunity.  Observations are planned for when the
-balloon-array will be conjugate with NASA's Van Allen Probes spacecraft, such that direct comparison is possible
-between one another.</Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Robyn.Millan</PersonID>
-                <Role>PrincipalInvestigator</Role>
-</Contact>
-            <InformationURL>
-                <Name>BARREL's Home Page at Dartmouth College</Name>
-                <URL>http://www.dartmouth.edu/~barrel/index.html</URL>
-                <Description>Information about BARREL</Description>
-</InformationURL>
-   <InformationURL>
-    <Name>Space Science Reviews Article</Name>
-    <URL>https://link.springer.com/article/10.1007%2Fs11214-013-9971-z</URL>
-    <Description>Detailed information about the BARREL mission.</Description>
-</InformationURL>
-</ResourceHeader>
-        <Location>
-            <ObservatoryRegion>Earth.NearSurface.Stratosphere</ObservatoryRegion>
-</Location>
-</Observatory>
+BARREL, Balloon Array for Radiation-belt Relativistic Electron Losses, is a multiple-balloon investigation to study particles that escape from the radiation belts and funnel down Earth&#039;s magnetic field lines toward the poles. Initially, balloon launches were planned from the South African Antarctic station, SANAE IV, and the British station, Halley Bay, with an option for later northern hemisphere campaigns. During each BARREL campaign, five to eight long-duration (5 day to 10 day) balloon payloads weighing about 20 kg would be released to rise to an altitude of 30 km to 35 km. The plan involves balloon releases sequentially every few days so that the balloons would be aloft simultaneously for about a one month time interval. Each balloon will carry a NaI scintillator to measure the Bremsstrahlung X-rays produced by precipitating relativistic electrons as they collide with neutrals in Earth&#039;s atmosphere to allow an estimate of the total electron loss from the radiation belts. The payload also includes a DC magnetometer. Besides the two scientific instruments, each payload includes solar panels generating 6 W and an onboard battery for power, a number of sensors to monitor the operation of the payload, a GPS receiver to track the position and altitude of the balloon, and an Iridium satellite link that transfer all data at a rate of 2 kps.
+
+BARREL is the first NASA Living with a Star, LWS, Geospace Mission of Opportunity, MO. The BARREL mission is designed to augment the measurements from the NASA Van Allen Probes by measuring the precipitation of relativistic electrons from the radiation belts. Observations are planned for when the balloon array will be conjugate with the NASA Van Allen Probes spacecraft, such that direct comparison is possible between the observations collected in space and in the stratosphere.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Robyn.Millan</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>BARREL Home Page</Name>
+            <URL>https://barrel.rmillan.host.dartmouth.edu</URL>
+            <Description>Main home page with links to the BARREL mission overview, data, publications, and news/events, hosted by Dartmouth College</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>BARREL Science Team Information</Name>
+            <URL>https://barrel.rmillan.host.dartmouth.edu/team.html</URL>
+            <Description>Site listing BARREL science team information, hosted by Dartmouth College</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>BARREL Mission Overview Poster</Name>
+            <URL>https://barrel.rmillan.host.dartmouth.edu/documents/BARREL.foldout_v2.pdf</URL>
+            <Description>BARREL mission overview summary poster, hosted by Dartmouth College</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>BARREL Introduction: Balloon Test Flight Results and Mission Plans and Objectives, JASTP Publication</Name>
+            <URL>https://doi.org/10.1016/j.jastp.2011.01.006</URL>
+            <Description>Millan, R.M., McCarthy, M.P., Sample, J.G. et al., Understanding Relativistic Electron Losses with BARREL, J. Atmos. and Sol.-Terr. Phys., 73(11-12), 1425-1434, (2011), DOI: https://doi.org/10.1016/j.jastp.2011.01.006</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>BARREL Campaign Plans, Science Objectives, Instrument Descriptions, Payload Design, and Support Systems, SSR Publication</Name>
+            <URL>https://doi.org/10.1007/s11214-013-9971-z</URL>
+            <Description>Millan, R.M., McCarthy, M.P., Sample, J.G. et al., The Balloon Array for RBSP Relativistic Electron Losses (BARREL), Space Sci. Rev., 179, 503–530 (2013). DOI: https://doi.org/10.1007/s11214-013-9971-z</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.NearSurface.Stratosphere</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2013-01-06T00:00:00.000</StartDate>
+         <StopDate>2018-06-26T23:59:59.999</StopDate>
+         <Note>The operating span start and stop dates listed here correspond to the time interval spanned from the first day that data was obtained by the first balloon, Balloon 1B, launched in the first BARREL Campaign to the last day that data was obtained by the only balloon, Balloon 5A, launched in the fifth BARREL Campaign. The start and stop dates are set equal to the dates embedded in the names of the initial, Balloon 1B, and final, Balloon 5A, CDF data files, respectively, as  hosted by the NASA GSFC Space Physics Data Facility, SPDF.</Note>
+      </OperatingSpan>
+   </Observatory>
 </Spase>
-
-
