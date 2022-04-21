@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.4.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Stefan.Eriksson</ResourceID>
+      <ReleaseDate>2022-04-20T12:34:56.789</ReleaseDate>
+      <PersonName>Stefan Eriksson</PersonName>
+      <OrganizationName>Laboratory for Atmospheric and Space Physics</OrganizationName>
+      <Address>1234 Innovation Drive, Boulder, CO 80303-7814</Address>
+      <Email>eriksson@lasp.colorado.edu</Email>
+   </Person>
+</Spase>
