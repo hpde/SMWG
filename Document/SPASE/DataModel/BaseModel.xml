@@ -32,6 +32,10 @@
           <ReleaseDate>2021-06-10T00:00:00.000Z</ReleaseDate>
           <Note>Release 2.4.0. Major addition is Software resource.</Note>
         </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2022-05-19T00:00:00.000Z</ReleaseDate>
+          <Note>Release 2.4.1. Update enumerations, update definitions, make Observatory.Location one or more occurrences.</Note>
+        </RevisionEvent>
       </RevisionHistory>
       <Description>Research in Heliophysics requires information from multiple sources which includes data from
 and about spacecrafts, groundbased observatories, models, simulations and more. The
@@ -72,7 +76,7 @@ a data delivery system. This includes repositories, registries and services.</De
       <RepositoryID>spase://SMWG/Repository/SPASE</RepositoryID>
       <AccessURL>
         <Name>PDF</Name>
-        <URL>https://spase-group.org/data/model/spase-2.4.0.pdf</URL>
+        <URL>https://spase-group.org/data/model/spase-2.4.1.pdf</URL>
       </AccessURL>
       <Format>PDF</Format>
     </AccessInformation>
@@ -80,7 +84,7 @@ a data delivery system. This includes repositories, registries and services.</De
       <RepositoryID>spase://SMWG/Repository/SPASE</RepositoryID>
       <AccessURL>
         <Name>XML Schema</Name>
-        <URL>https://spase-group.org/data/schema/spase-2.4.0.xsd</URL>
+        <URL>https://spase-group.org/data/schema/spase-2.4.1.xsd</URL>
       </AccessURL>
       <Format>XML</Format>
     </AccessInformation>
