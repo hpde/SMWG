@@ -1,0 +1,12 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_4_1.xsd">
+   <Version>2.4.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Elke.DHuys</ResourceID>
+      <ReleaseDate>2022-10-12T12:34:56.789</ReleaseDate>
+      <PersonName>Elke D&#039;Huys</PersonName>
+      <OrganizationName>Royal Observatory of Belgium</OrganizationName>
+      <Address>Avenue Circulaire-3-Ringlaan, 1180 Brussels, Belgium</Address>
+      <Email>elke.dhuys@oma.be</Email>
+      <ORCIdentifier>0000-0002-2914-2040</ORCIdentifier>
+   </Person>
+</Spase>
