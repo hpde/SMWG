@@ -2,9 +2,9 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_5_0.xsd">
    <Version>2.5.0</Version>
    <Repository>
-      <ResourceID>spase://SMWG/Repository/NASA/GSFC/SPDF/CDAWeb</ResourceID>
+      <ResourceID>spase://SMWG/Repository/NASA/GSFC/SPDF</ResourceID>
       <ResourceHeader>
-         <ResourceName>NASA Space Physics Data Facility (SPDF) Coordinated Data Analysis Web (CDAWeb) Data Services</ResourceName>
+         <ResourceName>NASA Space Physics Data Facility (SPDF) Data Services</ResourceName>
          <ReleaseDate>2023-01-16T12:34:56.789</ReleaseDate>
          <RevisionHistory>
             <RevisionEvent>
@@ -16,7 +16,7 @@
                <Note>Revised metadata submitted by RMC 20221123, Acronym expanded as needed, RevisionHistory added, and then reviewed by LFB 20230116</Note>
             </RevisionEvent>
          </RevisionHistory>
-         <Description>Coordinated Data Analysis Web (CDAWeb) supports not only interactive plotting of variables from multiple instruments on multiple investigations simultaneously on arbitrary, user-defined time-scales. It also supports data retrieval in various formats using its interactive web interface.</Description>
+         <Description>Space Physics Data Facility (SPDF) is the NASA active and permanent archive for non-solar heliophysics data per the NASA Heliophysics Science Data Management Policy. SPDF is a project of the Heliophysics Science Division (HSD) at the NASA Goddard Space Flight Center. SPDF also provides multi-project, cross-disciplinary access to data to enable correlative and collaborative research across discipline and mission boundaries with present and past missions. Many datasets from current missions are updated regularly (even daily), including reprocessing older time periods, and SPDF only preserves the latest version. SPDF maintains the Satellite Situation Center (SSCweb) database of spacecraft orbits, the OMNIweb Plus cross-normalized database, and the Common Data Format (CDF) self-describing science data format and associated software. Solar data is available from the Solar Data Analysis Center (SDAC).</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
             <Role>ProjectScientist</Role>
@@ -34,18 +34,23 @@
          </Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Tamara.J.Kovalick</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
             <Role>TechnicalContact</Role>
          </Contact>
          <InformationURL>
-            <Name>CDAWeb Home Page</Name>
-            <URL>https://cdaweb.gsfc.nasa.gov/</URL>
-            <Description>Coordinated Data Analysis Web (CDAWeb) Home Page at Space Physics Data Facility of the NASA Goddard Space Flight Center</Description>
+            <Name>SPDF Home Page</Name>
+            <URL>https://spdf.gsfc.nasa.gov/</URL>
+            <Description>Space Physics Data Facility Home Page of the NASA Goddard Space Flight Center</Description>
          </InformationURL>
-         <PriorID>spase://VMO/Repository/CDAWeb</PriorID>
+         <PriorID>spase://vspo/repository/61</PriorID>
+         <PriorID>spase://SMWG/Repository/SPDF</PriorID>
       </ResourceHeader>
       <AccessURL>
-         <Name>Access to CDAWeb Data</Name>
-         <URL>https://cdaweb.gsfc.nasa.gov/</URL>
+         <Name>Access to SPDF Data</Name>
+         <URL>https://spdf.gsfc.nasa.gov/</URL>
       </AccessURL>
    </Repository>
 </Spase>
