@@ -1,0 +1,14 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_5_0.xsd">
+   <Version>2.5.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Astrid.Veronig</ResourceID>
+      <ReleaseDate>2023-01-17T12:34:56.789</ReleaseDate>
+      <PersonName>Astrid Veronig</PersonName>
+      <OrganizationName>Institut für Physik, Universität Graz</OrganizationName>
+      <Address>Universitätsplatz 3, 8010 Graz, Österreich</Address>
+      <Email>astrid.veronig@uni-graz.at</Email>
+      <PhoneNumber>+43 316 380-8609</PhoneNumber>
+      <FaxNumber>0316 380-9825</FaxNumber>
+      <ORCIdentifier>000-0003-2073-002X</ORCIdentifier>
+   </Person>
+</Spase>
