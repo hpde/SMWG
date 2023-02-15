@@ -1,39 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Observatory>
-    <ResourceID>spase://SMWG/Observatory/IBEX</ResourceID>
-    <ResourceHeader>
-      <ResourceName>IBEX</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
-      <Description>NASA's IBEX (Interstellar Boundary Explorer) spacecraft
-was launched 19-Oct-2008 to discover the interaction between the solar wind
-and the interstellar medium.  Its two energetic neutral atom (ENA)
-instruments measure 10 eV - 6 keV ENA's indicative of charged particle
-populations near and beyond the heliosphere's termination shock.  The
-spacecraft is in a geocentric, 8-day orbit between 7000 km and 37 Re. 
-Its spin axis is adjusted each orbit to point towards the sun.  Its two ENA
-detectors look normal to the spin axis, thus measuring 360 deg swaths of
-the sky each 15-sec spacecraft spin.  The full sky is measured every
-6 months.</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
-        <Role>PrincipalInvestigator</Role>
-</Contact>
-      <InformationURL>
-        <Name>IBEX web pages at SWRI</Name>
-        <URL>http://ibex.swri.edu/researchers/index.shtml</URL>
-        <Description>Section of overall IBEX pages at SWRI for researchers,
-with links to published descriptive and science-results papers</Description>
-</InformationURL>
-      <InformationURL>
-        <Name>Space Science Reviews paper</Name>
-        <URL>https://link.springer.com/article/10.1007%2Fs11214-009-9499-4</URL>
-        <Description>Paper is by D.J. McComas and 28 co-authors.</Description>
-</InformationURL>
-</ResourceHeader>
-    <Location>
-      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
-</Location>
-</Observatory>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_5_0.xsd">
+   <Version>2.5.0</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/IBEX</ResourceID>
+      <ResourceHeader>
+         <ResourceName>IBEX</ResourceName>
+         <ReleaseDate>2023-02-14T12:34:56</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2019-05-05T12:34:56</ReleaseDate>
+               <Note>Only known prior ReleaseDate of the metadata</Note>
+            </RevisionEvent>
+            <RevisionEvent>
+               <ReleaseDate>2023-02-14T12:34:56</ReleaseDate>
+               <Note>Updated the IBEX Overview InformationURL to reflect move from SWRI to Princeton University per request of Ken Fairchild, Observatory Description extended to note the IBEX orbit change and otherrwise slightly revised, added OperatingSpan container, metadata updated to SPASE 2.5.0, reviewed by LFB 20230214</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The NASA Interstellar Boundary Explorer, IBEX, spacecraft was launched on October 19, 2008 to investigate the interaction between the solar wind and the interstellar medium. The IBEX payload include two Energetic Neutral Atom, ENA, instruments, IBEX-Lo and IBEX-Hi, which measure 10 eV to 2 keV neutrals and 300 eV to 6 Kev neutrals, respectively. The ENA measurements are indicative of charged particle populations near and beyond the termination shock of the heliosphere. The spacecraft was initially placed into a geocentric, eight day orbit with a perigee of 7000 km and an apogee of 37 Earth radii. This orbit exposed the spacecraft to a higher than desired level of radiation. So, the orbital perigee was raised in June 2011 to greater than 7 Re (out of the radiation belts) via the execution of three orbital maneuvers. The revised IBEX orbital period, equal to ~9.1 days, is in a three-to-one (3:1) resonance with that of the Moon around the Earth in order to minimize gravitational interactions. The spin axis of the IBEX spacecraft is adjusted each orbit to point towards the sun. The IBEThe IBEX ENA detectors look normal to the spin axis, thus measuring 360&#176; swaths of the sky each 15 s spacecraft spin. The full sky is mapped out every six months.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>IBEX Overview web pages at Princeton University</Name>
+            <URL>https://ibex.princeton.edu/researchers/overview</URL>
+            <Description>Researchers Overview section of the overall set of IBEX pages hosted at Princeton University</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>Space Science Reviews paper</Name>
+            <URL>https://link.springer.com/article/10.1007%2Fs11214-009-9499-4</URL>
+            <Description>Paper is by D.J. McComas and 28 co-authors.</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2008-10-19T17:47:00</StartDate>
+         <Note>Mission status: Operational (extended) as of December 2022</Note>
+      </OperatingSpan>
+   </Observatory>
 </Spase>
