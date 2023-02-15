@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Gaines.M.Crook</ResourceID>
-    <PersonName>Mr. Gaines M. Crook</PersonName>
-    <OrganizationName>Unknown - formerly at Gaines M. Crook and Asso</OrganizationName>
-  </Person>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_5_0.xsd">
+   <Version>2.5.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Gaines.M.Crook</ResourceID>
+      <PersonName>Gaines M. Crook</PersonName>
+      <OrganizationName>Gaines M. Crook Labs, Retired 1995</OrganizationName>
+   </Person>
 </Spase>
