@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2-5-0.xsd">
+   <Version>2.5.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Daniel.Bruce.Graham</ResourceID>
+      <ReleaseDate>2023-03-01T12:34:56.789</ReleaseDate>
+      <PersonName>Daniel Bruce Graham</PersonName>
+      <OrganizationName>Swedish Institute of Space Physics</OrganizationName>
+      <Address>Institutet för rymdfysik, Box 537, 751 21 Uppsala, Sweden</Address>
+      <Email>dgraham@irfu.se</Email>
+      <PhoneNumber>+46 18 4715927</PhoneNumber>
+      <FaxNumber>+46 18-471 59 05</FaxNumber>
+      <ORCIdentifier>0000-0002-1046-746X</ORCIdentifier>
+   </Person>
+</Spase>

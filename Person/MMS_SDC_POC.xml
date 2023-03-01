@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2-5-0.xsd">
+   <Version>2.5.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/MMS_SDC_POC</ResourceID>
+      <ReleaseDate>2023-03-01T12:34:56.789</ReleaseDate>
+      <PersonName>MMS Science Data Center Mission Development Team Point of Contact</PersonName>
+      <OrganizationName>Magnetospheric Multiscale (MMS) Science Operations Center (SOC)</OrganizationName>
+      <Address>Laboratory for Atmospheric and Space Physics, University of Colorado, Boulder, CO</Address>
+      <Email>mmssdc@lasp.colorado.edu</Email>
+      <Note>This SPASE Person record provides the point of contact e-mail address for MMS data inquiries to the SDC Development Team, e-mail address provided by K. Larsen on 2023-01-19</Note>
+   </Person>
+</Spase>

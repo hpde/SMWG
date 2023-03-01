@@ -2,13 +2,13 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2-5-0.xsd">
    <Version>2.5.0</Version>
    <Person>
-      <ResourceID>spase://SMWG/Person/Drew.L.Turner</ResourceID>
+      <ResourceID>spase://SMWG/Person/Ian.J.Cohen</ResourceID>
       <ReleaseDate>2023-03-01T12:34:56.789</ReleaseDate>
-      <PersonName>Drew L. Turner</PersonName>
-      <OrganizationName>Space Exploration Sector, Johns Hopkins University, Applied Physics Laboratory</OrganizationName>
+      <PersonName>Ian J. Cohen</PersonName>
+      <OrganizationName>Johns Hopkins University, Applied Physics Laboratory</OrganizationName>
       <Address>11100 Johns Hopkins Road, Laurel, MD 20723 USA</Address>
-      <Email>drew.turner@jhuapl.edu</Email>
-      <PhoneNumber>+1 (240) 228-5000</PhoneNumber>
-      <ORCIdentifier>0000-0002-2425-7818</ORCIdentifier>
+      <Email>Ian.Cohen@jhuapl.edu</Email>
+      <PhoneNumber>+1 (240) 228-1637</PhoneNumber>
+      <ORCIdentifier>0000-0002-9163-6009</ORCIdentifier>
    </Person>
 </Spase>
