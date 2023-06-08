@@ -2,10 +2,9 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_5_0.xsd">
   <Version>2.5.0</Version>
   <Person>
-    <ResourceID>spase://SMWG/Person/Scott.Boardsen</ResourceID>
-    <PersonName>Scott Boardsen</PersonName>
-    <OrganizationName>GSFC-Code 674</OrganizationName>
-    <Email>scott.a.boardsen@nasa.gov</Email>
-    <ORCIdentifier>0000-0002-5240-044X</ORCIdentifier>
+    <ResourceID>sspase://SMWG/Person/Karl.Battams</ResourceID>
+    <PersonName>Karl Battams</PersonName>
+    <OrganizationName>US Naval Research Laboratory</OrganizationName>
+    <ORCIdentifier>0000-0002-8692-6925</ORCIdentifier>
   </Person>
 </Spase>
