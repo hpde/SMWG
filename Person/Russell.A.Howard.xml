@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Russell.A.Howard</ResourceID>
-    <PersonName>Dr. Russell A. Howard</PersonName>
-    <OrganizationName>US Naval Research Laboratory</OrganizationName>
-  </Person>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_5_0.xsd">
+   <Version>2.5.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Russell.A.Howard</ResourceID>
+      <PersonName>Dr. Russell A. Howard</PersonName>
+      <OrganizationName>Johns Hopkins University Applied Physics Laboratory</OrganizationName>
+      <Email>Russell.Howard@jhuapl.edu</Email>
+      <ORCIdentifier>0000-0001-9027-8249</ORCIdentifier>
+   </Person>
 </Spase>
