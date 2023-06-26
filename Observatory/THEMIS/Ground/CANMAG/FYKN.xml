@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_5_0.xsd">
+  <Version>2.5.0</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/THEMIS/Ground/CANMAG/FYKN</ResourceID>
+    <ResourceHeader>
+      <ResourceName>NASA THEMIS GBO Fort Yukon Station</ResourceName>
+      <AlternateName>FYKN</AlternateName>
+      <ReleaseDate>2023-06-26T11:50:38</ReleaseDate>
+      <Description>Fort Yukon (FYKN) Station is located at Fort Yukon, Alaska.  
+				Magnetic Latitude: 67.25
+				Magnetic Longitude: 266.67
+				Magnetic coordinates obtained by calculation using the CGM online calculator with IGRF 2008 at altitude of 0 km. Magnetic declination obtained using CGM online calculator with IGRF 2007
+</Description>
+      <Acknowledgement>We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically:
+ASI/GBO: S. Mende and E. Donovan for use of the ASI data.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Stephen.B.Mende</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Eric.Donovan</PersonID>
+        <Role>CoInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>THEMIS Web Site</Name>
+        <URL>http://themis.ssl.berkeley.edu/</URL>
+        <Description>Contains info about THEMIS mission and associated data sets</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>THEMIS Ground Based Observatory System Design</Name>
+        <URL>http://www.igpp.ucla.edu/public/THEMIS/SCI/Pubs/2007_Refereed/harris_ssr_2007_gbo_sys_design_published.pdf</URL>
+        <Description>Harris et al., Nov. 2007; In depth description of GBO design.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/THEMIS/Ground/CANMAG</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>WGS84</CoordinateSystemName>
+      <Latitude>66.56</Latitude>
+      <Longitude>214.79</Longitude>
+	  <Elevation>130</Elevation>
+    </Location>
+	<OperatingSpan>
+      <StartDate>2004-01-01T00:00:00</StartDate>
+	</OperatingSpan>
+  </Observatory>
+</Spase>
