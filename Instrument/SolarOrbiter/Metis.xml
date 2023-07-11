@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_5_0.xsd">
+   <Version>2.5.0</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/SolarOrbiter/Metis</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Metis</ResourceName>
+         <ReleaseDate>2023-07-10T00:08:46</ReleaseDate>
+         <Description>The Solar Orbiter visible light and ultraviolet coronal imager, designated Metis, is an externally occulted solar coronagraph designed to image the off-limb solar corona in visible and ultraviolet light. The goal of the instrument is to observe the structure and dynamics of the full corona from about 1.7 to 9 solar radii. The scientific objectives are to investigate: energy deposition and outflows in the expanding corona; the role of magnetic field lines in channeling the coronal wind; coronal fluctuations and their role in the solar wind acceleration; coronal mass ejection onset and early propagation; eruption of prominences and their propagation in the corona; global evolution of the streamer belt; and acceleration of solar energetic particles.
+
+Metis comprises three operational units, the Metis Optical Unit (MOU), the Camera Power Converter (CPC), and the Metis Processing and Power Unit (MPPU). The MOU consists of an external occultation system, a telescope, a polarimeter, an ultraviolet camera, a visible light camera, and a high-voltage unit. These are contained in a 1430 x 408 x 329 mm envelope mounted behind the sunshield. Metis has two fields of view (FOV), an inner FOV of 1.6 degrees and an outer, non-circular FOV of 2.9 to 3.4 degrees. This gives an FOV of 1.7 to 3.6 solar radii at a perihelion distance of 0.28 AU. The visible light camera uses a 2048 x 2048 pixel CMOS array, it has a spectral range from 580 - 640 nm with an angular resolution of 20 arcseconds and a focal length of 200 mm. The ultraviolet camera consists of a 1000 x 1000 pixel microchannel plate intensifier and has a spectral range from 111.6 - 131.6 nm centered on the Lyman-alpha with an angular resolution of roughly 80 arcseconds and a focal length of 300 mm. The polarimeter measures the linearly polarized solar K-corona with a bandpass of 580 - 640 nm using a polarization modulation package and a relay-optics system. It has an optical magnification of 0.67, an F-number of 4.2, and a 0.5 degree FOV.
+
+According to Greek mythology, Metis, Zeus first spouse and Athena&#039;s mother, was the Titaness of all wisdom and knowledge.</Description>
+         <Acknowledgement>Solar Orbiter is a mission of international cooperation between the European Space Agency (ESA) and the National Aeronautics and Space Administration (NASA), operated by ESA. 
+
+The Metis programme is supported by the Italian Space Agency (ASI) under the contracts to the co-financing National Institute of Astrophysics (INAF): Accordo ASI-INAF N. I-043-10-0 and Accordo ASI-INAF &amp; Addendum N. I-013-12-0/1 and under the contracts to the industrial partners: ASI-TASI N. I-037-11-0 and ASI-ATI N.2013-057-I.0.
+</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Ester.Antonucci</PersonID>
+            <Role>FormerPI</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Marco.Romoli</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>NASA NSSDCA Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2020-010A-02</URL>
+            <Description>NSSDCA Master Catalog Listing for the Solar Orbiter Metis</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>The Solar Orbiter Metis Website</Name>
+            <URL>http://metis.oato.inaf.it/</URL>
+         </InformationURL>
+         <InformationURL>
+            <Name>The Metis instrument paper by Antonucci et al. 2020</Name>
+            <URL>https://doi.org/10.1051/0004-6361/201935338</URL>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Coronograph</InstrumentType>
+      <InvestigationName>Metis</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2020-06-15T14:15:00</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/SolarOrbiter</ObservatoryID>
+   </Instrument>
+</Spase>

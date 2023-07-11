@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_5_0.xsd">
+   <Version>2.5.0</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/SolarOrbiter/EUI</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Extreme Ultraviolet Imager (EUI)</ResourceName>
+         <ReleaseDate>2023-07-10T00:08:46</ReleaseDate>
+         <Description>The Extreme Ultraviolet Imager (EUI) is a suite of three instruments with the goal of observing the photosphere, chromosphere and corona in high-resolution at extreme ultraviolet wavelengths to elucidate the link between the solar surface and outer corona. The scientific objectives are to study the origins of solar wind streams and the heliospheric magnetic field; the sources, acceleration mechanisms, and transport processes of solar energetic particles; how coronal mass ejections evolve in the inner heliosphere; and the energetic, dynamic, and fine-scale structure of the Sun&#039;s magnetized atmosphere. It will also be making the first images of the Sun from an out-of-ecliptic viewpoint (up to 34 degrees in the extended mission.)
+
+The EUI suite comprises two high-resolution imagers (HRI) and one dual band full-sun imager (FSI). Both HRIs have a field-of-view of 1000 square arcseconds and an angular resolution (2-pixel) of 1 arcsecond using 2048 x 2048 pixel focal plane array detectors. One HRI is centered at 1216 angstroms (Lyman-alpha) with a focal length of 6000 mm, and the other alternates observations between 174 and 335 angstroms with a focal length of 4122.879 mm. The FSI alternates observations between 174 and 335 angstroms with a field-of-view of 5.2 x 5.2 arcdeg and an angular resolution of 9 arcseconds using a 4096 x 4096 focal plane array detector. It has a focal length of 450 mm. All three imagers are mounted on a single optical bench, 900 x 600 x 230 mm, mounted behind the heat shield, and observe through apertures in the shield. The Common Electronics Box, 120 x 300 x 250 mm, is mounted separately inside the spacecraft. Total mass is 18.2 kg and nominal power usage is 32 W.</Description>
+         <Acknowledgement>Solar Orbiter is a mission of international cooperation between the European Space Agency (ESA) and the National Aeronautics and Space Administration (NASA), operated by ESA.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Pierre.Rochus</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Udo.Schuehle</PersonID>
+            <Role>CoPI</Role>
+         </Contact>
+         <InformationURL>
+            <Name>NASA NSSDCA Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2020-010A-01</URL>
+            <Description>NSSDCA Master Catalog Listing for the Solar Orbiter EUI</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>The Solar Orbiter EUI Website</Name>
+            <URL>https://www.sidc.be/EUI/intro</URL>
+         </InformationURL>
+         <InformationURL>
+            <Name>The EUI instrument  et al. 2020 by Rochus et al. 2020</Name>
+            <URL>https://doi.org/10.1051/0004-6361/201936663</URL>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Imager</InstrumentType>
+      <InvestigationName>Extreme Ultraviolet Imager (EUI)</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2020-02-10T04:03:00</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/SolarOrbiter</ObservatoryID>
+   </Instrument>
+</Spase>
