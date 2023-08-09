@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.5.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Andrew.W.Stephan</ResourceID>
+    <ReleaseDate>2023-08-09T17:35:46Z</ReleaseDate>
+    <PersonName>Dr. Andrew W. Stephan</PersonName>
+    <OrganizationName>Naval Research Laboratory</OrganizationName>
+    <Email>andrew.stephan@nrl.navy.mil</Email>
+	<ORCIdentifier>0000-0002-9487-6235</ORCIdentifier>
+  </Person>
+</Spase>
