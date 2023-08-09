@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.5.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Brian.J.Harding</ResourceID>
+    <ReleaseDate>2023-07-28T17:35:46Z</ReleaseDate>
+    <PersonName>Dr. Brian J. Harding</PersonName>
+    <OrganizationName>Space Sciences Laboratory, University of California, Berkeley</OrganizationName>
+    <Email>bharding@ssl.berkeley.edu</Email>
+	<ORCIdentifier>0000-0002-1293-9379</ORCIdentifier>
+  </Person>
+</Spase>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_5_0.xsd">
+   <Version>2.5.0</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/SolarOrbiter/SoloHI</ResourceID>
+      <ResourceHeader>
+         <ResourceName>The Solar Orbiter Heliospheric Imager</ResourceName>
+         <ReleaseDate>2023-07-10T00:08:46</ReleaseDate>
+         <Description>The Solar Orbiter Heliospheric Imager (SoloHI) is a white-light telescope designed to image the inner heliosphere and observe visible photospheric light scattered by electrons in the solar wind and interplanetary dust. The science objectives are to help address the driver of the solar wind, the origin of the coronal magnetic field, how solar transients drive heliospheric variability, how energetic particles are produced by solar eruptions, and the three dimensional structure of the heliosphere.
+
+SoloHI has two components, the SoloHI Power Systems (SPS) box and the SoloHI Instrument Module (SIM), both mounted to the side of the spacecraft bus. The SPS controls the power output to the SIM, consists of a relay electronics card, power electronics card, and thermal components, and has a mass of 1.38 kg. The SIM holds the telescope, baffle assembly, camera electronics card, cover door, and thermal components. The SIM telescope comprises an aperture hood assembly, lens barrel assembly, focal plane assembly, and camera electronics. The SIM has a mass of 15.18 kg.
+
+The telescopic field-of-view is 40 degrees square, boresighted 25.124 degrees off the Sun center, with an angular range of approximately 5 - 45 degrees from Sun center (5.25 - 47.25 solar radii at 0.28 AU). The focal plane array is 3968 x 3968 pixels, giving full angular resolution of 36.7 arcsec. Spectral bandpass is 500-850 nm.</Description>
+         <Acknowledgement>Solar Orbiter is a mission of international cooperation between the European Space Agency (ESA) and the National Aeronautics and Space Administration (NASA), operated by ESA. 
+
+The Solar Orbiter Heliospheric Imager (SoloHI) instrument was designed, built, and is now operated by the US Naval Research Laboratory with the support of the NASA Heliophysics Division, Solar Orbiter Collaboration Office under DPR NNG09EK11I. The NRL effort was also supported by the Office of Naval Research.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Russell.A.Howard</PersonID>
+            <Role>FormerPI</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Robin.Colaninno</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>NASA NSSDCA Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2020-010A-04</URL>
+            <Description>NSSDCA Master Catalog Listing for the Solar Orbiter Heliospheric Imager</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>The Solar Orbiter Heliospheric Imager (SoloHI) Website</Name>
+            <URL>https://solohi.nrl.navy.mil/</URL>
+         </InformationURL>
+         <InformationURL>
+            <Name>The SoloHI instrument paper by Howard et al. 2020</Name>
+            <URL>https://doi.org/10.1051/0004-6361/201935202</URL>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Imager</InstrumentType>
+      <InvestigationName>The Solar Orbiter Heliospheric Imager</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2021-11-27T00:19:00</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/SolarOrbiter</ObservatoryID>
+   </Instrument>
+</Spase>
