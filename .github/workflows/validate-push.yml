@@ -114,6 +114,7 @@ jobs:
           # email body as text
           body: |
             Run date ${{ steps.date.outputs.date }}
+            By: ${{ github.actor }}
             ${{ github.repository }} files added or updated:
             --
             Added
