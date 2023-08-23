@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.6.0.xsd">
+   <Version>2.6.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Karl-Ludwig.Klein</ResourceID>
+      <ReleaseDate>2020-07-01T13:48:00Z</ReleaseDate>
+      <PersonName>Karl-Ludwig Klein</PersonName>
+      <OrganizationName>LESIA, CNRS, Observatoire de Paris, PSL</OrganizationName>
+      <Email>ludwig.klein@obspm.fr</Email>
+      <PhoneNumber>+33-1-45-07-77-61</PhoneNumber>
+   </Person>
+</Spase>
