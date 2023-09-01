@@ -1,1 +1,20 @@
-.DS_Store
+# Restrict commits to Spase XML files and occasional updates to github workflow yml files
+# The '!' character negates blocking - use that to allow specific file types
+
+# Ignore all to start
+*
+
+# Allow necessary root files
+!.gitignore
+!README.*
+!LICENSE
+
+# Allow folders
+!*/
+
+# Allow xml files
+!*.xml
+!*.XML
+
+# Allow workflow files (the .github folder currently does not get blocked at all)
+!.github/workflow/*.yml
