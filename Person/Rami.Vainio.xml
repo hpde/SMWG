@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.6.0.xsd">
+   <Version>2.6.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Rami.Vainio</ResourceID>
+      <PersonName>Dr. Rami Vainio</PersonName>
+      <OrganizationName>Department of Physics and Astronomy, University of Turku, Finland</OrganizationName>
+      <Email>rami.vainio@utu.fi</Email>
+   </Person>
+</Spase>
