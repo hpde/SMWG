@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-  <Version>2.2.2</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Jeremy.Faden</ResourceID>
-    <PersonName>Jeremy Faden</PersonName>
-    <OrganizationName>University of Iowa</OrganizationName>
-    <Address>210 Van Allen Hall</Address>
-    <Email>jeremy-faden@uiowa.edu</Email>
-    <PhoneNumber>319-335-1960</PhoneNumber>
-  </Person>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.6.0.xsd">
+   <Version>2.6.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Jeremy.Faden</ResourceID>
+      <PersonName>Jeremy Faden</PersonName>
+      <OrganizationName>University of Iowa</OrganizationName>
+      <Address>210 Van Allen Hall</Address>
+      <Email>jeremy-faden@uiowa.edu</Email>
+   </Person>
 </Spase>
