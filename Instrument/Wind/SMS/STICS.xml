@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd">
-  <Version>2.1.0</Version>
-  <Instrument>
-    <ResourceID>spase://SMWG/Instrument/Wind/SMS/STICS</ResourceID>
-    <ResourceHeader>
-      <ResourceName>The SupraThermal Ion Composition Spectrometer (STICS)</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
-      <Description>The SupraThermal Ion Composition Spectrometer (STICS) determines the mass, mass per charge, and energy
-        for ions in the energy range of 6-230 keV/e.</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Susan.T.Lepri</PersonID>
-        <Role>PrincipalInvestigator</Role>
-</Contact>
-      <InformationURL>
-        <Name>Wind spacecraft SMS Documentation</Name>
-        <URL>https://link.springer.com/article/10.1007/BF00751327</URL>
-        <Description>The Space Science Reviews paper describing the Wind SMS instrument suite.</Description>
-</InformationURL>
-</ResourceHeader>
-    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
-    <InvestigationName>The SupraThermal Ion Composition Spectrometer (STICS)</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/Wind</ObservatoryID>
-</Instrument>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_6_0.xsd">
+   <Version>2.6.0</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Wind/SMS/STICS</ResourceID>
+      <ResourceHeader>
+         <ResourceName>The SupraThermal Ion Composition Spectrometer (STICS)</ResourceName>
+         <ReleaseDate>2023-11-02T00:00:00Z</ReleaseDate>
+         <Description>The SupraThermal Ion Composition Spectrometer (STICS) determines the mass, mass per charge, and energy for ions in the energy range of 6-230 keV/e.</Description>
+         <Contact>
+             <PersonID>spase://SMWG/Person/Susan.T.Lepri</PersonID>
+             <Role>PrincipalInvestigator</Role>
+          </Contact>
+          <Contact>
+             <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
+             <Role>FormerPI</Role>
+          </Contact>
+          <InformationURL>
+             <Name>Wind spacecraft SMS Documentation</Name>
+             <URL>https://link.springer.com/article/10.1007/BF00751327</URL>
+             <Description>The Space Science Reviews paper describing the Wind SMS instrument suite.</Description>
+          </InformationURL>
+      </ResourceHeader>
+   <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+   <InvestigationName>The SupraThermal Ion Composition Spectrometer (STICS)</InvestigationName>
+   <ObservatoryID>spase://SMWG/Observatory/Wind</ObservatoryID>
+   </Instrument>
 </Spase>
