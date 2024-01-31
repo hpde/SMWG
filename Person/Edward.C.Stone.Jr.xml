@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Edward.C.Stone.Jr</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
-    <PersonName>Prof. Edward C. Stone, Jr.</PersonName>
-    <OrganizationName>California Institute of Technology</OrganizationName>
-    <Email>ecs@srl.caltech.edu</Email>
-    <PhoneNumber>+1 626 395 8321</PhoneNumber>
-  </Person>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.6.0.xsd">
+   <Version>2.6.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Edward.C.Stone.Jr</ResourceID>
+      <ReleaseDate>2024-01-31T17:35:46Z</ReleaseDate>
+      <PersonName>Prof. Edward C. Stone, Jr.</PersonName>
+      <OrganizationName>California Institute of Technology</OrganizationName>
+      <Email>ecs@srl.caltech.edu</Email>
+      <PhoneNumber>+1 626 395 8321</PhoneNumber>
+   </Person>
 </Spase>
