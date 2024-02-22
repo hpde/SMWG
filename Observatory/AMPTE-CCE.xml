@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-   <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_6_0.xsd">
+   <Version>2.6.0</Version>
    <Observatory>
       <ResourceID>spase://SMWG/Observatory/AMPTE-CCE</ResourceID>
       <ResourceHeader>
@@ -8,7 +8,17 @@
          <AlternateName>AMPTE/Charge Composition Explorer</AlternateName>
          <AlternateName>CCE</AlternateName>
          <AlternateName>Explorer 65</AlternateName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2024-02-22T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2019-05-05T12:34:56.789</ReleaseDate>
+               <Note>Only known prior ReleaseDate of the metadata</Note>
+            </RevisionEvent>
+            <RevisionEvent>
+               <ReleaseDate>2024-02-22T12:34:56.789</ReleaseDate>
+               <Note>Corrected TemporalDescription TimeSpan StopDate information, Metadata versioned up to SPASE 2.6.0, LFB 20240222</Note>
+            </RevisionEvent>
+         </RevisionHistory>
          <Description>The AMPTE (Active Magnetospheric Particle Tracer Explorers) mission was designed to study the access of solar wind ions to the magnetosphere, the convective-diffusive transport and energization of magnetospheric particles, and the interactions of plasmas in space.
 
 The mission consisted of three spacecraft: the CCE; the IRM, which provided multiple ion releases in the solar wind, the magnetosheath, and the magnetotail, with in situ diagnostics of each; and the UKS, which uses thrusters to keep station near the IRM to provide two-point local measurements.
@@ -21,32 +31,35 @@ The CCE encountered command module/power supply problems since the beginning of 
 
 For more details, see J. Dassoulas et al., IEEE Transactions on Geoscience and Remote Sensing, Vol. GE-23, p. 182, 1985.</Description>
          <Contact>
-            <!-- Richard McEntire -->
             <PersonID>spase://SMWG/Person/Richard.W.McEntire</PersonID>
             <Role>PrincipalInvestigator</Role>
-</Contact>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
          <InformationURL>
             <Name>JHU/APL AMPTE/CCE Science Data Center (SDC)</Name>
             <URL>http://sd-www.jhuapl.edu/AMPTE/</URL>
             <Description>The SDC is the central analysis and archive facility for the AMPTE/CCE spacecraft.</Description>
-</InformationURL>
+         </InformationURL>
          <InformationURL>
             <Name>NSSDC Master Catalog</Name>
             <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1984-088A</URL>
             <Description>NSSDC information about the AMPTE/CCE spacecraft</Description>
-</InformationURL>
+         </InformationURL>
          <PriorID>spase://SMWG/Observatory/AMPTE_CCE</PriorID>
-</ResourceHeader>
+      </ResourceHeader>
       <ObservatoryGroupID>spase://SMWG/Observatory/AMPTE</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
          <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
          <ObservatoryRegion>Earth.Magnetosphere.Magnetotail</ObservatoryRegion>
          <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
-</Location>
+      </Location>
       <OperatingSpan>
          <StartDate>1984-08-16T00:00:00.999</StartDate>
-         <StopDate>9999-12-31T23:59:59.999</StopDate>
-</OperatingSpan>
-</Observatory>
+         <StopDate>1989-07-12T23:59:59.999</StopDate>
+      </OperatingSpan>
+   </Observatory>
 </Spase>

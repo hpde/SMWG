@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
-   <Version>2.4.0</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_6_0.xsd">
+   <Version>2.6.0</Version>
    <Observatory>
       <ResourceID>spase://SMWG/Observatory/MEASURE/Bullcreek.Observatory</ResourceID>
       <ResourceHeader>
          <ResourceName>Bullcreek Observatory Geomagnetic Observatory</ResourceName>
-         <ReleaseDate>2022-02-24T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2024-02-22T12:34:56.789</ReleaseDate>
          <RevisionHistory>
             <RevisionEvent>
                <ReleaseDate>2022-02-24T12:34:56.789</ReleaseDate>
                <Note>MEASURE Observatory: Delete obsolete http://www-ssc.igpp.ucla.edu/gem/worldmag/measure.html Information URL. Metadata submitted by J.M. Weygand on 2022-02-23, reviewed by LFB</Note>
+            </RevisionEvent>
+            <RevisionEvent>
+               <ReleaseDate>2024-02-22T12:34:56.789</ReleaseDate>
+               <Note>Corrected TemporalDescription TimeSpan StartDate information, Metadata versioned up to SPASE 2.6.0, LFB 20240222</Note>
             </RevisionEvent>
          </RevisionHistory>
          <Description>The Bullcreek Observatory Geomagnetic Observatory, is hosted by the Florida Institute of Technology, FIT.</Description>
@@ -35,8 +39,7 @@
          <Longitude>-80.950</Longitude>
       </Location>
       <OperatingSpan>
-         <StartDate>9999-01-01T00:00:00</StartDate>
-         <Note>No information available.</Note>
+         <StartDate>1999-01-01T00:00:00</StartDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

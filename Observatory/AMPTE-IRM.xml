@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-   <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_6_0.xsd">
+   <Version>2.6.0</Version>
    <Observatory>
       <ResourceID>spase://SMWG/Observatory/AMPTE-IRM</ResourceID>
       <ResourceHeader>
          <ResourceName>AMPTE/IRM</ResourceName>
          <AlternateName>AMPTE/Ion Release Module</AlternateName>
          <AlternateName>IRM</AlternateName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2024-02-22T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2019-05-05T12:34:56.789</ReleaseDate>
+               <Note>Only known prior ReleaseDate of the metadata</Note>
+            </RevisionEvent>
+            <RevisionEvent>
+               <ReleaseDate>2024-02-22T12:34:56.789</ReleaseDate>
+               <Note>Corrected TemporalDescription TimeSpan StartDate and StopDate information, Metadata versioned up to SPASE 2.6.0, LFB 20240222</Note>
+            </RevisionEvent>
+         </RevisionHistory>
          <Description>The AMPTE (Active Magnetospheric Particle Tracer Explorers) mission was designed to study the access of solar wind ions to the magnetosphere, the convective-diffusive transport and energization of magnetospheric particles, and the interactions of plasmas in space.
 
 The program consisted of three spacecraft: the CCE, which measured in the magnetosphere the ions released by the IRM; the IRM; and the UKS, which used thrusters to keep station near the IRM to provide two-point local measurements. The IRM provided multiple ion releases in the solar wind, the magnetosheath, and the magnetotail, with in situ diagnostics of each.
@@ -30,32 +40,35 @@ Orbit evolution
 
 At launch the apogee of the IRM orbit was at a local time of 14:30 hours. As the mission progressed, the IRM apogee precessed to earlier local times at a rate of about 2 hours per month and had completed about 2 complete scans through all local times before the spacecraft ceased operation in August 1986. Thus IRM gave good coverage of all space plasma regions close to the Earth: the solar wind, bow shock, magnetosheath, magnetopause and plasma sheet.</Description>
          <Contact>
-            <!-- Gerhard Haerendel -->
             <PersonID>spase://SMWG/Person/Gerhard.Haerendel</PersonID>
             <Role>PrincipalInvestigator</Role>
-</Contact>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
          <InformationURL>
             <Name>AMPTE/IRM page at University of New Hampshire</Name>
             <URL>http://www-ssg.sr.unh.edu/index.html?tof/Missions/Ampte-irm/amptemain.html</URL>
             <Description>Information on the AMPTE/IRM mission</Description>
-</InformationURL>
+         </InformationURL>
          <InformationURL>
             <Name>NSSDC Master Catalog</Name>
             <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1984-088B</URL>
             <Description>NSSDC information about the AMPTE/IRM spacecraft</Description>
-</InformationURL>
+         </InformationURL>
          <PriorID>spase://SMWG/Observatory/AMPTE_IRM</PriorID>
-</ResourceHeader>
+      </ResourceHeader>
       <ObservatoryGroupID>spase://SMWG/Observatory/AMPTE</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
          <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
          <ObservatoryRegion>Earth.Magnetosphere.Magnetotail</ObservatoryRegion>
          <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
-</Location>
+      </Location>
       <OperatingSpan>
-         <StartDate>9999-01-01T00:00:00.999</StartDate>
-         <StopDate>9999-12-31T23:59:59.999</StopDate>
-</OperatingSpan>
-</Observatory>
+         <StartDate>1984-08-16T00:00:00.999</StartDate>
+         <StopDate>1986-08-14T23:59:59.999</StopDate>
+      </OperatingSpan>
+   </Observatory>
 </Spase>

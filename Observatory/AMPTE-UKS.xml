@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-   <Version>2.2.9</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_6_0.xsd">
+   <Version>2.6.0</Version>
    <Observatory>
       <ResourceID>spase://SMWG/Observatory/AMPTE-UKS</ResourceID>
       <ResourceHeader>
          <ResourceName>AMPTE/UKS</ResourceName>
          <AlternateName>AMPTE/United Kingdom Subsatellite</AlternateName>
          <AlternateName>UKS</AlternateName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <ReleaseDate>2024-02-22T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2019-05-05T12:34:56.789</ReleaseDate>
+               <Note>Only known prior ReleaseDate of the metadata</Note>
+            </RevisionEvent>
+            <RevisionEvent>
+               <ReleaseDate>2024-02-22T12:34:56.789</ReleaseDate>
+               <Note>Corrected TemporalDescription TimeSpan StopDate information, Commented out InformationURL for UK AMPTE User Guide, Metadata versioned up to SPASE 2.6.0, LFB 20240222</Note>
+            </RevisionEvent>
+         </RevisionHistory>
          <Description>The AMPTE (Active Magnetospheric Particle Tracer Explorers) mission was designed to study the access of solar wind ions to the magnetosphere, the convective-diffusive transport and energization of magnetospheric particles, and the interactions of plasmas in space.
 
 The program consisted of three spacecraft: the CCE, which measured in the magnetosphere the ions released by the IRM; the IRM, which provided multiple ion releases in the solar wind, the magnetosheath, and the magnetotail, with in situ diagnostics of each; and the UKS. The UKS was one spacecraft of the AMPTE (Active Magnetosphere Particle Tracer Experiment) program (along with CCE and IRM) and served as a subsatellite of the IRM spacecraft. Its purpose was to help distinguish between spatial structure and temporal changes in the plasma phenomena initiated by ion releases from the IRM and in the natural magnetospheric environment. Measured quantities were similar to those of the IRM and include magnetic fields, positive ions, electrons, plasma waves, and modulations in ions and electrons.
@@ -36,32 +46,35 @@ At launch the apogee of the UKS orbit was at a local time of 14:30 hours. As the
 
 Note that the UKS mission took place during the declining phase of solar cycle 21. This was characterised by corotating high-speed streams in the solar wind. These were well observed by UKS in the early months of its mission.</Description>
          <Contact>
-            <!-- Duncan A. Bryant -->
             <PersonID>spase://SMWG/Person/Duncan.A.Bryant</PersonID>
             <Role>ProjectScientist</Role>
-</Contact>
-         <InformationURL>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <!--<InformationURL>
             <Name>UK AMPTE User Guide</Name>
             <URL>http://www.sp.ph.ic.ac.uk/csc-web/DOCS/CU-QMW-MA-0008/index.html</URL>
             <Description>AMPTE UKS/IRM mission, instrument and parameter description</Description>
-</InformationURL>
+         </InformationURL>-->
          <InformationURL>
             <Name>NSSDC Master Catalog</Name>
             <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1984-088C</URL>
             <Description>NSSDC information about the AMPTE/UKS spacecraft</Description>
-</InformationURL>
+         </InformationURL>
          <PriorID>spase://SMWG/Observatory/AMPTE_UKS</PriorID>
-</ResourceHeader>
+      </ResourceHeader>
       <ObservatoryGroupID>spase://SMWG/Observatory/AMPTE</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
          <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
          <ObservatoryRegion>Earth.Magnetosphere.Magnetotail</ObservatoryRegion>
          <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
-</Location>
+      </Location>
       <OperatingSpan>
          <StartDate>1984-08-16T00:00:00.999</StartDate>
-         <StopDate>9999-12-31T23:59:59.999</StopDate>
-</OperatingSpan>
-</Observatory>
+         <StopDate>1985-01-15T23:59:59.999</StopDate>
+      </OperatingSpan>
+   </Observatory>
 </Spase>
