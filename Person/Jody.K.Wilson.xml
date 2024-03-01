@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.6.0.xsd">
+   <Version>2.6.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Jody.K.Wilson</ResourceID>
+      <OrganizationName>University of New Hampshire </OrganizationName>
+      <Address>Space Science Center, Morse Hall, Durham, NH 03824</Address>
+      <Email>jody.wilson@unh.edu</Email>
+      <PhoneNumber>(603) 862-0360</PhoneNumber>
+      <ORCIdentifier>0000-0003-1767-117X</ORCIdentifier>
+   </Person>
+</Spase>
