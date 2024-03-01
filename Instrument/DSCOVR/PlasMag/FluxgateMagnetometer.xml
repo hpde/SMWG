@@ -1,31 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
-   <Version>2.4.0</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_6_0.xsd">
+   <Version>2.6.0</Version>
    <Instrument>
       <ResourceID>spase://SMWG/Instrument/DSCOVR/PlasMag/FluxgateMagnetometer</ResourceID>
       <ResourceHeader>
          <ResourceName>DSCOVR PlasMag Fluxgate Magnetometer</ResourceName>
-         <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2024-03-01T00:00:00</ReleaseDate>
          <RevisionHistory>
             <RevisionEvent>
                <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
                <Note>DSCOVR Instruments: Update obsolete www.nesdis.noaa.gov URL. Metadata submitted by J.M. Weygand on 2022-02-11, reviewed by LFB</Note>
+            </RevisionEvent>
+            <RevisionEvent>
+               <ReleaseDate>2024-03-01T00:00:00</ReleaseDate>
+               <Note>Corrected Contact list, metadata versioned up to SPASE 2.6.0, AK</Note>
             </RevisionEvent>
          </RevisionHistory>
          <Description>The PlasMag (Plasma Magnetometer) instrument suite of NASA/GSFC and MIT (Massachusetts Institute of Technology) is a comprehensive science and space-weather package that includes a fluxgate vector magnetometer, not present on SOHO, a Faraday Cup solar wind positive ion detector and a top-hat electron electrostatic analyzer. This instrument cluster provides high time resolution measurements in real time and represents the next generation of upstream solar wind monitors intended to provide continuity of measurements started by IMP-8, WIND, SOHO and ACE. 56).
 
 Fluxgate Magnetometer: The magnetometer is a triaxial fluxgate magnetometer that measures the three dimensional magnetic field vector of the solar wind with a sensitivity level of better than 0.1 nanoTesla at a very high time resolution of 0.02 seconds.</Description>
          <Contact>
-            <PersonID>spase://SMWG/Person/Justin.C.Kasper</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Michael.L.Stevens</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Anthony.W.Case</PersonID>
-            <Role>PrincipalInvestigator</Role>
+            <PersonID>spase://SMWG/Person/Andriy.Koval</PersonID>
+            <Role>InstrumentScientist</Role>
          </Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
