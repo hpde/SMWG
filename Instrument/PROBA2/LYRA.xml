@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.3</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_6_0.xsd">
+    <Version>2.6.0</Version>
     <Instrument>
         <ResourceID>spase://SMWG/Instrument/PROBA2/LYRA</ResourceID>
         <ResourceHeader>
-            <ResourceName>Proba 2 Sun Watcher using APS detectors and Image Processing (SWAP)</ResourceName>
-            <ReleaseDate>2015-06-15T00:00:00Z</ReleaseDate>
+            <ResourceName>Proba 2 Large Yield RAdiometer (LYRA)</ResourceName>
+            <ReleaseDate>2024-04-09T00:00:00Z</ReleaseDate>
+            <RevisionHistory>
+                <RevisionEvent>
+                    <ReleaseDate>2024-04-09T00:00:00</ReleaseDate>
+                    <Note>Corrected ResourceName, AK</Note>
+                </RevisionEvent>
+            </RevisionHistory>
             <Description> The Large Yield RAdiometer (LYRA) is a solar X and UV filter photometer that monitors the solar irradiance in four selected ultraviolet bands: the Lyman-alpha line at 121.6 nm, the 200-220 nm Herzberg continuum range, the 17-80 nm aluminium filter range and the 6-20 nm zirconium filter range.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Marie.Dominique</PersonID>
