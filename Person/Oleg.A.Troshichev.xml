@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
+   <Version>2.6.0</Version>
    <Person>
       <ResourceID>spase://SMWG/Person/Oleg.A.Troshichev</ResourceID>
-      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+      <ReleaseDate>2024-05-03T12:34:56.789</ReleaseDate>
       <PersonName>Oleg A. Troshichev</PersonName>
-      <OrganizationName>Arctic and Antarctic Research Institute, St. Petersburg</OrganizationName>
-      <Address>Arctic and Antarctic Research Institute, 38 Bering Street, St Petersburg 199397, Russia</Address>
+      <OrganizationName>Arctic and Antarctic Research Institute</OrganizationName>
+      <Address>38 Bering Street, St. Petersburg 199397, Russia</Address>
       <Email>olegtro@aari.nw.ru</Email>
+      <PhoneNumber>+7 812 352 1149</PhoneNumber>
+      <ORCIdentifier>0000-0002-7887-9831</ORCIdentifier>
    </Person>
 </Spase>
