@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_6_0.xsd">
+  <Version>2.6.0</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/William.R.Coley</ResourceID>
     <PersonName>Dr. William R. Coley</PersonName>
     <OrganizationName>University of Texas at Dallas</OrganizationName>
+    <Email>coley@utdallas.edu</Email>
   </Person>
 </Spase>
