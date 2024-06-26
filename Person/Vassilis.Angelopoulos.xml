@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_6_1.xsd">
+   <Version>2.6.1</Version>
    <Person>
       <ResourceID>spase://SMWG/Person/Vassilis.Angelopoulos</ResourceID>
-      <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
+      <ReleaseDate>2024-06-26T12:34:56.789</ReleaseDate>
       <PersonName>Vassilis Angelopoulos</PersonName>
       <OrganizationName>University of California, Los Angeles</OrganizationName>
       <Address>2712A Geology Building, Institute of Geophysics and Planetary Physics, University of California Los Angeles, Box 951567, Los Angeles, CA 90095-1567</Address>

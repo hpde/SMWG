@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_6_1.xsd">
+   <Version>2.6.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/James.King</ResourceID>
+      <ReleaseDate>2024-06-26T12:34:56.789</ReleaseDate>
+      <PersonName>James King</PersonName>
+      <OrganizationName>Department of Earth Planetary, and Space Science, University of California, Los Angeles</OrganizationName>
+      <Address>University of California Los Angeles, Box 951567, Los Angeles, CA 90095-1567</Address>
+   </Person>
+</Spase>
