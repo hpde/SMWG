@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_6_1.xsd">
+   <Version>2.6.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Donald.M.Hassler</ResourceID>
+      <ReleaseDate>2024-07-08T12:34:56.789</ReleaseDate>
+      <PersonName>Donald M Hassler</PersonName>
+      <OrganizationName>Instrumentation and Space Research Division Southwest Research Institute</OrganizationName>
+      <Address>1301 Walnut Street, Suite 400. Boulder, CO 80302</Address>
+   </Person>
+</Spase>
