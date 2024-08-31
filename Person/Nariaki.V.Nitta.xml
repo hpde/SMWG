@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_6_1.xsd">
+   <Version>2.6.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Nariaki.V.Nitta</ResourceID>
+      <PersonName>Nariaki V. Nitta</PersonName>
+      <OrganizationName>Lockheed Martin Solar and Astrophysics Laboratory (LMSAL)</OrganizationName>
+      <Email>nitta@lmsal.com</Email>
+      <ORCIdentifier>0000-0001-6119-0221</ORCIdentifier>
+   </Person>
+</Spase>
