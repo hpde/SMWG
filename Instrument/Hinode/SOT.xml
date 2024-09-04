@@ -1,31 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_2.xsd">
-  <Version>2.0.2</Version>
-  <Instrument>
-    <ResourceID>spase://SMWG/Instrument/Hinode/SOT</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Solar Optical Telescope</ResourceName>
-      <ReleaseDate>2014-07-24T20:37:21Z</ReleaseDate>
-      <Description>The Solar Optical telescope on Hinode consists 
-of a main 50cm aperture telescope and a CCD-based focal plane package.  
-SOT is optimized for accurate measurement of the vector magnetic field 
-in the photosphere and the dynamics of both the photosphere and 
-chromosphere associated with the magnetic fields.  SOT obtains 
-diffraction-limited images (0.2-0.3") in the 388-668 nm range.  
-Pointing stability is maintained at &lt; 0.09" in 3 sigma.</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Saku.Tsuneta</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-      <InformationURL>
-        <Name>NAOJ Hinode site</Name>
-        <URL>http://hinode.nao.ac.jp/index_e.shtml</URL>
-        <Description>National Astronomical Observatory of Japan web site 
-for Hinode mission, instruments, etc.</Description>
-      </InformationURL>
-    </ResourceHeader>
-    <InstrumentType>Imager</InstrumentType>
-    <InvestigationName>solar Optical Telescope</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/Hinode</ObservatoryID>
-  </Instrument>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_6_1.xsd">
+   <Version>2.6.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Hinode/SOT</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Solar Optical Telescope</ResourceName>
+         <ReleaseDate>2014-07-24T20:37:21Z</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2024-08-26T13:50:46</ReleaseDate>
+               <Note>modify fields to include up-to-date information (by MDR)</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The Solar Optical Telescope (SOT) is a diffraction-limited, visible light telescope that provides the unparalleled combination of uninterrupted temporal coverage (free from atmospheric seeing, weather, and nighttime), high cadence (as short as 1.6s), and 0.2″ spatial resolution over a significant 328″×164″ field of view (FOV). SOT is comprised of the Focal Plane Package (FPP), which is fed by the 0.5-meter Optical Telescope Assembly (OTA). The FPP consists of the Spectro-Polarimeter (SP) and (up to 2016) the Narrowband and Broadband Filter Imagers (NFI and BFI) that comprise the FilterGraph (FG). The combined SOT system allows measurements of the vector magnetic field in the photosphere with unprecedented sensitivity (10× better than previous instrumentation), while simultaneously observing the effects of these fields on the dynamics of both the photosphere and chromosphere.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Yukio.Katsukawa</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Marc.L.DeRosa</PersonID>
+            <Role>CoPI</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Saku.Tsuneta</PersonID>
+            <Role>FormerPI</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Ted.D.Tarbell</PersonID>
+            <Role>FormerPI</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Hinode/SOT (NAOJ)</Name>
+            <URL>https://hinode.nao.ac.jp/en/for-researchers/instruments/sot/</URL>
+            <Description>National Astronomical Observatory of Japan web site for Hinode/SOT instrument</Description>
+            <Language>English</Language>
+         </InformationURL>
+         <InformationURL>
+            <Name>Hinode/SOT (LMSAL)</Name>
+            <URL>https://sot.lmsal.com/</URL>
+            <Description>Lockheed Martin web site for Hinode/SOT instrument</Description>
+            <Language>English</Language>
+         </InformationURL>
+         <InformationURL>
+            <Name>The Hinode/SOT Instrument paper</Name>
+            <URL>https://doi.org/10.1007/s11207-008-9174-z</URL>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Imager</InstrumentType>
+      <InvestigationName>Solar Optical Telescope</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2006-09-22T21:36:00</StartDate>
+         <Note>currently operational</Note>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/Hinode</ObservatoryID>
+   </Instrument>
 </Spase>
