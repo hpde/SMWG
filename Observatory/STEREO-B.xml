@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.8</Version>
-  <Observatory>
-    <ResourceID>spase://SMWG/Observatory/STEREO-B</ResourceID>
-    <ResourceHeader>
-      <ResourceName>STEREO B</ResourceName>
-      <AlternateName>STEREO Behind</AlternateName>
-      <AlternateName>STEREO West</AlternateName>
-      <AlternateName>Solar Terrestrial Relations Observatory B</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
-      <Description>The Solar-Terrestrial Relations Observatory (STEREO) mission includes two spacecraft respectively lagging (STEREO A) and leading (STEREO B) the Earth in heliocentric orbit around the Sun for remote 3-D imaging and radio observations of coronal mass ejections (CMEs). These events are responsible for large solar energetic particle events in interplanetary space and are the primary cause of major geomagnetic storms at Earth. The two spacecraft are launched to drift slowly away from the Earth in opposite directions at about 10 degrees per year for the lagging spacecraft and 20 degrees per year for the leading one. Optimal longitudinal separation of about sixty degrees is achieved after two years. Afterwards the separation gradually increases beyond the design lifetime of two years with the possibility of extended mission observations at larger angles. Science instruments selected for STEREO include the Sun Earth Connection Coronal and Heliospheric Investigation (SECCHI) for extreme ultraviolet (EUV), white-light coronographic, and heliospheric imaging, the STEREO/WAVES (SWAVES) interplanetary radio burst tracker, the In situ Measurements of Particles and CME Transients (IMPACT) investigation for in-situ sampling the 3-D distribution and plasma characteristics of solar energetic particles and the interplanetary magnetic field, and the PLAsma and SupraThermal Ion and Composition (PLASTIC) experiment to measure elemental and charge composition of ambient and CME plasma ions. STEREO data recorded and stored onboard each spacecraft will be downlinked through the NASA Deep Space Network on a daily schedule. Real-time space weather data will be continuously transmitted through a separate beacon system to NASA and non-NASA receiving stations.</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Joseph.B.Gurman</PersonID>
-        <Role>ProjectScientist</Role>
-</Contact>
-      <InformationURL>
-        <Name>STEREO Project Page</Name>
-        <URL>https://stereo.gsfc.nasa.gov/</URL>
-        <Description>Project home page</Description>
-</InformationURL>
-      <InformationURL>
-        <Name>NSSDC's Master Catalog</Name>
-        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2006-047B</URL>
-        <Description>Information about the STEREO B mission</Description>
-</InformationURL>
-      <PriorID>spase://vspo/observatory/140</PriorID>
-</ResourceHeader>
-    <ObservatoryGroupID>spase://SMWG/Observatory/STEREO</ObservatoryGroupID>
-    <Location>
-      <ObservatoryRegion>Heliosphere.Remote1AU</ObservatoryRegion>
-</Location>
-</Observatory>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_6_1.xsd">
+   <Version>2.6.1</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/STEREO-B</ResourceID>
+      <ResourceHeader>
+         <ResourceName>STEREO B</ResourceName>
+         <AlternateName>STEREO Behind</AlternateName>
+         <AlternateName>STEREO West</AlternateName>
+         <AlternateName>Solar Terrestrial Relations Observatory B</AlternateName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <Description>The Solar-Terrestrial Relations Observatory (STEREO) mission includes two spacecraft respectively lagging (STEREO A) and leading (STEREO B) the Earth in heliocentric orbit around the Sun for remote 3-D imaging and radio observations of coronal mass ejections (CMEs). These events are responsible for large solar energetic particle events in interplanetary space and are the primary cause of major geomagnetic storms at Earth. The two spacecraft are launched to drift slowly away from the Earth in opposite directions at about 10 degrees per year for the lagging spacecraft and 20 degrees per year for the leading one. Optimal longitudinal separation of about sixty degrees is achieved after two years. Afterwards the separation gradually increases beyond the design lifetime of two years with the possibility of extended mission observations at larger angles. Science instruments selected for STEREO include the Sun Earth Connection Coronal and Heliospheric Investigation (SECCHI) for extreme ultraviolet (EUV), white-light coronographic, and heliospheric imaging, the STEREO/WAVES (SWAVES) interplanetary radio burst tracker, the In situ Measurements of Particles and CME Transients (IMPACT) investigation for in-situ sampling the 3-D distribution and plasma characteristics of solar energetic particles and the interplanetary magnetic field, and the PLAsma and SupraThermal Ion and Composition (PLASTIC) experiment to measure elemental and charge composition of ambient and CME plasma ions. STEREO data recorded and stored onboard each spacecraft will be downlinked through the NASA Deep Space Network on a daily schedule. Real-time space weather data will be continuously transmitted through a separate beacon system to NASA and non-NASA receiving stations.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Therese.A.Kucera</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <InformationURL>
+            <Name>STEREO Project Page</Name>
+            <URL>https://stereo.gsfc.nasa.gov/</URL>
+            <Description>Project home page</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>NSSDC&#039;s Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2006-047B</URL>
+            <Description>Information about the STEREO B mission</Description>
+         </InformationURL>
+         <PriorID>spase://vspo/observatory/140</PriorID>
+      </ResourceHeader>
+      <ObservatoryGroupID>spase://SMWG/Observatory/STEREO</ObservatoryGroupID>
+      <Location>
+         <ObservatoryRegion>Heliosphere.Remote1AU</ObservatoryRegion>
+      </Location>
+   </Observatory>
 </Spase>
