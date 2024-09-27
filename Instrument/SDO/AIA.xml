@@ -6,18 +6,27 @@
       <ResourceHeader>
          <ResourceName>Atmospheric Imaging Assembly (AIA)</ResourceName>
          <ReleaseDate>2010-10-04T20:54:57Z</ReleaseDate>
-         <Description>The SDO (Solar Dynamics Observatory) AIA (Atmospheric Imaging Assembly) is a battery of four telescopes 
-designed to image the dynamic solar atmosphere in multiple different wavelengths to link changes in the surface to those in the interior. Data will include images of the Sun that span at least 1.3 solar diameters in 10 wavelengths (7 EUV and 3 UV-visible channels) nearly simultaneously, at a resolution of about 1 arcsec and at a cadence of 10 seconds or better.</Description>
+         <Description>The Atmospheric Imaging Assembly (AIA) onboard Solar Dynamics Observatory (SDO) focuses on the evolution of the magnetic environment in the Sun’s atmosphere, and its interaction with embedded and surrounding plasma. The AIA investigation covers a broad range of science objectives that focus on five core research themes that both advance solar and heliospheric physics in general and provide advanced warning of coronal and inner-heliospheric disturbances of interest to the Living With a Star (LWS) program, i.e., global change, space weather, human exploration of space, and technological infrastructure in space and on Earth.
+
+AIA provides the following essential capabilities: i) A view of the entire Sun in 4k x 4k resolution (pixel size of 0.6 arcseconds), with full thermal coverage of the corona; ii) A high signal-to-noise ratio for two- to three-second exposures that reaches 100 in quiescent conditions for the low-temperature coronal-imaging channels and during flaring in the higher-temperature channels, with a dynamic range of up to 10,000; iii) Essentially uninterrupted viewing for months at a temporal cadence of 12 seconds in seven extreme UV (EUV) band passes (94, 131, 171, 193, 211, 304 and 335 Å), and 24 seconds for two UV channels (1600 and 1700 Å) band passes; iv) In special observing modes, AIA can capture images of the Sun at higher cadence while keeping within the instrument allocated telemetry by using a subset of bandpass channels, and/or using a crop table.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Meng.Jin</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+        <Contact>
+            <PersonID>spase://SMWG/Person/Mark.C.M.Cheung</PersonID>
+            <Role>FormerPI</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Karel.Schrijver</PersonID>
+            <Role>FormerPI</Role>
+         </Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Alan.M.Title</PersonID>
             <Role>FormerPI</Role>
          </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Mark.C.M.Cheung</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
          <InformationURL>
-            <Name>AIA web site at Lockheed</Name>
+            <Name>The AIA website at the PI Institute</Name>
             <URL>http://aia.lmsal.com/</URL>
          </InformationURL>
          <InformationURL>
