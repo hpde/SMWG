@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_6_0.xsd">
-  <Version>2.6.0</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_6_1.xsd">
+  <Version>2.6.1</Version>
   <Document>
     <ResourceID>spase://SMWG/Document/SPASE/DataModel/BaseModel</ResourceID>
     <ResourceHeader>
@@ -44,6 +44,10 @@
           <ReleaseDate>2023-08-03T00:00:00.000Z</ReleaseDate>
           <Note>Release 2.6.0. Merged the Simulation 1.0.0 SPASE Model Extensions with the SPASE 2.5.0 Base Model. Four simulation related SPASE resource types added: Model, ModelRun, DisplayOutput, and NumericalOutput. Updated the Description of Current under FieldQuantity and Added Current under ParticleQuantity. Added CurrentDensity under both FieldQuantity and ParticleQuantity. Added the Comet Enumeration List including three members. Added AccessInformtion to the Software SPASE resource type. Added AccessFilenameTemplate and AccessDirectoryTemplate to AccessInformation. Added AccessInformationOptional to the schema and under Model. Added Empirical under the ModelType enumeration list.</Note>
         </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2024-09-19T00:00:00.000Z</ReleaseDate>
+          <Note>Release 2.6.1. Updated SPASE Dictionary definitions for Acknowledgement, AssociationType, Author, Authors, DirectionAngle, Encoding, FlowSpeed, FlowVelocity, Format, MagneticCloud, PublicationDate, ReleaseDate, ResourceName, Style, and ThermalSpeed. Added SPASE Dictionary definitions for LocalGeographic, LocalGeomagnetic, and SensorCoordinates and added these terms to the CoordinateSystemName enumeration list. Added SPASE Dictionary definition for StonyhurstHeliographic and added this term to the CoordinateSystemName enumeration list per request of Masahito Nose-san. Added SPASE Dictionary definitions for AOGCM, GCM, and NonHydrostatic and added these terms to the ModelType enumeration list. Updated SPASE Dictionary definition for Electrohydrodynamics and revised the name of the term by deleting the last character, the terminal s, to maintain consistancy with other terms in ModelType enumeration list. Added SPASE Dictionary definition for InterplanetaryCoronalMassEjection and added this term to the PhenomenonType enumeration list. Corrected SPASE Ontology listing of the Cardinality for RepositoryID under AccessInformationOptional to replace the letter r with the number 1 (required). Updated the SPASE Ontology listing of the Cardinality for SpatialCoverage under DisplayData and Granule from + (1 or more) to * (0 or more). Updated the SPASE Ontology listing of the Cardinality for SpatialCoverage under Member and Parameter from 0 (optional) to * (0 or more). Updated the SPASE Ontology listing of the Cardinality for OperatingSpan under Observatory from + (1 or more) to * (0 or more). Updated the SPASE Ontology listing of the Cardinality for OperatingSpan under Instrument from 0 (optional) to * (0 or more). Updated the SPASE Ontology listing of the Cardinality for ModelType under Model from 1 (required) to + (1 or more). Added SPASE Dictionary definitions for SourceRegion and SourceRegionExtent and added these to text fields to the end of the Particle and the Wave containers each with * cardinality (0 or more). Added SPASE Dictionary definition for Lidar and added this term to the InstrumentType enumeration list.Added SPASE Dictionary definition for Muon annnd added it to the ParticleType enumeration list.</Note>
+        </RevisionEvent>
       </RevisionHistory>
       <Description>Research in Heliophysics requires information from multiple sources which includes data from and about spacecrafts, groundbased observatories, models, simulations and more. The results from research are also invaluable in building up a body of knowledge and need to be available. All the different sources and types of information are considered a &quot;Resource&quot; The Resources exist, are shared, exchanged and used in a framework called the &quot;data environment&quot; The SPASE (Space Physics Archive Search and Extract) group has defined a Data Model which is a set of terms and values along with the relationships between them that allow describing all the resources in a heliophysics data environment. It is the result of many years of effort by an international collaboration of heliophysicists and information scientists to unify and improve on existing Space and Solar Physics data models. The intent of this Data Model is to provide the means to describe resources, most importantly scientifically useful data products, in a uniform way so they may be easily registered, found, accessed, and used.
 
@@ -58,20 +62,24 @@ The Data Model provides enough detail to allow a scientist to understand the con
         <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
         <Role>Publisher</Role>
       </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
     </ResourceHeader>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/SPASE</RepositoryID>
       <AccessURL>
-        <Name>PDF</Name>
-        <URL>https://spase-group.org/data/model/spase-2.6.0.pdf</URL>
+        <Name>SPASE Base Model Description, released 2024-09-19</Name>
+        <URL>https://spase-group.org/data/model/spase-2.6.1.pdf</URL>
       </AccessURL>
       <Format>PDF</Format>
     </AccessInformation>
     <AccessInformation>
       <RepositoryID>spase://SMWG/Repository/SPASE</RepositoryID>
       <AccessURL>
-        <Name>XML Schema</Name>
-        <URL>https://spase-group.org/data/schema/spase-2.6.0.xsd</URL>
+        <Name>SPASE Base Model XML Schema Definition, XSD, File2024-09-19</Name>
+        <URL>https://spase-group.org/data/schema/spase-2.6.1.xsd</URL>
       </AccessURL>
       <Format>XML</Format>
     </AccessInformation>
