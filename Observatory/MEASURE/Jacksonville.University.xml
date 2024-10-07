@@ -1,12 +1,18 @@
 <?xml version="1.0"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.6.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/MEASURE/Jacksonville.University</ResourceID>
     <ResourceHeader>
       <ResourceName>The Jacksonville University Geomagnetic Observatory.</ResourceName>
       <ReleaseDate>2010-08-05T18:21:59Z</ReleaseDate>
-      <Description>The Jacksonville University (JAX) Geomagnetic Observatory.</Description>
+	  <RevisionHistory>
+	     <RevisionEvent>
+            <ReleaseDate>2024-10-07T12:34:56.789</ReleaseDate>
+            <Note>Added StartDate and StopDate Information. Updated metadata to 2.6.1. JMW.</Note>
+         </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Jacksonville University (JAX) Geomagnetic Observatory. Jacksonville University, Jacksonville, FL.</Description>
       <Acknowledgement>Please acknowledge Mark Moldwin, Institute of Geophysics and Planetary Physics and the Department of Earth and Space Sciences, University of California, Los Angeles, Los Angeles, CA 90095-1567 for providing access to Jacksonville University data resources.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Mark.Moldwin</PersonID>
@@ -16,10 +22,14 @@
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
       </Contact>
+	  <Contact>
+        <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
       <InformationURL>
-        <Name>The Jacksonville University geomagnetic observatory web site.</Name>
-        <URL>http://www-ssc.igpp.ucla.edu/gem/worldmag/measure.html</URL>
-        <Description>The Jacksonville University geomagnetic observatory web site.</Description>
+        <Name>The Jacksonville University geomagnetic observatory information.</Name>
+        <URL>https://doi.org/10.1029/2004JA010684</URL>
+        <Description>The Jacksonville University geomagnetic observatory information.</Description>
       </InformationURL>
     </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/MEASURE</ObservatoryGroupID>
@@ -29,5 +39,9 @@
       <Latitude>30.350</Latitude>
       <Longitude>-81.600</Longitude>
     </Location>
+	<OperatingSpan>
+      <StartDate>1999-01-04T00:00:00</StartDate>
+      <StopDate>2003-07-24T23:59:59</StopDate>
+    </OperatingSpan>
   </Observatory>
 </Spase>
