@@ -58,7 +58,7 @@ jobs:
 
       # Upload logs
       - name: Upload log artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: validate-log
           path: logs/validate.log
