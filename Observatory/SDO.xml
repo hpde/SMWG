@@ -7,35 +7,9 @@
       <ResourceName>SDO</ResourceName>
       <AlternateName>Solar Dynamics Observatory</AlternateName>
       <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
-      <Description>SDO (Solar Dynamics Observatory) is the first in a
-series of missions in the Living With a Star program. The spacecraft
-is three-axis-stabilized, sun-pointing, in an inclined (28 degree)
-geosynchronous orbit. The mission's primary goal is to understand and,
-ideally, predict the solar variations that influence life on Earth and
-humanity's technological systems. SDO will do this by determining how
-the Sun's magnetic field is generated and structured and how this
-stored magnetic energy is converted and released into the heliosphere
-and geospace in the form of solar wind, energetic particles, and
-variations in the solar brightness.
-
-The spacecraft carries three instruments: the Atmospheric Imaging
-Assembly (AIA), the Extreme Ultraviolet Variability Experiment (EVE),
-and the Helioseismic and Magnetic Imager (HMI). AIA images the dynamic
-solar atmosphere in multiple wavelengths to link changes in the surface
-to those in the interior. EVE measures the solar extreme ultraviolet
-irradiance variations based on the sun's magnetic features. It helps
-scientists to understand the Sun's role in driving the outer atmosphere
-of Earth. HMI studies the origin of solar variability by characterizing
-and developing an understanding of the sun's interior and the various
-components of its magnetic activity. It extends the capabilities of the
-SOHO/MDI instrument to continuous full-disk coverage at higher spatial
-resolution and vector magnetograms.
-
-The combined data rate is about 130 Mbit/s (150 Mbit/s with overhead,
-or 300 Msymbols/s with rate 1/2 convolutional encoding), and the craft
-will generate approximately 1.5 terabytes of data per day. The prime
-mission is planned for five years. SDO was successfully launched on
-11Feb2010.
+      <Description>SDO (Solar Dynamics Observatory) is the first in a series of missions in the Living With a Star program. The spacecraft is three-axis-stabilized, sun-pointing, in an inclined (28 degree) geosynchronous orbit. The mission's primary goal is to understand and, ideally, predict the solar variations that influence life on Earth and humanity's technological systems. SDO will do this by determining how the Sun's magnetic field is generated and structured and how this stored magnetic energy is converted and released into the heliosphere and geospace in the form of solar wind, energetic particles, and variations in the solar brightness.
+The spacecraft carries three instruments: the Atmospheric Imaging Assembly (AIA), the Extreme Ultraviolet Variability Experiment (EVE), and the Helioseismic and Magnetic Imager (HMI). AIA images the dynamic solar atmosphere in multiple wavelengths to link changes in the surface to those in the interior. EVE measures the solar extreme ultraviolet irradiance variations based on the sun's magnetic features. It helps scientists to understand the Sun's role in driving the outer atmosphere of Earth. HMI studies the origin of solar variability by characterizing and developing an understanding of the sun's interior and the various components of its magnetic activity. It extends the capabilities of the SOHO/MDI instrument to continuous full-disk coverage at higher spatial resolution and vector magnetograms.
+The combined data rate is about 130 Mbit/s (150 Mbit/s with overhead, or 300 Msymbols/s with rate 1/2 convolutional encoding), and the craft will generate approximately 1.5 terabytes of data per day. The prime mission is planned for five years. SDO was successfully launched on 11Feb2010. 
 </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/W.Dean.Pesnell</PersonID>
