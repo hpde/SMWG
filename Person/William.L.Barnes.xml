@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_6_1.xsd">
+  <Version>2.6.1</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/William.L.Barnes</ResourceID>
+	<ReleaseDate>2025-03-25T17:35:46Z</ReleaseDate>
     <PersonName>Dr. William L. Barnes</PersonName>
-    <OrganizationName>GSFC-Code 970</OrganizationName>
+    <OrganizationName>NASA Goddard Space Flight Center GSFC-Code 970</OrganizationName>
   </Person>
 </Spase>
