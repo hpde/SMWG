@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Ivan.A.Galkin</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
-    <PersonName>Dr. Ivan A. Galkin</PersonName>
-    <OrganizationName>University of Massachusetts Lowell, Center for Atmospheric Research</OrganizationName>
-    <Address>600 Suffolk Street, Lowell, MA 01851 U.S.A.&gt;</Address>
-    <Email>Ivan_Galkin@uml.edu</Email>
-    <PhoneNumber>978-934-4912</PhoneNumber>
-  </Person>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Ivan.A.Galkin</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <ReleaseDate>2025-03-05T12:34:56.789Z</ReleaseDate>
+      <PersonName>Ivan A. Galkin</PersonName>
+      <OrganizationName>Center for Atmospheric Research, University of Massachusetts Lowell</OrganizationName>
+      <Address>600 Suffolk Street, Lowell, MA 01851 U.S.A.&gt;</Address>
+      <Email>Ivan_Galkin@uml.edu</Email>
+      <PhoneNumber>978-934-4912</PhoneNumber>
+      <RORIdentifier>03hamhx47</RORIdentifier>
+   </Person>
 </Spase>

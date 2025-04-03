@@ -1,14 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.6.0</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
    <Person>
       <ResourceID>spase://SMWG/Person/Oleg.A.Troshichev</ResourceID>
-      <ReleaseDate>2024-05-03T12:34:56.789</ReleaseDate>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <ReleaseDate>2025-03-05T12:34:56.789Z</ReleaseDate>
       <PersonName>Oleg A. Troshichev</PersonName>
-      <OrganizationName>Arctic and Antarctic Research Institute</OrganizationName>
+      <OrganizationName>Arctic and Antarctic Research Institute, St. Petersburg</OrganizationName>
       <Address>38 Bering Street, St. Petersburg 199397, Russia</Address>
       <Email>olegtro@aari.nw.ru</Email>
       <PhoneNumber>+7 812 352 1149</PhoneNumber>
       <ORCIdentifier>0000-0002-7887-9831</ORCIdentifier>
+      <RORIdentifier>i051w7zc95</RORIdentifier>
    </Person>
 </Spase>

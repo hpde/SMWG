@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Nelson.C.Maynard</ResourceID>
-    <PersonName>Dr. Nelson C. Maynard</PersonName>
-    <OrganizationName>Mission Research Corporation</OrganizationName>
-  </Person>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Nelson.C.Maynard</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <PersonName>Nelson C. Maynard</PersonName>
+      <OrganizationName>Mission Research Corporation, Nashua, New Hampshire</OrganizationName>
+      <RORIdentifier>01rmh9n78</RORIdentifier>
+   </Person>
 </Spase>

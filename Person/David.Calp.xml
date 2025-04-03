@@ -1,14 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
    <Person>
       <ResourceID>spase://SMWG/Person/David.Calp</ResourceID>
-      <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <ReleaseDate>2025-03-05T12:34:56.789Z</ReleaseDate>
       <PersonName>David Calp</PersonName>
       <OrganizationName>Natural Resources Canada</OrganizationName>
       <Address>2617 Anderson Road, 1st Floor, Room 12A Ottawa, ON Canada K1A 0Y3</Address>
       <Email>david.calp@nrcan-rncan.gc.ca</Email>
       <PhoneNumber>+613 837 1757</PhoneNumber>
       <FaxNumber>+613 824 9803</FaxNumber>
+      <RORIdentifier>05hepy730</RORIdentifier>
    </Person>
 </Spase>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/John.W.Bonnell</ResourceID>
-    <PersonName>John W. Bonnell</PersonName>
-    <OrganizationName>University of California, Berkeley</OrganizationName>
-    <Address>University of California, Berkeley Space Sciences Lab 7 Gauss Way Berkeley, CA 94720-7450, Annex 7</Address>
-    <Email>jbonnell@ssl.berkeley.edu</Email>
-    <PhoneNumber>510-642-0852</PhoneNumber>
-  </Person>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/John.W.Bonnell</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <PersonName>John W. Bonnell</PersonName>
+      <OrganizationName>University of California, Berkeley</OrganizationName>
+      <Address>University of California, Berkeley Space Sciences Lab 7 Gauss Way Berkeley, CA 94720-7450, Annex 7</Address>
+      <Email>jbonnell@ssl.berkeley.edu</Email>
+      <PhoneNumber>510-642-0852</PhoneNumber>
+      <RORIdentifier>01an7q238</RORIdentifier>
+   </Person>
 </Spase>

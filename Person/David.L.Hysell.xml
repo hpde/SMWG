@@ -1,13 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
-   <Version>2.3.0</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
    <Person>
       <ResourceID>spase://SMWG/Person/David.L.Hysell</ResourceID>
-      <ReleaseDate>2019-06-09T12:34:56.789</ReleaseDate>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <ReleaseDate>2025-03-05T12:34:56.789Z</ReleaseDate>
       <PersonName>David L. Hysell</PersonName>
-      <OrganizationName>Earth and Atmospheric Sciences, College of Agriculture and Life Science, College of Engineering</OrganizationName>
+      <OrganizationName>Earth and Atmospheric Sciences, College of Agriculture and Life Science, College of Engineering, Cornell University</OrganizationName>
       <Address>3114 Snee Hall, Cornell University, Ithaca, NY 14853</Address>
       <Email>david.hysell@cornell.edu</Email>
       <PhoneNumber>+1 607 255 0630</PhoneNumber>
+      <RORIdentifier>05bnh6r87</RORIdentifier>
    </Person>
 </Spase>

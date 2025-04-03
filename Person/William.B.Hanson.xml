@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/William.B.Hanson</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-    <PersonName>Prof. William B. Hanson</PersonName>
-    <OrganizationName>Deceased - formerly Director, CSS, U Texas, Dallas</OrganizationName>
-  </Person>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/William.B.Hanson</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <ReleaseDate>2025-03-05T12:34:56.789Z</ReleaseDate>
+      <PersonName>William B. Hanson</PersonName>
+      <OrganizationName>Deceased - formerly Director, William B. Hanson Center for Space Sciences, University of Texas at Dallas</OrganizationName>
+      <RORIdentifier>049emcs32</RORIdentifier>
+   </Person>
 </Spase>

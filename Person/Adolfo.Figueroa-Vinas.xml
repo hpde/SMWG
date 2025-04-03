@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Adolfo.Figueroa-Vinas</ResourceID>
-    <ReleaseDate>2011-07-26T20:32:21Z</ReleaseDate>
-    <PersonName>Adolfo Figueroa-Vinas</PersonName>
-    <OrganizationName>Goddard Space Flight Center</OrganizationName>
-    <Email>Adolfo.Figueroa-Vinas-1@nasa.gov</Email>
-  </Person>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Adolfo.Figueroa-Vinas</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <ReleaseDate>2025-03-05T12:34:56.789Z</ReleaseDate>
+      <PersonName>Adolfo Figueroa-Vinas</PersonName>
+      <OrganizationName>NASA Goddard Space Flight Center</OrganizationName>
+      <Email>Adolfo.Figueroa-Vinas-1@nasa.gov</Email>
+      <RORIdentifier>0171mag52</RORIdentifier>
+   </Person>
 </Spase>

@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-    <Version>2.2.2</Version>
-    <Person>
-        <ResourceID>spase://SMWG/Person/George.Gloeckler</ResourceID>
-        <ReleaseDate>2011-06-15T00:00:00</ReleaseDate>
-        <PersonName>Prof. George M. Gloeckler</PersonName>
-        <OrganizationName>University of Michigan</OrganizationName>
-        <Email>gglo@umich.edu</Email>
-    </Person>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/George.Gloeckler</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <ReleaseDate>2025-03-05T12:34:56.789Z</ReleaseDate>
+      <PersonName>George M. Gloeckler</PersonName>
+      <OrganizationName>University of Michigan</OrganizationName>
+      <Email>gglo@umich.edu</Email>
+      <RORIdentifier>00jmfr291</RORIdentifier>
+   </Person>
 </Spase>

@@ -1,13 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2-5-0.xsd">
-   <Version>2.5.0</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
    <Person>
       <ResourceID>spase://SMWG/Person/Robert.E.Ergun</ResourceID>
-      <ReleaseDate>2023-03-01T12:34:56.789</ReleaseDate>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <ReleaseDate>2025-03-05T12:34:56.789Z</ReleaseDate>
       <PersonName>Robert E. Ergun</PersonName>
       <OrganizationName>Laboratory for Atmospheric and Space Physics, University of Colorado Boulder</OrganizationName>
       <Address>1234 Innovation Drive, Boulder, CO 80303</Address>
       <Email>bob.ergun@lasp.colorado.edu</Email>
       <ORCIdentifier>0000-0002-3096-8579</ORCIdentifier>
+      <RORIdentifier>01fcjzv38</RORIdentifier>
    </Person>
 </Spase>

@@ -1,14 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
    <Person>
       <ResourceID>spase://SMWG/Person/Claudia.Stolle</ResourceID>
-      <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <ReleaseDate>2025-03-05T12:34:56.789Z</ReleaseDate>
       <PersonName>Claudia Stolle</PersonName>
-      <OrganizationName>DTU Space Institute, National Space Institute</OrganizationName>
+      <OrganizationName>Technical University of Denmark, Space Institute, National Space Institute</OrganizationName>
       <Address>Technical University of Denmark, Juliane Maries vej 30, Building Rockefeller, Room 399, 2100 Kaberhaven, Denmark</Address>
       <Email>cst@space.dtu.dk</Email>
       <PhoneNumber>+45 353 25201</PhoneNumber>
       <FaxNumber>+45 353 62475</FaxNumber>
+      <RORIdentifier>01cyz3n15</RORIdentifier>
    </Person>
 </Spase>

@@ -1,13 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
-   <Version>2.6.0</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
    <Person>
       <ResourceID>spase://SMWG/Person/Liisa.Juusola</ResourceID>
-      <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <ReleaseDate>2025-03-05T12:34:56.789Z</ReleaseDate>
       <PersonName>Liisa Juusola</PersonName>
       <OrganizationName>Finnish Meteorological Institute</OrganizationName>
       <Address>Finnish Meteorological Institute, P.O. Box 503, FI-00101 Helsinki, Finland</Address>
       <Email>liisa.juusola@fmi.fi</Email>
       <PhoneNumber>+358 29 539 4687</PhoneNumber>
+      <RORIdentifier>05hppb561</RORIdentifier>
    </Person>
 </Spase>

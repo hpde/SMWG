@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Nelson.W.Spencer</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-    <PersonName>Dr. Nelson W. Spencer</PersonName>
-    <OrganizationName>Deceased - formerly at GSFC-Code 910</OrganizationName>
-  </Person>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Nelson.W.Spencer</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <ReleaseDate>2025-03-05T12:34:56.789Z</ReleaseDate>
+      <PersonName>Nelson W. Spencer</PersonName>
+      <OrganizationName>Deceased - formerly at NASA Goddard Space Flight Center-Code 910</OrganizationName>
+      <RORIdentifier>0171mag52</RORIdentifier>
+   </Person>
 </Spase>
