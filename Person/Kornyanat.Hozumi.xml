@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Kornyanat.Hozumi</ResourceID>
+      <NamingAuthority>HamSCI</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <PersonName>Kornyanat Hozumi</PersonName>
+      <OrganizationName>The University of Scranton</OrganizationName>
+      <Email>kornyanat.hozumi@scranton.edu</Email>
+      <ORCIdentifier>orcid.org/0000-0002-4745-1023</ORCIdentifier>
+   </Person>
+</Spase>
