@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd"
+ xmlns="http://www.spase-group.org/data/schema">
+    <Version>2.2.2</Version>
+    <Repository>
+        <ResourceID>spase://SMWG/Repository/UML/DIDBase</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Digital Ionogram Database Repository at UML</ResourceName>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+            <Description>
+The DIDBase repository at University of Massachusetts Lowell is a
+relational database holding raw ionogram data and ionogram-derived ionospheric
+characteristics for the Global Ionospheric Radio Observatory (GIRO). Public
+access to the DIDBase resource is arranged via SAO Explorer software available
+at http://umlcar.uml.edu/SAO-X/ and web access portal http://umlcar.uml.edu/DIDBase/
+</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Ivan.A.Galkin</PersonID>
+                <Role>ArchiveSpecialist</Role>
+                <Role>MetadataContact</Role>
+                <Role>ProjectScientist</Role>
+</Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Bodo.W.Reinisch</PersonID>
+                <Role>PrincipalInvestigator</Role>
+</Contact>
+            <InformationURL>
+                <Name>Web page</Name>
+                <URL>https://ulcar.uml.edu/DIDBase/</URL>
+                <Description>Web access portal for DIDBase</Description>
+</InformationURL>
+</ResourceHeader>
+        <AccessURL>
+            <Name>Web page</Name>
+            <URL>https://ulcar.uml.edu/DIDBase/</URL>
+            <Description>Web access portal for DIDBase</Description>
+</AccessURL>
+</Repository>
+</Spase>
