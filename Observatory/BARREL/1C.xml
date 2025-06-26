@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
-   <Version>2.4.0</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
    <Observatory>
       <ResourceID>spase://SMWG/Observatory/BARREL/1C</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Observatory</ResourceType>
       <ResourceHeader>
          <ResourceName>BARREL Balloon 1C</ResourceName>
          <ReleaseDate>2022-04-12T12:34:56.789</ReleaseDate>
@@ -13,7 +15,11 @@
             </RevisionEvent>
             <RevisionEvent>
                <ReleaseDate>2022-04-12T12:34:56.789</ReleaseDate>
-               <Note>SPASE Observatory description updated to include information for all five BARREL campaigns, submitted by LFB</Note>
+               <Note>SPASE Observatory description updated to include information for all BARREL campaigns, submitted by LFB</Note>
+            </RevisionEvent>
+            <RevisionEvent>
+               <ReleaseDate>2025-06-20T12:34:56.789</ReleaseDate>
+               <Note>OperatingSpan StartDate and StopDate updated by utilizing SPDF all.xml date and time information, SPASE description updated to version 2.7.0, 20250620 LFB</Note>
             </RevisionEvent>
          </RevisionHistory>
          <Description>This Document describes BARREL Balloon 1C.
@@ -64,8 +70,8 @@ BARREL is the first NASA Living with a Star, LWS, Geospace Mission of Opportunit
          <ObservatoryRegion>Earth.NearSurface.Stratosphere</ObservatoryRegion>
       </Location>
       <OperatingSpan>
-         <StartDate>2013-01-16T00:00:00.000</StartDate>
-         <StopDate>2013-01-26T23:59:59.999</StopDate>
+         <StartDate>2013-01-16T16:27:52</StartDate>
+         <StopDate>2013-01-26T03:42:19</StopDate>
          <Note>The BARREL Balloon 1C operating span start and stop dates listed here correspond to the time interval spanned from the first and last days that data was obtained by instrumentation mounted on the balloon. The start and stop dates are set equal to the dates embedded in the names of the initial and final Balloon 1C CDF data files, respectively, as hosted by the NASA GSFC Space Physics Data Facility, SPDF.</Note>
       </OperatingSpan>
    </Observatory>

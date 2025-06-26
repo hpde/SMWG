@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
-   <Version>2.4.0</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
    <Observatory>
       <ResourceID>spase://SMWG/Observatory/BARREL/4E</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Observatory</ResourceType>
       <ResourceHeader>
          <ResourceName>BARREL Balloon 4E</ResourceName>
-         <ReleaseDate>2022-04-12T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2025-06-26T12:34:56.789</ReleaseDate>
          <RevisionHistory>
             <RevisionEvent>
-               <ReleaseDate>2022-04-12T12:34:56.789</ReleaseDate>
-               <Note>BARREL Observatories: Initial SPASE XML resource description submission, metadata submitted by LFB</Note>
+               <ReleaseDate>2025-06-26T12:34:56.789</ReleaseDate>
+               <Note>BARREL Observatories: Initial SPASE XML resource description submission, OperatingSpan StartDate and StopDate updated by utilizing SPDF all.xml date and time information, metadata submitted by LFB</Note>
             </RevisionEvent>
          </RevisionHistory>
          <Description>This Document describes BARREL Balloon 4E.
@@ -60,8 +62,8 @@ BARREL is the first NASA Living with a Star, LWS, Geospace Mission of Opportunit
          <ObservatoryRegion>Earth.NearSurface.Stratosphere</ObservatoryRegion>
       </Location>
       <OperatingSpan>
-         <StartDate>2016-08-24T00:00:00.000</StartDate>
-         <StopDate>2016-08-25T23:59:59.999</StopDate>
+         <StartDate>2016-08-24T18:34:00</StartDate>
+         <StopDate>2016-08-25T09:42:49</StopDate>
          <Note>The BARREL Balloon 4E operating span start and stop dates listed here correspond to the time interval spanned from the first and last days that data was obtained by instrumentation mounted on the balloon. The start and stop dates are set equal to the dates embedded in the names of the initial and final Balloon 4E CDF data files, respectively, as hosted by the NASA GSFC Space Physics Data Facility, SPDF.</Note>
       </OperatingSpan>
    </Observatory>

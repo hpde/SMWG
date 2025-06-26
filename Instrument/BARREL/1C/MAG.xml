@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
-   <Version>2.4.0</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
    <Instrument>
       <ResourceID>spase://SMWG/Instrument/BARREL/1C/MAG</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Instrument</ResourceType>
       <ResourceHeader>
          <ResourceName>BARREL Balloon 1C Tilt Compensated Magnetometer, TCM2, Instrument</ResourceName>
          <ReleaseDate>2022-04-12T12:34:56.789</ReleaseDate>
@@ -14,6 +16,10 @@
             <RevisionEvent>
                <ReleaseDate>2022-04-12T12:34:56.789</ReleaseDate>
                <Note>BARREL Instruments: SPASE description revised to standardize the Information URL content for all BARREL instrument descriptions, upgrade to SPASE 2.4.0, metadata submitted by LFB</Note>
+            </RevisionEvent>
+            <RevisionEvent>
+               <ReleaseDate>2025-06-26T12:34:56.789</ReleaseDate>
+               <Note>BARREL Instruments: SPASE description upgraded to SPASE 2.7.0, 20250626 LFB</Note>
             </RevisionEvent>
          </RevisionHistory>
          <Description>This document describes the BARREL Balloon 1C magnetometer, MAG.
