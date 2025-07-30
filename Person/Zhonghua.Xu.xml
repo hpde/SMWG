@@ -1,11 +1,15 @@
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-    <Version>2.6.0</Version>
-    <Person>
-        <ResourceID>spase://SMWG/Person/Zhonghua.Xu</ResourceID>
-        <ReleaseDate>2024-06-15T00:00:00</ReleaseDate>
-        <PersonName>Zhonghua Xu</PersonName>
-        <OrganizationName>Virginia Tech</OrganizationName>
-        <Email>zxu77@vt.edu</Email>
-    </Person>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Zhonghua.Xu</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <ReleaseDate>2025-05-24T00:00:00Z</ReleaseDate>
+      <PersonName>Zhonghua Xu</PersonName>
+      <OrganizationName>University of Texas, Arlington</OrganizationName>
+      <Email>zxu77@vt.edu</Email>
+      <ORCIdentifier>0000-0002-3800-2162</ORCIdentifier>
+      <Note>Moved from Virginia Tech to University of Texas Summer 2025.</Note>
+   </Person>
 </Spase>
