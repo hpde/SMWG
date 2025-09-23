@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
-  <Repository>
-    <ResourceID>spase://SMWG/Repository/SIDC</ResourceID>
-    <ResourceHeader>
-      <ResourceName>SIDC</ResourceName>
-      <ReleaseDate>2021-06-02T18:05:57Z</ReleaseDate>
-      <Description>SIDC Repository</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-    </ResourceHeader>
-  </Repository>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
+   <Repository>
+      <ResourceID>spase://SMWG/Repository/SIDC</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Solar Influences Data Analysis Center</ResourceName>
+         <ReleaseDate>2021-06-02T18:05:57Z</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2025-09-23T00:08:46</ReleaseDate>
+               <Note>Updated the AccessURL</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The Solar Influences Data Analysis Center is a department of the Royal Observatory of Belgium.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+      </ResourceHeader>
+      <AccessURL>
+         <URL>https://www.sidc.be/</URL>
+      </AccessURL>
+   </Repository>
 </Spase>
