@@ -1,11 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.0.xsd">
+  <Version>2.7.0</Version>
   <Repository>
     <ResourceID>spase://SMWG/Repository/NASA/GSFC</ResourceID>
     <ResourceHeader>
       <ResourceName>GSFC</ResourceName>
-      <ReleaseDate>2008-08-26T21:02:30Z</ReleaseDate>
+      <AlternateName>Goddard Space Flight Center</AlternateName>
+      <ReleaseDate>2025-09-26T09:42:42Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2008-08-26T21:02:30Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2025-09-26T09:42:42Z</ReleaseDate>
+          <Note>Added AlternateName with ROR name. Added AccessURL. Added RORIdentifier. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. Matched version number in schemaLocation attribute to updated value in Version tag. ZCB</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>GSFC Repository</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
@@ -13,5 +23,9 @@
       </Contact>
       <PriorID>spase://SMWG/Repository/GSFC</PriorID>
     </ResourceHeader>
+    <AccessURL>
+      <URL>https://ror.org/0171mag52</URL>
+    </AccessURL>
+    <RORIdentifier>0171mag52</RORIdentifier>
   </Repository>
 </Spase>
