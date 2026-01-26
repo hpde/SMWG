@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/R.W.Ebert</ResourceID>
+      <ReleaseDate>2025-12-22T20:07:40</ReleaseDate>
+      <OrganizationName>Space Science and Engineering Division, Southwest Research Institute, San Antonio, Texas, USA</OrganizationName>
+      <Email>rebert@swri.edu</Email>
+      <ORCIdentifier>0000-0002-2504-4320</ORCIdentifier>
+   </Person>
+</Spase>

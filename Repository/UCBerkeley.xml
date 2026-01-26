@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
+   <Repository>
+      <ResourceID>spase://SMWG/Repository/UCBerkeley</ResourceID>
+      <ResourceHeader>
+         <ResourceName>UC Berkeley Previously Published Works</ResourceName>
+         <ReleaseDate>2026-01-13T18:57:08</ReleaseDate>
+         <Description>Journal publications, including relevant data </Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+      </ResourceHeader>
+      <AccessURL>
+         <URL>https://escholarship.org/</URL>
+      </AccessURL>
+   </Repository>
+</Spase>

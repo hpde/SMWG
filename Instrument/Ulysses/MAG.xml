@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Ulysses/MAG</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Magnetometer (MAG) on Ulysses</ResourceName>
+         <ReleaseDate>2025-12-13T11:44:32</ReleaseDate>
+         <Description>Magnetometer (MAG) measured the magnetic field in the heliosphere. Measurements of Jupiter&#039;s magnetic field were also performed. Two magnetometers performed Ulysses&#039; magnetic field measurements, the Vector Helium Magnetometer and the Fluxgate Magnetometer.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Olga.Y.Uritskaya	</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+      </ResourceHeader>
+      <InstrumentType>Magnetometer</InstrumentType>
+      <InvestigationName>Magnetometer (MAG) on Ulysses</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/Ulysses</ObservatoryID>
+   </Instrument>
+</Spase>
