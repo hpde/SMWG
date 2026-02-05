@@ -22,13 +22,13 @@
         <Role>CoInvestigator</Role>
       </Contact>
       <InformationURL>
-        <Name>THEMIS Ground Magnetometer Data Center at UCLA</Name>
-        <URL>http://spc.igpp.ucla.edu/uclamag/themis_center/</URL>
-        <Description>Web server for displaying and downloading THEMIS ground magnetometer data</Description>
+        <Name>THEMIS Ground Magnetometer Availability</Name>
+        <URL>https://themis.ssl.berkeley.edu/gmag/gmag_list.php</URL>
+        <Description>Web server for displaying the magnetometer location (show map), displaying data, and downloading THEMIS ground magnetometer data (click the station code).</Description>
       </InformationURL>
       <InformationURL>
         <Name>THEMIS Ground Based Observatory System Design</Name>
-        <URL>http://www.igpp.ucla.edu/public/THEMIS/SCI/Pubs/2007_Refereed/harris_ssr_2007_gbo_sys_design_published.pdf</URL>
+        <URL>https://doi.org/10.1007/s11214-007-9294-z</URL>
         <Description>Harris et al., Nov. 2007; In depth description of GBO design.</Description>
       </InformationURL>
       <InformationURL>
