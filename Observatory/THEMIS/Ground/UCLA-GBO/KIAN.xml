@@ -12,6 +12,10 @@
                <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
                <Note>THEMIS Ground Observatories: Delete obsolete www-spc.igpp.ucla.edu Information URL, Resource Header Description reformated, Replace spurious YKNF information present in the NRSQ description. Metadata submitted by L.F. Bargatze on 2022-02-14, reviewed by LFB</Note>
             </RevisionEvent>
+			<RevisionEvent>
+               <ReleaseDate>2026-02-06T12:34:56.789</ReleaseDate>
+               <Note>Revised Information UTL. JMW</Note>
+            </RevisionEvent>
          </RevisionHistory>
          <Description>Kiana (KIAN) station is located in Kiana, Alaska, USA. KIAN is part of the UCLA GBO Network.
 
@@ -48,8 +52,8 @@ Magnetic coordinates obtained by calculation using the CGM online calculator wit
          </Contact>
          <InformationURL>
             <Name>THEMIS Ground Based Observatory System Design</Name>
-            <URL>http://www.igpp.ucla.edu/public/THEMIS/SCI/Pubs/2007_Refereed/harris_ssr_2007_gbo_sys_design_published.pdf</URL>
-            <Description>Harris et al., Nov. 2007; In depth description of GBO design.</Description>
+            <URL>https://link.springer.com/article/10.1007/s11214-007-9294-z</URL>
+            <Description>Harris et al., Dec. 2007; In depth description of GBO design.</Description>
          </InformationURL>
          <InformationURL>
             <Name>THEMIS Web Site</Name>
