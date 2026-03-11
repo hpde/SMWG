@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Yokoyama.Takaaki</ResourceID>
+      <ReleaseDate>2026-02-08T00:00:00Z</ReleaseDate>
+      <PersonName>Prof. Takaaki Yokoyama</PersonName>
+      <OrganizationName>University of Kyoto (Nobeyama Radio Observatory)</OrganizationName>
+      <Email>yokoyama.takaaki.2a@kyoto-u.ac.jp</Email>
+   </Person>
+</Spase>
