@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.7.1</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/AEOLUS</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Aeolus</ResourceName>
+         <ReleaseDate>2025-03-19</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2025-03-19</ReleaseDate>
+               <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>ESA's Earth Explorer, Aeolus, was launched into space on 22 August 2018 and was retired on 30 April 2023. Surpassing scientific expectations and exceeding its planned life in orbit, the mission has been hailed as one of ESA’s most successful.
+It re-entered Earth’s atmosphere successfully on 28 July at around 19:00 UTC above Antarctica.
+This new satellite type has provided novel global observations of wind profiles from the surface up to 30 km altitude.
+Although there are several ways of measuring wind from a satellite, Aeolus utilised the active Doppler Wind Lidars (DWL) method. This is currently the only technology that can provide direct wind profile observations in clear air, inside thin clouds and aerosol layers and on top of thick clouds globally. In addition, a DWL provides information on cloud top heights and the vertical distribution of thin clouds and aerosol.
+Aeolus's knowledge of Earth's wind fields has led to progress in atmospheric dynamics research and weather forecasting. Forecast impact experiments by a number of leading meteorological institutes across the world have shown that Aeolus observations led to an improvement of operational weather forecasting. The experiments showed that the impact is largest in the tropics, southern hemisphere, polar areas and in the upper troposphere and lower stratosphere, where there are currently very few direct wind observations in the Global Observing System of the World Meteorological organization (WMO).
+The provision of global wind profiles has also benefited climate research. Climate models are similar to weather models, but predict the evolution of the coupled Earth System (atmosphere, land, ocean and ice) on the scale of years rather than days. As for weather forecast models, the key atmospheric variables in climate models are wind, temperature, pressure and humidity. The Aeolus winds have been used to evaluate climate models, and for the improvement of modelling of the global atmospheric transport and cycling of energy, water, aerosols and chemicals.
+(from https://earth.esa.int/eogateway/missions/aeolus)
+         </Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/unknown</PersonID>
+            <Role>HostContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Aeolus Home Page</Name>
+            <URL>https://earth.esa.int/eogateway/missions/aeolus</URL>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2018-08-19</StartDate>
+         <StopDate>2023-04-30</StopDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>
