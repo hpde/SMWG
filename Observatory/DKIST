@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.7.1</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/DKIST</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Daniel K Inouye Solar Telescope (DKIST)</ResourceName>
+         <ReleaseDate>2025-03-19</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2025-03-19</ReleaseDate>
+               <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>
+         The National Science Foundation’s (NSF) Daniel K. Inouye Solar Telescope is a four-meter solar telescope on the island of Maui, Hawai’i. It’s currently  the largest solar telescope in the world. With a focus on understanding the Sun’s explosive behavior, observations of magnetic fields are at the forefront of this innovative telescope. A combination of an off-axis design, to reduce scattered light, and cutting edge polarimetery produces the first ongoing measurements of the magnetic fields in the Sun’s corona. The Inouye’s 4-meter mirror provides views of the solar atmosphere like we’ve never seen before. Focusing on small observing changes, the cutting-edge instrument suite gathers unprecedented images from the Sun’s surface to the lower solar atmosphere. The Inouye Solar Telescope reveals features three times smaller than anything we can see on the Sun today, and does so multiple times a second. Not only do the world-class instruments and optical assembly allow spectacular imagery, but also have incredible spectroscopic capabilities. Observing the specific fingerprints of hundreds of atoms and ions throughout the solar surface and atmosphere will help us explain the dynamic nature of the Sun’s behavior.
+         </Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/unknown</PersonID>
+            <Role>HostContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>DKIST Home Page</Name>
+            <URL>https://nso.edu/telescopes/inouye-solar-telescope/</URL>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      </Location>
+   </Observatory>
+</Spase>
