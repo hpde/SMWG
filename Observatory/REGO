@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.7.1</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/REGO</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Redline Emission Geospace Observatory (rEGO)</ResourceName>
+         <ReleaseDate>2025-03-19</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2025-03-19</ReleaseDate>
+               <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The Redline Emission Geospace Observatory (REGO) is a joint Canada Foundation for Innovation and Canadian Space Agency project developed by the University of Calgary. REGO consists of 9 narrowband (630nm) ASIs deployed across Canada.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Emma.Louise.Spanswick</PersonID>
+            <Role>HostContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Eric.Donovan</PersonID>
+            <Role>HostContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>REGO Home Page</Name>
+            <URL>https://data.phys.ucalgary.ca/about_datasets/descriptions/rego.html</URL>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      </Location>
+   </Observatory>
+</Spase>
