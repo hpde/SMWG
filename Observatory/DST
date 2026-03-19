@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.7.1</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/DST</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Dunn Solar Telescope (DST)</ResourceName>
+         <ReleaseDate>2025-03-19</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2025-03-19</ReleaseDate>
+               <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The Richard B. Dunn Solar Telescope (DST) was once the finest instrument of its kind in the world. Managed by NSO for almost half a century, its 0.2 arc-seconds resolution unveiled a multitude of secrets surrounding the complex magnetic fields that dominate the solar atmosphere. Equipped with a wide range of excellent instrumentation, such as the Universal Birefringent Filter and Echelle Spectrograph, the DST has also served as the test bed for the ongoing development of the next generation of solar instrumentation. This new instrumentation includes adaptive optics systems that will greatly reduce the effects of seeing on the solar image.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.McAteer</PersonID>
+            <Role>HostContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>DST Home Page</Name>
+            <URL>https://nso.edu/telescopes/dunn-solar-telescope/dunn/</URL>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      </Location>
+   </Observatory>
+</Spase>
