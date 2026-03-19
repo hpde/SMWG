@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.7.1</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/HERMES</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Heliophysics Environmental and Radiation Measurement Experiment Suite (HERMES)</ResourceName>
+         <ReleaseDate>2025-03-19</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2025-03-19</ReleaseDate>
+               <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>HERMES is a space weather instrument package that will be placed on the Gateway, an orbital outpost which will support Artemis lunar operations. One of the first research payloads to fly on Gateway, HERMES is developed by NASA’s Heliophysics Division to observe solar particles and the solar wind. The first two Gateway modules to launch to the Moon, the Power and Propulsion Element and the Habitation and Logistics Outpost, will carry three research payloads, with HERMES and European Radiation Sensors Array (ERSA) flying outside the lunar space station, and Internal Dosimeter Array (IDA) flying inside.
+The Gateway lunar space station will support Artemis lunar operations while demonstrating the technologies necessary to conduct the first human missions to Mars. HERMES will investigate the causes of space-weather variability as driven by the Sun and modulated by the magnetosphere. As we move deeper into space, human and robotic explorers will face greater challenges from the sometimes violent and unpredictable outbursts of the Sun. The space weather instrument suite will gather data and enhance our ability to forecast events originating from the Sun that could affect astronauts on and around the Moon as well as on future missions to Mars.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Unknown</PersonID>
+            <Role>HostContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>HERMES Home Page</Name>
+            <URL>https://science.nasa.gov/mission/hermes/</URL>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth</ObservatoryRegion>
+      </Location>
+   </Observatory>
+</Spase>
