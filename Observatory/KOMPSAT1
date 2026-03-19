@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.7.1</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/KOMPSAT1</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Korean Multi-Purpose Satellite (KOMPSAT-1)</ResourceName>
+         <ReleaseDate>2025-03-19</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2025-03-19</ReleaseDate>
+               <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>KOMPSAT-1 (Korean Multi-Purpose Satellite), also known as Arirang-1, was a South Korean Earth observation satellite which was launched on 21 December 1999. KOMPSAT-1 operated for eight years until satellite operations ceased on 30 December 2007 due to a loss of contact.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Unknown</PersonID>
+            <Role>HostContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>KOMPSAT-1 Home Page</Name>
+            <URL>https://earth.esa.int/eogateway/missions/kompsat-1</URL>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>1999-12-21</StartDate>
+         <StopDate>2007-12-30</StopDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>
