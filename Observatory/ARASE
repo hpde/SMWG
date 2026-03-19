@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.7.1</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/ARASE</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Exploration of energization and Radiation in Geospace (ERG), now known as Arase</ResourceName>
+         <ReleaseDate>2025-03-19</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2025-03-19</ReleaseDate>
+               <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>Arase (ERG) aims at elucidating how highly charged electrons have been born while they generate and vanish repeatedly along with space storms caused by the disturbance of solar wind caused by space storms, and how space storms are developed.
+This probe is designed for the direct observation of the process by which the high energy electrons that exist in the Van Allen belt are generated. The probe will observe the process that generate this high energy in the middle of the radiation belt in order to examine how storms develop in space and how particles are generated along with the storms that occur in space due to the disturbances of the solar winds.
+In Geospace, the portion of outer space close to the Earth, there exists a band of radiation full of high energy electrons which exceeds a mega-electron volt in voltage and which is called the Van Allen belt. However, since the discovery of the Van Allen belt in 1958 no one has managed to solve the riddle of why these high energy electrons and the radiation belt itself are generated.
+The Arase Geospace probe (an ERG satellite) will attempt to observe for the first time the process by which high levels of energy are created in the middle of the radiation belt in order to clarify how storms in outer space develop and how high energy particles are generated through storms in outer space occurring from disturbances from the solar winds.
+The probe is equipped with nine instruments of observation and analysis to observe the high energy particles and it will attempt to tackle the mysteries of the radiation belt.
+</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/unknown</PersonID>
+            <Role>HostContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Arase Home Page</Name>
+            <URL>https://www.isas.jaxa.jp/en/missions/spacecraft/current/erg.html</URL>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2016-12-20</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>
