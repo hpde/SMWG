@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_1.xsd">
+  <Version>2.7.1</Version>
+  <Instrument>
+      <ResourceID>spase://SMWG/Instrument/SolarOrbiter/SPICE</ResourceID>
+      <ResourceHeader>
+         <ResourceName>SPICE</ResourceName>
+         <AlternateName>Spectral Imaging of the Coronal Environment</AlternateName>        
+         <ReleaseDate>2025-03-20</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2025-03-20</ReleaseDate>
+               <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The extreme ultraviolet imaging spectrograph of the Solar-Orbiter mission
+The goals of Solar Orbiter demand plasma diagnostic observations of the solar atmosphere in the UV/EUV spectral range, using a spectrograph with high spatial, spectral, and temporal resolution. The SPICE instrument is an imaging spectrograph designed to make observations at extreme ultraviolet wavelengths, 70.4 – 79.0 nm and 97.3 - 104.9 nm. It is a facility instrument on the Solar Orbiter mission. SPICE will address the key science goals of Solar Orbiter by providing the quantitative knowledge of the physical state and composition of the plasmas in the solar atmosphere, in particular investigating the source regions of outflows and ejection processes which link the solar surface and corona to the heliosphere. By observing the intensities of selected spectral lines and line profiles, SPICE will derive temperature, density, flow, and composition information for the plasmas in the temperature range from ten thousand Kelvin to ten million Kelvin.
+The instrument optics consists of a single-mirror telescope (off-axis paraboloid operating at near-normal incidence), feeding an imaging spectrometer. The spectrometer is also using just one optical element, a Toroidal Variable Line Space grating, which images the entrance slit from the telescope focal plane onto a pair of detector arrays, with a magnification of approximately x5. Each detector consists of a photocathode coated microchannel plate image intensifier, coupled to an active-pixel-sensor (CMOS-APS). Particular features of the instrument needed due to proximity to the Sun include the use of a dichroic coating on the primary mirror to transmit and reject the majority of the solar spectrum and a particle-deflector to protect the mirror from the solar wind.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Udo.Schuehle</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>SPICE Home Page</Name>
+            <URL>https://www.mps.mpg.de/solar-physics/solar-orbiter-spice</URL>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>ImagingSpectrometer</InstrumentType>
+      <InvestigationName>Spectral Imaging of the Coronal Environment (SPICE) on Solar Orbiter</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/SolarOrbiter</ObservatoryID>
+  </Instrument>
+</Spase>
