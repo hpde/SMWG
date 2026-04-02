@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.7.1</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/AMPERE</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Active Magnetosphere and Planetary Electrodynamics Response Experiment</ResourceName>
+         <AlternateName>AMPERE</AlternateName>
+         <ReleaseDate>2025-04-02T00:00:00Z</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2025-04-02T00:00:00Z</ReleaseDate>
+               <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The Iridium system consists of >70 satellites in low altitude, 780km, polar orbits in six equally spaced orbit planes with at least eleven satellites in each plane. Each satellite carries an engineering magnetometer with 48nT resolution. Techniques have been developed at JHU/APL to process Iridium magnetic field data and obtain global maps of magnetic perturbations due to field aligned currents (FACs). The noise level in the processed data is typically 70 to 100 nT and readings above the noise level occur at high magnetic latitudes consistent with an auroral signature. Time series also display well known features characteristic of FACs. Synoptic maps derived using three hours of data from 17 February, 2000, AE ∼100–300nT, show patterns consistent with the Region 1/2 currents previously determined statistically. The Indium data set provides new global measurements of the Birkeland currents in both hemispheres on time scales of a few hours or less.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Brian.Anderson</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>AMPERE Home Page</Name>
+            <URL>https://ampere.jhuapl.edu/</URL>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2017-01-01</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>
