@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_1.xsd">
+  <Version>2.7.1</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/TRACERS_PDP</ResourceID>
+    <ResourceHeader>
+      <ResourceName>TRACERS Public Data Products</ResourceName>
+      <ReleaseDate>2026-04-03T00:30:00Z</ReleaseDate>
+      <Description>TRACERS Public Data Products is made available by the TRACERS Team at the Physics Department, University of Iowa, Iowa City Iowa.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/David.M.Miles</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessURL>
+      <Name>TRACERS Public Data Products</Name>
+      <URL>https://tracers.physics.uiowa.edu/l2-public-data-products</URL>
+    </AccessURL>
+  </Repository>
+</Spase>
