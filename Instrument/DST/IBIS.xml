@@ -1,30 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_1.xsd">
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
   <Version>2.7.1</Version>
   <Instrument>
-      <ResourceID>spase://SMWG/Instrument/DST/IBIS</ResourceID>
-      <ResourceHeader>
-         <ResourceName>IBIS</ResourceName>
-         <AlternateName>Interferometric BIdimensional Spectrometer</AlternateName>        
-         <ReleaseDate>2025-03-19</ReleaseDate>
-         <RevisionHistory>
-            <RevisionEvent>
-               <ReleaseDate>2025-03-19</ReleaseDate>
-               <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
-            </RevisionEvent>
-         </RevisionHistory>
-         <Description>The IBIS 2.0 project upgrades the Interferometric BIdimensional Spectrometer, which was operated at the Dunn Solar Telescope of the National Solar Observatory from 2003 to 2019, for installation at a new telescope at the Teide Observatory. The instrument combines two tunable Fabry-Perot interferometers, narrowband interference filters, a polarimetric unit, fast cameras, and a suitable control for the acquisition of high-resolution spectropolarimetric data of the solar atmosphere in the 580–860 nm spectral range with short exposures at high cadence under a remote control.</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Ilaria.Ermolli</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <InformationURL>
-            <Name>IBIS Home Page</Name>
-            <URL>https://www.ibis20.inaf.it/</URL>
-         </InformationURL>
-      </ResourceHeader>
-      <InstrumentType>Interferometer</InstrumentType>
-      <InvestigationName>Interferometric BIdimensional Spectrometer (IBIS) at the Dunn Solar Telescope</InvestigationName>
-      <ObservatoryID>spase://SMWG/Observatory/DST</ObservatoryID>
+    <ResourceID>spase://SMWG/Instrument/DST/IBIS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>IBIS</ResourceName>
+      <AlternateName>Interferometric BIdimensional Spectrometer</AlternateName>
+      <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+          <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The IBIS 2.0 project upgrades the Interferometric BIdimensional Spectrometer, which was operated at the Dunn Solar Telescope of the National Solar Observatory from 2003 to 2019, for installation at a new telescope at the Teide Observatory. The instrument combines two tunable Fabry-Perot interferometers, narrowband interference filters, a polarimetric unit, fast cameras, and a suitable control for the acquisition of high-resolution spectropolarimetric data of the solar atmosphere in the 580–860 nm spectral range with short exposures at high cadence under a remote control.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Ilaria.Ermolli</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>IBIS Home Page</Name>
+        <URL>https://www.ibis20.inaf.it/</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Interferometer</InstrumentType>
+    <InvestigationName>Interferometric BIdimensional Spectrometer (IBIS) at the Dunn Solar Telescope</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/DST</ObservatoryID>
   </Instrument>
 </Spase>

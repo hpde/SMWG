@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Ilaria.Ermolli</ResourceID>
+    <PersonName>Ilaria Ermolli</PersonName>
+    <OrganizationName>INAF Osservatorio Astronomico di Roma: Monte Porzio Catone, Lazio, IT</OrganizationName>
+    <ORCIdentifier>0000-0003-2596-9523</ORCIdentifier>
+    <RORIdentifier>02hnp4676</RORIdentifier>
+  </Person>
+</Spase>

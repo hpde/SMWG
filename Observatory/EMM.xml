@@ -1,29 +1,29 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
-   <Version>2.7.1</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/EMM</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Emirates Mars Mission (EMM)</ResourceName>
-         <ReleaseDate>2025-03-19</ReleaseDate>
-         <RevisionHistory>
-            <RevisionEvent>
-               <ReleaseDate>2025-03-19</ReleaseDate>
-               <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
-            </RevisionEvent>
-         </RevisionHistory>
-         <Description>The Emirates Mars Mission (EMM) is the United Arab Emirates’ (UAE) first mission to Mars. EMM is designed to orbit Mars and study the dynamics in the Martian atmosphere on a global scale, and on both diurnal and seasonal timescales. Using three scientific instruments on board of the spacecraft, EMM will provide a set of measurements fundamental to an improved understanding of circulation and weather in the Martian lower and middle atmosphere. Combining such data with the monitoring of the upper layers of the atmosphere, EMM measurements will reveal the mechanisms behind the upward transport of energy and particles, and the subsequent escape of atmospheric particles from the gravity of Mars. All the science data of the mission can be accessed through the EMM Science Data Center.</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/unknown</PersonID>
-            <Role>HostContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>EMM Home Page</Name>
-            <URL>https://space.gov.ae/en/initiatives-and-projects/emirates-mars-mission</URL>
-         </InformationURL>
-      </ResourceHeader>
-      <Location>
-         <ObservatoryRegion>Mars</ObservatoryRegion>
-      </Location>
-   </Observatory>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/EMM</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Emirates Mars Mission (EMM)</ResourceName>
+      <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+          <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Emirates Mars Mission (EMM) is the United Arab Emirates’ (UAE) first mission to Mars. EMM is designed to orbit Mars and study the dynamics in the Martian atmosphere on a global scale, and on both diurnal and seasonal timescales. Using three scientific instruments on board of the spacecraft, EMM will provide a set of measurements fundamental to an improved understanding of circulation and weather in the Martian lower and middle atmosphere. Combining such data with the monitoring of the upper layers of the atmosphere, EMM measurements will reveal the mechanisms behind the upward transport of energy and particles, and the subsequent escape of atmospheric particles from the gravity of Mars. All the science data of the mission can be accessed through the EMM Science Data Center.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/unknown</PersonID>
+        <Role>HostContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>EMM Home Page</Name>
+        <URL>https://space.gov.ae/en/initiatives-and-projects/emirates-mars-mission</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Mars</ObservatoryRegion>
+    </Location>
+  </Observatory>
 </Spase>

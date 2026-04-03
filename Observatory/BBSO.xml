@@ -1,31 +1,31 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
-   <Version>2.7.1</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/BBSO</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Big Bear Solar Observatory (BBSO)</ResourceName>
-         <ReleaseDate>2025-03-19</ReleaseDate>
-         <RevisionHistory>
-            <RevisionEvent>
-               <ReleaseDate>2025-03-19</ReleaseDate>
-               <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
-            </RevisionEvent>
-         </RevisionHistory>
-         <Description>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/BBSO</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Big Bear Solar Observatory (BBSO)</ResourceName>
+      <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+          <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>
          Big Bear Solar Observatory (BBSO) is a university-based solar observatory in the United States. It is operated by New Jersey Institute of Technology (NJIT). BBSO has a 1.6-meter (5.2 ft) clear-aperture Goode Solar Telescope (GST), which has no obscuration in the optical train. BBSO is located on the north side of Big Bear Lake in the San Bernardino Mountains of southwestern San Bernardino County, California, approximately 120 kilometers (75 miles) east of downtown Los Angeles. The telescopes and instruments at the observatory are designed and employed specifically for studying the activities and phenomena of the Sun.
          </Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Taylor.Baildon</PersonID>
-            <Role>InstrumentScientist</Role>
-         </Contact>
-         <InformationURL>
-            <Name>BBSO Home Page</Name>
-            <URL>https://www.bbso.njit.edu/</URL>
-         </InformationURL>
-      </ResourceHeader>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-      </Location>
-   </Observatory>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Taylor.Baildon</PersonID>
+        <Role>InstrumentScientist</Role>
+      </Contact>
+      <InformationURL>
+        <Name>BBSO Home Page</Name>
+        <URL>https://www.bbso.njit.edu/</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+    </Location>
+  </Observatory>
 </Spase>

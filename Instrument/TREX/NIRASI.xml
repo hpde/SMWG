@@ -1,30 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_1.xsd">
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
   <Version>2.7.1</Version>
   <Instrument>
-      <ResourceID>spase://SMWG/Instrument/TREX/NIRASI</ResourceID>
-      <ResourceHeader>
-         <ResourceName>NIRASI</ResourceName>
-         <AlternateName>Near Infrared All Sky Imager</AlternateName>        
-         <ReleaseDate>2025-03-20</ReleaseDate>
-         <RevisionHistory>
-            <RevisionEvent>
-               <ReleaseDate>2025-03-20</ReleaseDate>
-               <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
-            </RevisionEvent>
-         </RevisionHistory>
-         <Description>Transition Region Explorer (TREx) is a CFI-funded project and aims to be the world's foremost auroral imaging facility for remote sensing the near-Earth space environment. The project consists of the development and deployment of an extensive ground-based network of sophisticated optical and radio instrumentation across Alberta, Saskatchewan, Manitoba, and the Northwest Territories. Six Near Infrared All Sky Imagers will be installed at ATHA (Athabasca, AB, Canada), FSMI (Fort Smith, NWT, Canada), RABB (Rabbit Lake, SK, Canada), GILL (Gillam, MB, Canada), SASK (Saskatoon, SK, Canada), and PINA (Pinawa, MB, Canada) locations. Each of the six imagers will collect data at a 3s cadence. In partnership with IBM, TREx will include sensor web technology to autonomously control and coordinate sensor behaviour across the observational region. This architecture will allow TREx to produce the first high resolution data (estimated at 120 TB of data per year) over a region large enough to study multi-scale coupling of key physical processes in the space environment. </Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Unknown</PersonID>
-            <Role>HostContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>TREX Home Page</Name>
-            <URL>https://www.ucalgary.ca/aurora/projects/trex</URL>
-         </InformationURL>
-      </ResourceHeader>
-      <InstrumentType>Imager</InstrumentType>
-      <InvestigationName>Near Infrared All Sky Imager (NIR ASI) on the TREx mission</InvestigationName>
-      <ObservatoryID>spase://SMWG/Observatory/TREX</ObservatoryID>
+    <ResourceID>spase://SMWG/Instrument/TREX/NIRASI</ResourceID>
+    <ResourceHeader>
+      <ResourceName>NIRASI</ResourceName>
+      <AlternateName>Near Infrared All Sky Imager</AlternateName>
+      <ReleaseDate>2025-03-20T00:00:00Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2025-03-20T00:00:00Z</ReleaseDate>
+          <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>Transition Region Explorer (TREx) is a CFI-funded project and aims to be the world's foremost auroral imaging facility for remote sensing the near-Earth space environment. The project consists of the development and deployment of an extensive ground-based network of sophisticated optical and radio instrumentation across Alberta, Saskatchewan, Manitoba, and the Northwest Territories. Six Near Infrared All Sky Imagers will be installed at ATHA (Athabasca, AB, Canada), FSMI (Fort Smith, NWT, Canada), RABB (Rabbit Lake, SK, Canada), GILL (Gillam, MB, Canada), SASK (Saskatoon, SK, Canada), and PINA (Pinawa, MB, Canada) locations. Each of the six imagers will collect data at a 3s cadence. In partnership with IBM, TREx will include sensor web technology to autonomously control and coordinate sensor behaviour across the observational region. This architecture will allow TREx to produce the first high resolution data (estimated at 120 TB of data per year) over a region large enough to study multi-scale coupling of key physical processes in the space environment. </Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Unknown</PersonID>
+        <Role>HostContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>TREX Home Page</Name>
+        <URL>https://www.ucalgary.ca/aurora/projects/trex</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Imager</InstrumentType>
+    <InvestigationName>Near Infrared All Sky Imager (NIR ASI) on the TREx mission</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/TREX</ObservatoryID>
   </Instrument>
 </Spase>

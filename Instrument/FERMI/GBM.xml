@@ -1,30 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_1.xsd">
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
   <Version>2.7.1</Version>
   <Instrument>
-      <ResourceID>spase://SMWG/Instrument/FERMI/GBM</ResourceID>
-      <ResourceHeader>
-         <ResourceName>GBM</ResourceName>
-         <AlternateName>Fermi Gamma-ray Burst Monitor</AlternateName>
-         <ReleaseDate>2025-03-19</ReleaseDate>
-         <RevisionHistory>
-            <RevisionEvent>
-               <ReleaseDate>2025-03-19</ReleaseDate>
-               <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
-            </RevisionEvent>
-         </RevisionHistory>
-         <Description>The Fermi GBM provides simultaneous low-energy spectral and temporal measurements for all GRBs within the LAT FOV. The combined GBM and LAT effective energy range spans more than 7 energy decades from 10 keV to 300 GeV. The GBM extends the energy coverage from below the typical GRB spectral break at ~100 keV to above the LAT's low-energy cutoff for inter-instrument calibration. Furthermore, the GBM's sensitivity and FOV are commensurate with the LAT's to ensure that many bursts will have simultaneous low-energy and high-energy measurements with similar statistical significance. The GBM also assists the LAT in detecting and localizing GRBs rapidly by providing prompt notification to the ground of a burst trigger. Finally, the GBM provides coarse GRB locations over a wide FOV that can be used to repoint the LAT at particularly interesting bursts (both inside and outside the LAT FOV) for gamma-ray afterglow observations. These locations are also sent to the ground to notify external follow-up observers.</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/C.A.Wilson-Hodge</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <InformationURL>
-            <Name>GBM Home Page</Name>
-            <URL>https://fermi.gsfc.nasa.gov/science/instruments/gbm.html</URL>
-         </InformationURL>
-      </ResourceHeader>
-      <InstrumentType>ScintillationDetector</InstrumentType>
-      <InvestigationName>Fermi Gamma-ray Burst Monitor</InvestigationName>
-      <ObservatoryID>spase://SMWG/Observatory/FERMI</ObservatoryID>
+    <ResourceID>spase://SMWG/Instrument/FERMI/GBM</ResourceID>
+    <ResourceHeader>
+      <ResourceName>GBM</ResourceName>
+      <AlternateName>Fermi Gamma-ray Burst Monitor</AlternateName>
+      <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+          <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Fermi GBM provides simultaneous low-energy spectral and temporal measurements for all GRBs within the LAT FOV. The combined GBM and LAT effective energy range spans more than 7 energy decades from 10 keV to 300 GeV. The GBM extends the energy coverage from below the typical GRB spectral break at ~100 keV to above the LAT's low-energy cutoff for inter-instrument calibration. Furthermore, the GBM's sensitivity and FOV are commensurate with the LAT's to ensure that many bursts will have simultaneous low-energy and high-energy measurements with similar statistical significance. The GBM also assists the LAT in detecting and localizing GRBs rapidly by providing prompt notification to the ground of a burst trigger. Finally, the GBM provides coarse GRB locations over a wide FOV that can be used to repoint the LAT at particularly interesting bursts (both inside and outside the LAT FOV) for gamma-ray afterglow observations. These locations are also sent to the ground to notify external follow-up observers.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/C.A.Wilson-Hodge</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>GBM Home Page</Name>
+        <URL>https://fermi.gsfc.nasa.gov/science/instruments/gbm.html</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>ScintillationDetector</InstrumentType>
+    <InvestigationName>Fermi Gamma-ray Burst Monitor</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/FERMI</ObservatoryID>
   </Instrument>
 </Spase>

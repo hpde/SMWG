@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/C.A.Wilson-Hodge</ResourceID>
+    <PersonName>C. A. Wilson-Hodge</PersonName>
+    <OrganizationName>NASA Marshall Space Flight Center</OrganizationName>
+    <Email>colleen.wilson@nasa.gov</Email>
+    <ORCIdentifier>0000-0002-8585-0084</ORCIdentifier>
+    <RORIdentifier>02epydz83</RORIdentifier>
+  </Person>
+</Spase>

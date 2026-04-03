@@ -1,31 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_1.xsd">
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
   <Version>2.7.1</Version>
   <Instrument>
-      <ResourceID>spase://SMWG/Instrument/MEASURE/Millstone.Hill/ISR</ResourceID>
-      <ResourceHeader>
-         <ResourceName>ISR</ResourceName>
-         <AlternateName>Incoherent Scatter Radar</AlternateName>        
-         <ReleaseDate>2025-03-19</ReleaseDate>
-         <RevisionHistory>
-            <RevisionEvent>
-               <ReleaseDate>2025-03-19</ReleaseDate>
-               <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
-            </RevisionEvent>
-         </RevisionHistory>
-         <Description>The incoherent scatter radar (ISR) geospace facility at Millstone Hill is funded by the National Science Foundation for studies of the Earth's upper atmosphere and ionosphere. There are only nine ISRs in the world; Millstone Hill is the only ISR in the continental U.S.
+    <ResourceID>spase://SMWG/Instrument/MEASURE/Millstone.Hill/ISR</ResourceID>
+    <ResourceHeader>
+      <ResourceName>ISR</ResourceName>
+      <AlternateName>Incoherent Scatter Radar</AlternateName>
+      <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+          <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The incoherent scatter radar (ISR) geospace facility at Millstone Hill is funded by the National Science Foundation for studies of the Earth's upper atmosphere and ionosphere. There are only nine ISRs in the world; Millstone Hill is the only ISR in the continental U.S.
          The ISR technique uses radara - transmitted and reflected radio waves - to measure electrons in the ionosphere, which extends from about 60 miles to 600 miles above the Earth's surface. The radar system uses a 2.5 MW transmitter in combination with large antennas and highly sensitive radio receivers. A steerable antenna (MISA) and a fix-position antenna (zenith) make ionospheric measurements.</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Millstone.Hill</PersonID>
-            <Role>HostContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>Millstone Hill ISR Home Page</Name>
-            <URL>https://www.haystack.mit.edu/about/haystack-telescopes-and-facilities/millstone-hill-incoherent-scatter-radar/</URL>
-         </InformationURL>
-      </ResourceHeader>
-      <InstrumentType>Radar</InstrumentType>
-      <InvestigationName>Incoherent Scatter Radar (ISR) at Millstone Hill</InvestigationName>
-      <ObservatoryID>spase://SMWG/Observatory/MEASURE/Millstone.Hill</ObservatoryID>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Millstone.Hill</PersonID>
+        <Role>HostContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Millstone Hill ISR Home Page</Name>
+        <URL>https://www.haystack.mit.edu/about/haystack-telescopes-and-facilities/millstone-hill-incoherent-scatter-radar/</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Radar</InstrumentType>
+    <InvestigationName>Incoherent Scatter Radar (ISR) at Millstone Hill</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/MEASURE/Millstone.Hill</ObservatoryID>
   </Instrument>
 </Spase>

@@ -1,37 +1,37 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
-   <Version>2.7.1</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/AMISR</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Advanced Modular Incoherent Scatter Radar (AMISR)</ResourceName>
-         <ReleaseDate>2025-03-19</ReleaseDate>
-         <RevisionHistory>
-            <RevisionEvent>
-               <ReleaseDate>2025-03-19</ReleaseDate>
-               <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
-            </RevisionEvent>
-         </RevisionHistory>
-         <Description>AMISR is a modular, mobile radar facility that is used by scientists and students from around the world to conduct studies of the upper atmosphere and ionosphere and to observe space weather events.
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/AMISR</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Advanced Modular Incoherent Scatter Radar (AMISR)</ResourceName>
+      <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+          <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>AMISR is a modular, mobile radar facility that is used by scientists and students from around the world to conduct studies of the upper atmosphere and ionosphere and to observe space weather events.
 AMISR facilities are operated and maintained for the US National Science Foundation (NSF) by SRI International under a cooperative agreement #AGS-1840962. AMISR facilities include the Poker Flat Incoherent Scatter Radar (PFISR), Resolute Bay Observatory (RBO), and Resolute Bay Incoherent Scatter Radar - North face (RISR-N).
 SRI International, under a grant from the National Science Foundation, led the collaborative effort in the development of AMISR. The novel modular design of AMISR enables relative ease of relocation for studying upper atmospheric activity around the globe. Remote operation and electronic beam steering allow researchers operate and position the radar beam instantaneously to accurately measure rapidly changing space weather events.
 AMISR now consists of three separate radar faces, with each face comprised of up to 128 building block-like panels over a 30 x 30 meter roughly square surface. The first AMISR face was deployed in Poker Flat, Alaska in 2006 (the Poker Flat ISR, or PFISR), and the remaining two faces were deployed in Resolute Bay, Nunavut, Canada (RISR-N and RISR-C).
 Future AMISR locations will be determined by a scientific advisory panel assembled at the behest of NSF. (from https://amisr.com/amisr/about/amisr-overview/)
          </Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Asti.N.Bhatt</PersonID>
-            <Role>HostContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>AMISR Home Page</Name>
-            <URL>https://amisr.com/amisr/</URL>
-         </InformationURL>
-      </ResourceHeader>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-      </Location>
-      <OperatingSpan>
-         <StartDate>2007</StartDate>
-      </OperatingSpan>
-   </Observatory>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Asti.N.Bhatt</PersonID>
+        <Role>HostContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>AMISR Home Page</Name>
+        <URL>https://amisr.com/amisr/</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+    </Location>
+    <OperatingSpan>
+      <StartDate>2007-01-01T00:00:00Z</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

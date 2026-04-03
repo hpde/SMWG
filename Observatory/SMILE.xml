@@ -1,30 +1,30 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
-   <Version>2.7.1</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/SMILE</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Solar wind-Magnetosphere-Ionosphere Link Explorer (SMILE)</ResourceName>
-         <ReleaseDate>2025-03-19</ReleaseDate>
-         <RevisionHistory>
-            <RevisionEvent>
-               <ReleaseDate>2025-03-19</ReleaseDate>
-               <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
-            </RevisionEvent>
-         </RevisionHistory>
-         <Description>SMILE is a joint mission between the European Space Agency (ESA) and the Chinese Academy of Sciences (CAS). SMILE will image for the first time in soft X-rays and EUV up to 40 hours per orbit continously, improving our understanding of the dynamic interaction between the solar wind and with the Earth's magnetosphere.
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/SMILE</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Solar wind-Magnetosphere-Ionosphere Link Explorer (SMILE)</ResourceName>
+      <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+          <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>SMILE is a joint mission between the European Space Agency (ESA) and the Chinese Academy of Sciences (CAS). SMILE will image for the first time in soft X-rays and EUV up to 40 hours per orbit continously, improving our understanding of the dynamic interaction between the solar wind and with the Earth's magnetosphere.
 The mission will observe the solar wind interaction with the magnetosphere with its X-ray and ultraviolet cameras (SXI and UVI), gathering simultaneous images and videos of the dayside magnetopause (where Earth's magnetosphere meets the solar wind), the polar cusps (a region in each hemisphere where particles from the solar wind have direct access to Earth's ionosphere), and the auroral oval (the region around each geomagnetic pole where auroras most often occur). SMILE will also gather simultaneously in situ measurements of the solar wind with the two other instruments making up its payload – an ion analyser (LIA) and a magnetometer (MAG). These instruments will monitor the ions in the solar wind and magnetosheath, and detect changes in the local magnetic field.</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Unknown</PersonID>
-            <Role>HostContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>SMILE Home Page</Name>
-            <URL>https://www.cosmos.esa.int/web/smile/</URL>
-         </InformationURL>
-      </ResourceHeader>
-      <Location>
-         <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
-      </Location>
-   </Observatory>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Unknown</PersonID>
+        <Role>HostContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>SMILE Home Page</Name>
+        <URL>https://www.cosmos.esa.int/web/smile/</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+    </Location>
+  </Observatory>
 </Spase>

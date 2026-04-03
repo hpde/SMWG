@@ -1,35 +1,35 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
-   <Version>2.7.1</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/GOCE</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Gravity Field and Steady-State Ocean Circulation Explorer (GOCE)</ResourceName>
-         <ReleaseDate>2025-03-19</ReleaseDate>
-         <RevisionHistory>
-            <RevisionEvent>
-               <ReleaseDate>2025-03-19</ReleaseDate>
-               <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
-            </RevisionEvent>
-         </RevisionHistory>
-         <Description>ESA's Gravity field and Ocean Circulation Explorer (GOCE) orbited as close to Earth as possible - just 260 km up - to maximise its sensitivity to variations in Earth's gravity field with unprecedented accuracy and spatial resolution. GOCE's state-of-the-art gradiometer mapped Earth's geoid very accurately, opening a window into Earth's interior structure as well as the currents circulating within the depths of its oceans.
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/GOCE</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Gravity Field and Steady-State Ocean Circulation Explorer (GOCE)</ResourceName>
+      <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+          <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>ESA's Gravity field and Ocean Circulation Explorer (GOCE) orbited as close to Earth as possible - just 260 km up - to maximise its sensitivity to variations in Earth's gravity field with unprecedented accuracy and spatial resolution. GOCE's state-of-the-art gradiometer mapped Earth's geoid very accurately, opening a window into Earth's interior structure as well as the currents circulating within the depths of its oceans.
 The final gravity map and model of the geoid, provided users worldwide with well-defined data products that are instrumental in advancing science and applications in a broad range of disciplines. Although its flight is over, the wealth of data from GOCE continues to be exploited to improve our understanding of geodesy, geophysics, surveying, ocean circulation, oceanography, sea level, ice dynamics and Earth’s interior.
 GOCE was launched on 17 March 2009 and came to an end on 21 October 2013 when it ran out of fuel and re-entered the atmosphere on 11 November 2013.</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/unknown</PersonID>
-            <Role>HostContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>GOCE Home Page</Name>
-            <URL>https://earth.esa.int/eogateway/missions/goce</URL>
-         </InformationURL>
-      </ResourceHeader>
-      <Location>
-         <ObservatoryRegion>Earth</ObservatoryRegion>
-      </Location>
-      <OperatingSpan>
-         <StartDate>2009-03-17</StartDate>
-         <StopDate>2013-10-21</StopDate>
-      </OperatingSpan>
-   </Observatory>
+      <Contact>
+        <PersonID>spase://SMWG/Person/unknown</PersonID>
+        <Role>HostContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>GOCE Home Page</Name>
+        <URL>https://earth.esa.int/eogateway/missions/goce</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth</ObservatoryRegion>
+    </Location>
+    <OperatingSpan>
+      <StartDate>2009-03-17T00:00:00Z</StartDate>
+      <StopDate>2013-10-21T00:00:00Z</StopDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>
