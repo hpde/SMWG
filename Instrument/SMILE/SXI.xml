@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/SMILE/SXI</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SXI</ResourceName>
+      <AlternateName>Soft X-ray Imager</AlternateName>
+      <ReleaseDate>2025-03-20T00:00:00Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2025-03-20T00:00:00Z</ReleaseDate>
+          <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The instrument will observe the solar wind interaction with the magnetosphere in X-rays gathering simultaneous images and videos of the dayside magnetopause (where Earth's magnetosphere meets the solar wind), the polar cusps (a region in each hemisphere where particles from the solar wind have direct access to Earth's ionosphere), and the auroral oval (the region around each geomagnetic pole where auroras most often occur). </Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Unknown</PersonID>
+        <Role>HostContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>SMILE Mission Home Page</Name>
+        <URL>https://www.cosmos.esa.int/web/smile/</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Imager</InstrumentType>
+    <InvestigationName>Soft X-ray Imager on the Solar wind Magnetosphere Ionosphere Link Explorer mission</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/SMILE</ObservatoryID>
+  </Instrument>
+</Spase>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Marcos.Santander</ResourceID>
+    <PersonName>Marcos Santander</PersonName>
+    <OrganizationName>University of Alabama</OrganizationName>
+    <Email>jmsantander@ua.edu</Email>
+    <ORCIdentifier>0000-0001-7297-8217</ORCIdentifier>
+    <RORIdentifier>03xrrjk67</RORIdentifier>
+  </Person>
+</Spase>

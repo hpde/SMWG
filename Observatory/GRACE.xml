@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/GRACE</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Gravity Recovery and Climate Experiment (GRACE)</ResourceName>
+      <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+          <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>An award-winning mission that's changed the way we study Earth's gravitational forces and the Earth system, the Gravity Recovery and Climate Experiment, or GRACE, mission flew twin spacecraft in tandem around Earth to study key changes in the planet's waters, ice sheets and the solid Earth.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Unknown</PersonID>
+        <Role>HostContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>GRACE Home Page</Name>
+        <URL>https://grace.jpl.nasa.gov/</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth</ObservatoryRegion>
+    </Location>
+    <OperatingSpan>
+      <StartDate>2002-03-17T00:00:00Z</StartDate>
+      <StopDate>2017-10-01T00:00:00Z</StopDate>
+    </OperatingSpan>
+  </Observatory>
+</Spase>

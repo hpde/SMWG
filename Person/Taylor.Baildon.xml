@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Taylor.Baildon</ResourceID>
+    <PersonName>Taylor Baildon</PersonName>
+    <OrganizationName>New Jersey Institute of Technology</OrganizationName>
+    <Email>taylor.baildon@njit.com</Email>
+    <RORIdentifier>05e74xb87</RORIdentifier>
+  </Person>
+</Spase>
