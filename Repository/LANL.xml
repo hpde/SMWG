@@ -1,16 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-1_2_0.xsd">
-  <Version>1.2.0</Version>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
   <Repository>
     <ResourceID>spase://SMWG/Repository/LANL</ResourceID>
     <ResourceHeader>
       <ResourceName>LANL</ResourceName>
-      <ReleaseDate>2021-06-02T18:05:57Z</ReleaseDate>
+      <AlternateName>Los Alamos National Laboratory</AlternateName>
+      <ReleaseDate>2026-04-06T18:03:27Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2021-06-02T18:05:57Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-04-06T18:03:27Z</ReleaseDate>
+          <Note>Added AlternateName with ROR name. Added AccessURL. Added RORIdentifier. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>LANL Repository</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
     </ResourceHeader>
+    <AccessURL>
+      <URL>https://ror.org/01e41cf67</URL>
+    </AccessURL>
+    <RORIdentifier>01e41cf67</RORIdentifier>
   </Repository>
 </Spase>
