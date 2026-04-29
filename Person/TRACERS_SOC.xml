@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2-7-1.xsd">
+   <Version>2.7.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/TRACERS_SOC</ResourceID>
+      <ReleaseDate>2026-04-29T00:00:00.000</ReleaseDate>
+      <PersonName>TRACERS Science Operation Center Point of Contact</PersonName>
+      <OrganizationName>TRACERS Science Operations Center (SOC)</OrganizationName>
+      <Address>Physics and Astronomy, University of Iowa, Iowa City, IA</Address>
+      <Email>tracers-sot@uiowa.edu</Email>
+      <Note>Provides the point of contact e-mail address for TRACERS data inquiries to the SOC </Note>
+   </Person>
+</Spase>
