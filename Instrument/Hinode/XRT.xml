@@ -1,28 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_2.xsd">
-  <Version>2.0.2</Version>
-  <Instrument>
-    <ResourceID>spase://SMWG/Instrument/Hinode/XRT</ResourceID>
-    <ResourceHeader>
-      <ResourceName>X-Ray Telescope</ResourceName>
-      <ReleaseDate>2014-07-24T20:37:21Z</ReleaseDate>
-      <Description>The Hinode X-Ray Telescope (XRT) is a high resolution 
-      grazing incidence telescope consisting of X-ray and visible light optics,
-      focal plane mechanisms (filters and shutter) and a 2k x 2k CCD camera.
-      It operates over a 2 - 200 Angstrom bandwidth.</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Edward.Deluca</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-      <InformationURL>
-        <Name>NAOJ Hinode site</Name>
-        <URL>http://hinode.nao.ac.jp/index_e.shtml</URL>
-        <Description>National Astronomical Observatory of Japan web site 
-for Hinode mission, instruments, etc.</Description>
-      </InformationURL>
-    </ResourceHeader>
-    <InstrumentType>Imager</InstrumentType>
-    <InvestigationName>X-Ray Telescope</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/Hinode</ObservatoryID>
-  </Instrument>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
+   <MetadataRightsList>
+      <Rights>
+         <SchemeURI>https://spdx.org/licenses/</SchemeURI>
+         <RightsIdentifierScheme>SPDX</RightsIdentifierScheme>
+         <RightsURI>https://spdx.org/licenses/CC0-1.0.html</RightsURI>
+         <RightsName>Creative Commons Zero v1.0 Universal</RightsName>
+         <Note>CC0 1.0 Universal is the Creative Commons license applicable to all publicly available SPASE metadata descriptions</Note>
+      </Rights>
+   </MetadataRightsList>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Hinode/XRT</ResourceID>
+      <ResourceHeader>
+         <ResourceName>X-Ray Telescope</ResourceName>
+         <ReleaseDate>2014-07-24T20:37:21Z</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2026-04-30T00:08:46</ReleaseDate>
+               <Note>Updated the Description, Contact, and InfomationURL. Add MetadataRightsList. SY</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The X-Ray Telescope (XRT) onboard Hinode is a grazing-incidence soft X-ray imager designed to observe the solar corona over a wide temperature range (~1–10 MK). XRT provides high-cadence, high-resolution full-disk and partial-disk images of the Sun, enabling the study of coronal structures, active regions, flares, and eruptive phenomena.
+
+The instrument employs a Wolter-I type grazing-incidence optical system with a CCD detector and a set of focal-plane analysis filters that allow temperature diagnostics through filter-ratio techniques. XRT achieves an angular resolution of approximately 1 arcsecond and supports flexible observing modes, including rapid cadence imaging for transient events.
+
+XRT is particularly suited for investigating the heating and dynamics of the solar corona, magnetic energy release processes, and the evolution of high-temperature plasma associated with solar flares and coronal mass ejections. Its observations are often used in conjunction with the Solar Optical Telescope (SOT) and the EUV Imaging Spectrometer (EIS) on Hinode to provide a multi-layer view of the solar atmosphere.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Leon.Golub</PersonID>
+            <Role>FormerPI</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Kiyoto.Shibasaki</PersonID>
+            <Role>InstrumentScientist</Role>
+            <Note>Instrument Scientist (XRT, Japan)</Note>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Taro.Sakao</PersonID>
+            <Role>InstrumentScientist</Role>
+            <Note>Instrument Scientist (XRT, Japan)</Note>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Edward.Deluca</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Hinode XRT website at NAOJ</Name>
+            <URL>https://hinode.nao.ac.jp/en/for-researchers/instruments/xrt/</URL>
+         </InformationURL>
+         <InformationURL>
+            <URL>https://doi.org/10.1007/s11207-007-0182-1</URL>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Imager</InstrumentType>
+      <InvestigationName>X-Ray Telescope</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/Hinode</ObservatoryID>
+   </Instrument>
 </Spase>

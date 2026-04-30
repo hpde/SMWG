@@ -1,29 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_2.xsd">
-  <Version>2.0.2</Version>
-  <Instrument>
-    <ResourceID>spase://SMWG/Instrument/Hinode/EIS</ResourceID>
-    <ResourceHeader>
-      <ResourceName>EUV Imaging Spectrometer</ResourceName>
-      <ReleaseDate>2014-07-24T20:37:20Z</ReleaseDate>
-      <Description>The Hinode EUV Imaging Spectrometer simultaneously
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Hinode/EIS</ResourceID>
+      <ResourceHeader>
+         <ResourceName>EUV Imaging Spectrometer</ResourceName>
+         <ReleaseDate>2014-07-24T20:37:20Z</ReleaseDate>
+         <Description>The EUV Imaging Spectrometer (EIS) onboard Hinode is a high-resolution extreme ultraviolet (EUV) spectrometer designed to observe emission lines formed in the solar corona and transition region over a temperature range of approximately 0.05-20 MK. EIS records spatially resolved spectra in two wavelength bands (approximately 170-210 Å and 250-290 Å), enabling diagnostics of plasma temperature, density, flow velocity, and non-thermal motions.
+
+EIS employs a slit-based spectrograph with multiple slit and slot options (including narrow slits for spectroscopy and wider slots for imaging-like observations). By rastering across the solar disk, the instrument constructs two-dimensional maps of spectral line intensities and Doppler shifts. The spectral resolution allows precise measurements of line profiles, supporting studies of coronal heating, magnetic reconnection, plasma flows, and active region dynamics.
+
+The instrument is optimized to investigate the physical processes governing the solar atmosphere, including energy transport and dissipation, and the origins of the solar wind. EIS observations are routinely combined with data from the Solar Optical Telescope (SOT) and the X-Ray Telescope (XRT) to provide a multi-layered view of the solar atmosphere from the photosphere to the corona.
+
+The Hinode EUV Imaging Spectrometer simultaneously
 measures in the 170-210 and 250-290 Angstrom ranges using two
 large back-illuminated CCDs.  EIS utilizes an off-axis parabolic primary 
 and a toroidal diffraction grating in a normal-incidence optical layout.</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/J.Leonard.Culhane</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-      <InformationURL>
-        <Name>NAOJ Hinode site</Name>
-        <URL>http://hinode.nao.ac.jp/index_e.shtml</URL>
-        <Description>National Astronomical Observatory of Japan web site 
-for Hinode mission, instruments, etc.</Description>
-      </InformationURL>
-    </ResourceHeader>
-    <InstrumentType>Imager</InstrumentType>
-    <InstrumentType>Spectrometer</InstrumentType>
-    <InvestigationName>EUV Imaging Spectrometer</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/Hinode</ObservatoryID>
-  </Instrument>
+         <Contact>
+            <PersonID>spase://SMWG/Person/J.Leonard.Culhane</PersonID>
+            <Role>FormerPI</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Louise.Harra</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Hirohisa.Hara</PersonID>
+            <Role>InstrumentScientist</Role>
+            <Note>Instrument Scientist (EIS, Japan)</Note>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/George.A.Doschek</PersonID>
+            <Role>InstrumentScientist</Role>
+            <Note>Instrument Scientist (EIS, U.S.)</Note>
+         </Contact>
+         <InformationURL>
+            <Name>The Hinode EIS website at NAOJ</Name>
+            <URL>https://hinode.nao.ac.jp/en/for-researchers/instruments/eis/</URL>
+         </InformationURL>
+         <InformationURL>
+            <Name>The Hinode EIS Instrument paper</Name>
+            <URL>https://doi.org/10.1007/s01007-007-0293-1</URL>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Imager</InstrumentType>
+      <InstrumentType>Spectrometer</InstrumentType>
+      <InvestigationName>EUV Imaging Spectrometer</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/Hinode</ObservatoryID>
+   </Instrument>
 </Spase>
