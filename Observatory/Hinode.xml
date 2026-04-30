@@ -1,27 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Observatory>
-    <ResourceID>spase://SMWG/Observatory/Hinode</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Hinode</ResourceName>
-      <ReleaseDate>2014-07-24T20:37:14Z</ReleaseDate>
-      <Description>Hinode is a Japanese spacecraft making high resolution
-observations of the sun at optical, EUV and X-ray wavelengths.  Scientific
-foci include solar magnetic fields and coronal heating.  Hinode was launched 
-on September 22, 2006 (UT) into a low altitude, sun-synchronous orbit.  
-Its pre-launch name was Solar-B.</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Saku.Tsuneta</PersonID>
-        <Role>ProjectScientist</Role>
-      </Contact>
-      <InformationURL>
-        <Name>Hinode web page at National Astronomical Observatory of Japan</Name>
-        <URL>http://hinode.nao.ac.jp/index_e.shtml</URL>
-      </InformationURL>
-    </ResourceHeader>
-    <Location>
-      <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
-    </Location>
-  </Observatory>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
+<MetadataRightsList>
+<Rights>
+<SchemeURI>https://spdx.org/licenses/</SchemeURI>
+<RightsIdentifierScheme>SPDX</RightsIdentifierScheme>
+<RightsIdentifier>CC0-1.0</RightsIdentifier>
+<RightsURI>https://spdx.org/licenses/CC0-1.0.html</RightsURI>
+<RightsName>Creative Commons Zero v1.0 Universal</RightsName>
+<Note>CC0 1.0 Universal is the Creative Commons license applicable to all publicly available SPASE metadata descriptions</Note>
+</Rights>
+</MetadataRightsList>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Hinode</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Hinode</ResourceName>
+         <ReleaseDate>2014-07-24T20:37:14Z</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2026-04-30T00:08:46</ReleaseDate>
+               <Note>Updated the Description, Contact, and InformationURL; Added MetadataRightsList</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>Hinode is an international solar physics mission led by JAXA with major contributions from NASA, the UK, and ESA. It was launched on 22 September 2006 (23 September in Japan). The spacecraft carries three advanced solar telescopes that together provide some of the most detailed observations ever made of the Sun. Its Solar Optical Telescope achieves about 0.2‑arcsecond resolution, fine enough that, if it were observing Earth, it could distinguish a feature roughly half a meter across. The X‑Ray Telescope offers several times better resolution than the earlier Yohkoh mission, and the Extreme‑ultraviolet Imaging Spectrometer has a sensitivity greatly exceeding that of earlier EUV instruments such as the one flown on SOHO. These capabilities allow Hinode to explore how the Sun’s outer atmosphere is heated and how active regions evolve and release energy. The mission continues to play a major role in studying the structure, dynamics, and magnetic activity of the solar atmosphere.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Takeo.Kosugi</PersonID>
+            <Role>ProjectManager</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Takashi.Sakurai</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Saku.Tsuneta</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Adam.Kobelski</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Jessie.Duncan</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Stephen.Elrod</PersonID>
+            <Role>ProgramManager</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Hinode web page at National Astronomical Observatory of Japan</Name>
+            <URL>https://hinode.nao.ac.jp/en/</URL>
+         </InformationURL>
+         <InformationURL>
+            <Name>The Hinode website at NASA MSFC</Name>
+            <URL>https://hinode.msfc.nasa.gov/</URL>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2006-09-22T21:36:00Z</StartDate>
+      </OperatingSpan>
+   </Observatory>
 </Spase>
