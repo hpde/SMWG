@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
    <Version>2.7.1</Version>
+   <MetadataRightsList>
+      <Rights>
+         <SchemeURI>https://spdx.org/licenses/</SchemeURI>
+         <RightsIdentifierScheme>SPDX</RightsIdentifierScheme>
+         <RightsURI>https://spdx.org/licenses/CC0-1.0.html</RightsURI>
+         <RightsName>Creative Commons Zero v1.0 Universal</RightsName>
+         <Note>CC0 1.0 Universal is the Creative Commons license applicable to all publicly available SPASE metadata descriptions</Note>
+      </Rights>
+   </MetadataRightsList>
    <Instrument>
       <ResourceID>spase://SMWG/Instrument/Hinode/EIS</ResourceID>
       <ResourceHeader>
          <ResourceName>EUV Imaging Spectrometer</ResourceName>
          <ReleaseDate>2014-07-24T20:37:20Z</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2026-05-01T00:08:46</ReleaseDate>
+               <Note>Updated the Description, Contact, and InfomationURL. Add MetadataRightsList. SY</Note>
+            </RevisionEvent>
+         </RevisionHistory>
          <Description>The EUV Imaging Spectrometer (EIS) onboard Hinode is a high-resolution extreme ultraviolet (EUV) spectrometer designed to observe emission lines formed in the solar corona and transition region over a temperature range of approximately 0.05-20 MK. EIS records spatially resolved spectra in two wavelength bands (approximately 170-210 Å and 250-290 Å), enabling diagnostics of plasma temperature, density, flow velocity, and non-thermal motions.
 
 EIS employs a slit-based spectrograph with multiple slit and slot options (including narrow slits for spectroscopy and wider slots for imaging-like observations). By rastering across the solar disk, the instrument constructs two-dimensional maps of spectral line intensities and Doppler shifts. The spectral resolution allows precise measurements of line profiles, supporting studies of coronal heating, magnetic reconnection, plasma flows, and active region dynamics.
@@ -22,12 +37,12 @@ The instrument is optimized to investigate the physical processes governing the 
          <Contact>
             <PersonID>spase://SMWG/Person/Hirohisa.Hara</PersonID>
             <Role>InstrumentScientist</Role>
-            <Note>Instrument Scientist (EIS, Japan)</Note>
+            <Note>EIS Instrument Scientist (Japan)</Note>
          </Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/George.A.Doschek</PersonID>
             <Role>InstrumentScientist</Role>
-            <Note>Instrument Scientist (EIS, U.S.)</Note>
+            <Note>EIS Instrument Scientist (USA)</Note>
          </Contact>
          <InformationURL>
             <Name>The Hinode EIS website at NAOJ</Name>

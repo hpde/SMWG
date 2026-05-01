@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_6_1.xsd">
-   <Version>2.6.1</Version>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
+   <MetadataRightsList>
+      <Rights>
+         <SchemeURI>https://spdx.org/licenses/</SchemeURI>
+         <RightsIdentifierScheme>SPDX</RightsIdentifierScheme>
+         <RightsURI>https://spdx.org/licenses/CC0-1.0.html</RightsURI>
+         <RightsName>Creative Commons Zero v1.0 Universal</RightsName>
+         <Note>CC0 1.0 Universal is the Creative Commons license applicable to all publicly available SPASE metadata descriptions</Note>
+      </Rights>
+   </MetadataRightsList>
    <Instrument>
       <ResourceID>spase://SMWG/Instrument/Hinode/SOT</ResourceID>
       <ResourceHeader>
@@ -11,16 +20,18 @@
                <ReleaseDate>2024-08-26T13:50:46</ReleaseDate>
                <Note>modify fields to include up-to-date information (by MDR)</Note>
             </RevisionEvent>
+            <RevisionEvent>
+               <ReleaseDate>2026-04-30T00:08:46</ReleaseDate>
+               <Note>Updated the Description and Contact, and InformationURL. Add MetadataRightsList</Note>
+            </RevisionEvent>
          </RevisionHistory>
-         <Description>The Solar Optical Telescope (SOT) is a diffraction-limited, visible light telescope that provides the unparalleled combination of uninterrupted temporal coverage (free from atmospheric seeing, weather, and nighttime), high cadence (as short as 1.6s), and 0.2″ spatial resolution over a significant 328″×164″ field of view (FOV). SOT is comprised of the Focal Plane Package (FPP), which is fed by the 0.5-meter Optical Telescope Assembly (OTA). The FPP consists of the Spectro-Polarimeter (SP) and (up to 2016) the Narrowband and Broadband Filter Imagers (NFI and BFI) that comprise the FilterGraph (FG). The combined SOT system allows measurements of the vector magnetic field in the photosphere with unprecedented sensitivity (10× better than previous instrumentation), while simultaneously observing the effects of these fields on the dynamics of both the photosphere and chromosphere.</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Yukio.Katsukawa</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Marc.L.DeRosa</PersonID>
-            <Role>CoPI</Role>
-         </Contact>
+         <Description>The Solar Optical Telescope (SOT) onboard Hinode is a diffraction-limited optical telescope designed to observe the solar photosphere and chromosphere with high spatial and temporal resolution. SOT operates primarily in visible and near-ultraviolet wavelengths, providing continuous, seeing-free observations of solar fine structure at spatial scales down to approximately 0.2–0.3 arcseconds.
+
+The instrument consists of a 50-cm aperture Gregorian telescope feeding multiple focal-plane instruments, including a Broadband Filter Imager (BFI), a Narrowband Filter Imager (NFI), and a Spectro-Polarimeter (SP). These subsystems enable high-resolution imaging, Doppler measurements, and precise vector magnetic field diagnostics through spectro-polarimetric observations.
+
+SOT is optimized to investigate the structure and evolution of solar magnetic fields, including sunspots, active regions, and small-scale magnetic elements, as well as their role in driving dynamic phenomena such as flares and coronal heating. Its spectro-polarimetric capability provides measurements of the full vector magnetic field in the photosphere, enabling detailed studies of magnetic energy buildup and release.
+
+SOT observations are routinely combined with data from the X-Ray Telescope (XRT) and the EUV Imaging Spectrometer (EIS) to provide a comprehensive, multi-layer view of the solar atmosphere from the photosphere to the corona.</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/Saku.Tsuneta</PersonID>
             <Role>FormerPI</Role>
@@ -28,29 +39,68 @@
          <Contact>
             <PersonID>spase://SMWG/Person/Ted.D.Tarbell</PersonID>
             <Role>FormerPI</Role>
+            <Note>The former U.S. PI for NASA</Note>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Alan.M.Title</PersonID>
+            <Role>FormerPI</Role>
+            <Note>The former U.S. PI for NASA</Note>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Yoshinori.Suematsu</PersonID>
+            <Role>InstrumentScientist</Role>
+            <Note>SOT Instrument Scientist (Japan)</Note>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Kiyoshi.Ichimoto</PersonID>
+            <Role>InstrumentScientist</Role>
+            <Note>SOT Instrument Scientist (Japan)</Note>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Toshifumi.Shimizu</PersonID>
+            <Role>InstrumentScientist</Role>
+            <Note>SOT Instrument Scientist (Japan)</Note>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Yukio.Katsukawa</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Marc.L.DeRosa</PersonID>
+            <Role>PrincipalInvestigator</Role>
+            <Note>The U.S. PI for NASA</Note>
          </Contact>
          <InformationURL>
-            <Name>Hinode/SOT (NAOJ)</Name>
+            <Name>Hinode/SOT website at NAOJ</Name>
             <URL>https://hinode.nao.ac.jp/en/for-researchers/instruments/sot/</URL>
-            <Description>National Astronomical Observatory of Japan web site for Hinode/SOT instrument</Description>
             <Language>English</Language>
          </InformationURL>
          <InformationURL>
-            <Name>Hinode/SOT (LMSAL)</Name>
+            <Name>Hinode/SOT website at LMSAL</Name>
             <URL>https://sot.lmsal.com/</URL>
-            <Description>Lockheed Martin web site for Hinode/SOT instrument</Description>
             <Language>English</Language>
          </InformationURL>
          <InformationURL>
-            <Name>The Hinode/SOT Instrument paper</Name>
+            <Name>The Solar Optical Telescope for the Hinode Mission: An Overview</Name>
             <URL>https://doi.org/10.1007/s11207-008-9174-z</URL>
+         </InformationURL>
+         <InformationURL>
+            <Name>The Solar Optical Telescope of Solar-B (Hinode): The Optical Telescope Assembly</Name>
+            <URL>https://doi.org/10.1007/s11207-008-9129-4</URL>
+         </InformationURL>
+         <InformationURL>
+            <Name>Image Stabilization System for Hinode (Solar-B) Solar Optical Telescope</Name>
+            <URL>https://doi.org/10.1007/s11207-007-9053-z</URL>
+         </InformationURL>
+         <InformationURL>
+            <Name>Polarization Calibration of the Solar Optical Telescope onboard Hinode</Name>
+            <URL>https://doi.org/10.1007/s11207-008-9169-9</URL>
          </InformationURL>
       </ResourceHeader>
       <InstrumentType>Imager</InstrumentType>
       <InvestigationName>Solar Optical Telescope</InvestigationName>
       <OperatingSpan>
          <StartDate>2006-09-22T21:36:00</StartDate>
-         <Note>currently operational</Note>
       </OperatingSpan>
       <ObservatoryID>spase://SMWG/Observatory/Hinode</ObservatoryID>
    </Instrument>

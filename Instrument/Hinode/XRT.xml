@@ -17,7 +17,7 @@
          <ReleaseDate>2014-07-24T20:37:21Z</ReleaseDate>
          <RevisionHistory>
             <RevisionEvent>
-               <ReleaseDate>2026-04-30T00:08:46</ReleaseDate>
+               <ReleaseDate>2026-05-01T00:08:46</ReleaseDate>
                <Note>Updated the Description, Contact, and InfomationURL. Add MetadataRightsList. SY</Note>
             </RevisionEvent>
          </RevisionHistory>
@@ -33,12 +33,17 @@ XRT is particularly suited for investigating the heating and dynamics of the sol
          <Contact>
             <PersonID>spase://SMWG/Person/Kiyoto.Shibasaki</PersonID>
             <Role>InstrumentScientist</Role>
-            <Note>Instrument Scientist (XRT, Japan)</Note>
+            <Note>XRT Instrument Scientist (Japan)</Note>
          </Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Taro.Sakao</PersonID>
             <Role>InstrumentScientist</Role>
-            <Note>Instrument Scientist (XRT, Japan)</Note>
+            <Note>XRT Instrument Scientist (Japan)</Note>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Ryohei.Kano</PersonID>
+            <Role>InstrumentScientist</Role>
+            <Note>XRT Instrument Scientist (Japan)</Note>
          </Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Edward.Deluca</PersonID>
@@ -49,11 +54,19 @@ XRT is particularly suited for investigating the heating and dynamics of the sol
             <URL>https://hinode.nao.ac.jp/en/for-researchers/instruments/xrt/</URL>
          </InformationURL>
          <InformationURL>
+            <Name>The Hinode/XRT Instrument paper</Name>
             <URL>https://doi.org/10.1007/s11207-007-0182-1</URL>
+         </InformationURL>
+         <InformationURL>
+            <Name>The Hinode X-Ray Telescope (XRT): Camera Design, Performance and Operations</Name>
+            <URL>https://doi.org/10.1007/s11207-007-9058-7</URL>
          </InformationURL>
       </ResourceHeader>
       <InstrumentType>Imager</InstrumentType>
       <InvestigationName>X-Ray Telescope</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2006-09-22T21:36:00</StartDate>
+      </OperatingSpan>
       <ObservatoryID>spase://SMWG/Observatory/Hinode</ObservatoryID>
    </Instrument>
 </Spase>
