@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
+   <MetadataRightsList>
+      <Rights>
+         <SchemeURI>https://spdx.org/licenses/</SchemeURI>
+         <RightsIdentifierScheme>SPDX</RightsIdentifierScheme>
+         <RightsURI>https://spdx.org/licenses/CC0-1.0.html</RightsURI>
+         <RightsName>Creative Commons Zero v1.0 Universal</RightsName>
+         <Note>CC0 1.0 Universal is the Creative Commons license applicable to all publicly available SPASE metadata descriptions</Note>
+      </Rights>
+   </MetadataRightsList>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/ISS/CODEX</ResourceID>
+      <ResourceHeader>
+         <ResourceName>CODEX</ResourceName>
+         <AlternateName>Coronal Diagnostic Experiment</AlternateName>
+         <ReleaseDate>2026-05-01T00:08:46Z</ReleaseDate>
+         <Description>The CODEX (Coronal Diagnostic Experiment) is a next-generation externally occulted solar coronagraph mounted on the International Space Station (ISS). Developed as an international collaboration between NASA (USA) and KASI (South Korea), the instrument observes the solar corona in polarized visible light. By blocking direct solar disk emission, CODEX enables high-sensitivity measurements of the faint K-corona and targets the physical processes responsible for coronal heating and solar wind acceleration. It observes the corona over heliocentric distances of approximately 3–8 solar radii, covering the solar wind acceleration region.
+
+CODEX provides simultaneous measurements of coronal electron density, temperature, and bulk flow velocity using multi-wavelength polarimetric imaging. It operates over a wavelength range of approximately 385–440 nm with a combination of narrowband filters and a broadband channel. A polarization-sensitive detector measures the polarized brightness of Thomson-scattered light, enabling diagnostics of plasma properties through spectral and polarization analysis. These observations provide key remote-sensing constraints that complement in situ measurements of the solar wind.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Jeffrey.S.Newmark</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Yeon-Han.Kim</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>The CODEX website</Name>
+            <URL>https://science.nasa.gov/mission/codex/</URL>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Coronograph</InstrumentType>
+      <InvestigationName>CODEX</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2024-11-04T00:00:00</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/ISS</ObservatoryID>
+   </Instrument>
+</Spase>
