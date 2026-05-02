@@ -35,14 +35,19 @@ The instrument is optimized to investigate the physical processes governing the 
             <Role>PrincipalInvestigator</Role>
          </Contact>
          <Contact>
+            <PersonID>spase://SMWG/Person/George.A.Doschek</PersonID>
+            <Role>InstrumentScientist</Role>
+            <Note>EIS Instrument Scientist (USA)</Note>
+         </Contact>
+         <Contact>
             <PersonID>spase://SMWG/Person/Hirohisa.Hara</PersonID>
             <Role>InstrumentScientist</Role>
             <Note>EIS Instrument Scientist (Japan)</Note>
          </Contact>
          <Contact>
-            <PersonID>spase://SMWG/Person/George.A.Doschek</PersonID>
+            <PersonID>spase://SMWG/Person/Tetsuya.Watanabe</PersonID>
             <Role>InstrumentScientist</Role>
-            <Note>EIS Instrument Scientist (USA)</Note>
+            <Note>EIS Instrument Scientist (Japan)</Note>
          </Contact>
          <InformationURL>
             <Name>The Hinode EIS website at NAOJ</Name>
@@ -56,6 +61,9 @@ The instrument is optimized to investigate the physical processes governing the 
       <InstrumentType>Imager</InstrumentType>
       <InstrumentType>Spectrometer</InstrumentType>
       <InvestigationName>EUV Imaging Spectrometer</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2006-09-22T21:36:00Z</StartDate>
+      </OperatingSpan>
       <ObservatoryID>spase://SMWG/Observatory/Hinode</ObservatoryID>
    </Instrument>
 </Spase>
