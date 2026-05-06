@@ -16,16 +16,45 @@
          <ResourceName>CODEX</ResourceName>
          <AlternateName>Coronal Diagnostic Experiment</AlternateName>
          <ReleaseDate>2026-05-01T00:08:46Z</ReleaseDate>
-         <Description>The CODEX (Coronal Diagnostic Experiment) is a next-generation externally occulted solar coronagraph mounted on the International Space Station (ISS). Developed as an international collaboration between NASA (USA) and KASI (South Korea), the instrument observes the solar corona in polarized visible light. By blocking direct solar disk emission, CODEX enables high-sensitivity measurements of the faint K-corona and targets the physical processes responsible for coronal heating and solar wind acceleration. It observes the corona over heliocentric distances of approximately 3–8 solar radii, covering the solar wind acceleration region.
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2026-05-06T00:08:46</ReleaseDate>
+               <Note>Updated the Description and Contact. SY</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The CODEX (Coronal Diagnostic Experiment) is a next-generation externally occulted solar coronagraph mounted on the International Space Station (ISS). Developed as an international collaboration between NASA (USA), KASI (South Korea), and INAF (Italy), the instrument observes the solar corona in polarized visible light. By blocking direct solar disk emission (artificial eclipse), CODEX enables high-sensitivity measurements of the faint K-corona and targets the physical processes responsible for coronal heating and solar wind acceleration. It observes the corona over heliocentric distances of approximately 3–8 solar radii, covering the solar wind acceleration region.
 
 CODEX provides simultaneous measurements of coronal electron density, temperature, and bulk flow velocity using multi-wavelength polarimetric imaging. It operates over a wavelength range of approximately 385–440 nm with a combination of narrowband filters and a broadband channel. A polarization-sensitive detector measures the polarized brightness of Thomson-scattered light, enabling diagnostics of plasma properties through spectral and polarization analysis. These observations provide key remote-sensing constraints that complement in situ measurements of the solar wind.</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/Jeffrey.S.Newmark</PersonID>
             <Role>PrincipalInvestigator</Role>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Niharika.Godbole</PersonID>
+            <Role>TeamMember</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Shanwlee.Sow-Mondal</PersonID>
+            <Role>TeamMember</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Marta.Casti</PersonID>
+            <Role>TeamMember</Role>
          </Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Yeon-Han.Kim</PersonID>
             <Role>CoInvestigator</Role>
+            <Note>South Korea Co-PI</Note>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Silvano.Fineschi</PersonID>
+            <Role>CoPI</Role>
+            <Note>Italy Co-PI</Note>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Nelson.L.Reginald</PersonID>
+            <Role>TeamMember</Role>
          </Contact>
          <InformationURL>
             <Name>The CODEX website</Name>
