@@ -33,8 +33,23 @@ SOT is optimized to investigate the structure and evolution of solar magnetic fi
 
 SOT observations are routinely combined with data from the X-Ray Telescope (XRT) and the EUV Imaging Spectrometer (EIS) to provide a comprehensive, multi-layer view of the solar atmosphere from the photosphere to the corona.</Description>
          <Contact>
+            <PersonID>spase://SMWG/Person/Yukio.Katsukawa</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Yoshinori.Suematsu</PersonID>
+            <Role>FormerPI</Role>
+            <Note>The former JP PI</Note>
+         </Contact>
+         <Contact>
             <PersonID>spase://SMWG/Person/Saku.Tsuneta</PersonID>
             <Role>FormerPI</Role>
+            <Note>The former JP PI</Note>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Marc.L.DeRosa</PersonID>
+            <Role>PrincipalInvestigator</Role>
+            <Note>The U.S. PI for NASA</Note>
          </Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Ted.D.Tarbell</PersonID>
@@ -47,11 +62,6 @@ SOT observations are routinely combined with data from the X-Ray Telescope (XRT)
             <Note>The former U.S. PI for NASA</Note>
          </Contact>
          <Contact>
-            <PersonID>spase://SMWG/Person/Yoshinori.Suematsu</PersonID>
-            <Role>InstrumentScientist</Role>
-            <Note>SOT Instrument Scientist (Japan)</Note>
-         </Contact>
-         <Contact>
             <PersonID>spase://SMWG/Person/Kiyoshi.Ichimoto</PersonID>
             <Role>InstrumentScientist</Role>
             <Note>SOT Instrument Scientist (Japan)</Note>
@@ -62,13 +72,14 @@ SOT observations are routinely combined with data from the X-Ray Telescope (XRT)
             <Note>SOT Instrument Scientist (Japan)</Note>
          </Contact>
          <Contact>
-            <PersonID>spase://SMWG/Person/Yukio.Katsukawa</PersonID>
-            <Role>PrincipalInvestigator</Role>
+            <PersonID>spase://SMWG/Person/Richard.A.Shine</PersonID>
+            <Role>Scientist</Role>
+            <Note>Science Schedule Coordinator</Note>
          </Contact>
          <Contact>
-            <PersonID>spase://SMWG/Person/Marc.L.DeRosa</PersonID>
-            <Role>PrincipalInvestigator</Role>
-            <Note>The U.S. PI for NASA</Note>
+            <PersonID>spase://SMWG/Person/Joten.Okamoto</PersonID>
+            <Role>Scientist</Role>
+            <Note>Science Schedule Coordinator</Note>
          </Contact>
          <InformationURL>
             <Name>Hinode/SOT website at NAOJ</Name>
@@ -95,6 +106,10 @@ SOT observations are routinely combined with data from the X-Ray Telescope (XRT)
          <InformationURL>
             <Name>Polarization Calibration of the Solar Optical Telescope onboard Hinode</Name>
             <URL>https://doi.org/10.1007/s11207-008-9169-9</URL>
+         </InformationURL>
+         <InformationURL>
+            <Name>The Hinode Spectro-Polarimeter</Name>
+            <URL>https://doi.org/10.1007/s11207-012-0206-3</URL>
          </InformationURL>
       </ResourceHeader>
       <InstrumentType>Imager</InstrumentType>

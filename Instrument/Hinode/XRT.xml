@@ -27,13 +27,16 @@ The instrument employs a Wolter-I type grazing-incidence optical system with a C
 
 XRT is particularly suited for investigating the heating and dynamics of the solar corona, magnetic energy release processes, and the evolution of high-temperature plasma associated with solar flares and coronal mass ejections. Its observations are often used in conjunction with the Solar Optical Telescope (SOT) and the EUV Imaging Spectrometer (EIS) on Hinode to provide a multi-layer view of the solar atmosphere.</Description>
          <Contact>
-            <PersonID>spase://SMWG/Person/Leon.Golub</PersonID>
+            <PersonID>spase://SMWG/Person/Kathy.Reeves</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Edward.Deluca</PersonID>
             <Role>FormerPI</Role>
          </Contact>
          <Contact>
-            <PersonID>spase://SMWG/Person/Kiyoto.Shibasaki</PersonID>
-            <Role>InstrumentScientist</Role>
-            <Note>XRT Instrument Scientist (Japan)</Note>
+            <PersonID>spase://SMWG/Person/Leon.Golub</PersonID>
+            <Role>FormerPI</Role>
          </Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Taro.Sakao</PersonID>
@@ -41,13 +44,19 @@ XRT is particularly suited for investigating the heating and dynamics of the sol
             <Note>XRT Instrument Scientist (Japan)</Note>
          </Contact>
          <Contact>
-            <PersonID>spase://SMWG/Person/Ryouhei.Kano</PersonID>
+            <PersonID>spase://SMWG/Person/Noriyuki.Narukage</PersonID>
             <Role>InstrumentScientist</Role>
             <Note>XRT Instrument Scientist (Japan)</Note>
          </Contact>
          <Contact>
-            <PersonID>spase://SMWG/Person/Edward.Deluca</PersonID>
-            <Role>PrincipalInvestigator</Role>
+            <PersonID>spase://SMWG/Person/Kiyoto.Shibasaki</PersonID>
+            <Role>InstrumentScientist</Role>
+            <Note>Former XRT Instrument Scientist (Japan)</Note>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Ryouhei.Kano</PersonID>
+            <Role>InstrumentScientist</Role>
+            <Note>Former XRT Instrument Scientist (Japan)</Note>
          </Contact>
          <InformationURL>
             <Name>Hinode XRT website at NAOJ</Name>
