@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/PADRE</ResourceID>
+      <ResourceHeader>
+         <ResourceName>PADRE</ResourceName>
+         <AlternateName>Solar Polarization and Directivity X-Ray Experiment</AlternateName>
+         <ReleaseDate>2026-05-12T00:08:46</ReleaseDate>
+         <Description>The solar PolArization and Directivity X-Ray Experiment (PADRE) is a NASA-led heliophysics CubeSat observatory designed to investigate the acceleration and angular distribution of high-energy electrons during solar flares through observations of hard X-ray (HXR) emission. PADRE is a 12U spinning CubeSat developed primarily by the Space Sciences Laboratory, University of California Berkeley
+ in collaboration with NASA Goddard Space Flight Center (GSFC), Southwest Research Institute (SwRI), the University of Applied Sciences and Arts Northwestern Switzerland (FHNW), and CEA-Saclay.
+
+PADRE measures both the polarization and directivity of solar flare hard X-rays to determine whether flare-accelerated electrons exhibit isotropic or anisotropic angular distributions. The mission combines a hard X-ray polarimeter and a directivity sensor on a spinning spacecraft platform to improve polarization sensitivity and directional measurements. PADRE observations are intended to improve understanding of particle acceleration, magnetic reconnection, and energy release processes in solar flares, with applications to space weather research and forecasting.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Juan.C.Martinez-Oliveros</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>The PADRE website</Name>
+            <URL>https://padre.ssl.berkeley.edu/</URL>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2025-06-23T00:00:00</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>
