@@ -1,13 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Alouette1</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Observatory</ResourceType>
     <ResourceHeader>
       <ResourceName>Alouette 1</ResourceName>
       <AlternateName>1962-049A</AlternateName>
       <AlternateName>Alouette-A</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-05-22T16:40:59Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-05-22T16:40:59Z</ReleaseDate>
+          <Note>Added new Contact:Role(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>Alouette 1 was a small ionospheric observatory instrumented with an ionospheric sounder, a VLF receiver,
                 an energetic particle detector, and a cosmic noise experiment. Extended from the satellite shell were two dipole
                 antennas (45.7 m and 22.8 m long, respectively) which were shared by three of the experiments on the spacecraft.
@@ -24,15 +36,16 @@
       <Contact>
         <PersonID>spase://SMWG/Person/John.E.Jackson</PersonID>
         <Role>ProjectScientist</Role>
-</Contact>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1962-049A</URL>
         <Description>Information about the Alouette 1 mission</Description>
-</InformationURL>
-</ResourceHeader>
+      </InformationURL>
+    </ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
-</Location>
-</Observatory>
+    </Location>
+  </Observatory>
 </Spase>

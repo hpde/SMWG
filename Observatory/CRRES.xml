@@ -1,13 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/CRRES</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Observatory</ResourceType>
     <ResourceHeader>
       <ResourceName>CRRES</ResourceName>
       <AlternateName>1990-065A</AlternateName>
       <AlternateName>Combined Release and Radiation Effects Satellite</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-05-22T16:41:00Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-05-22T16:41:00Z</ReleaseDate>
+          <Note>Added new Contact:Role(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>The Combined Release and Radiation Effects Satellite (CRRES) was launched into a geosynchronous
    transfer orbit (GTO) for a nominal three-year mission to investigate fields, plasmas, and energetic particles
    inside the Earth's magnetosphere. As part of the CRRES program the SPACERAD (Space Radiation Effects) project,
@@ -31,24 +43,25 @@
       <Contact>
         <PersonID>spase://SMWG/Person/Susan.Gussenhoven-Shea</PersonID>
         <Role>ProjectScientist</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/David.L.Reasoner</PersonID>
         <Role>ProjectScientist</Role>
-</Contact>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1990-065A</URL>
         <Description>Information about the CRRES mission</Description>
-</InformationURL>
-   <InformationURL>
+      </InformationURL>
+      <InformationURL>
         <Name>Journal of Spacecraft and Rockets Article</Name>
-  <URL>https://arc.aiaa.org/doi/10.2514/3.55641</URL>
-  <Description>Detailed information on the CRRES mission.</Description>
-</InformationURL>
-</ResourceHeader>
+        <URL>https://arc.aiaa.org/doi/10.2514/3.55641</URL>
+        <Description>Detailed information on the CRRES mission.</Description>
+      </InformationURL>
+    </ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
-</Location>
-</Observatory>
+    </Location>
+  </Observatory>
 </Spase>

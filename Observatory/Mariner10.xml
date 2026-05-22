@@ -1,13 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-    <Version>2.2.2</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/Mariner10</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Mariner 10</ResourceName>
-            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
-            <Description>Mariner 10 was the seventh successful launch in the Mariner series, the first spacecraft to use the gravitational pull
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Mariner10</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Observatory</ResourceType>
+    <ResourceHeader>
+      <ResourceName>Mariner 10</ResourceName>
+      <ReleaseDate>2026-05-22T16:41:01Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-05-22T16:41:01Z</ReleaseDate>
+          <Note>Added new Contact:Role(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>Mariner 10 was the seventh successful launch in the Mariner series, the first spacecraft to use the gravitational pull
                 of one planet (Venus) to reach another (Mercury), and the first spacecraft mission to visit two planets. Mariner 10 was the first
                 (and as of 2003 the only) spacecraft to visit Mercury. The spacecraft flew by Mercury three times in a retrograde heliocentric
                 orbit and returned images and data on the planet. Mariner 10 returned the first-ever close-up images of Venus and Mercury. The
@@ -45,20 +56,21 @@
                 vehicle, in case the Mariner 10 launch failed. This probe was later donated to the Smithsonian and the launch vehicle was used for
                 it's original purpose.
 </Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Stephen.E.Dwornik</PersonID>
-                <Role>Scientist</Role>
-</Contact>
-            <InformationURL>
-                <Name>NSSDC's Master Catalog</Name>
-                <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1973-085A</URL>
-                <Description>Information about Mariner 10 spacecraft</Description>
-</InformationURL>
-</ResourceHeader>
-        <Location>
-            <ObservatoryRegion>Heliosphere.Inner</ObservatoryRegion>
-            <ObservatoryRegion>Mercury</ObservatoryRegion>
-            <ObservatoryRegion>Venus</ObservatoryRegion>
-</Location>
-</Observatory>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Stephen.E.Dwornik</PersonID>
+        <Role>Scientist</Role>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1973-085A</URL>
+        <Description>Information about Mariner 10 spacecraft</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Heliosphere.Inner</ObservatoryRegion>
+      <ObservatoryRegion>Mercury</ObservatoryRegion>
+      <ObservatoryRegion>Venus</ObservatoryRegion>
+    </Location>
+  </Observatory>
 </Spase>

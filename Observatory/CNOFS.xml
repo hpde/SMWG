@@ -1,12 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/CNOFS</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Observatory</ResourceType>
     <ResourceHeader>
       <ResourceName>Communication/Navigation Outage Forecasting System (C/NOFS)</ResourceName>
       <AlternateName>Coupled Ion Neutral Dynamics Investigation (CINDI)</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-05-22T16:40:59Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-05-22T16:40:59Z</ReleaseDate>
+          <Note>Added new Contact:Role(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>The Communications/Navigation Outage Forecasting System (C/NOFS) is spacecraft launched April 16, 2008, into an inclined orbit with perigee/apogee of 400/700 km and a 95-minute period to monitor and forecast ionospheric scintillation in real-time and on a global scale. The DOD Space Test Program provides the spacecraft, launch vehicle, launch and first year on-orbit operations. The US Air Force Research Laboratory is responsible for the multi-instrument payload, payload integration and test, model development, data center operations, and product generation and distribution.
 
 The C/NOFS carries three types of sensors:
@@ -28,25 +40,26 @@ Both the Neutral Wind Meter (NWM) and the Ion Velocity Meter (IVM) are provided 
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.F.Pfaff</PersonID>
         <Role>ProjectScientist</Role>
-</Contact>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
       <InformationURL>
         <Name>NSSDC Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2008-017A</URL>
         <Description>Information about the Communication/Navigation Outage Forecasting System</Description>
-</InformationURL>
+      </InformationURL>
       <InformationURL>
         <Name>US Air Force</Name>
         <URL>https://www.kirtland.af.mil/About-Us/Fact-Sheets/Display/Article/826040/communicationnavigation-outage-forecasting-system/</URL>
         <Description>Information about the Communication/Navigation Outage Forecasting System</Description>
-</InformationURL>
+      </InformationURL>
       <InformationURL>
         <Name>Journal of Atmospheric and Solar-Terrestrial Physics Article</Name>
         <URL>https://linkinghub.elsevier.com/retrieve/pii/S1364682604001695</URL>
         <Description>Information about the C/NOFS mission</Description>
-</InformationURL>
-</ResourceHeader>
+      </InformationURL>
+    </ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
-</Location>
-</Observatory>
+    </Location>
+  </Observatory>
 </Spase>
