@@ -2,10 +2,16 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
    <Version>2.7.1</Version>
    <NumericalData>
-	   <ResourceID>spase://SMWG/NumericalData/Hinode/EIS/Level0/FITS</ResourceID>
+      <ResourceID>spase://SMWG/NumericalData/Hinode/EIS/Level0/FITS</ResourceID>
       <ResourceHeader>
          <ResourceName>Hinode EIS Level0 FITS</ResourceName>
          <ReleaseDate>2026-05-24T00:08:46</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2026-05-25T00:08:46</ReleaseDate>
+               <Note>Updated AccessInformation. SY</Note>
+            </RevisionEvent>
+         </RevisionHistory>
          <Description>Hinode EIS Level0 FITS data are uncalibrated Extreme Ultraviolet (EUV) spectroscopic observations obtained by the EUV Imaging Spectrometer (EIS) instrument onboard the Hinode solar observatory. The Level0 products contain raw science telemetry converted to FITS format together with associated metadata and housekeeping information. EIS observes the solar transition region and corona in two EUV wavelength bands near 170–210 Å and 250–290 Å using slit and slot spectroscopic observations. Observation cadence, spatial coverage, and exposure time vary depending on the observing program and raster configuration.</Description>
          <PublicationInfo>
             <Authors>The Hinode EIS Consortium: Mullard Space Science Laboratory, University College London (UK); Rutherford Appleton Laboratory (UK); Naval Research Laboratory (USA); NASA Goddard Space Flight Center (USA); NASA Marshall Space Flight Center (USA); Japan Aerospace Exploration Agency (Japan); National Astronomical Observatory of Japan (Japan)</Authors>
@@ -50,8 +56,21 @@
          <Availability>Online</Availability>
          <AccessRights>Open</AccessRights>
          <AccessURL>
+            <Name>JAXA/DARTS</Name>
             <URL>https://data.darts.isas.jaxa.jp/pub/hinode/eis/level0/</URL>
             <Style>Listing</Style>
+         </AccessURL>
+         <Format>FITS</Format>
+         <Encoding>GZIP</Encoding>
+      </AccessInformation>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/MSSL/Hinode</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>Hinode EIS Data Archive at MSSL</Name>
+            <URL>https://solarb.mssl.ucl.ac.uk/SolarB/SearchArchive.jsp</URL>
+            <Style>Search</Style>
          </AccessURL>
          <Format>FITS</Format>
          <Encoding>GZIP</Encoding>
@@ -70,11 +89,23 @@
             </Rights>
          </RightsList>
          <AccessURL>
+            <Name>NASA/GSFC/SDAC</Name>
             <URL>https://umbra.nascom.nasa.gov/hinode/eis/level0/</URL>
             <Style>Listing</Style>
          </AccessURL>
          <Format>FITS</Format>
          <Encoding>GZIP</Encoding>
+      </AccessInformation>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/ESA/HinodeScienceDataCentreEurope</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>Hinode SDC Europe</Name>
+            <URL>https://sdc.uio.no/search/form</URL>
+            <Style>Search</Style>
+         </AccessURL>
+         <Format>FITS</Format>
       </AccessInformation>
       <ProcessingLevel>Raw</ProcessingLevel>
       <InstrumentID>spase://SMWG/Instrument/Hinode/EIS</InstrumentID>
