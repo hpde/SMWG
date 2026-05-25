@@ -49,9 +49,18 @@
             <Role>Scientist</Role>
             <Note>Principal developer of the EIS Level1 calibration algorithms and calibration software.</Note>
          </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Micah.J.Weberg</PersonID>
+            <Role>Scientist</Role>
+            <Note>Lead developer of the EISPAC Hinode EIS Level1 HDF5 archive.</Note>
+         </Contact>
          <InformationURL>
             <Name>Calibrating EIS data: the EIS PREP routine</Name>
             <URL>https://solarb.mssl.ucl.ac.uk/SolarB/eis_docs/eis_notes/01_EIS_PREP/eis_swnote_01.pdf</URL>
+         </InformationURL>
+         <InformationURL>
+            <Name>EISPAC Documentation</Name>
+            <URL>https://eispac.readthedocs.io/en/stable/</URL>
          </InformationURL>
       </ResourceHeader>
       <AccessInformation>
