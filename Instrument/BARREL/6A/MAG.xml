@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/BARREL/6A/MAG</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Instrument</ResourceType>
+      <ResourceHeader>
+         <ResourceName>BARREL Balloon 6A Tilt Compensated Magnetometer, TCM2, Instrument</ResourceName>
+         <ReleaseDate>2025-06-26T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2025-06-26T12:34:56.789</ReleaseDate>
+               <Note>BARREL Instruments: Initial SPASE 2.7.0 XML resource description submission, metadata submitted by LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>This document describes the BARREL Balloon 6A magnetometer, MAG.
+
+The BARREL Balloon 6A payload will carry a commercial three-axis magnetometer with 50 nT resolution sampled at 1 s cadence. Since ground-based magnetometers are often not available near the balloon locations, the onboard magnetometer is useful for identifying substorm activity and ULF oscillations of the magnetic field, important for investigating the ULF timescale modulations of precipitation.
+
+The BARREL magnetometers, Model TCM2-20 Axis, made by the PNI Sensor Corporation, uses three orthogonal magneto-inductive sensors and measures the three components of the magnetic field with 10 nT resolution. Serial data are transferred to the payload flight computer, COM3. In addition, the TCM2 provides pitch and roll information and the magnetometer includes a tilt sensor to separate horizontal and vertical components of the magnetic field. This paragraph was adapted in part from the Millan et al. (2013) Spase Sci. Rev. publication listed in the fifth Information URL below.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Robyn.Millan</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Robert.P.Lin</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/David.M.Smith</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Michael.P.McCarthy</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Mary.K.Hudson</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Mikhail.I.Panasyuk</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lindsay.Magnus</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Andrew.B.Collier</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Mark.Clilverd</PersonID>
+            <Role>CoInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>BARREL Home Page</Name>
+            <URL>https://barrel.rmillan.host.dartmouth.edu</URL>
+            <Description>Main home page with links to the BARREL mission overview, data, publications, and news/events, hosted by Dartmouth College</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>BARREL Science Team Information</Name>
+            <URL>https://barrel.rmillan.host.dartmouth.edu/team.html</URL>
+            <Description>Site listing BARREL science team information, hosted by Dartmouth College</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>BARREL Mission Overview Poster</Name>
+            <URL>https://barrel.rmillan.host.dartmouth.edu/documents/BARREL.foldout_v2.pdf</URL>
+            <Description>BARREL mission overview summary poster, hosted by Dartmouth College</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>BARREL Introduction: Balloon Test Flight Results and Mission Plans and Objectives, JASTP Publication</Name>
+            <URL>https://doi.org/10.1016/j.jastp.2011.01.006</URL>
+            <Description>Millan, R.M., McCarthy, M.P., Sample, J.G. et al., Understanding Relativistic Electron Losses with BARREL, J. Atmos. and Sol.-Terr. Phys., 73(11-12), 1425-1434, (2011), DOI: https://doi.org/10.1016/j.jastp.2011.01.006</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>BARREL Campaign Plans, Science Objectives, Instrument Descriptions, Payload Design, and Support Systems, SSR Publication</Name>
+            <URL>https://doi.org/10.1007/s11214-013-9971-z</URL>
+            <Description>Millan, R.M., McCarthy, M.P., Sample, J.G. et al., The Balloon Array for RBSP Relativistic Electron Losses (BARREL), Space Sci. Rev., 179, 503–530 (2013). DOI: https://doi.org/10.1007/s11214-013-9971-z</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>BARREL Magnetometer Model TCM2 Manual</Name>
+            <URL>https://mil.ufl.edu/projects/gnuman/gnuman_pre2005/sponsors/PNI%20-%20TCM2%20Manual/TCM2Manual.pdf</URL>
+            <Description>PNI Sensor Corporation Model TCM2 Magnetometer Manual</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Magnetometer</InstrumentType>
+      <InvestigationName>Balloon Array for RBSP Relativistic Electron Losses (BARREL)</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/BARREL/6A</ObservatoryID>
+   </Instrument>
+</Spase>

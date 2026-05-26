@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2-5-0.xsd">
+   <Version>2.5.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Roman.G.Gomez</ResourceID>
+      <ReleaseDate>2023-03-01T12:34:56.789</ReleaseDate>
+      <PersonName>Roman G. Gomez</PersonName>
+      <OrganizationName>Southwest Research Institute</OrganizationName>
+      <Address>6220 Culebra Road, San Antonio, TX 78238-5166, USA</Address>
+      <Email>rgomez@swri.edu</Email>
+      <ORCIdentifier>0000-0001-7888-668X</ORCIdentifier>
+   </Person>
+</Spase>

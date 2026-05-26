@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spaseZ-2_3_1.xsd">
+   <Version>2.3.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Ground/NAE/Magnetometer</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Nouthern Auroral Electrojet Index Instrument</ResourceName>
+         <AlternateName>NAE Instrument</AlternateName>
+         <ReleaseDate>2021-07-20T13:41:27Z</ReleaseDate>
+         <Description>The northern auroral electrojet (NAE) index instrument is a virtual instrument representing the collection of ground magnetometer arrays used to derive a southern auroral electrojet index in the northern auroral region at 60 s resolution. The NAE observatory consists of ground magnetometers from the GIME, THEMIS GBO, INTERMAGNET, DTU, University of Iceland, and NIPR ground magnetometer data. The contributing magnetometers may vary from day to day. As result, the NAE index instrument is used as a proxy for the set of possible contributing ground magnetometers.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>       
+	     <InformationURL>
+	      <Name>Comparison of auroral electrojet indices in the Northern and Southern Hemispheres</Name> 
+	      <URL>https://www.gi.alaska.edu/monitors/magnetometer</URL> 
+	      <Description>Journal of Geophysical Research (Space Physics) on the Souther Auroral Electrojet Index</Description> 
+	     </InformationURL>		
+	     <InformationURL>
+	      <Name>Second Journal of Geophysical Research article on the Northern and Southern Auroral Electrojet Index</Name>
+	      <URL>https://doi.org/10.1002/2013JA019377</URL>
+	      <Description>Research Article on the development and first use of the SAE index.</Description>
+	     </InformationURL>  
+	     <InformationURL>
+            <Name>Overview of the CANadian Magnetic Observatory System</Name>
+            <URL>https://www.geomag.nrcan.gc.ca/obs/default-en.php</URL>
+            <Description>Description of nearly all aspects of the magnetometer array.</Description>
+         </InformationURL>
+	     <InformationURL>
+            <Name>Overview of the DTU Magnetic Ground Stations</Name>
+            <URL>http://www.space.dtu.dk/English/Research/Scientific_data_and_models/Magnetic_Ground_Stations.aspx</URL>
+            <Description>Description of nearly all aspects of the DTU Magnetic Ground Stations including station locations, the instrumentation, and contact information.</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>Overview of the Alaska Satellite Facility Geophysical Institute Magnetometer Array</Name>
+            <URL>https://www.gi.alaska.edu/monitors/magnetometer</URL>
+            <Description>Description of the magnetometer array.</Description>
+         </InformationURL>
+		 <Association>
+		    <AssociationID>spase://SMWG/Observatory/Ground/GIMA</AssociationID> 
+		    <AssociationType>PartOf</AssociationType> 
+		 </Association>
+		 <Association>
+		    <AssociationID>spase://SMWG/Observatory/Ground/DTU</AssociationID> 
+		    <AssociationType>PartOf</AssociationType> 
+		 </Association>
+		 <Association>
+		    <AssociationID>spase://SMWG/Observatory/Ground/CANMOS</AssociationID> 
+		    <AssociationType>PartOf</AssociationType> 
+		 </Association>	
+		 <Association>
+		    <AssociationID>spase://SMWG/Observatory/Ground/CARISMA</AssociationID> 
+		    <AssociationType>PartOf</AssociationType> 
+		 </Association> 
+		 <Association>
+			<AssociationID>spase://SMWG/Observatory/Ground/TGO</AssociationID>
+			<AssociationType>PartOf</AssociationType>
+	     </Association>
+	     <Association>
+			<AssociationID>spase://SMWG/Observatory/Ground/Leirvogur</AssociationID>
+			<AssociationType>PartOf</AssociationType>
+		 </Association>
+		 <Association>
+			<AssociationID>spase://SMWG/Observatory/Ground/GMAG</AssociationID>
+			<AssociationType>PartOf</AssociationType>
+		 </Association>		 
+		 <Association>
+		    <AssociationID>spase://GBO/NumericalData/SAE/Magnetometer/PT60S</AssociationID>
+		    <AssociationType>ChildEventOf</AssociationType>
+		    <Note>Associated with the southern auroral electrojet index.</Note>
+		</Association>		       
+      </ResourceHeader>
+      <InstrumentType>Magnetometer</InstrumentType> 
+      <InvestigationName>Northern Auroral Electrojet Index Instrument</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/Ground/NAE</ObservatoryID>
+   </Instrument>
+</Spase>

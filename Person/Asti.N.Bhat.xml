@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Asti.N.Bhatt</ResourceID>
+    <PersonName>Asti N. Bhatt</PersonName>
+    <OrganizationName>SRI International: Menlo Park, CA, US</OrganizationName>
+    <Email>asti.bhatt@sri.com</Email>
+    <ORCIdentifier>0000-0002-8881-5348</ORCIdentifier>
+    <RORIdentifier>05s570m15</RORIdentifier>
+  </Person>
+</Spase>

@@ -6,20 +6,20 @@
     <ResourceHeader>
       <ResourceName>Low-Frequency Electromagnetic Wave Detector (LFEW)</ResourceName>
       <AlternateName>LFEW</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>LFEW (Low Frequency Electromagnetic Wave detector): The Principal Investigators are Z. Wang and J. B. Cao, CSSAR, China. No further information is available.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2004-029A&amp;ex=5</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2004-029A&amp;ex=5</URL>
         <Description>Information about the Low-Frequency Electromagnetic Wave Detector (LFEW) experiment on the Double Star 2 mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Unspecified</InstrumentType>
     <InvestigationName>Low-Frequency Electromagnetic Wave Detector (LFEW) on Double Star 2</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/DoubleStar2</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

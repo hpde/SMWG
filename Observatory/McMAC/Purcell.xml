@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Observatory/McMAC/Purcell</ResourceID>
     <ResourceHeader>
       <ResourceName>Mid-continent Magnetoseismic Chain (McMAC) Purcell Station</ResourceName>
-      <ReleaseDate>2010-09-24T21:56:44Z</ReleaseDate>
+      <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
       <Description>Purcell (PCEL) Magnetometer Station is located in Purcell, Oklahoma, USA.  It is one of the nine magnetometers of the Mid-continent MAgnetoseismic Chain (McMAC).</Description>
       <Acknowledgement>The operation of the Purcell fluxgate magnetometer is managed by Prof. Linda Winkler at University of Oklahoma.</Acknowledgement>
       <Contact>
@@ -14,11 +14,11 @@
       </Contact>
       <InformationURL>
         <Name>McMAC Purcell Station</Name>
-        <URL>http://spc.igpp.ucla.edu/mcmac/stations/mcmac/purcell.html</URL>
+        <URL>https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/jgra.50274</URL>
         <Description>Information about the McMAC Purcell Ground Magnetometer Station</Description>
       </InformationURL>
       <Association>
-        <AssociationID>spase://SMWG/Observatory/McMAC</AssociationID>
+        <AssociationID>spase://SMWG/Observatory/Ground/McMAC</AssociationID>
         <AssociationType>Other</AssociationType>
       </Association>
     </ResourceHeader>

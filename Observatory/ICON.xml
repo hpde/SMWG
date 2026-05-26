@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_4.xsd">
+  <Version>2.3.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/ICON</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Ionospheric Connection Explorer</ResourceName>
+	  <AlternateName>ICON</AlternateName>
+	  <AlternateName>44628</AlternateName>
+      <ReleaseDate>2021-03-04T15:06:23Z</ReleaseDate>
+      <Description>
+	  ICON (Ionospheric Connection) will explore the boundary between Earth and space (the ionosphere) to understand the physical connection between our world and the immediate space environment around us. This region, where ionized plasma and neutral gas collide and react exhibits dramatic variability that affects space-based technological systems like GPS. 
+	  
+	  Though the solar inputs are now well quantified, the drivers of ionospheric variability originating from lower atmospheric regions are not. ICON is the first space mission to simultaneously retrieve all of the properties of the system that both influence and result from the dynamical and chemical coupling of the atmosphere and ionosphere. ICON achieves this through an innovative measurement technique that combines remote optical imaging and in situ measurements of the plasma. With this approach, ICON gives us the ability to (1) separate the drivers and pinpoint the real cause of ionospheric variability (2) explain how energy and momentum from the lower atmosphere propagate into the space environment, and (3) explain how these drivers set the stage for the extreme conditions of solar-driven magnetic storms. The  imaging capability of ICON combined with its in-situ measurements on the same spacecraft (Figure 1) gives a perspective of the coupled system that would otherwise require two or more orbiting observatories. 
+	  
+	  ICON targets the low-latitude ionosphere because recent global-scale observations of this region show remarkable spatial and temporal variability that contravene the conventional view of ion-neutral coupling in space, and evince strong forcing by lower atmosphere drivers. The coupling of the atmosphere to space is strongest at these latitudes because the atmospheric waves are largest and so is the density of the space plasma, produced in abundance by the sun overhead and confined by the magnetic field.</Description>   
+      <Acknowledgement>National Aeronautics and Space Administration; Thomas J. Immel</Acknowledgement>	 
+	  <Funding>
+		<Agency>National Aeronautics and Space Administration</Agency>
+		<Project>Explorers Program</Project>
+		<AwardNumber>contracts NNG12FA45C and NNG12FA42I</AwardNumber>
+	  </Funding>
+	  <Contact>
+        <PersonID>spase://SMWG/Person/Thomas.J.Immel</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+	  <Contact>
+        <PersonID>spase://SMWG/Person/William.Craig</PersonID>
+        <Role>ProjectManager</Role>
+      </Contact>
+	  <Contact>
+        <PersonID>spase://SMWG/Person/Scott.England</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <InformationURL>
+        <Name>ICON NASA Master Catalog</Name>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2019-068A</URL>
+        <Description>A brief description of the ICON spacecraft.</Description>
+      </InformationURL>
+	  <InformationURL>
+        <Name>Additional information on ICON</Name>
+        <URL>https://en.wikipedia.org/wiki/Ionospheric_Connection_Explorer</URL>
+        <Description>More details on the ICON spacecraft.</Description>
+      </InformationURL>
+	  <InformationURL>
+        <Name>Additional information on ICON</Name>
+        <URL>https://icon.ssl.berkeley.edu/</URL>
+        <Description>ICON spacecraft Homepage.</Description>
+      </InformationURL>
+	  <InformationURL>
+        <Name>The Ionospheric Connection Explorer mission: mission goals and design. </Name>
+        <URL>https://doi.org/10.1007/s11214-017-0449-2</URL>
+        <Description>Space Science Reviews, 214:13 (36pp.). Public access. DOI: 10.1007/s11214-017-0449-2</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.NearSurface.Atmosphere</ObservatoryRegion>
+	  <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
+    </Location>
+	<OperatingSpan>
+		<StartDate>2019-10-11T02:00:00Z</StartDate>
+	</OperatingSpan>
+  </Observatory>
+</Spase>

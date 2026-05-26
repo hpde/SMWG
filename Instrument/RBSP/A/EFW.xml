@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Instrument>
         <ResourceID>spase://SMWG/Instrument/RBSP/A/EFW</ResourceID>
         <ResourceHeader>
             <ResourceName>Electric Field and Waves Suite (EFW)</ResourceName>
-            <ReleaseDate>2010-08-11T00:00:00</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>"The investigation will provide the observations needed to understand the electric field properties associated with particle energization, scattering and transport, and the role of the large-scale convection electric field in modifying the structure of the inner magnetosphere. EFW measurements of the spacecraft potential will be used to infer the ambient plasma density." ... "Key Measurement Quantities:
 
     Spin plane component of E at DC - 12 Hz (0.05 mV/m accuracy)
@@ -19,20 +19,20 @@
             <Contact>
                 <PersonID>spase://SMWG/Person/John.R.Wygant</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact>
+</Contact>
             <InformationURL>
                 <Name>EFW Web Page</Name>
-                <URL>http://rbsp.jhuapl.edu/spacecraft/instruments/instruments_efw.php</URL>
+                <URL>http://vanallenprobes.jhuapl.edu/Spacecraft/index.php#EFW</URL>
                 <Description>EFW Web Page</Description>
-            </InformationURL>
+</InformationURL>
             <InformationURL>
                 <Name>EFW AGU Abstract</Name>
                 <URL>http://adsabs.harvard.edu/abs/2006AGUFMSM33A0331W</URL>
                 <Description>EFW, 2006 AGU Presentation Abstract</Description>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
         <InstrumentType>EnergeticParticleInstrument</InstrumentType>
         <InvestigationName>Radiation Belt Storm Probe (RBSP)</InvestigationName>
         <ObservatoryID>spase://SMWG/Observatory/RBSP/A</ObservatoryID>
-    </Instrument>
+</Instrument>
 </Spase>

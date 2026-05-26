@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+   <Version>2.3.2</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/MAVEN/MAG</ResourceID>
+      <ResourceHeader>
+         <ResourceName>MAVEN Magnetometer, MAG, Instrument</ResourceName>
+         <AlternateName>MAVEN MAG Instrument</AlternateName>
+         <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+               <Note>Updated to SPASE Version 2.3.2 if needed, Applied quality conntrol for DOI usage, LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The MAVEN Magnetometer, MAG, Experiment will measure the Magnitude and Direction of the Interplanetary and Martian Induced and Ionospheric Magnetic Fields, as well as the regional Martian Crustal Magnetic Field. The Experiment comprises two Magnetometer Sensors, each one mounted on an Extension from the End of the two Solar Panel &quot;Wings&quot;. Each Sensor consists of two Ring-Core Fluxgate Magnetometers which are oriented in Planes intersecting at 90&#176;, so that all three Vector Components of the Magnetic Field are measured, one Component measured by both. The Magnetometers have three Dynamic Ranges:
+
+* &#177;65536 nT with 2.0 nT resolution for Ground Testing primarily,
+* &#177;2048 nT with 0.0625 nT resolution for Crustal Magnetic Anomalies,
+* &#177;512 nT with 0.015625 nT resolution for the Solar Wind Environment.</Description>
+         <Acknowledgement>National Aeronautics and Space Administration, NASA, Laboratory for Atmospheric and Space Physics, LASP, University of Colorado, Boulder</Acknowledgement>
+         <Funding>
+            <Agency>National Aeronautics and Space Administration, Mars Scout Program</Agency>
+            <Project>MAVEN Magnetometer Investigation</Project>
+            <AwardNumber>UNKNOWN</AwardNumber>
+         </Funding>
+         <Contact>
+            <PersonID>spase://SMWG/Person/John.E.P.Connerney</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>The Mars Atmosphere and Volatile Evolution, MAVEN, Magnetometer Instrument Home Page, LASP, UC Boulder</Name>
+            <URL>https://lasp.colorado.edu/home/maven/science/instrument-package/mag/</URL>
+            <Description>The Mars Atmosphere and Volatile Evolution, MAVEN, Magnetometer Instrument Home Page, Laboratory for Atmospheric and Space Physics, University of Colorado, Boulder</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>MAVEN Magnetometer, MAG, Instrument paper, Published by Space Sci. Rev., Date: 2015-06-18</Name>
+            <URL>https://doi.org/10.1007/s11214-015-0169-4</URL>
+            <Description>Author List: Connerney, J. E. P., Espley, J., Lawton, P., Murphy, S. D., Odom, J., Oliversen, R. J., &amp; Sheppard, D. A.</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>NSSDC Master Catalog Listing, MAVEN Magnetometer, MAG, Instrument</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2013-063A-08</URL>
+            <Description>NSSDC Master Catalog Listing for the MAVEN Magnetometer, MAG, Instrument, NSSDCA/COSPAR ID: 2013-063A-08</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Magnetometer</InstrumentType>
+      <InvestigationName>MAVEN Magnetometer Investigation</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2013-11-18T18:28:00</StartDate>
+         <Note>MAVEN Launch Date and Time until data are available</Note>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/MAVEN</ObservatoryID>
+   </Instrument>
+</Spase>

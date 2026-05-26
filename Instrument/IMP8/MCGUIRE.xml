@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/IMP8/MCGUIRE</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar and Cosmic-Ray Particles</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:02Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The GSFC cosmic-ray experiment was designed to measure energy spectra, composition, and angular distributions of solar and galactic electrons, protons, and heavier nuclei up to Z=30. Three distinct detector systems were used. The first system consisted of a pair of solid-state telescopes that measured integral fluxes of electrons above 150, 350, and 700 keV and of protons above .05, .15, .50, .70, 1.0, 1.2, 2.0, 2.5, 5.0, 15, and 25 MeV. Except for the .05-MeV proton mode, all counting modes had unique species identification. The second detector system was a solid-state dE/dx vs E telescope that looked perpendicular to the spin axis. This telescope measured Z=1 to 16 nuclei with energies between 4 and 20 MeV/nucleon. Counts of particles in the 0.5- to 4-MeV/nucleon range, with no charge resolution, were obtained as counts in the dE/dx sensor but not in the E sensor. The third detector system was a three-element telescope whose axis made an angle of 39 deg with respect to the spin axis. The middle element was a CsI scintillator, while the other two elements were solid-state sensors. The instrument responded to electrons between 2 and 12 MeV and to Z=1 to 30 nuclei in the energy range 20 to 500 MeV/nucleon. For particles below 80 MeV, this instrument acted as a dE/dx vs E detector. Above 80 MeV, it acted as a bidirectional triple dE/dx vs E detector. Flux directionality information was obtained by dividing certain portions of the data from each detector into eight angular sectors. For further details, see B. J. Teegarden et al., Astrophys. J., v. 202, p. 815, 1975.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.E.McGuire</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1973-078A&amp;ex=9</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1973-078A&amp;ex=9</URL>
         <Description>Information about the Solar and Cosmic-Ray Particles experiment on the IMP-J mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Solar and Cosmic-Ray Particles on IMP-J</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/IMP8</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

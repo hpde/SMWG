@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/SRN/NDA/NewRoutine</ResourceID>
+    <ResourceHeader>
+      <ResourceName>NewRoutine</ResourceName>
+      <ReleaseDate>2021-06-02T22:15:00Z</ReleaseDate>
+      <Description>Nancay Decameter Array (NDA) New Routine instrument.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Laurent.Lamy</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Alexandre.Le.Gall</PersonID>
+        <Role>TechnicalContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Baptiste.Cecconi</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+    </ResourceHeader>
+    <InstrumentType>SpectralPowerReceiver</InstrumentType>
+    <InvestigationName>Nancay Decameter Array</InvestigationName>
+    <OperatingSpan>
+      <StartDate>2012-11-01T00:00:00.000Z</StartDate>
+    </OperatingSpan>
+    <ObservatoryID>spase://SMWG/Observatory/SRN/NDA</ObservatoryID>
+  </Instrument>
+</Spase>

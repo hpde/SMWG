@@ -5,29 +5,29 @@
     <ResourceID>spase://SMWG/Observatory/DRAO</ResourceID>
     <ResourceHeader>
       <ResourceName>DRAO</ResourceName>
-	  <AlternateName>Dominion Radio Astrophysical Observatory</AlternateName>
-      <ReleaseDate>2010-08-05T18:19:11Z</ReleaseDate>
-      <Description>The Dominion Radio Astrophysical Observatory (DRAO) is an internationally known facility for 
-	  science and technology research and development related to radio astronomy. Home to NRC astronomers, 
-	  astrophysicists, engineers and technologists, in addition to visiting researchers and students from 
-	  universities and astronomical observatories around the world, these facilities support the design and 
-	  development of leading-edge instrumentation for new and existing telescopes. Operating several 
-	  telescopes on its extensive radio-quiet site near Penticton, DRAO also features laboratories and 
-	  specialized equipment for design and construction of all aspects of radio-frequency instrumentation, 
-	  from highly sensitive antennas and receiver systems, to high speed digital signal processing hardware 
-	  and software. Dominion Radio Astronomical Observatory also provides solar F10.7 radio flux.</Description>
+   <AlternateName>Dominion Radio Astrophysical Observatory</AlternateName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The Dominion Radio Astrophysical Observatory (DRAO) is an internationally known facility for
+   science and technology research and development related to radio astronomy. Home to NRC astronomers,
+   astrophysicists, engineers and technologists, in addition to visiting researchers and students from
+   universities and astronomical observatories around the world, these facilities support the design and
+   development of leading-edge instrumentation for new and existing telescopes. Operating several
+   telescopes on its extensive radio-quiet site near Penticton, DRAO also features laboratories and
+   specialized equipment for design and construction of all aspects of radio-frequency instrumentation,
+   from highly sensitive antennas and receiver systems, to high speed digital signal processing hardware
+   and software. Dominion Radio Astronomical Observatory also provides solar F10.7 radio flux.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
-	  <InformationURL>
+</Contact>
+   <InformationURL>
             <Name>Dominion Radio Astrophysical Observatory Homepage</Name>
-            <URL>https://www.nrc-cnrc.gc.ca/eng/solutions/facilities/drao.html</URL>
+            <URL>https://nrc.canada.ca/en/</URL>
             <Description>Detailed information on the Dominion Radio Astrophysical Observatory.</Description>
-         </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

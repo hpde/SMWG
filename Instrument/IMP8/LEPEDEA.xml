@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/IMP8/LEPEDEA</ResourceID>
     <ResourceHeader>
       <ResourceName>Measurement of Low-Energy Protons and Electrons</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:02Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>This experiment was designed to measure the energy spectra of low-energy electrons and protons in the geocentric range of 30 to 40 earth radii to give further data on geomagnetic storms, aurora, tail and neutral sheet, and other magnetospheric phenomena. The detector was a dual-channel, curved-plate electrostatic analyzer (LEPEDEA - low energy proton and electron differential energy analyzer) with 16 energy intervals between 5 eV and 50 keV. It had an angular field of view of 9 deg by 25 deg. The detector could be operated in one of two modes: (1) one providing good angular resolution (16 directions for each particle energy band) once each 272 s, and (2) the other providing good temporal resolution in which the entire energy range in four directions was measured every 68 s. For further details see L. A. Frank et al., J. Geophys. Res., v. 81, p. 5859, 1976.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Louis.A.Frank</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1973-078A&amp;ex=4</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1973-078A&amp;ex=4</URL>
         <Description>Information about the Measurement of Low-Energy Protons and Electrons experiment on the IMP-J mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Measurement of Low-Energy Protons and Electrons on IMP-J</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/IMP8</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

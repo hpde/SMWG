@@ -6,38 +6,38 @@
     <ResourceHeader>
       <ResourceName>ISEE 3 Radio Mapping Experiment</ResourceName>
       <AlternateName>Radio Mapping of Solar Wind Disturbances (Type III bursts) in 3-D; 30 kHz - 2 MHz</AlternateName>
-      <ReleaseDate>2014-07-24T20:37:20Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The principal purpose of this experiment is to map the trajectories of type III solar bursts by determining the angular coordinates of a localized source as a function of frequency and time. The radial distance may be obtained by triangulation with observations from another satellite, or from assumptions about the density of the interplanetary medium.
 
 Two perpendicular dipole antennas are used. A 90 m tip-to-tip antenna in the spin plane of ISEE-3, referred to as the S antenna, sees a signal which is modulated because of the changing aspect of the source due to the spacecraft's rotation. The Z antenna is 14 m tip-to-tip, along the spin axis. From the S measurements, the azimuth and strength of the source are obtained. Comparison of S and Z observations provides the elevation of the source from the spin plane and an estimate of its angular diameter.
 
 Measurements are made in 12 frequency channels, between 30 and 1980 kHz, in each of two bandwidths, 10 kHz (B), and 3 kHz (N). Every 1.5 seconds (which is nearly one-half spin), one measurement of Z and 11 of S are made for one frequency channel in each bandwidth, interleaving B and N observations. This provides nearly the full range of modulation possible from the S antenna. (At data rates lower than 2048 bps, proportionally fewer S samples are taken.) The frequency channel is selected according to a fixed 72 step program, designed to observe each frequency at uniform intervals but with shorter intervals for the higher frequencies. Alternate modes of observation are possible using only the B or only the N bandwidth. The 72-step sequence takes 108 seconds to complete. Self-calibration occurs every 18 hours.
-	  </Description>
+</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Jean-Louis.Steinberg</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.J.MacDowall</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1978-079A-10</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1978-079A-10</URL>
         <Description>Information about the Radio Mapping of Solar Wind Disturbances (Type III bursts) in 3-D; 30 kHz - 2 MHz experiment on the ISEE 3 mission.
-        </Description>
+</Description>
         <Language>en</Language>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>User Guide for ISEE-3 Radio Mapping Experiment CD-ROM Data</Name>
-        <URL>http://nssdcftp.gsfc.nasa.gov/miscellaneous/documents/b48620.txt</URL>
+        <URL>https://spdf.gsfc.nasa.gov/pub/documents/old/miscellaneous_documents_from_nssdc/b48620.txt</URL>
         <Description>by Robert J. MacDowall, version 1.2 - revised July 1, 2009</Description>
         <Language>en</Language>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Antenna</InstrumentType>
     <InstrumentType>LongWire</InstrumentType>
     <InvestigationName>Radio Mapping of Solar Wind Disturbances (Type III bursts) in 3-D; 30 kHz - 2 MHz on ISEE 3</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/ISEE3</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

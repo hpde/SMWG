@@ -5,22 +5,22 @@
     <ResourceID>spase://SMWG/Instrument/Interball-1/CORALL</ResourceID>
     <ResourceHeader>
       <ResourceName>Interball-1 Wide-range 3D Ion Spectrometer (CORALL)</ResourceName>
-      <ReleaseDate>2010-02-04T12:34:56.789</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>CORALL is a hemispherical electrostatic ion energy spectrometer with a fan-shaped field-of-view of 10 x 150 degrees. Satellite rotation with period about 2 minutes enables one to perform quasi-3D measurements of the energy/charge ion distribution function in the range from 30 to 24200 eV/q in 32 steps. The accumulation time on 1 energy step is 1/1024-th of the satellite rotation period, i.e. about 100 msec, and the scan period of 1 energy spectrum (32 steps) is equal to about 4 minutes. Energy resolution is +/- 5%, and the separation of the energy channels is 24%. There are 5 polar channels, at angles of 45, 70, 95, 120, and 145 degrees from the sun. Angular resolution is +/- 25 degrees in the polar angle and +/- 5 degrees in the azimuthal angle.
             Instrument CORALL was designed and fabricated jointly by IKI RAN and INTERCOSMOS of the Republic of Cuba.
             The instrument began operating August 14, 1995. However, there were problems with the telemetry system BNS which provides satellite rotation pulses. CORALL uses this pulse for performance of measurements in the inertial coordinate system. As of August 31, 1995 the complex BNS + CORALL is operating properly.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Reynal.Jimenez</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1995-039A-05</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1995-039A-05</URL>
         <Description>Information about the Wide-range 3D Ion Spectrometer (CORALL) experiment on the Interball Tail Probe mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Wide-range 3D Ion Spectrometer (CORALL) on Interball Tail Probe</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Interball-1</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

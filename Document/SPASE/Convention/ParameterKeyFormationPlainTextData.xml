@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+   <Version>2.2.1</Version>
+   <Document>
+      <ResourceID>spase://SMWG/Document/SPASE/Convention/ParameterKeyFormationPlainTextData</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Parameter Key Formation for Plain Text Data</ResourceName>
+         <ReleaseDate>2019-04-19T12:34:56.789Z</ReleaseDate>
+         <Description>This document describes provide a simple, non-intrusive and universally applicable solution to describing simple tabular plain text data SPASE has defined a Parameter Key Formation Rule for Plain Text Data.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+            <Role>Publisher</Role>
+         </Contact>
+      </ResourceHeader>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/SPASE</RepositoryID>
+         <AccessURL>
+            <URL>http://www.spase-group.org/docs/conventions/SPASE-Parameter-Key-Formation-Plain-Text-Data-v1.pdf</URL>
+         </AccessURL>
+         <Format>PDF</Format>
+      </AccessInformation>
+      <DocumentType>Paper</DocumentType>
+   </Document>
+</Spase>

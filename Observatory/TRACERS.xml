@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_1.xsd">
+    <Version>2.7.1</Version>
+    <Observatory>
+        <ResourceID>spase://SMWG/Observatory/TRACERS</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Tandem Reconnection and Cusp Electrodynamics Reconnaissance Satellites</ResourceName>
+            <AlternateName>Tandem Reconnection and Cusp Electrodynamics Reconnaissance Satellites</AlternateName>
+            <ReleaseDate>2026-04-03T00:00:00Z</ReleaseDate>
+            <Description>TRACERS is a NASA mission led by the University of Iowa to answer long-standing questions key to understanding space weather, particularly how the Sun transfers energy, mass, and momentum to near-Earth space. TRACERS consists of two identical satellites that orbit Earth in tandem (one following the other). TRACERS &amp; were launched on 2025 July 23, and are now in a ~590 km, Sun synchronous low Earth orbit. Each orbit takes about 90 minutes. Their separation in time along the orbit varies from 10 to 120s (75 to 900 km along track).
+            </Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/David.M.Miles</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+                <Contact>
+                    <PersonID>spase://SMWG/Person/Lan.Jian</PersonID>
+                    <Role>MetadataContact</Role>
+                </Contact>
+                <Contact>
+                    <PersonID>spase://SMWG/Person/Scott.Boardsen</PersonID>
+                    <Role>MetadataContact</Role>
+                </Contact>
+                <InformationURL>
+            <Name>Mission Web Pages</Name>
+                <URL>https://tracers.physics.uiowa.edu/</URL>
+                <Description>Mission Web Page</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>TRACERS mission paper</Name>
+                <URL>https://doi.org/10.1007/s11214-025-01184-4</URL>
+                <Description>Gives the science objectives: descriptions of the spacecraft and instrumentation.</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>TRACERS mission design</Name>
+                <URL>https://doi.org/10.1007/s11214-025-01185-3</URL>
+                <Description>Mission design: Includes discussion on Region of Interest (ROI).</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>Back orbit Science Opportunities</Name>
+                <URL>https://doi.org/10.1007/s11214-026-01270-1</URL>
+                <Description>Discussion of back orbit and back orbit science.</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>Science Operations Center</Name>
+                <URL>https://doi.org/10.1007/s11214-025-01199-x</URL>
+                <Description>Processing of L0 &amp; L1 and SPICE kernels, ensure data quality and distribution of L2. Appendix has definitions of all coordinate systems used.</Description>
+            </InformationURL>
+            <InformationURL>
+                <Name>SPDF readme file on TRACERS</Name>
+                <URL>https://spdf.gsfc.nasa.gov/pub/data/tracers/00readme.html</URL>
+                <Description>Rehashes above, include links to data and acronym lists.</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <Location>
+            <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+            <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
+            <ObservatoryRegion>Earth.NearSurface.Ionosphere.Topside</ObservatoryRegion>
+            <ObservatoryRegion>Earth.NearSurface.AuroralRegion</ObservatoryRegion>
+            <ObservatoryRegion>Earth.NearSurface.PolarCap</ObservatoryRegion>
+</Location></Observatory>
+</Spase>

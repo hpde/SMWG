@@ -5,23 +5,23 @@
     <ResourceID>spase://SMWG/Repository/UML/RPI</ResourceID>
     <ResourceHeader>
       <ResourceName>RPI Instrument Page and Data Repository at UML</ResourceName>
-      <ReleaseDate>2008-12-12T01:05:57Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The RPI repository at University of Massachusetts Lowell is a relational database holding full telemetry, ephemeris, geospace model, derived and expert annotation data products for the Radio Plasma Imager instrument on IMAGE spacecraft. Public access to the RPI-UML resource is arranged vis BinBrowser software available at http://umlcar.uml.edu/rpi.html</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Ivan.A.Galkin</PersonID>
         <Role>ArchiveSpecialist</Role>
         <Role>MetadataContact</Role>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Bodo.W.Reinisch</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Web page</Name>
-        <URL>http://umlcar.uml.edu/rpi.html</URL>
+        <URL>https://ulcar.uml.edu/rpi.html</URL>
         <Description>Web page for RPI Instrument on IMAGE</Description>
-      </InformationURL>
-    </ResourceHeader>
-  </Repository>
+</InformationURL>
+</ResourceHeader>
+</Repository>
 </Spase>

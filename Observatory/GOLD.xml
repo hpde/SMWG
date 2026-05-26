@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/GOLD</ResourceID>
+    <ResourceHeader>
+      <ResourceName>GOLD</ResourceName>
+	  <AlternateName>SES-14</AlternateName>
+	  <AlternateName>43175</AlternateName>
+      <ReleaseDate>2020-09-14T16:47:17Z</ReleaseDate>
+      <Description>Global-scale Observations of the Limb and Disk, or GOLD, is a NASA mission launched 
+          at 5:20 p.m. EST, Thursday, Jan. 25.  GOLD is intended to perform a two-year mission imaging 
+          Earth's thermosphere and ionosphere from geostationary orbit. GOLD is a two-channel far-ultraviolet (FUV) 
+          imaging spectrograph built by the Laboratory for Atmospheric and Space Physics at the University of 
+          Colorado Boulder and flown as a hosted payload on the commercial communications satellite SES-14.
+          SES-14 is a hybrid satellite with C- and Ku-band wide beam coverage, 
+          as well as Ku- and Ka-band High Throughput Satellite (HTS) coverage across the 
+          Americas and the North Atlantic region. The satellite will fully rely on electric 
+          propulsion and will be equipped with an electric plasma propulsion system for orbit 
+          raising and in-orbit manoeuvres. The electric propulsion system delivers significant 
+          reduction in the weight of the satellite, enabling larger payloads to be carried. 
+          The new spacecraft will also feature a Digital Transparent Processor (DTP), increasing 
+          the payload flexibility to provide customized bandwidth solutions to SES's customers.
+      </Description>      
+      <Contact>
+          <PersonID>spase://SMWG/Person/Richard.Eastes</PersonID>
+          <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NASA Integrates Ultraviolet Space Spectrograph with SES 14</Name>
+        <URL>https://www.satellitetoday.com/innovation/2017/05/25/nasa-integrates-ultraviolet-space-spectrograph-ses-14/</URL>
+        <Description>A brief description of the SES-14 spacecraft.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Additional information on SES-14</Name>
+        <URL>https://space.skyrocket.de/doc_sdat/ses-14.htm</URL>
+        <Description>More details on the SES-14 spacecraft.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Observatory/SES-14</PriorID>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+    </Location>
+	<OperatingSpan>
+		<StartDate>2018-01-25T00:00:00Z</StartDate>
+	</OperatingSpan>
+  </Observatory>
+</Spase>

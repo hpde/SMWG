@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>THEMIS-D: Search Coil Magnetometer</ResourceName>
       <AlternateName>THEMIS-D SCM</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:03Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>THEMIS-D Search Coil Magnetometer for measuring three dimensional changes in magnetic flux between 0.1 Hz and 4 kHz; the range extending to 8 kHz under certain conditions.  The instrument is mounted on a ridged, retractable boom one meter in length extending from the top corner of the spacecraft (positive y-axis, negative x-axis in SPG coordinates).  The SCM boom deploys at an angle of -167.9 degrees from the x-axis (SPG) and 10.1 degrees above the spin plane.  Two of the probe's sensors are aligned within the spin plane of the spacecraft, with the B_x component 12.1 degrees from the SPG x-axis, the third being parallel to the spin axis completing a right handed orthogonal system.  The three sensors are composed of two windings surrounding a core with a high magnetic permeability.  The main winding, used for detection, consists of 51600 turns; the secondary winding introduces a flux feedback to damped the frequency response of the sensor and keep it independent of temperature variation.  Multi-Layer Insulation keeps the probe thermally insulated while electrostatic shielding reduces its sensitivity to electric fields.  Low noise at slower frewencies allows for sufficient overlap with Fluxgate Magnetomer (FGM) measurements (noise less than 0.76 pT/sqrt(Hz) at 10 Hz).  Data from the SCM is passed through three pre-amplifiers, one for each sensor component, before going on to the DFB and IDPU for processing and digitization.  Survey modes for the SCM are listed below in Table 1.
 
 Table 1: SCM Telemetry Modes.
@@ -26,35 +26,35 @@ Wave Burst Spectra (ffw)**:  Compressed FFT spectra in 16, 32, or 64 frequency b
       <Contact>
         <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Alain.Roux</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>THEMIS Home Page</Name>
         <URL>http://themis.ssl.berkeley.edu/index.shtml</URL>
         <Description>THEMIS Home Page.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>THEMIS-D Spacecraft</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/masterCatalog.do?sc=2007-004D</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2007-004D</URL>
         <Description>Spacecraft description from NSSDC database</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>THEMIS-D Search Coil Magnetometer</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2007-004D-04</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2007-004D-04</URL>
         <Description>Instrument (SCM) description from NSSDC database.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>The Search Coil Magnetometer for THEMIS</Name>
         <URL>http://www.igpp.ucla.edu/public/THEMIS/SCI/Pubs/2008_Refereed/Roux_A_etal_SCM_Instrument.pdf</URL>
         <Description>A. Roux et. al.  In depth description of the THEMIS SCM.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InstrumentType>SearchCoil</InstrumentType>
     <InvestigationName>THEMIS Search Coil Magnetometer</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/THEMIS/D</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

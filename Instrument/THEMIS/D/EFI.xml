@@ -6,36 +6,36 @@
     <ResourceHeader>
       <ResourceName>THEMIS-D Electric Field Instrument</ResourceName>
       <AlternateName>THEMIS-D EFI</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:03Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Electric Field Instrument (EFI) on the THEMIS spacecraft measures the three components of the ambient vector electric field. Measurements are performed using four wire spin plane booms and two rigid axial booms. Waveform measurements cover DC up to 4 kHz (with AC-coupled differential measurements from ~10 Hz up to 8 kHz), with on-board spectral measurements covering the same ranges, as well as providing an estimate of integrated power in the 100- to 400-kHz band. On-board spin-fit E-field estimates are also provided for both the spin plane and axial measurements. On-board estimates of the spacecraft floating potential are also produced for use in particle moment calculations and burst trigger evaluations. Both individual (Vn, n=1..6) and differential (Emn = Vm – Vn, m,n = [(1,2), (3,4), (5,6)]) sensor potentials are measured. Booms 1 &amp; 2 are in the spin plane and have a length from tip to tip of 49.6 meters. Booms 3 &amp; 4 are in the spin plane and have a length from tip to tip of 40.4 meters.  Booms 5 &amp; 6 are the axial booms and have a length from tip to tip of 5.63 meters.  The differential sensor potentials are used to estimate the ambient vector E-field. The individual sensor potentials are used to verify proper sensor operation, estimate the spacecraft floating potential, and measure the ambient plasma density with high (sub-spin-period) time resolution.  Ground based electric field magnitude and direction measurements are provided with the Z component, with the Z component removed, and with the Z component estimated using the E.B=0 equality. The data are provided in DSL (despun spacecraft L-Z vector), GSM, and GSE coordinates.
-			</Description>
+</Description>
       <Acknowledgement>NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically: J. W. Bonnell and F. S. Mozer for use of EFI data.</Acknowledgement>
       <Contact>
         <!--Vassilis Angelopoulos -->
         <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <!--John Bonnell-->
         <PersonID>spase://SMWG/Person/John.W.Bonnell</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <!-- Forrest S. Mozer -->
         <PersonID>spase://SMWG/Person/Forrest.S.Mozer</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>THEMIS-D Electric Fields Instrument</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/masterCatalog.do?sc=2007-004D</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2007-004D</URL>
         <Description>Instrument description from NSSDC database</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://SMWG/Instrument/THEMIS-D/EFI</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <InstrumentType>DoubleSphere</InstrumentType>
     <InstrumentType>Antenna</InstrumentType>
     <InvestigationName>THEMIS Electric Fields Instrument</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/THEMIS/D</ObservatoryID>
     <Caveats>Measurements on the axial booms(5 &amp; 6) may have large errors due to their proximity to the spacecraft (the axial booms are much shorter then other booms). The spin plane booms for THEMIS D were not deployed until June 7, 2007 at 1700 UT, any EFI measurements before this date should not be used.</Caveats>
-  </Instrument>
+</Instrument>
 </Spase>

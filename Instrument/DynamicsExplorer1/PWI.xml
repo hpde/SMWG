@@ -6,74 +6,74 @@
     <ResourceHeader>
       <ResourceName>Dynamics Explorer 1 Plasma Waves Instrument (PWI)</ResourceName>
       <AlternateName>DE 1 PWI</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:15Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>
-        The Plasma Wave Instrument (PWI) measured ac electric fields 
-        over the frequency range from 1 Hz to 2 MHz, and an amplitude 
-        range of 0.03 microvolt per meter to 100 mV per meter. Magnetic 
-        fields were measured from 1 Hz to 400 kHz over an approximately 
+        The Plasma Wave Instrument (PWI) measured ac electric fields
+        over the frequency range from 1 Hz to 2 MHz, and an amplitude
+        range of 0.03 microvolt per meter to 100 mV per meter. Magnetic
+        fields were measured from 1 Hz to 400 kHz over an approximately
         100-dB range.
-        
-        The objectives of this investigation were to 
-        measure the spatial, temporal, spectral, and wave 
-        characteristics (particularly the Poynting vector component 
-        along the magnetic field line) and the wave polarization for 
-        extremely-low-frequency (ELF), very-low-frequency (VLF), and 
-        high-frequency (HF) noise phenomena. Of special interest were 
-        the auroral kilometric radiation and VLF hiss, and a variety of 
-        electrostatic waves that may cause field-aligned acceleration of 
+       
+        The objectives of this investigation were to
+        measure the spatial, temporal, spectral, and wave
+        characteristics (particularly the Poynting vector component
+        along the magnetic field line) and the wave polarization for
+        extremely-low-frequency (ELF), very-low-frequency (VLF), and
+        high-frequency (HF) noise phenomena. Of special interest were
+        the auroral kilometric radiation and VLF hiss, and a variety of
+        electrostatic waves that may cause field-aligned acceleration of
         particles.
-        
-        The investigation made use of the long dipole 
-        antennas in the spin plane and along the Z axis, and a magnetic 
-        loop antenna. A single-axis search coil magnetometer and a short 
-        electric antenna were included for low-frequency measurements 
-        and electrostatic noise measurements at short wavelengths. 
-        
+       
+        The investigation made use of the long dipole
+        antennas in the spin plane and along the Z axis, and a magnetic
+        loop antenna. A single-axis search coil magnetometer and a short
+        electric antenna were included for low-frequency measurements
+        and electrostatic noise measurements at short wavelengths.
+       
         The electronics consisted of
-        
-        * (1) a wideband/long baseline receiver 
-        with a bandwidth of 10 or 40 kHz in the range 0-2 MHz; 
-        * (2) a step-frequency correlator, containing two sweep-frequency 
-        receivers and phase detectors, sweeping 100 Hz to 400 kHz in 32 
-        s, and giving the phase between magnetic and electric components 
+       
+        * (1) a wideband/long baseline receiver
+        with a bandwidth of 10 or 40 kHz in the range 0-2 MHz;
+        * (2) a step-frequency correlator, containing two sweep-frequency
+        receivers and phase detectors, sweeping 100 Hz to 400 kHz in 32
+        s, and giving the phase between magnetic and electric components
         of the field;
-        * (3) a low-frequency correlator containing two 
-        filter receivers and phase detectors (eight filters in the range 
-        1.78-100 Hz). The sweep rate is 8 s/spectra at the high frequency end 
+        * (3) a low-frequency correlator containing two
+        filter receivers and phase detectors (eight filters in the range
+        1.78-100 Hz). The sweep rate is 8 s/spectra at the high frequency end
         (above 18 Hz); it is 32 s/spectra for frequencies for 1.8-10 Hz;
-        * (4) dc monitors that measured 
-        the voltage difference between the two sets of long dipole 
+        * (4) dc monitors that measured
+        the voltage difference between the two sets of long dipole
         antennas; and
-        * (5) a linear wave receiver, selectable from 
-        1.5 to 3.0, 3 to 6, or 10 to 16 kHz bands. 
-        
-        The wideband receiver 
-        was flown to transmit wideband waveform signals to the ground 
-        via an analog transmitter, so that detailed high-resolution 
+        * (5) a linear wave receiver, selectable from
+        1.5 to 3.0, 3 to 6, or 10 to 16 kHz bands.
+       
+        The wideband receiver
+        was flown to transmit wideband waveform signals to the ground
+        via an analog transmitter, so that detailed high-resolution
         frequency-time analysis could be performed.
-        
-        Since June 23, 1984 
-        a malfunction in the spacecraft data- handling system has 
-        prevented access to some PWI data. Digital measurements from the 
+       
+        Since June 23, 1984
+        a malfunction in the spacecraft data- handling system has
+        prevented access to some PWI data. Digital measurements from the
         sweep frequency receiver system were no longer accessible.
-        
-        More 
-        details are found in S. D. Shawhan et al., Space Sci. Instrum., 
-        v. 5, n. 4, p. 535, 1981. 
-      	</Description>
+       
+        More
+        details are found in S. D. Shawhan et al., Space Sci. Instrum.,
+        v. 5, n. 4, p. 535, 1981.
+</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Donald.A.Gurnett</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1981-070A-02</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1981-070A-02</URL>
         <Description>Information about the Plasma Waves Instrument (PWI) experiment on the Dynamics Explorer 1 mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Plasma Waves Instrument (PWI) on Dynamics Explorer 1</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/DynamicsExplorer1</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

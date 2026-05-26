@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd" lang="en">
+   <Version>2.3.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/DFB</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Parker Solar Probe, PSP, FIELDS Suite, Digital Fields Board, DFB, Instrument</ResourceName>
+         <AlternateName>Solar Probe Plus, SPP, FIELDS Suite, Digital Fields Board, DFB, Instrument</AlternateName>
+         <ReleaseDate>2020-03-16T12:34:56.789Z</ReleaseDate>
+         <Description>The Parker Solar Probe, PSP, Digital Fields Board, DFB, is responsible for conditioning, digitization, and processing signals from the five voltage sensors and four search coil magnetometers, SCM, over a frequency range from DC to approximately 60 kHz, as well as production of a calibration signal delivered to the SCM. These nine analog inputs are processed by the DFB into twenty five digital data streams, which are then used to produce a range of time domain and spectral domain data products.</Description>
+         <Acknowledgement>Please acknowledge NASA, Stuart D. Bale, the PSP FIELDS Instrument Suite Principal Investigator, and Nicola J. Fox, the PSP Project Scientist.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Nicola.J.Fox</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Stuart.D.Bale</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Parker Solar Probe FIELDS Suite NSSDCA Master Catalog Listing</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2018-065A-01</URL>
+            <Description>NSSDC Master Catalog Listing for the Parker Solar Probe FIELDS Suite, NSSDCA/COSPAR ID: 2018-065A-01</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Platform</InstrumentType>
+      <InvestigationName>Parker Solar Probe Mission</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2018-08-12T07:31:00.000Z</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/ParkerSolarProbe</ObservatoryID>
+   </Instrument>
+</Spase>

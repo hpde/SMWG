@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Tonghai</ResourceName>
          <AlternateName>Observatory Station Code: THJ</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-02-18T12:34:56.789</ReleaseDate>
          <Description>The Tonghai geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Institute of Geophysics, China Seismological Bureau</Acknowledgement>
          <Contact>
@@ -31,6 +31,7 @@
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>24</Latitude>
          <Longitude>102.7</Longitude>
+		 <Elevation>1820.0</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>1995-01-01T00:00:00.000</StartDate>

@@ -5,36 +5,36 @@
     <ResourceID>spase://SMWG/Instrument/SOLIS/VSM</ResourceID>
     <ResourceHeader>
       <ResourceName>The SOLIS Vector Spectromagnetograph</ResourceName>
-      <ReleaseDate>2010-02-02T20:36:59Z</ReleaseDate>
-      <Description>The SOLIS Vector Spectromagnetograph (VSM) is an f/6.6 
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The SOLIS Vector Spectromagnetograph (VSM) is an f/6.6
 Ritchey-Chretien telescope having a 50-cm aperture.  VSM uses 256 by 1024 pixel
-300 frames/s CCD cameras and ferroelectric polarization modulators.  VSM measures 
-Stokes I, Q, U and V profiles in FeI 630.15 and 630.25 nm lines, Stokes I and V 
+300 frames/s CCD cameras and ferroelectric polarization modulators.  VSM measures
+Stokes I, Q, U and V profiles in FeI 630.15 and 630.25 nm lines, Stokes I and V
 profiles in the CaII 854.2 nm line and Stokes I profile in the HeI 1083.0 nm line.
 Spatial resolution is 1.0 by 1.0 arcsec over a 2048 by 2048 arcsec field
 (covering the solar disk).  Scan rate is variable between 0.05 and 5.0 s/arcsec.
-The VSM provides the following core science data products: (a) photospheric 
-full-disk vector-magnetograms using the FeI 630.15 and 630.25 nm lines 
+The VSM provides the following core science data products: (a) photospheric
+full-disk vector-magnetograms using the FeI 630.15 and 630.25 nm lines
 (field strength, azimuth, inclination, flux, Doppler velocity, continuum intensity);
-(b) chromospheric full-disk magnetograms using the CaII 854.2 nm line (line-of-sight 
-magnetic flux, Doppler velocity, line core intensity); (c) full-disk HeI 1083.0 nm 
-line characteristics (equivalent width, continuum intensity, Doppler velocity, line 
-depth, line asymmetry, Doppler width, Si line width, Si line depth, Si Doppler 
-velocity); (d) photospheric full-disk longitudinal magnetograms using the FeI 630.15 
-and 630.25 nm lines (line-of-sight magnetic flux).  Data products (a) to (c) are 
-produced three times a day while data product (d) were expected to be be produced 
+(b) chromospheric full-disk magnetograms using the CaII 854.2 nm line (line-of-sight
+magnetic flux, Doppler velocity, line core intensity); (c) full-disk HeI 1083.0 nm
+line characteristics (equivalent width, continuum intensity, Doppler velocity, line
+depth, line asymmetry, Doppler width, Si line width, Si line depth, Si Doppler
+velocity); (d) photospheric full-disk longitudinal magnetograms using the FeI 630.15
+and 630.25 nm lines (line-of-sight magnetic flux).  Data products (a) to (c) are
+produced three times a day while data product (d) were expected to be be produced
 once a day.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/John.W.Harvey</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>SOLIS/VSM web page at NSO</Name>
-        <URL>http://solis.nso.edu/VSMOverview.html</URL>
-      </InformationURL>
-    </ResourceHeader>
+        <URL>https://solis.nso.edu/VSMOverview.html</URL>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>ImagingSpectrometer</InstrumentType>
     <InvestigationName>SOLIS_VSM</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/SOLIS</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

@@ -1,28 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.0</Version>
-  <Observatory>
-    <ResourceID>spase://SMWG/Observatory/WDC/Vostok</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Vostok Ground Observatory</ResourceName>
-      <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
-      <Description>The Vostok Observatory</Description>
-      <Acknowledgement>Arctic and Antarctic Research Institute, St. Petersburg</Acknowledgement>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Oleg.Troshichev</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-        <Role>MetadataContact</Role>
-      </Contact>
-    </ResourceHeader>
-    <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
-    <Location>
-      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-      <CoordinateSystemName>GEO</CoordinateSystemName>
-      <Latitude>-78.45</Latitude>
-      <Longitude>106.867</Longitude>
-    </Location>
-  </Observatory>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_6_0.xsd">
+   <Version>2.6.0</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/WDC/Vostok</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Vostok Ground Observatory</ResourceName>
+         <ReleaseDate>2024-05-03T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
+               <Note>Only known prior ReleaseDate</Note>
+            </RevisionEvent>
+            <RevisionEvent>
+               <ReleaseDate>2024-05-03T12:34:56.789</ReleaseDate>
+               <Note>Update the Person Resource ID for Oleg A. Troshechev to include middle initial, add Observatory OperatingSpan StartDate, version up to SPASE 2.6.0, LEB 20240502</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The Vostok Observatory</Description>
+         <Acknowledgement>Arctic and Antarctic Research Institute, St. Petersburg</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Oleg.A.Troshichev</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+      </ResourceHeader>
+      <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>-78.45</Latitude>
+         <Longitude>106.867</Longitude>
+      </Location>
+      <OperatingSpan>
+         <StartDate>1958-01-01T00:00:00.000</StartDate>
+      </OperatingSpan>
+   </Observatory>
 </Spase>

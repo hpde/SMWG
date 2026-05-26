@@ -8,44 +8,44 @@
          <AlternateName>DMSP_5D-3/F17</AlternateName>
          <AlternateName>DMSP-F17</AlternateName>
          <AlternateName>29522</AlternateName>
-         <ReleaseDate>2017-08-23T12:34:56.789</ReleaseDate>
-         <Description>Defense Meteorological Satellite Program, DMSP-F17 17th flight unit of the DMSP Block 
-		 5D series, 3rd of the Block 5D-3 series. Main missions: cloud imagery and microwave 
-		 imaging/temperature/humidity sounding. Substantial contribution to Space weather. Each DMSP satellite 
-		 has a 101 minute, sun-synchronous near-polar orbit at an altitude of 830km above the surface of the earth.
-         The local time nodes for DMSP F17 are 17:34 and 05:34. 		 
-		 Satellite reassigned as primary operational following the loss of DMSP-19 in Feb 2016.</Description>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <Description>Defense Meteorological Satellite Program, DMSP-F17 17th flight unit of the DMSP Block
+   5D series, 3rd of the Block 5D-3 series. Main missions: cloud imagery and microwave
+   imaging/temperature/humidity sounding. Substantial contribution to Space weather. Each DMSP satellite
+   has a 101 minute, sun-synchronous near-polar orbit at an altitude of 830km above the surface of the earth.
+         The local time nodes for DMSP F17 are 17:34 and 05:34.   
+   Satellite reassigned as primary operational following the loss of DMSP-19 in Feb 2016.</Description>
          <Acknowledgement>DMSP Data Manager, NOAA National Environmental Satellite, Data, and Information Service, NESDIS</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
             <Role>GeneralContact</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>Defense Meteorological Satellite Program, DMSP-F17 Web Site</Name>
             <URL>https://www.wmo-sat.info/oscar/satellites/view/64</URL>
             <Description>Defense Meteorological Satellite Program, DMSP-F17, Information and Details</Description>
-         </InformationURL>
-		 <InformationURL>
+</InformationURL>
+   <InformationURL>
             <Name>Defense Meteorological Satellite Program, Block 5D-3 Spacecraft Overview</Name>
             <URL>http://spaceflight101.com/spacecraft/dmsp-block-5d-3/</URL>
             <Description>Detailed information on the Defense Meteorological Satellite Program 5D-3 satellite series.</Description>
-         </InformationURL>
+</InformationURL>
          <InformationURL>
             <Name>NSSDC&apos;s Master Catalog</Name>
-            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=2006-050A</URL>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2006-050A</URL>
             <Description>Information about the DMSP 5D-3/F17 mission</Description>
-         </InformationURL>
-      </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
       <ObservatoryGroupID>spase://SMWG/Observatory/DMSP</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
-      </Location>
+</Location>
       <OperatingSpan>
          <StartDate>2006-11-04T00:00:00</StartDate>
-      </OperatingSpan>
-   </Observatory>
+</OperatingSpan>
+</Observatory>
 </Spase>

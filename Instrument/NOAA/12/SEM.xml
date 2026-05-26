@@ -6,29 +6,29 @@
     <ResourceHeader>
       <ResourceName>Space Environment Monitor (SEM)</ResourceName>
       <AlternateName>SEM</AlternateName>
-      <ReleaseDate>2011-11-14T20:25:10Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Space Environmental Monitor (SEM) experiment is an extension of the solar-proton monitoring experiment flown on the ITOS spacecraft series. The object is to measure proton flux, electron flux density, and energy spectrum in the upper atmosphere. The experiment package consists of two detector systems and a data processing unit. The medium energy proton and electron detector (MEPED) measures protons in five energy ranges from 30 keV to &gt;2.5 MeV; electrons above 30, 100, and 300 keV; protons and electrons (inseparable) above 6 MeV; and omni-directional protons above 16, 36, and 80 MeV. The total energy detector (TED) measures the intensity of protons and electrons between 300 eV and 20 keV.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Harold.Leinbach</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/David.S.Evans</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Herbert.H.Sauer</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1991-032A&amp;ex=4</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1991-032A&amp;ex=4</URL>
         <Description>Information about the Space Environment Monitor (SEM) experiment on the NOAA 12 mission.</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://SMWG/Instrument/NOAA12/SEM</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Space Environment Monitor (SEM) on NOAA 12</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/NOAA/12</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

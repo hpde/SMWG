@@ -4,24 +4,24 @@
         <ResourceID>spase://SMWG/Repository/CDPP</ResourceID>
         <ResourceHeader>
             <ResourceName>Centre de Donnees de la Physique des Plasmas</ResourceName>
-            <ReleaseDate>2014-07-11T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>
                 The CDPP (Centre de Donnees de Physique des Plasmas) was created in 1998 jointly by CNES and INSU. The CDPP is the French national data centre for natural plasmas of the solar system. The CDPP assures the long term preservation of data obtained primarily from instruments built using French resources, and renders them readily accessible and exploitable by the international community. The CDPP also provides services to allow user defined data visualisation, merging, computation, search and extraction on data content, (see AMDA, Automated Multi-Dataset Analysis service). The CDPP is involved in the development of interoperability, and participates in several Virtual Observatory projects.
-            </Description>
+</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Vincent.Genot</PersonID>
                 <Role>ProjectScientist</Role>
-            </Contact>
+</Contact>
             <InformationURL>
                 <Name>CDPP home page</Name>
-                <URL>http://cdpp.eu/</URL>
+                <URL>http://www.cdpp.eu</URL>
                 <Description>
                     CDPP top level page.
-                </Description>
-            </InformationURL>
-        </ResourceHeader>
+</Description>
+</InformationURL>
+</ResourceHeader>
         <AccessURL>
-            <URL>http://cdpp.eu</URL>
-        </AccessURL>
-    </Repository>
+            <URL>http://www.cdpp.eu</URL>
+</AccessURL>
+</Repository>
 </Spase>

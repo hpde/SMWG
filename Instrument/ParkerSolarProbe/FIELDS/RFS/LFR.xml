@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd" lang="en">
+   <Version>2.3.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/RFS/LFR</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Parker Solar Probe, PSP, FIELDS Suite, Radio Frequency Spectrometer, Low Frequency Receiver, RFS/LFR, Instrument</ResourceName>
+         <AlternateName>Solar Probe Plus, SPP, FIELDS Suite, Radio Frequency Spectrometer, Low Frequency Receiver, RFS/LFR, Instrument</AlternateName>
+         <ReleaseDate>2020-03-16T12:34:56.789Z</ReleaseDate>
+         <Description>The Radio Frequency Spectrometer, RFS, is a dual channel digital spectrometer, designed for both remote sensing of radio waves and in situ measurement of electrostatic fluctuations. The RFS receives inputs from the V1, V2, V3, and V4 electric field antennas, using the high frequency output of the FIELDS electric field preamplifiers. Both RFS channels are digitally sampled simultaneously, allowing for calculations of auto spectra for each channel and cross spectra between the two channels. Using multiplexers to select antennas, each RFS channel can use as input either the difference between any two antennas, dipole mode, or the difference between any antenna and spacecraft ground, monopole mode. In addition to the electric field antennas, the single axis medium frequency, MF, winding from the search coil may also used as an input to the RFS. The RFS analog electronics are physically located on an isolated segment of the FIELDS Digital Control Board, DCB. RFS digital signal processing, DSP, is handled by the DCB FPGA and the DCB flight software.
+
+The nominal length of a RFS sample is 32,768 samples. Using an 8 tap PFB, this results in a 4,096 point time series for the fast Fourier transform, FFT, which in turn yields 2048 positive frequencies. The full resolution spectra would be too large to store and telemeter, and so select frequencies are extracted from the full resolution spectra and stored in memory for downlink. Both autocorrelation and cross correlation measurements are produced from the selected bins of the spectra.
+
+The RFS operational frequency range spans from approximately 10 kHz to 19.2 MHz. This frequency range is subdivided into the Low Frequency Range, LFR, from about 10 kHz to 2.4 MHz, and High Frequency Range, HFR, about 1.6 kHz to 19.2 MHz. The primary science of the LFR consists of in situ quasi-thermal noise, QTN, spectrum measurements. The HFR will focus primarily on remote sensing. The LFR sampling cadence is reduced from 38.4 MHz to fs equal to 4.8 MHz, using a Cascade Integrator Comb, CIC, filter to anti-alias and downsample by a factor of eight. Because the frequency resolution of FFT algorithms is equal to fs/N, the lower fs allows for better frequency resolution at the LFR frequencies while using an identical DSP signal chain. For both the LFR and HFR, the chosen frequencies allow for a relative frequency spacing &#916;f/f of approximately 4.5% throughout their respective frequency ranges.</Description>
+         <Acknowledgement>Please acknowledge NASA, Stuart D. Bale, the PSP FIELDS Instrument Suite Principal Investigator, and Nicola J. Fox, the PSP Project Scientist.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Nicola.J.Fox</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Stuart.D.Bale</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Parker Solar Probe FIELDS Suite NSSDCA Master Catalog Listing</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2018-065A-01</URL>
+            <Description>NSSDC Master Catalog Listing for the Parker Solar Probe FIELDS Suite, NSSDCA/COSPAR ID: 2018-065A-01</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>SpectralPowerReceiver</InstrumentType>
+      <InvestigationName>Parker Solar Probe Mission</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2018-08-12T07:31:00.000Z</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/ParkerSolarProbe</ObservatoryID>
+   </Instrument>
+</Spase>

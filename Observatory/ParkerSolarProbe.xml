@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+   <Version>2.3.2</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/ParkerSolarProbe</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Parker Solar Probe Spacecraft</ResourceName>
+         <AlternateName>PSP</AlternateName>
+         <AlternateName>Solar Probe Plus Spacecraft</AlternateName>
+         <AlternateName>SPP</AlternateName>
+         <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+               <Note>Updated to SPASE Version 2.3.2 if needed, Applied quality conntrol for DOI usage, LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The Parker Solar Probe is designed to orbit the Sun, making numerous close approaches, in order to trace the flow of energy, study the heating of the solar corona, and explore the acceleration of the solar wind. The detailed science objectives are:
+
+* 1) Trace the flow of energy that heats and accelerates the solar corona
+* 2) Determine the structure and dynamics of the plasma and magnetic fields at the sources of the solar wind
+* 3) Explore mechanisms that accelerate and transport energetic particles. To accomplish these objectives, the spacecraft carries four primary instruments - the Fields Experiment, the Integrated Science Investigation of the Sun, The Wide-Field Imager for Solar Probe, and the Solar Wind Alphas and Protons Investigation.
+
+Spacecraft and Subsystems
+
+The spacecraft bus is a hexagonal prism with two large solar panel wings protruding from near the middle of the bus and a cone-shaped thermal protection system (TPS) on the Sun-facing end. Total mass including 130 kg of propellant is 685 kg. The bus is 3 m long and 1 m in diameter, the end of the TPS is 2.3 m in diameter. The TPS is a 11.43 cm thick carbon composite shield.
+
+The solar arrays produce 384 W power at solar encounter. They are actively cooled, each 1.12 m long by 0.69 m wide for a total area of 1.55 square meters. Propulsion is provided by a hydrazine tank mounted in the center of the bus and 12 4.4-N blowdown monoprop hydrazine thrusters. Attitude control is achieved by use of reaction wheels. Communications are via a 0.6 m diameter high-gain antenna (for science downlink) mounted near the middle of the cylinder, two fan-beam and two low-gain antennas for uplink and telemetry) and a 34 W TWTA in the Ka-band with a science downlink rate of 167 kb/s at 1 AU distance. A boom holding science sensors extends from the end of the spacecraft facing away from the Sun.
+
+Mission Profile
+
+The Parker Solar Probe launched on 12 August 2018 at 07:31 UT from Cape Canaveral, on a Delta IV Heavy with a Star 48 BV upper stage. A Venus flyby at an altitude above the surface of approximately 2500 km on 3 October 2018 was used to put the probe into its final heliocentric orbit, followed by its first perihelion on 6 November 2018. Six more Venus flybys [26 Dec 2019 (altitude approximately 3000 km), 11 July 2020 (800 km), 20 Feb 2021 (2400 km), 16 Oct 2021 (3800 km), 21 Aug 2023 (3900 km), 6 Nov 2024 (300 km)] are used to progressively trim the orbit to allow its close solar approaches in 2024 and 2025. The perihelions range from 24.3 million km to 6.86 million km (23.6 million km to 6.16 million km from the surface of the Sun). Aphelion range from 0.73 to 1.02 AU. Primary science will be done over approximately 11 days bracketing each closest approach, data downlink will be done over the remaining 77-158 days, depending on the orbit.
+
+The mission is named for physicist Eugene Parker, who first theorized the existence of the solar wind and the complex interactions involving plasmas, magnetic fields, and energetic particles involved in 1958. He is the first living person to have a NASA spacecraft named after him.</Description>
+         <Acknowledgement>Please acknowledge the National Aeronautics and Space Administration, NASA</Acknowledgement>
+         <Funding>
+            <Agency>National Aeronautics and Space Administration, Living With a Star, LWS, Program</Agency>
+            <Project>Parker Solar Probe Mission</Project>
+            <AwardNumber>NNN06AA01C</AwardNumber>
+         </Funding>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Adam.Szabo</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Nicola.J.Fox</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Robert.B.Decker</PersonID>
+            <Role>Scientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Parker Solar Probe Mission Web Page, JPL</Name>
+            <URL>http://parkersolarprobe.jhuapl.edu/</URL>
+            <Description>Parker Solar Probe Mission Web Page, NASA Jet Propulsion Laboratory, JPL</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>Parker Solar Probe Mission Web Page, NASA</Name>
+            <URL>https://www.nasa.gov/content/goddard/parker-solar-probe/</URL>
+            <Description>Additional information on the Parker Solar Probe</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>ParkerSolarProbe Spacecraft paper, Published by Space Sci. Rev., Date: 2015-11-11</Name>
+            <URL>https://doi.org/10.1007/s11214-015-0211-6</URL>
+            <Description>Author List: Fox, N. J., Velli, M. C., Bale, S. D., Decker, R., Driesman, A., Howard, R. A., Kasper, J. C., Kinnison, J., Kusterer, M., Lario, D., Lockwood, M. K., McComas, D. J., Raouafi, N. E., &amp; Szabo, A.</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>Parker Solar Probe Spacecraft, NSSDC Master Catalog Listing</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2018-065A</URL>
+            <Description>NSSDC Master Catalog Listing for the Parker Solar Probe Spacecraft, NSSDCA/COSPAR ID: 2018-065A</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Heliosphere.Inner</ObservatoryRegion>
+         <ObservatoryRegion>Sun.Corona</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2018-08-12T07:31:00</StartDate>
+         <Note>Parker Solar Probe Launch Date and Time until data are available</Note>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

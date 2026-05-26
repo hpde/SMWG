@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.4.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Scott.England</ResourceID>
+      <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+      <PersonName>Scott England</PersonName>
+      <OrganizationName>Aerospace and Ocean Engineering, Durham Hall, s1145 Perry St. Virginia Tech, Blacksburg, VA 24061</OrganizationName>
+   </Person>
+</Spase>

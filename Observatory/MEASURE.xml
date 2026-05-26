@@ -1,31 +1,46 @@
-<?xml version="1.0"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Observatory>
-    <ResourceID>spase://SMWG/Observatory/MEASURE</ResourceID>
-    <ResourceHeader>
-      <ResourceName>MEASURE</ResourceName>
-      <AlternateName>MEASURE Observatory Chain</AlternateName>
-      <AlternateName>The observatory group created to represent the chain of stations in the MEASURE Array.</AlternateName>
-      <ReleaseDate>2011-02-17T12:34:56.789</ReleaseDate>
-      <Description>The observatory group created to represent the chain of stations present in the MEASURE.  The chain of stations includes:  Ottawa, Clarkson University, Grafton Test Facility, Millstone Hill, Applied Physics Lab, Fredricksburg, Darksky Observatory, University of South Carolina, Jacksonville University, and Bullcreek Observatory.</Description>
-      <Acknowledgement>Please acknowledge Mark Moldwin, Institute of Geophysics and Planetary Physics and the Department of Earth and Space Sciences, University of California, Los Angeles, Los Angeles, CA 90095-1567 for providing access to MEASURE Array data resources.</Acknowledgement>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Mark.Moldwin</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-        <Role>MetadataContact</Role>
-      </Contact>
-      <InformationURL>
-        <Name>The MEASURE Magnetometer Array Home Page.</Name>
-        <URL>http://www-ssc.igpp.ucla.edu/gem/worldmag/measure.html</URL>
-        <Description>The MEASURE Magnetometer Array information web site.</Description>
-      </InformationURL>
-    </ResourceHeader>
-    <Location>
-      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-    </Location>
-  </Observatory>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.4.0</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/MEASURE</ResourceID>
+      <ResourceHeader>
+         <ResourceName>MEASURE</ResourceName>
+         <AlternateName>MEASURE Observatory Chain</AlternateName>
+         <AlternateName>The observatory group created to represent the chain of stations in the MEASURE Array.</AlternateName>
+         <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+               <Note>MEASURE Observatory: Delete www-spc.igpp.ucla.edu Information URL, Add JGR Information URL and Operating Span. Metadata submitted by J.M. Weygand on 2022-01-13, reviewed by LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The observatory group created to represent the chain of stations present in the MEASURE. The chain of stations includes: Ottawa, Clarkson University, Grafton Test Facility, Millstone Hill, Applied Physics Lab, Fredricksburg, Darksky Observatory, University of South Carolina, Jacksonville University, and Bullcreek Observatory.</Description>
+         <Acknowledgement>Please acknowledge Mark Moldwin, Institute of Geophysics and Planetary Physics and the Department of Earth and Space Sciences, University of California, Los Angeles, Los Angeles, CA 90095-1567 for providing access to MEASURE Array data resources.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Mark.Moldwin</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>This Journal of Geophysical Research article with MEASURE array.</Name>
+            <URL>https://doi.org/10.1029/2004JA010684</URL>
+            <Description>Some MEASURE Magnetometer Array information.</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>1999-01-01T00:00:00</StartDate>
+         <StopDate>2004-04-12T23:59:59</StopDate>
+         <Note>It is unclear when this array began operation and ended operation. These dates are based on some available data.</Note>
+      </OperatingSpan>
+   </Observatory>
 </Spase>

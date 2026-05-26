@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+   <Version>2.3.2</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/MAVEN/SWIA</ResourceID>
+      <ResourceHeader>
+         <ResourceName>MAVEN Solar Wind Ion Analyzer, SWIA, Instrument</ResourceName>
+         <AlternateName>MAVEN SWIA Instrument</AlternateName>
+         <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+               <Note>Updated to SPASE Version 2.3.2 if needed, Applied quality conntrol for DOI usage, LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The primary Goal of the Solar Wind Ion Analyzer, SWIA, is to measure the Solar Wind Ion Input to the Martian Atmosphere. The secondary Goal is to characterize basic Space Plasma Processes around Mars. SWIA is an Electrostatic Analyzer which makes In-situ Measurements of Ion Energy Flux and Flow Velocities. It can measure Energies from 5 eV to 25 keV, Flow Velocities from 30 km/s to 2000 km/s, and Densities from 0.1 cm^-3 to greater than 100 cm^-3. The Instrument Field of View is 360&#176; &#215; 90&#176; with an Angular Resolution of 22.5&#176;. The basic Measurement Rate is once every 4 s, with continuous Operation except during deep Dips. SWIA is mounted on the MAVEN sun-facing Deck.</Description>
+         <Acknowledgement>National Aeronautics and Space Administration, NASA, Laboratory for Atmospheric and Space Physics, LASP, University of Colorado, Boulder</Acknowledgement>
+         <Funding>
+            <Agency>National Aeronautics and Space Administration, Mars Scout Program</Agency>
+            <Project>MAVEN Solar Wind Ion Analyzer Investigation</Project>
+            <AwardNumber>UNKNOWN</AwardNumber>
+         </Funding>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Nicholas.M.Schneider</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>The Mars Atmosphere and Volatile Evolution, MAVEN, Solar Wind Ion Analyzer Instrument Home Page, LASP, UC Boulder</Name>
+            <URL>https://lasp.colorado.edu/home/maven/science/instrument-package/swia/</URL>
+            <Description>The Mars Atmosphere and Volatile Evolution, MAVEN, Solar Wind Ion Analyzer Instrument Home Page, Laboratory for Atmospheric and Space Physics, LASP, University of Colorado, Boulder</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>MAVEN Solar Wind Ion Analyzer, SWIA, Instrument paper, Published by Space Sci. Rev., Date: 2013-11-29</Name>
+            <URL>https://doi.org/10.1007/s11214-013-0029-z</URL>
+            <Description>Author List: Halekas, J. S., Taylor, E. R., Dalton, G., Johnson, G., Curtis, D. W., McFadden, J. P., Mitchell, D. L., Lin, R. P., &amp; Jakosky, B. M.</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>NSSDC Master Catalog Listing, MAVEN Solar Wind Ion Analyzer, SWIA, Instrument</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2013-063A-06</URL>
+            <Description>NSSDC Master Catalog Listing for the MAVEN Solar Wind Ion Analyzer, SWIA, Instrument, NSSDCA/COSPAR ID: 2013-063A-06</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>ElectrostaticAnalyser</InstrumentType>
+      <InvestigationName>MAVEN Solar Wind Ion Analyzer Investigation</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2013-11-18T18:28:00</StartDate>
+         <Note>MAVEN Launch Date and Time until data are available</Note>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/MAVEN</ObservatoryID>
+   </Instrument>
+</Spase>

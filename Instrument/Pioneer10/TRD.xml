@@ -5,21 +5,21 @@
     <ResourceID>spase://SMWG/Instrument/Pioneer10/TRD</ResourceID>
     <ResourceHeader>
       <ResourceName>Trapped Radiation Detector</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:15Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>This experiment consisted of an array of five particle detectors with electron thresholds in the range .01 to 35 MeV and proton thresholds in the range 0.15 to 80 MeV. A Cerenkov counter (C) had four output channels (C1, C2, C3, and CDC) sensitive to electrons having energies above 6, 9, 13, and 1 MeV, respectively. An electron-scatter counter (E) had three output channels (E1, E2, and E3) sensitive to electrons above .16, .26, and .46 MeV. A minimum ionization counter (M) had three output channels, M1 sensitive to electrons having energies greater than 35 MeV, M2 that measured background, and M3 that was sensitive to protons having energies greater than 80 MeV. The last two sensors were scintillator detectors (SP and SE), both of which had energy thresholds of 10 keV for electrons and 150 keV for protons. The sensitivity of the SE detector to protons was about a factor of 10 lower than its sensitivity to electrons. Thus, the SEDC channel effectively measured the electron flux, which could then be subtracted from the SPDC channel response to obtain the proton flux. Several other channels, listed above, required corrections to obtain the fluxes of the species indicated. Three of the channels (CDC, SPDC, and SEDC) were read out through a common electrometer. Due to a malfunction that occurred between launch and Jovian encounter, these three channels produced no usable encounter data. The detector channels could be programmed for readout in any one of four patterns at each of the eight spacecraft bit rate modes. During encounter when the spacecraft was operating in the highest bit rate mode, the minimum time to sample one channel was 1.5 s and the time to obtain a complete scan through all channels was 108 s. Since the directional detectors pointed perpendicular to the spin axis and the spin rate was 5 rpm, pitch-angle measurements were obtained. While the experiment was primarily designated for encounter studies, some data were obtained at low rates in interplanetary space. The last data were taken on December 1, 1993, after which the instrument was turned off to conserve power for other spacecraft experiments and systems. A description of the instrumentation and initial Pioneer 10 results was published in J. Geophys. Res., v. 79, p. 3589, 1974.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/R.Walker.Fillius</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1972-012A&amp;ex=5</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1972-012A&amp;ex=5</URL>
         <Description>Information about the Trapped Radiation Detector experiment on the Pioneer 10 mission.</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://SMWG/Instrument/Pioneer10/RAD</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Trapped Radiation Detector on Pioneer 10</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Pioneer10</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

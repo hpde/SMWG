@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/Aeros-A/RPA</ResourceID>
     <ResourceHeader>
       <ResourceName>Energy Distribution of Ions and Electrons</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:02Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>A retarding potential analyzer measured the energy distribution of electrons and ions. The corresponding temperatures were derived from these distributions. The experiment operated in an electron mode and in an ion mode. The instrument was essentially a collector shielded by plane parallel grids. Spectra of the ionospheric-charged particles were obtained by sweeping the retarding voltage of the grid. The particles would pass through the grid and reach the collector only if their kinetic energy exceeded the retarding potential. NSSDC has almost all the useful data that exist from this investigation.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Karl.Spenner</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1972-100A&amp;ex=2</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1972-100A&amp;ex=2</URL>
         <Description>Information about the Energy Distribution of Ions and Electrons experiment on the Aeros-A mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Energy Distribution of Ions and Electrons on Aeros-A</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Aeros-A</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

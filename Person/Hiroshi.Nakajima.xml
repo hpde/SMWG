@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Hiroshi.Nakajima</ResourceID>
+      <ReleaseDate>2026-02-02T00:00:00Z</ReleaseDate>
+      <OrganizationName>Nobeyama Solar Radio Observatory, National Astronomical Observatory of Japan (NAOJ)</OrganizationName>
+      <Email> nakaji15@dia.janis.or.jp</Email>
+   </Person>
+</Spase>

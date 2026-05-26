@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+   <Version>2.3.2</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/MAVEN/SEP</ResourceID>
+      <ResourceHeader>
+         <ResourceName>MAVEN Solar Energetic Particle, SEP, Instrument</ResourceName>
+         <AlternateName>MAVEN SEP Instrument</AlternateName>
+         <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+               <Note>Updated to SPASE Version 2.3.2 if needed, Applied quality conntrol for DOI usage, LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The Solar Energetic Particle, SEP, Instrument will characterize the Relationship between Solar Energetic Particle Events and Martian Atmospheric Escape. The SEP measures the Energy and Angular Distribution of Energetic Protons and Electrons in the Energy Range absorbed by the Upper Atmosphere. The main Instrument comprises two orthogonal dual double-ended Solid State Telescopes with passive Ion-implanted Silicon Detectors, giving it four Look Directions.
+
+The SEP can measure Proton Energies from 25 keV to 6 MeV and Electrons from 25 keV to 1 MeV. It can measure Particle Fluxes from 20/(cm&#178; s sr) to 107/(cm&#178; s sr). It has three Measurement Frequencies depending on Orbital Distance from the Surface: once every 2 s below 300 km, 8 s from 300 km to 800 km, and 32 s beyond 800 km.</Description>
+         <Acknowledgement>National Aeronautics and Space Administration, NASA, Space Sciences Laboratory, University of California, Berkeley</Acknowledgement>
+         <Funding>
+            <Agency>National Aeronautics and Space Administration, Mars Scout Program</Agency>
+            <Project>MAVEN Solar Energetic Particle Investigation</Project>
+            <AwardNumber>UNKNOWN</AwardNumber>
+         </Funding>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Davin.Larson</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>The Mars Atmosphere and Volatile Evolution, MAVEN, Solar Energetic Particle Instrument Home Page, LASP, UC Boulder</Name>
+            <URL>https://lasp.colorado.edu/home/maven/science/instrument-package/sep/</URL>
+            <Description>The Mars Atmosphere and Volatile Evolution, MAVEN, Solar Energetic Particle Instrument Home Page, Laboratory of Atmospheric and Space Physics, LASP, University of Colorado, Boulder</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>MAVEN Solar Energetic Particle, SEP, Instrument paper, Published by Space Sci. Rev., Date: 2015-03-29</Name>
+            <URL>https://doi.org/10.1007/s11214-015-0218-z</URL>
+            <Description>Author List: Larson, D. E., Lillis, R. J., Lee, C. O., Dunn, P. A., Hatch, K., Robinson, M., Glaser, D., Chen, J., Curtis, D. W., Tiu, C., Lin, R. P., Luhmann, J. G., &amp; Jakosky, B. M.</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>NSSDC Master Catalog Listing, MAVEN Solar Energetic Particle, SEP, Instrument</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2013-063A-05</URL>
+            <Description>NSSDC Master Catalog Listing for the MAVEN Solar Energetic Particle, SEP, Instrument, NSSDCA/COSPAR ID: 2013-063A-05</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>SolidStateDetector</InstrumentType>
+      <InvestigationName>MAVEN Solar Energetic Particle Investigation</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2013-11-18T18:28:00</StartDate>
+         <Note>MAVEN Launch Date and Time until data are available</Note>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/MAVEN</ObservatoryID>
+   </Instrument>
+</Spase>

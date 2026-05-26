@@ -1,0 +1,12 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+ <Version>2.3.1</Version>
+ <Person>
+  <ResourceID>spase://SMWG/Person/Mark.Golkowski</ResourceID>
+  <ReleaseDate>2021-04-26T16:08:20Z</ReleaseDate>
+  <PersonName>Mark Golkowski</PersonName>
+  <OrganizationName>University of Colorado</OrganizationName>
+  <Address>Department of Electrical Engineering, University of Colorado Denver, Denver, Colorado, USA</Address>
+  <Email>mark.golkowski@waldo.world</Email>
+  <ORCIdentifier>https://orcid.org/0000-0002-5418-148X</ORCIdentifier>
+ </Person>
+</Spase>

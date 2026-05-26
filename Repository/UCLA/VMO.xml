@@ -6,25 +6,25 @@
     <ResourceHeader>
       <ResourceName>The Virtual Magnetospheric Observatory Data Repository.</ResourceName>
       <AlternateName>The VMO Data Repository hosted by the IGPP, UCLA.</AlternateName>
-      <ReleaseDate>2018-02-27T12:34:56.789</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Virtual Magnetospheric Observatory Data Repository hosted by the Earth, Planetary and Space Science Department, University of California, Los Angeles.</Description>
       <Acknowledgement>If data downloaded from the VMO Data Repository are used in publication kindly acknowledge the Virtual Magnetospheric Observatory, Earth, Planetary and Space Science Department, University of California, Los Angeles for providing access to the data.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Raymond.J.Walker</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>The VMO Data Repository Web Site</Name>
-        <URL>http://vmo.igpp.ucla.edu/data1</URL>
+        <URL>http://vmo.igpp.ucla.edu/data1/</URL>
         <Description>The main web page for information concerning data holdings hosted by the Virtual Magnetospheric Observatory Data Repository.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <AccessURL>
-      <URL>http://vmo.igpp.ucla.edu/data1</URL>
-    </AccessURL>
-  </Repository>
+      <URL>http://vmo.igpp.ucla.edu/data1/</URL>
+</AccessURL>
+</Repository>
 </Spase>

@@ -6,22 +6,22 @@
     <ResourceHeader>
       <ResourceName>Ultraviolet Imager (UVI)</ResourceName>
       <AlternateName>UVI</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:13Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The ultraviolet imager is an ultraviolet imaging camera designed to obtain global images of the aurora at several selected wavelengths with a time resolution of 60 s, a spatial resolution of 10 km at a spacecraft altitude of 9 RE, and sensitivities of 100-300 rayleighs per count in each pixel. The objective is to provide coherent information on the total energy influx to the atmosphere, the characteristic energy of the precipitating particles, their spatial extent and structure, and various other parameters such as activity indices.
 This investigation utilizes two UV optical channels, one in the near ultraviolet (NUV) and one in the vacuum ultraviolet (VUV). The electronics subsystem is shared with the Visible Imaging System (VIS) investigation, as is the front-optics system used to point the instrument and to avoid the sunlit limb of the earth which is very bright in the visible. The combined instrument comprises primary and secondary optics, electromechanical devices for mirror and aperture control and filter selection, optical filters, image-intensified CCD sensor arrays with thermoelectric cooling, power converters and distribution circuits, and data, attitude and command processors.
 The instrument is mounted on the despun platform and normally directed in or near the nadir direction. The imaging field of view is directed by the earth-finding mirror to different sectors within the 20 x 36 degree instrument observing field. The VUV (vacuum ultraviolet) covers six wavelengths from 120.0 to 180.0 nm, and the NUV (near ultraviolet) covers five wavelengths from 247.0 to 337.1 nm.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/George.K.Parks</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1996-013A&amp;ex=11</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1996-013A&amp;ex=11</URL>
         <Description>Information about the Ultraviolet Imager (UVI) experiment on the Polar mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>Ultraviolet Imager (UVI) on Polar</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/POLAR</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

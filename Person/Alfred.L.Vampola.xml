@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Alfred.L.Vampola</ResourceID>
-    <ReleaseDate>2011-02-23T16:25:29Z</ReleaseDate>
-    <PersonName>Dr. Alfred L. Vampola</PersonName>
-    <OrganizationName>Aerospace Corporation</OrganizationName>
-    <Note>Retired</Note>
-  </Person>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Alfred.L.Vampola</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <ReleaseDate>2025-03-05T12:34:56.789Z</ReleaseDate>
+      <PersonName>Alfred L. Vampola</PersonName>
+      <OrganizationName>Aerospace Corporation</OrganizationName>
+      <Note>Retired</Note>
+      <RORIdentifier>01ar9e455</RORIdentifier>
+   </Person>
 </Spase>

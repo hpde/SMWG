@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/NeutronMonitor/Haleakala</ResourceID>
     <ResourceHeader>
       <ResourceName>Haleakala Neutron Monitor</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:14Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Haleakala, Hawaii Neutron Monitor was established in 1991 as a long-term replacement for the monitor at Huancayo, Peru.  It consists of a standard 12-tube IGY monitor and an 18-tube NM-64 supermonitor.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Clifford.Lopate</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Haleakala Neutron Monitor</Name>
-        <URL>http://ulysses.sr.unh.edu/NeutronMonitor/00HaleakalaHuancayoNorm.html</URL>
+        <URL>https://www.ngdc.noaa.gov/stp/solar/cosmic.html</URL>
         <Description>Introduction to Haleakala and Huancayo Monitors</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Haleakala</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/NeutronMonitor/Haleakala</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

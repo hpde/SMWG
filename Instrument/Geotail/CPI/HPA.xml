@@ -5,26 +5,26 @@
     <ResourceID>spase://SMWG/Instrument/Geotail/CPI/HPA</ResourceID>
     <ResourceHeader>
       <ResourceName>Geotail Hot Plasma Analyzer</ResourceName>
-      <ReleaseDate>2011-02-02T17:12:30Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Hot Plasma Analyzer (HPA) of the Comprehensive
-Plasma Instrumentation (CPI) on Geotail is a quadrispherical plasma 
-analyzer that measures three-dimensional fluxes of electrons and ions 
+Plasma Instrumentation (CPI) on Geotail is a quadrispherical plasma
+analyzer that measures three-dimensional fluxes of electrons and ions
 in the range 1-50,000 eV/Q</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Louis.A.Frank</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/William.R.Paterson</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>U.Iowa Geotail/CPI site</Name>
-        <URL>http://www-pi.physics.uiowa.edu/www/cpi/</URL>
-      </InformationURL>
-    </ResourceHeader>
+        <URL>http://www-pi.physics.uiowa.edu/cpi/</URL>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>QuadrisphericalAnalyser</InstrumentType>
     <InvestigationName>Comprehensive Plasma Instrumentation</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Geotail</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

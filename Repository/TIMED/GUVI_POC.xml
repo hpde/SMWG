@@ -6,32 +6,32 @@
     <ResourceHeader>
       <ResourceName>JHU/APL TIMED/GUVI Payload Operations Center</ResourceName>
       <AlternateName>TIMED/GUVI POC</AlternateName>
-      <ReleaseDate>2011-10-24T21:34:00Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Repository at JHU/APL containing TIMED/GUVI data</Description>
       <Acknowledgement>
 All users should include an acknowledgement of the source of the GUVI data similar to: The GUVI data used here are provided through support from the NASA MO&amp;DA program. The GUVI instrument was designed and built by The Aerospace Corporation and The Johns Hopkins University. The Principal Investigator is Dr. Andrew B. Christensen and the Chief Scientist and co-PI is Dr. Larry J. Paxton.
-      </Acknowledgement>
+</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.K.Schaefer</PersonID>
-	  <Role>TechnicalContact</Role>
-	  <Role>GeneralContact</Role>
-      </Contact>
+   <Role>TechnicalContact</Role>
+   <Role>GeneralContact</Role>
+</Contact>
       <Contact>
          <PersonID>spase://SMWG/Person/Andrew.B.Christensen</PersonID>
          <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
          <PersonID>spase://SMWG/Person/Larry.J.Paxton</PersonID>
          <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
-	  <Name>TIMED/GUVI POC web site</Name>
-	  <URL>http://guvi.jhuapl.edu/</URL>
-      </InformationURL>
-    </ResourceHeader>
+   <Name>TIMED/GUVI POC web site</Name>
+   <URL>http://guvitimed.jhuapl.edu</URL>
+</InformationURL>
+</ResourceHeader>
     <AccessURL>
-	  <Name>GUVI Data Products</Name>
-	  <URL>http://guvi.jhuapl.edu/site/data/guvi-dataproducts.shtml</URL>
-    </AccessURL>
-  </Repository>
+   <Name>GUVI Data Products</Name>
+   <URL>http://guvitimed.jhuapl.edu/data_products</URL>
+</AccessURL>
+</Repository>
 </Spase>

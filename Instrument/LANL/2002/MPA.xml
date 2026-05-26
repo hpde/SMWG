@@ -5,46 +5,46 @@
     <ResourceID>spase://SMWG/Instrument/LANL/2002/MPA</ResourceID>
     <ResourceHeader>
       <ResourceName>LANL2002 Magnetospheric Plasma Analyzer</ResourceName>
-      <ReleaseDate>2011-06-03T22:28:12Z</ReleaseDate>
-      <Description>The Magnetospheric Plasma Analyzer (MPA) consists 
-of a single electrostatic analyzer (ESA) coupled to an array of channel 
-electron multipliers, and it measures three-dimensional energy/charge 
-distributions of both ions and electrons in a range of ~1 eV/q to 
-&gt;40 KeV/q. For use at synchronous orbit, the instrument was designed 
-for high sensitivity with moderate energy and angular resolutions. The 
-ESA is composed of a set of spherical plates such that the bending 
-angle from the center of the entrance aperture is a constant 60 degrees, 
-independent of the polar angle of entry. Electrons and ions are analyzed 
-alternately with this single ESA. After leaving the ESA, the particles 
-are accelerated into an array of six spiral-configuration channel 
-electron multipliers (CEMs).  Each CEM covers a separate polar angle 
-field of view (FOV). The FOVs are fan-shaped and centered at +/- 11.5, 
-34.5, and 57.5 degrees polar angle, where 90 degrees is the spin axis 
-direction (actively controlled to point to the center of the earth). 
-Three-dimensional measurements are obtained by using spacecraft rotation, 
-at a nominal 6 rpm, to sweep the FOV through the full 360 degree range of 
-spacecraft azimuth angle while recording counts in the six polar angle 
-FOVs. Measurements are made in standard cycles at each of 24 angles (15 
-degree spacing) in azimuth during each 10 s spacecraft revolution. 
-Approximately 92% of the unit sphere is observed by the MPA. Normal 
-instrument operation is composed of five types of cycles arranged in an 
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The Magnetospheric Plasma Analyzer (MPA) consists
+of a single electrostatic analyzer (ESA) coupled to an array of channel
+electron multipliers, and it measures three-dimensional energy/charge
+distributions of both ions and electrons in a range of ~1 eV/q to
+&gt;40 KeV/q. For use at synchronous orbit, the instrument was designed
+for high sensitivity with moderate energy and angular resolutions. The
+ESA is composed of a set of spherical plates such that the bending
+angle from the center of the entrance aperture is a constant 60 degrees,
+independent of the polar angle of entry. Electrons and ions are analyzed
+alternately with this single ESA. After leaving the ESA, the particles
+are accelerated into an array of six spiral-configuration channel
+electron multipliers (CEMs).  Each CEM covers a separate polar angle
+field of view (FOV). The FOVs are fan-shaped and centered at +/- 11.5,
+34.5, and 57.5 degrees polar angle, where 90 degrees is the spin axis
+direction (actively controlled to point to the center of the earth).
+Three-dimensional measurements are obtained by using spacecraft rotation,
+at a nominal 6 rpm, to sweep the FOV through the full 360 degree range of
+spacecraft azimuth angle while recording counts in the six polar angle
+FOVs. Measurements are made in standard cycles at each of 24 angles (15
+degree spacing) in azimuth during each 10 s spacecraft revolution.
+Approximately 92% of the unit sphere is observed by the MPA. Normal
+instrument operation is composed of five types of cycles arranged in an
 eight-cycle sequence that repeats every 86 s. This provides both two-
-dimensional and three-dimensional distributions, with varying resolutions. 
-For more details of the instrument, see the paper by S. J. Bame et al., 
+dimensional and three-dimensional distributions, with varying resolutions.
+For more details of the instrument, see the paper by S. J. Bame et al.,
 Rev. Sci. Instrum., 64, (4), pp. 1026-1033, 1993.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Michelle.F.Thomsen</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>MPA Home Page at LANL</Name>
-        <URL>http://nis-www.lanl.gov/nis-projects/mpa/index.shtml</URL>
-      </InformationURL>
+        <URL>https://pwg.gsfc.nasa.gov/istp/collaborating/lanl_inst.html</URL>
+</InformationURL>
       <PriorID>spase://SMWG/Instrument/LANL2002/MPA</PriorID>
       <PriorID>spase://SMWG/Instrument/LANL/LANL2002/MPA</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>LANL2002 Magnetospheric Plasma Analyzer</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/LANL/2002</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

@@ -1,24 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
-  <Instrument>
-    <ResourceID>spase://SMWG/Instrument/WDC/Tixie.Bay/Magnetometer</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Tixie Bay Ground Magnetic Field Instrument</ResourceName>
-      <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
-      <Description>The magnetic field instrument at the Tixie Bay ground station</Description>
-      <Acknowledgement>Arctic and Antarctic Research Institute, St. Petersburg</Acknowledgement>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Oleg.Troshichev</PersonID>
-        <Role>GeneralContact</Role>
-      </Contact>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-        <Role>MetadataContact</Role>
-      </Contact>
-    </ResourceHeader>
-    <InstrumentType>Magnetometer</InstrumentType>
-    <InvestigationName>None Identified</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/WDC/Tixie.Bay</ObservatoryID>
-  </Instrument>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_6_0.xsd">
+   <Version>2.6.0</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/WDC/Tixie.Bay/Magnetometer</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Tixie Bay Ground Magnetic Field Instrument</ResourceName>
+         <ReleaseDate>2024-05-03T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
+               <Note>Only known prior ReleaseDate</Note>
+            </RevisionEvent>
+            <RevisionEvent>
+               <ReleaseDate>2024-05-03T12:34:56.789</ReleaseDate>
+               <Note>Update the Person Resource ID for Oleg A. Troshechev to include middle initial, add Observatory OperatingSpan StartDate, version up to SPASE 2.6.0, LEB 20240502</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The magnetic field instrument at the Tixie Bay ground station</Description>
+         <Acknowledgement>Arctic and Antarctic Research Institute, St. Petersburg</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Oleg.A.Troshichev</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+      </ResourceHeader>
+      <InstrumentType>Magnetometer</InstrumentType>
+      <InvestigationName>None Identified</InvestigationName>
+      <OperatingSpan>
+         <StartDate>1957-01-01T00:00:00.000</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/WDC/Tixie.Bay</ObservatoryID>
+   </Instrument>
 </Spase>

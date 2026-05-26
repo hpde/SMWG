@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
+   <Repository>
+      <ResourceID>spase://SMWG/Repository/UReading</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Solar Stormwatch, Department of Meteorology, University of Reading
+</ResourceName>
+         <ReleaseDate>2025-10-17T20:55:35</ReleaseDate>
+         <Description>Solar Stormwatch is a citizen science project, which identifies and tracks Coronal Mass Ejections (CMEs) in the Heliospheric Imager (HI) data recroded by the twin STEREO satellites. The links below provide access to the CME catalogue as well as the original Solar Stormwatch data used to build the CME catalogue. </Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Luke.Barnard</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+      </ResourceHeader>
+      <AccessURL>
+         <URL>https://www.met.reading.ac.uk/~spate/solarstormwatch/</URL>
+      </AccessURL>
+   </Repository>
+</Spase>

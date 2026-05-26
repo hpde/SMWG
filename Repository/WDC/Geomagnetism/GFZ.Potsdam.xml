@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Repository/WDC/Geomagnetism/GFZ.Potsdam</ResourceID>
     <ResourceHeader>
       <ResourceName>GeoForschungsZentrum (GFZ-Potsdam)</ResourceName>
-      <ReleaseDate>2012-01-20T21:27:08Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>GFZ-Potsdam assumed responsibility for creating
 and distributing Kp and related geomagnetic activity indices in 1997.
 Otherwise, GFZ has a broad spectrum of activities.</Description>
@@ -13,13 +13,13 @@ Otherwise, GFZ has a broad spectrum of activities.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Hans.Joachim.Linthe</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
-    </ResourceHeader>
+</Contact>
+</ResourceHeader>
     <AccessURL>
       <Name>GFZ Top WWW Page</Name>
-      <URL>http://www.gfz-potsdam.de/</URL>
+      <URL>https://www.gfz-potsdam.de/startseite/</URL>
       <Description>GFZ Top WWW Page</Description>
       <Language>EN</Language>
-    </AccessURL>
-  </Repository>
+</AccessURL>
+</Repository>
 </Spase>

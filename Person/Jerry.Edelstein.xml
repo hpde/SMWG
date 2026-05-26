@@ -1,0 +1,10 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  https://spase-group.org/data/schema/spase-2.3.2.xsd">
+  <Version>2.3.2</Version>
+  <Person>
+	<ResourceID>spase://SMWG/Person/Jerry.Edelstein</ResourceID>
+	<ReleaseDate>2021-02-20T00:00:00Z</ReleaseDate>
+	<PersonName>Jerry Edelstein</PersonName>
+	<OrganizationName>Space Sciences Laboratory, University of California, Berkeley, 7 Gauss Way
+Berkeley, CA 94720</OrganizationName>
+  </Person>
+</Spase>

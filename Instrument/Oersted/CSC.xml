@@ -6,28 +6,28 @@
     <ResourceHeader>
       <ResourceName>Compact Spherical Coil (CSC) Fluxgate Vector Magnetometer</ResourceName>
       <AlternateName>CSC</AlternateName>
-      <ReleaseDate>2012-11-08T12:00:00Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Compact Spherical Coil (CSC) Fluxgate Vector Magnetometer is one of four instruments onboard the Oersted spacecraft. http://iopscience.iop.org/0022-3735/15/2/015;jsessionid=DF7F419659527B03C6310FAA1EFED488.c1</Description>
       <Acknowledgement>Dr. Fritz Primdahl; The European Space Agency; Danish Meteorological Institute (Denmark); Danish Ministry of Commerce (Denmark); Danish Ministry of Transportation (Denmark); Centre National d'Etudes Spatiales (France); National Aeronautics and Space Administration (United States); Danish Ministry of Science (Denmark); Danish Space Research Institute (Denmark)</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Fritz.Primdahl</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1999-008B-01</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1999-008B-01</URL>
         <Description>Information about the Oersted Compact Spherical Coil Fluxgate Vector Magnetometer.</Description>
         <Language>en</Language>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://SMWG/Instrument/Oersted/CSC</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Compact Spherical Coil (CSC) Fluxgate Vector Magnetometer on the Oersted spacecraft</InvestigationName>
     <OperatingSpan>
-    	 <StartDate>1999-03-15T00:00:00Z</StartDate>
-    	 <StopDate>2007-11-22T23:59:59Z</StopDate>
-    	 <Note>It is not clear if this mission is still active.</Note>
-    </OperatingSpan>
+      <StartDate>1999-03-15T00:00:00Z</StartDate>
+      <StopDate>2007-11-22T23:59:59Z</StopDate>
+      <Note>It is not clear if this mission is still active.</Note>
+</OperatingSpan>
     <ObservatoryID>spase://SMWG/Observatory/Oersted</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

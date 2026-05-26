@@ -5,29 +5,29 @@
     <ResourceID>spase://SMWG/Instrument/ISEE1/VES</ResourceID>
     <ResourceHeader>
       <ResourceName>ISEE 1 Vector Electron Spectrometer (VES)</ResourceName>
-      <ReleaseDate>2011-06-30T00:00:00</ReleaseDate>
-      <Description>Two triaxial systems of 127-deg cylindrical 
-                electrostatic analyzers were used to make three-dimensional 
-                measurements of the electron distribution function. There were 
-                three modes of operation, with the following nominal energy ranges: 
-                solar wind, 7 to 500 eV; magnetosheath, 10 eV to 2 keV; 
-                and magnetotail and solar, 105 eV to 7.05 keV. The energy 
-                resolution (delta E/E) was 0.07. The entire set of six simultaneous 
-                spectrometer measurements was taken while the satellite rotated 
-                through 60 deg. Each spectrometer consisted of a curved-plate 
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>Two triaxial systems of 127-deg cylindrical
+                electrostatic analyzers were used to make three-dimensional
+                measurements of the electron distribution function. There were
+                three modes of operation, with the following nominal energy ranges:
+                solar wind, 7 to 500 eV; magnetosheath, 10 eV to 2 keV;
+                and magnetotail and solar, 105 eV to 7.05 keV. The energy
+                resolution (delta E/E) was 0.07. The entire set of six simultaneous
+                spectrometer measurements was taken while the satellite rotated
+                through 60 deg. Each spectrometer consisted of a curved-plate
                 analyzer and two channeltron detectors.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Keith.W.Ogilvie</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1977-102A-02</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1977-102A-02</URL>
         <Description>Information about the Vector Electron Spectrometer on the ISEE 1 spacecraft.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>ElectrostaticAnalyser</InstrumentType>
     <InvestigationName>Vector Electron Spectrometer (VES)</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/ISEE1</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

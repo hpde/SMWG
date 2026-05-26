@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.6.0.xsd">
+  <Version>2.6.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Mirjam.Kellinsalmi</ResourceID>
+    <ReleaseDate>2023-09-05T17:35:46Z</ReleaseDate>
+    <PersonName>Mirjam Kellinsalmi</PersonName>
+    <OrganizationName>Finnish Meteorological Institute</OrganizationName>
+    <Email>Mirjam.Kellinsalmi@fmi.fi</Email>
+    <ORCIdentifier>0000-0002-8051-4751</ORCIdentifier>
+  </Person>
+</Spase>

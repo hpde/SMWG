@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/Wind/SMS/MASS</ResourceID>
     <ResourceHeader>
       <ResourceName>High Resolution Mass Spectrometer (MASS)</ResourceName>
-      <ReleaseDate>2014-07-24T20:37:15Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The high resolution mass spectrometer (MASS) determines elemental and isotopic abundances from 0.5 to 12 keV/e.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Wind spacecraft SMS Documentation</Name>
-        <URL>http://link.springer.com/article/10.1007/BF00751327</URL>
+        <URL>https://link.springer.com/article/10.1007/BF00751327</URL>
         <Description>The Space Science Reviews paper describing the Wind SMS instrument suite.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>High Resolution Mass Spectrometer (MASS)</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Wind</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

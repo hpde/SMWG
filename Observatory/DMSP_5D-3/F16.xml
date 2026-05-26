@@ -9,64 +9,64 @@
          <AlternateName>DMSP-F16</AlternateName>
          <AlternateName>USA 171</AlternateName>
          <AlternateName>28054</AlternateName>
-         <ReleaseDate>2017-08-23T12:34:56.789</ReleaseDate>
-         <Description>DMSP F16 (USA 172) was launched by a Titan 2 rocket from Vandenberg AFB at 16:17 UT on 18 
-		 October 2003. The Defense Meteorological Satellite Program (DMSP) is a Department of Defense (DoD) 
-		 program run by the Air Force Space and Missle Systems Center (SMC). The program designs, builds, 
-		 launches, and maintains satellites monitoring the meteorological, oceanographic, and solar-terrestrial 
-		 physics environments. Each DMSP satellite has a 101 minute, sun-synchronous near-polar orbit at an 
-		 altitude of 830km above the surface of the earth. The local time nodes for DMSP F16 are 19:54 and 07:54.
-		 The visible and infrared sensors (OLS) collect images 
-		 across a 3000 km swath, providing global coverage twice per day. The combination of day/night and 
-		 dawn/dusk satellites allows monitoring of global information such as clouds every 6 hours. The 
-		 microwave imager (SSMI) and sounders (SSMT1, SSMT2) cover one half the width of the visible and 
-		 infrared swath. These instruments cover polar regions at least twice and the equatorial region once 
-		 per day. The space environment sensors (SSJ, SSM, SSIES) record along-track plasma densities, 
-		 velocities, composition and drifts (SS stands for Special Sensor).
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <Description>DMSP F16 (USA 172) was launched by a Titan 2 rocket from Vandenberg AFB at 16:17 UT on 18
+   October 2003. The Defense Meteorological Satellite Program (DMSP) is a Department of Defense (DoD)
+   program run by the Air Force Space and Missle Systems Center (SMC). The program designs, builds,
+   launches, and maintains satellites monitoring the meteorological, oceanographic, and solar-terrestrial
+   physics environments. Each DMSP satellite has a 101 minute, sun-synchronous near-polar orbit at an
+   altitude of 830km above the surface of the earth. The local time nodes for DMSP F16 are 19:54 and 07:54.
+   The visible and infrared sensors (OLS) collect images
+   across a 3000 km swath, providing global coverage twice per day. The combination of day/night and
+   dawn/dusk satellites allows monitoring of global information such as clouds every 6 hours. The
+   microwave imager (SSMI) and sounders (SSMT1, SSMT2) cover one half the width of the visible and
+   infrared swath. These instruments cover polar regions at least twice and the equatorial region once
+   per day. The space environment sensors (SSJ, SSM, SSIES) record along-track plasma densities,
+   velocities, composition and drifts (SS stands for Special Sensor).
 
 
-		 DMSP F16 carries two new experiments: the limb scanning ultraviolet imager/spectrometer SSULI built 
-		 by the Naval Research Laboratory and the nadir scanning ultaviolet imager/spectrometer and photometer 
-		 SSUSI built by the Applied Physics Laboratory at Johns Hopkins University. It also carried new versions 
-		 of the Special Sensor for Ions, Electrons and Scintillations (SSIES-13) and of the precipitating ion 
-		 and electron monitor (SSJ-5)
+   DMSP F16 carries two new experiments: the limb scanning ultraviolet imager/spectrometer SSULI built
+   by the Naval Research Laboratory and the nadir scanning ultaviolet imager/spectrometer and photometer
+   SSUSI built by the Applied Physics Laboratory at Johns Hopkins University. It also carried new versions
+   of the Special Sensor for Ions, Electrons and Scintillations (SSIES-13) and of the precipitating ion
+   and electron monitor (SSJ-5)
 
 
-		 The data from the DMSP satellites are received and used at operational centers continuously. The data 
-		 are sent to the National Geophysical Data Center&apos;s Solar Terrestrial Physics Division (NGDC/STP) by 
-		 the Air Force Weather Agency (AFWA) for creation of an archive.
-          </Description>
+   The data from the DMSP satellites are received and used at operational centers continuously. The data
+   are sent to the National Geophysical Data Center&apos;s Solar Terrestrial Physics Division (NGDC/STP) by
+   the Air Force Weather Agency (AFWA) for creation of an archive.
+</Description>
          <Acknowledgement>DMSP Data Manager, NOAA National Environmental Satellite, Data, and Information Service, NESDIS</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
             <Role>GeneralContact</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>Defense Meteorological Satellite Program, DMSP-F16 Web Site</Name>
             <URL>https://www.wmo-sat.info/oscar/satellites/view/63</URL>
             <Description>Defense Meteorological Satellite Program, DMSP-F16, Information and Details</Description>
-         </InformationURL>
-		 <InformationURL>
+</InformationURL>
+   <InformationURL>
             <Name>Defense Meteorological Satellite Program, Block 5D-3 Spacecraft Overview</Name>
             <URL>http://spaceflight101.com/spacecraft/dmsp-block-5d-3/</URL>
             <Description>Detailed information on the Defense Meteorological Satellite Program 5D-3 satellite series.</Description>
-         </InformationURL>
+</InformationURL>
          <InformationURL>
             <Name>NSSDC&apos;s Master Catalog</Name>
-            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=2003-048A</URL>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-048A</URL>
             <Description>Information about the DMSP 5D-3/F16 mission</Description>
-         </InformationURL>
-      </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
       <ObservatoryGroupID>spase://SMWG/Observatory/DMSP</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
-      </Location>
+</Location>
       <OperatingSpan>
          <StartDate>2003-10-18T00:00:00</StartDate>
-      </OperatingSpan>
-   </Observatory>
+</OperatingSpan>
+</Observatory>
 </Spase>

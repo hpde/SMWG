@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.6.0.xsd">
+  <Version>2.6.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Jani.Gustafsson</ResourceID>
+    <ReleaseDate>2023-09-05T17:35:46Z</ReleaseDate>
+    <PersonName>Jani Gustafsson</PersonName>
+    <OrganizationName>Finnish Meteorological Institute, Erik Palménin aukio 1, P.O. Box 503, 00100 Helsinki, Finland</OrganizationName>
+    <Email>Jani.Gustafsson@fmi.fi</Email>
+  </Person>
+</Spase>

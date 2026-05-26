@@ -1,37 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xmlns="http://www.spase-group.org/data/schema" 
-xsi:schemaLocation="http://www.spase-group.org/data/schema 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://www.spase-group.org/data/schema"
+xsi:schemaLocation="http://www.spase-group.org/data/schema
 http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
   <Version>2.2.2</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/MarsExpress</ResourceID>
     <ResourceHeader>
       <ResourceName>Mars Express</ResourceName>
-      <ReleaseDate>2012-06-13T00:00:00Z</ReleaseDate>
-      <Description>ESA's Mars Express mission was launched 02-June-2003 
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>ESA's Mars Express mission was launched 02-June-2003
 and arrived at Mars in December, 2003.  A lander, Beagle 2, was deployed
 on 19-Dec-2003, but communication was lost prior to any science data
 capture.  The main spacecraft went into a polar orbit on 25-Dec-2003, with
 apogee and perigee altitudes of 11,634 km and 279 km (3.4 and 0.08 Martian
-radii).  The scientific objectives of the 3-axis-stabilized Mars Express 
-Orbiter are to obtain global high-resolution photo-geology (10 m resolution), 
-mineralogical mapping (100 m resolution) and mapping of the atmospheric 
-composition, study the subsurface structure, the global atmospheric 
-circulation, and the interaction between the atmosphere and the subsurface, 
+radii).  The scientific objectives of the 3-axis-stabilized Mars Express
+Orbiter are to obtain global high-resolution photo-geology (10 m resolution),
+mineralogical mapping (100 m resolution) and mapping of the atmospheric
+composition, study the subsurface structure, the global atmospheric
+circulation, and the interaction between the atmosphere and the subsurface,
 and the atmosphere and the interplanetary medium.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Rudolf.J.Schmidt</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>ESA Mars Express web page</Name>
-        <URL>http://www.esa.int/SPECIALS/Mars_Express/index.html</URL>
-      </InformationURL>
-    </ResourceHeader>
+        <URL>http://www.esa.int/Our_Activities/Space_Science/Mars_Express/</URL>
+</InformationURL>
+</ResourceHeader>
     <Location>
       <ObservatoryRegion>Mars</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>
- 

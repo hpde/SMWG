@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Paul.R.Gazis</ResourceID>
-    <ReleaseDate>2011-05-25T18:23:06Z</ReleaseDate>
-    <PersonName>Dr. Paul R. Gazis</PersonName>
-    <OrganizationName>NASA Ames Research Center</OrganizationName>
-    <Email>pgazis@sbcglobal.net</Email>
-  </Person>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Paul.R.Gazis</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <ReleaseDate>2025-03-05T12:34:56.789Z</ReleaseDate>
+      <PersonName>Paul R. Gazis</PersonName>
+      <OrganizationName>NASA Ames Research Center</OrganizationName>
+      <Email>pgazis@sbcglobal.net</Email>
+      <RORIdentifier>02acart68</RORIdentifier>
+   </Person>
 </Spase>

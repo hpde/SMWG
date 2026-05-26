@@ -1,0 +1,43 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+ <Version>2.3.1</Version>
+ <Instrument>
+  <ResourceID>spase://SMWG/Instrument/AWESOME/LF</ResourceID>
+  <ResourceHeader>
+   <ResourceName>LF AWESOME</ResourceName>
+   <AlternateName>Low Frequency Atmospheric Weather Electromagnetic System for Observation, Modeling, and Education</AlternateName>
+   <ReleaseDate>2020-08-21T19:35:36Z</ReleaseDate>
+   <Description>The Low Frequency Atmospheric Weather Electromagnetic
+   System for Observation, Modeling, and Education, or LF AWESOME is a
+   high-sensitivity radio receiver for the frequency band 0.5-470 kHz.
+   The receiver is an upgraded version of the VLF AWESOME, completed
+   in 2004, which provided high sensitivity broadband radio
+   measurements of natural lightning emissions, transmitting beacons,
+   and radio emissions from the near-Earth space environment.  LF
+   AWESOME is a significant upgrade to the VLF AWESOME, in which the
+   frequency range has been extended to include the LF and part of the
+   medium frequency (MF) bands, the sensitivity improved by 10-25 dB
+   to be as low as 0.03 fT/ sqrt(Hz), depending on the frequency, and
+   timing error reduced to 15-20 ns range. The expanded capabilities
+   allow detection of radio atmospherics from lightning strokes at
+   global distances and multiple traverses around the world. It also
+   allows monitoring of transmitting beacons in the LF/MF band at
+   thousands of km distance. (from the abstract of the LF AWESOME
+   instrument paper)</Description> 
+   <Contact>
+    <PersonID>spase://SMWG/Person/Morris.Cohen</PersonID>
+    <Role>PrincipalInvestigator</Role>
+   </Contact>
+   <InformationURL>
+    <URL>http://waldo.world/description-of-data/</URL>
+   </InformationURL>
+   <InformationURL>
+     <Name>Broadband longwave radio remote sensing instrumentation
+     </Name>
+    <URL>https://doi.org/10.1063/1.5041419</URL>
+   </InformationURL>
+  </ResourceHeader>
+  <InstrumentType>SpectralPowerReceiver</InstrumentType>
+  <InvestigationName>AWESOME</InvestigationName>
+  <ObservatoryID>spase://SMWG/Observatory/AWESOME</ObservatoryID>
+ </Instrument>
+</Spase>

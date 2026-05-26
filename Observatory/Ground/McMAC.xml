@@ -1,28 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.0</Version>
-  <Observatory>
-    <ResourceID>spase://SMWG/Observatory/Ground/McMAC</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Mid-continent Magnetoseismic Chain (McMAC) Stations</ResourceName>
-      <ReleaseDate>2018-07-26T21:55:47Z</ReleaseDate>
-      <Description>Mid-continent Magnetoseismic Chain (McMAC) is a National Science 
-	  Foundation (NSF) project that conducts research in magnetospheric sounding using 
-	  ground magnetic field observations from nine magnetometers.</Description>
-	  <Acknowledgement>Peter Chi for use of the McMAC data and NSF for support through grant ATM-0245139.</Acknowledgement>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Peter.J.Chi</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-	  <InformationURL>
-        <Name>McMAC Homepage</Name>
-        <URL>http://spc.igpp.ucla.edu/mcmac/</URL>
-        <Description>Description of McMAC project.</Description>
-      </InformationURL>
-	  <PriorID>spase://SMWG/Observatory/McMAC</PriorID>
-    </ResourceHeader>
-    <Location>
-      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-    </Location>
-  </Observatory>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.4.0</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/McMAC</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Mid-continent Magnetoseismic Chain, McMAC, Observatory Chain</ResourceName>
+         <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+               <Note>McMAC Observatories: Delete obsolete www-spc.igpp.ucla.edu Information URL, Add Operating Span if missing. Metadata submitted by J.M. Weygand on 2022-01-28, reviewed by LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>Mid-continent Magnetoseismic Chain, McMAC, is a National Science Foundation, NSF, project that conducts research in magnetospheric sounding using ground magnetic field observations from nine magnetometers.</Description>
+         <Acknowledgement>Please acknowledge Peter Chi for use of the McMAC data and NSF for support through grant ATM-0245139.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Peter.J.Chi</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>THEMIS Ground Magnetometer, GMAG, SSL, UCB website</Name>
+            <URL>http://themis.ssl.berkeley.edu/gmag/gmag_list.php</URL>
+            <Description>McMAC station data availability at the THEMIS GMAG website hosted by the Space Sciences Laboratory, SSL, University of California, Berkeley, UCB</Description>
+         </InformationURL>
+         <PriorID>spase://SMWG/Observatory/McMAC</PriorID>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2004-08-08T00:00:00</StartDate>
+         <StopDate>2018-08-04T23:59:59</StopDate>
+         <Note>End date and time varies with each ground magnetometer station</Note>
+      </OperatingSpan>
+   </Observatory>
 </Spase>

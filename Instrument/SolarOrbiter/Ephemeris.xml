@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+   <Version>2.3.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/SolarOrbiter/Ephemeris</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Solar Orbiter Positions</ResourceName>
+         <AlternateName>Solar Orbiter Ephemeris</AlternateName>
+         <ReleaseDate>2019-11-17T12:34:56.789Z</ReleaseDate>
+         <Description>Solar Orbiter Spacecraft Ephemeris Virtual Instrument</Description>
+         <Acknowledgement>Please acknowledge the European Space Agency, ESA</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Cesar.Garcia.Marirrodriga</PersonID>
+            <Role>ProjectManager</Role>
+         </Contact>
+      </ResourceHeader>
+      <InstrumentType>Platform</InstrumentType>
+      <InvestigationName>Spacecraft Position</InvestigationName>
+      <ObservatoryID>spase://ESA/Observatory/SolarOrbiter</ObservatoryID>
+   </Instrument>
+</Spase>

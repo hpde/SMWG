@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/STEREO-A/IMPACT/HET</ResourceID>
+      <ResourceHeader>
+         <ResourceName>STEREO-A IMPACT HET</ResourceName>
+         <AlternateName>STEREO-A IMPACT High Energy Telescope</AlternateName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <Description>The High Energy Telescope, HET, is one of seven Instruments in the STEREO In-Situ Measurements of Particles and CME Transients, IMPACT, Investigation. With a Linear Array of six Solid State Detectors, it measures Protons and Helium Ions up to 100 MeV/n and Electrons up to 5 MeV. For more Information, see http://www.srl.caltech.edu/STEREO/docs/STEREO-HET-SSR.pdf.</Description>
+         <Acknowledgement>The STEREO IMPACT HET Team</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>STEREO/IMPACT Mission Site</Name>
+            <URL>http://sprg.ssl.berkeley.edu/impact/</URL>
+         </InformationURL>
+         <InformationURL>
+            <Name>NSSDC Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2006-047A-03</URL>
+            <Description>In-Situ Measurements of Particles and CME Transients, IMPACT, Experiment on the STEREO A Mission</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>ParticleDetector</InstrumentType>
+      <InvestigationName>In-Situ Measurements of Particles and CME Transients, IMPACT, High Energy Telescope on STEREO A</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/STEREO-A</ObservatoryID>
+   </Instrument>
+</Spase>

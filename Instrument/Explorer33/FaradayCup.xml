@@ -5,33 +5,33 @@
     <ResourceID>spase://SMWG/Instrument/Explorer33/FaradayCup</ResourceID>
     <ResourceHeader>
       <ResourceName>Faraday Cup</ResourceName>
-      <ReleaseDate>2010-05-19T00:00:00Z</ReleaseDate>
-      <Description>A split-collector Faraday cup mounted on the 
-spacecraft equator was used to study the directional intensity of 
-solar wind ions and electrons. The following 25-s sequence was executed 
-three times for ions and once for electrons each 328 s. Twenty-seven 
-directional current samples from the two collectors were taken in the 
-energy per charge (E/Q) window from 80 to 2850 eV. The currents in the 
-two collectors were then sampled in eight E/Q windows between 50 and 
-5400 eV at the azimuth at which peak current appeared in the previous 27 
-measurements. Due to telemetry limitations, only the following data were 
-returned to earth every 328 s: for ions, the sums of currents measured on 
-the two collector plates twice and the difference once, and for electrons, 
-the sums once. The experiment worked well from launch until the final 
-spacecraft data transmission in October, 1971. For further details, 
-see Lyon et al., J. Geophys. Res., v. 72, p. 6113, 1967. 
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>A split-collector Faraday cup mounted on the
+spacecraft equator was used to study the directional intensity of
+solar wind ions and electrons. The following 25-s sequence was executed
+three times for ions and once for electrons each 328 s. Twenty-seven
+directional current samples from the two collectors were taken in the
+energy per charge (E/Q) window from 80 to 2850 eV. The currents in the
+two collectors were then sampled in eight E/Q windows between 50 and
+5400 eV at the azimuth at which peak current appeared in the previous 27
+measurements. Due to telemetry limitations, only the following data were
+returned to earth every 328 s: for ions, the sums of currents measured on
+the two collector plates twice and the difference once, and for electrons,
+the sums once. The experiment worked well from launch until the final
+spacecraft data transmission in October, 1971. For further details,
+see Lyon et al., J. Geophys. Res., v. 72, p. 6113, 1967.
 </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Alan.J.Lazarus</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1966-058A-06</URL>
-      </InformationURL>
-    </ResourceHeader>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1966-058A-06</URL>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>FaradayCup</InstrumentType>
     <InvestigationName>PlasmaProbe</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Explorer33</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

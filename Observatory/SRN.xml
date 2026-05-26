@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/SRN</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SRN</ResourceName>
+      <AlternateName>Nançay Radioastronomy Observatory</AlternateName>
+      <AlternateName>Station de Radioastronomie de Nançay</AlternateName>
+      <AlternateName>Unité Scientifique de Nançay</AlternateName>
+      <ReleaseDate>2020-07-01T13:12:00Z</ReleaseDate>
+      <Description>The Nançay Radio Astronomy Facility is jointly operated by the Paris Observatory (Observatoire de 
+        Paris), by the National Research Council for Scientific Research (Centre national de recherche scientifique - 
+        CNRS), and by the University of Orléans. In 2009, Nançay was one of the three founding laboratories of a new 
+        research institute called the Observatoire des sciences de l’Univers de la région centre (OSUC).</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Stephane.Corbel</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Baptiste.Cecconi</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <URL>https://www.obs-nancay.fr</URL>
+        <Language>fr</Language>
+      </InformationURL>
+      <PriorID>spase://SMWG/Observatory/NANCAY</PriorID>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1956-10-21T00:00:00.000Z</StartDate>
+    </OperatingSpan>
+  </Observatory>
+</Spase>

@@ -1,31 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_2.xsd">
-  <Version>2.0.2</Version>
-  <Instrument>
-    <ResourceID>spase://SMWG/Instrument/Hinode/SOT</ResourceID>
-    <ResourceHeader>
-      <ResourceName>Solar Optical Telescope</ResourceName>
-      <ReleaseDate>2014-07-24T20:37:21Z</ReleaseDate>
-      <Description>The Solar Optical telescope on Hinode consists 
-of a main 50cm aperture telescope and a CCD-based focal plane package.  
-SOT is optimized for accurate measurement of the vector magnetic field 
-in the photosphere and the dynamics of both the photosphere and 
-chromosphere associated with the magnetic fields.  SOT obtains 
-diffraction-limited images (0.2-0.3") in the 388-668 nm range.  
-Pointing stability is maintained at &lt; 0.09" in 3 sigma.</Description>
-      <Contact>
-        <PersonID>spase://SMWG/Person/Saku.Tsuneta</PersonID>
-        <Role>PrincipalInvestigator</Role>
-      </Contact>
-      <InformationURL>
-        <Name>NAOJ Hinode site</Name>
-        <URL>http://hinode.nao.ac.jp/index_e.shtml</URL>
-        <Description>National Astronomical Observatory of Japan web site 
-for Hinode mission, instruments, etc.</Description>
-      </InformationURL>
-    </ResourceHeader>
-    <InstrumentType>Imager</InstrumentType>
-    <InvestigationName>solar Optical Telescope</InvestigationName>
-    <ObservatoryID>spase://SMWG/Observatory/Hinode</ObservatoryID>
-  </Instrument>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
+   <MetadataRightsList>
+      <Rights>
+         <SchemeURI>https://spdx.org/licenses/</SchemeURI>
+         <RightsIdentifierScheme>SPDX</RightsIdentifierScheme>
+         <RightsURI>https://spdx.org/licenses/CC0-1.0.html</RightsURI>
+         <RightsName>Creative Commons Zero v1.0 Universal</RightsName>
+         <Note>CC0 1.0 Universal is the Creative Commons license applicable to all publicly available SPASE metadata descriptions</Note>
+      </Rights>
+   </MetadataRightsList>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Hinode/SOT</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Solar Optical Telescope</ResourceName>
+         <ReleaseDate>2014-07-24T20:37:21Z</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2024-08-26T13:50:46</ReleaseDate>
+               <Note>modify fields to include up-to-date information (by MDR)</Note>
+            </RevisionEvent>
+            <RevisionEvent>
+               <ReleaseDate>2026-04-30T00:08:46</ReleaseDate>
+               <Note>Updated the Description and Contact, and InformationURL. Add MetadataRightsList</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The Solar Optical Telescope (SOT) onboard Hinode is a diffraction-limited optical telescope designed to observe the solar photosphere and chromosphere with high spatial and temporal resolution. SOT operates primarily in visible and near-ultraviolet wavelengths, providing continuous, seeing-free observations of solar fine structure at spatial scales down to approximately 0.2–0.3 arcseconds.
+
+The instrument consists of a 50-cm aperture Gregorian telescope feeding multiple focal-plane instruments, including a Broadband Filter Imager (BFI), a Narrowband Filter Imager (NFI), and a Spectro-Polarimeter (SP). These subsystems enable high-resolution imaging, Doppler measurements, and precise vector magnetic field diagnostics through spectro-polarimetric observations.
+
+SOT is optimized to investigate the structure and evolution of solar magnetic fields, including sunspots, active regions, and small-scale magnetic elements, as well as their role in driving dynamic phenomena such as flares and coronal heating. Its spectro-polarimetric capability provides measurements of the full vector magnetic field in the photosphere, enabling detailed studies of magnetic energy buildup and release.
+
+SOT observations are routinely combined with data from the X-Ray Telescope (XRT) and the EUV Imaging Spectrometer (EIS) to provide a comprehensive, multi-layer view of the solar atmosphere from the photosphere to the corona.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Yukio.Katsukawa</PersonID>
+            <Role>PrincipalInvestigator</Role>
+            <Note>The JP PI</Note>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Yoshinori.Suematsu</PersonID>
+            <Role>FormerPI</Role>
+            <Note>The former JP PI</Note>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Saku.Tsuneta</PersonID>
+            <Role>FormerPI</Role>
+            <Note>The former JP PI</Note>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Marc.L.DeRosa</PersonID>
+            <Role>PrincipalInvestigator</Role>
+            <Note>The U.S. PI for NASA</Note>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Ted.D.Tarbell</PersonID>
+            <Role>FormerPI</Role>
+            <Note>The former U.S. PI for NASA</Note>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Alan.M.Title</PersonID>
+            <Role>FormerPI</Role>
+            <Note>The former U.S. PI for NASA</Note>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Kiyoshi.Ichimoto</PersonID>
+            <Role>InstrumentScientist</Role>
+            <Note>SOT Instrument Scientist (Japan)</Note>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Toshifumi.Shimizu</PersonID>
+            <Role>InstrumentScientist</Role>
+            <Note>SOT Instrument Scientist (Japan)</Note>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Richard.A.Shine</PersonID>
+            <Role>Scientist</Role>
+            <Note>Science Schedule Coordinator</Note>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Joten.Okamoto</PersonID>
+            <Role>Scientist</Role>
+            <Note>Science Schedule Coordinator</Note>
+         </Contact>
+         <InformationURL>
+            <Name>Hinode/SOT website at NAOJ</Name>
+            <URL>https://hinode.nao.ac.jp/en/for-researchers/instruments/sot/</URL>
+            <Language>English</Language>
+         </InformationURL>
+         <InformationURL>
+            <Name>Hinode/SOT website at LMSAL</Name>
+            <URL>https://sot.lmsal.com/</URL>
+            <Language>English</Language>
+         </InformationURL>
+         <InformationURL>
+            <Name>The Solar Optical Telescope for the Hinode Mission: An Overview</Name>
+            <URL>https://doi.org/10.1007/s11207-008-9174-z</URL>
+         </InformationURL>
+         <InformationURL>
+            <Name>The Solar Optical Telescope of Solar-B (Hinode): The Optical Telescope Assembly</Name>
+            <URL>https://doi.org/10.1007/s11207-008-9129-4</URL>
+         </InformationURL>
+         <InformationURL>
+            <Name>Image Stabilization System for Hinode (Solar-B) Solar Optical Telescope</Name>
+            <URL>https://doi.org/10.1007/s11207-007-9053-z</URL>
+         </InformationURL>
+         <InformationURL>
+            <Name>Polarization Calibration of the Solar Optical Telescope onboard Hinode</Name>
+            <URL>https://doi.org/10.1007/s11207-008-9169-9</URL>
+         </InformationURL>
+         <InformationURL>
+            <Name>The Hinode Spectro-Polarimeter</Name>
+            <URL>https://doi.org/10.1007/s11207-012-0206-3</URL>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Imager</InstrumentType>
+      <InvestigationName>Solar Optical Telescope</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2006-09-22T21:36:00</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/Hinode</ObservatoryID>
+   </Instrument>
 </Spase>

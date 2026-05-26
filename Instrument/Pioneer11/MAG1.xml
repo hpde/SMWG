@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/Pioneer11/MAG1</ResourceID>
     <ResourceHeader>
       <ResourceName>Magnetic Fields</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:01Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The magnetometer on Pioneer 11 was a triaxial helium magnetometer with seven dynamic ranges, from plus or minus 2.5 nT to plus or minus 1.0E-3 T. The linearity was 0.1% and the noise threshold was 0.01 nT rms for 0-1 Hz. The accuracy was 0.5% of full scale range. The experimenter used RTN coordinates in the data analysis. In this system, R (or X) is radially outward from the sun, T (or Y) was parallel to the sun's equatorial plane and had its direction given by the cross product of the sun's spin vector into the radial direction (i.e., into R), and N (or Z) completed the right-handed orthogonal system (positive northward). A detailed instrument description may be found in Smith et al., IEEE Trans. On Magnetics, v. M-11, p. 962, July 1975. Data include the interplanetary region.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Edward.J.Smith</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1973-019A&amp;ex=1</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1973-019A&amp;ex=1</URL>
         <Description>Information about the Magnetic Fields experiment on the Pioneer 11 mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Magnetic Fields on Pioneer 11</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Pioneer11</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

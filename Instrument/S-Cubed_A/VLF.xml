@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.spase-group.org/data/schema"
+    xsi:schemaLocation="http://www.spase-group.org/data/schema
     http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Instrument>
         <ResourceID>spase://SMWG/Instrument/S-Cubed_A/VLF</ResourceID>
         <ResourceHeader>
             <ResourceName>AC Electric Field Measurement</ResourceName>
-            <ReleaseDate>2009-04-22T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>The electric dipole antenna consisted of two boom-mounted graphite coated spheres, 14 cm in diameter, with a center-to-center separation of 5.08 m. Each sphere was connected to a high-input-impedance (capacitance approximately equal to 10 pF, resistance approximately equal to 50 megohms), unity-gain preamplifier mounted on the boom about halfway between the center of the sphere and the center of the spacecraft. The axis of the antenna was perpendicular to the spacecraft spin axis. The electronics for the electric field experiment consisted of a step-frequency analyzer and a wideband receiver. The spectrum analyzer had fifteen narrowband frequency channels with center frequencies logarithmically spaced from 35 Hz to 100 kHz and one wideband frequency channel with a bandpass of about 100 Hz to 10 kHz. The four highest frequency narrowband filters of the step frequency analyzer had bandwidths of plus or minus 7.5% of their center frequencies and the remaining narrowband filters had bandwidths of plus or minus 15.0% of their center frequencies. The filter outputs were sequentially switched into an 80 dB logarithmic detector with a measurement sensitivity of 10 microvolts/m. The wideband receiver was an automatic gain control receiver with a bandwidth from 100 Hz to 10 kHz. The output of the wideband receiver modulated a special purpose telemetry transmitter. The wideband data was recorded on the ground and then processed by a spectrum analyzer to produce high-resolution frequency-time spectrograms. The wideband system was ormally operated one orbit out of three, but it could be operated continuously for special periods.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Donald.A.Gurnett</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact> 
+</Contact>
             <InformationURL>
                 <Name>NSSDC Master Catalog</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1971-096A-07</URL>
+                <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1971-096A-07</URL>
                 <Description>Information about the AC Electric Field Measurement experiment on the S-Cubed A mission</Description>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
         <InstrumentType>WaveformReceiver</InstrumentType>
         <InvestigationName>AC Electric Field Measurement on S-Cubed A</InvestigationName>
         <ObservatoryID>spase://SMWG/Observatory/S-Cubed_A</ObservatoryID>
-    </Instrument>
+</Instrument>
 </Spase>
 
 

@@ -5,32 +5,32 @@
     <ResourceID>spase://SMWG/Observatory/WDC/Hermanus</ResourceID>
     <ResourceHeader>
       <ResourceName>Hermanus</ResourceName>
-      <ReleaseDate>2011-08-06T12:34:56.789</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Hermanus (HER) Geomagnetic Observatory</Description>
       <Acknowledgement>Please acknowledge Pieter Kotze, Hermanus Magnetic Observatory, P.O. Box 32, Hermanus, South Africa 7200 for providing access to Hermanus data resources.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Pieter.Kotze</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Hermanus geomagnetic observatory English language web site</Name>
-        <URL>http://www.intermagnet.org/imos/imos_details_e.php?IAGA=HER</URL>
+        <URL>http://www.intermagnet.org/imos/imos-list/imos-details-eng.php?iaga_code=HER</URL>
         <Description>Hermanus geomagnetic observatory English language web site hosted by the Intermagnet program (International Real-time Magnetic Observatory Group).</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Hermanus geomagnetic observatory French language web site</Name>
-        <URL>http://www.intermagnet.org/imos/imos_details_f.php?IAGA=HER</URL>
+        <URL>http://www.intermagnet.org/imos/imos-list/imos-details-eng.php?iaga_code=HER</URL>
         <Description>Hermanus geomagnetic observatory French language web site hosted by the Intermagnet program (International Real-time Magnetic Observatory Group).</Description>
-      </InformationURL>
+</InformationURL>
       <Association>
         <AssociationID>spase://SMWG/Observatory/Dst.Index</AssociationID>
         <AssociationType>PartOf</AssociationType>
-      </Association>
-    </ResourceHeader>
+</Association>
+</ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
@@ -38,6 +38,6 @@
       <Latitude>-34.425</Latitude>
       <Longitude>19.225</Longitude>
       <Elevation>26.0</Elevation>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

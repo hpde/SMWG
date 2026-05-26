@@ -5,28 +5,28 @@
     <ResourceID>spase://SMWG/Instrument/Prognoz7/MAG</ResourceID>
     <ResourceHeader>
       <ResourceName>Three-Axis Fluxgate Magnetometers</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:13Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Two three-axis fluxgate magnetometers were used to measure vector magnetic fields from 1 to 1,200 nT with an intensity resolution of 0.5 nT. Both interplanetary and geomagnetic tail fields could be measured.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Sh.S.Dolginov</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Valery.G.Petrov</PersonID>
         <Role>DataProducer</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1978-101A-04</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1978-101A-04</URL>
         <Description>Information about the Three-Axis Fluxgate Magnetometers experiment on the Prognoz 7 mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Three-Axis Fluxgate Magnetometers on Prognoz 7</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Prognoz7</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

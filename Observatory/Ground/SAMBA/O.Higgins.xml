@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/SAMBA/O.Higgins</ResourceID>
+    <ResourceHeader>
+      <ResourceName>O'Higgins</ResourceName>
+      <ReleaseDate>2021-06-02T15:05:51Z</ReleaseDate>
+      <Description>O'Higgins (OHI) Geomagnetic Observatory</Description>
+      <Acknowledgement>Please acknowledge Eftyhia Zesta, Air Force Research Lab, Hanscom AFB, for providing access to SAMBA data resources.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Eftyhia.Zesta</PersonID>
+        <Role>PrincipalInvestigator</Role>
+</Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Mark.Moldwin</PersonID>
+        <Role>CoInvestigator</Role>
+</Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Athanasios.Boudouridis</PersonID>
+        <Role>CoInvestigator</Role>
+</Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Kathryn.Rowe</PersonID>
+        <Role>TechnicalContact</Role>
+</Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Nathan.Sterner</PersonID>
+        <Role>TechnicalContact</Role>
+</Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Marina.Stepanova</PersonID>
+        <Role>TeamMember</Role>
+</Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Ricardo.Monreal.Mac-Mahon</PersonID>
+        <Role>TeamMember</Role>
+</Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Enrique.Cordaro.Cardenas</PersonID>
+        <Role>TeamMember</Role>
+</Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Vernonica.Vallejos.Marchant</PersonID>
+        <Role>TeamMember</Role>
+</Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/O.Higgins.Observatory.Contact</PersonID>
+        <Role>TechnicalContact</Role>
+</Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+</Contact>
+      <InformationURL>
+        <Name>O'Higgins geomagnetic observatory web site</Name>
+        <URL>http://magnetometers.bc.edu/data/dat/samba/ohiggins/</URL>
+        <Description>O'Higgins geomagnetic observatory web site</Description>
+</InformationURL>
+      <Association>
+        <AssociationID>spase://SMWG/Observatory/Ground/SAMBA</AssociationID>
+        <AssociationType>PartOf</AssociationType>
+</Association>
+</ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/SAMBA</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>-63.320</Latitude>
+      <Longitude>-57.900</Longitude>
+</Location>
+    <OperatingSpan>
+      <StartDate>2004-01-01T00:00:00</StartDate>
+      <Note>Some stations in the SAMBA array have been active since April 2002.</Note>
+    </OperatingSpan>
+</Observatory>
+</Spase>

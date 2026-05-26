@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema https://spase-group.org/data/schema/spase-2.3.2.xsd">
+ <Version>2.3.2</Version>
+ <Observatory>
+  <ResourceID>spase://SMWG/Observatory/E-CALLISTO</ResourceID>
+  <ResourceHeader>
+   <ResourceName>e-CALLISTO International Network of Solar Radio Spectrometers</ResourceName>
+   <ReleaseDate>2021-02-12T11:04:09</ReleaseDate>
+   <Description>The CALLISTO spectrometer is a programmable heterodyne receiver designed 2006 in the framework of IHY2007 and ISWI by Christian Monstein (PI) as member of the former Radio Astronomy Group (RAG) at ETH Zurich, Switzerland. CALLISTO stands for &#039;Compound Astronomical Low frequency Low cost Instrument for Spectroscopy and Transportable Observatory&#039;. The main applications are observation of solar radio bursts for astronomical science, education, outreach and citizen science as well as rfi-monitoring. 
+
+CALLISTO instruments have been deployed worldwide through the IHY/UNBSSI and ISWI instrument deployment program. CALLISTO is able to continuously observe the solar radio spectrum for 24h per day. All CALLISTO spectrometers together form the e-Callisto network. CALLISTO in addition is dedicated to performing radio-monitoring. Data from individual instruments are automatically uploaded by FTP to the central server at FHNW. Instrument deployment including education and training of observers was financially supported by SNF, SSAA, NASA, Institute for Astronomy and ETH Global, formerly known as North-South Center of ETH Zurich and a few private sponsors. </Description>
+   <Contact>
+    <PersonID>spase://SMWG/Person/Christian.Monstein</PersonID>
+    <Role>PrincipalInvestigator</Role>
+   </Contact>
+  </ResourceHeader>
+  <Location>
+   <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+  </Location>
+  <OperatingSpan>
+   <StartDate>2006-01-01T00:00:00</StartDate>
+  </OperatingSpan>
+ </Observatory>
+</Spase>

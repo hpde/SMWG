@@ -6,29 +6,29 @@
     <ResourceHeader>
       <ResourceName>Anisotropy Telescopes</ResourceName>
       <AlternateName>COSPIN/AT</AlternateName>
-      <ReleaseDate>2009-09-18T21:10:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Anisotropy Telescopes (ATs) ~0.7-7 MeV/n P and He with telescopes oriented in two directions with respect to
-the spin axis to provide 3-dimensional anisotropy information.  
+the spin axis to provide 3-dimensional anisotropy information. 
 
 ATs are one of five instruments that make up the COSPIN suite on the Ulysses spacecraft.  ATs were built by Imperial College, London, UK, which also performed primary data analysis for the AT.  Since 2007 primary data analysis for the AT has been performed at the University of Central Lancashire, Preston, UK.
 
-      </Description>
+</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/R.Bruce.McKibben</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Silvia.Dalla</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Imperial College COSPIN/AT Web Site</Name>
-        <URL>http://www3.imperial.ac.uk/spat/research/missions/space_missions/ulysses/anisotropy_telescope/instrument_description</URL>
+        <URL>http://www.imperial.ac.uk/space-and-atmospheric-physics</URL>
         <Description>Information about the Anisotropy Telescopes on the Ulysses mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Anisotropy Telescopes</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Ulysses</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

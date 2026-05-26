@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Cecil.Tranquille</ResourceID>
-    <PersonName>Dr. Cecil Tranquille</PersonName>
-    <OrganizationName>Research and Scientific Support Department, ESTEC, Noordwijk, The Netherlands</OrganizationName>
-    <Email>Cecil.Tranquille@esa.int</Email>
-    <PhoneNumber>31-71-565-3587</PhoneNumber>
-  </Person>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Cecil.Tranquille</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <PersonName>Cecil Tranquille</PersonName>
+      <OrganizationName>Research and Scientific Support Department, ESTEC, Noordwijk, The Netherlands</OrganizationName>
+      <Email>Cecil.Tranquille@esa.int</Email>
+      <PhoneNumber>31-71-565-3587</PhoneNumber>
+      <RORIdentifier>03h3jqn23</RORIdentifier>
+   </Person>
 </Spase>

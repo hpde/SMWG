@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Alain.Ratier</ResourceID>
-    <PersonName>Dr. Alain Ratier</PersonName>
-    <OrganizationName>EUMETSAT</OrganizationName>
-  </Person>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.6.0.xsd">
+   <Version>2.6.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Alain.Ratier</ResourceID>
+      <PersonName>Dr. Alain Ratier ......</PersonName>
+      <OrganizationName>EUMETSAT</OrganizationName>
+   </Person>
 </Spase>

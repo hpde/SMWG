@@ -6,22 +6,22 @@
     <ResourceHeader>
       <ResourceName>Low-Energy Neutral Atom Imager (LENA)</ResourceName>
       <AlternateName>LENA</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:02Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Low-Energy Neutral Atom (LENA) imager on IMAGE is one of three instruments designed to make observations of the Earth's magnetospheric environment using neutral atom imaging. The objectives of LENA are to: (1) measure neutrals without interference from electrons, ions, or UV; (2) distinguish neutral protons from oxygen; (3) determine ion outflow on five minute time scales over broad range of local times; and, (4) measure energies as low as 10 eV with high counting statistics.
 The LENA instrument consists of a collimator, conversion unit, extraction lens, dispersive energy analyzer and time-of-flight mass analyzer with position-sensitive particle detection.
 Neutral particles enter the instrument through a collimator which filters charged particles. LENA converts neutrals to negative ions through a near specular glancing reflection from a tungsten surface. Negative ions from the surface are then collected by an extraction lens which focuses all negative ions with the same energy to a fixed location. In the extraction lens, the ions are accelerated by 20 kV prior to entering the electrostatic analyzer. Finally, the ions pass into a time-of-flight/position sensing section where ion mass, energy, and angle are determined.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Thomas.E.Moore</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2000-017A&amp;ex=2</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-017A&amp;ex=2</URL>
         <Description>Information about the Low-Energy Neutral Atom Imager (LENA) experiment on the IMAGE mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>Low-Energy Neutral Atom Imager (LENA) on IMAGE</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/IMAGE</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_4.xsd">
-    <Version>2.2.4</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/STPSat1/</ResourceID>
-        <ResourceHeader>
-            <ResourceName>STPSat-1</ResourceName>
-            <ReleaseDate>2015-08-06T00:00:00Z</ReleaseDate>
-            <Description>STPSat-1, a Department of Defense (DoD) Space Test Program (STP) mission, was launched by an Atlas 5 rocket from Cape Canaveral on 9 March 2007. The satellite's two payloads, both designed and built by the Naval Research Laboratory (NRL), provided unique measurements of middle atmospheric hydroxyl, polar mesospheric clouds and the low latitude ionosphere. The primary experiment, Spatial Heterodyne Imager for Mesospheric Radicals (SHIMMER), is a high-resolution ultraviolet spectrometer based on the new optical technique known as Spatial Heterodyne Spectroscopy (SHS). SHS facilitates the design of low mass, low power, high throughput spectrometers for space-based remote sensing. The secondary experiment, the Computerized Ionospheric Tomography Receiver in Space (CITRIS), will investigate irregularities that affect propagation of satellite-to-ground links for GPS and communications. </Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Patricia.Davis</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact> 
-         </ResourceHeader>
-         <Location>
-            <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>   
-        </Location>
-    </Observatory>
+   <Version>2.2.4</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/STPSat1</ResourceID>
+      <ResourceHeader>
+         <ResourceName>STPSat-1</ResourceName>
+         <ReleaseDate>2019-04-19T12:34:56.789Z</ReleaseDate>
+         <Description>STPSat-1, a Department of Defense (DoD) Space Test Program (STP) mission, was launched by an Atlas 5 rocket from Cape Canaveral on 9 March 2007. The satellite's two payloads, both designed and built by the Naval Research Laboratory (NRL), provided unique measurements of middle atmospheric hydroxyl, polar mesospheric clouds and the low latitude ionosphere. The primary experiment, Spatial Heterodyne Imager for Mesospheric Radicals (SHIMMER), is a high-resolution ultraviolet spectrometer based on the new optical technique known as Spatial Heterodyne Spectroscopy (SHS). SHS facilitates the design of low mass, low power, high throughput spectrometers for space-based remote sensing. The secondary experiment, the Computerized Ionospheric Tomography Receiver in Space (CITRIS), will investigate irregularities that affect propagation of satellite-to-ground links for GPS and communications.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Patricia.Davis</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <PriorID>spase://SMWG/Observatory/STPSat1/</PriorID>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+      </Location>
+   </Observatory>
 </Spase>
-
-

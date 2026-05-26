@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/Ground/SAMBA/La.Serena/Magnetometer</ResourceID>
+    <ResourceHeader>
+      <ResourceName>The La Serena Fluxgate Magnetometer Instrument.</ResourceName>
+      <ReleaseDate>2020-05-20T16:19:21Z</ReleaseDate>
+      <Description>The Fluxgate Magnetometer instrument at the La Serena geomagnetic observatory.</Description>
+      <Acknowledgement>Please acknowledge Eftyhia Zesta, Department of Atmospheric Sciences (7127 Math Sciences Building, University of California, Los Angeles, Box 951565, CA, 90095-1565 USA) for use of data from the La Serena Magnetometer instrument.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Eftyhia.Zesta</PersonID>
+        <Role>PrincipalInvestigator</Role>
+</Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Mark.Moldwin</PersonID>
+        <Role>CoInvestigator</Role>
+</Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Athanasios.Boudouridis</PersonID>
+        <Role>CoInvestigator</Role>
+</Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Kathryn.Rowe</PersonID>
+        <Role>TechnicalContact</Role>
+</Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Nathan.Sterner</PersonID>
+        <Role>TechnicalContact</Role>
+</Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Marina.Stepanova</PersonID>
+        <Role>TeamMember</Role>
+</Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Ricardo.Monreal.Mac-Mahon</PersonID>
+        <Role>TeamMember</Role>
+</Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Enrique.Cordaro.Cardenas</PersonID>
+        <Role>TeamMember</Role>
+</Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Vernonica.Vallejos.Marchant</PersonID>
+        <Role>TeamMember</Role>
+</Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Pedro.Vega</PersonID>
+        <Role>TechnicalContact</Role>
+</Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+</Contact>
+      <InformationURL>
+        <Name>The La Serena geomagnetic observatory web site.</Name>
+        <URL>http://magnetometers.bc.edu/data/dat/samba/laserena/</URL>
+        <Description>The La Serena geomagnetic observatory web site.</Description>
+</InformationURL>
+      <Association>
+        <AssociationID>spase://SMWG/Observatory/Ground/SAMBA/La.Serena</AssociationID>
+        <AssociationType>PartOf</AssociationType>
+</Association>
+<PriorID>spase://SMWG/Instrument/SAMBA/La.Serena/Magnetometer</PriorID>
+</ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InvestigationName>The SAMBA Magnetometer Array</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/Ground/SAMBA/La.Serena</ObservatoryID>
+</Instrument>
+</Spase>

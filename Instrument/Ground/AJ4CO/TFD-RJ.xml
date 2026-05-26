@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.4.0</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Ground/AJ4CO/TFD-RJ</ResourceID>
+      <ResourceHeader>
+         <ResourceName>AJ4CO Terminated Folded Dipole and Dual-Radio JOVE receiver system</ResourceName>
+         <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+               <Note>RadioJOVE: Update obsolete radiojove.gsfc.nasa.gov and www.typnet.net URLs, Resource Header Description reformated. Metadata submitted by J.M. Weygand on 2022-02-11, reviewed by LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>Terminated Folded Dipole and Dual-Radio JOVE receiver system at the AJ4CO Radio Astronomy Observatory in High Springs, Florida.
+
+The TFD array consists of two 4-element (32 foot) square array. Each antenna element is 32 feet long. TFD array is aligned to true north. The Dual-Radio JOVE receiver system operates with two separate Radio JOVE receivers at 20.1 MHz providing uncorrelated RCP and LCP.
+
+See the Information URL for a link to a document providing additional descriptions of the instrument characteristics.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/David.Typinski</PersonID>
+            <Role>TechnicalContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>RadioJOVE Spectrograph Users Group</Name>
+            <URL>http://radiojove.org/SUG/</URL>
+            <Description>This site provide station diagrams and other reports for the receiver systems at several radio observatories associated with the RadioJOVE project.</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>AJ4CO Radio Astronomy Publications</Name>
+            <URL>https://www.aj4co.org/Publications/Publications.html</URL>
+            <Description>This site provides descriptions of radio receiver systems at AJ4CO as well as other radio astronomy-related documentation</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>AJ4CO Miscellaneous Data</Name>
+            <URL>https://pds-ppi.igpp.ucla.edu/radiojove/radiojove-aj4co/radiojove-aj4co-misc-data/</URL>
+            <Description>This site provides descriptions of radio receiver systems at AJ4CO, observation logs and other documentation</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Riometer</InstrumentType>
+      <InvestigationName>Terminated Folded Dipole and Dual-Radio JOVE receivers at AJ4CO</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/RadioJOVE/AJ4CO</ObservatoryID>
+   </Instrument>
+</Spase>

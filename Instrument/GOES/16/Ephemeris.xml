@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/GOES/16/Ephemeris</ResourceID>
+      <ResourceHeader>
+         <ResourceName>GOES 16 Positions</ResourceName>
+         <AlternateName>GOES 16 Ephemeris</AlternateName>
+         <AlternateName>GOES R Ephemeris</AlternateName>
+         <ReleaseDate>2019-06-29T12:34:56.789Z</ReleaseDate>
+         <Description>GOES 16 Spacecraft Ephemeris</Description>
+         <Acknowledgement>Please acknowledge the National Oceanic and Atmospheric Administration</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+      </ResourceHeader>
+      <InstrumentType>Platform</InstrumentType>
+      <InvestigationName>Spacecraft Position</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/GOES/16</ObservatoryID>
+   </Instrument>
+</Spase>

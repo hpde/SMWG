@@ -6,36 +6,42 @@
       <ResourceHeader>
          <ResourceName>Roemoe</ResourceName>
          <AlternateName>Observatory Station Code: ROE</AlternateName>
-         <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>The Roemoe geophysical observatory.</Description>
          <Acknowledgement>Tromso Geophysical Observatory, University of Tromso, Norway</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Claudia.Stolle</PersonID>
             <Role>PrincipalInvestigator</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Juergen.Matzka</PersonID>
             <Role>PrincipalInvestigator</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
+   <InformationURL>
+     <Name>Tromsø Geophysical Observatory</Name>
+     <URL>http://flux.phys.uit.no/geomag.html</URL>
+     <Description>Requestion form for magnetometer data, plots, indices, maps, etc.</Description>
+</InformationURL>
          <InformationURL>
             <Name>Roemoe Vector Magnetic Field Data</Name>
-            <URL>http://www.space.dtu.dk/English/Research/Scientific_data_and_models/Magnetic_Ground_Stations.aspx</URL>
+            <URL>https://www.space.dtu.dk/English/Research/Scientific_data_and_models/Magnetic_Ground_Stations.aspx</URL>
             <Description>Main menu for access to magnetic field data</Description>
-         </InformationURL>
-      </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/TGO</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>55.172</Latitude>
          <Longitude>8.55</Longitude>
          <Elevation>1.0</Elevation>
-      </Location>
+</Location>
       <OperatingSpan>
          <StartDate>2009-01-29T00:00:00.000</StartDate>
-      </OperatingSpan>
-   </Observatory>
+</OperatingSpan>
+</Observatory>
 </Spase>

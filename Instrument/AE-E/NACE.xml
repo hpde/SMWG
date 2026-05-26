@@ -6,41 +6,41 @@
     <ResourceHeader>
       <ResourceName>Neutral Atmosphere Composition (NACE)</ResourceName>
       <AlternateName>NACE</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
-      <Description>This experiment measured in situ the spatial distribution and temporal changes of the 
-	  concentrations of the neutral atmospheric species. In addition, new insight into in situ measurement 
-	  techniques was obtained from comparisons of these measurements with those obtained from other onboard 
-	  experiments; namely, open source spectrometer (75-107A-07), solar EUV spectrometer (75-107A-06), and 
-	  atmospheric density accelerometer (75-107A-02). The mass-spectrometer sensor had a gold-plated stainless 
-	  steel thermalizing chamber and ion source, a hyperbolic rod quadrupole analyzer, and an off-axis 
-	  electron multiplier. When operating in the "normal" format, the analyzer measured all masses in the 
-	  range 1 to 44 atomic mass units with emphasis on hydrogen, helium, oxygen, nitrogen, and argon. 
-	  Another format was optimized for minor constituent studies of gas species in the measured range. 
-	  Spatial resolution was determined primarily by the mode of spacecraft operation. In orbit, the presealed 
-	  spectrometer was opened, and the atmospheric constituents passed through a knife-edged orifice into the 
-	  thermalization chamber and ion source. Selected ions left the quadrupole analyzer through a weak 
-	  focusing lens and were accelerated into an electron multiplier, where they were turned 90 deg to 
-	  strike the first dynode. The spectrometer had a resolution of better than 1 u for all masses between 
-	  1 and 44, and the measurement system had a planned dynamic range of approximately 1.E8. There was 
-	  provision for the instrument orifice to be covered during spacecraft thruster operations. More 
-	  experiment details can be found in D. T. Pelz et al., Radio Sci., v. 8, n. 4, p. 277, 1973.</Description>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>This experiment measured in situ the spatial distribution and temporal changes of the
+   concentrations of the neutral atmospheric species. In addition, new insight into in situ measurement
+   techniques was obtained from comparisons of these measurements with those obtained from other onboard
+   experiments; namely, open source spectrometer (75-107A-07), solar EUV spectrometer (75-107A-06), and
+   atmospheric density accelerometer (75-107A-02). The mass-spectrometer sensor had a gold-plated stainless
+   steel thermalizing chamber and ion source, a hyperbolic rod quadrupole analyzer, and an off-axis
+   electron multiplier. When operating in the "normal" format, the analyzer measured all masses in the
+   range 1 to 44 atomic mass units with emphasis on hydrogen, helium, oxygen, nitrogen, and argon.
+   Another format was optimized for minor constituent studies of gas species in the measured range.
+   Spatial resolution was determined primarily by the mode of spacecraft operation. In orbit, the presealed
+   spectrometer was opened, and the atmospheric constituents passed through a knife-edged orifice into the
+   thermalization chamber and ion source. Selected ions left the quadrupole analyzer through a weak
+   focusing lens and were accelerated into an electron multiplier, where they were turned 90 deg to
+   strike the first dynode. The spectrometer had a resolution of better than 1 u for all masses between
+   1 and 44, and the measurement system had a planned dynamic range of approximately 1.E8. There was
+   provision for the instrument orifice to be covered during spacecraft thruster operations. More
+   experiment details can be found in D. T. Pelz et al., Radio Sci., v. 8, n. 4, p. 277, 1973.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Alan.E.Hedin</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1975-107A-08</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1975-107A-08</URL>
         <Description>Information about the Neutral Atmosphere Composition (NACE) experiment on the AE-E mission.</Description>
-      </InformationURL>
-	  <InformationURL>
+</InformationURL>
+   <InformationURL>
         <Name>Radio Science Journal Article</Name>
-        <URL>https://doi.org/10.1029/RS008i004p00277</URL>
+        <URL>https://onlinelibrary.wiley.com/doi/abs/10.1029/RS008i004p00277</URL>
         <Description>Detailed information about the neutral-atmosphere composition experiment on the AE-E mission.</Description>
-	  </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>MassSpectrometer</InstrumentType>
     <InvestigationName>Neutral Atmosphere Composition (NACE) on AE-E</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/AE-E</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

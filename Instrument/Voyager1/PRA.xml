@@ -6,215 +6,215 @@
     <ResourceHeader>
       <ResourceName>Voyager 1 Planetary Radio Astronomy (PRA) experiment</ResourceName>
       <AlternateName>Voyager 1 PRA</AlternateName>
-      <ReleaseDate>2012-01-15T12:00:02Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>
-	The Planetary Radio Astronomy (PRA) experiments' primary                
-      objective is to locate and explain kilometric, hectometric, and         
-      decametric radio emissions from the planets, to measure plasma          
-      resonances near the giant planets, and to detect lightning on           
-      the giant planets. They have also been successful at observing          
-      solar radio emissions from the perspective of the outer solar           
-      system.                                                                 
-                                                                              
-      The Voyager Planetary Radio Astronomy experiment is designed to         
-      investigate naturally-occurring radio emissions from the outer          
-      planets and Sun. Radio emissions from Jupiter have been known           
-      from Earth-based measurements since 1955 (Burke, B. F., and K. L. Franklin, 
-      Observations of a variable radio source associated with planet 
-      Jupiter, J. Geophys. Res., 60, 213–217, 1955.); PRA represents the            
-      first attempt to survey those emissions, and to perform near-           
-      encounter searches for radio emissions from the other gas               
-      planets.                                                                
-                                                                              
-      Radio emissions can be used to determine the rate of rotation           
-      of the inner core of a planet; to determine the existence of a          
-      magnetic field and search for magnetic anomalies. Radio                 
-      emissions are often the only remote diagnostic for interactions         
-      occurring in the portions of magnetospheres through which a             
-      spacecraft does not pass. This is particularly true for the             
-      inner magnetosphere, which usually goes unsampled.                      
-                                                                              
-      PRA is also sensitive to impacts on the spacecraft by micron-           
-      sized dust particles. Particularly in its high data rate modes,         
-      the information obtained therefrom produces insights into the           
-      processes which occur under such situations.                            
+ The Planetary Radio Astronomy (PRA) experiments' primary               
+      objective is to locate and explain kilometric, hectometric, and        
+      decametric radio emissions from the planets, to measure plasma         
+      resonances near the giant planets, and to detect lightning on          
+      the giant planets. They have also been successful at observing         
+      solar radio emissions from the perspective of the outer solar          
+      system.                                                                
+                                                                             
+      The Voyager Planetary Radio Astronomy experiment is designed to        
+      investigate naturally-occurring radio emissions from the outer         
+      planets and Sun. Radio emissions from Jupiter have been known          
+      from Earth-based measurements since 1955 (Burke, B. F., and K. L. Franklin,
+      Observations of a variable radio source associated with planet
+      Jupiter, J. Geophys. Res., 60, 213–217, 1955.); PRA represents the           
+      first attempt to survey those emissions, and to perform near-          
+      encounter searches for radio emissions from the other gas              
+      planets.                                                               
+                                                                             
+      Radio emissions can be used to determine the rate of rotation          
+      of the inner core of a planet; to determine the existence of a         
+      magnetic field and search for magnetic anomalies. Radio                
+      emissions are often the only remote diagnostic for interactions        
+      occurring in the portions of magnetospheres through which a            
+      spacecraft does not pass. This is particularly true for the            
+      inner magnetosphere, which usually goes unsampled.                     
+                                                                             
+      PRA is also sensitive to impacts on the spacecraft by micron-          
+      sized dust particles. Particularly in its high data rate modes,        
+      the information obtained therefrom produces insights into the          
+      processes which occur under such situations.                           
 
-      Instrument Description                                                  
-      ======================                                                  
-      There were two receivers on each spacecraft, for the 
-      lower and higher frequency ranges, respectively. The low-band 
-      receiver had 70 channels of 1.0 kHz bandwidth each, with center 
-      frequencies spaced at 19.2 kHz intervals from 1.2 kHz to 1326kHz. 
-      The high-band receiver consisted of 128 channels of 200 kHz 
-      bandwidth each, with center frequencies spaced at 307.2 kHz 
-      intervals from 1.2 MHz to 40.4 MHz. The high-band receiver was 
-      designed especially for the observation of Jovian decametric radio 
-      emissions. 
-                                                                              
-      The PRA receivers were driven by two orthogonal antennas mounted           
-      on the spacecraft body. Each antenna element is made of BeCu            
-      hollow tubes 0.5 inches in diameter and is 10 meters in                 
-      length.  By combining the signals from the two antennas in a            
-      90 degree hybrid, the PRA instrument can distinguish between            
-      the opposing states, left hand and right hand, of circular              
-      polarization of an incoming wave.                                       
-                                                                              
-      The Planetary Radio Astronomy (PRA) receivers were calibrated           
-      under environmentally-controlled conditions and over the                
-      entire frequency and dynamic range of the instruments. This             
-      calibration consisted in application of a known narrow-band             
-      signal across the inputs and recording the receiver outputs.            
-                                                                              
-      The laboratory calibrations provided  power levels for each             
-      data number (DN) and each frequency in terms of known inputs            
-      across the antenna terminals of each of the experiment's two            
-      monopoles. Calibrations were carried out over a range of                
-      receiver temperatures, but in practice the stability of the             
-      receiver as a function of temperature and the stability of the          
-      temperature of the receiver as a function of mission phase and          
-      the status of the overall spacecraft were such that a single            
-      calibration for each DN at each frequency could be used.                
-                                                                              
-      Receiver output levels were quantized. The minimum value for            
-      the wave flux density was frequency dependent varying from              
-      5.E-20 W M**-2 Hz**-1 at frequencies below 1.5 MHz to 5.E-19            
-      at frequencies above 1.5 MHz. The maximum wave flux density             
-      was typically 50 dB above the minimum value. The instrument             
-      noise level also was frequency dependent. It was about 1.E-19           
-      W M**-2 Hz**-1 below 1.5 MHz. The noise at 10 MHz was still             
-      about 1E-19 W M**-2 Hz**-1, increased to about 1.E-17 W M**-2           
-      Hz**-1 at 25 MHz, and then decreased to an intermediate value           
-      at 40 MHz.                                                              
-                                                                              
-      The low-band and high-band operation of the receiver differ.            
-      In low-band the receiver operated with a sharply tuned filter           
-      only 1 kHz broad at the 3 dB points and in high-band, with a            
-      200 kHz filter. The gain of the receivers was designed in such          
-      a way that the output increased discontinuously by 23 dB                
-      (corresponding to the 200:1 bandwidth ratio) between the                
-      lowest frequency of high-band and the highest frequency of              
-      low-band.  This caused the instrument output to remain                  
-      constant across the high-band to low-band transition point if           
-      its input was broadband noise.                                          
-                                                                              
-      If unpolarized radiation fell orthogonally on each monopole,            
-      the total unpolarized flux density for signals below about 5            
-      MHz could be roughly estimated to be                                    
-                                                                              
-            S = So (10**(m/1000)),                                            
-                                                                              
-      where m was the channel reading in millibels and So is                  
-                                                                              
-            So = 1.5E-21 (W/Hz m**2).                                         
-                                                                              
-      No reliable method for estimating the flux density exists for           
-      frequencies above 5 MHz due to the increasing effect of                 
-      antenna resonances.                                                     
-                                                                              
-      Although the PRA instrument had 14 possible operating modes,            
-      in practice the mode called POLLO was used more than 95% of             
-      the time.  In POLLO, the receiver swept through all 198                 
-      channels in sequence from the highest frequency to the lowest.          
-      At each frequency step, data were produced every 30 msec,               
-      consisting of 25 msec of integration and 5 msec of switching            
-      and settling time. Thus, a full sweep through all 200 channels          
-      took 6 sec (including 60 msec for two status words).  Between           
-      steps the 90 degree hybrid was switched such that the receiver          
-      was sensitive to the alternate sense of circular polarization.          
-      This toggling between left hand and right hand polarization             
-      itself alternated with each 6 sec receiver sweep. Thus, for a           
-      given frequency, a pair of left hand and right hand                     
-      measurements were 6 sec apart.             
+      Instrument Description                                                 
+      ======================                                                 
+      There were two receivers on each spacecraft, for the
+      lower and higher frequency ranges, respectively. The low-band
+      receiver had 70 channels of 1.0 kHz bandwidth each, with center
+      frequencies spaced at 19.2 kHz intervals from 1.2 kHz to 1326kHz.
+      The high-band receiver consisted of 128 channels of 200 kHz
+      bandwidth each, with center frequencies spaced at 307.2 kHz
+      intervals from 1.2 MHz to 40.4 MHz. The high-band receiver was
+      designed especially for the observation of Jovian decametric radio
+      emissions.
+                                                                             
+      The PRA receivers were driven by two orthogonal antennas mounted          
+      on the spacecraft body. Each antenna element is made of BeCu           
+      hollow tubes 0.5 inches in diameter and is 10 meters in                
+      length.  By combining the signals from the two antennas in a           
+      90 degree hybrid, the PRA instrument can distinguish between           
+      the opposing states, left hand and right hand, of circular             
+      polarization of an incoming wave.                                      
+                                                                             
+      The Planetary Radio Astronomy (PRA) receivers were calibrated          
+      under environmentally-controlled conditions and over the               
+      entire frequency and dynamic range of the instruments. This            
+      calibration consisted in application of a known narrow-band            
+      signal across the inputs and recording the receiver outputs.           
+                                                                             
+      The laboratory calibrations provided  power levels for each            
+      data number (DN) and each frequency in terms of known inputs           
+      across the antenna terminals of each of the experiment's two           
+      monopoles. Calibrations were carried out over a range of               
+      receiver temperatures, but in practice the stability of the            
+      receiver as a function of temperature and the stability of the         
+      temperature of the receiver as a function of mission phase and         
+      the status of the overall spacecraft were such that a single           
+      calibration for each DN at each frequency could be used.               
+                                                                             
+      Receiver output levels were quantized. The minimum value for           
+      the wave flux density was frequency dependent varying from             
+      5.E-20 W M**-2 Hz**-1 at frequencies below 1.5 MHz to 5.E-19           
+      at frequencies above 1.5 MHz. The maximum wave flux density            
+      was typically 50 dB above the minimum value. The instrument            
+      noise level also was frequency dependent. It was about 1.E-19          
+      W M**-2 Hz**-1 below 1.5 MHz. The noise at 10 MHz was still            
+      about 1E-19 W M**-2 Hz**-1, increased to about 1.E-17 W M**-2          
+      Hz**-1 at 25 MHz, and then decreased to an intermediate value          
+      at 40 MHz.                                                             
+                                                                             
+      The low-band and high-band operation of the receiver differ.           
+      In low-band the receiver operated with a sharply tuned filter          
+      only 1 kHz broad at the 3 dB points and in high-band, with a           
+      200 kHz filter. The gain of the receivers was designed in such         
+      a way that the output increased discontinuously by 23 dB               
+      (corresponding to the 200:1 bandwidth ratio) between the               
+      lowest frequency of high-band and the highest frequency of             
+      low-band.  This caused the instrument output to remain                 
+      constant across the high-band to low-band transition point if          
+      its input was broadband noise.                                         
+                                                                             
+      If unpolarized radiation fell orthogonally on each monopole,           
+      the total unpolarized flux density for signals below about 5           
+      MHz could be roughly estimated to be                                   
+                                                                             
+            S = So (10**(m/1000)),                                           
+                                                                             
+      where m was the channel reading in millibels and So is                 
+                                                                             
+            So = 1.5E-21 (W/Hz m**2).                                        
+                                                                             
+      No reliable method for estimating the flux density exists for          
+      frequencies above 5 MHz due to the increasing effect of                
+      antenna resonances.                                                    
+                                                                             
+      Although the PRA instrument had 14 possible operating modes,           
+      in practice the mode called POLLO was used more than 95% of            
+      the time.  In POLLO, the receiver swept through all 198                
+      channels in sequence from the highest frequency to the lowest.         
+      At each frequency step, data were produced every 30 msec,              
+      consisting of 25 msec of integration and 5 msec of switching           
+      and settling time. Thus, a full sweep through all 200 channels         
+      took 6 sec (including 60 msec for two status words).  Between          
+      steps the 90 degree hybrid was switched such that the receiver         
+      was sensitive to the alternate sense of circular polarization.         
+      This toggling between left hand and right hand polarization            
+      itself alternated with each 6 sec receiver sweep. Thus, for a          
+      given frequency, a pair of left hand and right hand                    
+      measurements were 6 sec apart.            
 
       For further details on the PRA instrument see
-      Warwick, J.W. et al., Planetary Radio Astronomy Experiment for 
+      Warwick, J.W. et al., Planetary Radio Astronomy Experiment for
       Voyager Missions, Space Science Reviews, 21, 309-327, 1977 and,
 
       Lang, G.J. and Peltzer, R.G., Planetary Astronomy Receiver,
       IEEE Transactions on Aerospace and Elecronics Systems, AES-13, 466-472, 1977.
-                                                                              
+                                                                             
       For further details on calibration see Wang, L. and Carr, T.D.,
-      Recalibration of the Voyager PRA antenna for polarization sense 
+      Recalibration of the Voyager PRA antenna for polarization sense
       measurement, Astron. Astrophys., 281, 945-954, 1994. and references therein.
-                                                                              
-      </Description>
+                                                                             
+</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/James.W.Warwick</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Joseph.K.Alexander.Jr</PersonID>
         <Role>DeputyPI</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Andre.C.Boischot</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Walter.E.Brown.Jr</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Thomas.D.Carr</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Samuel.L.Gulkis</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Fred.T.Haddock</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Christopher.C.Harvey</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Michael.L.Kaiser</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Yolande.Leblanc</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/R.G.Peltzer</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Roger.J.Phillips</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Anthony.C.Riddle</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/David.H.Staelin</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1977-084A-10</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1977-084A-10</URL>
         <Description>Information about the Planetary Radio Astronomy (PRA) instrument on the Voyager 1 mission.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>PPI/PDS PRA Instrument catalog file PRAINST.CAT</Name>
-        <URL>http://pds-ppi.igpp.ucla.edu/ditdos/download?id=pds://PPI/VG_1601/CATALOG/PRAINST.CAT</URL>
+        <URL>https://pds-ppi.igpp.ucla.edu/ditdos/download?id=pds://PPI/VG_1601/CATALOG/PRAINST.CAT</URL>
         <Description>Information about the PRA instrument on the Voyager mission including operational mode descriptions.
-	</Description>
-      </InformationURL>
+</Description>
+</InformationURL>
       <InformationURL>
         <Name>PPI/PDS PRA Instrument file INST.TXT</Name>
-        <URL>http://pds-ppi.igpp.ucla.edu/ditdos/download?id=pds://PPI/VG_1501/DATA/PRA/INST.TXT</URL>
+        <URL>https://pds-ppi.igpp.ucla.edu/ditdos/download?id=pds://PPI/VG_1501/DATA/PRA/INST.TXT</URL>
         <Description>Information about the PRA instrument on the Voyager spacecraft.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>SpectralPowerReceiver</InstrumentType>
     <InstrumentType>Antenna</InstrumentType>
     <InstrumentType>LongWire</InstrumentType>
     <InvestigationName>Planetary Radio Astronomy (PRA) instrument on Voyager 1</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Voyager1</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

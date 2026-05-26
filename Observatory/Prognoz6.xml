@@ -6,9 +6,9 @@
     <ResourceHeader>
       <ResourceName>Prognoz 6</ResourceName>
       <AlternateName>1977-093A</AlternateName>
-      <ReleaseDate>2010-09-25T03:09:48Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>This spacecraft was a member of a continuing series to measure charged particles, plasma, magnetic fields, and solar electromagnetic radiation. This mission was part of the socialist countries' contribution to the International Magnetospheric Study. The specific scientific goals of this mission were:
-      
+     
       * (1) to study acceleration processes in the solar corona and flare acceleration of charged particles;
       * (2) to monitor the propagation of accelerated particles from the solar corona to interplanetary space;
       * (3) to observe particle acceleration from interplanetary shock fronts;
@@ -18,17 +18,17 @@
       * (7) to monitor magnetotail plasma dynamics during substorms;
       * (8) to search for discrete gamma ray lines of solar and galactic origin, and
       * (9) to study UV-emission in the upper atmosphere and the interplanetary medium.
-      
+     
       Launch Date: 1977-09-22 at 00:51:00 UTC
-      
+     
       Orbital parameters:
-      
+     
       +----------------------------------------------------------------------------------------+
       | Periapsis  |  Apoapsis       |  Period              |  Inclination      |  Eccentricity  |
       |-----------------------------------------------------------------------------------------|
       | 498.0 km  | 197900.0 km | 5684.0 minutes |             65.0° |      0.934828  |
       +----------------------------------------------------------------------------------------+
-      
+     
       Prognoz is the name of the once soviet Earth research artificial satellites (ISZ for Russian) meant to study processes of solar activity, their influence on interplanetary environment and the Earth magnetosphere.
 
 The mass of the ISZ Prognoz 6 was 910 kg. Prognoz consists of the hermetically sealed cylinder-shaped mainframe (of 2 m diameter) with spherical bottoms. Inside the mainframe (of the 0,925 m height) the platform with instrumentation and equipment is located. The sensors and units of the scientific instrumentation as well as cylinders (containers, envelopes) etc. are installed on the outside surface of the mainframe. During flight Prognoz is sun-oriented with its lengthwise axis. This specified position is provided by the system of orientation and maintained by rotation around the longitudinal axis. The system of orientation includes the solar sensor, control units and controlling reactive nozzles operating on the compressed nitrogen.
@@ -37,27 +37,27 @@ Power supply of the board instrumentation is provided by solar batteries (4 plan
       <Contact>
         <PersonID>spase://SMWG/Person/Albert.A.Galeev</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1977-093A</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1977-093A</URL>
         <Description>Information about the Prognoz 6 mission</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Prognoz spacecraft mission overview</Name>
         <URL>http://arc.iki.rssi.ru/history/prognoz.html</URL>
         <Description>Historical mission overview of Prognoz missions at IKI website</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/Prognoz</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
       <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
       <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

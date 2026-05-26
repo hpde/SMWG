@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/James.P.McFadden</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:46Z</ReleaseDate>
-    <PersonName>Dr. James P. McFadden</PersonName>
-    <OrganizationName>University of California, Berkeley</OrganizationName>
-    <Email>mcfadden@ssl.berkeley.edu</Email>
-    <PhoneNumber>+1-510-642-9918</PhoneNumber>
-  </Person>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/James.P.McFadden</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <ReleaseDate>2025-03-05T12:34:56.789Z</ReleaseDate>
+      <PersonName>James P. McFadden</PersonName>
+      <OrganizationName>University of California, Berkeley</OrganizationName>
+      <Email>mcfadden@ssl.berkeley.edu</Email>
+      <PhoneNumber>+1-510-642-9918</PhoneNumber>
+      <RORIdentifier>01an7q238</RORIdentifier>
+   </Person>
 </Spase>

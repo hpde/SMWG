@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.6.0.xsd">
+   <Version>2.6.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Jie.Zhang</ResourceID>
+      <ReleaseDate>2023-09-27T00:08:46</ReleaseDate>
+      <OrganizationName>George Mason University</OrganizationName>
+      <Address>4400 University Dr, Fairfax, VA 22030</Address>
+      <Email>jzhang7@gmu.edu</Email>
+      <ORCIdentifier>0000-0003-0951-2486</ORCIdentifier>
+      <Note>https://science.gmu.edu/directory/jie-zhang</Note>
+   </Person>
+</Spase>

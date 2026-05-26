@@ -10,87 +10,87 @@
       <AlternateName>Cluster-4</AlternateName>
       <AlternateName>Tango</AlternateName>
       <AlternateName>FM8</AlternateName>
-      <ReleaseDate>2011-05-16T20:49:04Z</ReleaseDate>
-      <Description>This Cluster II spacecraft, FM8 (Tango), was launched together with FM5 (Rumba) by 
-	  a Soyuz-Fregat rocket from Baikonur. The four similar spacecraft of the Cluster II mission are 
-	  part of ESA's and NASA's Solar-Terrestrial Science Program (STSP). The current Cluster II mission 
-	  is a near-replica of the original four-spacecraft mission lost at launch in 1996. (NSSDC will 
-	  carry the name "Cluster96" in its information files to designate the unsuccessful 1996 four-spacecraft 
-	  Ariane 5 launch.) The purpose of the Cluster II mission is to study small-scale structures in 
-	  three dimensions in the Earth's plasma environment, such as those involved in the interaction between 
-	  the solar wind and the magnetospheric plasma, in global magnetotail dynamics, in cross-tail 
-	  currents, and in the formation and dynamics of the neutral line and of plasmoids.
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>This Cluster II spacecraft, FM8 (Tango), was launched together with FM5 (Rumba) by
+   a Soyuz-Fregat rocket from Baikonur. The four similar spacecraft of the Cluster II mission are
+   part of ESA's and NASA's Solar-Terrestrial Science Program (STSP). The current Cluster II mission
+   is a near-replica of the original four-spacecraft mission lost at launch in 1996. (NSSDC will
+   carry the name "Cluster96" in its information files to designate the unsuccessful 1996 four-spacecraft
+   Ariane 5 launch.) The purpose of the Cluster II mission is to study small-scale structures in
+   three dimensions in the Earth's plasma environment, such as those involved in the interaction between
+   the solar wind and the magnetospheric plasma, in global magnetotail dynamics, in cross-tail
+   currents, and in the formation and dynamics of the neutral line and of plasmoids.
 
-The four Cluster II spacecraft will orbit in a tetrahedral formation in near-polar orbits of nominally 
-4 x 19.6 Earth radii, with period about 57 hours, and inclination about 90.7 degrees. Relative distances 
-between the spacecraft will be adjusted in the course of the mission, depending on the spatial scales of 
-the structures to be studied, varying from a few hundred km to a few Earth radii. The tetrahedral 
-formation is essential for making three-dimensional measurements and for determining the curl of vectorial 
+The four Cluster II spacecraft will orbit in a tetrahedral formation in near-polar orbits of nominally
+4 x 19.6 Earth radii, with period about 57 hours, and inclination about 90.7 degrees. Relative distances
+between the spacecraft will be adjusted in the course of the mission, depending on the spatial scales of
+the structures to be studied, varying from a few hundred km to a few Earth radii. The tetrahedral
+formation is essential for making three-dimensional measurements and for determining the curl of vectorial
 quantities such as the magnetic field.
 
-The orbits of all four spacecraft will be frequently maneuvered so as to achieve the targeted investigations. 
+The orbits of all four spacecraft will be frequently maneuvered so as to achieve the targeted investigations.
 
-Each spacecraft will be spin-stabilized, normally at around 15 rpm, and will be cylindrical in shape, with 
-a 2.9-m diameter and 1.3-m length. It will have two rigid 5-m radial experiment booms, four 50-m experiment 
+Each spacecraft will be spin-stabilized, normally at around 15 rpm, and will be cylindrical in shape, with
+a 2.9-m diameter and 1.3-m length. It will have two rigid 5-m radial experiment booms, four 50-m experiment
 wire booms, and two axial telecommunications antenna booms. Telemetry downlink bit rate will be 2 to 262 kbit/s.
 
-Each spacecraft will have AC and DC magnetometers, an electric fields and waves sensor, an electron 
-emitter/detector, an electron density sounder, electron and ion plasma analysers, an energetic particle 
+Each spacecraft will have AC and DC magnetometers, an electric fields and waves sensor, an electron
+emitter/detector, an electron density sounder, electron and ion plasma analysers, an energetic particle
 detector, an ion emitter, and a data processing unit.
 
 Cluster operations will be performed by ESOC in Darmstadt, Germany, with support from NASA's Deep Space
-Network. Cluster is also an IACG mission. The scientific data are distributed by ESOC using CD-ROM as a 
-medium to the Principal Investigators, Co-Investigators and the network of eight national data centres 
-(6 in Europe, 1 in USA and 1 in China) that form the Cluster Science Data System (CSDS). There are 
-approximately 80 recipients world-wide. Science operations are carried out by the Joint Science 
-Operations Centre, co-located with the UK data centre at RAL, Didcot. A wide scientific community will 
-have differing rights of access to the Cluster data. Scientists wishing to access Cluster data should 
+Network. Cluster is also an IACG mission. The scientific data are distributed by ESOC using CD-ROM as a
+medium to the Principal Investigators, Co-Investigators and the network of eight national data centres
+(6 in Europe, 1 in USA and 1 in China) that form the Cluster Science Data System (CSDS). There are
+approximately 80 recipients world-wide. Science operations are carried out by the Joint Science
+Operations Centre, co-located with the UK data centre at RAL, Didcot. A wide scientific community will
+have differing rights of access to the Cluster data. Scientists wishing to access Cluster data should
 contact their national Data Centres.
 
-ESA SP-1159, Paris, March 1993 is entitled "Cluster: Mission, Payload and Supporting Activities" Edited by W. R. Burke. 
+ESA SP-1159, Paris, March 1993 is entitled "Cluster: Mission, Payload and Supporting Activities" Edited by W. R. Burke.
 European Space Agency, ESA SP-1159, 1993.ISBN: 92-9092-073-4.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Melvyn.L.Goldstein</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2000-045B</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2000-045B</URL>
         <Description>Information about the Cluster 2/FM8 (Tango) mission</Description>
-      </InformationURL>
-	  <InformationURL>
+</InformationURL>
+   <InformationURL>
         <Name>ESA Cluster Homepage</Name>
         <URL>http://sci.esa.int/cluster/</URL>
         <Description>Information about the Cluster 2/FM8 (Tango) mission</Description>
-      </InformationURL>
-	  <InformationURL>
+</InformationURL>
+   <InformationURL>
         <Name>Space Science Reviews Article</Name>
         <URL>https://link.springer.com/chapter/10.1007/978-94-011-5666-0_1</URL>
         <Description>Detailed Information about the Cluster mission</Description>
-      </InformationURL>
-	  <InformationURL>
+</InformationURL>
+   <InformationURL>
         <Name>ESA Bulletin no. 91 (August 1997) on the Resurrection of Cluster</Name>
         <URL>http://esamultimedia.esa.int/multimedia/publications/ESA-Bulletin-091/</URL>
         <Description>Information about the Cluster mission</Description>
-      </InformationURL>
-	  <InformationURL>
+</InformationURL>
+   <InformationURL>
         <Name>ESA Bulletin 84 (November 1995) An overview of the original mission of Cluster</Name>
         <URL>http://esamultimedia.esa.int/multimedia/publications/ESA-Bulletin-091/</URL>
         <Description>Information about the Cluster mission</Description>
-      </InformationURL>
-	  <InformationURL>
+</InformationURL>
+   <InformationURL>
         <Name>Access to CDAWeb Cluster Data Archive</Name>
-        <URL>http://cdaweb.gsfc.nasa.gov/cdaweb/istp_public</URL>
+        <URL>https://cdaweb.gsfc.nasa.gov/cdaweb/istp_public/</URL>
         <Description>Cluster 2/FM8 (Tango) data access.</Description>
-      </InformationURL> 
+</InformationURL>
       <PriorID>spase://SMWG/Observatory/Cluster2-Tango</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/Cluster</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
       <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
       <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
       <ObservatoryRegion>Earth.Magnetosphere.Polar</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

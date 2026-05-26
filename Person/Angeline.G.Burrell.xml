@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+  <Version>2.7.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Angeline.G.Burrell</ResourceID>
+	<NamingAuthority>SMWG</NamingAuthority>
+	<ResourceType>Person</ResourceType>
+	<ReleaseDate>2025-04-04T12:00:00</ReleaseDate>
+    <PersonName>Angeline G. Burrell</PersonName>
+    <OrganizationName>Space Science Division, U.S. Naval Research Laboratory</OrganizationName>
+	<Email>angeline.burrell@nrl.navy.mil</Email>
+  </Person>
+</Spase>

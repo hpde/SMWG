@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Ulan Bator</ResourceName>
          <AlternateName>Observatory Station Code: UBA</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-02-18T12:34:56.789</ReleaseDate>
          <Description>The Ulan Bator geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  MPR Academy of Sciences, Center of Seismology and Geomagnetism, Ulan Bator, Peoples Republic of Mongolia</Acknowledgement>
          <Contact>
@@ -30,9 +30,11 @@
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>47.85</Latitude>
          <Longitude>106.75</Longitude>
+		 <Elevation>1615.0</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>1966-01-01T00:00:00.000</StartDate>
+		 <StopDate>1978-01-01T23:59:59</StopDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

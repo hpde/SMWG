@@ -5,23 +5,23 @@
     <ResourceID>spase://SMWG/Repository/SAMPEX_DC</ResourceID>
     <ResourceHeader>
       <ResourceName>SRL SAMPEX Data Repository</ResourceName>
-      <ReleaseDate>2008-06-18T06:07:48Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>SAMPEX Data Center</Description>
       <Acknowledgement>Please acknowledge the SAMPEX instrument teams and the SAMPEX Data Center in publications and presentations that use these data.
-      </Acknowledgement>
+</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Andrew.J.Davis</PersonID>
         <Role>PrincipalInvestigator</Role>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Glenn.M.Mason</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>SAMPEX Data Center</Name>
-        <URL>http://www.srl.caltech.edu/sampex/DataCenter</URL>
-      </InformationURL>
-    </ResourceHeader>
-  </Repository>
+        <URL>http://www.srl.caltech.edu/sampex/DataCenter/</URL>
+</InformationURL>
+</ResourceHeader>
+</Repository>
 </Spase>

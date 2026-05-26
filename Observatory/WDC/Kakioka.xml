@@ -5,32 +5,32 @@
     <ResourceID>spase://SMWG/Observatory/WDC/Kakioka</ResourceID>
     <ResourceHeader>
       <ResourceName>Kakioka</ResourceName>
-      <ReleaseDate>2012-03-07T11:50:38</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Kakioka (KAK) Geomagnetic Observatory</Description>
       <Acknowledgement>Please acknowledge Mituko Ozima, Kakioka Magnetic Observatory, Kakioka, Yasato-machi, Niihari-gun, Ibaraki ken, 315-0116 Japan for providing access to Kakioka data resources.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Mituko.Ozima</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Kakioka geomagnetic observatory English language web site</Name>
-        <URL>http://www.intermagnet.org/imos/imos_details_e.php?IAGA=KAK</URL>
+        <URL>http://www.intermagnet.org/imos/imos-list/imos-details-eng.php?iaga_code=KAK</URL>
         <Description>Kakioka geomagnetic observatory English language web site hosted by the Intermagnet program (International Real-time Magnetic Observatory Group).</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>Kakioka geomagnetic observatory French language web site</Name>
-        <URL>http://www.intermagnet.org/imos/imokak_f.html</URL>
+        <URL>http://www.intermagnet.org/imos/imos-list/imos-details-fra.php?iaga_code=KAK</URL>
         <Description>Kakioka geomagnetic observatory French language web site hosted by the Intermagnet program (International Real-time Magnetic Observatory Group).</Description>
-      </InformationURL>
+</InformationURL>
       <Association>
         <AssociationID>spase://SMWG/Observatory/Dst.Index</AssociationID>
         <AssociationType>PartOf</AssociationType>
-      </Association>
-    </ResourceHeader>
+</Association>
+</ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
@@ -38,6 +38,6 @@
       <Latitude>36.233</Latitude>
       <Longitude>140.183</Longitude>
       <Elevation>36.0</Elevation>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

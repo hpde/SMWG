@@ -1,0 +1,40 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+ <Version>2.3.1</Version>
+ <Observatory>
+  <ResourceID>spase://SMWG/Observatory/RadioJOVE/MTSU</ResourceID>
+  <ResourceHeader>
+   <ResourceName>Middle Tennessee State University</ResourceName>
+   <AlternateName>MTSU</AlternateName>
+   <ReleaseDate>2020-09-25T19:20:59Z</ReleaseDate>
+   <Description>Middle Tennessee State University is a
+   participant in the Radio JOVE project providing observations of
+   radio emissions from Jupiter, the Sun, and the Galactic Background
+   to other members of the Radio JOVE community. The observatory
+   consists of a TFD (Terminated Folded Dipole) array and a JOVE dipole array.
+
+   The JOVE receiver is fed the output from the JOVE dipole array, the
+   FSX 6S 12-bit switching dual polarization spectrograph receives the
+   TFD array. </Description> 
+   <Contact>
+    <PersonID>spase://SMWG/Person/Chuck.Higgins</PersonID>
+    <Role>TechnicalContact</Role>
+   </Contact>
+   <InformationURL>
+    <Name>Radio JOVE Spectrograph Users Group (SUG)</Name>
+    <URL>http://radiojove.org/SUG/</URL>
+    <Description>This site provide station diagrams and other reports for the receiver systems at several radio observatories associated with the Radio JOVE project</Description>
+   </InformationURL>
+  </ResourceHeader>
+  <ObservatoryGroupID>spase://SMWG/Observatory/RadioJOVE</ObservatoryGroupID>
+  <Location>
+   <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+   <CoordinateSystemName>GEO</CoordinateSystemName>
+   <Latitude>35.8</Latitude>
+   <Longitude>86.4</Longitude>
+   <Elevation>163</Elevation>
+  </Location>
+  <OperatingSpan>
+   <StartDate>2013-01-01T00:00:00</StartDate>
+  </OperatingSpan>
+ </Observatory>
+</Spase>

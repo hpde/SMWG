@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/Ohzora/HEP</ResourceID>
     <ResourceHeader>
       <ResourceName>Monitor of High Energy Particles</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:15Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The objective of this experiment was to monitor the energy spectra and flux of electrons, protons and alpha particles with energies greater than 50 keV using solid-state detectors.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Tadayoshi.Doke</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1984-015A&amp;ex=8</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1984-015A&amp;ex=8</URL>
         <Description>Information about the Monitor of High Energy Particles experiment on the Ohzora mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Monitor of High Energy Particles on Ohzora</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Ohzora</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

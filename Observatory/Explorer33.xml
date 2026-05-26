@@ -8,47 +8,47 @@
       <AlternateName>IMP D</AlternateName>
       <AlternateName>AIMP A</AlternateName>
       <AlternateName>AIMP 1</AlternateName>
-	  <AlternateName>02258</AlternateName>
-      <ReleaseDate>2010-10-06T18:44:36Z</ReleaseDate>
+   <AlternateName>02258</AlternateName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>NASA's Explorer 33 spacecraft, also known as
-		Anchored IMP A (AIMP A) and as IMP D, was launched into a geocentric
-		orbit in July, 1966.  Explorer 33 was a spin-stabilized (spin axis 
-		parallel to the ecliptic 
-		plane, spin period varying between 2.2 and 3.6 s) spacecraft instrumented 
-		for studies of interplanetary plasma, energetic charged particles 
-		(electrons, protons, and alphas), magnetic fields, and solar X rays 
-		at lunar distances. The spacecraft failed to achieve lunar orbit but 
-		did achieve mission objectives. Lunar
-		perturbations caused significant variations in orbit parameters
-		The initial apogee occurred at about 
-		1600 h local time. Over the first 3-yr period, perigee varied between 
-		6 and 44 earth radii. Apogee varied between 70 and 135 earth radii, 
-		and the inclination with respect to the equator of the earth varied 
-		between 7 and 60 deg. Periods of principal data coverage (essentially 
-		100%) are July 1, 1966 (launch), to January 14, 1970; February 21, 
-		1970, to March 6, 1970; July 31, 1970, to September 14, 1970; January 
-		15, 1971, to February 28, 1971; March 23, 1971, to May 31, 1971; and 
-		August 23, 1971, to September 15, 1971. No data were obtained after 
-		September 21, 1971.
-	  </Description>
+  Anchored IMP A (AIMP A) and as IMP D, was launched into a geocentric
+  orbit in July, 1966.  Explorer 33 was a spin-stabilized (spin axis
+  parallel to the ecliptic
+  plane, spin period varying between 2.2 and 3.6 s) spacecraft instrumented
+  for studies of interplanetary plasma, energetic charged particles
+  (electrons, protons, and alphas), magnetic fields, and solar X rays
+  at lunar distances. The spacecraft failed to achieve lunar orbit but
+  did achieve mission objectives. Lunar
+  perturbations caused significant variations in orbit parameters
+  The initial apogee occurred at about
+  1600 h local time. Over the first 3-yr period, perigee varied between
+  6 and 44 earth radii. Apogee varied between 70 and 135 earth radii,
+  and the inclination with respect to the equator of the earth varied
+  between 7 and 60 deg. Periods of principal data coverage (essentially
+  100%) are July 1, 1966 (launch), to January 14, 1970; February 21,
+  1970, to March 6, 1970; July 31, 1970, to September 14, 1970; January
+  15, 1971, to February 28, 1971; March 23, 1971, to May 31, 1971; and
+  August 23, 1971, to September 15, 1971. No data were obtained after
+  September 21, 1971.
+</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Joseph.H.King</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
-	  <Contact>
+</Contact>
+   <Contact>
         <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1966-058A</URL>
-      </InformationURL>
-    </ResourceHeader>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1966-058A</URL>
+</InformationURL>
+</ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/IMP</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
-	  <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
-	  <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
-    </Location>
-  </Observatory>
+   <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
+   <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+</Location>
+</Observatory>
 </Spase>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_4_1.xsd">
+   <Version>2.4.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Dennis.K.Haggerty</ResourceID>
+      <ReleaseDate>2022-04-03T12:34:56.789</ReleaseDate>
+      <PersonName>Dennis K. Haggerty</PersonName>
+      <OrganizationName>Applied Physics Laboratory</OrganizationName>
+      <Address>11100 Johns Hopkins Road, Laurel, Maryland 20723-6099</Address>
+      <Email>dennis.Haggerty@jhuapl.edu</Email>
+      <PhoneNumber>+1 (240) 228-5000</PhoneNumber>
+   </Person>
+</Spase>

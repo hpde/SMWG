@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2-5-0.xsd">
+   <Version>2.5.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Hanying.Wei</ResourceID>
+      <ReleaseDate>2023-03-01T12:34:56.789</ReleaseDate>
+      <PersonName>Hanying Wei</PersonName>
+      <OrganizationName>Department of Earth, Planetary and Space Sciences, University of California, Los Angeles</OrganizationName>
+      <Address>Los Angeles, CA 90095-1567 USA</Address>
+      <Email>hwei@igpp.ucla.edu</Email>
+      <PhoneNumber>+1 (310) 205-6868</PhoneNumber>
+   </Person>
+</Spase>

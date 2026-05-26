@@ -8,21 +8,21 @@
       <AlternateName>1967-051A</AlternateName>
       <AlternateName>IMP-F</AlternateName>
       <AlternateName>Explorer 34</AlternateName>
-      <ReleaseDate>2010-09-27T18:45:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>This spacecraft was placed into a high-inclination, highly eccentric earth orbit. The apogee point was located near the ecliptic plane and had an initial local time of about 1900 h. The spacecraft was spin-stabilized and had an initial spin period of 2.6 s. The spin vector was approximately perpendicular to the ecliptic plane. Like the earlier IMPs, this spacecraft was instrumented to study interplanetary magnetic fields, energetic particles, and plasma. The spacecraft optical aspect system failed on March 4, 1969. Otherwise, useful data were acquired until just before spacecraft reentry, which occurred on May 3, 1969.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Frank.B.McDonald</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1967-051A</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-051A</URL>
         <Description>Information about the IMP-F mission</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/IMP</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

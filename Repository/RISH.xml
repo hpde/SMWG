@@ -6,21 +6,21 @@
     <ResourceHeader>
       <ResourceName>Geotail PWI Data Repository at RISH, Kyoto University, Japan</ResourceName>
       <AlternateName>Geotail PWI Data Repository at Radio Atmospheric Science Center, Kyoto University, Japan</AlternateName>
-      <ReleaseDate>2010-07-29T19:28:50Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Geotail PWI data repository at the Research Institute for Sustainable Humanosphere, Kyoto University, Japan</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Leonard.N.Garcia</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
-    </ResourceHeader>
+</Contact>
+</ResourceHeader>
     <AccessURL>
       <Name>GEOTAIL Plasma Wave Instrument</Name>
-      <URL>http://www.rish.kyoto-u.ac.jp/space/gtlpwi/</URL>
+      <URL>http://space.rish.kyoto-u.ac.jp/gtlpwi/</URL>
       <Description>Geotail PWI repository for 24 Hour and 2 Hour Dynamic Spectrograms plus instrument descriptions and publication lists</Description>
-    </AccessURL>
-  </Repository>
+</AccessURL>
+</Repository>
 </Spase>

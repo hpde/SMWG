@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+   <Version>2.3.2</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/ParkerSolarProbe/ISOIS</ResourceID>
+      <ResourceHeader>
+         <ResourceName>PSP Integrated Science Investigation of the Sun, ISOIS, Instrument</ResourceName>
+         <AlternateName>PSP ISOIS Instrument</AlternateName>
+         <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+               <Note>Updated to SPASE Version 2.3.2 if needed, Applied quality conntrol for DOI usage, LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The science objective of the Integrated Science Investigation of the Sun, ISOIS, experiment is to explore the physical mechanisms that produce, accelerate, and transport energetic particles in the inner heliosphere. This will be achieved by observing energetic electrons, protons, and heavy ions in the solar atmosphere and inner heliosphere to learn about the origin and seed population of solar energetic particles, how these and other particles are accelerated, and what mechanisms are responsible for transporting the different particle populations into the heliosphere. It will also contribute to tracing the flow of energy that heats and accelerates the solar corona and solar wind, and determining the structure and dynamics of the plasma and magnetic fields at the sources of the solar wind. The Integrated Science Investigation of the Sun consists of two instruments, EPI-Lo and EPI-Hi, mounted on the side of the spacecraft near the back ram-facing side, protected by the heat shield.
+
+The EPI-Lo instrument is disc-shaped and divided into 8 sections, or wedge assemblies, each section holding 10 foil-covered apertures. Each aperture faces a slightly different direction, together they provide coverage of nearly a full hemisphere. The apertures allow particles to enter the wedge interior, which contains a time-of-flight mass spectrometer. Ions pass through the thin foils in the apertures and then hit a stop foil backed by a solid-state detector. Electrons are detected by independent solid-state detectors covered by ~2 micron thick aluminum flashing. Epi-Lo measures energetic ions from 0.02 MeV/n to 15 MeV total energy, protons from about 0.04 MeV to 7 MeV, and energetic electrons from approximately 25 keV to 1000 keV. It measures the ion composition and pitch-angle distributions from 30 keV/n up to 0.3 MeV/n or 1.0 MeV/n every 5 or 30 seconds. It can return data for up to 64 energy bins and 80 angular ranges (one for each aperture).
+
+The EPI-Hi instrument system is based on ion-implanted solid-state detectors. It comprises three detector stacks (particle telescopes). One is designated a High Energy Telescope (HET) and two are designated Low-Energy Telescopes (LET1 and LET2).
+
+The HET is a cylinder containing a central stack of detector disks and two single detector disks, one at each end. The individual detectors in the central stack have thicknesses of 1000 microns. Three of the detectors in the central stack comprise two 1000-micron disks connected to act as single 2000 micron detectors. The end detector disks are 500 microns thick. The front end detector and the outermost detectors at each end of the central stack are each divided into five active elements, a central bulls-eye and four quadrants, each of equal area. Which active area hit on different disks gives directional information on the particle. An outer annular segment of each detector acts as an anti-coincidence shield to detect particles that exit the cylinder before passing through all the detectors. The HET covers electrons up to approximately 6 MeV and protons and heavy ions to at least 100 MeV/n. The lower range overlaps the high end of the Low Energy Telescopes.
+
+LET1 and LET2 are similar in design to the HET, cylinders containing a central stack of detector disks and positionally sensitive detectors at the ends. LET1 has 1000-micron thick detector disks in the central stack, except for the end disks which are 500 microns. At the front of the cylinder, separate from the central stack, is a 12 micron thick disk and then a 25 micron disk. The back of the detector has the same arrangement. The front of the detector also has a thin window (~3 micron silicon equivalent). The 12, 25, and 500 micron thick disks are all separated into five active elements in the same way as the HET for positional determination. LET2 is similar to LET1 but does not have the end 12, 25, and 500 micron disks. The Low-Energy Telescopes can measure protons and heavy ions from approximately 1 MeV to greater than 20 MeV/n and electrons from about 0.5 MeV to 2 MeV.</Description>
+         <Acknowledgement>Please acknowledge the National Aeronautics and Space Administration, NASA</Acknowledgement>
+         <Funding>
+            <Agency>National Aeronautics and Space Administration, Living With a Star, LWS, Program</Agency>
+            <Project>Parker Solar Probe ISOIS Investigation</Project>
+            <AwardNumber>NNN06AA01C</AwardNumber>
+         </Funding>
+         <Contact>
+            <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Eric.R.Christian</PersonID>
+            <Role>DeputyPI</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Parker Solar Probe Mission Instrument Web Page, JPL</Name>
+            <URL>http://parkersolarprobe.jhuapl.edu/Spacecraft/index.php#Instruments</URL>
+            <Description>Parker Solar Probe Mission Instrument Web Page, NASA Jet Propulsion Laboratory, JPL</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>Parker Solar Probe Mission Instrument Web Page, NASA</Name>
+            <URL>https://www.nasa.gov/content/goddard/parker-solar-probe-instruments/</URL>
+            <Description>Additional information on the Parker Solar Probe Instruments</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>ParkerSolarProbe Integrated Science Investigation of the Sun, ISOIS, Instrument paper, Published by Space Sci. Rev., Date: 2014-07-05</Name>
+            <URL>https://doi.org/10.1007/s11214-014-0059-1</URL>
+            <Description>Author List: McComas, D. J., Alexander, N., Angold, N., Bale, S. D., Beebe, C., Birdwell, B., Boyle, M., Burgum, J. M., Burnham, J. A., Christian, E. R., Cook, W. R., Cooper, S. A., Cummings, A. C., Davis, A. J., Desai, M. I., Dickinson, J., Dirks, G., Do, D. H., Fox, N. J., Giacalone, J., Gold, R. E., Gurnee, R. S., Hayes, J. R., Hill, M. E., Kasper, J. C., Kecman, B., Klemic, J., Krimigis, S. M., Labrador, A. W., Layman, R. S., Leske, R. A., Livi, S., Matthaeus, W. H., McNutt, Jr, R. L., Mewaldt, R. A., Mitchell, D. G., Nelson, K. S., Parker, C., Rankin, J. S., Roelof, E. C., Schwadron, N. A., Seifert, H., Shuman, S., Stokes, M. R., Stone, E. C., Vandegriff, J. D., Velli, M. C., von Rosenvinge, T. T., Weidner, S. E., Wiedenbeck, M. E., &amp; Wilson IV, P.</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>Parker Solar Probe ISOIS Instrument Suite, NSSDC Master Catalog Listing</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2018-065A-02</URL>
+            <Description>NSSDC Master Catalog Listing for the Parker Solar Probe Integrated Science Investigation of the Sun, ISOIS, Instrument Suite, NSSDCA/COSPAR ID: 2018-065A-02</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>MassSpectrometer</InstrumentType>
+      <InstrumentType>SolidStateDetector</InstrumentType>
+      <InvestigationName>Parker Solar Probe ISOIS Investigation</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2018-08-12T07:31:00</StartDate>
+         <Note>Parker Solar Probe Launch Date and Time until data are available</Note>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/ParkerSolarProbe</ObservatoryID>
+   </Instrument>
+</Spase>

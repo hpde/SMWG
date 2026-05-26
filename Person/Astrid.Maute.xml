@@ -1,0 +1,12 @@
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+     xmlns="http://www.spase-group.org/data/schema" 
+     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2.6.1.xsd">
+  <Version>2.6.1</Version>
+  <Person>
+	<ResourceID>spase://SMWG/Person/Astrid.Maute</ResourceID>
+	<ReleaseDate>2024-09-11T00:00:00Z</ReleaseDate>
+	<PersonName>Astrid Maute</PersonName>
+	<OrganizationName>University of Colorado Boulder</OrganizationName>
+	<Email>astrid.maute@colorado.edu</Email>
+  </Person>
+</Spase>

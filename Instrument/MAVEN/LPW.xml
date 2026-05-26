@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+   <Version>2.3.2</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/MAVEN/LPW</ResourceID>
+      <ResourceHeader>
+         <ResourceName>MAVEN Langmuir Probe and Waves, LPW, Instrument</ResourceName>
+         <AlternateName>MAVEN LPW Instrument</AlternateName>
+         <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+               <Note>Updated to SPASE Version 2.3.2 if needed, Applied quality conntrol for DOI usage, LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The Langmuir Probe and Waves, LPW, Instrument is designed to study Ionospheric Properties, Wave Heating of the Upper Atmosphere, and Solar Extreme Ultraviolet, EUV, Input to the Atmosphere. LPW has two Components: a Set of two 7 m Booms to measure In-situ Electron Temperature and Density, and an EUV Sensor to measure three Channels of EUV: Lyman Alpha, Solar Corona, and Hot Corona.
+
+Each Boom Tip has a Sensor comprising a 0.5 m titanium nitride coated cylindrical Whip Antenna and a Pre-Amplifier. The Booms are mounted to the Spacecraft Body and contain a ten conductor Cable. The LPW has a Sweep Range of &#177;50 V with 128 Points per Sweep. The Current Measurement Range is 0.2 mA with a Resolution of 3.1 nA. The Range of the Electric Field Measurement is &#177;1 V/m with a Resolution of 0.3 mV/m. Low Frequency Electric Field Measurements cover the Range from 0.05 Hz to 10 Hz, while High Frequency Electric Field Measurements cover the Range from 90 kHz to 1.6 MHz. Electron Measurements are made every 2 s near Periapsis.
+
+The EUV Sensor is mounted on the top Panel facing the Sun within 2&#176; of the Boresite with a Pointing Knowledge of 0.05&#176;. The Instrument is a Photometer with three Channels: 0.1 nm to 7 nm, 17 nm to 22 nm, and 121.6 nm. Data are collected nearly continuously, consisting of Analog Currents and EUV Temperatures, from which the Irradiance can be determined.</Description>
+         <Acknowledgement>National Aeronautics and Space Administration, NASA, Laboratory for Atmospheric and Space Physics, LASP, University of Colorado, Boulder</Acknowledgement>
+         <Funding>
+            <Agency>National Aeronautics and Space Administration, Mars Scout Program</Agency>
+            <Project>MAVEN Langmuir Probe and Waves Investigation</Project>
+            <AwardNumber>UNKNOWN</AwardNumber>
+         </Funding>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Robert.E.Ergun</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>The Mars Atmosphere and Volatile Evolution, MAVEN, Langmuir Probe and Waves Instrument Home Page, LASP, UC Boulder</Name>
+            <URL>https://lasp.colorado.edu/home/maven/science/instrument-package/lpw/</URL>
+            <Description>The Mars Atmosphere and Volatile Evolution, MAVEN, Langmuir Probe and Waves Instrument Home Page, Laboratory for Atmospheric and Space Physics, LASP, University of Colorado, Boulder</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>MAVEN Langmuir Probe and Waves, LPW, Instrument paper, Published by Space Sci. Rev., Date: 2015-09-17</Name>
+            <URL>https://doi.org/10.1007/s11214-015-0194-3</URL>
+            <Description>Author List: Andersson, L., Ergun, R. E., Delory, G. T., Eriksson, A., Westfall, J., Reed, H., McCauley, J., Summers, D., &amp; Meyers, D.</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>NSSDC Master Catalog Listing, MAVEN Langmuir Probe and Waves, LPW, Instrument</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2013-063A-04</URL>
+            <Description>NSSDC Master Catalog Listing for the MAVEN Langmuir Probe and Waves, LPW, Instrument, NSSDCA/COSPAR ID: 2013-063A-04</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>LangmuirProbe</InstrumentType>
+      <InvestigationName>MAVEN Langmuir Probe and Waves Investigation</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2013-11-18T18:28:00</StartDate>
+         <Note>MAVEN Launch Date and Time until data are available</Note>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/MAVEN</ObservatoryID>
+   </Instrument>
+</Spase>

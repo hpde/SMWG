@@ -5,19 +5,19 @@
     <ResourceID>spase://SMWG/Repository/UCOLO/LASP/TIMAS_K2</ResourceID>
     <ResourceHeader>
       <ResourceName>LASP TIMAS K2 Data Repository</ResourceName>
-      <ReleaseDate>2010-03-19T19:27:22Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The TIMAS Science Team's data base of TIMAS K2 data</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/W.K.Peterson</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>TIMAS K2 product page</Name>
-        <URL>http://lasp.colorado.edu/timas/k2/k2.html</URL>
-      </InformationURL>
-    </ResourceHeader>
+        <URL>http://lasp.colorado.edu/timas/info/k2/k2.html</URL>
+</InformationURL>
+</ResourceHeader>
     <AccessURL>
-      <URL>http://lasp.colorado.edu/timas/k2/</URL>
-    </AccessURL>
-  </Repository>
+      <URL>http://lasp.colorado.edu/timas/info/k2/</URL>
+</AccessURL>
+</Repository>
 </Spase>

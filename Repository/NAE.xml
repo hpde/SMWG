@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spaseZ-2_3_1.xsd">
+  <Version>2.3.1</Version>
+  <Repository>
+    <ResourceID>spase://SMWG/Repository/NAE</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Northern Auroral Electrojet Indices for conjugate Southern Auroral Electrojet Indices</ResourceName>
+      <ReleaseDate>2020-05-22T20:25:57Z</ReleaseDate> 
+      <Description>The NAE repository contains a collection of northern auroral electrojet indices obtained from a virtual observatory representing the collection of magnetometers used in the creation of the NAE datasets. The NAE observatory consists of ground magnetometers from the GIME, THEMIS GBO, INTERMAGNET, DTU, University of Iceland, and NIPR ground magnetometer data. Availability of the NAE index may vary from day to day depending upon magnetometer data availabiliy. SAE indices were only produced when data from all stations were available. Details on many of the magnetometer arrays are available at the AssociationIDs listed below.</Description>
+	  <Contact>
+	    <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID> 
+	    <Role>Scientist</Role> 
+	  </Contact>
+	  <InformationURL>
+	    <Name>Comparison of auroral electrojet indices in the Northern and Southern Hemispheres</Name> 
+	    <URL>https://doi.org/10.1029/2008JA01305</URL> 
+	    <Description>Journal of Geophysical Research (Space Physics) on the Souther Auroral Electrojet Index</Description> 
+	  </InformationURL>		
+	  <InformationURL>
+	    <Name>Second Journal of Geophysical Research article on the Northern and Southern Auroral Electrojet Index</Name>
+	    <URL>https://doi.org/10.1002/2013JA019377</URL>
+	    <Description>Research Article on the development and first use of the SAE index.</Description>
+	  </InformationURL>  
+		  <Association>
+			  <AssociationID>spase://SMWG/Observatory/Ground/GIMA</AssociationID> 
+			  <AssociationType>PartOf</AssociationType> 
+		  </Association>
+		  <Association>
+			  <AssociationID>spase://SMWG/Observatory/Ground/DTU</AssociationID> 
+			  <AssociationType>PartOf</AssociationType> 
+		  </Association>
+		  <Association>
+              <AssociationID>spase://SMWG/Observatory/Ground/CANMOS</AssociationID>
+              <AssociationType>PartOf</AssociationType>
+          </Association>
+	      <Association>
+              <AssociationID>spase://SMWG/Observatory/Ground/TGO</AssociationID>
+              <AssociationType>PartOf</AssociationType>
+          </Association>
+	      <Association>
+              <AssociationID>spase://SMWG/Observatory/Ground/Leirvogur</AssociationID>
+              <AssociationType>PartOf</AssociationType>
+          </Association>
+	      <Association>
+              <AssociationID>spase://SMWG/Observatory/Ground/GMAG</AssociationID>
+              <AssociationType>PartOf</AssociationType>
+          </Association>	
+	      <Association>
+              <AssociationID>spase://SMWG/Observatory/Ground/CARISMA</AssociationID>
+              <AssociationType>PartOf</AssociationType>
+          </Association>
+	</ResourceHeader>  
+    <AccessURL>
+        <Name>Virtual Magnetospheric Observatory</Name>
+        <URL>http://vmo.igpp.ucla.edu/data1/NAE</URL>
+        <Description>Northern auroral electrojet indices are closely assocaited with the southern auroral electrojet indices.</Description>
+    </AccessURL>
+  </Repository>
+</Spase>

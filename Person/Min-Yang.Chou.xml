@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2.6.0.xsd">
+   <Version>2.6.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Min-Yang.Chou</ResourceID>
+      <ReleaseDate>2023-09-29T12:34:56.789</ReleaseDate>
+      <PersonName>Min-Yang Chou</PersonName>
+      <OrganizationName>NASA Goddard Space Flight Center, Community Coordinated Modeling Center (CCMC)</OrganizationName>
+      <Address>Mail Code 674, Greenbelt, MD 20771</Address>
+      <Email>min-yang.chou@nasa.gov</Email>
+      <PhoneNumber>+1 301 286 6390</PhoneNumber>
+   </Person>
+</Spase>

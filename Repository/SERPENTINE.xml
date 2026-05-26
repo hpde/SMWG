@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
+   <Repository>
+      <ResourceID>spase://SMWG/Repository/SERPENTINE</ResourceID>
+      <ResourceHeader>
+         <ResourceName>SERPENTINE PROJECT DATA CENTER</ResourceName>
+         <ReleaseDate>2026-04-07T17:28:50</ReleaseDate>
+         <Description>The Solar EneRgetic ParticlE aNalysis plaTform for the INner hEliosphere (SERPENTINE) project will answer several outstanding questions about the origin of large gradual and widespread Solar Energetic Particle (SEP) events. SERPENTINE will generate five different catalogs of transient phenomena related with SEP events and a series of new level-3 data products for the Solar Orbiter and BepiColombo missions. These high-level data products will be provided to the community through the SERPENTINE Project Data Center website.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Olga.Y.Uritskaya</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+      </ResourceHeader>
+      <AccessURL>
+         <URL>https://data.serpentine-h2020.eu/</URL>
+      </AccessURL>
+   </Repository>
+</Spase>

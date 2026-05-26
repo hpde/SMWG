@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/ISEE3/HECR</ResourceID>
     <ResourceHeader>
       <ResourceName>High-Energy Cosmic Rays</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:15Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>This experiment was designed to determine the isotopic abundance in the primary cosmic rays for hydrogren through nickel. The instrument used a 10-element solid-state particle telescope consisting of lithium-drifted silicon detectors. Energy ranges measured ran from approximately 20 to approximately 500 MeV/nucleon.  The direction of incident nuclei was obtained from a six-plane drift chamber with 2-deg resolution.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Mark.E.Wiedenbeck</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1978-079A-05</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1978-079A-05</URL>
         <Description>Information about the HECR instrument on the ISEE 3 mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>High-Energy Cosmic Rays</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/ISEE3</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

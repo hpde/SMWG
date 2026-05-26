@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_4.xsd">
+  <Version>2.3.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/ICON/IVM</ResourceID>
+    <ResourceHeader>
+      <ResourceName>The Ion Velocity Meter</ResourceName>
+	  <AlternateName>IVM</AlternateName>
+      <ReleaseDate>2021-07-20T13:41:27Z</ReleaseDate>
+      <Description>The IVM consists of two planar thermal ion sensors, a retarding potential analyzer (RPA) and an ion drift meter (IDM).</Description>
+	  <Acknowledgement>National Aeronautics and Space Administration; Dr. Rod Heelis</Acknowledgement>
+	  <Funding>
+		<Agency>National Aeronautics and Space Administration</Agency>
+		<Project>Explorers Program</Project>
+		<AwardNumber>contracts NNG12FA44C</AwardNumber>
+	  </Funding>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Roderick.A.Heelis</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Additional information on ICON</Name>
+        <URL>https://en.wikipedia.org/wiki/Ionospheric_Connection_Explorer</URL>
+        <Description>More details on the ICON spacecraft.</Description>
+      </InformationURL>
+	  <InformationURL>
+        <Name>Additional information on ICON</Name>
+        <URL>https://icon.ssl.berkeley.edu/</URL>
+        <Description>ICON spacecraft Homepage.</Description>
+      </InformationURL>
+	  <InformationURL>
+        <Name>The Ionospheric Connection Explorer mission: mission goals and design</Name>
+        <URL>https://doi.org/10.1007/s11214-017-0449-2</URL>
+        <Description>Space Science Reviews, 214:13 (36pp.). Public access. DOI: 10.1007/s11214-017-0449-2</Description>
+      </InformationURL>
+	  <InformationURL>
+        <Name>Ion Velocity Measurements for the Ionospheric Connections Explorer</Name>
+        <URL>https://doi.org/10.1007/s11214-017-0383-3</URL>
+        <Description>Space Science Reviews, 212(1-2), pp.615-629. DOI: 10.1007/s11214-017-0383-3</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>IonDrift</InstrumentType>
+	<InvestigationName>Ion Velocity Meter</InvestigationName>
+	<OperatingSpan>
+		<StartDate>2019-10-11T02:00:00Z</StartDate>
+	</OperatingSpan>
+	<ObservatoryID>spase://SMWG/Observatory/ICON</ObservatoryID>
+  </Instrument>
+</Spase>

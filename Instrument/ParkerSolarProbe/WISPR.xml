@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+   <Version>2.3.2</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/ParkerSolarProbe/WISPR</ResourceID>
+      <ResourceHeader>
+         <ResourceName>PSP Wide-field Imager for Solar Probe, WISPR, Instrument</ResourceName>
+         <AlternateName>PSP WISPR Instrument</AlternateName>
+         <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+               <Note>Updated to SPASE Version 2.3.2 if needed, Applied quality conntrol for DOI usage, LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The Wide-field Imager for Solar Probe, WISPR, is a system of two visible light cameras designed to take images of the solar corona and inner heliosphere, as well as solar wind shocks and other structures as they approach and pass the spacecraft. The science objectives of the instrument are to understand the morphology, velocity, acceleration, and density of evolving solar wind structures when they are close to the Sun, to derive the 3D structure of the solar corona through which in-situ measurements are made to determine the sources of the solar wind, to determine the roles of turbulence, waves, and pressure-balanced structures in the solar wind, and to measure the physical properties of solar energetic particle producing shocks and their coronal mass ejection drivers as they evolve in the corona and inner heliosphere.
+
+The Wide-field Imager for Solar Probe consists of two telescopes, designated the Outer Telescope and the Inner Telescope, mounted on the the side of the spacecraft behind the sunshield. The telescopes look in the direction of spacecraft travel off to the side of the Sun from behind the sunshield. The Inner Telescope views an area from 58.5 degrees; from the center of the Sun to 98.5 degrees. The Outer Telescope views from 98.5 to 156.5 degrees; offset from the Sun center. The telescopes focus onto two imagers that use radiation-hardened 2K x 2K Active Pixel Sensor CMOS detectors. The telescope lenses are made of radiation hard BK7 glass. A combination of baffle systems is used to mitigate stray light coming into the instruments. The image cadence can be up to one per second.</Description>
+         <Acknowledgement>Please acknowledge the National Aeronautics and Space Administration, NASA, the Deutsches Zentrum fur Luft- und Raumfahrt, the Belgian Science Policy Office, and the French Centre National d&apos;Etudes Spatiales, CNES</Acknowledgement>
+         <Funding>
+            <Agency>National Aeronautics and Space Administration, Living With a Star, LWS, Program</Agency>
+            <Project>Parker Solar Probe WISPR Interagency Agreement</Project>
+            <AwardNumber>NNG11EK11I</AwardNumber>
+         </Funding>
+         <Funding>
+            <Agency>Deutsches Zentrum fur Luft- und Raumfahrt</Agency>
+            <Project>Parker Solar Probe WISPR Interagency Agreement</Project>
+            <AwardNumber>FKZ 50OL1201</AwardNumber>
+         </Funding>
+         <Funding>
+            <Agency>Belgian Science Policy Office</Agency>
+            <Project>Parker Solar Probe WISPR Interagency Agreement</Project>
+         </Funding>
+         <Funding>
+            <Agency>French Centre National d&apos;Etudes Spatiales, CNES</Agency>
+            <Project>Parker Solar Probe WISPR Interagency Agreement</Project>
+         </Funding>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Russell.A.Howard</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Parker Solar Probe Mission Instrument Web Page, JPL</Name>
+            <URL>http://parkersolarprobe.jhuapl.edu/Spacecraft/index.php#Instruments</URL>
+            <Description>Parker Solar Probe Mission Instrument Web Page, NASA Jet Propulsion Laboratory, JPL</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>Parker Solar Probe Mission Instrument Web Page, NASA</Name>
+            <URL>https://www.nasa.gov/content/goddard/parker-solar-probe-instruments/</URL>
+            <Description>Additional information on the Parker Solar Probe Instruments</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>ParkerSolarProbe Wide-field Imager for Solar Probe, WISPR Instrument paper, Published by Space Sci. Rev., Date: 2015-02-11</Name>
+            <URL>https://doi.org/10.1007/s11214-014-0114-y</URL>
+            <Description>Author List: Vourlidas, A., Howard, R. A., Plunkett, S. P., Korendyke, C. M., Thernisien, A. F. R., Wang, D., Rich, N., Carter, M. T., Chua, D. H., Socker, D. G., Linton, M. G., Morrill, J. S., Lynch, S., Thurn, A., Van Duyne, P., Hagood, R., Clifford, G., Grey, P. J., Velli, M. C., Liewer, P. C., Hall, J. R., DeJong, E. M., Mikic, Z., Rochus, P., Mazy, E., Bothmer, V., &amp; Rodmann, J.</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>Parker Solar Probe WISPR Instrument Suite, NSSDC Master Catalog Listing</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2018-065A-03</URL>
+            <Description>NSSDC Master Catalog Listing for the Parker Solar Probe Wide-field Imager for Solar PRobe, WISPR, Instrument Suite, NSSDCA/COSPAR ID: 2018-065A-03</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Coronograph</InstrumentType>
+      <InvestigationName>Parker Solar Probe WISPR Investigation</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2018-08-12T07:31:00</StartDate>
+         <Note>Parker Solar Probe Launch Date and Time until data are available</Note>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/ParkerSolarProbe</ObservatoryID>
+   </Instrument>
+</Spase>

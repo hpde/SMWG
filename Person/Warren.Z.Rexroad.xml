@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.4.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Warren.Z.Rexroad</ResourceID>
+      <ReleaseDate>2022-02-26T12:34:56.789</ReleaseDate>
+      <PersonName>Warren Z. Rexroad</PersonName>
+      <OrganizationName>University of California</OrganizationName>
+   </Person>
+</Spase>

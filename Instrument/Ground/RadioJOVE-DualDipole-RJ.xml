@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.4.0</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Ground/RadioJOVE-DualDipole-RJ</ResourceID>
+      <ResourceHeader>
+         <ResourceName>RadioJOVE Dual Dipole Array and RadioJOVE receiver system</ResourceName>
+         <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+               <Note>RadioJOVE: Update obsolete radiojove.gsfc.nasa.gov and www.typnet.net URLs, Resource Header Description reformated. Metadata submitted by J.M. Weygand on 2022-02-11, reviewed by LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>RadioJOVE Dual Dipole Array and RadioJOVE receiver system.
+
+The Dual-Dipole Array is a 2 element array separated by 20 feet. Each antenna element is approximately 25 feet long. Polarization is linear. The antenna beam pattern can be steered by adjusting the height of the antennas and through the introduction of a phasing cable to the transmission line from one of the dipole antennas. See the Antenna Kit Manual for details.
+
+The RadioJOVE direct conversion receiver has a 7 KHz RF bandwidth and operates at 20.1 MHz. Integration time is 100 ms per sample.
+
+See the Information URLs for links to documents providing additional descriptions of the instrument characteristics.
+
+The Dual Dipole Array and RadioJOVE Receiver system is the standard configuration for many of the Radio JOVE observatories.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.R.Thieman</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>RadioJOVE Spectrograph Users Group</Name>
+            <URL>http://radiojove.org/SUG/</URL>
+            <Description>This site provide station diagrams and other reports for the receiver systems at several radio observatories associated with the RadioJOVE project.</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>JOVE RJ1.1 Receiver Kit Assembly Manual 2012</Name>
+            <URL>https://radiojove.gsfc.nasa.gov/radio_telescope/rcvr_manual.pdf</URL>
+            <Description>Receiver Kit and Manual developed for NASA JOVE Project by Richard S. Flagg, RF Associates</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>Radio JOVE RJ1.2 Antenna Kit Assembly Manual 2012</Name>
+            <URL>https://radiojove.gsfc.nasa.gov/radio_telescope/ant_manual.pdf</URL>
+            <Description>Antenna Kit and Manual developed for NASA Radio JOVE Project by The Radio JOVE Project Team</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Riometer</InstrumentType>
+      <InvestigationName>RadioJOVE phased Dual Dipole Array and RadioJOVE receiver system</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/RadioJOVE</ObservatoryID>
+   </Instrument>
+</Spase>

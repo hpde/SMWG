@@ -1,0 +1,11 @@
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+     xmlns="http://www.spase-group.org/data/schema" 
+     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+	<ResourceID>spase://SMWG/Person/Eric.J.Korpela</ResourceID>
+	<ReleaseDate>2026-02-19T00:00:00Z</ReleaseDate>
+	<PersonName>Eric J Korpela</PersonName>
+	<OrganizationName>Space Sciences Laboratory, UC Berkeley</OrganizationName>
+  </Person>
+</Spase>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_6_1.xsd">
+   <Version>2.6.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Sami.K.Solanki</ResourceID>
+      <OrganizationName>Max-Planck-Institut fur Solar System Research</OrganizationName>
+      <Email>solanki-office@mps.mpg.de</Email>
+      <ORCIdentifier>0000-0002-3418-8449</ORCIdentifier>
+   </Person>
+</Spase>

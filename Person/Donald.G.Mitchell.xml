@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Donald.G.Mitchell</ResourceID>
-    <PersonName>Dr. Donald G. Mitchell</PersonName>
-    <OrganizationName>Applied Physics Laboratory</OrganizationName>
-  </Person>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Donald.G.Mitchell</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <PersonName>Donald G. Mitchell</PersonName>
+      <OrganizationName>Applied Physics Laboratory</OrganizationName>
+      <RORIdentifier>029pp9z10</RORIdentifier>
+   </Person>
 </Spase>

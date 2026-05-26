@@ -5,22 +5,22 @@
     <ResourceID>spase://SMWG/Instrument/UARS/SUSIM</ResourceID>
     <ResourceHeader>
       <ResourceName>SUSIM</ResourceName>
-      <ReleaseDate>2010-05-19T20:52:50Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The UARS Solar Ultraviolet Spectral Irradiance Monitor
-(SUSIM) is a dual dispersion spectrometer instrument that measured the 
-solar spectrum in the 115-410 nm range at 1 (0.15) nm resolution daily 
+(SUSIM) is a dual dispersion spectrometer instrument that measured the
+solar spectrum in the 115-410 nm range at 1 (0.15) nm resolution daily
 (weekly).</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Guenter.E.Brueckner</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSDC Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1991-063B-08</URL>
-      </InformationURL>
-    </ResourceHeader>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1991-063B-08</URL>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Spectrometer</InstrumentType>
     <InvestigationName>SUSIM</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/UARS</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

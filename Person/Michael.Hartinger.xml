@@ -1,11 +1,11 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-    <Version>2.2.2</Version>
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_6_0.xsd">
+    <Version>2.6.0</Version>
     <Person>
         <ResourceID>spase://SMWG/Person/Michael.Hartinger</ResourceID>
-        <ReleaseDate>2010-12-13T00:00:00</ReleaseDate>
+        <ReleaseDate>2024-06-15T00:00:00</ReleaseDate>
         <PersonName>Michael Hartinger</PersonName>
-        <OrganizationName>UCLA</OrganizationName>
-        <Email>mhartinger@ucla.edu</Email>
+        <OrganizationName>Space Science Institute</OrganizationName>
+        <Email>mhartinger@spacescience.org</Email>
     </Person>
 </Spase>

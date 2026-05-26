@@ -5,18 +5,13 @@
     <ResourceID>spase://SMWG/Instrument/McMAC/Americus/Magnetometer</ResourceID>
     <ResourceHeader>
       <ResourceName>Americus (AMER) Fluxgate Magnetometer</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:16Z</ReleaseDate>
+      <ReleaseDate>2021-07-20T13:41:27Z</ReleaseDate>
       <Description>The magnetometer at the McMAC Americus station</Description>
       <Acknowledgement>The operation of the Americus fluxgate magnetometer is managed by Emporia State University.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Peter.J.Chi</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
-      <InformationURL>
-        <Name>Information web site concerning McMAC Americus (AMER) Ground Magnetic Field Data</Name>
-        <URL>http://spc.igpp.ucla.edu/mcmac/stations/mcmac/americus.html</URL>
-        <Description>Information about the McMAC Americus Ground Magnetometer Station</Description>
-      </InformationURL>
     </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Mid-continent Magnetoseismic Chain (McMAC)</InvestigationName>

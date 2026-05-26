@@ -6,20 +6,20 @@
     <ResourceHeader>
       <ResourceName>UK Solar System Data Centre</ResourceName>
       <AlternateName>UKSSDC</AlternateName>
-      <ReleaseDate>2016-11-09T21:10:00Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>STEREO Science Center, NASA/Goddard</Description>
       <Contact>
-        <PersonID>Stephen.Crothers</PersonID>
+        <PersonID>spase://SMWG/Person/Stephen.Crothers</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>UK Solar System Data Centre</Name>
-        <URL>http://www.ukssdc.rl.ac.uk/</URL>
-      </InformationURL>
-    </ResourceHeader>
+        <URL>https://www.ukssdc.ac.uk/</URL>
+</InformationURL>
+</ResourceHeader>
     <AccessURL>
       <Name>UK Solar System Data Centre</Name>
-      <URL>http://www.ukssdc.rl.ac.uk/</URL>
-    </AccessURL>
-  </Repository>
+      <URL>https://www.ukssdc.ac.uk/</URL>
+</AccessURL>
+</Repository>
 </Spase>

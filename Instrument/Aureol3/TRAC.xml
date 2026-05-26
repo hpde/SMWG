@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/Aureol3/TRAC</ResourceID>
     <ResourceHeader>
       <ResourceName>TRAC (Fluxgate Magnetometer)</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:01Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>This experiment used a triaxial fluxgate magnetometer primarily intended for spacecraft attitude determination and control, plus extra electronics needed to give magnetic field measurements of sufficient sensitivity and accuracy to study fields associated with field aligned currents. Normal spacecraft systems produced 8-bit magnetic field measurements, corresponding to +/- 200 nT precision. Special electronics (the TRAC system) produced a 12-bit measurement every 43-sec, plus 8-bit digitizations for the differences between N magnetic vectors/sec and the immediately preceding 43-sec digitized value. N ranged between 0.4 and 100 for the four available memory (ZAP) modes. Full magnetic vectors at full time resolution were reconstructed during ground data processing. With this approach, both the time resolution and precision (+/- 5 nT) of the data enable study of field-aligned current phenomena. Useful data were produced for the full life of the spacecraft (1981-1986). See Berthelier et al, Ann. Geophys., 38, 635, 1982, for further details.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Jean-Jacques.Berthelier</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1981-094A&amp;ex=11</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1981-094A&amp;ex=11</URL>
         <Description>Information about the TRAC (Fluxgate Magnetometer) experiment on the Aureol 3 mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>TRAC (Fluxgate Magnetometer) on Aureol 3</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Aureol3</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

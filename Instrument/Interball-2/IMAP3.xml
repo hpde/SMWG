@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Instrument/Interball-2/IMAP3</ResourceID>
     <ResourceHeader>
       <ResourceName>Three-Axis Magnetic Field (IMAP-3)</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:10Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The IMAP-3 magnetic field experiment is designed to study the following processes in the Earth's plasma environment: structure of the inner magnetosphere magnetic field; structure of the small scale field-aligned currents; dynamics of the field-aligned currents during substorms; and relation of the processes in the auroral zone and in the tail.
 The IMAP-3 was designed and manufactured under cooperation of IZMIRAN (http://www.izmiran.rssi.ru), NPL SDS (Bulgaria) and PIC GPI of RAS.
 The instrument is designed to measure three components of the DC magnetic field in two ranges: +/- 6800 nT with resolution 1 nT and +/- 68000 nT with resolution 10 nT. Usually magnetometer data are transmitted to the scientific SSNI telemetry system at a rate of one vector per 3 seconds; during special intervals data are transmitted to telemetry at 2 or 8 vectors second depending on the instrument operating mode.
@@ -13,15 +13,15 @@ The spacecraft was launched on 29 August 1996. The IMAP-3 was initially tested o
       <Contact>
         <PersonID>spase://SMWG/Person/Ivan.S.Arshinkov</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1996-050C&amp;ex=5</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1996-050C&amp;ex=5</URL>
         <Description>Information about the Three-Axis Magnetic Field (IMAP-3) experiment on the Interball Auroral Probe mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Three-Axis Magnetic Field (IMAP-3) on Interball Auroral Probe</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Interball-2</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

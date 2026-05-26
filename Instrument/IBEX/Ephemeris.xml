@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+   <Version>2.3.2</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/IBEX/Ephemeris</ResourceID>
+      <ResourceHeader>
+         <ResourceName>IBEX Spacecraft Ephemeris Instrument</ResourceName>
+         <AlternateName>IBEX Spacecraft Position</AlternateName>
+         <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+               <Note>Updated to SPASE Version 2.3.2 if needed, Applied quality conntrol for DOI usage, LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>Interstellar Boundary Explorer, IBEX, Spacecraft Ephemeris Virtual Instrument: The NASA Interstellar Boundary Explorer, IBEX, spacecraft was launched on October 19, 2008 to discover the interaction between the solar wind and the interstellar medium. Its two energetic neutral atom, ENA, instruments measure 10 eV to 6 keV ENAs indicative of charged particle populations near and beyond the heliospheric termination shock. The spacecraft is in a geocentric, 8-day orbit between 7000 km and 37 Re. Its spin axis is adjusted each orbit to point towards the sun. Its two ENA detectors look normal to the spin axis, thus measuring 360&#176; swaths of the sky each 15 s spacecraft spin. The full sky is measured every 6 months.</Description>
+         <Acknowledgement>Please acknowledge the National Aeronautics and Space Administration, NASA, and the IBEX Mission Principal Investigator, David J. McComas, Princeton University.</Acknowledgement>
+         <Funding>
+            <Agency>National Aeronautics and Space Administration, Living With a Star, LWS, Program</Agency>
+            <Project>Interstellar Boundary Explorer, IBEX, Mission</Project>
+         </Funding>
+         <Contact>
+            <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Robert.M.Candey</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>IBEX Mission, Instrument, and Data Release Description, SwRI</Name>
+            <URL>http://ibex.swri.edu/</URL>
+            <Description>Interstellar Boundary Explorer, IBEX, Mission, Instrument, and Data Release Description, hosted by the Southwest Research Institute, SwRI</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>IBEX overview web page, hosted by SwRI</Name>
+            <URL>http://ibex.swri.edu/researchers/index.shtml</URL>
+            <Description>Interstellar Boundary Explorer, IBEX, overview web page with links to published descriptive and scienctific publications, hosted by Southwest Research Institute, SwRI</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>Interstellar Boundary Explorer, IBEX, Mission paper, Published by Space Sci. Rev., Date: 2009-04-18</Name>
+            <URL>https://doi.org/10.1007/s11214-009-9499-4</URL>
+            <Description>Author List: McComas, D. J., Allegrini, F., Bochsler, P., Bzowski, M., Collier, M., Fahr, H., Fichtner, H., Frisch, P., Funsten, H. O., Fuselier, S. A., Gloeckler, G., Gruntman, M., Izmodenov, V., Knappenberger, P., Lee, M., Livi, S., Mitchell, D. G., Mobius, E., Moore, T., Pope, S., Reisenfeld, D., Roelof, E. C., Scherrer, J., Schwadron, N. A., Tyler, R., Wieser, M., Witte, M., Wurz, P., &amp; Zank, G.</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>Interstellar Boundary Explorer, IBEX, Spacecraft, NSSDC Master Catalog Listing</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2008-051A</URL>
+            <Description>NSSDC Master Catalog Listing for the Interstellar Boundary Explorer, IBEX, Spacecraft, NSSDCA/COSPAR ID: 2008-051A</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Platform</InstrumentType>
+      <InvestigationName>Interstellar Boundary Explorer, IBEX, Spacecraft Ephemeris</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2008-10-19T17:47:00</StartDate>
+         <Note>Interstellar Boundary Explorer, IBEX, launch date and time</Note>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/IBEX</ObservatoryID>
+   </Instrument>
+</Spase>

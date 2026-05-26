@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.4.0</Version>
+  <Document>
+    <ResourceID>spase://SMWG/Document/HAPI/Specification/3.0.0</ResourceID>
+    <ResourceHeader>
+      <ResourceName>The Heliophysics Application Programmer's Interface Specification 3.0.0</ResourceName>
+      <DOI>https://doi.org/10.5281/zenodo.4757597</DOI>
+      <ReleaseDate>2021-04-01T00:00:00.000Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2021-04-01T00:00:00.000Z</ReleaseDate>
+          <Note>Release 3.0.0. Initial release of specification.</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>This specification describes a data delivery standard for time series data.
+      It is used within the Heliophysics community, but is generic in that it offers a very simple interface for serving data, 
+      similar to what many providers are already using. This version of the specification has a few changes from
+      the previous version - see the update list at the beginning.  There are various Github projects providing software
+      implementing server and client elements that use the standard.nents of such
+      a data delivery system. This includes repositories, registries and services.</Description>
+      <Acknowledgement>SPASE Group</Acknowledgement>
+      <PublicationInfo>
+        <Authors>Weigel, Robert, Vandegriff, Jon, Faden, Jeremy, Roberts, D. Aaron, King, Todd, Candey, Robert, Harris, Bernard.</Authors>
+        <PublicationDate>2021-04-01T00:00:00.000Z</PublicationDate>
+        <PublishedBy>Zenodo</PublishedBy>
+      </PublicationInfo>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Robert.S.Weigel</PersonID>
+        <Role>Publisher</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/Zenodo</RepositoryID>
+      <AccessURL>
+        <URL>https://zenodo.org/record/4757597/files/HAPI-data-access-spec-3.0.0.pdf?download=1</URL>
+      </AccessURL>
+      <Format>PDF</Format>
+    </AccessInformation>
+    <Keyword>HAPI</Keyword>
+    <Keyword>Specification</Keyword>
+    <DocumentType>Specification</DocumentType>
+    <MIMEType>application/pdf</MIMEType>
+  </Document>
+</Spase>

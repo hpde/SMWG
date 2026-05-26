@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
   xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_3.xsd">
   <Version>2.2.3</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Ground/BBSO/GONG</ResourceID>
     <ResourceHeader>
       <ResourceName>Global Oscillation Network Group (GONG) at BBSO</ResourceName>
-      <ReleaseDate>2015-10-20T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Global Oscillation Network Group (GONG) is a community-based program to conduct a detailed study of solar internal structure and dynamics using helioseismology. In order to exploit this new technique, GONG has developed a six-station network of extremely sensitive, and stable velocity imagers located around the Earth to obtain nearly continuous observations of the Sun's "five-minute" oscillations, or pulsations</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/John.W.Harvey
 </PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>The GONG Instrument</Name>
-        <URL>http://gong.nso.edu/instrument/</URL>
+        <URL>https://gong.nso.edu/instrument/</URL>
         <Description>Information about the Global Oscillation Network Group (GONG) instrument.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Interferometer</InstrumentType>
     <InstrumentType>Imager</InstrumentType>
   <InvestigationName>GONG instrument at the Big Bear Solar Observatory, California, USA</InvestigationName>
      <ObservatoryID>spase://SMWG/Observatory/Ground/BBSO</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

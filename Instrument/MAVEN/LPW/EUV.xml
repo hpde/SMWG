@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+   <Version>2.3.2</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/MAVEN/LPW/EUV</ResourceID>
+      <ResourceHeader>
+         <ResourceName>MAVEN Langmuir Probe and Waves, LPW, Extreme Ultraviolet Monitor, EUV, Instrument</ResourceName>
+         <AlternateName>MAVEN LPW/EUV Instrument</AlternateName>
+         <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+               <Note>Updated to SPASE Version 2.3.2 if needed, Applied quality conntrol for DOI usage, LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The Extreme Ultraviolet, EUV, Monitor is an Instrument on the NASA Mars Atmosphere and Volatile EvolutioN, MAVEN, Mission, designed to measure the Variability of the Solar Soft X-rays and EUV Irradiance at Mars. The Solar Output in this Wavelength Range is a primary Energy Input to the Mars Atmosphere and a Driver for the Processes leading to Atmospheric Escape. The MAVEN EUV Monitor consists of three broadband Radiometers. The Radiometers consist of Silicon Photodiodes with different bandpass-limiting Filters for each Channel. The Filters for the Radiometers are:
+
+Channel A: Thin Foil C/Al/Nb/C for 0.1 nm to 3 nm and 17 nm to 22 nm,
+
+Channel B: Thin Foil C/Al/Ti/C for 0.1 nm to 7 nm,
+
+Channel C: Interference Filter for 121 nm to 122 nm,
+
+A fourth, covered Photodiode is used to monitor Variations in Dark Signal due to Temperature and Radiation Background Changes.
+
+The three Science Channels will monitor Emissions from the highly variable Corona and Transition Region of the Solar Atmosphere. The EUV Monitor is mounted on the top Deck of the MAVEN Spacecraft and is pointed at the Sun for most of its Orbit around Mars. The Measurement Cadence is 1 s. The broadband Irradiances can be used to monitor the most rapid Changes in Solar Irradiance due to Flares. In combination with time-interpolated Observations at Earth of slower varying Solar Spectral Emissions, the broadband MAVEN EUV monitor Measurements will also be used in a Spectral Irradiance Model to generate the full EUV Spectrum at Mars from 0 nm to 190 nm in 1 nm Bins on a Time Cadence of 1 min and Daily Averages.
+
+The EUV Monitor for MAVEN is a Part of Langmuir Probe and Waves, LPW, Experiment (Andersson et al., 2014), which, in turn, is Part of the Particles and Fields Package (PFP). The EUV Monitor is a simple Instrument consisting of Filter Radiometers to measure Solar Irradiance in three broad Wavelength Bands. The Radiometers consist of Photodiodes with bandpass-limiting Filters to isolate Wavelength Ranges of Interest in the Solar Irradiance. Similar Instruments have flown on the Student Nitric Oxide Explorer, SNOE, Mission (Bailey et al., 2000), the Thermosphere Ionosphere Mesosphere Energetics and Dynamics, TIMED, (Woods et al., 2005a), and the Solar Radiation and Climate Experiment, SORCE (Woods et al., 2005b).
+
+This Description has been adapted from The Abstract and Introduction of Eparvier, F.G., Chamberlin, P.C., Woods, T.N. et al. Space Sci. Rev. (2015) 195: 293. https://doi.org/10.1007/s11214-015-0195-2.</Description>
+         <Acknowledgement>National Aeronautics and Space Administration, NASA, Laboratory for Atmospheric and Space Physics, LASP, University of Colorado, Boulder</Acknowledgement>
+         <Funding>
+            <Agency>National Aeronautics and Space Administration, Mars Scout Program</Agency>
+            <Project>MAVEN Langmuir Probe and Waves, Extreme Ultraviolet Monitor Investigation</Project>
+            <AwardNumber>UNKNOWN</AwardNumber>
+         </Funding>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Robert.E.Ergun</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>The Mars Atmosphere and Volatile Evolution, MAVEN, Langmuir Probe and Waves, LPW, Extreme Ultraviolet Monitor Instrument Home Page, LASP, UC Boulder</Name>
+            <URL>https://lasp.colorado.edu/home/maven/science/instrument-package/lpw/extreme-ultraviolet-euv-monitor/</URL>
+            <Description>The Mars Atmosphere and Volatile Evolution, MAVEN, Langmuir Probe and Waves, LPW, Extreme Ultraviolet Monitor Instrument Home Page, Laboratory for Atmospheric and Space Physics, LASP, University of Colorado, Boulder</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>MAVEN Langmuir Probe and Waves, LPW, Extreme Ultraviolet Monitor, EUV, Instrument paper, Published by Space Sci. Rev., Date: 2015-09-01</Name>
+            <URL>https://doi.org/10.1007/s11214-015-0195-2</URL>
+            <Description>Author List: Eparvier, F. G., Chamberlin, P. C., Woods, T. N., &amp; Thiemann, E. M. B.</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>NSSDC Master Catalog Listing, MAVEN Langmuir Probe and Waves, LPW, Extreme Ultraviolet Monitor, EUV, Instrument</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2013-063A-04</URL>
+            <Description>NSSDC Master Catalog Listing for the MAVEN Langmuir Probe and Waves, LPW, Extreme Ultraviolet Monitor, EUV, Instrument, NSSDCA/COSPAR ID: 2013-063A-04</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Photometer</InstrumentType>
+      <InvestigationName>MAVEN Langmuir Probe and Waves, Extreme Ultraviolet Monitor Investigation</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2013-11-18T18:28:00</StartDate>
+         <Note>MAVEN Launch Date and Time until data are available</Note>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/MAVEN</ObservatoryID>
+   </Instrument>
+</Spase>

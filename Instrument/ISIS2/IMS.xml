@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/ISIS2/IMS</ResourceID>
     <ResourceHeader>
       <ResourceName>ISIS2 Ion Mass Spectrometer</ResourceName>
-      <ReleaseDate>2010-08-05T14:57:27Z</ReleaseDate>
-      <Description>The ISIS 2 (International Satellites for Ionospheric Studies) magnetic ion-mass spectrometer experiment measured the distribution of positive ion species as a function of time and position, with a particular focus on polar wind particles. The instrument had two ion detector systems, and mass scanning through the range from 1 to 64 atomic mass units (u) was accomplished in two sections, 1 to 8 u and 8 to 64 u. Two ion beams emerged from the magnetic sector of the instrument and were simultaneously detected by electron multipliers and log electrometer amplifiers. A circuit following each amplifier detected the peak amplitude of the ion current. That peak value, rather than the entire mass spectrum, was transmitted in order to reduce the required telemetry bandwidth. In that mode of operation, the complete mass range was scanned in 1 s. A backup mode was provided that produced an analog output with a sweep period of 8 s. This experiment operated nominally after launch with most of the data obtained in the peak mode and while the satellite operated in the cartwheel mode. For about 2 min per pass over Ottawa, Canada, the experiment operated in the analog mode. Inflight calibration was achieved by comparing ion concentration measurements at appropriate altitudes, i.e., where a single ion species predominated, with electron density data from the sounder on board. Other comparisons were made between the spectrometer output and measurements obtained from other related experiments on board. </Description>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The ISIS 2 (International Satellites for Ionospheric Studies) magnetic ion-mass spectrometer experiment measured the distribution of positive ion species as a function of time and position, with a particular focus on polar wind particles. The instrument had two ion detector systems, and mass scanning through the range from 1 to 64 atomic mass units (u) was accomplished in two sections, 1 to 8 u and 8 to 64 u. Two ion beams emerged from the magnetic sector of the instrument and were simultaneously detected by electron multipliers and log electrometer amplifiers. A circuit following each amplifier detected the peak amplitude of the ion current. That peak value, rather than the entire mass spectrum, was transmitted in order to reduce the required telemetry bandwidth. In that mode of operation, the complete mass range was scanned in 1 s. A backup mode was provided that produced an analog output with a sweep period of 8 s. This experiment operated nominally after launch with most of the data obtained in the peak mode and while the satellite operated in the cartwheel mode. For about 2 min per pass over Ottawa, Canada, the experiment operated in the analog mode. Inflight calibration was achieved by comparing ion concentration measurements at appropriate altitudes, i.e., where a single ion species predominated, with electron density data from the sounder on board. Other comparisons were made between the spectrometer output and measurements obtained from other related experiments on board.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1971-024A-06</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1971-024A-06</URL>
         <Description>Information about the Ion Mass Spectrometer on ISIS 2</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>MassSpectrometer</InstrumentType>
     <InvestigationName>Ion Mass Spectrometer on ISIS 2</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/ISIS2</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

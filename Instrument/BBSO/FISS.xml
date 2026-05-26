@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/BBSO/FISS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>FISS</ResourceName>
+      <AlternateName>Fast Imaging Solar Spectrograph</AlternateName>
+      <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+          <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>Development of Fast Imaging Solar Spectrograph (FISS) is a collaborative work between Seoul National University (SNU) and Korean Astronomy and Space Science Institute (KASI). FISS is an imaging spectrograph which adopts Echelle disperser with field-scanning method. Single paraboloid mirror is used as both collimator and imager, which can be regarded as quasi-Littrow configuration. Dispersed beams are collected by two CCD cameras that will be preceded by order-selecting narrowband filters, so that images of dual spectral bands can be acquired simultaneously. According to the orientation of the grating, we can get various kinds of dual-band combination. With this dual-band feature, we can distinguish thermal and non-thermal contribution to the spectral line profiles.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Unknown</PersonID>
+        <Role>HostContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>FISS Home Page</Name>
+        <URL>https://www.bbso.njit.edu/fiss.html</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>ImagingSpectrometer</InstrumentType>
+    <InvestigationName>Fast Imaging Solar Spectrograph (FISS) at the Big Bear Solar Observatory</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/BBSO</ObservatoryID>
+  </Instrument>
+</Spase>

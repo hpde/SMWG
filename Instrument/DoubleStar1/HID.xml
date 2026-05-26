@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/DoubleStar1/HID</ResourceID>
     <ResourceHeader>
       <ResourceName>HID (Heavy Ion Detector)</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:13Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>HID (Heavy Ion Detector) detects heavy ions of AMU&gt;4.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2003-061A&amp;ex=8</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2003-061A&amp;ex=8</URL>
         <Description>Information about the HID (Heavy Ion Detector) experiment on the Double Star 1 mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>HID (Heavy Ion Detector) on Double Star 1</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/DoubleStar1</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

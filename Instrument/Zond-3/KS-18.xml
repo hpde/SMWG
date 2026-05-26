@@ -6,22 +6,22 @@
         <ResourceHeader>
             <ResourceName>Energetic Particles, MSU-TASPD</ResourceName>
             <AlternateName>KS-18</AlternateName>
-            <ReleaseDate>2009-04-22T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>This experiment was one of several provided by the Theoretical and Applied Space Physics Division of the Skobeltsyn Institute of Nuclear Physics of Moscow State University. The experiments flew on the Soviet Zond, Luna, Mars, Venera, Vega, and Phobos interplanetary/planetary missions and measured energetic (MeV) particles in the interplanetary medium. The earliest missions (Zond 1 and 3) measured protons above 30 MeV. Later missions measured lower energy protons and some also measured fluxes toward and away from the sun. Many further details are available at: ftp://nssdc.gsfc.nasa.gov/pub/spacecraft_data/russian_msu/common_info.txt Data from all these experiments, unknown to NSSDC before 1999, were prepared at MSU and provided to NSSDC in 1999 in common ASCII formats and organizations.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/German.P.Lyubimov</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact> 
+</Contact>
             <InformationURL>
                 <Name>NSSDC Master Catalog</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1965-056A-02</URL>
+                <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1965-056A-02</URL>
                 <Description>Information about the Energetic Particles, MSU-TASPD experiment on the Zond 3 mission.</Description>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
         <InstrumentType>ParticleDetector</InstrumentType>
         <InvestigationName>Energetic Particles, MSU-TASPD on Zond 3</InvestigationName>
         <ObservatoryID>spase://SMWG/Observatory/Zond-3</ObservatoryID>
-    </Instrument>
+</Instrument>
 </Spase>
 
 

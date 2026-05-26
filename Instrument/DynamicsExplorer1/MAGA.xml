@@ -6,52 +6,52 @@
     <ResourceHeader>
       <ResourceName>Magnetic Field Observations (MAG-A)</ResourceName>
       <AlternateName>MAG-A</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:15Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>
          This investigation used a triaxial fluxgate magnetometer (MAG-A),
-         similar to one on board DE 2, to obtain vector magnetic 
+         similar to one on board DE 2, to obtain vector magnetic
          field data needed to study the magnetosphere-ionosphere-
          atmosphere coupling.
-         
+        
          The primary objective of this
-         investigation was to obtain measurements of field-aligned 
-         currents in the auroral oval and over the polar cap at two 
-         different altitudes. This was accomplished using the two 
-         spacecraft and correlations of these measurements with 
-         observations of electric fields, plasma waves, suprathermal 
-         particles, thermal particles, and auroral images obtained from 
-         investigation 81-070A-03. Ultra low frequency (ULF) waves were 
+         investigation was to obtain measurements of field-aligned
+         currents in the auroral oval and over the polar cap at two
+         different altitudes. This was accomplished using the two
+         spacecraft and correlations of these measurements with
+         observations of electric fields, plasma waves, suprathermal
+         particles, thermal particles, and auroral images obtained from
+         investigation 81-070A-03. Ultra low frequency (ULF) waves were
          also studied.
-         
+        
          The magnetometer incorporated its own 12-bit
-         analog-to-digital converter, a 4-bit digital compensation 
+         analog-to-digital converter, a 4-bit digital compensation
          register for each axis, and a system control to generate a 48-
-         bit data word consisting of a 16-bit representation of the 
-         field measured along each of the three magnetometer axes. Track 
-         and hold modules were used to obtain simultaneous samples on 
-         all three axes. Instrument bandwidth was 25 Hz. The instrument 
-         dynamic range was plus or minus 6.2E4 nT, and the resolution 
-         was plus or minus 1.5 nT in the 6.2E4 nT region, plus or minus 
-         0.25 nT in the 1.E3 nT region, and plus or minus 0.02 nT in the 
-         80 nT region. The magnetometer's digital compensation of the 
+         bit data word consisting of a 16-bit representation of the
+         field measured along each of the three magnetometer axes. Track
+         and hold modules were used to obtain simultaneous samples on
+         all three axes. Instrument bandwidth was 25 Hz. The instrument
+         dynamic range was plus or minus 6.2E4 nT, and the resolution
+         was plus or minus 1.5 nT in the 6.2E4 nT region, plus or minus
+         0.25 nT in the 1.E3 nT region, and plus or minus 0.02 nT in the
+         80 nT region. The magnetometer's digital compensation of the
          ambient field was nominally in 8.E3 nT increments.
-         
+        
          Further
-         details are in W. H. Farthing et al., Space Sci. Instrum., v. 
+         details are in W. H. Farthing et al., Space Sci. Instrum., v.
          5, n. 4, p. 551, 1981.
-      	</Description>
+</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Masahisa.Sugiura</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/masterCatalog.do?sc=1981-070A&amp;ex=1</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1981-070A&amp;ex=1</URL>
         <Description>Information about the Magnetic Field Observations (MAG-A) experiment on the Dynamics Explorer 1 mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Magnetic Field Observations (MAG-A) on Dynamics Explorer 1</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/DynamicsExplorer1</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_4.xsd">
+  <Version>2.3.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/ICON/EUV</ResourceID>
+    <ResourceHeader>
+      <ResourceName>The Extreme Ultraviolet Spectrograph</ResourceName>
+	  <AlternateName>EUV</AlternateName>
+      <ReleaseDate>2021-01-01T00:00:00Z</ReleaseDate>
+      <Description>The EUV instrument is a one-dimensional imaging spectrograph that views a vertical wedge of the sky. Using the spacecraft motion, it forms a two-dimensional image of the sky as this wedge moves horizontally in a "push-broom" configuration.</Description>
+	  <Acknowledgement>National Aeronautics and Space Administration; Dr. Jerry Edelstein</Acknowledgement>
+	  <Funding>
+		<Agency>National Aeronautics and Space Administration</Agency>
+		<Project>Explorers Program</Project>
+		<AwardNumber>contracts NNG12FA45C and NNG12FA42I</AwardNumber>
+	  </Funding>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jerry.Edelstein</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Additional information on ICON</Name>
+        <URL>https://en.wikipedia.org/wiki/Ionospheric_Connection_Explorer</URL>
+        <Description>More details on the ICON spacecraft.</Description>
+      </InformationURL>
+	  <InformationURL>
+        <Name>Additional information on ICON</Name>
+        <URL>https://icon.ssl.berkeley.edu/</URL>
+        <Description>ICON spacecraft Homepage.</Description>
+      </InformationURL>
+	  <InformationURL>
+        <Name>The Ionospheric Connection Explorer mission: mission goals and design</Name>
+        <URL>https://doi.org/10.1007/s11214-017-0449-2</URL>
+        <Description>Space Science Reviews, 214:13 (36pp.). Public access. DOI: 10.1007/s11214-017-0449-2</Description>
+      </InformationURL>
+	  <InformationURL>
+        <Name>Design and Performance of the ICON EUV Spectrograph</Name>
+        <URL>https://doi.org/10.1007/s11214-017-0384-2</URL>
+        <Description>Space Science Reviews, 212(1-2), pp.631-643. DOI: 10.1007/s11214-017-0384-2</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>ImagingSpectrometer</InstrumentType>
+	<InvestigationName>Extreme Ultraviolet Spectrograph</InvestigationName>
+	<OperatingSpan>
+		<StartDate>2019-10-11T02:00:00Z</StartDate>
+	</OperatingSpan>
+	<ObservatoryID>spase://SMWG/Observatory/ICON</ObservatoryID>
+  </Instrument>
+</Spase>

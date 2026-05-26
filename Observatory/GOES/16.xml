@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/GOES/16</ResourceID>
+      <ResourceHeader>
+         <ResourceName>GOES 16</ResourceName>
+         <AlternateName>Geostationary Operational Environmental Satellite 16</AlternateName>
+         <AlternateName>2016-071A</AlternateName>
+         <AlternateName>GOES R</AlternateName>
+         <ReleaseDate>2019-06-29T12:34:56.789Z</ReleaseDate>
+         <Description>The Geostationary Operational Environmental Satellite-R Series, GOES-R, is the next Generation of Geostationary Weather Satellites. The GOES-R Series will significantly improve the Detection and Observation of environmental Phenomena that directly affect Public Safety, Protection of Property and our national economic Health and Prosperity. The Satellites will provide Advanced Imaging with increased Spatial Resolution and faster Coverage for more accurate Forecasts, real-time Mapping of Lightning Activity, and improved Monitoring of Solar Activity.
+
+The GOES-R Series is a four Satellite Program, GOES-R/S/T/U, that will extend the Availability of the operational GOES Satellite System through 2036. The NOAA GOES-R Series of Satellites is designed to improve the Forecasts of Weather, Ocean, and Environment by providing faster and more detailed Data, real-time Images of Lightning, and advanced Monitoring of Solar Activities and Space Weather. GOES 17 can collect three Times more Data at four times Image Resolution, and scan the Planet five times faster than previous Probes.</Description>
+         <Acknowledgement>Please acknowledge the National Oceanic and Atmospheric Administration</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+            <Role>GeneralContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>NSSDC Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2016-071A</URL>
+            <Description>Information about the GOES 16 Mission</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>GOES 16 Mission Information, Wikipedea Web Page</Name>
+            <URL>https://en.wikipedia.org/wiki/GOES_16</URL>
+            <Description>Information about the GOES 16 Mission</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <ObservatoryGroupID>spase://SMWG/Observatory/GOES</ObservatoryGroupID>
+      <Location>
+         <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2016-11-19T23:42:00Z</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Masha.Kuznetsova</ResourceID>
-    <PersonName>Masha.Kuznetsova</PersonName>
-    <OrganizationName>CCMC</OrganizationName>
-    <Email>masha@elbrus.gsfc.nasa.gov</Email>
-  </Person>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2.6.0.xsd">
+   <Version>2.6.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Masha.Kuznetsova</ResourceID>
+      <PersonName>Masha M. Kuznetsova</PersonName>
+      <OrganizationName>NASA Goddard Space Flight Center, Community Coordinated Modeling Center (CCMC)</OrganizationName>
+      <Email>maria.m.kuznetsova@nasa.gov</Email>
+   </Person>
 </Spase>

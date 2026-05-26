@@ -1,9 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/David.T.Young</ResourceID>
-    <PersonName>Dr. David T. Young</PersonName>
-    <OrganizationName>Southwest Research Institute</OrganizationName>
-  </Person>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2-5-0.xsd">
+   <Version>2.5.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/David.T.Young</ResourceID>
+      <ReleaseDate>2023-03-01T12:34:56.789</ReleaseDate>
+      <PersonName>David T. Young</PersonName>
+      <OrganizationName>Southwest Research Institute</OrganizationName>
+      <Address>6220 Culebra Road, San Antonio, TX 78238-5166, USA</Address>
+      <Email>dyoung@swri.edu</Email>
+      <ORCIdentifier>0000-0001-9473-7000</ORCIdentifier>
+   </Person>
 </Spase>

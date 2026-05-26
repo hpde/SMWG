@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+    <Version>2.3.1</Version>
+    <Observatory>
+        <ResourceID>spase://SMWG/Observatory/TRACERS/TRACERS2</ResourceID>
+        <ResourceHeader>
+            <ResourceName>TRACERS 2</ResourceName>
+            <AlternateName>TRACERS Mission TRACERS 2 spacecraft</AlternateName>
+            <ReleaseDate>2026-04-03T00:00:00Z</ReleaseDate>
+            <Description>Spacecraft TRACERS 2 of the TRACERS mission. The mission consists of two identical satellites that orbit Earth in tandem (one following the other). TRACERS &amp; were launched on 2025 July 23, and are now in a ~590 km, Sun synchronous low Earth orbit. Each orbit takes about 90 minutes. Their separation in time along the orbit varies from 10 to 120s (75 to 900 km along track).</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/David.M.Miles</PersonID>
+                <Role>PrincipalInvestigator</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Lan.Jian</PersonID>
+                <Role>MetadataContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Scott.Boardsen</PersonID>
+                <Role>MetadataContact</Role>
+            </Contact>
+            <InformationURL>
+                <Name>Mission Web Pages</Name>
+                <URL>https://tracers.physics.uiowa.edu/</URL>
+                <Description>Mission Web Page</Description>
+            </InformationURL>
+        </ResourceHeader>
+        <ObservatoryGroupID>spase://SMWG/Observatory/TRACERS</ObservatoryGroupID>
+        <Location>
+          <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+          <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
+          <ObservatoryRegion>Earth.NearSurface.Ionosphere.Topside</ObservatoryRegion>
+          <ObservatoryRegion>Earth.NearSurface.AuroralRegion</ObservatoryRegion>
+          <ObservatoryRegion>Earth.NearSurface.PolarCap</ObservatoryRegion>
+        </Location>
+        <OperatingSpan>
+            <StartDate>2025-07-25T18:13:00Z</StartDate>
+
+            <Note>Mission is ongoing</Note>
+        </OperatingSpan>
+    </Observatory>
+</Spase>

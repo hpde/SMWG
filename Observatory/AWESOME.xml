@@ -1,0 +1,31 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+ <Version>2.3.1</Version>
+ <Observatory>
+  <ResourceID>spase://SMWG/Observatory/AWESOME</ResourceID>
+  <ResourceHeader>
+   <ResourceName>AWESOME</ResourceName>
+   <AlternateName>Atmospheric Weather Electromagnetic System for Observation, Modeling, and Education</AlternateName>
+   <ReleaseDate>2020-08-10T15:51:48</ReleaseDate>
+   <Description>The AWESOME receiver monitors a number of VLF radio transmissions as well as ELF natural signals such as those emitted by lightning and wave-particle interactions in the Earth&#039;s magnetosphere. The instrument monitors amplitude and phase of VLF transmitted signals (from nations to their submarines) with a 50 Hz time resolution. It also monitors the radio spectrum between 300 Hz and 50kH to detect naturals signals from lightning-induced events (sferics, whistlers, chorus, hiss).
+
+Both AWESOME and SID receivers were created at Stanford University and distributed throughout the world during the International Heliophysical Year and the International Space Weather Initiative. There are currently more than 28 AWESOMEs and 650 SIDs deployed over the world.</Description>
+   <Contact>
+    <PersonID>spase://SMWG/Person/Morris.Cohen</PersonID>
+    <Role>PrincipalInvestigator</Role>
+   </Contact>
+   <InformationURL>
+     <Name>Distributing space weather monitoring instruments and
+     educational materials worldwide for IHY 2007: The AWESOME and SID project
+     </Name>
+     <URL>https://doi.org/10.1016/j.asr.2007.12.013
+     </URL>
+   </InformationURL>
+  </ResourceHeader>
+  <Location>
+   <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+  </Location>
+  <OperatingSpan>
+   <StartDate>2007-01-01T00:00:00</StartDate>
+  </OperatingSpan>
+ </Observatory>
+</Spase>

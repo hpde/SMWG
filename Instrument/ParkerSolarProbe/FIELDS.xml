@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+   <Version>2.3.2</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/ParkerSolarProbe/FIELDS</ResourceID>
+      <ResourceHeader>
+         <ResourceName>PSP FIELDS Instrument</ResourceName>
+         <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+               <Note>Updated to SPASE Version 2.3.2 if needed, Applied quality conntrol for DOI usage, LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The Fields instrument is designed to make in-situ measurements of magnetic fields, electric fields, plasma wave spectra and polarization properties, plasma density, electron temperature, Poynting flux, spacecraft floating potential, and solar radio emissions, with the overall objective of measuring the plasma, fields, and energetic particle environment of the inner heliosphere to study the mechanisms of coronal heating and the relationship to the coronal magnetic field. To achieve this, the Fields instrument will measure the coronal magnetic field from 0 Hz (D.C.) to greater than the electron cyclotron frequency, to map the coronal magnetic field and characterize magnetized plasma waves.
+
+The instrument comprises five voltage probes, two fluxgate magnetometers, and one search coil magnetometer. Four of the voltage probes (designated V1 V4) are 2 meter long electric whip antennas protruding out from behind the heat shield so they are in direct sunlight. They are arranged at 90 degree angles extending radially from the spacecraft, with 192 cm exposed to full sunlight. The antenna are 0.32 cm (1/8 inch) diameter niobium C-103 thin-walled tubes. The spacecraft end of the antenna is clamped to a 30 cm molybdenum stub mounted behind the heat shield. The signal from the antenna is fed through the stub to a preamplifier. Sapphire is used to thermally isolate the shield, antenna, and stub from each other. The V5 voltage probe is mounted on a 3.5 meter boom protruding from the opposite end of the spacecraft from the heat shield, in the shadow of the heat shield, and also in the shield plasma wake. The sensor is mounted 308 cm along the boom from the spacecraft bus, and consists of two short tube sensor elements jutting out from a small pre-amplifier box.
+
+The two fluxgate magnetometers, MAGi and MAGo, are also mounted on the boom extending from the back of the spacecraft, MAGi 190 cm along the boom, and MAGo 272 cm from the spacecraft. The magnetometers are triaxial with a dynamic range of +-65,536 nT and 16 bit resolution. They obtain data at 292.97 samples/second. The search coil magnetometer consists of 3 sensors mounted orthogonally at the end of the 3.5 meter boom. The sensors are 10.4 cm long cylinders. Two of the sensors cover the frequency range 10-50 Hz, the third covers the 10-50 Hz range and the 1 kHz-1 MHz range.</Description>
+         <Acknowledgement>National Aeronautics and Space Administration, NASA, and the French Centre National d&apos;Etudes Spatiales, CNES</Acknowledgement>
+         <Funding>
+            <Agency>National Aeronautics and Space Administration, Living With a Star, LWS, Program</Agency>
+            <Project>Parker Solar Probe FIELDS Investigation</Project>
+            <AwardNumber>NNN06AA01C</AwardNumber>
+         </Funding>
+         <Funding>
+            <Agency>French Centre National d&apos;Etudes Spatiales, CNES</Agency>
+            <Project>Parker Solar Probe FIELDS Investigation</Project>
+         </Funding>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Stuart.D.Bale</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Parker Solar Probe Mission Instrument Web Page, JPL</Name>
+            <URL>http://parkersolarprobe.jhuapl.edu/Spacecraft/index.php#Instruments</URL>
+            <Description>Parker Solar Probe Mission Instrument Web Page, NASA Jet Propulsion Laboratory, JPL</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>Parker Solar Probe Mission Instrument Web Page, NASA</Name>
+            <URL>https://www.nasa.gov/content/goddard/parker-solar-probe-instruments/</URL>
+            <Description>Additional information on the Parker Solar Probe Instruments</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>ParkerSolarProbe FIELDS Instrument paper, Published by Space Sci. Rev., Date: 2016-03-31</Name>
+            <URL>https://doi.org/10.1007/s11214-016-0244-5</URL>
+            <Description>Author List: Bale, S. D., Goetz, K., Harvey, P. R., Turin, P., Bonnell, J. W., Dudok de Wit, T., Ergun, R. E., MacDowall, R. J., Pulupa, M. P., Andre, M., Bolton, M., Bougeret, J.-L. H., Bowen, T. A., Burgess, D., Cattell, C. A., Chandran, B. D. G., Chaston, C. C., Chen, C. H. K., Choi, M. K., Connerney, J. E. P., Cranmer, S. R., Diaz-Aguado, M., Donakowski, W., Drake, J. F., Farrell, W. M., Fergeau, P., Fermin, J., Fischer, J., Fox, N. J., Glaser, D., Goldstein, M. L., Gordon, D. A., Hanson, E., Harris, S. E., Hayes, L. M., Hinze, J. J., Hollweg, J. V., Horbury, T. S., Howard, R. A., Hoxie, V., Jannet, G., Karlsson, M., Kasper, J. C., Kellogg, P. J., Kien, M., Klimchuk, J. A., Krasnoselskikh, V. V., Krucker, S., Lynch, J. J., Maksimovic, M., Malaspina, D. M., Marker, S., Martin, P., Martinez-Oliveros, J., McCauley, J., McComas, D. J., McDonald, T., Meyer-Vernet, N., Moncuquet, M., Monson, S. J., Mozer, F. S., Murphy, S. D., Odom, J., Oliversen, R. J., Olson, J., Parker, E. N., Pankow, D., Phan, T., Quataert, E., Quinn, T., Ruplin, S. W., Salem, C. S., Seitz, D., Sheppard, D. A., Siy, A., Stevens, K., Summers, D., Szabo, A., Timofeeva, M., Vaivads, A., Velli, M. C., Yehle, A., Werthimer, D., &amp; Wygant, J. R.</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>Parker Solar Probe FIELDS Instrument Suite, NSSDC Master Catalog Listing</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2018-065A-01</URL>
+            <Description>NSSDC Master Catalog Listing for the Parker Solar Probe Fields Experiment, FIELDS, Instrument Suite, NSSDCA/COSPAR ID: 2018-065A-01</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Antenna</InstrumentType>
+      <InstrumentType>Magnetometer</InstrumentType>
+      <InstrumentType>SearchCoil</InstrumentType>
+      <InvestigationName>Parker Solar Probe FIELDS Investigation</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2018-08-12T07:31:00</StartDate>
+         <Note>Parker Solar Probe Launch Date and Time until data are available</Note>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/ParkerSolarProbe</ObservatoryID>
+   </Instrument>
+</Spase>

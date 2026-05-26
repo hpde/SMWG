@@ -1,0 +1,81 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+ <Version>2.3.1</Version>
+ <Repository>
+  <ResourceID>spase://SMWG/Repository/WALDO</ResourceID>
+  <ResourceHeader>
+   <ResourceName>WALDO</ResourceName>
+   <AlternateName>Worldwide Archive of Low-frequency Data and Observations</AlternateName>
+   <ReleaseDate>2020-06-03T16:39:32</ReleaseDate>
+   <Description>
+WALDO is a joint effort between Georgia Tech and CU-Denver, using data
+collected by Stanford University from the 1970s until 2016, and then
+by both Georgia Tech and CU-Denver starting in 2014. 
+
+WALDO description
+(from
+https://eos.org/science-updates/returning-lightning-data-to-the-cloud)
+
+We have developed an online interface that allows easy access to the
+data, which can also be shared with anyone with a Google account upon
+request. Through the website, users can view automatically generated
+quick-look plots to make it easy to find out what’s available, for
+example, maps of receiver sites from which data from a given day are
+available, annual calendars showing data availability, and summary
+charts of the data on a day-by-day basis.
+
+WALDO enables direct access to raw data including:
+ Broadband VLF data,  Broadband LF data,  Narrowband data.
+ Quick-look plots of Broadband and Narrowband data are also available.
+WALDO provides software tools mostly in Matlab but Python tools are planned as well.  
+Anticipated total data volume will exceed 1000 TB.
+The “What’s Available” page, and the “Availability Maps” show what sites are available for each day.
+
+   </Description>
+   <Acknowledgement>
+     DATA USAGE POLICY
+The data in the WALDO database have been collected by Stanford
+University, the Georgia Institute of Technology, and the University of
+Colorado Denver. Funding has been provided by the United States
+government under various basic science research grants over many
+years. 
+
+To maximize the benefit of those investments, WALDO data are released
+without restriction, and can be freely analyzed or published. 
+
+The curators of WALDO are Morris Cohen (Georgia Tech) and Mark
+Golkowski (CU-Denver). We request that the following acknowledgement
+be added in any publication using data from WALDO 
+
+"VLF data are provided by the WALDO database (http://waldo.world),
+operated jointly by the Georgia Institute of Technology, and the
+University of Colorado Denver, using data collected from those
+institutions as well as Stanford University, and has been supported by
+various US government grants from the NSF, NASA, and the Department of
+Defense." 
+
+If extensive amounts of WALDO data are used in a publication, the
+curators request, but do not require, to be contacted to discuss the
+possibility of joint authorship, with the WALDO curators providing
+help analyzing and interpreting the large dataset. 
+   </Acknowledgement>
+   <Contact>
+    <PersonID>spase://SMWG/Person/Morris.Cohen</PersonID>
+    <Role>ArchiveSpecialist</Role>
+   </Contact>
+   <Contact>
+    <PersonID>spase://SMWG/Person/Mark.Golkowski</PersonID>
+    <Role>ArchiveSpecialist</Role>
+   </Contact>
+   <InformationURL>
+     <Name>Returning Lightning Data to the Cloud
+     </Name>
+     <URL>https://doi.org/10.1029/2020EO142801
+     </URL>
+   </InformationURL>
+  </ResourceHeader>
+  <AccessURL>
+   <Name>WALDO</Name>
+   <URL>http://waldo.world</URL>
+  </AccessURL>
+ </Repository>
+</Spase>

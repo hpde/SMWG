@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+    <Version>2.3.1</Version>
+    <Repository>
+        <ResourceID>spase://SMWG/Repository/CDN</ResourceID>
+        <ResourceHeader>
+            <ResourceName>CDN</ResourceName>
+            <ReleaseDate>2020-07-16T15:48:00Z</ReleaseDate>
+            <Description>The "Centre de Données de Nançay" (Nançay Data Center) manages the data storage and computing 
+                facilities at SRN (Station de Radioastronomie de Nançay - Nançay Radioastronomy Observatory). It 
+                coordinates the data management plans and the open distribution of Nançay instrument data collections, 
+                following the Open Science policies of Observatoire de Paris.</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Baptiste.Cecconi</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Julien.N.Girard</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Emmanuel.Thetas</PersonID>
+                <Role>TechnicalContact</Role>
+            </Contact>
+            <InformationURL>
+                <URL>http://www.obs-nancay.fr</URL>
+                <Language>fr</Language>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessURL>
+            <URL>http://www.obs-nancay.fr</URL>
+            <Style>Overview</Style>
+            <Language>fr</Language>
+        </AccessURL>
+    </Repository>
+</Spase>

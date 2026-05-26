@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+   <Version>2.3.2</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/MAVEN/IUVS</ResourceID>
+      <ResourceHeader>
+         <ResourceName>MAVEN Imaging Ultraviolet Spectrograph, IUVS, Instrument</ResourceName>
+         <AlternateName>MAVEN IUVS Instrument</AlternateName>
+         <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+               <Note>Updated to SPASE Version 2.3.2 if needed, Applied quality conntrol for DOI usage, LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The Imaging Ultraviolet Spectrograph, IUVS, is a Remote Sensing Instrument designed to profile the Upper Atmosphere and Ionosphere of Mars. The Objective of IUVS is to produce Three-dimensional Maps of Upper Atmospheric and Ionospheric Neutral and Ionized Species from Altitudes of 100 km to 225 km. These Species include Hydrogen, H, Carbon, C, Oxygen, O, Nitrogen, N, Carbon Monoxide, CO, and Carbon Dioxide, CO&#8322;.
+
+The Instrument is a Box-like Structure mounted on the articulating Payload Platform, measuring 71 cm &#215; 33 cm &#215; 15 cm with a Mass of 22.1 kg. The IUVS uses a modified Czerny-Turner Plane-grating Spectrograph with a toroidal Camera Mirror. A spherical mirror Telescope focuses the Martian Atmosphere onto the 0.1&#176; &#215; 11&#176; Entrance Slit. A Plane Scan Mirror in front of the Telescope is used to choose one of the two Scanning Modes, &quot;Limb&quot; (24&#176; &#215; 11&#176;) or &quot;Nadir&quot; (55&#176; &#215; 11&#176;). The Instrument has two Resolutions, one covering 110 nm to 340 nm with R~250, Spectral Resolution of 0.5 nm, and the other from 120 nm to 131 nm with R~19000. A Beam Splitter transmits Light to a middle Ultraviolet Detector (Wavelengths greater than 180 nm) and a Far-Ultraviolet Detector (Wavelengths less than 190 nm to 200 nm).
+
+The Instrument operates in a Limb Scan Mode when the Spacecraft Altitude is less than 500 km (about 23 min per Orbit centered on Periapsis) in which is covers the 100 km to 225 km Altitudes of the Atmosphere at a 4 km Sampling Interval. Near Apoapsis, the Instrument will take Disk Scans of the Global Upper Atmosphere. Occultation Measurements which can study the Atmosphere down to 30 km, and Coronal scans to determine Deuterium to Hydrogen, D/H, Ratios with Altitude, are made between the Periapsis and Apoapsis Periods.</Description>
+         <Acknowledgement>National Aeronautics and Space Administration, NASA, Laboratory for Atmospheric and Space Physics, LASP, University of Colorado, Boulder</Acknowledgement>
+         <Funding>
+            <Agency>National Aeronautics and Space Administration, Mars Scout Program</Agency>
+            <Project>MAVEN Imaging Ultraviolet Spectrograph Investigation</Project>
+            <AwardNumber>UNKNOWN</AwardNumber>
+         </Funding>
+         <Contact>
+            <PersonID>spase://SMWG/Person/William.E.McClintock</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Nicholas.M.Schneider</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>The Mars Atmosphere and Volatile Evolution, MAVEN, Imaging Ultraviolet Spectrograph Instrument Home Page, LASP, UC Boulder</Name>
+            <URL>https://lasp.colorado.edu/home/maven/science/instrument-package/iuvs/</URL>
+            <Description>The Mars Atmosphere and Volatile Evolution, MAVEN, Imaging Ultraviolet Spectrograph Instrument Home Page, Laboratory for Atmospheric and Space Physics, LASP, University of Colorado, Boulder</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>The Mars Atmosphere and Volatile Evolution, MAVEN, Imaging Ultraviolet Spectrograph Instrument Imaging Highlights Web Page, LASP, UC Boulder</Name>
+            <URL>https://lasp.colorado.edu/home/maven/science/instrument-package/iuvs/iuvs-imaging-highlights/</URL>
+            <Description>The Mars Atmosphere and Volatile Evolution, MAVEN, Imaging Ultraviolet Spectrograph Instrument Imaging Highlights Web Page, Laboratory for Atmospheric and Space Physics, LASP, University of Colorado, Boulder</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>MAVEN Imaging Ultraviolet Spectrograph, IUVS, Instrument paper, Published by Space Sci. Rev., Date: 2014-09-27</Name>
+            <URL>https://doi.org/10.1007/s11214-014-0098-7</URL>
+            <Description>Author List: McClintock, W. E., Schneider, N. M., Holsclaw, G. M., Clarke, J. T., Hoskins, A. C., Stewart, I., Montmessin, F., Yelle, R. V., &amp; Deighan, J.</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>NSSDC Master Catalog Listing, MAVEN Imaging Ultraviolet Spectrograph, IUVS, Instrument</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2013-063A-01</URL>
+            <Description>NSSDC Master Catalog Listing for the MAVEN Imaging Ultraviolet Spectrograph, IUVS, Instrument, NSSDCA/COSPAR ID: 2013-063A-01</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>ImagingSpectrometer</InstrumentType>
+      <InvestigationName>MAVEN Imaging Ultraviolet Spectrograph Investigation</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2013-11-18T18:28:00</StartDate>
+         <Note>MAVEN Launch Date and Time until data are available</Note>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/MAVEN</ObservatoryID>
+   </Instrument>
+</Spase>

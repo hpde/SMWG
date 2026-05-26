@@ -4,76 +4,76 @@
         <ResourceID>spase://SMWG/Service/NASA/GSFC/SPDF/MMSP-Interface</ResourceID>
         <ResourceHeader>
             <ResourceName>OMNIWeb Plus Browser, Multi-Source Spectral Plots (MSSP) of energetic particle Interface</ResourceName>
-            <ReleaseDate>2014-10-27T00:00:00</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>
 The OMNIWeb Plus Browser, Multi-Source Spectral Plots (MSSP) of energetic particle interface provides links to several Multi-Source Spectral Plot (MSSP) web pages. Each spectral plot provides flux averages at each of several energy steps.
-Links to Flux Sources by Respective Services are also presented.			
-            </Description>
+Links to Flux Sources by Respective Services are also presented.  
+</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Natalia.E.Papitashvili</PersonID>
                 <Role>GeneralContact</Role>
-            </Contact>
+</Contact>
             <Contact>
                 <PersonID>spase://SMWG/Person/John.F.Cooper</PersonID>
                 <Role>MetadataContact</Role>
-            </Contact>
+</Contact>
 <InformationURL>
 <Name>About using the Multi-Source Spectral Plots (MSSP-1)and (MSSP-4) interface</Name>
-<URL>http://omniweb.gsfc.nasa.gov/ftpbrowser/spectral_interface.txt</URL>
+<URL>https://omniweb.gsfc.nasa.gov/ftpbrowser/spectral_interface.txt</URL>
 <Description>
 This interface allows users to create one, or a series of,
 spectral plots of energetic proton or alpha particle fluxes
 from one or more data sources.
-	</Description>
+</Description>
 </InformationURL>
 <InformationURL>
 <Name>Data description for MSSP-1 and MSSP-4  interface</Name>
-<URL>http://omniweb.gsfc.nasa.gov/ftpbrowser/spectra_data.txt</URL>
+<URL>https://omniweb.gsfc.nasa.gov/ftpbrowser/spectra_data.txt</URL>
 <Description>
 data descrition for the following:
 ACE EPAM, ACE SIS, ACE ULEIS, GOES, Helios 1 &amp;amp; 2 E6, Helios 1&amp;2 E7, IMP 8 CRNC, IMP 8 GME, Pioneer 10 &amp;11 CRT, SOHO ERNE, STEREO-A and -B IMPACT/LET, STEREO-A &amp; -B IMPACT/SIT, Ulysses COSPIN, Ulysses HISCALE, Voyager 1&amp;2 LECP, Voyager 1&amp;2 CRS, and Wind EPACT LEMT data.
-				</Description>
+</Description>
 </InformationURL>
 
 <InformationURL>
 <Name>About using the Multi-Source Spectral Plots (MSSP-2) interface</Name>
-<URL>http://omniweb.gsfc.nasa.gov/ftpbrowser/spectral_interface_all.txt</URL>
+<URL>https://omniweb.gsfc.nasa.gov/ftpbrowser/spectral_interface_all.txt</URL>
 <Description>
 This interface allows users to create one, or a series of,
 spectral plots of energetic particle fluxes of one or more
 of 15 species (H to Ni) from one or more data sources.
-				</Description>
+</Description>
 </InformationURL>
 <InformationURL>
 <Name>Data description for MSSP-2 interface</Name>
-<URL>http://omniweb.gsfc.nasa.gov/ftpbrowser/spectra_data_all.txt</URL>
+<URL>https://omniweb.gsfc.nasa.gov/ftpbrowser/spectra_data_all.txt</URL>
 <Description>
 data descrition for the following:
 ACE EPAM, ACE SIS, ACE ULEIS, ACE CRIS, STEREO-A and -B IMPACT LET, STEREO-A &amp; -B IMPACT SIT, Ulysses HISCALE, and Wind EPACT LEMT data.
-				</Description>
+</Description>
 </InformationURL>
 <InformationURL>
 <Name>About using the Multi-source sectored spectral plots (MSSP-3) interface for ACE EPAM and Ulysses HISCALE data</Name>
-<URL>http://omniweb.gsfc.nasa.gov/ftpbrowser/spectral_interface_mssp3.txt</URL>
+<URL>https://omniweb.gsfc.nasa.gov/ftpbrowser/spectral_interface_mssp3.txt</URL>
 <Description>
-About using MSSP-3 interface to retrieve ACE EPAM and Ulysses HISCALE hourly sectored fuxes.			
+About using MSSP-3 interface to retrieve ACE EPAM and Ulysses HISCALE hourly sectored fuxes.  
 EPAM/HISCALE fluxes of protons or Z>1 ions.
-				</Description>
+</Description>
 </InformationURL>
 <InformationURL>
 <Name>Directional energetic particle fluxes from STEREO A&amp;B IMPACT LET data description and source</Name>
 <URL>http://www.srl.caltech.edu/STEREO/Level1/LET_public.html</URL>
 <Description>
-STEREO A&amp;B IMPACT LET data and source	</Description>
+STEREO A&amp;B IMPACT LET data and source</Description>
 </InformationURL>
 
-        </ResourceHeader>
+</ResourceHeader>
         <AccessURL>
             <Name>FTPBrowser Home Page</Name>
-            <URL>http://omniweb.gsfc.nasa.gov/ftpbrowser/flux_spectr_m.html</URL>
+            <URL>https://omniweb.gsfc.nasa.gov/ftpbrowser/flux_spectr_m.html</URL>
             <Description>
 The FTPBrowser Home Page contains links to  available SPDF's ftp-accessible ASCII data sets via SPDF ftp and OMNIWeb plus browser.
-			</Description>
-        </AccessURL>
-    </Service>
+</Description>
+</AccessURL>
+</Service>
 </Spase>

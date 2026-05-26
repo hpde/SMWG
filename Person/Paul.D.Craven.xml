@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Paul.D.Craven</ResourceID>
-    <PersonName>Dr. Paul D. Craven</PersonName>
-    <OrganizationName>NASA Marshall Space Flight Center</OrganizationName>
-  </Person>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Paul.D.Craven</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <PersonName>Paul D. Craven</PersonName>
+      <OrganizationName>NASA Marshall Space Flight Center</OrganizationName>
+      <RORIdentifier>02epydz83</RORIdentifier>
+   </Person>
 </Spase>

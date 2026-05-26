@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.3.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Mostafa.El-Alaoui</ResourceID>
+    <ReleaseDate>2021-06-11T17:35:47Z</ReleaseDate>
+    <PersonName>Mostafa El-Alaoui</PersonName>
+    <OrganizationName>Department of Physics and Astronomy, 603 CHARLES E. YOUNG DRIVE, EAST, 3863 Slichter Hall, University of California, Los Angeles</OrganizationName>
+    <Address>475 Portola Plaza, Los Angeles, CA 90095-1547</Address>
+    <Email>mostafa@physics.ucla.edu</Email>
+    <PhoneNumber>+1 310 825 6663</PhoneNumber>
+	<ORCIdentifier>0000-0001-9026-1471</ORCIdentifier>
+  </Person>
+</Spase>

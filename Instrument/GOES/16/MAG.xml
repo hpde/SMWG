@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/GOES/16/MAG</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Triaxial Fluxgate Magnetometer</ResourceName>
+         <AlternateName>MAG</AlternateName>
+         <ReleaseDate>2019-06-29T12:34:56.789Z</ReleaseDate>
+         <Description>The GOES-R Series Magnetometer provides measurements of the space environment magnetic field that controls charged particle dynamics in the outer region of the magnetosphere. These particles can be dangerous to spacecraft and human spaceflight. The Geomagnetic Field Measurements are important for providing Alerts and Warnings to many Customers, including Satellite Operators and Power Utilities.
+
+The GOES-R Series Magnetometer Products are an integral Part of the NOAA Space Weather Operations, providing Information on the General Level of Geomagnetic Activity and permitting Detection of Sudden Magnetic Storms. In addition, Measurements can be used to validate large-scale Space Environment Models that are used in Operations.</Description>
+         <Acknowledgement>Please acknowledge Howard Singer, the National Oceanic and Atmospheric Administration, and the Science Applications International Corporation, Inc.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Howard.J.Singer</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>GOES-R Satellite Series Magnetometer Information</Name>
+            <URL>https://www.goes-r.gov/spacesegment/mag.html</URL>
+            <Description>Information about the Magnetometers onboard the GOES-R Series Satellites with an Image Gallery</Description>
+            <Language>en</Language>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Magnetometer</InstrumentType>
+      <InvestigationName>Triaxial Fluxgate Magnetometer on GOES 16</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/GOES/16</ObservatoryID>
+   </Instrument>
+</Spase>

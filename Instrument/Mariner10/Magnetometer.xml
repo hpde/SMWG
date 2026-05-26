@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Instrument>
         <ResourceID>spase://SMWG/Instrument/Mariner10/Magnetometer</ResourceID>
         <ResourceHeader>
             <ResourceName>Triaxial Fluxgate Magnetometer on Mariner 10</ResourceName>
-            <ReleaseDate>2012-04-11T00:00:00</ReleaseDate>
-            <Description>This experiment consisted of two triaxial fluxgate magnetometers mounted on a common boom, 2.3 m and 5.8 m from the 
-                spacecraft, and designed to measure the vector magnetic field in the vicinity of Mercury and Venus and in the interplanetary 
-                medium. Outputs from the two magnetometers were simultaneously analyzed to separate ambient fields from spacecraft fields. 
-                Each sensor had dual operating ranges of +/-16 nT and +/-128 nT, with digitization accuracies of 0.03 nT and 0.26 nT, 
-                respectively. Bias offset capability extended the operating range to +/-3188 nT. During the primary phase of the mission 
-                (November 3, 1973, to March 29, 1974) and during the second and third Mercury encounters, 25 vectors per second were sampled 
-                by the primary outboard magnetometer and transmitted to Earth. At other times, a lower data rate mode was used during which 
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+            <Description>This experiment consisted of two triaxial fluxgate magnetometers mounted on a common boom, 2.3 m and 5.8 m from the
+                spacecraft, and designed to measure the vector magnetic field in the vicinity of Mercury and Venus and in the interplanetary
+                medium. Outputs from the two magnetometers were simultaneously analyzed to separate ambient fields from spacecraft fields.
+                Each sensor had dual operating ranges of +/-16 nT and +/-128 nT, with digitization accuracies of 0.03 nT and 0.26 nT,
+                respectively. Bias offset capability extended the operating range to +/-3188 nT. During the primary phase of the mission
+                (November 3, 1973, to March 29, 1974) and during the second and third Mercury encounters, 25 vectors per second were sampled
+                by the primary outboard magnetometer and transmitted to Earth. At other times, a lower data rate mode was used during which
                 five vectors per second were transmitted. The experiment functioned normally throughout the life of the spacecraft.
-            </Description>
+</Description>
             <Contact>
-                <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>  
+                <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact> 
+</Contact>
             <InformationURL>
                 <Name>NSSDC's Master Catalog</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1973-085A-04</URL>  
+                <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1973-085A-04</URL>
                 <Description>Information about Triaxial Fluxgate Magnetometer on Mariner 10</Description>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
         <InstrumentType>Magnetometer</InstrumentType>
         <InvestigationName>Triaxial Fluxgate Magnetometer</InvestigationName>
         <ObservatoryID>spase://SMWG/Observatory/Mariner10</ObservatoryID>
-    </Instrument>
+</Instrument>
 </Spase>

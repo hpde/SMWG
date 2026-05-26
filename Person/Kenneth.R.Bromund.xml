@@ -1,9 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Kenneth.R.Bromund</ResourceID>
-    <PersonName>Mr. Kenneth R. Bromund</PersonName>
-    <OrganizationName>University of California, Berkeley</OrganizationName>
-  </Person>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2-5-0.xsd">
+   <Version>2.5.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Kenneth.R.Bromund</ResourceID>
+      <ReleaseDate>2023-03-01T12:34:56.789</ReleaseDate>
+      <PersonName>Kenneth R. Bromund</PersonName>
+      <OrganizationName>Software Systems Engineering Division, NASA Goddard Space Flight Center</OrganizationName>
+      <Address>Building 23 Suite W339, 8800 Greenbelt Road Greenbelt, MD 20771 USA</Address>
+      <Email>kenneth.r.bromund@nasa.gov</Email>
+      <PhoneNumber>+1 (301) 286-7576</PhoneNumber>
+      <ORCIdentifier>0000-0003-0383-7845</ORCIdentifier>
+   </Person>
 </Spase>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+    <Version>2.3.1</Version>
+    <Repository>
+        <ResourceID>spase://SMWG/Repository/PADC/HELIO_HFC</ResourceID>
+        <ResourceHeader>
+            <ResourceName>HELIO - Heliophysics Feature Catalogue</ResourceName>
+            <ReleaseDate>2020-07-01T13:16:00Z</ReleaseDate>
+            <Description>PADC HELIO_HFC Repository</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Jean.Aboudarham</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Xavier.Bonnin</PersonID>
+                <Role>TechnicalContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Baptiste.Cecconi</PersonID>
+                <Role>MetadataContact</Role>
+            </Contact>
+            <InformationURL>
+                <URL>http://voparis-helio.obspm.fr/hfc-gui</URL>
+            </InformationURL>
+        </ResourceHeader>
+        <AccessURL>
+            <URL>http://voparis-helio.obspm.fr/hfc-gui</URL>
+            <Style>Search</Style>
+            <Language>en</Language>
+        </AccessURL>
+    </Repository>
+</Spase>

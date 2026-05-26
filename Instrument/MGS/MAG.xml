@@ -6,21 +6,21 @@
     <ResourceHeader>
       <ResourceName>Mars Global Surveyor Magnetometer</ResourceName>
       <AlternateName>MGS MAG/ER</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:13Z</ReleaseDate>
-      <Description>The magnetometer and electron reflectometer instruments are measuring the magnetic properties of Mars. On Earth, a magnetic field surrounds the planet. The magnetism results from electric currents circulating in the molten iron churning slowly in the Earth's core. Mars does not presently have a global magnetic field but had one early in its life, similar to that of Earth. However, Mars does have very strong crustal magnetic fields, more than 30 times stronger than those of Earth. Magnetic fields are usually measured in units of "gamma", for our purposes we use the equivalent "nanoTesla" unit. The fluxgate magnetometers implemented for the Mars Global Surveyor are based on similar instruments developed for numerous previous missions Voyager, Magsat, International Solar Polar mission, Giotto, Active Magnetospheric Particle Tracer Explorers, etc.). The basic configuration consists of dual; wide-range, triaxial flux gate sensors mounted remote from the spacecraft's body. Assuming that this field is primarily dipolar in nature at the location of the magnetometer sensors, the ambient field can then be analytically determined by combining the outboard and inboard measurements. 
-      </Description>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The magnetometer and electron reflectometer instruments are measuring the magnetic properties of Mars. On Earth, a magnetic field surrounds the planet. The magnetism results from electric currents circulating in the molten iron churning slowly in the Earth's core. Mars does not presently have a global magnetic field but had one early in its life, similar to that of Earth. However, Mars does have very strong crustal magnetic fields, more than 30 times stronger than those of Earth. Magnetic fields are usually measured in units of "gamma", for our purposes we use the equivalent "nanoTesla" unit. The fluxgate magnetometers implemented for the Mars Global Surveyor are based on similar instruments developed for numerous previous missions Voyager, Magsat, International Solar Polar mission, Giotto, Active Magnetospheric Particle Tracer Explorers, etc.). The basic configuration consists of dual; wide-range, triaxial flux gate sensors mounted remote from the spacecraft's body. Assuming that this field is primarily dipolar in nature at the location of the magnetometer sensors, the ambient field can then be analytically determined by combining the outboard and inboard measurements.
+</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Mario.H.Acuna</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Instrument description</Name>
-        <URL>http://mgs-mager.gsfc.nasa.gov/instrument.html</URL>
+        <URL>https://mgs-mager.gsfc.nasa.gov/instrument.html</URL>
         <Description>MGS/ER instrument description and documentation</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Magnetic Field Experiment MAG/ER</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/MGS</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

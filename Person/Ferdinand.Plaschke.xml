@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2-5-0.xsd">
+   <Version>2.5.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Ferdinand.Plaschke</ResourceID>
+      <ReleaseDate>2023-03-01T12:34:56.789</ReleaseDate>
+      <PersonName>Ferdinand Plaschke</PersonName>
+      <OrganizationName>Institute of Geophysics and Extraterrestrial Physics, Electrical Engineering, Information Technology, Physics</OrganizationName>
+      <Address>Technische Universität Braunschweig, Universitätsplatz 2, 38106 Braunschweig</Address>
+      <Email>f.plaschke@tu-braunschweig.de</Email>
+      <PhoneNumber>+49 (0)531-391-5215</PhoneNumber>
+      <ORCIdentifier>0000-0002-5104-6282</ORCIdentifier>
+   </Person>
+</Spase>

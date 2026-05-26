@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/VirES.Feedback</ResourceID>
+    <ReleaseDate>2026-04-02T00:00:00Z</ReleaseDate>
+    <PersonName>VirES Feedback</PersonName>
+    <OrganizationName>ESA</OrganizationName>
+    <Email>feedback@vires.services</Email>
+  </Person>
+</Spase>

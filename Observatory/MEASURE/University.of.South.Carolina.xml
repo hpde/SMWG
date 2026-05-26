@@ -1,12 +1,18 @@
 <?xml version="1.0"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.6.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/MEASURE/University.of.South.Carolina</ResourceID>
     <ResourceHeader>
       <ResourceName>The University of South Carolina Geomagnetic Observatory.</ResourceName>
-      <ReleaseDate>2010-08-05T18:21:59Z</ReleaseDate>
-      <Description>The University of South Carolina (USC) Geomagnetic Observatory.</Description>
+      <ReleaseDate>2024-10-07T12:34:56.789Z</ReleaseDate>
+	  <RevisionHistory>
+	     <RevisionEvent>
+            <ReleaseDate>2024-10-07T12:34:56.789</ReleaseDate>
+            <Note>Added StartDate and StopDate Information. Updated metadata to 2.6.1. JMW.</Note>
+         </RevisionEvent>
+      </RevisionHistory>
+      <Description>The University of South Carolina (USC) Geomagnetic Observatory. Aiken, South Carolina.</Description>
       <Acknowledgement>Please acknowledge Mark Moldwin, Institute of Geophysics and Planetary Physics and the Department of Earth and Space Sciences, University of California, Los Angeles, Los Angeles, CA 90095-1567 for providing access to University of South Carolina data resources.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Mark.Moldwin</PersonID>
@@ -16,11 +22,10 @@
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
       </Contact>
-      <InformationURL>
-        <Name>The University of South Carolina geomagnetic observatory web site.</Name>
-        <URL>http://www-ssc.igpp.ucla.edu/gem/worldmag/measure.html</URL>
-        <Description>The University of South Carolina geomagnetic observatory web site.</Description>
-      </InformationURL>
+	   <Contact>
+        <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
     </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/MEASURE</ObservatoryGroupID>
     <Location>
@@ -29,5 +34,9 @@
       <Latitude>33.340</Latitude>
       <Longitude>-81.460</Longitude>
     </Location>
+	<OperatingSpan>
+      <StartDate>2001-01-20T00:00:00</StartDate>
+      <StopDate>2001-02-12T23:59:59</StopDate>
+    </OperatingSpan>
   </Observatory>
 </Spase>

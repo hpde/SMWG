@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema      http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-  <Version>2.2.1</Version>
+  <Version>2.3.0</Version>
   <Repository>
       <ResourceID>spase://SMWG/Repository/NASA/GSFC/Voyager/CRS</ResourceID>
     <ResourceHeader>
       <ResourceName>Voyager CRS Respository</ResourceName>
-      <ReleaseDate>2012-02-03T20:09:21Z</ReleaseDate>
+      <ReleaseDate>2019-03-11T19:34:11Z</ReleaseDate>
       <Description>Voyager Cosmic Ray Subsystem data repository</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Nand.Lal</PersonID>
@@ -13,7 +13,7 @@
       </Contact>
     </ResourceHeader>
     <AccessURL>
-      <URL>http://voyager.gsfc.nasa.gov/vepo</URL>
+      <URL>https://voyager.gsfc.nasa.gov/download.html</URL>
     </AccessURL>
   </Repository>
 </Spase>

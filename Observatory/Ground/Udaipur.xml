@@ -4,16 +4,30 @@
         <ResourceID>spase://SMWG/Observatory/Ground/Udaipur</ResourceID>
         <ResourceHeader>
             <ResourceName>Udaipur</ResourceName>
-            <ReleaseDate>2015-10-21T00:00:00Z</ReleaseDate>
-            <Description>USO is situated at an elevation of 750 m in a semi-arid highland region of western India, midway between Delhi and Bombay. USO is administered by the Physical Research Laboratory, headquartered in Ahmedabad.  The main objective of obtaining the high spatial and temporal resolution observations of solar photospheric and chromospheric activity is to understand the various dynamic phenomena occurring on the surface of the Sun.</Description>
+            <ReleaseDate>2019-02-19T00:00:00Z</ReleaseDate>
+            <Description>USO is situated at an elevation of 750 m in a semi-arid highland 
+			region of western India, midway between Delhi and Bombay. USO is administered 
+			by the Physical Research Laboratory, headquartered in Ahmedabad.  The main objective 
+			of obtaining the high spatial and temporal resolution observations of solar 
+			photospheric and chromospheric activity is to understand the various dynamic 
+			phenomena occurring on the surface of the Sun.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Stephen.Heathcote</PersonID>
                 <Role>Scientist</Role>
             </Contact>
+			<InformationURL>
+				<Name>Global Oscillation Network Group Homepage</Name>
+				<URL>https://gong.nso.edu/</URL>
+				<Description>Additional detailed information about the Global Oscillation Network Group.</Description>
+			 </InformationURL>
         </ResourceHeader>
         <ObservatoryGroupID>spase://SMWG/Observatory/GONG</ObservatoryGroupID>
         <Location>
             <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+			<CoordinateSystemName>GEO</CoordinateSystemName>
+		    <Latitude>24.6043</Latitude>
+		    <Longitude>73.6740</Longitude>
+		    <Elevation>750.0</Elevation>
         </Location>
     </Observatory>
 </Spase>

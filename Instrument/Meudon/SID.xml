@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+    <Version>2.3.1</Version>
+    <Instrument>
+        <ResourceID>spase://SMWG/Instrument/Meudon/SID</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Meudon SID</ResourceName>
+            <ReleaseDate>2020-07-01T13:22:00Z</ReleaseDate>
+            <Description>The SID (Sudden Ionospheric Disturbances) antenna in Meudon (Observatoire de Paris)</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Carine.Briand</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+        </ResourceHeader>
+        <InstrumentType>Antenna</InstrumentType>
+        <InvestigationName>Meudon SID</InvestigationName>
+        <OperatingSpan>
+            <StartDate>2017-01-01T00:00:00.000Z</StartDate>
+        </OperatingSpan>
+        <ObservatoryID>spase://SMWG/Observatory/Meudon</ObservatoryID>
+    </Instrument>
+</Spase>

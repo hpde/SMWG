@@ -5,13 +5,13 @@
     <ResourceID>spase://SMWG/Instrument/IBEX/Hi</ResourceID>
     <ResourceHeader>
       <ResourceName>IBEX-Hi</ResourceName>
-      <ReleaseDate>2010-05-20T00:26:46Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The IBEX-Hi instrument measures ENA's in six energy
 bands within the 0.38-6.0 keV range.  The instrument is a single-pixel
 imager with a 6.5 x 6.5 deg field of view that images a 6.5 x 360 swath
 of the sky each 15-sec spacecraft spin about the sun-pointing spin axis.
-The six energy windows have FWHM ranges of 0.38-0.59, 0.52-0.95, 
-0.84-1.55, 1.36-2.50, 1.99-3.75, 3.13-6.00 keV.  These are referred to as 
+The six energy windows have FWHM ranges of 0.38-0.59, 0.52-0.95,
+0.84-1.55, 1.36-2.50, 1.99-3.75, 3.13-6.00 keV.  These are referred to as
 bands 1 to 6, respectively, in data products.  In normal operation,
 2 successive spins are devoted to each energy window every 12 spin (~3 min)
 periods.
@@ -19,15 +19,15 @@ periods.
       <Contact>
         <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Space Science Reviews paper</Name>
-        <URL>http://www.springerlink.com/content/kp17k63j31184165/?p=a5b60fca2252481b94e0230c7d1e4b25&amp;pi=4</URL>
+        <URL>https://link.springer.com/article/10.1007%2Fs11214-009-9504-y</URL>
         <Description>Paper is by H.O. Funsten and 34 co-authors.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>NeutralAtomImager</InstrumentType>
     <InvestigationName>IBEX-Hi</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/IBEX</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

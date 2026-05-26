@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_1.xsd">
+   <Version>2.7.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Jasper.S.Halekas</ResourceID>
+      <PersonName>Dr. Jasper S. Halekas</PersonName>
+      <OrganizationName>Department of Physics and Astronomy, University of Iowa</OrganizationName>
+      <Email>jasper-halekas@uiowa.edu</Email>
+      <ORCIdentifier>0000-0001-5258-6128</ORCIdentifier>
+   </Person>
+</Spase>

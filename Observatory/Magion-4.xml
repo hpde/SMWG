@@ -9,7 +9,7 @@
       <AlternateName>S2-X</AlternateName>
       <AlternateName>Tail Subsatellite S2-X</AlternateName>
       <AlternateName>Interball S2-X</AlternateName>
-      <ReleaseDate>2010-09-27T18:41:14Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Interball Project is a multi-national effort that consists of four spacecraft: two main spacecraft of the Prognoz series, made in Russia, each with a small subsatellite made in Czechoslovakia. The main objective is to study the physical mechanisms responsible for the transmission of solar wind energy to the magnetosphere, its storage there, and subsequent dissipation in the tail and auroral regions of the magnetosphere, ionosphere, and atmosphere during magnetospheric substorms. A ground-based support group will provide coordinated and simultaneous ground-based data of many types, including observations from auroral and polar cap regions. Interball is an IACG-related mission. Key physical parameters will be generated, and will be available for exchange with other projects. Campaigns for intercomparison with the Wind and Geotail spacecraft are expected. One pair of spacecraft, Tail Probe and its subsatellite S2-X (X for the first letter of the Russian word for ``Tail''), will be launched into the magnetospheric tail. The second pair, Auroral Probe and S2-A (A for ``Auroral''), will have an orbit that crosses the auroral oval to observe the acceleration of auroral particles and the flow of electric currents that connect the magnetospheric tail with the conducting ionosphere. To study the equilibrium tail structure, during about half of each year the Tail Probe pair will cross the main parts of the magnetotail every four days. The Tail Probe, with approximately 30 earth radii apogee, will cross the noon-midnight plane on December 1, so the measurements in the magnetotail will cover the period from October 1995 to February 1996. The Auroral Probe pair will support the Tail Probe pair with auroral region measurements.
 
 Each main spacecraft has more than twenty scientific instruments. The spacecraft is cylindrical, with spin axis toward the sun (within 10 degrees), and with spin period of ~120 s. The electric and magnetic field sensors are on booms connected to the ends of the solar panels.
@@ -20,18 +20,18 @@ The Tail Probe has an adapting alert mode while in the memory mode, allowing tim
       <Contact>
         <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Magion-4 Spacecraft (IKI page)</Name>
         <URL>http://www.iki.rssi.ru/interball/magion.html</URL>
         <Description>Magion-4 spacecraft description at the Russian Space Research Institute (IKI)</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/masterCatalog.do?sc=1995-039F</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1995-039F</URL>
         <Description>Information about the Interball S2-X mission</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/Interball-Tail</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
@@ -39,6 +39,6 @@ The Tail Probe has an adapting alert mode while in the memory mode, allowing tim
       <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
       <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
       <ObservatoryRegion>Earth.Magnetosphere.Polar</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

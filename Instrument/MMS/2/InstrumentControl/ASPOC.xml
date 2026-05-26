@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>MMS 2 Active Spacecraft Potential Control (ASPOC) Instrument</ResourceName>
          <AlternateName>MMS 2 ASPOC</AlternateName>
-         <ReleaseDate>2016-06-18T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2021-07-20T13:41:27Z</ReleaseDate>
          <Description>The Active Spacecraft Potential Control (ASPOC) generates beams of indium ions to limit positive spacecraft potentials to within +4V in order to improve the measurements obtained by the follwinf MMS instruments: FPI, HPCA, ADP, and SDP. There are two ASPOC units per MMS spacecraft. The ASPOC Lead Co-I for Phase E is Rumi Nakamura (IFW, OAF).</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
@@ -18,7 +18,7 @@
          </Contact>
          <InformationURL>
             <Name>Mission instrument web page</Name>
-            <URL>http://mms.space.swri.edu/instruments.html</URL>
+            <URL>https://www.nasa.gov/mission_pages/mms/spacecraft/mms-instruments.html</URL>
             <Description>Mission web page that describes the payload (instruments) on each spacecraft.</Description>
             <Language>English</Language>
          </InformationURL>

@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Observatory>
         <ResourceID>spase://SMWG/Observatory/Skylab</ResourceID>
         <ResourceHeader>
             <ResourceName>Skylab</ResourceName>
-	    <AlternateName>1973-027A</AlternateName>
-            <ReleaseDate>2013-02-12T00:00:00Z</ReleaseDate>
+     <AlternateName>1973-027A</AlternateName>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>The Skylab (SL) was a manned, orbiting spacecraft composed of five parts, the Apollo telescope mount (ATM), the multiple docking adapter (MDA), the airlock module (AM), the instrument unit (IU), and the orbital workshop (OWS). The Skylab was in the form of a cylinder, with the ATM being positioned 90 deg from the longitudinal axis after insertion into orbit. The ATM was a solar observatory, and it provided attitude control and experiment pointing for the rest of the cluster. It was attached to the MDA and AM at one end of the OWS. The retrieval and installation of film used in the ATM was accomplished by astronauts during extravehicular activity (EVA). The MDA served as a dock for the command and service modules, which served as personnel taxis to the Skylab. The AM provided an airlock between the MDA and the OWS, and contained controls and instrumentation. The IU, which was used only during launch and the initial phases of operation, provided guidance and sequencing functions for the initial deployment of the ATM, solar arrays, etc. The OWS was a modified Saturn 4B stage suitable for long duration manned habitation in orbit. It contained provisions and crew quarters necessary to support three-person crews for periods of up to 84 days each. All parts were also capable of unmanned, in-orbit storage, reactivation, and reuse. The Skylab itself was launched on May 14, 1973. It was first manned during the period May 25 to June 22, 1973, by the crew of the SL-2 mission (73-032A). Next, it was manned during the period July 28 to September 25, 1973, by the crew of the SL-3 mission (73-050A). The final manned period was from November 16, 1973, to February 8, 1974, when it was manned by the crew from the SL-4 mission (73-090A).</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/O.Glenn.Smith</PersonID>
                 <Role>GeneralContact</Role>
-            </Contact> 
+</Contact>
             <InformationURL>
                 <Name>NSSDC's Master Catalog</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1973-027A</URL>
+                <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1973-027A</URL>
                 <Description>Information about Skylab</Description>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
         <Location>
             <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
-        </Location>
-    </Observatory>
+</Location>
+</Observatory>
 </Spase>
 
 

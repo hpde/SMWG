@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
+   <NumericalData>
+      <ResourceID>spase://SMWG/NumericalData/Hinode/EIS/Level0/FITS</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Hinode EIS Level0 FITS</ResourceName>
+         <ReleaseDate>2026-05-24T00:08:46</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2026-05-25T00:08:46</ReleaseDate>
+               <Note>Updated AccessInformation. SY</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>Hinode EIS Level0 FITS data are uncalibrated Extreme Ultraviolet (EUV) spectroscopic observations obtained by the EUV Imaging Spectrometer (EIS) instrument onboard the Hinode solar observatory. The Level0 products contain raw science telemetry converted to FITS format together with associated metadata and housekeeping information. EIS observes the solar transition region and corona in two EUV wavelength bands near 170–210 Å and 250–290 Å using slit and slot spectroscopic observations. Observation cadence, spatial coverage, and exposure time vary depending on the observing program and raster configuration.</Description>
+         <PublicationInfo>
+            <Authors>The Hinode EIS Consortium: Mullard Space Science Laboratory, University College London (UK); Rutherford Appleton Laboratory (UK); Naval Research Laboratory (USA); NASA Goddard Space Flight Center (USA); NASA Marshall Space Flight Center (USA); Japan Aerospace Exploration Agency (Japan); National Astronomical Observatory of Japan (Japan)</Authors>
+            <PublicationDate>2007-05-27T00:00:00</PublicationDate>
+            <PublishedBy>Japan Aerospace Exploration Agency (JAXA)</PublishedBy>
+         </PublicationInfo>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Sarah.Matthews</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/J.Leonard.Culhane</PersonID>
+            <Role>FormerPI</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Louise.Harra</PersonID>
+            <Role>FormerPI</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Harry.P.Warren</PersonID>
+            <Role>InstrumentScientist</Role>
+            <Note>EIS Instrument Scientist (USA)</Note>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/George.A.Doschek</PersonID>
+            <Role>InstrumentScientist</Role>
+            <Note>Former EIS Instrument Scientist (USA)</Note>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Hirohisa.Hara</PersonID>
+            <Role>InstrumentScientist</Role>
+            <Note>EIS Instrument Scientist (Japan)</Note>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Tetsuya.Watanabe</PersonID>
+            <Role>InstrumentScientist</Role>
+            <Note>Former EIS Instrument Scientist (Japan)</Note>
+         </Contact>
+      </ResourceHeader>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/DARTS</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>JAXA/DARTS</Name>
+            <URL>https://data.darts.isas.jaxa.jp/pub/hinode/eis/level0/</URL>
+            <Style>Listing</Style>
+         </AccessURL>
+         <Format>FITS</Format>
+         <Encoding>GZIP</Encoding>
+      </AccessInformation>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/MSSL/Hinode</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>Hinode EIS Data Archive at MSSL</Name>
+            <URL>https://solarb.mssl.ucl.ac.uk/SolarB/SearchArchive.jsp</URL>
+            <Style>Search</Style>
+         </AccessURL>
+         <Format>FITS</Format>
+         <Encoding>GZIP</Encoding>
+      </AccessInformation>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/SDAC</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <RightsList>
+            <Rights>
+               <SchemeURI>https://spdx.org/licenses/</SchemeURI>
+               <RightsIdentifierScheme>SPDX</RightsIdentifierScheme>
+               <RightsURI>https://spdx.org/licenses/CC0-1.0.html</RightsURI>
+               <RightsName>Creative Commons Zero v1.0 Universal</RightsName>
+               <Note>CC0 1.0 Universal is the Creative Commons license applicable to all publicly available NASA Heliophysics data products</Note>
+            </Rights>
+         </RightsList>
+         <AccessURL>
+            <Name>NASA/GSFC/SDAC</Name>
+            <URL>https://umbra.nascom.nasa.gov/hinode/eis/level0/</URL>
+            <Style>Listing</Style>
+         </AccessURL>
+         <Format>FITS</Format>
+         <Encoding>GZIP</Encoding>
+      </AccessInformation>
+      <AccessInformation>
+         <RepositoryID>spase://SMWG/Repository/ESA/HinodeScienceDataCentreEurope</RepositoryID>
+         <Availability>Online</Availability>
+         <AccessRights>Open</AccessRights>
+         <AccessURL>
+            <Name>Hinode SDC Europe</Name>
+            <URL>https://sdc.uio.no/search/form</URL>
+            <Style>Search</Style>
+         </AccessURL>
+         <Format>FITS</Format>
+      </AccessInformation>
+      <ProcessingLevel>Uncalibrated</ProcessingLevel>
+      <InstrumentID>spase://SMWG/Instrument/Hinode/EIS</InstrumentID>
+      <MeasurementType>Spectrum</MeasurementType>
+      <MeasurementType>ImageIntensity</MeasurementType>
+      <TemporalDescription>
+         <TimeSpan>
+            <StartDate>2006-03-19T18:03:22Z</StartDate>
+            <RelativeStopDate>-P7D</RelativeStopDate>
+         </TimeSpan>
+      </TemporalDescription>
+      <SpectralRange>ExtremeUltraviolet</SpectralRange>
+      <ObservedRegion>Sun</ObservedRegion>
+      <ObservedRegion>Sun.TransitionRegion</ObservedRegion>
+      <ObservedRegion>Sun.Corona</ObservedRegion>
+      <SpatialCoverage>
+         <CoordinateSystem>
+            <CoordinateRepresentation>Cartesian</CoordinateRepresentation>
+            <CoordinateSystemName>HPC</CoordinateSystemName>
+         </CoordinateSystem>
+      </SpatialCoverage>
+   </NumericalData>
+</Spase>

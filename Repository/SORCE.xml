@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Repository/SORCE</ResourceID>
     <ResourceHeader>
       <ResourceName>SORCE</ResourceName>
-      <ReleaseDate>2008-06-18T06:07:48Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Solar Radiation and Climate Experiment</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Thomas.N.Woods</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>SORCE</Name>
-        <URL>http://lasp.colorado.edu/sorce</URL>
-      </InformationURL>
+        <URL>http://lasp.colorado.edu/home/sorce/</URL>
+</InformationURL>
       <InformationURL>
         <Name>Data Product Summary &amp; Access</Name>
-        <URL>http://lasp.colorado.edu/sorce/data/data_product_summary.htm</URL>
-      </InformationURL>
-    </ResourceHeader>
-  </Repository>
+        <URL>http://lasp.colorado.edu/home/sorce/</URL>
+</InformationURL>
+</ResourceHeader>
+</Repository>
 </Spase>

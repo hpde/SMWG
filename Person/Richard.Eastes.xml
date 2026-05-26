@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.9</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Richard.Eastes</ResourceID>
+    <ReleaseDate>2019-04-22T17:35:46Z</ReleaseDate>
+    <PersonName>Richard Eastes</PersonName>
+    <OrganizationName>Laboratory for Atmospheric and Space Physics</OrganizationName>
+    <Address>Office: SPSC-N298; 1234 Innovation Drive, Boulder, CO  80303-7814</Address>
+    <Email>Richard.Eastes@lasp.colorado.edu</Email>
+    <PhoneNumber>+1 303 735 7221</PhoneNumber>
+  </Person>
+</Spase>

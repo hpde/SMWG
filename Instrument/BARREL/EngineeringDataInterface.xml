@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.4.0</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/BARREL/EngineeringDataInterface</ResourceID>
+      <ResourceHeader>
+         <ResourceName>BARREL Balloon Engineering Data Interfaces</ResourceName>
+         <ReleaseDate>2022-04-12T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2022-04-12T12:34:56.789</ReleaseDate>
+               <Note>BARREL Engineering Data Interface units: Initial SPASE 2.4.0 XML resource description submission, metadata submitted by LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>This document describes the full set of BARREL Balloon Engineering Data Interfaces, EDIs, and allows for search aggregation of EDI information from all balloons.
+
+The BARREL EDI units perform analog to digital conversion, ADC, of key temperatures, voltages, and currents. There are eight inputs of voltage and current pairs, four inputs of voltage only and sixteen inputs nominally for temperature sensors. Temperature inputs can also be configured to monitor voltage. All inputs are scaled to the nominal 5 V ADC, full-scale range and converted two channels at a time with 16-bit precision.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Robyn.Millan</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>BARREL Home Page</Name>
+            <URL>https://barrel.rmillan.host.dartmouth.edu</URL>
+            <Description>Main home page with links to the BARREL mission overview, data, publications, and news/events, hosted by Dartmouth College</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>BARREL Science Team Information</Name>
+            <URL>https://barrel.rmillan.host.dartmouth.edu/team.html</URL>
+            <Description>Site listing BARREL science team information, hosted by Dartmouth College</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>BARREL Mission Overview Poster</Name>
+            <URL>https://barrel.rmillan.host.dartmouth.edu/documents/BARREL.foldout_v2.pdf</URL>
+            <Description>BARREL mission overview summary poster, hosted by Dartmouth College</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>BARREL Introduction: Balloon Test Flight Results and Mission Plans and Objectives, JASTP Publication</Name>
+            <URL>https://doi.org/10.1016/j.jastp.2011.01.006</URL>
+            <Description>Millan, R.M., McCarthy, M.P., Sample, J.G. et al., Understanding Relativistic Electron Losses with BARREL, J. Atmos. and Sol.-Terr. Phys., 73(11-12), 1425-1434, (2011), DOI: https://doi.org/10.1016/j.jastp.2011.01.006</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>BARREL Campaign Plans, Science Objectives, Instrument Descriptions, Payload Design, and Support Systems, SSR Publication</Name>
+            <URL>https://doi.org/10.1007/s11214-013-9971-z</URL>
+            <Description>Millan, R.M., McCarthy, M.P., Sample, J.G. et al., The Balloon Array for RBSP Relativistic Electron Losses (BARREL), Space Sci. Rev., 179, 503–530 (2013). DOI: https://doi.org/10.1007/s11214-013-9971-z</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Platform</InstrumentType>
+      <InvestigationName>Balloon Array for RBSP Relativistic Electron Losses (BARREL)</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/BARREL</ObservatoryID>
+   </Instrument>
+</Spase>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_6_1.xsd">
+  <Version>2.6.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/aaron.w.breneman</ResourceID>
+    <PersonName>Aaron W Breneman</PersonName>
+    <OrganizationName>NASA/GSFC-6750</OrganizationName>
+    <Email>aaron.w.breneman@nasa.gov</Email>
+    <ORCIdentifier>0000-0001-6331-497X</ORCIdentifier>
+  </Person>
+</Spase>

@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Instrument>
         <ResourceID>spase://SMWG/Instrument/Skylab/Spectroheliometer</ResourceID>
         <ResourceHeader>
             <ResourceName>Skylab UV Scanning Polychromator/Spectroheliometer</ResourceName>
-	    <AlternateName>1973-027A-06</AlternateName>
-            <ReleaseDate>2013-02-12T00:00:00Z</ReleaseDate>
+     <AlternateName>1973-027A-06</AlternateName>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>The objective of this experiment, which was located on the ATM, was to obtain photometric data of six spectral lines (O IV, Mg X, C II, O VI, H I, C II) and the Lyman continuum, and extreme ultraviolet (EUV) observations of a variety of structures in the solar chromosphere, corona, and chromospheric-coronal transition layer. An ultraviolet scanning polychromator spectroheliometer operated in a spectral range of 296 to 1350 A with a resolution of 1.5 A. An off-axis paraboloidal primary mirror formed a solar image on a 56- by 56-micron entrance slit of the spectrometer, corresponding to a 5- by 5-arc-s area on the sun. Diffraction by a concave grating, ruled in gold with 1800 grooves per mm, produced a spectrum on the Rowland circle where seven photomultiplier detectors in fixed positions simultaneously recorded the intensities of the six lines and the Lyman continuum. The instrument had three basic observing modes. First, a mirror raster scanning mode was used in which spectroheliograms of a 5.5- by 5-arc-min area were acquired in up to seven wavelengths simultaneously. Each scan took approximately 5.5 min to complete. Second, a mirror line scanning mode acquired data for seven wavelengths simultaneously in an area 5 arc-s by 5.5 arc-min. This took approximately 5.5 s. Third, a grating wavelength scanning mode was used, in which the spectrum of a 5- by 5-arc-s area was scanned in 3.8 min. The scan consisted of 5270 data points. The instrument could be operated during manned, unattended, or unmanned periods of the Skylab mission. Count data were recorded and then transmitted to Earth every orbit. For more details, see E. M. Reeves, M. C. E. Huber, and J. G. Timothy, App. Opt., v. 16, p. 837, 1977.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Robert.W.Noyes</PersonID>
                 <Role>PrincipalInvestigator</Role>
-            </Contact> 
+</Contact>
             <InformationURL>
                 <Name>NSSDC Master Catalog</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1973-027A-06</URL>
+                <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1973-027A-06</URL>
                 <Description>Information about UV scanning polychromator spectroheliometer on Skylab</Description>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
         <InstrumentType>Spectrometer</InstrumentType>
         <InvestigationName>UV Scanning Polychromator Spectroheliometer</InvestigationName>
         <ObservatoryID>spase://SMWG/Observatory/Skylab</ObservatoryID>
-    </Instrument>
+</Instrument>
 </Spase>
 
 

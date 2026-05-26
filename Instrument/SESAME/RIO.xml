@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/SESAME/RIO</ResourceID>
     <ResourceHeader>
       <ResourceName>SESAME Riometer</ResourceName>
-      <ReleaseDate>2014-07-24T20:37:17Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The SESAME Rio (Satellite Experiments Simultaneous with Antarctic MEasurements Riometer) is a relative ionospheric opacity meter which is a radio receiver for monitoring the intensity of cosmic radio noise.  It measures the absorption of radio signals in the ionosphere (dB) in North, East, South and West, in each case direction shifted into an L-shell-aligned coordinate system. Data are sampled once per second with a sensitivity of 0.1 dB.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/J.R.Dudeney</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Project Overview</Name>
-        <URL>http://link.springer.com/article/10.1007%2FBF00751348</URL>
+        <URL>https://link.springer.com/article/10.1007%2FBF00751348</URL>
         <Description>Information about SESAME</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Riometer</InstrumentType>
     <InvestigationName>Riometer Observations on SESAME</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/SESAME</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

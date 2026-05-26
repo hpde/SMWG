@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
       xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Instrument>
         <ResourceID>spase://SMWG/Instrument/Granat/KS-18-M</ResourceID>
         <ResourceHeader>
             <ResourceName>Energetic Particle Detectors from KS-18-M</ResourceName>
-            <ReleaseDate>2009-04-22T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>This experiment is one of several provided by the Theoretical and Applied Space Physics Division of the Skobeltsyn Institute of Nuclear Physics of Moscow State University. The KS-18-M instrument was designed as a monitor of fluxes of charged particles of medium energy in interplanetary space. Solar x-rays may be also registered. There are two almost identical sensor blocks: one is sunward directed (S) and the other - anti-sunward (A). Each block contains the following sensors: two gas-discharge counters (C1, C2); two stand-alone SSD of Si (D1, D2) of 130 micron and 1000 micron of thickness respectively; a SSD system T1 of two Si-sensors of 70 and 1000 microns thickness plus an anti-coincident cup of SSDs; and a combined system T2 of solid state detectors (SSD) (50 micron Si) plus windowed gas-discharge counter SBT-9 plus anti-coincident cup of SSDs. View angle of each SSD sensor is as wide as +-25 degrees. Spacecraft memory is used for data storage; 20 minute time resolution is provided for all sensors; in addition, one channel from D1 and two channels from D2 may work with two minute time resolution if high intensity is observed. All sensors measure flux intensity continuously. All data are broken up to six groups according to their modes of timing. Many further details are available at: ftp://nssdc.gsfc.nasa.gov/pub/spacecraft_data/russian_msu/common_info.txt and ftp://nssdc.gsfc.nasa.gov/pub/spacecraft_data/russian_msu/granat/gr_descr.txt</Description>
              <Contact>
             <PersonID>spase://SMWG/Person/Evgeni.A.Chuchkov</PersonID>
             <Role>PrincipalInvestigator</Role>
-            </Contact>
+</Contact>
            <InformationURL>
                  <Name>NSSDC's Master Catalog</Name>
-                 <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1989-096A-01</URL>
-                 <Description> Information about the Energetic Particle Detectors from KS-18-M experiment on the Granat mission.</Description>
-           </InformationURL>
-        </ResourceHeader>
+                 <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1989-096A-01</URL>
+                 <Description>Information about the Energetic Particle Detectors from KS-18-M experiment on the Granat mission.</Description>
+</InformationURL>
+</ResourceHeader>
      <InstrumentType>ParticleDetector</InstrumentType>
      <InvestigationName>Energetic Particle Detectors from KS-18-M on Granat</InvestigationName>
      <ObservatoryID>spase://SMWG/Observatory/Granat</ObservatoryID>
-  </Instrument>   
+</Instrument>
 </Spase>

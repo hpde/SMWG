@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+   <Version>2.3.2</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/MAVEN/STATIC</ResourceID>
+      <ResourceHeader>
+         <ResourceName>MAVEN SupraThermal And Thermal Ion Composition, STATIC, Instrument</ResourceName>
+         <AlternateName>MAVEN STATIC Instrument</AlternateName>
+         <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+               <Note>Updated to SPASE Version 2.3.2 if needed, Applied quality conntrol for DOI usage, LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The SupraThermal And Thermal Ion Composition, STATIC, Instrument is designed to characterize Ions escaping from the Martian Atmosphere and the Processes of Escape, to determine the Composition of Thermal Ions to Energetic Ions, and the Energy Distributions and Pitch Angle Variations. The Objectives are to measure Ionospheric Ions from 0.1 eV to 10 eV, Tail Superthermal Ions from 5 eV to 100 eV, and Pick-Up Ions from 100 eV to 20 keV, with particular emphasis on the positive Ions of Hydrogen, H, Oxygen, O&#8322;, and iCarbon Dioxide, CO&#8322;. STATIC is a toroidal Electrostatic Analyzer with a Time-of-Flight Section.
+
+The Instrument consists of an Analyzer/Deflector, which selects the Ions by Energy, a 15 kV Accelerator, and a Series of Carbon Foils with Densities from 0.5 &#181;gm/cm&#178; to 1.1 &#181;gm/cm&#178; backed by a MicroChannel Plate, MCP, Detector. Ions penetrating the first Foil, designated &quot;Start&quot;, produce Electrons which are accelerated and deflected to the MCP. The next Foil, designated &quot;Stop&quot;, is 2 cm away, Ions penetrating this Foil produce Electrons which are accelerated by 10 kV through the third Foil, designated &quot;Thick&quot;, to the MCP. The Thick Foil captures any Protons that have penetrated the Stop Foil. All MCP events are recorded and stored by a Digital Interface Board. STATIC can cover a Mass Range of 1 amu to 70 amu, Flow Velocities from less than 1 km/s to greater than 25 km/s, and an Energy Range from 1 eV to 30 keV. Mounted on the articulating Payload Platform, its Field of View is 360&#176; &#215; 90&#176;.</Description>
+         <Acknowledgement>National Aeronautics and Space Administration, NASA, Space Sciences Laboratory, University of California, Berkeley</Acknowledgement>
+         <Funding>
+            <Agency>National Aeronautics and Space Administration, Mars Scout Program</Agency>
+            <Project>MAVEN SupraThermal And Thermal Ion Composition Investigation</Project>
+            <AwardNumber>UNKNOWN</AwardNumber>
+         </Funding>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.P.McFadden</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>The Mars Atmosphere and Volatile Evolution, MAVEN, SupraThermal And Thermal Ion Composition Instrument Home Page, LASP, UC Boulder</Name>
+            <URL>https://lasp.colorado.edu/home/maven/science/instrument-package/static/</URL>
+            <Description>The Mars Atmosphere and Volatile Evolution, MAVEN, SupraThermal And Thermal Ion Composition Instrument Home Page, Laboratory of Atmospheric and Space Physics, LASP, University of Colorado, Boulder</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>MAVEN SupraThermal And Thermal Ion Composition, STATIC, Instrument paper, Published by Space Sci. Rev., Date: 2015-11-23</Name>
+            <URL>https://doi.org/10.1007/s11214-015-0175-6</URL>
+            <Description>Author List: McFadden, J. P., Kortmann, O., Curtis, D. W., Dalton, G., Johnson, G., Abiad, R., Sterling, R., Hatch, K., Berg, P., Tiu, C., Gordon, D. A., Heavner, S., Robinson, M., Marckwordt, M., Lin, R. P., &amp; Jakosky, B. M.</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>NSSDC Master Catalog Listing, MAVEN SupraThermal And Thermal Ion Composition, STATIC, Instrument</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2013-063A-03</URL>
+            <Description>NSSDC Master Catalog Listing for the MAVEN SupraThermal And Thermal Ion Composition, STATIC, Instrument, NSSDCA/COSPAR ID: 2013-063A-03</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>ElectrostaticAnalyser</InstrumentType>
+      <InvestigationName>MAVEN SupraThermal And Thermal Ion Composition Investigation</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2013-11-18T18:28:00</StartDate>
+         <Note>MAVEN Launch Date and Time until data are available</Note>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/MAVEN</ObservatoryID>
+   </Instrument>
+</Spase>

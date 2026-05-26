@@ -5,21 +5,21 @@
     <ResourceID>spase://SMWG/Instrument/GOES/7/EPM</ResourceID>
     <ResourceHeader>
       <ResourceName>Energetic Particle Monitor</ResourceName>
-      <ReleaseDate>2011-06-03T20:40:27Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The energetic particle monitor consisted of three detector assemblies, each covering limited regions of the overall energy spectrum. The first two detector assemblies monitored protons in seven energy ranges between 0.8 and 500 MeV and alpha particles in six energy ranges from 4 to &gt;400 MeV. There was also one channel for the measurement of electrons in the energy range above 500 keV. The third detector, high energy proton and alpha detector (HEPAD), monitored protons in four energy ranges above 370 MeV and alpha particles in two energy ranges above 640 MeV/nucleon. In all, there were 25 channels of data, each channel sampling at a slow rate of once in a few seconds, or once in a few minutes.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Herbert.H.Sauer</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1987-022A&amp;ex=2</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1987-022A&amp;ex=2</URL>
         <Description>Information about the Energetic Particle Monitor experiment on the GOES  7 mission.</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://SMWG/Instrument/GOES7/EPM</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Energetic Particle Monitor on GOES  7</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/GOES/7</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

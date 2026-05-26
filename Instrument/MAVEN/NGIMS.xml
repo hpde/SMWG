@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+   <Version>2.3.2</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/MAVEN/NGIMS</ResourceID>
+      <ResourceHeader>
+         <ResourceName>MAVEN Neutral Gas and Ion Mass Spectrometer, NGIMS, Instrument</ResourceName>
+         <AlternateName>MAVEN NGIMS Instrument</AlternateName>
+         <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+               <Note>Updated to SPASE Version 2.3.2 if needed, Applied quality conntrol for DOI usage, LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The Neutral Gas and Ion Mass Spectrometer, NGIMS, is an In-situ Instrument designed to measure the Composition and Isotope Abundances of Thermal Neutral Atoms and Ions in the Martian Atmosphere below 500 km. The Science Objectives of the Instrument are to establish the Structure and Composition of the neutral Upper Atmosphere, measure Isotope Ratios, and measure Thermal Ions and Suprathermal Ions, with the Goal of producing Altitude Profiles from the Homopause to above the Exobase and studying Changes in the Atmosphere over the Course of the Mission.
+
+NGIMS is designed to profile Helium, He, Nitrogen, N, Carbon Monoxide, CO, N&#8322;, Nitric Oxide, NO, Oxygen, O&#8322;, Argon, Ar, and Carbon Dioxide, CO&#8322; and their major Isotopes from the Homopause up to one Scale Height above the Exobase with a vertical Resolution of one-half Scale Height for each Species, and provide Profiles of positive Ions of O&#8322;, CO&#8322;, NO, O, CO, Carbon, C, N&#8322;, Hydroxyl, OH, and N from about 120 km to 400 km with a vertical Resolution of one-half O&#8322;+ Scale Height. It will also determine the Neutral Temperature and Isotope Ratios.
+
+The NGIMS is mounted on the MAVEN articulated Payload Platform with a 20&#176; unobstructed Field-of-View. It has two Openings facing the Ram Direction, for two Sampling Modes: Open Ion Source and Closed Ion Source. It has two Operating Modes, Neutral and Ion. In Neutral Mode, Neutrals are collected via the Closed Source and Open Source alternatively, while in Ion Mode the Ions are collected via Open Source only.
+
+Samples enter the Apertures to Electron Beam Ionization Regions, pass by a Bayard-Alpert Pressure Gauge, through a Quadripole Deflector and Ion Lens System to the Quadripole Mass Analyzer and then to an Ion Detector. The Mass Range of the Instrument is 2 amu to 150 amu. Sampling Period is 30 ms with an Integration Period of 27 ms. It can Scan in a programmed Mass Band or Survey Scan in 0.1 amu or 1 amu Steps.</Description>
+         <Acknowledgement>National Aeronautics and Space Administration, NASA, NASA Goddard Space Flight Center, NASA GSFC</Acknowledgement>
+         <Funding>
+            <Agency>National Aeronautics and Space Administration, Mars Scout Program</Agency>
+            <Project>MAVEN Neutral Gas and Ion Mass Spectrometer Investigation</Project>
+            <AwardNumber>UNKNOWN</AwardNumber>
+         </Funding>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Paul.R.Mahaffy</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>The Mars Atmosphere and Volatile Evolution, MAVEN, Neutral Gas and Ion Mass Spectrometer Instrument Home Page, LASP, UC Boulder</Name>
+            <URL>https://lasp.colorado.edu/home/maven/science/instrument-package/ngims/</URL>
+            <Description>The Mars Atmosphere and Volatile Evolution, MAVEN, Neutral Gas and Ion Mass Spectrometer Instrument Home Page, Laboratory for Atmospheric and Space Physics, LASP, University of Colorado, Boulder</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>MAVEN Neutral Gas and Ion Mass Spectrometer, NGIMS, Instrument paper, Published by Space Sci. Rev., Date: 2014-09-11</Name>
+            <URL>https://doi.org/10.1007/s11214-014-0091-1</URL>
+            <Description>Author List: Mahaffy, P. R., Benna, M., King, T., Harpold, D. N., Arvey, R., Barciniak, M., Bendt, M., Carrigan, D., Errigo, T., Holmes, V., Johnson, C. S., Kellogg, J., Kimvilakani, P., Lefavor, M., Hengemihle, J., Jaeger, F., Lyness, E., Maurer, J., Melak, A., Noreiga, F., Noriega, M., Patel, K., Prats, B., Raaen, E., Tan, F., Weidner, E., Gundersen, C., Battel, S., Block, B. P., Arnett, K., Miller, R., Cooper, C., Edmonson, C., &amp; Nolan, J. T.</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>NSSDC Master Catalog Listing, MAVEN Neutral Gas and Ion Mass Spectrometer, NGIMS, Instrument</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2013-063A-02</URL>
+            <Description>NSSDC Master Catalog Listing for the MAVEN Neutral Gas and Ion Mass Spectrometer, NGIMS, Instrument, NSSDCA/COSPAR ID: 2013-063A-02</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>MassSpectrometer</InstrumentType>
+      <InvestigationName>MAVEN Neutral Gas and Ion Mass Spectrometer Investigation</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2013-11-18T18:28:00</StartDate>
+         <Note>MAVEN Launch Date and Time until data are available</Note>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/MAVEN</ObservatoryID>
+   </Instrument>
+</Spase>

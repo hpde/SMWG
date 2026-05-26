@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+  <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.2.8</Version> 
+  <Observatory>
+	  <ResourceID>spase://SMWG/Observatory/Ground/GFZ</ResourceID> 
+		  <ResourceHeader>
+		  <ResourceName>GeoForschungsZentrum </ResourceName> 
+		  <AlternateName>German Research Centre for Geosciences</AlternateName>
+		  <AlternateName>GFZ</AlternateName>
+		  <ReleaseDate>2019-03-08T00:00:00Z</ReleaseDate> 
+		  <Description>From its Adolf-Schmidt-Observatory for Geomagnetism in Niemegk, GFZ 
+		  operates a number of geomagnetic observatories and observatory cooperation worldwide. 
+		  Further observatories are operated or supported through national and international 
+		  cooperation.  </Description> 
+		  <Acknowledgement>Deutsches GeoForschungsZentrum</Acknowledgement>
+		  <Contact>
+			  <PersonID>spase://SMWG/Person/Juergen.Matzka</PersonID> 
+			  <Role>GeneralContact</Role> 
+		  </Contact> 
+		  <Contact>
+			  <PersonID>spase://SMWG/Person/Achim.Morschhauser</PersonID> 
+			  <Role>GeneralContact</Role> 
+		  </Contact> 
+		  <InformationURL>
+			  <Name>German Research Centre for Geosciences Geomagnetic Observatories</Name> 
+			  <URL>https://www.gfz-potsdam.de/en/section/geomagnetism/infrastructure/geomagnetic-observatories/</URL> 
+			  <Description>Information about the geomagnetic observatories and links to the data.</Description> 
+		  </InformationURL>
+		</ResourceHeader>  
+		<Location>
+		  <ObservatoryRegion>Earth.NearSurface.AuroralRegion</ObservatoryRegion> 
+		  <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion> 
+		  <ObservatoryRegion>Earth.Surface</ObservatoryRegion> 
+		</Location>
+  </Observatory>
+  </Spase>

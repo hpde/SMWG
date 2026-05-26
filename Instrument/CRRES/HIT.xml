@@ -5,24 +5,24 @@
     <ResourceID>spase://SMWG/Instrument/CRRES/HIT</ResourceID>
     <ResourceHeader>
       <ResourceName>Heavy Ion Telescope</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:11Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Heavy Ion Telescope (HIT) was part of the Mass Composition Instruments group and used a three-element solid state detector to measure the energy loss, incident ion energy and the time of flight along a fixed length. The three measured parameters enabled unique determination of the ion mass, elemental identification and incident energy over the range of 100 keV to 15 MeV per ion for H-Ar. The first HIT detector measured the differential (dE/dx) energy loss of the penetrating ion, the second measured the residual energy of ions stopping in that detector, and the third vetoed ions penetrating the first two. The time of flight along a 7.6-cm track was measured by the almost instantaneous emission of secondary electrons by the first and second detectors. The measured energy loss, total energy and the time of flight were digitized and transferred to the data processing unit for telemetering. This experiment was part of the SPACERAD project sponsored by AFGL.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Theodore.Allan.Fritz</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/E.Gary.Mullen</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1990-065A&amp;ex=17</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1990-065A&amp;ex=17</URL>
         <Description>Information about the Heavy Ion Telescope experiment on the CRRES mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Heavy Ion Telescope on CRRES</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/CRRES</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

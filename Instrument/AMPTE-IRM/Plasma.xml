@@ -7,7 +7,7 @@
          <ResourceName>AMPTE/IRM Plasma Instrument</ResourceName>
          <AlternateName>AMPTE/IRM 3-D Plasma Analyser</AlternateName>
          <AlternateName>1984-088B-03</AlternateName>
-         <ReleaseDate>2018-04-12T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>The IRM plasma instrument (G. Paschmann, PI) consists of two symmetrical quadrispherical electrostatic analyzers, one for ions and one for electrons, which measure the complete 3-D velocity distribution function in one spacecraft revolution (4s). The energy range covered is 15eV/q to 30 keV/q for electrons and 20 eV/q to 40 keV/q for ions. The angular resolution is 22.5&#176;. Microcomputers within the experiment compute the moments of the distribution functions in real time. An additional retarding potential analyzer measured the flux of electrons between approximately 0 and 25 eV.
 
 For more details, see Paschmann, G., et al., The Plasma Instrument for AMPTE IRM, IEEE Trans. Geosci. Remote Sens., GE-23, 262, 1985.</Description>
@@ -16,26 +16,26 @@ For more details, see Paschmann, G., et al., The Plasma Instrument for AMPTE IRM
             <!-- Goetz Paschmann -->
             <PersonID>spase://SMWG/Person/Goetz.Paschmann</PersonID>
             <Role>PrincipalInvestigator</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>AMPTE/IRM page at University of New Hampshire</Name>
             <URL>http://www-ssg.sr.unh.edu/index.html?tof/Missions/Ampte-irm/plasma/plasmamain.html</URL>
             <Description>Information on the AMPTE/IRM plasma instrument</Description>
-         </InformationURL>
+</InformationURL>
          <InformationURL>
             <Name>NSSDC Master Catalog</Name>
-            <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1984-088B-03</URL>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1984-088B-03</URL>
             <Description>NSSDC information about the AMPTE/IRM plasma instrument</Description>
-         </InformationURL>
+</InformationURL>
          <InformationURL>
             <Name>IEEE Transaction on Geoscience and Remote Sensing Article</Name>
-            <URL>https://doi.org/10.1109/TGRS.1985.289525</URL>
+            <URL>https://ieeexplore.ieee.org/document/4072289/</URL>
             <Description>Detailed information about the AMPTE IRM Plasma Instrument.</Description>
-         </InformationURL>
+</InformationURL>
          <PriorID>spase://SMWG/Instrument/AMPTE_IRM/Plasma</PriorID>
-      </ResourceHeader>
+</ResourceHeader>
       <InstrumentType>QuadrisphericalAnalyser</InstrumentType>
       <InvestigationName>IRM Plasma Instrument</InvestigationName>
       <ObservatoryID>spase://SMWG/Observatory/AMPTE-IRM</ObservatoryID>
-   </Instrument>
+</Instrument>
 </Spase>

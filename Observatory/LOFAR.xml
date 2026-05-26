@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
+    <Version>2.2.6</Version>
+    <Observatory>
+        <ResourceID>spase://SMWG/Observatory/LOFAR</ResourceID>
+        <ResourceHeader>
+            <ResourceName>LOFAR</ResourceName>
+            <ReleaseDate>2020-07-01T13:27:00Z</ReleaseDate>
+            <Description>LOFAR is an interferometer with about 50 000 antennas grouped in 50 stations through 
+                Europe, with 60% of them located in the Netherlands. It has been running since 2012. 
+                It is connected to a central supercomputer in Groningen, Netherlands.
+                The key scientific objectives are deep sky surveys, the study of reionisation epoch, of variable 
+                sources like pulsars, jets, eruptive stars, planets and exoplanets, the detection of very high 
+                energy cosmic rays, and the interplanetary medium physics.
+                One of its Key Projects focusses on Solar physics and space weather.</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Rene.Vermeulen</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <InformationURL>
+                <URL>http://www.lofar.org</URL>
+                <Language>en</Language>
+            </InformationURL>
+        </ResourceHeader>
+        <Location>
+            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+            <CoordinateSystemName>GEO</CoordinateSystemName>
+            <Latitude>52.915118</Latitude>
+            <Longitude>6.869833</Longitude>
+            <Elevation>4</Elevation>
+        </Location>
+    </Observatory>
+</Spase>

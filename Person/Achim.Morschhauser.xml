@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+   <Version>2.2.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Achim.Morschhauser</ResourceID>
+      <ReleaseDate>2019-03-09T12:34:56.789</ReleaseDate>
+      <PersonName>Achim Morschhauser</PersonName>
+      <OrganizationName>GFZ Helmholtz Centre Potsdam</OrganizationName>
+      <Address>Lindenstr. 7 Building H 1, Room 21314823 Niemegk Germany</Address>
+      <Email>jurgen.matzka@gfz-potsdam.de</Email>
+      <PhoneNumber>+49 33843 624-14</PhoneNumber>
+	  <FaxNumber>+49 331 288-1235</FaxNumber>
+   </Person>
+</Spase>

@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--$Id$-->
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Robert.M.Candey</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-    <PersonName>Mr. Robert M. Candey</PersonName>
-    <OrganizationName>NASA Goddard Space Flight Center</OrganizationName>
-    <Address>Code 672, Greenbelt, MD 20771, USA</Address>
-    <Email>robert.m.candey@nasa.gov</Email>
-    <PhoneNumber>1-301-286-6707</PhoneNumber>
-  </Person>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Robert.M.Candey</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <ReleaseDate>2025-03-05T12:34:56.789Z</ReleaseDate>
+      <PersonName>Robert M. Candey</PersonName>
+      <OrganizationName>NASA Goddard Space Flight Center</OrganizationName>
+      <Address>Code 672, Greenbelt, MD 20771, USA</Address>
+      <Email>robert.m.candey@nasa.gov</Email>
+      <PhoneNumber>1-301-286-6707</PhoneNumber>
+      <RORIdentifier>0171mag52</RORIdentifier>
+   </Person>
 </Spase>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_6_1.xsd">
+   <Version>2.6.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/John.S.Gianforte</ResourceID>
+      <PersonName>John S. Gianforte</PersonName>
+      <OrganizationName>University of New Hampshire, UNH Observatory</OrganizationName>
+      <Address>https://theskyguy.org/</Address>
+      <PhoneNumber>603-674-6531</PhoneNumber>
+      <Note>Dr Gianforte is UNH Observatory director. </Note>
+   </Person>
+</Spase>

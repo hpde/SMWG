@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.4.0</Version>
+  <Document>
+    <ResourceID>spase://SMWG/Document/SPASE/DataModel/SimulationExtensions</ResourceID>
+    <ResourceHeader>
+      <ResourceName>SPASE Simulation Extensions for the Space Physics Archive Search and Extract (SPASE) Data Model</ResourceName>
+      <DOI>https://doi.org/10.48322/TXCA-X050</DOI>
+      <ReleaseDate>2021-10-14T00:00:00.000Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2014-05-19T00:00:00.000Z</ReleaseDate>
+          <Note>Release 1.0.0. Initial release.</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Space Physics Archive Search and Extract (SPASE) consortium has defined a base
+information model for describing scientific data and related resources. This document defines a set
+of extensions for describing the simulation models, runs and the resulting data (numerical or
+display).
+
+The SPASE Simulation Extensions were originally developed by the Integrated Medium for
+Planetary Exploration (IMPEx) project, a European Union (EU) Seventh Framework Programme
+sponsored project, which was subsequently endorsed by the SPASE consortium.</Description>
+      <Acknowledgement>SPASE Group</Acknowledgement>
+      <PublicationInfo>
+        <Authors>SPASE Group</Authors>
+        <PublicationDate>2014-05-19T00:00:00.000Z</PublicationDate>
+        <PublishedBy>SPASE Group</PublishedBy>
+      </PublicationInfo>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+        <Role>Publisher</Role>
+      </Contact>
+    </ResourceHeader>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/SPASE</RepositoryID>
+      <AccessURL>
+        <Name>PDF</Name>
+        <URL>https://spase-group.org/data/simulation/spase-sim-1.0.0.pdf</URL>
+      </AccessURL>
+      <Format>PDF</Format>
+    </AccessInformation>
+    <AccessInformation>
+      <RepositoryID>spase://SMWG/Repository/SPASE</RepositoryID>
+      <AccessURL>
+        <Name>XML Schema</Name>
+        <URL>https://spase-group.org/data/schema/spase-sim-1.0.0.xsd</URL>
+      </AccessURL>
+      <Format>XML</Format>
+    </AccessInformation>
+    <Keyword>SPASE</Keyword>
+    <Keyword>Simulation Extensions</Keyword>
+    <Keyword>Specification</Keyword>
+    <DocumentType>Specification</DocumentType>
+    <MIMEType>application/pdf</MIMEType>
+  </Document>
+</Spase>

@@ -6,43 +6,43 @@
     <ResourceHeader>
       <ResourceName>Magnetic Ion-Mass Spectrometer (MIMS)</ResourceName>
       <AlternateName>MIMS</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
-      <Description>A magnetic ion-mass spectrometer was flown to measure in situ the concentrations of 
-	  the ambient positive ion species in the mass range from 1 to 90 atomic mass units (u). Mounted on 
-	  the satellite equator normal to the spin axis, the entrance aperture faced forward when the 
-	  spacecraft was in the despun mode. The electric and magnetic fields were arranged to produce 
-	  a mass spectrum along the focal plane following the magnetic analyzer. Three slits were placed 
-	  along this plane in appropriate places to simultaneously collect ions in the mass ratio 1-4-16.
-	  Ionospheric ions were accelerated into the analyzer system by a negative voltage that varied 
-	  from -1060 to -225 V. The three mass ranges measured simultaneously were 1 to 4, 4 to 16, 
-	  and 14 to 72 u. Following each slit was an electron multiplier and logarithmic 
-	  electrometer-amplifier detector. The detector output was either measured directly for an analog 
-	  output, or was supplied to a "peak" circuit that determined the amplitude of each peak in the 
-	  spectrum. Only the amplitude of each peak was telemetered in the "peak" mode, and in this mode 
-	  the time required to simultaneously sweep all three mass ranges was 1 s. Other modes of
-	  operation were possible. In the analog short mode, the three mass ranges were swept in 2 s, 
-	  alternating with 1-s "peak" mode scans. An 8-s sweep time was required in the analog long mode, 
-	  again alternating with 1-s "peak" mode scans. An option existed in the locked mode to 
-	  continuously measure any set of mass numbers in the ratio 1-4-16 to give high spatial resolution. 
-	  More experiment detail can be found in J. H. Hoffman et al., Radio Sci., v. 8, n. 4, p. 315, 
-	  1973. NSSDC has all the useful data that exist from this investigation.</Description>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>A magnetic ion-mass spectrometer was flown to measure in situ the concentrations of
+   the ambient positive ion species in the mass range from 1 to 90 atomic mass units (u). Mounted on
+   the satellite equator normal to the spin axis, the entrance aperture faced forward when the
+   spacecraft was in the despun mode. The electric and magnetic fields were arranged to produce
+   a mass spectrum along the focal plane following the magnetic analyzer. Three slits were placed
+   along this plane in appropriate places to simultaneously collect ions in the mass ratio 1-4-16.
+   Ionospheric ions were accelerated into the analyzer system by a negative voltage that varied
+   from -1060 to -225 V. The three mass ranges measured simultaneously were 1 to 4, 4 to 16,
+   and 14 to 72 u. Following each slit was an electron multiplier and logarithmic
+   electrometer-amplifier detector. The detector output was either measured directly for an analog
+   output, or was supplied to a "peak" circuit that determined the amplitude of each peak in the
+   spectrum. Only the amplitude of each peak was telemetered in the "peak" mode, and in this mode
+   the time required to simultaneously sweep all three mass ranges was 1 s. Other modes of
+   operation were possible. In the analog short mode, the three mass ranges were swept in 2 s,
+   alternating with 1-s "peak" mode scans. An 8-s sweep time was required in the analog long mode,
+   again alternating with 1-s "peak" mode scans. An option existed in the locked mode to
+   continuously measure any set of mass numbers in the ratio 1-4-16 to give high spatial resolution.
+   More experiment detail can be found in J. H. Hoffman et al., Radio Sci., v. 8, n. 4, p. 315,
+   1973. NSSDC has all the useful data that exist from this investigation.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/John.H.Hoffman</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1975-096A-10</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1975-096A-10</URL>
         <Description>Information about the Magnetic Ion-Mass Spectrometer (MIMS) experiment on the AE-D mission.</Description>
-      </InformationURL>
-	  <InformationURL>
+</InformationURL>
+   <InformationURL>
         <Name>Radio Science Journal Article</Name>
-        <URL>https://doi.org/10.1029/RS008i004p00315</URL>
+        <URL>https://onlinelibrary.wiley.com/doi/abs/10.1029/RS008i004p00315</URL>
         <Description>Detailed information about the Magnetic Ion-Mass Spectrometer experiment on the AE-D mission.</Description>
-	  </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>MassSpectrometer</InstrumentType>
     <InvestigationName>Magnetic Ion-Mass Spectrometer (MIMS) on AE-D</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/AE-D</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/CRRES/IMS-HI</ResourceID>
     <ResourceHeader>
       <ResourceName>Medium Energy Ion Mass Spectrometer</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:11Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Medium Energy Ion Mass Spectrometer (IMS-HI) was designed to measure the ring current ions in the energy/Q range of 20 keV/Q to 8 MeV/Q for protons, but with proportionately smaller ranges for the heavier atomic mass ions. This was accomplished by making a narrowly collimated stream of incident ions pass into a cross-magnetic field chamber with a field strength of 7 kG, which curved the trajectory toward one of the six cooled (-50 C) solid state detectors (n-type silicon). The momentum per charge of an ion determined the detector that it would reach. In turn, the energy of that ion was measured by that detector. The instrument could therefore provide differential energy spectra for all ions from hydrogen through barium, in the appropriate energy ranges. A broom magnet at the entrance to the magnetic field chamber expelled all electrons of energy less than 1 MeV and helped to minimize spurious counts. In addition to the ions, the instrument could also measure the energetic neutral atoms by means of a seventh detector (p-type silicon) located straight across from the entrance hole. The collimator had a conical field of view of 4 deg and a view direction at an angle 75 deg with respect to the spin axis of the satellite.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Richard.R.Vondrak</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1990-065A&amp;ex=23</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1990-065A&amp;ex=23</URL>
         <Description>Information about the Medium Energy Ion Mass Spectrometer experiment on the CRRES mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>MassSpectrometer</InstrumentType>
     <InvestigationName>Medium Energy Ion Mass Spectrometer on CRRES</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/CRRES</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

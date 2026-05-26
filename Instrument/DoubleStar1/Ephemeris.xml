@@ -6,20 +6,20 @@
     <ResourceHeader>
       <ResourceName>Double Star 1 Spacecraft Position</ResourceName>
       <AlternateName>Double Star 1 Ephemeris</AlternateName>
-      <ReleaseDate>2010-09-09T12:34:56.789</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>Double Star 1 spacecraft position information.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Double Star 1 Orbit Information</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftOrbit.do?id=2003-061A</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/displayTrajectory.action?id=2003-061A</URL>
         <Description>Introduction to the Double Star 1 Orbit.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Platform</InstrumentType>
     <InvestigationName>Double Star 1 Spacecraft Position</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/DoubleStar1</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

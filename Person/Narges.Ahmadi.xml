@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2-5-0.xsd">
+   <Version>2.5.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Narges.Ahmadi</ResourceID>
+      <ReleaseDate>2023-03-01T12:34:56.789</ReleaseDate>
+      <PersonName>Narges Ahmadi</PersonName>
+      <OrganizationName>Laboratory for Atmospheric and Space Physics, University of Colorado Boulder</OrganizationName>
+      <Address>1234 Innovation Drive, Boulder, CO 80303</Address>
+      <Email>narges.ahmadi@lasp.colorado.edu</Email>
+      <ORCIdentifier>0000-0001-5267-0485</ORCIdentifier>
+   </Person>
+</Spase>

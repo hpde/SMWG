@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Eric.R.Christian</ResourceID>
+      <ReleaseDate>2019-03-14T12:34:56.789</ReleaseDate>
+      <PersonName>Eric R. Christian</PersonName>
+      <OrganizationName>NASA Goddard Space Flight Center</OrganizationName>
+      <Address>NASA Goddard Space Flight Center, Code 672, Energetic Particle Laboratory, 8800 Greenbelt Road, Greenbelt, MD 20771 USA</Address>
+      <Email>eric.r.christian@nasa.gov</Email>
+      <PhoneNumber>1 (301) 286-2919</PhoneNumber>
+   </Person>
+</Spase>

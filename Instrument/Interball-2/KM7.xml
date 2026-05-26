@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/Interball-2/KM7</ResourceID>
     <ResourceHeader>
       <ResourceName>Thermal Plasma Measurements (KM-7)</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:10Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The primary purpose of KM-7 is to measure the temperature of cold electrons in the plasmasphere. As an auxiliary parameter, the instrument measures the difference of potentials between the floating spherical probe DET-P and the spacecraft. The spacecraft potential can be evaluated from these measurements. From detailed measurements (only in the STO telemetry mode) the ambient ion density can also be determined.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Jan.I.Smilauer</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1996-050C&amp;ex=11</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1996-050C&amp;ex=11</URL>
         <Description>Information about the Thermal Plasma Measurements (KM-7) experiment on the Interball Auroral Probe mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Unspecified</InstrumentType>
     <InvestigationName>Thermal Plasma Measurements (KM-7) on Interball Auroral Probe</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Interball-2</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

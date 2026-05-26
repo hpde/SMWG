@@ -5,8 +5,8 @@
     <ResourceID>spase://SMWG/Instrument/Wind/SMS</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar Wind and Suprathermal Ion Composition Experiment (SMS)</ResourceName>
-      <ReleaseDate>2014-07-24T20:37:15Z</ReleaseDate>
-      <Description>The Wind SMS instrument suite is composed of three separate instruments. 
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The Wind SMS instrument suite is composed of three separate instruments.
 
           * The SupraThermal Ion Composition Spectrometer (STICS) determines the mass, mass per charge, and energy for ions in the energy range of 6-230 keV/e.
           * The high resolution mass spectrometer (MASS) determines elemental and isotopic abundances from 0.5 to 12 keV/e.
@@ -14,15 +14,15 @@
       <Contact>
         <PersonID>spase://SMWG/Person/George.Gloeckler</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Wind spacecraft SMS Documentation</Name>
-        <URL>http://link.springer.com/article/10.1007/BF00751327</URL>
+        <URL>https://link.springer.com/article/10.1007/BF00751327</URL>
         <Description>The Space Science Reviews paper describing the Wind SMS instrument suite.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Solar Wind and Suprathermal Ion Composition Experiment (SMS)</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Wind</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

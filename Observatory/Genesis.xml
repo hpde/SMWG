@@ -7,35 +7,35 @@
       <ResourceName>Genesis</ResourceName>
       <AlternateName>2001-034A</AlternateName>
       <AlternateName>Genesis Solar Wind Sample Return</AlternateName>
-      <ReleaseDate>2010-08-05T18:19:17Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The parachute on the Genesis sample return capsule failed to deploy on re-entry. The capsule crashed in the Utah desert. The fragments from the sample return container have been packaged for shipment to Johnson Space Center's curation facility in early October. Scientists are optimistic that they will be able to salvage useful data from the samples.
 
 The primary objective of the Genesis mission is to collect samples of solar wind particles and return them to Earth for detailed analysis. The science objectives are to obtain precise measurements of solar isotopic and elemental abundances and provide a reservoir of solar matter for future scientific analysis. Specifically, the primary scientific objectives were to obtain precise measurements of isotope ratios of oxygen, nitrogen, and solar wind isotopic fractionation. Study of these samples will allow testing of theories of solar system formation and evolution and early nebular composition. A total sample mass of roughly 10 to 20 micrograms is expected.
 
 Spacecraft and Subsystems
 
-The Genesis spacecraft has a launch mass of 636 kg, including 142 kg of fuel, and consists of a 
-2.3 meter long, 2 meter wide spacecraft deck with two fixed solar panel wings with a 
-total span of 7.9 meters and a sample return capsule mounted on top of 
-the deck. The spacecraft is spin stabilized at one revolution every 37.5 
-seconds. Propulsion is provided by a hydrazine monopropellant thruster 
-using a helium pressurant. Communication is S-band via a fixed antenna. 
-The solar panels provide a maximum of 254 Watts power to a nickle-hydrogen storage battery. Temperatures 
-are maintained by heaters and passive thermal control. The spacecraft is also 
-equipped with ion and electron electrostatic monitors to determine which 
-solar wind regime is being encountered and to help set the appropriate 
-collector voltage. Spacecraft subsystems and monitors are mounted 
+The Genesis spacecraft has a launch mass of 636 kg, including 142 kg of fuel, and consists of a
+2.3 meter long, 2 meter wide spacecraft deck with two fixed solar panel wings with a
+total span of 7.9 meters and a sample return capsule mounted on top of
+the deck. The spacecraft is spin stabilized at one revolution every 37.5
+seconds. Propulsion is provided by a hydrazine monopropellant thruster
+using a helium pressurant. Communication is S-band via a fixed antenna.
+The solar panels provide a maximum of 254 Watts power to a nickle-hydrogen storage battery. Temperatures
+are maintained by heaters and passive thermal control. The spacecraft is also
+equipped with ion and electron electrostatic monitors to determine which
+solar wind regime is being encountered and to help set the appropriate
+collector voltage. Spacecraft subsystems and monitors are mounted
 beneath the sample return capsule.
 
 Sample Return Capsule
 
-The sample return capsule is disc-shaped with a blunt conical top and bottom, 1.5 meters 
-in diameter and 1.31 meters high, with a total mass of about 225 kg. 
-It contains a 97.3 cm diameter science cannister which holds a 
-concentrator and three collector arrays. The collector arrays are flat 
-discs made of ultra-pure silicon, silicon carbide, germanium, sapphire, chemically deposited diamond, gold, aluminum, and metallic glass wafers which are exposed to the solar 
-wind. Isotopes of helium, oxygen, nitrogen, neon, radon, and other elements are implanted in the top 100 nm of these materials. The concentrator is an electrostatic 
-mirror which concentrates elements up to neon by a factor of 
+The sample return capsule is disc-shaped with a blunt conical top and bottom, 1.5 meters
+in diameter and 1.31 meters high, with a total mass of about 225 kg.
+It contains a 97.3 cm diameter science cannister which holds a
+concentrator and three collector arrays. The collector arrays are flat
+discs made of ultra-pure silicon, silicon carbide, germanium, sapphire, chemically deposited diamond, gold, aluminum, and metallic glass wafers which are exposed to the solar
+wind. Isotopes of helium, oxygen, nitrogen, neon, radon, and other elements are implanted in the top 100 nm of these materials. The concentrator is an electrostatic
+mirror which concentrates elements up to neon by a factor of
 approximately 20. Each collector array is to be deployed for a different solar wind regime.
 
 Mission Profile
@@ -54,15 +54,15 @@ Genesis was the fifth launch in NASA's Discovery program. The total cost of the 
       <Contact>
         <PersonID>spase://SMWG/Person/Donald.S.Burnett</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2001-034A</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2001-034A</URL>
         <Description>Information about the Genesis mission</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

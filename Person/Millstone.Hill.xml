@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Millstone.Hill</ResourceID>
+    <PersonName>Millstone Hill</PersonName>
+    <OrganizationName>Millstone Hill Geospace Facility</OrganizationName>
+    <Email>info@haystack.mit.edu</Email>
+  </Person>
+</Spase>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_5_0.xsd">
+  <Version>2.5.0</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/James.L.Green</ResourceID>
     <PersonName>Dr. James L. Green</PersonName>
-    <OrganizationName>GSFC-Code 630</OrganizationName>
+    <OrganizationName>Space Science Endeavors</OrganizationName>
+    <Email>jlgreen1@earthlink.net</Email>
   </Person>
 </Spase>

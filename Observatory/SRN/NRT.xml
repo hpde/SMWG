@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+    <Version>2.3.1</Version>
+    <Observatory>
+        <ResourceID>spase://SMWG/Observatory/SRN/NRT</ResourceID>
+        <ResourceHeader>
+            <ResourceName>Nancay Radioheliograph</ResourceName>
+            <ReleaseDate>2020-07-01T13:34:00Z</ReleaseDate>
+            <Description>The Nançay radio-telescope (NRT) is composed of an adjustable plane mirror (200 m x 40 m) 
+		which reflects radio waves towards the spherical mirror (300 m x 35 m). The latter sends those 
+		waves towards the focal chariot where they are collected and sent to specific receivers.
+		It is the world's fourth largest radio-telescope and has been inaugurated on May 15th 1965 by 
+		general De Gaulle.
+		Initially built for hydrogen gas observations, this instrument has been constantly improved since 
+		then, today it observes galaxies, star envelops, comets, and it also times pulsars.
+		Antennas : 2, Frequencies : 1.060 to 3.500 GHz</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Ismael.Cognard</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <InformationURL>
+                <URL>https://www.obs-nancay.fr/radiotelescope-decimetrique/</URL>
+                <Language>fr</Language>
+            </InformationURL>
+        </ResourceHeader>
+        <ObservatoryGroupID>spase://SMWG/Observatory/SRN</ObservatoryGroupID>
+        <Location>
+            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+            <CoordinateSystemName>GEO</CoordinateSystemName>
+            <Latitude>47.372750</Latitude>
+            <Longitude>2.197451</Longitude>
+            <Elevation>139.</Elevation>
+        </Location>
+        <OperatingSpan>
+            <StartDate>1965-05-15T00:00:00.000Z</StartDate>
+        </OperatingSpan>
+    </Observatory>
+</Spase>

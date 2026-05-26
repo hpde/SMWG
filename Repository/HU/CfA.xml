@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_6_1.xsd">
+   <Version>2.6.1</Version>
+   <Repository>
+      <ResourceID>spase://SMWG/Repository/HU/CfA</ResourceID>
+      <ResourceHeader>
+         <ResourceName>CfA Interplanetary Shock Database</ResourceName>
+         <ReleaseDate>2024-03-01T11:03:45</ReleaseDate>
+         <Description>Online database of interplanetary shocks observed by the Wind, DSCOVR and ACE spacecrafts. It includes the analysis techniques, plot and variable descriptions and publications related to shock physics and particle acceleration studies.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Michael.L.Stevens</PersonID>
+            <Role>Developer</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Justin.C.Kasper</PersonID>
+            <Role>Developer</Role>
+         </Contact>
+      </ResourceHeader>
+      <AccessURL>
+         <URL>https://lweb.cfa.harvard.edu/shocks/</URL>
+      </AccessURL>
+   </Repository>
+</Spase>

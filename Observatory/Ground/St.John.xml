@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/St.John</ResourceID>
+      <ResourceHeader>
+         <ResourceName>St. John Geophysical Observatory</ResourceName>
+         <AlternateName>Observatory Station Code: STJ</AlternateName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <Description>St. John (STJ) Geophysical Observatory</Description>
+         <Acknowledgement>Please acknowledge: Geological Survey of Canada</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/David.Calp</PersonID>
+            <Role>PrincipalInvestigator</Role>
+</Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+</Contact>
+         <InformationURL>
+            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
+</InformationURL>
+         <InformationURL>
+            <Name>Overview of the CANadian Magnetic Observatory System</Name>
+            <URL>https://geomag.nrcan.gc.ca/obs/canmos-en.php</URL>
+            <Description>Description of nearly all aspects of the magnetometer array.</Description>
+</InformationURL>
+         <PriorID>spase://SMWG/Observatory/Ground/St..John</PriorID>
+</ResourceHeader>
+      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/CANMOS</ObservatoryGroupID>
+      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
+      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>47.95</Latitude>
+         <Longitude>307.323</Longitude>
+         <Elevation>100.0</Elevation>
+</Location>
+      <OperatingSpan>
+         <StartDate>2007-01-01T00:00:00.000</StartDate>
+</OperatingSpan>
+</Observatory>
+</Spase>

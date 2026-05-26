@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2.6.1.xsd">
+  <Version>2.6.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Christina.Lee</ResourceID>
+    <PersonName>Christina Lee</PersonName>
+    <OrganizationName>University of California, Berkeley</OrganizationName>
+    <Email>clee@ssl.berkeley.edu</Email>
+  </Person>
+</Spase>

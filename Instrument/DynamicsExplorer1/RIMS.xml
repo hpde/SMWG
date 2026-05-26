@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/DynamicsExplorer1/RIMS</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Retarding Ion Mass Spectrometer, RIMS</ResourceName>
+         <ReleaseDate>2019-06-12T12:34:56.789</ReleaseDate>
+         <Description>The Retarding Ion Mass Spectrometer, RIMS, Experiment onboard the DE-1 Satellite was designed to perform Energy and Mass per Charge Analysis on Low Energy Ions (Energy less than 50 eV) with Mass/Charge ranging from 1 amu/Z to 40 amu/Z. RIMS significantly improved capabilities over previous Retarding Potential Analyzer, RPA, Instrumenpt by providing Ion Mass/Charge Separation so that RPA and Spin Curves are obtained separately for each programmed Species. These enhanced Instrument Capabilities, combined with the DE-1 Orbit, produced a unique opportunity to investigate the variable Dynamics and Composition of the Low Energy Ion Population in the near Earth Space Environment.
+
+DE-1/RIMS consists of four Instrument Assemblies interconnected to form one Experiment. Three of the Assemblies are Sensor Heads and one is the Central Electronics Assembly, CEA. The three Heads are labeled according to the Mounting Axis on the DE-1 Spacecraft: Radial, +Z, and -Z. The radial Sensor Views perpendicular to the Spacecraft Spin Axis, while the +Z and -Z Sensors on the Ends of the Spacecraft View parallel and anti-parallel to the Spin Axis. The Central Electronics Assembly provides the Spacecraft Interface, all Data Processing, Command Decoding, and complete Timing Control of the entire RIMS Experiment. The Description Text is adapted from Content on the DE-1 Retarding Ion Mass Spectrometer, RIMS, Overview Web Page, listed in the Information URL below.</Description>
+         <Acknowledgement>Please acknowledge the Principal Investigator, C.R. Chappell</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Charles.R.Chappell</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>DE-1 Retarding Ion Mass Spectrometer, RIMS, Overview Web Page, MSFC</Name>
+            <URL>https://spacephysics.msfc.nasa.gov/projects/rims/</URL>
+            <Description>Information on the Dynamics Explorer 1, DE-1, Retarding Ion Mass Spectrometer, RIMS, at Marshall Space Flight Center</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>NSSDC Master Catalog Listing for the Dynamics Explorer 1, DE1, Retarding Ion Mass Spectrometer, RIMS Instrument</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1981-070A-04</URL>
+            <Description>Information about the Dynamics Explorer 1, DE-1, Retarding Ion Mass Spectrometer, RIMS</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>RetardingPotentialAnalyser</InstrumentType>
+      <InvestigationName>Dynamics Explorer 1, DE1, Retarding Ion Mass Spectrometer, RIMS</InvestigationName>
+      <OperatingSpan>
+         <StartDate>1981-09-15T00:00:00.000</StartDate>
+         <StopDate>1991-02-18T23:59:59.999</StopDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/DynamicsExplorer1</ObservatoryID>
+   </Instrument>
+</Spase>

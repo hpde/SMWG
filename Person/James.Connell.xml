@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/James.Connell</ResourceID>
-    <PersonName>Dr. James Connell</PersonName>
-    <OrganizationName>University of New Hampshire, Physics Department</OrganizationName>
-    <Address>39 College Road, Durham, New Hampshire, 03824</Address>
-    <Email>james.connell@unh.edu</Email>
-    <PhoneNumber>603-862-5096</PhoneNumber>
-  </Person>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/James.Connell</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <PersonName>James Connell</PersonName>
+      <OrganizationName>Physics Department, University of New Hampshire</OrganizationName>
+      <Address>39 College Road, Durham, New Hampshire, 03824</Address>
+      <Email>james.connell@unh.edu</Email>
+      <PhoneNumber>603-862-5096</PhoneNumber>
+      <RORIdentifier>01rmh9n78</RORIdentifier>
+   </Person>
 </Spase>

@@ -8,25 +8,25 @@
       <AlternateName>1964-064A</AlternateName>
       <AlternateName>BE-B</AlternateName>
       <AlternateName>Beacon Explorer-B</AlternateName>
-      <ReleaseDate>2010-10-01T20:54:31Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>BE-B (Explorer 22) was a small ionospheric research satellite instrumented with an electrostatic probe, a 20-, 40-, and 41-Hz radio beacon, a passive laser tracking reflector, and a Doppler navigation experiment. Its objective was to obtain worldwide observations of total electron content between the spacecraft and the earth. The satellite was initially spin-stabilized, but it was despun after solar paddle erection. Subsequent stabilization oriented the satellite axis of symmetry with the local magnetic field by means of a strong bar magnet and damping rods. A three-axis magnetometer and sun sensors provided information on the satellite attitude and spin rate. There was no tape recorder aboard so that satellite performance data and electrostatic probe data could be observed only when the satellite was within range of a ground telemetry station. Continuous transmitters also operated at 162 and 324 MHz to permit precise tracking by "Transit" tracking stations for navigation and geodetic studies. In August 1968, data acquisition from the satellite telemetry channels was discontinued. In July 1969, tracking and world map production were discontinued by GSFC, and world map production based on NORAD orbit elements was subsequently assumed by ESRO. The satellite failed in February 1970 and BE-C (65-032A) was turned on in order to partially replace use made of this satellite beacon experiment.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.E.Bourdeau</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Larry.H.Brace</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1964-064A</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1964-064A</URL>
         <Description>Information about the BE-B mission</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/Explorer</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

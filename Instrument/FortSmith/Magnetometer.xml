@@ -5,19 +5,19 @@
     <ResourceID>spase://SMWG/Instrument/FortSmith/Magnetometer</ResourceID>
     <ResourceHeader>
       <ResourceName>CARISMA Magnetometer at FortSmith</ResourceName>
-      <ReleaseDate>2011-02-02T22:07:14Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>CARISMA Magnetometer at FortSmith Canadian ground station</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>CARISMA site</Name>
-        <URL>http://bluebird.phys.ualberta.ca/carisma/</URL>
-      </InformationURL>
-    </ResourceHeader>
+        <URL>http://www.carisma.ca</URL>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>FortSmith/Magnetometer</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/FortSmith</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

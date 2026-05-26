@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_5_0.xsd">
+  <Version>2.5.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Karl.Battams</ResourceID>
+    <ReleaseDate>2023-05-03T00:08:46</ReleaseDate>
+    <PersonName>Karl Battams</PersonName>
+    <OrganizationName>US Naval Research Laboratory</OrganizationName>
+    <ORCIdentifier>0000-0002-8692-6925</ORCIdentifier>
+  </Person>
+</Spase>

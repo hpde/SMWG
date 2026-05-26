@@ -1,0 +1,53 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+ <Version>2.3.1</Version>
+ <Instrument>
+  <ResourceID>spase://SMWG/Instrument/SipleExperiment/VLF</ResourceID>
+  <ResourceHeader>
+   <ResourceName>Siple Experiment VLF</ResourceName>
+   <ReleaseDate>2020-12-29T15:15:09</ReleaseDate>
+   <Description>
+     Receivers were set up at Siple station (75.93
+   deg. S, 84.25 deg. W geographic, corresponding to an invariant
+   latitude of 60.4 deg. S, at L = 4.2), and 
+   near the geomagnetic conjugate point (first at Roberval, Quebec,
+   Canada (48.52 deg. N, 72.23 deg. W) and in 1986
+   near Lake Mistissini, Canada (50.42 deg. N, 73.87 deg. W)).
+   The receiver system consisted of two delta-shaped crossed loops
+     mounted on a central 30-foot-high(~9 m) support with a base of 60
+     feet (18.3 m). These two mutually perpendicular antennas could be
+     used for direction finding. In normal single-channel recording,
+     one antenna is selected for minimum power line interference. A
+     preamplifier at the base of the antenna boosts the received
+     signal to an appropriate level for transmission to the recording
+     equipment in the station. The receiving system includes provision
+     for time marks, amplitude and frequency calibration, and
+     automatic program control.
+  Accurate timing of transmitted and received
+   pulses were established by frequency standards at Siple and
+   Roberval. These standards were calibrated regularly against Station
+   WWV and are kept within a few milliseconds of UT. 
+ 
+   Complete results of the Siple
+   station experiment are summarized in Helliwell, R. A.,(1988)
+   Rev. Geophys., 26, 551-578, but analysis
+   work on this dataset continued well after the experiment
+   ended. These data were originally stored on Ampex magnetic tapes
+   then converted over to a digitized format with some error
+   correction applied as described by Li et al., (2014) JGR, 119,1837-1850.  </Description> 
+    <Contact>
+    <PersonID>spase://SMWG/Person/Robert.A.Helliwell</PersonID>
+    <Role>PrincipalInvestigator</Role>
+   </Contact>
+  <Contact>
+    <PersonID>spase://SMWG/Person/Morris.Cohen</PersonID>
+    <Role>ArchiveSpecialist</Role>
+   </Contact>
+   <InformationURL>
+    <URL>http://waldo.world/description-of-data/</URL>
+   </InformationURL>
+  </ResourceHeader>
+  <InstrumentType>SpectralPowerReceiver</InstrumentType>
+  <InvestigationName>Siple Experiment</InvestigationName>
+  <ObservatoryID>spase://SMWG/Observatory/SipleExperiment</ObservatoryID>
+ </Instrument>
+</Spase>

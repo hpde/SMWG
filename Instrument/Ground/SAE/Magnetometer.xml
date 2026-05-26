@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spaseZ-2_3_1.xsd">
+   <Version>2.3.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Ground/SAE/Magnetometer</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Southern Auroral Electrojet Index Instrument</ResourceName>
+         <AlternateName>SAE Instrument</AlternateName>
+         <ReleaseDate>2021-07-20T13:41:27Z</ReleaseDate>
+         <Description>The southern auroral electrojet (SAE) index instrument is a virtual instrument representing the collection of ground magnetometer arrays used to derive a southern auroral electrojet index in the southern auroral region at 60 s resolution. The SAE observatory consists of ground magnetometers from the SAMBA, RAM (Russia), UAPM (Japan), South Africa, Geosciences Australia, and BAS (Bristish Antarctic Survey) ground magnetometer stations and arrays. The contributing magnetometers may vary from day to day. As result, the SAE index instrument is used as a proxy for the set of possible contributing ground magnetometers.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+           <Name>Comparison of auroral electrojet indices in the Northern and Southern hemispheres</Name>
+           <URL>https://doi.org/10.1029/2008JA013055</URL>
+           <Description>Journal of Geophysical Research (Space Physics) on the Souther Auroral Electrojet Index</Description>
+         </InformationURL>
+         <InformationURL>
+           <Name>British Antarctic Survey Data Portal</Name>
+           <URL>https://www.bas.ac.uk/project/low-power-magnetometer-lpm-network/</URL>
+           <Description>Online Magnetometer Data for a number of magnetometer stations in Antarctica.</Description>
+         </InformationURL>
+         <InformationURL>
+          <Name>Geoscience Australia: Minute Values Request Form</Name>
+          <URL>http://www.ga.gov.au/oracle/geomag/minute_ftp.jsp</URL>
+          <Description>Requestion form for 1 minute resolution magnetometer data. Links to additional information also available.</Description>
+         </InformationURL>
+         <InformationURL>
+          <Name>Magnetometer Data at Syowa Station Data Portal</Name>
+          <URL>http://polaris.nipr.ac.jp/~uap-mon/uapm/gtSyowaMag.html</URL>
+          <Description>Online Magnetometer Data at Syowa Station. These data are in a variety of resolutions.</Description>
+         </InformationURL>
+         <Association>
+          <AssociationID>spase://SMWG/Observatory/Ground/SAMBA</AssociationID>
+          <AssociationType>PartOf</AssociationType>
+         </Association>
+         <Association>
+          <AssociationID>spase://SMWG/Observatory/Ground/BAS</AssociationID>
+          <AssociationType>PartOf</AssociationType>
+         </Association>
+         <Association>
+          <AssociationID>spase://SMWG/Observatory/Ground/UAPM</AssociationID>
+          <AssociationType>PartOf</AssociationType>
+         </Association>
+         <Association>
+          <AssociationID>spase://SMWG/Observatory/Ground/GA</AssociationID>
+          <AssociationType>PartOf</AssociationType>
+         </Association>
+         <PriorID>spase://SMWG/Instrument/SAE/Magnetometer</PriorID>
+      </ResourceHeader>
+      <InstrumentType>Magnetometer</InstrumentType>
+      <InvestigationName>Southern Auroral Electrojet Index Instrument</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/Ground/SAE</ObservatoryID>
+ </Instrument>
+</Spase>

@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_4.xsd">
+  <Version>2.3.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/ICON/FUV</ResourceID>
+    <ResourceHeader>
+      <ResourceName>The Far Ultra Violet Imaging Spectrograph</ResourceName>
+	  <AlternateName>FUV</AlternateName>
+      <ReleaseDate>2021-07-20T13:41:27Z</ReleaseDate>
+      <Description>The FUV instrument takes 2D images of the Earth’s horizon in the Far ultraviolet. The imager is pointing approximately 90 degrees to the spacecraft motion, similar to looking out of the side window of a car as it drives down the road. Onboard electronics read the image 8 times per second and perform Time Delay Integration (TDI) to remove the motion-blur from the images. A turret is used to steer the field of view of the instrument left to right to ensure it always looks along the magnetic meridian (towards the magnetic pole).</Description>
+	  <Acknowledgement>National Aeronautics and Space Administration; Dr. Stephen Mende</Acknowledgement>
+	  <Funding>
+		<Agency>National Aeronautics and Space Administration</Agency>
+		<Project>Explorers Program</Project>
+		<AwardNumber>contracts NNG12FA45C</AwardNumber>
+	  </Funding>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Stephen.B.Mende</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Additional information on ICON</Name>
+        <URL>https://en.wikipedia.org/wiki/Ionospheric_Connection_Explorer</URL>
+        <Description>More details on the ICON spacecraft.</Description>
+      </InformationURL>
+	  <InformationURL>
+        <Name>Additional information on ICON</Name>
+        <URL>https://icon.ssl.berkeley.edu/</URL>
+        <Description>ICON spacecraft Homepage.</Description>
+      </InformationURL>
+	  <InformationURL>
+        <Name>The Ionospheric Connection Explorer mission: mission goals and design</Name>
+        <URL>https://doi.org/10.1007/s11214-017-0449-2</URL>
+        <Description>Space Science Reviews, 214:13 (36pp.). Public access. DOI: 10.1007/s11214-017-0449-2</Description>
+      </InformationURL>
+	  <InformationURL>
+        <Name>The far ultra-violet Imager on the ICON mission</Name>
+        <URL>https://doi.org/10.1007/s11214-017-0386-0</URL>
+        <Description>Space Science Reviews, 212(1-2), pp.655-696. DOI: 10.1007/s11214-017-0386-0</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Imager</InstrumentType>
+	<InvestigationName>Extreme Ultraviolet Spectrograph</InvestigationName>
+	<OperatingSpan>
+		<StartDate>2019-10-11T02:00:00Z</StartDate>
+	</OperatingSpan>
+	<ObservatoryID>spase://SMWG/Observatory/ICON</ObservatoryID>
+  </Instrument>
+</Spase>

@@ -6,23 +6,23 @@
     <ResourceHeader>
       <ResourceName>Geophysical Institute Magnetometer Array</ResourceName>
       <AlternateName>DMI</AlternateName>
-      <ReleaseDate>2011-03-07T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>
-      An array with 17 stations at coastal locations is operated in Greenland, previously 5 stations were maintained on the Greenland Ice Cap in cooperation with Virginia Tech, USA. All stations provide full vector geomagnetic field information with 1 Hz resolution. THL, GDH, NAQ, BFE and TDC are geomagnetic observatories and calibrated to INTERMAGNET standards. 
-      </Description>
+      An array with 17 stations at coastal locations is operated in Greenland, previously 5 stations were maintained on the Greenland Ice Cap in cooperation with Virginia Tech, USA. All stations provide full vector geomagnetic field information with 1 Hz resolution. THL, GDH, NAQ, BFE and TDC are geomagnetic observatories and calibrated to INTERMAGNET standards.
+</Description>
       <Acknowledgement>DTU Space</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
         <Role>MetadataContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>DTU Space - Magnetic Ground Stations</Name>
-        <URL>http://www.space.dtu.dk/English/Research/Scientific_data_and_models/Magnetic_Ground_Stations.aspx</URL>
+        <URL>https://www.space.dtu.dk/English/Research/Scientific_data_and_models/Magnetic_Ground_Stations.aspx</URL>
         <Description>Description of the magnetometer array.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

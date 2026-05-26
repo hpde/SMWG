@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/Wind/EPACT</ResourceID>
     <ResourceHeader>
       <ResourceName>Energetic Particle Acceleration, Composition and Transport (EPACT)</ResourceName>
-      <ReleaseDate>2011-08-17T21:10:14Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The EPACT (energetic particle acceleration-composition-transport) experiment is designed to provide a comprehensive study of energetic particle acceleration and transport processes in solar flares, in the interplanetary medium and in planetary magnetospheres as well as in galactic cosmic rays and the anomalous cosmic ray component. The instrument provides a complete description of electrons and atomic nuclei of different charge and isotopic composition over an energy range from 0.1 to 500 MeV/nucleon, and extending up to Z=92 (uranium). The instrument is divided into three semi-autonomous subsystems, the low energy angular distribution telescopes (LEAD), the low energy matrix telescopes (LEMT), and the electron/isotope telescope (ELITE). There are four individual LEAD sensors, two which view the hemisphere above the spin plane, and two pointed below the spin plane. There are also three LEMT sensors which are oriented above, below, and into the spin plane, and a single ELITE sensor which is double ended.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Tycho.T.Von.Rosenvinge</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1994-071A&amp;ex=7</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1994-071A&amp;ex=7</URL>
         <Description>Information about the Energetic Particle Acceleration, Composition and Transport (EPACT) experiment on the Wind mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Energetic Particle Acceleration, Composition and Transport (EPACT) on Wind</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Wind</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

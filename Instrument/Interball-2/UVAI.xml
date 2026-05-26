@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Instrument/Interball-2/UVAI</ResourceID>
     <ResourceHeader>
       <ResourceName>UV Auroral Imager (UVAI)</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:11Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Ultra-Violet Auroral Imager (UVAI) is a Canadian instrument on the Interball Auroral Probe. It was of a similar design to the very successful imager on the Swedish Viking satellite. The camera was mounted at 90 degrees to the platform spin axis with the CCD columns shifted electronically at a rate selected to exactly correct for the satellite spin motion.
 Unfortunately, the actual motion of the spacecraft was more complicated than expected. The platform developed a significant coning problem, with the wobble amplitude increasing with time. Attitude control could restore the desired simple behavior, but to conserve thrusters this was done only when the amplitude became larger than 10 degrees, or roughly once every five days.
 UVAI images are affected in various ways by the wobble, depending on the amplitude and phase of the coning motion during any particular frame. Some images suffer little or no degredation. Others are badly smeared, with point-like objects (such as stars) appearing as ellipsoids rather than circles.
@@ -14,15 +14,15 @@ The UVAI home page at http://www.phys.ucalgary.ca/~bjackel/uvai/main.html provid
       <Contact>
         <PersonID>spase://SMWG/Person/Leroy.L.Cogger</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1996-050C&amp;ex=16</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1996-050C&amp;ex=16</URL>
         <Description>Information about the UV Auroral Imager (UVAI) experiment on the Interball Auroral Probe mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Imager</InstrumentType>
     <InvestigationName>UV Auroral Imager (UVAI) on Interball Auroral Probe</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Interball-2</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

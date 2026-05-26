@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Tamanrasset</ResourceName>
          <AlternateName>Observatory Station Code: TAM</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-02-15T12:34:56.789</ReleaseDate>
          <Description>The Tamanrasset geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  Centre de Recherche en Astronomie, Astrophysique et Geophysique, Algeria</Acknowledgement>
          <Contact>
@@ -26,14 +26,18 @@
          <PriorID>spase://SMWG/Observatory/WDC/Tamanrasset</PriorID>
       </ResourceHeader>
       <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
-      <Location>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
+      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/BCMT</ObservatoryGroupID>
+	  <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>22.792</Latitude>
          <Longitude>5.527</Longitude>
+		 <Elevation>1373.0</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>1953-01-01T00:00:00.000</StartDate>
+		 <StopDate>2015-12-31T23:59:59.000</StopDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

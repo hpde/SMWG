@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Louis.A.Frank</ResourceID>
-    <ReleaseDate>2010-08-05T17:35:47Z</ReleaseDate>
-    <PersonName>Prof. Louis A. Frank</PersonName>
-    <OrganizationName>University of Iowa</OrganizationName>
-    <Address>Department of Physics and Astronomy, University of Iowa, Iowa City, IA 52242</Address>
-    <Email>frank@iowasp.physics.uiowa.edu</Email>
-    <PhoneNumber>+1 319 335 1695</PhoneNumber>
-  </Person>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Louis.A.Frank</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <ReleaseDate>2025-03-05T12:34:56.789Z</ReleaseDate>
+      <PersonName>Louis A. Frank</PersonName>
+      <OrganizationName>University of Iowa</OrganizationName>
+      <Address>Department of Physics and Astronomy, University of Iowa, Iowa City, IA 52242</Address>
+      <Email>frank@iowasp.physics.uiowa.edu</Email>
+      <PhoneNumber>+1 319 335 1695</PhoneNumber>
+      <RORIdentifier>036jqmy94</RORIdentifier>
+   </Person>
 </Spase>

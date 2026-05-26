@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+   <Version>2.3.2</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/ParkerSolarProbe/SWEAP</ResourceID>
+      <ResourceHeader>
+         <ResourceName>PSP Solar Wind Electrons Alphas and Protons, SWEAP, Instrument</ResourceName>
+         <AlternateName>PSP SWEAP Instrument</AlternateName>
+         <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+               <Note>Updated to SPASE Version 2.3.2 if needed, Applied quality conntrol for DOI usage, LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The Solar Wind Electrons Alphas and Protons investigation is designed to make counts of protons, helium ions, and electrons and measure their velocities, densities, and temperatures. These measurements are to support the primary science objectives to determine the structure and dynamics of the magnetic fields at the sources of the fast and slow solar wind, trace the flow of energy that heats the solar corona and accelerates the solar wind, and explore mechanisms that accelerate and transport energetic particles. The investigation comprises three instruments: the Solar Probe Cup (SPC) and two Solar Probe Analyzers (SPAN-A and SPAN-B). They are arranged to cover the entire sky.
+
+The SPC is a Faraday Cup made of high purity tungsten, niobium, and molybdenum, TZM, that is mounted on the edge of the solar shield and looks directly at the Sun to measure ion and electron fluxes and flow angles. It measures fluxes and flow angles as a function of energy from 50 eV/q to 8 keV/q for ions and 50 eV to 2 keV for electrons. It has a full width field-of-view of 60 degrees. The SPC consists of a disk-shaped modulator section comprising a ground grid, a high-voltage modulator grid, and a limiting aperture ground grid. Behind this is a smaller disk-shaped collector grid housing ground grids, a suppressor grid, 4 collector plates, and collector plate outputs.
+
+SPAN-A is an ion and electron electrostatic analyzer mounted on the ram side of the spacecraft that covers the entire sky in the direction of motion of the spacecraft except for the part blocked by the solar shield. SPAN-A is based on a top-hat hemispherical electrostatic analyzer design and uses microchannel plate detectors. It measures ions as a function of direction and energy/charge from several eV/q to 20 keV/q, and can measure time-of-flight to sort particles by mass/charge ratio. It can also measure electrons from several eV to 20 keV. Counts are read out every 0.5 milliseconds. SPAN-B is an electron electrostatic analyzer mounted on the anti-ram side that looks in the opposite direction of the spacecraft motion and covers that portion of the sky. It is almost identical in design to the SPAN-A electron analyzer and can measure electrons from several eV to 20 keV.</Description>
+         <Acknowledgement>Please acknowledge the National Aeronautics and Space Administration, NASA</Acknowledgement>
+         <Funding>
+            <Agency>National Aeronautics and Space Administration, Living With a Star, LWS, Program</Agency>
+            <Project>Parker Solar Probe SWEAP Investigation</Project>
+            <AwardNumber>NNN06AA01C</AwardNumber>
+         </Funding>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Justin.C.Kasper</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Parker Solar Probe Mission Instrument Web Page, JPL</Name>
+            <URL>http://parkersolarprobe.jhuapl.edu/Spacecraft/index.php#Instruments</URL>
+            <Description>Parker Solar Probe Mission Instrument Web Page, NASA Jet Propulsion Laboratory, JPL</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>Parker Solar Probe Mission Instrument Web Page, NASA</Name>
+            <URL>https://www.nasa.gov/content/goddard/parker-solar-probe-instruments/</URL>
+            <Description>Additional information on the Parker Solar Probe Instruments</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>ParkerSolarProbe Solar Wind Electrons Alphas and Protons, SWEAP, Instrument paper, Published by Space Sci. Rev., Date: 2015-10-29</Name>
+            <URL>https://doi.org/10.1007/s11214-015-0206-3</URL>
+            <Description>Author List: Kasper, J. C., Abiad, R., Austin, G., Balat-Pichelin, M., Bale, S. D., Belcher, J. W., Berg, P., Bergner, H., Berthomier, M., Bookbinder, J., Brodu, E., Caldwell, D., Case, A. W., Chandran, B. D. G., Cheimets, P., Cirtain, J. W., Cranmer, S. R., Curtis, D. W., Daigneau, P., Dalton, G., Dasgupta, B., DeTomaso, D., Diaz-Aguado, M., Djordjevic, B., Donaskowski, B., Effinger, M., Florinski, V., Fox, N. J., Freeman, M., Gallagher, D., Gary, S. P., Gauron, T., Gates, R., Goldstein, M. L., Golub, L., Gordon, D. A., Gurnee, R. S., Guth, G., Halekas, J. S., Hatch, K., Heerikuisen, J., Ho, G., Hu, Q., Johnson, G., Jordan, S. P., Korreck, K. E., Larson, D. E., Lazarus, A. J., Li, G., Livi, R., Ludlam, M., Maksimovic, M., McFadden, J. P., Marchant, W., Maruca, B. A., McComas, D. J., Messina, L., Mercer, T., Park, S., Peddie, A. M., Pogorelov, N., Reinhart, M. J., Richardson, J. D., Robinson, M., Rosen, I., Skoug, R. M., Slagle, A., Steinberg, J. T., Stevens, M. L., Szabo, A., Taylor, E. R., Tiu, C., Turin, P., Velli, M. C., Webb, G., Whittlesey, P., Wright, K., Wu, S. T., &amp; Zank, G.</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>Parker Solar Probe SWEAP Instrument Suite, NSSDC Master Catalog Listing</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2018-065A-04</URL>
+            <Description>NSSDC Master Catalog Listing for the Parker Solar Probe Solar Wind Electrons Alphas and Protons, SWEAP, Instrument Suite, NSSDCA/COSPAR ID: 2018-065A-04</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>ElectrostaticAnalyser</InstrumentType>
+      <InstrumentType>FaradayCup</InstrumentType>
+      <InvestigationName>Parker Solar Probe SWEAP Investigation</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2018-08-12T07:31:00</StartDate>
+         <Note>Parker Solar Probe Launch Date and Time until data are available</Note>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/ParkerSolarProbe</ObservatoryID>
+   </Instrument>
+</Spase>

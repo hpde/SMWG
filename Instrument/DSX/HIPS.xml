@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Instrument>
@@ -7,37 +7,37 @@
         <ResourceHeader>
             <ResourceName>High Energy Imaging Particle Spectrometer (HIPS)</ResourceName>
             <AlternateName>High Energy Imaging Particle Spectrometer</AlternateName>
-            <ReleaseDate>2011-06-06T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>"HIPS is an innovative charged-particle spectrometer capable of measuring the flux and angular distribution of high-energy protons of the energy range of 30-300 MeV in 8 differential energy bins and electrons of the energy range of 1-30 MeV) also in 12 differential energy bins. HIPS measure the angle-of-arrival of both the protons and electrons in 8 angular bins. HIPS uses a combination of a silicon solid-state detector, a silicon solid-state strip detector, and a scintillator in it detection system. Due to instrument mass limitations and the particles' high energies, the path of charged particles through the spectrometer's detector cannot be controlled solely by material shielding. Registering only particles within the detector's acceptance cone is accomplished through a combination of metal collimator, anti-coincidence detectors, and detector signal processing logic.  Measuring each particle's direction of arrival is done through a combination of the collimator's aperture, the segmented nature of the silicon strip detector, and detector signal processing logic. The HIPS has a nominal field of regard of 90° by 12.5°, which the edge of the field of view aligns with the earth magnetic field line when the DSX spacecraft is in its magnetic field line tracking mode (shown in Figure 11). The HIPS dimensions are 200 x 142 x 191 mm and weights 4.6 kg." (Fennelly, 2011) "HIPS will measure ... high energy particles ... responsible for microelectronics damage, displacement and total dose damage, SEEs, and deep dielectric charging. HIPS will be mounted on an exterior panel of the payload module.It is under development for DSX by Physical Sciences, Inc. (PSI)." (THE DEMONSTRATION AND SCIENCE EXPERIMENTS (DSX): A FUNDAMENTAL SCIENCE RESEARCH MISSION ADVANCING TECHNOLOGIES THAT ENABLE MEO SPACEFLIGHT).</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/James.I.Metcalf</PersonID>
                 <Role>ProjectScientist</Role>
-            </Contact>
+</Contact>
             <InformationURL>
                 <Name>Demonstration and Science Experiments
 (DSX) Satellite</Name>
-                <URL>http://www.kirtland.af.mil/shared/media/document/AFD-070404-096.pdf</URL>
+                <URL>https://www.amostech.com/TechnicalPapers/2009/Space-Based_Assets/Scherbarth.pdf</URL>
                 <Description>DSX Fact Sheet, Sept. 2005</Description>
-            </InformationURL>
+</InformationURL>
             <InformationURL>
                 <Name>THE DEMONSTRATION AND SCIENCE EXPERIMENTS (DSX): A FUNDAMENTAL SCIENCE RESEARCH MISSION ADVANCING TECHNOLOGIES THAT ENABLE MEO SPACEFLIGHT</Name>
-                <URL>http://lws-set.gsfc.nasa.gov/documents/DSX_paper.pdf</URL>
+                <URL>https://lws-set.gsfc.nasa.gov/documents/DSX_paper.pdf</URL>
                 <Description>2006 Instrument paper</Description>
-            </InformationURL>
+</InformationURL>
             <InformationURL>
                 <Name>AFRL's demonstration and science experiments (DSX) mission</Name>
-                <URL>http://hdl.handle.net/1721.1/52739</URL>
+                <URL>https://dspace.mit.edu/handle/1721.1/52739</URL>
                 <Description>2009 DSX Paper</Description>
-            </InformationURL>
+</InformationURL>
             <InformationURL>
                 <Name>Demonstrations and Science Experiment (DSX) Space Weather
 Experiment (SWx)</Name>
-                <URL>http://www.dtic.mil/cgi-bin/GetTRDoc?Location=U2&amp;doc=GetTRDoc.pdf&amp;AD=ADA542684</URL>
+                <URL>https://apps.dtic.mil/dtic/tr/fulltext/u2/a542684.pdf</URL>
                 <Description>Fennelly, 2011, Proc. of SPIE Vol. 7438</Description>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
         <InstrumentType>EnergeticParticleInstrument</InstrumentType>
         <InvestigationName>DSX-SWx</InvestigationName>
         <ObservatoryID>spase://SMWG/Observatory/DSX</ObservatoryID>
-    </Instrument>
+</Instrument>
 </Spase>

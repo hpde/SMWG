@@ -5,18 +5,18 @@
     <ResourceID>spase://SMWG/Repository/ISDC/CHAMP</ResourceID>
     <ResourceHeader>
       <ResourceName>CHAMP Information System and Data Center</ResourceName>
-      <ReleaseDate>2010-02-02T20:54:22Z</ReleaseDate>
-      <Description>The Information Systems and Data Center (ISDC) group at GeoForschungsZentrum 
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The Information Systems and Data Center (ISDC) group at GeoForschungsZentrum
 (GFZ; German Research Center for Geosciences) in Potsdam hosts the ISDC of
 each of several projects, including that of the CHAMP spacecraft.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Bernd.Ritschel</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
-    </ResourceHeader>
+</Contact>
+</ResourceHeader>
     <AccessURL>
       <Name>CHAMP ISDC at GFZ</Name>
-      <URL>http://isdc.gfz-potsdam.de/index.php?module=pagesetter&amp;func=viewpub&amp;tid=1&amp;pid=34</URL>
-    </AccessURL>
-  </Repository>
+      <URL>https://isdc.gfz-potsdam.de/homepage/</URL>
+</AccessURL>
+</Repository>
 </Spase>

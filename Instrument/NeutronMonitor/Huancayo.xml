@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/NeutronMonitor/Huancayo</ResourceID>
     <ResourceHeader>
       <ResourceName>Huancayo Neutron Monitor</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:14Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Huancayo Neutron Monitor in Huancayo, Peru</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Clifford.Lopate</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Huancayo Neutron Monitor</Name>
-        <URL>http://ulysses.sr.unh.edu/NeutronMonitor/00HaleakalaHuancayoNorm.html</URL>
+        <URL>https://www.ngdc.noaa.gov/stp/solar/cosmic.html</URL>
         <Description>Introduction to Haleakala and Huancayo Monitors</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Huancayo</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/NeutronMonitor/Huancayo</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

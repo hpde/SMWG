@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2-5-0.xsd">
+   <Version>2.5.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Matthew.R.Argall</ResourceID>
+      <ReleaseDate>2023-03-01T12:34:56.789</ReleaseDate>
+      <PersonName>Matthew R. Argall</PersonName>
+      <OrganizationName>University of New Hampshire</OrganizationName>
+      <Address>Morse Hall, Room 410, 8 College Road, Durham, NH 03824</Address>
+      <Email>matthew.argall@unh.edu</Email>
+      <PhoneNumber>+1 (612) 382-7856</PhoneNumber>
+      <ORCIdentifier>0000-0001-6315-1613</ORCIdentifier>
+   </Person>
+</Spase>

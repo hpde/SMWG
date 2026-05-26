@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+   <Version>2.4.0</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/CALLISTO/spectrometer</ResourceID>
+      <ResourceHeader>
+         <ResourceName>CALLISTO Spectrometer</ResourceName>
+         <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+               <Note>Assorted Observatories and Instruments: Files reformated. Metadata submitted by J.M. Weygand on 2021-11-16, reviewed by LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The CALLISTO spectrometer is a programmable heterodyne receiver designed 2006 in the framework of IHY2007 and ISWI by Christian Monstein (PI) as member of the former Radio Astronomy Group (RAG) at ETH Zurich, Switzerland. CALLISTO stands for &#039;Compound Astronomical Low frequency Low cost Instrument for Spectroscopy and Transportable Observatory&#039;. The main applications are observation of solar radio bursts for astronomical science, education, outreach and citizen science as well as Radio Frequency Interference, RFI, monitoring. The instrument natively operates between 45 MHz and 870 MHz using a modern, commercially available broadband cable-TV tuner CD1316 having a frequency resolution of 62.5 KHz. The data obtained from CALLISTO are formatted as FITS files with up to 400 frequencies per sweep. The data are transferred via a RS-232 cable to a computer and saved locally. Time resolution is 0.25 s at 200 channels per spectrum (800 spectral pixels per second). The integration time is 1 ms and the radiometric bandwidth is about 300 KHz. The overall dynamic range is larger than 50 dB. For convenient data handling several IDL, PERL and Python routines were written.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Christian.Monstein</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+      </ResourceHeader>
+      <InstrumentType>Spectrometer</InstrumentType>
+      <InvestigationName>CALLISTO</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/e-CALLISTO</ObservatoryID>
+   </Instrument>
+</Spase>

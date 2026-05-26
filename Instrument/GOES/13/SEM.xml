@@ -6,27 +6,27 @@
     <ResourceHeader>
       <ResourceName>Space Environment Monitor</ResourceName>
       <AlternateName>SEM</AlternateName>
-      <ReleaseDate>2013-01-29T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Space Environment Monitor is a standard package in all GOES missions. It carries an energetic particle sensor (EPS) to obtain the local fluxes of electrons, protons and alpha-particles. Its XRS monitors X-ray flux from the Sun in two wavelength bands: 0.05-0.3 nm and 0.1-0.8 nm. A magnetometer monitors the field vector of the disturbed by geomagnetic activity. A five-channel EUV telescope monitors the solar ultraviolet radiation in the 10-126 nm.</Description>
       <Acknowledgement>National Oceanic and Atmospheric Administration</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2006-018A-03</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2006-018A-03</URL>
         <Description>Information about the Space Environment Monitor onboard GOES 13.</Description>
         <Language>en</Language>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://SMWG/Instrument/GOES/13/SEM</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <InstrumentType>Unspecified</InstrumentType>
     <InvestigationName>Space Environment Monitor on the GOES 13 spacecraft</InvestigationName>
     <OperatingSpan>
-    	 <StartDate>2010-05-01T00:00:00Z</StartDate>
-    	 <Note>It is not clear if this mission is still active.</Note>
-    </OperatingSpan>
+      <StartDate>2010-05-01T00:00:00Z</StartDate>
+      <Note>It is not clear if this mission is still active.</Note>
+</OperatingSpan>
     <ObservatoryID>spase://SMWG/Observatory/GOES/13</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

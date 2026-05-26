@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+   <Version>2.3.1</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Ground/Coral.Harbour</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Coral Harbour Geophysical Observatory</ResourceName>
+         <AlternateName>Observatory Station Code: CHBR</AlternateName>
+         <ReleaseDate>2020-04-18T12:34:56.789</ReleaseDate>
+         <Description>Coral Harbour (CHBR) Geophysical Observatory</Description>
+         <Acknowledgement>Please acknowledge: Augsburg College</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Erik.S.Steinmetz</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Augsburg College, Magnetometer for Cusp and Cleft Studies (MACCS) Magnetic Field Data Portal</Name>
+            <URL>http://space.augsburg.edu/maccs/index.html</URL>
+            <Description>Main menu for access to magnetic field data</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
+      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/MACCS</ObservatoryGroupID>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>64.19</Latitude>
+         <Longitude>276.65</Longitude>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2012-07-16T00:00:00.000</StartDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

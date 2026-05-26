@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+   <Version>2.3.2</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/MAVEN/Ephemeris</ResourceID>
+      <ResourceHeader>
+         <ResourceName>MAVEN Spacecraft Ephemeris Instrument</ResourceName>
+         <AlternateName>MAVEN Spacecraft Position</AlternateName>
+         <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2021-05-30T12:34:56.789</ReleaseDate>
+               <Note>Updated to SPASE Version 2.3.2 if needed, Applied quality conntrol for DOI usage, LFB</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>Mars Atmosphere and Volatile Evolution, MAVEN, Spacecraft Ephemeris</Description>
+         <Acknowledgement>National Aeronautics and Space Administration, NASA</Acknowledgement>
+         <Funding>
+            <Agency>National Aeronautics and Space Administration, Mars Scout Program</Agency>
+            <Project>MAVEN Mission</Project>
+            <AwardNumber>UNKNOWN</AwardNumber>
+         </Funding>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Bruce.M.Jakosky</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Joseph.M.Grebowsky</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>MAVEN Mission Web Page, NASA</Name>
+            <URL>https://www.nasa.gov/mission_pages/maven/main/index.html</URL>
+            <Description>MAVEN Mission Web Page with an Overview, Images, Videos and Media Resources, NASA</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>The Mars Atmosphere and Volatile Evolution, MAVEN, Mission Home Page, LASP, UC Boulder</Name>
+            <URL>https://lasp.colorado.edu/home/maven/</URL>
+            <Description>General Information about the Mars Atmosphere and Volatile Evolution, MAVEN, Mission, Laboratory for Atmospheric and Space Physics, University of Colorado, Boulder</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>MAVEN Mission paper, Published by Space Sci. Rev., Date: 2015-04-09</Name>
+            <URL>https://doi.org/10.1007/s11214-015-0139-x</URL>
+            <Description>Author List: Jakosky, B. M., Lin, R. P., Grebowsky, J. M., Luhmann, J. G., Mitchell, D. F., Beutelschies, G., Priser, T., Acuna, M., Andersson, L., Baird, D., Baker, D. N., Bartlett, R., Benna, M., Bougher, S., Brain, D., Carson, D., Cauffman, S., Chamberlin, P. C., Chaufray, J.-Y., Cheatom, O., Clarke, J. T., Connerney, J. E. P., Cravens, T., Curtis, D. W., Delory, G. T., Demcak, S., DeWolfe, A., Eparvier, F. G., Ergun, R., Eriksson, A., Espley, J., Fang, X., Folta, D., Fox, J., Gomez-Rosa, C., Habenicht, S., Halekas, J. S., Holsclaw, G. M., Houghton, M., Howard, R. A., Jarosz, M., Jedrich, N., Johnson, M., Kasprzak, W., Kelley, M., King, T., Lankton, M., Larson, D. E., Leblanc, F., Lefevre, F., Lillis, R. J., Mahaffy, P. R., Mazelle, C., McClintock, W. E., McFadden, J. P., Mitchell, D. L., Montmessin, F., Morrissey, J., Peterson, W., Possel, W., Sauvaud, J.-A., Schneider, N. M., Sidney, W., Sparacino, S., Stewart, A. I. F., Tolson, R., Toublanc, D., Waters, C., Woods, T. N., Yelle, R. V., &amp; Zurek, R.</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>NSSDC Master Catalog Listing, MAVEN</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2013-063A</URL>
+            <Description>NSSDC Master Catalog Listing for the MAVEN Spacecraft, NSSDCA/COSPAR ID: 2013-063A</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Platform</InstrumentType>
+      <InvestigationName>Mars Atmosphere and Volatile Evolution, MAVEN, Spacecraft Ephemeris</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2013-11-18T18:28:00</StartDate>
+         <Note>MAVEN Launch Date and Time until data are available</Note>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/MAVEN</ObservatoryID>
+   </Instrument>
+</Spase>

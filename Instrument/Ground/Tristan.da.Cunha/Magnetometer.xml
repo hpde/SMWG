@@ -2,10 +2,10 @@
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
    <Version>2.2.8</Version>
    <Instrument>
-      <ResourceID>spase://SMWG/Instrument/Ground/Tristan.Da.Cunha/Magnetometer</ResourceID>
+      <ResourceID>spase://SMWG/Instrument/Ground/Tristan.da.Cunha/Magnetometer</ResourceID>
       <ResourceHeader>
          <ResourceName>Tristan Da Cunha Magnetometer</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
          <Description>Tristan Da Cunha (TDC) Geophysical Observatory Magnetometer</Description>
          <Acknowledgement>Please acknowledge C. Stolle, J. Matzka, (DTU Space, Denmark)</Acknowledgement>
          <Contact>
@@ -25,6 +25,7 @@
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
+         <PriorID>spase://SMWG/Instrument/Ground/Tristan.Da.Cunha/Magnetometer</PriorID>
       </ResourceHeader>
       <InstrumentType>Magnetometer</InstrumentType>
       <InvestigationName>DTU Network</InvestigationName>
@@ -32,6 +33,6 @@
       <OperatingSpan>
          <StartDate>2009-09-01T00:00:00.000</StartDate>
       </OperatingSpan>
-      <ObservatoryID>spase://SMWG/Observatory/Ground/Tristan.Da.Cunha</ObservatoryID>
+      <ObservatoryID>spase://SMWG/Observatory/Ground/Tristan.da.Cunha</ObservatoryID>
    </Instrument>
 </Spase>

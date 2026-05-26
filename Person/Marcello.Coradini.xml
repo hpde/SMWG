@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
-  <Person>
-    <ResourceID>spase://SMWG/Person/Marcello.Coradini</ResourceID>
-    <PersonName>Dr. Marcello Coradini</PersonName>
-    <OrganizationName>Universita di Roma</OrganizationName>
-  </Person>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd" lang="en">
+   <Version>2.3.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Marcello.Coradini</ResourceID>
+      <ReleaseDate>2020-02-29T12:34:56.789Z</ReleaseDate>
+      <PersonName>Marcello Coradini</PersonName>
+      <OrganizationName>Universita di Roma</OrganizationName>
+      <Email>marcello.coradini@esa.it</Email>
+   </Person>
 </Spase>

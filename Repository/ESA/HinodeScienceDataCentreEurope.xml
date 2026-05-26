@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
+   <Repository>
+      <ResourceID>spase://SMWG/Repository/ESA/HinodeScienceDataCentreEurope</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Hinode Science Data Centre Europe</ResourceName>
+         <ReleaseDate>2026-05-24T00:08:46</ReleaseDate>
+         <Description>The Hinode Science Data Centre Europe (SDC) provides advanced archive, search, visualization, and processing services for solar physics observations from the Hinode mission and related heliophysics datasets. Developed at the University of Oslo in collaboration with ESA and international partners, the SDC enables high-speed multi-instrument searches, FITS data access, preview generation, and large-scale scientific data analysis for the solar research community.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Seiji.Yashiro</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+      </ResourceHeader>
+      <AccessURL>
+         <URL>https://sdc.uio.no/sdc/</URL>
+      </AccessURL>
+   </Repository>
+</Spase>

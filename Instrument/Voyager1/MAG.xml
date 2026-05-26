@@ -6,20 +6,20 @@
     <ResourceHeader>
       <ResourceName>Triaxial Fluxgate Magnetometer (MAG)</ResourceName>
       <AlternateName>MAG</AlternateName>
-      <ReleaseDate>2009-05-20T21:10:03Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>This experiment was designed to investigate the magnetic fields of Jupiter and Saturn, the solar-wind interaction with the magnetospheres of these planets, and the interplanetary magnetic field out to the solar wind boundary with the interstellar magnetic field and beyond, if crossed. The investigation was carried out using two high-field and two low-field triaxial fluxgate magnetometers. Data accuracy of the interplanetary fields was plus or minus 0.1 nT, and the range of measurements was from 0.01 nT to 2.E-3 T.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1977-084A&amp;ex=5</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1977-084A&amp;ex=5</URL>
         <Description>Information about the Triaxial Fluxgate Magnetometer (MAG) experiment on the Voyager 1 mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Triaxial Fluxgate Magnetometer (MAG) on Voyager 1</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Voyager1</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

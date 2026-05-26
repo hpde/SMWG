@@ -5,42 +5,42 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Fresno</ResourceID>
       <ResourceHeader>
          <ResourceName>Fresno Geophysical Observatory</ResourceName>
-		 <AlternateName>Observatory Station Code: FRN</AlternateName>
-         <ReleaseDate>2018-06-18T12:34:56.789</ReleaseDate>
+   <AlternateName>Observatory Station Code: FRN</AlternateName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
          <Description>Fresno (FRN) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: United States Geological Survey, Golden, CO</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Carol.A.K.Finn</PersonID>
             <Role>PrincipalInvestigator</Role>
-         </Contact>
+</Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
-         </Contact>
+</Contact>
          <InformationURL>
             <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
-         </InformationURL>
-		 <InformationURL>
-			<Name>Overview of the USGS Geomagnetism Program Array</Name>
-			<URL>https://geomag.usgs.gov/monitoring/observatories/</URL>
-			<Description>Description and location of the magnetometer array.</Description>
-		 </InformationURL>
-      </ResourceHeader>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/USGS</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
+</InformationURL>
+   <InformationURL>
+   <Name>Overview of the USGS Geomagnetism Program Array</Name>
+   <URL>https://www.usgs.gov/natural-hazards/geomagnetism</URL>
+   <Description>Description and location of the magnetometer array.</Description>
+</InformationURL>
+</ResourceHeader>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/USGS</ObservatoryGroupID>
+   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>37.1</Latitude>
          <Longitude>240.3</Longitude>
          <Elevation>331.0</Elevation>
-      </Location>
+</Location>
       <OperatingSpan>
          <StartDate>1982-01-01T00:00:00.000</StartDate>
-      </OperatingSpan>
-   </Observatory>
+</OperatingSpan>
+</Observatory>
 </Spase>

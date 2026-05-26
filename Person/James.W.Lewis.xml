@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+  <Version>2.7.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/James.W.Lewis</ResourceID>
+	<NamingAuthority>SMWG</NamingAuthority>
+	<ResourceType>Person</ResourceType>
+	<ReleaseDate>2025-04-03T12:00:00</ReleaseDate>
+    <PersonName>James W. Lewis</PersonName>
+    <OrganizationName>Space Sciences Lab, University of California, Berkeley</OrganizationName>
+  </Person>
+</Spase>

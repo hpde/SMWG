@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/Magion-4/VDPS</ResourceID>
     <ResourceHeader>
       <ResourceName>Plasma Flow Detector VDP-S</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>This instrument consists of four Faraday cup detectors, registering ions and electrons with energies above 170 eV. The detectors are oriented at +/- 45 degrees from the main axis of the spacecraft, and have an angular aperture of 100 degrees. The maximum frequencies used are 1, 2, 4, and 8 Hz (depending on the telemetry mode).</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Georgy.Zastenker</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1995-039F&amp;ex=8</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1995-039F&amp;ex=8</URL>
         <Description>Information about the Plasma Flow Detector VDP-S experiment on the Interball S2-X mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>FaradayCup</InstrumentType>
     <InvestigationName>Plasma Flow Detector VDP-S on Interball S2-X</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Magion-4</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

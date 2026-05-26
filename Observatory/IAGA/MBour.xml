@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.2.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/IAGA/MBour</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MBour</ResourceName>
+      <AlternateName>MBour</AlternateName>
+      <AlternateName>IAGA:MBO</AlternateName>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>MBour</Description>
+      <Acknowledgement>As defined in Rasson J.L., (2001). The status of world-wide network of magnetic observatories, their location and instrumentation, Contributions to Geophysics &amp; Geodesy, 31, 1, pp 427-453</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+        <Role>MetadataContact</Role>
+</Contact>
+      <InformationURL>
+        <Name>IAGA Guides and Standards</Name>
+        <URL>http://www.intermagnet.org/publications/intermag_4-6.pdf</URL>
+        <Description>Overview of IAGA Guides and Standards which obtained within its
+          Divisions and Working Groups. Information about observatories
+          is maintained by the "Geomagntic Observatories" (V-OBS) working group.</Description>
+</InformationURL>
+      <PriorID>spase://SMWG/Observatory/IAGA/Mbour</PriorID>
+</ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/IAGA</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>14.392</Latitude>
+      <Longitude>343.042</Longitude>
+      <Elevation>10</Elevation>
+</Location>
+    <OperatingSpan>
+      <StartDate>1952-01-01T00:00:00</StartDate>
+</OperatingSpan>
+</Observatory>
+</Spase>

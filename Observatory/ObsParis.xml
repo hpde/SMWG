@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
+  <Version>2.2.6</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/ObsParis</ResourceID>
+    <ResourceHeader>
+      <ResourceName>ObsParis</ResourceName>
+      <ReleaseDate>2015-10-15T13:59:17Z</ReleaseDate>
+      <Description>Founded in 1667, the Observatoire de Paris is the largest national research center for astronomy. 
+        30 % of all French astronomers are working in it five laboratories and its institute. Situated on the Paris, 
+        Meudon and Nançay campuses, they are all "Unités Mixtes de Recherche (UMR)" associated with the CNRS and, 
+        in many cases, with the major scientific universities in the Paris area. The work of the Observatoire is also 
+        carried out in two major scientific services. The Observatoire de Paris is an academic centre (Grand 
+        établissement) under the aegis of the Ministère de l’Enseignement supérieur et de la Recherche.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Claude.Catala</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Baptiste.Cecconi</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <URL>https://www.obspm.fr/?lang=en</URL>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+    </Location>
+  </Observatory>
+</Spase>

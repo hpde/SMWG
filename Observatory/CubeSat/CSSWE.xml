@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/CubeSat/CSSWE</ResourceID>
+      <ResourceHeader>
+         <ResourceName>CSSWE</ResourceName>
+         <AlternateName>Colorado Student Space Weather Experiment, CSSWE, CubeSat</AlternateName>
+         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+         <Description>The Colorado Student Space Weather Experiment, CSSWE, is an NSF-funded 3U CubeSat (30&#215;10&#215;10 cm) which houses an Energetic Particle Telescope. The Relativistic Electron and Proton Telescope integrated little experiment, REPTile, will provide Directional Differential Flux Measurements of High-Energy Electrons and Protons.</Description>
+         <Acknowledgement>Please acknowledge the NSF, X. Xinlin, S. Palo, S. Kanekal, L. Blum, D. Gerhardt, and the Universtity of Colorado, Bouder Students that worked so hard to make this CubeSat Mission possible</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Xinlin.Li</PersonID>
+            <Role>PrincipalInvestigator</Role>
+</Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+</Contact>
+         <InformationURL>
+            <Name>Colorado Student Space Weather Experiment, CSSWE, CubeSat Description, UCB</Name>
+            <URL>http://lasp.colorado.edu/home/csswe/overview/</URL>
+            <Description>Colorado Student Space Weather Experiment, CSSWE, CubeSat Overview hosted by the University of Colorado, Boulder</Description>
+</InformationURL>
+         <InformationURL>
+            <Name>Colorado Student Space Weather Experiment, CSSWE, CubeSat Publication</Name>
+            <URL>http://www.jossonline.com/wp-content/uploads/2014/12/0301-The-Colorado-Student-Space-Weather.pdf</URL>
+            <Description>The Colorado Student Space Weather Experiment (CSSWE) On-Orbit Performance, JoSS, Vol. 3(1), 265-281, 2013</Description>
+</InformationURL>
+</ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+         <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
+</Location>
+      <OperatingSpan>
+         <StartDate>2012-09-13T00:00:00.000Z</StartDate>
+</OperatingSpan>
+</Observatory>
+</Spase>

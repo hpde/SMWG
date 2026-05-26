@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd" lang="en">
+   <Version>2.3.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/ParkerSolarProbe/FIELDS/FIELDS2/TDS</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Parker Solar Probe, PSP, FIELDS Suite, FIELDS2 Time Domain Sampler, FIELDS2 TDS, Instrument</ResourceName>
+         <AlternateName>Solar Probe Plus, SPP, FIELDS Suite, FIELDS2 Time Domain Sampler, FIELDS2 TDS, Instrument</AlternateName>
+         <ReleaseDate>2020-03-16T12:34:56.789Z</ReleaseDate>
+         <Description>In order to increase overall mission reliability, the FIELDS instrument was split into two parts, FIELDS1 and FIELDS2. Each half has some instrumentation, control over some of the FIELDS antennas, and a power supply. The core of FIELDS2 is the Time Domain Sampler, TDS. As originally planned, the TDS subsystem was a single board processor controlled burst acquisition system designed to collect transient wave phenomena from the FIELDS electric and magnetic sensors. The new design added an interface to the PSP spacecraft command and data handling system, control of one of the two FIELDS DC magnetometers, the in-board magnetometer, MAGi, control of one of the two FIELDS antenna electronics boards, AEB2 controlling antennas V3 and V4, and control of one of the two FIELDS power supplies, LNPS2. In addition, the TDS also maintains a communications interface with the SWEAP instrument. The FIELDS TDS derives heritage from a similar instrument on the STEREO spacecraft (Bougeret et al. 2008).
+
+As the core of the FIELDS2 side of FIELDS, the TDS performs a number of typical data processing functions. Especially crucial is the way the TDS keeps track of time. In normal circumstances, the spacecraft interface provides the TDS with precise information as to the mission elapsed time, MET. The TDS can use this time in its time stamping of data. However, in order to synchronize the two halves of FIELDS, the TDS also receives information from the FIELDS1 side, specifically from the DCB, indicating the precise Mission Elapsed Time, MET, as it was acquired by the DCB. In normal circumstances, the TDS uses the MET received from DCB as the source of its internal clock. In addition, in order to reduce noise and coordinate measurements, the various clocks throughout the FIELDS suite are synchronized. The FIELDS1 DCB produces a set of master clocks all derived from a single internal high frequency master clock. These clocks go to the data acquisition samplers and to the various chopping power supplies. In normal circumstances, the TDS operational clocks are taken from the DCB. In the case where the DCB clocks are unavailable, the TDS also includes its own internal clock.
+
+The TDS makes rapid samples of waveforms for the study of high frequency waves. The rapid simultaneous sampling of five channels to nominally include two orthogonal electric dipoles, a single-ended electric monopoles, the radial, that is, sunward component of the electric field provided by V5, and a single axis from the search coil magnetometer allows the study of waveforms, their distortions, and, through ground-based spectral analysis, a frequency determination which is far more accurate than an onboard filter analysis system. The highest sampling rate is about two million samples per second (1.92 MSa/s giving a Nyquist frequency of about 1 MHz) with several lower commandable rates (e.g. 480 kSa/s, 120 kSa/s and so on).</Description>
+         <Acknowledgement>Please acknowledge NASA, Stuart D. Bale, the PSP FIELDS Instrument Suite Principal Investigator, and Nicola J. Fox, the PSP Project Scientist.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Nicola.J.Fox</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Stuart.D.Bale</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Parker Solar Probe FIELDS Suite NSSDCA Master Catalog Listing</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2018-065A-01</URL>
+            <Description>NSSDC Master Catalog Listing for the Parker Solar Probe FIELDS Suite, NSSDCA/COSPAR ID: 2018-065A-01</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>ParticleCorrelator</InstrumentType>
+      <InvestigationName>Parker Solar Probe Mission</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2018-08-12T07:31:00.000Z</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/ParkerSolarProbe</ObservatoryID>
+   </Instrument>
+</Spase>

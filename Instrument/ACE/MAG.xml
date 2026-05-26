@@ -9,37 +9,37 @@
       <AlternateName>ACE MAG</AlternateName>
       <AlternateName>ACE MFI</AlternateName>
       <AlternateName>1997-045A-09</AlternateName>
-      <ReleaseDate>2011-08-18T16:00:05Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The ACE Magnetometer (MAG) experiment consists of two triaxial fluxgate magnetometers mounted remotely on booms extending beyond the spacecraft solar panels at four meters from the spacecraft center. Each identical sensor (M1, M2) has a wide dynamic range of sensitivity at +- 0.004 to +- 65536 nT and measures the three vector components of the magnetic field. Usage of twin magnetometer sensors for measurements of weak interplanetary magnetic fields is a proven approach based on experience from many past space missions. The MAG sensors were originally built as spares for the MFI instrument on the Wind spacecraft and have been given minor modifications for inclusion on ACE. Readout of MAG data includes three data types: (1) average magnetic field vectors from the primary and secondary sensors, (2) "Snap-Shot Memory" data, and (3) Fast Fourier Transform (FFT) data. The average vector readout includes 216 bps corresponding to six vectors per second. These vector readouts can be split between M1 and M2 in the ratios of 3:3, 5:1, or 6:0. The "Snap-Shot Memory" stores field vectors at the maximum sampling rate of 30 vectors per second and is read out at 48 bps. The FFT readout includes 17 seconds accumulation of vector data transformed into spectral matrices of the components and total magnitude at a transmission rate of 32 bps. Prof. Norman F. Ness of the Bartol Research Institute at the University of Delaware is the MAG Experiment Manager.</Description>
       <Contact>
         <!-- N. Ness -->
         <PersonID>spase://SMWG/Person/Norman.F.Ness</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <!-- C. Smith -->
         <PersonID>spase://SMWG/Person/Charles.W.Smith</PersonID>
         <Role>TechnicalContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Instrument description</Name>
         <URL>http://www.ssg.sr.unh.edu/mag/ACE.html</URL>
         <Description>Description of the ACE magnetometer design and instrument characteristics, with links to data and other documentation</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1997-045A-09</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1997-045A-09</URL>
         <Description>Information about the Magnetometer (MAG) experiment on the ACE mission.</Description>
-      </InformationURL>
-	  <InformationURL>
+</InformationURL>
+   <InformationURL>
         <Name>Space Science Reviews Journal Article</Name>
         <URL>https://link.springer.com/article/10.1023/A:1005092216668</URL>
         <Description>Detailed information about the triaxial fluxgate magnetometer on the ACE mission.</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://SMWG/instrument/1997-045A-09</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Magnetometer (MAG) on ACE</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/ACE</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

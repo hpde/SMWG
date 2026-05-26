@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Zaymishche</ResourceName>
          <AlternateName>Observatory Station Code: KZN</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-03-08T12:34:56.789</ReleaseDate>
          <Description>The Zaymishche geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  ::UNKNOWN::</Acknowledgement>
          <Contact>
@@ -26,9 +26,11 @@
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>55.833</Latitude>
          <Longitude>48.85</Longitude>
+		 <Elevation>80.0</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>1957-07-01T00:00:00.000</StartDate>
+		 <StopDate>1989-12-31T23:59:59.000</StopDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

@@ -1,14 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
    <Person>
       <ResourceID>spase://SMWG/Person/Christopher.T.Russell</ResourceID>
-      <ReleaseDate>2012-06-13T12:34:56.789</ReleaseDate>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <ReleaseDate>2025-03-05T12:34:56.789Z</ReleaseDate>
       <PersonName>Christopher T. Russell</PersonName>
       <OrganizationName>Institute of Geophysics and Planetary Physics and the Department of Earth and Space Sciences, University of California, Los Angeles</OrganizationName>
       <Address>Institute of Geophysics and Planetary Physics, University of California Los Angeles, Box 951567, Los Angeles, CA 90095-1567</Address>
       <Email>ctrussell@igpp.ucla.edu</Email>
       <PhoneNumber>+1 310 825 3188</PhoneNumber>
       <FaxNumber>+1 310 206 3051</FaxNumber>
+      <RORIdentifier>046rm7j60</RORIdentifier>
    </Person>
 </Spase>

@@ -6,26 +6,26 @@
     <ResourceHeader>
       <ResourceName>IBEX Background Monitor</ResourceName>
       <AlternateName>IBaM</AlternateName>
-      <ReleaseDate>2010-08-05T03:14:01Z</ReleaseDate>
-      <Description>The IBEX Background Monitor (IBaM) measures the 
-flux of &gt;~14 keV protons at 0.24s time resolution in a 7-deg (FWHM) 
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The IBEX Background Monitor (IBaM) measures the
+flux of &gt;~14 keV protons at 0.24s time resolution in a 7-deg (FWHM)
 conical viewing angle.  IBaM is housed with, and coaligned (normal
 to the IBEX spin axis) with, the IBEX-Hi instrument.  The IBEX spin
 period is ~15 sec.  IBaM and IBEX-Hi use identical detectors
-(channel-electron multipliers) and share a similar electronics 
+(channel-electron multipliers) and share a similar electronics
 design.  See Sp.Sci.Rev. (2009) 146:105-115.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Space Science Reviews paper</Name>
-        <URL>http://www.springerlink.com/content/l25320053h3580u2/?p=bcdf150740d943c4a812b0f6be79ca69&amp;pi=5</URL>
+        <URL>https://link.springer.com/article/10.1007%2Fs11214-008-9439-8</URL>
         <Description>Paper is by F. Allegrini and nine co-authors.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>IBEX Background Monitor</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/IBEX</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

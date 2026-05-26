@@ -1,13 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/SORCE</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Observatory</ResourceType>
     <ResourceHeader>
       <ResourceName>SORCE</ResourceName>
       <AlternateName>2003-004A</AlternateName>
       <AlternateName>SOlar Radiation and Climate Experiment</AlternateName>
-      <ReleaseDate>2010-08-05T18:19:17Z</ReleaseDate>
+      <ReleaseDate>2026-05-22T16:41:02Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-05-22T16:41:02Z</ReleaseDate>
+          <Note>Added new Contact(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>SORCE (SOlar Radiation and Climate Experiment) is an American (NASA) Sun-Earth Connection satellite that was launched at 20:13 UT by a Pegasus XL rocket released from a L-1011 cargo aircraft flying out of Cape Canaveral. It is to measure solar irradiance in a number of wavelength-bands through three spectrometers and a photometer.
 
 The URL
@@ -16,12 +28,16 @@ http://lasp.colorado.edu/sorce/
 
 provides much detailed descriptions of the experiments and data availability. The PI is Gary J. Rottman of LASP, University of Colorado, Boulder, with many co-investigators. The Program Manager is Tom Sparn of LASP.</Description>
       <Contact>
+        <PersonID>spase://SMWG/Person/Gary.J.Rottman</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=2003-004A</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-004A</URL>
         <Description>Information about the SORCE mission</Description>
       </InformationURL>
     </ResourceHeader>

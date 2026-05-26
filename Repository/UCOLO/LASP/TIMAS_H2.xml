@@ -5,17 +5,17 @@
     <ResourceID>spase://SMWG/Repository/UCOLO/LASP/TIMAS_H2</ResourceID>
     <ResourceHeader>
       <ResourceName>LASP TIMAS H2 Data Repository</ResourceName>
-      <ReleaseDate>2008-08-26T21:18:47Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The TIMAS Science Team's data base of TIMAS H2 data</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/W.K.Peterson</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>H1 and H2 High Resolution Data Products</Name>
-        <URL>http://lasp.colorado.edu/timas/h12-data/h12-data.html</URL>
-      </InformationURL>
+        <URL>http://lasp.colorado.edu/timas/info/h12-data/h12-data.html</URL>
+</InformationURL>
       <PriorID>spase://VMO/Repository/LASP_TIMAS_H2</PriorID>
-    </ResourceHeader>
-  </Repository>
+</ResourceHeader>
+</Repository>
 </Spase>

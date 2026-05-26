@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/ISIS2/CEP</ResourceID>
     <ResourceHeader>
       <ResourceName>Cylindrical Electrostatic Probes</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:13Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The purpose of this experiment was to study the global variations of electron temperature and electron concentration at spacecraft altitudes during the waning phase of the solar cycle. The measurements were made with two cylindrical probes mounted along the spin axis, one at each end of the spacecraft. The sensors were operated as Langmuir probes, with the probe current being measured as a function of probe voltage. Although basically the same cylindrical probe experiment was flown on ISIS 1, the ISIS 2 probe provided (1) greater sensitivity allowing a more complete coverage of low-density regions such as the region over the polar cap, (2) very high resolution of plasma structure (down to 10 m in extent), and (3) onboard signal processing with backup to provide data in the format that had been used for the ISIS 1 experiment. NSSDC has all the useful data that exist from this investigation.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Larry.H.Brace</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1971-024A&amp;ex=7</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1971-024A&amp;ex=7</URL>
         <Description>Information about the Cylindrical Electrostatic Probes experiment on the ISIS 2 mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>LangmuirProbe</InstrumentType>
     <InvestigationName>Cylindrical Electrostatic Probes on ISIS 2</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/ISIS2</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

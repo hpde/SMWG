@@ -5,21 +5,21 @@
     <ResourceID>spase://SMWG/Instrument/Interball-1/PRAM</ResourceID>
     <ResourceHeader>
       <ResourceName>Adaptive Processing of Wave Information (PRAM)</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:11Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The PRAM instrument on the Interball Tail Probe is a digital waveform processor unit. According to the mode of operation, the on-board algorithm performs the selection between amplificatioin ranges, averaging of DC field and filter data, decimation of the AC data and formatting of the telemetry frames. Frames are transmitted to the digital telemetry system. Burst modes, switched on by the event selection algorithym, are possible with a buffer size equivalent to about 4 minutes of the prehistory information in the fastest mode.
 Fields and waves are measured on the Tail Probe by the ASPI consortium of experiments, which includes: MIF-M -- fluxgate and search-coil magnetometers; FGM-I -- triaxial fluxgate sensor and plasma current sensor; OPERA -- a complex of electric field instruments; and PRAM -- the digital waveform processor unit. Two more ASPI instruments, ADS and IFPE, failed to switch on, likely due to hardware problems.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Stanislav.A.Romanov</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1995-039A&amp;ex=16</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1995-039A&amp;ex=16</URL>
         <Description>Information about the Adaptive Processing of Wave Information (PRAM) experiment on the Interball Tail Probe mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>WaveformReceiver</InstrumentType>
     <InvestigationName>Adaptive Processing of Wave Information (PRAM) on Interball Tail Probe</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Interball-1</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

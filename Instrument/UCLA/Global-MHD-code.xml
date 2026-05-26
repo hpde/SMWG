@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+  <Version>2.3.1</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/UCLA/Global-MHD-code</ResourceID>
+    <ResourceHeader>
+      <ResourceName>UCLA Global MHD model</ResourceName>
+      <ReleaseDate>2021-06-11T18:19:57Z</ReleaseDate>
+      <Description>UCLA Global magnetohydrodynamic (MHD) magnetosphere-ionosphere code is based on a single fluid description 
+	  of the interaction between the solar wind and Earth’s magnetosphere. A detailed description of the MHD model can be 
+	  found in [Frank et al., 1995] and Raeder et al. [1998; 2001] and El-Alaoui [2001].  In the MHD simulation, the total 
+	  electric field includes convective and resistive terms. Explicit resistivity is necessary in our code for reconnection 
+	  to occur.  The MHD equations are solved on a non-uniform Cartesian computational grid that is computed prior to 
+	  the run by using continuous functions to distribute the grid points in the simulation system. The size of each 
+	  grid cell is defined by three continuous functions that allow us to distribute grid points so as to increase the 
+	  grid resolution in the region of interest without excessively degrading the resolution in the rest of the simulation 
+	  domain. The minimum grid spacing for this event was about 0.12 RE in each direction.   The dimensions of the 
+	  simulation box are 20 RE in the sunward direction, 300 RE along the tail, and 55 RE in each transverse direction. 
+	  With such a large simulation domain, all flows at the external boundaries are in the super-magnetosonic regime. 
+	  The time step in the simulations is determined by the Courant condition tau=Delta/VA where Delta is the minimum grid spacing and 
+	  VA is the maximum Alfvén velocity in the simulation domain.  The ionospheric part of the model takes into account 
+	  three sources of ionospheric conductance: solar EUV ionization modeled by using an empirical model, diffuse auroral 
+	  precipitation modeled by assuming strong pitch-angle scattering, and the accelerated electron precipitation 
+	  associated with upward field-aligned currents modeled in accordance with the approach of Knight [1972]. We 
+	  use the empirical relations developed by Robinson et al. [1987] to calculate ionospheric conductances from 
+	  mean electron energies and energy fluxes. A detailed description of the MHD model can be found in Raeder et al. 
+	  [1998; 2001] and El-Alaoui et al., 2001.
+	  
+	  El-Alaoui, M. (2001), Current disruption during November 24, 1996, substorm, Journal of Geophysical Research-Space Physics, 106(A4), 6229-6245, doi:10.1029/1999ja000260.
+      
+	  Frank, L.A., M. Ashour Abdalla, J. Berchem, J. Raeder, W. R. Paterson, S. Kokubun, T. Yamamoto, R. P. Lepping, F. V. Coroniti, D. H. Fairfield, and K. L. Ackerson (1995), Observations of plasmas and magnetic fields in Earth's distant magnetotail: Comparison with a global MHD model, J. Geophys. Res., 100(A10), 19177–19190, doi:10.1029/95JA00571.
+
+	  Knight, S. (1973), Parallel Electric-Fields, Planetary and Space Science, 21(5), 741-750, doi:10.1016/0032-0633(73)90093-7.
+
+	  Raeder, J., and R.L. McPherron (1998), Global MHD simulations of the substorm current wedge and dipolarization, in SUBSTORMS-4, edited by S. Kokubun, and  Y. Kamide, pp. 343-348, Terra Scientific Pub. Co. and Kluwer Academic Publishers, Lake Hamana, Japan.
+
+	  Raeder, J., Y.L. Wang, T.J. Fuller-Rowell, and H.J. Singer (2001), Global simulation of magnetospheric space weather effects of the Bastille Day storm, Solar Physics, 204(1-2), 325-338, doi:10.1023/A:1014228230714.
+
+	  Robinson, R.M., R.R. Vondrak, K. Miller, T. Dabbs, and D. Hardy (1987), On Calculating Ionospheric Conductances from the Flux and Energy of Precipitating Electrons, Journal of Geophysical Research-Space Physics, 92(A3), 2565-2569, doi:10.1029/JA092iA03p02565.
+	  </Description>
+	  <Acknowledgement>The MHD computations were performed using the Comet supercomputer at San Diego, part of the Extreme Science and Engineering Discovery Environment (XSEDE) and on NASA HECC supercomputer.  Solar wind data and magnetic indices were downloaded from the NSSDC OMNI data file https://cdaweb.sci.gsfc.nasa.gov/index.html/. THEMIS ground and spacecraft data were obtained from the THEMIS database http://themis.ssl.berkeley.edu/index.shtml.</Acknowledgement>
+	  <PublicationInfo>
+	    <Authors>M. El-Alaoui</Authors>
+		<PublicationDate>2001-04-01T00:00:00</PublicationDate>
+		<PublishedBy>Journal of Geophysical Research-Space Physics</PublishedBy>
+	  </PublicationInfo>  
+	  <Funding>
+	    <Agency>NASA</Agency>
+		<Project>unknown</Project>
+		<AwardNumber>NNX17AB83G</AwardNumber>
+	  </Funding>
+	  <Funding>
+	    <Agency>NSF</Agency>
+		<Project>GEM: A Statistical Study of the Substorm Sequence and Phenomena Associated with Expansion Onset</Project>
+		<AwardNumber>1602588</AwardNumber>
+	  </Funding>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Mostafa.El-Alaoui</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+	  <Contact>
+        <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>UCLA Space Plasma Homepage</Name>
+        <URL>https://epss.ucla.edu/research-areas/space-physics/</URL>
+        <Description>Information related to the Space Plasma Simulation Group.</Description>
+		<Language>EN</Language>
+	  </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>Magnetometer</InstrumentType>
+    <InstrumentType>Antenna</InstrumentType>
+    <InstrumentType>ParticleDetector</InstrumentType>
+    <InvestigationName>UCLA Global MHD model</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/UCLA/SPSG</ObservatoryID>
+  </Instrument>
+</Spase>

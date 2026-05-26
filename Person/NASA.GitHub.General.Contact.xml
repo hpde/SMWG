@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2.6.0.xsd">
+   <Version>2.6.0</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/NASA.GitHub.General.Contact</ResourceID>
+      <PersonName>NASA GitHub General Contact</PersonName>
+      <OrganizationName>NASA NASA Open Source Activities</OrganizationName>
+      <Email>nasa-data@lists.arc.nasa.gov</Email>
+   </Person>
+</Spase>

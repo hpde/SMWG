@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Observatory>
         <ResourceID>spase://SMWG/Observatory/SanMarco-DL</ResourceID>
         <ResourceHeader>
             <ResourceName>San Marco-DL</ResourceName>
-            <ReleaseDate>2012-04-04T00:00:00Z</ReleaseDate>
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
             <Description>The primary purpose of the San Marco-DL Spacecraft was to explore the relationship between solar activity and thermosphere-ionosphere phenomena. The spacecraft had a planned lifetime of one year. The science investigations used the following five flight sensors: a Drag Balance Instrument (DBI) for determining neutral density, a Wind and Temperature Spectrometer (WATI), an Ion Velocity Instrument (IVI), an Airglow-Solar Spectrometer (ASSI), and an Electric Field Meter (EFI). The satellite was a 96.5 cm-diameter sphere with four 48 cm canted monopole telemetry antennas and three orthogonal pairs of electric field probe sensors (one pair oriented along the spacecraft spin axis). An internal structural cylinder (26 cm diameter) extends slightly through the sphere and was coincident with the satellite spin axis. The power supply consisted of a solar-cell array split into two sections, two rechargeable NiCd batteries, and associated circuitry. The satellite attitude data were provided by a triaxial magnetometer, a horizon sensor, a digital sun sensor, and a star tracker for calibration. A magnetic torquing system was used to control spin rate and spacecraft attitude. The spacecraft reentered on schedule on December 6, 1988. All instruments operated as planned, except WATI which failed to respond to commands after 20 days (fuse failure). The spacecraft performed nominally throughout its lifetime. Final data were acquired at 150 Km during re-entry.</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Nelson.W.Spencer</PersonID>
                 <Role>ProjectScientist</Role>
-            </Contact> 
+</Contact>
             <Contact>
                 <PersonID>spase://SMWG/Person/M.Diruscio</PersonID>
                 <Role>GeneralContact</Role>
-            </Contact> 
+</Contact>
             <InformationURL>
                 <Name>NSSDC's Master Catalog</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id=1988-026A</URL>
+                <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1988-026A</URL>
                 <Description>Information about San Marco-D/L spacecraft</Description>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
         <Location>
             <ObservatoryRegion>Earth.NearSurface.Thermosphere</ObservatoryRegion>
             <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
-        </Location>
-    </Observatory>
+</Location>
+</Observatory>
 </Spase>
 
 

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd" lang="en">
+   <Version>2.3.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/NewHorizons/Ephemeris</ResourceID>
+      <ResourceHeader>
+         <ResourceName>New Horizons Positions</ResourceName>
+         <AlternateName>New Horizons Pluto Kuiper Belt Flyby Ephemeris</AlternateName>
+         <ReleaseDate>2020-04-05T12:34:56.789Z</ReleaseDate>
+         <Description>New Horizons Spacecraft Ephemeris Virtual Instrument</Description>
+         <Acknowledgement>Please acknowledge the National Aeronautics and Space Administration, NASA</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Andrew.F.Cheng</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>NSSDC Master Catalog</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2006-001A</URL>
+            <Description>Information about the New Horizons spacecraft and the overall mission</Description>
+            <Language>en</Language>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Platform</InstrumentType>
+      <InvestigationName>New Horizons Spacecraft Ephemeris</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/NewHorizons</ObservatoryID>
+   </Instrument>
+</Spase>

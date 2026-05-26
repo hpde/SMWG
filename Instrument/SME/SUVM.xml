@@ -5,22 +5,22 @@
     <ResourceID>spase://SMWG/Instrument/SME/SUVM</ResourceID>
     <ResourceHeader>
       <ResourceName>Solar UltraViolet Monitor (SUVM)</ResourceName>
-      <ReleaseDate>2010-05-19T20:20:36Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Solar Ultraviolet Monitor (SUVM) flown on the Solar
-Mesospheric Explorer (SME) measured solar radiation at 1216 A (Lyman alpha) 
-and in the 1600-3100 A range with a 1 A resolution.  A dual channel 
+Mesospheric Explorer (SME) measured solar radiation at 1216 A (Lyman alpha)
+and in the 1600-3100 A range with a 1 A resolution.  A dual channel
 Ebert-Fastie spectrometer was used.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Charles.A.Barth</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSDC Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1981-100A-05</URL>
-      </InformationURL>
-    </ResourceHeader>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1981-100A-05</URL>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Spectrometer</InstrumentType>
     <InvestigationName>SUVM</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/SME</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

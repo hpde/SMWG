@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.3.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Jean-Mathias.Griessmeier</ResourceID>
+    <ReleaseDate>2020-07-01T13:45:00Z</ReleaseDate>
+    <PersonName>Jean-Mathias Grießmeier</PersonName>
+    <OrganizationName>LPC2E, CNRS, Université d'Orléans</OrganizationName>
+    <Email>jean-mathias.griessmeier@cnrs-orleans.fr</Email>
+    <PhoneNumber>+33-2-38-25-76-56</PhoneNumber>
+  </Person>
+</Spase>
+

@@ -5,7 +5,7 @@
     <ResourceID>spase://SMWG/Instrument/Interball-2/DOK2A</ResourceID>
     <ResourceHeader>
       <ResourceName>Electron and Proton Anisotropy (DOK-2A)</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:11Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The study of energetic particle acceleration and transport within the magnetosphere and on its boundaries is the main goal of this experiment. Two particle spectrometers: DOK-2 and its small version DOK-2S were installed on the main satellite and small subsatellite. The DOK-2 experiments on the Tail and Auroral Probes of INTERBALL continue the studies of energetic particle population on Prognoz 10 in 1985 (Intershock project). Due to much higher energy, angular and time resolution, and better separation of electrons and ions, it is expected that the DOK-2 experiment will allow to re-examine in more detail the energetic particle population and related processes in magnetosphere regions covered by the spacecraft orbit.
 DOK-2 uses two pairs of energetic particle telescopes. Each telescope has a single, passively cooled, totally depleted, surface-barrier silicon detector. One detector of each pair (1e, 2e) is of 0.3 mm thick. Thin foil in front of the detector absorbs protons with energies E &lt; 400 keV so this detector measures electron spectrum in 20 - 420 keV range. The second detector (1p, 2p) of 0.15 mm thick is supplied with a broom magnet, deflecting electrons up to 1500 keV. It measures the spectrum of ions (protons) in 20-850 keV range. Full aperture angles and geometric factors of electron telescopes are 27 degrees and 0.066 cm2*sr. For proton telescopes these values are 12.7 degrees and 0.015 cm2*sr. Particle flux angular distribution is measured using spacecraft rotation with a ~2-minute period around the axis directed to the Sun and mechanical scanning of the second telescope pair in a plane containing the rotation axis. So a 3-dimensional particle distribution function is measured during each 2-minute rotation period. About seven full scanning cycles are carried out for every rotation. The first detector pair (1e, 1p) is fixed in the antisolar direction. The moving detector pair (2e, 2p) can either scan from 45 to 180 degrees (to the Sun direction) or stay in one of 4 positions: 45, 90, 135 and 180 degrees.
 Analog electronics for each of 4 detectors consists of a charge sensitive preamplifier (in a cooled part of the instrument), a shaping pulse amplifier and 56-57 channel amplitude analyser AA (logarithmic ADC). The measurements base is formed of "elementary measurement" (EM) - one full 56-57 channel spectrum measured every 1 second for each of 4 telescopes. This information is available only during the most informative Real Time mode of DOK-2. In storing modes there are two kinds of output information formed from EM's: (1) full 56-57 channel spectra accumulated during time intervals from 10 to 1464 seconds depending on particle intensity; and (2) three time profile (TP) parameters for each detector. TP parameters are counting rates in 3 narrow (&lt;30%) energy intervals from about 20 to 133 keV. An accumulation time for TP is variable in basic Monitoring modes (1-260 seconds). It depends on the variability of particle intensities. A special algorithm ensures time resolution of 1 second when the intensity change is statistically valuable. In Fast modes the accumulation time interval is &lt;1 second.
@@ -14,15 +14,15 @@ Spectrometer DOK-2 was switched on 5 hours after the launch on 29.08.1996 and op
       <Contact>
         <PersonID>spase://SMWG/Person/Karel.Kudela</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1996-050C&amp;ex=14</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1996-050C&amp;ex=14</URL>
         <Description>Information about the Electron and Proton Anisotropy (DOK-2A) experiment on the Interball Auroral Probe mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Electron and Proton Anisotropy (DOK-2A) on Interball Auroral Probe</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Interball-2</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

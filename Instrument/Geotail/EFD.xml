@@ -5,44 +5,44 @@
     <ResourceID>spase://SMWG/Instrument/Geotail/EFD</ResourceID>
     <ResourceHeader>
       <ResourceName>Geotail Electric Field Detector</ResourceName>
-      <ReleaseDate>2011-02-02T17:11:42Z</ReleaseDate>
-      <Description>The objectives of this investigation are studies of 
-(1) the large scale configuration of the electric field in the magnetotail, 
-(2) tail electric field variations during substorms, (3) the electric 
-field in the plasma sheet, (4) the electric field near the magnetopause 
-and in the plasma mantle at locations tailward of those covered by similar 
-measurements on ISEE 1, (5) micropulsation and low frequency wave 
-measurements at frequencies covering the local gyrofrequency (.LT.1Hz) and 
-lower hybrid frequency (.LT.10Hz) in the tail, (6) plasma density as deduced 
-from measurement of the floating potential of the spacecraft, and 
-(7) electric field comparisons (with the aid of the other spacecraft in 
-the ISTP program) at different points along the same magnetic field line, 
-at different points along a common boundary, or in different regions of 
-the magnetosphere. The instrument consists of two orthogonal double probes, 
-each of which is a pair of separated spheres on wire booms that are 
-located in the satellite spin plane and whose difference of potential is 
-measured. The separation distances between the pair of sensors are variable 
-and as great as 160 m tip-to-tip. One operating mode involves length ratios 
-of the two antennas of about 2:1 in order to verify instrument operation 
-through showing that the electric field signature is proportional to the 
-boom length. A second reason for two pairs of wire booms in the satellite 
-spin plane is the requirement for measurements having a time resolution far 
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <Description>The objectives of this investigation are studies of
+(1) the large scale configuration of the electric field in the magnetotail,
+(2) tail electric field variations during substorms, (3) the electric
+field in the plasma sheet, (4) the electric field near the magnetopause
+and in the plasma mantle at locations tailward of those covered by similar
+measurements on ISEE 1, (5) micropulsation and low frequency wave
+measurements at frequencies covering the local gyrofrequency (.LT.1Hz) and
+lower hybrid frequency (.LT.10Hz) in the tail, (6) plasma density as deduced
+from measurement of the floating potential of the spacecraft, and
+(7) electric field comparisons (with the aid of the other spacecraft in
+the ISTP program) at different points along the same magnetic field line,
+at different points along a common boundary, or in different regions of
+the magnetosphere. The instrument consists of two orthogonal double probes,
+each of which is a pair of separated spheres on wire booms that are
+located in the satellite spin plane and whose difference of potential is
+measured. The separation distances between the pair of sensors are variable
+and as great as 160 m tip-to-tip. One operating mode involves length ratios
+of the two antennas of about 2:1 in order to verify instrument operation
+through showing that the electric field signature is proportional to the
+boom length. A second reason for two pairs of wire booms in the satellite
+spin plane is the requirement for measurements having a time resolution far
 better than the satellite spin period.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Koichiro.Tsuruda</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Forrest.S.Mozer</PersonID>
         <Role>CoInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>ISTP site at NASA/GSFC</Name>
-        <URL>http://pwg.gsfc.nasa.gov/geotail.shtml</URL>
-      </InformationURL>
-    </ResourceHeader>
+        <URL>https://pwg.gsfc.nasa.gov/geotail.shtml</URL>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>DoubleSphere</InstrumentType>
     <InvestigationName>Electric Field Detector</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Geotail</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

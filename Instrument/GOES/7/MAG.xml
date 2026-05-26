@@ -5,21 +5,21 @@
     <ResourceID>spase://SMWG/Instrument/GOES/7/MAG</ResourceID>
     <ResourceHeader>
       <ResourceName>Magnetic Field Monitor</ResourceName>
-      <ReleaseDate>2011-06-03T20:40:28Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The spinning twin-fluxgate magnetometer was designed to provide the orthogonal components of the magnetic field: Hp is parallel to the spin axis that was held nearly in the direction of Earth's axis, He that is directed toward Earth center, and Hn that points eastward. The sensitivity of the magnetometer was about 0.2 gamma. Since May 1993, He and Hn components could not be obtained; only Hp data are available, but with uncertainty about the absolute values.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Harold.Leinbach</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1987-022A&amp;ex=4</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1987-022A&amp;ex=4</URL>
         <Description>Information about the Magnetic Field Monitor experiment on the GOES  7 mission.</Description>
-      </InformationURL>
+</InformationURL>
       <PriorID>spase://SMWG/Instrument/GOES7/MAG</PriorID>
-    </ResourceHeader>
+</ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Magnetic Field Monitor on GOES  7</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/GOES/7</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

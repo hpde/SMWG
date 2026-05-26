@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+  <Version>2.7.0</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Robert.E.Daniell</ResourceID>
+	<NamingAuthority>SMWG</NamingAuthority>
+	<ResourceType>Person</ResourceType>
+    <PersonName>Robert E. Daniell</PersonName>
+    <OrganizationName>Ionospheric Physics, Stoughton, MA, USA</OrganizationName>
+	<ORCIdentifier>0000-0002-9271-7986</ORCIdentifier>
+  </Person>
+</Spase>

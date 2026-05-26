@@ -6,7 +6,7 @@
     <ResourceHeader>
       <ResourceName>Radio Plasma Imager (RPI)</ResourceName>
       <AlternateName>RPI</AlternateName>
-      <ReleaseDate>2009-06-10T21:24:45Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The main science objective of the Radio Plasma Imager (RPI) was to characterize plasma in the Earth's magnetosphere utilizing imaging in the radio frequency range.
 
 The RPI on the IMAGE spacecraft was a pioneering instrument designed as a low frequency (3 kHz to 3 MHz) long-range magnetospheric radio sounder, relaxation sounder, and a passive plasma wave instrument. RPI was a highly flexible instrument capable of being programmed to perform these types of measurements at times when IMAGE was located in key regions of the magnetosphere. For the remote sensing, RPI transmitted coded electromagnetic waves and used digital pulse compression and spectral integration to isolate the resulting echoes.
@@ -17,35 +17,35 @@ RPI was capable of detecting direct echoes from the plasmasphere from distances 
       <Contact>
         <PersonID>spase://SMWG/Person/Bodo.W.Reinisch</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Ivan.A.Galkin</PersonID>
         <Role>DataProducer</Role>
         <Role>TechnicalContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=2000-017A-01</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2000-017A-01</URL>
         <Description>Information about the Radio Plasma Imager (RPI) experiment on the IMAGE mission.</Description>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>IMAGE RPI Instrument Page</Name>
-        <URL>http://image.gsfc.nasa.gov/rpi/</URL>
+        <URL>https://image.gsfc.nasa.gov/rpi/</URL>
         <Description>IMAGE RPI Instrument page maintained by NASA GSFC with RPI facts, description, team, data, documents, discoveries, and related links sections</Description>
         <Language>en</Language>
-      </InformationURL>
+</InformationURL>
       <InformationURL>
         <Name>IMAGE RPI Instrument Page at UML</Name>
-        <URL>http://ulcar.uml.edu/rpi.html</URL>
+        <URL>https://ulcar.uml.edu/rpi.html</URL>
         <Description>IMAGE RPI Instrument page maintained by University of Massachusetts Lowell with RPI description, team, software downloads, software user guides, access to CORPRAL automated prospecting results, mission planning tools and commanding guide, data model descriptions for Level 0 and 1, sonification files of 2003 Halloween storm, and useful links</Description>
         <Language>en</Language>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>LongWire</InstrumentType>
     <InstrumentType>Sounder</InstrumentType>
     <InstrumentType>ResonanceSounder</InstrumentType>
     <InstrumentType>SpectralPowerReceiver</InstrumentType>
     <InvestigationName>Radio Plasma Imager (RPI) on IMAGE</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/IMAGE</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

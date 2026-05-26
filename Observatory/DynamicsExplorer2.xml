@@ -10,21 +10,21 @@
       <AlternateName>DE-B</AlternateName>
       <AlternateName>DE 2</AlternateName>
       <AlternateName>Dynamics Explorer-B</AlternateName>
-      <ReleaseDate>2010-10-01T20:42:12Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The DE 2 spacecraft (low-altitude mission) complemented the high-altitude mission DE 1 and was placed into an orbit with a perigee sufficiently low to permit measurements of neutral composition, temperature, and wind. The apogee was high enough to permit measurements above the interaction regions of suprathermal ions, and also plasma flow measurements at the feet of the magnetospheric field lines. The general form of the spacecraft was a short polygon 137 cm in diameter and 115 cm high. The triaxial antennas were 23 m tip-to-tip. One 6-m boom was provided for remote measurements. The spacecraft weight was 403 kg. Power was supplied by a solar cell array, which charged two 6-ampere-hour nickel-cadmium batteries. The spacecraft was three-axis stabilized with the yaw axis aligned toward the center of the earth to within 1 deg. The spin axis was normal to the orbit plane within 1 deg with a spin rate of one revolution per orbit. A single-axis scan platform was included in order to mount the low-altitude plasma instrument (81-070B-08). The platform rotated about the spin axis. A pulse code modulation telemetry data system was used that operated in real time or in a tape-recorder mode. Data were acquired on a science-problem-oriented basis, with closely coordinated operations of the various instruments, both satellites, and supportive experiments. Measurements were temporarily stored on tape recorders before transmission at an 8:1 playback-to-record ratio. Since commands were also stored in a command memory unit, spacecraft operations were not real time. Additional details can be found in R. A. Hoffman et al., Space Sci. Instrum., v. 5, n. 4, p. 349, 1981. DE-2 reentered the atmosphere on February 19, 1983.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.A.Hoffman</PersonID>
         <Role>ProjectScientist</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1981-070B</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1981-070B</URL>
         <Description>Information about the Dynamics Explorer 2 mission</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/DE</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
-    </Location>
-  </Observatory>
+</Location>
+</Observatory>
 </Spase>

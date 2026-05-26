@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/NeutronMonitor/Climax</ResourceID>
     <ResourceHeader>
       <ResourceName>Climax Neutron Monitor</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:14Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>The Climax, Colorado neutron monitor was established in 1950. It resided at 11,400 foot elevation with two sections of six tubes each</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Clifford.Lopate</PersonID>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>Climax Corrections</Name>
-        <URL>http://ulysses.sr.unh.edu/NeutronMonitor/00ClimaxCorr.html</URL>
+        <URL>https://www.ngdc.noaa.gov/stp/solar/cosmic.html</URL>
         <Description>Climax Neutron Monitor introduction and Data Analysis information</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>EnergeticParticleInstrument</InstrumentType>
     <InvestigationName>Climax</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/NeutronMonitor/Climax</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

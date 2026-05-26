@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+    <Version>2.3.1</Version>
+    <Observatory>
+        <ResourceID>spase://SMWG/Observatory/SRN/NenuFAR</ResourceID>
+        <ResourceHeader>
+            <ResourceName>NenuFAR</ResourceName>
+            <ReleaseDate>2020-07-01T13:41:00Z</ReleaseDate>
+            <Description>Located on the site of the Nançay Radioastronomy Station, which gathers in the heart of Sologne 
+                French radio telescopes observing at frequencies below 3 GHz, NenuFAR is a very large low-frequency radio 
+                telescope, which will be among the most powerful in the world in its frequency range between 10 MHz and 
+                85 MHz. This range corresponds to the lowest spectral "window" in which we can observe with radio 
+                telescopes from the surface of the Earth. NenuFAR, optimized for the frequency range from 10 MHz to 
+                85 MHz (wavelengths from 4 m to 30 m), will have there the best sensitivity.</Description>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Philippe.M.Zarka</PersonID>
+                <Role>GeneralContact</Role>
+            </Contact>
+            <Contact>
+                <PersonID>spase://SMWG/Person/Baptiste.Cecconi</PersonID>
+                <Role>MetadataContact</Role>
+            </Contact>
+            <InformationURL>
+                <URL>https://nenufar.obs-nancay.fr/en/homepage-en/</URL>
+                <Language>en</Language>
+            </InformationURL>
+        </ResourceHeader>
+        <ObservatoryGroupID>spase://SMWG/Observatory/SRN</ObservatoryGroupID>
+        <Location>
+            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+            <CoordinateSystemName>GEO</CoordinateSystemName>
+            <Latitude>47.375944</Latitude>
+            <Longitude>2.193361</Longitude>
+            <Elevation>136.195</Elevation>
+        </Location>
+        <OperatingSpan>
+            <StartDate>2019-07-01T00:00:00.000Z</StartDate>
+        </OperatingSpan>
+    </Observatory>
+</Spase>

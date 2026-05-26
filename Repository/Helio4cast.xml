@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_7_0.xsd">
+   <Version>2.7.0</Version>
+   <Repository>
+      <ResourceID>spase://SMWG/Repository/Helio4cast</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Austrian Space Weather Office</ResourceName>
+         <ReleaseDate>2025-06-25T22:01:31</ReleaseDate>
+         <Description>Helioferecast is a group working on fundamental and applied space weather research at GeoSphere Austria, the Federal Institute for Geology, Geophysics, Climatology and Meteorology. The site provides data and catalogues for the research community.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Christian.Moestl</PersonID>
+            <Role>TeamLeader</Role>
+         </Contact>
+      </ResourceHeader>
+      <AccessURL>
+         <URL>https://helioforecast.space/</URL>
+      </AccessURL>
+   </Repository>
+</Spase>

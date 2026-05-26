@@ -6,20 +6,20 @@
     <ResourceHeader>
       <ResourceName>SRL ACE Science Center</ResourceName>
       <AlternateName>ASC</AlternateName>
-      <ReleaseDate>2008-06-18T06:07:48Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>ACE Science Center</Description>
       <Acknowledgement>
-	Please acknowledge the ACE instrument teams and the ACE Science Center in publications and presentations that use these data
-      </Acknowledgement>
+ Please acknowledge the ACE instrument teams and the ACE Science Center in publications and presentations that use these data
+</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Andrew.J.Davis</PersonID>
         <Role>PrincipalInvestigator</Role>
         <Role>GeneralContact</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>ACE Science Center</Name>
-        <URL>http://www.srl.caltech.edu/ACE/ASC</URL>
-      </InformationURL>
-    </ResourceHeader>
-  </Repository>
+        <URL>http://www.srl.caltech.edu/ACE/ASC/</URL>
+</InformationURL>
+</ResourceHeader>
+</Repository>
 </Spase>

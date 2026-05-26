@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
     <Version>2.2.2</Version>
     <Instrument>
         <ResourceID>spase://SMWG/Instrument/Apollo15-LM/SWS</ResourceID>
         <ResourceHeader>
             <ResourceName>Solar Wind Spectrometer</ResourceName>
-            <ReleaseDate>2012-05-02T00:00:00Z</ReleaseDate>
-            <Description>The solar wind spectrometer, designed to measure protons and electrons at the lunar surface, was part of the Apollo 15 
-                ALSEP package left on the Moon. It consisted of seven modulated Faraday cups opened toward different, but slightly overlapping, 
-                portions of the lunar sky. The instrument was used to observe the directional intensities of the electron (6-1480 eV) and positive 
-                ion (30-10400 eV) components of the solar wind and magnetotail plasma that strike the surface of the Moon. The scientific objectives 
-                of the Apollo 15 Solar Wind Spectrometer Experiment were to measure electron charge fluxes at the lunar surface, study the 
-                interaction of the solar wind with the local magnetic field, determine if lunar limb shocks can be detected at dawn or dusk, measure 
+            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+            <Description>The solar wind spectrometer, designed to measure protons and electrons at the lunar surface, was part of the Apollo 15
+                ALSEP package left on the Moon. It consisted of seven modulated Faraday cups opened toward different, but slightly overlapping,
+                portions of the lunar sky. The instrument was used to observe the directional intensities of the electron (6-1480 eV) and positive
+                ion (30-10400 eV) components of the solar wind and magnetotail plasma that strike the surface of the Moon. The scientific objectives
+                of the Apollo 15 Solar Wind Spectrometer Experiment were to measure electron charge fluxes at the lunar surface, study the
+                interaction of the solar wind with the local magnetic field, determine if lunar limb shocks can be detected at dawn or dusk, measure
                 solar wind conditions, make simultaneous comparisons with Apollo 12 data, and study time-dependent phenomena.
 
-                Each Faraday cup had a circular opening, five circular grids, and a circular collector. The five circular grids were an aperture 
-                grid, a modulator grid, a screen grid, a screen plate, and a suppressor grid. These served to apply an AC modulating field to 
-                incoming particles and screen the modulating field from the sensitive preamplifiers. Sensor covers were over each cup to protect 
-                against dust during the EVA's and lunar module ascent. Charged particles entered the cup and a current amplifier determined the 
-                resultant current flow. Energy spectra of positively and negatively charged particles were obtained by applying fixed sequences of 
-                square-wave AC retarding potentials to a modular grid and measuring the resultant changes in current. One cup was oriented vertically 
-                and the other six cups surrounded it symmetrically facing 60 degrees off vertical. The electronics were in a temperature-controlled 
-                container below the sensor assembly attached to a radiator. The instrument had deployed dimensions of 30.5 x 28.2 x 34.5 cm, a mass 
+                Each Faraday cup had a circular opening, five circular grids, and a circular collector. The five circular grids were an aperture
+                grid, a modulator grid, a screen grid, a screen plate, and a suppressor grid. These served to apply an AC modulating field to
+                incoming particles and screen the modulating field from the sensitive preamplifiers. Sensor covers were over each cup to protect
+                against dust during the EVA's and lunar module ascent. Charged particles entered the cup and a current amplifier determined the
+                resultant current flow. Energy spectra of positively and negatively charged particles were obtained by applying fixed sequences of
+                square-wave AC retarding potentials to a modular grid and measuring the resultant changes in current. One cup was oriented vertically
+                and the other six cups surrounded it symmetrically facing 60 degrees off vertical. The electronics were in a temperature-controlled
+                container below the sensor assembly attached to a radiator. The instrument had deployed dimensions of 30.5 x 28.2 x 34.5 cm, a mass
                 of 5.7 kg, used 12.5 W total power, and had an average data rate of 66.2 bits/sec.
 
-                A sequence of plasma measurements was made every 28.1 seconds, consisting of 14 energy steps spaced a factor of square root of 2 
-                apart for positive ions and 7 steps a factor of 2 apart for electrons. Flux rates of 2.5E6 to 2.5E11 particles cm^-2 sec^-1 could be 
-                measured. A large number of internal calibrations are provided. The instrument as deployed had the east-west axis of the instrument 
-                approximately 1 degree south of east, a 2 degree slope to the east and a 2.5 degree slope to the north. These were well within the 5 
-                degree specifications for the instrument. The ALSEP central station was located at 26.1341 N latitude, 3.6298 E longitude. The solar 
+                A sequence of plasma measurements was made every 28.1 seconds, consisting of 14 energy steps spaced a factor of square root of 2
+                apart for positive ions and 7 steps a factor of 2 apart for electrons. Flux rates of 2.5E6 to 2.5E11 particles cm^-2 sec^-1 could be
+                measured. A large number of internal calibrations are provided. The instrument as deployed had the east-west axis of the instrument
+                approximately 1 degree south of east, a 2 degree slope to the east and a 2.5 degree slope to the north. These were well within the 5
+                degree specifications for the instrument. The ALSEP central station was located at 26.1341 N latitude, 3.6298 E longitude. The solar
                 wind spectrometer was situated 4 meters north of the central station.
 
-                The instrument was deployed on 31 July 1971 and turned on with the sensor covers in place to provide background data at 19:37:10 UT. 
-                The covers were removed by command from Earth on 2 August 1971 at 18:07:32 UT, approximately one hour after lunar module ascent. The 
-                experiment performed well until November 5, 1971, when intermittent modulation dropping in proton channels 13 and 14 occurred. This 
-                intermittent, though scientifically usable, behavior continued until June 30, 1972, when the intrument experienced loss of science 
-                and engineering data. Analysis indicated that high-voltage arcing was occurring in the instrument electronics. To prevent the 
-                additional power consumption this entailed, the instrument was put into standby mode indefinitely. Tests were done periodically but 
+                The instrument was deployed on 31 July 1971 and turned on with the sensor covers in place to provide background data at 19:37:10 UT.
+                The covers were removed by command from Earth on 2 August 1971 at 18:07:32 UT, approximately one hour after lunar module ascent. The
+                experiment performed well until November 5, 1971, when intermittent modulation dropping in proton channels 13 and 14 occurred. This
+                intermittent, though scientifically usable, behavior continued until June 30, 1972, when the intrument experienced loss of science
+                and engineering data. Analysis indicated that high-voltage arcing was occurring in the instrument electronics. To prevent the
+                additional power consumption this entailed, the instrument was put into standby mode indefinitely. Tests were done periodically but
                 no change in status was detected, and the solar wind spectrometer was permanently commanded off on 14 June 1974.
-      </Description>
+</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/David.R.Williams</PersonID>
                 <Role>GeneralContact</Role>
-            </Contact> 
+</Contact>
             <InformationURL>
                 <Name>NSSDC's Master Catalog</Name>
-                <URL>http://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.do?id=1971-063C=04</URL>
+                <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1971-063C-04</URL>
                 <Description>Information about Apollo 15 Solar Wind Spectrometer</Description>
-            </InformationURL>
-        </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
         <InstrumentType>Spectrometer</InstrumentType>
         <InvestigationName>Apollo 15 solar wind measurement at the lunar surface</InvestigationName>
         <ObservatoryID>spase://SMWG/Observatory/Apollo15-LM</ObservatoryID>
-    </Instrument>
+</Instrument>
 </Spase>
 
 

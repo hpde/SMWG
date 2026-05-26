@@ -5,20 +5,20 @@
     <ResourceID>spase://SMWG/Instrument/Interball-1/SOSNA3</ResourceID>
     <ResourceHeader>
       <ResourceName>Dosimetric measurements SOSNA-3</ResourceName>
-      <ReleaseDate>2009-05-20T21:10:11Z</ReleaseDate>
+      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
       <Description>This instrument makes dosimetric measurements.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/V.Bengin</PersonID>
         <Role>PrincipalInvestigator</Role>
-      </Contact>
+</Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
-        <URL>http://nssdc.gsfc.nasa.gov/database/MasterCatalog?sc=1995-039A&amp;ex=21</URL>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1995-039A&amp;ex=21</URL>
         <Description>Information about the Dosimetric measurements SOSNA-3 experiment on the Interball Tail Probe mission.</Description>
-      </InformationURL>
-    </ResourceHeader>
+</InformationURL>
+</ResourceHeader>
     <InstrumentType>Unspecified</InstrumentType>
     <InvestigationName>Dosimetric measurements SOSNA-3 on Interball Tail Probe</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Interball-1</ObservatoryID>
-  </Instrument>
+</Instrument>
 </Spase>

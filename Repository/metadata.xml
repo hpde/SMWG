@@ -1,0 +1,20 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2_3_2.xsd">
+ <Version>2.3.2</Version>
+ <Repository>
+  <ResourceID>spase://SMWG/Repository/metadata</ResourceID>
+  <ResourceHeader>
+   <ResourceName>SMWG Metadata Repository</ResourceName>
+   <ReleaseDate>2021-04-01T00:00:00</ReleaseDate>
+   <Description>Repository for SPASE description for resources under Spase Metadata Working Group (SMWG) authority.</Description>
+   <Contact>
+    <PersonID>spase://SMWG/Person/D.Aaron.Roberts</PersonID>
+    <Role>MetadataContact</Role>
+   </Contact>
+  </ResourceHeader>
+  <AccessURL>
+   <Name>GitHub</Name>
+   <URL>https://github.com/hpde/NASA</URL>
+   <Description>GitHub repository for NASA SPASE descriptions.</Description>
+  </AccessURL>
+ </Repository>
+</Spase>

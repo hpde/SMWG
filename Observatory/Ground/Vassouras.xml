@@ -6,7 +6,7 @@
       <ResourceHeader>
          <ResourceName>Vassouras</ResourceName>
          <AlternateName>Observatory Station Code: VSS</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
+         <ReleaseDate>2019-03-08T12:34:56.789</ReleaseDate>
          <Description>The Vassouras geophysical observatory.</Description>
          <Acknowledgement>Please acknowledge:  CNPq - Observatorio Nacional, Rio de Janeiro, Brazil</Acknowledgement>
          <Contact>
@@ -26,14 +26,17 @@
          <PriorID>spase://SMWG/Observatory/WDC/Vassouras</PriorID>
       </ResourceHeader>
       <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
          <Latitude>-22.4</Latitude>
          <Longitude>316.35</Longitude>
+		 <Elevation>457.0</Elevation>
       </Location>
       <OperatingSpan>
          <StartDate>1915-01-01T00:00:00.000</StartDate>
+		 <StopDate>2011-12-31T23:59:59.000</StopDate>
       </OperatingSpan>
    </Observatory>
 </Spase>

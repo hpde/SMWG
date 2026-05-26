@@ -1,0 +1,42 @@
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
+ <Version>2.4.0</Version>
+ <Instrument>
+  <ResourceID>spase://SMWG/Instrument/SGO/VLF</ResourceID>
+  <ResourceHeader>
+   <ResourceName>Sodankylä Geophysical Observatory VLF Receiver System</ResourceName>
+   <ReleaseDate>2021-10-15T17:26:40</ReleaseDate>
+   <Description>The broadband (500Hz-38kHz) VLF receivers support the observing campaigns at SGO as well as supporting other VLF networks including AARDDVARK (Antarctic-Arctic Radiation belt (Dynamic) Deposition -
+VLF Atmospheric Research Konsortia), WWLLN (World Wide Lightning
+Location Network) and AWDA (Automatic Whistler Detector and Analyzer) .</Description>
+   <Acknowledgement>   NOTE: SGO data are available free of charge for
+   scientific and educational purposes. If the data are used for
+   scientific publications, the SGO requires you to contact them in order to
+   discuss under which conditions these data can be published,
+   i.e. whether an acknowledgment of the Sodankylä Geophysical
+   Observatory in your paper is sufficient or whether SGO requires
+   co-authorship. For detailed access to additional data, please
+   contact the SGO office or the observer in charge.
+   
+   See the detailed data license, https://www.sgo.fi/Data/licence.php
+</Acknowledgement>
+   <Contact>
+    <PersonID>spase://SMWG/Person/Jyrki.Manninen</PersonID>
+    <Role>GeneralContact</Role>
+   </Contact>
+   <Contact>
+    <PersonID>spase://SMWG/Person/Eija.Tanskanen</PersonID>
+    <Role>TeamLeader</Role>
+   </Contact>
+   <Contact>
+    <PersonID>spase://SMWG/Person/Leonard.N.Garcia</PersonID>
+    <Role>MetadataContact</Role>
+   </Contact>
+   <InformationURL>
+    <URL>https://www.sgo.fi/Publications/SGO/thesis/ManninenJyrki.pdf</URL>
+   </InformationURL>
+  </ResourceHeader>
+  <InstrumentType>SpectralPowerReceiver</InstrumentType>
+  <InvestigationName>VLF Measurements at Sodankylä Geophysical Observatory</InvestigationName>
+  <ObservatoryID>spase://SMWG/Observatory/SGO</ObservatoryID>
+ </Instrument>
+</Spase>

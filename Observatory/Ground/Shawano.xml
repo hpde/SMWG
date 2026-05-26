@@ -5,6 +5,7 @@
       <ResourceID>spase://SMWG/Observatory/Ground/Shawano</ResourceID>
       <ResourceHeader>
          <ResourceName>Shawano Geophysical Observatory</ResourceName>
+		 <AlternateName>Observatory Station Code: SWNO</AlternateName>
          <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
          <Description>Shawano (SWNO) Geophysical Observatory</Description>
          <Acknowledgement>Please acknowledge: University of California, Berkeley, University of California, Los Angeles, respectively, NASA NAS5-02099</Acknowledgement>
@@ -27,6 +28,7 @@
          </InformationURL>
          <PriorID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-EPO/SWNO</PriorID>
       </ResourceHeader>
+	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>

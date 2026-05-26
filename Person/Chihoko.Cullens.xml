@@ -1,0 +1,12 @@
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+     xmlns="http://www.spase-group.org/data/schema" 
+     xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2.6.1.xsd">
+  <Version>2.6.1</Version>
+  <Person>
+	<ResourceID>spase://SMWG/Person/Chihoko.Cullens</ResourceID>
+	<ReleaseDate>2025-02-04T00:01:00Z</ReleaseDate>
+	<PersonName>Chihoko Cullens</PersonName>
+	<OrganizationName>Laboratory for Atmospheric and Space Physics</OrganizationName>
+	<Email>Chihoko.Cullens@lasp.colorado.edu</Email>
+  </Person>
+</Spase>

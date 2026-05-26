@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
+   <Version>2.3.0</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/MAVEN</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Mars Atmosphere and Volatile Evolution</ResourceName>
+         <AlternateName>MAVEN</AlternateName>
+         <ReleaseDate>2019-07-07T12:34:56.789Z</ReleaseDate>
+         <Description>The Mars Atmosphere and Volatile EvolutioN (MAVEN) mission is designed to explore Mars' upper atmosphere and ionosphere, and interactions with the solar wind, specifically to determine the loss of volatile compounds to space through time and how it has affected the history of Mars' atmosphere and climate. MAVEN is part of the NASA Mars Scout program. MAVEN has four primary scientific objectives:
+
+(1) Determine the Role that Loss of Volatiles from the Mars Atmosphere to Space has played through Time
+
+(2) Determine the current State of the Upper Atmosphere, Ionosphere, and Interactions with the Solar Wind
+
+(3) Determine the current Rates of Escape of Neutral Gases and Ions to Space and the Processes controlling them
+
+(4) Determine the Ratios of Stable Isotopes that will tell the Martian History of Loss through Time
+
+Spacecraft and Subsystems
+
+The MAVEN Spacecraft consists of a cubic primary central Structure with two Solar Panel &quot;wings&quot;. The central Structure is 2.3 m &#215; 2.3 m and 2 m high, constructed of Panels of Aluminum Honeycomb sandwiched between graphite composite Face Sheets. A 1.3 m diameter cylindrical Propellant Tank is at the Center of the Structure and acts as the primary vertical load-bearing Structure. The Tank can hold 1640 kg of Hydrazine. A Payload of eight Instruments is mounted on the Spacecraft: Magnetometer, Neutral Gas and Ion Mass Spectrometer, Langmuir Probe and Waves, Imaging Ultraviolet Spectrometer, Solar Wind Electron Analyzer, Solar Wind Ion Analyzer, Solar Energetic Particles, and a SupraThermal And Thermal Ion Composition.
+
+MAVEN launched on an Atlas V 401 with a single-engine Centaur Upper Stage on 18 November 2013 at 18:28 UT. It reached Mars and entered Orbit completing its Orbit Insertion Burn on September 22, 2014 at 2:24 UT (September 21st at 10:24 p.m. EDT). It will go into a 4.5 hour Science Orbit with an Inclination of 75&#176; and a Periapsis of 150 km. The Nominal Science Mission will last one Year and will include five &quot;Deep-Dip&quot; Maneuvers during which the Periapsis will be lowered to 125 km for 5 Day Periods.</Description>
+         <Acknowledgement>Please acknowledge the National Aeronautics and Space Administration, NASA</Acknowledgement>
+         <Funding>
+            <Agency>National Aeronautics and Space Administration, Mars Scout Program</Agency>
+            <Project>MAVEN Mission</Project>
+            <AwardNumber>UNKNOWN</AwardNumber>
+         </Funding>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Bruce.M.Jakosky</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Janet.G.Luhmann</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Joseph.M.Grebowsky</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>MAVEN Mission Web Page, NASA</Name>
+            <URL>https://www.nasa.gov/mission_pages/maven/main/index.html</URL>
+            <Description>MAVEN Mission Web Page with an Overview, Images, Videos and Media Resources, NASA</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>The Mars Atmosphere and Volatile Evolution, MAVEN, Mission Home Page, LASP, UCB</Name>
+            <URL>http://lasp.colorado.edu/home/maven/</URL>
+            <Description>General Information about the Mars Atmosphere and Volatile Evolution, MAVEN, Mission, Laboratory for Atmospheric and Space Physics, University of Colorado, Boulder, UCB</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>NSSDC Master Catalog Listing, MAVEN</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2013-063A</URL>
+            <Description>NSSDC Master Catalog Listing for the MAVEN Spacecraft, NSSDCA/COSPAR ID: 2013-063A</Description>
+         </InformationURL>
+         <InformationURL>
+            <Name>MAVEN Mission Space Science Review Article</Name>
+            <URL>https://link.springer.com/article/10.1007/s11214-015-0139-x</URL>
+            <Description>Jakosky, B.M., Lin, R.P., Grebowsky, J.M., et al., The Mars Atmosphere and Volatile Evolution (MAVEN) Mission, Space Sci. Rev., 195(1-4), 3-48, 2015.</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Heliosphere.Inner</ObservatoryRegion>
+         <ObservatoryRegion>Heliosphere.Outer</ObservatoryRegion>
+         <ObservatoryRegion>Mars</ObservatoryRegion>
+      </Location>
+      <OperatingSpan>
+         <StartDate>2013-11-18T18:28:00Z</StartDate>
+         <Note>MAVEN Launch Date and Time until data are available</Note>
+      </OperatingSpan>
+   </Observatory>
+</Spase>

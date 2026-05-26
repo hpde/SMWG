@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd" lang="en">
+   <Version>2.3.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/ParkerSolarProbe/ISOIS/EPI-Lo</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Parker Solar Probe, PSP, Integrated Science Investigation of the Sun, ISOIS, Suite, Energetic Particle Instrument-Lo, EPI-Lo, Instrument</ResourceName>
+         <AlternateName>Solar Probe Plus, SPP, Integrated Science Investigation of the Sun, ISOIS, Suite, Energetic Particle Instrument-Lo, EPI-Lo, Instrument</AlternateName>
+         <ReleaseDate>2020-03-16T12:34:56.789Z</ReleaseDate>
+         <Description>The PSP Energetic Particle Instrument low energy instrument, EPI-Lo, measures energetic particles in the lower portion of the ISIS energy range. EPI-Lo and the PSP Energetic Particle Instrument high energy instrument, EPI-Hi, complement one another in their energy ranges and their sky coverage in order to obtain the comprehensive set of observations needed to understand solar energetic particle sources, acceleration and transport close to the Sun.
+
+EPI-Lo is a novel, light-weight, high-heritage, time of flight, TOF, based, mass spectrometer that measures energetic electrons at energies from approximately 25 keV to 1000 keV and ions at energies from approximately 0.04 MeV to 7 MeV for protons and 0.02 MeV to 2 MeV/nuc for heavier ions. EPI-Lo provides observations of particle spectra and resolves all major heavy ion species and &#179;He and &#8308;He over much of this energy range in multiple directions. ISIS thus covers the critical energy range from suprathermal energies, that is energies above approximately 20 keV/nuc, up to the lower portion of the EPI-Hi energy range with a single instrument.
+
+EPI-Lo consists of eight sensor wedges mounted above an electronics box. It has 80 separate entrances, 10 on each of the eight wedges, densely sampling over half of the sky. This configuration permits full angular distributions without articulation or duty cycle and allows for measuring the first-arriving, field-aligned ions at the spacecraft for a broad range of vector magnetic, B, field directions.</Description>
+         <Acknowledgement>Please acknowledge NASA, David J. McComas, the PSP ISOIS Instrument Suite Principal Investigator, and Nicola J. Fox, the PSP Project Scientist.</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Nicola.J.Fox</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Parker Solar Probe ISOIS Suite NSSDCA Master Catalog Listing</Name>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=2018-065A-02</URL>
+            <Description>NSSDC Master Catalog Listing for the Parker Solar Probe Integrated Science Investigation of the Sun, ISOIS, Suite, NSSDCA/COSPAR ID: 2018-065A-02</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+      <InstrumentType>MassSpectrometer</InstrumentType>
+      <InstrumentType>MicrochannelPlate</InstrumentType>
+      <InstrumentType>SolidStateDetector</InstrumentType>
+      <InstrumentType>TimeOfFlight</InstrumentType>
+      <InvestigationName>Parker Solar Probe Mission</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2018-08-12T07:31:00.000Z</StartDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/ParkerSolarProbe</ObservatoryID>
+   </Instrument>
+</Spase>

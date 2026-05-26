@@ -1,0 +1,11 @@
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
+    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+    <Version>2.6.0</Version>
+    <Person>
+        <ResourceID>spase://SMWG/Person/Shane.E.Coyle</ResourceID>
+        <ReleaseDate>2024-06-15T00:00:00</ReleaseDate>
+        <PersonName>Shane E. Coyle</PersonName>
+        <OrganizationName>Virginia Tech</OrganizationName>
+        <Email>shanec1@vt.edu</Email>
+    </Person>
+</Spase>
