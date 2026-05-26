@@ -1,14 +1,11 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_3.xsd">
-<Version>2.2.3</Version>
-<Repository>
+    <Version>2.2.3</Version>
+    <Repository>
         <ResourceID>spase://SMWG/Repository/CDPP/SIPAD</ResourceID>
         <ResourceHeader>
             <ResourceName>SIPAD</ResourceName>
-            <ReleaseDate>2009-09-02T00:00:00Z </ReleaseDate>
-            <Description>
-            SIPAD is the data portal for perennial data holding of CDPP. It is developped and maintained by CNES.
-            Data include STEREO/SWAVES, WIND, DEMETER, ARCAD-3, GEOS, CASSINI/RPWS, ...
-            </Description>
+            <ReleaseDate>2009-09-02T00:00:00Z</ReleaseDate>
+            <Description>SIPAD is the data portal for perennial data holding of CDPP. It is developped and maintained by CNES. Data include STEREO/SWAVES, WIND, DEMETER, ARCAD-3, GEOS, CASSINI/RPWS, ...</Description>
             <Contact>
                 <PersonID>spase://SMWG/Person/Nicolas.Dufourg</PersonID>
                 <Role>ProjectScientist</Role>
@@ -16,9 +13,7 @@
             <InformationURL>
                 <Name>SIPAD home page</Name>
                 <URL>https://sipad-cdpp.cnes.fr/</URL>
-                <Description>
-                    Home page for the CDPP/CNES data repository.
-                </Description>
+                <Description>Home page for the CDPP/CNES data repository.</Description>
             </InformationURL>
         </ResourceHeader>
         <AccessURL>
