@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Nour.Raouafi</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <ReleaseDate>2026-05-26T15:35:17</ReleaseDate>
+      <PersonName>Nour.Raouafi</PersonName>
+      <OrganizationName> Johns Hopkins Applied Physics Laboratory</OrganizationName>
+   </Person>
+</Spase>

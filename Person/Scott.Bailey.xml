@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
+   <MetadataRightsList>
+      <Rights>
+         <RightsIdentifier>CC0-1.0</RightsIdentifier>
+         <RightsURI>
+https://spdx.org/licenses/CC0-1.0.html</RightsURI>
+         <RightsName>Creative Commons Zero v1.0 Universal</RightsName>
+         <Note>CC0 1.0 Universal is the Creative Commons license applicable to all publicly available SPASE metadata descriptions</Note>
+      </Rights>
+   </MetadataRightsList>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Scott.Bailey</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Person</ResourceType>
+      <ReleaseDate>2026-05-26T15:28:04</ReleaseDate>
+      <PersonName>Scott.Bailey</PersonName>
+      <OrganizationName>Virginia Tech</OrganizationName>
+   </Person>
+</Spase>
