@@ -1,26 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-    <Version>2.2.2</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/RBSP</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Radiation Belt Storm Probe Satellite</ResourceName>
-            <AlternateName>Radiation Belt Storm Probe</AlternateName>
-            <AlternateName>Van Allen Probes</AlternateName>
-            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
-            <Description>The Van Allen Probes (formerly known as the Radiation Belt Storm Probes (RBSP)) are two robotic spacecraft being used to study the Van Allen radiation belts that surround Earth. NASA is conducting the Van Allen Probes mission as part of the Living With a Star program. Understanding the radiation belt environment and its variability has important practical applications in the areas of spacecraft operations, spacecraft system design, mission planning and astronaut safety. The probes were launched on August 30, 2012</Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Barry.H.Mauk</PersonID>
-                <Role>ProjectScientist</Role>
-</Contact>
-            <InformationURL>
-                <Name>Mission Web Pages</Name>
-                <URL>http://vanallenprobes.jhuapl.edu/index.php</URL>
-                <Description>Mission Web Page</Description>
-</InformationURL>
-</ResourceHeader>
-        <Location>
-            <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
-</Location></Observatory>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/RBSP</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Observatory</ResourceType>
+    <ResourceHeader>
+      <ResourceName>Radiation Belt Storm Probe Satellite</ResourceName>
+      <AlternateName>Radiation Belt Storm Probe</AlternateName>
+      <AlternateName>Van Allen Probes</AlternateName>
+      <ReleaseDate>2026-05-28T10:20:21Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-05-28T10:20:21Z</ReleaseDate>
+          <Note>Added new Contact(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Van Allen Probes (formerly known as the Radiation Belt Storm Probes (RBSP)) are two robotic spacecraft being used to study the Van Allen radiation belts that surround Earth. NASA is conducting the Van Allen Probes mission as part of the Living With a Star program. Understanding the radiation belt environment and its variability has important practical applications in the areas of spacecraft operations, spacecraft system design, mission planning and astronaut safety. The probes were launched on August 30, 2012</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Sasha.Ukhorskiy</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Barry.H.Mauk</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Mission Web Pages</Name>
+        <URL>http://vanallenprobes.jhuapl.edu/index.php</URL>
+        <Description>Mission Web Page</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+    </Location>
+  </Observatory>
 </Spase>

@@ -1,11 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/AIM</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Observatory</ResourceType>
     <ResourceHeader>
       <ResourceName>AIM</ResourceName>
-      <ReleaseDate>2010-08-05T18:19:12Z</ReleaseDate>
+      <ReleaseDate>2026-05-28T10:20:20Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2010-08-05T18:19:12Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-05-28T10:20:20Z</ReleaseDate>
+          <Note>Added new Contact:Role(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>AIM (Aeronomy of Ice in the Mesosphere) is a NASA Small
 Explorer spacecraft launched April 25, 2007, into a high-inclination, 
 600-km altitude orbit for study of noctilucent clouds (also called Polar 
@@ -20,8 +32,13 @@ that provides an average 5km x 5km resolution in downward-looking images.
 temperatures and absorptions for various molecules.
 * The Cosmic Dust Experiment (CDE).</Description>
       <Contact>
+        <PersonID>spase://SMWG/Person/Scott.Bailey</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
         <PersonID>spase://SMWG/Person/James.M.Russell.III</PersonID>
         <Role>ProjectScientist</Role>
+        <Role>FormerPI</Role>
       </Contact>
       <InformationURL>
         <Name>AIM web page at Hampton University</Name>

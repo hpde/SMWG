@@ -1,15 +1,27 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd" lang="en">
-  <Version>2.2.0</Version>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd" lang="en">
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Hawkeye</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Observatory</ResourceType>
     <ResourceHeader>
       <ResourceName>Hawkeye</ResourceName>
       <AlternateName>Hawkeye 1</AlternateName>
       <AlternateName>Neutral Point Explorer</AlternateName>
       <AlternateName>Injun-F</AlternateName>
       <AlternateName>Explorer 52</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-05-28T10:20:21Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-05-28T10:20:21Z</ReleaseDate>
+          <Note>Added new Contact:Role(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>
 The broad science objectives of the Hawkeye 1 spacecraft were to survey the high latitude polar regions (cusp, auroral zone, mantle, bow shock and magnetopause) of the Earth's magnetosphere. Secondary objectives were to make magnetic field and plasma distribution measurements in the solar wind, and to study Type-3 radio emissions caused by solar electron streams in the interplanetary medium. To accomplish these objectives, the spacecraft was instrumented with a plasma wave receiver (VLF), a fluxgate magnetometer (MAG), and a low energy proton-electron differential energy analyzer (LEPEDEA).
 
@@ -19,24 +31,25 @@ The spacecraft was launched on June 3, 1974 into a polar orbit with initial apog
       <Contact>
         <PersonID>spase://SMWG/Person/James.A.Van.Allen</PersonID>
         <Role>ProjectScientist</Role>
-</Contact>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Scott.Boardsen</PersonID>
         <Role>TechnicalContact</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1974-040A</URL>
         <Description>Information about the Hawkeye 1 mission</Description>
-</InformationURL>
-</ResourceHeader>
+      </InformationURL>
+    </ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
       <ObservatoryRegion>Earth.Magnetosphere.Polar</ObservatoryRegion>
-</Location>
+    </Location>
     <OperatingSpan>
       <StartDate>1974-06-03T00:00:00Z</StartDate>
       <StopDate>1978-04-28T00:00:00Z</StopDate>
-</OperatingSpan>
-</Observatory>
+    </OperatingSpan>
+  </Observatory>
 </Spase>
