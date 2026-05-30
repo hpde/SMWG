@@ -7,17 +7,23 @@
          <ResourceName>PADRE</ResourceName>
          <AlternateName>Solar Polarization and Directivity X-Ray Experiment</AlternateName>
          <ReleaseDate>2026-05-12T00:08:46</ReleaseDate>
-         <Description>The solar PolArization and Directivity X-Ray Experiment (PADRE) is a NASA-led heliophysics CubeSat observatory designed to investigate the acceleration and angular distribution of high-energy electrons during solar flares through observations of hard X-ray (HXR) emission. PADRE is a 12U spinning CubeSat developed primarily by the Space Sciences Laboratory, University of California Berkeley
- in collaboration with NASA Goddard Space Flight Center (GSFC), Southwest Research Institute (SwRI), the University of Applied Sciences and Arts Northwestern Switzerland (FHNW), and CEA-Saclay.
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2026-05-30T00:08:46</ReleaseDate>
+               <Note>Updated the description. SY</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The Solar Polarization and Directivity X-Ray Experiment (PADRE) is a NASA heliophysics CubeSat observatory designed to investigate the acceleration and angular distribution of high-energy electrons during solar flares through observations of hard X-ray (HXR) emission. PADRE is a 12U spinning CubeSat mission led by the Space Sciences Laboratory, University of California, Berkeley, in collaboration with NASA Goddard Space Flight Center (GSFC), Southwest Research Institute (SwRI), the University of Applied Sciences and Arts Northwestern Switzerland (FHNW), and CEA-Saclay.
 
-PADRE measures both the polarization and directivity of solar flare hard X-rays to determine whether flare-accelerated electrons exhibit isotropic or anisotropic angular distributions. The mission combines a hard X-ray polarimeter and a directivity sensor on a spinning spacecraft platform to improve polarization sensitivity and directional measurements. PADRE observations are intended to improve understanding of particle acceleration, magnetic reconnection, and energy release processes in solar flares, with applications to space weather research and forecasting.</Description>
+PADRE measures both the polarization and directivity of solar flare hard X-rays to determine whether flare-accelerated electrons exhibit isotropic or anisotropic angular distributions. The mission carries two hard X-ray instruments: the Solar Hard X-ray Polarimeter (SHARP), which measures the polarization of non-thermal hard X-rays, and Measuring Directivity to Determine Electron Anisotropy (MeDDEA), which measures hard X-ray directivity using flight-spare STIX detector technology. Together, these instruments use the spinning spacecraft platform to improve polarization sensitivity and directional measurements. PADRE observations are intended to improve understanding of particle acceleration, magnetic reconnection, and energy release processes in solar flares, with applications to space weather research and forecasting.</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/Juan.C.Martinez-Oliveros</PersonID>
             <Role>PrincipalInvestigator</Role>
          </Contact>
          <InformationURL>
-            <Name>The PADRE website</Name>
+            <Name>PADRE Mission Web Page</Name>
             <URL>https://padre.ssl.berkeley.edu/</URL>
+            <Description>Official PADRE mission website.</Description>
          </InformationURL>
       </ResourceHeader>
       <Location>
@@ -25,6 +31,7 @@ PADRE measures both the polarization and directivity of solar flare hard X-rays 
       </Location>
       <OperatingSpan>
          <StartDate>2025-06-23T00:00:00</StartDate>
+         <Note>StartDate is the PADRE launch date.</Note>
       </OperatingSpan>
    </Observatory>
 </Spase>
