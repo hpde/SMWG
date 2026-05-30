@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.spase-group.org/data/schema https://spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/PADRE/MeDDEA</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Measuring Directivity to Determine Electron Anisotropy (MeDDEA)</ResourceName>
+         <AlternateName>PADRE/MeDDEA</AlternateName>
+         <AlternateName>MeDDEA</AlternateName>
+         <ReleaseDate>2026-05-30T00:08:46</ReleaseDate>
+         <Description>MeDDEA, Measuring Directivity to Determine Electron Anisotropy, is the hard X-ray directivity instrument on the PADRE, Solar Polarization and Directivity X-Ray Experiment, 12U solar-spinning CubeSat mission. MeDDEA uses flight-spare detectors from the Spectrometer/Telescope for Imaging X-rays, STIX, provided by CEA-Saclay. Unlike STIX, MeDDEA does not use imaging grids or focus on hard X-ray imaging. Instead, it is designed to make precision measurements of solar flare X-ray directivity. MeDDEA observations are used to investigate the directivity of solar flare X-ray emissions and to advance understanding of solar flare electron anisotropy, particle acceleration, and energy release in the solar corona.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Steven.Christe</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>PADRE Instrument Web Page</Name>
+            <URL>https://padre.ssl.berkeley.edu/timeline/</URL>
+            <Description>PADRE instrument overview page describing SHARP and MeDDEA.</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Spectrometer</InstrumentType>
+      <InstrumentType>SolidStateDetector</InstrumentType>
+      <InvestigationName>Measuring Directivity to Determine Electron Anisotropy (MeDDEA) on PADRE</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2025-06-23T00:00:00</StartDate>
+         <Note>StartDate is the PADRE launch date.</Note>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/PADRE</ObservatoryID>
+   </Instrument>
+</Spase>

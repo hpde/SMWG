@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.spase-group.org/data/schema https://spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/PADRE/SHARP</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Solar Hard X-ray Polarimeter (SHARP)</ResourceName>
+         <AlternateName>PADRE/SHARP</AlternateName>
+         <AlternateName>SHARP</AlternateName>
+         <ReleaseDate>2026-05-30T00:08:46</ReleaseDate>
+         <Description>SHARP, the Solar Hard X-ray Polarimeter, is the hard X-ray polarimetry instrument on the PADRE, Solar Polarization and Directivity X-Ray Experiment, 12U solar-spinning CubeSat mission. SHARP is designed to measure the polarization of non-thermal hard X-rays emitted during the impulsive phase of solar flares. The instrument measures the azimuthal distribution of Compton-scattered photons using a cylindrical beryllium scatterer surrounded by cadmium telluride, CdTe, photon-counting detectors instrumented with Timepix3 application-specific integrated circuits. These observations are used to constrain the angular distribution of flare-accelerated electrons and to help distinguish strongly beamed from more isotropic particle-acceleration scenarios.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Pascal.Saint-Hilaire</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>PADRE Instrument Web Page</Name>
+            <URL>https://padre.ssl.berkeley.edu/timeline/</URL>
+            <Description>PADRE instrument overview page describing SHARP and MeDDEA.</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Photopolarimeter</InstrumentType>
+      <InstrumentType>SolidStateDetector</InstrumentType>
+      <InvestigationName>Solar Hard X-ray Polarimeter (SHARP) on PADRE</InvestigationName>
+      <OperatingSpan>
+         <StartDate>2025-06-23T00:00:00</StartDate>
+         <Note>StartDate is the PADRE launch date.</Note>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/PADRE</ObservatoryID>
+   </Instrument>
+</Spase>
