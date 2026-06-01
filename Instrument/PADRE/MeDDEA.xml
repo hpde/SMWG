@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.spase-group.org/data/schema https://spase-group.org/data/schema/spase-2.7.1.xsd">
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
    <Version>2.7.1</Version>
    <Instrument>
       <ResourceID>spase://SMWG/Instrument/PADRE/MeDDEA</ResourceID>
@@ -10,7 +8,13 @@
          <AlternateName>PADRE/MeDDEA</AlternateName>
          <AlternateName>MeDDEA</AlternateName>
          <ReleaseDate>2026-05-30T00:08:46</ReleaseDate>
-         <Description>MeDDEA, Measuring Directivity to Determine Electron Anisotropy, is the hard X-ray directivity instrument on the PADRE, Solar Polarization and Directivity X-Ray Experiment, 12U solar-spinning CubeSat mission. MeDDEA uses flight-spare detectors from the Spectrometer/Telescope for Imaging X-rays, STIX, provided by CEA-Saclay. Unlike STIX, MeDDEA does not use imaging grids or focus on hard X-ray imaging. Instead, it is designed to make precision measurements of solar flare X-ray directivity. MeDDEA observations are used to investigate the directivity of solar flare X-ray emissions and to advance understanding of solar flare electron anisotropy, particle acceleration, and energy release in the solar corona.</Description>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2026-06-01T00:08:46</ReleaseDate>
+               <Note>Updated the description. SY</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>MeDDEA, Measuring Directivity to Determine Electron Anisotropy, is one of the scientific instruments on the PADRE mission. It is a photon-counting hard X-ray directivity instrument that uses flight-spare detectors from the Spectrometer/Telescope for Imaging X-rays, STIX, provided by CEA-Saclay. MeDDEA measures individual photons and time-tags them with a time resolution better than 1 ms. The instrument has an energy range of approximately 3 keV to 110 keV and an energy resolution of approximately 1.1 keV at 59.5 keV. Its field of view is about 6 degrees, but it does not provide spatial resolution. MeDDEA is designed to investigate the directivity of solar flare X-ray emissions and to advance understanding of solar flare electron anisotropy.</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/Steven.Christe</PersonID>
             <Role>PrincipalInvestigator</Role>

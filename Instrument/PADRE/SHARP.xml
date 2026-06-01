@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.spase-group.org/data/schema https://spase-group.org/data/schema/spase-2.7.1.xsd">
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
    <Version>2.7.1</Version>
    <Instrument>
       <ResourceID>spase://SMWG/Instrument/PADRE/SHARP</ResourceID>
@@ -10,7 +8,13 @@
          <AlternateName>PADRE/SHARP</AlternateName>
          <AlternateName>SHARP</AlternateName>
          <ReleaseDate>2026-05-30T00:08:46</ReleaseDate>
-         <Description>SHARP, the Solar Hard X-ray Polarimeter, is the hard X-ray polarimetry instrument on the PADRE, Solar Polarization and Directivity X-Ray Experiment, 12U solar-spinning CubeSat mission. SHARP is designed to measure the polarization of non-thermal hard X-rays emitted during the impulsive phase of solar flares. The instrument measures the azimuthal distribution of Compton-scattered photons using a cylindrical beryllium scatterer surrounded by cadmium telluride, CdTe, photon-counting detectors instrumented with Timepix3 application-specific integrated circuits. These observations are used to constrain the angular distribution of flare-accelerated electrons and to help distinguish strongly beamed from more isotropic particle-acceleration scenarios.</Description>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2026-06-01T00:08:46</ReleaseDate>
+               <Note>Updated the description. SY</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>SHARP, the Solar Hard X-ray Polarimeter, is one of the scientific instruments on the PADRE mission. It is a photon-counting hard X-ray polarimeter designed to measure the polarization of non-thermal X-rays emitted during the impulsive phase of solar flares. SHARP measures the azimuthal distribution of scattered hard X-rays to determine the degree of X-ray polarization, with a design Minimum Detectable Polarization of 5% at a 99% confidence level. The instrument has an energy range of approximately 5 keV to 150 keV and an average energy resolution of approximately 8 keV at 59.5 keV. It time-tags individual photons with a time resolution better than 1 ms. Its field of view is about 6 degrees, but it does not provide spatial resolution.</Description>
          <Contact>
             <PersonID>spase://SMWG/Person/Pascal.Saint-Hilaire</PersonID>
             <Role>PrincipalInvestigator</Role>
