@@ -1,9 +1,11 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
+  <Version>2.7.1</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/WDC/Director.Addis.Ababa.Observatory</ResourceID>
-    <ReleaseDate>2009-11-05T12:34:56.789</ReleaseDate>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2009-11-05T12:34:56.789Z</ReleaseDate>
     <PersonName>Director Addis Ababa Observatory</PersonName>
     <OrganizationName>Geophysical Observatory</OrganizationName>
     <Address>Geophysical Observatory, Addis Ababa University, P.O. Box 1176, Addis Ababa, Ethiopia</Address>

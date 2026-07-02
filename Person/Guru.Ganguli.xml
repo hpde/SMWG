@@ -1,12 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-    <Version>2.2.2</Version>
-    <Person>
-        <ResourceID>spase://SMWG/Person/Guru.Ganguli</ResourceID>
-        <ReleaseDate>2013-05-24T00:00:00</ReleaseDate>
-        <PersonName>Guru Ganguli</PersonName>
-        <OrganizationName>NRL</OrganizationName>
-        <Email>gurudas.ganguli@nrl.navy.mil</Email>
-    </Person>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Guru.Ganguli</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2013-05-24T00:00:00Z</ReleaseDate>
+    <PersonName>Guru Ganguli</PersonName>
+    <OrganizationName>NRL</OrganizationName>
+    <Email>gurudas.ganguli@nrl.navy.mil</Email>
+  </Person>
 </Spase>

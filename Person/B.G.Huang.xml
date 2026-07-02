@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2-5-0.xsd">
-   <Version>2.5.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/B.G.Huang</ResourceID>
-      <ReleaseDate>2023-03-01T12:34:56.789</ReleaseDate>
-      <PersonName>B.G. Huang</PersonName>
-      <OrganizationName>Adnet Systems, Inc.</OrganizationName>
-      <Address>Lanham, MD, USA</Address>
-   </Person>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/B.G.Huang</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2023-03-01T12:34:56.789Z</ReleaseDate>
+    <PersonName>B.G. Huang</PersonName>
+    <OrganizationName>Adnet Systems, Inc.</OrganizationName>
+    <Address>Lanham, MD, USA</Address>
+  </Person>
 </Spase>

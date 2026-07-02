@@ -1,12 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
-   <Version>2.7.1</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Aude.Chambodut</ResourceID>
-      <ReleaseDate>2026-03-09T12:34:56.789</ReleaseDate>
-      <PersonName>Aude Chambodut</PersonName>
-      <OrganizationName>Ecole et Observatoire des Sciences de la Terre (EOST)</OrganizationName>
-      <Address>Ecole et Observatoire des Sciences de la Terre, Service des observatoires magnetiques, 5, rue Rene Descartes, France</Address>
-      <Email>aude.chambodut@unistra.fr</Email>
-      <FaxNumber>+33 (0) 3 68 85 01 25</FaxNumber>
-   </Person>
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Aude.Chambodut</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2026-03-09T12:34:56.789Z</ReleaseDate>
+    <PersonName>Aude Chambodut</PersonName>
+    <OrganizationName>Ecole et Observatoire des Sciences de la Terre (EOST)</OrganizationName>
+    <Address>Ecole et Observatoire des Sciences de la Terre, Service des observatoires magnetiques, 5, rue Rene Descartes, France</Address>
+    <Email>aude.chambodut@unistra.fr</Email>
+    <FaxNumber>+33 (0) 3 68 85 01 25</FaxNumber>
+  </Person>
 </Spase>

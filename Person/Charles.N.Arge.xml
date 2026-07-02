@@ -1,12 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_6_1.xsd">
-   <Version>2.6.1</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Charles.N.Arge</ResourceID>
-      <ReleaseDate>2010-12-13T00:00:00</ReleaseDate>
-      <PersonName>Dr. Charles Nick Arge</PersonName>
-      <OrganizationName>NASA Goddard Space Flight Center</OrganizationName>
-      <Email>charles.n.arge@nasa.gov</Email>
-      <ORCIdentifier>0000-0001-9326-3448</ORCIdentifier>
-   </Person>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Charles.N.Arge</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2010-12-13T00:00:00Z</ReleaseDate>
+    <PersonName>Dr. Charles Nick Arge</PersonName>
+    <OrganizationName>NASA Goddard Space Flight Center</OrganizationName>
+    <Email>charles.n.arge@nasa.gov</Email>
+    <ORCIdentifier>0000-0001-9326-3448</ORCIdentifier>
+  </Person>
 </Spase>

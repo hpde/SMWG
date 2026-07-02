@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-    <Version>2.2.2</Version>
-    <Person>
-        <ResourceID>spase://SMWG/Person/Akira.S.Yukimatu</ResourceID>
-        <ReleaseDate>2011-02-17T00:00:00</ReleaseDate>
-        <PersonName>Akira Sessai Yukimatu</PersonName>
-        <OrganizationName>Upper Atmosphere Physics Group, National Institute of Polar Research (NIPR)</OrganizationName>
-        <Address>1-9-10, Kaga, Itabasi, Tokyo 173</Address>
-        <Email>akebono-rdm@uap.nipr.ac.jp</Email>
-    </Person>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Akira.S.Yukimatu</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2011-02-17T00:00:00Z</ReleaseDate>
+    <PersonName>Akira Sessai Yukimatu</PersonName>
+    <OrganizationName>Upper Atmosphere Physics Group, National Institute of Polar Research (NIPR)</OrganizationName>
+    <Address>1-9-10, Kaga, Itabasi, Tokyo 173</Address>
+    <Email>akebono-rdm@uap.nipr.ac.jp</Email>
+  </Person>
 </Spase>
