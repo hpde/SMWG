@@ -1,12 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
- <Version>2.4.0</Version>
- <Observatory>
-  <ResourceID>spase://SMWG/Observatory/ABOVE</ResourceID>
-  <ResourceHeader>
-   <ResourceName>GO-ABOVE the Geospace Observatory - Array for
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/ABOVE</ResourceID>
+    <ResourceHeader>
+      <ResourceName>GO-ABOVE the Geospace Observatory - Array for
    Broadband Observations of VLF/ELF Emissions</ResourceName>
-   <ReleaseDate>2021-10-18T17:06:41</ReleaseDate>
-   <Description>GO-ABOVE the Geospace Observatory - Array for
+      <ReleaseDate>2026-07-20T16:22:33Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2021-10-18T17:06:41</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:33Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>GO-ABOVE the Geospace Observatory - Array for
    Broadband Observations of VLF/ELF Emissions, is a ground‐based array of VLF radio receivers located across Canada and run as a part of the Canadian Space Agency&amp;#039;s Geospace Observatory (GO). The ABOVE instruments monitor electromagnetic waves in a
    frequency range from 100 Hz to 75 kHz, covering chorus and hiss
    emissions as well as U.S. Navy transmitters near 25 kHz. The
@@ -28,27 +39,32 @@
    +----------------------------------------+
    
 </Description>
-   <Acknowledgement>ABOVE data is openly available. We request that
+      <Acknowledgement>ABOVE data is openly available. We request that
    users, at a minimum, acknowledge our funding agencies when data is
    used in publications and/or presentations. Below is an example
    acknowledgement for consideration.
    
 “ABOVE is a joint Canada Foundation for Innovation and Canadian Space
 Agency project developed by the University of Calgary.” </Acknowledgement>
-   <Contact>
-    <PersonID>spase://SMWG/Person/C.M.Cully</PersonID>
-    <Role>PrincipalInvestigator</Role>
-   </Contact>
-   <Contact>
-    <PersonID>spase://SMWG/Person/Leonard.N.Garcia</PersonID>
-    <Role>MetadataContact</Role>
-   </Contact>
-  </ResourceHeader>
-  <Location>
-   <ObservatoryRegion>Earth</ObservatoryRegion>
-  </Location>
-  <OperatingSpan>
-   <StartDate>2014-06-25T16:49:00</StartDate>
-  </OperatingSpan>
- </Observatory>
+      <Contact>
+        <PersonID>spase://SMWG/Person/C.M.Cully</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Leonard.N.Garcia</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/ABOVE</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth</ObservatoryRegion>
+    </Location>
+    <OperatingSpan>
+      <StartDate>2014-06-25T16:49:00</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

@@ -5,11 +5,15 @@
     <ResourceID>spase://SMWG/Observatory/MICA</ResourceID>
     <ResourceHeader>
       <ResourceName>Magnetosphere-Ionosphere Coupling in the Alfvén resonator (MICA)</ResourceName>
-      <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:49Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
           <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:49Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>Funded by NASA, the Magnetosphere-Ionosphere Coupling in the Alfvén resonator (MICA) mission sent a 40-foot Terrier-Black Brant rocket arcing through an aurora 186 miles (299 kilometers) above Earth. The rocket is a stream of real-time data back before landing about 200 miles (322km) downrange shortly after the launch.
@@ -22,6 +26,11 @@ The mission involves collaborators from Cornell University in Ithaca, New York; 
       <InformationURL>
         <Name>MICA Home Page</Name>
         <URL>https://gps.ece.cornell.edu/Mica.php</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/MICA</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

@@ -1,41 +1,56 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
-   <Version>2.2.8</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/Tartu</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Tartu Geophysical Observatory</ResourceName>
-		 <AlternateName>Observatory Station Code: TAR</AlternateName>
-         <ReleaseDate>2019-02-15T12:34:56.789</ReleaseDate>
-         <Description>Tartu (TAR) Geophysical Observatory</Description>
-         <Acknowledgement>Please acknowledge: Finnish Meteorological Institute</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
-            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
-            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
-         </InformationURL>
-		 <InformationURL>
-			  <Name>International Monitor for Auroral Geomagnetic Effects Homepage</Name> 
-			  <URL>http://space.fmi.fi/image/www/index.php?page=home</URL> 
-			  <Description>About the IMAGE program.</Description> 
-		 </InformationURL>
-      </ResourceHeader>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/IMAGE</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>58.3</Latitude>
-         <Longitude>26.5</Longitude>
-         <Elevation>67.0</Elevation>
-      </Location>
-      <OperatingSpan>
-         <StartDate>2001-10-14T00:00:00.000</StartDate>
-		 <Note>Exact start time unclear.</Note>
-      </OperatingSpan>
-   </Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/Tartu</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Tartu Geophysical Observatory</ResourceName>
+      <AlternateName>Observatory Station Code: TAR</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:53Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-02-15T12:34:56.789</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:53Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>Tartu (TAR) Geophysical Observatory</Description>
+      <Acknowledgement>Please acknowledge: Finnish Meteorological Institute</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+        <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+        <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>International Monitor for Auroral Geomagnetic Effects Homepage</Name>
+        <URL>http://space.fmi.fi/image/www/index.php?page=home</URL>
+        <Description>About the IMAGE program.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_Tartu</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/IMAGE</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>58.3</Latitude>
+      <Longitude>26.5</Longitude>
+      <Elevation>67.0</Elevation>
+    </Location>
+    <OperatingSpan>
+      <StartDate>2001-10-14T00:00:00.000</StartDate>
+      <Note>Exact start time unclear.</Note>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

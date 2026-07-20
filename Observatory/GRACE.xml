@@ -5,11 +5,15 @@
     <ResourceID>spase://SMWG/Observatory/GRACE</ResourceID>
     <ResourceHeader>
       <ResourceName>Gravity Recovery and Climate Experiment (GRACE)</ResourceName>
-      <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:42Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
           <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:42Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>An award-winning mission that's changed the way we study Earth's gravitational forces and the Earth system, the Gravity Recovery and Climate Experiment, or GRACE, mission flew twin spacecraft in tandem around Earth to study key changes in the planet's waters, ice sheets and the solid Earth.</Description>
@@ -20,6 +24,11 @@
       <InformationURL>
         <Name>GRACE Home Page</Name>
         <URL>https://grace.jpl.nasa.gov/</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/GRACE</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

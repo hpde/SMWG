@@ -1,13 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Pioneer11</ResourceID>
     <ResourceHeader>
       <ResourceName>Pioneer 11</ResourceName>
       <AlternateName>1973-019A</AlternateName>
       <AlternateName>Pioneer-G</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:52Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:52Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>Pioneer 11 was the second mission to investigate Jupiter and the outer solar system and the first to explore the planet Saturn and its main rings. Pioneer 11, like Pioneer 10, used Jupiter's gravitational field to alter its trajectory radically. It passed close to Saturn and then it followed an escape trajectory from the solar system.
 
 The spacecraft was 2.9 m long and contained a 2.74-m diameter high-gain antenna of aluminum honeycomb sandwich material whose feed was topped with a medium-gain antenna. A low-gain, omnidirectional antenna was mounted below the high-gain dish. The spacecraft contained two nuclear electric-power generators, which generated 144 W at Jupiter, but decreased to 100 W at Saturn. There were three reference sensors: a star (Canopus) sensor, and two sun sensors. Attitude position could be calculated from the reference direction to the earth and the sun, with the known direction to Canopus as backup. Pioneer 11's star sensor gain and threshold settings were modified, based on experience gained from the settings used on Pioneer 10. Three pairs of rocket thrusters provided spin-axis control (maintained at 4.8 rpm) and change of the spacecraft velocity. The thrusters could be either fired steadily or pulsed, by command.
@@ -22,16 +32,21 @@ During its closest approach, December 4, 1974, Pioneer 11 passed to within 34,00
       <Contact>
         <PersonID>spase://SMWG/Person/Palmer.Dyal</PersonID>
         <Role>ProjectScientist</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1973-019A</URL>
         <Description>Information about the Pioneer 11 mission</Description>
-</InformationURL>
-</ResourceHeader>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Pioneer11</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/Pioneer</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
-</Location>
-</Observatory>
+    </Location>
+  </Observatory>
 </Spase>

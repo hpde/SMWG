@@ -1,11 +1,21 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/McMAC/Worthington</ResourceID>
     <ResourceHeader>
       <ResourceName>Mid-continent Magnetoseismic Chain (McMAC) Worthington Station</ResourceName>
-      <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:25:20Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:25:20Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>Worthington (WRTH) Magnetometer Station is located in Worthington, Minnesota, USA.  It is one of the nine magnetometers of the Mid-continent MAgnetoseismic Chain (McMAC).</Description>
       <Acknowledgement>The operation of the Worthington fluxgate magnetometer is managed by Prof. Richard Dalrymple, West Minnesota Technical College.</Acknowledgement>
       <Contact>
@@ -16,6 +26,11 @@
         <Name>McMAC Worthington Station</Name>
         <URL>https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/jgra.50274</URL>
         <Description>Information about the McMAC Worthington Ground Magnetometer Station</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/McMAC_Worthington</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
       <Association>
         <AssociationID>spase://SMWG/Observatory/Ground/McMAC</AssociationID>

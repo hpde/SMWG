@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/RHESSI</ResourceID>
     <ResourceHeader>
@@ -10,20 +10,35 @@
       <AlternateName>Small Explorer/RHESSI</AlternateName>
       <AlternateName>HESSI</AlternateName>
       <AlternateName>Reuven Ramaty High Energy Solar Spectroscopic Imager</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:54Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:54Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>RHESSI (Ramaty High Energy Solar Spectroscopic Imager) is an American (NASA) solar flare observatory that was launched at 20:58 UT on 5 February 2002 by a Pegasus XL rocket which was released from a L-1011 aircraft flying out of the Cape Canaveral AFS. The 293 kg (with fuel), 414 W, 2.2 m (height) x 1.1 m (width) satellite is equipped to image at high resolution solar flares in X-rays and gamma rays. Onboard memory is 4 Gbytes, and telemetry rate is 3.5 Mbits/s. A PDMP exists for archiving the data at the NSSDC.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.P.Lin</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2002-004A</URL>
         <Description>Information about the RHESSI mission</Description>
-</InformationURL>
-</ResourceHeader>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/RHESSI</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
-</Location>
-</Observatory>
+    </Location>
+  </Observatory>
 </Spase>

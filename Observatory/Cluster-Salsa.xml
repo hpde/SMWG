@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Cluster-Salsa</ResourceID>
     <ResourceHeader>
@@ -10,7 +10,17 @@
       <AlternateName>FM6</AlternateName>
       <AlternateName>Salsa</AlternateName>
       <AlternateName>Cluster-2</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:37Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:37Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>This Cluster II spacecraft, FM6 (Salsa), was launched together with FM7 (Samba) by a
    Soyuz-Fregat rocket from Baikonur. The four similar spacecraft of the Cluster II mission are part
    of ESA's and NASA's Solar-Terrestrial Science Program (STSP). The current Cluster II mission is a
@@ -53,45 +63,50 @@ European Space Agency, ESA SP-1159, 1993.ISBN: 92-9092-073-4.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Melvyn.L.Goldstein</PersonID>
         <Role>ProjectScientist</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2000-041B</URL>
         <Description>Information about the Cluster 2/FM6 (Salsa) mission</Description>
-</InformationURL>
-   <InformationURL>
+      </InformationURL>
+      <InformationURL>
         <Name>ESA Cluster Homepage</Name>
         <URL>http://sci.esa.int/cluster/</URL>
         <Description>Information about the Cluster 2/FM6 (Salsa) mission</Description>
-</InformationURL>
-   <InformationURL>
+      </InformationURL>
+      <InformationURL>
         <Name>Space Science Reviews Article</Name>
         <URL>https://link.springer.com/chapter/10.1007/978-94-011-5666-0_1</URL>
         <Description>Detailed Information about the Cluster mission</Description>
-</InformationURL>
-   <InformationURL>
+      </InformationURL>
+      <InformationURL>
         <Name>ESA Bulletin no. 91 (August 1997) on the Resurrection of Cluster</Name>
         <URL>http://esamultimedia.esa.int/multimedia/publications/ESA-Bulletin-091/</URL>
         <Description>Information about the Cluster mission</Description>
-</InformationURL>
-   <InformationURL>
+      </InformationURL>
+      <InformationURL>
         <Name>ESA Bulletin 84 (November 1995) An overview of the original mission of Cluster</Name>
         <URL>http://esamultimedia.esa.int/multimedia/publications/ESA-Bulletin-091/</URL>
         <Description>Information about the Cluster mission</Description>
-</InformationURL>
-   <InformationURL>
+      </InformationURL>
+      <InformationURL>
         <Name>Access to CDAWeb Cluster Data Archive</Name>
         <URL>https://cdaweb.gsfc.nasa.gov/cdaweb/istp_public/</URL>
         <Description>Cluster 2/FM6 (Salsa) data access.</Description>
-</InformationURL>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Cluster-Salsa</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
       <PriorID>spase://SMWG/Observatory/Cluster2-Salsa</PriorID>
-</ResourceHeader>
+    </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/Cluster</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
       <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
       <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
       <ObservatoryRegion>Earth.Magnetosphere.Polar</ObservatoryRegion>
-</Location>
-</Observatory>
+    </Location>
+  </Observatory>
 </Spase>

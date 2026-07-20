@@ -1,50 +1,65 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
-   <Version>2.2.8</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/Nuuk</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Nuuk Geophysical Observatory</ResourceName>
-         <AlternateName>Godthap Vector Magnetic Field 1.0 min Data Geophysical Observatory</AlternateName>
-         <AlternateName>Observatory Station Code: GHB</AlternateName>
-		 <ReleaseDate>2018-08-21T12:34:56.789</ReleaseDate>
-         <Description>Nuuk (GHB) Geophysical Observatory</Description>
-         <Acknowledgement>Please acknowledge: DTU Space, Denmark</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Claudia.Stolle</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Juergen.Matzka</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
-            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
-            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
-         </InformationURL>
-		 <InformationURL>
-			  <Name>Tromsø Geophysical Observatory</Name> 
-			  <URL>http://flux.phys.uit.no/geomag.html</URL> 
-			  <Description>Requestion form for magnetometer data, plots, indices, maps, etc.</Description> 
-		 </InformationURL>
-      </ResourceHeader>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/TGO</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/DTU</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>64.2</Latitude>
-         <Longitude>308.3</Longitude>
-         <Elevation>1.0</Elevation>
-      </Location>
-      <OperatingSpan>
-         <StartDate>1981-11-01T00:00:00.000</StartDate>
-		 <Note>Exact start date is unclear.</Note>
-      </OperatingSpan>
-   </Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/Nuuk</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Nuuk Geophysical Observatory</ResourceName>
+      <AlternateName>Godthap Vector Magnetic Field 1.0 min Data Geophysical Observatory</AlternateName>
+      <AlternateName>Observatory Station Code: GHB</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:41Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2018-08-21T12:34:56.789</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:41Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>Nuuk (GHB) Geophysical Observatory</Description>
+      <Acknowledgement>Please acknowledge: DTU Space, Denmark</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Claudia.Stolle</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Juergen.Matzka</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+        <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+        <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Tromsø Geophysical Observatory</Name>
+        <URL>http://flux.phys.uit.no/geomag.html</URL>
+        <Description>Requestion form for magnetometer data, plots, indices, maps, etc.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_Nuuk</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/TGO</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/DTU</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>64.2</Latitude>
+      <Longitude>308.3</Longitude>
+      <Elevation>1.0</Elevation>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1981-11-01T00:00:00.000</StartDate>
+      <Note>Exact start date is unclear.</Note>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

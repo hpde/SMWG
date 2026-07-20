@@ -1,12 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
-  <Version>2.2.6</Version>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_6.xsd">
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/ObsParis</ResourceID>
     <ResourceHeader>
       <ResourceName>ObsParis</ResourceName>
-      <ReleaseDate>2015-10-15T13:59:17Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:50Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2015-10-15T13:59:17Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:50Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>Founded in 1667, the Observatoire de Paris is the largest national research center for astronomy. 
         30 % of all French astronomers are working in it five laboratories and its institute. Situated on the Paris, 
         Meudon and Nançay campuses, they are all "Unités Mixtes de Recherche (UMR)" associated with the CNRS and, 
@@ -23,6 +32,11 @@
       </Contact>
       <InformationURL>
         <URL>https://www.obspm.fr/?lang=en</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/ObsParis</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

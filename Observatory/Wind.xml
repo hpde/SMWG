@@ -11,7 +11,7 @@
       <AlternateName>GGS/Wind</AlternateName>
       <AlternateName>Wind/ISTP</AlternateName>
       <AlternateName>Wind/GGS</AlternateName>
-      <ReleaseDate>2026-05-22T16:41:03Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:23:00Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
@@ -20,6 +20,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-05-22T16:41:03Z</ReleaseDate>
           <Note>Added new Contact(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:00Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>The Wind spacecraft was launched on November 1, 1994 and is the first of two NASA spacecraft in the Global Geospace Science initiative and part of the ISTP Project. The science objectives of the Wind mission are: (1) Provide complete plasma, energetic particle, and magnetic field input for magnetospheric and ionospheric studies; (2) Determine the magnetospheric output to interplanetary space in the up-stream region; (3) Investigate basic plasma processes occurring in the near-Earth solar wind; and (4) Provide baseline ecliptic plane observations to be used in heliospheric latitudes from ULYSSES.
@@ -43,6 +47,11 @@
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1994-071A</URL>
         <Description>Information about the Wind mission</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Wind</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
       <PriorID>spase://vspo/observatory/84</PriorID>
     </ResourceHeader>

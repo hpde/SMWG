@@ -1,47 +1,62 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/Phuthuy</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Phuthuy</ResourceName>
-         <AlternateName>Observatory Station Code: PHU</AlternateName>
-         <ReleaseDate>2018-09-06T12:34:56.789</ReleaseDate>
-         <Description>The Phuthuy geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge:  Vietnam National Centre for Science and Technology (V.N.C.S.T. Institute of Geophysics)</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Ha.Duyen.Chau</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Benoit.Heumez</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-		 <InformationURL>
-			<Name>Bureau Central De Magnetisme Terrestre France Homepage</Name>
-			<URL>http://www.bcmt.fr/index.html</URL>
-			<Description>Information about the BCMT.</Description>
-		 </InformationURL>
-         <PriorID>spase://SMWG/Observatory/WDC/Phuthuy</PriorID>
-      </ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/BCMT</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>21.033</Latitude>
-         <Longitude>105.967</Longitude>
-		 <Elevation>5.0</Elevation>
-      </Location>
-      <OperatingSpan>
-         <StartDate>1996-01-01T00:00:00.000</StartDate>
-      </OperatingSpan>
-   </Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/Phuthuy</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Phuthuy</ResourceName>
+      <AlternateName>Observatory Station Code: PHU</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:44Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2018-09-06T12:34:56.789</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:44Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Phuthuy geophysical observatory.</Description>
+      <Acknowledgement>Please acknowledge:  Vietnam National Centre for Science and Technology (V.N.C.S.T. Institute of Geophysics)</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Ha.Duyen.Chau</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Benoit.Heumez</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Bureau Central De Magnetisme Terrestre France Homepage</Name>
+        <URL>http://www.bcmt.fr/index.html</URL>
+        <Description>Information about the BCMT.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_Phuthuy</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Observatory/WDC/Phuthuy</PriorID>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/BCMT</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>21.033</Latitude>
+      <Longitude>105.967</Longitude>
+      <Elevation>5.0</Elevation>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1996-01-01T00:00:00.000</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

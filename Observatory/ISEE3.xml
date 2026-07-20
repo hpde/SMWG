@@ -13,7 +13,7 @@
       <AlternateName>International Cometary Explorer</AlternateName>
       <AlternateName>ICE</AlternateName>
       <AlternateName>Explorer 59</AlternateName>
-      <ReleaseDate>2026-05-22T16:41:01Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:47Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
@@ -22,6 +22,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-05-22T16:41:01Z</ReleaseDate>
           <Note>Added new Contact:Role(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:47Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>The Explorer-class heliocentric spacecraft, International Sun-Earth Explorer 3, was part of the mother/daughter/heliocentric mission (ISEE 1, 2, and 3). The purposes of the mission were: (1) to investigate solar-terrestrial relationships at the outermost boundaries of the Earth's magnetosphere; (2) to examine in detail the structure of the solar wind near the Earth and the shock wave that forms the interface between the solar wind and Earth's magnetosphere; (3) to investigate motions of and mechanisms operating in the plasma sheets; and, (4) to continue the investigation of cosmic rays and solar flare emissions in the interplanetary region near 1 AU.
@@ -41,6 +45,11 @@
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1978-079A</URL>
         <Description>Information about the ISEE 3 mission</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/ISEE3</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/ISEE</ObservatoryGroupID>

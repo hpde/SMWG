@@ -1,11 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Helios</ResourceID>
     <ResourceHeader>
       <ResourceName>Helios Mission</ResourceName>
-      <ReleaseDate>2010-10-01T20:44:34Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:43Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2010-10-01T20:44:34Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:43Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>A pair of deep space probes developed by the Federal Republic of Germany (FRG) in a cooperative program with NASA. Experiments were provided by scientists from both FRG and the U.S. NASA supplied the Titan/Centaur launch vehicle.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/James.H.Trainor</PersonID>
@@ -15,6 +25,11 @@
         <PersonID>spase://SMWG/Person/Herbert.Porsche</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Helios</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
     </ResourceHeader>
     <Location>
       <ObservatoryRegion>Heliosphere.Inner</ObservatoryRegion>

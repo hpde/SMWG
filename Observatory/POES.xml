@@ -5,11 +5,15 @@
     <ResourceID>spase://SMWG/Observatory/POES</ResourceID>
     <ResourceHeader>
       <ResourceName>Polar-orbiting Operational Environmental Satellite (POES)</ResourceName>
-      <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:52Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
           <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:52Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>The Polar Operational Environmental Satellites (POES) satellite system makes 14 nearly polar orbits per day approximately 520 miles above Earth. The Earth's rotation allows the satellite to see a different view with each orbit, and each satellite provides two complete views of weather around the world each day. NOAA partners with the European Organisation for the Exploitation of Meteorological Satellites (EUMETSAT) to operate two polar-orbiting satellites – one POES and one European polar-orbiting satellite called MetOp.
@@ -22,6 +26,11 @@ Data from the POES supports a broad range of environmental monitoring applicatio
       <InformationURL>
         <Name>POES Home Page</Name>
         <URL>https://www.nesdis.noaa.gov/our-satellites/currently-flying/polar-operational-environmental-satellites-poes</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/POES</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

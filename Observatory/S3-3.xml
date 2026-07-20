@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_9.xsd">
-  <Version>2.2.9</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/S3-3</ResourceID>
     <ResourceHeader>
@@ -9,13 +9,28 @@
       <AlternateName>SS74-2A</AlternateName>
       <AlternateName>S74-2</AlternateName>
       <AlternateName>09007</AlternateName>
-      <ReleaseDate>2018-03-30T14:12:05Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:54Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2018-03-30T14:12:05Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:54Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>This spacecraft was a small observatory in a near-polar orbit with eight different sensors on board. It was designed to observe various magnetospheric parameters and their interrelationships. Sensors, which observed energetic protons and Alpha particles, also provided real-time observations for use by the U.S. Air Force Air Weather Service.
             </Description>
       <Contact>
         <PersonID>spase://SMWG/Person/T.Paul.OBrien</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/S3-3</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
     </ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.Magnetosphere.Polar</ObservatoryRegion>

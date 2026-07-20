@@ -1,13 +1,23 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/GOES/4</ResourceID>
     <ResourceHeader>
       <ResourceName>Geostationary Operational Environmental Satellites 4</ResourceName>
       <AlternateName>GOES 4</AlternateName>
       <AlternateName>1980-074A</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:23:10Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:10Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>GOES 4 was the sixth in a series of NASA-developed, NOAA-operated, geosynchronous and
    operational spacecraft. The spin-stabilized spacecraft carried (1) a VISSR (visible infrared spin
    scan radiometer) atmospheric sounder (VAS) to provide high-quality day/night cloudcover data, to
@@ -35,34 +45,39 @@
       <Contact>
         <PersonID>spase://SMWG/Person/William.E.Shenk</PersonID>
         <Role>ProjectScientist</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
         <Role>MetadataContact</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog on GOES 4</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1980-074A</URL>
         <Description>Information about the GOES 4 mission</Description>
-</InformationURL>
-   <InformationURL>
+      </InformationURL>
+      <InformationURL>
         <Name>Earth Observation Resources Webpage on GOES</Name>
         <URL>https://earth.esa.int/web/eoportal/satellite-missions/g/goes-2nd-generation</URL>
         <Description>Detailed information about GOES Series.</Description>
-</InformationURL>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/GOES_4</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
       <PriorID>spase://SMWG/Observatory/GOES4</PriorID>
-</ResourceHeader>
+    </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/GOES</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Magnetosphere.RadiationBelt</ObservatoryRegion>
       <ObservatoryRegion>Earth.NearSurface.Plasmasphere</ObservatoryRegion>
       <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
       <CoordinateSystemName>GSM</CoordinateSystemName>
-</Location>
- <OperatingSpan>
-   <StartDate>1980-09-09T00:00:00Z</StartDate>
-   <StopDate>1982-11-26T23:59:59</StopDate>
-   <Note>Useful operating span.</Note>
-</OperatingSpan>
-</Observatory>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1980-09-09T00:00:00Z</StartDate>
+      <StopDate>1982-11-26T23:59:59</StopDate>
+      <Note>Useful operating span.</Note>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

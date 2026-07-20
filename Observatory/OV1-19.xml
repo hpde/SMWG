@@ -1,15 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-    <Version>2.2.2</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/OV1-19</ResourceID>
-        <ResourceHeader>
-            <ResourceName>OV1-19</ResourceName>
-            <AlternateName>LANL97A</AlternateName>
-            <AlternateName>1969-025C</AlternateName>
-            <AlternateName>03825</AlternateName>
-            <ReleaseDate>2018-04-02T00:00:00.000Z</ReleaseDate>
-            <Description>OV1-19 was one of four research satellites injected into orbit simultaneously from a single launch vehicle. 
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/OV1-19</ResourceID>
+    <ResourceHeader>
+      <ResourceName>OV1-19</ResourceName>
+      <AlternateName>LANL97A</AlternateName>
+      <AlternateName>1969-025C</AlternateName>
+      <AlternateName>03825</AlternateName>
+      <ReleaseDate>2026-07-20T16:22:51Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2018-04-02T00:00:00.000Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:51Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>OV1-19 was one of four research satellites injected into orbit simultaneously from a single launch vehicle. 
                 The spacecraft was an 81-cm-long cylinder measuring 69 cm in diameter, and was fitted with hemispheric multifaced 
                 solar panel domes on either end. The spin-stabilized spacecraft had two major objectives: (1) to make a detailed 
                 study of events causing and sustaining trapped radiation in the Van Allen belts, and (2) to study the hazards to 
@@ -17,19 +27,24 @@
                 problems developed in its telemetry system. The amount of useful data continually declined during this period, and 
                 the spacecraft was deactivated in March 1970.
             </Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-        </ResourceHeader>
-        <Location>
-            <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
-            <ObservatoryRegion>Earth.Magnetosphere.RadiationBelt</ObservatoryRegion>
-        </Location>
-        <OperatingSpan>
-            <StartDate>1969-03-18T00:00:00Z</StartDate>
-            <StopDate>1970-03-31T00:00:00Z</StopDate>
-            <Note>Exact Stop Date could not be determined.</Note>
-        </OperatingSpan>
-    </Observatory>
+      <Contact>
+        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/OV1-19</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere.RadiationBelt</ObservatoryRegion>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1969-03-18T00:00:00Z</StartDate>
+      <StopDate>1970-03-31T00:00:00Z</StopDate>
+      <Note>Exact Stop Date could not be determined.</Note>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

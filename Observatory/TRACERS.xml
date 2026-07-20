@@ -8,7 +8,7 @@
     <ResourceHeader>
       <ResourceName>Tandem Reconnection and Cusp Electrodynamics Reconnaissance Satellites</ResourceName>
       <AlternateName>Tandem Reconnection and Cusp Electrodynamics Reconnaissance Satellites</AlternateName>
-      <ReleaseDate>2026-05-28T10:20:21Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:58Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2026-04-03T00:00:00Z</ReleaseDate>
@@ -17,6 +17,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-05-28T10:20:21Z</ReleaseDate>
           <Note>Added new Contact(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:58Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>TRACERS is a NASA mission led by the University of Iowa to answer long-standing questions key to understanding space weather, particularly how the Sun transfers energy, mass, and momentum to near-Earth space. TRACERS consists of two identical satellites that orbit Earth in tandem (one following the other). TRACERS &amp; were launched on 2025 July 23, and are now in a ~590 km, Sun synchronous low Earth orbit. Each orbit takes about 90 minutes. Their separation in time along the orbit varies from 10 to 120s (75 to 900 km along track).
@@ -66,6 +70,11 @@
         <Name>SPDF readme file on TRACERS</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/tracers/00readme.html</URL>
         <Description>Rehashes above, include links to data and acronym lists.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/TRACERS</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

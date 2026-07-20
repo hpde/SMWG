@@ -1,42 +1,57 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/Novolazarevskaya</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Novolazarevskaya</ResourceName>
-         <AlternateName>Observatory Station Code: NVL</AlternateName>
-         <ReleaseDate>2018-08-21T12:34:56.789</ReleaseDate>
-         <Description>The Novolazarevskaya geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge:  Arctic and Antarctic Research Institute</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Galina.Semenova</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-		 <InformationURL>
-			  <Name>Russian Arctic and Antarctic Magnetometer (RAM) network </Name> 
-			  <URL>http://www.geophys.aari.ru/</URL> 
-			  <Description>Request form for magnetometer data. 
-			  Links to additional information also available.</Description> 
-		 </InformationURL>
-         <PriorID>spase://SMWG/Observatory/WDC/Novolazarevskaya</PriorID>
-      </ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/RAM</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>-70.767</Latitude>
-         <Longitude>11.817</Longitude>
-		 <Elevation>460</Elevation>
-      </Location>
-      <OperatingSpan>
-         <StartDate>1961-02-01T00:00:00.000</StartDate>
-      </OperatingSpan>
-   </Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/Novolazarevskaya</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Novolazarevskaya</ResourceName>
+      <AlternateName>Observatory Station Code: NVL</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:41Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2018-08-21T12:34:56.789</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:41Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Novolazarevskaya geophysical observatory.</Description>
+      <Acknowledgement>Please acknowledge:  Arctic and Antarctic Research Institute</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Galina.Semenova</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Russian Arctic and Antarctic Magnetometer (RAM) network </Name>
+        <URL>http://www.geophys.aari.ru/</URL>
+        <Description>Request form for magnetometer data. 
+			  Links to additional information also available.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_Novolazarevskaya</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Observatory/WDC/Novolazarevskaya</PriorID>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/RAM</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>-70.767</Latitude>
+      <Longitude>11.817</Longitude>
+      <Elevation>460</Elevation>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1961-02-01T00:00:00.000</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

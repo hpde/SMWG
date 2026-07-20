@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
-  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_4.xsd">
-  <Version>2.2.4</Version>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_4.xsd">
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Apollo14-LM</ResourceID>
     <ResourceHeader>
@@ -11,7 +10,17 @@
       <AlternateName>Apollo 14C</AlternateName>
       <AlternateName>LEM 14</AlternateName>
       <AlternateName>LM-8</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:35Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:35Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>The Apollo 14 Lunar Module (LM) "Antares" was the third crewed vehicle to land on the Moon. It carried two astronauts, Commander Alan B. Shepard Jr. and LM pilot Edgar D. Mitchell, the fifth and sixth men to walk on the Moon. Also included on the LM was the Apollo Lunar Surface Experiments Package (ALSEP) containing scientific experiments to be deployed and left on the lunar surface and other scientific and sample collection apparatus.
 
 Mission Profile
@@ -40,16 +49,21 @@ All ALSEP instruments were deployed on the surface by the astronauts and attache
       <Contact>
         <PersonID>spase://SMWG/Person/David.R.Williams</PersonID>
         <Role>TechnicalContact</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-008C</URL>
         <Description>Information about the Apollo 14 Lunar Module / ALSEP mission</Description>
-</InformationURL>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Apollo14-LM</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
       <PriorID>spase://nssdc/observatory/1971-008C</PriorID>
-</ResourceHeader>
+    </ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.Moon</ObservatoryRegion>
-</Location>
-</Observatory>
+    </Location>
+  </Observatory>
 </Spase>

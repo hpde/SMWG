@@ -9,7 +9,7 @@
       <ResourceName>SORCE</ResourceName>
       <AlternateName>2003-004A</AlternateName>
       <AlternateName>SOlar Radiation and Climate Experiment</AlternateName>
-      <ReleaseDate>2026-05-22T16:41:02Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:56Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
@@ -18,6 +18,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-05-22T16:41:02Z</ReleaseDate>
           <Note>Added new Contact(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:56Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>SORCE (SOlar Radiation and Climate Experiment) is an American (NASA) Sun-Earth Connection satellite that was launched at 20:13 UT by a Pegasus XL rocket released from a L-1011 cargo aircraft flying out of Cape Canaveral. It is to measure solar irradiance in a number of wavelength-bands through three spectrometers and a photometer.
@@ -39,6 +43,11 @@ provides much detailed descriptions of the experiments and data availability. Th
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-004A</URL>
         <Description>Information about the SORCE mission</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/SORCE</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

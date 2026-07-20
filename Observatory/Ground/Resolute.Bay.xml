@@ -1,48 +1,63 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/Resolute.Bay</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Resolute Bay</ResourceName>
-         <AlternateName>Observatory Station Code: RES</AlternateName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
-         <Description>The Resolute Bay geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge:  Geological Survey of Canada</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lorne.McKee</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-</Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-</Contact>
-   <InformationURL>
-            <Name>Overview of the CANadian Magnetic Observatory System</Name>
-            <URL>https://geomag.nrcan.gc.ca/obs/canmos-en.php</URL>
-            <Description>Description of nearly all aspects of the magnetometer array.</Description>
-</InformationURL>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/Resolute.Bay</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Resolute Bay</ResourceName>
+      <AlternateName>Observatory Station Code: RES</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:47Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:47Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Resolute Bay geophysical observatory.</Description>
+      <Acknowledgement>Please acknowledge:  Geological Survey of Canada</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lorne.McKee</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
       <InformationURL>
-            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
-            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
-            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
-</InformationURL>
-         <PriorID>spase://SMWG/Observatory/WDC/Resolute</PriorID>
-</ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
-   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
-   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/CANMOS</ObservatoryGroupID>
-   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>74.69</Latitude>
-         <Longitude>265.105</Longitude>
-   <Elevation>30.0</Elevation>
-</Location>
-      <OperatingSpan>
-         <StartDate>1957-07-01T00:00:00.000</StartDate>
-</OperatingSpan>
-</Observatory>
+        <Name>Overview of the CANadian Magnetic Observatory System</Name>
+        <URL>https://geomag.nrcan.gc.ca/obs/canmos-en.php</URL>
+        <Description>Description of nearly all aspects of the magnetometer array.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+        <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+        <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_Resolute.Bay</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Observatory/WDC/Resolute</PriorID>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/CANMOS</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>74.69</Latitude>
+      <Longitude>265.105</Longitude>
+      <Elevation>30.0</Elevation>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1957-07-01T00:00:00.000</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

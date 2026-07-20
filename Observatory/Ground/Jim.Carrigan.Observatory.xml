@@ -1,39 +1,54 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/Jim.Carrigan.Observatory</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Jim Carrigan Observatory</ResourceName>
-         <AlternateName>Observatory Station Code: JCO</AlternateName>
-         <ReleaseDate>2018-07-09T12:34:56.789</ReleaseDate>
-         <Description>The Jim Carrigan Observatory geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge:  The results presented in this paper rely on the data 
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/Jim.Carrigan.Observatory</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Jim Carrigan Observatory</ResourceName>
+      <AlternateName>Observatory Station Code: JCO</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:31Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2018-07-09T12:34:56.789</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:31Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Jim Carrigan Observatory geophysical observatory.</Description>
+      <Acknowledgement>Please acknowledge:  The results presented in this paper rely on the data 
 		 collected at Jim Carrigan magnetic observatory, operated by Sperry Drilling Services, 
 		 Halliburton and the British Geological Survey with support from BP. These data may not be 
 		 used for commercial purposes without the express permission of Sperry Drilling Services, Halliburton.</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Sarah.Reay</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-      </ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/BGS</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>70.356</Latitude>
-         <Longitude>211.201</Longitude>
-		 <Elevation>20.0</Elevation>
-      </Location>
-      <OperatingSpan>
-         <StartDate>2005-01-01T00:00:00.000</StartDate>
-      </OperatingSpan>
-   </Observatory>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Sarah.Reay</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_Jim.Carrigan.Observatory</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/BGS</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>70.356</Latitude>
+      <Longitude>211.201</Longitude>
+      <Elevation>20.0</Elevation>
+    </Location>
+    <OperatingSpan>
+      <StartDate>2005-01-01T00:00:00.000</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

@@ -1,13 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
-    <Version>2.3.1</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/SRN/NRH</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Nancay Radioheliograph</ResourceName>
-            <ReleaseDate>2020-07-01T13:33:00Z</ReleaseDate>
-            <Description>The Nancay Radioheliograph (NRH; located at 47 N 02 E) 
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/SRN/NRH</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Nancay Radioheliograph</ResourceName>
+      <ReleaseDate>2026-07-20T16:25:25Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2020-07-01T13:33:00Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:25:25Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Nancay Radioheliograph (NRH; located at 47 N 02 E) 
                 provides since the end of 1996 two dimensional images of the radio 
                 brightness of the Sun with second time resolution. It consists of 
                 two linear antenna arrays, on terrestrial east-west and north-south 
@@ -20,25 +29,30 @@
                 the restrictions imposed by terrestrial interference.  Since the end 
                 of 1996, N/S and E/W arrays can be correlated in the multifrequency 
                 mode from 150 to 450 MHz in order to produce 2D radiograms.</Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Sophie.Masson</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <InformationURL>
-                <URL>https://www.obs-nancay.fr/radioheliographe/</URL>
-                <Language>en</Language>
-            </InformationURL>
-        </ResourceHeader>
-        <ObservatoryGroupID>spase://SMWG/Observatory/SRN</ObservatoryGroupID>
-        <Location>
-            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-            <CoordinateSystemName>GEO</CoordinateSystemName>
-            <Latitude>47.381494</Latitude>
-            <Longitude>2.195179</Longitude>
-            <Elevation>139</Elevation>
-        </Location>
-        <OperatingSpan>
-            <StartDate>1956-01-01T00:00:00.000Z</StartDate>
-        </OperatingSpan>
-    </Observatory>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Sophie.Masson</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <URL>https://www.obs-nancay.fr/radioheliographe/</URL>
+        <Language>en</Language>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/SRN_NRH</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/SRN</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>47.381494</Latitude>
+      <Longitude>2.195179</Longitude>
+      <Elevation>139</Elevation>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1956-01-01T00:00:00.000Z</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

@@ -1,41 +1,50 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_6_0.xsd">
-   <Version>2.6.0</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/WDC/Heiss.Island</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Heiss Island Ground Observatory</ResourceName>
-         <ReleaseDate>2024-05-03T12:34:56.789</ReleaseDate>
-         <RevisionHistory>
-            <RevisionEvent>
-               <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
-               <Note>Only known prior ReleaseDate</Note>
-            </RevisionEvent>
-            <RevisionEvent>
-               <ReleaseDate>2024-05-03T12:34:56.789</ReleaseDate>
-               <Note>Update the Person Resource ID for Oleg A. Troshechev to include middle initial, add Observatory OperatingSpan StartDate, version up to SPASE 2.6.0, LEB 20240502</Note>
-            </RevisionEvent>
-         </RevisionHistory>
-         <Description>The Heiss Island Observatory</Description>
-         <Acknowledgement>Arctic and Antarctic Research Institute, St. Petersburg</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Oleg.A.Troshichev</PersonID>
-            <Role>GeneralContact</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-      </ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>80.617</Latitude>
-         <Longitude>58.05</Longitude>
-      </Location>
-      <OperatingSpan>
-         <StartDate>1957-01-01T00:00:00.000</StartDate>
-      </OperatingSpan>
-   </Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/WDC/Heiss.Island</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Heiss Island Ground Observatory</ResourceName>
+      <ReleaseDate>2026-07-20T16:25:41Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2009-06-15T12:34:56.789</ReleaseDate>
+          <Note>Only known prior ReleaseDate</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2024-05-03T12:34:56.789</ReleaseDate>
+          <Note>Update the Person Resource ID for Oleg A. Troshechev to include middle initial, add Observatory OperatingSpan StartDate, version up to SPASE 2.6.0, LEB 20240502</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:25:41Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Heiss Island Observatory</Description>
+      <Acknowledgement>Arctic and Antarctic Research Institute, St. Petersburg</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Oleg.A.Troshichev</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/WDC_Heiss.Island</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>80.617</Latitude>
+      <Longitude>58.05</Longitude>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1957-01-01T00:00:00.000</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

@@ -1,46 +1,61 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/MBour</ResourceID>
-      <ResourceHeader>
-         <ResourceName>MBour</ResourceName>
-         <AlternateName>Observatory Station Code: MBO</AlternateName>
-         <ReleaseDate>2018-08-20T12:34:56.789</ReleaseDate>
-         <Description>The MBour geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge:  Office pour la Recherche et de le Deloppement en Cooperation (O.R.S.T.O.M.)</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Gilbert.Juste</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Benoit.Heumez</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-		 <InformationURL>
-			<Name>Bureau Central De Magnetisme Terrestre France Homepage</Name>
-			<URL>http://www.bcmt.fr/index.html</URL>
-			<Description>Information about the BCMT.</Description>
-		  </InformationURL>
-         <PriorID>spase://SMWG/Observatory/WDC/MBour</PriorID>
-      </ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/BCMT</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>14.384</Latitude>
-         <Longitude>343.033</Longitude>
-		 <Elevation>7.0</Elevation>
-      </Location>
-      <OperatingSpan>
-         <StartDate>1952-03-01T00:00:00.000</StartDate>
-      </OperatingSpan>
-   </Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/MBour</ResourceID>
+    <ResourceHeader>
+      <ResourceName>MBour</ResourceName>
+      <AlternateName>Observatory Station Code: MBO</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:37Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2018-08-20T12:34:56.789</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:37Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The MBour geophysical observatory.</Description>
+      <Acknowledgement>Please acknowledge:  Office pour la Recherche et de le Deloppement en Cooperation (O.R.S.T.O.M.)</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Gilbert.Juste</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Benoit.Heumez</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Bureau Central De Magnetisme Terrestre France Homepage</Name>
+        <URL>http://www.bcmt.fr/index.html</URL>
+        <Description>Information about the BCMT.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_MBour</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Observatory/WDC/MBour</PriorID>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/BCMT</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>14.384</Latitude>
+      <Longitude>343.033</Longitude>
+      <Elevation>7.0</Elevation>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1952-03-01T00:00:00.000</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

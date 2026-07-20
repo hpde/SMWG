@@ -1,17 +1,32 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/IGPPLANL/Boulder</ResourceID>
     <ResourceHeader>
       <ResourceName>IGPP-LANL Boulder Magnetometer</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:25:17Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:25:17Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>Boulder (BLD) Magnetometer Station is located in Boulder, Colorado, USA.</Description>
       <Acknowledgement>The BLD magnetometer is operated by NOAA Space Environment Center.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Peter.J.Chi</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/IGPPLANL_Boulder</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
     </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/IGPPLANL</ObservatoryGroupID>
     <Location>
@@ -19,6 +34,6 @@
       <CoordinateSystemName>WGS84</CoordinateSystemName>
       <Latitude>40.13</Latitude>
       <Longitude>-106.76</Longitude>
-</Location>
-</Observatory>
+    </Location>
+  </Observatory>
 </Spase>

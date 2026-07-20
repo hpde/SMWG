@@ -5,11 +5,15 @@
     <ResourceID>spase://SMWG/Observatory/AEOLUS</ResourceID>
     <ResourceHeader>
       <ResourceName>Aeolus</ResourceName>
-      <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:33Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
           <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:33Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>ESA's Earth Explorer, Aeolus, was launched into space on 22 August 2018 and was retired on 30 April 2023. Surpassing scientific expectations and exceeding its planned life in orbit, the mission has been hailed as one of ESA’s most successful.
@@ -27,6 +31,11 @@ The provision of global wind profiles has also benefited climate research. Clima
       <InformationURL>
         <Name>Aeolus Home Page</Name>
         <URL>https://earth.esa.int/eogateway/missions/aeolus</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/AEOLUS</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

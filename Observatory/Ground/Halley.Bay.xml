@@ -1,39 +1,54 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/Halley.Bay</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Halley Bay</ResourceName>
-         <AlternateName>Observatory Station Code: HBA</AlternateName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
-         <Description>The Halley Bay geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge:  Halley Bay Observatory Director</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Jane.Francis</PersonID>
-            <Role>TeamLeader</Role>
-</Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-</Contact>
-   <InformationURL>
-     <Name>British Antarctic Survey Data Portal</Name>
-     <URL>http://www.bas.ac.uk/about/about-bas/</URL>
-     <Description>About the British Antarctic Survey Program.</Description>
-</InformationURL>
-         <PriorID>spase://SMWG/Observatory/WDC/Halley.Bay</PriorID>
-</ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
-   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/BAS</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>-75.517</Latitude>
-         <Longitude>333.397</Longitude>
-</Location>
-      <OperatingSpan>
-         <StartDate>1957-05-01T00:00:00.000</StartDate>
-</OperatingSpan>
-</Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/Halley.Bay</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Halley Bay</ResourceName>
+      <AlternateName>Observatory Station Code: HBA</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:27Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:27Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Halley Bay geophysical observatory.</Description>
+      <Acknowledgement>Please acknowledge:  Halley Bay Observatory Director</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jane.Francis</PersonID>
+        <Role>TeamLeader</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>British Antarctic Survey Data Portal</Name>
+        <URL>http://www.bas.ac.uk/about/about-bas/</URL>
+        <Description>About the British Antarctic Survey Program.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_Halley.Bay</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Observatory/WDC/Halley.Bay</PriorID>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/BAS</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>-75.517</Latitude>
+      <Longitude>333.397</Longitude>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1957-05-01T00:00:00.000</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

@@ -1,14 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-    <Version>2.2.2</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/IGS</ResourceID>
-        <ResourceHeader>
-            <ResourceName>International GNSS Service (IGS)</ResourceName>
-     <AlternateName>International GPS Service</AlternateName>
-            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
-            <Description>The IGS global system of satellite tracking stations, Data Centers, and Analysis
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/IGS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>International GNSS Service (IGS)</ResourceName>
+      <AlternateName>International GPS Service</AlternateName>
+      <ReleaseDate>2026-07-20T16:22:45Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:45Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The IGS global system of satellite tracking stations, Data Centers, and Analysis
 Centers puts high-quality GPS data and data products on line in near real time
 to meet the objectives of a wide range of scientific and engineering
 applications and studies.  The IGS collects, archives, and distributes GPS
@@ -52,20 +61,23 @@ following products:
   * Zenith tropospheric path delay estimates
   * Global ionospheric maps
 </Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
-                <Role>GeneralContact</Role>
-</Contact>
-            <InformationURL>
-                <Name>The International GNSS Service</Name>
-                <URL>http://www.igs.org/</URL>
-                <Description>Information about IGS</Description>
-</InformationURL>
-</ResourceHeader>
-        <Location>
-            <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
-</Location>
-</Observatory>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The International GNSS Service</Name>
+        <URL>http://www.igs.org/</URL>
+        <Description>Information about IGS</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/IGS</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
+    </Location>
+  </Observatory>
 </Spase>
-
-

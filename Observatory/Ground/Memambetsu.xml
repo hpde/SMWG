@@ -1,46 +1,61 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/Memambetsu</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Memambetsu</ResourceName>
-         <AlternateName>Observatory Station Code: MMB</AlternateName>
-         <ReleaseDate>2018-08-20T12:34:56.789</ReleaseDate>
-         <Description>The Memambetsu geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge:  Kakioka Magnetic Observatory, Japan</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Takeshi.Toya</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Chosaka</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-		 <InformationURL>
-            <Name>Kakioka Magnetic Observatory Web Site</Name>
-            <URL>http://www.kakioka-jma.go.jp/en/</URL>
-            <Description>Information about the Kakioka Magnetic Observatory.</Description>
-	     </InformationURL>
-         <PriorID>spase://SMWG/Observatory/WDC/Memambetsu</PriorID>
-      </ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>43.91</Latitude>
-         <Longitude>144.189</Longitude>
-		 <Elevation>42.0</Elevation>
-      </Location>
-      <OperatingSpan>
-         <StartDate>1957-07-01T00:00:00.000</StartDate>
-      </OperatingSpan>
-   </Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/Memambetsu</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Memambetsu</ResourceName>
+      <AlternateName>Observatory Station Code: MMB</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:38Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2018-08-20T12:34:56.789</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:38Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Memambetsu geophysical observatory.</Description>
+      <Acknowledgement>Please acknowledge:  Kakioka Magnetic Observatory, Japan</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Takeshi.Toya</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Chosaka</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Kakioka Magnetic Observatory Web Site</Name>
+        <URL>http://www.kakioka-jma.go.jp/en/</URL>
+        <Description>Information about the Kakioka Magnetic Observatory.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_Memambetsu</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Observatory/WDC/Memambetsu</PriorID>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>43.91</Latitude>
+      <Longitude>144.189</Longitude>
+      <Elevation>42.0</Elevation>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1957-07-01T00:00:00.000</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

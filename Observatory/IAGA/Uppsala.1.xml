@@ -1,27 +1,42 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-  <Version>2.2.1</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/IAGA/Uppsala.1</ResourceID>
     <ResourceHeader>
       <ResourceName>Uppsala.1</ResourceName>
       <AlternateName>Uppsala.1</AlternateName>
       <AlternateName>IAGA:UPP</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:25:10Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:25:10Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>Uppsala.1</Description>
       <Acknowledgement>As defined in Rasson J.L., (2001). The status of world-wide network of magnetic observatories, their location and instrumentation, Contributions to Geophysics &amp; Geodesy, 31, 1, pp 427-453</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
         <Role>MetadataContact</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>IAGA Guides and Standards</Name>
         <URL>http://www.intermagnet.org/publications/intermag_4-6.pdf</URL>
         <Description>Overview of IAGA Guides and Standards which obtained within its
           Divisions and Working Groups. Information about observatories
           is maintained by the "Geomagntic Observatories" (V-OBS) working group.</Description>
-</InformationURL>
-</ResourceHeader>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/IAGA_Uppsala.1</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/IAGA</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
@@ -29,6 +44,6 @@
       <Latitude>59.800</Latitude>
       <Longitude>17.600</Longitude>
       <Elevation>14</Elevation>
-</Location>
-</Observatory>
+    </Location>
+  </Observatory>
 </Spase>

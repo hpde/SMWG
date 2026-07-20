@@ -1,16 +1,26 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
-   <Version>2.2.8</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/DMSP_5D-3/F18</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Defense Meteorological Satellite Program, DMSP-F18</ResourceName>
-         <AlternateName>DMSP_5D-3/F18</AlternateName>
-         <AlternateName>DMSP-F18</AlternateName>
-         <AlternateName>USA 210</AlternateName>
-         <AlternateName>35951</AlternateName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
-         <Description>DMSP-F18, also known as DMSP 5D-3 F18 or USA 210, is a US Department of Defense weather
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/DMSP_5D-3/F18</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Defense Meteorological Satellite Program, DMSP-F18</ResourceName>
+      <AlternateName>DMSP_5D-3/F18</AlternateName>
+      <AlternateName>DMSP-F18</AlternateName>
+      <AlternateName>USA 210</AlternateName>
+      <AlternateName>35951</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:09Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:09Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>DMSP-F18, also known as DMSP 5D-3 F18 or USA 210, is a US Department of Defense weather
    satellite launched on an Atlas 5 rocket on 18 October 2009 at 16:12 UT from Vandenberg. The 1,200 kg
    satellite, one of several in the Defense Meteorological Satellite Program, will provide terrestrial
    and space weather data from a near-polar, Sun-synchronous, 830 km altitude orbit with the Local
@@ -20,37 +30,42 @@
    of cloud cover. Additional satellite sensors measure atmospheric vertical profiles of moisture and
    temperature. DMSP satellites also measure space environmental parameters such as local charged
    particles and electromagnetic fields.</Description>
-         <Acknowledgement>DMSP Data Manager, NOAA National Environmental Satellite, Data, and Information Service, NESDIS</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
-            <Role>GeneralContact</Role>
-</Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-</Contact>
-         <InformationURL>
-            <Name>Defense Meteorological Satellite Program, DMSP-F18 Web Site</Name>
-            <URL>https://www.wmo-sat.info/oscar/satellites/view/65</URL>
-            <Description>Defense Meteorological Satellite Program, DMSP-F18, Information and Details</Description>
-</InformationURL>
-   <InformationURL>
-            <Name>Defense Meteorological Satellite Program, Block 5D-3 Spacecraft Overview</Name>
-            <URL>http://spaceflight101.com/spacecraft/dmsp-block-5d-3/</URL>
-            <Description>Detailed information on the Defense Meteorological Satellite Program 5D-3 satellite series.</Description>
-</InformationURL>
-         <InformationURL>
-            <Name>NSSDC&apos;s Master Catalog</Name>
-            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2009-057A</URL>
-            <Description>Information about the DMSP 5D-3/F18 mission</Description>
-</InformationURL>
-</ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/DMSP</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
-</Location>
-      <OperatingSpan>
-         <StartDate>2009-10-18T00:00:00</StartDate>
-</OperatingSpan>
-</Observatory>
+      <Acknowledgement>DMSP Data Manager, NOAA National Environmental Satellite, Data, and Information Service, NESDIS</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Defense Meteorological Satellite Program, DMSP-F18 Web Site</Name>
+        <URL>https://www.wmo-sat.info/oscar/satellites/view/65</URL>
+        <Description>Defense Meteorological Satellite Program, DMSP-F18, Information and Details</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Defense Meteorological Satellite Program, Block 5D-3 Spacecraft Overview</Name>
+        <URL>http://spaceflight101.com/spacecraft/dmsp-block-5d-3/</URL>
+        <Description>Detailed information on the Defense Meteorological Satellite Program 5D-3 satellite series.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2009-057A</URL>
+        <Description>Information about the DMSP 5D-3/F18 mission</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/DMSP_5D-3_F18</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/DMSP</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
+    </Location>
+    <OperatingSpan>
+      <StartDate>2009-10-18T00:00:00</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

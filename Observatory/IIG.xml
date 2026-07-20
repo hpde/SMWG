@@ -1,12 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.9</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/IIG</ResourceID>
     <ResourceHeader>
       <ResourceName>Indian Institute of Geomagnetism</ResourceName>
       <AlternateName>IIG</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:45Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:45Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>The Indian Institute of Geomagnetism (IIG) today is a leading
    institute of the country actively engaged in basic and applied research in
    Geomagnetism and allied areas of Geophysics, Atmospheric, and Space Physics and
@@ -20,19 +30,24 @@
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>Overview of the Indian Institute of Geomagnetism Magnetic Observatories</Name>
         <URL>http://www.iigm.res.in/observatories/</URL>
         <Description>Description and location of other magnetometers.</Description>
-</InformationURL>
-</ResourceHeader>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/IIG</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-</Location>
- <OperatingSpan>
-  <StartDate>1841-01-01T12:00:00Z</StartDate>
-  <Note>Actual start date in 1841 unknown.</Note>
-</OperatingSpan>
-</Observatory>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1841-01-01T12:00:00Z</StartDate>
+      <Note>Actual start date in 1841 unknown.</Note>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

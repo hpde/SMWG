@@ -1,13 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.9</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Ground/BCMT</ResourceID>
     <ResourceHeader>
       <ResourceName>BCMT</ResourceName>
-	  <AlternateName>French National Magnetic Observatory</AlternateName>
-      <AlternateName>Bureau Central De Magnetisme Terrestre France</AlternateName>		  
-      <ReleaseDate>2018-09-06T12:30:00Z</ReleaseDate>
+      <AlternateName>French National Magnetic Observatory</AlternateName>
+      <AlternateName>Bureau Central De Magnetisme Terrestre France</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:15Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2018-09-06T12:30:00Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:15Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>Our mission is to provide ground-based geomagnetic observations 
 	  and data products of the highest quality.
 
@@ -22,19 +32,24 @@
         <PersonID>spase://SMWG/Person/Marc.Chaussidon</PersonID>
         <Role>TeamLeader</Role>
       </Contact>
-	  <InformationURL>
+      <InformationURL>
         <Name>Bureau Central De Magnetisme Terrestre France Homepage</Name>
         <URL>http://www.bcmt.fr/index.html</URL>
         <Description>Information about the BCMT.</Description>
-	  </InformationURL>
-	  <PriorID>spase://SMWG/Observatory/BCMT</PriorID>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_BCMT</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Observatory/BCMT</PriorID>
     </ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
     </Location>
-	<OperatingSpan>
-		<StartDate>1921-01-01T12:00:00Z</StartDate>
-		<Note>Exact start date is unknown.</Note>
-	</OperatingSpan>
+    <OperatingSpan>
+      <StartDate>1921-01-01T12:00:00Z</StartDate>
+      <Note>Exact start date is unknown.</Note>
+    </OperatingSpan>
   </Observatory>
 </Spase>

@@ -1,11 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
- <Version>2.3.1</Version>
- <Observatory>
-  <ResourceID>spase://SMWG/Observatory/SipleExperiment</ResourceID>
-  <ResourceHeader>
-   <ResourceName>Siple Experiment</ResourceName>
-   <ReleaseDate>2020-12-29T15:51:48</ReleaseDate>
-   <Description>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/SipleExperiment</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Siple Experiment</ResourceName>
+      <ReleaseDate>2026-07-20T16:22:55Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2020-12-29T15:51:48</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:55Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>
      During its operation from 1973 to 1988, the Siple Station
      experiment provided numerous observations of magnetospheric
      wave's particle and wave's interactions and it remains the
@@ -37,24 +48,29 @@
    ended. These data were originally stored on Ampex magnetic tapes
    then converted over to a digitized format with some error
    correction applied as described by Li et al., (2014) JGR, 119,1837-1850.  </Description>
-   <Contact>
-    <PersonID>spase://SMWG/Person/Robert.A.Helliwell</PersonID>
-    <Role>PrincipalInvestigator</Role>
-   </Contact>
-  <Contact>
-    <PersonID>spase://SMWG/Person/Morris.Cohen</PersonID>
-    <Role>ArchiveSpecialist</Role>
-   </Contact>
-   <InformationURL>
-    <URL>http://waldo.world/description-of-data/</URL>
-   </InformationURL>
-  </ResourceHeader>
-  <Location>
-   <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-  </Location>
-  <OperatingSpan>
-    <StartDate>1973-01-01T00:00:00</StartDate>
-    <StopDate>1988-01-01T00:00:00</StopDate>
-  </OperatingSpan>
- </Observatory>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Robert.A.Helliwell</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Morris.Cohen</PersonID>
+        <Role>ArchiveSpecialist</Role>
+      </Contact>
+      <InformationURL>
+        <URL>http://waldo.world/description-of-data/</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/SipleExperiment</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1973-01-01T00:00:00</StartDate>
+      <StopDate>1988-01-01T00:00:00</StopDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

@@ -1,14 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-    <Version>2.2.2</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/DSX</ResourceID>
-        <ResourceHeader>
-            <ResourceName>DSX</ResourceName>
-            <AlternateName>Demonstrations and Science Experiment</AlternateName>
-            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
-            <Description>Demonstration and Science Experiments(DSX) Satellite When launched in 2008, the Demonstration
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/DSX</ResourceID>
+    <ResourceHeader>
+      <ResourceName>DSX</ResourceName>
+      <AlternateName>Demonstrations and Science Experiment</AlternateName>
+      <ReleaseDate>2026-07-20T16:22:39Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:39Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>Demonstration and Science Experiments(DSX) Satellite When launched in 2008, the Demonstration
    and Science Experiments (DSX) spacecraft will conduct basic research designed to significantly advance
    Dept. of Defense capability to operate in the harsh radiation environment of medium earth orbit (MEO).
    The ability to operate effectively in the MEO environment significantly increases the DOD capability to
@@ -26,7 +35,7 @@
    EELV secondary payload adapter (ESPA) ring is upgraded to provide host spacecraft functions with the
    addition of a host spacecraft bus (HSB). The experiment payloads are located in a payload module attached
    to the ring opposite the HSB. Unlike the traditional ESPA approach, where individual satellites
-   separate from the ESPA ring to become free flyers, DSX&apos;s HSB and payload module remain attached to the
+   separate from the ESPA ring to become free flyers, DSX's HSB and payload module remain attached to the
    ring and are deployed as a single integrated spacecraft. For launch on a dedicated rocket, the HSB
    and payload module are removed from the ESPA and are directly attached to one another in a stacked
    configuration. DSX is baselined to be ready for launch in October 2008 and is seeking an elliptical
@@ -36,55 +45,60 @@
    In addition, DSX will use ground transmitters and other space receivers to measure critical parameters
    such as VLF injection across the ionosphere and the far field radiated patterns. The SWx will characterize
    the high and low energy electron and proton fluence, radiation dose rates, local magnetic fields and pitch
-   angle distribution in the &apos;&apos;slot region&apos;&apos; orbit located near an altitude of 10,000 kilometers, between the
+   angle distribution in the ''slot region'' orbit located near an altitude of 10,000 kilometers, between the
    inner and outer Van Allen radiation belts. It is an attractive orbit for future communications and
    surveillance satellites because it has a low radiation dose rate and sufficient altitude to allow
    for global coverage, but yet is four times closer than geostationary (GEO) satellites, which increases
    communications speed by a factor of eight. This attractive orbit has remained largely unexplored,
    with most commercial, military, and science satellites opting for low earth orbit (LEO) or GEO orbits.
-   The SEE consists of NASA&apos;s Space Environment Testbed (SET) and several AFRL developed photometers and
+   The SEE consists of NASA's Space Environment Testbed (SET) and several AFRL developed photometers and
    radiometers. SET features four smaller experiments designed to investigate radiation effects on
    electronics such as field programmable gate arrays and linear devices. The AFRL instruments will
    directly measure the radiation induced degradation of the optical and thermal properties for several
    spacecraft materials of interest. DSX will benefit the warfighter by significantly enhancing understanding
-   of the MEO environment, with particular emphasis on the &apos;&apos;slot region,&apos;&apos; which is attractive for future
+   of the MEO environment, with particular emphasis on the ''slot region,'' which is attractive for future
    space surveillance and high speed communication. In addition, DSX will perform the basic research
-   needed to assess the DOD&apos;s ability to actively regulate agitations to the space weather environment
+   needed to assess the DOD's ability to actively regulate agitations to the space weather environment
    that currently cause accelerated degradation of critical space assets.
 </Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Gregory.P.Ginet</PersonID>
-                <Role>GeneralContact</Role>
-</Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Michael.A.Xapsos</PersonID>
-                <Role>GeneralContact</Role>
-</Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Jon.Schoenberg</PersonID>
-                <Role>GeneralContact</Role>
-</Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Aaron.L.Adler</PersonID>
-                <Role>GeneralContact</Role>
-</Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Mark.R.Scherbarth</PersonID>
-                <Role>GeneralContact</Role>
-</Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Durand.Smith</PersonID>
-                <Role>GeneralContact</Role>
-</Contact>
-            <InformationURL>
-                <Name>Proceedings of Society of Photographic Instrumentation Engineers Article</Name>
-                <URL>https://www.spiedigitallibrary.org/redirect/proceedings/proceeding?doi=10.1117/12.824898</URL>
-    <Description>Detailed information on AFRL&apos;s Demonstration and Science Experiments (DSX) mission.</Description>
-</InformationURL>
-</ResourceHeader>
-        <Location>
-            <ObservatoryRegion>Earth.Magnetosphere.RadiationBelt</ObservatoryRegion>
-            <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
-</Location>
-</Observatory>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Gregory.P.Ginet</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Michael.A.Xapsos</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Jon.Schoenberg</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Aaron.L.Adler</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Mark.R.Scherbarth</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Durand.Smith</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Proceedings of Society of Photographic Instrumentation Engineers Article</Name>
+        <URL>https://www.spiedigitallibrary.org/redirect/proceedings/proceeding?doi=10.1117/12.824898</URL>
+        <Description>Detailed information on AFRL's Demonstration and Science Experiments (DSX) mission.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/DSX</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Magnetosphere.RadiationBelt</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+    </Location>
+  </Observatory>
 </Spase>

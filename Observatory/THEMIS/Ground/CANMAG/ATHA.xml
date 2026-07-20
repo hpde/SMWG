@@ -1,12 +1,22 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/THEMIS/Ground/CANMAG/ATHA</ResourceID>
     <ResourceHeader>
       <ResourceName>NASA THEMIS GBO Athabasca Station</ResourceName>
       <AlternateName>ATHA</AlternateName>
-      <ReleaseDate>2012-03-07T11:50:38</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:25:26Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2012-03-07T11:50:38</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:25:26Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>Athabasca (ATHA) Station is located at the Athabasca University Geophysical Observatory in Athabasca,Alberta, Canada.  ATHA was the THEMIS prototype GBO
 				Magnetic Latitude: 61.94
 				Magnetic Longitude: 306.91
@@ -57,6 +67,11 @@ ASI/GBO: S. Mende and E. Donovan for use of the ASI data, and the CSA for logist
         <Name>THEMIS Ground Based Observatory System Design</Name>
         <URL>https://link.springer.com/article/10.1007/s11214-007-9294-z</URL>
         <Description>Harris et al., Dec. 2007; In depth description of GBO design.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/THEMIS_Ground_CANMAG_ATHA</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
       <PriorID>spase://SMWG/Observatory/THEMIS-Ground/CANMAG/ATHA</PriorID>
     </ResourceHeader>

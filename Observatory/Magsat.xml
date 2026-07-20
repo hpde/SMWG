@@ -9,7 +9,7 @@
       <ResourceName>Magsat</ResourceName>
       <AlternateName>1979-094A</AlternateName>
       <AlternateName>Explorer 61</AlternateName>
-      <ReleaseDate>2026-05-22T16:41:01Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:48Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
@@ -18,6 +18,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-05-22T16:41:01Z</ReleaseDate>
           <Note>Added new Contact:Role(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:48Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>The Magsat project was a joint NASA/United States Geological Survey (USGS) effort to measure near-earth magnetic fields on a global basis. Objectives included obtaining an accurate description of the earth's magnetic field, obtaining data for use in the update and refinement of world and regional magnetic charts, compilation of a global crustal magnetic anomaly map, and interpretation of that map in terms of geologic/geophysical models of the earth's crust. The spacecraft was launched into a low, near-polar, orbit by the Scout vehicle. The basic spacecraft was made up of two distinct parts: the instrument module that contained a vector and a scalar magnetometer and their unique supporting gear; and the base module that contained the necessary data-handling, power, communications, command, and attitude-control subsystems to support the instrument module. The base module complete with its subsystems was comprised of residual Small Astronomy Satellite (SAS-C) hardware. The magnetometers were deployed after launch to a position 6 m behind the spacecraft. At this distance, the influence of magnetic materials from the instrument and base module (chiefly from the star cameras) was less than 1 nT. Sixteen complete vector magnetic field measurements and eight scalar measurements were obtained every second.</Description>
@@ -30,6 +34,11 @@
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1979-094A</URL>
         <Description>Information about the Magsat mission</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Magsat</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

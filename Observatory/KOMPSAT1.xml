@@ -5,11 +5,15 @@
     <ResourceID>spase://SMWG/Observatory/KOMPSAT1</ResourceID>
     <ResourceHeader>
       <ResourceName>Korean Multi-Purpose Satellite (KOMPSAT-1)</ResourceName>
-      <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:48Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
           <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:48Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>KOMPSAT-1 (Korean Multi-Purpose Satellite), also known as Arirang-1, was a South Korean Earth observation satellite which was launched on 21 December 1999. KOMPSAT-1 operated for eight years until satellite operations ceased on 30 December 2007 due to a loss of contact.</Description>
@@ -20,6 +24,11 @@
       <InformationURL>
         <Name>KOMPSAT-1 Home Page</Name>
         <URL>https://earth.esa.int/eogateway/missions/kompsat-1</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/KOMPSAT1</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

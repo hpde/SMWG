@@ -1,47 +1,62 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/L.Aquila</ResourceID>
-      <ResourceHeader>
-         <ResourceName>L'Aquila</ResourceName>
-         <AlternateName>Observatory Station Code: AQU</AlternateName>
-         <ReleaseDate>2018-07-26T12:34:56.789</ReleaseDate>
-         <Description>The L'Aquila geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge:  Istituto Nazionale di Geofisica, Rome</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Paolo.Palangio</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Antonio.Meloni</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Stefania.Lepidi</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <PriorID>spase://SMWG/Observatory/WDC/LAquila</PriorID>
-      </ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>42.383</Latitude>
-         <Longitude>13.317</Longitude>
-		 <Elevation>682</Elevation>
-      </Location>
-      <OperatingSpan>
-         <StartDate>1960-01-01T00:00:00.000</StartDate>
-		 <StopDate>2010-01-01T23:59:59</StopDate>
-      </OperatingSpan>
-   </Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/L.Aquila</ResourceID>
+    <ResourceHeader>
+      <ResourceName>L'Aquila</ResourceName>
+      <AlternateName>Observatory Station Code: AQU</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:34Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2018-07-26T12:34:56.789</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:34Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The L'Aquila geophysical observatory.</Description>
+      <Acknowledgement>Please acknowledge:  Istituto Nazionale di Geofisica, Rome</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Paolo.Palangio</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Antonio.Meloni</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Stefania.Lepidi</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_L.Aquila</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Observatory/WDC/LAquila</PriorID>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>42.383</Latitude>
+      <Longitude>13.317</Longitude>
+      <Elevation>682</Elevation>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1960-01-01T00:00:00.000</StartDate>
+      <StopDate>2010-01-01T23:59:59</StopDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

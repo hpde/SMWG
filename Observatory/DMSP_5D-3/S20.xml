@@ -1,44 +1,53 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
-   <Version>2.4.0</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/DMSP_5D-3/S20</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Defense Meteorological Satellite Program, DMSP-S20</ResourceName>
-         <AlternateName>DMSP_5D-3/S20</AlternateName>
-         <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
-         <RevisionHistory>
-            <RevisionEvent>
-               <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
-               <Note>DMSP Observatory: Update obsolete www.wmo-sat.info URL. Metadata submitted by J.M. Weygand on 2022-01-28, reviewed by LFB</Note>
-            </RevisionEvent>
-         </RevisionHistory>
-         <Description>Defense Meteorological Satellite Program, DMSP-S20 20th flight unit of the DMSP Block 5D series, 6th (last) of the Block 5D-3 series. Main missions: cloud imagery and microwave imaging/temperature/humidity sounding. Substantial contribution to Space weather.</Description>
-         <Acknowledgement>DMSP Data Manager, NOAA National Environmental Satellite, Data, and Information Service, NESDIS</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
-            <Role>GeneralContact</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>Defense Meteorological Satellite Program, DMSP-S20 Web Site</Name>
-            <URL>https://space.skyrocket.de/doc_sdat/dmsp-5d3.htm</URL>
-            <Description>Defense Meteorological Satellite Program, DMSP-S20, Information and Details</Description>
-         </InformationURL>
-      </ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/DMSP</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
-      </Location>
-      <OperatingSpan>
-         <StartDate>2020-01-01T00:00:00</StartDate>
-      </OperatingSpan>
-   </Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/DMSP_5D-3/S20</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Defense Meteorological Satellite Program, DMSP-S20</ResourceName>
+      <AlternateName>DMSP_5D-3/S20</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:09Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2022-02-20T12:34:56.789</ReleaseDate>
+          <Note>DMSP Observatory: Update obsolete www.wmo-sat.info URL. Metadata submitted by J.M. Weygand on 2022-01-28, reviewed by LFB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:09Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>Defense Meteorological Satellite Program, DMSP-S20 20th flight unit of the DMSP Block 5D series, 6th (last) of the Block 5D-3 series. Main missions: cloud imagery and microwave imaging/temperature/humidity sounding. Substantial contribution to Space weather.</Description>
+      <Acknowledgement>DMSP Data Manager, NOAA National Environmental Satellite, Data, and Information Service, NESDIS</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Defense Meteorological Satellite Program, DMSP-S20 Web Site</Name>
+        <URL>https://space.skyrocket.de/doc_sdat/dmsp-5d3.htm</URL>
+        <Description>Defense Meteorological Satellite Program, DMSP-S20, Information and Details</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/DMSP_5D-3_S20</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/DMSP</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
+    </Location>
+    <OperatingSpan>
+      <StartDate>2020-01-01T00:00:00</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

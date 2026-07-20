@@ -8,7 +8,7 @@
     <ResourceHeader>
       <ResourceName>Juno</ResourceName>
       <AlternateName>Juno Orbiter</AlternateName>
-      <ReleaseDate>2026-05-28T10:20:21Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:47Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2020-04-05T12:34:56.789Z</ReleaseDate>
@@ -17,6 +17,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-05-28T10:20:21Z</ReleaseDate>
           <Note>Added new Contact(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:47Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>The Juno mission was launched on August 5, 2011 at 16:25 UTC or equivalently at 12:25 pm EDT from Cape Canaveral Air Force Station. The Juno mission has been designed to study Jupiter from polar orbit for approximately one year beginning in 2016. The primary scientific objectives of the mission are to collect data to investigate:
@@ -68,6 +72,11 @@ Juno was launched on an Atlas V 551 with a Centaur upper stage. There was one Ea
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2011-040A</URL>
         <Description>Information about the Juno spacecraft and the overall mission</Description>
         <Language>en</Language>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Juno</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

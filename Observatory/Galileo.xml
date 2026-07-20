@@ -1,14 +1,24 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd" lang="en">
-   <Version>2.3.1</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Galileo</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Galileo</ResourceName>
-         <AlternateName>Galileo Orbiter-Probe</AlternateName>
-         <AlternateName>Jupiter Orbiter-Probe</AlternateName>
-         <ReleaseDate>2020-04-05T12:34:56.789Z</ReleaseDate>
-         <Description>* Science Objectives
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Galileo</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Galileo</ResourceName>
+      <AlternateName>Galileo Orbiter-Probe</AlternateName>
+      <AlternateName>Jupiter Orbiter-Probe</AlternateName>
+      <ReleaseDate>2026-07-20T16:22:41Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2020-04-05T12:34:56.789Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:41Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>* Science Objectives
 * ==================
 
 The Galileo mission consists of two spacecraft: an orbiter and an atmospheric probe. The orbiter will be the sixth spacecraft to explore the Jovian magnetosphere, but the first to be placed into orbit around the giant planet. Scientific objectives addressed by the orbiter are to:
@@ -82,7 +92,7 @@ Science instruments: Atmospheric structure
 * Comet Shoemaker-Levy 9: Impacts of comet fragments into Jupiter observed while en route in July 1994
 * Asteroid Ida flyby: Aug. 28, 1993, at 2,400 km (1,400 mi)
 * Atmospheric probe release: July 12, 1995
-* Probe speed into Jupiter&apos;s atmosphere: 47.6 km per second (106,000 mi per hour) Jupiter arrival and orbit insertion: Dec. 7, 1995
+* Probe speed into Jupiter's atmosphere: 47.6 km per second (106,000 mi per hour) Jupiter arrival and orbit insertion: Dec. 7, 1995
 * Probe atmospheric entry and relay: Dec. 7, 1995
 * Number of Jupiter orbits during entire mission: 34
 * Number of flybys of Jupiter moons: Io 7, Callisto 8, Ganymede 8, Europa 11, Amalthea 1
@@ -94,49 +104,54 @@ The Galileo mission utilizes a single launch of a combined Orbiter and Probe usi
 
 At about 150 days before Galileo arrives at Jupiter, the Probe is separated from the Orbiter. From this moment in time, the Probe is on a ballistic trajectory to the Probe entry point, about 6 degrees north latitude, into the atmosphere of Jupiter. Using its 400 Newton engine for the first time, the Orbiter executes an Orbiter deflection maneuver to keep from following the Probe into the atmosphere of Jupiter, and to retarget the Orbiter to the proper encounter conditions required for the Jupiter Orbit Insertion phase of the mission.
 
-A close flyby at an altitude of about 1,000 km of the Jovian satellite Io occurs in this phase for the purpose of science observations as well as to slow the Orbiter down relative to Jupiter by nearly 200 m/s in order to reduce the propellant required during the Jupiter Orbit Insertion, JOI, 400 Newton engine burn to capture Galileo into Jupiter&apos;s orbit. Perijove of about 4 Rj occurs about 4 hours after Io encounter. A few minutes after perijove passage, the Probe entry and beginning of the relay of data from the Probe to the Orbiter occurs.
+A close flyby at an altitude of about 1,000 km of the Jovian satellite Io occurs in this phase for the purpose of science observations as well as to slow the Orbiter down relative to Jupiter by nearly 200 m/s in order to reduce the propellant required during the Jupiter Orbit Insertion, JOI, 400 Newton engine burn to capture Galileo into Jupiter's orbit. Perijove of about 4 Rj occurs about 4 hours after Io encounter. A few minutes after perijove passage, the Probe entry and beginning of the relay of data from the Probe to the Orbiter occurs.
 
 The Probe mission and data relay lasts 75 min, after which JOI is performed, slowing the Orbiter down relative to Jupiter by about 630 m/s. The initial orbit period is about 200 days. A large 400 Newton engine burn is performed at the first apojove in order to raise perijove from 4 Rj to about 9 Rj thus allowing at least 11 orbits with 10 targeted satellite encounters to be completed by the Orbiter without exceeding the allowed total accumulated radiation exposure at the spacecraft. Only three orbits would be allowed before exceeding this limit if perijove were allowed to stay at 4 Rj where the radiation environment is very severe. Also during this perijove raise maneuver, Galileo is targeted to the satellite Ganymede, the first of its Galilean satellite encounters following JOI.
 
 At this point, the targeting to satellite encounters begins, such that a satellite tour consisting of a minimum of 10 targeted satellite encounters is achieved within the 23 month period allotted for the satellite tour. During the course of the satellite tour, the orientation, shape and size of the spacecraft orbits around the Jovian system, referred to as petals because of how the spacecraft orbits appear on a plan view of the Jovian satellite tour trajectory, is controlled almost exclusively by gravity assists of the satellites themselves. The orbit periods are pumped down by successive encounters with the satellites from the initial 200 days to approximately 35-40 days between encounters. At the 8th orbit, when the orbit petal orientation is approximately in the anti-sun direction, the period is again pumped up to about 100 days, allowing one of the primary objectives, probing the Jovian magnetotail, to be accomplished. After this magnetotail orbit, the period is again pumped down, by gravity assist encounters with the Jovian satellites, to 35-40 days for the final 2-3 targeted encounters.</Description>
-         <Acknowledgement>Please acknowledge the National Aeronautics and Space Administration, NASA</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Torrence.V.Johnson</PersonID>
-            <Role>ProjectScientist</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>NSSDC Master Catalog</Name>
-            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1989-084B</URL>
-            <Description>Information about the Galileo spacecraft and the overall mission</Description>
-            <Language>en</Language>
-         </InformationURL>
-         <InformationURL>
-            <Name>Space Science Reviews Volume on Galileo Mission An Overview</Name>
-            <URL>https://link.springer.com/article/10.1007%2FBF00216848</URL>
-            <Description>Additional information about the Galileo Orbiter mission.</Description>
-            <Language>en</Language>
-         </InformationURL>
-      </ResourceHeader>
-      <Location>
-         <ObservatoryRegion>Jupiter</ObservatoryRegion>
-         <ObservatoryRegion>Jupiter.Magnetosphere</ObservatoryRegion>
-         <ObservatoryRegion>Asteroid</ObservatoryRegion>
-         <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
-         <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
-         <ObservatoryRegion>Earth.Magnetosphere.Magnetotail</ObservatoryRegion>
-         <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
-         <ObservatoryRegion>Heliosphere.Remote1AU</ObservatoryRegion>
-         <ObservatoryRegion>Heliosphere.Outer</ObservatoryRegion>
-         <ObservatoryRegion>Venus</ObservatoryRegion>
-      </Location>
-      <OperatingSpan>
-         <StartDate>1989-10-18T22:23:00Z</StartDate>
-         <StopDate>2003-09-21T19:43:14Z</StopDate>
-         <Note>The listed start date corresponds to the launch time of Galileo</Note>
-      </OperatingSpan>
-   </Observatory>
+      <Acknowledgement>Please acknowledge the National Aeronautics and Space Administration, NASA</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Torrence.V.Johnson</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC Master Catalog</Name>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1989-084B</URL>
+        <Description>Information about the Galileo spacecraft and the overall mission</Description>
+        <Language>en</Language>
+      </InformationURL>
+      <InformationURL>
+        <Name>Space Science Reviews Volume on Galileo Mission An Overview</Name>
+        <URL>https://link.springer.com/article/10.1007%2FBF00216848</URL>
+        <Description>Additional information about the Galileo Orbiter mission.</Description>
+        <Language>en</Language>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Galileo</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Jupiter</ObservatoryRegion>
+      <ObservatoryRegion>Jupiter.Magnetosphere</ObservatoryRegion>
+      <ObservatoryRegion>Asteroid</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere.Magnetotail</ObservatoryRegion>
+      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+      <ObservatoryRegion>Heliosphere.Remote1AU</ObservatoryRegion>
+      <ObservatoryRegion>Heliosphere.Outer</ObservatoryRegion>
+      <ObservatoryRegion>Venus</ObservatoryRegion>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1989-10-18T22:23:00Z</StartDate>
+      <StopDate>2003-09-21T19:43:14Z</StopDate>
+      <Note>The listed start date corresponds to the launch time of Galileo</Note>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

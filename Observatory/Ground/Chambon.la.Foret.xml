@@ -1,39 +1,54 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/Chambon.la.Foret</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Chambon-la-Foret</ResourceName>
-         <AlternateName>Observatory Station Code: CLF</AlternateName>
-         <ReleaseDate>2018-05-16T12:34:56.789</ReleaseDate>
-         <Description>The Chambon-la-Foret geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge:  Institute de Physique du Globe de Paris</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Benoit.Heumez</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-		 <Contact>
-			<PersonID>spase://SMWG/Person/Marc.Chaussidon</PersonID>
-			<Role>TeamLeader</Role>
-		 </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <PriorID>spase://SMWG/Observatory/WDC/Chambon.la.Foret</PriorID>
-      </ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/BCMT</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>48.017</Latitude>
-         <Longitude>2.267</Longitude>
-      </Location>
-      <OperatingSpan>
-         <StartDate>1936-01-01T00:00:00.000</StartDate>
-      </OperatingSpan>
-   </Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/Chambon.la.Foret</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Chambon-la-Foret</ResourceName>
+      <AlternateName>Observatory Station Code: CLF</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:19Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2018-05-16T12:34:56.789</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:19Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Chambon-la-Foret geophysical observatory.</Description>
+      <Acknowledgement>Please acknowledge:  Institute de Physique du Globe de Paris</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Benoit.Heumez</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Marc.Chaussidon</PersonID>
+        <Role>TeamLeader</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_Chambon.la.Foret</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Observatory/WDC/Chambon.la.Foret</PriorID>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/BCMT</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>48.017</Latitude>
+      <Longitude>2.267</Longitude>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1936-01-01T00:00:00.000</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

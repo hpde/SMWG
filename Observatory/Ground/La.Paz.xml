@@ -1,34 +1,49 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/La.Paz</ResourceID>
-      <ResourceHeader>
-         <ResourceName>La Paz</ResourceName>
-         <AlternateName>Observatory Station Code: LPB</AlternateName>
-         <ReleaseDate>2018-07-26T12:34:56.789</ReleaseDate>
-         <Description>The La Paz geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge:  La Paz Observatory Director</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/WDC/Director.La.Paz.Observatory</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-      </ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>-16.537</Latitude>
-         <Longitude>291.903</Longitude>
-      </Location>
-      <OperatingSpan>
-         <StartDate>1964-01-01T00:00:00.000</StartDate>
-		 <StopDate>1976-12-31T23:59:59</StopDate>
-      </OperatingSpan>
-   </Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/La.Paz</ResourceID>
+    <ResourceHeader>
+      <ResourceName>La Paz</ResourceName>
+      <AlternateName>Observatory Station Code: LPB</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:34Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2018-07-26T12:34:56.789</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:34Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The La Paz geophysical observatory.</Description>
+      <Acknowledgement>Please acknowledge:  La Paz Observatory Director</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/WDC/Director.La.Paz.Observatory</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_La.Paz</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>-16.537</Latitude>
+      <Longitude>291.903</Longitude>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1964-01-01T00:00:00.000</StartDate>
+      <StopDate>1976-12-31T23:59:59</StopDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

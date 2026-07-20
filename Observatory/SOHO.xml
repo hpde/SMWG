@@ -9,7 +9,7 @@
       <ResourceName>SOHO</ResourceName>
       <AlternateName>1995-065A</AlternateName>
       <AlternateName>Solar and Heliospheric Observatory</AlternateName>
-      <ReleaseDate>2026-05-22T16:41:02Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:56Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
@@ -18,6 +18,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-05-22T16:41:02Z</ReleaseDate>
           <Note>Added new Contact(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:56Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>The primary scientific aims of the Solar and Heliospheric Observatory mission (SOHO) were to investigate: (1) the physical processes that form and heat the Sun's corona, maintain it and give rise to the expanding solar wind; and, (2) the interior structure of the Sun. Imaging and collection of spectroscopic plasma diagnostics of the solar chromosphere, transition region and corona, as well as in situ solar-wind measurements are used to study the corona and solar wind. Solar interior structure is investigated by helioseismological means and by the observation of variations in solar irradiance. SOHO was part of the International Solar-Terrestrial Physics Program (ISTP).
@@ -49,6 +53,11 @@ Attitude analysis led to the conclusion that SOHO went into a spin such that the
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1995-065A</URL>
         <Description>Information about the SOHO mission</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/SOHO</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

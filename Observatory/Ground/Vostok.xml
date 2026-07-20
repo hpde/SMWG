@@ -1,49 +1,64 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/Vostok</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Vostok</ResourceName>
-         <AlternateName>Observatory Station Code: VOS</AlternateName>
-         <ReleaseDate>2019-03-08T12:34:56.789</ReleaseDate>
-         <Description>The Vostok geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge:  Arctic and Antarctic Research Institute, St. Petersburg</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Oleg.A.Troshichev</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Galina.Semenova</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-		 <InformationURL>
-			  <Name>Russian Arctic and Antarctic Magnetometer (RAM) network </Name> 
-			  <URL>http://www.geophys.aari.ru/</URL> 
-			  <Description>Request form for magnetometer data. 
-			  Links to additional information also available.</Description> 
-		 </InformationURL>
-         <PriorID>spase://SMWG/Observatory/WDC/Vostok</PriorID>
-      </ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/RAM</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>-78.45</Latitude>
-         <Longitude>106.867</Longitude>
-		 <Elevation>3500.0</Elevation>
-      </Location>
-      <OperatingSpan>
-         <StartDate>1958-01-01T00:00:00.000</StartDate>
-		 <StopDate>2017-12-31T23:59:59.000</StopDate>
-      </OperatingSpan>
-   </Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/Vostok</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Vostok</ResourceName>
+      <AlternateName>Observatory Station Code: VOS</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:58Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-03-08T12:34:56.789</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:58Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Vostok geophysical observatory.</Description>
+      <Acknowledgement>Please acknowledge:  Arctic and Antarctic Research Institute, St. Petersburg</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Oleg.A.Troshichev</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Galina.Semenova</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Russian Arctic and Antarctic Magnetometer (RAM) network </Name>
+        <URL>http://www.geophys.aari.ru/</URL>
+        <Description>Request form for magnetometer data. 
+			  Links to additional information also available.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_Vostok</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Observatory/WDC/Vostok</PriorID>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/RAM</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>-78.45</Latitude>
+      <Longitude>106.867</Longitude>
+      <Elevation>3500.0</Elevation>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1958-01-01T00:00:00.000</StartDate>
+      <StopDate>2017-12-31T23:59:59.000</StopDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

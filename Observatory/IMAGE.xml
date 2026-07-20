@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/IMAGE</ResourceID>
     <ResourceHeader>
@@ -9,7 +9,17 @@
       <AlternateName>MIDEX/IMAGE</AlternateName>
       <AlternateName>Imager for Magnetopause-to-Aurora Global Exploration</AlternateName>
       <AlternateName>Explorer 78</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:45Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:45Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>IMAGE (Imager for Magnetopause-to-Aurora Global Exploration) was a MIDEX class mission, selected by NASA in 1996, to study the global response of the Earth's magnetosphere to changes in the solar wind. IMAGE was launched March 25, 2000 into a highly elliptical polar orbit with initial geocentric apogee of 8.2 Earth radii and perigee altitude of 1000 km. IMAGE used neutral atom, ultraviolet, and radio imaging techniques to: (a) identify the dominant mechanisms for injecting plasma into the magnetosphere on substorm and magnetic storm time scales; (b) determine the directly driven response of the magnetosphere to solar wind changes; and, (c) discover how and where magnetospheric plasmas are energized, transported, and subsequently lost during substorms and magnetic storms.
 
 In order to fulfill its science goals, IMAGE utilized neutral atom, ultraviolet, and radio imaging techniques. A suite of three neutral atom imagers (NAI) provided energy- and composition-resolved images at energies from 10 eV to 200 keV with a time resolution of 300 seconds. Two ultraviolet imagers, covering wavelength ranges from 120-180 nm (FUV) and 30.4 nm (EUV), provided coverage in the far and extreme ultraviolet. The radio plasma imager (RPI) was a low-power radar which operated in the radio frequency bands which contain the plasma resonance frequencies characteristic of the Earth's magnetophere (3 kHz to 3 MHz).
@@ -20,15 +30,20 @@ http://www.nasa.gov/home/hqnews/2006/jan/HQ_06030_IMAGE_quits.html</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/James.L.Burch</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2000-017A</URL>
         <Description>Information about the IMAGE mission</Description>
-</InformationURL>
-</ResourceHeader>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/IMAGE</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
-</Location>
-</Observatory>
+    </Location>
+  </Observatory>
 </Spase>

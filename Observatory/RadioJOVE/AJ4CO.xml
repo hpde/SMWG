@@ -1,12 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://spase-group.org/data/schema/spase-2.3.2.xsd">
-<Version>2.3.2</Version>
- <Observatory>
-  <ResourceID>spase://SMWG/Observatory/RadioJOVE/AJ4CO</ResourceID>
-  <ResourceHeader>
-   <ResourceName>AJ4CO Radio Observatory</ResourceName>
-   <AlternateName>AJ4CO</AlternateName>
-   <ReleaseDate>2021-03-09T11:08:36</ReleaseDate>
-   <Description>AJ4CO Observatory in High Springs, Florida is a
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/RadioJOVE/AJ4CO</ResourceID>
+    <ResourceHeader>
+      <ResourceName>AJ4CO Radio Observatory</ResourceName>
+      <AlternateName>AJ4CO</AlternateName>
+      <ReleaseDate>2026-07-20T16:25:24Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2021-03-09T11:08:36</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:25:24Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>AJ4CO Observatory in High Springs, Florida is a
    participant in the Radio JOVE project providing observations of
    radio emissions from Jupiter, the Sun, and the Galactic Background
    to other members of the Radio JOVE community. The observatory
@@ -20,39 +31,44 @@
    and 15 degree increments EW.
 
  </Description>
-   <Contact>
-    <PersonID>spase://SMWG/Person/David.Typinski</PersonID>
-    <Role>TechnicalContact</Role>
-   </Contact>
-   <InformationURL>
-    <Name>Radio JOVE Spectrograph Users Group (SUG)</Name>
-    <URL>http://radiojove.org/SUG/</URL>
-    <Description>This site provide station diagrams and other reports for the receiver systems at several radio observatories associated with the Radio JOVE project</Description>
-   </InformationURL>
-     <InformationURL>
-    <Name>AJ4CO Radio Astronomy Publications</Name>
-    <URL>http://www.typnet.net/AJ4CO/Publications/Publications.htm</URL>
-    <Description>This site provides descriptions of radio receiver
+      <Contact>
+        <PersonID>spase://SMWG/Person/David.Typinski</PersonID>
+        <Role>TechnicalContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Radio JOVE Spectrograph Users Group (SUG)</Name>
+        <URL>http://radiojove.org/SUG/</URL>
+        <Description>This site provide station diagrams and other reports for the receiver systems at several radio observatories associated with the Radio JOVE project</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>AJ4CO Radio Astronomy Publications</Name>
+        <URL>http://www.typnet.net/AJ4CO/Publications/Publications.htm</URL>
+        <Description>This site provides descriptions of radio receiver
     systems at AJ4CO as well as other radio astronomy-related
     documentation</Description>
-   </InformationURL>
-    <InformationURL>
-    <Name>AJ4CO Miscellaneous Data</Name>
-    <URL>https://pds-ppi.igpp.ucla.edu/radiojove/radiojove-aj4co/radiojove-aj4co-misc-data/</URL>
-    <Description>This site provides descriptions of radio receiver
+      </InformationURL>
+      <InformationURL>
+        <Name>AJ4CO Miscellaneous Data</Name>
+        <URL>https://pds-ppi.igpp.ucla.edu/radiojove/radiojove-aj4co/radiojove-aj4co-misc-data/</URL>
+        <Description>This site provides descriptions of radio receiver
     systems at AJ4CO, observation logs and other documentation</Description>
-   </InformationURL>
-  </ResourceHeader>
-  <ObservatoryGroupID>spase://SMWG/Observatory/RadioJOVE</ObservatoryGroupID>
-  <Location>
-   <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-   <CoordinateSystemName>GEO</CoordinateSystemName>
-   <Latitude>29.8369</Latitude>
-   <Longitude>82.6214</Longitude>
-   <Elevation>16</Elevation>
-  </Location>
-  <OperatingSpan>
-   <StartDate>2014-01-01T00:00:00</StartDate>
-  </OperatingSpan>
- </Observatory>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/RadioJOVE_AJ4CO</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/RadioJOVE</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>29.8369</Latitude>
+      <Longitude>82.6214</Longitude>
+      <Elevation>16</Elevation>
+    </Location>
+    <OperatingSpan>
+      <StartDate>2014-01-01T00:00:00</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

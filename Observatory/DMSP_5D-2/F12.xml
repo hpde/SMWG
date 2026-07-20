@@ -1,14 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-    <Version>2.2.2</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/DMSP_5D-2/F12</ResourceID>
-        <ResourceHeader>
-            <ResourceName>DMSP_5D-2/F12</ResourceName>
-            <AlternateName>DMSP-F12</AlternateName>
-            <AlternateName>USA 106</AlternateName>
-            <AlternateName>23233</AlternateName>
-            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
-            <Description>DMSP 5D-2/F12, also known as USA 106, is one of a series of meteorological satellites
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/DMSP_5D-2/F12</ResourceID>
+    <ResourceHeader>
+      <ResourceName>DMSP_5D-2/F12</ResourceName>
+      <AlternateName>DMSP-F12</AlternateName>
+      <AlternateName>USA 106</AlternateName>
+      <AlternateName>23233</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:08Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:08Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>DMSP 5D-2/F12, also known as USA 106, is one of a series of meteorological satellites
    developed and operated by the Air Force under the Defense Meteorological Satellite Program (DMSP).
    This program, previously known as DAPP (Data Acquisition and Processing Program), was classified
    until March 1973. The objective of this program is to provide global visual and infrared cloudcover
@@ -43,24 +54,29 @@
   relay the SSM/I, SSM/T, and SSM/T2 data to the National Environmental Satellite Data and Information
   System (NESDIS). AFGWC also sends the entire data stream to the National Geophysical Data Center,
   Boulder, Colorado.</Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
-                <Role>GeneralContact</Role>
-</Contact>
-            <InformationURL>
-                <Name>NSSDC's Master Catalog</Name>
-                <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1994-057A</URL>
-                <Description>Information about the DMSP 5D-2/F12 mission</Description>
-</InformationURL>
-   <InformationURL>
-                <Name>Optical Engineering Article</Name>
-                <URL>https://www.spiedigitallibrary.org/redirect/opticalengineering/article?doi=10.1117/12.7971832</URL>
-                <Description>Information about the Defense Meteorological Satellite Program.</Description>
-</InformationURL>
-</ResourceHeader>
-        <ObservatoryGroupID>spase://SMWG/Observatory/DMSP</ObservatoryGroupID>
-        <Location>
-            <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
-</Location>
-</Observatory>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Dieter.K.Bilitza</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1994-057A</URL>
+        <Description>Information about the DMSP 5D-2/F12 mission</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Optical Engineering Article</Name>
+        <URL>https://www.spiedigitallibrary.org/redirect/opticalengineering/article?doi=10.1117/12.7971832</URL>
+        <Description>Information about the Defense Meteorological Satellite Program.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/DMSP_5D-2_F12</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/DMSP</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+    </Location>
+  </Observatory>
 </Spase>

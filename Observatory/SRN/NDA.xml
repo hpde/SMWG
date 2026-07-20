@@ -1,40 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
-    <Version>2.3.1</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/SRN/NDA</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Nancay Decameter Array</ResourceName>
-            <ReleaseDate>2021-06-02T22:17:00Z</ReleaseDate>
-            <Description>Nancay Decameter Array</Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Laurent.Lamy</PersonID>
-                <Role>GeneralContact</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Alexandre.Le.Gall</PersonID>
-                <Role>TechnicalContact</Role>
-            </Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Baptiste.Cecconi</PersonID>
-                <Role>MetadataContact</Role>
-            </Contact>
-            <InformationURL>
-                <URL>https://www.obs-nancay.fr/reseau-decametrique/</URL>
-                <Language>en</Language>
-            </InformationURL>
-        </ResourceHeader>
-        <ObservatoryGroupID>spase://SMWG/Observatory/SRN</ObservatoryGroupID>
-        <Location>
-            <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-            <CoordinateSystemName>GEO</CoordinateSystemName>
-            <Latitude>47.380510</Latitude>
-            <Longitude>2.193226</Longitude>
-            <Elevation>135</Elevation>
-        </Location>
-        <OperatingSpan>
-            <StartDate>1978-01-01T00:00:00.000Z</StartDate>
-        </OperatingSpan>
-    </Observatory>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/SRN/NDA</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Nancay Decameter Array</ResourceName>
+      <ReleaseDate>2026-07-20T16:25:24Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2021-06-02T22:17:00Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:25:24Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>Nancay Decameter Array</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Laurent.Lamy</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Alexandre.Le.Gall</PersonID>
+        <Role>TechnicalContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Baptiste.Cecconi</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <URL>https://www.obs-nancay.fr/reseau-decametrique/</URL>
+        <Language>en</Language>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/SRN_NDA</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/SRN</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>47.380510</Latitude>
+      <Longitude>2.193226</Longitude>
+      <Elevation>135</Elevation>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1978-01-01T00:00:00.000Z</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>
