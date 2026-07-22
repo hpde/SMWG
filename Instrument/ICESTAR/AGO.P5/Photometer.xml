@@ -5,8 +5,12 @@
     <ResourceID>spase://SMWG/Instrument/ICESTAR/AGO.P5/Photometer</ResourceID>
     <ResourceHeader>
       <ResourceName>AGO P5 Photometer Instrument</ResourceName>
-      <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
-      <Description>The Photometer instrument at the AGO P5 ground station</Description>
+      <ReleaseDate>2026-07-22T12:34:56.789Z</ReleaseDate>
+      <Description>Lockheed Palo Alto Research Laboratories has developed special purpose low light level auroral all sky imagers for use in the AGOs. Each imager, which incorporates a two-channel all-sky intensified CCD camera with a single all-sky optical channel and a single detector, is capable of acquiring images in two different wavelengths (630.0 +/- 3.0 nm and 427.8 +/- 5.0 nm) simultaneously, and is optically identical to the imager installed at South Pole Station. Imager data, recorded at a rate of one image every 2 minutes, have 10 km geographic resolution over most of the field of view, ranging to 30 km at the edges. Imager sensitivity is 20 Rayleighs in an 8-s exposure; with bracketing, the dynamic range varies from 20 Rayleighs to 10000 Rayleighs. Images are digitized using an 8-bit quasi-logarithmic scheme and compressed to conserve AGO data storage space.
+
+Monochromatic all sky imagers are a powerful tool for observing and monitoring the optical aurora. The PENGUIn all sky imagers are being used to a) Determine the polar cap auroral morphology under varied conditions of IMF, solar wind pressure and internal magnetospheric conditions; b) Compare auroral dynamics to ionospheric plasma convection and magnetic variations; and c) Intercompare the optical aurora observed from the ground with satellite based observations.
+
+Individual all-sky images can be produced for analysis, but in addition may be combined from contiguous AGO sites (and South Pole) or may be processed to generate clock-dial keograms and/or latitude-UT keograms.</Description>
       <Acknowledgement>Please acknowledge Theodore J. Rosenberg, Allan T. Weatherwax, Institute for Physical Science and Technology (University of Maryland, College Park, MD 20742-2431) for use of data from the AGO P5 Photometer instrument.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Theodore.J.Rosenberg</PersonID>
@@ -20,10 +24,14 @@
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
       </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
       <InformationURL>
         <Name>The AGO P5 Photometer web site</Name>
-        <URL>http://www.polar.umd.edu</URL>
-        <Description>The AGO P5 Photometer web site</Description>
+        <URL>https://web.archive.org/web/20210725181955/http://www.polar.umd.edu/instruments.html</URL>
+        <Description>The AGO P5 photometer web site</Description>
       </InformationURL>
       <Association>
         <AssociationID>spase://SMWG/Observatory/ICESTAR/AGO.P5</AssociationID>
