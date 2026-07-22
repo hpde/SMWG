@@ -1,13 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Paolo.Palangio</ResourceID>
-      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
-      <PersonName>Paolo Palangio</PersonName>
-      <OrganizationName>Istituto Nazionale di Geofisica, Rome</OrganizationName>
-      <Address>Instituto Nazionale di Geofisica e Vulcanologia, Castella Cinquescentesco, 67100 L'Aquila, Italy</Address>
-      <Email>palangio@ingv.it</Email>
-      <FaxNumber>39 0862 6397 219</FaxNumber>
-   </Person>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Paolo.Palangio</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2012-04-20T12:34:56.789Z</ReleaseDate>
+    <PersonName>Paolo Palangio</PersonName>
+    <OrganizationName>Istituto Nazionale di Geofisica, Rome</OrganizationName>
+    <Address>Instituto Nazionale di Geofisica e Vulcanologia, Castella Cinquescentesco, 67100 L'Aquila, Italy</Address>
+    <Email>palangio@ingv.it</Email>
+    <FaxNumber>39 0862 6397 219</FaxNumber>
+  </Person>
 </Spase>

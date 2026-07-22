@@ -1,13 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2-5-0.xsd">
-   <Version>2.5.0</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Roy.B.Torbert</ResourceID>
-      <ReleaseDate>2023-03-01T12:34:56.789</ReleaseDate>
-      <PersonName>Roy B. Torbert</PersonName>
-      <OrganizationName>Space Science Center, University of New Hampshire</OrganizationName>
-      <Address>Morse Hall Rm 406, Durham, NH 03824</Address>
-      <Email>roy.torbert@unh.edu</Email>
-      <PhoneNumber>+1 (603) 862-1638</PhoneNumber>
-   </Person>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Roy.B.Torbert</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2023-03-01T12:34:56.789Z</ReleaseDate>
+    <PersonName>Roy B. Torbert</PersonName>
+    <OrganizationName>Space Science Center, University of New Hampshire</OrganizationName>
+    <Address>Morse Hall Rm 406, Durham, NH 03824</Address>
+    <Email>roy.torbert@unh.edu</Email>
+    <PhoneNumber>+1 (603) 862-1638</PhoneNumber>
+  </Person>
 </Spase>

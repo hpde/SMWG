@@ -1,13 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Sobhana.Alex</ResourceID>
-      <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
-      <PersonName>Sobhana Alex</PersonName>
-      <OrganizationName>Indian Institute of Geomagnetism, Bombay</OrganizationName>
-      <Address>Indian Institute of Geomagnetism, Plot No. 5, Sector - 18, New Panvel (West), NAVI Mumbai - 410 218, India</Address>
-      <Email>salex@iigs.iigm.res.in</Email>
-      <FaxNumber>+91 022 27480762</FaxNumber>
-   </Person>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Sobhana.Alex</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2012-04-20T12:34:56.789Z</ReleaseDate>
+    <PersonName>Sobhana Alex</PersonName>
+    <OrganizationName>Indian Institute of Geomagnetism, Bombay</OrganizationName>
+    <Address>Indian Institute of Geomagnetism, Plot No. 5, Sector - 18, New Panvel (West), NAVI Mumbai - 410 218, India</Address>
+    <Email>salex@iigs.iigm.res.in</Email>
+    <FaxNumber>+91 022 27480762</FaxNumber>
+  </Person>
 </Spase>

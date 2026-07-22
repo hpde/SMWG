@@ -5,8 +5,14 @@
     <ResourceID>spase://SMWG/Instrument/ICESTAR/Iqaluit/Riometer</ResourceID>
     <ResourceHeader>
       <ResourceName>Iqaluit Riometer Instrument</ResourceName>
-      <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
-      <Description>The Riometer instrument at the Iqaluit ground station</Description>
+      <ReleaseDate>2026-07-07T12:34:56.789Z</ReleaseDate>
+      <Description>The University of Maryland has provided 38.2 MHz imaging riometers for each PENGUIn AGO. A riometer (Relative Ionospheric Opacity meter) is an instrument that measures the opacity of the earth's atmosphere to cosmic radio noise, which is used as a constant background against which small changes in the electron density of the ionosphere can be examined. The ionospheric plasma attenuates high-frequency (HF) radiowave energy that passes through it, so the riometer operates at frequencies particularly susceptible to this attenuation, in the range from 20 to 50 MHz.  (Broadband (20.5, 30.0, 38.2, and 51.4 MHz) and imaging (38.2 MHz 49-beam) type)
+
+The electron density changes that the riometer is used to examine are primarily due to the precipitation of energetic electrons from the magnetosphere into the atmosphere. The riometer is most sensitive to incident electrons that deposit energy at 55 km altitude; an electron needs energy on the order of one MeV to reach this low in the atmosphere. However, the sensitivity of the riometer enables it to measure the effects of electrons below 10 keV energy, corresponding to altitudes above 110 km. The auroral precipitation events of most interest to riometry generally have electron energies in the few tens of keV, so the most significant effects occur near 90 km altitude.
+
+Although zenith-viewing riometers were the first to be used, the use of antenna arrays producing multiple narrow beams is necessary in order to examine the spatial scale of regions of energetic electron precipitation, which are coincident with cosmic radio noise absorption activity, and to resolve time development from spatial motion. The imaging riometer provides good spatial and temporal resolution for examining auroral precipitation events. It complements the optical all-sky-camera, and operates year-round since it is not affected by sunlight and cloud cover. The lower spatial resolution permits it to operate with higher time resolution than the all-sky-camera without taxing the data recording capability of the AGO.
+
+The PENGUIn imaging riometer system employs two riometers for redundancy and to double the rate of data recording. The 12-bit analog-to-digital converter produces 24 bytes of data for one complete scan (in 12 s) of the 16 beams for each riometer, resulting in a complete riometer image of the radio sky every 6 s.</Description>
       <Acknowledgement>Please acknowledge Theodore J. Rosenberg, Allan T. Weatherwax, Institute for Physical Science and Technology (University of Maryland, College Park, MD 20742-2431) for use of data from the Iqaluit Riometer instrument.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Theodore.J.Rosenberg</PersonID>
@@ -20,10 +26,19 @@
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
       </Contact>
+	  <Contact>
+        <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
       <InformationURL>
         <Name>The Iqaluit Riometer web site</Name>
-        <URL>http://www.polar.umd.edu</URL>
+        <URL>https://web.archive.org/web/20210725181955/http://www.polar.umd.edu/instruments.html</URL>
         <Description>The Iqaluit Riometer web site</Description>
+      </InformationURL>
+	  <InformationURL>
+        <Name>The Iqaluit Riometer web site</Name>
+        <URL>https://publications.gc.ca/collections/collection_2023/rncan-nrcan/m183-2/M183-2-8995-eng.pdf</URL>
+        <Description>The Iqaluit Riometer article.</Description>
       </InformationURL>
       <Association>
         <AssociationID>spase://SMWG/Observatory/ICESTAR/Iqaluit</AssociationID>

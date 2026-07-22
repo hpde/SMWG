@@ -1,9 +1,11 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.1</Version>
+  <Version>2.7.1</Version>
   <Person>
     <ResourceID>spase://SMWG/Person/WDC/Director.MBour.Observatory</ResourceID>
-    <ReleaseDate>2009-11-05T12:34:56.789</ReleaseDate>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2009-11-05T12:34:56.789Z</ReleaseDate>
     <PersonName>Director MBour Observatory</PersonName>
     <OrganizationName>Observatoire ORSTOM</OrganizationName>
     <Address>Observatoire ORSTOM, B.P. 50, MBOUR, SENEGAL</Address>

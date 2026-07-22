@@ -1,13 +1,15 @@
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" 
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-    <Version>2.2.2</Version>
-    <Person>
-        <ResourceID>spase://SMWG/Person/Robert.Ecofett</ResourceID>
-        <ReleaseDate>2011-09-16T00:00:00</ReleaseDate>
-        <PersonName>Robert Ecofett</PersonName>
-        <OrganizationName>CNES</OrganizationName>
-        <Address>CNES 18 Av. Edouard Belin 31401 Toulouse Cedex 9. France</Address>
-        <Email>robert.ecoffet@cnes.fr</Email>
-        <PhoneNumber>+33 (5) 61.28.17.96</PhoneNumber>
-    </Person>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Robert.Ecofett</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2011-09-16T00:00:00Z</ReleaseDate>
+    <PersonName>Robert Ecofett</PersonName>
+    <OrganizationName>CNES</OrganizationName>
+    <Address>CNES 18 Av. Edouard Belin 31401 Toulouse Cedex 9. France</Address>
+    <Email>robert.ecoffet@cnes.fr</Email>
+    <PhoneNumber>+33 (5) 61.28.17.96</PhoneNumber>
+  </Person>
 </Spase>

@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_6_1.xsd">
-   <Version>2.6.1</Version>
-   <Person>
-      <ResourceID>spase://SMWG/Person/Ted.D.Tarbell</ResourceID>
-      <ReleaseDate>2024-09-04T00:08:46</ReleaseDate>
-      <OrganizationName>Lockheed Martin Solar and Astrophysics Laboratory</OrganizationName>
-   </Person>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+  <Version>2.7.1</Version>
+  <Person>
+    <ResourceID>spase://SMWG/Person/Ted.D.Tarbell</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Person</ResourceType>
+    <ReleaseDate>2024-09-04T00:08:46Z</ReleaseDate>
+    <OrganizationName>Lockheed Martin Solar and Astrophysics Laboratory</OrganizationName>
+  </Person>
 </Spase>
