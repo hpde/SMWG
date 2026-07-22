@@ -1,13 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
    <Observatory>
       <ResourceID>spase://SMWG/Observatory/Ground/Paramaribo</ResourceID>
       <ResourceHeader>
          <ResourceName>Paramaribo</ResourceName>
          <AlternateName>Observatory Station Code: PAB</AlternateName>
-         <ReleaseDate>2012-04-20T12:34:56.789</ReleaseDate>
-         <Description>The Paramaribo geophysical observatory.</Description>
+         <ReleaseDate>2026-07-10T10:52:34</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2026-07-10T10:52:34</ReleaseDate>
+               <Note>Changed description TLK</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The Paramaribo geophysical observatory; Observatory Station Code: PAB.</Description>
          <Acknowledgement>Please acknowledge:  Paramaribo Observatory Director</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/WDC/Director.Paramaribo.Observatory</PersonID>

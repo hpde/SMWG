@@ -1,40 +1,34 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
    <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/Apia</ResourceID>
+      <ResourceID>spase://SMWG/Observatory/WDC/Apia</ResourceID>
       <ResourceHeader>
-         <ResourceName>Apia</ResourceName>
-         <AlternateName>Observatory Station Code: API</AlternateName>
-         <ReleaseDate>2018-04-16T12:34:56.789</ReleaseDate>
-         <Description>The Apia geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge:  Institute of Geological Nuclear Sciences Ltd, Wellington, New Zealand</Acknowledgement>
+         <ResourceName>Apia Ground Observatory</ResourceName>
+         <ReleaseDate>2026-07-10T11:10:49</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2026-07-10T11:10:49</ReleaseDate>
+               <Note>Updated description TLK</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The Apia Observatory is a historic scientific institution located on the Mulinu&#039;u Peninsula in Apia, Samoa, known for hosting one of the longest continuous climate and geomagnetic data sets in the world.</Description>
+         <Acknowledgement>Institute of Geological Nuclear Sciences Ltd, Wellington, New Zealand</Acknowledgement>
          <Contact>
-            <PersonID>spase://SMWG/Person/L.Talia</PersonID>
+            <PersonID>spase://SMWG/Person/Lester.Tomlinson</PersonID>
             <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Tony.Hurst</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
          </Contact>
          <Contact>
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
          </Contact>
-         <PriorID>spase://SMWG/Observatory/WDC/Apia</PriorID>
       </ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
+      <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>-13.815</Latitude>
-         <Longitude>188.219</Longitude>
+         <Latitude>-13.807</Latitude>
+         <Longitude>188.225</Longitude>
       </Location>
-      <OperatingSpan>
-         <StartDate>1921-01-01T00:00:00.000</StartDate>
-      </OperatingSpan>
    </Observatory>
 </Spase>

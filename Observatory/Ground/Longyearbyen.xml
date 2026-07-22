@@ -1,13 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
-   <Version>2.2.8</Version>
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
    <Observatory>
       <ResourceID>spase://SMWG/Observatory/Ground/Longyearbyen</ResourceID>
       <ResourceHeader>
          <ResourceName>Longyearbyen Geophysical Observatory</ResourceName>
-		 <AlternateName>Observatory Station Code: LYR</AlternateName>
-         <ReleaseDate>2018-08-03T12:34:56.789</ReleaseDate>
-         <Description>Longyearbyen (LYR) Geophysical Observatory</Description>
+         <AlternateName>Observatory Station Code: LYR</AlternateName>
+         <ReleaseDate>2026-07-10T11:15:38</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2026-07-10T11:15:38</ReleaseDate>
+               <Note>Updated Description TLK</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>The Longyearbyen (LYR) Observatory, is the world&#039;s northernmost optical auroral observatory. Operated by the University Centre in Svalbard (UNIS), it plays a critical role in global atmospheric and space weather research.</Description>
          <Acknowledgement>Please acknowledge: UiT The Arctic University of Norway</Acknowledgement>
          <Contact>
             <PersonID>spase://SMWG/Person/Truls.Lynne.Hansen</PersonID>
@@ -17,19 +23,19 @@
             <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
             <Role>MetadataContact</Role>
          </Contact>
-		 <InformationURL>
-			  <Name>Tromsø Geophysical Observatory</Name> 
-			  <URL>http://flux.phys.uit.no/geomag.html</URL> 
-			  <Description>Requestion form for magnetometer data, plots, indices, maps, etc.</Description> 
-		 </InformationURL>
+         <InformationURL>
+            <Name>Tromsø Geophysical Observatory</Name>
+            <URL>http://flux.phys.uit.no/geomag.html</URL>
+            <Description>Requestion form for magnetometer data, plots, indices, maps, etc.</Description>
+         </InformationURL>
          <InformationURL>
             <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
             <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
             <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
          </InformationURL>
       </ResourceHeader>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/TGO</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
+      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/TGO</ObservatoryGroupID>
+      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
       <Location>
          <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
          <CoordinateSystemName>GEO</CoordinateSystemName>
