@@ -1,12 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Ground/MaunaLoaSO</ResourceID>
     <ResourceHeader>
       <ResourceName>MLSO</ResourceName>
-	  <AlternateName>Mauna Loa Solar Observatory</AlternateName>
-      <ReleaseDate>2015-10-23T18:29:57</ReleaseDate>
+      <AlternateName>Mauna Loa Solar Observatory</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:37Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2015-10-23T18:29:57</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:37Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>The Mauna Loa Solar Observatory (MLSO) is located at an 
 	  elevation of 3353m on National Oceanic and Atmospheric Administration 
 	  property situated on a lava field on the northwest flank of Mauna Loa 
@@ -16,12 +26,17 @@
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
-	  <InformationURL>
-			  <Name>Mauna Loa Solar Observatory Homepage at GONG</Name> 
-			  <URL>https://gong.nso.edu/sites/maunaloa.shtml</URL> 
-			  <Description>About the Mauna Loa Solar Observatory.</Description> 
+      <InformationURL>
+        <Name>Mauna Loa Solar Observatory Homepage at GONG</Name>
+        <URL>https://gong.nso.edu/sites/maunaloa.shtml</URL>
+        <Description>About the Mauna Loa Solar Observatory.</Description>
       </InformationURL>
-    <PriorID>spase://SMWG/Observatory/MaunaLoaSO</PriorID>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_MaunaLoaSO</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Observatory/MaunaLoaSO</PriorID>
     </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/GONG</ObservatoryGroupID>
     <Location>

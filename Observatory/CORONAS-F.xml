@@ -1,14 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-    <Version>2.2.6</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/CORONAS-F</ResourceID>
-        <ResourceHeader>
-            <ResourceName>CORONAS-F</ResourceName>
-            <AlternateName>KORONAS-F</AlternateName>
-            <AlternateName>AUS-SM-KF</AlternateName>
-            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
-            <Description>CORONAS-F (also known as KORONAS-F, and AUS-SM-KF) is a Russian solar observatory that
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/CORONAS-F</ResourceID>
+    <ResourceHeader>
+      <ResourceName>CORONAS-F</ResourceName>
+      <AlternateName>KORONAS-F</AlternateName>
+      <AlternateName>AUS-SM-KF</AlternateName>
+      <ReleaseDate>2026-07-20T16:22:37Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:37Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>CORONAS-F (also known as KORONAS-F, and AUS-SM-KF) is a Russian solar observatory that
    was launched by a Tsiklon 3 rocket from Plesetsk at 08:00 UT on 31 July 2001. The 2,260 kg (with fuel)
    spacecraft will be pointing toward Sun within 10 arc-minutes to conduct a variety of observations.
    In broad categories, it carries X-ray monitors to locate sources within 1 arc-sec, radio receivers
@@ -63,8 +73,8 @@
    (Investigator: S. N. Kuznetsov, NIIYaF-MSU) has three components. The SONG is to measure solar Gamma
    rays in the 0.03-100 MeV band through a total of 250 channels, the neutrons in the range 3.0-100 MeV
    through five channels, and electrons in the 11-108 MeV range through six channels. The second component,
-   MKL is to capture protons in the range 1-300 MeV, electrons in the 0.5-12 MeV, protons at >10 MeV,
-   and electrons at >1.3 MeV. The third component, SKI-3 is to ascertain the chemical composition in
+   MKL is to capture protons in the range 1-300 MeV, electrons in the 0.5-12 MeV, protons at &gt;10 MeV,
+   and electrons at &gt;1.3 MeV. The third component, SKI-3 is to ascertain the chemical composition in
    the Z = 1-10 group in the 1.5-20 MeV ions. It has a channel for 1.5-19 MeV protons.
   
    The RES-K instrument (Investogator: I. A. Zhitnik (LPI) is a X-ray spectroheliograph to provide high
@@ -92,27 +102,31 @@
    of this observatory, CORONAS-I (KORONAS-I, 1994-041A) was launched in 1994, but its functionality
    was crippled by orientation control failure a few months after launch.
 </Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Victor.N.Oraevsky</PersonID>
-                <Role>GeneralContact</Role>
-</Contact>
-   <InformationURL>
-    <Name>CORONAS-F web page at the  Lebedev Physical Institute (FIAN)</Name>
-    <URL>http://coronas.izmiran.ru/F/</URL>
-    <Description>Detailed information about CORONAS-F.</Description>
-    <Language>English</Language>
-</InformationURL>
-   <InformationURL>
-    <Name>NSSDC's Master Catalog</Name>
-    <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2001-032A</URL>
-</InformationURL>
-</ResourceHeader>
-         <Location>
-            <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
-</Location>
-  <OperatingSpan>
-   <StartDate>2001-07-31T08:00:00Z</StartDate>
-</OperatingSpan>
-</Observatory>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Victor.N.Oraevsky</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>CORONAS-F web page at the  Lebedev Physical Institute (FIAN)</Name>
+        <URL>http://coronas.izmiran.ru/F/</URL>
+        <Description>Detailed information about CORONAS-F.</Description>
+        <Language>English</Language>
+      </InformationURL>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2001-032A</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/CORONAS-F</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+    </Location>
+    <OperatingSpan>
+      <StartDate>2001-07-31T08:00:00Z</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>
-

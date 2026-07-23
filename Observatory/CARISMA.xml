@@ -1,15 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/CARISMA</ResourceID>
     <ResourceHeader>
       <ResourceName>CARISMA</ResourceName>
-	  <AlternateName>Canadian Array for Realtime Investigations of Magnetic Activity</AlternateName>
-	  <AlternateName>CANOPUS</AlternateName>
-	  <AlternateName>Canadian Auroral Network for the OPEN (Origins of Plasmas in Earth’s Neighborhood) Program Unified Study</AlternateName>
-	  
-      <ReleaseDate>2010-09-24T21:42:55Z</ReleaseDate>
+      <AlternateName>Canadian Array for Realtime Investigations of Magnetic Activity</AlternateName>
+      <AlternateName>CANOPUS</AlternateName>
+      <AlternateName>Canadian Auroral Network for the OPEN (Origins of Plasmas in Earth’s Neighborhood) Program Unified Study</AlternateName>
+      <ReleaseDate>2026-07-20T16:22:36Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2010-09-24T21:42:55Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:36Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>CARISMA (Canadian Array for Realtime Investigations of Magnetic Activity) is the magnetometer 
 	  element of the Geospace Observatory Canada project.
 
@@ -34,15 +43,20 @@ latitudes is affected by regions further from the Earth than those measured at l
         <PersonID>spase://SMWG/Person/Ian.Mann</PersonID>
         <Role>PrincipalInvestigator</Role>
       </Contact>
-	  <Contact>
+      <Contact>
         <PersonID>spase://SMWG/Person/Andy.Kale</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
-	  <InformationURL>
+      <InformationURL>
         <Name>Canadian Array for Realtime Investigations of Magnetic Activity Homepage</Name>
         <URL>http://www.carisma.ca</URL>
         <Description>Detailed information about the CARISMA Array.</Description>
-	  </InformationURL>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/CARISMA</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
     </ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>

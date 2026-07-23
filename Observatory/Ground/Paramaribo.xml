@@ -1,40 +1,49 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
-   <Version>2.7.1</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/Paramaribo</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Paramaribo</ResourceName>
-         <AlternateName>Observatory Station Code: PAB</AlternateName>
-         <ReleaseDate>2026-07-10T10:52:34</ReleaseDate>
-         <RevisionHistory>
-            <RevisionEvent>
-               <ReleaseDate>2026-07-10T10:52:34</ReleaseDate>
-               <Note>Changed description TLK</Note>
-            </RevisionEvent>
-         </RevisionHistory>
-         <Description>The Paramaribo geophysical observatory; Observatory Station Code: PAB.</Description>
-         <Acknowledgement>Please acknowledge:  Paramaribo Observatory Director</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/WDC/Director.Paramaribo.Observatory</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <PriorID>spase://SMWG/Observatory/WDC/Paramaribo</PriorID>
-      </ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>5.81</Latitude>
-         <Longitude>304.778</Longitude>
-      </Location>
-      <OperatingSpan>
-         <StartDate>1964-01-01T00:00:00.000</StartDate>
-      </OperatingSpan>
-   </Observatory>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/Paramaribo</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Paramaribo</ResourceName>
+      <AlternateName>Observatory Station Code: PAB</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:42Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-10T10:52:34</ReleaseDate>
+            <Note>Changed description TLK</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:42Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Paramaribo geophysical observatory; Observatory Station Code: PAB.</Description>
+      <Acknowledgement>Please acknowledge:  Paramaribo Observatory Director</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/WDC/Director.Paramaribo.Observatory</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_Paramaribo</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Observatory/WDC/Paramaribo</PriorID>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>5.81</Latitude>
+      <Longitude>304.778</Longitude>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1964-01-01T00:00:00.000</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

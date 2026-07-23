@@ -1,17 +1,32 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/IGPPLANL/San.Gabriel.Dam</ResourceID>
     <ResourceHeader>
       <ResourceName>IGPP-LANL San Gabriel Dam Magnetometer</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:25:17Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:25:17Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>San Gabriel Dam (SGD) Magnetometer Station is located in Los Angeles, California, USA.</Description>
       <Acknowledgement>The SGD magnetometer is operated by UCLA.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Peter.J.Chi</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/IGPPLANL_San.Gabriel.Dam</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
     </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/IGPPLANL</ObservatoryGroupID>
     <Location>
@@ -19,6 +34,6 @@
       <CoordinateSystemName>WGS84</CoordinateSystemName>
       <Latitude>34.2</Latitude>
       <Longitude>-117.85</Longitude>
-</Location>
-</Observatory>
+    </Location>
+  </Observatory>
 </Spase>

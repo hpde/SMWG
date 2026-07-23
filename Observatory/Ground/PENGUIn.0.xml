@@ -1,44 +1,59 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
-   <Version>2.2.8</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/PENGUIn.0</ResourceID>
-      <ResourceHeader>
-         <ResourceName>PENGUIn-0 Geophysical Observatory</ResourceName>
-		 <AlternateName>Observatory Station Code: PG0</AlternateName>
-         <ReleaseDate>2018-09-06T12:34:56.789</ReleaseDate>
-         <Description>PENGUIn-0 (PG0) Geophysical Observatory</Description>
-         <Acknowledgement>Please acknowledge: Virginia Tech</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/C.Robert.Clauer</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
-            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
-            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
-         </InformationURL>
-		 <InformationURL>
-			<Name>Polar Experimental Network for Geospace Upper Atmosphere Investigations Homepage</Name>
-			<URL>http://mist.nianet.org/index.html</URL>
-			<Description>Information about the PENGUIn magnetometers.</Description>
-		 </InformationURL>
-      </ResourceHeader>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/PENGUIn</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>-83.7</Latitude>
-         <Longitude>88.7</Longitude>
-         <Elevation>2549.0</Elevation>
-      </Location>
-      <OperatingSpan>
-         <StartDate>2014-12-28T00:00:00.000</StartDate>
-      </OperatingSpan>
-   </Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/PENGUIn.0</ResourceID>
+    <ResourceHeader>
+      <ResourceName>PENGUIn-0 Geophysical Observatory</ResourceName>
+      <AlternateName>Observatory Station Code: PG0</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:43Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2018-09-06T12:34:56.789</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:43Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>PENGUIn-0 (PG0) Geophysical Observatory</Description>
+      <Acknowledgement>Please acknowledge: Virginia Tech</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/C.Robert.Clauer</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+        <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+        <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Polar Experimental Network for Geospace Upper Atmosphere Investigations Homepage</Name>
+        <URL>http://mist.nianet.org/index.html</URL>
+        <Description>Information about the PENGUIn magnetometers.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_PENGUIn.0</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/PENGUIn</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>-83.7</Latitude>
+      <Longitude>88.7</Longitude>
+      <Elevation>2549.0</Elevation>
+    </Location>
+    <OperatingSpan>
+      <StartDate>2014-12-28T00:00:00.000</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

@@ -1,44 +1,59 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/Poste.de.la.Baleine</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Poste-de-la-Baleine</ResourceName>
-         <AlternateName>Observatory Station Code: PBQ</AlternateName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
-         <Description>The Poste-de-la-Baleine geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge:  Geological Survey of Canada</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lorne.McKee</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-</Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-</Contact>
-   <InformationURL>
-   <Name>Overview of the CANadian Magnetic Observatory System</Name>
-   <URL>https://geomag.nrcan.gc.ca/obs/canmos-en.php</URL>
-   <Description>Description of nearly all aspects of the magnetometer array.</Description>
-</InformationURL>
-         <PriorID>spase://SMWG/Observatory/WDC/Poste.de.la.Baleine</PriorID>
-</ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
-   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/CANMOS</ObservatoryGroupID>
-   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>55.277</Latitude>
-         <Longitude>282.255</Longitude>
-   <Elevation>40.0</Elevation>
-</Location>
-      <OperatingSpan>
-         <StartDate>1984-09-01T00:00:00.000</StartDate>
-   <StopDate>2007-06-30T23:59:59</StopDate>
-   <Note>Exact stop date is unknown.</Note>
-</OperatingSpan>
-</Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/Poste.de.la.Baleine</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Poste-de-la-Baleine</ResourceName>
+      <AlternateName>Observatory Station Code: PBQ</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:45Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:45Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Poste-de-la-Baleine geophysical observatory.</Description>
+      <Acknowledgement>Please acknowledge:  Geological Survey of Canada</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lorne.McKee</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Overview of the CANadian Magnetic Observatory System</Name>
+        <URL>https://geomag.nrcan.gc.ca/obs/canmos-en.php</URL>
+        <Description>Description of nearly all aspects of the magnetometer array.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_Poste.de.la.Baleine</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Observatory/WDC/Poste.de.la.Baleine</PriorID>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/CANMOS</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>55.277</Latitude>
+      <Longitude>282.255</Longitude>
+      <Elevation>40.0</Elevation>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1984-09-01T00:00:00.000</StartDate>
+      <StopDate>2007-06-30T23:59:59</StopDate>
+      <Note>Exact stop date is unknown.</Note>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

@@ -1,19 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_6_1.xsd">
-   <Version>2.6.1</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/UNH</ResourceID>
-      <ResourceHeader>
-         <ResourceName>University of New Hampshire Observatory</ResourceName>
-         <ReleaseDate>2024-07-21T12:25:20</ReleaseDate>
-         <Description>University of New Hampshire Observatory is an astronomical observatory owned and operated by the University of New Hampshire. It is located in Durham, New Hampshire (USA) near the old Durham Reservoir.</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/John.S.Gianforte</PersonID>
-            <Role>HostContact</Role>
-         </Contact>
-      </ResourceHeader>
-      <Location>
-         <ObservatoryRegion>Earth.Moon</ObservatoryRegion>
-      </Location>
-   </Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/UNH</ResourceID>
+    <ResourceHeader>
+      <ResourceName>University of New Hampshire Observatory</ResourceName>
+      <ReleaseDate>2026-07-20T16:22:59Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2024-07-21T12:25:20</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:59Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>University of New Hampshire Observatory is an astronomical observatory owned and operated by the University of New Hampshire. It is located in Durham, New Hampshire (USA) near the old Durham Reservoir.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/John.S.Gianforte</PersonID>
+        <Role>HostContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/UNH</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Moon</ObservatoryRegion>
+    </Location>
+  </Observatory>
 </Spase>

@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
-  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_4.xsd">
-  <Version>2.2.4</Version>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_4.xsd">
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Apollo15-LM</ResourceID>
     <ResourceHeader>
@@ -12,7 +11,17 @@
       <AlternateName>LM-10</AlternateName>
       <AlternateName>Falcon</AlternateName>
       <AlternateName>Rover 15</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:35Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:35Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>The Apollo 15 lunar module (LM) "Falcon" was the fourth crewed vehicle to land on the Moon. It carried two astronauts,
         Commander David R. Scott and LM pilot James B. Irwin, the seventh and eighth men to walk on the Moon. The LM also carried a Lunar Roving
         Vehicle (LRV), an Apollo Lunar Surface Experiments Package (ALSEP) that contained scientific experiments to be deployed and left on the
@@ -113,15 +122,20 @@
       <Contact>
         <PersonID>spase://SMWG/Person/David.R.Williams</PersonID>
         <Role>GeneralContact</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C</URL>
         <Description>Information about the Apollo 15 Lunar Module/ALSEP</Description>
-</InformationURL>
-</ResourceHeader>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Apollo15-LM</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
     <Location>
-            <ObservatoryRegion>Earth.Moon</ObservatoryRegion>
-</Location>
-</Observatory>
+      <ObservatoryRegion>Earth.Moon</ObservatoryRegion>
+    </Location>
+  </Observatory>
 </Spase>

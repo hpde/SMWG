@@ -8,7 +8,7 @@
     <ResourceHeader>
       <ResourceName>Communication/Navigation Outage Forecasting System (C/NOFS)</ResourceName>
       <AlternateName>Coupled Ion Neutral Dynamics Investigation (CINDI)</AlternateName>
-      <ReleaseDate>2026-05-22T16:40:59Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:37Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
@@ -17,6 +17,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-05-22T16:40:59Z</ReleaseDate>
           <Note>Added new Contact:Role(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:37Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>The Communications/Navigation Outage Forecasting System (C/NOFS) is spacecraft launched April 16, 2008, into an inclined orbit with perigee/apogee of 400/700 km and a 95-minute period to monitor and forecast ionospheric scintillation in real-time and on a global scale. The DOD Space Test Program provides the spacecraft, launch vehicle, launch and first year on-orbit operations. The US Air Force Research Laboratory is responsible for the multi-instrument payload, payload integration and test, model development, data center operations, and product generation and distribution.
@@ -56,6 +60,11 @@ Both the Neutral Wind Meter (NWM) and the Ion Velocity Meter (IVM) are provided 
         <Name>Journal of Atmospheric and Solar-Terrestrial Physics Article</Name>
         <URL>https://linkinghub.elsevier.com/retrieve/pii/S1364682604001695</URL>
         <Description>Information about the C/NOFS mission</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/CNOFS</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

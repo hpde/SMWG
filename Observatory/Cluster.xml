@@ -1,17 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Cluster</ResourceID>
     <ResourceHeader>
       <ResourceName>Cluster Mission</ResourceName>
       <AlternateName>Cluster II</AlternateName>
-      <ReleaseDate>2011-02-07T00:50:41Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:37Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2011-02-07T00:50:41Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:37Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>The four similar spacecraft of the Cluster II mission are part of ESA's and NASA's Solar-Terrestrial Science Program (STSP). The current Cluster II mission is a near-replica of the original four-spacecraft mission lost at launch in 1996. (NSSDC will carry the name "Cluster96" in its information files to designate the unsuccessful 1996 four-spacecraft Ariane 5 launch.) The purpose of the Cluster II mission is to study small-scale structures in three dimensions in the Earth's plasma environment, such as those involved in the interaction between the solar wind and the magnetospheric plasma, in global magnetotail dynamics, in cross-tail currents, and in the formation and dynamics of the neutral line and of plasmoids.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Melvyn.L.Goldstein</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Cluster</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
     </ResourceHeader>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>

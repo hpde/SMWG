@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/MGS</ResourceID>
     <ResourceHeader>
@@ -8,7 +8,17 @@
       <AlternateName>1996-062A</AlternateName>
       <AlternateName>MGS</AlternateName>
       <AlternateName>1996-062A</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:49Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:49Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>The Mars Global Surveyor (MGS) orbited Mars over a seven year period and collected data on the surface morphology, topography, composition, gravity, atmospheric dynamics, and magnetic field. This data is used to investigate the surface processes, geology, distribution of material, internal properties, evolution of the magnetic field, and the weather and climate of Mars.
      
 Spacecraft and Subsystems
@@ -25,18 +35,22 @@ After launch on a Delta 7925 (a Delta II Lite launch vehicle with nine strap-on 
 
 After aerobraking ended in February 1999, MGS was in a 118 minute circular polar science mapping orbit with an index altitude of 378 km. The orbit is sun-synchronous (2 a.m./2 p.m.) and maps over the 2 p.m. crossing from south to north (instead of north to south as originally planned). The orbit has a 7 day near-repeat cycle so Mars will be mapped in 26 day cycles. Science mapping began in mid-March 1999, which was summer in the northern hemisphere on Mars. The primary mission lasted one martian year (687 Earth days) through January, 2001. An extended mission took place until April 2002, further extensions were added until contact with the spacecraft was lost on 2 November 2006.</Description>
       <Contact>
-        <!-- Arden Albee -->
         <PersonID>spase://SMWG/Person/Arden.L.Albee</PersonID>
         <Role>ProjectScientist</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1996-062A</URL>
         <Description>Information about the Mars Global Surveyor mission</Description>
-</InformationURL>
-</ResourceHeader>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/MGS</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
     <Location>
       <ObservatoryRegion>Heliosphere.Outer</ObservatoryRegion>
-</Location>
-</Observatory>
+    </Location>
+  </Observatory>
 </Spase>

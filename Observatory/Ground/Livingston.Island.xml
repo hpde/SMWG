@@ -1,45 +1,60 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/Livingston.Island</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Livingston Island</ResourceName>
-         <AlternateName>Observatory Station Code: LIV</AlternateName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
-         <Description>The Livingston Island geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge:  Ebro Observatory, Spain</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/J.Miquel.Torta</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-</Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Santiago.Marsal.Vinade</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-</Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-</Contact>
-   <InformationURL>
-            <Name>Home pagefor Observatori de l'Ebre</Name>
-            <URL>http://www.obsebre.es/ca/</URL>
-            <Description>Information about Observatori de l'Ebre.</Description>
-</InformationURL>
-         <PriorID>spase://SMWG/Observatory/WDC/Livingston.Island</PriorID>
-</ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>-62.662</Latitude>
-         <Longitude>299.605</Longitude>
-   <Elevation>19.4</Elevation>
-</Location>
-      <OperatingSpan>
-         <StartDate>1996-12-01T00:00:00.000</StartDate>
-</OperatingSpan>
-</Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/Livingston.Island</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Livingston Island</ResourceName>
+      <AlternateName>Observatory Station Code: LIV</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:35Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:35Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Livingston Island geophysical observatory.</Description>
+      <Acknowledgement>Please acknowledge:  Ebro Observatory, Spain</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/J.Miquel.Torta</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Santiago.Marsal.Vinade</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Home pagefor Observatori de l'Ebre</Name>
+        <URL>http://www.obsebre.es/ca/</URL>
+        <Description>Information about Observatori de l'Ebre.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_Livingston.Island</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Observatory/WDC/Livingston.Island</PriorID>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>-62.662</Latitude>
+      <Longitude>299.605</Longitude>
+      <Elevation>19.4</Elevation>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1996-12-01T00:00:00.000</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

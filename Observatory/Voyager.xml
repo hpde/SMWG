@@ -7,7 +7,7 @@
     <ResourceType>Observatory</ResourceType>
     <ResourceHeader>
       <ResourceName>Voyager Spacecraft</ResourceName>
-      <ReleaseDate>2026-05-28T10:20:21Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:23:00Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
@@ -16,6 +16,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-05-28T10:20:21Z</ReleaseDate>
           <Note>Added new Contact(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:00Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>Voyager 1 and 2 was a pair of spacecraft launched to explore the planets of the outer solar system and the interplanetary environment. Each Voyager had as its major objectives at each planet to: (1) investigate the circulation, dynamics, structure, and composition of the planet's atmosphere; (2) characterize the morphology, geology, and physical state of the satellites of the planet; (3) provide improved values for the mass, size, and shape of the planet, its satellites, and any rings; and, (4) determine the magnetic field structure and characterize the composition and distribution of energetic trapped particles and plasma therein.
@@ -43,6 +47,11 @@ Each Voyager has mounted to one of the sides of the bus a 12-inch gold-plated co
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1977-076A</URL>
         <Description>Information about the Voyager 2 mission</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Voyager</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

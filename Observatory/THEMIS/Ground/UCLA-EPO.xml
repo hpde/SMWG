@@ -1,12 +1,22 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-EPO</ResourceID>
     <ResourceHeader>
       <ResourceName>THEMIS-EPO</ResourceName>
       <AlternateName>NASA THEMIS EPO Ground Stations</AlternateName>
-      <ReleaseDate>2011-02-17T12:34:56.789</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:25:26Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2011-02-17T12:34:56.789</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:25:26Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>Stations with Educational Public Outreach magnetometers operated by UCLA. EPO magnetometers should be used carefully, as they may be subject to environmental noise.</Description>
       <Acknowledgement>We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically:S. Mende and C. T. Russell for use of the GMAG data</Acknowledgement>
       <Contact>
@@ -30,6 +40,11 @@
         <Name>THEMIS Web Site</Name>
         <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
         <Description>Description of GMAGS on THEMIS web site.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/THEMIS_Ground_UCLA-EPO</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

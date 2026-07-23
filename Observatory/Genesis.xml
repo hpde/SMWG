@@ -1,13 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Genesis</ResourceID>
     <ResourceHeader>
       <ResourceName>Genesis</ResourceName>
       <AlternateName>2001-034A</AlternateName>
       <AlternateName>Genesis Solar Wind Sample Return</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:41Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:41Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>The parachute on the Genesis sample return capsule failed to deploy on re-entry. The capsule crashed in the Utah desert. The fragments from the sample return container have been packaged for shipment to Johnson Space Center's curation facility in early October. Scientists are optimistic that they will be able to salvage useful data from the samples.
 
 The primary objective of the Genesis mission is to collect samples of solar wind particles and return them to Earth for detailed analysis. The science objectives are to obtain precise measurements of solar isotopic and elemental abundances and provide a reservoir of solar matter for future scientific analysis. Specifically, the primary scientific objectives were to obtain precise measurements of isotope ratios of oxygen, nitrogen, and solar wind isotopic fractionation. Study of these samples will allow testing of theories of solar system formation and evolution and early nebular composition. A total sample mass of roughly 10 to 20 micrograms is expected.
@@ -54,15 +64,20 @@ Genesis was the fifth launch in NASA's Discovery program. The total cost of the 
       <Contact>
         <PersonID>spase://SMWG/Person/Donald.S.Burnett</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2001-034A</URL>
         <Description>Information about the Genesis mission</Description>
-</InformationURL>
-</ResourceHeader>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Genesis</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
-</Location>
-</Observatory>
+    </Location>
+  </Observatory>
 </Spase>

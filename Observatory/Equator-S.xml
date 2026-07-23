@@ -9,7 +9,7 @@
       <ResourceName>Equator-S</ResourceName>
       <AlternateName>ISTP/Equator-S</AlternateName>
       <AlternateName>25068</AlternateName>
-      <ReleaseDate>2026-05-22T16:41:00Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:40Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
@@ -18,6 +18,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-05-22T16:41:00Z</ReleaseDate>
           <Note>Added new Contact(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:40Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>Equator-S is an element of the International Solar-Terrestrial Physics (ISTP) program. Spacecraft design, manufacturing and
@@ -66,6 +70,11 @@
         <Name>Equator-S Overview Homepage</Name>
         <URL>http://www.mpe.mpg.de/35012/Equator-S</URL>
         <Description>Detailed information about the Equator-S mission.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Equator-S</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

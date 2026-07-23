@@ -1,43 +1,58 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/The.Pas</ResourceID>
-      <ResourceHeader>
-         <ResourceName>The Pas</ResourceName>
-         <AlternateName>Flin Flon</AlternateName>
-         <AlternateName>Observatory Station Code: TPAS</AlternateName>
-         <ReleaseDate>2019-02-15T12:34:56.789</ReleaseDate>
-         <Description>The The Pas geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically: S. Mende and C. T. Russell for use of the data</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
-            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
-            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
-         </InformationURL>
-         <PriorID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-GBO/TPAS</PriorID>
-      </ResourceHeader>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>53.994</Latitude>
-         <Longitude>259.059</Longitude>
-      </Location>
-      <OperatingSpan>
-         <StartDate>2006-01-01T00:00:00.000</StartDate>
-      </OperatingSpan>
-   </Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/The.Pas</ResourceID>
+    <ResourceHeader>
+      <ResourceName>The Pas</ResourceName>
+      <AlternateName>Flin Flon</AlternateName>
+      <AlternateName>Observatory Station Code: TPAS</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:54Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-02-15T12:34:56.789</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:54Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The The Pas geophysical observatory.</Description>
+      <Acknowledgement>Please acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically: S. Mende and C. T. Russell for use of the data</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Vassilis.Angelopoulos</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Christopher.T.Russell</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+        <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+        <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_The.Pas</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-GBO/TPAS</PriorID>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>53.994</Latitude>
+      <Longitude>259.059</Longitude>
+    </Location>
+    <OperatingSpan>
+      <StartDate>2006-01-01T00:00:00.000</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

@@ -1,40 +1,55 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_0.xsd">
-   <Version>2.3.0</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/AUGSBURG/BAS.A81</ResourceID>
-      <ResourceHeader>
-         <ResourceName>BAS A81</ResourceName>
-         <ReleaseDate>2019-04-28T12:34:56.789Z</ReleaseDate>
-         <Description>BAS A81 (A81) Geomagnetic Observatory at about 81.5 GLat, 3.0 East Glong.</Description>
-         <Acknowledgement>Please acknowledge Mark J. Engebretson, Department of Physics, Augsburg College, 2211 Riverside Avenue, Minneapolis, MN 55454-1338, USA for providing access to BAS A81 data resources.</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Mark.J.Engebretson</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>AGO Home Page</Name>
-            <URL>http://space.augsburg.edu/searchcoil/about.html</URL>
-            <Description>Automatic Geophysical Observatory, AGO, Array Information Web Site hosted by the University of Maryland</Description>
-         </InformationURL>
-         <Association>
-            <AssociationID>spase://SMWG/Observatory/Ground/AUGSBURG</AssociationID>
-            <AssociationType>PartOf</AssociationType>
-         </Association>
-      </ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/AUGSBURG</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>-81.5</Latitude>
-         <Longitude>3.0</Longitude>
-      </Location>
-      <OperatingSpan>
-         <StartDate>1996-01-11T00:00:00.000Z</StartDate>
-      </OperatingSpan>
-   </Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/AUGSBURG/BAS.A81</ResourceID>
+    <ResourceHeader>
+      <ResourceName>BAS A81</ResourceName>
+      <ReleaseDate>2026-07-20T16:23:01Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-04-28T12:34:56.789Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:01Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>BAS A81 (A81) Geomagnetic Observatory at about 81.5 GLat, 3.0 East Glong.</Description>
+      <Acknowledgement>Please acknowledge Mark J. Engebretson, Department of Physics, Augsburg College, 2211 Riverside Avenue, Minneapolis, MN 55454-1338, USA for providing access to BAS A81 data resources.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Mark.J.Engebretson</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>AGO Home Page</Name>
+        <URL>http://space.augsburg.edu/searchcoil/about.html</URL>
+        <Description>Automatic Geophysical Observatory, AGO, Array Information Web Site hosted by the University of Maryland</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/AUGSBURG_BAS.A81</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <Association>
+        <AssociationID>spase://SMWG/Observatory/Ground/AUGSBURG</AssociationID>
+        <AssociationType>PartOf</AssociationType>
+      </Association>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/AUGSBURG</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>-81.5</Latitude>
+      <Longitude>3.0</Longitude>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1996-01-11T00:00:00.000Z</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

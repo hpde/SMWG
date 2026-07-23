@@ -5,11 +5,15 @@
     <ResourceID>spase://SMWG/Observatory/AMISR</ResourceID>
     <ResourceHeader>
       <ResourceName>Advanced Modular Incoherent Scatter Radar (AMISR)</ResourceName>
-      <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:34Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
           <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:34Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>AMISR is a modular, mobile radar facility that is used by scientists and students from around the world to conduct studies of the upper atmosphere and ionosphere and to observe space weather events.
@@ -25,6 +29,11 @@ Future AMISR locations will be determined by a scientific advisory panel assembl
       <InformationURL>
         <Name>AMISR Home Page</Name>
         <URL>https://amisr.com/amisr/</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/AMISR</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

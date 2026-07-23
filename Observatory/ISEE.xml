@@ -1,11 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/ISEE</ResourceID>
     <ResourceHeader>
       <ResourceName>ISEE Mission</ResourceName>
-      <ReleaseDate>2010-10-01T20:05:54Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:46Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2010-10-01T20:05:54Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:46Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>The Explorer-class spacecraft, International Sun-Earth Explorer, that were part of the mother/daughter/heliocentric mission (ISEE 1, ISEE 2, ISEE 3). The purposes of the mission were:
 
             * (1) to investigate solar-terrestrial relationships at the outermost boundaries of the Earth's magnetosphere,
@@ -18,6 +28,11 @@ The three spacecraft carried a number of complementary instruments for making me
         <PersonID>spase://SMWG/Person/Keith.W.Ogilvie</PersonID>
         <Role>ProjectScientist</Role>
       </Contact>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/ISEE</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
     </ResourceHeader>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>

@@ -9,7 +9,7 @@
       <ResourceName>Radiation Belt Storm Probe Satellite</ResourceName>
       <AlternateName>Radiation Belt Storm Probe</AlternateName>
       <AlternateName>Van Allen Probes</AlternateName>
-      <ReleaseDate>2026-05-28T10:20:21Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:53Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
@@ -18,6 +18,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-05-28T10:20:21Z</ReleaseDate>
           <Note>Added new Contact(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:53Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>The Van Allen Probes (formerly known as the Radiation Belt Storm Probes (RBSP)) are two robotic spacecraft being used to study the Van Allen radiation belts that surround Earth. NASA is conducting the Van Allen Probes mission as part of the Living With a Star program. Understanding the radiation belt environment and its variability has important practical applications in the areas of spacecraft operations, spacecraft system design, mission planning and astronaut safety. The probes were launched on August 30, 2012</Description>
@@ -33,6 +37,11 @@
         <Name>Mission Web Pages</Name>
         <URL>http://vanallenprobes.jhuapl.edu/index.php</URL>
         <Description>Mission Web Page</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/RBSP</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

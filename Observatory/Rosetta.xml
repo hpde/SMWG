@@ -8,7 +8,7 @@
     <ResourceHeader>
       <ResourceName>Rosetta</ResourceName>
       <AlternateName>Rosetta Comet Rendezvous</AlternateName>
-      <ReleaseDate>2026-05-22T16:41:02Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:54Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2020-04-05T12:34:56.789Z</ReleaseDate>
@@ -17,6 +17,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-05-22T16:41:02Z</ReleaseDate>
           <Note>Added new Contact:Role(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:54Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>Rosetta was European Space Agency, ESA, Horizon 2000 cornerstone mission number 3 designed to rendezvous with Comet 67 P/Churyumov-Gerasimenko, drop a probe on the surface, study the comet from orbit, and fly by at least one asteroid en route. The principal goals are to study the origin of comets, the relationship between cometary and interstellar material, and its implications with regard to the origin of the solar system. Its scientific objectives to achieve these goals are:
@@ -64,6 +68,11 @@ Rosetta was funded by the European Space Agency. The total cost of the mission i
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2004-006A</URL>
         <Description>Information about the Rosetta spacecraft and the overall mission</Description>
         <Language>en</Language>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Rosetta</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

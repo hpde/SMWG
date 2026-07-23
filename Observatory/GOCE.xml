@@ -5,11 +5,15 @@
     <ResourceID>spase://SMWG/Observatory/GOCE</ResourceID>
     <ResourceHeader>
       <ResourceName>Gravity Field and Steady-State Ocean Circulation Explorer (GOCE)</ResourceName>
-      <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:42Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
           <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:42Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>ESA's Gravity field and Ocean Circulation Explorer (GOCE) orbited as close to Earth as possible - just 260 km up - to maximise its sensitivity to variations in Earth's gravity field with unprecedented accuracy and spatial resolution. GOCE's state-of-the-art gradiometer mapped Earth's geoid very accurately, opening a window into Earth's interior structure as well as the currents circulating within the depths of its oceans.
@@ -22,6 +26,11 @@ GOCE was launched on 17 March 2009 and came to an end on 21 October 2013 when it
       <InformationURL>
         <Name>GOCE Home Page</Name>
         <URL>https://earth.esa.int/eogateway/missions/goce</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/GOCE</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

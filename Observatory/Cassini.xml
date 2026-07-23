@@ -8,7 +8,7 @@
     <ResourceHeader>
       <ResourceName>Cassini</ResourceName>
       <AlternateName>Cassini Orbiter</AlternateName>
-      <ReleaseDate>2026-05-22T16:41:00Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:36Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2020-04-05T12:34:56.789Z</ReleaseDate>
@@ -17,6 +17,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-05-22T16:41:00Z</ReleaseDate>
           <Note>Added new Contact:Role(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:36Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>The Cassini Orbiter mission consists of delivering the Huygens probe, which was provided by the European Space Agency, ESA, to Titan, and then remaining in orbit around Saturn for detailed studies of the planet and its rings and satellites. The principal objectives are to:
@@ -62,6 +66,11 @@ Although some data will be transmitted in real time, much science data and space
         <URL>https://solarsystem.nasa.gov/missions/cassini/overview/</URL>
         <Description>Cassini page at JPL</Description>
         <Language>en</Language>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Cassini</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
       <PriorID>spase://nssdc/observatory/1997-061A</PriorID>
     </ResourceHeader>

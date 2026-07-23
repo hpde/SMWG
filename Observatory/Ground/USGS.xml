@@ -1,12 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.9</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Ground/USGS</ResourceID>
     <ResourceHeader>
       <ResourceName>United State Geological Survey</ResourceName>
       <AlternateName>USGA</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:23:57Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:57Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>The USGS Geomagnetism Program currently operates 14 magnetic observatories.
    Magnetometer data are collected at these facilities, and the data are then transmitted to
    Program headquarters in Golden Colorado. The geographic distribution of the Program’s
@@ -16,26 +26,31 @@
    of availability of land, communication and operational logistics, and the relative
    locations of observatories operated by other foreign-national programs.</Description>
       <Acknowledgement>United State Geological Survey National Geomagnetism Program</Acknowledgement>
-   <Contact>
+      <Contact>
         <PersonID>spase://SMWG/Person/Carol.A.K.Finn</PersonID>
         <Role>TeamLeader</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
         <Role>MetadataContact</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>Overview of the USGS Geomagnetism Program Array</Name>
         <URL>https://www.usgs.gov/natural-hazards/geomagnetism</URL>
         <Description>Description and location of the magnetometer array.</Description>
-</InformationURL>
-</ResourceHeader>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_USGS</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-</Location>
- <OperatingSpan>
-  <StartDate>1807-02-10T12:00:00Z</StartDate>
-  <Note>Exact start date is unknown.</Note>
-</OperatingSpan>
-</Observatory>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1807-02-10T12:00:00Z</StartDate>
+      <Note>Exact start date is unknown.</Note>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

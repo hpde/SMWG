@@ -1,12 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Ground/GIMA</ResourceID>
     <ResourceHeader>
       <ResourceName>Geophysical Institute Magnetometer Array</ResourceName>
       <AlternateName>GIMA</AlternateName>
-      <ReleaseDate>2019-02-18T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:23:25Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-02-18T00:00:00Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:25Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>The Geophysical Institute of the University of Alaska operates 
 	  magnetometer sites at locations across Alaska and Western Canada. Originally 
 	  established as the Alaska Meridian Chain, the number of sites has increased 
@@ -14,7 +24,7 @@
 	  In addition to fluxgate magnetometer, all-sky cameras, Meridian Scanning 
 	  Photometers and other instruments are occasionally operated at the sites.</Description>
       <Acknowledgement>Magnetometer data, Geophysical Institute, UAF; Alaska Satellite Facility</Acknowledgement>
-	  <Contact>
+      <Contact>
         <PersonID>spase://SMWG/Person/Donald.Hampton</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
@@ -27,9 +37,14 @@
         <URL>https://www.gi.alaska.edu/monitors/magnetometer</URL>
         <Description>Description of the magnetometer array.</Description>
       </InformationURL>
-	  <PriorID>spase://SMWG/Observatory/GIMA</PriorID>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_GIMA</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Observatory/GIMA</PriorID>
     </ResourceHeader>
-	<ObservatoryGroupID>spase://SMWG/Observatory/Ground/GIMA</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GIMA</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
     </Location>

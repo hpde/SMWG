@@ -1,13 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Yohkoh</ResourceID>
     <ResourceHeader>
       <ResourceName>Yohkoh</ResourceName>
       <AlternateName>1991-062A</AlternateName>
       <AlternateName>Solar-A</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:23:01Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:01Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>The objective of Yohkoh (Japanese for sunbeam) is to study the high-energy radiations from solar flares (hard and soft X-rays and energetic neutrons) as well as quiet structures and pre-flare conditions. The mission is a successor to Hinotori, a previous Japanese spacecraft flown at the previous solar activity maximum in 1981.
 
 Yohkoh is a three-axis stabilized observatory-type satellite in a nearly-circular Earth orbit, carrying four instruments: two imagers and two spectrometers. The spacecraft is a rectangular solid about 2 m square and 4 m long. The imaging instruments have almost full-Sun fields of view, to avoid missing any flares on the visible disk of the Sun. The hard X-ray telescope is a multi-grid synthesis type with a spatial resolution of 7 arcsec, operating in the 20 - 80 keV range. The soft X-ray telescope uses grazing-incidence optics and achieves 4 arcsec spatial resolution, operating in the 0.1 - 4 keV range and using 1024 x 1024-pixel CCDs. US solar physicists at Lockheed Palo Alto Research Laboratory are collaborating in the soft X-ray telescope production and data analysis. There is also a continuum spectrometer for X-rays and gamma-rays from 3 keV to 20 MeV (also sensitive to neutrons) and a Bragg crystal spectrometer for the X-ray lines Fe XXV, Fe XXVI, Ca XIX, and S XV.
@@ -28,16 +38,21 @@ ftp://umbra.nascom.nasa.gov/pub/yohkoh/doc/uguide.ps</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Keizo.Kai</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1991-062A</URL>
         <Description>Information about the Yohkoh mission</Description>
-</InformationURL>
-</ResourceHeader>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Yohkoh</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
       <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
-</Location>
-</Observatory>
+    </Location>
+  </Observatory>
 </Spase>

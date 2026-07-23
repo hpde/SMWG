@@ -5,11 +5,15 @@
     <ResourceID>spase://SMWG/Observatory/BBSO</ResourceID>
     <ResourceHeader>
       <ResourceName>Big Bear Solar Observatory (BBSO)</ResourceName>
-      <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:36Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
           <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:36Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>
@@ -22,6 +26,11 @@
       <InformationURL>
         <Name>BBSO Home Page</Name>
         <URL>https://www.bbso.njit.edu/</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/BBSO</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

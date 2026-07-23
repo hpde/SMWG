@@ -1,36 +1,51 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/Pedeli</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Pedeli</ResourceName>
-         <AlternateName>Penteli</AlternateName>
-         <AlternateName>Observatory Station Code: PEG</AlternateName>
-         <ReleaseDate>2018-09-06T12:34:56.789</ReleaseDate>
-         <Description>The Pedeli geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge:  ::UNKNOWN::</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Panos.Tsailas</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <PriorID>spase://SMWG/Observatory/WDC/Penteli</PriorID>
-      </ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>38.08</Latitude>
-         <Longitude>23.93</Longitude>
-		 <Elevation>380</Elevation>
-      </Location>
-      <OperatingSpan>
-         <StartDate>1999-01-01T00:00:00.000</StartDate>
-      </OperatingSpan>
-   </Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/Pedeli</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Pedeli</ResourceName>
+      <AlternateName>Penteli</AlternateName>
+      <AlternateName>Observatory Station Code: PEG</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:43Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2018-09-06T12:34:56.789</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:43Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Pedeli geophysical observatory.</Description>
+      <Acknowledgement>Please acknowledge:  ::UNKNOWN::</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Panos.Tsailas</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_Pedeli</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Observatory/WDC/Penteli</PriorID>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>38.08</Latitude>
+      <Longitude>23.93</Longitude>
+      <Elevation>380</Elevation>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1999-01-01T00:00:00.000</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

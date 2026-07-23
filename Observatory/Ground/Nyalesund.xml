@@ -1,38 +1,53 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/Nyalesund</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Nyalesund</ResourceName>
-         <AlternateName>Observatory Station Code: NAL</AlternateName>
-         <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
-         <Description>The Nyalesund geophysical observatory.</Description>
-         <Acknowledgement>Tromso Geophysical Observatory, University of Tromso, Norway</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/TGO.Editor</PersonID>
-            <Role>Publisher</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>Nyalesund Vector Magnetic Field Data</Name>
-            <URL>http://flux.phys.uit.no/geomag.html</URL>
-            <Description>Main menu for access to magnetic field data</Description>
-         </InformationURL>
-      </ResourceHeader>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/TGO</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>78.92</Latitude>
-         <Longitude>11.93</Longitude>
-         <Elevation>10.0</Elevation>
-      </Location>
-      <OperatingSpan>
-         <StartDate>1980-01-18T00:00:00.000</StartDate>
-      </OperatingSpan>
-   </Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/Nyalesund</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Nyalesund</ResourceName>
+      <AlternateName>Observatory Station Code: NAL</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:41Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-04-24T12:34:56.789Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:41Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Nyalesund geophysical observatory.</Description>
+      <Acknowledgement>Tromso Geophysical Observatory, University of Tromso, Norway</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/TGO.Editor</PersonID>
+        <Role>Publisher</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Nyalesund Vector Magnetic Field Data</Name>
+        <URL>http://flux.phys.uit.no/geomag.html</URL>
+        <Description>Main menu for access to magnetic field data</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_Nyalesund</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/TGO</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>78.92</Latitude>
+      <Longitude>11.93</Longitude>
+      <Elevation>10.0</Elevation>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1980-01-18T00:00:00.000</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

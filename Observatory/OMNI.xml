@@ -1,11 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/OMNI</ResourceID>
     <ResourceHeader>
       <ResourceName>OMNI</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:51Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:51Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>The OMNI observatory is a virtual observatory representing the collection of spacecraft used in the creation of the OMNI datasets. 
             The observatories used within the OMNI datasets are ACE, Wind, IMP8, Geotail, GOES and various other spacecraft. For any given time period
             OMNI uses a selection criteria to select the "best" available data to be used.  Thus, a data record may consist of data from multiple
@@ -15,36 +25,41 @@
       <Contact>
         <PersonID>spase://SMWG/Person/Joseph.H.King</PersonID>
         <Role>Scientist</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>Overview of High Resolution OMNI</Name>
         <URL>https://omniweb.gsfc.nasa.gov/html/HROdocum.html</URL>
         <Description>Description of the instruments and processing techniques used in the creation of high resolution OMNI</Description>
-</InformationURL>
+      </InformationURL>
       <InformationURL>
         <Name>Overview of Low Resolution OMNI</Name>
         <URL>https://omniweb.gsfc.nasa.gov/html/ow_data.html</URL>
         <Description>Description of the instruments and processing techniques used in the creation of low resolution OMNI</Description>
-</InformationURL>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/OMNI</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
       <Association>
         <AssociationID>spase://SMWG/Observatory/ACE</AssociationID>
         <AssociationType>PartOf</AssociationType>
-</Association>
+      </Association>
       <Association>
         <AssociationID>spase://SMWG/Observatory/Wind</AssociationID>
         <AssociationType>PartOf</AssociationType>
-</Association>
+      </Association>
       <Association>
         <AssociationID>spase://SMWG/Observatory/IMP8</AssociationID>
         <AssociationType>PartOf</AssociationType>
-</Association>
+      </Association>
       <Association>
         <AssociationID>spase://SMWG/Observatory/Geotail</AssociationID>
         <AssociationType>PartOf</AssociationType>
-</Association>
-</ResourceHeader>
+      </Association>
+    </ResourceHeader>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
-</Location>
-</Observatory>
+    </Location>
+  </Observatory>
 </Spase>

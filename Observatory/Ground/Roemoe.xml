@@ -1,47 +1,62 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/Roemoe</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Roemoe</ResourceName>
-         <AlternateName>Observatory Station Code: ROE</AlternateName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
-         <Description>The Roemoe geophysical observatory.</Description>
-         <Acknowledgement>Tromso Geophysical Observatory, University of Tromso, Norway</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Claudia.Stolle</PersonID>
-            <Role>PrincipalInvestigator</Role>
-</Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Juergen.Matzka</PersonID>
-            <Role>PrincipalInvestigator</Role>
-</Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-</Contact>
-   <InformationURL>
-     <Name>Tromsø Geophysical Observatory</Name>
-     <URL>http://flux.phys.uit.no/geomag.html</URL>
-     <Description>Requestion form for magnetometer data, plots, indices, maps, etc.</Description>
-</InformationURL>
-         <InformationURL>
-            <Name>Roemoe Vector Magnetic Field Data</Name>
-            <URL>https://www.space.dtu.dk/English/Research/Scientific_data_and_models/Magnetic_Ground_Stations.aspx</URL>
-            <Description>Main menu for access to magnetic field data</Description>
-</InformationURL>
-</ResourceHeader>
-   <ObservatoryGroupID>spase://SMWG/Observatory/Ground/TGO</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>55.172</Latitude>
-         <Longitude>8.55</Longitude>
-         <Elevation>1.0</Elevation>
-</Location>
-      <OperatingSpan>
-         <StartDate>2009-01-29T00:00:00.000</StartDate>
-</OperatingSpan>
-</Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/Roemoe</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Roemoe</ResourceName>
+      <AlternateName>Observatory Station Code: ROE</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:48Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:48Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Roemoe geophysical observatory.</Description>
+      <Acknowledgement>Tromso Geophysical Observatory, University of Tromso, Norway</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Claudia.Stolle</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Juergen.Matzka</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Tromsø Geophysical Observatory</Name>
+        <URL>http://flux.phys.uit.no/geomag.html</URL>
+        <Description>Requestion form for magnetometer data, plots, indices, maps, etc.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Roemoe Vector Magnetic Field Data</Name>
+        <URL>https://www.space.dtu.dk/English/Research/Scientific_data_and_models/Magnetic_Ground_Stations.aspx</URL>
+        <Description>Main menu for access to magnetic field data</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_Roemoe</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/TGO</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>55.172</Latitude>
+      <Longitude>8.55</Longitude>
+      <Elevation>1.0</Elevation>
+    </Location>
+    <OperatingSpan>
+      <StartDate>2009-01-29T00:00:00.000</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

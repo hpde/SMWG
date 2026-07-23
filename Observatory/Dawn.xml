@@ -7,7 +7,7 @@
     <ResourceType>Observatory</ResourceType>
     <ResourceHeader>
       <ResourceName>Dawn</ResourceName>
-      <ReleaseDate>2026-05-22T16:41:00Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:37Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2020-04-05T12:34:56.789Z</ReleaseDate>
@@ -16,6 +16,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-05-22T16:41:00Z</ReleaseDate>
           <Note>Added new Contact:Role(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:37Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>Dawn is a mission designed to rendezvous and orbit the asteroids 4 Vesta and 1 Ceres. The scientific objectives of the mission are to characterize the asteroids' internal structure, density, shape, size, composition, and mass and to return data on surface morphology, cratering, and magnetism. These measurements will help determine the thermal history, size of the core, role of water in asteroid evolution, and what meteorites found on Earth come from these bodies with the ultimate goal of understanding the conditions and processes present at the solar system's earliest epoch and the role of water content and size in planetary evolution. The data returned will include for both asteroids:
@@ -55,6 +59,11 @@ Launch from Cape Canaveral on a Delta 2 (7925-H) took place on September 27, 200
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2007-043A</URL>
         <Description>Information about the Dawn spacecraft and the overall mission</Description>
         <Language>en</Language>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Dawn</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

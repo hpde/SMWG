@@ -1,12 +1,22 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/THEMIS/Ground/UCLA-EPO/CCNV</ResourceID>
     <ResourceHeader>
       <ResourceName>NASA THEMIS EPO Carson City Station</ResourceName>
       <AlternateName>CCNV</AlternateName>
-      <ReleaseDate>2010-09-24T21:22:14Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:25:27Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2010-09-24T21:22:14Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:25:27Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>Carson City (CCNV) station is located in Carson City, Nevada, USA.  This station has an Educational Public Outreach magnetometer operated by UCLA.  EPO magnetometers should be used carefully, as they may be subject to environmental noise.
 Magnetic Latitude: 45.0
 Magnetic Longitude: 303.51
@@ -35,6 +45,11 @@ Magnetic coordinates obtained by calculation using the CGM online calculator wit
         <Name>THEMIS Web Site</Name>
         <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
         <Description>Description of GMAGS on THEMIS web site.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/THEMIS_Ground_UCLA-EPO_CCNV</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
       <PriorID>spase://VMOU/Observatory/THEMIS/Ground-Magnetometers/EPO/CCNV</PriorID>
       <PriorID>spase://SMWG/Observatory/THEMIS-Ground/UCLA-EPO/CCNV</PriorID>

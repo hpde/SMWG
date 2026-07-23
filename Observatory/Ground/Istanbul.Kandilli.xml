@@ -1,40 +1,55 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/Istanbul.Kandilli</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Istanbul-Kandilli</ResourceName>
-         <AlternateName>Observatory Station Code: ISK</AlternateName>
-         <ReleaseDate>2018-07-09T12:34:56.789</ReleaseDate>
-         <Description>The Istanbul-Kandilli geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge:  Iznik Geomagnetic Observatory, Bogazici University Kandilli Observatory and E.R.I.</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Mustafa.Kemal.Tuncer</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Burhan.Calayan</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <PriorID>spase://SMWG/Observatory/WDC/Istanbul.Kandilli</PriorID>
-      </ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>41.063</Latitude>
-         <Longitude>29.062</Longitude>
-      </Location>
-      <OperatingSpan>
-         <StartDate>1946-01-01T00:00:00.000</StartDate>
-		 <StopDate>1998-01-01T23:59:59.000</StopDate>
-      </OperatingSpan>
-   </Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/Istanbul.Kandilli</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Istanbul-Kandilli</ResourceName>
+      <AlternateName>Observatory Station Code: ISK</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:30Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2018-07-09T12:34:56.789</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:30Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Istanbul-Kandilli geophysical observatory.</Description>
+      <Acknowledgement>Please acknowledge:  Iznik Geomagnetic Observatory, Bogazici University Kandilli Observatory and E.R.I.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Mustafa.Kemal.Tuncer</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Burhan.Calayan</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_Istanbul.Kandilli</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Observatory/WDC/Istanbul.Kandilli</PriorID>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>41.063</Latitude>
+      <Longitude>29.062</Longitude>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1946-01-01T00:00:00.000</StartDate>
+      <StopDate>1998-01-01T23:59:59.000</StopDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

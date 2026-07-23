@@ -1,13 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Prognoz9</ResourceID>
     <ResourceHeader>
       <ResourceName>Prognoz 9</ResourceName>
       <AlternateName>1983-067A</AlternateName>
       <AlternateName>Relict</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:53Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:53Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>This spacecraft was one of a continuing Prognoz series to measure electromagnetic radiation, magnetic fields, plasma, and charged particles. Although the specifics on all experiments are not available, it is known that a hard X-ray spectrometer, a magnetic field measuring experiment, and an 8-mm radio telescope were flown on Prognoz 9, and possibly a plasma experiment was also on board. The spacecraft was spin-stabilized, with a period of approximately two minutes, and the spin axis was oriented toward the sun. The initial apogee distance was 720,000 km, and the period was 27 days.
      
       Launch Date: 1983-07-01 at 12:14:00 UTC
@@ -28,27 +38,32 @@ Power supply of the board instrumentation is provided by solar batteries (4 plan
       <Contact>
         <PersonID>spase://SMWG/Person/Albert.A.Galeev</PersonID>
         <Role>ProjectScientist</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Jan.Merka</PersonID>
         <Role>MetadataContact</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1983-067A</URL>
         <Description>Information about the Prognoz 9 mission</Description>
-</InformationURL>
+      </InformationURL>
       <InformationURL>
         <Name>Prognoz spacecraft mission overview</Name>
         <URL>http://arc.iki.rssi.ru/history/prognoz.html</URL>
         <Description>Historical mission overview of Prognoz missions at IKI website</Description>
-</InformationURL>
-</ResourceHeader>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Prognoz9</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/Prognoz</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
       <ObservatoryRegion>Earth.Magnetosheath</ObservatoryRegion>
       <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
-</Location>
-</Observatory>
+    </Location>
+  </Observatory>
 </Spase>

@@ -1,55 +1,64 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_6_0.xsd">
-   <Version>2.6.1</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/MEASURE/Clarkson.University</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Clarkson University Geomagnetic Observatory</ResourceName>
-         <ReleaseDate>2024-10-07T12:34:56.789</ReleaseDate>
-         <RevisionHistory>
-            <RevisionEvent>
-               <ReleaseDate>2022-02-24T12:34:56.789</ReleaseDate>
-               <Note>MEASURE Observatory: Delete obsolete http://www-ssc.igpp.ucla.edu/gem/worldmag/measure.html Information URL. Metadata submitted by J.M. Weygand on 2022-02-23, reviewed by LFB</Note>
-            </RevisionEvent>
-            <RevisionEvent>
-               <ReleaseDate>2024-02-22T12:34:56.789</ReleaseDate>
-               <Note>Corrected TemporalDescription TimeSpan StartDate information, Metadata versioned up to SPASE 2.6.0, LFB 20240222</Note>
-            </RevisionEvent>
-			<RevisionEvent>
-               <ReleaseDate>2024-10-07T12:34:56.789</ReleaseDate>
-               <Note>Added StopDate Information. Updated metadata to 2.6.1. JMW.</Note>
-            </RevisionEvent>
-         </RevisionHistory>
-         <Description>The Clarkson University, CLK, Geomagnetic Observatory. Clarkson University, Potsdam, NY.</Description>
-         <Acknowledgement>Please acknowledge Mark Moldwin, Institute of Geophysics and Planetary Physics and the Department of Earth and Space Sciences, University of California, Los Angeles, Los Angeles, CA 90095-1567 for providing access to Clarkson University data resources.</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Mark.Moldwin</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-		 <InformationURL>
-            <Name>The Clarkson University observatory information.</Name>
-            <URL>https://doi.org/10.1029/2004JA010684</URL>
-            <Description>The Clarkson University geomagnetic observatory information.</Description>
-         </InformationURL>
-      </ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/MEASURE</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>44.700</Latitude>
-         <Longitude>-75.000</Longitude>
-      </Location>
-      <OperatingSpan>
-         <StartDate>1999-06-16T00:00:00</StartDate>
-		 <StopDate>2003-07-28T23:59:59</StopDate>
-      </OperatingSpan>
-   </Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/MEASURE/Clarkson.University</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Clarkson University Geomagnetic Observatory</ResourceName>
+      <ReleaseDate>2026-07-20T16:25:20Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2022-02-24T12:34:56.789</ReleaseDate>
+          <Note>MEASURE Observatory: Delete obsolete http://www-ssc.igpp.ucla.edu/gem/worldmag/measure.html Information URL. Metadata submitted by J.M. Weygand on 2022-02-23, reviewed by LFB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2024-02-22T12:34:56.789</ReleaseDate>
+          <Note>Corrected TemporalDescription TimeSpan StartDate information, Metadata versioned up to SPASE 2.6.0, LFB 20240222</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2024-10-07T12:34:56.789</ReleaseDate>
+          <Note>Added StopDate Information. Updated metadata to 2.6.1. JMW.</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:25:20Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Clarkson University, CLK, Geomagnetic Observatory. Clarkson University, Potsdam, NY.</Description>
+      <Acknowledgement>Please acknowledge Mark Moldwin, Institute of Geophysics and Planetary Physics and the Department of Earth and Space Sciences, University of California, Los Angeles, Los Angeles, CA 90095-1567 for providing access to Clarkson University data resources.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Mark.Moldwin</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The Clarkson University observatory information.</Name>
+        <URL>https://doi.org/10.1029/2004JA010684</URL>
+        <Description>The Clarkson University geomagnetic observatory information.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/MEASURE_Clarkson.University</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/MEASURE</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>44.700</Latitude>
+      <Longitude>-75.000</Longitude>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1999-06-16T00:00:00</StartDate>
+      <StopDate>2003-07-28T23:59:59</StopDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

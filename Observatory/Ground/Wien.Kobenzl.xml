@@ -1,41 +1,56 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-   <Version>2.2.2</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/Wien.Kobenzl</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Wien Kobenzl</ResourceName>
-         <AlternateName>Observatory Station Code: WIK</AlternateName>
-         <ReleaseDate>2019-03-08T12:34:56.789</ReleaseDate>
-         <Description>The Wien Kobenzl geophysical observatory.</Description>
-         <Acknowledgement>Please acknowledge:  Zentralanstalt fur Meteorologie und Geodynamik, Vienna, Austria</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Barbara.Leichter</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Josef.Berger</PersonID>
-            <Role>GeneralContact</Role>
-            <Role>DataProducer</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <PriorID>spase://SMWG/Observatory/WDC/Wien.Kobenzl</PriorID>
-      </ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>48.265</Latitude>
-         <Longitude>16.318</Longitude>
-		 <Elevation>400.0</Elevation>
-      </Location>
-      <OperatingSpan>
-         <StartDate>1955-01-01T00:00:00.000</StartDate>
-	     <StopDate>2015-12-31T23:59:59.000</StopDate>
-      </OperatingSpan>
-   </Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/Wien.Kobenzl</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Wien Kobenzl</ResourceName>
+      <AlternateName>Observatory Station Code: WIK</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:59Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-03-08T12:34:56.789</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:59Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Wien Kobenzl geophysical observatory.</Description>
+      <Acknowledgement>Please acknowledge:  Zentralanstalt fur Meteorologie und Geodynamik, Vienna, Austria</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Barbara.Leichter</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Josef.Berger</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_Wien.Kobenzl</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Observatory/WDC/Wien.Kobenzl</PriorID>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>48.265</Latitude>
+      <Longitude>16.318</Longitude>
+      <Elevation>400.0</Elevation>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1955-01-01T00:00:00.000</StartDate>
+      <StopDate>2015-12-31T23:59:59.000</StopDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

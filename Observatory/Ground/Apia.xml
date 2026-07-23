@@ -1,34 +1,55 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
-   <Version>2.7.1</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/WDC/Apia</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Apia Ground Observatory</ResourceName>
-         <ReleaseDate>2026-07-10T11:10:49</ReleaseDate>
-         <RevisionHistory>
-            <RevisionEvent>
-               <ReleaseDate>2026-07-10T11:10:49</ReleaseDate>
-               <Note>Updated description TLK</Note>
-            </RevisionEvent>
-         </RevisionHistory>
-         <Description>The Apia Observatory is a historic scientific institution located on the Mulinu&#039;u Peninsula in Apia, Samoa, known for hosting one of the longest continuous climate and geomagnetic data sets in the world.</Description>
-         <Acknowledgement>Institute of Geological Nuclear Sciences Ltd, Wellington, New Zealand</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lester.Tomlinson</PersonID>
-            <Role>GeneralContact</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-      </ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/WDC</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>-13.807</Latitude>
-         <Longitude>188.225</Longitude>
-      </Location>
-   </Observatory>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/Apia</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Apia</ResourceName>
+      <AlternateName>Observatory Station Code: API</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:13Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-10T11:10:49</ReleaseDate>
+              <Note>Updated description TLK</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:13Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Apia Observatory is a historic scientific institution located on the Mulinu&#039;u Peninsula in Apia, Samoa, known for hosting one of the longest continuous climate and geomagnetic data sets in the world.</Description>
+      <Acknowledgement>Please acknowledge:  Institute of Geological Nuclear Sciences Ltd, Wellington, New Zealand</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/L.Talia</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Tony.Hurst</PersonID>
+        <Role>GeneralContact</Role>
+        <Role>DataProducer</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_Apia</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Observatory/WDC/Apia</PriorID>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>-13.815</Latitude>
+      <Longitude>188.219</Longitude>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1921-01-01T00:00:00.000</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

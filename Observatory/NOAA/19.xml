@@ -1,25 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-    <Version>2.2.2</Version>
-    <Observatory>
-        <ResourceID>spase://SMWG/Observatory/NOAA/19</ResourceID>
-        <ResourceHeader>
-            <ResourceName>NOAA 19</ResourceName>
-            <AlternateName>2009-005A</AlternateName>
-            <AlternateName>NOAA-N Prime</AlternateName>
-            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
-            <Description>NOAA 19, or NOAA-N Prime, was launched 06 February 2009 at 10:22 UT aboard a Delta 2 rocket from Vandenberg. The 1440 kg satellite was built by Lockheed Martin Space Systems Company. The NOAA polar operational environmental satellites collect global data on: cloud cover; surface conditions such as ice, snow, and vegetation; atmospheric temperatures; and, moisture, aerosol, and ozone distributions. They also collect and relay information from fixed and moving data platforms. The instruments on-board NOAA 19 include two radiometers, the Advanced Very High Resolution Radiometer/3 (AVHRR/3) and the Solar Backscatter Ultraviolet Radiometer/2 (SBUV-2); three sounders, the High Resolution Infrared Radiation Sounder (HIRS/4), Advanced Microwave Sounding Unit-A (AMSU-A), and the Microwave Humidity Sounder (MHS); a space weather monitor, the Space Environment Monitor/2 (SEM-2); and an Advanced Data Collection System (ADCS). In addition, the satellite carries two search and rescue instruments: the Search and Rescue Repeater; and, the Search and Rescue Processor and three Digital Data Recorders.</Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
-                <Role>GeneralContact</Role>
-</Contact>
-            <InformationURL>
-                <Name>NSSDC's Master Catalog</Name>
-                <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2009-005A</URL>
-                <Description>Information about the NOAA 19 mission</Description>
-</InformationURL>
-</ResourceHeader>
-        <Location>
-            <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
-</Location>
-</Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/NOAA/19</ResourceID>
+    <ResourceHeader>
+      <ResourceName>NOAA 19</ResourceName>
+      <AlternateName>2009-005A</AlternateName>
+      <AlternateName>NOAA-N Prime</AlternateName>
+      <ReleaseDate>2026-07-20T16:25:23Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:25:23Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>NOAA 19, or NOAA-N Prime, was launched 06 February 2009 at 10:22 UT aboard a Delta 2 rocket from Vandenberg. The 1440 kg satellite was built by Lockheed Martin Space Systems Company. The NOAA polar operational environmental satellites collect global data on: cloud cover; surface conditions such as ice, snow, and vegetation; atmospheric temperatures; and, moisture, aerosol, and ozone distributions. They also collect and relay information from fixed and moving data platforms. The instruments on-board NOAA 19 include two radiometers, the Advanced Very High Resolution Radiometer/3 (AVHRR/3) and the Solar Backscatter Ultraviolet Radiometer/2 (SBUV-2); three sounders, the High Resolution Infrared Radiation Sounder (HIRS/4), Advanced Microwave Sounding Unit-A (AMSU-A), and the Microwave Humidity Sounder (MHS); a space weather monitor, the Space Environment Monitor/2 (SEM-2); and an Advanced Data Collection System (ADCS). In addition, the satellite carries two search and rescue instruments: the Search and Rescue Repeater; and, the Search and Rescue Processor and three Digital Data Recorders.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>NSSDC's Master Catalog</Name>
+        <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2009-005A</URL>
+        <Description>Information about the NOAA 19 mission</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/NOAA_19</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+    </Location>
+  </Observatory>
 </Spase>

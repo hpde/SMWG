@@ -1,14 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
-  xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-  <Version>2.2.2</Version>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Injun5</ResourceID>
     <ResourceHeader>
       <ResourceName>Injun 5</ResourceName>
       <AlternateName>Explorer 40</AlternateName>
       <AlternateName>Injun-C</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:45Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:45Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>Injun 5 (Explorer 40) was a 71-kg magnetically oriented spacecraft and was launched by a Scout rocket, together with a
         3.65-m inflatable balloon (Explorer 39) used for air density measurements. Injun 5 was designed to accomplish the following objectives:
         (1) comprehensive study of the downward flux of charged particles, (2) study of very low frequency (VLF) radio emission in the ionosphere
@@ -23,16 +32,21 @@
       <Contact>
         <PersonID>spase://SMWG/Person/James.A.Van.Allen</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1968-066B</URL>
         <Description>Information about the Injun 5 mission</Description>
-</InformationURL>
-</ResourceHeader>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Injun5</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
     <Location>
-            <ObservatoryRegion>Earth.NearSurface.Atmosphere</ObservatoryRegion>
-            <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
-</Location>
-</Observatory>
+      <ObservatoryRegion>Earth.NearSurface.Atmosphere</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Magnetosphere</ObservatoryRegion>
+    </Location>
+  </Observatory>
 </Spase>

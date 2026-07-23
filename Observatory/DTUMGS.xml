@@ -1,29 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/DTUMGS</ResourceID>
     <ResourceHeader>
       <ResourceName>Technical University of Denmark Magnetic Ground Stations</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:39Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:39Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>DTU Space is monitoring the Earth’s magnetic field with a network of ground stations in Greenland, Denmark, and the South Atlantic. An array with 17 stations at coastal locations is operated in Greenland, previously 5 stations were maintained on the Greenland Ice Cap in cooperation with Virginia Tech, USA. All stations provide full vector geomagnetic field information with 1 Hz resolution. THL, GDH, NAQ, BFE and TDC are geomagnetic observatories and calibrated to INTERMAGNET standards.</Description>
       <Acknowledgement>Technical University of Denmark (DTU); Dr. David Boteler</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Claudia.Stolle</PersonID>
         <Role>GeneralContact</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Juergen.Matzka</PersonID>
         <Role>GeneralContact</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>Overview of the DTU Magnetic Ground Stations</Name>
         <URL>https://www.space.dtu.dk/English/Research/Scientific_data_and_models/Magnetic_Ground_Stations.aspx</URL>
         <Description>Description of nearly all aspects of the DTU Magnetic Ground Stations including station locations, the instrumentation, and contact information.</Description>
-</InformationURL>
-</ResourceHeader>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/DTUMGS</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-</Location>
-</Observatory>
+    </Location>
+  </Observatory>
 </Spase>

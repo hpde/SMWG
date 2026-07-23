@@ -1,37 +1,50 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
-   <Version>2.7.1</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/PADRE</ResourceID>
-      <ResourceHeader>
-         <ResourceName>PADRE</ResourceName>
-         <AlternateName>Solar Polarization and Directivity X-Ray Experiment</AlternateName>
-         <ReleaseDate>2026-05-12T00:08:46</ReleaseDate>
-         <RevisionHistory>
-            <RevisionEvent>
-               <ReleaseDate>2026-05-30T00:08:46</ReleaseDate>
-               <Note>Updated the description. SY</Note>
-            </RevisionEvent>
-         </RevisionHistory>
-         <Description>The Solar Polarization and Directivity X-Ray Experiment (PADRE) is a NASA heliophysics CubeSat observatory designed to investigate the acceleration and angular distribution of high-energy electrons during solar flares through observations of hard X-ray (HXR) emission. PADRE is a 12U spinning CubeSat mission led by the Space Sciences Laboratory, University of California, Berkeley, in collaboration with NASA Goddard Space Flight Center (GSFC), Southwest Research Institute (SwRI), the University of Applied Sciences and Arts Northwestern Switzerland (FHNW), and CEA-Saclay.
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/PADRE</ResourceID>
+    <ResourceHeader>
+      <ResourceName>PADRE</ResourceName>
+      <AlternateName>Solar Polarization and Directivity X-Ray Experiment</AlternateName>
+      <ReleaseDate>2026-07-20T16:22:51Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2026-05-12T00:08:46Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-05-30T00:08:46</ReleaseDate>
+          <Note>Updated the description. SY</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:51Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Solar Polarization and Directivity X-Ray Experiment (PADRE) is a NASA heliophysics CubeSat observatory designed to investigate the acceleration and angular distribution of high-energy electrons during solar flares through observations of hard X-ray (HXR) emission. PADRE is a 12U spinning CubeSat mission led by the Space Sciences Laboratory, University of California, Berkeley, in collaboration with NASA Goddard Space Flight Center (GSFC), Southwest Research Institute (SwRI), the University of Applied Sciences and Arts Northwestern Switzerland (FHNW), and CEA-Saclay.
 
 PADRE measures both the polarization and directivity of solar flare hard X-rays to determine whether flare-accelerated electrons exhibit isotropic or anisotropic angular distributions. The mission carries two hard X-ray instruments: the Solar Hard X-ray Polarimeter (SHARP), which measures the polarization of non-thermal hard X-rays, and Measuring Directivity to Determine Electron Anisotropy (MeDDEA), which measures hard X-ray directivity using flight-spare STIX detector technology. Together, these instruments use the spinning spacecraft platform to improve polarization sensitivity and directional measurements. PADRE observations are intended to improve understanding of particle acceleration, magnetic reconnection, and energy release processes in solar flares, with applications to space weather research and forecasting.</Description>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Juan.C.Martinez-Oliveros</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <InformationURL>
-            <Name>PADRE Mission Web Page</Name>
-            <URL>https://padre.ssl.berkeley.edu/</URL>
-            <Description>Official PADRE mission website.</Description>
-         </InformationURL>
-      </ResourceHeader>
-      <Location>
-         <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
-      </Location>
-      <OperatingSpan>
-         <StartDate>2025-06-23T00:00:00</StartDate>
-         <Note>StartDate is the PADRE launch date.</Note>
-      </OperatingSpan>
-   </Observatory>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Juan.C.Martinez-Oliveros</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>PADRE Mission Web Page</Name>
+        <URL>https://padre.ssl.berkeley.edu/</URL>
+        <Description>Official PADRE mission website.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/PADRE</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+    </Location>
+    <OperatingSpan>
+      <StartDate>2025-06-23T00:00:00</StartDate>
+      <Note>StartDate is the PADRE launch date.</Note>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

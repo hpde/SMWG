@@ -1,13 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/ST5-224</ResourceID>
     <ResourceHeader>
       <ResourceName>ST5-224</ResourceName>
       <AlternateName>ST5-C</AlternateName>
       <AlternateName>2006-008C</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:57Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:57Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>
       ST5-224 is the last released of the three microsatellites in the Space Technology 5 mission of the American (NASA) New Millennium Program. They were launched at 14:04 UT on 22 March 2006 by a Pegasus XL rocket that was released from the belly of a Lockheed L-1011 plane flying out of Vandenberg AFB. Each, with a mass of 25 kg and power 20 W, is octagon-shaped (53 cm x 48 cm). Each is called a "full service" satellite, capable of orbit/attitude maneuver and radio links. In all, about 10 innovative, miniaturized technology advances were tested during the 90-day operational span. Among them are variable emittance coatings (to heat when cold and cool when hot), metal oxide logic circuits that can operate at 0.5 volts, miniature magnetometers, and miniature, spinning Sun-sensors. They orbit in a "string of pearls" formation.
      
@@ -19,23 +29,27 @@ sensor location less than 10 nT (d.c.), 5 nT (a.c.). The spacecraft carried a sc
       The ST5 constellation returned unprecedented data on the Earth's auroral currents as well as on the crustal magnetic field. ST5 provided for the first time simultaneous multi-point measurements of auroral electric currents at low altitudes, which allow us to separate temporal and spatial variations of these currents. ST5 provided a unique data set on the Earth's crustal magnetic field, which is a consequence of both the constellation flying, and the enhanced resolution from the low perigee, lower than any previous geomagnetism mission.
 </Description>
       <Contact>
-        <!-- Guan Le -->
         <PersonID>spase://SMWG/Person/Guan.Le</PersonID>
         <Role>ProjectScientist</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>ST5 Launch and Operations</Name>
         <URL>https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20070018186.pdf</URL>
-</InformationURL>
+      </InformationURL>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2006-008C</URL>
         <Description>NSSDC information about the ST5 mission</Description>
-</InformationURL>
-</ResourceHeader>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/ST5-224</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/ST5</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
-</Location>
-</Observatory>
+    </Location>
+  </Observatory>
 </Spase>

@@ -11,7 +11,7 @@
       <AlternateName>Neutral Point Explorer</AlternateName>
       <AlternateName>Injun-F</AlternateName>
       <AlternateName>Explorer 52</AlternateName>
-      <ReleaseDate>2026-05-28T10:20:21Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:43Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
@@ -20,6 +20,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-05-28T10:20:21Z</ReleaseDate>
           <Note>Added new Contact:Role(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:43Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>
@@ -41,6 +45,11 @@ The spacecraft was launched on June 3, 1974 into a polar orbit with initial apog
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1974-040A</URL>
         <Description>Information about the Hawkeye 1 mission</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Hawkeye</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

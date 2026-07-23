@@ -1,38 +1,53 @@
-<?xml version="1.0" encoding="UTF-8" ?> 
-  <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.9</Version> 
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
+  <Version>2.7.1</Version>
   <Observatory>
-	  <ResourceID>spase://SMWG/Observatory/Ground/GCRAS</ResourceID> 
-		  <ResourceHeader>
-		  <ResourceName>Geomagnetic Data Center Russia Ukraine</ResourceName> 
-		  <AlternateName>GCRAS</AlternateName>
-		  <ReleaseDate>2018-04-16T00:00:00Z</ReleaseDate> 
-		  <Description>The Inter-regional Geomagnetic Data Center of the Russian-Ukrainian 
+    <ResourceID>spase://SMWG/Observatory/Ground/GCRAS</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Geomagnetic Data Center Russia Ukraine</ResourceName>
+      <AlternateName>GCRAS</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:25Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2018-04-16T00:00:00Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:25Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Inter-regional Geomagnetic Data Center of the Russian-Ukrainian 
 		  INTERMAGNET segment is operated by the Geophysical Center of the Russian Academy 
 		  of Sciences (GC RAS). Geomagnetic data are transmitted from observatories and 
 		  stations located in Russia and Ukraine. The particular feature of the Center 
 		  is the automated system for real-time recognition of artificial (anthropogenic) 
-		  disturbances in incoming data.</Description> 
-		  <Acknowledgement>Please acknowledge: Russian-Ukrainian Geomagnetic Data Center (RUGDC) 
+		  disturbances in incoming data.</Description>
+      <Acknowledgement>Please acknowledge: Russian-Ukrainian Geomagnetic Data Center (RUGDC) 
 		  and Geophysical Center of the Russian Academy of Sciences (GC RAS)</Acknowledgement>
-		  <Contact>
-			  <PersonID>spase://SMWG/Person/UNKNOWN</PersonID> 
-			  <Role>GeneralContact</Role> 
-		  </Contact> 
-		  <InformationURL>
-			  <Name>Geomagnetic Data Center Russia Ukraine Homepage</Name> 
-			  <URL>http://geomag.gcras.ru/index.html</URL> 
-			  <Description>Information about the Geomagnetic Data Center Russia Ukraine.</Description> 
-		  </InformationURL>
-		</ResourceHeader>  
-		<Location>
-		  <ObservatoryRegion>Earth.NearSurface.AuroralRegion</ObservatoryRegion> 
-		  <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion> 
-		  <ObservatoryRegion>Earth.Surface</ObservatoryRegion> 
-		</Location>
-		<OperatingSpan>
-		<StartDate>1992-07-23T12:00:00Z</StartDate>
-		<Note>Start Date unknown..</Note>
-	</OperatingSpan>
+      <Contact>
+        <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Geomagnetic Data Center Russia Ukraine Homepage</Name>
+        <URL>http://geomag.gcras.ru/index.html</URL>
+        <Description>Information about the Geomagnetic Data Center Russia Ukraine.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_GCRAS</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.NearSurface.AuroralRegion</ObservatoryRegion>
+      <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1992-07-23T12:00:00Z</StartDate>
+      <Note>Start Date unknown..</Note>
+    </OperatingSpan>
   </Observatory>
-  </Spase>
+</Spase>

@@ -1,35 +1,50 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/ICESTAR/AGO.P2</ResourceID>
     <ResourceHeader>
       <ResourceName>AGO P2</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:25:16Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:25:16Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>AGO P2 Ground Observatory</Description>
       <Acknowledgement>Please acknowledge Theodore J. Rosenberg, Allan T. Weatherwax, Institute for Physical Science and Technology, University of Maryland, College Park, MD 20742-2431 for providing access to AGO P2 data resources.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Theodore.J.Rosenberg</PersonID>
         <Role>GeneralContact</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Allan.T.Weatherwax</PersonID>
         <Role>GeneralContact</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>AGO P2 ground observatory web site</Name>
         <URL>https://www.scar.org/science/icestar/</URL>
         <Description>AGO P2 ground observatory web site</Description>
-</InformationURL>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/ICESTAR_AGO.P2</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
       <Association>
         <AssociationID>spase://SMWG/Observatory/ICESTAR</AssociationID>
         <AssociationType>PartOf</AssociationType>
-</Association>
-</ResourceHeader>
+      </Association>
+    </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/ICESTAR</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
@@ -37,6 +52,6 @@
       <Latitude>-85.67</Latitude>
       <Longitude>31.62</Longitude>
       <Elevation>1859.0</Elevation>
-</Location>
-</Observatory>
+    </Location>
+  </Observatory>
 </Spase>

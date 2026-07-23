@@ -1,11 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Ground/TEIDE</ResourceID>
     <ResourceHeader>
       <ResourceName>TEIDE Observatory</ResourceName>
-      <ReleaseDate>2019-02-15T18:19:17Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:23:54Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-02-15T18:19:17Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:54Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>El Teide Observatory, Canary Islands Latitude N 028,18′,03.0″ 
 	  Longitude W 016,30′,43.0″ Elevation 2425.0m This Instituto Astrofisica de 
 	  Canarias (IAC) site is located near Izaña at an altitude of 2398m on the 
@@ -16,23 +26,28 @@
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
       </Contact>
-	  <InformationURL>
+      <InformationURL>
         <Name>Global Oscillation Network Group Homepage</Name>
         <URL>https://gong.nso.edu/</URL>
         <Description>Additional detailed information about the Global Oscillation Network Group.</Description>
-	  </InformationURL>
-	  <PriorID>spase://SMWG/Observatory/TEIDE</PriorID>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_TEIDE</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Observatory/TEIDE</PriorID>
     </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/GONG</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-	  <CoordinateSystemName>GEO</CoordinateSystemName>
-	  <Latitude>28.30</Latitude>
-	  <Longitude>16.51</Longitude>
-	  <Elevation>2398.0</Elevation>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>28.30</Latitude>
+      <Longitude>16.51</Longitude>
+      <Elevation>2398.0</Elevation>
     </Location>
-	<OperatingSpan>
-         <StartDate>2010-04-26T01:20:54.000</StartDate>
+    <OperatingSpan>
+      <StartDate>2010-04-26T01:20:54.000</StartDate>
     </OperatingSpan>
   </Observatory>
 </Spase>

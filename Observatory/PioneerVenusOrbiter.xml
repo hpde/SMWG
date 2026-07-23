@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
   <Version>2.7.1</Version>
   <Observatory>
@@ -12,15 +12,19 @@
       <AlternateName>PVO</AlternateName>
       <AlternateName>Pioneer 12</AlternateName>
       <AlternateName>Pioneer Venus 1978 Orbiter</AlternateName>
-      <ReleaseDate>2026-06-01T20:36:19Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:52Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
           <Note>Only known prior ReleaseDate of the metadata</Note>
         </RevisionEvent>
         <RevisionEvent>
-          <ReleaseDate>2026-05-28T10:20:21Z</ReleaseDate>
+          <ReleaseDate>2026-06-01T20:36:19Z</ReleaseDate>
           <Note>Added new Contact(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:52Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>The Pioneer Venus Orbiter was the first of a two-spacecraft orbiter-probe combination designed to conduct a comprehensive investigation of the atmosphere of Venus. The spacecraft was a solar-powered cylinder about 250 cm in diameter with its spin axis spin-stabilized perpendicular to the ecliptic plane. A high-gain antenna was mechanically despun to remain focused on the earth. The instruments were mounted on a shelf within the spacecraft except for a magnetometer mounted at the end of a boom to ensure against magnetic interference from the spacecraft. Pioneer Venus Orbiter measured the detailed structure of the upper atmosphere and ionosphere of Venus, investigated the interaction of the solar wind with the ionosphere and the magnetic field in the vicinity of Venus, determined the characteristics of the atmosphere and surface of Venus on a planetary scale, determined the planet's gravitational field harmonics from perturbations of the spacecraft orbit, and detected gamma-ray bursts. UV observations of comets have also been made. From Venus orbit insertion on December 4, 1978 to July 1980 periapsis was held between 142 and 253 km to facilitate radar and ionospheric measurements. Thereafter, the periapsis was allowed to rise (to 2290 km at maximum) and then fall, to conserve fuel. In 1991 the Radar Mapper was reactivated to investigate previously inaccessible southern portions of the planet. In May 1992 Pioneer Venus began the final phase of its mission, in which the periapsis was held between 150 and 250 km until the fuel ran out and atmospheric entry destroyed the spacecraft the following August. The orbiter cost $125 million to build and operate for the first 10 years. For further details see Colin, L. and Hunten, D. M., Space Science Reviews 20, 451, 1977.</Description>
@@ -36,6 +40,16 @@
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1978-051A</URL>
         <Description>Information about the Pioneer Venus Orbiter mission</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/PioneerVenusOrbiter</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/PioneerVenusOrbiter</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/Pioneer</ObservatoryGroupID>

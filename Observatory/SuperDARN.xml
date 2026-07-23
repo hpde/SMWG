@@ -1,11 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/SuperDARN</ResourceID>
     <ResourceHeader>
       <ResourceName>SuperDARN</ResourceName>
-      <ReleaseDate>2010-08-05T18:19:11Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:57Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2010-08-05T18:19:11Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:57Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>The SuperDARN program involves an array of 14 northern 
 hemisphere radars and 7 southern hemisphere radars, and techniques 
 for and uncertainties in deriving geophysical parameters from raw 
@@ -17,6 +27,11 @@ radar data.</Description>
       <InformationURL>
         <Name>SuperDARN web page at JHU_APL</Name>
         <URL>http://superdarn.jhuapl.edu/index.html</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/SuperDARN</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

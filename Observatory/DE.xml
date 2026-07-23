@@ -8,7 +8,7 @@
     <ResourceHeader>
       <ResourceName>Dynamics Explorer Mission</ResourceName>
       <AlternateName>DE</AlternateName>
-      <ReleaseDate>2026-05-22T16:41:00Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:38Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2018-05-03T20:37:33.475</ReleaseDate>
@@ -17,6 +17,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-05-22T16:41:00Z</ReleaseDate>
           <Note>Added new Contact:Role(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:38Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>The Dynamics Explorer (DE) mission's general objective is to 
@@ -37,6 +41,11 @@
         <Name>Space Science Instrumentation Article</Name>
         <URL>https://spdf.gsfc.nasa.gov/pub/data/de/documents/HoffmanEtAl_1981_DESpacecraftAndGroundOps_SpaceScienceInstrumentation.pdf</URL>
         <Description>Detailed Information about the Dynamics Explorer mission.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/DE</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

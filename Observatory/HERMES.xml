@@ -5,11 +5,15 @@
     <ResourceID>spase://SMWG/Observatory/HERMES</ResourceID>
     <ResourceHeader>
       <ResourceName>Heliophysics Environmental and Radiation Measurement Experiment Suite (HERMES)</ResourceName>
-      <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:44Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
           <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:44Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>HERMES is a space weather instrument package that will be placed on the Gateway, an orbital outpost which will support Artemis lunar operations. One of the first research payloads to fly on Gateway, HERMES is developed by NASA’s Heliophysics Division to observe solar particles and the solar wind. The first two Gateway modules to launch to the Moon, the Power and Propulsion Element and the Habitation and Logistics Outpost, will carry three research payloads, with HERMES and European Radiation Sensors Array (ERSA) flying outside the lunar space station, and Internal Dosimeter Array (IDA) flying inside.
@@ -21,6 +25,11 @@ The Gateway lunar space station will support Artemis lunar operations while demo
       <InformationURL>
         <Name>HERMES Home Page</Name>
         <URL>https://science.nasa.gov/mission/hermes/</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/HERMES</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

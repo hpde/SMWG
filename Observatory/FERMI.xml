@@ -7,7 +7,7 @@
     <ResourceType>Observatory</ResourceType>
     <ResourceHeader>
       <ResourceName>Fermi Gamma-ray Space Telescope</ResourceName>
-      <ReleaseDate>2026-05-28T10:20:21Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:41Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
@@ -16,6 +16,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-05-28T10:20:21Z</ReleaseDate>
           <Note>Added new Contact(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. ZCB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:41Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>The Fermi Gamma-ray Space Telescope is a probe-class international and multi-agency observatory launched in 2008 that surveys the dynamic gamma-ray sky across energies from about 8 keV to over 300 GeV. Equipped with the Large Area Telescope and the Gamma-ray Burst Monitor, Fermi delivers rapid all-sky coverage roughly every three hours while retaining the ability to point at specific targets. Its science program includes mapping the gamma-ray sky and its background, investigating blazars and other active galactic nuclei, studying pulsars, tracking gamma-ray bursts, exploring the nature of dark matter, and examining particle acceleration in novae. As the successor to the Compton Gamma-ray Observatory from NASA's Great Observatories program, Fermi has operated with high reliability and no significant performance degradation, has no mission-limiting consumables, and makes its data immediately and publicly available to enable a broad range of astrophysical research.</Description>
@@ -30,6 +34,11 @@
       <InformationURL>
         <Name>Fermi Home Page</Name>
         <URL>https://fermi.gsfc.nasa.gov/overview.html</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/FERMI</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

@@ -1,42 +1,51 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2_4_0.xsd">
-   <Version>2.4.0</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/IGPPLANL/Teoloyucan</ResourceID>
-      <ResourceHeader>
-         <ResourceName>IGPP-LANL Teoloyucan Magnetometer</ResourceName>
-         <ReleaseDate>2022-02-24T12:34:56.789</ReleaseDate>
-         <RevisionHistory>
-            <RevisionEvent>
-               <ReleaseDate>2022-02-24T12:34:56.789</ReleaseDate>
-               <Note>IGPPLANL Observatory: Delete obsolete http://spc.igpp.ucla.edu/uclamag/ Information URL. Metadata submitted by J.M. Weygand on 2022-02-23, reviewed by LFB</Note>
-            </RevisionEvent>
-         </RevisionHistory>
-         <Description>The Teoloyucan, TEO, Magnetometer Station is located in Teoloyucan, Mexico.</Description>
-         <Acknowledgement>The TEO magnetometer is operated by Universidad Nacional Autonoma de Mexico, UNAM.</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Peter.J.Chi</PersonID>
-            <Role>GeneralContact</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-      </ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/IGPPLANL</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>WGS84</CoordinateSystemName>
-         <Latitude>19.74</Latitude>
-         <Longitude>-99.19</Longitude>
-      </Location>
-      <OperatingSpan>
-         <StartDate>2002-01-01T00:00:00</StartDate>
-         <Note>No information available. Start and Stop date are unclear.</Note>
-      </OperatingSpan>
-   </Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/IGPPLANL/Teoloyucan</ResourceID>
+    <ResourceHeader>
+      <ResourceName>IGPP-LANL Teoloyucan Magnetometer</ResourceName>
+      <ReleaseDate>2026-07-20T16:25:18Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2022-02-24T12:34:56.789</ReleaseDate>
+          <Note>IGPPLANL Observatory: Delete obsolete http://spc.igpp.ucla.edu/uclamag/ Information URL. Metadata submitted by J.M. Weygand on 2022-02-23, reviewed by LFB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:25:18Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Teoloyucan, TEO, Magnetometer Station is located in Teoloyucan, Mexico.</Description>
+      <Acknowledgement>The TEO magnetometer is operated by Universidad Nacional Autonoma de Mexico, UNAM.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Peter.J.Chi</PersonID>
+        <Role>GeneralContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/James.M.Weygand</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/IGPPLANL_Teoloyucan</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/IGPPLANL</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>WGS84</CoordinateSystemName>
+      <Latitude>19.74</Latitude>
+      <Longitude>-99.19</Longitude>
+    </Location>
+    <OperatingSpan>
+      <StartDate>2002-01-01T00:00:00</StartDate>
+      <Note>No information available. Start and Stop date are unclear.</Note>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

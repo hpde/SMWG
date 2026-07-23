@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Explorer32</ResourceID>
     <ResourceHeader>
@@ -8,26 +8,41 @@
       <AlternateName>1966-044A</AlternateName>
       <AlternateName>AE-B</AlternateName>
       <AlternateName>Atmosphere Explorer-B</AlternateName>
-   <AlternateName>02183</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <AlternateName>02183</AlternateName>
+      <ReleaseDate>2026-07-20T16:22:40Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:40Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>Explorer 32 was an aeronomy satellite which was designed to directly measure temperatures, composition, densities, and pressures in the upper atmosphere on a global basis. The satellite was a stainless steel, vacuum-sealed sphere, 0.889 m in diameter. The experimental payload included one ion and two neutral mass spectrometers, three magnetron density gauges, and two electrostatic probes. Additional equipment included optical and magnetic aspect sensors, magnetic attitude and spin rate control systems, and a tape recorder for data acquisition at locations remote from ground receiving stations. Power was supplied by silver-zinc batteries and a solar cell array mounted on the satellite exterior. Two identical pulse-modulated telemetry systems and a canted turnstile antenna were employed. The two neutral-particle mass spectrometers failed about 6 days after launch. The remaining experiments operated satisfactorily and provided useful data for most of the 10-month satellite lifetime. The spacecraft ceased to function due to battery failures which resulted from depressurization of the sphere.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Larry.H.Brace</PersonID>
         <Role>ProjectScientist</Role>
-</Contact>
-   <Contact>
+      </Contact>
+      <Contact>
         <PersonID>spase://SMWG/Person/Robert.F.Fellows</PersonID>
         <Role>ProjectScientist</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1966-044A</URL>
         <Description>Information about the AE-B mission</Description>
-</InformationURL>
-</ResourceHeader>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Explorer32</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/Explorer</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
-</Location>
-</Observatory>
+    </Location>
+  </Observatory>
 </Spase>

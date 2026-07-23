@@ -1,36 +1,51 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
-   <Version>2.7.1</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/Hov.Faroe.Islands</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Hov Faroe Islands Geophysical Observatory</ResourceName>
-         <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
-         <Description>The Hov Geophysical Observatory (station code: HOV) is an important scientific facility located in the small village of Hov on Suðuroy Island in the southern Faroe Islands</Description>
-         <Acknowledgement>Please acknowledge: UiT The Arctic University of Norway</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Truls.Lynne.Hansen</PersonID>
-            <Role>PrincipalInvestigator</Role>
-         </Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
-            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
-            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
-         </InformationURL>
-      </ResourceHeader>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>61.2</Latitude>
-         <Longitude>314.6</Longitude>
-         <Elevation>0.0</Elevation>
-      </Location>
-      <OperatingSpan>
-         <StartDate>2016-06-21T00:00:00.000</StartDate>
-      </OperatingSpan>
-   </Observatory>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/Hov.Faroe.Islands</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Hov Faroe Islands Geophysical Observatory</ResourceName>
+      <ReleaseDate>2026-07-20T16:23:29Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2017-02-28T12:34:56.789</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:29Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The Hov Geophysical Observatory (station code: HOV) is an important scientific facility located in the small village of Hov on Suðuroy Island in the southern Faroe Islands</Description>
+      <Acknowledgement>Please acknowledge: UiT The Arctic University of Norway</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Truls.Lynne.Hansen</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+        <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+        <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_Hov.Faroe.Islands</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>61.2</Latitude>
+      <Longitude>314.6</Longitude>
+      <Elevation>0.0</Elevation>
+    </Location>
+    <OperatingSpan>
+      <StartDate>2016-06-21T00:00:00.000</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

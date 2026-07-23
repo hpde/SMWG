@@ -1,12 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.9</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Ground/INTERMAGNET</ResourceID>
     <ResourceHeader>
       <ResourceName>INTERMAGNET</ResourceName>
-	  <AlternateName>International Real-time Magnetic Observatory Network</AlternateName>	  
-      <ReleaseDate>2021-06-02T12:30:00Z</ReleaseDate>
+      <AlternateName>International Real-time Magnetic Observatory Network</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:30Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2021-06-02T12:30:00Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:30Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>The INTERMAGNET programme exists to establish a global network 
 	  of cooperating digital magnetic observatories, adopting modern standard 
 	  specifications for measuring and recording equipment, in order to facilitate 
@@ -15,19 +25,24 @@
         <PersonID>spase://SMWG/Person/Alan.W.P.Thomson</PersonID>
         <Role>TeamLeader</Role>
       </Contact>
-	  <InformationURL>
+      <InformationURL>
         <Name>International Real-time Magnetic Observatory Network Hoempage</Name>
         <URL>http://www.intermagnet.org/index-eng.php</URL>
         <Description>Information about the International Real-time Magnetic Observatory Network.</Description>
-	  </InformationURL>
-	  <PriorID>spase://SMWG/Observatory/INTERMAGNET</PriorID>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_INTERMAGNET</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+      <PriorID>spase://SMWG/Observatory/INTERMAGNET</PriorID>
     </ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
     </Location>
-	<OperatingSpan>
-		<StartDate>1991-01-01T12:00:00Z</StartDate>
-		<Note>Exact start date is unknown.</Note>
-	</OperatingSpan>
+    <OperatingSpan>
+      <StartDate>1991-01-01T12:00:00Z</StartDate>
+      <Note>Exact start date is unknown.</Note>
+    </OperatingSpan>
   </Observatory>
 </Spase>

@@ -5,11 +5,15 @@
     <ResourceID>spase://SMWG/Observatory/REGO</ResourceID>
     <ResourceHeader>
       <ResourceName>Redline Emission Geospace Observatory (rEGO)</ResourceName>
-      <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:53Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2025-03-19T00:00:00Z</ReleaseDate>
           <Note>Initial SPASE 2.7.1 XML resource description submission, metadata submitted by Rebecca Ringuette</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:53Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>The Redline Emission Geospace Observatory (REGO) is a joint Canada Foundation for Innovation and Canadian Space Agency project developed by the University of Calgary. REGO consists of 9 narrowband (630nm) ASIs deployed across Canada.</Description>
@@ -24,6 +28,11 @@
       <InformationURL>
         <Name>REGO Home Page</Name>
         <URL>https://data.phys.ucalgary.ca/about_datasets/descriptions/rego.html</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/REGO</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

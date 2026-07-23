@@ -9,7 +9,7 @@
       <ResourceName>Oersted</ResourceName>
       <AlternateName>Orsted</AlternateName>
       <AlternateName>NSSDC ID: 1999-008B</AlternateName>
-      <ReleaseDate>2026-05-22T16:41:02Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:50Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2021-06-02T12:34:56Z</ReleaseDate>
@@ -18,6 +18,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-05-22T16:41:02Z</ReleaseDate>
           <Note>Added new Contact:Role(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:50Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>Oersted is a European satellite.  The spacecraft primary science objectives were to perform highly accurate and sensitive measurements of the geomagnetic field and to perform global monitoring of the high energy charged particle environment. The principal research topics were in two areas: (1) studies of the generation of the magnetic field in the fluid core and the magnetic and electrical properties of the solid earth; and (2) studies of earth's magnetic field as the controlling parameter of the magnetosphere and of all the physical processes that take place in the earth's plasma environment, including phenomena like aurora and magnetic storms.</Description>
@@ -38,6 +42,11 @@
         <URL>https://www.space.dtu.dk/english/research/projects/project-descriptions/oersted</URL>
         <Description>Information about the Oersted project</Description>
         <Language>EN</Language>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Oersted</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

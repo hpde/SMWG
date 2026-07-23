@@ -1,42 +1,57 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
-   <Version>2.2.8</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/Nurmijarvi</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Nurmijarvi Geophysical Observatory</ResourceName>
-		 <AlternateName>Observatory Station Code: NUR</AlternateName>
-         <ReleaseDate>2018-08-21T12:34:56.789</ReleaseDate>
-         <Description>Nurmijarvi (NUR) Geophysical Observatory</Description>
-         <Acknowledgement>Please acknowledge: Finnish Meteorological Institute</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
-            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
-            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
-         </InformationURL>
-		 <InformationURL>
-			  <Name>International Monitor for Auroral Geomagnetic Effects Homepage</Name> 
-			  <URL>http://space.fmi.fi/image/www/index.php?page=home</URL> 
-			  <Description>About the IMAGE program.</Description> 
-		 </InformationURL>
-      </ResourceHeader>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/IMAGE</ObservatoryGroupID>
-	  <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>60.508</Latitude>
-         <Longitude>24.655</Longitude>
-         <Elevation>105.0</Elevation>
-      </Location>
-      <OperatingSpan>
-         <StartDate>1992-01-01T00:00:00.000</StartDate>
-      </OperatingSpan>
-   </Observatory>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/Nurmijarvi</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Nurmijarvi Geophysical Observatory</ResourceName>
+      <AlternateName>Observatory Station Code: NUR</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:41Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2018-08-21T12:34:56.789</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:41Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>Nurmijarvi (NUR) Geophysical Observatory</Description>
+      <Acknowledgement>Please acknowledge: Finnish Meteorological Institute</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+        <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+        <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>International Monitor for Auroral Geomagnetic Effects Homepage</Name>
+        <URL>http://space.fmi.fi/image/www/index.php?page=home</URL>
+        <Description>About the IMAGE program.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_Nurmijarvi</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GMAG</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/IMAGE</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>60.508</Latitude>
+      <Longitude>24.655</Longitude>
+      <Elevation>105.0</Elevation>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1992-01-01T00:00:00.000</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

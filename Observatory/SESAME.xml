@@ -1,26 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
-  <Version>2.2.1</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/SESAME</ResourceID>
     <ResourceHeader>
       <ResourceName>SESAME</ResourceName>
       <AlternateName>Satellite Experiments Simultaneous with Antarctic MEasurements</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:55Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:55Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>Satellite Experiments Simultaneous with Antarctic MEasurements (SESAME) is one of the four ground-based programs within the NASA/ISAS Global Geospace (GGS) mission, itself part of the International Solar-Terrestrial Physics (ISTP) program.  The scientific objectives are selected to capitalize on the unique geophysical advantages of Antarctica for geospace research.  Specifically, SESAME is designed to study the ionospheric effects of merging at the magnetopause, reconnection in the geomagnetic tail and its relationship to substorms, mapping of significant geospace boundaries to ionospheric altitudes, plasma wave generation and propogation at high latitudes, and ionosphere-thermosphere interactions.  The experimental program is centered at Halley (76 deg S, 27 deg W) but also utilizes automatic geophysical observatories located poleward of Halley.  The suite of instruments provides an excellent image of the inner boundary of geospace and thus is complementary to the GGS spacecraft measurements.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/J.R.Dudeney</PersonID>
         <Role>GeneralContact</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>Project overview</Name>
         <URL>https://link.springer.com/article/10.1007%2FBF00751348</URL>
         <Description>Information about SESAME</Description>
-</InformationURL>
-</ResourceHeader>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/SESAME</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.NearSurface.Ionosphere</ObservatoryRegion>
       <ObservatoryRegion>Earth.NearSurface.Thermosphere</ObservatoryRegion>
-</Location>
-</Observatory>
+    </Location>
+  </Observatory>
 </Spase>

@@ -11,7 +11,7 @@
       <AlternateName>Solar Polar</AlternateName>
       <AlternateName>International Solar Polar Mission</AlternateName>
       <AlternateName>ULY</AlternateName>
-      <ReleaseDate>2026-05-22T16:41:03Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:59Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
@@ -20,6 +20,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-05-22T16:41:03Z</ReleaseDate>
           <Note>Added new Contact:Role(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:59Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>The primary objectives of Ulysses, formerly the International Solar Polar Mission (ISPM), are to investigate, as a function of solar latitude, the properties of the solar wind and the interplanetary magnetic field, of galactic cosmic rays and neutral interstellar gas, and to study energetic particle composition and acceleration. The 55 kg payload includes two magnetometers, two solar wind plasma instruments, a unified radio/plasma wave instrument, three energetic charged particle instruments, an interstellar neutral gas sensor, a solar X-ray/cosmic gamma-ray burst detector, and a cosmic dust sensor. The communications systems is also used to study the solar corona and to search for gravitational waves. Secondary objectives included interplanetary and planetary physics investigations during the initial Earth-Jupiter phase and investigations in the Jovian magnetosphere. The spacecraft used a Jupiter swingby in Feb. 1992 to transfer to a heliospheric orbit with high heliocentric inclination, and will pass over the rotational south pole of the sun in mid-1994 at 2 AU, and over the north pole in mid-1995. A second solar orbit will take Ulysses again over the south and north poles in years 2000 and 2001, respectively. The spacecraft is powered by a single radio-isotope generator. It is spin stabilized at a rate of 5 rpm and its high-gain antenna points continuously to the earth. A nutation anomaly after launch was controlled by CONSCAN. The original mission planned for two spacecraft, one built by ESA and the other by NASA. NASA cancelled its spacecraft in 1981.</Description>
@@ -36,6 +40,11 @@
         <Name>Ulysses website at JPL</Name>
         <URL>https://www.jpl.nasa.gov/missions/ulysses/</URL>
         <Description>JPL's primary website for the Ulysses mission.  Links to all of the experiment subpages exist here.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ulysses</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

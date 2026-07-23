@@ -1,73 +1,88 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_3_1.xsd">
-  <Version>2.3.1</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/Ground/SAMBA/Punta.Arenas</ResourceID>
     <ResourceHeader>
       <ResourceName>Punta Arenas</ResourceName>
-      <ReleaseDate>2021-06-02T15:05:51Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:24:01Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2021-06-02T15:05:51Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:24:01Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>Punta Arenas (PUC) Geomagnetic Observatory</Description>
       <Acknowledgement>Please acknowledge Eftyhia Zesta, Air Force Research Lab, Hanscom AFB, for providing access to SAMBA data resources.</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Eftyhia.Zesta</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Mark.Moldwin</PersonID>
         <Role>CoInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Athanasios.Boudouridis</PersonID>
         <Role>CoInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Kathryn.Rowe</PersonID>
         <Role>TechnicalContact</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Nathan.Sterner</PersonID>
         <Role>TechnicalContact</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Marina.Stepanova</PersonID>
         <Role>TeamMember</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Ricardo.Monreal.Mac-Mahon</PersonID>
         <Role>TeamMember</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Enrique.Cordaro.Cardenas</PersonID>
         <Role>TeamMember</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Vernonica.Vallejos.Marchant</PersonID>
         <Role>TeamMember</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>Punta Arenas geomagnetic observatory web site</Name>
         <URL>http://magnetometers.bc.edu/data/dat/samba/puntaarenas/</URL>
         <Description>Punta Arenas geomagnetic observatory web site</Description>
-</InformationURL>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_SAMBA_Punta.Arenas</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
       <Association>
         <AssociationID>spase://SMWG/Observatory/Ground/SAMBA</AssociationID>
         <AssociationType>PartOf</AssociationType>
-</Association>
-</ResourceHeader>
+      </Association>
+    </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/Ground/SAMBA</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
       <CoordinateSystemName>GEO</CoordinateSystemName>
       <Latitude>-40.340</Latitude>
       <Longitude>-70.090</Longitude>
-</Location>
+    </Location>
     <OperatingSpan>
       <StartDate>2013-05-01T00:00:00</StartDate>
       <Note>Actual StartDate is not certain.</Note>
     </OperatingSpan>
-</Observatory>
+  </Observatory>
 </Spase>

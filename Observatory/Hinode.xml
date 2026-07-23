@@ -17,7 +17,7 @@
     <ResourceType>Observatory</ResourceType>
     <ResourceHeader>
       <ResourceName>Hinode</ResourceName>
-      <ReleaseDate>2026-05-22T16:41:01Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:44Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2014-07-24T20:37:14Z</ReleaseDate>
@@ -30,6 +30,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-05-22T16:41:01Z</ReleaseDate>
           <Note>Added new Contact:Role(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. ZCB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:44Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>Hinode is an international solar physics mission led by JAXA with major contributions from NASA, the UK, and ESA. It was launched on 22 September 2006 (23 September in Japan). The spacecraft carries three advanced solar telescopes that together provide some of the most detailed observations ever made of the Sun. Its Solar Optical Telescope achieves about 0.2‑arcsecond resolution, fine enough that, if it were observing Earth, it could distinguish a feature roughly half a meter across. The X‑Ray Telescope offers several times better resolution than the earlier Yohkoh mission, and the Extreme‑ultraviolet Imaging Spectrometer has a sensitivity greatly exceeding that of earlier EUV instruments such as the one flown on SOHO. These capabilities allow Hinode to explore how the Sun’s outer atmosphere is heated and how active regions evolve and release energy. The mission continues to play a major role in studying the structure, dynamics, and magnetic activity of the solar atmosphere.</Description>
@@ -65,6 +69,11 @@
       <InformationURL>
         <Name>The Hinode website at NASA MSFC</Name>
         <URL>https://hinode.msfc.nasa.gov/</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Hinode</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

@@ -7,7 +7,7 @@
     <ResourceType>Observatory</ResourceType>
     <ResourceHeader>
       <ResourceName>Giotto</ResourceName>
-      <ReleaseDate>2026-05-22T16:41:00Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:42Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2020-04-05T12:34:56.789Z</ReleaseDate>
@@ -16,6 +16,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-05-22T16:41:00Z</ReleaseDate>
           <Note>Added new Contact:Role(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:42Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>The Giotto mission was designed to study Comet P/Halley. The major objectives of the mission were to:
@@ -63,6 +67,11 @@ On July 23, 1992 Giotto operations were officially terminated after completion o
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1985-056A</URL>
         <Description>Information about the Giotto spacecraft and the overall mission</Description>
         <Language>en</Language>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Giotto</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

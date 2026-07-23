@@ -1,11 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.6</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/CHAMP</ResourceID>
     <ResourceHeader>
       <ResourceName>CHAMP</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:36Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:36Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>CHAMP (CHAllenging Microsatellite Payload) is a German
 spacecraft launched July 15, 2000, into an 87 deg inclination, 454 km
 altitude orbit.  It was intended to provide data for improvement of models
@@ -20,24 +30,29 @@ Potsdam.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Hermann.Luehr</PersonID>
         <Role>ProjectScientist</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>CHAMP web page at the German Research Center for Geosciences</Name>
         <URL>http://op.gfz-potsdam.de/champ/</URL>
-  <Description>Detailed information about CHAMP.</Description>
-  <Language>German</Language>
-</InformationURL>
-   <InformationURL>
+        <Description>Detailed information about CHAMP.</Description>
+        <Language>German</Language>
+      </InformationURL>
+      <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2000-039B</URL>
-</InformationURL>
-</ResourceHeader>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/CHAMP</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
     <Location>
       <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
-</Location>
- <OperatingSpan>
-   <StartDate>2000-07-15T12:00:00Z</StartDate>
-   <StopDate>2010-09-19T08:00:59Z</StopDate>
-</OperatingSpan>
-</Observatory>
+    </Location>
+    <OperatingSpan>
+      <StartDate>2000-07-15T12:00:00Z</StartDate>
+      <StopDate>2010-09-19T08:00:59Z</StopDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

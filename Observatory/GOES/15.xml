@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-  <Version>2.2.2</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/GOES/15</ResourceID>
     <ResourceHeader>
@@ -8,28 +8,43 @@
       <AlternateName>Geostationary Operational Environmental Satellite 15</AlternateName>
       <AlternateName>2010-008A</AlternateName>
       <AlternateName>GOES P</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:23:10Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:10Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>GOES 15, also known as GOES-P, is an American (NOAA) geostationary weather satellite that was launched by a Delta 4 rocket from Cape Canaveral on 04 March 2010 at 23:57 UT. It is the third in an updated series of Geostationary Operational Environmental Satellites which carry an imager, sounder, the Solar X-ray Imager (SXI), the Space Environment Monitor System (SEM) and a search and rescue transponder which relays distress signals to the ground. The SEM consists of two magnetometers; an Energetic Particle Sensor (EPS) composed of a High-Energy Proton and Alpha Detector (HEPAD), a Magnetosphere Electron Detector (MAGED), an Energetic Proton Electron and Alpha Detector (EPEAD), and a Magnetosphere Proton Detector (MAGPD); Energetic X-Ray Sensor (XRS) and Extreme Ultraviolet (EUV) sensors. GOES 15 was placed in orbit originally as a spare and has an expected mission lifetime of 10 years (2 years on-orbit storage and 8 years operational).</Description>
       <Acknowledgement>National Aeronautics and Space Administration</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
         <Role>GeneralContact</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2010-008A</URL>
         <Description>Information about the GOES 15 mission</Description>
-</InformationURL>
+      </InformationURL>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://en.wikipedia.org/wiki/GOES_15</URL>
         <Description>Information about the GOES 15 mission</Description>
-</InformationURL>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/GOES_15</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
       <PriorID>spase://SMWG/Observatory/GOES/15</PriorID>
-</ResourceHeader>
+    </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/GOES</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
-</Location>
-</Observatory>
+    </Location>
+  </Observatory>
 </Spase>

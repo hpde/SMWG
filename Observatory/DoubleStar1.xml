@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+  <Version>2.7.1</Version>
   <Observatory>
     <ResourceID>spase://SMWG/Observatory/DoubleStar1</ResourceID>
     <ResourceHeader>
@@ -8,8 +8,18 @@
       <AlternateName>2003-061A</AlternateName>
       <AlternateName>Tan Ce1</AlternateName>
       <AlternateName>TC 1</AlternateName>
-   <AlternateName>28140</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <AlternateName>28140</AlternateName>
+      <ReleaseDate>2026-07-20T16:22:38Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:38Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>Double Star 1 (also known as Tan Ce 1, and TC 1) is a Sino-European (CSNA-ESA)
    satellite that was launched by a Long March 2C/SM rocket from Xichang Satellite Launch Center
    in the Sichuan province of China (PRC) at 19:06 UT on 29 December 2003. The 330 kg, 260 W
@@ -22,31 +32,36 @@
       <Contact>
         <PersonID>spase://SMWG/Person/Christophe.Philippe.Escoubet</PersonID>
         <Role>ProjectScientist</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-061A</URL>
         <Description>Information about the Double Star 1 mission</Description>
-</InformationURL>
-   <InformationURL>
+      </InformationURL>
+      <InformationURL>
         <Name>Double Star Mission Overview</Name>
         <URL>http://www.esa.int/Our_Activities/Space_Science/Double_Star_overview2</URL>
         <Description>Detailed information about the Double Star Mission.</Description>
-</InformationURL>
-   <InformationURL>
+      </InformationURL>
+      <InformationURL>
         <Name>Double Star Mission European Space Agency Homepage</Name>
         <URL>http://sci.esa.int/double-star/</URL>
         <Description>Detailed information about the Double Star Mission.</Description>
-</InformationURL>
-   <InformationURL>
+      </InformationURL>
+      <InformationURL>
         <Name>Double Star Mission Annales Geophysicae Article</Name>
         <URL>https://www.ann-geophys.net/23/2707/2005/</URL>
         <Description>Detailed information about the Double Star Mission.</Description>
-</InformationURL>
-</ResourceHeader>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/DoubleStar1</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
     <ObservatoryGroupID>spase://SMWG/Observatory/DoubleStar</ObservatoryGroupID>
     <Location>
       <ObservatoryRegion>Earth.Magnetosphere.Main</ObservatoryRegion>
-</Location>
-</Observatory>
+    </Location>
+  </Observatory>
 </Spase>

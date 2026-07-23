@@ -8,7 +8,7 @@
     <ResourceHeader>
       <ResourceName>MESSENGER</ResourceName>
       <AlternateName>Mercury Surface, Space Environment, Geochemistry and Ranging</AlternateName>
-      <ReleaseDate>2026-05-22T16:41:01Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:49Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2020-04-05T12:34:56.789Z</ReleaseDate>
@@ -17,6 +17,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-05-22T16:41:01Z</ReleaseDate>
           <Note>Added new Contact(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:49Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>The Mercury Surface, Space Environment, Geochemistry and Ranging, MESSENGER, mission, launched on 2004-08-03, was mainly designed to study the characteristics and environment of Mercury from orbit. After an Earth flyby July-August of 2005, Venus flybys October-November of 2006, and May-June of 2007, and Mercury flybys December 2007-January 2008, September-October of 2008, and September-October of 2009, MESSENGER entered Mercury orbit on March 4, 2011. Much data of interest to the heliospheric community was obtained during the cruise phases between planetary encounters from a magnetometer and an energetic particle and plasma spectrometer.</Description>
@@ -38,6 +42,11 @@
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2004-030A</URL>
         <Description>Information about the MESSENGER spacecraft and the overall mission</Description>
         <Language>en</Language>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/MESSENGER</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

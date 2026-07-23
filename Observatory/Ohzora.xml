@@ -10,7 +10,7 @@
       <AlternateName>1984-015A</AlternateName>
       <AlternateName>Exospheric Sat. C</AlternateName>
       <AlternateName>EXOS-C</AlternateName>
-      <ReleaseDate>2026-05-22T16:41:02Z</ReleaseDate>
+      <ReleaseDate>2026-07-20T16:22:51Z</ReleaseDate>
       <RevisionHistory>
         <RevisionEvent>
           <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
@@ -19,6 +19,10 @@
         <RevisionEvent>
           <ReleaseDate>2026-05-22T16:41:02Z</ReleaseDate>
           <Note>Added new Contact:Role(s). Added ResourceType and NamingAuthority. Updated to 2.7.1. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. ZCB</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:22:51Z</ReleaseDate>
+          <Note>Added HelioData InformationURL. JWL</Note>
         </RevisionEvent>
       </RevisionHistory>
       <Description>The purpose of this mission was to perform remote sensing of the minor constituents of the middle atmosphere and to study the wave-particle interactions in the ionospheric plasma in the South American anomaly and the auroral zones. This mission is part of the Middle Atmosphere Program (MAP).</Description>
@@ -35,6 +39,11 @@
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1984-015A</URL>
         <Description>Information about the Ohzora mission</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ohzora</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
       </InformationURL>
     </ResourceHeader>
     <Location>

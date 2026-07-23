@@ -1,51 +1,66 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_8.xsd">
-   <Version>2.2.8</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/Ground/Tristan.da.Cunha</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Tristan Da Cunha Geophysical Observatory</ResourceName>
-         <AlternateName>Observatory Station Code: TDC</AlternateName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
-         <Description>Tristan Da Cunha (TDC) Geophysical Observatory</Description>
-         <Acknowledgement>Please acknowledge: DTU Space, Denmark</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Claudia.Stolle</PersonID>
-            <Role>PrincipalInvestigator</Role>
-</Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Juergen.Matzka</PersonID>
-            <Role>PrincipalInvestigator</Role>
-</Contact>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
-            <Role>MetadataContact</Role>
-</Contact>
-         <InformationURL>
-            <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
-            <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
-            <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
-</InformationURL>
-         <InformationURL>
-            <Name>Technical University of Danmark</Name>
-            <URL>https://www.space.dtu.dk/English/Research/Scientific_data_and_models/Magnetic_Ground_Stations.aspx</URL>
-            <Description>Introduction to the DTU magnetometer data, plots, maps, etc.</Description>
-</InformationURL>
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/Ground/Tristan.da.Cunha</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Tristan Da Cunha Geophysical Observatory</ResourceName>
+      <AlternateName>Observatory Station Code: TDC</AlternateName>
+      <ReleaseDate>2026-07-20T16:23:55Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:23:55Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>Tristan Da Cunha (TDC) Geophysical Observatory</Description>
+      <Acknowledgement>Please acknowledge: DTU Space, Denmark</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Claudia.Stolle</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Juergen.Matzka</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>THEMIS Fluxgate Ground-based Magnetometer (GMAG) Web Site</Name>
+        <URL>http://themis.ssl.berkeley.edu/instrument_gmags.shtml</URL>
+        <Description>THEMIS makes data available from GMAG stations in the United States, Canada, Denmark, Greenland, Norway, Sweden, Iceland, and Russia, and Antarctica.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Technical University of Danmark</Name>
+        <URL>https://www.space.dtu.dk/English/Research/Scientific_data_and_models/Magnetic_Ground_Stations.aspx</URL>
+        <Description>Introduction to the DTU magnetometer data, plots, maps, etc.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/Ground_Tristan.da.Cunha</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
       <PriorID>spase://SMWG/Observatory/Ground/Tristan.Da.Cunha</PriorID>
-</ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
-      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
-      <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GFZ</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>-37.1</Latitude>
-         <Longitude>347.7</Longitude>
-         <Elevation>45.0</Elevation>
-</Location>
-      <OperatingSpan>
-         <StartDate>2009-09-01T00:00:00.000</StartDate>
-         <StopDate>2016-10-31T23:59:59</StopDate>
-</OperatingSpan>
-</Observatory>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/WDC</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/INTERMAGNET</ObservatoryGroupID>
+    <ObservatoryGroupID>spase://SMWG/Observatory/Ground/GFZ</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>-37.1</Latitude>
+      <Longitude>347.7</Longitude>
+      <Elevation>45.0</Elevation>
+    </Location>
+    <OperatingSpan>
+      <StartDate>2009-09-01T00:00:00.000</StartDate>
+      <StopDate>2016-10-31T23:59:59</StopDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>

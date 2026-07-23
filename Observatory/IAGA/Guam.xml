@@ -1,37 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
-   <Version>2.7.1</Version>
-   <Observatory>
-      <ResourceID>spase://SMWG/Observatory/IAGA/Guam</ResourceID>
-      <ResourceHeader>
-         <ResourceName>Guam</ResourceName>
-         <AlternateName>Guam</AlternateName>
-         <AlternateName>IAGA:GUA</AlternateName>
-         <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
-         <Description>Guam serves as a critical strategic node for NASA’s satellite communication and scientific research in the Pacific. The island hosts key NASA infrastructure—such as the Guam Remote Ground Terminal—and educational consortiums focused on aerospace, earth science, and STEM outreach.</Description>
-         <Acknowledgement>As defined in Rasson J.L., (2001). The status of world-wide network of magnetic observatories, their location and instrumentation, Contributions to Geophysics &amp; Geodesy, 31, 1, pp 427-453</Acknowledgement>
-         <Contact>
-            <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
-            <Role>MetadataContact</Role>
-         </Contact>
-         <InformationURL>
-            <Name>IAGA Guides and Standards</Name>
-            <URL>https://iaga-aiga.org/publications/guides/</URL>
-            <Description>Overview of IAGA Guides and Standards which obtained within its
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_1.xsd">
+  <Version>2.7.1</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/IAGA/Guam</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Guam</ResourceName>
+      <AlternateName>Guam</AlternateName>
+      <AlternateName>IAGA:GUA</AlternateName>
+      <ReleaseDate>2026-07-20T16:24:27Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-07-20T16:24:27Z</ReleaseDate>
+          <Note>Added HelioData InformationURL, Updated to SPASE Version 2.7.1. JWL</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>Guam serves as a critical strategic node for NASA’s satellite communication and scientific research in the Pacific. The island hosts key NASA infrastructure—such as the Guam Remote Ground Terminal—and educational consortiums focused on aerospace, earth science, and STEM outreach.</Description>
+      <Acknowledgement>As defined in Rasson J.L., (2001). The status of world-wide network of magnetic observatories, their location and instrumentation, Contributions to Geophysics &amp; Geodesy, 31, 1, pp 427-453</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+        <Role>MetadataContact</Role>
+      </Contact>
+      <InformationURL>
+        <Name>IAGA Guides and Standards</Name>
+        <URL>http://www.intermagnet.org/publications/intermag_4-6.pdf</URL>
+        <Description>Overview of IAGA Guides and Standards which obtained within its
           Divisions and Working Groups. Information about observatories
-          is maintained by the &quot;Geomagntic Observatories&quot; (V-OBS) working group.</Description>
-         </InformationURL>
-      </ResourceHeader>
-      <ObservatoryGroupID>spase://SMWG/Observatory/IAGA</ObservatoryGroupID>
-      <Location>
-         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
-         <CoordinateSystemName>GEO</CoordinateSystemName>
-         <Latitude>13.580</Latitude>
-         <Longitude>144.870</Longitude>
-         <Elevation>150</Elevation>
-      </Location>
-      <OperatingSpan>
-         <StartDate>1957-01-01T00:00:00</StartDate>
-      </OperatingSpan>
-   </Observatory>
+          is maintained by the "Geomagntic Observatories" (V-OBS) working group.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>HelioData</Name>
+        <URL>https://helio.data.nasa.gov/mission/IAGA_Guam</URL>
+        <Description>The HelioData mission page provides an overview of the mission and more, such as all SPASE dataset records associated with it.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <ObservatoryGroupID>spase://SMWG/Observatory/IAGA</ObservatoryGroupID>
+    <Location>
+      <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+      <CoordinateSystemName>GEO</CoordinateSystemName>
+      <Latitude>13.580</Latitude>
+      <Longitude>144.870</Longitude>
+      <Elevation>150</Elevation>
+    </Location>
+    <OperatingSpan>
+      <StartDate>1957-01-01T00:00:00</StartDate>
+    </OperatingSpan>
+  </Observatory>
 </Spase>
