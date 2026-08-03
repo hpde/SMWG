@@ -21,9 +21,9 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Install spase-resource-tools
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v6
         with:
-          node-version: '14'      
+          node-version: '14'
       - run: npm install
       - name: Get current date
         id: date
@@ -31,9 +31,11 @@ jobs:
       - name: Install SPASE-Resource-tools
         run: npm install -g spase-resource-tools
 
-       # Checks out a copy of your repository on the ubuntu-latest machine
+      # Checks out a copy of your repository on the ubuntu-latest machine
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0 # Required to accurately fetch historical diffs
 
       # Prepare for logs
       - name: Prepare Log directory
@@ -56,7 +58,7 @@ jobs:
 
       # Upload logs
       - name: Upload log artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v6
         with:
           name: validate-log
           path: logs/validate.log
@@ -81,11 +83,12 @@ jobs:
       - name: Send mail
         # Define the following secrets for the repository: EMAIL_SERVER, EMAIL_USERNAME, EMAIL_PASSWORD, EMAIL_TO, EMAIL_LIST
         if: always()
-        uses: dawidd6/action-send-mail@v2
+        uses: dawidd6/action-send-mail@v18
         with:
           # mail server settings
           server_address: ${{ secrets.EMAIL_SERVER }}
-          server_port: 465
+          server_port: 587
+          secure: false
           # user credentials
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
@@ -98,8 +101,8 @@ jobs:
             --
             For details see attachment.
           # comma-separated string, send email to
-          to: ${{ secrets.EMAIL_LIST }},${{ secrets.EMAIL_TO }}
+          to: ${{ secrets.EMAIL_LIST }}
           # from email name
-          from: HPDE Mailer
+          from: "HPDE Mailer <${{ secrets.EMAIL_USERNAME }}>"
           # Attachements:
           attachments: logs/validate.log
