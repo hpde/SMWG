@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_7_2.xsd">
+   <Version>2.7.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/William.L.Wells</ResourceID>
+      <PersonName>William L. Wells</PersonName>
+      <OrganizationName>Southwest Research Institute</OrganizationName>
+      <RORIdentifier>03tghng59</RORIdentifier>
+   </Person>
+</Spase>
