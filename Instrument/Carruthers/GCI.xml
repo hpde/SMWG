@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_7_2.xsd">
+   <Version>2.7.2</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Carruthers/GCI</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceType>Instrument</ResourceType>
+      <ResourceHeader>
+         <ResourceName>GeoCoronal Imager GCI</ResourceName>
+         <AlternateName>GCI</AlternateName>
+         <ReleaseDate>2026-08-14T13:55:29</ReleaseDate>
+         <Description>The Carruthers GeoCoronal Imager (GCI) is the scientific payload element on the Carruthers Geocoronal Observatory. The imager carries two channels, a Narrow Field Imager (NFI) and a Wide Field Imager (WFI), each of which collect scientific data when pointed at Earth nadir from around the distance of Earth-Sun L1. Each has identical filter options including open, Lyman Alpha Narrow, Lyman Alpha Extra Narrow, Calcium Fluoride, Strontium Fluoride, and Blocked. Baseline integration times are 30 minutes in NFI and 60 minutes in WFI. Stellar observations for calibration are obtained when opportunity arrives with near anti-sun position of the stars, and blocked images for detector bias and dark current are obtained several times daily.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lara.Waldrop</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>Carruthers Geocorona Observatory</Name>
+            <URL>https://science.nasa.gov/mission/carruthers-geocorona-observatory/</URL>
+         </InformationURL>
+      </ResourceHeader>
+      <InstrumentType>Imager</InstrumentType>
+      <InvestigationName>Carruthers &gt; The Carruthers Geocorona Observatory</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/Carruthers</ObservatoryID>
+      <ObservedRegion>Earth.NearSurface</ObservedRegion>
+   </Instrument>
+</Spase>

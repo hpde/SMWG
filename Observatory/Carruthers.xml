@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_7_2.xsd">
+   <Version>2.7.2</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/Carruthers</ResourceID>
+      <NamingAuthority>SMWG</NamingAuthority>
+      <ResourceHeader>
+         <ResourceName>Carruthers</ResourceName>
+         <AlternateName>The Carruthers Geocorona Observatory</AlternateName>
+         <ReleaseDate>2026-08-14T13:38:48</ReleaseDate>
+         <Description>The Carruthers observatory studies Earth’s geocorona, the ultraviolet glow emitted by Earth&#039;s exosphere, our planets outermost atmospheric layer. Carruthers operates from a halo orbit about the first Earth-Sun Lagrange point, with narrow and wide field channels to observe geocoronal emissions of atomic hydrogen in order to retrieve altitude profiles of exospheric hydrogen density.  </Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Thomas.Immel</PersonID>
+            <Role>ProjectScientist</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Lara.Waldrop</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <InformationURL>
+            <Name>NASA Carruthers Homepage</Name>
+            <URL>https://science.nasa.gov/mission/carruthers-geocorona-observatory/</URL>
+            <Description>NASA Website for Carruthers Mission</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+      </Location>
+      <LaunchDate>September 24, 2025</LaunchDate>
+   </Observatory>
+</Spase>
