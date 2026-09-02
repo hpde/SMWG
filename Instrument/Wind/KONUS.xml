@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_7_2.xsd">
+   <Version>2.7.2</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/Wind/KONUS</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Gamma Ray Burst Detector (KONUS) on WIND</ResourceName>
+         <ReleaseDate>2026-08-11T19:10:41</ReleaseDate>
+         <Description>The main purpose of the Wind spacecraft is to measure the incoming solar wind, magnetic fields and particles, although early on it will also observe the Earth&#039;s foreshock region. The KONUS detectors and spacecraft form an additional element in the interplanetary gamma-ray network. The mission objectives involve timing and spectra of cosmic gamma-ray bursts, localization of sources through comparisons with other spacecraft, identification of sources of bursts, measurement of emission and absorption line features in bursts, timing and spectra of impulsive solar flares, a stereo view of flares through comparison with other spacecraft, and the determination of the isotropy of high energy flare emission. KONUS is similar to the TGRS instrument, also on WIND.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Thomas.L.Cline</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Olga.Y.Uritskaya</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+      </ResourceHeader>
+      <InstrumentType>Spectrometer</InstrumentType>
+      <InvestigationName>KONUS on WIND gamma-ray spectrometer</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/Wind</ObservatoryID>
+   </Instrument>
+</Spase>
