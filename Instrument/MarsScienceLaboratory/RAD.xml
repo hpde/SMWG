@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.2.xsd">
+  <Version>2.7.2</Version>
+  <MetadataRightsList>
+    <Rights>
+      <SchemeURI>https://spdx.org/licenses/</SchemeURI>
+      <RightsIdentifierScheme>SPDX</RightsIdentifierScheme>
+      <RightsIdentifier>CC0-1.0</RightsIdentifier>
+      <RightsURI>https://spdx.org/licenses/CC0-1.0.html</RightsURI>
+      <RightsName>Creative Commons Zero v1.0 Universal</RightsName>
+      <Note>CC0 1.0 Universal is the Creative Commons license applicable to all publicly available SPASE metadata descriptions</Note>
+    </Rights>
+  </MetadataRightsList>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/MarsScienceLaboratory/RAD</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Mars Science Laboratory (MSL), Radiation Assessment Detector (RAD)</ResourceName>
+      <AlternateName>MSL RAD</AlternateName>
+      <ReleaseDate>2026-09-16T12:34:56.789Z</ReleaseDate>
+      <Description>The Radiation Assessment Detector (RAD) is an energetic particle instrument aboard the Mars Science Laboratory Curiosity rover. RAD measures and characterizes the energetic particle radiation environment during the cruise to Mars and on the Martian surface, including charged particles and secondary neutral radiation. The measurements support studies of the Martian radiation environment, surface habitability, and radiation hazards relevant to future human exploration of Mars.</Description>
+      <Acknowledgement>Please acknowledge the RAD Principal Investigator Dr. Donald M. Hassler of Southwest Research Institute.</Acknowledgement>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Donald.M.Hassler</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>The Radiation Assessment Detector (RAD) Investigation</Name>
+        <URL>https://link.springer.com/article/10.1007/s11214-012-9913-1</URL>
+        <Description>Detailed description of the RAD instrument and investigation by Hassler et al. (2012).</Description>
+        <Language>en</Language>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>MSL-RAD</InvestigationName>
+    <OperatingSpan>
+      <StartDate>2011-11-20T06:16:19.455Z</StartDate>
+      <Note>RAD began acquiring radiation measurements during the cruise to Mars and continues observations on the Martian surface.</Note>
+    </OperatingSpan>
+    <ObservatoryID>spase://SMWG/Observatory/MarsScienceLaboratory</ObservatoryID>
+  </Instrument>
+</Spase>
