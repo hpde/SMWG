@@ -2,8 +2,8 @@
 <Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.7.2.xsd">
    <Version>2.7.2</Version>
    <Person>
-      <ResourceID>spase://SMWG/Person/GOES-R.EXIS</ResourceID>
-      <PersonName>GOES-R EXIS Team</PersonName>
+      <ResourceID>spase://SMWG/Person/NOAA.GOES-R.EXIS</ResourceID>
+      <PersonName>NOAA GOES-R EXIS Team</PersonName>
       <OrganizationName>NOAA National Centers for Environmental Information</OrganizationName>
       <Email>goesr.exis@noaa.gov</Email>
    </Person>
