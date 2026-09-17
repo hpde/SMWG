@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.7.2.xsd">
+   <Version>2.7.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/Donald.J.Schmit</ResourceID>
+      <PersonName>Donald James Schmit</PersonName>
+      <OrganizationName>Cooperative Institute for Research in Environmental Sciences, University of Colorado Boulder</OrganizationName>
+      <Email>donald.schmit@colorado.edu</Email>
+      <ORCIdentifier>0000-0002-9654-0815</ORCIdentifier>
+   </Person>
+</Spase>
