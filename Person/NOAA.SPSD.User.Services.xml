@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.7.2.xsd">
+   <Version>2.7.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/NOAA.SPSD.User.Services</ResourceID>
+      <PersonName>NOAA SPSD User Services</PersonName>
+      <OrganizationName>NOAA/NESDIS Office of Satellite and Product Operations</OrganizationName>
+      <Email>spsd.userservices@noaa.gov</Email>
+      <Note>General user services contact for the Satellite Products and Services Division (SPSD) within the NOAA/NESDIS Office of Satellite and Product Operations.</Note>
+   </Person>
+</Spase>

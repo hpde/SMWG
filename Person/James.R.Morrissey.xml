@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.7.2.xsd">
+   <Version>2.7.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/James.R.Morrissey</ResourceID>
+      <PersonName>James R. Morrissey</PersonName>
+      <OrganizationName>NASA Goddard Space Flight Center</OrganizationName>
+      <Email>james.r.morrissey@nasa.gov</Email>
+   </Person>
+</Spase>

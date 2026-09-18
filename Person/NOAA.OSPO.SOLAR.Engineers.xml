@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.7.2.xsd">
+   <Version>2.7.2</Version>
+   <Person>
+      <ResourceID>spase://SMWG/Person/NOAA.OSPO.SOLAR.Engineers</ResourceID>
+      <PersonName>NOAA OSPO SOLAR Engineers</PersonName>
+      <OrganizationName>NOAA/NESDIS Office of Satellite and Product Operations</OrganizationName>
+      <Email>nesdis.ospo.solar.engineers@noaa.gov</Email>
+      <Note>Engineering contact for SOLAR spacecraft operations within the NOAA/NESDIS Office of Satellite and Product Operations (OSPO).</Note>
+   </Person>
+</Spase>
