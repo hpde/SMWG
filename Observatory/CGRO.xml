@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.7.2.xsd">
+   <Version>2.7.2</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/CGRO</ResourceID>
+      <NamingAuthority>NASA</NamingAuthority>
+      <ResourceHeader>
+         <ResourceName>The Compton Gamma-Ray Observatory (CGRO)</ResourceName>
+         <ReleaseDate>2026-09-17T13:18:17</ReleaseDate>
+         <Description>The Compton Gamma-Ray Observatory is one of NASA&#039;s four &quot;Great Observatories&quot;. It&#039;s specific mission is to study the sources and astrophysical processes (e.g., nuclear reactions, electron bremsstrahlung, matter-antimatter annihilation, elementary particle producation and decay, Compton scattering, and synchrotron radiation) that produce that highest energy electromagnetic radiation from the cosmos. GRO carries a complement of four instruments that provide simultaneous observations covering over five decades of energy from 0.1 MeV to 30 GeV: the Burst and Transient Source Experiment (BATSE), the Oriented Scintillation Spectrometer Experiment (OSSE), the Imaging Compton Telescope (COMPTEL), and the Energetic Gamma-Ray Experiment Telescope (EGRET).</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Neil.Gehrels</PersonID>
+            <Role>ProjectManager</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Olga.Y.Uritskaya </PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <URL>https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1991-027B</URL>
+         </InformationURL>
+      </ResourceHeader>
+      <Location>
+         <ObservatoryRegion>Earth.NearSurface</ObservatoryRegion>
+      </Location>
+      <LaunchDate>1991-04-05</LaunchDate>
+      <OperatingSpan>
+         <StartDate>1991-04-05T12:00:00</StartDate>
+         <StopDate>2000-05-01T00:00:00</StopDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>
