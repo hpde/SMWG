@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.1.xsd">
+   <Version>2.7.1</Version>
+   <Observatory>
+      <ResourceID>spase://SMWG/Observatory/IAGA/Port.Moresby</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Port Moresby</ResourceName>
+         <AlternateName>Port.Moresby</AlternateName>
+         <AlternateName>IAGA:PMG</AlternateName>
+         <ReleaseDate>2026-07-10T11:07:41</ReleaseDate>
+         <RevisionHistory>
+            <RevisionEvent>
+               <ReleaseDate>2026-07-10T11:07:41</ReleaseDate>
+               <Note>Updated description TLK</Note>
+            </RevisionEvent>
+         </RevisionHistory>
+         <Description>Port Moresby is prominently featured in several NASA programs, including Earth observation missions, volcanic gas tracking, and public STEM engagement.</Description>
+         <Acknowledgement>As defined in Rasson J.L., (2001). The status of world-wide network of magnetic observatories, their location and instrumentation, Contributions to Geophysics &amp; Geodesy, 31, 1, pp 427-453</Acknowledgement>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Todd.A.King</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+         <InformationURL>
+            <Name>IAGA Guides and Standards</Name>
+            <URL>http://www.intermagnet.org/publications/intermag_4-6.pdf</URL>
+            <Description>Overview of IAGA Guides and Standards which obtained within its
+          Divisions and Working Groups. Information about observatories
+          is maintained by the &quot;Geomagntic Observatories&quot; (V-OBS) working group.</Description>
+         </InformationURL>
+      </ResourceHeader>
+      <ObservatoryGroupID>spase://SMWG/Observatory/IAGA</ObservatoryGroupID>
+      <Location>
+         <ObservatoryRegion>Earth.Surface</ObservatoryRegion>
+         <CoordinateSystemName>GEO</CoordinateSystemName>
+         <Latitude>-9.400</Latitude>
+         <Longitude>147.150</Longitude>
+         <Elevation>80</Elevation>
+      </Location>
+      <OperatingSpan>
+         <StartDate>1957-01-01T00:00:00</StartDate>
+         <StopDate>1999-12-31T23:59:59</StopDate>
+      </OperatingSpan>
+   </Observatory>
+</Spase>
