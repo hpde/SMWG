@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.7.2.xsd">
+   <Version>2.7.2</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/BATSE</ResourceID>
+      <ResourceHeader>
+         <ResourceName>Burst and Transient Source Experiment (BATSE)</ResourceName>
+         <ReleaseDate>2026-09-17T12:58:57</ReleaseDate>
+         <Description>The Burst and Transient Source Experiment (BATSE) was a scientific instrument on NASA&#039;s Compton Gamma Ray Observatory (CGRO) designed to detect and study cosmic gamma-ray bursts and cosmic transient sources. It was built in-house at MSFC in the mid-1980&#039;s and delivered to TRW, Redondo Beach in November, 1988 for integration and testing on the CGRO spacecraft. The mission was launched by the space shuttle Atlantis in April, 1991 and was in operation until June 2000.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Gerald.J.Fishman</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Olga.Y.Uritskaya </PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+      </ResourceHeader>
+      <InstrumentType>Spectrometer</InstrumentType>
+      <InvestigationName>The Burst and Transient Source Experiment (BATSE) on the Compton Gamma Ray Observatory (CGRO)</InvestigationName>
+      <OperatingSpan>
+         <StartDate>1991-04-05T12:00:00</StartDate>
+         <StopDate>2000-05-01T00:00:00</StopDate>
+      </OperatingSpan>
+      <ObservatoryID>spase://SMWG/Observatory/CGRO</ObservatoryID>
+   </Instrument>
+</Spase>

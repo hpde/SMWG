@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.7.2.xsd">
+   <Version>2.7.2</Version>
+   <Instrument>
+      <ResourceID>spase://SMWG/Instrument/FERMI/LAT</ResourceID>
+      <ResourceHeader>
+         <ResourceName>The Large Area Telescope (LAT)</ResourceName>
+         <ReleaseDate>2026-10-03T17:46:59</ReleaseDate>
+         <Description>The Large Area Telescope (LAT) is the primary scientific instrument aboard the Fermi Gamma-ray Space Telescope, launched on June 11, 2008. It is an imaging, wide field-of-view space telescope that detects high-energy gamma rays from extreme astrophysical sources across the universe. 
+The principal objective of the Large Area Telescope (LAT) is to conduct a long term high sensitivity gamma-ray observations of celestial sources in the energy range from ~20 MeV to &gt;300 GeV. The LAT is a wide field-of-view (FoV) imaging gamma-ray telescope with large effective area combined with good energy and angular resolution. The LAT data are being used for a) rapid notification of gamma-ray transient events and monitoring of variable sources b) constructing a catalog of celestial gamma-ray sources along with spectra and light curves for many of these sources c) localization point sources to 0.3 - 2 arcmin d) spatial mapping and spectra of extended sources such as supernova remnants, molecular clouds, and nearby galaxies e) measuring the diffuse gamma-ray background, f) searching for signals from dark matter and g) measuring the flux and spectrum of cosmic ray electrons.
+
+</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Peter.Michelson</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Olga.Y.Uritskaya</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+      </ResourceHeader>
+      <InstrumentType>Imager</InstrumentType>
+      <InvestigationName>Fermi Gamma-ray Burst Monitor</InvestigationName>
+      <ObservatoryID>spase://SMWG/Observatory/FERMI</ObservatoryID>
+   </Instrument>
+</Spase>

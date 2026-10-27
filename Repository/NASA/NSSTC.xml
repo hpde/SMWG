@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.7.2.xsd">
+   <Version>2.7.2</Version>
+   <Repository>
+      <ResourceID>spase://SMWG/Repository/NASA/NSSTC</ResourceID>
+      <ResourceHeader>
+         <ResourceName>NSSTC  Repository</ResourceName>
+         <ReleaseDate>2026-09-24T17:14:50Z</ReleaseDate>
+         <Description>National Space, Science, and Technology Center (NSSTC)
+Our group includes scientists and engineers from NASA&#039;s Marshall Space Flight Center, Universities Space Research Association (USRA), and the University of Alabama in Huntsville (UAH). We are actively involved in several projects which are designed to investigate the high energy regime of our Solar System and Universe. The primary objectives of our research are to study gamma-ray phenomena such as pulsars, black holes, other galaxies, gamma-ray bursts, terrestrial gamma-ray flashes, and other exotic astrophysical objects.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Charles.Laymon</PersonID>
+            <Role>PrincipalInvestigator</Role>
+         </Contact>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Olga.Y.Uritskaya</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+      </ResourceHeader>
+      <AccessURL>
+         <Name>National Space, Science, and Technology Center (NSSTC)</Name>
+         <URL>https://gammaray.nsstc.nasa.gov</URL>
+      </AccessURL>
+   </Repository>
+</Spase>
