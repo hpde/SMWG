@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema https://spase-group.org/data/schema/spase-2.7.2.xsd">
+  <Version>2.7.2</Version>
+  <Observatory>
+    <ResourceID>spase://SMWG/Observatory/IMAP</ResourceID>
+    <ResourceHeader>
+      <ResourceName>Interstellar Mapping and Acceleration Probe (IMAP)</ResourceName>
+      <AlternateName>IMAP</AlternateName>
+      <ReleaseDate>2026-10-27T18:23:45Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2026-10-27T18:23:45Z</ReleaseDate>
+          <Note>Initial creation of the IMAP Observatory resource description using SPASE 2.7.2., OK</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The NASA Interstellar Mapping and Acceleration Probe (IMAP) investigates particle acceleration in the heliosphere and the interaction of the solar wind with the local interstellar medium. The mission combines in situ measurements near the Sun–Earth first Lagrange point (L1) with remote observations of the heliospheric boundary to study the composition of interstellar material, the structure and evolution of the heliosphere, the influence of solar and interstellar magnetic fields on heliospheric structure, and the injection and acceleration of energetic particles. Its energetic neutral atom observations extend the global heliospheric imaging pioneered by the Interstellar Boundary Explorer (IBEX). IMAP launched on September 24, 2025, at 11:30 UTC from Launch Complex 39A at NASA's Kennedy Space Center aboard a SpaceX Falcon 9 rocket. The spacecraft operates in an orbit around the Sun–Earth L1 point, approximately 1.5 million km from Earth toward the Sun. Its primary science mission began on February 1, 2026. The payload comprises ten instruments: IMAP-Lo; IMAP-Hi; IMAP-Ultra; the Compact Dual Ion Composition Experiment (CoDICE); the High-energy Ion Telescope (HIT); the Magnetometer (MAG); the Solar Wind Electron (SWE) instrument; the Solar Wind and Pickup Ions (SWAPI) instrument; the Interstellar Dust Experiment (IDEX); and the Global Solar Wind Structure (GLOWS) instrument. Together, the instruments measure energetic neutral atoms, interstellar neutral atoms, solar wind electrons and ions, pickup ions, suprathermal and energetic particles, the interplanetary magnetic field, interstellar and interplanetary dust, and ultraviolet Lyman-alpha radiation produced by resonant scattering of solar photons by interstellar neutral hydrogen. These measurements connect local particle populations and acceleration processes with conditions in the distant heliosphere. IMAP also provides near-real-time solar wind and energetic particle observations through the IMAP Active Link for Real-Time (I-ALiRT) system to support space weather research and forecasting. Princeton University leads the mission under Principal Investigator David J. McComas. The Johns Hopkins University Applied Physics Laboratory built and operates the spacecraft.</Description>
+      <Contact>
+        <PersonID>spase://SMWG/Person/David.J.McComas</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Matina.Gkioulidou</PersonID>
+        <Role>ProjectScientist</Role>
+      </Contact>
+      <InformationURL>
+        <Name>IMAP Observatory at Princeton University</Name>
+        <URL>https://imap.princeton.edu/mission/imap-observatory</URL>
+        <Description>Official overview of the IMAP observatory, mission organization, and location near the Sun-Earth L1 point.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>NASA IMAP Mission</Name>
+        <URL>https://science.nasa.gov/mission/imap/</URL>
+        <Description>NASA mission overview, science objectives, and mission updates.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>IMAP Instrument Suite</Name>
+        <URL>https://imap.princeton.edu/mission/instruments</URL>
+        <Description>Official descriptions of the ten IMAP science instruments.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>IMAP Mission Overview Paper (2018)</Name>
+        <URL>https://doi.org/10.1007/s11214-018-0550-1</URL>
+        <Description>McComas, D. J., et al. (2018), Interstellar Mapping and Acceleration Probe (IMAP): A New NASA Mission, Space Science Reviews, 214, article 116. This paper describes the mission at the start of Phase A; actual launch and science-operation dates are documented by the NASA announcements linked in this record.</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <Location>
+      <ObservatoryRegion>Heliosphere.NearEarth</ObservatoryRegion>
+    </Location>
+    <LaunchDate>2025-09-24T11:30:00Z</LaunchDate>
+  </Observatory>
+</Spase>
