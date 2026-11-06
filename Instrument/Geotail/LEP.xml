@@ -1,12 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
-  <Version>2.0.1</Version>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.2.xsd">
+  <Version>2.7.2</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Geotail/LEP</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Instrument</ResourceType>
     <ResourceHeader>
       <ResourceName>Geotail Low Energy Particle Experiment</ResourceName>
       <AlternateName>Geotail LEP</AlternateName>
-      <ReleaseDate>2010-02-04T12:34:56.789</ReleaseDate>
+      <ReleaseDate>2026-11-03T16:45:55Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2010-02-04T12:34:56.789Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-11-03T16:45:55Z</ReleaseDate>
+          <Note>Fixed broken InformationURL. Added ResourceType and NamingAuthority. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. Updated to 2.7.2. Add 'Z' to ReleaseDate. ZCB</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>The low energy particle (LEP) instrument onboard Geotail is designed to make comprehensive observations of plasma and energetic electrons and ions with fine temporal resolution in the terrestrial magnetosphere (mainly magnetotail) and in the interplanetary medium. It consists of three units of sensors (LEP-EA, LEP-SW and LEP-MS) and common electronics (LEP-E).
             The Energy-per-charge Analyzers (EA) measure three-dimensional velocity distributions of electrons (with EA-e) and ions (with EA-i) simultaneously and separately, over the energy-per-charge of several eV/q to 43 keV/q. Emphasis in the EA design is laid on the large geometrical factor to measure tenuous plasma in the magnetotail with sufficient counting statistics in the high-time-resolution measurement.
             On the other hand, the Solar Wind ion analyzer (SW) has smaller geometrical factor, but fine angular and energy resolutions, to measrue energy-per-charge spectra of the solar wind ions. In both EA and SW sensors, the complete three-dimensional velocity distributions can only be obtained in a period of four spins, while the velocity moments up to the third order are calculated onboard every spin period (nominally, 3 sec).
@@ -25,9 +37,19 @@
         <Role>MetadataContact</Role>
       </Contact>
       <InformationURL>
-        <Name>The Geotail Low Energy Particle Experiment (LEP)</Name>
-        <URL>http://www.darts.isas.ac.jp/stp/geotail/jgg_lep.pdf</URL>
+        <Name>Observing Systems Capability Analysis and Review Tool (OSCAR) - LEP Instrument Page</Name>
+        <URL>https://space.oscar.wmo.int/instruments/view/lep</URL>
+        <Description>World Meteorological Organization Instrument Summary</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>Journal of Geomagnetism and Geoelectricity Article</Name>
+        <URL>https://doi.org/10.5636/jgg.46.669</URL>
         <Description>Reprint of Mukai, T., S. Machida, Y. Saito, M. Hirahara, T. Terasawa, N. Kaya, T. Obara, M. Ejiri, and A. Nishida, The low energy particle (LEP) experiment onboard the Geotail satellite, J. Geomag. Geoelectr., 46, 669-692, 1994.</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>NASA's Polar, Wind and Geotail (PWG) Instrument Descriptions Page</Name>
+        <URL>https://pwg.gsfc.nasa.gov/istp/geotail/geotail_inst.html</URL>
+        <Description>Archive site for Geotail Instrument Descriptions</Description>
       </InformationURL>
     </ResourceHeader>
     <InstrumentType>QuadrisphericalAnalyser</InstrumentType>

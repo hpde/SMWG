@@ -1,24 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.2.0</Version>
+  <Version>2.7.2</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/DynamicsExplorer1/EICS</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Instrument</ResourceType>
     <ResourceHeader>
       <ResourceName>DE 1 Energetic Ion Composition Spectrometer</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-11-03T16:45:55Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-11-03T16:45:55Z</ReleaseDate>
+          <Note>Added InformationURL. Added ResourceType and NamingAuthority. Updated to 2.7.2. ZCB</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>The energetic ion composition spectrometer (EICS) on the DE-A spacecraft is a high sensitivity, high resolution (M/Delta M greater than 10 FWHM at focus) instrument. It covers the entire mass range from less than 1 amu/e to greater than 150 amu/e in 64 mass channels, at each of 32 energy per charge steps covering the range from 0 to approximately 17 keV/e. The measurements obtained from this instrument will be used primarily to investigate the coupling between the magnetosphere and the ionosphere via the auroral acceleration region. Additional uses of the data will be to investigate the ring current loss processes, the coupling of the dayside cusp particles to the magnetosheath, and the tracing of artificially injected ions.</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Edward.G.Shelley</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1981-070A-06</URL>
         <Description>Information about the Energetic Ion Composition Spectrometer on DE 1</Description>
-</InformationURL>
-</ResourceHeader>
+      </InformationURL>
+      <InformationURL>
+        <Name>DE-1 Energetic Ion Composition Spectrometer, EICS, Final Report, GSFC</Name>
+        <URL>https://ntrs.nasa.gov/api/citations/19950009344/downloads/19950009344.pdf</URL>
+        <Description>Information on the Dynamics Explorer 1, DE-1, Energetic Ion Composition Spectrometer, EICS, at Goddard Space Flight Center</Description>
+      </InformationURL>
+    </ResourceHeader>
     <InstrumentType>Spectrometer</InstrumentType>
     <InvestigationName>Energetic Ion Composition Spectrometer on DE 1</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/DynamicsExplorer1</ObservatoryID>
-</Instrument>
+  </Instrument>
 </Spase>

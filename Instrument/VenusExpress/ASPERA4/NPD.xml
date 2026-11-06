@@ -1,14 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xmlns="http://www.spase-group.org/data/schema" 
-xsi:schemaLocation="http://www.spase-group.org/data/schema 
-http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-  <Version>2.2.2</Version>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.2.xsd">
+  <Version>2.7.2</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/VenusExpress/ASPERA4/NPD</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Instrument</ResourceType>
     <ResourceHeader>
       <ResourceName>Venus Express ASPERA-4 Neutral Particle Detector</ResourceName>
-      <ReleaseDate>2012-06-13T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2026-11-03T16:45:54Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2012-06-13T00:00:00Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-11-03T16:45:54Z</ReleaseDate>
+          <Note>Fixed broken InformationURL. Added ResourceType and NamingAuthority. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. Updated to 2.7.2. ZCB</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>The Neutral Particle Detector (NPD) of the ASPERA-4 package
 flown on Venus Express provides measurements of the ENA differential flux over 
 the energy range 100 eV - 10 keV resolving H and O with a coarse 5 deg x 30 deg 
@@ -26,8 +35,8 @@ is used to provide a rough determination of the ENA mass.</Description>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
-        <Name>PSA ASPERA web page</Name>
-        <URL>ftp://psa.esac.esa.int/pub/mirror/VENUS-EXPRESS/ASPERA4/VEX-V-SW-ASPERA-2-ELS-V1.0/CATALOG/INST.CAT</URL>
+        <Name>Max Planck Institute for Solar System Research ASPERA-4 Neutral Particle Detector Page</Name>
+        <URL>https://www2.mps.mpg.de/en/projekte/venus-express/aspera4/npd.html</URL>
       </InformationURL>
     </ResourceHeader>
     <InstrumentType>NeutralAtomImager</InstrumentType>

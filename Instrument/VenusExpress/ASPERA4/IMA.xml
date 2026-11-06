@@ -1,14 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xmlns="http://www.spase-group.org/data/schema" 
-xsi:schemaLocation="http://www.spase-group.org/data/schema 
-http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-  <Version>2.2.2</Version>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema  https://www.spase-group.org/data/schema/spase-2.7.2.xsd">
+  <Version>2.7.2</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/VenusExpress/ASPERA4/IMA</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Instrument</ResourceType>
     <ResourceHeader>
       <ResourceName>Venus Express ASPERA-4 Ion Mass Analyzer</ResourceName>
-      <ReleaseDate>2012-06-13T00:00:00Z</ReleaseDate>
+      <ReleaseDate>2026-11-03T16:45:54Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2012-06-13T00:00:00Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-11-03T16:45:54Z</ReleaseDate>
+          <Note>Fixed broken InformationURL. Added ResourceType and NamingAuthority. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. Updated to 2.7.2. ZCB</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>The Ion Mass Analyzer (IMA) of the ASPERA-4 package
 flown on Venus Express provides ion measurements in the energy range 
 0.01 - 36 keV/q for the main ion components H+, H2+, He+, O+, and for the 
@@ -22,8 +31,8 @@ the matrix azimuth x mass.</Description>
         <Role>PrincipalInvestigator</Role>
       </Contact>
       <InformationURL>
-        <Name>PSA ASPERA web page</Name>
-        <URL>ftp://psa.esac.esa.int/pub/mirror/VENUS-EXPRESS/ASPERA4/VEX-V-SW-ASPERA-2-ELS-V1.0/CATALOG/INST.CAT</URL>
+        <Name>Max Planck Institute for Solar System Research ASPERA-4 Page</Name>
+        <URL>https://www2.mps.mpg.de/en/projekte/venus-express/aspera4/</URL>
       </InformationURL>
     </ResourceHeader>
     <InstrumentType>RetardingPotentialAnalyser</InstrumentType>

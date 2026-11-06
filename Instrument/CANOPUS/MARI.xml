@@ -1,28 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.2.xsd">
+  <Version>2.7.2</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/CANOPUS/MARI</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Instrument</ResourceType>
     <ResourceHeader>
       <ResourceName>CANOPUS Magnetometer and Riometer Array (MARI)</ResourceName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
-      <Description>The CANOPUS Magnetometer and Riometer Array
-(MARI) was a ground based instrument array for remote sensing
-the high latitude ionosphere during the ISTP/GGS program. The
-CANOPUS program has been superseded by the CARISMA (Canadian
-Array for Realtime Investigations of Magnetic Activity).</Description>
+      <ReleaseDate>2026-11-03T16:45:56Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-11-03T16:45:56Z</ReleaseDate>
+          <Note>Fixed broken InformationURL. Added ResourceType and NamingAuthority. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. Updated to 2.7.2. ZCB</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>The CANOPUS Magnetometer and Riometer Array (MARI) was a ground based instrument array for remote sensing the high latitude ionosphere during the ISTP/GGS program. The CANOPUS program has been superseded by the CARISMA (Canadian Array for Realtime Investigations of Magnetic Activity). The CANOPUS riometer array (MARIA) is now Geospace Observatory Canada Widebeam Riometer Network (GO-RIO).</Description>
       <Contact>
         <PersonID>spase://SMWG/Person/Gordon.Rostoker</PersonID>
         <Role>GeneralContact</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>CANOPUS status, 1999</Name>
-        <URL>http://www.sp-agency.ca/www/maria.htm</URL>
-</InformationURL>
-</ResourceHeader>
+        <URL>https://web.archive.org/web/20050405115107/http://www.sp-agency.ca/www/maria.htm</URL>
+      </InformationURL>
+      <InformationURL>
+        <Name>UCalgary Space Remote Sensing Open Data Platform</Name>
+        <URL>https://data.phys.ucalgary.ca/sort_by_project/GO-Canada/GO-Rio/</URL>
+      </InformationURL>
+    </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InstrumentType>Riometer</InstrumentType>
     <InvestigationName>CANOPUS/MARI</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Ground/CANOPUS</ObservatoryID>
-</Instrument>
+  </Instrument>
 </Spase>

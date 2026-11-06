@@ -1,48 +1,60 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_0.xsd">
-  <Version>2.2.0</Version>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.2.xsd">
+  <Version>2.7.2</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/GOES/4/MFM</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Instrument</ResourceType>
     <ResourceHeader>
       <ResourceName>Biaxial Fluxgate Magnetometer</ResourceName>
       <AlternateName>Magnetic Field Monitor (MFM)</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-11-03T16:45:48Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-11-03T16:45:48Z</ReleaseDate>
+          <Note>Fixed broken InformationURL. Added ResourceType and NamingAuthority. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. Updated to 2.7.2. ZCB</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>The spinning twin-fluxgate magnetometer was designed to provide the orthogonal components of the magnetic field: Hp was parallel to the spin axis that was held nearly in the direction of Earth's axis, He was directed toward Earth center, and Hn pointed eastward. The magnetometer had a range of +/- 400 nT (without saturation) and a resolution of 0.1 nT over a range of +/- 50 nT. The sensitivity of the magnetometer was about 0.2 nT.</Description>
       <Acknowledgement>NASA; Dr. Harold Leinbach; Dr. Ernest Hildner; Dr. Joann Joselyn; Dr. Howard J. Singer</Acknowledgement>
       <Contact>
         <PersonID>spase://SMWG/Person/Harold.Leinbach</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Herbert.H.Sauer</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Joann.Joselyn</PersonID>
         <Role>TeamMember</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Howard.J.Singer</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Lee.Frost.Bargatze</PersonID>
         <Role>MetadataContact</Role>
-</Contact>
+      </Contact>
       <InformationURL>
         <Name>NSSDC Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1980-074A-04</URL>
         <Description>Information about the Magnetic Field Monitor on the GOES 4 mission.</Description>
-</InformationURL>
+      </InformationURL>
       <InformationURL>
         <Name>GOES Data Provider Read Me File</Name>
-        <URL>https://satdat.ngdc.noaa.gov/sem/goes/goes_docs/avg/readme.txt</URL>
+        <URL>https://www.ncei.noaa.gov/data/goes-space-environment-monitor/doc/avg/readme.txt</URL>
         <Description>Caveats and more information about data from this instrument.</Description>
-</InformationURL>
-</ResourceHeader>
+      </InformationURL>
+    </ResourceHeader>
     <InstrumentType>Magnetometer</InstrumentType>
     <InvestigationName>Magnetic Field Monitor on GOES 4</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/GOES/4</ObservatoryID>
     <Caveats>There is no magnetic field data from this instrument.</Caveats>
-</Instrument>
+  </Instrument>
 </Spase>

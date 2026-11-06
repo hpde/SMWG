@@ -1,12 +1,24 @@
-<?xml version="1.0"?>
-<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_1_0.xsd" lang="en">
-  <Version>2.1.0</Version>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.2.xsd" lang="en">
+  <Version>2.7.2</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/Geotail/PWI</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Instrument</ResourceType>
     <ResourceHeader>
       <ResourceName>Geotail Plasma Wave Investigation (PWI)</ResourceName>
       <AlternateName>Geotail PWI</AlternateName>
-      <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+      <ReleaseDate>2026-11-03T16:45:56Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-11-03T16:45:56Z</ReleaseDate>
+          <Note>Fixed broken InformationURL. Added ResourceType and NamingAuthority. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. Updated to 2.7.2. ZCB</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>
 Description taken from
 
@@ -26,7 +38,7 @@ In order to measure the weak electric and magnetic fields from plasma waves in t
 
 Two masts of 6 m in length are used for mounting the magnetic field sensors well away from the spacecraft in an attempt to the reduce the spacecraft noise. One of these masts, called `MST-F', mounts two sets of the flux-gate magnetometers which are used by the MGF team. They are dedicated primarily to the measurement of the DC magnetic field. Two sets of search coil and their pre-amplifiers which are used by both the PWI and MGF teams to measure wave magnetic fields or magnetic field fluctuations are mounted on the other mast called `MST-S'.
 
-The antenna elements of the WANT and PANT are radially deployed from the spacecraft and orthogonal to each other. Their axes, U and V, deviate by 15  degrees clockwise from the spacecraft X and Y coordinate directions, respectively. The assembly of PWI tri-axial search coils (which is hereafter called PWI-SC) and their pre-amplifiers is mounted on the top of the MST-S. The tri-axial search coils associated with the MGF (MGF-SC) are mounted on the same mast but 2 m inside of the PWI-SC. The PWI-SC is normally connected to the PWI measurement system. However, we can select the MGF-SC by a telemetry command if necessary. The direction of the MST-S (and MST--F) deviates by 45&#xB0; clockwise from the spacecraft Y (and -Y) axis. The three axes of the PWI search coils are defined in a cylindrical coordinate system as follows: \alpha is in the tangential direction, \beta measures in the radial direction, and \gamma is parallel to the spin Z axis of the spacecraft.
+The antenna elements of the WANT and PANT are radially deployed from the spacecraft and orthogonal to each other. Their axes, U and V, deviate by 15  degrees clockwise from the spacecraft X and Y coordinate directions, respectively. The assembly of PWI tri-axial search coils (which is hereafter called PWI-SC) and their pre-amplifiers is mounted on the top of the MST-S. The tri-axial search coils associated with the MGF (MGF-SC) are mounted on the same mast but 2 m inside of the PWI-SC. The PWI-SC is normally connected to the PWI measurement system. However, we can select the MGF-SC by a telemetry command if necessary. The direction of the MST-S (and MST--F) deviates by 45° clockwise from the spacecraft Y (and -Y) axis. The three axes of the PWI search coils are defined in a cylindrical coordinate system as follows: \alpha is in the tangential direction, \beta measures in the radial direction, and \gamma is parallel to the spin Z axis of the spacecraft.
 
 Sweep Frequency Analyzer (SFA)
 
@@ -91,107 +103,107 @@ The WFC system can measure the wave amplitude with a dynamic range of 66 dB. The
       <Contact>
         <PersonID>spase://SMWG/Person/Hiroshi.Matsumoto</PersonID>
         <Role>PrincipalInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Hirotsugu.Kojima</PersonID>
         <Role>CoInvestigator</Role>
         <Role>GeneralContact</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Guan.Le</PersonID>
         <Role>ProjectScientist</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Stanley.D.Shawhan</PersonID>
         <Role>CoInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Minoru.Tsutsui</PersonID>
         <Role>CoInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Joseph.K.Alexander.Jr</PersonID>
         <Role>CoInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.G.Stone</PersonID>
         <Role>CoInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Edward.J.Smith</PersonID>
         <Role>CoInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Robert.A.Helliwell</PersonID>
         <Role>CoInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Michael.C.Kelley</PersonID>
         <Role>CoInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Iwane.Kimura</PersonID>
         <Role>CoInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Paul.J.Kellogg</PersonID>
         <Role>CoInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Toshimi.Okada</PersonID>
         <Role>CoInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Roger.R.Anderson</PersonID>
         <Role>CoInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Paul.M.Kintner</PersonID>
         <Role>CoInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Paul.Rodriguez</PersonID>
         <Role>CoInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Isamu.Nagano</PersonID>
         <Role>CoInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/William.W.L.Taylor</PersonID>
         <Role>CoInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/William.S.Kurth</PersonID>
         <Role>CoInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Kozo.Hashimoto</PersonID>
         <Role>CoInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Yoshiharu.Omura</PersonID>
         <Role>CoInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Hirotsugu.Kojima</PersonID>
         <Role>CoInvestigator</Role>
-</Contact>
+      </Contact>
       <Contact>
         <PersonID>spase://SMWG/Person/Frederick.L.Scarf</PersonID>
         <Role>FormerPI</Role>
-</Contact>
+      </Contact>
       <InformationURL>
-        <Name>GEOTAIL Plasma Wave Instrument</Name>
-        <URL>https://www.darts.isas.jaxa.jp/stp/geotail/instruments.html</URL>
+        <Name>GEOTAIL Plasma Wave Instrument Article</Name>
+        <URL>https://doi.org/10.1029/GM105p0259</URL>
         <Description>Information about the Plasma Wave Investigation (PWI) experiment on the Geotail mission.</Description>
-</InformationURL>
+      </InformationURL>
       <InformationURL>
         <Name>NSSDC's Master Catalog</Name>
         <URL>https://nssdc.gsfc.nasa.gov/nmc/experiment/display.action?id=1992-044A-02</URL>
         <Description>Information about the Plasma Wave Investigation (PWI) experiment on the Geotail mission.</Description>
-</InformationURL>
-</ResourceHeader>
+      </InformationURL>
+    </ResourceHeader>
     <InstrumentType>WaveformReceiver</InstrumentType>
     <InstrumentType>Antenna</InstrumentType>
     <InstrumentType>SearchCoil</InstrumentType>
@@ -199,5 +211,5 @@ The WFC system can measure the wave amplitude with a dynamic range of 66 dB. The
     <InstrumentType>SpectralPowerReceiver</InstrumentType>
     <InvestigationName>Plasma Wave Investigation (PWI) on Geotail</InvestigationName>
     <ObservatoryID>spase://SMWG/Observatory/Geotail</ObservatoryID>
-</Instrument>
+  </Instrument>
 </Spase>

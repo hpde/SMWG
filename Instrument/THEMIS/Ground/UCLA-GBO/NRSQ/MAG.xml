@@ -1,12 +1,24 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.0</Version>
+  <Version>2.7.2</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/THEMIS/Ground/UCLA-GBO/NRSQ/MAG</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Instrument</ResourceType>
     <ResourceHeader>
       <ResourceName>THEMIS GBO Narsarsuaq Fluxgate Magnetometer</ResourceName>
       <AlternateName>NRSQ Gmag</AlternateName>
-      <ReleaseDate>2021-07-20T13:41:27Z</ReleaseDate>
+      <ReleaseDate>2026-11-03T16:45:46Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2021-07-20T13:41:27Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-11-03T16:45:46Z</ReleaseDate>
+          <Note>Fixed broken InformationURL. Added ResourceType and NamingAuthority. Updated to 2.7.2. ZCB</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>The ground  magnetometer at the Narsarsuaq, DK, Greenland GBO station.  This magnetometer was produced at UCLA.  It records 3-axis magnetic field measurements at 2Hz frequency.</Description>
       <Acknowledgement>We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically:S. Mende and C. T. Russell for use of the GMAG data</Acknowledgement>
       <Contact>
@@ -22,9 +34,9 @@
         <Role>CoInvestigator</Role>
       </Contact>
       <InformationURL>
-        <Name>THEMIS Ground Magnetometer Data Center at UCLA</Name>
-        <URL>http://spc.igpp.ucla.edu/uclamag/themis_center/</URL>
-        <Description>Web server for displaying and downloading THEMIS ground magnetometer data</Description>
+        <Name>Department of Space Research and Space Technology Magnetic Ground Stations Page</Name>
+        <URL>https://www.space.dtu.dk/english/research/scientific_data_and_models/magnetic-ground-stations</URL>
+        <Description>List and map of THEMIS ground magnetometers</Description>
       </InformationURL>
       <InformationURL>
         <Name>THEMIS Web site ground magnetometer page.</Name>

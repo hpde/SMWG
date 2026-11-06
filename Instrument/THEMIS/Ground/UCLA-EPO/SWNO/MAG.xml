@@ -1,12 +1,24 @@
-<?xml version="1.0"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <Spase xmlns="http://www.spase-group.org/data/schema">
-  <Version>2.0.0</Version>
+  <Version>2.7.2</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/THEMIS/Ground/UCLA-EPO/SWNO/MAG</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Instrument</ResourceType>
     <ResourceHeader>
       <ResourceName>THEMIS Ground EPO Shawano Fluxgate Magnetometer</ResourceName>
       <AlternateName>SWNO Gmag</AlternateName>
-      <ReleaseDate>2021-07-20T13:41:27Z</ReleaseDate>
+      <ReleaseDate>2026-11-03T16:45:41Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2021-07-20T13:41:27Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-11-03T16:45:41Z</ReleaseDate>
+          <Note>Fixed broken InformationURL. Added ResourceType and NamingAuthority. Updated to 2.7.2. ZCB</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>The magnetometer at the THEMIS/Shawano station.  This is an Educational Public Outreach magnetometer operated by the NASA THEMIS mission.  EPO magnetometers should be used carefully, as they may be subject to environmental noise. This magnetometer was produced at UCLA.  It records 3-axis magnetic field measurements at 2Hz frequency.</Description>
       <Acknowledgement>We acknowledge NASA contract NAS5-02099 and V. Angelopoulos for use of data from the THEMIS Mission. Specifically:S. Mende and C. T. Russell for use of the GMAG data</Acknowledgement>
       <Contact>
@@ -22,9 +34,9 @@
         <Role>CoInvestigator</Role>
       </Contact>
       <InformationURL>
-        <Name>THEMIS Ground Magnetometer Data Center at UCLA</Name>
-        <URL>http://spc.igpp.ucla.edu/uclamag/themis_center/</URL>
-        <Description>Web server for displaying and downloading THEMIS ground magnetometer data</Description>
+        <Name>THEMIS Ground-Based Magnetometers</Name>
+        <URL>https://doi.org/10.1007/s11214-008-9337-0</URL>
+        <Description>C. T. Russell et. al. Description of THEMIS magnetometers.</Description>
       </InformationURL>
       <InformationURL>
         <Name>THEMIS Web site ground magnetometer page.</Name>

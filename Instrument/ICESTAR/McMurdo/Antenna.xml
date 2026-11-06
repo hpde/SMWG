@@ -1,11 +1,23 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_0_1.xsd">
-  <Version>2.0.1</Version>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.2.xsd">
+  <Version>2.7.2</Version>
   <Instrument>
     <ResourceID>spase://SMWG/Instrument/ICESTAR/McMurdo/Antenna</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Instrument</ResourceType>
     <ResourceHeader>
       <ResourceName>McMurdo Antenna Instrument</ResourceName>
-      <ReleaseDate>2010-01-25T12:34:56.789</ReleaseDate>
+      <ReleaseDate>2026-11-03T16:45:50Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2010-01-25T12:34:56.789Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-11-03T16:45:50Z</ReleaseDate>
+          <Note>Fixed broken InformationURL. Added ResourceType and NamingAuthority. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. Updated to 2.7.2. Add 'Z' to ReleaseDate. ZCB</Note>
+        </RevisionEvent>
+      </RevisionHistory>
       <Description>The Antenna instrument at the McMurdo ground station</Description>
       <Acknowledgement>Please acknowledge Umran S. Inan, STAR Laboratories (Durand Building, Stanford University, Stanford, CA 94305) for use of data from the McMurdo Antenna instrument.</Acknowledgement>
       <Contact>
@@ -17,9 +29,9 @@
         <Role>MetadataContact</Role>
       </Contact>
       <InformationURL>
-        <Name>The McMurdo Antenna web site</Name>
-        <URL>http://www.polar.umd.edu</URL>
-        <Description>The McMurdo Antenna web site</Description>
+        <Name>JGR Space Physics Article</Name>
+        <URL>https://doi.org/10.1002/2014JA020977</URL>
+        <Description>Further evidence for a connection between auroral kilometric radiation and ground-level signals measured in Antarctica.</Description>
       </InformationURL>
       <Association>
         <AssociationID>spase://SMWG/Observatory/ICESTAR/McMurdo</AssociationID>

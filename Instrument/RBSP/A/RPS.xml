@@ -1,13 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema"
-    xsi:schemaLocation="http://www.spase-group.org/data/schema http://www.spase-group.org/data/schema/spase-2_2_2.xsd">
-    <Version>2.2.2</Version>
-    <Instrument>
-        <ResourceID>spase://SMWG/Instrument/RBSP/A/RPS</ResourceID>
-        <ResourceHeader>
-            <ResourceName>Relativistic Proton Spectrometer (RPS)</ResourceName>
-            <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
-            <Description>
+<?xml version='1.0' encoding='UTF-8'?>
+<Spase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spase-group.org/data/schema" xsi:schemaLocation="https://www.spase-group.org/data/schema https://www.spase-group.org/data/schema/spase-2.7.2.xsd">
+  <Version>2.7.2</Version>
+  <Instrument>
+    <ResourceID>spase://SMWG/Instrument/RBSP/A/RPS</ResourceID>
+    <NamingAuthority>SMWG</NamingAuthority>
+    <ResourceType>Instrument</ResourceType>
+    <ResourceHeader>
+      <ResourceName>Relativistic Proton Spectrometer (RPS)</ResourceName>
+      <ReleaseDate>2026-11-03T16:45:39Z</ReleaseDate>
+      <RevisionHistory>
+        <RevisionEvent>
+          <ReleaseDate>2019-05-05T12:34:56Z</ReleaseDate>
+          <Note>Only known prior ReleaseDate of the metadata</Note>
+        </RevisionEvent>
+        <RevisionEvent>
+          <ReleaseDate>2026-11-03T16:45:39Z</ReleaseDate>
+          <Note>Fixed broken InformationURL. Added ResourceType and NamingAuthority. Changed http to https in top-level schemaLocation attribute. Fixed version number separator in top-level schemaLocation attribute. Updated to 2.7.2. ZCB</Note>
+        </RevisionEvent>
+      </RevisionHistory>
+      <Description>
     "The RPS will measure inner Van Allen belt protons with energies from 50 MeV to 2 GeV. Presently, the intensity of trapped protons with energies
 beyond about 150 MeV is not well known and thought to be underestimated in existing specification models. Such protons are known to pose a number of hazards to astronauts and spacecraft,
 including total ionizing dose, displacement damage, single event effects, and nuclear activation. This instrument will address a priority highly ranked by the scientific and technical community and will extend
@@ -16,34 +27,32 @@ Energetic protons responsible for total dose in MEO for shielding thickness over
 Stacked Si detectors used for 50 MeV to ~400 MeV, incident angle constrained by 8-fold coincidence; Chenrenkov detector used for &gt; 400 MeV; Absolute flux accuracy: dJ/J ~10%; Energy resolution: dE/E ~30% @ 50 MeV, to 100% @ 2 GeV;
 Angular resolution: 30 degrees instantaneous, 5 degrees deconvolved" [http://rbsp.jhuapl.edu/spacecraft/instruments/instruments_rps.php].  The Aerospace Corporation designed and built the RPS instrument with funding from The National Reconnaissance Office. The RPS Principal Investigator is Dr. Joseph Mazur, and the NRO program principal investigator is Dr. David Byers.
 </Description>
-            <Contact>
-                <PersonID>spase://SMWG/Person/Joseph.Mazur</PersonID>
-                <Role>PrincipalInvestigator</Role>
-</Contact>
-            <Contact>
-                <PersonID>spase://SMWG/Person/David.Byers</PersonID>
-                <Role>PrincipalInvestigator</Role>
-</Contact>
-            <InformationURL>
-                <Name>RPS Web Page at Aerospace</Name>
-                <URL>https://rbsp.aerospace.org</URL>
-                <Description>RPS Web Page</Description>
-</InformationURL>
-            <InformationURL>
-                <Name>RPS Web Page at ViRBO</Name>
-                <URL>http://virbo.org/RBSP/RPS</URL>
-                <Description>RPS Web Page</Description>
-</InformationURL>
-            <InformationURL>
-                <Name>RPS Web Page at JHU/APL</Name>
-                <URL>http://vanallenprobes.jhuapl.edu/Spacecraft/index.php#RPS</URL>
-                <Description>RPS Web Page</Description>
-</InformationURL>
-</ResourceHeader>
-        <InstrumentType>EnergeticParticleInstrument</InstrumentType>
-        <!-- InstrumentType>SSD</InstrumentType-->
-        <!-- InstrumentType>Scintillation Detector</InstrumentType-->
-        <InvestigationName>Radiation Belt Storm Probe RPS instrument</InvestigationName>
-        <ObservatoryID>spase://SMWG/Observatory/RBSP/A</ObservatoryID>
-</Instrument>
+      <Contact>
+        <PersonID>spase://SMWG/Person/Joseph.Mazur</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <Contact>
+        <PersonID>spase://SMWG/Person/David.Byers</PersonID>
+        <Role>PrincipalInvestigator</Role>
+      </Contact>
+      <InformationURL>
+        <Name>Space Science Reviews Article</Name>
+        <URL>https://doi.org/10.1007/s11214-012-9926-9</URL>
+        <Description>The Relativistic Proton Spectrometer (RPS) for the Radiation Belt Storm Probes Mission</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>RPS Web Page at ViRBO</Name>
+        <URL>http://virbo.org/RBSP/RPS</URL>
+        <Description>RPS Web Page</Description>
+      </InformationURL>
+      <InformationURL>
+        <Name>RPS Web Page at JHU/APL</Name>
+        <URL>http://vanallenprobes.jhuapl.edu/Spacecraft/index.php#RPS</URL>
+        <Description>RPS Web Page</Description>
+      </InformationURL>
+    </ResourceHeader>
+    <InstrumentType>EnergeticParticleInstrument</InstrumentType>
+    <InvestigationName>Radiation Belt Storm Probe RPS instrument</InvestigationName>
+    <ObservatoryID>spase://SMWG/Observatory/RBSP/A</ObservatoryID>
+  </Instrument>
 </Spase>
