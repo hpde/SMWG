@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2.7.2.xsd">
+   <Version>2.7.2</Version>
+   <Repository>
+      <ResourceID>spase://SMWG/Repository/ASI/SSDC</ResourceID>
+      <ResourceHeader>
+         <ResourceName>ASI (Italian Space Agency)  Space Science Data Center (SSDC) </ResourceName>
+         <ReleaseDate>2026-10-20T15:45:18</ReleaseDate>
+         <Description>The ASI Space Science Data Center (SSDC) is a multi-mission science operations, data processing, and open-access archiving infrastructure managed by the Italian Space Agency (ASI). Located at ASI headquarters in Rome, Italy, the facility manages and distributes scientific data from space missions following FAIR (Findable, Accessible, Interoperable, and Reusable) open-science principles.</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/Olga.Y.Uritskaya</PersonID>
+            <Role>MetadataContact</Role>
+         </Contact>
+      </ResourceHeader>
+      <AccessURL>
+         <URL>https://www.ssdc.asi.it/</URL>
+      </AccessURL>
+   </Repository>
+</Spase>
