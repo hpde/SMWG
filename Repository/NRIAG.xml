@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Spase xmlns="http://www.spase-group.org/data/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.spase-group.org/data/schema  http://www.spase-group.org/data/schema/spase-2_8_0.xsd">
+   <Version>2.8.0</Version>
+   <Repository>
+      <ResourceID>spase://SMWG/Repository/NRIAG</ResourceID>
+      <ResourceHeader>
+         <ResourceName>National Research Institute of Astronomy and Geophysics (NRIAG), Research institute in Egypt</ResourceName>
+         <ReleaseDate>2026-11-25T11:53:18</ReleaseDate>
+         <Description>The NRIAG Research Database is a free, open-access repository cataloging research publications by researchers at Egypt&#039;s National Research Institute of Astronomy and Geophysics (NRIAG), featuring over 1,900 indexed works and an AI research assistant that does not require sign-in</Description>
+         <Contact>
+            <PersonID>spase://SMWG/Person/UNKNOWN</PersonID>
+            <Role>TechnicalContact</Role>
+         </Contact>
+      </ResourceHeader>
+      <AccessURL>
+         <URL>https://www.nriag.sci.eg/</URL>
+      </AccessURL>
+   </Repository>
+</Spase>
